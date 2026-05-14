@@ -1,0 +1,395 @@
+// ============================================================================
+// User
+// ============================================================================
+
+export interface User {
+  id: number;
+  email: string;
+  name: string | null;
+  picture_url: string | null;
+  google_sub: string | null;
+  is_admin: boolean;
+  created_at: string;
+  last_login_at: string | null;
+}
+
+// ============================================================================
+// Flashcard module
+// ============================================================================
+
+export type FlashcardStatus = 'new' | 'learning' | 'review' | 'mastered';
+
+export interface FlashcardDeck {
+  id: number;
+  user_id: number;
+  name: string;
+  description: string | null;
+  color: string;
+  position: number;
+  is_default: boolean;
+  created_at: string;
+}
+
+export interface FlashcardDeckWithCounts extends FlashcardDeck {
+  total: number;
+  new_count: number;
+  learning_count: number;
+  review_count: number;
+  mastered_count: number;
+  due_count: number;
+}
+
+export interface FlashcardExample {
+  en: string;
+  vi?: string;
+}
+
+export interface FlashcardImageAttribution {
+  source: 'pexels' | 'unsplash' | 'other';
+  author: string;
+  author_url: string;
+  source_url: string;
+}
+
+export interface FlashcardCollocation {
+  phrase: string;
+  word: string;
+  position: 'before' | 'after';
+}
+
+export interface Flashcard {
+  id: number;
+  user_id: number;
+  deck_id: number;
+  english: string;
+  vietnamese: string;
+  ipa: string | null;
+  part_of_speech: string | null;
+  audio_url: string | null;
+  examples: FlashcardExample[];
+  image_url: string | null;
+  image_attribution: FlashcardImageAttribution | null;
+  notes: string | null;
+  collocations: FlashcardCollocation[];
+  status: FlashcardStatus;
+  ease_factor: number;
+  interval_days: number;
+  repetitions: number;
+  next_review_at: string | null;
+  last_reviewed_at: string | null;
+  created_at: string;
+  updated_at: string;
+  // M4: Word Bank — when a card is saved from a passage reader, these point
+  // back to the source. Both nullable (NULL for cards added manually or
+  // imported before M4). source_passage_id has ON DELETE SET NULL so cards
+  // survive their source passage being deleted.
+  source_passage_id: number | null;
+  source_context: string | null;
+}
+
+export interface FlashcardReview {
+  id: number;
+  flashcard_id: number;
+  user_id: number;
+  quality: 0 | 2 | 4 | 5;
+  prev_interval: number;
+  new_interval: number;
+  reviewed_at: string;
+}
+
+export type TestMode = 'speed' | 'cloze' | 'pronunciation' | 'sentence';
+
+export interface FlashcardTestAttempt {
+  id: number;
+  flashcard_id: number;
+  user_id: number;
+  mode: TestMode;
+  passed: boolean;
+  time_ms: number | null;
+  metadata: Record<string, unknown> | null;
+  attempted_at: string;
+}
+
+// Speed quiz
+export type SpeedQuizMode = 'en_to_vi' | 'vi_to_en' | 'spelling' | 'mix';
+// Per-question concrete mode. In 'mix' sessions each question is randomly
+// assigned one of these, so the UI can adapt prompt size / IPA / audio per card.
+export type SpeedQuizQuestionMode = Exclude<SpeedQuizMode, 'mix'>;
+
+export interface SpeedQuizQuestion {
+  card_id: number;
+  question_mode: SpeedQuizQuestionMode;
+  prompt: string;
+  prompt_audio: string | null;
+  prompt_ipa: string | null;
+  show_audio: boolean;
+  show_ipa: boolean;
+  options: string[];
+  correct_index: number;
+}
+
+export interface SpeedQuizResponse {
+  questions: SpeedQuizQuestion[];
+  mode: SpeedQuizMode;
+}
+
+// Cloze
+export type ClozeMode = 'timed' | 'untimed';
+export type ClozeOutcome = 'correct' | 'wrong_form' | 'wrong' | 'empty';
+
+export interface PracticeSentence {
+  id: number;
+  flashcard_id: number;
+  sentence: string;
+  vi_translation: string | null;
+  times_shown: number;
+  last_shown_at: string | null;
+  created_at: string;
+}
+
+export interface ClozeChallenge {
+  card_id: number;
+  english: string;
+  vietnamese: string;
+  ipa: string | null;
+  audio_url: string | null;
+  blanked_sentence: string;
+  full_sentence: string;
+  vi_sentence: string | null;
+  sentence_id: number | null;
+}
+
+export interface ClozeResult {
+  outcome: ClozeOutcome;
+  user_input: string;
+  target: string;
+  hint?: string;
+}
+
+// Settings
+export interface FlashcardSettings {
+  daily_goal_new: number;
+  daily_goal_review: number;
+  reminder_time: string;
+  reminder_enabled: boolean;
+  mastered_hide_from_review: boolean;
+  daily_new_limit: number;
+  // ----- M3 keys -----
+  daily_new_word_target: number;
+  f1_max_attempts: number;            // 0 = unlimited
+  f2_timer_seconds: number;
+  f3_max_words_per_composition: number;
+  // ----- M4 keys -----
+  user_cefr_level: CefrLevel;
+  passage_tts_rate: number;           // 0.5–1.5
+  passage_pre_fetch: boolean;
+}
+
+// ===== M3: practice modes =====
+
+// ----- F1 pronunciation -----
+export interface PronunciationAttemptMeta {
+  attempts: number;            // how many tries used (including the successful or final one)
+  transcripts: string[];       // up to 3 ASR alternatives from the final attempt
+  passed: boolean;
+  helped: boolean;             // whether user opened the help panel during this card
+}
+
+// ----- F2 sentence (used in M3b) -----
+export interface SentenceEvaluation {
+  used_correctly: boolean;
+  grammar_ok: boolean;
+  semantic_ok: boolean;
+  feedback: string;            // 1-2 sentences in Vietnamese
+}
+
+export interface SentenceAttemptMeta {
+  user_sentence: string;
+  evaluation: SentenceEvaluation;
+  timed_out: boolean;
+  time_ms: number;
+}
+
+// ----- F3 composition (used in M3c) -----
+export type CompositionSource = 'today' | 'deck';
+
+export interface CompositionAiFeedback {
+  coherence_score: number;     // 0-10
+  word_usage: Record<string, boolean>;
+  issues: Array<{ excerpt: string; problem: string; suggestion: string }>;
+  suggested_additions: Array<{ word: string; hint: string }>;
+  passed: boolean;
+}
+
+export interface Composition {
+  id: number;
+  user_id: number;
+  source: CompositionSource;
+  source_deck_id: number | null;
+  pool_word_ids: number[];
+  content: string;
+  ai_feedback: CompositionAiFeedback;
+  word_usage: Record<string, boolean>;
+  coherence_score: number | null;
+  passed: boolean;
+  created_at: string;
+}
+
+export interface CompositionRow {
+  id: number;
+  user_id: number;
+  source: CompositionSource;
+  source_deck_id: number | null;
+  pool_word_ids_json: string;
+  content: string;
+  ai_feedback_json: string;
+  word_usage_json: string;
+  coherence_score: number | null;
+  passed: 0 | 1;
+  created_at: string;
+}
+
+// ----- M3 settings keys + defaults -----
+export const M3_SETTINGS = {
+  daily_new_word_target: { default: 30, min: 5, max: 100, step: 5 },
+  f1_max_attempts: { default: 3, min: 1, max: 10, step: 1 }, // 0 = unlimited (handled separately)
+  f2_timer_seconds: { default: 60, min: 15, max: 300, step: 15 },
+  f3_max_words_per_composition: { default: 30, min: 5, max: 100, step: 5 },
+} as const;
+
+export type M3SettingKey = keyof typeof M3_SETTINGS;
+
+// ============================================================================
+// M4: passage-based learning
+// ============================================================================
+
+export type CefrLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+export type LevelVerdict = 'too_easy' | 'just_right' | 'too_hard';
+export type PassageStepKind =
+  | 'translate'
+  | 'paraphrase'
+  | 'comprehension'
+  | 'dictation'
+  | 'shadowing';
+
+export interface Passage {
+  id: number;
+  user_id: number;
+  title: string;
+  content: string;
+  source_label: string | null;
+  source_url: string | null;
+  char_count: number;
+  word_count: number;
+  level_estimate: CefrLevel | null;
+  level_verdict: LevelVerdict | null;
+  level_suggestion: string | null;
+  // M4c: cached AI outputs so Step 7/8 don't have to re-derive them. Both
+  // nullable; populated lazily by the pre-fetch / on-demand routes.
+  translate_reference: string | null;
+  paraphrase_tips: string[] | null;   // hydrated from paraphrase_tips_json
+  last_step_viewed: number;
+  completed_at: string | null;
+  created_at: string;
+}
+
+export interface PassageRow {
+  id: number;
+  user_id: number;
+  title: string;
+  content: string;
+  source_label: string | null;
+  source_url: string | null;
+  char_count: number;
+  word_count: number;
+  level_estimate: string | null;  // narrowed to CefrLevel by hydratePassage
+  level_verdict: string | null;   // narrowed to LevelVerdict by hydratePassage
+  level_suggestion: string | null;
+  translate_reference: string | null;
+  paraphrase_tips_json: string | null;  // JSON-stringified string[]
+  last_step_viewed: number;
+  completed_at: string | null;
+  created_at: string;
+}
+
+export interface PassageAttempt {
+  id: number;
+  user_id: number;
+  passage_id: number;
+  step_kind: PassageStepKind;
+  user_input: string;
+  ai_feedback: unknown;            // shape discriminated by step_kind at consumer site
+  score: number | null;
+  created_at: string;
+}
+
+export interface PassageAttemptRow {
+  id: number;
+  user_id: number;
+  passage_id: number;
+  step_kind: PassageStepKind;
+  user_input: string;
+  ai_feedback_json: string;
+  score: number | null;
+  created_at: string;
+}
+
+// ----- M4 AI feedback shapes (consumed by M4b / M4c, declared here so the
+// types are stable from day one and the placeholder fallbacks compile) -----
+
+export interface DifficultyAnalysis {
+  level: CefrLevel;
+  verdict: LevelVerdict;
+  suggestion: string;              // 1-2 sentences in Vietnamese
+}
+
+export interface WordDefinitionInContext {
+  english: string;                 // canonical lemma — e.g. "running" → "run"
+  vietnamese: string;
+  part_of_speech: string;
+  example_sentence: string;
+  ipa: string | null;
+}
+
+export interface TranslationFeedback {
+  accuracy_score: number;          // 0-100
+  naturalness_score: number;       // 0-100
+  overall_score: number;           // 0-100 (60% accuracy + 40% naturalness)
+  missed_meaning: string[];
+  mistranslations: Array<{ excerpt: string; problem: string; suggestion: string }>;
+  suggested_translation: string;
+}
+
+export interface ParaphraseFeedback {
+  meaning_preserved: number;
+  grammar: number;
+  vocabulary: number;
+  naturalness: number;
+  overall_score: number;
+  issues: Array<{ excerpt: string; problem: string; suggestion: string }>;
+  better_phrasings: Array<{ original: string; suggested: string }>;
+}
+
+// ----- M4 settings keys + defaults / ranges -----
+export const M4_SETTINGS = {
+  user_cefr_level: {
+    default: 'B1' as CefrLevel,
+    values: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const,
+  },
+  passage_tts_rate: { default: 1.0, min: 0.5, max: 1.5, step: 0.1 },
+  passage_pre_fetch: { default: true },
+} as const;
+
+// Stats
+export interface FlashcardStats {
+  total_cards: number;
+  new_count: number;
+  learning_count: number;
+  review_count: number;
+  mastered_count: number;
+  due_today: number;
+  reviews_today: number;
+  streak_days: number;
+  cards_per_day_last_30: Array<{ date: string; new: number; review: number }>;
+  retention_rate_7d: number;
+}

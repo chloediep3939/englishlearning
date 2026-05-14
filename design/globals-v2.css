@@ -1,0 +1,254 @@
+/* ============================================================================
+ * Học AV · V2 design tokens
+ * Paste this block into your globals.css (under :root) or merge with existing.
+ * Naming: kebab-case, prefixed --v- to avoid colliding with portfolio tokens.
+ * ============================================================================ */
+
+:root {
+  /* ── Surfaces & ink ─────────────────────────────────────────────────────── */
+  --v-bg:            #ffffff;        /* page background */
+  --v-surface:       #ffffff;        /* card / panel surface */
+  --v-panel:         #fafaf6;        /* sidebar / sunken panel */
+  --v-ink:           #1a2410;        /* primary text */
+  --v-ink-soft:      #5a5247;        /* secondary text */
+  --v-muted:         #9e978c;        /* captions, placeholder, hints */
+
+  /* ── Borders (soft warm-tinted, not pure dark) ──────────────────────────── */
+  --v-border:        rgba(40, 30, 15, 0.13);   /* default 1px hairline */
+  --v-border-med:    rgba(40, 30, 15, 0.18);   /* stronger separator */
+  --v-border-strong: rgba(40, 30, 15, 0.25);   /* colored-card borders */
+
+  /* ── Brand · primary + accent ───────────────────────────────────────────── */
+  --v-primary:       #7ac143;        /* ngoc-green · main CTA, success */
+  --v-primary-deep:  #6cb83a;        /* darker green for gradients/hover */
+  --v-primary-soft:  #e8f5d3;        /* primary tinted bg */
+  --v-accent:        #ff7849;        /* coral · secondary CTA, highlight */
+  --v-accent-soft:   #ffe4d4;        /* accent tinted bg */
+
+  /* ── Functional / category accents (multi-color palette) ────────────────── */
+  --v-red:           #ff5757;        /* danger, streak, "lại" */
+  --v-orange:        #ff9a3c;        /* warning, "khó", learning */
+  --v-yellow:        #ffc94a;        /* flashcard / xp / sparkle */
+  --v-green:         #7ac143;        /* alias of primary · "tốt", mastered */
+  --v-teal:          #6ec1a8;        /* stats, "dễ" alt */
+  --v-blue:          #5dc1f0;        /* gem · review, new */
+  --v-purple:        #c179d6;        /* dictionary, theme */
+  --v-pink:          #f06292;        /* decks */
+
+  /* Stage colors (for SRS rating buttons / word stage indicators) */
+  --v-stage-new:      var(--v-blue);
+  --v-stage-learning: var(--v-orange);
+  --v-stage-review:   var(--v-primary);
+  --v-stage-mastered: var(--v-purple);
+
+  /* ── Shadows · "chunky-but-soft" (no big offsets / dark colors) ─────────── */
+  --v-shadow-sm:  0 2px 0 rgba(40,30,15,0.05),   0 1px 3px  rgba(40,30,15,0.04);
+  --v-shadow-md:  0 3px 0 rgba(40,30,15,0.07),   0 2px 6px  rgba(40,30,15,0.04);
+  --v-shadow-lg:  0 4px 0 rgba(40,30,15,0.08),   0 4px 12px rgba(40,30,15,0.04);
+
+  /* Colored "press" shadow — for filled buttons. Use with --v-primary tint etc. */
+  --v-press:      0 4px 0 rgba(60,20,5,0.15);
+
+  /* ── Radius scale ───────────────────────────────────────────────────────── */
+  --v-radius-xs:  6px;
+  --v-radius-sm:  10px;
+  --v-radius-md:  14px;
+  --v-radius-lg:  18px;
+  --v-radius-xl:  22px;
+  --v-radius-pill: 999px;
+
+  /* ── Spacing scale (4-pt grid) ──────────────────────────────────────────── */
+  --v-space-1:   4px;
+  --v-space-2:   8px;
+  --v-space-3:  12px;
+  --v-space-4:  16px;
+  --v-space-5:  20px;
+  --v-space-6:  24px;
+  --v-space-7:  32px;
+  --v-space-8:  40px;
+  --v-space-9:  56px;
+
+  /* ── Typography ─────────────────────────────────────────────────────────── */
+  /* Load Nunito (display + body) + JetBrains Mono (IPA) via your existing
+     Google Fonts link; the portfolio's own Lora is fine for Chloe Diep wordmark. */
+  --v-font-head: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --v-font-body: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --v-font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --v-text-2xs:  10px;   /* eyebrow caps, badges */
+  --v-text-xs:   11px;   /* meta */
+  --v-text-sm:   12px;   /* caption, kbd */
+  --v-text-md:   13px;   /* body small */
+  --v-text-base: 14px;   /* body */
+  --v-text-lg:   16px;   /* card titles, example */
+  --v-text-xl:   18px;   /* meaning, section heads */
+  --v-text-2xl:  22px;   /* card h3 / IPA big */
+  --v-text-3xl:  26px;   /* page h1 */
+  --v-text-4xl:  32px;   /* hero h2 */
+  --v-text-5xl:  50px;   /* word reveal headline */
+  --v-text-6xl:  56px;   /* flashcard word */
+
+  --v-tracking-tight:   -0.025em;  /* headlines */
+  --v-tracking-snug:    -0.01em;
+  --v-tracking-normal:   0;
+  --v-tracking-wide:     0.08em;
+  --v-tracking-wider:    0.16em;   /* eyebrow caps */
+
+  --v-leading-tight:  1.05;
+  --v-leading-snug:   1.2;
+  --v-leading-normal: 1.5;
+  --v-leading-loose:  1.6;
+
+  /* ── Motion ─────────────────────────────────────────────────────────────── */
+  --v-ease:    cubic-bezier(0.2, 0.7, 0.3, 1);
+  --v-dur-1:   120ms;
+  --v-dur-2:   180ms;
+  --v-dur-3:   260ms;
+}
+
+/* ============================================================================
+ * Keyframes used in V2 (sparkle twinkle, mascot bob, float)
+ * ============================================================================ */
+@keyframes v-ngoc-bob    { 0%, 100% { transform: translateY(0); }    50% { transform: translateY(-4px); } }
+@keyframes v-ngoc-float  { 0%, 100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-8px) rotate(2deg); } }
+@keyframes v-sparkle     { 0%, 100% { opacity: 0.3; transform: scale(0.8); } 50% { opacity: 1; transform: scale(1.2); } }
+
+/* ============================================================================
+ * Recipes — copy-paste these into your component styles
+ * (Inline-style style={{}} pattern stays the primary form; recipes are below
+ * as classes for the few places where utility classes help.)
+ * ============================================================================ */
+
+/* Chunky-soft card */
+.v-card {
+  background: var(--v-surface);
+  border: 1px solid var(--v-border);
+  border-radius: var(--v-radius-lg);
+  box-shadow: var(--v-shadow-md);
+  padding: var(--v-space-4);
+}
+
+/* Primary button — full color, white text, press shadow */
+.v-btn-primary {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 11px 18px;
+  background: var(--v-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--v-radius-md);
+  box-shadow: var(--v-press), 0 6px 14px rgba(122,193,67, 0.4);
+  font-family: var(--v-font-head);
+  font-weight: 900;
+  font-size: var(--v-text-base);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: transform var(--v-dur-1) var(--v-ease), box-shadow var(--v-dur-1) var(--v-ease);
+}
+.v-btn-primary:active { transform: translateY(2px); box-shadow: 0 2px 0 rgba(60,20,5,0.15); }
+
+/* Secondary button — white surface, soft shadow */
+.v-btn-secondary {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 18px;
+  background: var(--v-surface);
+  color: var(--v-ink-soft);
+  border: 1px solid var(--v-border);
+  border-radius: var(--v-radius-md);
+  box-shadow: var(--v-shadow-sm);
+  font-family: var(--v-font-head);
+  font-weight: 800;
+  font-size: var(--v-text-md);
+  cursor: pointer;
+}
+
+/* Pill (hearts/gems/streak top bar) */
+.v-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 12px 6px 8px;
+  background: var(--v-surface);
+  border: 1px solid var(--v-border);
+  border-radius: var(--v-radius-pill);
+  box-shadow: var(--v-shadow-sm);
+  font-family: var(--v-font-head);
+  font-weight: 900;
+  font-size: var(--v-text-lg);
+  color: var(--v-ink);
+}
+
+/* Chip / tag */
+.v-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 4px 10px;
+  border-radius: var(--v-radius-pill);
+  font-family: var(--v-font-body);
+  font-size: var(--v-text-xs);
+  font-weight: 700;
+}
+
+/* Eyebrow caps — small labels above headlines */
+.v-eyebrow {
+  font-family: var(--v-font-body);
+  font-size: var(--v-text-xs);
+  font-weight: 800;
+  color: var(--v-muted);
+  letter-spacing: var(--v-tracking-wider);
+  text-transform: uppercase;
+}
+
+/* kbd-style keys */
+.v-kbd {
+  font-family: var(--v-font-mono);
+  font-size: var(--v-text-xs);
+  font-weight: 700;
+  background: var(--v-surface);
+  border: 1px solid var(--v-border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  color: var(--v-muted);
+}
+
+/* Input */
+.v-input {
+  padding: 12px 14px;
+  font-family: var(--v-font-body);
+  font-size: var(--v-text-base);
+  font-weight: 600;
+  background: var(--v-surface);
+  border: 1.5px solid var(--v-border);
+  border-radius: var(--v-radius-md);
+  color: var(--v-ink);
+  outline: none;
+  transition: border-color var(--v-dur-1), box-shadow var(--v-dur-1);
+}
+.v-input:focus {
+  border-color: var(--v-primary);
+  box-shadow: 0 0 0 4px rgba(122,193,67, 0.15);
+}
+
+/* Rating button (Lại / Khó / Tốt / Dễ) — color via inline `background` */
+.v-rate {
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 14px;
+  color: #fff;
+  border: none;
+  border-radius: var(--v-radius-md);
+  box-shadow: var(--v-press);
+  cursor: pointer;
+  text-align: left;
+}
+
+/* ============================================================================
+ * Example usage in JSX (inline-style style with vars):
+ * ----------------------------------------------------------------------------
+ * <button style={{
+ *   background: 'var(--v-primary)',
+ *   color: '#fff',
+ *   border: 'none',
+ *   padding: '11px 18px',
+ *   borderRadius: 'var(--v-radius-md)',
+ *   boxShadow: 'var(--v-press), 0 6px 14px rgba(122,193,67, 0.4)',
+ *   fontFamily: 'var(--v-font-head)',
+ *   fontWeight: 900,
+ *   fontSize: 'var(--v-text-base)',
+ * }}>ÔN NGAY</button>
+ * ============================================================================ */

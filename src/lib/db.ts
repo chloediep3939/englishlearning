@@ -1,0 +1,816 @@
+import { getCloudflareContext } from '@opennextjs/cloudflare';
+import type { D1Database } from '@cloudflare/workers-types';
+import type {
+  CefrLevel,
+  Flashcard,
+  FlashcardDeck,
+  FlashcardDeckWithCounts,
+  FlashcardSettings,
+  FlashcardStatus,
+  PracticeSentence,
+  TestMode,
+  User,
+} from './types';
+import { M4_SETTINGS } from './types';
+
+const CEFR_VALUES = M4_SETTINGS.user_cefr_level.values;
+function parseCefr(raw: string | undefined): CefrLevel {
+  if (raw && (CEFR_VALUES as readonly string[]).includes(raw)) return raw as CefrLevel;
+  return M4_SETTINGS.user_cefr_level.default;
+}
+import { calculateNextReview, type SRSQuality } from './flashcards/srs';
+
+/**
+ * Returns the D1 database binding from the Cloudflare context.
+ * Must be called inside a request handler or server component
+ * (NOT at module top level).
+ */
+export async function getDb(): Promise<D1Database> {
+  const { env } = await getCloudflareContext({ async: true });
+  const db = (env as Record<string, unknown>).DB as D1Database | undefined;
+  if (!db) {
+    throw new Error('D1 binding "DB" not found. Check wrangler.jsonc.');
+  }
+  return db;
+}
+
+// ============================================================================
+// JSON helpers
+// ============================================================================
+
+function safeParse<T>(s: string | null | undefined, fallback: T): T {
+  if (!s) return fallback;
+  try {
+    return JSON.parse(s) as T;
+  } catch {
+    return fallback;
+  }
+}
+
+function hydrateCard(row: Record<string, unknown> | null): Flashcard | null {
+  if (!row) return null;
+  return {
+    ...(row as unknown as Flashcard),
+    examples: safeParse(row.examples as string | null, []),
+    image_attribution: safeParse(row.image_attribution as string | null, null),
+    collocations: safeParse(row.collocations as string | null, []),
+  };
+}
+
+function hydrateDeck(row: Record<string, unknown> | null): FlashcardDeck | null {
+  if (!row) return null;
+  return {
+    ...(row as unknown as FlashcardDeck),
+    is_default: Number(row.is_default) === 1,
+  };
+}
+
+// ============================================================================
+// Users
+// ============================================================================
+
+export const usersDb = {
+  async getById(id: number): Promise<User | null> {
+    const db = await getDb();
+    const row = await db
+      .prepare('SELECT * FROM users WHERE id = ?')
+      .bind(id)
+      .first<Record<string, unknown>>();
+    if (!row) return null;
+    return {
+      ...(row as unknown as User),
+      is_admin: Number(row.is_admin) === 1,
+    };
+  },
+
+  async getAll(): Promise<User[]> {
+    const db = await getDb();
+    const result = await db
+      .prepare('SELECT * FROM users ORDER BY created_at ASC')
+      .all<Record<string, unknown>>();
+    return result.results.map((row) => ({
+      ...(row as unknown as User),
+      is_admin: Number(row.is_admin) === 1,
+    }));
+  },
+};
+
+// ============================================================================
+// Decks (user-scoped)
+// ============================================================================
+
+const DEFAULT_DECK_NAME = 'Mặc định';
+
+export const flashcardDecksDb = {
+  /**
+   * Ensure the user has a default deck. Returns deck ID.
+   * Called automatically by `flashcardsDb.create` when no deck_id given.
+   */
+  async ensureDefault(userId: number): Promise<number> {
+    const db = await getDb();
+    const existing = await db
+      .prepare('SELECT id FROM flashcard_decks WHERE user_id = ? AND is_default = 1 LIMIT 1')
+      .bind(userId)
+      .first<{ id: number }>();
+    if (existing) return existing.id;
+    const result = await db
+      .prepare(
+        `INSERT INTO flashcard_decks (user_id, name, description, color, position, is_default)
+         VALUES (?, ?, ?, ?, 0, 1)`
+      )
+      .bind(userId, DEFAULT_DECK_NAME, 'Bộ từ mặc định', '#7ac143')
+      .run();
+    return Number(result.meta.last_row_id);
+  },
+
+  async getAll(userId: number): Promise<FlashcardDeck[]> {
+    const db = await getDb();
+    const result = await db
+      .prepare('SELECT * FROM flashcard_decks WHERE user_id = ? ORDER BY position ASC, id ASC')
+      .bind(userId)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateDeck(r)!).filter(Boolean);
+  },
+
+  async getById(userId: number, id: number): Promise<FlashcardDeck | null> {
+    const db = await getDb();
+    const row = await db
+      .prepare('SELECT * FROM flashcard_decks WHERE id = ? AND user_id = ?')
+      .bind(id, userId)
+      .first<Record<string, unknown>>();
+    return hydrateDeck(row);
+  },
+
+  async getAllWithCounts(userId: number): Promise<FlashcardDeckWithCounts[]> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `SELECT
+           d.*,
+           COUNT(c.id) as total,
+           SUM(CASE WHEN c.status = 'new' THEN 1 ELSE 0 END) as new_count,
+           SUM(CASE WHEN c.status = 'learning' THEN 1 ELSE 0 END) as learning_count,
+           SUM(CASE WHEN c.status = 'review' THEN 1 ELSE 0 END) as review_count,
+           SUM(CASE WHEN c.status = 'mastered' THEN 1 ELSE 0 END) as mastered_count,
+           SUM(CASE WHEN c.next_review_at IS NULL OR c.next_review_at <= datetime('now') THEN 1 ELSE 0 END) as due_count
+         FROM flashcard_decks d
+         LEFT JOIN flashcards c ON c.deck_id = d.id
+         WHERE d.user_id = ?
+         GROUP BY d.id
+         ORDER BY d.position ASC, d.id ASC`
+      )
+      .bind(userId)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => ({
+      ...(r as unknown as FlashcardDeckWithCounts),
+      is_default: Number(r.is_default) === 1,
+      total: Number(r.total) || 0,
+      new_count: Number(r.new_count) || 0,
+      learning_count: Number(r.learning_count) || 0,
+      review_count: Number(r.review_count) || 0,
+      mastered_count: Number(r.mastered_count) || 0,
+      due_count: Number(r.due_count) || 0,
+    }));
+  },
+
+  async create(userId: number, input: { name: string; description?: string | null; color?: string }): Promise<number> {
+    const db = await getDb();
+    const maxRow = await db
+      .prepare('SELECT COALESCE(MAX(position), -1) as m FROM flashcard_decks WHERE user_id = ?')
+      .bind(userId)
+      .first<{ m: number }>();
+    const position = (maxRow?.m ?? -1) + 1;
+    const result = await db
+      .prepare(
+        `INSERT INTO flashcard_decks (user_id, name, description, color, position, is_default)
+         VALUES (?, ?, ?, ?, ?, 0)`
+      )
+      .bind(userId, input.name, input.description ?? null, input.color ?? '#7ac143', position)
+      .run();
+    return Number(result.meta.last_row_id);
+  },
+
+  async update(userId: number, id: number, fields: Partial<Pick<FlashcardDeck, 'name' | 'description' | 'color' | 'position'>>): Promise<void> {
+    const db = await getDb();
+    const sets: string[] = [];
+    const values: unknown[] = [];
+    if (fields.name !== undefined)        { sets.push('name = ?');        values.push(fields.name); }
+    if (fields.description !== undefined) { sets.push('description = ?'); values.push(fields.description); }
+    if (fields.color !== undefined)       { sets.push('color = ?');       values.push(fields.color); }
+    if (fields.position !== undefined)    { sets.push('position = ?');    values.push(fields.position); }
+    if (sets.length === 0) return;
+    values.push(id, userId);
+    await db
+      .prepare(`UPDATE flashcard_decks SET ${sets.join(', ')} WHERE id = ? AND user_id = ?`)
+      .bind(...values)
+      .run();
+  },
+
+  async delete(userId: number, id: number): Promise<void> {
+    const db = await getDb();
+    const deck = await db
+      .prepare('SELECT id, is_default FROM flashcard_decks WHERE id = ? AND user_id = ?')
+      .bind(id, userId)
+      .first<{ id: number; is_default: number }>();
+    if (!deck) return; // not owned by user → no-op
+    if (Number(deck.is_default) === 1) {
+      throw new Error('Không thể xoá bộ từ mặc định.');
+    }
+    // Move cards to default deck, then delete this deck
+    const defaultId = await flashcardDecksDb.ensureDefault(userId);
+    await db.batch([
+      db.prepare('UPDATE flashcards SET deck_id = ? WHERE deck_id = ? AND user_id = ?').bind(defaultId, id, userId),
+      db.prepare('DELETE FROM flashcard_decks WHERE id = ? AND user_id = ?').bind(id, userId),
+    ]);
+  },
+};
+
+// ============================================================================
+// Cards (user-scoped)
+// ============================================================================
+
+export const flashcardsDb = {
+  async getById(userId: number, id: number): Promise<Flashcard | null> {
+    const db = await getDb();
+    const row = await db
+      .prepare('SELECT * FROM flashcards WHERE id = ? AND user_id = ?')
+      .bind(id, userId)
+      .first<Record<string, unknown>>();
+    return hydrateCard(row);
+  },
+
+  /**
+   * Returns the user's cards matching the given IDs. Order of results is not
+   * guaranteed to match the input order. IDs not owned by the user are silently
+   * dropped (so callers can use this to filter a client-supplied pool down to
+   * owned cards). Used by F3 compose evaluation.
+   */
+  async getByIds(userId: number, ids: number[]): Promise<Flashcard[]> {
+    if (ids.length === 0) return [];
+    const placeholders = ids.map(() => '?').join(',');
+    const db = await getDb();
+    const result = await db
+      .prepare(`SELECT * FROM flashcards WHERE user_id = ? AND id IN (${placeholders})`)
+      .bind(userId, ...ids)
+      .all<Record<string, unknown>>();
+    return (result.results ?? []).map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
+  async getByDeck(userId: number, deck_id: number, limit: number = 200): Promise<Flashcard[]> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        'SELECT * FROM flashcards WHERE user_id = ? AND deck_id = ? ORDER BY created_at DESC LIMIT ?'
+      )
+      .bind(userId, deck_id, limit)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
+  async getDueForReview(userId: number, limit: number = 50, exclude_mastered: boolean = true): Promise<Flashcard[]> {
+    const db = await getDb();
+    const masteredClause = exclude_mastered ? "AND status != 'mastered'" : '';
+    // NULL next_review_at = brand-new card never reviewed → treat as "due now"
+    // so it shows in /review. The previous `IS NOT NULL` filter excluded these
+    // entirely, which is why /review appeared empty for users whose only cards
+    // were freshly added. NULLS FIRST is the natural ordering since they
+    // haven't been scheduled yet.
+    const result = await db
+      .prepare(
+        `SELECT * FROM flashcards
+         WHERE user_id = ?
+         AND (next_review_at IS NULL OR next_review_at <= datetime('now'))
+         ${masteredClause}
+         ORDER BY next_review_at IS NULL DESC, next_review_at ASC
+         LIMIT ?`
+      )
+      .bind(userId, limit)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
+  /**
+   * Returns flashcards the user has reviewed since the given ISO timestamp.
+   * "Since" semantics: the CALLER (typically the client) computes start-of-today
+   * in the USER'S LOCAL timezone, converts to ISO, and passes it. The server
+   * treats `sinceIso` as an opaque cutoff. Do not interpret as UTC midnight.
+   *
+   * Excludes mastered cards. Ordered most-recent-first.
+   */
+  async getReviewedSince(
+    userId: number,
+    sinceIso: string,
+    opts: { limit?: number } = {}
+  ): Promise<Flashcard[]> {
+    const limit = opts.limit ?? 30;
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `SELECT * FROM flashcards
+         WHERE user_id = ?
+           AND last_reviewed_at IS NOT NULL
+           AND last_reviewed_at >= ?
+           AND status != 'mastered'
+         ORDER BY last_reviewed_at DESC
+         LIMIT ?`
+      )
+      .bind(userId, sinceIso, limit)
+      .all<Record<string, unknown>>();
+    return (result.results ?? []).map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
+  /**
+   * Returns the user's most recently created cards regardless of deck.
+   * Used by `/api/cards?limit=N` when no other filter is given (e.g. F1 pronounce).
+   */
+  async getAll(userId: number, limit: number = 50): Promise<Flashcard[]> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        'SELECT * FROM flashcards WHERE user_id = ? ORDER BY created_at DESC LIMIT ?'
+      )
+      .bind(userId, limit)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
+  async getNewForToday(userId: number, limit: number = 10, deck_id: number | null = null): Promise<Flashcard[]> {
+    const db = await getDb();
+    const sql = deck_id
+      ? `SELECT * FROM flashcards WHERE user_id = ? AND status = 'new' AND deck_id = ? ORDER BY created_at ASC LIMIT ?`
+      : `SELECT * FROM flashcards WHERE user_id = ? AND status = 'new' ORDER BY created_at ASC LIMIT ?`;
+    const stmt = db.prepare(sql);
+    const result = deck_id
+      ? await stmt.bind(userId, deck_id, limit).all<Record<string, unknown>>()
+      : await stmt.bind(userId, limit).all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
+  async search(userId: number, query: string, limit: number = 50): Promise<Flashcard[]> {
+    const db = await getDb();
+    const like = `%${query.toLowerCase()}%`;
+    const result = await db
+      .prepare(
+        `SELECT * FROM flashcards
+         WHERE user_id = ?
+         AND (LOWER(english) LIKE ? OR LOWER(vietnamese) LIKE ?)
+         ORDER BY created_at DESC
+         LIMIT ?`
+      )
+      .bind(userId, like, like, limit)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
+  async create(userId: number, input: Partial<Flashcard> & { english: string; vietnamese: string }): Promise<number> {
+    const db = await getDb();
+    // Resolve deck_id: use provided, else user's default
+    const deckId = input.deck_id ?? (await flashcardDecksDb.ensureDefault(userId));
+    const result = await db
+      .prepare(
+        `INSERT INTO flashcards (
+           user_id, deck_id, english, vietnamese, ipa, part_of_speech, audio_url,
+           examples, image_url, image_attribution, notes, collocations,
+           status, source_passage_id, source_context
+         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+      )
+      .bind(
+        userId,
+        deckId,
+        input.english,
+        input.vietnamese,
+        input.ipa ?? null,
+        input.part_of_speech ?? null,
+        input.audio_url ?? null,
+        input.examples ? JSON.stringify(input.examples) : null,
+        input.image_url ?? null,
+        input.image_attribution ? JSON.stringify(input.image_attribution) : null,
+        input.notes ?? null,
+        input.collocations ? JSON.stringify(input.collocations) : null,
+        input.status ?? 'new',
+        input.source_passage_id ?? null,
+        input.source_context ?? null
+      )
+      .run();
+    return Number(result.meta.last_row_id);
+  },
+
+  /**
+   * List all cards saved from a specific passage. Used by Step 3 reader to
+   * paint "already saved" markers on tokens. Returns empty array if the
+   * passage isn't owned by `userId` (the WHERE filter handles ownership).
+   */
+  async listBySourcePassage(userId: number, passageId: number): Promise<Flashcard[]> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `SELECT * FROM flashcards
+         WHERE user_id = ? AND source_passage_id = ?
+         ORDER BY created_at DESC`
+      )
+      .bind(userId, passageId)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
+  async update(userId: number, id: number, fields: Partial<Flashcard>): Promise<void> {
+    const db = await getDb();
+    const sets: string[] = [];
+    const values: unknown[] = [];
+    const map: Record<string, unknown> = {
+      english: fields.english,
+      vietnamese: fields.vietnamese,
+      ipa: fields.ipa,
+      part_of_speech: fields.part_of_speech,
+      audio_url: fields.audio_url,
+      image_url: fields.image_url,
+      notes: fields.notes,
+      deck_id: fields.deck_id,
+      status: fields.status,
+    };
+    for (const [k, v] of Object.entries(map)) {
+      if (v !== undefined) { sets.push(`${k} = ?`); values.push(v); }
+    }
+    if (fields.examples !== undefined)          { sets.push('examples = ?');          values.push(fields.examples ? JSON.stringify(fields.examples) : null); }
+    if (fields.image_attribution !== undefined) { sets.push('image_attribution = ?'); values.push(fields.image_attribution ? JSON.stringify(fields.image_attribution) : null); }
+    if (fields.collocations !== undefined)      { sets.push('collocations = ?');      values.push(fields.collocations ? JSON.stringify(fields.collocations) : null); }
+    sets.push("updated_at = datetime('now')");
+    if (sets.length === 1) return;
+    values.push(id, userId);
+    await db
+      .prepare(`UPDATE flashcards SET ${sets.join(', ')} WHERE id = ? AND user_id = ?`)
+      .bind(...values)
+      .run();
+  },
+
+  async updateSRS(userId: number, id: number, fields: { status?: FlashcardStatus; ease_factor: number; interval_days: number; repetitions: number; next_review_at: string; last_reviewed_at: string }): Promise<void> {
+    const db = await getDb();
+    await db
+      .prepare(
+        `UPDATE flashcards
+         SET status = COALESCE(?, status),
+             ease_factor = ?,
+             interval_days = ?,
+             repetitions = ?,
+             next_review_at = ?,
+             last_reviewed_at = ?,
+             updated_at = datetime('now')
+         WHERE id = ? AND user_id = ?`
+      )
+      .bind(
+        fields.status ?? null,
+        fields.ease_factor,
+        fields.interval_days,
+        fields.repetitions,
+        fields.next_review_at,
+        fields.last_reviewed_at,
+        id,
+        userId
+      )
+      .run();
+  },
+
+  async delete(userId: number, id: number): Promise<void> {
+    const db = await getDb();
+    await db
+      .prepare('DELETE FROM flashcards WHERE id = ? AND user_id = ?')
+      .bind(id, userId)
+      .run();
+  },
+
+  async countByStatus(userId: number): Promise<Record<FlashcardStatus, number>> {
+    const db = await getDb();
+    const result = await db
+      .prepare(`SELECT status, COUNT(*) as n FROM flashcards WHERE user_id = ? GROUP BY status`)
+      .bind(userId)
+      .all<{ status: FlashcardStatus; n: number }>();
+    const counts: Record<FlashcardStatus, number> = { new: 0, learning: 0, review: 0, mastered: 0 };
+    for (const r of result.results) counts[r.status] = Number(r.n);
+    return counts;
+  },
+};
+
+// ============================================================================
+// Reviews
+// ============================================================================
+
+export class CardNotFoundError extends Error {
+  constructor() {
+    super('Card not found');
+    this.name = 'CardNotFoundError';
+  }
+}
+
+export const flashcardReviewsDb = {
+  async create(userId: number, input: { flashcard_id: number; quality: 0 | 2 | 4 | 5; prev_interval: number; new_interval: number }): Promise<number> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `INSERT INTO flashcard_reviews (user_id, flashcard_id, quality, prev_interval, new_interval)
+         VALUES (?, ?, ?, ?, ?)`
+      )
+      .bind(userId, input.flashcard_id, input.quality, input.prev_interval, input.new_interval)
+      .run();
+    return Number(result.meta.last_row_id);
+  },
+
+  /**
+   * Apply an SM-2 rating to a card: compute next interval, insert a
+   * flashcard_reviews row, and update the card's SRS state. Single source of
+   * truth for both `/api/cards/[id]/rate` and `/api/sentence/timeout`.
+   * Throws CardNotFoundError when the card is missing / not owned by user.
+   */
+  async recordRating(
+    userId: number,
+    flashcardId: number,
+    quality: SRSQuality
+  ): Promise<{ prev_interval: number; new_interval: number; next_review_at: string; new_status: FlashcardStatus }> {
+    const card = await flashcardsDb.getById(userId, flashcardId);
+    if (!card) throw new CardNotFoundError();
+
+    const update = calculateNextReview(card, quality);
+
+    await flashcardsDb.updateSRS(userId, flashcardId, {
+      status: update.status,
+      ease_factor: update.ease_factor,
+      interval_days: update.interval_days,
+      repetitions: update.repetitions,
+      next_review_at: update.next_review_at,
+      last_reviewed_at: new Date().toISOString().replace('T', ' ').slice(0, 19),
+    });
+    await flashcardReviewsDb.create(userId, {
+      flashcard_id: flashcardId,
+      quality,
+      prev_interval: update.prev_interval,
+      new_interval: update.interval_days,
+    });
+
+    return {
+      prev_interval: update.prev_interval,
+      new_interval: update.interval_days,
+      next_review_at: update.next_review_at,
+      new_status: update.status,
+    };
+  },
+
+  async getTodayCount(userId: number): Promise<number> {
+    const db = await getDb();
+    const row = await db
+      .prepare(
+        `SELECT COUNT(*) as n FROM flashcard_reviews
+         WHERE user_id = ? AND date(reviewed_at) = date('now', 'localtime')`
+      )
+      .bind(userId)
+      .first<{ n: number }>();
+    return Number(row?.n) || 0;
+  },
+
+  async getStreakDays(userId: number): Promise<number> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `SELECT date(reviewed_at, 'localtime') as d
+         FROM flashcard_reviews
+         WHERE user_id = ?
+         GROUP BY date(reviewed_at, 'localtime')
+         ORDER BY d DESC
+         LIMIT 365`
+      )
+      .bind(userId)
+      .all<{ d: string }>();
+    if (result.results.length === 0) return 0;
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    let streak = 0;
+    let cursor = today.getTime();
+    for (const row of result.results) {
+      const date = new Date(row.d);
+      date.setHours(0, 0, 0, 0);
+      const diff = (cursor - date.getTime()) / (1000 * 60 * 60 * 24);
+      if (Math.abs(diff) < 0.1) {
+        streak++;
+        cursor = date.getTime() - 24 * 60 * 60 * 1000;
+      } else {
+        break;
+      }
+    }
+    return streak;
+  },
+
+  async getActivityLastDays(userId: number, days: number = 30): Promise<Array<{ date: string; new: number; review: number }>> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `SELECT date(reviewed_at, 'localtime') as d,
+                SUM(CASE WHEN prev_interval = 0 THEN 1 ELSE 0 END) as new_count,
+                SUM(CASE WHEN prev_interval > 0 THEN 1 ELSE 0 END) as review_count
+         FROM flashcard_reviews
+         WHERE user_id = ?
+         AND reviewed_at >= datetime('now', '-' || ? || ' days')
+         GROUP BY date(reviewed_at, 'localtime')
+         ORDER BY d ASC`
+      )
+      .bind(userId, days)
+      .all<{ d: string; new_count: number; review_count: number }>();
+    return result.results.map((r) => ({
+      date: r.d,
+      new: Number(r.new_count) || 0,
+      review: Number(r.review_count) || 0,
+    }));
+  },
+
+  async getRetentionRate(userId: number, days: number = 7): Promise<number> {
+    const db = await getDb();
+    const row = await db
+      .prepare(
+        `SELECT
+           SUM(CASE WHEN quality >= 4 THEN 1 ELSE 0 END) as ok,
+           COUNT(*) as total
+         FROM flashcard_reviews
+         WHERE user_id = ?
+         AND reviewed_at >= datetime('now', '-' || ? || ' days')
+         AND prev_interval > 0`
+      )
+      .bind(userId, days)
+      .first<{ ok: number; total: number }>();
+    if (!row || !row.total) return 0;
+    return Number(row.ok) / Number(row.total);
+  },
+};
+
+// ============================================================================
+// Test attempts
+// ============================================================================
+
+export const flashcardTestAttemptsDb = {
+  async create(userId: number, input: { flashcard_id: number; mode: TestMode; passed: boolean; time_ms?: number | null; metadata?: Record<string, unknown> | null }): Promise<number> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `INSERT INTO flashcard_test_attempts (user_id, flashcard_id, mode, passed, time_ms, metadata)
+         VALUES (?, ?, ?, ?, ?, ?)`
+      )
+      .bind(
+        userId,
+        input.flashcard_id,
+        input.mode,
+        input.passed ? 1 : 0,
+        input.time_ms ?? null,
+        input.metadata ? JSON.stringify(input.metadata) : null
+      )
+      .run();
+    return Number(result.meta.last_row_id);
+  },
+};
+
+// ============================================================================
+// Practice sentences (no user_id — derives via card; routes must check ownership of card first)
+// ============================================================================
+
+export const flashcardPracticeSentencesDb = {
+  async createMany(flashcard_id: number, sentences: Array<{ en: string; vi: string | null }>): Promise<void> {
+    if (sentences.length === 0) return;
+    const db = await getDb();
+    const stmts = sentences.map((s) =>
+      db
+        .prepare(
+          `INSERT INTO flashcard_practice_sentences (flashcard_id, sentence, vi_translation) VALUES (?, ?, ?)`
+        )
+        .bind(flashcard_id, s.en, s.vi)
+    );
+    await db.batch(stmts);
+  },
+
+  async pickLeastShown(flashcard_id: number): Promise<PracticeSentence | null> {
+    const db = await getDb();
+    return await db
+      .prepare(
+        `SELECT * FROM flashcard_practice_sentences
+         WHERE flashcard_id = ?
+         ORDER BY times_shown ASC, RANDOM()
+         LIMIT 1`
+      )
+      .bind(flashcard_id)
+      .first<PracticeSentence>();
+  },
+
+  async markShown(id: number): Promise<void> {
+    const db = await getDb();
+    await db
+      .prepare(
+        `UPDATE flashcard_practice_sentences
+         SET times_shown = times_shown + 1, last_shown_at = datetime('now')
+         WHERE id = ?`
+      )
+      .bind(id)
+      .run();
+  },
+
+  async countByCard(flashcard_id: number): Promise<number> {
+    const db = await getDb();
+    const row = await db
+      .prepare('SELECT COUNT(*) as n FROM flashcard_practice_sentences WHERE flashcard_id = ?')
+      .bind(flashcard_id)
+      .first<{ n: number }>();
+    return Number(row?.n) || 0;
+  },
+
+  async countShown(flashcard_id: number): Promise<number> {
+    const db = await getDb();
+    const row = await db
+      .prepare('SELECT COUNT(*) as n FROM flashcard_practice_sentences WHERE flashcard_id = ? AND times_shown >= 1')
+      .bind(flashcard_id)
+      .first<{ n: number }>();
+    return Number(row?.n) || 0;
+  },
+};
+
+// ============================================================================
+// User settings (per-user)
+// ============================================================================
+
+const SETTINGS_KEYS = [
+  'flashcard_daily_goal_new',
+  'flashcard_daily_goal_review',
+  'flashcard_reminder_time',
+  'flashcard_reminder_enabled',
+  'flashcard_mastered_hide_from_review',
+  'flashcard_daily_new_limit',
+  // M3 keys — stored under their bare names (no `flashcard_` prefix) so they
+  // can later be reused for non-flashcard practice modes without rename pain.
+  'daily_new_word_target',
+  'f1_max_attempts',
+  'f2_timer_seconds',
+  'f3_max_words_per_composition',
+  // M4 keys
+  'user_cefr_level',
+  'passage_tts_rate',
+  'passage_pre_fetch',
+] as const;
+
+export const userSettingsDb = {
+  async getFlashcardSettings(userId: number): Promise<FlashcardSettings> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `SELECT key, value FROM user_settings
+         WHERE user_id = ? AND key IN (${SETTINGS_KEYS.map(() => '?').join(',')})`
+      )
+      .bind(userId, ...SETTINGS_KEYS)
+      .all<{ key: string; value: string }>();
+    const map = new Map(result.results.map((r) => [r.key, r.value]));
+    const f1Raw = map.get('f1_max_attempts');
+    return {
+      daily_goal_new: Number(map.get('flashcard_daily_goal_new')) || 10,
+      daily_goal_review: Number(map.get('flashcard_daily_goal_review')) || 50,
+      reminder_time: map.get('flashcard_reminder_time') ?? '20:00',
+      reminder_enabled: map.get('flashcard_reminder_enabled') === '1',
+      mastered_hide_from_review: (map.get('flashcard_mastered_hide_from_review') ?? '1') === '1',
+      daily_new_limit: Number(map.get('flashcard_daily_new_limit')) || 10,
+      // M3 keys (defaults pulled from M3_SETTINGS in @/lib/types).
+      // f1_max_attempts can legitimately be 0 ("Không giới hạn") — preserve
+      // that explicitly instead of coercing via `|| default`.
+      daily_new_word_target: Number(map.get('daily_new_word_target')) || 30,
+      f1_max_attempts: f1Raw === undefined ? 3 : Number(f1Raw),
+      f2_timer_seconds: Number(map.get('f2_timer_seconds')) || 60,
+      f3_max_words_per_composition: Number(map.get('f3_max_words_per_composition')) || 30,
+      // M4 keys — defaults from M4_SETTINGS so they stay in lockstep with
+      // the validator and UI ranges.
+      user_cefr_level: parseCefr(map.get('user_cefr_level')),
+      passage_tts_rate: Number(map.get('passage_tts_rate')) || M4_SETTINGS.passage_tts_rate.default,
+      passage_pre_fetch: (map.get('passage_pre_fetch') ?? (M4_SETTINGS.passage_pre_fetch.default ? '1' : '0')) === '1',
+    };
+  },
+
+  async updateFlashcardSettings(userId: number, partial: Partial<FlashcardSettings>): Promise<void> {
+    const db = await getDb();
+    const stmts: ReturnType<typeof db.prepare>[] = [];
+    const upsert = (key: string, value: string) => {
+      stmts.push(
+        db
+          .prepare(
+            `INSERT INTO user_settings (user_id, key, value, updated_at)
+             VALUES (?, ?, ?, datetime('now'))
+             ON CONFLICT(user_id, key)
+             DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at`
+          )
+          .bind(userId, key, value)
+      );
+    };
+    if (partial.daily_goal_new !== undefined)            upsert('flashcard_daily_goal_new', String(partial.daily_goal_new));
+    if (partial.daily_goal_review !== undefined)         upsert('flashcard_daily_goal_review', String(partial.daily_goal_review));
+    if (partial.reminder_time !== undefined)             upsert('flashcard_reminder_time', partial.reminder_time);
+    if (partial.reminder_enabled !== undefined)          upsert('flashcard_reminder_enabled', partial.reminder_enabled ? '1' : '0');
+    if (partial.mastered_hide_from_review !== undefined) upsert('flashcard_mastered_hide_from_review', partial.mastered_hide_from_review ? '1' : '0');
+    if (partial.daily_new_limit !== undefined)           upsert('flashcard_daily_new_limit', String(partial.daily_new_limit));
+    if (partial.daily_new_word_target !== undefined)        upsert('daily_new_word_target', String(partial.daily_new_word_target));
+    if (partial.f1_max_attempts !== undefined)              upsert('f1_max_attempts', String(partial.f1_max_attempts));
+    if (partial.f2_timer_seconds !== undefined)             upsert('f2_timer_seconds', String(partial.f2_timer_seconds));
+    if (partial.f3_max_words_per_composition !== undefined) upsert('f3_max_words_per_composition', String(partial.f3_max_words_per_composition));
+    if (partial.user_cefr_level !== undefined)              upsert('user_cefr_level', partial.user_cefr_level);
+    if (partial.passage_tts_rate !== undefined)             upsert('passage_tts_rate', String(partial.passage_tts_rate));
+    if (partial.passage_pre_fetch !== undefined)            upsert('passage_pre_fetch', partial.passage_pre_fetch ? '1' : '0');
+    if (stmts.length === 0) return;
+    await db.batch(stmts);
+  },
+};
