@@ -106,7 +106,15 @@ Before creating any new file, function, component, or utility:
    | Email allowlist check             | `isEmailAllowed()` in `@/lib/auth`                           |
    | Layout shell (sidebar + main)     | `src/app/layout.tsx`                                         |
    | Sidebar nav                       | `src/components/Sidebar.tsx`                                 |
-   | Mascot image                      | `Mascot` component (`@/components/Mascot`)                   |
+   | Mascot image                      | `<Mascot pose=... />` from `@/components/common/Mascot`      |
+   | Loading state (mascot + label)    | `<LoadingState message=... />` from `@/components/common/LoadingState` |
+   | Part-of-speech badge (purple)     | `<POSPill pos={...} />` from `@/components/common/POSPill`   |
+   | Dictionary lookup links           | `<LookupPills word={...} />` from `@/components/common/LookupPills` |
+   | Feedback section (colored rail)   | `<FeedbackSection title color>` from `@/components/common/FeedbackSection` |
+   | Settings card layout              | `<SettingsCard title icon>` from `@/components/SettingsCard` |
+   | Settings controls                 | `Slider`, `Toggle`, `SliderWithIcon`, `MaxAttemptsControl`, `CefrControl`, `TtsRateControl`, `VoicePickerControl`, `ThemeControl` from `@/components/settings-controls/*` |
+   | Typed `fetch` JSON                | `apiJson<T>(url, init?)` from `@/lib/common/api-json` (throws `ApiError`) |
+   | Client TTS                        | `speak(text, opts)` + `getStoredVoicePreference()` from `@/lib/tts` |
    | Shared types                      | `src/lib/types.ts`                                           |
    | Icons                             | `lucide-react`                                               |
    | Theme tokens                      | `var(--v-bg)`, `var(--v-surface)`, `var(--v-ink)`, `var(--v-ink-soft)`, `var(--v-muted)`, `var(--v-border)`, `var(--v-primary)`, `var(--v-accent)`, plus functional palette `--v-red`, `--v-orange`, `--v-yellow`, `--v-blue`, `--v-purple`, `--v-pink`, `--v-teal`, `--v-green`. Stage colors: `--v-stage-{new,learning,review,mastered}` |
@@ -124,6 +132,45 @@ Before creating any new file, function, component, or utility:
 
 5. Rule of thumb: if you're about to write the second version of something,
    stop — reuse or refactor the first.
+
+### 2.1 The `common/` convention
+
+Reusable, generic primitives live in `src/components/common/` (UI) and
+`src/lib/common/` (helpers). The mandatory workflow:
+
+1. **Grep `src/components/common/` and `src/lib/common/` before writing**
+   any new component or helper. If a match exists, use it. Add a prop
+   if you need a variation — do NOT fork the implementation.
+2. If nothing matches BUT this is the **3rd consumer** of a copy-paste
+   pattern, stop and extract to `common/` before continuing your task.
+3. **Anti-pattern: variant flags.** Never put
+   `if (variant === 'X')` branches inside a common component. Variants
+   that diverge more than ~30% should stay as separate components.
+4. **Anti-pattern: speculative extraction.** Don't pre-create empty
+   `common/` files. Extract on the 3rd consumer, not the 1st.
+5. **Anti-pattern: mega-components.** Keep primitives small and
+   composable. `<EmptyState>` USES `<Mascot/>` — it doesn't replace it.
+
+Feature-local sub-components (only used by one orchestrator) live in a
+sibling `<feature>/` folder, not `common/`. Examples already in tree:
+
+```
+src/components/speed-quiz/        ← SummaryScreen, TimerBar, StatTile, SparkleBurst
+src/components/deck-detail/       ← StageBreakdown, FilterPill, WordRow, CardDetailModal
+src/components/settings-controls/ ← Slider, Toggle, SliderWithIcon, ...
+```
+
+### 2.2 File-size rule
+
+**Aim to keep .tsx / .ts files under 500 lines.** When a file crosses
+that, split it: each "section" with its own state, conditional branch,
+or comment header is a candidate for extraction into a co-located
+sub-component (in a `<feature>/` folder next to the parent). Don't
+batch-split during unrelated work — call out the size in your reply
+and ask the user.
+
+Audit history of which files cross this line is tracked in
+`REFACTOR_AUDIT.md` at the repo root.
 
 ---
 
