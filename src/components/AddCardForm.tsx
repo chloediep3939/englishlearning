@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Check, Sparkles, RefreshCw, Volume2, ExternalLink } from 'lucide-react';
 import AudioButton from './AudioButton';
+import POSPill from '@/components/common/POSPill';
 import type {
   FlashcardExample,
   FlashcardCollocation,
@@ -568,23 +569,7 @@ function PreviewCard({
             {generated.accent === 'us' ? 'US' : generated.accent === 'uk' ? 'UK' : '—'}
           </button>
         )}
-        {generated?.part_of_speech && (
-          <span
-            style={{
-              background: 'var(--v-purple)',
-              color: '#fff',
-              borderRadius: 999,
-              padding: '2px 10px',
-              fontFamily: 'var(--v-font-head)',
-              fontWeight: 900,
-              fontSize: 10,
-              letterSpacing: '0.08em',
-              textTransform: 'uppercase',
-            }}
-          >
-            {generated.part_of_speech}
-          </span>
-        )}
+        <POSPill pos={generated?.part_of_speech} />
         {generating && !generated && (
           <RefreshCw
             size={14}

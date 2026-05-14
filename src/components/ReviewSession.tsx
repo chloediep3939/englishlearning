@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowRight, ArrowDown, BookOpen, Heart, Sparkles, ExternalLink } from 'lucide-react';
 import Mascot from '@/components/common/Mascot';
+import POSPill from '@/components/common/POSPill';
 import AudioButton from './AudioButton';
 import { previewIntervals, intervalLabel } from '@/lib/flashcards/srs';
 import type { Flashcard } from '@/lib/types';
@@ -512,25 +513,7 @@ function RevealStage({
     <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
       {/* Big word header */}
       <header style={{ paddingBottom: 12, borderBottom: '1px solid var(--v-border)' }}>
-        {card.part_of_speech && (
-          <span
-            style={{
-              display: 'inline-block',
-              background: 'var(--v-purple)',
-              color: '#fff',
-              boxShadow: '0 2px 6px rgba(193,121,214,0.35)',
-              borderRadius: 999,
-              padding: '3px 12px',
-              fontFamily: 'var(--v-font-head)',
-              fontWeight: 900,
-              fontSize: 11,
-              letterSpacing: '0.08em',
-              textTransform: 'uppercase',
-            }}
-          >
-            {card.part_of_speech}
-          </span>
-        )}
+        <POSPill pos={card.part_of_speech} />
         <div style={{ display: 'flex', alignItems: 'baseline', gap: 18, marginTop: 6, flexWrap: 'wrap' }}>
           <h1
             style={{

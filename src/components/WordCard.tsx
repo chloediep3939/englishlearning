@@ -1,5 +1,6 @@
 import type { Flashcard } from '@/lib/types';
 import AudioButton from './AudioButton';
+import POSPill from '@/components/common/POSPill';
 import { Quote } from 'lucide-react';
 
 interface Props {
@@ -52,26 +53,8 @@ export default function WordCard({ card, compact = false }: Props) {
       )}
 
       {/* Part of speech chip */}
-      {card.part_of_speech && (
-        <span
-          style={{
-            display: 'inline-block',
-            padding: '3px 12px',
-            background: 'var(--v-purple)',
-            color: '#fff',
-            borderRadius: 'var(--v-radius-pill)',
-            boxShadow: '0 2px 6px rgba(193,121,214,0.35)',
-            fontFamily: 'var(--v-font-head)',
-            fontSize: 11,
-            fontWeight: 900,
-            letterSpacing: '0.08em',
-            textTransform: 'uppercase',
-            marginBottom: 12,
-          }}
-        >
-          {card.part_of_speech}
-        </span>
-      )}
+      <POSPill pos={card.part_of_speech} marginBottom={12} />
+
 
       {/* Pexels image */}
       {card.image_url && !compact && (
