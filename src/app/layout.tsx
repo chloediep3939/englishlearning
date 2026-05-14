@@ -32,8 +32,16 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     }
   }
 
+  // Render `data-theme` directly on <html> in SSR so the DOM and the
+  // server-rendered HTML agree before the prehydration script runs.
+  // 'system' has no SSR-resolvable value (no access to prefers-color-scheme
+  // on the server), so we default to 'light' and let the script flip to
+  // 'dark' on dark-OS clients. That one residual mismatch is silenced by
+  // suppressHydrationWarning.
+  const serverTheme: 'light' | 'dark' = theme === 'dark' ? 'dark' : 'light';
+
   return (
-    <html lang="vi">
+    <html lang="vi" data-theme={serverTheme} suppressHydrationWarning>
       <head>
         {/* eslint-disable-next-line react/no-danger */}
         <script dangerouslySetInnerHTML={{ __html: THEME_PREHYDRATION_SCRIPT }} />
