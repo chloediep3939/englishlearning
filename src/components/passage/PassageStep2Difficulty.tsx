@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { RefreshCw } from 'lucide-react';
 import Mascot from '@/components/common/Mascot';
 import type { CefrLevel, FlashcardSettings, LevelVerdict, Passage } from '@/lib/types';
+import { apiJson } from '@/lib/common/api-json';
 
 interface Props {
   passage: Passage;
@@ -26,12 +27,11 @@ export default function PassageStep2Difficulty({ passage, onAnalyzed }: Props) {
   // Non-blocking — if the call fails the link still works as a fallback.
   useEffect(() => {
     let cancelled = false;
-    fetch('/api/settings')
-      .then((r) => (r.ok ? (r.json() as Promise<FlashcardSettings>) : null))
+    apiJson<FlashcardSettings>('/api/settings')
       .then((s) => {
-        if (!cancelled && s && s.user_cefr_level) setUserLevel(s.user_cefr_level);
+        if (!cancelled && s.user_cefr_level) setUserLevel(s.user_cefr_level);
       })
-      .catch(() => {});
+      .catch(() => {/* fall back to no inline label */});
     return () => {
       cancelled = true;
     };

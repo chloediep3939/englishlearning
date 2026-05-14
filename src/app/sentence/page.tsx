@@ -6,6 +6,7 @@ import { ArrowLeft, PenLine } from 'lucide-react';
 import QuizSetup, { type QuizMode } from '@/components/QuizSetup';
 import SentenceSession from '@/components/SentenceSession';
 import LoadingState from '@/components/common/LoadingState';
+import { apiJson } from '@/lib/common/api-json';
 import type { Flashcard, FlashcardSettings } from '@/lib/types';
 
 type Phase = 'setup' | 'loading' | 'session';
@@ -27,8 +28,7 @@ export default function SentencePage() {
   const [loadError, setLoadError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('/api/settings')
-      .then((r) => r.json() as Promise<FlashcardSettings>)
+    apiJson<FlashcardSettings>('/api/settings')
       .then((s) => {
         if (typeof s.f2_timer_seconds === 'number' && s.f2_timer_seconds >= 15) {
           setTimerSeconds(s.f2_timer_seconds);

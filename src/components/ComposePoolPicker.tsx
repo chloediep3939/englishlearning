@@ -11,6 +11,7 @@ import type {
   FlashcardDeckWithCounts,
   FlashcardSettings,
 } from '@/lib/types';
+import { apiJson } from '@/lib/common/api-json';
 
 export interface ComposePoolSelection {
   source: CompositionSource;
@@ -43,8 +44,7 @@ export default function ComposePoolPicker({ onConfirm }: Props) {
 
   // Settings + initial load
   useEffect(() => {
-    fetch('/api/settings')
-      .then((r) => r.json() as Promise<FlashcardSettings>)
+    apiJson<FlashcardSettings>('/api/settings')
       .then((s) => {
         if (typeof s.f3_max_words_per_composition === 'number' && s.f3_max_words_per_composition >= 5) {
           setMaxWords(s.f3_max_words_per_composition);
@@ -57,14 +57,14 @@ export default function ComposePoolPicker({ onConfirm }: Props) {
     const start = new Date();
     start.setHours(0, 0, 0, 0);
     const since = start.toISOString();
-    fetch(`/api/compose/today-pool?since=${encodeURIComponent(since)}&limit=${DEFAULT_MAX}`)
-      .then((r) => r.json() as Promise<{ cards: Flashcard[] }>)
+    apiJson<{ cards: Flashcard[] }>(
+      `/api/compose/today-pool?since=${encodeURIComponent(since)}&limit=${DEFAULT_MAX}`
+    )
       .then(({ cards }) => setTodayWords(cards))
       .catch(() => setTodayWords([]))
       .finally(() => setTodayLoading(false));
 
-    fetch('/api/decks')
-      .then((r) => r.json() as Promise<{ decks: FlashcardDeckWithCounts[] }>)
+    apiJson<{ decks: FlashcardDeckWithCounts[] }>('/api/decks')
       .then(({ decks }) => setDecks(decks ?? []))
       .catch(() => {});
   }, []);
@@ -78,8 +78,7 @@ export default function ComposePoolPicker({ onConfirm }: Props) {
     }
     setDeckWordsLoading(true);
     setSelectedWordIds(new Set());
-    fetch(`/api/cards?deck_id=${selectedDeckId}&limit=500`)
-      .then((r) => r.json() as Promise<{ cards: Flashcard[] }>)
+    apiJson<{ cards: Flashcard[] }>(`/api/cards?deck_id=${selectedDeckId}&limit=500`)
       .then(({ cards }) => setDeckWords(cards ?? []))
       .catch(() => setDeckWords([]))
       .finally(() => setDeckWordsLoading(false));

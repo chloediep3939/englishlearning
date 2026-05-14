@@ -10,6 +10,7 @@ import type {
   FlashcardDeckWithCounts,
   FlashcardImageAttribution,
 } from '@/lib/types';
+import { apiJson } from '@/lib/common/api-json';
 
 interface GeneratedData {
   english: string;
@@ -47,8 +48,7 @@ export default function AddCardForm() {
   const userEditedVi = useRef(false);
 
   useEffect(() => {
-    fetch('/api/decks')
-      .then((r) => r.json() as Promise<{ decks?: FlashcardDeckWithCounts[] }>)
+    apiJson<{ decks?: FlashcardDeckWithCounts[] }>('/api/decks')
       .then((d) => setDecks(d.decks ?? []))
       .catch(() => {});
   }, []);

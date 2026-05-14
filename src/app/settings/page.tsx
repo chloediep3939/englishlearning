@@ -12,6 +12,7 @@ import SettingsCard from '@/components/SettingsCard';
 import type { FlashcardSettings, CefrLevel, ThemeMode } from '@/lib/types';
 import { M3_SETTINGS, M4_SETTINGS } from '@/lib/types';
 import { setStoredVoicePreference, speak } from '@/lib/tts';
+import { apiJson } from '@/lib/common/api-json';
 
 export default function SettingsPage() {
   const [settings, setSettings] = useState<FlashcardSettings | null>(null);
@@ -20,8 +21,7 @@ export default function SettingsPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('/api/settings')
-      .then((r) => r.json() as Promise<FlashcardSettings>)
+    apiJson<FlashcardSettings>('/api/settings')
       .then((d) => {
         setSettings(d);
         // Mirror voice preference into localStorage so AudioButton picks it

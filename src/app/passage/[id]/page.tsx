@@ -12,6 +12,7 @@ import PassageStep3Reader from '@/components/passage/PassageStep3Reader';
 import PassageStep7Translate from '@/components/passage/PassageStep7Translate';
 import PassageStep8Paraphrase from '@/components/passage/PassageStep8Paraphrase';
 import LoadingState from '@/components/common/LoadingState';
+import { apiJson } from '@/lib/common/api-json';
 
 const VALID_STEPS: ReadonlySet<StepNumber> = new Set([1, 2, 3, 7, 8] as const);
 
@@ -24,11 +25,7 @@ export default function PassageDetailPage() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch(`/api/passages/${params.id}`)
-      .then(async (r) => {
-        if (!r.ok) throw new Error('not_found');
-        return r.json() as Promise<{ passage: Passage }>;
-      })
+    apiJson<{ passage: Passage }>(`/api/passages/${params.id}`)
       .then(({ passage }) => {
         if (cancelled) return;
         setPassage(passage);

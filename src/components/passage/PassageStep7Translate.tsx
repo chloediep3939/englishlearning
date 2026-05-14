@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import LoadingState from '@/components/common/LoadingState';
 import { FeedbackSection } from '@/components/common/FeedbackSection';
 import type { Passage, PassageAttempt, TranslationFeedback } from '@/lib/types';
+import { apiJson } from '@/lib/common/api-json';
 
 interface Props {
   passage: Passage;
@@ -24,10 +25,12 @@ export default function PassageStep7Translate({ passage }: Props) {
 
   useEffect(() => {
     if (reference) return;
-    void fetch(`/api/passages/${passage.id}/translate-reference`, { method: 'POST' })
-      .then((r) => (r.ok ? (r.json() as Promise<{ reference: string }>) : null))
+    void apiJson<{ reference: string }>(
+      `/api/passages/${passage.id}/translate-reference`,
+      { method: 'POST' }
+    )
       .then((d) => {
-        if (d?.reference) setReference(d.reference);
+        if (d.reference) setReference(d.reference);
       })
       .catch(() => {});
   }, [passage.id, reference]);

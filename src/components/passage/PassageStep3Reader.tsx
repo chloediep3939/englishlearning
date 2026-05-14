@@ -10,6 +10,7 @@ import type {
   Passage,
   WordDefinitionInContext,
 } from '@/lib/types';
+import { apiJson } from '@/lib/common/api-json';
 
 interface Props {
   passage: Passage;
@@ -90,26 +91,21 @@ export default function PassageStep3Reader({ passage }: Props) {
   // ---- Initial loads: saved words + decks + settings ----
   useEffect(() => {
     let cancelled = false;
-    fetch(`/api/cards?source_passage_id=${passage.id}`)
-      .then((r) => (r.ok ? (r.json() as Promise<{ cards: Flashcard[] }>) : Promise.reject()))
+    apiJson<{ cards: Flashcard[] }>(`/api/cards?source_passage_id=${passage.id}`)
       .then(({ cards }) => {
         if (cancelled) return;
         setSavedWords(new Set(cards.map((c) => c.english.toLowerCase())));
       })
       .catch(() => {});
 
-    fetch('/api/decks')
-      .then((r) =>
-        r.ok ? (r.json() as Promise<{ decks: FlashcardDeckWithCounts[] }>) : Promise.reject(),
-      )
+    apiJson<{ decks: FlashcardDeckWithCounts[] }>('/api/decks')
       .then(({ decks }) => {
         if (cancelled) return;
         setDecks(decks ?? []);
       })
       .catch(() => {});
 
-    fetch('/api/settings')
-      .then((r) => (r.ok ? (r.json() as Promise<FlashcardSettings>) : Promise.reject()))
+    apiJson<FlashcardSettings>('/api/settings')
       .then((s) => {
         if (cancelled) return;
         if (typeof s.passage_tts_rate === 'number') setTtsRate(s.passage_tts_rate);
@@ -184,23 +180,19 @@ export default function PassageStep3Reader({ passage }: Props) {
         error: '',
       });
 
-      fetch(`/api/passages/${passage.id}/define-word`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ word: token.text, sentence_context: sentence }),
-      })
-        .then(async (r) => {
-          if (!r.ok) {
-            const b = (await r.json().catch(() => ({}))) as { error?: string };
-            throw new Error(b.error ?? 'AI lỗi');
-          }
-          return r.json() as Promise<{ definition: WordDefinitionInContext }>;
-        })
+      apiJson<{ definition: WordDefinitionInContext }>(
+        `/api/passages/${passage.id}/define-word`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ word: token.text, sentence_context: sentence }),
+        },
+      )
         .then(({ definition }) =>
           setPopup((p) => (p ? { ...p, phase: 'definition', definition } : p)),
         )
         .catch((e: unknown) => {
-          const msg = e instanceof Error ? e.message : 'Lỗi';
+          const msg = e instanceof Error ? e.message : 'AI lỗi';
           setPopup((p) => (p ? { ...p, phase: 'error', error: msg } : p));
         });
     },

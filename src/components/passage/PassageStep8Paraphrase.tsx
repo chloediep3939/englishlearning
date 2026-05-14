@@ -5,6 +5,7 @@ import { ChevronDown, ChevronRight } from 'lucide-react';
 import LoadingState from '@/components/common/LoadingState';
 import { FeedbackSection } from '@/components/common/FeedbackSection';
 import type { ParaphraseFeedback, Passage, PassageAttempt } from '@/lib/types';
+import { apiJson } from '@/lib/common/api-json';
 
 interface Props {
   passage: Passage;
@@ -23,10 +24,12 @@ export default function PassageStep8Paraphrase({ passage }: Props) {
   // Same idempotent route as the pre-fetch — second call hits the cache.
   useEffect(() => {
     if (tips && tips.length > 0) return;
-    void fetch(`/api/passages/${passage.id}/paraphrase-tips`, { method: 'POST' })
-      .then((r) => (r.ok ? (r.json() as Promise<{ tips: string[] }>) : null))
+    void apiJson<{ tips: string[] }>(
+      `/api/passages/${passage.id}/paraphrase-tips`,
+      { method: 'POST' }
+    )
       .then((d) => {
-        if (d?.tips && d.tips.length > 0) setTips(d.tips);
+        if (d.tips && d.tips.length > 0) setTips(d.tips);
       })
       .catch(() => {});
   }, [passage.id, tips]);

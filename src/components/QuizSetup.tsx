@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import type { ReactNode } from 'react';
 import type { FlashcardDeck, FlashcardDeckWithCounts } from '@/lib/types';
+import { apiJson } from '@/lib/common/api-json';
 
 export interface QuizMode<V extends string = string> {
   value: V;
@@ -46,8 +47,7 @@ export default function QuizSetup<V extends string = string>({
   const [decks, setDecks] = useState<FlashcardDeckWithCounts[]>([]);
 
   useEffect(() => {
-    fetch('/api/decks')
-      .then((r) => r.json() as Promise<{ decks?: FlashcardDeckWithCounts[] }>)
+    apiJson<{ decks?: FlashcardDeckWithCounts[] }>('/api/decks')
       .then((d) => setDecks(d.decks ?? []))
       .catch(() => {});
   }, []);
