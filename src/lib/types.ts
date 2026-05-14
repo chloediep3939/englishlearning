@@ -198,6 +198,9 @@ export interface FlashcardSettings {
   autoplay_audio: boolean;            // auto-play TTS on reveal
   voice_preference: string;           // SpeechSynthesisVoice name, 'auto' = browser default
   theme: ThemeMode;
+  // ----- Pomodoro -----
+  pomodoro_work_minutes: number;      // length of a focus phase, default 25
+  pomodoro_break_minutes: number;     // length of a break phase, default 5
 }
 
 export type ThemeMode = 'light' | 'dark' | 'system';

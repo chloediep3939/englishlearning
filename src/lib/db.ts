@@ -637,6 +637,46 @@ export const flashcardReviewsDb = {
     }));
   },
 
+  /**
+   * Returns the user's longest historical streak (in days) — the max-consecutive-day
+   * count across all their review activity. Used by the dashboard streak bar's
+   * "kỷ lục: N" subtitle. Reads the same `flashcard_reviews` table as
+   * `getStreakDays` and walks distinct review-dates ascending. O(unique-days).
+   */
+  async getLongestStreak(userId: number): Promise<number> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `SELECT date(reviewed_at, 'localtime') as d
+         FROM flashcard_reviews
+         WHERE user_id = ?
+         GROUP BY date(reviewed_at, 'localtime')
+         ORDER BY d ASC`
+      )
+      .bind(userId)
+      .all<{ d: string }>();
+    if (result.results.length === 0) return 0;
+    let longest = 1;
+    let current = 1;
+    let prevTime: number | null = null;
+    const DAY_MS = 24 * 60 * 60 * 1000;
+    for (const row of result.results) {
+      const t = new Date(row.d).setHours(0, 0, 0, 0);
+      if (prevTime !== null) {
+        const diff = Math.round((t - prevTime) / DAY_MS);
+        if (diff === 1) {
+          current += 1;
+        } else if (diff > 1) {
+          current = 1;
+        }
+        // diff === 0 should not happen because of GROUP BY, but treat as no-op.
+      }
+      if (current > longest) longest = current;
+      prevTime = t;
+    }
+    return longest;
+  },
+
   async getRetentionRate(userId: number, days: number = 7): Promise<number> {
     const db = await getDb();
     const row = await db
@@ -768,6 +808,9 @@ const SETTINGS_KEYS = [
   'autoplay_audio',
   'voice_preference',
   'theme',
+  // Pomodoro keys
+  'pomodoro_work_minutes',
+  'pomodoro_break_minutes',
 ] as const;
 
 const THEME_VALUES: ReadonlyArray<'light' | 'dark' | 'system'> = ['light', 'dark', 'system'];
@@ -813,6 +856,9 @@ export const userSettingsDb = {
       autoplay_audio: (map.get('autoplay_audio') ?? '1') === '1',
       voice_preference: map.get('voice_preference') ?? 'auto',
       theme: parseTheme(map.get('theme')),
+      // Pomodoro defaults — 25/5 (standard Pomodoro technique).
+      pomodoro_work_minutes: Number(map.get('pomodoro_work_minutes')) || 25,
+      pomodoro_break_minutes: Number(map.get('pomodoro_break_minutes')) || 5,
     };
   },
 
@@ -847,6 +893,8 @@ export const userSettingsDb = {
     if (partial.autoplay_audio !== undefined)               upsert('autoplay_audio', partial.autoplay_audio ? '1' : '0');
     if (partial.voice_preference !== undefined)             upsert('voice_preference', partial.voice_preference);
     if (partial.theme !== undefined)                        upsert('theme', partial.theme);
+    if (partial.pomodoro_work_minutes !== undefined)        upsert('pomodoro_work_minutes', String(partial.pomodoro_work_minutes));
+    if (partial.pomodoro_break_minutes !== undefined)       upsert('pomodoro_break_minutes', String(partial.pomodoro_break_minutes));
     if (stmts.length === 0) return;
     await db.batch(stmts);
   },

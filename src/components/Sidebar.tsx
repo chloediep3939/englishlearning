@@ -1,13 +1,14 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import {
   LayoutGrid, Plus, BookOpen, RotateCcw, Zap, FileText,
   Library, Folder, BarChart3, Settings, Mic, PenLine, BookOpenText, Newspaper,
+  PanelLeftClose, PanelLeftOpen,
 } from 'lucide-react';
-import Mascot from '@/components/common/Mascot';
 import LogoutButton from './LogoutButton';
 
 interface NavItem {
@@ -42,15 +43,43 @@ interface Props {
   userPicture?: string | null;
 }
 
+const STORAGE_KEY = 'sidebar_collapsed';
+
 export default function Sidebar({ userEmail, userName, userPicture }: Props) {
   const pathname = usePathname();
+  const [collapsed, setCollapsed] = useState(false);
+  // Defer rendering of the avatar/name block until we've read localStorage
+  // so SSR + initial paint match — no flash of the wrong width.
+  const [hydrated, setHydrated] = useState(false);
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw === '1') setCollapsed(true);
+    } catch {
+      /* ignore */
+    }
+    setHydrated(true);
+  }, []);
+
+  function toggle() {
+    const next = !collapsed;
+    setCollapsed(next);
+    try {
+      localStorage.setItem(STORAGE_KEY, next ? '1' : '0');
+    } catch {
+      /* ignore */
+    }
+  }
+
+  const width = collapsed ? 64 : 196;
 
   return (
     <aside
       style={{
-        width: 196,
+        width,
         flexShrink: 0,
-        padding: '18px 12px',
+        padding: collapsed ? '14px 8px' : '18px 12px',
         background: 'var(--v-panel)',
         borderRight: '1px solid var(--v-border)',
         display: 'flex',
@@ -59,21 +88,57 @@ export default function Sidebar({ userEmail, userName, userPicture }: Props) {
         height: '100vh',
         position: 'sticky',
         top: 0,
+        transition: 'width 200ms ease, padding 200ms ease',
+        overflow: 'hidden',
       }}
     >
+      {/* Collapse toggle */}
       <div
         style={{
-          padding: '0 10px 8px',
-          fontFamily: 'var(--v-font-body)',
-          fontSize: 10,
-          fontWeight: 800,
-          letterSpacing: 'var(--v-tracking-wider)',
-          textTransform: 'uppercase',
-          color: 'var(--v-muted)',
+          display: 'flex',
+          justifyContent: collapsed ? 'center' : 'flex-end',
+          marginBottom: 4,
         }}
       >
-        Module
+        <button
+          type="button"
+          onClick={toggle}
+          title={collapsed ? 'Mở sidebar' : 'Thu gọn sidebar'}
+          aria-label={collapsed ? 'Mở sidebar' : 'Thu gọn sidebar'}
+          style={{
+            width: 28,
+            height: 28,
+            padding: 0,
+            background: 'transparent',
+            border: '1px solid var(--v-border)',
+            borderRadius: 8,
+            color: 'var(--v-ink-soft)',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            cursor: 'pointer',
+            flexShrink: 0,
+          }}
+        >
+          {collapsed ? <PanelLeftOpen size={14} /> : <PanelLeftClose size={14} />}
+        </button>
       </div>
+
+      {!collapsed && (
+        <div
+          style={{
+            padding: '0 10px 8px',
+            fontFamily: 'var(--v-font-body)',
+            fontSize: 10,
+            fontWeight: 800,
+            letterSpacing: 'var(--v-tracking-wider)',
+            textTransform: 'uppercase',
+            color: 'var(--v-muted)',
+          }}
+        >
+          Module
+        </div>
+      )}
 
       <nav style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
         {NAV.map((item) => {
@@ -85,11 +150,13 @@ export default function Sidebar({ userEmail, userName, userPicture }: Props) {
             <Link
               key={item.href}
               href={item.href}
+              title={collapsed ? item.label : undefined}
               style={{
                 display: 'flex',
                 alignItems: 'center',
-                gap: 10,
-                padding: '8px 10px',
+                gap: collapsed ? 0 : 10,
+                justifyContent: collapsed ? 'center' : 'flex-start',
+                padding: collapsed ? '8px 0' : '8px 10px',
                 borderRadius: 11,
                 background: active ? 'var(--v-surface)' : 'transparent',
                 boxShadow: active ? 'var(--v-shadow-sm)' : 'none',
@@ -98,6 +165,7 @@ export default function Sidebar({ userEmail, userName, userPicture }: Props) {
                 fontWeight: active ? 800 : 700,
                 fontSize: 13,
                 transition: 'background 120ms var(--v-ease)',
+                textDecoration: 'none',
               }}
             >
               <div
@@ -115,50 +183,28 @@ export default function Sidebar({ userEmail, userName, userPicture }: Props) {
               >
                 <Icon size={13} color="#fff" strokeWidth={2.4} />
               </div>
-              {item.label}
+              {!collapsed && item.label}
             </Link>
           );
         })}
       </nav>
 
-      {/* Sleeping mascot footer — pushed to bottom by marginTop: auto. */}
-      <div
-        style={{
-          marginTop: 'auto',
-          padding: '0 10px',
-          display: 'flex',
-          alignItems: 'center',
-          gap: 8,
-          opacity: 0.9,
-        }}
-      >
-        <Mascot pose="sleep" size={34} />
+      {/* User info + logout (project-only — not in design). Hydration-guarded so
+          SSR doesn't render the expanded version then snap to collapsed. */}
+      {hydrated && userEmail && (
         <div
           style={{
-            fontFamily: 'var(--v-font-body)',
-            fontSize: 10,
-            fontWeight: 700,
-            color: 'var(--v-muted)',
-            lineHeight: 1.35,
-          }}
-        >
-          Mình ngủ trưa<br />tí xíu rồi học tiếp
-        </div>
-      </div>
-
-      {/* User info + logout (project-only — not in design). */}
-      {userEmail && (
-        <div
-          style={{
-            marginTop: 12,
-            padding: 10,
+            marginTop: 'auto',
+            padding: collapsed ? 6 : 10,
             background: 'var(--v-surface)',
             border: '1px solid var(--v-border)',
             borderRadius: 'var(--v-radius-md)',
             display: 'flex',
             alignItems: 'center',
-            gap: 8,
+            justifyContent: collapsed ? 'center' : 'flex-start',
+            gap: collapsed ? 0 : 8,
           }}
+          title={collapsed ? (userName ?? userEmail) : undefined}
         >
           {userPicture ? (
             <Image
@@ -182,31 +228,36 @@ export default function Sidebar({ userEmail, userName, userPicture }: Props) {
                 fontFamily: 'var(--v-font-head)',
                 fontWeight: 900,
                 fontSize: 12,
+                flexShrink: 0,
               }}
             >
               {(userName ?? userEmail).charAt(0).toUpperCase()}
             </div>
           )}
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <div
-              style={{
-                fontFamily: 'var(--v-font-head)',
-                fontSize: 'var(--v-text-sm)',
-                fontWeight: 800,
-                color: 'var(--v-ink)',
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                whiteSpace: 'nowrap',
-              }}
-            >
-              {userName ?? userEmail.split('@')[0]}
+          {!collapsed && (
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div
+                style={{
+                  fontFamily: 'var(--v-font-head)',
+                  fontSize: 'var(--v-text-sm)',
+                  fontWeight: 800,
+                  color: 'var(--v-ink)',
+                  overflow: 'hidden',
+                  textOverflow: 'ellipsis',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                {userName ?? userEmail.split('@')[0]}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       )}
-      <div style={{ marginTop: 6 }}>
-        <LogoutButton />
-      </div>
+      {!collapsed && (
+        <div style={{ marginTop: 6 }}>
+          <LogoutButton />
+        </div>
+      )}
     </aside>
   );
 }

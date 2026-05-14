@@ -80,6 +80,13 @@ export async function PUT(req: Request) {
     if (typeof body.theme === 'string' && (body.theme === 'light' || body.theme === 'dark' || body.theme === 'system')) {
       partial.theme = body.theme;
     }
+    // ----- Pomodoro -----
+    if (typeof body.pomodoro_work_minutes === 'number' && body.pomodoro_work_minutes >= 1 && body.pomodoro_work_minutes <= 120) {
+      partial.pomodoro_work_minutes = Math.floor(body.pomodoro_work_minutes);
+    }
+    if (typeof body.pomodoro_break_minutes === 'number' && body.pomodoro_break_minutes >= 1 && body.pomodoro_break_minutes <= 60) {
+      partial.pomodoro_break_minutes = Math.floor(body.pomodoro_break_minutes);
+    }
 
     await userSettingsDb.updateFlashcardSettings(userId, partial);
     const settings = await userSettingsDb.getFlashcardSettings(userId);

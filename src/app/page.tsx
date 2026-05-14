@@ -1,8 +1,10 @@
 export const dynamic = 'force-dynamic';
 
 import Link from 'next/link';
-import { Flame, Gem, Play, Sparkles, BookOpen, RotateCcw, Trophy, Check, Zap } from 'lucide-react';
+import { Flame, Play, Sparkles, BookOpen, RotateCcw, Trophy, Zap } from 'lucide-react';
 import Mascot from '@/components/common/Mascot';
+import ClockPill from '@/components/pomodoro/clock-pill';
+import StreakBar from '@/components/dashboard/streak-bar';
 import { requireUserId } from '@/lib/current-user';
 import {
   flashcardsDb,
@@ -12,8 +14,6 @@ import {
   getDb,
 } from '@/lib/db';
 
-const DAY_LABELS = ['T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'CN'];
-
 function daysAgoIso(n: number): string {
   const d = new Date();
   d.setHours(0, 0, 0, 0);
@@ -22,21 +22,16 @@ function daysAgoIso(n: number): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
-function dayOfWeekLabel(iso: string): string {
-  const d = new Date(iso + 'T00:00:00');
-  const dow = (d.getDay() + 6) % 7; // Mon=0..Sun=6
-  return DAY_LABELS[dow];
-}
-
 export default async function DashboardPage() {
   const userId = await requireUserId();
   const db = await getDb();
 
-  const [counts, todayCount, streak, dueRow, activity14, activity30, decks, settings] =
+  const [counts, todayCount, streak, longestStreak, dueRow, activity30, decks, settings] =
     await Promise.all([
       flashcardsDb.countByStatus(userId),
       flashcardReviewsDb.getTodayCount(userId),
       flashcardReviewsDb.getStreakDays(userId),
+      flashcardReviewsDb.getLongestStreak(userId),
       db
         .prepare(
           `SELECT COUNT(*) as n FROM flashcards
@@ -45,7 +40,6 @@ export default async function DashboardPage() {
         )
         .bind(userId)
         .first<{ n: number }>(),
-      flashcardReviewsDb.getActivityLastDays(userId, 14),
       flashcardReviewsDb.getActivityLastDays(userId, 30),
       flashcardDecksDb.getAllWithCounts(userId),
       userSettingsDb.getFlashcardSettings(userId),
@@ -63,16 +57,9 @@ export default async function DashboardPage() {
   const greeting =
     hour < 11 ? 'Chào buổi sáng' : hour < 14 ? 'Chào buổi trưa' : hour < 18 ? 'Chào buổi chiều' : 'Chào buổi tối';
 
-  const activityByDate = new Map(activity14.map((a) => [a.date, a.new + a.review]));
-  const stripDays = Array.from({ length: 14 }, (_, i) => {
-    const iso = daysAgoIso(13 - i);
-    return {
-      iso,
-      label: dayOfWeekLabel(iso),
-      count: activityByDate.get(iso) ?? 0,
-      isToday: i === 13,
-    };
-  });
+  // Did the user review today? Used by the streak bar to render today's cell
+  // as completed (check) vs pending (dashed + dot).
+  const reviewedToday = todayCount > 0;
 
   // Decks-by-progress: show top 5 by total card count
   const topDecks = decks
@@ -102,15 +89,12 @@ export default async function DashboardPage() {
             {greeting}, <span style={{ color: 'var(--v-primary)' }}>bạn</span>!
           </h1>
         </div>
-        <div style={{ display: 'flex', gap: 8 }}>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
           <TopPill
             icon={<Flame size={18} color="var(--v-red)" fill={streak > 0 ? 'var(--v-red)' : 'none'} />}
             value={streak}
           />
-          <TopPill
-            icon={<Gem size={18} color="var(--v-blue)" fill="var(--v-blue)" />}
-            value={counts.mastered}
-          />
+          <ClockPill />
         </div>
       </div>
 
@@ -298,74 +282,12 @@ export default async function DashboardPage() {
         </div>
       </section>
 
-      {/* 14-day calendar strip */}
-      <div className="v-card" style={{ padding: 14, display: 'flex', alignItems: 'center', gap: 16 }}>
-        <div style={{ flexShrink: 0, paddingRight: 14, borderRight: '1px dashed var(--v-border)' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-            <div
-              style={{
-                width: 36,
-                height: 36,
-                borderRadius: 11,
-                background: 'var(--v-red)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                boxShadow: '0 2px 4px rgba(255,87,87,0.3)',
-              }}
-            >
-              <Flame size={17} color="#fff" fill="#fff" />
-            </div>
-            <div>
-              <div style={{ fontFamily: 'var(--v-font-head)', fontSize: 18, fontWeight: 900, lineHeight: 1 }}>
-                {streak} ngày
-              </div>
-              <div style={{ fontFamily: 'var(--v-font-body)', fontSize: 11, fontWeight: 700, color: 'var(--v-muted)' }}>
-                {streak >= 1 ? 'streak đang chạy' : 'bắt đầu lại nha'}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div style={{ flex: 1, display: 'grid', gridTemplateColumns: 'repeat(14, 1fr)', gap: 4 }}>
-          {stripDays.map((d) => {
-            const isPast = d.count > 0 && !d.isToday;
-            return (
-              <div key={d.iso} style={{ textAlign: 'center' }}>
-                <div style={{ fontFamily: 'var(--v-font-body)', fontSize: 9, fontWeight: 700, color: 'var(--v-muted)' }}>
-                  {d.label}
-                </div>
-                <div
-                  style={{
-                    marginTop: 3,
-                    height: 30,
-                    borderRadius: 9,
-                    background: isPast ? 'var(--v-primary)' : d.isToday ? '#fff' : 'var(--v-panel)',
-                    border: `1.5px ${d.isToday ? 'dashed' : 'solid'} ${
-                      isPast || d.isToday ? 'var(--v-primary)' : 'var(--v-border)'
-                    }`,
-                    boxShadow: isPast ? '0 1px 0 rgba(60,20,5,0.1)' : 'none',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  {isPast && <Check size={14} color="#fff" strokeWidth={3.5} />}
-                  {d.isToday && (
-                    <span
-                      style={{
-                        width: 6,
-                        height: 6,
-                        background: d.count > 0 ? 'var(--v-primary)' : 'var(--v-accent)',
-                        borderRadius: '50%',
-                      }}
-                    />
-                  )}
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
+      {/* 14-day streak bar — past/today/future cells with streak # + date labels */}
+      <StreakBar
+        streak={streak}
+        reviewedToday={reviewedToday}
+        longestStreak={longestStreak}
+      />
 
       {/* 4 stat tiles */}
       <section style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 10 }}>
