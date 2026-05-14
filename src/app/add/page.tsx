@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic';
 
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
-import AddCardForm from '@/components/AddCardForm';
+import AddTabs from '@/components/add/add-tabs';
 
 export default function AddPage() {
   return (
@@ -45,7 +45,7 @@ export default function AddPage() {
         Nhập từ tiếng Anh và nghĩa — Bún sẽ tự sinh IPA, ví dụ, ảnh, collocation.
       </p>
 
-      <AddCardForm />
+      <AddTabs />
     </div>
   );
 }

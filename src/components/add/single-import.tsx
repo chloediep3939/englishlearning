@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Check, Sparkles, RefreshCw, Volume2 } from 'lucide-react';
-import AudioButton from './AudioButton';
+import AudioButton from '@/components/AudioButton';
 import POSPill from '@/components/common/POSPill';
 import LookupPills from '@/components/common/LookupPills';
 import type {
@@ -30,7 +30,7 @@ interface GeneratedData {
   image_attribution: FlashcardImageAttribution | null;
 }
 
-export default function AddCardForm() {
+export default function SingleImport() {
   const router = useRouter();
   const [english, setEnglish] = useState('');
   const [vietnamese, setVietnamese] = useState('');

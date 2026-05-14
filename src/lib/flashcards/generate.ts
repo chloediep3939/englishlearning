@@ -43,17 +43,19 @@ export interface GeneratedCardData {
  * upstream failures degrade fields to null rather than throw.
  *
  * `imageSkip` lets the manual-add UI re-roll the Pexels result; pass 0 for
- * first-time generation.
+ * first-time generation. When `skipImage` is true, Pexels is skipped entirely
+ * (used by bulk import, where image fetch is the slowest leg).
  */
 export async function generateCardData(
   english: string,
   imageSkip: number = 0,
+  skipImage: boolean = false,
 ): Promise<GeneratedCardData> {
   const [dict, collocations, wordVi, pexels] = await Promise.all([
     lookupWord(english),
     getCollocations(english),
     translateEnToVi(english),
-    getPexelsImage(english, imageSkip),
+    skipImage ? Promise.resolve(null) : getPexelsImage(english, imageSkip),
   ]);
 
   const dictExamples: FlashcardExample[] = (dict?.examples ?? []).map((e) => ({ en: e.en }));
