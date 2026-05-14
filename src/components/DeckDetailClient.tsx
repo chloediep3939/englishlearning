@@ -105,6 +105,33 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
     }
   }
 
+  // Replace the row in `cards` with the just-saved version. The modal
+  // closes itself via setMode('view'); we keep it open showing the
+  // refreshed data so the user can confirm the change visually.
+  function handleCardSaved(updated: Flashcard) {
+    setCards((prev) => prev.map((c) => (c.id === updated.id ? updated : c)));
+    setSelectedCard(updated);
+  }
+
+  async function handleSetDefault() {
+    if (deck.is_default) return;
+    try {
+      const res = await fetch(`/api/decks/${deck.id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ is_default: true }),
+      });
+      if (!res.ok) {
+        alert('Không đặt được mặc định.');
+        return;
+      }
+      // Server-component refetch picks up the new is_default flag.
+      router.refresh();
+    } catch {
+      alert('Lỗi kết nối.');
+    }
+  }
+
   return (
     <div>
       {/* Header row: back + edit/delete */}
@@ -129,7 +156,35 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
         >
           <ArrowLeft size={14} /> Bộ từ
         </Link>
-        <div style={{ display: 'flex', gap: 8 }}>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap' }}>
+          {deck.is_default ? (
+            <span
+              style={{
+                padding: '6px 10px',
+                background: 'var(--v-primary-soft)',
+                color: 'var(--v-primary-deep)',
+                borderRadius: 'var(--v-radius-pill)',
+                fontFamily: 'var(--v-font-head)',
+                fontWeight: 800,
+                fontSize: 'var(--v-text-xs)',
+                letterSpacing: 'var(--v-tracking-wide)',
+                textTransform: 'uppercase',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 4,
+              }}
+            >
+              <Star size={12} fill="currentColor" /> Mặc định
+            </span>
+          ) : (
+            <button
+              type="button"
+              onClick={handleSetDefault}
+              style={{ ...smallBtnStyle(), color: 'var(--v-primary)' }}
+            >
+              <Star size={12} /> Đặt mặc định
+            </button>
+          )}
           <button
             type="button"
             onClick={() => setEditing(true)}
@@ -306,6 +361,7 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
             <WordRow
               key={card.id}
               card={card}
+              index={idx + 1}
               isLast={idx === filtered.length - 1}
               onClick={() => setSelectedCard(card)}
             />
@@ -329,6 +385,7 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
           card={selectedCard}
           onClose={() => setSelectedCard(null)}
           onDelete={() => handleDeleteCard(selectedCard.id)}
+          onSaved={handleCardSaved}
         />
       )}
     </div>

@@ -216,6 +216,29 @@ export const flashcardDecksDb = {
       .run();
   },
 
+  /**
+   * Flip the user's "default" deck to `id`. Clears the existing default
+   * deck's flag first, then sets the new one — in one D1 batch so the
+   * single-default-per-user invariant is preserved even on partial
+   * failure. No-op if the deck isn't owned by `userId`.
+   */
+  async setDefault(userId: number, id: number): Promise<void> {
+    const db = await getDb();
+    const target = await db
+      .prepare('SELECT id FROM flashcard_decks WHERE id = ? AND user_id = ?')
+      .bind(id, userId)
+      .first<{ id: number }>();
+    if (!target) return;
+    await db.batch([
+      db
+        .prepare('UPDATE flashcard_decks SET is_default = 0 WHERE user_id = ? AND is_default = 1')
+        .bind(userId),
+      db
+        .prepare('UPDATE flashcard_decks SET is_default = 1 WHERE id = ? AND user_id = ?')
+        .bind(id, userId),
+    ]);
+  },
+
   async delete(userId: number, id: number): Promise<void> {
     const db = await getDb();
     const deck = await db

@@ -1,8 +1,9 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import { ArrowLeft, Send, AlertTriangle } from 'lucide-react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { ArrowLeft, Send, AlertTriangle, Sparkles, Check, Loader2 } from 'lucide-react';
 import Mascot from '@/components/common/Mascot';
+import { apiJson } from '@/lib/common/api-json';
 import type { Composition, Flashcard, CompositionSource } from '@/lib/types';
 
 interface EditorPool {
@@ -31,6 +32,11 @@ export default function ComposeEditor({
   const [text, setText] = useState(initialContent);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
+  const [suggesting, setSuggesting] = useState(false);
+  const [suggestError, setSuggestError] = useState<string | null>(null);
+  /** Card id of the chip currently being dragged. Used to dim the source
+   *  chip so the user has a visual handle on the in-flight drag. */
+  const [draggingId, setDraggingId] = useState<number | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
@@ -45,6 +51,23 @@ export default function ComposeEditor({
   let charColor: string = 'var(--v-muted)';
   if (charCount > HARD_CAP) charColor = 'var(--v-red)';
   else if (charCount > SOFT_CAP) charColor = 'var(--v-orange)';
+
+  // Detect which pool words already appear in the textarea. Word-boundary
+  // + optional 0-3 trailing letters catches the headword plus common
+  // English inflections (run/runs/runner, advise/advised, but not "running"
+  // which is 4 extra letters — acceptable trade-off; the server-side AI
+  // grader is the authoritative check). The pattern explicitly avoids
+  // matching subword hits like "before" when the pool word is "be".
+  const usedIds = useMemo(() => {
+    const used = new Set<number>();
+    if (text.trim().length === 0) return used;
+    for (const card of pool.words) {
+      const esc = escapeRegExp(card.english);
+      const re = new RegExp(`\\b${esc}\\w{0,3}\\b`, 'i');
+      if (re.test(text)) used.add(card.id);
+    }
+    return used;
+  }, [text, pool.words]);
 
   async function handleSubmit() {
     if (!canSubmit) return;
@@ -71,6 +94,85 @@ export default function ComposeEditor({
       setError(e instanceof Error ? e.message : 'Lỗi không xác định');
       setSubmitting(false);
     }
+  }
+
+  async function handleSuggest() {
+    if (suggesting) return;
+    if (text.trim().length > 0) {
+      const ok = window.confirm(
+        'Đoạn văn hiện tại sẽ bị ghi đè bằng gợi ý từ Bún. Tiếp tục?',
+      );
+      if (!ok) return;
+    }
+    setSuggesting(true);
+    setSuggestError(null);
+    try {
+      const data = await apiJson<{ story: string }>('/api/compose/suggest', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ pool_word_ids: pool.words.map((w) => w.id) }),
+      });
+      setText(data.story);
+      // Defer focus to next tick so the new value is in the DOM first.
+      setTimeout(() => textareaRef.current?.focus(), 0);
+    } catch (e) {
+      setSuggestError(e instanceof Error ? e.message : 'Không tạo được gợi ý.');
+    } finally {
+      setSuggesting(false);
+    }
+  }
+
+  // ---- Drag-and-drop handlers ----
+
+  function handleChipDragStart(e: React.DragEvent<HTMLSpanElement>, card: Flashcard) {
+    e.dataTransfer.setData('text/plain', card.english);
+    e.dataTransfer.effectAllowed = 'copy';
+    setDraggingId(card.id);
+  }
+
+  function handleChipDragEnd() {
+    setDraggingId(null);
+  }
+
+  function handleTextareaDragOver(e: React.DragEvent<HTMLTextAreaElement>) {
+    // The default text-drop handler would also paste the word, but its caret
+    // position is browser-dependent. Prevent default so we own the insertion.
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'copy';
+  }
+
+  function handleTextareaDrop(e: React.DragEvent<HTMLTextAreaElement>) {
+    e.preventDefault();
+    const word = e.dataTransfer.getData('text/plain');
+    if (!word) return;
+    const ta = textareaRef.current;
+    if (!ta) {
+      // Fallback: append.
+      setText((prev) => (prev.length === 0 ? word + ' ' : prev.replace(/\s*$/, ' ') + word + ' '));
+      return;
+    }
+    // Insert at the current selection (which, during a drop, has been moved
+    // by the browser to the cursor's drop position).
+    const start = ta.selectionStart ?? ta.value.length;
+    const end = ta.selectionEnd ?? start;
+    const before = text.slice(0, start);
+    const after = text.slice(end);
+    // Pad with a leading space if the previous char isn't whitespace, and a
+    // trailing space if the next char isn't whitespace/punctuation. Keeps
+    // dropped words from clobbering neighboring tokens.
+    const needsLeadSpace = before.length > 0 && !/\s$/.test(before);
+    const needsTrailSpace = after.length > 0 && !/^[\s.,;:!?)]/.test(after);
+    const inserted = (needsLeadSpace ? ' ' : '') + word + (needsTrailSpace ? ' ' : ' ');
+    const next = before + inserted + after;
+    setText(next);
+    // Restore cursor after the inserted run.
+    const newCursor = before.length + inserted.length;
+    setTimeout(() => {
+      const node = textareaRef.current;
+      if (!node) return;
+      node.focus();
+      node.setSelectionRange(newCursor, newCursor);
+    }, 0);
   }
 
   if (submitting) {
@@ -120,16 +222,30 @@ export default function ComposeEditor({
       >
         <div
           style={{
-            fontFamily: 'var(--v-font-body)',
-            fontWeight: 700,
-            fontSize: 'var(--v-text-sm)',
-            color: 'var(--v-muted)',
+            display: 'flex',
+            alignItems: 'baseline',
+            justifyContent: 'space-between',
             marginBottom: 8,
-            textTransform: 'uppercase',
-            letterSpacing: 'var(--v-tracking-wider)',
           }}
         >
-          Pool từ vựng ({pool.words.length})
+          <div
+            style={{
+              fontFamily: 'var(--v-font-body)',
+              fontWeight: 700,
+              fontSize: 'var(--v-text-sm)',
+              color: 'var(--v-muted)',
+              textTransform: 'uppercase',
+              letterSpacing: 'var(--v-tracking-wider)',
+            }}
+          >
+            Pool từ vựng ({pool.words.length}) ·{' '}
+            <span style={{ color: 'var(--v-primary)' }}>
+              đã dùng {usedIds.size}/{pool.words.length}
+            </span>
+          </div>
+          <span style={{ color: 'var(--v-muted)', fontSize: 'var(--v-text-xs)' }}>
+            Kéo từ vào ô viết để chèn
+          </span>
         </div>
         <div
           style={{
@@ -140,30 +256,102 @@ export default function ComposeEditor({
             overflowY: 'auto',
           }}
         >
-          {pool.words.map((w) => (
-            <span
-              key={w.id}
-              style={{
-                display: 'inline-flex',
-                alignItems: 'baseline',
-                gap: 6,
-                padding: '5px 10px',
-                borderRadius: 999,
-                border: '1px solid var(--v-border)',
-                background: 'var(--v-surface)',
-                color: 'var(--v-ink)',
-                fontFamily: 'var(--v-font-body)',
-                fontSize: 'var(--v-text-sm)',
-                fontWeight: 700,
-              }}
-            >
-              {w.english}
-              <span style={{ opacity: 0.7, fontWeight: 500, fontSize: 'var(--v-text-xs)' }}>
-                {w.vietnamese}
+          {pool.words.map((w) => {
+            const used = usedIds.has(w.id);
+            const dragging = draggingId === w.id;
+            return (
+              <span
+                key={w.id}
+                draggable
+                onDragStart={(e) => handleChipDragStart(e, w)}
+                onDragEnd={handleChipDragEnd}
+                title={`Kéo "${w.english}" vào đoạn văn`}
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'baseline',
+                  gap: 6,
+                  padding: '5px 10px',
+                  borderRadius: 999,
+                  border: used
+                    ? '1px solid var(--v-primary)'
+                    : '1px solid var(--v-border)',
+                  background: used ? 'var(--v-primary-soft)' : 'var(--v-surface)',
+                  color: used ? 'var(--v-primary-deep)' : 'var(--v-ink)',
+                  fontFamily: 'var(--v-font-body)',
+                  fontSize: 'var(--v-text-sm)',
+                  fontWeight: 700,
+                  cursor: 'grab',
+                  opacity: dragging ? 0.4 : 1,
+                  transition: 'background 150ms var(--v-ease), opacity 100ms var(--v-ease)',
+                  userSelect: 'none',
+                }}
+              >
+                {used && (
+                  <Check
+                    size={11}
+                    strokeWidth={3}
+                    color="var(--v-primary)"
+                    style={{ alignSelf: 'center' }}
+                  />
+                )}
+                {w.english}
+                <span style={{ opacity: 0.7, fontWeight: 500, fontSize: 'var(--v-text-xs)' }}>
+                  {w.vietnamese}
+                </span>
               </span>
-            </span>
-          ))}
+            );
+          })}
         </div>
+      </div>
+
+      {/* Suggest action row */}
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: 10,
+          marginBottom: 10,
+          flexWrap: 'wrap',
+        }}
+      >
+        <button
+          type="button"
+          onClick={handleSuggest}
+          disabled={suggesting || pool.words.length === 0}
+          style={{
+            padding: '8px 14px',
+            borderRadius: 'var(--v-radius-md)',
+            border: '1px solid var(--v-primary)',
+            background: 'var(--v-primary-soft)',
+            color: 'var(--v-primary-deep)',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 800,
+            fontSize: 'var(--v-text-sm)',
+            cursor: suggesting ? 'wait' : 'pointer',
+            opacity: suggesting ? 0.7 : 1,
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 6,
+          }}
+        >
+          {suggesting ? (
+            <Loader2 size={14} style={{ animation: 'v-spin 1s linear infinite' }} />
+          ) : (
+            <Sparkles size={14} />
+          )}
+          {suggesting ? 'Bún đang viết…' : 'Gợi ý câu chuyện'}
+        </button>
+        {suggestError && (
+          <span
+            style={{
+              color: 'var(--v-red)',
+              fontSize: 'var(--v-text-sm)',
+              fontFamily: 'var(--v-font-body)',
+            }}
+          >
+            {suggestError}
+          </span>
+        )}
       </div>
 
       {/* Textarea */}
@@ -179,7 +367,9 @@ export default function ComposeEditor({
           ref={textareaRef}
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Viết một đoạn ngắn (tối thiểu 20 ký tự) sử dụng các từ ở trên…"
+          onDragOver={handleTextareaDragOver}
+          onDrop={handleTextareaDrop}
+          placeholder="Viết một đoạn ngắn (tối thiểu 20 ký tự) sử dụng các từ ở trên — hoặc kéo từ pool xuống đây…"
           rows={12}
           style={{
             width: '100%',
@@ -323,4 +513,9 @@ export default function ComposeEditor({
       </div>
     </div>
   );
+}
+
+/** RegExp.escape isn't standard in all runtimes; do it ourselves. */
+function escapeRegExp(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }

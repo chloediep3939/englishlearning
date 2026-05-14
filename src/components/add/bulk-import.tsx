@@ -23,6 +23,8 @@ type RowStatus = 'pending' | 'processing' | 'done' | 'failed';
 
 interface Row {
   word: string;
+  /** Optional user-supplied Vietnamese gloss (from `word: meaning` lines). */
+  vietnamese?: string;
   status: RowStatus;
   error?: string;
 }
@@ -67,8 +69,8 @@ export default function BulkImport() {
   }
 
   const parsed = useMemo(() => parseWords(raw), [raw]);
-  const over = parsed.length > MAX_WORDS;
-  const effective = over ? parsed.slice(0, MAX_WORDS) : parsed;
+  const over = parsed.valid.length > MAX_WORDS;
+  const effective = over ? parsed.valid.slice(0, MAX_WORDS) : parsed.valid;
 
   const selectedDeck = decks.find((d) => d.id === deckId) ?? null;
   const selectedDeckName = selectedDeck?.name ?? 'Mặc định';
@@ -95,10 +97,10 @@ export default function BulkImport() {
     }
 
     const dupes: string[] = [];
-    const todo: string[] = [];
-    for (const word of effective) {
-      if (existing.has(word)) dupes.push(word);
-      else todo.push(word);
+    const todo: ParsedBulkItem[] = [];
+    for (const item of effective) {
+      if (existing.has(item.english)) dupes.push(item.english);
+      else todo.push(item);
     }
 
     if (todo.length === 0) {
@@ -108,31 +110,37 @@ export default function BulkImport() {
     }
 
     setSkipped(dupes);
-    setRows(todo.map((w) => ({ word: w, status: 'pending' as RowStatus })));
+    setRows(
+      todo.map((it) => ({
+        word: it.english,
+        vietnamese: it.vietnamese,
+        status: 'pending' as RowStatus,
+      })),
+    );
     setPhase('processing');
 
     await runBatch(todo);
   }
 
-  async function runBatch(words: string[]) {
+  async function runBatch(items: ParsedBulkItem[]) {
     // Worker-pool pattern: keep PARALLELISM tasks in flight, pulling the next
     // word from `queue` whenever one finishes. Avoids "wait for entire batch
     // before starting the next" latency.
     let cursor = 0;
     async function worker() {
-      while (cursor < words.length) {
+      while (cursor < items.length) {
         const idx = cursor++;
-        const word = words[idx];
-        await processOne(word);
+        await processOne(items[idx]);
       }
     }
-    const workers = Array.from({ length: Math.min(PARALLELISM, words.length) }, () => worker());
+    const workers = Array.from({ length: Math.min(PARALLELISM, items.length) }, () => worker());
     await Promise.allSettled(workers);
     setPhase('done');
     router.refresh();
   }
 
-  async function processOne(word: string) {
+  async function processOne(item: ParsedBulkItem) {
+    const word = item.english;
     setRows((prev) =>
       prev.map((r) => (r.word === word ? { ...r, status: 'processing', error: undefined } : r))
     );
@@ -142,6 +150,9 @@ export default function BulkImport() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           english: word,
+          // Pre-supplied gloss from `word: meaning` lines — when present, the
+          // server stamps this verbatim instead of calling translate.
+          vn_meaning: item.vietnamese,
           deck_id: deckId, // null → server falls back to user's default deck
           skip_image: skipImage,
         }),
@@ -168,7 +179,12 @@ export default function BulkImport() {
   }
 
   function retryWord(word: string) {
-    void processOne(word);
+    // Reconstruct the item from the row so any user-supplied VN gloss is
+    // preserved on retry (we only round-trip word + vietnamese, never the
+    // status fields).
+    const row = rows.find((r) => r.word === word);
+    if (!row) return;
+    void processOne({ english: row.word, vietnamese: row.vietnamese });
   }
 
   function resetForRound() {
@@ -292,8 +308,8 @@ export default function BulkImport() {
         >
           <span style={{ color: 'var(--v-ink-soft)' }}>
             Đã nhận diện <b style={{ color: 'var(--v-primary)' }}>{count}</b> từ
-            {parsed.length > MAX_WORDS && (
-              <span style={{ color: 'var(--v-muted)' }}> · (trong {parsed.length} từ bạn nhập)</span>
+            {parsed.valid.length > MAX_WORDS && (
+              <span style={{ color: 'var(--v-muted)' }}> · (trong {parsed.valid.length} từ hợp lệ)</span>
             )}
           </span>
           {over && (
@@ -302,6 +318,48 @@ export default function BulkImport() {
             </span>
           )}
         </div>
+
+        {parsed.invalid.length > 0 && (
+          <details
+            style={{
+              marginTop: 8,
+              padding: '8px 12px',
+              background: 'var(--v-orange-soft)',
+              border: '1px solid var(--v-orange)',
+              borderRadius: 'var(--v-radius-md)',
+              fontFamily: 'var(--v-font-body)',
+              fontSize: 'var(--v-text-sm)',
+            }}
+          >
+            <summary
+              style={{
+                cursor: 'pointer',
+                fontWeight: 800,
+                color: 'var(--v-orange)',
+                listStyle: 'none',
+              }}
+            >
+              Bỏ qua {parsed.invalid.length} dòng không hợp lệ
+            </summary>
+            <ul
+              style={{
+                margin: '8px 0 0',
+                padding: '0 0 0 18px',
+                color: 'var(--v-ink-soft)',
+                fontFamily: 'var(--v-font-mono)',
+                fontSize: 12,
+                maxHeight: 160,
+                overflowY: 'auto',
+              }}
+            >
+              {parsed.invalid.map((line, i) => (
+                <li key={i} style={{ marginBottom: 2 }}>
+                  {line}
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
       </Field>
 
       {/* Skip image toggle */}
@@ -765,20 +823,97 @@ function Pill({
 // Helpers
 // ──────────────────────────────────────────────────────────────────────────
 
-function parseWords(raw: string): string[] {
-  // Single English-word tokens — letters with internal apostrophe/hyphen.
-  const tokenRe = /^[a-z][a-z'-]*[a-z]$|^[a-z]$/;
-  const out: string[] = [];
+export interface ParsedBulkItem {
+  english: string;
+  /** User-provided Vietnamese meaning extracted from the right side of the
+   *  separator. When present, the server skips its auto-translation step and
+   *  saves this verbatim. */
+  vietnamese?: string;
+}
+
+export interface ParsedBulkInput {
+  valid: ParsedBulkItem[];
+  /** Lines that survived trimming but failed validation (had numbers,
+   *  diacritics, multiple separators, or an empty left side after the
+   *  separator). Surfaced in the UI so the user knows what got dropped. */
+  invalid: string[];
+}
+
+/**
+ * Parse the bulk-import textarea into a list of English headwords.
+ *
+ * The textarea is line-oriented: each line is one entry. Many users paste
+ * lists in `word: translation` form (Vietnamese vocab books, cheat sheets,
+ * etc.). The parser splits at the first separator: left side = English
+ * headword, right side = optional user-supplied Vietnamese meaning. When
+ * the right side is non-empty we surface it on the parsed item so the
+ * downstream save can persist it instead of asking the AI to translate.
+ *
+ * Supported separators (in match-priority order — longest first so the
+ * dash variants don't get pre-empted by a bare hyphen later):
+ *   `:`  `\t`  `|`  `=`  ` — `  ` – `  ` - `
+ *
+ * The bare hyphen variant carries surrounding spaces so the parser preserves
+ * hyphenated words like `well-known` or `state-of-the-art`.
+ *
+ * After separator-trimming each line is validated against `/^[a-z][a-z\s'-]*$/i`
+ * — English letters plus internal spaces (for phrasal verbs like "look up"),
+ * apostrophes, and hyphens. Anything with digits, diacritics, or punctuation
+ * is dropped and reported via `invalid`.
+ *
+ * Note on backwards-compat: the prior parser split on any of `\n , ; \s`,
+ * so single-line comma lists like `apple, banana, cherry` used to work.
+ * They no longer do — a single line is treated as a single entry. The
+ * intended UX is one word per line; users with comma-separated input can
+ * reformat in seconds.
+ */
+export function parseWords(raw: string): ParsedBulkInput {
+  // Order matters: try the multi-char dash separators before ' - ' so we
+  // don't half-match an em-dash via the bare hyphen rule.
+  const SEPARATORS = [':', '\t', '|', '=', ' — ', ' – ', ' - '];
+  const validRe = /^[a-z][a-z\s'-]*$/i;
+
+  const valid: ParsedBulkItem[] = [];
+  const invalid: string[] = [];
   const seen = new Set<string>();
-  for (const rawTok of raw.split(/[\n,;\s]+/)) {
-    const t = rawTok.trim().toLowerCase();
-    if (!t) continue;
-    if (!tokenRe.test(t)) continue;
-    if (seen.has(t)) continue;
-    seen.add(t);
-    out.push(t);
+
+  for (const rawLine of raw.split('\n')) {
+    const line = rawLine.trim();
+    if (line.length === 0) continue;
+
+    // Find the FIRST occurrence of ANY separator; everything to its left
+    // is the candidate headword, everything after is the optional VN gloss.
+    let earliest = -1;
+    let earliestSepLen = 0;
+    for (const sep of SEPARATORS) {
+      const idx = line.indexOf(sep);
+      if (idx >= 0 && (earliest === -1 || idx < earliest)) {
+        earliest = idx;
+        earliestSepLen = sep.length;
+      }
+    }
+    let candidate = earliest >= 0 ? line.slice(0, earliest) : line;
+    let rhs = earliest >= 0 ? line.slice(earliest + earliestSepLen) : '';
+
+    // Strip trailing `.`, `,`, `;` defensively (some users leave them at
+    // end of items in pasted lists).
+    candidate = candidate.trim().replace(/[.,;]+$/, '').trim();
+    rhs = rhs.trim().replace(/[,;]+$/, '').trim();
+
+    if (candidate.length === 0 || !validRe.test(candidate)) {
+      invalid.push(line);
+      continue;
+    }
+
+    // Normalize whitespace (collapse internal runs to single spaces) and
+    // lowercase for the dedup key + downstream storage.
+    const normalized = candidate.toLowerCase().replace(/\s+/g, ' ');
+    if (seen.has(normalized)) continue;
+    seen.add(normalized);
+    valid.push(rhs.length > 0 ? { english: normalized, vietnamese: rhs } : { english: normalized });
   }
-  return out;
+
+  return { valid, invalid };
 }
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {

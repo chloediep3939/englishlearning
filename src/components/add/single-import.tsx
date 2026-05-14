@@ -125,6 +125,10 @@ export default function SingleImport() {
       setGenerated(data);
       setEdit(toEditState(data, vietnamese));
       if (!userEditedVi.current && data.vietnamese) setVietnamese(data.vietnamese);
+      // Sync the left input to the lemmatized headword the server returned —
+      // user types "boxes" / "ran" and the input flips to "box" / "run" so
+      // what they see in the preview is what gets saved.
+      if (data.english && data.english !== en) setEnglish(data.english);
       setPhase('previewing');
     } catch {
       setError('Lỗi kết nối.');

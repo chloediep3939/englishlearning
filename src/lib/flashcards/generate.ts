@@ -3,6 +3,7 @@ import { getCollocations } from './datamuse';
 import { translateEnToVi } from './translate';
 import { getPexelsImage } from './pexels';
 import { generateExamples } from './examples';
+import { lemmatize } from './lemmatize';
 import type {
   FlashcardCollocation,
   FlashcardExample,
@@ -51,11 +52,15 @@ export async function generateCardData(
   imageSkip: number = 0,
   skipImage: boolean = false,
 ): Promise<GeneratedCardData> {
+  // Lemmatize first so dictionary / audio / image all match what we'll save.
+  // Phrases (multi-word) pass through unchanged.
+  const lemma = await lemmatize(english);
+
   const [dict, collocations, wordVi, pexels] = await Promise.all([
-    lookupWord(english),
-    getCollocations(english),
-    translateEnToVi(english),
-    skipImage ? Promise.resolve(null) : getPexelsImage(english, imageSkip),
+    lookupWord(lemma),
+    getCollocations(lemma),
+    translateEnToVi(lemma),
+    skipImage ? Promise.resolve(null) : getPexelsImage(lemma, imageSkip),
   ]);
 
   const dictExamples: FlashcardExample[] = (dict?.examples ?? []).map((e) => ({ en: e.en }));

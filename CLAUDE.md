@@ -473,7 +473,97 @@ When you finish one:
 
 ---
 
-## 8. Conventions
+## 8. Prompt & result workflow
+
+When the user pastes a long prompt (typically generated in another Claude
+session and dropped into chat as a long block of markdown), Claude Code
+must save the prompt and write a result file. This keeps a persistent
+audit trail of what was requested vs. what was actually built — useful
+across sessions and for the user to spot drift.
+
+### 8.1 When this applies
+
+Save prompt + write result file when ANY of these are true:
+
+- Prompt is >50 lines OR contains multiple phases / checklists / acceptance criteria
+- Prompt spans ≥3 files when implemented
+- Prompt looks like a doc the user would want to reference later (named feature,
+  decisions log, file map, etc.)
+
+Skip this flow (just do the work, no doc) when:
+
+- Short bug fix (<50 lines, 1–2 files)
+- Mid-task follow-up where the original prompt is already saved
+- Trivial copy edits, typo fixes, single-line changes
+- Pure questions / discussions that don't produce code
+
+### 8.2 Folder structure
+
+```
+src/doc/
+  prompts/         ← long prompts pasted by the user
+  results/         ← summaries written after implementation
+  <feature>.md     ← feature documentation (per §7)
+```
+
+Create `src/doc/prompts/` and `src/doc/results/` on first use if they don't
+exist.
+
+### 8.3 Workflow
+
+1. **Before starting implementation**, save the user's prompt verbatim to
+   `src/doc/prompts/<feature-name>.md`. Don't paraphrase — copy exact text.
+   Add a small header at the top with the date (`YYYY-MM-DD`) for context.
+2. Implement per the prompt, following all other CLAUDE.md rules.
+3. **After completing**, write `src/doc/results/<feature-name>-result.md`
+   with the content described in §8.5.
+4. In your chat reply, mention both files by path so the user knows where
+   to look.
+
+### 8.4 Naming
+
+- `<feature-name>` is kebab-case, short, descriptive.
+  - Good: `landing-page`, `bulk-import`, `dashboard-polish-1`, `nav-grouping`
+  - Bad: `new-feature`, `update-1`, `task-2025-05-14`
+- Result file = same name + `-result.md` suffix.
+- If a new prompt for the same feature is pasted later (revision / v2), append
+  `-v2`, `-v3` — never overwrite an existing prompt file.
+
+Examples:
+
+- `src/doc/prompts/landing-page.md` → `src/doc/results/landing-page-result.md`
+- `src/doc/prompts/dashboard-polish-1.md` → `src/doc/results/dashboard-polish-1-result.md`
+- `src/doc/prompts/landing-page-v2.md` → `src/doc/results/landing-page-v2-result.md`
+
+### 8.5 Result file content
+
+Each `<feature>-result.md` must include these sections (in this order):
+
+- **Scope** — 1–2 sentences summarizing what the feature does
+- **Files changed** — bullet list of every file created / modified / deleted,
+  each with a one-line note explaining the change
+- **Key decisions** — technical decisions made during implementation
+  (especially anything not specified by the prompt)
+- **Deviations from prompt** — any place where implementation differs from
+  the prompt, with rationale. "None" is a valid answer.
+- **Verification** — `tsc` clean? Build pass? Smoke-tested manually?
+  Explicitly state what was NOT tested.
+- **Follow-ups / known issues** — anything the user should know about
+  (deferred items, bugs noticed but out of scope, suggestions)
+
+This complements §6.1 (honest reporting) — the chat reply still follows
+§6.1, the result file is a more durable record.
+
+### 8.6 Locale
+
+Prompt files: leave the user's original language as-is (the user often
+writes in Vietnamese; that's fine — store verbatim).
+Result files: **English**, same rule as §7's feature docs. Quote UI
+strings / user-facing copy in their original Vietnamese if relevant.
+
+---
+
+## 9. Conventions
 
 - **Path alias:** `@/*` → `./src/*`. Always use it (`@/components/...`,
   `@/lib/...`).
@@ -494,7 +584,7 @@ When you finish one:
 
 ---
 
-## 9. Forbidden without explicit user confirmation
+## 10. Forbidden without explicit user confirmation
 
 1. Installing or removing any npm package.
 2. Upgrading or downgrading any version in `package.json`.
@@ -517,7 +607,7 @@ When you finish one:
 
 ---
 
-## 10. Quick mental checklist before you reply
+## 11. Quick mental checklist before you reply
 
 - [ ] Did I read the relevant existing file(s)?
 - [ ] Did I check the installed version of any library I used?

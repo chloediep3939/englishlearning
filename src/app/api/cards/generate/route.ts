@@ -15,6 +15,7 @@ export async function POST(req: Request) {
       image_skip?: unknown;
       skip_image?: unknown;
       deck_id?: unknown;
+      vn_meaning?: unknown;
     };
     const english = typeof body.english === 'string' ? body.english.trim() : '';
     if (english.length === 0 || english.length > 100) {
@@ -22,6 +23,11 @@ export async function POST(req: Request) {
     }
     const imageSkip = Number(body.image_skip) || 0;
     const skipImage = body.skip_image === true;
+    // Optional user-supplied Vietnamese gloss (bulk import `word: meaning`
+    // lines). When present, we skip auto-translate and stamp this verbatim
+    // — capped at 500 chars to match the DB column constraint in /api/cards.
+    const vnMeaning =
+      typeof body.vn_meaning === 'string' ? body.vn_meaning.trim().slice(0, 500) : '';
 
     // Optional persist-on-generate path (used by bulk import). When deck_id is
     // present, we both generate and save in one shot — the single-word UI keeps
@@ -40,6 +46,9 @@ export async function POST(req: Request) {
     }
 
     const data = await generateCardData(english, imageSkip, skipImage);
+    // User-supplied VN beats the auto-translation. Mirrored from
+    // /api/cards/preview so the contract is consistent across both add paths.
+    if (vnMeaning) data.vietnamese = vnMeaning;
 
     if (deckId !== null) {
       const vi = (data.vietnamese ?? '').trim();
@@ -49,9 +58,12 @@ export async function POST(req: Request) {
           { status: 422 }
         );
       }
+      // Save the lemmatized headword (data.english) — single words like
+      // "boxes" / "ran" are persisted as "box" / "run" so audio, IPA, and
+      // dictionary fields all align with the saved key.
       const id = await flashcardsDb.create(userId, {
         deck_id: deckId,
-        english,
+        english: data.english,
         vietnamese: vi,
         ipa: data.ipa,
         part_of_speech: data.part_of_speech,

@@ -53,7 +53,9 @@ export async function POST(req: Request) {
 
     const id = await flashcardsDb.create(userId, {
       deck_id: deckId,
-      english: word,
+      // Prefer the lemmatized headword from generateCardData so inflected
+      // forms picked from a passage ("ran", "boxes") persist as the lemma.
+      english: generated?.english ?? word,
       vietnamese: generated?.vietnamese ?? '',
       ipa: generated?.ipa ?? null,
       audio_url: generated?.audio_url ?? null,

@@ -50,6 +50,7 @@ export async function PUT(
       position?: unknown;
       icon?: unknown;
       subtitle?: unknown;
+      is_default?: unknown;
     };
     const fields: Parameters<typeof flashcardDecksDb.update>[2] = {};
     if (typeof body.name === 'string') {
@@ -77,6 +78,14 @@ export async function PUT(
     if (!existing) return NextResponse.json({ error: 'Not found.' }, { status: 404 });
 
     await flashcardDecksDb.update(userId, id, fields);
+
+    // is_default flip lives in a dedicated wrapper so the
+    // single-default-per-user invariant is preserved transactionally.
+    // We only support setting (true) — there's no "no default" state.
+    if (body.is_default === true) {
+      await flashcardDecksDb.setDefault(userId, id);
+    }
+
     const updated = await flashcardDecksDb.getById(userId, id);
     return NextResponse.json(updated);
   } catch (err) {
