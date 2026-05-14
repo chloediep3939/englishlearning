@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import { Zap, RotateCcw, ArrowRight, Check, X, Sparkles } from 'lucide-react';
-import Mascot from './Mascot';
+import Mascot from '@/components/common/Mascot';
 import AudioButton from './AudioButton';
 import type { SpeedQuizQuestion, SpeedQuizMode } from '@/lib/types';
 

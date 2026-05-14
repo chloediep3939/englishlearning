@@ -7,7 +7,7 @@ import {
   BookOpenText, GraduationCap, Gauge, Play, Volume2, Palette, Bell,
   Sun, Moon, Monitor,
 } from 'lucide-react';
-import LoadingState from '@/components/LoadingState';
+import LoadingState from '@/components/common/LoadingState';
 import SettingsCard from '@/components/SettingsCard';
 import type { FlashcardSettings, CefrLevel, ThemeMode } from '@/lib/types';
 import { M3_SETTINGS, M4_SETTINGS } from '@/lib/types';

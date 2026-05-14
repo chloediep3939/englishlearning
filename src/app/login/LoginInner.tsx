@@ -1,7 +1,7 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import Mascot from '@/components/Mascot';
+import Mascot from '@/components/common/Mascot';
 
 const ERROR_MESSAGES: Record<string, string> = {
   denied: 'Bạn đã huỷ đăng nhập. Thử lại?',

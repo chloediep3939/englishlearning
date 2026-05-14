@@ -4,7 +4,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowRight, ArrowDown, BookOpen, Heart, Sparkles, ExternalLink } from 'lucide-react';
-import Mascot from './Mascot';
+import Mascot from '@/components/common/Mascot';
 import AudioButton from './AudioButton';
 import { previewIntervals, intervalLabel } from '@/lib/flashcards/srs';
 import type { Flashcard } from '@/lib/types';

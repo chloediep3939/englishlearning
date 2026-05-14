@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { ArrowLeft, Zap, Languages, BookOpen, PenLine, Shuffle } from 'lucide-react';
 import QuizSetup, { type QuizMode } from '@/components/QuizSetup';
 import SpeedQuizSession from '@/components/SpeedQuizSession';
-import LoadingState from '@/components/LoadingState';
+import LoadingState from '@/components/common/LoadingState';
 import type { SpeedQuizQuestion, SpeedQuizMode } from '@/lib/types';
 
 const MODES: QuizMode<SpeedQuizMode>[] = [

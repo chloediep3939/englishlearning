@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import LoadingState from '@/components/LoadingState';
-import { FeedbackSection } from './FeedbackSection';
+import LoadingState from '@/components/common/LoadingState';
+import { FeedbackSection } from '@/components/common/FeedbackSection';
 import type { Passage, PassageAttempt, TranslationFeedback } from '@/lib/types';
 
 interface Props {

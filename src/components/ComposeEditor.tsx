@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, Send, AlertTriangle } from 'lucide-react';
-import Mascot from './Mascot';
+import Mascot from '@/components/common/Mascot';
 import type { Composition, Flashcard, CompositionSource } from '@/lib/types';
 
 interface EditorPool {

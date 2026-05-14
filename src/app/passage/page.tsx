@@ -3,7 +3,7 @@ import { ArrowLeft, Newspaper, Plus } from 'lucide-react';
 import { requireUserId } from '@/lib/current-user';
 import { passagesDb } from '@/lib/passages/db';
 import PassageLibraryRow from '@/components/PassageLibraryRow';
-import Mascot from '@/components/Mascot';
+import Mascot from '@/components/common/Mascot';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';

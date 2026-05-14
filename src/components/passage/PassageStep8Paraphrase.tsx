@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { ChevronDown, ChevronRight } from 'lucide-react';
-import LoadingState from '@/components/LoadingState';
-import { FeedbackSection } from './FeedbackSection';
+import LoadingState from '@/components/common/LoadingState';
+import { FeedbackSection } from '@/components/common/FeedbackSection';
 import type { ParaphraseFeedback, Passage, PassageAttempt } from '@/lib/types';
 
 interface Props {

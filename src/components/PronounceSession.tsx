@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import { Mic, HelpCircle, X, Volume2, RotateCcw, ArrowRight, Check } from 'lucide-react';
-import Mascot from './Mascot';
+import Mascot from '@/components/common/Mascot';
 import type { Flashcard, PronunciationAttemptMeta } from '@/lib/types';
 import { isMatch } from '@/lib/pronounce/match';
 

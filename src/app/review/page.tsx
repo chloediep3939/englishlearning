@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic';
 
 import Link from 'next/link';
 import { ArrowLeft, RotateCcw, Plus, ArrowRight } from 'lucide-react';
-import Mascot from '@/components/Mascot';
+import Mascot from '@/components/common/Mascot';
 import ReviewSession from '@/components/ReviewSession';
 import { requireUserId } from '@/lib/current-user';
 import { flashcardsDb, userSettingsDb } from '@/lib/db';

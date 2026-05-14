@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Check, X, ArrowRight, RotateCcw, Send } from 'lucide-react';
-import Mascot from './Mascot';
+import Mascot from '@/components/common/Mascot';
 import type { Flashcard, SentenceEvaluation } from '@/lib/types';
 
 interface Props {

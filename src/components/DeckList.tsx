@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Plus } from 'lucide-react';
 import DeckEditor from './DeckEditor';
 import DeckCard from './DeckCard';
-import LoadingState from './LoadingState';
+import LoadingState from '@/components/common/LoadingState';
 import type { FlashcardDeck, FlashcardDeckWithCounts } from '@/lib/types';
 
 export default function DeckList() {

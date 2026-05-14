@@ -11,7 +11,7 @@ import PassageStep2Difficulty from '@/components/passage/PassageStep2Difficulty'
 import PassageStep3Reader from '@/components/passage/PassageStep3Reader';
 import PassageStep7Translate from '@/components/passage/PassageStep7Translate';
 import PassageStep8Paraphrase from '@/components/passage/PassageStep8Paraphrase';
-import LoadingState from '@/components/LoadingState';
+import LoadingState from '@/components/common/LoadingState';
 
 const VALID_STEPS: ReadonlySet<StepNumber> = new Set([1, 2, 3, 7, 8] as const);
 

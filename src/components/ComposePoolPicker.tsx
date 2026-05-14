@@ -3,8 +3,8 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Calendar, Folder, Shuffle, X } from 'lucide-react';
-import Mascot from './Mascot';
-import LoadingState from './LoadingState';
+import Mascot from '@/components/common/Mascot';
+import LoadingState from '@/components/common/LoadingState';
 import type {
   CompositionSource,
   Flashcard,

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { ArrowLeft, PenLine } from 'lucide-react';
 import QuizSetup, { type QuizMode } from '@/components/QuizSetup';
 import SentenceSession from '@/components/SentenceSession';
-import LoadingState from '@/components/LoadingState';
+import LoadingState from '@/components/common/LoadingState';
 import type { Flashcard, FlashcardSettings } from '@/lib/types';
 
 type Phase = 'setup' | 'loading' | 'session';

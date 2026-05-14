@@ -7,7 +7,7 @@ import {
   LayoutGrid, Plus, BookOpen, RotateCcw, Zap, FileText,
   Library, Folder, BarChart3, Settings, Mic, PenLine, BookOpenText, Newspaper,
 } from 'lucide-react';
-import Mascot from './Mascot';
+import Mascot from '@/components/common/Mascot';
 import LogoutButton from './LogoutButton';
 
 interface NavItem {

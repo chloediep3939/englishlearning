@@ -2,7 +2,7 @@ export const dynamic = 'force-dynamic';
 
 import Link from 'next/link';
 import { Flame, Gem, Play, Sparkles, BookOpen, RotateCcw, Trophy, Check, Zap } from 'lucide-react';
-import Mascot from '@/components/Mascot';
+import Mascot from '@/components/common/Mascot';
 import { requireUserId } from '@/lib/current-user';
 import {
   flashcardsDb,

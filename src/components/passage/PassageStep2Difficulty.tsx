@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { RefreshCw } from 'lucide-react';
-import Mascot from '@/components/Mascot';
+import Mascot from '@/components/common/Mascot';
 import type { CefrLevel, FlashcardSettings, LevelVerdict, Passage } from '@/lib/types';
 
 interface Props {

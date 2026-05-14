@@ -6,7 +6,7 @@ import { ArrowLeft, BookOpenText, History as HistoryIcon } from 'lucide-react';
 import ComposePoolPicker, { type ComposePoolSelection } from '@/components/ComposePoolPicker';
 import ComposeEditor from '@/components/ComposeEditor';
 import ComposeFeedback from '@/components/ComposeFeedback';
-import LoadingState from '@/components/LoadingState';
+import LoadingState from '@/components/common/LoadingState';
 import { REDO_STORAGE_KEY, type ComposeRedoPayload } from '@/lib/compositions/redo';
 import type { Composition } from '@/lib/types';
 

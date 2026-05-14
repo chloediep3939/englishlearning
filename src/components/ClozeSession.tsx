@@ -3,9 +3,9 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import { FileText, RotateCcw, ArrowRight, Check, X, Lightbulb } from 'lucide-react';
-import Mascot from './Mascot';
+import Mascot from '@/components/common/Mascot';
 import AudioButton from './AudioButton';
-import LoadingState from './LoadingState';
+import LoadingState from '@/components/common/LoadingState';
 import type { ClozeChallenge } from '@/lib/types';
 
 export type ClozeMode = 'typing' | 'multiple_choice';
