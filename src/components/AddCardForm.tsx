@@ -2,9 +2,10 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { Check, Sparkles, RefreshCw, Volume2, ExternalLink } from 'lucide-react';
+import { Check, Sparkles, RefreshCw, Volume2 } from 'lucide-react';
 import AudioButton from './AudioButton';
 import POSPill from '@/components/common/POSPill';
+import LookupPills from '@/components/common/LookupPills';
 import type {
   FlashcardExample,
   FlashcardCollocation,
@@ -476,12 +477,6 @@ function PreviewCard({
   onSwapAccent: () => void;
 }) {
   const isEmpty = english.trim().length === 0;
-  const lookupUrl = (provider: 'oxford' | 'youglish' | 'ozdic', word: string) => {
-    const w = encodeURIComponent(word);
-    if (provider === 'oxford') return `https://www.oxfordlearnersdictionaries.com/definition/english/${w}`;
-    if (provider === 'youglish') return `https://youglish.com/pronounce/${w}/english`;
-    return `https://www.ozdic.com/collocation/${w}`;
-  };
 
   if (isEmpty) {
     return (
@@ -733,7 +728,8 @@ function PreviewCard({
       <div
         style={{
           display: 'flex',
-          gap: 6,
+          alignItems: 'center',
+          gap: 8,
           flexWrap: 'wrap',
           paddingTop: 8,
           borderTop: '1px dashed var(--v-border)',
@@ -745,39 +741,11 @@ function PreviewCard({
             fontSize: 11,
             fontWeight: 700,
             color: 'var(--v-muted)',
-            alignSelf: 'center',
-            marginRight: 4,
           }}
         >
           Tra cứu:
         </span>
-        {(['Oxford', 'YouGlish', 'ozdic'] as const).map((provider) => {
-          const key = provider.toLowerCase() as 'oxford' | 'youglish' | 'ozdic';
-          return (
-            <a
-              key={provider}
-              href={lookupUrl(key, english)}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                padding: '4px 10px',
-                fontFamily: 'var(--v-font-body)',
-                fontSize: 12,
-                fontWeight: 700,
-                color: 'var(--v-ink-soft)',
-                border: '1px solid var(--v-border)',
-                borderRadius: 999,
-                background: 'var(--v-surface)',
-                textDecoration: 'none',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: 4,
-              }}
-            >
-              {provider} <ExternalLink size={11} />
-            </a>
-          );
-        })}
+        <LookupPills word={english} />
       </div>
     </div>
   );

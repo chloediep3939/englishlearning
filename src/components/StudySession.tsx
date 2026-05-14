@@ -3,9 +3,10 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowRight, ArrowDown, Plus, Heart, Sparkles, ExternalLink } from 'lucide-react';
+import { ArrowRight, ArrowDown, Plus, Heart, Sparkles } from 'lucide-react';
 import Mascot from '@/components/common/Mascot';
 import POSPill from '@/components/common/POSPill';
+import LookupPills from '@/components/common/LookupPills';
 import AudioButton from './AudioButton';
 import { previewIntervals, intervalLabel } from '@/lib/flashcards/srs';
 import type { Flashcard } from '@/lib/types';
@@ -698,32 +699,7 @@ function RevealStage({
             </div>
           )}
 
-          <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-            {(['Oxford', 'YouGlish', 'ozdic'] as const).map((p) => (
-              <a
-                key={p}
-                href={lookupUrl(p, card.english)}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  padding: '5px 10px',
-                  fontFamily: 'var(--v-font-body)',
-                  fontSize: 12,
-                  fontWeight: 700,
-                  color: 'var(--v-ink-soft)',
-                  border: '1px solid var(--v-border)',
-                  borderRadius: 999,
-                  background: 'var(--v-surface)',
-                  textDecoration: 'none',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  gap: 4,
-                }}
-              >
-                {p} <ExternalLink size={11} />
-              </a>
-            ))}
-          </div>
+          <LookupPills word={card.english} />
         </div>
       </section>
 
@@ -936,13 +912,6 @@ function CharDiffBox({ guess, answer }: { guess: string; answer: string }) {
       </div>
     </div>
   );
-}
-
-function lookupUrl(provider: 'Oxford' | 'YouGlish' | 'ozdic', word: string): string {
-  const w = encodeURIComponent(word);
-  if (provider === 'Oxford') return `https://www.oxfordlearnersdictionaries.com/definition/english/${w}`;
-  if (provider === 'YouGlish') return `https://youglish.com/pronounce/${w}/english`;
-  return `https://www.ozdic.com/collocation/${w}`;
 }
 
 function highlightTarget(text: string, target: string): string {
