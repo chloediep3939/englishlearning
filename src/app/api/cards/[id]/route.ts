@@ -1,6 +1,31 @@
 import { NextResponse } from 'next/server';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { flashcardsDb, flashcardDecksDb } from '@/lib/db';
+import type { FlashcardCollocation } from '@/lib/types';
+
+// Mirrors src/app/api/cards/route.ts — accept either {phrase,word,position}
+// from the Datamuse generator or {phrase} / plain string from the editable
+// preview UI.
+function normalizeCollocations(raw: unknown): FlashcardCollocation[] {
+  if (!Array.isArray(raw)) return [];
+  const out: FlashcardCollocation[] = [];
+  for (const item of raw) {
+    if (typeof item === 'string') {
+      const phrase = item.trim();
+      if (phrase) out.push({ phrase });
+    } else if (item && typeof item === 'object' && typeof (item as { phrase?: unknown }).phrase === 'string') {
+      const c = item as Partial<FlashcardCollocation>;
+      const phrase = (c.phrase ?? '').trim();
+      if (!phrase) continue;
+      out.push({
+        phrase,
+        ...(typeof c.word === 'string' ? { word: c.word } : {}),
+        ...(c.position === 'before' || c.position === 'after' ? { position: c.position } : {}),
+      });
+    }
+  }
+  return out;
+}
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -71,7 +96,7 @@ export async function PUT(
     if (body.notes === null) fields.notes = null;
     else if (typeof body.notes === 'string') fields.notes = body.notes;
     if (Array.isArray(body.examples)) fields.examples = body.examples as never;
-    if (Array.isArray(body.collocations)) fields.collocations = body.collocations as never;
+    if (Array.isArray(body.collocations)) fields.collocations = normalizeCollocations(body.collocations);
     if (body.image_attribution !== undefined) fields.image_attribution = body.image_attribution as never;
     if (body.deck_id !== undefined) {
       const n = Number(body.deck_id);

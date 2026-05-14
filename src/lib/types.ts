@@ -61,8 +61,11 @@ export interface FlashcardImageAttribution {
 
 export interface FlashcardCollocation {
   phrase: string;
-  word: string;
-  position: 'before' | 'after';
+  // word/position are populated by Datamuse (the AI source) but absent for
+  // user-added collocations from the inline preview editor — make them
+  // optional so the preview UI doesn't have to fabricate them.
+  word?: string;
+  position?: 'before' | 'after';
 }
 
 export interface Flashcard {

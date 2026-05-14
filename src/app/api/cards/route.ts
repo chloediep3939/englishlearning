@@ -3,6 +3,34 @@ import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { flashcardsDb, flashcardDecksDb } from '@/lib/db';
 import type { FlashcardExample, FlashcardCollocation, FlashcardImageAttribution } from '@/lib/types';
 
+/**
+ * Accept either the rich Datamuse shape (`{phrase, word, position}`) or the
+ * stripped-down preview-UI shape (`{phrase}` or just `string`). Old single-
+ * import sent the rich shape from /api/cards/generate; new preview-then-save
+ * UI sends `{phrase}` because the user can edit & add collocations manually
+ * without the word/position metadata.
+ */
+function normalizeCollocations(raw: unknown): FlashcardCollocation[] {
+  if (!Array.isArray(raw)) return [];
+  const out: FlashcardCollocation[] = [];
+  for (const item of raw) {
+    if (typeof item === 'string') {
+      const phrase = item.trim();
+      if (phrase) out.push({ phrase });
+    } else if (item && typeof item === 'object' && typeof (item as { phrase?: unknown }).phrase === 'string') {
+      const c = item as Partial<FlashcardCollocation>;
+      const phrase = (c.phrase ?? '').trim();
+      if (!phrase) continue;
+      out.push({
+        phrase,
+        ...(typeof c.word === 'string' ? { word: c.word } : {}),
+        ...(c.position === 'before' || c.position === 'after' ? { position: c.position } : {}),
+      });
+    }
+  }
+  return out;
+}
+
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
@@ -130,9 +158,7 @@ export async function POST(req: Request) {
       image_attribution: (body.image_attribution as FlashcardImageAttribution) ?? undefined,
       notes: typeof body.notes === 'string' && body.notes.length > 0 ? body.notes : null,
       collocations: Array.isArray(body.collocations)
-        ? (body.collocations as FlashcardCollocation[]).filter(
-            (c) => c && typeof c.phrase === 'string' && typeof c.word === 'string'
-          )
+        ? normalizeCollocations(body.collocations)
         : undefined,
     });
     const card = await flashcardsDb.getById(userId, id);
