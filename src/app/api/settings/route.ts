@@ -70,6 +70,16 @@ export async function PUT(req: Request) {
     if (typeof body.passage_pre_fetch === 'boolean') {
       partial.passage_pre_fetch = body.passage_pre_fetch;
     }
+    // ----- M5 keys -----
+    if (typeof body.autoplay_audio === 'boolean') {
+      partial.autoplay_audio = body.autoplay_audio;
+    }
+    if (typeof body.voice_preference === 'string' && body.voice_preference.length <= 100) {
+      partial.voice_preference = body.voice_preference;
+    }
+    if (typeof body.theme === 'string' && (body.theme === 'light' || body.theme === 'dark' || body.theme === 'system')) {
+      partial.theme = body.theme;
+    }
 
     await userSettingsDb.updateFlashcardSettings(userId, partial);
     const settings = await userSettingsDb.getFlashcardSettings(userId);

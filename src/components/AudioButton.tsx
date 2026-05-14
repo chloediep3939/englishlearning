@@ -1,6 +1,7 @@
 'use client';
 
 import { Volume2 } from 'lucide-react';
+import { getStoredVoicePreference, speak } from '@/lib/tts';
 
 interface Props {
   audioUrl?: string | null;
@@ -42,41 +43,11 @@ export default function AudioButton({
   }
 
   function speakTTS() {
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-      console.warn('[AudioButton] speechSynthesis unavailable');
-      return;
-    }
-    const synth = window.speechSynthesis;
-    const speak = () => {
-      try {
-        synth.cancel();
-        const u = new SpeechSynthesisUtterance(fallbackText);
-        u.lang = lang;
-        // Prefer an explicit en-US voice when available so AmE study cards
-        // don't get spoken with the system's default (often en-GB on Mac).
-        // Fall back broadly through en-US → en-* → first available.
-        if (lang.startsWith('en')) {
-          const voices = synth.getVoices();
-          const enUs =
-            voices.find((v) => v.lang === 'en-US') ??
-            voices.find((v) => v.lang.toLowerCase().startsWith('en-us')) ??
-            voices.find((v) => v.lang.toLowerCase().startsWith('en'));
-          if (enUs) u.voice = enUs;
-        }
-        u.rate = 0.95;
-        synth.speak(u);
-      } catch (err) {
-        console.warn('[AudioButton] TTS speak failed:', err);
-      }
-    };
-    // getVoices() returns [] on first call until the engine loads them.
-    if (synth.getVoices().length === 0) {
-      synth.addEventListener('voiceschanged', speak, { once: true });
-      // Trigger voice loading on browsers that need a kick.
-      synth.getVoices();
-    } else {
-      speak();
-    }
+    speak(fallbackText, {
+      lang,
+      rate: 0.95,
+      voice_preference: getStoredVoicePreference(),
+    });
   }
 
   if (variant === 'inline') {

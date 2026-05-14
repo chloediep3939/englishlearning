@@ -2,10 +2,31 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
-import { Zap, RotateCcw, ArrowRight, Check, X } from 'lucide-react';
+import { Zap, RotateCcw, ArrowRight, Check, X, Sparkles } from 'lucide-react';
 import Mascot from './Mascot';
 import AudioButton from './AudioButton';
 import type { SpeedQuizQuestion, SpeedQuizMode } from '@/lib/types';
+
+interface QuestionResult {
+  card_id: number;
+  passed: boolean;
+  timed_out: boolean;
+  time_ms: number;
+}
+
+function longestStreak(results: ReadonlyArray<{ passed: boolean }>): number {
+  let max = 0;
+  let cur = 0;
+  for (const r of results) {
+    if (r.passed) {
+      cur++;
+      if (cur > max) max = cur;
+    } else {
+      cur = 0;
+    }
+  }
+  return max;
+}
 
 interface Props {
   questions: SpeedQuizQuestion[];
@@ -21,8 +42,7 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
   const [timedOut, setTimedOut] = useState(false);
   const [correct, setCorrect] = useState(0);
-  const [results, setResults] = useState<{ card_id: number; passed: boolean }[]>([]);
-  const [startTime] = useState(() => Date.now());
+  const [results, setResults] = useState<QuestionResult[]>([]);
   const [questionStart, setQuestionStart] = useState(() => Date.now());
   const [done, setDone] = useState(false);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -38,7 +58,10 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
       const timeMs = Date.now() - questionStart;
 
       if (passed) setCorrect((c) => c + 1);
-      setResults((r) => [...r, { card_id: current.card_id, passed }]);
+      setResults((r) => [
+        ...r,
+        { card_id: current.card_id, passed, timed_out: idx === null, time_ms: timeMs },
+      ]);
 
       // Log to /api/cards/:id/test-attempt (fire & forget)
       void fetch(`/api/cards/${current.card_id}/test-attempt`, {
@@ -97,94 +120,21 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
   if (done) {
     const total = questions.length;
     const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
-    const elapsed = Math.round((Date.now() - startTime) / 1000);
-    const message =
-      accuracy >= 90 ? 'Tuyệt vời! 🎉' : accuracy >= 70 ? 'Khá tốt! 👍' : accuracy >= 50 ? 'Cố gắng nha!' : 'Đừng nản, ôn lại thôi 💪';
+    const wrong = results.filter((r) => !r.passed && !r.timed_out).length;
+    const timedOutCount = results.filter((r) => r.timed_out).length;
+    const streak = longestStreak(results);
+    const showSparkles = accuracy >= 80;
 
-    return (
-      <div
-        style={{
-          textAlign: 'center',
-          padding: '2.5rem 1rem',
-          background: 'var(--v-surface)',
-          border: '1px solid var(--v-border)',
-          borderRadius: 'var(--v-radius-lg)',
-          boxShadow: 'var(--v-shadow-md)',
-        }}
-      >
-        <Mascot pose={accuracy >= 70 ? 'happy' : 'idle'} size={120} bob />
-        <h2
-          style={{
-            fontFamily: 'var(--v-font-head)',
-            fontWeight: 900,
-            fontSize: 'var(--v-text-3xl)',
-            margin: '12px 0 6px',
-            color: 'var(--v-ink)',
-          }}
-        >
-          {message}
-        </h2>
-        <div
-          style={{
-            fontFamily: 'var(--v-font-head)',
-            fontSize: 64,
-            fontWeight: 900,
-            color: 'var(--v-yellow-deep)',
-            margin: '8px 0',
-            lineHeight: 1,
-            textShadow: '0 2px 0 var(--v-yellow)',
-          }}
-        >
-          {accuracy}%
-        </div>
-        <p style={{ color: 'var(--v-muted)', fontSize: 'var(--v-text-md)', marginBottom: 20 }}>
-          {correct} / {total} đúng · {elapsed}s
-        </p>
-        <div style={{ display: 'flex', gap: 8, justifyContent: 'center', flexWrap: 'wrap' }}>
-          <button
-            type="button"
-            onClick={onRestart}
-            style={{
-              padding: '11px 20px',
-              background: 'var(--v-yellow)',
-              color: 'var(--v-ink)',
-              border: 'none',
-              borderRadius: 'var(--v-radius-md)',
-              boxShadow: 'var(--v-press), 0 6px 14px rgba(255,209,67,0.5)',
-              fontFamily: 'var(--v-font-head)',
-              fontWeight: 900,
-              fontSize: 'var(--v-text-base)',
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 8,
-              cursor: 'pointer',
-            }}
-          >
-            <RotateCcw size={14} /> LẦN NỮA
-          </button>
-          <Link
-            href="/"
-            style={{
-              padding: '11px 20px',
-              background: 'var(--v-surface)',
-              color: 'var(--v-ink-soft)',
-              border: '1px solid var(--v-border)',
-              borderRadius: 'var(--v-radius-md)',
-              boxShadow: 'var(--v-shadow-sm)',
-              fontFamily: 'var(--v-font-head)',
-              fontWeight: 800,
-              fontSize: 'var(--v-text-md)',
-              textDecoration: 'none',
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 6,
-            }}
-          >
-            Về dashboard <ArrowRight size={14} />
-          </Link>
-        </div>
-      </div>
-    );
+    return <SummaryScreen
+      accuracy={accuracy}
+      correct={correct}
+      wrong={wrong}
+      timedOutCount={timedOutCount}
+      streak={streak}
+      results={results}
+      showSparkles={showSparkles}
+      onRestart={onRestart}
+    />;
   }
 
   if (!current) return null;
@@ -360,6 +310,293 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
         })}
       </div>
     </div>
+  );
+}
+
+// ============================================================================
+// Summary screen (post-session)
+// ============================================================================
+
+function SummaryScreen({
+  accuracy,
+  correct,
+  wrong,
+  timedOutCount,
+  streak,
+  results,
+  showSparkles,
+  onRestart,
+}: {
+  accuracy: number;
+  correct: number;
+  wrong: number;
+  timedOutCount: number;
+  streak: number;
+  results: QuestionResult[];
+  showSparkles: boolean;
+  onRestart: () => void;
+}) {
+  const maxTime = Math.max(...results.map((r) => r.time_ms), 1);
+
+  return (
+    <div
+      style={{
+        textAlign: 'center',
+        padding: '2.5rem 1rem',
+        background: 'var(--v-surface)',
+        border: '1px solid var(--v-border)',
+        borderRadius: 'var(--v-radius-lg)',
+        boxShadow: 'var(--v-shadow-md)',
+      }}
+    >
+      <Mascot pose={accuracy >= 70 ? 'happy' : 'idle'} size={120} bob />
+
+      <div style={{ position: 'relative', display: 'inline-block', margin: '12px 0 18px' }}>
+        {showSparkles && <SparkleBurst />}
+        <h2
+          style={{
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 900,
+            fontSize: 'var(--v-text-3xl)',
+            margin: 0,
+            color: 'var(--v-ink)',
+            position: 'relative',
+          }}
+        >
+          🎉 Xong rồi!
+        </h2>
+      </div>
+
+      {/* 4 stat tiles */}
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))',
+          gap: 10,
+          marginBottom: 20,
+          maxWidth: 560,
+          margin: '0 auto 20px',
+        }}
+      >
+        <StatTile label="Đúng" value={correct} color="var(--v-primary)" />
+        <StatTile label="Sai" value={wrong} color="var(--v-red)" />
+        <StatTile label="Hết giờ" value={timedOutCount} color="var(--v-orange)" />
+        <StatTile label="Chuỗi dài nhất" value={streak} color="var(--v-blue)" />
+      </div>
+
+      {/* Per-question speed bars */}
+      {results.length > 0 && (
+        <div
+          style={{
+            textAlign: 'left',
+            background: 'var(--v-panel)',
+            border: '1px solid var(--v-border)',
+            borderRadius: 'var(--v-radius-md)',
+            padding: 16,
+            marginBottom: 20,
+            maxWidth: 560,
+            margin: '0 auto 20px',
+          }}
+        >
+          <div
+            style={{
+              fontFamily: 'var(--v-font-body)',
+              fontSize: 'var(--v-text-xs)',
+              fontWeight: 800,
+              color: 'var(--v-muted)',
+              letterSpacing: 'var(--v-tracking-wider)',
+              textTransform: 'uppercase',
+              marginBottom: 10,
+            }}
+          >
+            Tốc độ trả lời
+          </div>
+          {results.map((r, i) => {
+            const seconds = r.time_ms / 1000;
+            const pct = (r.time_ms / maxTime) * 100;
+            // Use red if wrong OR timed out, primary otherwise.
+            const barColor = r.passed ? 'var(--v-primary)' : 'var(--v-red)';
+            return (
+              <div
+                key={i}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 8,
+                  marginBottom: 4,
+                }}
+              >
+                <span
+                  style={{
+                    width: 50,
+                    fontSize: 'var(--v-text-sm)',
+                    color: 'var(--v-ink-soft)',
+                    fontFamily: 'var(--v-font-body)',
+                  }}
+                >
+                  Câu {i + 1}
+                </span>
+                <div
+                  style={{
+                    flex: 1,
+                    height: 8,
+                    background: 'var(--v-border)',
+                    borderRadius: 4,
+                    overflow: 'hidden',
+                  }}
+                >
+                  <div
+                    style={{
+                      width: `${pct}%`,
+                      height: '100%',
+                      background: barColor,
+                      borderRadius: 4,
+                      transition: 'width 0.3s ease',
+                    }}
+                  />
+                </div>
+                <span
+                  style={{
+                    width: 44,
+                    fontSize: 'var(--v-text-xs)',
+                    color: 'var(--v-ink-soft)',
+                    fontFamily: 'var(--v-font-mono)',
+                    textAlign: 'right',
+                  }}
+                >
+                  {seconds.toFixed(1)}s
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      <div style={{ display: 'flex', gap: 8, justifyContent: 'center', flexWrap: 'wrap' }}>
+        <button
+          type="button"
+          onClick={onRestart}
+          style={{
+            padding: '11px 20px',
+            background: 'var(--v-yellow)',
+            color: 'var(--v-ink)',
+            border: 'none',
+            borderRadius: 'var(--v-radius-md)',
+            boxShadow: 'var(--v-press), 0 6px 14px rgba(255,209,67,0.5)',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 900,
+            fontSize: 'var(--v-text-base)',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 8,
+            cursor: 'pointer',
+          }}
+        >
+          <RotateCcw size={14} /> LÀM LẠI
+        </button>
+        <Link
+          href="/"
+          style={{
+            padding: '11px 20px',
+            background: 'var(--v-surface)',
+            color: 'var(--v-ink-soft)',
+            border: '1px solid var(--v-border)',
+            borderRadius: 'var(--v-radius-md)',
+            boxShadow: 'var(--v-shadow-sm)',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 800,
+            fontSize: 'var(--v-text-md)',
+            textDecoration: 'none',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 6,
+          }}
+        >
+          Về dashboard <ArrowRight size={14} />
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+function StatTile({ label, value, color }: { label: string; value: number; color: string }) {
+  return (
+    <div
+      style={{
+        padding: 14,
+        background: 'var(--v-panel)',
+        border: `2px solid ${color}`,
+        borderRadius: 'var(--v-radius-md)',
+        boxShadow: 'var(--v-shadow-sm)',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: 4,
+      }}
+    >
+      <div
+        style={{
+          fontFamily: 'var(--v-font-head)',
+          fontSize: 'var(--v-text-4xl)',
+          fontWeight: 900,
+          color,
+          lineHeight: 1,
+        }}
+      >
+        {value}
+      </div>
+      <div
+        style={{
+          fontFamily: 'var(--v-font-body)',
+          fontSize: 'var(--v-text-xs)',
+          fontWeight: 700,
+          color: 'var(--v-muted)',
+          letterSpacing: 'var(--v-tracking-wide)',
+          textTransform: 'uppercase',
+        }}
+      >
+        {label}
+      </div>
+    </div>
+  );
+}
+
+function SparkleBurst() {
+  // 6 sparkles positioned around the heading, with staggered delays so they
+  // pulse out-of-sync. Uses the v-sparkle keyframe defined in globals.css.
+  type Pos = {
+    top: number;
+    left?: number | string;
+    right?: number | string;
+    size: number;
+    delay: number;
+  };
+  const positions: Pos[] = [
+    { top: -14, left: -28, size: 14, delay: 0 },
+    { top: -10, right: -28, size: 16, delay: 0.3 },
+    { top: 20, left: -36, size: 12, delay: 0.6 },
+    { top: 18, right: -34, size: 14, delay: 0.9 },
+    { top: -22, left: '40%', size: 12, delay: 0.2 },
+    { top: 28, right: '40%', size: 10, delay: 1.1 },
+  ];
+  return (
+    <>
+      {positions.map((p, i) => (
+        <Sparkles
+          key={i}
+          size={p.size}
+          style={{
+            position: 'absolute',
+            top: p.top,
+            left: p.left,
+            right: p.right,
+            color: 'var(--v-yellow-deep)',
+            animation: `v-sparkle 1.4s ease-in-out ${p.delay}s infinite`,
+            pointerEvents: 'none',
+          }}
+        />
+      ))}
+    </>
   );
 }
 

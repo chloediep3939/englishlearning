@@ -1,8 +1,13 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { X } from 'lucide-react';
-import type { FlashcardDeck } from '@/lib/types';
+import {
+  X, BookOpen, Coffee, Briefcase, GraduationCap, Plane, Heart,
+  Star, Music, Camera, Code, Flame, Sparkles,
+  type LucideIcon,
+} from 'lucide-react';
+import type { FlashcardDeck, DeckIcon } from '@/lib/types';
+import { DECK_ICON_OPTIONS } from '@/lib/types';
 
 interface Props {
   deck: FlashcardDeck | null; // null = creating new
@@ -12,17 +17,35 @@ interface Props {
 
 const COLORS = ['#7ac143', '#ff7849', '#ffd143', '#3da9fc', '#a974ff', '#ff5fb1', '#5fd4c8'];
 
+// Mapping of icon names to lucide components. Order matches DECK_ICON_OPTIONS.
+const ICON_MAP: Record<DeckIcon, LucideIcon> = {
+  BookOpen, Coffee, Briefcase, GraduationCap, Plane, Heart,
+  Star, Music, Camera, Code, Flame, Sparkles,
+};
+
 export default function DeckEditor({ deck, onClose, onSaved }: Props) {
   const [name, setName] = useState(deck?.name ?? '');
   const [description, setDescription] = useState(deck?.description ?? '');
+  const [subtitle, setSubtitle] = useState(deck?.subtitle ?? '');
   const [color, setColor] = useState(deck?.color ?? COLORS[0]);
+  const [icon, setIcon] = useState<DeckIcon>(
+    (deck?.icon && (DECK_ICON_OPTIONS as readonly string[]).includes(deck.icon)
+      ? (deck.icon as DeckIcon)
+      : DECK_ICON_OPTIONS[0])
+  );
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     setName(deck?.name ?? '');
     setDescription(deck?.description ?? '');
+    setSubtitle(deck?.subtitle ?? '');
     setColor(deck?.color ?? COLORS[0]);
+    setIcon(
+      deck?.icon && (DECK_ICON_OPTIONS as readonly string[]).includes(deck.icon)
+        ? (deck.icon as DeckIcon)
+        : DECK_ICON_OPTIONS[0]
+    );
   }, [deck]);
 
   async function handleSave() {
@@ -35,10 +58,17 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
     try {
       const isNew = deck === null || deck.id === 0;
       const url = isNew ? '/api/decks' : `/api/decks/${deck.id}`;
+      const trimmedSub = subtitle.trim();
       const res = await fetch(url, {
         method: isNew ? 'POST' : 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name: name.trim(), description: description.trim() || null, color }),
+        body: JSON.stringify({
+          name: name.trim(),
+          description: description.trim() || null,
+          color,
+          icon,
+          subtitle: trimmedSub.length === 0 ? null : trimmedSub,
+        }),
       });
       if (!res.ok) {
         const data = (await res.json().catch(() => ({}))) as { error?: string };
@@ -76,7 +106,9 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
           boxShadow: 'var(--v-shadow-lg)',
           padding: 24,
           width: '100%',
-          maxWidth: 480,
+          maxWidth: 520,
+          maxHeight: 'calc(100vh - 40px)',
+          overflowY: 'auto',
         }}
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 18 }}>
@@ -132,7 +164,17 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
           style={inputStyle()}
         />
 
-        <Label>Mô tả (tuỳ chọn)</Label>
+        <Label>Mô tả ngắn (subtitle)</Label>
+        <input
+          type="text"
+          value={subtitle ?? ''}
+          onChange={(e) => setSubtitle(e.target.value)}
+          placeholder="vd: Daily English, TOEIC vocab"
+          maxLength={60}
+          style={inputStyle()}
+        />
+
+        <Label>Ghi chú (tuỳ chọn)</Label>
         <textarea
           value={description ?? ''}
           onChange={(e) => setDescription(e.target.value)}
@@ -140,6 +182,46 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
           rows={2}
           style={{ ...inputStyle(), resize: 'vertical', fontFamily: 'var(--v-font-body)' }}
         />
+
+        <Label>Biểu tượng</Label>
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(6, 1fr)',
+            gap: 8,
+            marginBottom: 8,
+          }}
+        >
+          {DECK_ICON_OPTIONS.map((opt) => {
+            const Icon = ICON_MAP[opt];
+            const active = icon === opt;
+            return (
+              <button
+                key={opt}
+                type="button"
+                onClick={() => setIcon(opt)}
+                aria-label={opt}
+                style={{
+                  width: 40,
+                  height: 40,
+                  borderRadius: 'var(--v-radius-sm)',
+                  background: active ? color : 'var(--v-bg)',
+                  border: active
+                    ? `2px solid var(--v-primary)`
+                    : '1.5px solid var(--v-border)',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: active ? '#fff' : 'var(--v-ink-soft)',
+                  transition: 'all 0.15s ease',
+                }}
+              >
+                <Icon size={18} />
+              </button>
+            );
+          })}
+        </div>
 
         <Label>Màu</Label>
         <div style={{ display: 'flex', gap: 8, marginBottom: 20 }}>

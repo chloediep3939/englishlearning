@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { flashcardDecksDb } from '@/lib/db';
+import { DECK_ICON_OPTIONS } from '@/lib/types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -47,6 +48,8 @@ export async function PUT(
       description?: unknown;
       color?: unknown;
       position?: unknown;
+      icon?: unknown;
+      subtitle?: unknown;
     };
     const fields: Parameters<typeof flashcardDecksDb.update>[2] = {};
     if (typeof body.name === 'string') {
@@ -60,6 +63,15 @@ export async function PUT(
     else if (typeof body.description === 'string') fields.description = body.description.slice(0, 500);
     if (typeof body.color === 'string' && /^#[0-9a-fA-F]{6}$/.test(body.color)) fields.color = body.color;
     if (typeof body.position === 'number' && Number.isFinite(body.position)) fields.position = Math.floor(body.position);
+    if (body.icon === null) fields.icon = null;
+    else if (typeof body.icon === 'string' && (DECK_ICON_OPTIONS as readonly string[]).includes(body.icon)) {
+      fields.icon = body.icon;
+    }
+    if (body.subtitle === null) fields.subtitle = null;
+    else if (typeof body.subtitle === 'string') {
+      const trimmed = body.subtitle.trim();
+      fields.subtitle = trimmed.length === 0 ? null : trimmed.slice(0, 60);
+    }
 
     const existing = await flashcardDecksDb.getById(userId, id);
     if (!existing) return NextResponse.json({ error: 'Not found.' }, { status: 404 });

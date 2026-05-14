@@ -173,7 +173,7 @@ export const flashcardDecksDb = {
     }));
   },
 
-  async create(userId: number, input: { name: string; description?: string | null; color?: string }): Promise<number> {
+  async create(userId: number, input: { name: string; description?: string | null; color?: string; icon?: string | null; subtitle?: string | null }): Promise<number> {
     const db = await getDb();
     const maxRow = await db
       .prepare('SELECT COALESCE(MAX(position), -1) as m FROM flashcard_decks WHERE user_id = ?')
@@ -182,15 +182,23 @@ export const flashcardDecksDb = {
     const position = (maxRow?.m ?? -1) + 1;
     const result = await db
       .prepare(
-        `INSERT INTO flashcard_decks (user_id, name, description, color, position, is_default)
-         VALUES (?, ?, ?, ?, ?, 0)`
+        `INSERT INTO flashcard_decks (user_id, name, description, color, position, is_default, icon, subtitle)
+         VALUES (?, ?, ?, ?, ?, 0, ?, ?)`
       )
-      .bind(userId, input.name, input.description ?? null, input.color ?? '#7ac143', position)
+      .bind(
+        userId,
+        input.name,
+        input.description ?? null,
+        input.color ?? '#7ac143',
+        position,
+        input.icon ?? null,
+        input.subtitle ?? null,
+      )
       .run();
     return Number(result.meta.last_row_id);
   },
 
-  async update(userId: number, id: number, fields: Partial<Pick<FlashcardDeck, 'name' | 'description' | 'color' | 'position'>>): Promise<void> {
+  async update(userId: number, id: number, fields: Partial<Pick<FlashcardDeck, 'name' | 'description' | 'color' | 'position' | 'icon' | 'subtitle'>>): Promise<void> {
     const db = await getDb();
     const sets: string[] = [];
     const values: unknown[] = [];
@@ -198,6 +206,8 @@ export const flashcardDecksDb = {
     if (fields.description !== undefined) { sets.push('description = ?'); values.push(fields.description); }
     if (fields.color !== undefined)       { sets.push('color = ?');       values.push(fields.color); }
     if (fields.position !== undefined)    { sets.push('position = ?');    values.push(fields.position); }
+    if (fields.icon !== undefined)        { sets.push('icon = ?');        values.push(fields.icon); }
+    if (fields.subtitle !== undefined)    { sets.push('subtitle = ?');    values.push(fields.subtitle); }
     if (sets.length === 0) return;
     values.push(id, userId);
     await db
@@ -265,6 +275,14 @@ export const flashcardsDb = {
       .bind(userId, deck_id, limit)
       .all<Record<string, unknown>>();
     return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
+  /**
+   * M5: alias for getByDeck with `{ limit }` option object. Used by the
+   * /decks/[id] detail page so callers can omit limit naturally.
+   */
+  async listByDeck(userId: number, deck_id: number, opts: { limit?: number } = {}): Promise<Flashcard[]> {
+    return flashcardsDb.getByDeck(userId, deck_id, opts.limit ?? 200);
   },
 
   async getDueForReview(userId: number, limit: number = 50, exclude_mastered: boolean = true): Promise<Flashcard[]> {
@@ -746,7 +764,19 @@ const SETTINGS_KEYS = [
   'user_cefr_level',
   'passage_tts_rate',
   'passage_pre_fetch',
+  // M5 keys
+  'autoplay_audio',
+  'voice_preference',
+  'theme',
 ] as const;
+
+const THEME_VALUES: ReadonlyArray<'light' | 'dark' | 'system'> = ['light', 'dark', 'system'];
+function parseTheme(raw: string | undefined): 'light' | 'dark' | 'system' {
+  if (raw && THEME_VALUES.includes(raw as 'light' | 'dark' | 'system')) {
+    return raw as 'light' | 'dark' | 'system';
+  }
+  return 'system';
+}
 
 export const userSettingsDb = {
   async getFlashcardSettings(userId: number): Promise<FlashcardSettings> {
@@ -779,6 +809,10 @@ export const userSettingsDb = {
       user_cefr_level: parseCefr(map.get('user_cefr_level')),
       passage_tts_rate: Number(map.get('passage_tts_rate')) || M4_SETTINGS.passage_tts_rate.default,
       passage_pre_fetch: (map.get('passage_pre_fetch') ?? (M4_SETTINGS.passage_pre_fetch.default ? '1' : '0')) === '1',
+      // M5 keys
+      autoplay_audio: (map.get('autoplay_audio') ?? '1') === '1',
+      voice_preference: map.get('voice_preference') ?? 'auto',
+      theme: parseTheme(map.get('theme')),
     };
   },
 
@@ -810,6 +844,9 @@ export const userSettingsDb = {
     if (partial.user_cefr_level !== undefined)              upsert('user_cefr_level', partial.user_cefr_level);
     if (partial.passage_tts_rate !== undefined)             upsert('passage_tts_rate', String(partial.passage_tts_rate));
     if (partial.passage_pre_fetch !== undefined)            upsert('passage_pre_fetch', partial.passage_pre_fetch ? '1' : '0');
+    if (partial.autoplay_audio !== undefined)               upsert('autoplay_audio', partial.autoplay_audio ? '1' : '0');
+    if (partial.voice_preference !== undefined)             upsert('voice_preference', partial.voice_preference);
+    if (partial.theme !== undefined)                        upsert('theme', partial.theme);
     if (stmts.length === 0) return;
     await db.batch(stmts);
   },

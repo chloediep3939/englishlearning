@@ -28,7 +28,15 @@ export interface FlashcardDeck {
   position: number;
   is_default: boolean;
   created_at: string;
+  icon: string | null;       // lucide-react icon name (e.g., "BookOpen")
+  subtitle: string | null;
 }
+
+export const DECK_ICON_OPTIONS = [
+  'BookOpen', 'Coffee', 'Briefcase', 'GraduationCap', 'Plane', 'Heart',
+  'Star', 'Music', 'Camera', 'Code', 'Flame', 'Sparkles',
+] as const;
+export type DeckIcon = typeof DECK_ICON_OPTIONS[number];
 
 export interface FlashcardDeckWithCounts extends FlashcardDeck {
   total: number;
@@ -183,7 +191,13 @@ export interface FlashcardSettings {
   user_cefr_level: CefrLevel;
   passage_tts_rate: number;           // 0.5–1.5
   passage_pre_fetch: boolean;
+  // ----- M5 keys -----
+  autoplay_audio: boolean;            // auto-play TTS on reveal
+  voice_preference: string;           // SpeechSynthesisVoice name, 'auto' = browser default
+  theme: ThemeMode;
 }
+
+export type ThemeMode = 'light' | 'dark' | 'system';
 
 // ===== M3: practice modes =====
 

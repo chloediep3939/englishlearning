@@ -90,6 +90,35 @@
   --v-dur-1: 120ms; --v-dur-2: 180ms; --v-dur-3: 260ms;
 }
 
+/* ============================================================================
+ * Dark mode — M5. Override surface / ink / border / shadow tokens. Functional
+ * colors (primary, blue, orange, etc.) stay; they're already light-friendly.
+ *
+ * Known scope caveat: components that hard-code `#fff` / `#000` for buttons
+ * (rather than `--v-surface` etc.) will look off here. Flag and fix as
+ * follow-ups instead of trying to chase every site in this pass.
+ * ============================================================================ */
+[data-theme='dark'] {
+  --v-bg:            #1a1a1a;
+  --v-surface:       #242424;
+  --v-panel:         #2e2e2e;
+  --v-ink:           #f5f5f5;
+  --v-ink-soft:      #b0b0b0;
+  --v-muted:         #888;
+
+  --v-border:        rgba(255, 255, 255, 0.10);
+  --v-border-med:    rgba(255, 255, 255, 0.15);
+  --v-border-strong: rgba(255, 255, 255, 0.25);
+
+  --v-shadow-sm: 0 1px 2px rgba(0,0,0,0.5);
+  --v-shadow-md: 0 4px 8px rgba(0,0,0,0.5);
+  --v-shadow-lg: 0 8px 24px rgba(0,0,0,0.6);
+  --v-press:     0 4px 0 rgba(0,0,0,0.4);
+
+  --v-primary-soft: rgba(122, 193, 67, 0.18);
+  --v-accent-soft:  rgba(255, 120, 73, 0.18);
+}
+
 /* Global reset/baseline */
 * { box-sizing: border-box; }
 
