@@ -29,13 +29,17 @@
 
   /* ── Functional palette ─────────────────────────────────────────────── */
   --v-red:           #ff5757;
+  --v-red-soft:      rgba(255, 87, 87, 0.16);
   --v-orange:        #ff9a3c;
+  --v-orange-soft:   rgba(255, 154, 60, 0.18);
   --v-yellow:        #ffe082;
   --v-yellow-deep:   #e8b94a;
   --v-green:         #7ac143;
   --v-teal:          #6ec1a8;
   --v-blue:          #5dc1f0;
+  --v-blue-soft:     rgba(93, 193, 240, 0.18);
   --v-purple:        #c179d6;
+  --v-purple-soft:   rgba(193, 121, 214, 0.18);
   --v-pink:          #f06292;
   --v-gem:           var(--v-blue); /* design alias: V.gem = blue */
 

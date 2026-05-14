@@ -3,7 +3,7 @@ export const dynamic = 'force-dynamic';
 import Link from 'next/link';
 import { ArrowLeft, RotateCcw, Plus, ArrowRight } from 'lucide-react';
 import Mascot from '@/components/common/Mascot';
-import ReviewSession from '@/components/ReviewSession';
+import SessionFlow from '@/components/flashcard-session/SessionFlow';
 import { requireUserId } from '@/lib/current-user';
 import { flashcardsDb, userSettingsDb } from '@/lib/db';
 
@@ -55,7 +55,7 @@ export default async function ReviewPage() {
         Gõ lại nghĩa tiếng Anh, mình sẽ chấm và gợi ý độ thuộc cho bạn.
       </p>
 
-      {cards.length === 0 ? <ReviewEmpty /> : <ReviewSession cards={cards} />}
+      {cards.length === 0 ? <ReviewEmpty /> : <SessionFlow mode="review" initialCards={cards} />}
     </div>
   );
 }

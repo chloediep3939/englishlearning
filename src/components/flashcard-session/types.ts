@@ -1,10 +1,10 @@
-import type { ReactNode } from 'react';
-
 // Two-phase flow: TYPING (user guesses) → REVEAL (answer shown + rate).
 export type Phase = 'TYPING' | 'REVEAL';
 
 // SM-2 quality buckets. Matches `recordRating` in @/lib/db.
 export type Quality = 0 | 2 | 4 | 5;
+
+export type SessionMode = 'study' | 'review';
 
 export interface Rating {
   quality: Quality;
@@ -30,15 +30,34 @@ export const AUDIO_PAUSE_MS = 300;
 export const REVEAL_AUDIO_START_DELAY_MS = 250;
 
 /**
+ * Anki-like reinsert offsets. After rating with `quality`, the card is
+ * popped from the front of the queue and reinserted at this offset (from
+ * the front of the remaining queue). q=4/5 don't appear here — those
+ * remove the card entirely.
+ *
+ * Tuning: q=0 ("LẠI") loops back in ~2 cards; q=2 ("KHÓ") gets a longer
+ * spaced break of ~4. Past spaced-repetition research suggests both
+ * values are well within the working-memory window where repetition
+ * reinforces rather than fatigues.
+ */
+export const REQUEUE_OFFSET: Partial<Record<Quality, number>> = {
+  0: 2,
+  2: 4,
+};
+
+/**
  * Per-page customization for the shared FlashcardSession orchestrator.
  *
- * Captures the V2-audit's 6 documented differences between Review and
+ * Captures the V2-audit's documented differences between Review and
  * Study: progress gradient, eyebrow text, input placeholder, rating row
- * label, summary semantics (computed inside `renderSummary`), and re-queue
- * behavior. Everything else (typing UX, reveal layout, SRS rating, key
- * bindings) is shared.
+ * label. Everything else (queue logic, typing UX, reveal layout, SRS
+ * rating, key bindings, completion screen) is shared.
+ *
+ * The `mode` field drives the SessionPicker's headings and status-badge
+ * behavior (Review shows new/learning/review badges; Study omits them).
  */
 export interface SessionConfig {
+  mode: SessionMode;
   /** linear-gradient(...) value for the top progress bar. */
   progressGradient: string;
   /** Eyebrow text above the Vietnamese prompt in the speech bubble. */
@@ -47,19 +66,4 @@ export interface SessionConfig {
   inputPlaceholder: string;
   /** Header label on the rating row (e.g. "Bạn thấy thế nào?"). */
   ratingRowLabel: string;
-  /**
-   * Phase A only: whether quality=0 ("LẠI") re-appends the card to the
-   * queue so the learner has to nail it before the session ends. Review
-   * = true; Study = false historically. Phase B replaces this with the
-   * Anki-like reinsert-at-offset logic, so this flag is short-lived.
-   */
-  requeueOnFail: boolean;
-  /**
-   * Renders the completion screen. Both summaries receive the full
-   * `ratings` array so each can compute its own derived stats (Review
-   * counts good/hard; Study counts learned = q !== 0). `startedAt` is
-   * the ms-since-epoch when the orchestrator first mounted, so the
-   * summary can render elapsed time without owning a timer.
-   */
-  renderSummary: (args: { total: number; ratings: Quality[]; startedAt: number }) => ReactNode;
 }

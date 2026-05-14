@@ -4,10 +4,12 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import TypingStage from './TypingStage';
 import RevealStage from './RevealStage';
+import SummaryScreen from './SummaryScreen';
 import type { Flashcard } from '@/lib/types';
 import {
   AUDIO_AUTOPLAY_COUNT,
   AUDIO_PAUSE_MS,
+  REQUEUE_OFFSET,
   REVEAL_AUDIO_START_DELAY_MS,
   type Phase,
   type Quality,
@@ -15,53 +17,73 @@ import {
 } from './types';
 
 interface Props {
+  /** The user-selected subset from SessionPicker. Order is preserved
+   *  for the initial queue. */
   cards: Flashcard[];
   config: SessionConfig;
+  /** Fired when the user clicks "Học thêm phiên nữa" on the summary —
+   *  the parent should re-fetch candidates and re-mount the picker. */
+  onAnotherSession: () => void;
 }
 
 /**
- * Shared session orchestrator for Review + Study. Owns the queue, the
- * typing↔reveal phase machine, per-card audio autoplay, key bindings, and
- * the SRS rating POST. Page-level variation lives in `config` —
- * see types.ts for the SessionConfig shape.
+ * Anki-like session orchestrator. Owns:
+ *   - the queue (read from front, mutated immutably)
+ *   - the typing↔reveal phase machine
+ *   - per-card audio autoplay loop
+ *   - key bindings (1-4 + Enter + Escape)
+ *   - the SRS rating POST to /api/cards/:id/rate
  *
- * The queue copies its input by reference; re-queue on failure mutates a
- * new array (immutable update via setQueue([...q, card])).
+ * Queue logic (post-rate):
+ *   q=0 (LẠI) → pop + reinsert at offset +2 (or end if queue is shorter)
+ *   q=2 (KHÓ) → pop + reinsert at offset +4 (or end)
+ *   q=4 (TỐT) → pop + mastered.add(card.id)
+ *   q=5 (DỄ)  → pop + mastered.add(card.id)
  *
- * Phase B will replace the queue logic with the Anki-like reinsert-at-offset
- * + mastered Set + completion screen rewrite. Today this matches the
- * pre-extraction Review behavior (re-append on q=0 when
- * config.requeueOnFail) and the pre-extraction Study behavior (no re-queue).
+ * SRS state is updated server-side on every rate regardless of queue
+ * movement — repeated rates on the same card (e.g. LẠI then TỐT) produce
+ * separate `flashcard_reviews` rows. The card's final SRS state reflects
+ * the LAST rating, which matches the learner's most recent signal.
+ *
+ * Reload mid-session: state is in memory only. Acceptable v1 trade-off.
  */
-export default function FlashcardSession({ cards: initial, config }: Props) {
+export default function FlashcardSession({ cards, config, onAnotherSession }: Props) {
   const router = useRouter();
-  const [queue, setQueue] = useState<Flashcard[]>(initial);
-  const [position, setPosition] = useState(0);
+
+  // initialCount is captured once at mount so the progress display
+  // doesn't drift when LẠI/KHÓ cards re-enter the queue.
+  const [initialCount] = useState(cards.length);
+  const [queue, setQueue] = useState<Flashcard[]>(cards);
+  const [mastered, setMastered] = useState<Set<number>>(new Set());
+  const [qualityCounts, setQualityCounts] = useState<Record<Quality, number>>({
+    0: 0, 2: 0, 4: 0, 5: 0,
+  });
+
   const [phase, setPhase] = useState<Phase>('TYPING');
   const [input, setInput] = useState('');
   const [submittedGuess, setSubmittedGuess] = useState('');
-  const [done, setDone] = useState(initial.length === 0);
-  const [ratings, setRatings] = useState<Quality[]>([]);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [autoplayCount, setAutoplayCount] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const startedAt = useRef<number>(Date.now());
 
-  const current = queue[position];
-  const total = queue.length;
-  const progress = total > 0 ? ((position + 1) / total) * 100 : 0;
+  const current = queue[0];
+  const done = queue.length === 0;
   const isCorrect = !!current && input.trim().toLowerCase() === current.english.toLowerCase();
+  const progressPct = initialCount > 0 ? (mastered.size / initialCount) * 100 : 0;
 
   // Autofocus on each new card's typing phase.
   useEffect(() => {
     if (phase === 'TYPING' && inputRef.current) {
       inputRef.current.focus();
     }
-  }, [phase, position]);
+    // current?.id covers the case where the queue head changes via
+    // reinsert (same length) without phase changing.
+  }, [phase, current?.id]);
 
-  // Auto-play audio AUDIO_AUTOPLAY_COUNT times on reveal entry. Falls back
-  // to TTS if dictionary audio fails, and is cancellable when the user
-  // advances or unmounts mid-play.
+  // Auto-play audio AUDIO_AUTOPLAY_COUNT times on reveal entry. Falls
+  // back to TTS if dictionary audio fails, and is cancellable when the
+  // user advances or unmounts mid-play.
   useEffect(() => {
     if (phase !== 'REVEAL' || !current) return;
 
@@ -124,36 +146,13 @@ export default function FlashcardSession({ cards: initial, config }: Props) {
     };
   }, [phase, current]);
 
-  // advance accepts the just-rated card so that "LẠI" (quality=0) can
-  // re-append it to the queue when `config.requeueOnFail` is on. Phase B
-  // replaces this with reinsert-at-offset queue logic.
-  const advance = useCallback(
-    (failedCard: Flashcard | null) => {
-      setInput('');
-      setSubmittedGuess('');
-      setPhase('TYPING');
-      setAutoplayCount(0);
-
-      const newQueueLen = queue.length + (failedCard ? 1 : 0);
-      const newPos = position + 1;
-
-      if (failedCard) {
-        setQueue((q) => [...q, failedCard]);
-      }
-      if (newPos < newQueueLen) {
-        setPosition(newPos);
-      } else {
-        setDone(true);
-        router.refresh();
-      }
-    },
-    [position, queue.length, router]
-  );
-
   const handleRate = useCallback(
     (quality: Quality) => {
       if (!current) return;
-      setRatings((r) => [...r, quality]);
+
+      // Always log the SRS rating — the queue loop is purely UI; the
+      // DB always sees every signal.
+      setQualityCounts((prev) => ({ ...prev, [quality]: prev[quality] + 1 }));
       void fetch(`/api/cards/${current.id}/rate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -169,9 +168,42 @@ export default function FlashcardSession({ cards: initial, config }: Props) {
           setErrorMsg('Không kết nối được — lần chấm vừa rồi có thể chưa lưu được.');
           setTimeout(() => setErrorMsg(null), 4000);
         });
-      advance(quality === 0 && config.requeueOnFail ? current : null);
+
+      // Mutate queue + mastered.
+      if (quality === 4 || quality === 5) {
+        setMastered((prev) => {
+          const next = new Set(prev);
+          next.add(current.id);
+          return next;
+        });
+        setQueue((prev) => prev.slice(1));
+      } else {
+        // Reinsert at offset 2 (LẠI) or 4 (KHÓ), counted from the head
+        // of the post-pop queue. min(offset, rest.length) clamps to
+        // "append to end" when the queue is shorter than the offset.
+        const offset = REQUEUE_OFFSET[quality]!;
+        setQueue((prev) => {
+          const rest = prev.slice(1);
+          const insertAt = Math.min(offset, rest.length);
+          return [...rest.slice(0, insertAt), current, ...rest.slice(insertAt)];
+        });
+      }
+
+      // Reset typing-phase state for the next card (or trigger summary).
+      setInput('');
+      setSubmittedGuess('');
+      setPhase('TYPING');
+      setAutoplayCount(0);
+
+      // If this rate emptied the queue, kick a router.refresh so the
+      // dashboard counter widgets pick up the new SRS state on
+      // back-navigation. Done condition triggers on next render via
+      // queue.length === 0.
+      if (queue.length === 1 && (quality === 4 || quality === 5)) {
+        router.refresh();
+      }
     },
-    [current, advance, config.requeueOnFail]
+    [current, queue.length, router]
   );
 
   // Submit takes the raw value so callers (input keydown + button click)
@@ -208,45 +240,63 @@ export default function FlashcardSession({ cards: initial, config }: Props) {
   }, [phase, done, handleRate, router, isCorrect]);
 
   if (done) {
-    return <>{config.renderSummary({ total, ratings, startedAt: startedAt.current })}</>;
+    return (
+      <SummaryScreen
+        initialCount={initialCount}
+        masteredCount={mastered.size}
+        qualityCounts={qualityCounts}
+        startedAt={startedAt.current}
+        onAnotherSession={onAnotherSession}
+      />
+    );
   }
   if (!current) return null;
 
   return (
     <div>
-      {/* Top bar: slim progress + counter */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 18 }}>
-        <div
-          style={{
-            flex: 1,
-            height: 6,
-            background: 'var(--v-panel)',
-            borderRadius: 999,
-            overflow: 'hidden',
-          }}
-        >
-          <div
-            style={{
-              width: `${progress}%`,
-              height: '100%',
-              background: config.progressGradient,
-              borderRadius: 999,
-              transition: 'width 300ms var(--v-ease)',
-            }}
-          />
-        </div>
+      {/* Top bar: mastered/initial progress + queue-remaining counter */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
         <span
           style={{
             fontFamily: 'var(--v-font-body)',
             fontSize: 11,
             fontWeight: 800,
-            color: 'var(--v-muted)',
-            flexShrink: 0,
+            color: 'var(--v-ink-soft)',
             letterSpacing: '0.04em',
           }}
         >
-          {position + 1} / {total}
+          {mastered.size} / {initialCount} từ thuộc
         </span>
+        <span style={{ flex: 1 }} />
+        <span
+          style={{
+            fontFamily: 'var(--v-font-body)',
+            fontSize: 11,
+            fontWeight: 700,
+            color: 'var(--v-muted)',
+          }}
+        >
+          Còn {queue.length} trong queue
+        </span>
+      </div>
+      <div
+        style={{
+          height: 6,
+          background: 'var(--v-panel)',
+          borderRadius: 999,
+          overflow: 'hidden',
+          marginBottom: 18,
+        }}
+      >
+        <div
+          style={{
+            width: `${progressPct}%`,
+            height: '100%',
+            background: config.progressGradient,
+            borderRadius: 999,
+            transition: 'width 300ms var(--v-ease)',
+          }}
+        />
       </div>
 
       {phase === 'TYPING' && (

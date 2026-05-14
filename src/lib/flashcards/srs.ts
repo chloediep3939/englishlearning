@@ -6,8 +6,9 @@ export type ReviewQuality = SRSQuality;
 
 /**
  * Compute the would-be next interval (in days) for each rating without
- * mutating the card. Used by ReviewSession to show "ôn sau X" on the rating
- * buttons so the learner sees what each choice costs them in real time.
+ * mutating the card. Used by the flashcard-session RevealStage to show
+ * "ôn sau X" on the rating buttons so the learner sees what each choice
+ * costs them in real time.
  *
  * Quality 0 ("Lại") returns 0 — same-session re-queue, not measured in days.
  */
