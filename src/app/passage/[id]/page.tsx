@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import type { Passage } from '@/lib/types';
 import KaraokeReader from '@/components/passage/KaraokeReader';
+import GrammarSection from '@/components/passage/GrammarSection';
 import LoadingState from '@/components/common/LoadingState';
 import { apiJson } from '@/lib/common/api-json';
 
@@ -69,6 +70,11 @@ export default function PassageDetailPage() {
       </h1>
 
       <KaraokeReader passageId={passage.id} content={passage.content} />
+
+      <GrammarSection
+        passageId={passage.id}
+        initialAnalysis={passage.grammar_analysis}
+      />
     </div>
   );
 }

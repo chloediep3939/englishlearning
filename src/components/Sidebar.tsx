@@ -10,6 +10,7 @@ import {
   PanelLeftClose, PanelLeftOpen,
 } from 'lucide-react';
 import LogoutButton from './LogoutButton';
+import FeedbackWidget from './feedback/feedback-widget';
 
 interface NavItem {
   href: string;
@@ -41,11 +42,12 @@ interface Props {
   userEmail?: string;
   userName?: string | null;
   userPicture?: string | null;
+  isDemo?: boolean;
 }
 
 const STORAGE_KEY = 'sidebar_collapsed';
 
-export default function Sidebar({ userEmail, userName, userPicture }: Props) {
+export default function Sidebar({ userEmail, userName, userPicture, isDemo = false }: Props) {
   const pathname = usePathname();
   const [collapsed, setCollapsed] = useState(false);
   // Defer rendering of the avatar/name block until we've read localStorage
@@ -189,12 +191,24 @@ export default function Sidebar({ userEmail, userName, userPicture }: Props) {
         })}
       </nav>
 
+      {/* Feedback widget — sits between the module nav and the bottom-anchored
+          avatar so it remains visible on every page in both collapsed and
+          expanded modes. */}
+      {hydrated && userEmail && (
+        <div style={{ marginTop: 'auto', marginBottom: 6 }}>
+          <FeedbackWidget
+            collapsed={collapsed}
+            initialEmail={userEmail}
+            isDemo={isDemo}
+          />
+        </div>
+      )}
+
       {/* User info + logout (project-only — not in design). Hydration-guarded so
           SSR doesn't render the expanded version then snap to collapsed. */}
       {hydrated && userEmail && (
         <div
           style={{
-            marginTop: 'auto',
             padding: collapsed ? 6 : 10,
             background: 'var(--v-surface)',
             border: '1px solid var(--v-border)',

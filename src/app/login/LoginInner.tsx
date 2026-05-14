@@ -1,6 +1,8 @@
 'use client';
 
-import { useSearchParams } from 'next/navigation';
+import { useState } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { Sparkles, Loader2 } from 'lucide-react';
 import Mascot from '@/components/common/Mascot';
 
 const ERROR_MESSAGES: Record<string, string> = {
@@ -21,12 +23,35 @@ const ERROR_MESSAGES: Record<string, string> = {
 };
 
 export default function LoginInner() {
+  const router = useRouter();
   const sp = useSearchParams();
   const error = sp.get('error');
   const next = sp.get('next');
   const errorMsg = error ? (ERROR_MESSAGES[error] ?? 'Lỗi không xác định.') : null;
 
+  const [demoLoading, setDemoLoading] = useState(false);
+  const [demoError, setDemoError] = useState<string | null>(null);
+
   const signinUrl = '/api/auth/google' + (next ? `?next=${encodeURIComponent(next)}` : '');
+
+  async function startDemo() {
+    setDemoLoading(true);
+    setDemoError(null);
+    try {
+      const res = await fetch('/api/auth/demo', { method: 'POST' });
+      if (!res.ok) {
+        setDemoError('Không tạo được tài khoản trải nghiệm. Thử lại nhé.');
+        setDemoLoading(false);
+        return;
+      }
+      const data = (await res.json()) as { redirect?: string };
+      router.push(data.redirect ?? '/dashboard');
+      router.refresh();
+    } catch {
+      setDemoError('Lỗi kết nối. Thử lại nhé.');
+      setDemoLoading(false);
+    }
+  }
 
   return (
     <div style={{
@@ -112,6 +137,82 @@ export default function LoginInner() {
           textAlign: 'center',
         }}>
           Chỉ cần tài khoản Google. Không lưu mật khẩu.
+        </p>
+
+        {/* ── "hoặc" divider ──────────────────────────────────────────────── */}
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            margin: '20px 0 16px',
+            color: 'var(--v-muted)',
+            fontSize: 'var(--v-text-xs)',
+            fontWeight: 700,
+          }}
+        >
+          <div style={{ flex: 1, height: 1, background: 'var(--v-border)' }} />
+          <span>hoặc</span>
+          <div style={{ flex: 1, height: 1, background: 'var(--v-border)' }} />
+        </div>
+
+        <button
+          type="button"
+          onClick={startDemo}
+          disabled={demoLoading}
+          style={{
+            display: 'flex',
+            width: '100%',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 10,
+            padding: '12px 18px',
+            background: 'var(--v-surface)',
+            color: 'var(--v-ink)',
+            border: '1px solid var(--v-border)',
+            borderRadius: 'var(--v-radius-md)',
+            boxShadow: 'var(--v-shadow-sm)',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 800,
+            fontSize: 'var(--v-text-base)',
+            cursor: demoLoading ? 'progress' : 'pointer',
+            opacity: demoLoading ? 0.7 : 1,
+            transition: 'box-shadow 120ms var(--v-ease), opacity 120ms var(--v-ease)',
+          }}
+        >
+          {demoLoading ? (
+            <Loader2 size={18} style={{ animation: 'v-spin 1s linear infinite' }} />
+          ) : (
+            <Sparkles size={18} color="var(--v-orange)" />
+          )}
+          {demoLoading ? 'Đang chuẩn bị…' : 'Trải nghiệm ngay'}
+        </button>
+
+        {demoError && (
+          <p
+            style={{
+              fontSize: 'var(--v-text-xs)',
+              color: 'var(--v-red)',
+              margin: '8px 0 0',
+              textAlign: 'center',
+            }}
+          >
+            {demoError}
+          </p>
+        )}
+
+        <p
+          style={{
+            fontSize: 'var(--v-text-xs)',
+            color: 'var(--v-ink-soft)',
+            margin: '10px 0 0',
+            textAlign: 'center',
+            lineHeight: 1.45,
+          }}
+        >
+          Tài khoản dùng thử có sẵn 3 bộ từ + 12 từ mẫu + 2 bài đọc.
+          <br />
+          Tự xoá sau 24h.
         </p>
       </div>
     </div>

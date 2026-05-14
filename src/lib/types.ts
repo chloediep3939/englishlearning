@@ -11,6 +11,33 @@ export interface User {
   is_admin: boolean;
   created_at: string;
   last_login_at: string | null;
+  // Demo accounts: spawned via /api/auth/demo, expire at `demo_expires_at`
+  // (unix seconds). `is_demo` is the gate for the demo banner and feedback
+  // analytics. Both are null/false for normal Google-OAuth users.
+  is_demo: boolean;
+  demo_expires_at: number | null;
+}
+
+// ============================================================================
+// Feedback (in-app góp ý popup)
+// ============================================================================
+
+export interface Feedback {
+  id: number;
+  user_id: number | null;
+  email: string | null;
+  rating: number | null;     // 1..5
+  content: string;
+  page_url: string | null;
+  user_agent: string | null;
+  is_demo_user: boolean;
+  created_at: number;        // unix seconds
+}
+
+export interface FeedbackInput {
+  rating?: number | null;
+  content: string;
+  email?: string | null;
 }
 
 // ============================================================================

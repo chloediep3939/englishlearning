@@ -315,6 +315,210 @@ Also fix the response-shape breakage Part 1 introduced.
   to `speechSynthesis`. Past the cap the karaoke highlight stops
   but the user can still read the rest. Word-click looks up the
   sentence in the full content too.
+
+---
+
+## Part 3 — Grammar button + on-demand AI endpoint (2026-05-14)
+
+### Scope
+
+Add a "Tìm hiểu grammar patterns" button below the passage. On
+click, fires an AI call that returns a JSON list of grammar
+patterns with Vietnamese explanations and verbatim examples from
+the text. Cache by content hash so identical articles (across
+users) reuse a single analysis.
+
+### Files changed
+
+- [migrations/0010_passage_grammar.sql](migrations/0010_passage_grammar.sql)
+  — new. Adds `grammar_analysis TEXT`, `grammar_analyzed_at DATETIME`,
+  `content_hash TEXT`, plus `idx_passages_content_hash`. All
+  columns nullable so existing rows stay valid; lazy backfill
+  per option (a) in the prompt (D1 lacks built-in SHA-256).
+- [src/lib/types.ts](src/lib/types.ts) — extended `Passage` and
+  `PassageRow` with the three new columns. Added `GrammarPattern`
+  and `GrammarAnalysis` interfaces.
+- [src/lib/passages/hash.ts](src/lib/passages/hash.ts) — new.
+  `hashContent(text)` returns the SHA-256 hex of the trimmed,
+  lowercased content via `crypto.subtle.digest`. Workers + browser
+  both support it; no Node polyfill needed.
+- [src/lib/passages/db.ts](src/lib/passages/db.ts) — `hydratePassage`
+  now parses `grammar_analysis` (with shape validation — invalid
+  rows hydrate as `null`). Added three new wrapper methods:
+  - `setContentHash(userId, id, hash)` — user-scoped UPDATE for
+    lazy backfill.
+  - `findGrammarByContentHash(hash)` — **cross-user** lookup,
+    returns raw JSON string. Intentional: see Key decisions.
+  - `setGrammarAnalysis(userId, id, analysisJson)` — user-scoped
+    UPDATE that stamps `grammar_analyzed_at = CURRENT_TIMESTAMP`.
+- [src/lib/passages/ai/grammar.ts](src/lib/passages/ai/grammar.ts)
+  — new. `analyzeGrammar(content)` builds the prompt, calls Gemini
+  with `json: true, temperature: 0.3, max_tokens: 1500`, parses
+  + validates the JSON, returns `GrammarAnalysis | null`. Mirrors
+  the existing `analyzeDifficulty` shape so callers + error paths
+  are familiar.
+- [src/app/api/passages/[id]/grammar/route.ts](src/app/api/passages/[id]/grammar/route.ts)
+  — new POST handler. Logic: 401 if unauth → 404 if not owned →
+  return cached analysis on this row if present → backfill hash if
+  missing → look up cached analysis by hash (cross-user) → if hit,
+  copy to this row + return → else AI call → write + return. Adds
+  one `console.log` line on AI invocation so the user can verify
+  cache behavior from the dev server log.
+- [src/components/passage/GrammarSection.tsx](src/components/passage/GrammarSection.tsx)
+  — new. Renders the button (purple, sparkle icon) + error rail +
+  pattern cards (purple left border, head font name, Vietnamese
+  explanation, italic verbatim examples). Disabled state when
+  already analyzed.
+- [src/app/passage/[id]/page.tsx](src/app/passage/[id]/page.tsx) —
+  renders `<GrammarSection passageId={...} initialAnalysis={passage.grammar_analysis} />`
+  below `<KaraokeReader />`. Initial fetch of the passage already
+  carries the hydrated analysis, so the section paints synchronously
+  on revisit (no extra round-trip).
+- [src/doc/prompts/article-simplify-3-grammar.md](src/doc/prompts/article-simplify-3-grammar.md)
+  — prompt saved verbatim.
+- [src/doc/results/article-simplify-result.md](src/doc/results/article-simplify-result.md)
+  — this section appended.
+
+### Key decisions
+
+- **Cross-user cache is intentional and safe.**
+  `findGrammarByContentHash` deliberately omits the `WHERE user_id = ?`
+  filter — a violation of the multi-tenancy rule for any other table.
+  Safe here because: (a) the hash is over the article *content*,
+  so a hit proves the requesting user already has the same text;
+  (b) the analysis is derived from the content the user can already
+  see; (c) we don't expose any per-row metadata (author, deck
+  membership) in the response. Documented as a `Why:` comment in
+  the wrapper method.
+- **Lazy hash backfill instead of one-shot migration.** D1's SQLite
+  has no `sha256()` function, and adding a separate backfill
+  endpoint just to populate ~tens of existing rows is overkill. The
+  grammar route computes + stores the hash on the first call per
+  row. Cost is one tiny UPDATE per pre-M5 passage on first analysis.
+- **Wrapper methods, not raw SQL.** The prompt's example used raw
+  `db.prepare(...)` in the route. The repo convention is wrapper
+  helpers on `passagesDb` so SQL stays in one file and `user_id`
+  scoping is enforced consistently (CLAUDE.md §4.5). Route is now
+  a five-line orchestration over the wrapper.
+- **Store the raw AI JSON.** On AI hit, `setGrammarAnalysis` writes
+  `JSON.stringify(analysis)` (re-stringified after parse-validation).
+  On cache hit, the cached JSON string is copied verbatim. The
+  response then `JSON.parse`s once before responding, so the client
+  always gets the structured shape — but the DB column stays as a
+  TEXT JSON string per CLAUDE.md §4.5.
+- **Validation has two layers.** `parseGrammar` in the AI helper
+  filters out patterns with missing name/explanation. `hydratePassage`
+  re-validates on read so malformed stored rows degrade to `null`
+  rather than crash the page. `route.ts` has a third `safeParseAnalysis`
+  for the cross-user cache-hit path (defensive — the cached JSON
+  has already been validated when it was written).
+- **No `runtime = 'nodejs'` strictness deviation.** Set on the route
+  per CLAUDE.md §4.1 (mirrors `/analyze`, `/translate-reference`,
+  etc.).
+- **AI quota error handling is future-proofed but not fully active.**
+  The current Gemini provider returns `null` on any error (including
+  429), and the route maps that to `502 { error: 'ai_error' }`.
+  The frontend `GrammarSection` ALSO handles `429` /
+  `{ error: 'ai_quota_exceeded' }` so it'll do the right thing the
+  moment the gemini provider starts throwing `AIQuotaError`
+  (the class exists in `@/lib/ai/types` but isn't thrown yet).
+- **Server-side initialAnalysis prop, not client fetch.** The page
+  reads `passage.grammar_analysis` from the passage GET, which is
+  already hydrated by `hydratePassage`. So users revisiting a
+  previously-analyzed passage see results on first paint — no
+  extra fetch, no flicker. Matches the prompt's "UI loads it
+  directly on page open" intent.
+- **Button color = purple.** The repo uses `--v-purple` for POS pills
+  and other meta affordances. Felt right for "grammar metadata"
+  context, and visually separates from the green TTS Play button.
+- **`Sparkles` icon.** From `lucide-react` (already in repo). Signals
+  "AI" / "magic" without using emojis (CLAUDE.md says emojis only
+  on explicit request).
+
+### Deviations from prompt
+
+- **Table name** is `passages`, not the placeholder
+  `<article_table>` — substituted everywhere.
+- **Endpoint path** is `/api/passages/[id]/grammar`, not the
+  prompt's `/api/article/[id]/grammar` — consistent with Parts 1/2
+  and the existing `/api/passages/[id]/*` namespace.
+- **Hash helper location** is `src/lib/passages/hash.ts`, not the
+  prompt's `src/lib/article/hash.ts` — same reason.
+- **Validation is stricter than the prompt's
+  `JSON.parse(cleaned); analysisJson = cleaned`.** Patterns with
+  empty `name` or `explanation_vi` are dropped; empty result →
+  null → 502. Prevents storing junk JSON in the cache.
+- **Markdown fence stripping is `(?:json)?` matched** so both
+  ` ```json ` and bare ` ``` ` fences are removed (matches the
+  existing `parseDifficulty` regex).
+- **Cross-user cache copies the cached JSON** to this user's row.
+  Means the analysis count grows by one row per cache hit. Could
+  use a normalized `grammar_analyses(hash, analysis)` table instead
+  — that's a future optimization, not needed at this scale.
+
+### Verification
+
+- ⚠️ **Migration NOT applied.** Per CLAUDE.md §10.11 wrangler isn't
+  run automatically. User needs to run:
+  ```
+  npx wrangler d1 migrations apply english-learning-db --local
+  ```
+  before exercising the route locally. Production: same command
+  without `--local`.
+- `npx tsc --noEmit` — exits 0, no errors. New types
+  (`GrammarPattern`, `GrammarAnalysis`) wire through cleanly.
+- `grep -rn "AIQuotaError" src/` — only the type definition + the
+  import line in `gemini.ts`; nothing throws it yet. The frontend
+  branch in `GrammarSection` is dead code until that lands, but
+  costs nothing.
+- Cache lookup query verified user-unscoped intentionally:
+  `grep -n findGrammarByContentHash src/lib/passages/db.ts` shows
+  `WHERE content_hash = ?` only — no `user_id` clause.
+- Article ownership verified on every write path
+  (`passagesDb.getById(userId, n)` happens before any DB write).
+- ⚠️ **Runtime not exercised.** `npm run dev` / `wrangler d1
+  migrations apply` are gated by CLAUDE.md §10.11. End-to-end
+  flow not tested:
+  - Migration apply (needs user step).
+  - First AI call → DB write.
+  - Reload → cached-on-row return.
+  - Second user with identical content → cross-user cache hit
+    (`console.log '[passage grammar] AI invoke'` should fire only
+    once across both users).
+- `npm run build` not run (§10.11).
+
+### Follow-ups / known issues
+
+- ⚠️ **User must apply migration 0010** before the grammar route
+  works locally. Without it, `passagesDb.getById` would fail when
+  hydrating the new columns (D1 returns rows by `SELECT *` and
+  TypeScript expects the new fields to exist on `PassageRow`).
+  Recovery: just run the wrangler command above.
+- **No "Regenerate" affordance.** Once a passage has an analysis,
+  the button reads "Đã phân tích" and is disabled. The prompt
+  explicitly out-of-scoped a force-fresh button. Adding one later
+  would be: clear the row's `grammar_analysis` + clear or recompute
+  hash, then re-click.
+- **Per-pattern highlight in the article** (click a pattern →
+  highlight its example sentences inside the karaoke reader) is
+  out of scope per the prompt. Possible Part 4 if the UX ask comes.
+- **The cross-user cache key is "trim + lowercase" only.** If two
+  users paste articles that differ only by punctuation or accent
+  marks, they get different cache keys. Acceptable for now —
+  tighter normalization (Unicode NFC, collapsing whitespace, etc.)
+  is easy to add to `hashContent` if false misses become a problem.
+- **Race: two concurrent first-time analyses of the same content**
+  → both miss cache, both call AI, both write. Last write wins,
+  one AI bill paid twice. Acceptable at current scale; a row-lock
+  or batch insert with `INSERT OR IGNORE` on a dedicated
+  `grammar_analyses` table would be the principled fix.
+- **Logging.** Added a `console.log` on AI invocation so the user
+  can verify cache behavior from `wrangler tail` or the dev server
+  log. Remove or downgrade to `debug` before production if it
+  proves noisy.
+- **Orphan API routes from Part 2 still exist.** None of them
+  conflict with the new grammar route, but the broader cleanup
+  remains pending (see Part 2 follow-ups).
 - **Word saved to Word Bank via dictionary lookup.** The save call
   to `/api/cards/from-passage` still runs `generateCardData`
   internally, which may make an AI call to top up examples. That

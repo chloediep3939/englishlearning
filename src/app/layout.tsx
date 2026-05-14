@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Sidebar from '@/components/Sidebar';
+import DemoBanner from '@/components/demo/demo-banner';
 import { getCurrentUser } from '@/lib/current-user';
 import { userSettingsDb } from '@/lib/db';
 import { ThemeProvider, THEME_PREHYDRATION_SCRIPT } from '@/components/ThemeProvider';
@@ -49,10 +50,16 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                   userEmail={user.email}
                   userName={user.name}
                   userPicture={user.picture_url}
+                  isDemo={user.is_demo}
                 />
-                <main style={{ flex: 1, padding: '20px 32px 24px', overflow: 'auto' }}>
-                  {children}
-                </main>
+                <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0 }}>
+                  {user.is_demo && user.demo_expires_at != null && (
+                    <DemoBanner expiresAtSec={user.demo_expires_at} />
+                  )}
+                  <main style={{ flex: 1, padding: '20px 32px 24px', overflow: 'auto' }}>
+                    {children}
+                  </main>
+                </div>
               </div>
             ) : (
               <div style={{ minHeight: '100vh', background: 'var(--v-bg)' }}>

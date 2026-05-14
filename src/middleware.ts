@@ -8,6 +8,9 @@ const PUBLIC_PATHS = new Set<string>([
   '/api/auth/google',
   '/api/auth/callback/google',
   '/api/auth/logout',
+  // Demo signup — must be reachable while anonymous, since it's what mints
+  // the cookie for the rest of the session.
+  '/api/auth/demo',
 ]);
 
 function isPublic(pathname: string): boolean {

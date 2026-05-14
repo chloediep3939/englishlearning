@@ -3,6 +3,7 @@ import type { D1Database } from '@cloudflare/workers-types';
 import type {
   CefrLevel,
   ClozeSentence,
+  Feedback,
   Flashcard,
   FlashcardDeck,
   FlashcardDeckWithCounts,
@@ -70,6 +71,15 @@ function hydrateDeck(row: Record<string, unknown> | null): FlashcardDeck | null 
 // Users
 // ============================================================================
 
+function hydrateUser(row: Record<string, unknown>): User {
+  return {
+    ...(row as unknown as User),
+    is_admin: Number(row.is_admin) === 1,
+    is_demo: Number(row.is_demo) === 1,
+    demo_expires_at: row.demo_expires_at == null ? null : Number(row.demo_expires_at),
+  };
+}
+
 export const usersDb = {
   async getById(id: number): Promise<User | null> {
     const db = await getDb();
@@ -78,10 +88,7 @@ export const usersDb = {
       .bind(id)
       .first<Record<string, unknown>>();
     if (!row) return null;
-    return {
-      ...(row as unknown as User),
-      is_admin: Number(row.is_admin) === 1,
-    };
+    return hydrateUser(row);
   },
 
   async getAll(): Promise<User[]> {
@@ -89,10 +96,30 @@ export const usersDb = {
     const result = await db
       .prepare('SELECT * FROM users ORDER BY created_at ASC')
       .all<Record<string, unknown>>();
-    return result.results.map((row) => ({
-      ...(row as unknown as User),
-      is_admin: Number(row.is_admin) === 1,
-    }));
+    return result.results.map(hydrateUser);
+  },
+
+  /**
+   * Insert a demo user. `email` is a synthetic placeholder (e.g.
+   * `demo-abc123@bun.local`) — never used to send mail, just satisfies the
+   * UNIQUE constraint. `expiresAtSec` is unix seconds at which cleanup
+   * may delete the row. Returns the new user id.
+   */
+  async createDemo(email: string, expiresAtSec: number): Promise<number> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `INSERT INTO users (email, name, picture_url, google_sub, is_admin, is_demo, demo_expires_at, last_login_at)
+         VALUES (?, ?, NULL, NULL, 0, 1, ?, datetime('now'))`
+      )
+      .bind(email, 'Người trải nghiệm', expiresAtSec)
+      .run();
+    return Number(result.meta.last_row_id);
+  },
+
+  async deleteById(id: number): Promise<void> {
+    const db = await getDb();
+    await db.prepare('DELETE FROM users WHERE id = ?').bind(id).run();
   },
 };
 
@@ -973,5 +1000,59 @@ export const userSettingsDb = {
     if (partial.pomodoro_break_minutes !== undefined)       upsert('pomodoro_break_minutes', String(partial.pomodoro_break_minutes));
     if (stmts.length === 0) return;
     await db.batch(stmts);
+  },
+};
+
+// ============================================================================
+// Feedback (in-app góp ý popup)
+// ============================================================================
+
+export const feedbackDb = {
+  /**
+   * Insert one feedback row. `user_id` may be null if we ever support
+   * anonymous submissions; today routes always pass a logged-in id (incl.
+   * demo users). `created_at` is unix seconds — chosen to match
+   * `demo_expires_at` and to keep server clocks unambiguous.
+   */
+  async create(input: {
+    user_id: number | null;
+    email: string | null;
+    rating: number | null;
+    content: string;
+    page_url: string | null;
+    user_agent: string | null;
+    is_demo_user: boolean;
+  }): Promise<number> {
+    const db = await getDb();
+    const nowSec = Math.floor(Date.now() / 1000);
+    const result = await db
+      .prepare(
+        `INSERT INTO feedback (user_id, email, rating, content, page_url, user_agent, is_demo_user, created_at)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
+      )
+      .bind(
+        input.user_id,
+        input.email,
+        input.rating,
+        input.content,
+        input.page_url,
+        input.user_agent,
+        input.is_demo_user ? 1 : 0,
+        nowSec,
+      )
+      .run();
+    return Number(result.meta.last_row_id);
+  },
+
+  async listRecent(limit = 100): Promise<Feedback[]> {
+    const db = await getDb();
+    const result = await db
+      .prepare('SELECT * FROM feedback ORDER BY created_at DESC LIMIT ?')
+      .bind(limit)
+      .all<Record<string, unknown>>();
+    return result.results.map((row) => ({
+      ...(row as unknown as Feedback),
+      is_demo_user: Number(row.is_demo_user) === 1,
+    }));
   },
 };

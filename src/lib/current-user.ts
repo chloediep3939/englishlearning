@@ -1,7 +1,7 @@
 import { cookies } from 'next/headers';
 import { getCloudflareContext } from '@opennextjs/cloudflare';
 import { verifyAuthToken, AUTH_CONFIG } from './auth';
-import { getDb } from './db';
+import { usersDb } from './db';
 import type { User } from './types';
 
 /**
@@ -33,16 +33,7 @@ export async function requireUserId(): Promise<number> {
 export async function getCurrentUser(): Promise<User | null> {
   const userId = await getCurrentUserId();
   if (!userId) return null;
-  const db = await getDb();
-  const row = await db
-    .prepare('SELECT * FROM users WHERE id = ?')
-    .bind(userId)
-    .first<Record<string, unknown>>();
-  if (!row) return null;
-  return {
-    ...(row as unknown as User),
-    is_admin: Number(row.is_admin) === 1,
-  };
+  return usersDb.getById(userId);
 }
 
 export class UnauthorizedError extends Error {
