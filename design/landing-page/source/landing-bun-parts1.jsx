@@ -183,7 +183,7 @@ const BunHero = ({ variant = 'centered', pose = 'happy', accent = BUN_BLUE, acce
         <div style={{ position: 'absolute', inset: '10px 10px', borderRadius: '50%', background: `radial-gradient(circle, ${accent}40 0%, ${accent}00 65%)`, animation: 'sparkle-twinkle 3s ease-in-out infinite' }} />
         {/* Main */}
         <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <LiveMascot size={210} poses={['happy', 'happy', 'happy', 'blink', 'happy']} interval={1300} />
+          <LiveMascot size={210} poses={['happy', 'happy', 'happy', 'idle', 'happy']} interval={1300} />
         </div>
         {/* small dialogue bubble */}
         <div style={{

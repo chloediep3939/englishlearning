@@ -2,6 +2,7 @@ import { getCloudflareContext } from '@opennextjs/cloudflare';
 import type { D1Database } from '@cloudflare/workers-types';
 import type {
   CefrLevel,
+  ClozeSentence,
   Flashcard,
   FlashcardDeck,
   FlashcardDeckWithCounts,
@@ -803,6 +804,58 @@ export const flashcardPracticeSentencesDb = {
       .bind(flashcard_id)
       .first<{ n: number }>();
     return Number(row?.n) || 0;
+  },
+};
+
+// ============================================================================
+// Cloze sentence pool (shared across users)
+// ============================================================================
+
+// flashcard_cloze_pool — shared across users, like flashcard_practice_sentences.
+// Sentences are word-specific generic linguistic content (no PII).
+// Read by any authed user; written by background ensureClozePool() only.
+export const flashcardClozePoolDb = {
+  async countByWord(word: string): Promise<number> {
+    const db = await getDb();
+    const row = await db
+      .prepare('SELECT COUNT(*) AS n FROM flashcard_cloze_pool WHERE word = ?')
+      .bind(word.toLowerCase())
+      .first<{ n: number }>();
+    return row?.n ?? 0;
+  },
+
+  async hasMinimum(word: string, min: number): Promise<boolean> {
+    return (await flashcardClozePoolDb.countByWord(word)) >= min;
+  },
+
+  async getByWord(word: string, limit = 10): Promise<ClozeSentence[]> {
+    const db = await getDb();
+    const res = await db
+      .prepare(
+        'SELECT * FROM flashcard_cloze_pool WHERE word = ? ORDER BY RANDOM() LIMIT ?'
+      )
+      .bind(word.toLowerCase(), limit)
+      .all<ClozeSentence>();
+    return res.results ?? [];
+  },
+
+  async bulkInsert(word: string, sentences: ClozeSentence[]): Promise<void> {
+    if (sentences.length === 0) return;
+    const db = await getDb();
+    const stmts = sentences.map((s) =>
+      db
+        .prepare(
+          'INSERT INTO flashcard_cloze_pool (word, pos, sentence, blank_word, difficulty) VALUES (?, ?, ?, ?, ?)'
+        )
+        .bind(
+          word.toLowerCase(),
+          s.pos ?? null,
+          s.sentence,
+          s.blank_word,
+          s.difficulty ?? null
+        )
+    );
+    await db.batch(stmts);
   },
 };
 

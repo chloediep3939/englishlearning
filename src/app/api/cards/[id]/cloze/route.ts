@@ -1,27 +1,11 @@
 import { NextResponse } from 'next/server';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
-import { flashcardsDb, flashcardPracticeSentencesDb } from '@/lib/db';
-import { generateClozeSentences, blankOutWord } from '@/lib/flashcards/cloze';
+import { flashcardsDb, flashcardClozePoolDb } from '@/lib/db';
+import { ensureClozePool, blankOutWord } from '@/lib/flashcards/cloze';
 import type { ClozeChallenge } from '@/lib/types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
-
-const POOL_SIZE = 10;
-const REGEN_AT_SHOWN_COUNT = 8;
-
-function regenInBackground(cardId: number, english: string, partOfSpeech: string | null) {
-  void (async () => {
-    try {
-      const fresh = await generateClozeSentences(english, partOfSpeech);
-      if (fresh.length > 0) {
-        await flashcardPracticeSentencesDb.createMany(cardId, fresh);
-      }
-    } catch (err) {
-      console.error('[cloze bg regen] error:', err);
-    }
-  })();
-}
 
 export async function GET(
   req: Request,
@@ -39,39 +23,48 @@ export async function GET(
     const card = await flashcardsDb.getById(userId, cardId);
     if (!card) return NextResponse.json({ error: 'Not found.' }, { status: 404 });
 
-    const totalInPool = await flashcardPracticeSentencesDb.countByCard(cardId);
-    const shownCount = await flashcardPracticeSentencesDb.countShown(cardId);
+    const word = card.english.toLowerCase();
 
-    if (totalInPool === 0) {
-      // Pool empty — must wait for AI (first cloze for this card)
-      const fresh = await generateClozeSentences(card.english, card.part_of_speech);
-      if (fresh.length > 0) {
-        await flashcardPracticeSentencesDb.createMany(cardId, fresh);
-      }
-    } else if (totalInPool >= POOL_SIZE && shownCount >= REGEN_AT_SHOWN_COUNT) {
-      // Pool depleted — fire-and-forget regen, serve cached now
-      regenInBackground(cardId, card.english, card.part_of_speech);
+    // 1) Read the shared pool first — the happy path after Part 2's background
+    //    trigger has populated 10 sentences per saved card.
+    let sentences = await flashcardClozePoolDb.getByWord(word, 1);
+
+    // 2) Pool empty (card pre-dates the pool, or background gen didn't finish
+    //    before the user opened cloze quiz) → sync-generate now.
+    if (sentences.length === 0) {
+      await ensureClozePool(word, { minimum: 1 });
+      sentences = await flashcardClozePoolDb.getByWord(word, 1);
     }
 
-    const picked = await flashcardPracticeSentencesDb.pickLeastShown(cardId);
-
-    if (picked) {
-      await flashcardPracticeSentencesDb.markShown(picked.id);
+    if (sentences.length > 0) {
+      const s = sentences[0];
+      // Pool sentences already carry the `__` marker. Normalize to the wider
+      // `_____` the UI used historically so the blank is visually obvious;
+      // tolerate model output drift (3+ underscores) with `_{2,}`.
+      const blankedSentence = s.sentence.replace(/_{2,}/, '_____');
+      const fullSentence = s.sentence.replace(/_{2,}/, s.blank_word);
       const challenge: ClozeChallenge = {
         card_id: cardId,
-        english: card.english,
+        // `english` is the answer string the UI compares against typed input
+        // (ClozeSession.tsx) and uses for hint / audio fallback. Pool sentences
+        // may use inflected forms (e.g. "running" for headword "run"), so we
+        // surface the actual `blank_word` here rather than the card lemma.
+        english: s.blank_word,
         vietnamese: card.vietnamese,
         ipa: card.ipa,
         audio_url: card.audio_url,
-        blanked_sentence: blankOutWord(picked.sentence, card.english),
-        full_sentence: picked.sentence,
-        vi_sentence: picked.vi_translation,
-        sentence_id: picked.id,
+        blanked_sentence: blankedSentence,
+        full_sentence: fullSentence,
+        // Pool sentences don't carry VI translations; the UI handles `null`.
+        vi_sentence: null,
+        sentence_id: s.id ?? null,
       };
       return NextResponse.json(challenge);
     }
 
-    // Fallback: AI failed AND no examples cached — try dictionary example
+    // 3) Pool still empty after lazy fill (AI failed, no key, etc.) → fall
+    //    back to the dictionary example on the card. Preserves the old
+    //    fallback behaviour for cards that have a dictionary example baked in.
     const fallbackEn = card.examples?.[0]?.en;
     if (fallbackEn) {
       const challenge: ClozeChallenge = {
@@ -89,7 +82,7 @@ export async function GET(
     }
 
     return NextResponse.json(
-      { error: 'Chưa có câu để luyện. Cần GEMINI_API_KEY hoặc example từ Dictionary API.' },
+      { error: 'Cloze chưa sẵn sàng, thử lại sau.' },
       { status: 503 }
     );
   } catch (err) {

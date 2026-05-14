@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { X, Trash2, Pencil, Check, Loader2 } from 'lucide-react';
 import AudioButton from '../AudioButton';
 import { apiJson } from '@/lib/common/api-json';
-import type { Flashcard } from '@/lib/types';
+import type { ClozeSentence, Flashcard } from '@/lib/types';
 
 interface Props {
   card: Flashcard;
@@ -51,6 +51,32 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
     setMode('view');
     setError(null);
   }, [card.id]);
+
+  // Cloze pool examples — replaces the legacy `card.examples` column as the
+  // example-sentence source. Cards saved before the pool feature landed have
+  // an empty pool initially; the server lazy-fills on the first fetch.
+  const [poolSentences, setPoolSentences] = useState<ClozeSentence[]>([]);
+  const [poolLoading, setPoolLoading] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    setPoolLoading(true);
+    (async () => {
+      try {
+        const data = await apiJson<{ sentences: ClozeSentence[] }>(
+          `/api/cloze/pool?word=${encodeURIComponent(card.english)}&limit=2`
+        );
+        if (!cancelled) setPoolSentences(data.sentences ?? []);
+      } catch {
+        if (!cancelled) setPoolSentences([]);
+      } finally {
+        if (!cancelled) setPoolLoading(false);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [card.id, card.english]);
 
   const dirty =
     english.trim() !== card.english ||
@@ -263,26 +289,46 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
           )
         )}
 
-        {/* Examples — read-only in both modes (array editor is out of scope) */}
-        {card.examples.length > 0 && (
+        {/* Examples — sourced from the shared cloze pool (Part 3 of the cloze
+            pool feature). The legacy `card.examples` column is shown only when
+            the pool is empty AND the legacy data exists, so cards saved before
+            the migration don't appear blank. */}
+        {(poolSentences.length > 0 || (!poolLoading && card.examples.length > 0)) && (
           <Section title="Ví dụ">
-            {card.examples.map((ex, i) => (
-              <div
-                key={i}
-                style={{
-                  padding: '8px 12px',
-                  background: 'var(--v-panel)',
-                  borderRadius: 'var(--v-radius-sm)',
-                  marginBottom: 6,
-                  fontFamily: 'var(--v-font-body)',
-                  fontSize: 'var(--v-text-sm)',
-                  color: 'var(--v-ink)',
-                }}
-              >
-                <div>{ex.en}</div>
-                {ex.vi && <div style={{ color: 'var(--v-muted)', marginTop: 2 }}>{ex.vi}</div>}
-              </div>
-            ))}
+            {poolSentences.length > 0
+              ? poolSentences.map((s, i) => (
+                  <div
+                    key={s.id ?? i}
+                    style={{
+                      padding: '8px 12px',
+                      background: 'var(--v-panel)',
+                      borderRadius: 'var(--v-radius-sm)',
+                      marginBottom: 6,
+                      fontFamily: 'var(--v-font-body)',
+                      fontSize: 'var(--v-text-sm)',
+                      color: 'var(--v-ink)',
+                    }}
+                  >
+                    <PoolSentence sentence={s.sentence} blankWord={s.blank_word} />
+                  </div>
+                ))
+              : card.examples.map((ex, i) => (
+                  <div
+                    key={i}
+                    style={{
+                      padding: '8px 12px',
+                      background: 'var(--v-panel)',
+                      borderRadius: 'var(--v-radius-sm)',
+                      marginBottom: 6,
+                      fontFamily: 'var(--v-font-body)',
+                      fontSize: 'var(--v-text-sm)',
+                      color: 'var(--v-ink)',
+                    }}
+                  >
+                    <div>{ex.en}</div>
+                    {ex.vi && <div style={{ color: 'var(--v-muted)', marginTop: 2 }}>{ex.vi}</div>}
+                  </div>
+                ))}
           </Section>
         )}
 
@@ -512,6 +558,26 @@ function Section({ title, children }: { title: string; children: React.ReactNode
         {title}
       </div>
       {children}
+    </div>
+  );
+}
+
+function PoolSentence({ sentence, blankWord }: { sentence: string; blankWord: string }) {
+  // Pool rows store the sentence with `__` (or more) at the target word slot.
+  // We render the complete sentence with the target word highlighted so the
+  // example reads naturally; the cloze quiz uses the same source for testing.
+  const match = sentence.match(/_{2,}/);
+  if (!match) {
+    return <div>{sentence}</div>;
+  }
+  const idx = match.index ?? 0;
+  const before = sentence.slice(0, idx);
+  const after = sentence.slice(idx + match[0].length);
+  return (
+    <div>
+      {before}
+      <strong style={{ color: 'var(--v-primary)', fontWeight: 800 }}>{blankWord}</strong>
+      {after}
     </div>
   );
 }

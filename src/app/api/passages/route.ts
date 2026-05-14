@@ -81,7 +81,18 @@ export async function POST(req: Request) {
       source_label: sourceLabel,
       source_url: sourceUrl,
     });
-    return NextResponse.json({ passage }, { status: 201 });
+    // Slim shape: drop AI-derived columns (level_*, translate_reference,
+    // paraphrase_tips) from the response. They're NULL for new rows anyway.
+    // Frontend will adopt this shape in Part 2.
+    return NextResponse.json(
+      {
+        id: passage.id,
+        title: passage.title,
+        content: passage.content,
+        created_at: passage.created_at,
+      },
+      { status: 201 },
+    );
   } catch (err) {
     if (err instanceof UnauthorizedError) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });

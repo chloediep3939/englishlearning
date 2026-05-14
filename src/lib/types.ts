@@ -177,6 +177,17 @@ export interface ClozeResult {
   hint?: string;
 }
 
+// Shared cloze sentence pool — keyed by lowercase headword, reused across
+// users. Populated by background ensureClozePool() (see Part 2).
+export interface ClozeSentence {
+  id?: number;
+  word: string;
+  pos?: string | null;
+  sentence: string;
+  blank_word: string;
+  difficulty?: string | null;
+}
+
 // Settings
 export interface FlashcardSettings {
   daily_goal_new: number;
@@ -311,6 +322,10 @@ export interface Passage {
   last_step_viewed: number;
   completed_at: string | null;
   created_at: string;
+  // M5: on-demand grammar analysis + content-hash cache key.
+  grammar_analysis: GrammarAnalysis | null;  // hydrated from grammar_analysis JSON column
+  grammar_analyzed_at: string | null;
+  content_hash: string | null;               // SHA-256 hex of trimmed lowercase content
 }
 
 export interface PassageRow {
@@ -330,6 +345,19 @@ export interface PassageRow {
   last_step_viewed: number;
   completed_at: string | null;
   created_at: string;
+  grammar_analysis: string | null;       // JSON-stringified GrammarAnalysis
+  grammar_analyzed_at: string | null;
+  content_hash: string | null;
+}
+
+export interface GrammarPattern {
+  name: string;
+  explanation_vi: string;
+  examples: string[];
+}
+
+export interface GrammarAnalysis {
+  patterns: GrammarPattern[];
 }
 
 export interface PassageAttempt {

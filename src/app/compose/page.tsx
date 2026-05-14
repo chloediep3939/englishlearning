@@ -49,7 +49,7 @@ export default function ComposePage() {
   return (
     <div>
       <Link
-        href="/"
+        href="/dashboard"
         style={{
           display: 'inline-flex',
           alignItems: 'center',

@@ -40,3 +40,4 @@ export async function getAIProvider(): Promise<AIProvider> {
 }
 
 export type { AIProvider } from './types';
+export { AIError, AIQuotaError } from './types';

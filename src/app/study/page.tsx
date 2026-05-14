@@ -15,7 +15,7 @@ export default async function StudyPage() {
   return (
     <div>
       <Link
-        href="/"
+        href="/dashboard"
         style={{
           display: 'inline-flex',
           alignItems: 'center',
@@ -111,7 +111,7 @@ function StudyEmpty() {
           <Plus size={14} /> THÊM TỪ
         </Link>
         <Link
-          href="/"
+          href="/dashboard"
           style={{
             padding: '10px 18px',
             background: 'var(--v-surface)',

@@ -198,7 +198,7 @@ export default function SummaryScreen({
           <RotateCcw size={14} /> LÀM LẠI
         </button>
         <Link
-          href="/"
+          href="/dashboard"
           style={{
             padding: '11px 20px',
             background: 'var(--v-surface)',

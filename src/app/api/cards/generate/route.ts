@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
+import { getCloudflareContext } from '@opennextjs/cloudflare';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { generateCardData } from '@/lib/flashcards/generate';
+import { ensureClozePool } from '@/lib/flashcards/cloze';
 import { flashcardsDb, flashcardDecksDb } from '@/lib/db';
 
 export const runtime = 'nodejs';
@@ -61,6 +63,10 @@ export async function POST(req: Request) {
       // Save the lemmatized headword (data.english) — single words like
       // "boxes" / "ran" are persisted as "box" / "run" so audio, IPA, and
       // dictionary fields all align with the saved key.
+      // `examples` is intentionally omitted: example sentences come from the
+      // shared cloze pool (Part 3 of the cloze-pool feature) on read. The
+      // `flashcards.examples` column is kept for legacy rows but no longer
+      // populated from this route.
       const id = await flashcardsDb.create(userId, {
         deck_id: deckId,
         english: data.english,
@@ -68,13 +74,25 @@ export async function POST(req: Request) {
         ipa: data.ipa,
         part_of_speech: data.part_of_speech,
         audio_url: data.audio_url,
-        examples: data.examples,
         collocations: data.collocations,
         image_url: data.image_url,
         image_attribution: data.image_attribution,
         notes: null,
       });
       const card = await flashcardsDb.getById(userId, id);
+
+      // Fire-and-forget cloze pool gen for the lemmatized headword. waitUntil
+      // keeps the worker alive past the response so AI can finish in the
+      // background; if ctx isn't available (some local-dev edge cases), fall
+      // back to a detached promise so the request still returns fast.
+      const headword = data.english;
+      try {
+        const cf = await getCloudflareContext({ async: true });
+        cf.ctx.waitUntil(ensureClozePool(headword));
+      } catch {
+        ensureClozePool(headword).catch(() => {});
+      }
+
       return NextResponse.json({ saved: true, card }, { status: 201 });
     }
 

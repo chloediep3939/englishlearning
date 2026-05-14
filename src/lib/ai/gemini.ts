@@ -3,6 +3,7 @@ import type {
   AIGenerateOptions,
   CompositionPoolWord,
 } from './types';
+import { AIError, AIQuotaError } from './types';
 import type { CompositionAiFeedback } from '@/lib/types';
 
 const MODEL = 'gemini-2.5-flash';

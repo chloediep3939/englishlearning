@@ -216,7 +216,7 @@ export default function ClozeSession({ cardIds, mode, onRestart }: Props) {
             </button>
           )}
           <Link
-            href="/"
+            href="/dashboard"
             style={{
               padding: '11px 20px',
               background: 'var(--v-surface)',

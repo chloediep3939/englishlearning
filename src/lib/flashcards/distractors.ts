@@ -1,54 +1,116 @@
-import { getAIProvider } from '@/lib/ai';
+import { getDb } from '@/lib/db';
+import { levenshtein } from '@/lib/pronounce/match';
+import { getFallbackPool } from './common-words';
 
-export async function generateDistractorPool(count: number = 40): Promise<string[]> {
-  const ai = await getAIProvider();
-  if (!ai.available) return [];
+export type DistractorLang = 'en' | 'vi';
 
-  const prompt = `Generate exactly ${count} common Vietnamese vocabulary phrases for an English-learning context.
+export interface DistractorOptions {
+  userId: number;
+  lang?: DistractorLang;       // default 'en'
+  count?: number;              // default 3
+  pos?: string | null;         // null/undefined = any POS
+  deckId?: number;             // prefer same-deck words (Tier 1)
+  excludeWords?: string[];     // additional skips on top of targetWord
+}
 
-Requirements:
-- Each phrase 1-4 words in Vietnamese
-- Mix of nouns, verbs, adjectives, and short noun phrases
-- Common everyday vocabulary (B1-B2 equivalent)
-- Diverse domains: work, family, food, travel, technology, emotions, actions, objects, abstract concepts
-- No duplicates
-- No English mixed in
+// Distractors closer than this Levenshtein distance to the target are skipped
+// (catches inflections like prefer / preferred / preferential). English only —
+// Vietnamese edit distance doesn't track inflectional similarity meaningfully.
+const LEVENSHTEIN_MIN = 3;
 
-Return ONLY a JSON object (no markdown, no prose):
-{"words": ["...", "...", ...]}
+export async function generateDistractorPool(
+  targetWord: string,
+  options: DistractorOptions
+): Promise<string[]> {
+  const lang: DistractorLang = options.lang ?? 'en';
+  const count = options.count ?? 3;
+  const targetLower = targetWord.toLowerCase();
+  const excludeLower = new Set<string>(
+    (options.excludeWords ?? []).map((w) => w.toLowerCase())
+  );
+  excludeLower.add(targetLower);
 
-The "words" array must contain exactly ${count} unique Vietnamese phrases.`;
+  // Column is interpolated from a closed two-value union — not user input.
+  // Values still bound via .bind().
+  const column = lang === 'vi' ? 'vietnamese' : 'english';
+  const applyLevenshtein = lang === 'en';
 
-  const response = await ai.generateText(prompt, {
-    json: true,
-    temperature: 0.95,
-    max_tokens: 2000,
-  });
-  if (!response) return [];
+  const db = await getDb();
+  const seenLower = new Set<string>();
+  const candidates: string[] = []; // preserve original casing for display
 
-  try {
-    const cleaned = response
-      .replace(/^```(?:json)?\s*/i, '')
-      .replace(/\s*```$/i, '')
-      .trim();
-    const parsed = JSON.parse(cleaned) as { words?: unknown };
-    if (!Array.isArray(parsed.words)) return [];
+  const addRow = (value: string) => {
+    const lower = value.toLowerCase();
+    if (seenLower.has(lower)) return;
+    seenLower.add(lower);
+    candidates.push(value);
+  };
 
-    const seen = new Set<string>();
-    const result: string[] = [];
-    for (const w of parsed.words) {
-      if (typeof w !== 'string') continue;
-      const trimmed = w.trim();
-      if (trimmed.length === 0) continue;
-      const key = trimmed.toLowerCase();
-      if (seen.has(key)) continue;
-      seen.add(key);
-      result.push(trimmed);
-      if (result.length >= count) break;
-    }
-    return result;
-  } catch (err) {
-    console.error('[distractors] JSON parse failed:', err);
-    return [];
+  // ----- Tier 1: same deck -----
+  if (options.deckId !== undefined) {
+    const sql = options.pos
+      ? `SELECT DISTINCT ${column} AS word FROM flashcards
+         WHERE user_id = ? AND deck_id = ? AND LOWER(${column}) != ? AND part_of_speech = ?`
+      : `SELECT DISTINCT ${column} AS word FROM flashcards
+         WHERE user_id = ? AND deck_id = ? AND LOWER(${column}) != ?`;
+    const stmt = db.prepare(sql);
+    const res = options.pos
+      ? await stmt.bind(options.userId, options.deckId, targetLower, options.pos).all<{ word: string }>()
+      : await stmt.bind(options.userId, options.deckId, targetLower).all<{ word: string }>();
+    for (const row of res.results ?? []) addRow(row.word);
   }
+
+  // ----- Tier 2: user's full vocab (if Tier 1 short after filtering) -----
+  if (countKept(candidates, excludeLower, targetLower, applyLevenshtein) < count) {
+    const sql = options.pos
+      ? `SELECT DISTINCT ${column} AS word FROM flashcards
+         WHERE user_id = ? AND LOWER(${column}) != ? AND part_of_speech = ?`
+      : `SELECT DISTINCT ${column} AS word FROM flashcards
+         WHERE user_id = ? AND LOWER(${column}) != ?`;
+    const stmt = db.prepare(sql);
+    const res = options.pos
+      ? await stmt.bind(options.userId, targetLower, options.pos).all<{ word: string }>()
+      : await stmt.bind(options.userId, targetLower).all<{ word: string }>();
+    for (const row of res.results ?? []) addRow(row.word);
+  }
+
+  // ----- Tier 3: static fallback (English only) -----
+  if (lang === 'en' && countKept(candidates, excludeLower, targetLower, applyLevenshtein) < count) {
+    for (const word of getFallbackPool(options.pos)) addRow(word);
+  }
+
+  const kept = candidates.filter((w) => keep(w, excludeLower, targetLower, applyLevenshtein));
+  return shuffle(kept).slice(0, count);
+}
+
+function keep(
+  word: string,
+  excludeLower: Set<string>,
+  targetLower: string,
+  applyLevenshtein: boolean
+): boolean {
+  const wordLower = word.toLowerCase();
+  if (excludeLower.has(wordLower)) return false;
+  if (applyLevenshtein && levenshtein(wordLower, targetLower) < LEVENSHTEIN_MIN) return false;
+  return true;
+}
+
+function countKept(
+  pool: string[],
+  excludeLower: Set<string>,
+  targetLower: string,
+  applyLevenshtein: boolean
+): number {
+  let n = 0;
+  for (const w of pool) if (keep(w, excludeLower, targetLower, applyLevenshtein)) n++;
+  return n;
+}
+
+function shuffle<T>(arr: T[]): T[] {
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
 }

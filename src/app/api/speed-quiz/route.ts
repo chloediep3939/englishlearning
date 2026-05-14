@@ -16,20 +16,15 @@ export const dynamic = 'force-dynamic';
 const MIN_CARDS_REQUIRED = 1;
 const DEFAULT_COUNT = 20;
 const MAX_COUNT = 50;
-const AI_POOL_SIZE = 40;
 
 interface PoolCard {
   id: number;
+  deck_id: number;
   english: string;
   vietnamese: string;
   ipa: string | null;
   audio_url: string | null;
-}
-
-interface ShortCard {
-  id: number;
-  english: string;
-  vietnamese: string;
+  part_of_speech: string | null;
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -62,51 +57,27 @@ function buildSpellingQuestion(card: PoolCard): SpeedQuizQuestion | null {
   };
 }
 
-function buildTranslationQuestion(
+async function buildTranslationQuestion(
   card: PoolCard,
   isEnToVi: boolean,
-  allCards: ShortCard[],
-  aiPool: string[]
-): SpeedQuizQuestion {
+  userId: number
+): Promise<SpeedQuizQuestion> {
   const correct = isEnToVi ? card.vietnamese : card.english;
-  const correctLower = correct.toLowerCase();
-  const seen = new Set<string>([correctLower]);
-  const realDistractors: string[] = [];
+  const distractors = await generateDistractorPool(correct, {
+    userId,
+    lang: isEnToVi ? 'vi' : 'en',
+    count: 3,
+    pos: card.part_of_speech,
+    deckId: card.deck_id,
+    excludeWords: [correct],
+  });
 
-  const candidates = shuffle(
-    allCards.filter((m) => {
-      if (m.id === card.id) return false;
-      const c = (isEnToVi ? m.vietnamese : m.english).toLowerCase();
-      return c !== correctLower;
-    })
-  );
-  for (const m of candidates) {
-    const candidate = isEnToVi ? m.vietnamese : m.english;
-    const lk = candidate.toLowerCase();
-    if (seen.has(lk)) continue;
-    seen.add(lk);
-    realDistractors.push(candidate);
-    if (realDistractors.length === 3) break;
+  const padded = [...distractors];
+  while (padded.length < 3) {
+    padded.push(`(lựa chọn ${padded.length + 1})`);
   }
 
-  const aiDistractors: string[] = [];
-  if (realDistractors.length < 3 && aiPool.length > 0) {
-    const needed = 3 - realDistractors.length;
-    for (const w of shuffle(aiPool)) {
-      const lk = w.toLowerCase();
-      if (seen.has(lk)) continue;
-      seen.add(lk);
-      aiDistractors.push(w);
-      if (aiDistractors.length === needed) break;
-    }
-  }
-
-  const allDistractors = [...realDistractors, ...aiDistractors];
-  while (allDistractors.length < 3) {
-    allDistractors.push(`(lựa chọn ${allDistractors.length + 1})`);
-  }
-
-  const options = shuffle([correct, ...allDistractors.slice(0, 3)]);
+  const options = shuffle([correct, ...padded.slice(0, 3)]);
   return {
     card_id: card.id,
     question_mode: isEnToVi ? 'en_to_vi' : 'vi_to_en',
@@ -138,10 +109,10 @@ export async function GET(req: Request) {
 
     const db = await getDb();
     const poolSql = deckId
-      ? `SELECT id, english, vietnamese, ipa, audio_url FROM flashcards
+      ? `SELECT id, deck_id, english, vietnamese, ipa, audio_url, part_of_speech FROM flashcards
          WHERE user_id = ? AND status IN ('learning', 'review') AND deck_id = ?
          ORDER BY RANDOM() LIMIT ?`
-      : `SELECT id, english, vietnamese, ipa, audio_url FROM flashcards
+      : `SELECT id, deck_id, english, vietnamese, ipa, audio_url, part_of_speech FROM flashcards
          WHERE user_id = ? AND status IN ('learning', 'review')
          ORDER BY RANDOM() LIMIT ?`;
     const poolStmt = db.prepare(poolSql);
@@ -176,15 +147,8 @@ export async function GET(req: Request) {
       return NextResponse.json(response);
     }
 
-    // ===== Modes that need a wider word pool for distractors =====
-    const allResult = await db
-      .prepare('SELECT id, english, vietnamese FROM flashcards WHERE user_id = ?')
-      .bind(userId)
-      .all<ShortCard>();
-    const allCards = allResult.results;
-
-    // For mix mode every card gets a randomly-assigned mode below; we pre-pick
-    // them so we know whether any en_to_vi card will need AI distractors.
+    // ===== Translation / mix modes =====
+    // For mix, randomly assign each card one of the three concrete modes.
     const perCardMode: SpeedQuizQuestionMode[] =
       mode === 'mix'
         ? pool.map(() => {
@@ -194,32 +158,6 @@ export async function GET(req: Request) {
             return 'spelling';
           })
         : pool.map(() => (mode === 'en_to_vi' ? 'en_to_vi' : 'vi_to_en'));
-
-    // Pre-compute how many real distractors each translation card can use so
-    // we know if we need to hit the AI for a Vietnamese distractor pool.
-    let needsAI = false;
-    for (let i = 0; i < pool.length; i++) {
-      const qm = perCardMode[i];
-      if (qm !== 'en_to_vi') continue;
-      const card = pool[i];
-      const correctLower = card.vietnamese.toLowerCase();
-      const seen = new Set<string>([correctLower]);
-      let count = 0;
-      for (const m of allCards) {
-        if (m.id === card.id) continue;
-        const candidate = m.vietnamese.toLowerCase();
-        if (seen.has(candidate)) continue;
-        seen.add(candidate);
-        count++;
-        if (count >= 3) break;
-      }
-      if (count < 3) {
-        needsAI = true;
-        break;
-      }
-    }
-
-    const aiPool = needsAI ? await generateDistractorPool(AI_POOL_SIZE) : [];
 
     const questions: SpeedQuizQuestion[] = [];
     for (let i = 0; i < pool.length; i++) {
@@ -233,9 +171,9 @@ export async function GET(req: Request) {
         }
         // Word too short for spelling — fall back to en_to_vi so the user
         // still gets a card here instead of dropping it.
-        questions.push(buildTranslationQuestion(card, true, allCards, aiPool));
+        questions.push(await buildTranslationQuestion(card, true, userId));
       } else {
-        questions.push(buildTranslationQuestion(card, qm === 'en_to_vi', allCards, aiPool));
+        questions.push(await buildTranslationQuestion(card, qm === 'en_to_vi', userId));
       }
     }
 

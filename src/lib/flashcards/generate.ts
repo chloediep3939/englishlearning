@@ -2,15 +2,12 @@ import { lookupWord } from './dictionary';
 import { getCollocations } from './datamuse';
 import { translateEnToVi } from './translate';
 import { getPexelsImage } from './pexels';
-import { generateExamples } from './examples';
 import { lemmatize } from './lemmatize';
 import type {
   FlashcardCollocation,
   FlashcardExample,
   FlashcardImageAttribution,
 } from '@/lib/types';
-
-const MIN_EXAMPLES = 2;
 
 /**
  * Shape returned by `generateCardData` — the auto-fill payload used by both
@@ -39,13 +36,18 @@ export interface GeneratedCardData {
 
 /**
  * Auto-fill pipeline for a new flashcard. Fans out to dictionary, datamuse,
- * translation, Pexels in parallel, then tops up examples via Gemini when the
- * dictionary doesn't have enough. Always returns a payload — individual
+ * translation, Pexels in parallel. Always returns a payload — individual
  * upstream failures degrade fields to null rather than throw.
  *
  * `imageSkip` lets the manual-add UI re-roll the Pexels result; pass 0 for
  * first-time generation. When `skipImage` is true, Pexels is skipped entirely
  * (used by bulk import, where image fetch is the slowest leg).
+ *
+ * Examples: only dictionary-sourced examples flow through. The AI top-up has
+ * been removed (Part 3 of the cloze-pool feature) — example sentences come
+ * from the shared cloze pool on read instead, so generating them here would
+ * be wasted tokens. Dictionary examples are still surfaced for the legacy
+ * single-import preview pane.
  */
 export async function generateCardData(
   english: string,
@@ -63,19 +65,7 @@ export async function generateCardData(
     skipImage ? Promise.resolve(null) : getPexelsImage(lemma, imageSkip),
   ]);
 
-  const dictExamples: FlashcardExample[] = (dict?.examples ?? []).map((e) => ({ en: e.en }));
-  let examples: FlashcardExample[] = [...dictExamples];
-
-  if (examples.length < MIN_EXAMPLES) {
-    const aiExamples = await generateExamples(english, 3);
-    const seen = new Set(examples.map((e) => e.en.toLowerCase()));
-    for (const ex of aiExamples) {
-      if (!seen.has(ex.en.toLowerCase())) {
-        examples.push(ex);
-        seen.add(ex.en.toLowerCase());
-      }
-    }
-  }
+  let examples: FlashcardExample[] = (dict?.examples ?? []).map((e) => ({ en: e.en }));
 
   if (examples.length > 0 && !examples[0].vi) {
     const firstVi = await translateEnToVi(examples[0].en);

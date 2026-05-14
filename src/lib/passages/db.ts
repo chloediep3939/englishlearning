@@ -7,10 +7,28 @@ import type {
   PassageStepKind,
   CefrLevel,
   LevelVerdict,
+  GrammarAnalysis,
 } from '@/lib/types';
 
 function countWords(text: string): number {
   return (text.trim().match(/\S+/g) ?? []).length;
+}
+
+function parseGrammarAnalysis(raw: string | null): GrammarAnalysis | null {
+  if (!raw) return null;
+  try {
+    const parsed = JSON.parse(raw) as unknown;
+    if (
+      parsed &&
+      typeof parsed === 'object' &&
+      Array.isArray((parsed as { patterns?: unknown }).patterns)
+    ) {
+      return parsed as GrammarAnalysis;
+    }
+    return null;
+  } catch {
+    return null;
+  }
 }
 
 function hydratePassage(row: PassageRow): Passage {
@@ -18,6 +36,7 @@ function hydratePassage(row: PassageRow): Passage {
   // doesn't leak the storage column name.
   const {
     paraphrase_tips_json: tipsJson,
+    grammar_analysis: grammarJson,
     ...rest
   } = row;
   let paraphrase_tips: string[] | null = null;
@@ -37,6 +56,7 @@ function hydratePassage(row: PassageRow): Passage {
     level_estimate: row.level_estimate as CefrLevel | null,
     level_verdict: row.level_verdict as LevelVerdict | null,
     paraphrase_tips,
+    grammar_analysis: parseGrammarAnalysis(grammarJson),
   };
 }
 
@@ -171,6 +191,63 @@ export const passagesDb = {
       .bind(id, userId)
       .run();
     return (result.meta.changes ?? 0) > 0;
+  },
+
+  /**
+   * Lazy backfill helper for the M5 content-hash column. SHA-256 isn't a
+   * built-in D1 function, so the hash is computed in TypeScript (see
+   * `@/lib/passages/hash`) and written on the next grammar-route call for
+   * pre-M5 rows.
+   */
+  async setContentHash(userId: number, id: number, hash: string): Promise<void> {
+    const db = await getDb();
+    await db
+      .prepare(`UPDATE passages SET content_hash = ? WHERE id = ? AND user_id = ?`)
+      .bind(hash, id, userId)
+      .run();
+  },
+
+  /**
+   * Cross-user lookup of a cached grammar analysis by content hash. Returns
+   * the raw JSON string so the route can `JSON.parse` it once and write the
+   * same string to the consumer's row without a round-trip through
+   * `JSON.stringify`. Intentional: the cache is keyed on content equality
+   * (hash collision → same text), not ownership — see the result doc for
+   * the multi-tenancy reasoning.
+   */
+  async findGrammarByContentHash(hash: string): Promise<string | null> {
+    const db = await getDb();
+    const row = await db
+      .prepare(
+        `SELECT grammar_analysis FROM passages
+         WHERE content_hash = ? AND grammar_analysis IS NOT NULL
+         LIMIT 1`,
+      )
+      .bind(hash)
+      .first<{ grammar_analysis: string }>();
+    return row?.grammar_analysis ?? null;
+  },
+
+  /**
+   * Write a grammar analysis to a passage row. `analysisJson` must already
+   * be a JSON string that round-trips through `JSON.parse`. `analyzed_at`
+   * is stamped server-side so the wall clock is the DB's, not the route's.
+   */
+  async setGrammarAnalysis(
+    userId: number,
+    id: number,
+    analysisJson: string,
+  ): Promise<void> {
+    const db = await getDb();
+    await db
+      .prepare(
+        `UPDATE passages
+         SET grammar_analysis = ?,
+             grammar_analyzed_at = CURRENT_TIMESTAMP
+         WHERE id = ? AND user_id = ?`,
+      )
+      .bind(analysisJson, id, userId)
+      .run();
   },
 };
 

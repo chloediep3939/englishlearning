@@ -130,7 +130,7 @@ export default function SummaryScreen({
           <RotateCcw size={14} /> HỌC THÊM PHIÊN NỮA
         </button>
         <Link
-          href="/"
+          href="/dashboard"
           style={{
             padding: '10px 18px',
             background: 'var(--v-surface)',

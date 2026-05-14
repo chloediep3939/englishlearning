@@ -74,7 +74,7 @@ export default function SettingsPage() {
   return (
     <div style={{ maxWidth: 1100, margin: '0 auto' }}>
       <Link
-        href="/"
+        href="/dashboard"
         style={{
           display: 'inline-flex',
           alignItems: 'center',

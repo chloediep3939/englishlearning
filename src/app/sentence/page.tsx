@@ -88,7 +88,7 @@ export default function SentencePage() {
   return (
     <div>
       <Link
-        href="/"
+        href="/dashboard"
         style={{
           display: 'inline-flex',
           alignItems: 'center',

@@ -19,7 +19,7 @@ interface NavItem {
 }
 
 const NAV: NavItem[] = [
-  { href: '/',           label: 'Tổng quan',       icon: LayoutGrid, color: 'var(--v-primary)' },
+  { href: '/dashboard',  label: 'Tổng quan',       icon: LayoutGrid, color: 'var(--v-primary)' },
   { href: '/add',        label: 'Thêm từ',         icon: Plus,       color: 'var(--v-accent)' },
   { href: '/study',      label: 'Học hôm nay',     icon: BookOpen,   color: 'var(--v-orange)' },
   { href: '/review',     label: 'Ôn tập',          icon: RotateCcw,  color: 'var(--v-blue)' },

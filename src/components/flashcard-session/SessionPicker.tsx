@@ -246,7 +246,7 @@ export default function SessionPicker({ mode, candidates, onStart }: Props) {
         }}
       >
         <Link
-          href="/"
+          href="/dashboard"
           style={{
             fontFamily: 'var(--v-font-body)',
             fontSize: 'var(--v-text-sm)',

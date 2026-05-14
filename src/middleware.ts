@@ -3,6 +3,7 @@ import { getCloudflareContext } from '@opennextjs/cloudflare';
 import { verifyAuthToken, AUTH_CONFIG } from '@/lib/auth';
 
 const PUBLIC_PATHS = new Set<string>([
+  '/',
   '/login',
   '/api/auth/google',
   '/api/auth/callback/google',

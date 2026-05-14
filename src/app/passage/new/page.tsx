@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { ArrowLeft, Newspaper } from 'lucide-react';
 import PassageForm from '@/components/PassageForm';
-import type { Passage } from '@/lib/types';
 
 export default function NewPassagePage() {
   const router = useRouter();
@@ -29,8 +28,8 @@ export default function NewPassagePage() {
       const data = (await res.json().catch(() => ({}))) as { error?: string };
       throw new Error(data.error ?? 'Không tạo được bài.');
     }
-    const { passage } = (await res.json()) as { passage: Passage };
-    router.push(`/passage/${passage.id}`);
+    const { id } = (await res.json()) as { id: number };
+    router.push(`/passage/${id}`);
   }
 
   return (

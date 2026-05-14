@@ -222,7 +222,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
     function onKey(e: KeyboardEvent) {
       if (done) return;
       if (e.key === 'Escape') {
-        if (window.confirm('Thoát luôn?')) router.push('/');
+        if (window.confirm('Thoát luôn?')) router.push('/dashboard');
         return;
       }
       if (phase === 'REVEAL') {
