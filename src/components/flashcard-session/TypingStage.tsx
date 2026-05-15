@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowRight, Heart, Sparkles } from 'lucide-react';
+import { ArrowRight, Eye, Heart, Sparkles } from 'lucide-react';
 import type { Flashcard } from '@/lib/types';
 
 interface Props {
@@ -166,29 +166,41 @@ export default function TypingStage({
           }}
         />
         <div style={{ marginTop: 14, display: 'flex', justifyContent: 'center' }}>
+          {/* When the input is empty, the button switches to "Xem đáp án"
+              (show the answer) so the user can skip typing entirely.
+              Enter on an empty input does the same thing. */}
           <button
             type="button"
             onClick={() => onSubmit(input)}
-            disabled={input.trim().length === 0}
             style={{
               padding: '12px 32px',
-              background: 'var(--v-primary)',
-              color: '#fff',
-              border: 'none',
-              boxShadow: '0 4px 0 rgba(60,20,5,0.18), 0 6px 14px rgba(122,193,67,0.3)',
+              background: input.trim().length === 0 ? 'var(--v-surface)' : 'var(--v-primary)',
+              color: input.trim().length === 0 ? 'var(--v-ink-soft)' : '#fff',
+              border: input.trim().length === 0 ? '1.5px solid var(--v-border)' : 'none',
+              boxShadow:
+                input.trim().length === 0
+                  ? 'var(--v-shadow-sm)'
+                  : '0 4px 0 rgba(60,20,5,0.18), 0 6px 14px rgba(122,193,67,0.3)',
               borderRadius: 16,
               fontFamily: 'var(--v-font-head)',
               fontWeight: 900,
               fontSize: 13,
               letterSpacing: '0.04em',
-              cursor: input.trim().length === 0 ? 'not-allowed' : 'pointer',
-              opacity: input.trim().length === 0 ? 0.5 : 1,
+              cursor: 'pointer',
               display: 'inline-flex',
               alignItems: 'center',
               gap: 8,
             }}
           >
-            KIỂM TRA <ArrowRight size={16} strokeWidth={3} />
+            {input.trim().length === 0 ? (
+              <>
+                <Eye size={16} strokeWidth={3} /> XEM ĐÁP ÁN
+              </>
+            ) : (
+              <>
+                KIỂM TRA <ArrowRight size={16} strokeWidth={3} />
+              </>
+            )}
           </button>
         </div>
         <div

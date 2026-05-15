@@ -336,25 +336,32 @@ export const flashcardsDb = {
     return flashcardsDb.getByDeck(userId, deck_id, opts.limit ?? 200);
   },
 
-  async getDueForReview(userId: number, limit: number = 50, exclude_mastered: boolean = true): Promise<Flashcard[]> {
+  async getDueForReview(
+    userId: number,
+    limit: number = 50,
+    exclude_mastered: boolean = true,
+    deck_id: number | null = null,
+  ): Promise<Flashcard[]> {
     const db = await getDb();
     const masteredClause = exclude_mastered ? "AND status != 'mastered'" : '';
+    const deckClause = deck_id ? 'AND deck_id = ?' : '';
     // NULL next_review_at = brand-new card never reviewed → treat as "due now"
     // so it shows in /review. The previous `IS NOT NULL` filter excluded these
     // entirely, which is why /review appeared empty for users whose only cards
     // were freshly added. NULLS FIRST is the natural ordering since they
     // haven't been scheduled yet.
-    const result = await db
-      .prepare(
-        `SELECT * FROM flashcards
-         WHERE user_id = ?
-         AND (next_review_at IS NULL OR next_review_at <= datetime('now'))
-         ${masteredClause}
-         ORDER BY next_review_at IS NULL DESC, next_review_at ASC
-         LIMIT ?`
-      )
-      .bind(userId, limit)
-      .all<Record<string, unknown>>();
+    const stmt = db.prepare(
+      `SELECT * FROM flashcards
+       WHERE user_id = ?
+       AND (next_review_at IS NULL OR next_review_at <= datetime('now'))
+       ${masteredClause}
+       ${deckClause}
+       ORDER BY next_review_at IS NULL DESC, next_review_at ASC
+       LIMIT ?`,
+    );
+    const result = deck_id
+      ? await stmt.bind(userId, deck_id, limit).all<Record<string, unknown>>()
+      : await stmt.bind(userId, limit).all<Record<string, unknown>>();
     return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
   },
 

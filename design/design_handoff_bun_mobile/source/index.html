@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>học av — redesign explorations</title>
+
+<!-- Google Fonts: 3 type systems for the 3 directions -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Nunito:wght@400;600;700;800;900;1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=JetBrains+Mono:wght@400;500;600;700&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; font-family: 'Plus Jakarta Sans', -apple-system, sans-serif; }
+  #root { width: 100vw; height: 100vh; }
+
+  /* Shared design system: ngoc-palette base */
+  :root {
+    --ngoc-green: #a8cf45;
+    --ngoc-green-deep: #6b9728;
+    --ngoc-blue: #5e93b0;
+    --ngoc-blue-deep: #2f6a87;
+    --ngoc-horn-yellow: #f4c842;
+    --ngoc-blush: #f3b1be;
+  }
+</style>
+
+<!-- React + Babel pinned -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" src="design-canvas.jsx"></script>
+<script type="text/babel" src="shared.jsx"></script>
+<script type="text/babel" src="tokens.jsx"></script>
+<script type="text/babel" src="direction-a.jsx"></script>
+<script type="text/babel" src="direction-b.jsx"></script>
+<script type="text/babel" src="direction-c.jsx"></script>
+<script type="text/babel" src="direction-v2.jsx"></script>
+<script type="text/babel" src="direction-v2-pages.jsx"></script>
+<script type="text/babel" src="direction-v2-flashcard.jsx"></script>
+<script type="text/babel" src="landing-bun-anim.jsx"></script>
+<script type="text/babel" src="landing-bun-parts1.jsx"></script>
+<script type="text/babel" src="landing-bun-parts2.jsx"></script>
+<script type="text/babel" src="landing-bun-parts3.jsx"></script>
+<script type="text/babel" src="landing-bun-mobile.jsx"></script>
+<script type="text/babel" src="app-mobile.jsx"></script>
+<script type="text/babel" src="app-mobile-extra.jsx"></script>
+<script type="text/babel" src="app.jsx"></script>
+</body>
+</html>

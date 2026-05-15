@@ -209,10 +209,12 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
   // Submit takes the raw value so callers (input keydown + button click)
   // can hand it in directly instead of relying on closure state — that
   // race was what made Enter feel "dead" after a fast type → Enter sequence.
+  //
+  // Empty input is allowed: pressing Enter without typing reveals the
+  // answer directly (the char-diff renders the whole answer as "missed"
+  // characters). Acts as a "I don't know, show me" affordance.
   const handleSubmitAnswer = useCallback((raw: string) => {
-    const v = raw.trim();
-    if (v.length === 0) return;
-    setSubmittedGuess(v);
+    setSubmittedGuess(raw.trim());
     setPhase('REVEAL');
   }, []);
 
