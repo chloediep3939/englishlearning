@@ -82,32 +82,6 @@ export default function CharDiffBox({ guess, answer }: { guess: string; answer: 
           {answer}
         </div>
       </div>
-      <div
-        style={{
-          marginTop: 12,
-          display: 'flex',
-          gap: 14,
-          justifyContent: 'center',
-          fontFamily: 'var(--v-font-body)',
-          fontSize: 11,
-          fontWeight: 700,
-          color: 'var(--v-ink-soft)',
-          flexWrap: 'wrap',
-        }}
-      >
-        <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
-          <span style={{ width: 10, height: 10, background: 'var(--v-primary)', borderRadius: 2 }} />
-          đúng vị trí
-        </span>
-        <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
-          <span style={{ width: 10, height: 10, background: 'var(--v-orange)', borderRadius: 2 }} />
-          sai vị trí
-        </span>
-        <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
-          <span style={{ width: 10, height: 10, background: 'var(--v-red)', borderRadius: 2 }} />
-          không có
-        </span>
-      </div>
     </div>
   );
 }

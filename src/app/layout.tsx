@@ -54,17 +54,22 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           >
             {user ? (
               <div style={{ display: 'flex', minHeight: '100vh', background: 'var(--v-bg)' }}>
-                <Sidebar
-                  userEmail={user.email}
-                  userName={user.name}
-                  userPicture={user.picture_url}
-                  isDemo={user.is_demo}
-                />
+                <div className="hidden md:block">
+                  <Sidebar
+                    userEmail={user.email}
+                    userName={user.name}
+                    userPicture={user.picture_url}
+                    isDemo={user.is_demo}
+                  />
+                </div>
                 <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0 }}>
                   {user.is_demo && user.demo_expires_at != null && (
                     <DemoBanner expiresAtSec={user.demo_expires_at} />
                   )}
-                  <main style={{ flex: 1, padding: '20px 32px 24px', overflow: 'auto' }}>
+                  <main
+                    className="flex-1 overflow-auto md:pt-5 md:px-8 md:pb-6"
+                    style={{ flex: 1, overflow: 'auto' }}
+                  >
                     {children}
                   </main>
                 </div>

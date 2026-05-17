@@ -1,10 +1,15 @@
 import Link from 'next/link';
 import { ArrowLeft, Folder } from 'lucide-react';
 import DeckList from '@/components/DeckList';
+import MDecksList from '@/components/app-mobile/screens/MDecksList';
 
 export default function DecksPage() {
   return (
-    <div>
+    <>
+    <div className="md:hidden">
+      <MDecksList />
+    </div>
+    <div className="hidden md:block">
       <Link
         href="/dashboard"
         style={{
@@ -48,5 +53,6 @@ export default function DecksPage() {
 
       <DeckList />
     </div>
+    </>
   );
 }

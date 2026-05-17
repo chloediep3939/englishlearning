@@ -4,6 +4,7 @@ import { requireUserId } from '@/lib/current-user';
 import { passagesDb } from '@/lib/passages/db';
 import PassageLibraryRow from '@/components/PassageLibraryRow';
 import Mascot from '@/components/common/Mascot';
+import MArticle from '@/components/app-mobile/screens/MArticle';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -13,7 +14,11 @@ export default async function PassageLibraryPage() {
   const passages = await passagesDb.listByUser(userId, { limit: 50 });
 
   return (
-    <div>
+    <>
+    <div className="md:hidden">
+      <MArticle />
+    </div>
+    <div className="hidden md:block">
       <Link
         href="/dashboard"
         style={{
@@ -136,5 +141,6 @@ export default async function PassageLibraryPage() {
         </ul>
       )}
     </div>
+    </>
   );
 }

@@ -110,8 +110,11 @@ export async function DELETE(
     const existing = await flashcardDecksDb.getById(userId, id);
     if (!existing) return NextResponse.json({ error: 'Not found.' }, { status: 404 });
 
+    const url = new URL(req.url);
+    const deleteCards = url.searchParams.get('delete_cards') === 'true';
+
     try {
-      await flashcardDecksDb.delete(userId, id);
+      await flashcardDecksDb.delete(userId, id, { deleteCards });
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Delete failed';
       return NextResponse.json({ error: message }, { status: 400 });

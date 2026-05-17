@@ -16,6 +16,7 @@ import CefrControl from '@/components/settings-controls/CefrControl';
 import TtsRateControl from '@/components/settings-controls/TtsRateControl';
 import VoicePickerControl from '@/components/settings-controls/VoicePickerControl';
 import ThemeControl from '@/components/settings-controls/ThemeControl';
+import MSettings from '@/components/app-mobile/screens/MSettings';
 import type { FlashcardSettings, ThemeMode } from '@/lib/types';
 import { M3_SETTINGS } from '@/lib/types';
 import { setStoredVoicePreference } from '@/lib/tts';
@@ -72,7 +73,11 @@ export default function SettingsPage() {
   }
 
   return (
-    <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+    <>
+    <div className="md:hidden">
+      <MSettings />
+    </div>
+    <div className="hidden md:block" style={{ maxWidth: 1100, margin: '0 auto' }}>
       <Link
         href="/dashboard"
         style={{
@@ -307,6 +312,7 @@ export default function SettingsPage() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

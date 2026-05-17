@@ -21,6 +21,10 @@ interface Props {
   onRate: (q: Quality) => void;
   /** Label above the rating buttons (varies by page). */
   ratingRowLabel: string;
+  /** True iff the learner has rated this card LẠI earlier in the current
+   *  session. Threads through to previewIntervals so the "ôn sau X" hint on
+   *  TỐT shows the longer interval that the mastery gate actually awards. */
+  failedThisSession?: boolean;
 }
 
 /**
@@ -31,9 +35,9 @@ interface Props {
  * default so the shortcut is discoverable.
  */
 export default function RevealStage({
-  card, guess, isCorrect, autoplayCount, onRate, ratingRowLabel,
+  card, guess, isCorrect, autoplayCount, onRate, ratingRowLabel, failedThisSession,
 }: Props) {
-  const intervals = previewIntervals(card);
+  const intervals = previewIntervals(card, { failedThisSession });
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>

@@ -10,6 +10,10 @@ interface Props {
   mode: SessionMode;
   candidates: Flashcard[];
   onStart: (selected: Flashcard[]) => void;
+  /** Pre-check only the first N candidates instead of all. Used by /study
+   *  so the daily_new_limit acts as a soft default while still showing the
+   *  full deck for users who want to study more in one session. */
+  defaultPick?: number;
 }
 
 const STATUS_BADGE: Record<FlashcardStatus, { label: string; color: string; soft: string }> = {
@@ -32,12 +36,17 @@ const STATUS_BADGE: Record<FlashcardStatus, { label: string; color: string; soft
  * Status badges only render for review-mode — study cards are always
  * status='new'.
  */
-export default function SessionPicker({ mode, candidates, onStart }: Props) {
+export default function SessionPicker({ mode, candidates, onStart, defaultPick }: Props) {
   const [selectedIds, setSelectedIds] = useState<Set<number>>(() => {
-    // Default selection: all candidates. Most users will accept the full
-    // list, and "Bỏ chọn" is one click away if they want to start from
-    // empty.
-    return new Set(candidates.map((c) => c.id));
+    // Default selection: first `defaultPick` candidates if provided,
+    // else all. /study passes daily_new_limit as defaultPick so the
+    // picker pre-checks ~10 of N candidates (user can hit "Chọn hết"
+    // to expand). /review passes nothing → all due cards pre-checked.
+    const slice =
+      typeof defaultPick === 'number' && defaultPick > 0
+        ? candidates.slice(0, defaultPick)
+        : candidates;
+    return new Set(slice.map((c) => c.id));
   });
 
   const selectedCount = selectedIds.size;

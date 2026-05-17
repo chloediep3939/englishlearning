@@ -6,6 +6,7 @@ import { ArrowLeft, PenLine } from 'lucide-react';
 import QuizSetup, { type QuizMode } from '@/components/QuizSetup';
 import SentenceSession from '@/components/SentenceSession';
 import LoadingState from '@/components/common/LoadingState';
+import MSentence from '@/components/app-mobile/screens/MSentence';
 import { apiJson } from '@/lib/common/api-json';
 import type { Flashcard, FlashcardSettings } from '@/lib/types';
 
@@ -86,7 +87,11 @@ export default function SentencePage() {
   }
 
   return (
-    <div>
+    <>
+    <div className="md:hidden">
+      <MSentence />
+    </div>
+    <div className="hidden md:block">
       <Link
         href="/dashboard"
         style={{
@@ -156,5 +161,6 @@ export default function SentencePage() {
         startLabel="BẮT ĐẦU VIẾT"
       />
     </div>
+    </>
   );
 }

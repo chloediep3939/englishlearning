@@ -58,6 +58,11 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
   const [qualityCounts, setQualityCounts] = useState<Record<Quality, number>>({
     0: 0, 2: 0, 4: 0, 5: 0,
   });
+  // Per-card session-scoped wrong-tracker. Once a card receives quality=0
+  // in this session its id lands here and stays through the rest of the
+  // session, bumping the mastery bar from "2 đúng" to "3 đúng". Resets on
+  // mount → next session starts clean.
+  const failedThisSessionRef = useRef<Set<number>>(new Set());
 
   const [phase, setPhase] = useState<Phase>('TYPING');
   const [input, setInput] = useState('');
@@ -66,6 +71,12 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
   const [autoplayCount, setAutoplayCount] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const startedAt = useRef<number>(Date.now());
+  // Wall-clock timestamp of the last TYPING→REVEAL transition. Enter
+  // rating is suppressed for ~350ms after to absorb a held / auto-repeated
+  // Enter that came from the TypingStage submit — otherwise the second
+  // keydown bubbles to the window listener, fires handleRate(0), and
+  // re-queues the card before the user ever sees the reveal panel.
+  const revealEnteredAt = useRef<number>(0);
 
   const current = queue[0];
   const done = queue.length === 0;
@@ -105,10 +116,20 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
         try {
           const audio = new Audio(audio_url);
           audio.onended = onComplete;
-          audio.onerror = speakTTS;
-          audio.play().catch(speakTTS);
+          audio.onerror = (e) => {
+            // eslint-disable-next-line no-console
+            console.warn('[autoplay] audio_url failed, fallback TTS:', audio_url, e);
+            speakTTS();
+          };
+          audio.play().catch((err) => {
+            // eslint-disable-next-line no-console
+            console.warn('[autoplay] audio.play() rejected, fallback TTS:', err);
+            speakTTS();
+          });
           return;
-        } catch {
+        } catch (err) {
+          // eslint-disable-next-line no-console
+          console.warn('[autoplay] new Audio() threw, fallback TTS:', err);
           speakTTS();
           return;
         }
@@ -120,16 +141,28 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
           onComplete();
           return;
         }
-        try {
-          window.speechSynthesis.cancel();
-          const u = new SpeechSynthesisUtterance(word);
-          u.lang = 'en-US';
-          u.rate = 0.9;
-          u.onend = onComplete;
-          u.onerror = onComplete;
-          window.speechSynthesis.speak(u);
-        } catch {
-          onComplete();
+        const synth = window.speechSynthesis;
+        const doSpeak = () => {
+          try {
+            synth.cancel();
+            const u = new SpeechSynthesisUtterance(word);
+            u.lang = 'en-US';
+            u.rate = 0.9;
+            u.onend = onComplete;
+            u.onerror = onComplete;
+            synth.speak(u);
+          } catch {
+            onComplete();
+          }
+        };
+        // Chrome on first page load returns [] until voiceschanged fires.
+        // Calling speak() with no voices produces no sound (bug, not spec).
+        // Mirror the wait-for-voices dance the `speak()` helper already does.
+        if (synth.getVoices().length === 0) {
+          synth.addEventListener('voiceschanged', doSpeak, { once: true });
+          synth.getVoices();
+        } else {
+          doSpeak();
         }
       }
     }
@@ -144,7 +177,12 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
         } catch {}
       }
     };
-  }, [phase, current]);
+    // Depend on current?.id (primitive) instead of the Flashcard object —
+    // when SessionFlow re-syncs candidates from a router.refresh, the
+    // object identity can change for the same card and the effect would
+    // re-fire, cleanup-cancel the in-flight audio, and the autoplay would
+    // never produce sound.
+  }, [phase, current?.id]);
 
   const handleRate = useCallback(
     (quality: Quality) => {
@@ -153,10 +191,12 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
       // Always log the SRS rating — the queue loop is purely UI; the
       // DB always sees every signal.
       setQualityCounts((prev) => ({ ...prev, [quality]: prev[quality] + 1 }));
+      if (quality === 0) failedThisSessionRef.current.add(current.id);
+      const failedThisSession = failedThisSessionRef.current.has(current.id);
       void fetch(`/api/cards/${current.id}/rate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ quality }),
+        body: JSON.stringify({ quality, failed_this_session: failedThisSession }),
       })
         .then((res) => {
           if (!res.ok) {
@@ -216,6 +256,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
   const handleSubmitAnswer = useCallback((raw: string) => {
     setSubmittedGuess(raw.trim());
     setPhase('REVEAL');
+    revealEnteredAt.current = Date.now();
   }, []);
 
   // Window listener: only Escape + REVEAL-phase keys. TYPING+Enter is
@@ -230,6 +271,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
       if (phase === 'REVEAL') {
         if (e.key === 'Enter') {
           e.preventDefault();
+          if (Date.now() - revealEnteredAt.current < 350) return;
           handleRate(isCorrect ? 4 : 0);
         } else if (e.key === '1') handleRate(0);
         else if (e.key === '2') handleRate(2);
@@ -321,6 +363,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
           autoplayCount={autoplayCount}
           onRate={handleRate}
           ratingRowLabel={config.ratingRowLabel}
+          failedThisSession={failedThisSessionRef.current.has(current.id)}
         />
       )}
 

@@ -20,7 +20,10 @@ export async function POST(
       return NextResponse.json({ error: 'Invalid id.' }, { status: 400 });
     }
 
-    const body = (await req.json().catch(() => ({}))) as { quality?: unknown };
+    const body = (await req.json().catch(() => ({}))) as {
+      quality?: unknown;
+      failed_this_session?: unknown;
+    };
     const quality = Number(body.quality);
     if (!VALID_QUALITIES.has(quality)) {
       return NextResponse.json(
@@ -28,11 +31,13 @@ export async function POST(
         { status: 400 }
       );
     }
+    const failedThisSession = body.failed_this_session === true;
 
     const result = await flashcardReviewsDb.recordRating(
       userId,
       cardId,
-      quality as SRSQuality
+      quality as SRSQuality,
+      { failedThisSession },
     );
 
     const updated = await flashcardsDb.getById(userId, cardId);

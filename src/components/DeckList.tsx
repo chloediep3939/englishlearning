@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Plus } from 'lucide-react';
 import DeckEditor from './DeckEditor';
 import DeckCard from './DeckCard';
+import DeleteDeckDialog from './deck-detail/DeleteDeckDialog';
 import LoadingState from '@/components/common/LoadingState';
 import type { FlashcardDeck, FlashcardDeckWithCounts } from '@/lib/types';
 
@@ -12,6 +13,7 @@ export default function DeckList() {
   const [loading, setLoading] = useState(true);
   // undefined = no modal open. null = creating new. FlashcardDeck = editing existing.
   const [editing, setEditing] = useState<FlashcardDeck | null | undefined>(undefined);
+  const [deleting, setDeleting] = useState<FlashcardDeckWithCounts | null>(null);
 
   async function load() {
     setLoading(true);
@@ -30,17 +32,22 @@ export default function DeckList() {
     void load();
   }, []);
 
-  async function handleDelete(deck: FlashcardDeckWithCounts) {
+  function handleDelete(deck: FlashcardDeckWithCounts) {
     if (deck.is_default) {
       alert('Không thể xoá bộ mặc định.');
       return;
     }
-    const confirmed = window.confirm(
-      `Xoá "${deck.name}"? ${deck.total} từ trong bộ này sẽ chuyển về bộ mặc định.`
-    );
-    if (!confirmed) return;
+    if (deck.total === 0) {
+      void confirmDelete(deck, false);
+      return;
+    }
+    setDeleting(deck);
+  }
+
+  async function confirmDelete(deck: FlashcardDeckWithCounts, deleteCards: boolean) {
     try {
-      const res = await fetch(`/api/decks/${deck.id}`, { method: 'DELETE' });
+      const url = `/api/decks/${deck.id}${deleteCards ? '?delete_cards=true' : ''}`;
+      const res = await fetch(url, { method: 'DELETE' });
       if (!res.ok) {
         const data = (await res.json().catch(() => ({}))) as { error?: string };
         alert(data.error || 'Không xoá được.');
@@ -49,6 +56,8 @@ export default function DeckList() {
       await load();
     } catch {
       alert('Lỗi kết nối.');
+    } finally {
+      setDeleting(null);
     }
   }
 
@@ -104,6 +113,15 @@ export default function DeckList() {
             setEditing(undefined);
             void load();
           }}
+        />
+      )}
+
+      {deleting && (
+        <DeleteDeckDialog
+          deckName={deleting.name}
+          cardCount={deleting.total}
+          onCancel={() => setDeleting(null)}
+          onConfirm={(deleteCards) => confirmDelete(deleting, deleteCards)}
         />
       )}
     </>

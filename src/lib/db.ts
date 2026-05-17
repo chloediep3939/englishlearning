@@ -267,7 +267,13 @@ export const flashcardDecksDb = {
     ]);
   },
 
-  async delete(userId: number, id: number): Promise<void> {
+  /**
+   * Deletes a deck. Default behavior moves the deck's cards to the user's
+   * default deck so they aren't lost. Pass `{ deleteCards: true }` to delete
+   * the cards instead — flashcard_reviews / flashcard_test_attempts /
+   * flashcard_practice_sentences cascade via the schema's ON DELETE CASCADE.
+   */
+  async delete(userId: number, id: number, opts: { deleteCards?: boolean } = {}): Promise<void> {
     const db = await getDb();
     const deck = await db
       .prepare('SELECT id, is_default FROM flashcard_decks WHERE id = ? AND user_id = ?')
@@ -276,6 +282,13 @@ export const flashcardDecksDb = {
     if (!deck) return; // not owned by user → no-op
     if (Number(deck.is_default) === 1) {
       throw new Error('Không thể xoá bộ từ mặc định.');
+    }
+    if (opts.deleteCards) {
+      await db.batch([
+        db.prepare('DELETE FROM flashcards WHERE deck_id = ? AND user_id = ?').bind(id, userId),
+        db.prepare('DELETE FROM flashcard_decks WHERE id = ? AND user_id = ?').bind(id, userId),
+      ]);
+      return;
     }
     // Move cards to default deck, then delete this deck
     const defaultId = await flashcardDecksDb.ensureDefault(userId);
@@ -599,12 +612,13 @@ export const flashcardReviewsDb = {
   async recordRating(
     userId: number,
     flashcardId: number,
-    quality: SRSQuality
+    quality: SRSQuality,
+    opts: { failedThisSession?: boolean } = {},
   ): Promise<{ prev_interval: number; new_interval: number; next_review_at: string; new_status: FlashcardStatus }> {
     const card = await flashcardsDb.getById(userId, flashcardId);
     if (!card) throw new CardNotFoundError();
 
-    const update = calculateNextReview(card, quality);
+    const update = calculateNextReview(card, quality, opts);
 
     await flashcardsDb.updateSRS(userId, flashcardId, {
       status: update.status,

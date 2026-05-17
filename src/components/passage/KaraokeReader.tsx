@@ -12,7 +12,7 @@ import {
 import type { Flashcard, FlashcardDeckWithCounts } from '@/lib/types';
 import type { DictionaryResult } from '@/lib/flashcards/dictionary';
 import { ApiError, apiJson } from '@/lib/common/api-json';
-import { getStoredVoicePreference } from '@/lib/tts';
+import { getStoredVoicePreference, speakWord } from '@/lib/tts';
 
 const MAX_TTS_CHARS = 5000;
 const RATE_OPTIONS = [0.75, 1, 1.25, 1.5] as const;
@@ -682,20 +682,11 @@ function DefinitionBody({
   onStartSave: () => void;
 }) {
   function speakLemma() {
-    if (definition.audio_url) {
-      try {
-        const a = new Audio(definition.audio_url);
-        void a.play();
-        return;
-      } catch {
-        /* fall through to speechSynthesis */
-      }
-    }
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(definition.word);
-    u.lang = 'en-US';
-    window.speechSynthesis.speak(u);
+    void speakWord(definition.word, {
+      audioUrl: definition.audio_url,
+      lang: 'en-US',
+      voice_preference: getStoredVoicePreference(),
+    });
   }
 
   return (

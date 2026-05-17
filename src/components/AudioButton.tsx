@@ -20,7 +20,13 @@ export default function AudioButton({
 }: Props) {
   function play() {
     if (typeof window === 'undefined') return;
-    if (!audioUrl) {
+    // Phrasal-verb headwords ("come in", "give up") have no per-phrase
+    // recording — the dictionary's audio_url for those is just the first
+    // token, which is wrong. Skip the file and let speechSynthesis say
+    // the whole phrase. Only applies to English; non-English never has a
+    // recorded file anyway.
+    const isMultiWord = lang === 'en-US' && /\s/.test(fallbackText.trim());
+    if (!audioUrl || isMultiWord) {
       speakTTS();
       return;
     }

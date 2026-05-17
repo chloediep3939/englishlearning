@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Library, Search, Plus, Check } from 'lucide-react';
 import AudioButton from '@/components/AudioButton';
+import MDictionary from '@/components/app-mobile/screens/MDictionary';
 import type { DictionaryResult } from '@/lib/flashcards/dictionary';
 import type { FlashcardExample } from '@/lib/types';
 
@@ -66,7 +67,11 @@ export default function DictionaryPage() {
   }
 
   return (
-    <div>
+    <>
+    <div className="md:hidden">
+      <MDictionary />
+    </div>
+    <div className="hidden md:block">
       <Link
         href="/dashboard"
         style={{
@@ -329,5 +334,6 @@ export default function DictionaryPage() {
         </div>
       )}
     </div>
+    </>
   );
 }

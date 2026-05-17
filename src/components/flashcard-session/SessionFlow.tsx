@@ -14,6 +14,11 @@ interface Props {
    *  due-for-review for review). The picker default-selects all of
    *  these and lets the user trim. */
   initialCards: Flashcard[];
+  /** Pre-check the first N candidates instead of all. Used by /study to
+   *  honor the user's `daily_new_limit` as a soft default while still
+   *  letting them pick more via "Chọn hết". Omit for /review (default =
+   *  all). */
+  defaultPick?: number;
 }
 
 type Stage = 'picking' | 'studying';
@@ -31,7 +36,7 @@ type Stage = 'picking' | 'studying';
  * the due-now query). The local `candidates` mirror is refreshed by the
  * effect below.
  */
-export default function SessionFlow({ mode, initialCards }: Props) {
+export default function SessionFlow({ mode, initialCards, defaultPick }: Props) {
   const router = useRouter();
   const [stage, setStage] = useState<Stage>('picking');
   const [selected, setSelected] = useState<Flashcard[]>([]);
@@ -61,7 +66,14 @@ export default function SessionFlow({ mode, initialCards }: Props) {
   }, [router]);
 
   if (stage === 'picking') {
-    return <SessionPicker mode={mode} candidates={candidates} onStart={handleStart} />;
+    return (
+      <SessionPicker
+        mode={mode}
+        candidates={candidates}
+        onStart={handleStart}
+        defaultPick={defaultPick}
+      />
+    );
   }
   return (
     <FlashcardSession cards={selected} config={config} onAnotherSession={handleAnotherSession} />

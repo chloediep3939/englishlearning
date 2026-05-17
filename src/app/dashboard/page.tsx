@@ -5,6 +5,7 @@ import { Flame, Play, Sparkles, BookOpen, RotateCcw, Trophy, Zap } from 'lucide-
 import Mascot from '@/components/common/Mascot';
 import ClockPill from '@/components/pomodoro/clock-pill';
 import StreakBar from '@/components/dashboard/streak-bar';
+import MDashboard from '@/components/app-mobile/screens/MDashboard';
 import { requireUserId } from '@/lib/current-user';
 import {
   flashcardsDb,
@@ -68,6 +69,11 @@ export default async function DashboardPage() {
     .slice(0, 5);
 
   return (
+    <>
+    <div className="md:hidden">
+      <MDashboard />
+    </div>
+    <div className="hidden md:block">
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
       {/* Header row */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -417,6 +423,8 @@ export default async function DashboardPage() {
         </div>
       </section>
     </div>
+    </div>
+    </>
   );
 }
 

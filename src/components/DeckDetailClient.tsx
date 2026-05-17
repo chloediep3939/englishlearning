@@ -16,6 +16,7 @@ import StageBreakdown from './deck-detail/StageBreakdown';
 import FilterPill from './deck-detail/FilterPill';
 import WordRow from './deck-detail/WordRow';
 import CardDetailModal from './deck-detail/CardDetailModal';
+import DeleteDeckDialog from './deck-detail/DeleteDeckDialog';
 import { STAGE_COLOR, type FilterTab } from './deck-detail/constants';
 
 interface Props {
@@ -42,6 +43,7 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
   const [tab, setTab] = useState<FilterTab>('all');
   const [editing, setEditing] = useState(false);
   const [selectedCard, setSelectedCard] = useState<Flashcard | null>(null);
+  const [deleting, setDeleting] = useState(false);
 
   const Icon = resolveIcon(deck.icon);
 
@@ -67,17 +69,22 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
     });
   }, [cards, query, tab]);
 
-  async function handleDeleteDeck() {
+  function handleDeleteDeck() {
     if (deck.is_default) {
       alert('Không thể xoá bộ mặc định.');
       return;
     }
-    const ok = window.confirm(
-      `Xoá "${deck.name}"? ${total} từ trong bộ này sẽ chuyển về bộ mặc định.`
-    );
-    if (!ok) return;
+    if (total === 0) {
+      void confirmDelete(false);
+      return;
+    }
+    setDeleting(true);
+  }
+
+  async function confirmDelete(deleteCards: boolean) {
     try {
-      const res = await fetch(`/api/decks/${deck.id}`, { method: 'DELETE' });
+      const url = `/api/decks/${deck.id}${deleteCards ? '?delete_cards=true' : ''}`;
+      const res = await fetch(url, { method: 'DELETE' });
       if (!res.ok) {
         const data = (await res.json().catch(() => ({}))) as { error?: string };
         alert(data.error || 'Không xoá được.');
@@ -86,6 +93,8 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
       router.push('/decks');
     } catch {
       alert('Lỗi kết nối.');
+    } finally {
+      setDeleting(false);
     }
   }
 
@@ -386,6 +395,15 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
           onClose={() => setSelectedCard(null)}
           onDelete={() => handleDeleteCard(selectedCard.id)}
           onSaved={handleCardSaved}
+        />
+      )}
+
+      {deleting && (
+        <DeleteDeckDialog
+          deckName={deck.name}
+          cardCount={total}
+          onCancel={() => setDeleting(false)}
+          onConfirm={confirmDelete}
         />
       )}
     </div>

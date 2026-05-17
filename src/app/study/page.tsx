@@ -4,18 +4,45 @@ import Link from 'next/link';
 import { ArrowLeft, BookOpen, ArrowRight, Plus } from 'lucide-react';
 import Mascot from '@/components/common/Mascot';
 import SessionFlow from '@/components/flashcard-session/SessionFlow';
+import DeckPickerStep, { DeckEyebrow } from '@/components/flashcard-session/DeckPickerStep';
 import { requireUserId } from '@/lib/current-user';
-import { flashcardsDb, userSettingsDb } from '@/lib/db';
+import { flashcardsDb, flashcardDecksDb, userSettingsDb } from '@/lib/db';
 
-export default async function StudyPage() {
+interface StudyPageProps {
+  searchParams: Promise<{ deck_id?: string }>;
+}
+
+export default async function StudyPage({ searchParams }: StudyPageProps) {
+  const { deck_id } = await searchParams;
   const userId = await requireUserId();
   const settings = await userSettingsDb.getFlashcardSettings(userId);
-  const cards = await flashcardsDb.getNewForToday(userId, settings.daily_new_limit);
+  const decks = await flashcardDecksDb.getAllWithCounts(userId);
+
+  // Show deck picker when (a) the user has >1 deck AND (b) no choice yet.
+  // Single-deck users skip the picker and go straight to the session.
+  const showDeckPicker = decks.length > 1 && deck_id === undefined;
+
+  // Resolve the deck_id query param into a DB filter. "all" + undefined
+  // both mean "no filter"; a numeric string means "filter by that deck".
+  const deckFilter: number | null =
+    deck_id && deck_id !== 'all' && /^\d+$/.test(deck_id) ? Number(deck_id) : null;
+
+  // Load all new candidates so the picker can show the full deck. The
+  // `daily_new_limit` becomes the *default selection size* (pre-checked) —
+  // user can use "Chọn hết" to expand or trim. The 1000 ceiling is a sanity
+  // cap for very large decks.
+  const cards = showDeckPicker
+    ? []
+    : await flashcardsDb.getNewForToday(userId, 1000, deckFilter);
+
+  // Resolve the picked deck name for the eyebrow (only when filtering).
+  const pickedDeck = deckFilter ? decks.find((d) => d.id === deckFilter) ?? null : null;
+  const totalAcrossAllDecks = decks.reduce((sum, d) => sum + d.new_count, 0);
 
   return (
     <div>
       <Link
-        href="/dashboard"
+        href={decks.length > 1 && !showDeckPicker ? '/study' : '/dashboard'}
         style={{
           display: 'inline-flex',
           alignItems: 'center',
@@ -26,7 +53,7 @@ export default async function StudyPage() {
           marginBottom: 12,
         }}
       >
-        <ArrowLeft size={14} /> Dashboard
+        <ArrowLeft size={14} /> {decks.length > 1 && !showDeckPicker ? 'Đổi bộ từ' : 'Dashboard'}
       </Link>
 
       <h1
@@ -52,10 +79,23 @@ export default async function StudyPage() {
           fontSize: 'var(--v-text-md)',
         }}
       >
-        Tối đa {settings.daily_new_limit} từ mới mỗi ngày. Chọn từ rồi tự đánh giá độ thuộc.
+        Gợi ý {settings.daily_new_limit} từ mới mỗi ngày — chọn thêm hoặc bớt tuỳ bạn.
       </p>
 
-      {cards.length === 0 ? <StudyEmpty /> : <SessionFlow mode="study" initialCards={cards} />}
+      {!showDeckPicker && (pickedDeck || deck_id === 'all') && (
+        <DeckEyebrow
+          name={pickedDeck ? pickedDeck.name : 'Tất cả các bộ'}
+          color={pickedDeck?.color ?? 'var(--v-primary)'}
+        />
+      )}
+
+      {showDeckPicker ? (
+        <DeckPickerStep mode="study" decks={decks} basePath="/study" totalAll={totalAcrossAllDecks} />
+      ) : cards.length === 0 ? (
+        <StudyEmpty />
+      ) : (
+        <SessionFlow mode="study" initialCards={cards} defaultPick={settings.daily_new_limit} />
+      )}
     </div>
   );
 }

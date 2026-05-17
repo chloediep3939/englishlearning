@@ -6,6 +6,7 @@ import { Mic, HelpCircle, X, Volume2, RotateCcw, ArrowRight, Check } from 'lucid
 import Mascot from '@/components/common/Mascot';
 import type { Flashcard, PronunciationAttemptMeta } from '@/lib/types';
 import { isMatch } from '@/lib/pronounce/match';
+import { speakWord, getStoredVoicePreference } from '@/lib/tts';
 
 interface Props {
   cards: Flashcard[];
@@ -650,14 +651,12 @@ function HelpPanel({
   card: Flashcard; onClose: () => void;
 }) {
   function speak() {
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
-    try {
-      window.speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(card.english);
-      u.lang = 'en-US';
-      u.rate = 0.95;
-      window.speechSynthesis.speak(u);
-    } catch {/* noop */}
+    void speakWord(card.english, {
+      audioUrl: card.audio_url,
+      lang: 'en-US',
+      rate: 0.95,
+      voice_preference: getStoredVoicePreference(),
+    });
   }
 
   return (

@@ -4,18 +4,41 @@ import Link from 'next/link';
 import { ArrowLeft, RotateCcw, Plus, ArrowRight } from 'lucide-react';
 import Mascot from '@/components/common/Mascot';
 import SessionFlow from '@/components/flashcard-session/SessionFlow';
+import DeckPickerStep, { DeckEyebrow } from '@/components/flashcard-session/DeckPickerStep';
 import { requireUserId } from '@/lib/current-user';
-import { flashcardsDb, userSettingsDb } from '@/lib/db';
+import { flashcardsDb, flashcardDecksDb, userSettingsDb } from '@/lib/db';
 
-export default async function ReviewPage() {
+interface ReviewPageProps {
+  searchParams: Promise<{ deck_id?: string }>;
+}
+
+export default async function ReviewPage({ searchParams }: ReviewPageProps) {
+  const { deck_id } = await searchParams;
   const userId = await requireUserId();
   const settings = await userSettingsDb.getFlashcardSettings(userId);
-  const cards = await flashcardsDb.getDueForReview(userId, 50, settings.mastered_hide_from_review);
+  const decks = await flashcardDecksDb.getAllWithCounts(userId);
+
+  const showDeckPicker = decks.length > 1 && deck_id === undefined;
+
+  const deckFilter: number | null =
+    deck_id && deck_id !== 'all' && /^\d+$/.test(deck_id) ? Number(deck_id) : null;
+
+  const cards = showDeckPicker
+    ? []
+    : await flashcardsDb.getDueForReview(
+        userId,
+        50,
+        settings.mastered_hide_from_review,
+        deckFilter,
+      );
+
+  const pickedDeck = deckFilter ? decks.find((d) => d.id === deckFilter) ?? null : null;
+  const totalAcrossAllDecks = decks.reduce((sum, d) => sum + d.due_count, 0);
 
   return (
     <div>
       <Link
-        href="/dashboard"
+        href={decks.length > 1 && !showDeckPicker ? '/review' : '/dashboard'}
         style={{
           display: 'inline-flex',
           alignItems: 'center',
@@ -26,7 +49,7 @@ export default async function ReviewPage() {
           marginBottom: 12,
         }}
       >
-        <ArrowLeft size={14} /> Dashboard
+        <ArrowLeft size={14} /> {decks.length > 1 && !showDeckPicker ? 'Đổi bộ từ' : 'Dashboard'}
       </Link>
 
       <h1
@@ -55,7 +78,20 @@ export default async function ReviewPage() {
         Gõ lại nghĩa tiếng Anh, mình sẽ chấm và gợi ý độ thuộc cho bạn.
       </p>
 
-      {cards.length === 0 ? <ReviewEmpty /> : <SessionFlow mode="review" initialCards={cards} />}
+      {!showDeckPicker && (pickedDeck || deck_id === 'all') && (
+        <DeckEyebrow
+          name={pickedDeck ? pickedDeck.name : 'Tất cả các bộ'}
+          color={pickedDeck?.color ?? 'var(--v-primary)'}
+        />
+      )}
+
+      {showDeckPicker ? (
+        <DeckPickerStep mode="review" decks={decks} basePath="/review" totalAll={totalAcrossAllDecks} />
+      ) : cards.length === 0 ? (
+        <ReviewEmpty />
+      ) : (
+        <SessionFlow mode="review" initialCards={cards} />
+      )}
     </div>
   );
 }

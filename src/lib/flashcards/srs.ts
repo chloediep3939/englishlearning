@@ -12,12 +12,15 @@ export type ReviewQuality = SRSQuality;
  *
  * Quality 0 ("Lại") returns 0 — same-session re-queue, not measured in days.
  */
-export function previewIntervals(card: Flashcard): Record<SRSQuality, number> {
+export function previewIntervals(
+  card: Flashcard,
+  opts: { failedThisSession?: boolean } = {},
+): Record<SRSQuality, number> {
   return {
     0: 0,
-    2: calculateNextReview(card, 2).interval_days,
-    4: calculateNextReview(card, 4).interval_days,
-    5: calculateNextReview(card, 5).interval_days,
+    2: calculateNextReview(card, 2, opts).interval_days,
+    4: calculateNextReview(card, 4, opts).interval_days,
+    5: calculateNextReview(card, 5, opts).interval_days,
   };
 }
 
@@ -56,13 +59,27 @@ export interface SRSUpdate {
  * - quality 2 (hard):  same interval × 1.2, EF -0.15
  * - quality 4 (good):  interval × EF, EF unchanged
  * - quality 5 (easy):  interval × EF × 1.3, EF +0.15
+ *
+ * Mastered gate (count-based, runs after SM-2). `failedThisSession` is
+ * scoped to a single FlashcardSession run — it does NOT persist across
+ * sessions, so each new session starts the learner on the cleaner
+ * 2-correct path.
+ * - quality 5 (DỄ)                            → mastered immediately
+ * - reps >= 2 AND !failedThisSession          → mastered (clean run, 2 corrects)
+ * - reps >= 3                                 → mastered (had a wrong, need 3 corrects)
+ * - interval >= 60                            → mastered (safety cap)
  */
-export function calculateNextReview(card: Flashcard, quality: SRSQuality): SRSUpdate {
+export function calculateNextReview(
+  card: Flashcard,
+  quality: SRSQuality,
+  opts: { failedThisSession?: boolean } = {},
+): SRSUpdate {
   const prev_interval = card.interval_days;
   let ease = card.ease_factor;
   let interval = card.interval_days;
   let reps = card.repetitions;
   let status: FlashcardStatus = card.status;
+  const failedThisSession = opts.failedThisSession === true || quality === 0;
 
   if (quality === 0) {
     reps = 0;
@@ -86,7 +103,10 @@ export function calculateNextReview(card: Flashcard, quality: SRSQuality): SRSUp
     else if (quality === 5) ease = ease + 0.15;
   }
 
-  if (interval >= 60) status = 'mastered';
+  if (quality === 5) status = 'mastered';
+  else if (reps >= 3) status = 'mastered';
+  else if (reps >= 2 && !failedThisSession) status = 'mastered';
+  else if (interval >= 60) status = 'mastered';
 
   const next = new Date();
   if (quality === 0) {

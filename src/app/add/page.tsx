@@ -3,10 +3,15 @@ export const dynamic = 'force-dynamic';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import AddTabs from '@/components/add/add-tabs';
+import MAddWord from '@/components/app-mobile/screens/MAddWord';
 
 export default function AddPage() {
   return (
-    <div>
+    <>
+    <div className="md:hidden">
+      <MAddWord />
+    </div>
+    <div className="hidden md:block">
       <Link
         href="/dashboard"
         style={{
@@ -47,5 +52,6 @@ export default function AddPage() {
 
       <AddTabs />
     </div>
+    </>
   );
 }

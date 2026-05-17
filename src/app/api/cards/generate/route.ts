@@ -3,6 +3,7 @@ import { getCloudflareContext } from '@opennextjs/cloudflare';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { generateCardData } from '@/lib/flashcards/generate';
 import { ensureClozePool } from '@/lib/flashcards/cloze';
+import { getPexelsImage } from '@/lib/flashcards/pexels';
 import { flashcardsDb, flashcardDecksDb } from '@/lib/db';
 
 export const runtime = 'nodejs';
@@ -86,11 +87,36 @@ export async function POST(req: Request) {
       // background; if ctx isn't available (some local-dev edge cases), fall
       // back to a detached promise so the request still returns fast.
       const headword = data.english;
+      const backgroundTasks: Promise<unknown>[] = [ensureClozePool(headword)];
+
+      // When the caller asked to skip image (bulk import default), schedule a
+      // background Pexels fetch and update the saved row. Pexels is the
+      // slowest leg of generateCardData; doing it post-response keeps bulk
+      // insert fast but still ends up with images. Capped at one attempt per
+      // card — if Pexels returns null we leave image_url null.
+      if (skipImage) {
+        backgroundTasks.push(
+          (async () => {
+            try {
+              const pexels = await getPexelsImage(data.english, 0);
+              if (pexels) {
+                await flashcardsDb.update(userId, id, {
+                  image_url: pexels.image_url,
+                  image_attribution: pexels.image_attribution,
+                });
+              }
+            } catch (err) {
+              console.error('[card generate bg image] error:', err);
+            }
+          })()
+        );
+      }
+
       try {
         const cf = await getCloudflareContext({ async: true });
-        cf.ctx.waitUntil(ensureClozePool(headword));
+        for (const task of backgroundTasks) cf.ctx.waitUntil(task);
       } catch {
-        ensureClozePool(headword).catch(() => {});
+        for (const task of backgroundTasks) task.catch(() => {});
       }
 
       return NextResponse.json({ saved: true, card }, { status: 201 });

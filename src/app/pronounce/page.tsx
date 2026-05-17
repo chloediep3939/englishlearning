@@ -6,6 +6,7 @@ import { ArrowLeft, Mic } from 'lucide-react';
 import QuizSetup, { type QuizMode } from '@/components/QuizSetup';
 import PronounceSession from '@/components/PronounceSession';
 import LoadingState from '@/components/common/LoadingState';
+import MReadAloud from '@/components/app-mobile/screens/MReadAloud';
 import { apiJson } from '@/lib/common/api-json';
 import type { Flashcard, FlashcardSettings } from '@/lib/types';
 
@@ -82,7 +83,11 @@ export default function PronouncePage() {
   }
 
   return (
-    <div>
+    <>
+    <div className="md:hidden">
+      <MReadAloud />
+    </div>
+    <div className="hidden md:block">
       <Link
         href="/dashboard"
         style={{
@@ -152,5 +157,6 @@ export default function PronouncePage() {
         startLabel="BẮT ĐẦU NGHE"
       />
     </div>
+    </>
   );
 }
