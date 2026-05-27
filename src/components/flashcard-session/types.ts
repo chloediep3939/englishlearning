@@ -22,27 +22,34 @@ export const RATINGS: Rating[] = [
   { quality: 5, label: 'DỄ',  emoji: '🎉', bg: 'var(--v-blue)',    key: '4' },
 ];
 
-// Audio autoplay tuning on reveal entry (copied behavior from my-portfolio
-// reference). 6 plays at 300ms pause gives enough exposure for a learner to
-// hear pronunciation drift.
+// Audio autoplay tuning on reveal entry. 6 plays with a ~1.5s pause between
+// each so the learner has breathing room to actually subvocalize / mimic
+// the pronunciation before the next repetition kicks in. The previous 300ms
+// was too tight — words blurred into one another.
 export const AUDIO_AUTOPLAY_COUNT = 6;
-export const AUDIO_PAUSE_MS = 300;
+export const AUDIO_PAUSE_MS = 1000;
 export const REVEAL_AUDIO_START_DELAY_MS = 250;
 
 /**
  * Anki-like reinsert offsets. After rating with `quality`, the card is
  * popped from the front of the queue and reinserted at this offset (from
- * the front of the remaining queue). q=4/5 don't appear here — those
- * remove the card entirely.
+ * the front of the remaining queue). q=5 doesn't appear here — DỄ always
+ * masters immediately and is removed.
  *
- * Tuning: q=0 ("LẠI") loops back in ~2 cards; q=2 ("KHÓ") gets a longer
- * spaced break of ~4. Past spaced-repetition research suggests both
- * values are well within the working-memory window where repetition
- * reinforces rather than fatigues.
+ * q=4 (TỐT) is in the table because the session-level mastery gate may
+ * decide a TỐT rating isn't enough yet (clean run needs 2 corrects, a
+ * failed run needs 3) — when the gate keeps the card around it requeues
+ * at offset 6, a longer spaced break than KHÓ since the learner is
+ * already comfortable.
+ *
+ * Tuning: q=0 ("LẠI") loops back in ~2 cards; q=2 ("KHÓ") at ~4;
+ * q=4 ("TỐT") at ~6. All within the working-memory window where
+ * repetition reinforces rather than fatigues.
  */
 export const REQUEUE_OFFSET: Partial<Record<Quality, number>> = {
   0: 2,
   2: 4,
+  4: 6,
 };
 
 /**

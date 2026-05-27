@@ -52,7 +52,19 @@ export default function BulkImport() {
       .then((d) => {
         const list = d.decks ?? [];
         setDecks(list);
-        // Restore last-used deck if it still exists for this user.
+        // URL deck_id wins over the localStorage default — landing here from
+        // /decks/[id] "+ Thêm từ" should preselect that deck even if the user
+        // previously picked a different one.
+        if (typeof window !== 'undefined') {
+          const params = new URLSearchParams(window.location.search);
+          const urlRaw = params.get('deck_id');
+          const urlId = urlRaw ? Number(urlRaw) : NaN;
+          if (Number.isInteger(urlId) && urlId > 0 && list.some((deck) => deck.id === urlId)) {
+            setDeckId(urlId);
+            return;
+          }
+        }
+        // Otherwise restore last-used deck.
         const saved = typeof window !== 'undefined' ? localStorage.getItem(LAST_DECK_KEY) : null;
         const savedId = saved ? Number(saved) : NaN;
         if (Number.isInteger(savedId) && savedId > 0 && list.some((deck) => deck.id === savedId)) {

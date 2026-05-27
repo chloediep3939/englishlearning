@@ -4,20 +4,36 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import {
-  ArrowLeft, Pencil, Trash2, Search, X,
+  ArrowLeft, Pencil, Trash2, Search, X, Plus,
   BookOpen, Coffee, Briefcase, GraduationCap, Plane, Heart,
   Star, Music, Camera, Code, Flame, Sparkles,
+  Loader2, AlertTriangle,
   type LucideIcon,
 } from 'lucide-react';
 import type { DeckIcon, Flashcard, FlashcardDeck, FlashcardStatus } from '@/lib/types';
 import { DECK_ICON_OPTIONS } from '@/lib/types';
+import { apiJson } from '@/lib/common/api-json';
 import DeckEditor from './DeckEditor';
 import StageBreakdown from './deck-detail/StageBreakdown';
 import FilterPill from './deck-detail/FilterPill';
-import WordRow from './deck-detail/WordRow';
+import WordRow, { getMissingFields, type RegenField } from './deck-detail/WordRow';
 import CardDetailModal from './deck-detail/CardDetailModal';
 import DeleteDeckDialog from './deck-detail/DeleteDeckDialog';
+import DeckExportButton from './deck-detail/DeckExportButton';
 import { STAGE_COLOR, type FilterTab } from './deck-detail/constants';
+
+interface RegenResponse {
+  card: Flashcard;
+  ok: RegenField[];
+  failed: RegenField[];
+}
+
+interface BulkProgress {
+  total: number;
+  done: number;
+  fixed: number;
+  failed: number;
+}
 
 interface Props {
   deck: FlashcardDeck;
@@ -47,6 +63,10 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
 
   const Icon = resolveIcon(deck.icon);
 
+  // Bulk regen state. `bulkProgress` is non-null while a sweep is running —
+  // we render an inline strip showing live counts and prevent re-entrance.
+  const [bulkProgress, setBulkProgress] = useState<BulkProgress | null>(null);
+
   const counts = useMemo(() => {
     const c: Record<FlashcardStatus, number> = {
       new: 0, learning: 0, review: 0, mastered: 0,
@@ -54,6 +74,11 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
     for (const card of cards) c[card.status]++;
     return c;
   }, [cards]);
+
+  const brokenCards = useMemo(
+    () => cards.filter((c) => getMissingFields(c).length > 0),
+    [cards],
+  );
 
   const total = cards.length;
 
@@ -122,6 +147,61 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
     setSelectedCard(updated);
   }
 
+  /**
+   * Bulk regen: walks every broken card and calls /api/cards/[id]/regenerate
+   * with the per-card missing-field list. Worker-pool concurrency 3 — high
+   * enough to feel snappy, low enough to stay polite with Pexels/dictionary
+   * upstreams. Per-card failures are logged but never abort the whole sweep.
+   */
+  async function handleBulkRegen() {
+    if (bulkProgress !== null) return;
+    const targets = brokenCards.map((c) => ({ card: c, missing: getMissingFields(c) }));
+    if (targets.length === 0) return;
+
+    setBulkProgress({ total: targets.length, done: 0, fixed: 0, failed: 0 });
+
+    const PARALLELISM = 3;
+    let cursor = 0;
+    async function worker() {
+      while (cursor < targets.length) {
+        const idx = cursor++;
+        const { card, missing } = targets[idx];
+        try {
+          const data = await apiJson<RegenResponse>(`/api/cards/${card.id}/regenerate`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ fields: missing }),
+          });
+          setCards((prev) => prev.map((c) => (c.id === data.card.id ? data.card : c)));
+          setBulkProgress((p) =>
+            p
+              ? {
+                  ...p,
+                  done: p.done + 1,
+                  fixed: p.fixed + (data.ok.length > 0 ? 1 : 0),
+                  failed: p.failed + (data.ok.length === 0 ? 1 : 0),
+                }
+              : p,
+          );
+        } catch (err) {
+          console.error('[bulk regen] error:', err);
+          setBulkProgress((p) =>
+            p ? { ...p, done: p.done + 1, failed: p.failed + 1 } : p,
+          );
+        }
+      }
+    }
+    const workers = Array.from(
+      { length: Math.min(PARALLELISM, targets.length) },
+      () => worker(),
+    );
+    await Promise.allSettled(workers);
+
+    // Keep the final-state strip visible for a few seconds so the user sees
+    // the totals; then hide. The cards in state are already up-to-date.
+    setTimeout(() => setBulkProgress(null), 4000);
+  }
+
   async function handleSetDefault() {
     if (deck.is_default) return;
     try {
@@ -166,6 +246,19 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
           <ArrowLeft size={14} /> Bộ từ
         </Link>
         <div style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap' }}>
+          <Link
+            href={`/add?deck_id=${deck.id}`}
+            style={{
+              ...smallBtnStyle(),
+              background: 'var(--v-primary)',
+              color: '#fff',
+              border: 'none',
+              boxShadow: 'var(--v-press), 0 4px 10px rgba(122,193,67,0.35)',
+              textDecoration: 'none',
+            }}
+          >
+            <Plus size={12} /> Thêm từ
+          </Link>
           {deck.is_default ? (
             <span
               style={{
@@ -194,6 +287,7 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
               <Star size={12} /> Đặt mặc định
             </button>
           )}
+          <DeckExportButton deckId={deck.id} />
           <button
             type="button"
             onClick={() => setEditing(true)}
@@ -269,6 +363,88 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
 
         {/* Stage breakdown bar */}
         <StageBreakdown counts={counts} total={total} />
+
+        {/* Broken-card fixer — only shown when at least one card is missing
+            an auto-fillable field. Sits inline so it stays adjacent to the
+            stat breakdown that motivates it. */}
+        {(brokenCards.length > 0 || bulkProgress) && (
+          <div
+            style={{
+              marginTop: 14,
+              padding: '10px 14px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: 10,
+              flexWrap: 'wrap',
+              background: 'rgba(255,154,60,0.10)',
+              border: '1px solid rgba(255,154,60,0.32)',
+              borderRadius: 'var(--v-radius-md)',
+            }}
+          >
+            <AlertTriangle size={16} style={{ color: 'var(--v-orange)', flexShrink: 0 }} />
+            <div
+              style={{
+                flex: 1,
+                minWidth: 200,
+                fontFamily: 'var(--v-font-body)',
+                fontSize: 'var(--v-text-sm)',
+                color: 'var(--v-ink)',
+                fontWeight: 700,
+              }}
+            >
+              {bulkProgress ? (
+                <>
+                  Đang sửa: {bulkProgress.done}/{bulkProgress.total} ·{' '}
+                  <span style={{ color: 'var(--v-primary)' }}>OK {bulkProgress.fixed}</span>
+                  {bulkProgress.failed > 0 && (
+                    <>
+                      {' · '}
+                      <span style={{ color: 'var(--v-red)' }}>lỗi {bulkProgress.failed}</span>
+                    </>
+                  )}
+                </>
+              ) : (
+                <>
+                  <strong>{brokenCards.length} từ</strong> thiếu hình, audio, IPA, hoặc nghĩa.
+                </>
+              )}
+            </div>
+            <button
+              type="button"
+              onClick={handleBulkRegen}
+              disabled={bulkProgress !== null}
+              style={{
+                padding: '8px 14px',
+                background:
+                  bulkProgress !== null ? 'var(--v-border)' : 'var(--v-orange)',
+                color: '#fff',
+                border: 'none',
+                borderRadius: 'var(--v-radius-md)',
+                boxShadow:
+                  bulkProgress !== null
+                    ? 'none'
+                    : 'var(--v-press), 0 4px 10px rgba(255,154,60,0.4)',
+                fontFamily: 'var(--v-font-head)',
+                fontWeight: 900,
+                fontSize: 'var(--v-text-sm)',
+                cursor: bulkProgress !== null ? 'wait' : 'pointer',
+                opacity: bulkProgress !== null ? 0.85 : 1,
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 6,
+              }}
+            >
+              {bulkProgress !== null ? (
+                <Loader2 size={12} style={{ animation: 'v-spin 1s linear infinite' }} />
+              ) : (
+                <Sparkles size={12} />
+              )}
+              {bulkProgress !== null
+                ? 'Đang sửa…'
+                : `Sửa ${brokenCards.length} từ thiếu info`}
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Search + filter tabs */}
@@ -353,9 +529,23 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
             borderRadius: 'var(--v-radius-md)',
           }}
         >
-          {total === 0
-            ? 'Bộ này chưa có từ nào. Thêm từ ở trang “Thêm từ”.'
-            : 'Không có từ nào khớp.'}
+          {total === 0 ? (
+            <>
+              Bộ này chưa có từ nào.{' '}
+              <Link
+                href={`/add?deck_id=${deck.id}`}
+                style={{
+                  color: 'var(--v-primary)',
+                  fontWeight: 800,
+                  textDecoration: 'none',
+                }}
+              >
+                + Thêm từ ngay
+              </Link>
+            </>
+          ) : (
+            'Không có từ nào khớp.'
+          )}
         </div>
       ) : (
         <div

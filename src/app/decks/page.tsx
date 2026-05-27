@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { ArrowLeft, Folder } from 'lucide-react';
 import DeckList from '@/components/DeckList';
 import MDecksList from '@/components/app-mobile/screens/MDecksList';
+import RefreshIpaButton from '@/components/RefreshIpaButton';
+import DeckImportButton from '@/components/DeckImportButton';
 
 export default function DecksPage() {
   return (
@@ -43,13 +45,18 @@ export default function DecksPage() {
       <p
         style={{
           color: 'var(--v-muted)',
-          margin: '0 0 24px',
+          margin: '0 0 16px',
           fontFamily: 'var(--v-font-body)',
           fontSize: 'var(--v-text-md)',
         }}
       >
         Phân loại từ vựng theo chủ đề
       </p>
+
+      <div style={{ marginBottom: 20, display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+        <DeckImportButton />
+        <RefreshIpaButton />
+      </div>
 
       <DeckList />
     </div>

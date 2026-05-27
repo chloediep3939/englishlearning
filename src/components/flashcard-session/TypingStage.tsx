@@ -42,17 +42,17 @@ export default function TypingStage({
           <div
             style={{
               background: '#fff',
-              padding: 8,
-              borderRadius: 12,
-              boxShadow: '0 8px 22px rgba(40,30,15,0.1), 0 2px 4px rgba(40,30,15,0.06)',
+              padding: 10,
+              borderRadius: 14,
+              boxShadow: '0 12px 28px rgba(40,30,15,0.12), 0 3px 6px rgba(40,30,15,0.06)',
             }}
           >
             <div
               style={{
-                width: 320,
+                width: 'min(520px, 80vw)',
                 aspectRatio: '16 / 9',
                 background: 'var(--v-panel)',
-                borderRadius: 8,
+                borderRadius: 10,
                 overflow: 'hidden',
               }}
             >
@@ -67,8 +67,10 @@ export default function TypingStage({
         </div>
       )}
 
-      {/* Speech-bubble prompt */}
-      <div style={{ position: 'relative', maxWidth: 620, zIndex: 1 }}>
+      {/* Speech-bubble prompt — wide + nowrap so the Vietnamese meaning
+          fits on a single line. Falls back to horizontal overflow on very
+          long meanings (rare); use a smaller font there if it crops. */}
+      <div style={{ position: 'relative', maxWidth: 'min(960px, 95vw)', zIndex: 1 }}>
         <div
           style={{
             background: 'var(--v-primary-soft)',
@@ -100,11 +102,14 @@ export default function TypingStage({
           <div
             style={{
               fontFamily: 'var(--v-font-head)',
-              fontSize: 26,
+              fontSize: 22,
               fontWeight: 900,
               color: 'var(--v-ink)',
               letterSpacing: '-0.01em',
               lineHeight: 1.2,
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
             }}
           >
             &ldquo;{card.vietnamese}&rdquo;

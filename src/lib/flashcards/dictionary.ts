@@ -1,7 +1,17 @@
 /**
  * Free Dictionary API: https://dictionaryapi.dev
  * No key required. Returns IPA, audio, examples, part of speech.
+ *
+ * IPA preference: when the word exists in CMU Pronouncing Dictionary
+ * (`@/lib/flashcards/cmu-ipa`), we use that transcription instead of the
+ * one returned by dictionaryapi.dev. CMU's transcription is consistently
+ * Oxford-style General American (`r` not `ɹ`, `iː` length marks, stress
+ * before syllable onset), whereas Wiktionary-derived entries in the free
+ * API drift between styles. Audio, examples, POS still come from this
+ * API.
  */
+
+import { lookupCmuIpa } from './cmu-ipa';
 
 const API_URL = 'https://api.dictionaryapi.dev/api/v2/entries/en';
 
@@ -56,8 +66,12 @@ export async function lookupWord(word: string): Promise<DictionaryResult | null>
           : 'unknown'
       : null;
     const audio_url = preferred?.audio || null;
-    // Take IPA from the preferred entry when possible, else any non-empty.
-    const ipa = preferred?.text || anyWithText?.text || null;
+    // IPA: prefer CMU (Oxford-style GenAm). Fall back to whatever the free
+    // API returned only when CMU has no entry (proper nouns, very new
+    // vocab, multi-word phrases that CMU can't stitch).
+    const dictIpa = preferred?.text || anyWithText?.text || null;
+    const cmuIpa = await lookupCmuIpa(word);
+    const ipa = cmuIpa ?? dictIpa;
 
     // Alt accent: whichever of US/UK we did NOT pick. Lets the client swap.
     const altCandidate =

@@ -1,10 +1,29 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { X, Trash2, Pencil, Check, Loader2 } from 'lucide-react';
+import {
+  X, Trash2, Pencil, Check, Loader2,
+  RefreshCw, Image as ImageIcon, Volume2, Type, Languages, Sparkles,
+} from 'lucide-react';
 import AudioButton from '../AudioButton';
 import { apiJson } from '@/lib/common/api-json';
 import type { ClozeSentence, Flashcard } from '@/lib/types';
+
+type RegenField = 'image' | 'audio' | 'ipa' | 'vietnamese';
+const ALL_REGEN_FIELDS: RegenField[] = ['image', 'audio', 'ipa', 'vietnamese'];
+
+interface RegenResponse {
+  card: Flashcard;
+  ok: RegenField[];
+  failed: RegenField[];
+}
+
+const FIELD_LABEL_VI: Record<RegenField, string> = {
+  image: 'hình',
+  audio: 'âm thanh',
+  ipa: 'phiên âm',
+  vietnamese: 'nghĩa',
+};
 
 interface Props {
   card: Flashcard;
@@ -42,6 +61,12 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  // Regen state. `regenerating` tracks which fields are currently being
+  // refetched (so each button can show its own spinner). `regenMsg` flashes a
+  // short status string under the toolbar after the call returns.
+  const [regenerating, setRegenerating] = useState<Set<RegenField>>(new Set());
+  const [regenMsg, setRegenMsg] = useState<{ text: string; color: string } | null>(null);
+
   useEffect(() => {
     setEnglish(card.english);
     setVietnamese(card.vietnamese);
@@ -50,7 +75,44 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
     setNotes(card.notes ?? '');
     setMode('view');
     setError(null);
+    setRegenerating(new Set());
+    setRegenMsg(null);
   }, [card.id]);
+
+  async function regenerate(fields: RegenField[]) {
+    if (fields.length === 0) return;
+    setRegenerating(new Set(fields));
+    setRegenMsg(null);
+    try {
+      const data = await apiJson<RegenResponse>(`/api/cards/${card.id}/regenerate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ fields }),
+      });
+      onSaved(data.card);
+      if (data.failed.length === 0) {
+        const okLabels = data.ok.map((f) => FIELD_LABEL_VI[f]).join(', ');
+        setRegenMsg({ text: `Đã gen lại ${okLabels}.`, color: 'var(--v-primary)' });
+      } else if (data.ok.length === 0) {
+        const failLabels = data.failed.map((f) => FIELD_LABEL_VI[f]).join(', ');
+        setRegenMsg({ text: `Không gen được ${failLabels}.`, color: 'var(--v-red)' });
+      } else {
+        const okLabels = data.ok.map((f) => FIELD_LABEL_VI[f]).join(', ');
+        const failLabels = data.failed.map((f) => FIELD_LABEL_VI[f]).join(', ');
+        setRegenMsg({
+          text: `OK: ${okLabels}. Lỗi: ${failLabels}.`,
+          color: 'var(--v-orange)',
+        });
+      }
+    } catch (e) {
+      setRegenMsg({
+        text: e instanceof Error ? e.message : 'Không gen lại được.',
+        color: 'var(--v-red)',
+      });
+    } finally {
+      setRegenerating(new Set());
+    }
+  }
 
   // Cloze pool examples — replaces the legacy `card.examples` column as the
   // example-sentence source. Cards saved before the pool feature landed have
@@ -175,7 +237,7 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
                   >
                     {card.english}
                   </h2>
-                  <AudioButton audioUrl={card.audio_url} fallbackText={card.english} size={32} />
+                  <AudioButton audioUrl={card.audio_url} fallbackText={card.english} size={32} showTts />
                 </div>
                 {card.ipa && (
                   <div
@@ -254,6 +316,65 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
               marginBottom: 12,
             }}
           />
+        )}
+
+        {/* Regen toolbar — only in view mode. Lets the user manually
+            re-fetch image / audio / IPA / meaning when the auto-fill
+            missed or returned a poor result. */}
+        {mode === 'view' && (
+          <Section title="Gen lại">
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+              <RegenChip
+                icon={<ImageIcon size={12} />}
+                label="Hình"
+                onClick={() => regenerate(['image'])}
+                loading={regenerating.has('image')}
+                disabled={regenerating.size > 0}
+              />
+              <RegenChip
+                icon={<Volume2 size={12} />}
+                label="Audio"
+                onClick={() => regenerate(['audio'])}
+                loading={regenerating.has('audio')}
+                disabled={regenerating.size > 0}
+              />
+              <RegenChip
+                icon={<Type size={12} />}
+                label="IPA"
+                onClick={() => regenerate(['ipa'])}
+                loading={regenerating.has('ipa')}
+                disabled={regenerating.size > 0}
+              />
+              <RegenChip
+                icon={<Languages size={12} />}
+                label="Nghĩa"
+                onClick={() => regenerate(['vietnamese'])}
+                loading={regenerating.has('vietnamese')}
+                disabled={regenerating.size > 0}
+              />
+              <RegenChip
+                icon={<Sparkles size={12} />}
+                label="Tất cả"
+                onClick={() => regenerate(ALL_REGEN_FIELDS)}
+                loading={regenerating.size > 1}
+                disabled={regenerating.size > 0}
+                primary
+              />
+            </div>
+            {regenMsg && (
+              <div
+                style={{
+                  marginTop: 8,
+                  fontFamily: 'var(--v-font-body)',
+                  fontSize: 'var(--v-text-sm)',
+                  fontWeight: 700,
+                  color: regenMsg.color,
+                }}
+              >
+                {regenMsg.text}
+              </div>
+            )}
+          </Section>
         )}
 
         {/* Notes — editable; in view mode only render when present */}
@@ -612,4 +733,51 @@ function inputStyle(): React.CSSProperties {
     color: 'var(--v-ink)',
     outline: 'none',
   };
+}
+
+// Small pill button used by the regen toolbar. `primary=true` is for the
+// "Tất cả" variant — filled green so it visually stands out from the per-
+// field chips. `loading` swaps the leading icon for a spinner.
+function RegenChip({
+  icon,
+  label,
+  onClick,
+  loading,
+  disabled,
+  primary,
+}: {
+  icon: React.ReactNode;
+  label: string;
+  onClick: () => void;
+  loading: boolean;
+  disabled: boolean;
+  primary?: boolean;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={disabled}
+      style={{
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: 5,
+        padding: '6px 10px',
+        background: primary ? 'var(--v-primary)' : 'var(--v-surface)',
+        color: primary ? '#fff' : 'var(--v-ink-soft)',
+        border: primary ? 'none' : '1px solid var(--v-border)',
+        borderRadius: 'var(--v-radius-pill)',
+        boxShadow: primary ? 'var(--v-shadow-sm)' : 'none',
+        fontFamily: 'var(--v-font-head)',
+        fontSize: 11,
+        fontWeight: 800,
+        cursor: disabled ? 'not-allowed' : 'pointer',
+        opacity: disabled && !loading ? 0.55 : 1,
+        transition: 'opacity 120ms var(--v-ease)',
+      }}
+    >
+      {loading ? <Loader2 size={12} style={{ animation: 'v-spin 1s linear infinite' }} /> : icon}
+      {label}
+    </button>
+  );
 }

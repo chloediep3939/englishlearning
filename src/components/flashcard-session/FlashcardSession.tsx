@@ -34,11 +34,19 @@ interface Props {
  *   - key bindings (1-4 + Enter + Escape)
  *   - the SRS rating POST to /api/cards/:id/rate
  *
- * Queue logic (post-rate):
- *   q=0 (LẠI) → pop + reinsert at offset +2 (or end if queue is shorter)
- *   q=2 (KHÓ) → pop + reinsert at offset +4 (or end)
- *   q=4 (TỐT) → pop + mastered.add(card.id)
- *   q=5 (DỄ)  → pop + mastered.add(card.id)
+ * Queue logic (post-rate, gated by the session mastery threshold —
+ * see calculateMastery below and the matching DB-side gate in
+ * `src/lib/flashcards/srs.ts`):
+ *   q=5 (DỄ)  → always pop + mastered.add(card.id)
+ *   q=0 (LẠI) → reset card's correctCount; pop + reinsert at offset +2
+ *   q=2 (KHÓ) → increment correctCount; if gate passes pop+master,
+ *                else pop + reinsert at offset +4
+ *   q=4 (TỐT) → increment correctCount; if gate passes pop+master,
+ *                else pop + reinsert at offset +6
+ *
+ * Mastery gate: correctCount >= 3, OR correctCount >= 2 AND the learner
+ * has NOT received a q=0 on this card in the current session. Matches
+ * srs.ts so the session UI counter and the DB `status` agree.
  *
  * SRS state is updated server-side on every rate regardless of queue
  * movement — repeated rates on the same card (e.g. LẠI then TỐT) produce
@@ -60,9 +68,14 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
   });
   // Per-card session-scoped wrong-tracker. Once a card receives quality=0
   // in this session its id lands here and stays through the rest of the
-  // session, bumping the mastery bar from "2 đúng" to "3 đúng". Resets on
-  // mount → next session starts clean.
+  // session, bumping the mastery threshold from 2 corrects to 3. Resets
+  // on mount → next session starts clean.
   const failedThisSessionRef = useRef<Set<number>>(new Set());
+  // Per-card running count of non-zero ratings (q=2/4/5) since the last
+  // q=0 reset. The session mastery gate compares this against 2 (clean
+  // run) or 3 (had a wrong) — see calculateMastery in handleRate. Resets
+  // to 0 whenever the card gets q=0.
+  const correctCountRef = useRef<Map<number, number>>(new Map());
 
   const [phase, setPhase] = useState<Phase>('TYPING');
   const [input, setInput] = useState('');
@@ -112,6 +125,13 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
         if (!cancelled) setTimeout(playOnce, AUDIO_PAUSE_MS);
       };
 
+      // TEMP: bypass DB `audio_url` and always use TTS while recorded
+      // dictionary audio is unreliable. Remove this short-circuit (and
+      // restore the `if (audio_url) { ... }` block below) to bring back
+      // the original mp3-first autoplay.
+      speakTTS();
+      return;
+      // eslint-disable-next-line no-unreachable
       if (audio_url) {
         try {
           const audio = new Audio(audio_url);
@@ -147,7 +167,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
             synth.cancel();
             const u = new SpeechSynthesisUtterance(word);
             u.lang = 'en-US';
-            u.rate = 0.9;
+            u.rate = 1;
             u.onend = onComplete;
             u.onerror = onComplete;
             synth.speak(u);
@@ -191,8 +211,19 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
       // Always log the SRS rating — the queue loop is purely UI; the
       // DB always sees every signal.
       setQualityCounts((prev) => ({ ...prev, [quality]: prev[quality] + 1 }));
-      if (quality === 0) failedThisSessionRef.current.add(current.id);
+
+      // Maintain session-scoped tracking BEFORE we read it for the
+      // mastery gate below.
+      if (quality === 0) {
+        failedThisSessionRef.current.add(current.id);
+        correctCountRef.current.set(current.id, 0);
+      } else {
+        const prev = correctCountRef.current.get(current.id) ?? 0;
+        correctCountRef.current.set(current.id, prev + 1);
+      }
       const failedThisSession = failedThisSessionRef.current.has(current.id);
+      const correctCount = correctCountRef.current.get(current.id) ?? 0;
+
       void fetch(`/api/cards/${current.id}/rate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -209,8 +240,19 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
           setTimeout(() => setErrorMsg(null), 4000);
         });
 
-      // Mutate queue + mastered.
-      if (quality === 4 || quality === 5) {
+      // Session mastery gate — mirrors `calculateNextReview` in
+      // src/lib/flashcards/srs.ts so the in-session "thuộc" counter
+      // and the DB `status` agree.
+      //   - q=5 (DỄ)                                 → master immediately
+      //   - correctCount >= 2 AND no fail this run   → master (clean run)
+      //   - correctCount >= 3                        → master (had a wrong)
+      //   - else                                     → requeue
+      const shouldMaster =
+        quality === 5 ||
+        correctCount >= 3 ||
+        (correctCount >= 2 && !failedThisSession);
+
+      if (shouldMaster) {
         setMastered((prev) => {
           const next = new Set(prev);
           next.add(current.id);
@@ -218,9 +260,10 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
         });
         setQueue((prev) => prev.slice(1));
       } else {
-        // Reinsert at offset 2 (LẠI) or 4 (KHÓ), counted from the head
-        // of the post-pop queue. min(offset, rest.length) clamps to
-        // "append to end" when the queue is shorter than the offset.
+        // Reinsert at offset 2 (LẠI), 4 (KHÓ), or 6 (TỐT not-yet-mastered),
+        // counted from the head of the post-pop queue. min(offset,
+        // rest.length) clamps to "append to end" when the queue is
+        // shorter than the offset.
         const offset = REQUEUE_OFFSET[quality]!;
         setQueue((prev) => {
           const rest = prev.slice(1);
@@ -239,7 +282,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
       // dashboard counter widgets pick up the new SRS state on
       // back-navigation. Done condition triggers on next render via
       // queue.length === 0.
-      if (queue.length === 1 && (quality === 4 || quality === 5)) {
+      if (queue.length === 1 && shouldMaster) {
         router.refresh();
       }
     },

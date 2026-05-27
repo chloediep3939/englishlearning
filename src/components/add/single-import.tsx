@@ -86,7 +86,20 @@ export default function SingleImport() {
 
   useEffect(() => {
     apiJson<{ decks?: FlashcardDeckWithCounts[] }>('/api/decks')
-      .then((d) => setDecks(d.decks ?? []))
+      .then((d) => {
+        const list = d.decks ?? [];
+        setDecks(list);
+        // Pre-select deck from URL (e.g. coming from /decks/[id] "+ Thêm từ").
+        // Only honor when the deck actually exists for this user.
+        if (typeof window !== 'undefined') {
+          const params = new URLSearchParams(window.location.search);
+          const raw = params.get('deck_id');
+          const n = raw ? Number(raw) : NaN;
+          if (Number.isInteger(n) && n > 0 && list.some((deck) => deck.id === n)) {
+            setDeckId(n);
+          }
+        }
+      })
       .catch(() => {});
   }, []);
 

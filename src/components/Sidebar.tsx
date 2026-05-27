@@ -21,6 +21,7 @@ interface NavItem {
 
 const NAV: NavItem[] = [
   { href: '/dashboard',  label: 'Tổng quan',       icon: LayoutGrid, color: 'var(--v-primary)' },
+  { href: '/decks',      label: 'Bộ từ',           icon: Folder,     color: 'var(--v-pink)' },
   { href: '/add',        label: 'Thêm từ',         icon: Plus,       color: 'var(--v-accent)' },
   { href: '/study',      label: 'Học hôm nay',     icon: BookOpen,   color: 'var(--v-orange)' },
   { href: '/review',     label: 'Ôn tập',          icon: RotateCcw,  color: 'var(--v-blue)' },
@@ -33,7 +34,6 @@ const NAV: NavItem[] = [
   { href: '/compose',    label: 'Viết bài',        icon: BookOpenText, color: 'var(--v-blue)' },
   { href: '/passage',    label: 'Bài đọc',         icon: Newspaper,  color: 'var(--v-teal)' },
   { href: '/dictionary', label: 'Từ điển',         icon: Library,    color: 'var(--v-purple)' },
-  { href: '/decks',      label: 'Bộ từ',           icon: Folder,     color: 'var(--v-pink)' },
   { href: '/stats',      label: 'Thống kê',        icon: BarChart3,  color: 'var(--v-teal)' },
   { href: '/settings',   label: 'Cài đặt',         icon: Settings,   color: 'var(--v-muted)' },
 ];
