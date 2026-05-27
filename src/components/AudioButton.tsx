@@ -43,7 +43,9 @@ export default function AudioButton({
       return;
     }
     try {
-      const audio = new Audio(normalizedUrl);
+      // Narrowed to non-null by the if above; cast is required because the
+      // top-of-function TEMP `return` confuses TS's flow analysis here.
+      const audio = new Audio(normalizedUrl as string);
       // Three ways the mp3 path can fail:
       //   1. Network/404 → `onerror` fires.
       //   2. Autoplay blocked → `play()` rejects.

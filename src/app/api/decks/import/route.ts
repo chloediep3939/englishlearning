@@ -1,7 +1,11 @@
 import { NextResponse } from 'next/server';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { flashcardDecksDb, flashcardsDb } from '@/lib/db';
-import type { FlashcardCollocation, FlashcardExample } from '@/lib/types';
+import type {
+  FlashcardCollocation,
+  FlashcardExample,
+  FlashcardImageAttribution,
+} from '@/lib/types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -144,9 +148,7 @@ export async function POST(req: Request) {
           part_of_speech: typeof raw.part_of_speech === 'string' ? raw.part_of_speech : null,
           audio_url: typeof raw.audio_url === 'string' ? raw.audio_url : null,
           image_url: typeof raw.image_url === 'string' ? raw.image_url : null,
-          image_attribution: isImageAttribution(raw.image_attribution)
-            ? raw.image_attribution
-            : null,
+          image_attribution: normalizeImageAttribution(raw.image_attribution),
           examples: normalizeExamples(raw.examples),
           collocations: normalizeCollocations(raw.collocations),
           notes: typeof raw.notes === 'string' ? raw.notes.slice(0, 2000) : null,
@@ -220,11 +222,18 @@ function normalizeCollocations(raw: unknown): FlashcardCollocation[] {
   return out;
 }
 
-function isImageAttribution(raw: unknown): raw is {
-  source?: string;
-  author?: string;
-  author_url?: string;
-  source_url?: string;
-} {
-  return Boolean(raw && typeof raw === 'object');
+function normalizeImageAttribution(raw: unknown): FlashcardImageAttribution | null {
+  if (!raw || typeof raw !== 'object') return null;
+  const r = raw as Record<string, unknown>;
+  const src = r.source;
+  // Clamp the loose `string` source to the type's literal union; anything
+  // else becomes "other" so the row still saves.
+  const source: FlashcardImageAttribution['source'] =
+    src === 'pexels' || src === 'unsplash' || src === 'other' ? src : 'other';
+  return {
+    source,
+    author: typeof r.author === 'string' ? r.author : '',
+    author_url: typeof r.author_url === 'string' ? r.author_url : '',
+    source_url: typeof r.source_url === 'string' ? r.source_url : '',
+  };
 }

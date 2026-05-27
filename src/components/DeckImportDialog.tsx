@@ -331,7 +331,7 @@ export default function DeckImportDialog({ onClose }: Props) {
                       ) : (
                         decks.map((d) => (
                           <option key={d.id} value={d.id}>
-                            {d.name} ({d.card_count} từ)
+                            {d.name} ({d.total} từ)
                           </option>
                         ))
                       )}

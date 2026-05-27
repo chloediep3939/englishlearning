@@ -134,7 +134,9 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
       // eslint-disable-next-line no-unreachable
       if (audio_url) {
         try {
-          const audio = new Audio(audio_url);
+          // Narrowed to non-null by the if; cast required because the TEMP
+          // `return` above confuses TS flow analysis in this dead branch.
+          const audio = new Audio(audio_url as string);
           audio.onended = onComplete;
           audio.onerror = (e) => {
             // eslint-disable-next-line no-console
