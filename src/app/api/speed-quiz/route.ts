@@ -108,12 +108,14 @@ export async function GET(req: Request) {
     const deckId = deckIdParam ? Number(deckIdParam) : null;
 
     const db = await getDb();
+    // Any card qualifies regardless of SRS status — the user just picks a deck
+    // + count and practices. (No "learning/review only" gate.)
     const poolSql = deckId
       ? `SELECT id, deck_id, english, vietnamese, ipa, audio_url, part_of_speech FROM flashcards
-         WHERE user_id = ? AND status IN ('learning', 'review') AND deck_id = ?
+         WHERE user_id = ? AND deck_id = ?
          ORDER BY RANDOM() LIMIT ?`
       : `SELECT id, deck_id, english, vietnamese, ipa, audio_url, part_of_speech FROM flashcards
-         WHERE user_id = ? AND status IN ('learning', 'review')
+         WHERE user_id = ?
          ORDER BY RANDOM() LIMIT ?`;
     const poolStmt = db.prepare(poolSql);
     const poolResult = deckId
@@ -124,8 +126,9 @@ export async function GET(req: Request) {
     if (pool.length < 1) {
       return NextResponse.json(
         {
-          error:
-            'Chưa có từ nào ở trạng thái "đang học" hoặc "ôn tập". Vào "Học hôm nay" để học từ mới trước.',
+          error: deckId
+            ? 'Bộ từ này chưa có từ nào. Hãy thêm từ trước nhé.'
+            : 'Bạn chưa có từ nào. Hãy thêm từ vào một bộ trước nhé.',
         },
         { status: 400 }
       );

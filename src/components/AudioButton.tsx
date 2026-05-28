@@ -1,58 +1,65 @@
 'use client';
 
-import { Volume2 } from 'lucide-react';
+import { Volume2, AlertTriangle } from 'lucide-react';
 import { getStoredVoicePreference, speak } from '@/lib/tts';
 
 interface Props {
+  /**
+   * @deprecated Retained for call-site compatibility. The play path no longer
+   * uses a recorded `audio_url` — it plays the stored Oxford mp3 (via
+   * `cardId` + `audioStatus`) when available, otherwise browser TTS.
+   */
   audioUrl?: string | null;
   fallbackText: string;
   lang?: 'en-US' | 'vi-VN';
   size?: number;
   variant?: 'circle' | 'inline';
   /** Render a small "TTS" chip next to the speaker that always plays via
-   *  browser speechSynthesis. Useful when the recorded `audio_url` sounds
-   *  off and the learner wants a clean machine voice on demand. */
+   *  browser speechSynthesis — a clean machine voice on demand. */
   showTts?: boolean;
+  /** Card id. When set together with `audioStatus === 'ok'`, the speaker plays
+   *  the stored Oxford US mp3 from `/api/audio/{cardId}`. */
+  cardId?: number | null;
+  /** Oxford fetch status: 'ok' → play stored mp3; 'failed' → TTS + warning;
+   *  null → TTS silently (never attempted). */
+  audioStatus?: 'ok' | 'failed' | null;
+  /** Cache-bust token (card.updated_at). The served mp3 is `immutable`-cached
+   *  under a reused R2 key, so this busts a stale clip after a re-fetch. */
+  audioVersion?: string | null;
 }
 
 export default function AudioButton({
-  audioUrl,
   fallbackText,
   lang = 'en-US',
   size = 36,
   variant = 'circle',
   showTts = false,
+  cardId = null,
+  audioStatus = null,
+  audioVersion = null,
 }: Props) {
   function play() {
     if (typeof window === 'undefined') return;
-    // TEMP: bypass any recorded `audio_url` and always use TTS while the
-    // dictionary mp3 source is unreliable. Remove this short-circuit to
-    // restore the original mp3-first behavior.
-    speakTTS();
-    return;
-    // eslint-disable-next-line no-unreachable
-    // Phrasal-verb headwords ("come in", "give up") have no per-phrase
-    // recording — the dictionary's audio_url for those is just the first
-    // token, which is wrong. Skip the file and let speechSynthesis say
-    // the whole phrase. Only applies to English; non-English never has a
-    // recorded file anyway.
-    const isMultiWord = lang === 'en-US' && /\s/.test(fallbackText.trim());
-    const normalizedUrl = normalizeAudioUrl(audioUrl);
-    if (!normalizedUrl || isMultiWord) {
-      speakTTS();
+    // Oxford US mp3 when one is stored for this card; otherwise browser TTS.
+    // Vietnamese never has a recording, so it always uses TTS.
+    if (lang === 'en-US' && cardId && audioStatus === 'ok') {
+      playOxfordMp3(cardId);
       return;
     }
+    speakTTS();
+  }
+
+  function playOxfordMp3(id: number) {
+    const v = audioVersion ? `?v=${encodeURIComponent(audioVersion)}` : '';
+    const url = `/api/audio/${id}${v}`;
     try {
-      // Narrowed to non-null by the if above; cast is required because the
-      // top-of-function TEMP `return` confuses TS's flow analysis here.
-      const audio = new Audio(normalizedUrl as string);
-      // Three ways the mp3 path can fail:
-      //   1. Network/404 → `onerror` fires.
+      const audio = new Audio(url);
+      // Three ways the mp3 path can fail → fall back to TTS:
+      //   1. Network / 404 → `onerror` fires.
       //   2. Autoplay blocked → `play()` rejects.
-      //   3. File loads but is silent / zero-duration → neither fires, so
-      //      we sniff `loadedmetadata` for a usable duration and bail out
-      //      to TTS if there's nothing to play. Also guard with a hard
-      //      timeout in case metadata never arrives.
+      //   3. File loads but is silent / zero-duration → sniff `loadedmetadata`
+      //      for a usable duration; guard with a hard timeout in case metadata
+      //      never arrives.
       let fellBack = false;
       const fallback = () => {
         if (fellBack) return;
@@ -74,19 +81,6 @@ export default function AudioButton({
     }
   }
 
-  /**
-   * Normalize protocol-relative URLs the dictionary API sometimes returns
-   * (e.g. `//ssl.gstatic.com/...`) and reject empty strings so the caller
-   * can fast-path to TTS.
-   */
-  function normalizeAudioUrl(raw: string | null | undefined): string | null {
-    if (!raw) return null;
-    const t = raw.trim();
-    if (!t) return null;
-    if (t.startsWith('//')) return 'https:' + t;
-    return t;
-  }
-
   function speakTTS() {
     speak(fallbackText, {
       lang,
@@ -96,8 +90,6 @@ export default function AudioButton({
   }
 
   // Small force-TTS chip rendered next to the speaker when `showTts` is on.
-  // Bypasses `audio_url` entirely so the learner can fall back to the browser
-  // voice when a recorded mp3 sounds off (mispronounced, distorted, etc.).
   const ttsChip = showTts ? (
     <button
       type="button"
@@ -125,6 +117,23 @@ export default function AudioButton({
     </button>
   ) : null;
 
+  // Warning when the Oxford mp3 fetch failed — the speaker still works (TTS),
+  // we just flag that the recorded clip is unavailable.
+  const failedBadge =
+    audioStatus === 'failed' ? (
+      <span
+        title="Phát âm Oxford lỗi — đang dùng giọng máy"
+        aria-label="Phát âm Oxford lỗi — đang dùng giọng máy"
+        style={{
+          display: 'inline-flex',
+          alignItems: 'center',
+          color: 'var(--v-orange)',
+        }}
+      >
+        <AlertTriangle size={12} strokeWidth={2.6} />
+      </span>
+    ) : null;
+
   if (variant === 'inline') {
     return (
       <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}>
@@ -148,6 +157,7 @@ export default function AudioButton({
         >
           <Volume2 size={12} /> nghe
         </button>
+        {failedBadge}
         {ttsChip}
       </span>
     );
@@ -175,6 +185,7 @@ export default function AudioButton({
     >
       <Volume2 size={Math.floor(size * 0.45)} />
     </button>
+    {failedBadge}
     {ttsChip}
     </span>
   );

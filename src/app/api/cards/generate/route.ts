@@ -4,6 +4,7 @@ import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { generateCardData } from '@/lib/flashcards/generate';
 import { ensureClozePool } from '@/lib/flashcards/cloze';
 import { getPexelsImage } from '@/lib/flashcards/pexels';
+import { fetchAndStoreOxfordAudio } from '@/lib/oxford/persist';
 import { flashcardsDb, flashcardDecksDb } from '@/lib/db';
 
 export const runtime = 'nodejs';
@@ -80,6 +81,10 @@ export async function POST(req: Request) {
         image_attribution: data.image_attribution,
         notes: null,
       });
+      // Best-effort Oxford US pronunciation (mp3 → R2, US IPA → card). Awaited
+      // inline per spec: bulk-added cards get audio for free at ~1–3s/card.
+      // Never throws — a miss leaves status 'failed' and the UI uses TTS.
+      await fetchAndStoreOxfordAudio(userId, id, data.english);
       const card = await flashcardsDb.getById(userId, id);
 
       // Fire-and-forget cloze pool gen for the lemmatized headword. waitUntil

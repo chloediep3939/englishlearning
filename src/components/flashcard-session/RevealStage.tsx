@@ -86,7 +86,14 @@ export default function RevealStage({
           )}
           <div style={{ marginLeft: 'auto', alignSelf: 'center', display: 'flex', alignItems: 'center', gap: 8 }}>
             <AutoplayDots played={autoplayCount} total={AUDIO_AUTOPLAY_COUNT} />
-            <AudioButton audioUrl={card.audio_url} fallbackText={card.english} size={36} showTts />
+            <AudioButton
+              fallbackText={card.english}
+              size={36}
+              showTts
+              cardId={card.id}
+              audioStatus={card.audio_us_status}
+              audioVersion={card.updated_at}
+            />
           </div>
         </div>
       </header>

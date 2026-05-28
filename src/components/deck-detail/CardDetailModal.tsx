@@ -237,7 +237,14 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
                   >
                     {card.english}
                   </h2>
-                  <AudioButton audioUrl={card.audio_url} fallbackText={card.english} size={32} showTts />
+                  <AudioButton
+                    fallbackText={card.english}
+                    size={32}
+                    showTts
+                    cardId={card.id}
+                    audioStatus={card.audio_us_status}
+                    audioVersion={card.updated_at}
+                  />
                 </div>
                 {card.ipa && (
                   <div

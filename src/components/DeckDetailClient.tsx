@@ -20,6 +20,7 @@ import WordRow, { getMissingFields, type RegenField } from './deck-detail/WordRo
 import CardDetailModal from './deck-detail/CardDetailModal';
 import DeleteDeckDialog from './deck-detail/DeleteDeckDialog';
 import DeckExportButton from './deck-detail/DeckExportButton';
+import RefreshAudioButton from './deck-detail/RefreshAudioButton';
 import { STAGE_COLOR, type FilterTab } from './deck-detail/constants';
 
 interface RegenResponse {
@@ -145,6 +146,12 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
   function handleCardSaved(updated: Flashcard) {
     setCards((prev) => prev.map((c) => (c.id === updated.id ? updated : c)));
     setSelectedCard(updated);
+  }
+
+  // Swap a card refreshed by the per-deck audio re-fetch into state. Unlike
+  // handleCardSaved this doesn't open the modal — it's a background update.
+  function handleCardUpdated(updated: Flashcard) {
+    setCards((prev) => prev.map((c) => (c.id === updated.id ? updated : c)));
   }
 
   /**
@@ -288,6 +295,7 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
             </button>
           )}
           <DeckExportButton deckId={deck.id} />
+          <RefreshAudioButton cards={cards} onCardUpdated={handleCardUpdated} />
           <button
             type="button"
             onClick={() => setEditing(true)}

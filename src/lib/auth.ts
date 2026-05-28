@@ -5,7 +5,7 @@
 // and passed in. We don't read `process.env` here because OpenNext only exposes
 // `.dev.vars` / Worker secrets through the Cloudflare context, NOT process.env.
 
-import type { D1Database } from '@cloudflare/workers-types';
+import type { D1Database, R2Bucket } from '@cloudflare/workers-types';
 
 declare global {
   interface CloudflareEnv {
@@ -16,6 +16,7 @@ declare global {
     GEMINI_API_KEY?: string;
     APP_NAME?: string;
     DB?: D1Database;
+    AUDIO_BUCKET?: R2Bucket;
   }
 }
 

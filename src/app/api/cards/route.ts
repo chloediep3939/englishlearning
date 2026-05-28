@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { flashcardsDb, flashcardDecksDb } from '@/lib/db';
+import { fetchAndStoreOxfordAudio } from '@/lib/oxford/persist';
 import type { FlashcardExample, FlashcardCollocation, FlashcardImageAttribution } from '@/lib/types';
 
 /**
@@ -161,6 +162,11 @@ export async function POST(req: Request) {
         ? normalizeCollocations(body.collocations)
         : undefined,
     });
+    // Best-effort Oxford US pronunciation: stores the mp3 in R2 and overwrites
+    // the IPA with the US value. Never throws — a miss leaves status 'failed'
+    // and the read button falls back to TTS. Awaited inline so the returned
+    // card already reflects the US IPA / audio for the add-page preview.
+    await fetchAndStoreOxfordAudio(userId, id, english);
     const card = await flashcardsDb.getById(userId, id);
     return NextResponse.json(card, { status: 201 });
   } catch (err) {

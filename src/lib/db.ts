@@ -1,5 +1,5 @@
 import { getCloudflareContext } from '@opennextjs/cloudflare';
-import type { D1Database } from '@cloudflare/workers-types';
+import type { D1Database, R2Bucket } from '@cloudflare/workers-types';
 import type {
   CefrLevel,
   ClozeSentence,
@@ -34,6 +34,24 @@ export async function getDb(): Promise<D1Database> {
     throw new Error('D1 binding "DB" not found. Check wrangler.jsonc.');
   }
   return db;
+}
+
+/**
+ * Returns the R2 bucket binding used for stored pronunciation audio.
+ * Must be called inside a request handler / server component.
+ *
+ * NOTE: the binding is absent under plain `next dev` — it only exists under
+ * the Workers runtime (`npm run preview` / `wrangler dev`). Callers must treat
+ * a thrown "not found" as a best-effort miss (fall back to TTS), never a
+ * fatal error in the card-creation path.
+ */
+export async function getAudioBucket(): Promise<R2Bucket> {
+  const { env } = await getCloudflareContext({ async: true });
+  const bucket = (env as Record<string, unknown>).AUDIO_BUCKET as R2Bucket | undefined;
+  if (!bucket) {
+    throw new Error('R2 binding "AUDIO_BUCKET" not found. Check wrangler.jsonc.');
+  }
+  return bucket;
 }
 
 // ============================================================================
@@ -459,9 +477,10 @@ export const flashcardsDb = {
       .prepare(
         `INSERT INTO flashcards (
            user_id, deck_id, english, vietnamese, ipa, part_of_speech, audio_url,
+           audio_us_key, audio_us_status,
            examples, image_url, image_attribution, notes, collocations,
            status, source_passage_id, source_context
-         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
       )
       .bind(
         userId,
@@ -471,6 +490,8 @@ export const flashcardsDb = {
         input.ipa ?? null,
         input.part_of_speech ?? null,
         input.audio_url ?? null,
+        input.audio_us_key ?? null,
+        input.audio_us_status ?? null,
         input.examples ? JSON.stringify(input.examples) : null,
         input.image_url ?? null,
         input.image_attribution ? JSON.stringify(input.image_attribution) : null,
@@ -512,6 +533,8 @@ export const flashcardsDb = {
       ipa: fields.ipa,
       part_of_speech: fields.part_of_speech,
       audio_url: fields.audio_url,
+      audio_us_key: fields.audio_us_key,
+      audio_us_status: fields.audio_us_status,
       image_url: fields.image_url,
       notes: fields.notes,
       deck_id: fields.deck_id,

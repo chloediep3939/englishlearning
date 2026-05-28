@@ -18,6 +18,12 @@
       "database_id": "02877c6b-122b-4d7b-bf92-f29b42700dae"
     }
   ],
+  "r2_buckets": [
+    {
+      "binding": "AUDIO_BUCKET",
+      "bucket_name": "english-learning-audio"
+    }
+  ],
   "vars": {
     "APP_NAME": "EnglishLearning"
   }

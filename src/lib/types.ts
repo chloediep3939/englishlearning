@@ -104,6 +104,12 @@ export interface Flashcard {
   ipa: string | null;
   part_of_speech: string | null;
   audio_url: string | null;
+  // Oxford US pronunciation: R2 object key + fetch status. `audio_us_status`
+  // is 'ok' (mp3 stored under audio_us_key), 'failed' (attempted, no mp3), or
+  // null (never attempted). The read-aloud button plays the mp3 when 'ok',
+  // else falls back to browser TTS (with a warning when 'failed').
+  audio_us_key: string | null;
+  audio_us_status: 'ok' | 'failed' | null;
   examples: FlashcardExample[];
   image_url: string | null;
   image_attribution: FlashcardImageAttribution | null;

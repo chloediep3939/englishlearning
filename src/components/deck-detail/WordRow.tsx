@@ -126,7 +126,13 @@ export default function WordRow({ card, index, isLast, onClick }: Props) {
           }}
           style={{ display: 'inline-flex', flexShrink: 0 }}
         >
-          <AudioButton audioUrl={card.audio_url} fallbackText={card.english} size={26} />
+          <AudioButton
+            fallbackText={card.english}
+            size={26}
+            cardId={card.id}
+            audioStatus={card.audio_us_status}
+            audioVersion={card.updated_at}
+          />
         </span>
         {/* warning badge — surfaces "missing auto-fill fields" so the user
             can open the card detail (or the bulk fixer) and regen. */}

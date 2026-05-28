@@ -35,7 +35,13 @@ export default function WordCard({ card, compact = false }: Props) {
         >
           {card.english}
         </h2>
-        <AudioButton audioUrl={card.audio_url} fallbackText={card.english} size={36} />
+        <AudioButton
+          fallbackText={card.english}
+          size={36}
+          cardId={card.id}
+          audioStatus={card.audio_us_status}
+          audioVersion={card.updated_at}
+        />
       </div>
 
       {/* IPA */}
