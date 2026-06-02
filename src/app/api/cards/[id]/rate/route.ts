@@ -23,6 +23,7 @@ export async function POST(
     const body = (await req.json().catch(() => ({}))) as {
       quality?: unknown;
       failed_this_session?: unknown;
+      is_first_rating_this_session?: unknown;
     };
     const quality = Number(body.quality);
     if (!VALID_QUALITIES.has(quality)) {
@@ -32,12 +33,18 @@ export async function POST(
       );
     }
     const failedThisSession = body.failed_this_session === true;
+    // Default true: a single direct call (no flag) is treated as a first rating.
+    // Session UI explicitly sends `false` on re-rates within the same session.
+    const isFirstRatingThisSession = body.is_first_rating_this_session !== false;
 
     const result = await flashcardReviewsDb.recordRating(
       userId,
       cardId,
       quality as SRSQuality,
-      { failedThisSession },
+      {
+        failedThisSession,
+        srsUpdate: isFirstRatingThisSession,
+      },
     );
 
     const updated = await flashcardsDb.getById(userId, cardId);

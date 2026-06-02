@@ -332,6 +332,26 @@ export const flashcardsDb = {
   },
 
   /**
+   * Find an existing card in a deck by (case-insensitive) headword. Used to
+   * dedup saves from the Read-Along reader (E5.7) so re-saving a word returns
+   * the existing card instead of creating a duplicate.
+   */
+  async findByEnglishInDeck(
+    userId: number,
+    deck_id: number,
+    english: string,
+  ): Promise<Flashcard | null> {
+    const db = await getDb();
+    const row = await db
+      .prepare(
+        'SELECT * FROM flashcards WHERE user_id = ? AND deck_id = ? AND LOWER(english) = LOWER(?) LIMIT 1',
+      )
+      .bind(userId, deck_id, english)
+      .first<Record<string, unknown>>();
+    return hydrateCard(row);
+  },
+
+  /**
    * Returns the user's cards matching the given IDs. Order of results is not
    * guaranteed to match the input order. IDs not owned by the user are silently
    * dropped (so callers can use this to filter a client-supplied pool down to
@@ -370,7 +390,7 @@ export const flashcardsDb = {
   async getDueForReview(
     userId: number,
     limit: number = 50,
-    exclude_mastered: boolean = true,
+    exclude_mastered: boolean = false,
     deck_id: number | null = null,
   ): Promise<Flashcard[]> {
     const db = await getDb();
@@ -636,21 +656,15 @@ export const flashcardReviewsDb = {
     userId: number,
     flashcardId: number,
     quality: SRSQuality,
-    opts: { failedThisSession?: boolean } = {},
+    opts: { failedThisSession?: boolean; srsUpdate?: boolean } = {},
   ): Promise<{ prev_interval: number; new_interval: number; next_review_at: string; new_status: FlashcardStatus }> {
     const card = await flashcardsDb.getById(userId, flashcardId);
     if (!card) throw new CardNotFoundError();
 
+    // Compute next state (used for both logging and possible apply).
     const update = calculateNextReview(card, quality, opts);
 
-    await flashcardsDb.updateSRS(userId, flashcardId, {
-      status: update.status,
-      ease_factor: update.ease_factor,
-      interval_days: update.interval_days,
-      repetitions: update.repetitions,
-      next_review_at: update.next_review_at,
-      last_reviewed_at: new Date().toISOString().replace('T', ' ').slice(0, 19),
-    });
+    // Always log the review event.
     await flashcardReviewsDb.create(userId, {
       flashcard_id: flashcardId,
       quality,
@@ -658,11 +672,28 @@ export const flashcardReviewsDb = {
       new_interval: update.interval_days,
     });
 
+    // Only apply SRS state mutation if requested.
+    // Default true so non-session callers (e.g. /api/sentence/timeout) work
+    // exactly as before. Session UI passes `srsUpdate: false` for re-ratings
+    // on the same card within a single session.
+    const shouldUpdateSRS = opts.srsUpdate !== false;
+
+    if (shouldUpdateSRS) {
+      await flashcardsDb.updateSRS(userId, flashcardId, {
+        status: update.status,
+        ease_factor: update.ease_factor,
+        interval_days: update.interval_days,
+        repetitions: update.repetitions,
+        next_review_at: update.next_review_at,
+        last_reviewed_at: new Date().toISOString().replace('T', ' ').slice(0, 19),
+      });
+    }
+
     return {
       prev_interval: update.prev_interval,
       new_interval: update.interval_days,
-      next_review_at: update.next_review_at,
-      new_status: update.status,
+      next_review_at: shouldUpdateSRS ? update.next_review_at : (card.next_review_at ?? update.next_review_at),
+      new_status: shouldUpdateSRS ? update.status : card.status,
     };
   },
 
@@ -958,6 +989,10 @@ const SETTINGS_KEYS = [
   // Pomodoro keys
   'pomodoro_work_minutes',
   'pomodoro_break_minutes',
+  // Read-Along / Karaoke reader keys
+  'reading_speed',
+  'reading_auto_continue',
+  'reading_deck_id',
 ] as const;
 
 const THEME_VALUES: ReadonlyArray<'light' | 'dark' | 'system'> = ['light', 'dark', 'system'];
@@ -985,7 +1020,7 @@ export const userSettingsDb = {
       daily_goal_review: Number(map.get('flashcard_daily_goal_review')) || 50,
       reminder_time: map.get('flashcard_reminder_time') ?? '20:00',
       reminder_enabled: map.get('flashcard_reminder_enabled') === '1',
-      mastered_hide_from_review: (map.get('flashcard_mastered_hide_from_review') ?? '1') === '1',
+      mastered_hide_from_review: (map.get('flashcard_mastered_hide_from_review') ?? '0') === '1',
       daily_new_limit: Number(map.get('flashcard_daily_new_limit')) || 10,
       // M3 keys (defaults pulled from M3_SETTINGS in @/lib/types).
       // f1_max_attempts can legitimately be 0 ("Không giới hạn") — preserve
@@ -1006,6 +1041,11 @@ export const userSettingsDb = {
       // Pomodoro defaults — 25/5 (standard Pomodoro technique).
       pomodoro_work_minutes: Number(map.get('pomodoro_work_minutes')) || 25,
       pomodoro_break_minutes: Number(map.get('pomodoro_break_minutes')) || 5,
+      // Read-Along defaults (BR7–BR10). reading_deck_id absent → null (no
+      // last-used deck yet); the reader falls back to first/auto-created deck.
+      reading_speed: Number(map.get('reading_speed')) || 1.0,
+      reading_auto_continue: (map.get('reading_auto_continue') ?? '1') === '1',
+      reading_deck_id: map.get('reading_deck_id') ? Number(map.get('reading_deck_id')) : null,
     };
   },
 
@@ -1042,6 +1082,10 @@ export const userSettingsDb = {
     if (partial.theme !== undefined)                        upsert('theme', partial.theme);
     if (partial.pomodoro_work_minutes !== undefined)        upsert('pomodoro_work_minutes', String(partial.pomodoro_work_minutes));
     if (partial.pomodoro_break_minutes !== undefined)       upsert('pomodoro_break_minutes', String(partial.pomodoro_break_minutes));
+    if (partial.reading_speed !== undefined)                upsert('reading_speed', String(partial.reading_speed));
+    if (partial.reading_auto_continue !== undefined)        upsert('reading_auto_continue', partial.reading_auto_continue ? '1' : '0');
+    // reading_deck_id: null means "clear" — store empty so the reader reverts to its fallback.
+    if (partial.reading_deck_id !== undefined)              upsert('reading_deck_id', partial.reading_deck_id == null ? '' : String(partial.reading_deck_id));
     if (stmts.length === 0) return;
     await db.batch(stmts);
   },

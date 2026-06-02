@@ -52,22 +52,33 @@ export interface SRSUpdate {
 }
 
 /**
- * Standard SM-2 algorithm with 4-button rating (again/hard/good/easy).
+ * Apply ±15% randomization to interval to avoid review clumping over time.
+ * No fuzz for intervals < 4 days (small intervals are sensitive to drift).
+ */
+function applyFuzz(interval: number): number {
+  if (interval < 4) return interval;
+  const fuzz = 0.15;
+  const offset = (Math.random() * 2 - 1) * fuzz * interval;
+  return Math.max(1, Math.round(interval + offset));
+}
+
+/**
+ * SM-2 with 4-button rating (Lại/Khó/Tốt/Dễ → 0/2/4/5).
+ *
  * Returns next review state given current card state + user rating.
  *
- * - quality 0 (again): reset reps, 1 minute later
- * - quality 2 (hard):  same interval × 1.2, EF -0.15
- * - quality 4 (good):  interval × EF, EF unchanged
- * - quality 5 (easy):  interval × EF × 1.3, EF +0.15
+ *   quality 0 (Lại):  reset reps, schedule +1 minute, ease −0.2 (floor 1.3)
+ *   quality 2 (Khó):  interval × 1.2 once graduated; ease −0.15 (−0.25 at reps=1)
+ *   quality 4 (Tốt):  interval × ease;               ease unchanged
+ *   quality 5 (Dễ):   interval × ease × 1.3;         ease +0.15
  *
- * Mastered gate (count-based, runs after SM-2). `failedThisSession` is
- * scoped to a single FlashcardSession run — it does NOT persist across
- * sessions, so each new session starts the learner on the cleaner
- * 2-correct path.
- * - quality 5 (DỄ)                            → mastered immediately
- * - reps >= 2 AND !failedThisSession          → mastered (clean run, 2 corrects)
- * - reps >= 3                                 → mastered (had a wrong, need 3 corrects)
- * - interval >= 60                            → mastered (safety cap)
+ * Mastery gate (NEW, tight): status='mastered' only when both
+ *   - interval_days >= 60   (held for ~2 months without forgetting)
+ *   - repetitions >= 4      (multiple distinct review sessions)
+ *
+ * 'mastered' is NOT terminal — cards keep growing intervals and remain
+ * reviewable. The /review query no longer filters mastered by default
+ * (see db.ts step 2.2 + migration 0014).
  */
 export function calculateNextReview(
   card: Flashcard,
@@ -79,7 +90,6 @@ export function calculateNextReview(
   let interval = card.interval_days;
   let reps = card.repetitions;
   let status: FlashcardStatus = card.status;
-  const failedThisSession = opts.failedThisSession === true || quality === 0;
 
   if (quality === 0) {
     reps = 0;
@@ -89,7 +99,8 @@ export function calculateNextReview(
   } else {
     reps += 1;
     if (reps === 1) {
-      interval = 1;
+      // Graduating step: Easy gets 4 days, Good/Hard get 1 day.
+      interval = quality === 5 ? 4 : 1;
       status = 'learning';
     } else if (reps === 2) {
       interval = quality === 2 ? 2 : quality === 4 ? 3 : 4;
@@ -99,14 +110,26 @@ export function calculateNextReview(
       interval = Math.max(1, Math.round(interval * mult));
       status = 'review';
     }
-    if (quality === 2) ease = Math.max(1.3, ease - 0.15);
-    else if (quality === 5) ease = ease + 0.15;
+
+    // Ease adjustments
+    if (quality === 2) {
+      // Stronger penalty at reps=1: Khó on a fresh card means the learner
+      // really struggled, so make future intervals shorter via lower ease.
+      ease = Math.max(1.3, ease - (reps === 1 ? 0.25 : 0.15));
+    } else if (quality === 5) {
+      ease = ease + 0.15;
+    }
+    // quality === 4 (Tốt): ease unchanged — SM-2 standard
+
+    // Fuzz intervals >= 4 days to prevent clumping
+    if (interval >= 4) interval = applyFuzz(interval);
   }
 
-  if (quality === 5) status = 'mastered';
-  else if (reps >= 3) status = 'mastered';
-  else if (reps >= 2 && !failedThisSession) status = 'mastered';
-  else if (interval >= 60) status = 'mastered';
+  // Mastery gate (tight): only true long-term retention.
+  // Both conditions required.
+  if (status === 'review' && interval >= 60 && reps >= 4) {
+    status = 'mastered';
+  }
 
   const next = new Date();
   if (quality === 0) {

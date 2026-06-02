@@ -53,7 +53,7 @@ export default function PassageLibraryRow({ passage }: Props) {
       }}
     >
       <Link
-        href={`/passage/${passage.id}`}
+        href={`/read/${passage.id}`}
         style={{
           display: 'flex',
           alignItems: 'flex-start',

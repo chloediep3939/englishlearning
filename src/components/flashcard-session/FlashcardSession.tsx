@@ -76,6 +76,9 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
   // run) or 3 (had a wrong) — see calculateMastery in handleRate. Resets
   // to 0 whenever the card gets q=0.
   const correctCountRef = useRef<Map<number, number>>(new Map());
+  // NEW: tracks cards whose server SRS state has been mutated this session.
+  // First rating per card per session: mutate + log. Subsequent: log only.
+  const srsUpdatedThisSessionRef = useRef<Set<number>>(new Set());
 
   const [phase, setPhase] = useState<Phase>('TYPING');
   const [input, setInput] = useState('');
@@ -226,10 +229,17 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
       const failedThisSession = failedThisSessionRef.current.has(current.id);
       const correctCount = correctCountRef.current.get(current.id) ?? 0;
 
+      const isFirstRatingThisSession = !srsUpdatedThisSessionRef.current.has(current.id);
+      srsUpdatedThisSessionRef.current.add(current.id);
+
       void fetch(`/api/cards/${current.id}/rate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ quality, failed_this_session: failedThisSession }),
+        body: JSON.stringify({
+          quality,
+          failed_this_session: failedThisSession,
+          is_first_rating_this_session: isFirstRatingThisSession,
+        }),
       })
         .then((res) => {
           if (!res.ok) {
@@ -242,12 +252,14 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
           setTimeout(() => setErrorMsg(null), 4000);
         });
 
-      // Session mastery gate — mirrors `calculateNextReview` in
-      // src/lib/flashcards/srs.ts so the in-session "thuộc" counter
-      // and the DB `status` agree.
-      //   - q=5 (DỄ)                                 → master immediately
-      //   - correctCount >= 2 AND no fail this run   → master (clean run)
-      //   - correctCount >= 3                        → master (had a wrong)
+      // Local queue eviction only. Server SRS state is decided by
+      // calculateNextReview's interval-based mastery gate (see srs.ts).
+      // These two "mastered" notions are intentionally decoupled — within a
+      // session the learner only needs to see a card 2-3 times even if it's
+      // not yet mastered on the server.
+      //   - q=5 (DỄ)                                 → evict immediately
+      //   - correctCount >= 2 AND no fail this run   → evict (clean run)
+      //   - correctCount >= 3                        → evict (had a wrong)
       //   - else                                     → requeue
       const shouldMaster =
         quality === 5 ||

@@ -18,6 +18,7 @@ export async function POST(req: Request) {
       deck_id?: unknown;
       passage_id?: unknown;
       source_context?: unknown;
+      prefilled?: unknown;
     };
 
     const word = typeof body.word === 'string' ? body.word.trim() : '';
@@ -38,17 +39,55 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Invalid passage_id.' }, { status: 400 });
     }
 
+    // Optional pre-filled gloss from the Read-Along reader (MS Dictionary +
+    // Gemini IPA, already resolved client-side). When present we skip the
+    // generateCardData pipeline entirely — no redundant dictionary / Datamuse /
+    // Pexels / lemmatize-AI calls — and stamp the values verbatim. `vi` may be
+    // an empty string for a proper noun with no meaning (E5.4); we still save.
+    const pf = (typeof body.prefilled === 'object' && body.prefilled !== null
+      ? body.prefilled
+      : {}) as { vi?: unknown; pos?: unknown; ipa?: unknown };
+    const hasPrefill =
+      typeof pf.vi === 'string' || typeof pf.pos === 'string' || typeof pf.ipa === 'string';
+
     // Verify deck + passage ownership (also stops cross-user probing).
     const deck = await flashcardDecksDb.getById(userId, deckId);
     if (!deck) return NextResponse.json({ error: 'Deck not found.' }, { status: 404 });
     const passage = await passagesDb.getById(userId, passageId);
     if (!passage) return NextResponse.json({ error: 'Passage not found.' }, { status: 404 });
 
-    // Auto-fill via the shared generate pipeline. Treat as best-effort — if it
-    // throws we still create the card with just english + the in-context
-    // Vietnamese the caller pre-filled via /define-word (passed in via word?
-    // No — caller only passes the lemma). Leaving fields empty is fine; the
-    // user can edit later. So we fall back to nulls but never block the save.
+    // Dedup against the deck (E5.7): re-saving an existing word returns the
+    // existing card instead of inserting a duplicate. Match the persisted
+    // headword — prefilled saves use the cleaned word; pipeline saves use the
+    // lemma, so check both.
+    const existing = await flashcardsDb.findByEnglishInDeck(userId, deckId, word);
+    if (existing) {
+      return NextResponse.json({ card: existing, deduped: true }, { status: 200 });
+    }
+
+    if (hasPrefill) {
+      const id = await flashcardsDb.create(userId, {
+        deck_id: deckId,
+        english: word,
+        vietnamese: typeof pf.vi === 'string' ? pf.vi.slice(0, 500) : '',
+        ipa: typeof pf.ipa === 'string' && pf.ipa ? pf.ipa : null,
+        audio_url: null,
+        part_of_speech: typeof pf.pos === 'string' && pf.pos ? pf.pos : null,
+        examples: [],
+        collocations: [],
+        image_url: null,
+        image_attribution: null,
+        notes: null,
+        source_passage_id: passageId,
+        source_context: sourceContext,
+      });
+      const card = await flashcardsDb.getById(userId, id);
+      return NextResponse.json({ card }, { status: 201 });
+    }
+
+    // No prefill — auto-fill via the shared generate pipeline. Treat as
+    // best-effort — if it throws we still create the card with just english.
+    // Leaving fields empty is fine; the user can edit later.
     const generated = await generateCardData(word).catch(() => null);
 
     const id = await flashcardsDb.create(userId, {

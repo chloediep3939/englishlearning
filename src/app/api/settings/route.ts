@@ -87,6 +87,20 @@ export async function PUT(req: Request) {
     if (typeof body.pomodoro_break_minutes === 'number' && body.pomodoro_break_minutes >= 1 && body.pomodoro_break_minutes <= 60) {
       partial.pomodoro_break_minutes = Math.floor(body.pomodoro_break_minutes);
     }
+    // ----- Read-Along keys -----
+    // Speed is one of the four chips; clamp to the safe TTS range 0.5–2.0.
+    if (typeof body.reading_speed === 'number' && body.reading_speed >= 0.5 && body.reading_speed <= 2.0) {
+      partial.reading_speed = Math.round(body.reading_speed * 100) / 100;
+    }
+    if (typeof body.reading_auto_continue === 'boolean') {
+      partial.reading_auto_continue = body.reading_auto_continue;
+    }
+    // reading_deck_id: a positive integer deck id, or null to clear.
+    if (body.reading_deck_id === null) {
+      partial.reading_deck_id = null;
+    } else if (typeof body.reading_deck_id === 'number' && Number.isInteger(body.reading_deck_id) && body.reading_deck_id > 0) {
+      partial.reading_deck_id = body.reading_deck_id;
+    }
 
     await userSettingsDb.updateFlashcardSettings(userId, partial);
     const settings = await userSettingsDb.getFlashcardSettings(userId);

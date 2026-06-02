@@ -245,9 +245,54 @@ export interface FlashcardSettings {
   // ----- Pomodoro -----
   pomodoro_work_minutes: number;      // length of a focus phase, default 25
   pomodoro_break_minutes: number;     // length of a break phase, default 5
+  // ----- Read-Along / Karaoke reader -----
+  reading_speed: number;              // TTS rate chip: 0.7 / 0.85 / 1.0 / 1.3, default 1.0
+  reading_auto_continue: boolean;     // sentence-end → next sentence, default true
+  reading_deck_id: number | null;     // last-used deck for saving words; null = none yet
 }
 
 export type ThemeMode = 'light' | 'dark' | 'system';
+
+// ===== Read-Along / Karaoke reader =====
+
+/** Word-level glossary entry. vn/pos/ipa nullable — a partial lookup (e.g.
+ *  IPA only, no dictionary hit for a proper noun) is still a valid cached row. */
+export interface GlossaryEntry {
+  vn: string | null;
+  pos: string | null;
+  ipa: string | null;
+  // Serving URL for the word's Oxford pronunciation (/api/words/audio/<word>),
+  // or null when no audio is available. The 🔊 button falls back to TTS on null.
+  audioUrl?: string | null;
+}
+
+/** One sentence's translation as returned by the translations route. `vn` is
+ *  null when MS Translator hasn't (or couldn't) translate that sentence. */
+export interface TranslatedSentence {
+  index: number;
+  en: string;
+  vn: string | null;
+}
+
+export interface PassageTranslationRow {
+  id: number;
+  passage_id: number;
+  sentence_index: number;
+  en_text: string;
+  vn_text: string;
+  created_at: string;
+}
+
+export interface WordGlossaryRow {
+  id: number;
+  word: string;
+  vn: string | null;
+  pos: string | null;
+  ipa: string | null;
+  source: string | null;
+  audio_src: string | null; // Oxford US mp3 CDN URL (proxied by /api/words/audio)
+  created_at: string;
+}
 
 // ===== M3: practice modes =====
 

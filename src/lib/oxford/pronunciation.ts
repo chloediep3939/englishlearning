@@ -21,7 +21,7 @@ export interface OxfordPronunciation {
   mp3SourceUrl: string | null; // the Oxford mp3 url we downloaded from
 }
 
-const BROWSER_UA =
+export const BROWSER_UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
 // Shared deadline across the page fetch + the mp3 fetch so a slow Oxford
@@ -93,6 +93,35 @@ export async function fetchOxfordPronunciation(oxfordUrl: string): Promise<Oxfor
 
 function emptyResult(): OxfordPronunciation {
   return { ipaUs: null, mp3: null, mp3SourceUrl: null };
+}
+
+/**
+ * Lightweight variant: fetch the Oxford page and parse the US IPA + mp3 URL
+ * WITHOUT downloading the mp3 bytes. Used by the read-along word lookup, which
+ * runs on the per-tap hot path and only needs `{ ipaUs, mp3SourceUrl }` — the
+ * bytes are fetched lazily later by the audio-serving route. Never throws;
+ * returns all-null on any network/parse failure.
+ */
+export async function fetchOxfordPronunciationMeta(
+  oxfordUrl: string,
+): Promise<ParsedUsPronunciation> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(oxfordUrl, {
+      redirect: 'follow',
+      signal: controller.signal,
+      headers: { 'User-Agent': BROWSER_UA, 'Accept-Language': 'en-US,en' },
+    });
+    if (!res.ok) return { ipaUs: null, mp3SourceUrl: null };
+    const html = await res.text();
+    return parseOxfordUsPronunciation(html);
+  } catch (err) {
+    console.error('[oxford] meta fetch error:', err);
+    return { ipaUs: null, mp3SourceUrl: null };
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 // Slice out the first `.webtop` entry (the primary headword) so we don't pick

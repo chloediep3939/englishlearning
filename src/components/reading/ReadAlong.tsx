@@ -1,0 +1,418 @@
+'use client';
+
+import { useEffect, useMemo, useState } from 'react';
+import Link from 'next/link';
+import { ArrowLeft, BookOpen, Languages } from 'lucide-react';
+import LoadingState from '@/components/common/LoadingState';
+import Mascot from '@/components/common/Mascot';
+import ReadingPassage from '@/components/reading/ReadingPassage';
+import WordDetailCard from '@/components/reading/WordDetailCard';
+import SpeedSelector from '@/components/reading/SpeedSelector';
+import ReadingToggle from '@/components/reading/ReadingToggle';
+import TransportControls from '@/components/reading/TransportControls';
+import SavedWordsTray from '@/components/reading/SavedWordsTray';
+import { useKaraoke } from '@/lib/reading/use-karaoke';
+import { useReducedMotion } from '@/lib/reading/use-reduced-motion';
+import { splitPassage, contentWords } from '@/lib/reading/tokenizer';
+import {
+  STOP_WORDS,
+  READING_SHOW_VN_KEY,
+  READING_DEFAULT_DECK_NAME,
+  BUN_BLUE,
+  estimateSeconds,
+} from '@/lib/reading/constants';
+import type { FlatSentence } from '@/lib/reading/tokenizer';
+import type { GlossaryEntry, TranslatedSentence } from '@/lib/types';
+
+export interface ReadAlongPassage {
+  id: number;
+  title: string;
+  content: string;
+  word_count: number;
+  level_estimate: string | null;
+}
+
+export interface DeckOption {
+  id: number;
+  name: string;
+}
+
+interface Props {
+  passage: ReadAlongPassage;
+  initialRate: number;
+  initialAuto: boolean;
+  initialDeckId: number | null;
+  decks: DeckOption[];
+}
+
+// ── Loader: split passage, fetch translations + glossary, then mount engine ──
+export default function ReadAlong({ passage, initialRate, initialAuto, initialDeckId, decks }: Props) {
+  const { flat } = useMemo(() => splitPassage(passage.content), [passage.content]);
+
+  const [loaded, setLoaded] = useState(false);
+  const [translations, setTranslations] = useState<Record<number, string | null>>({});
+  const [glossary, setGlossary] = useState<Record<string, GlossaryEntry>>({});
+  const [transAvailable, setTransAvailable] = useState(false);
+
+  useEffect(() => {
+    if (flat.length === 0) {
+      setLoaded(true);
+      return;
+    }
+    let cancelled = false;
+
+    const transP = fetch(`/api/passages/${passage.id}/translations`)
+      .then(async (r) => {
+        if (!r.ok) throw r.status;
+        return (await r.json()) as { sentences: TranslatedSentence[]; translationAvailable?: boolean };
+      })
+      .then((data) => {
+        if (cancelled) return;
+        const map: Record<number, string | null> = {};
+        for (const s of data.sentences) map[s.index] = s.vn;
+        setTranslations(map);
+        setTransAvailable(data.translationAvailable !== false);
+      })
+      .catch(() => {
+        if (!cancelled) setTransAvailable(false);
+      });
+
+    const words = contentWords(flat, STOP_WORDS);
+    const glossP = fetch('/api/words/glossary', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ words }),
+    })
+      .then(async (r) => {
+        if (!r.ok) throw r.status;
+        return (await r.json()) as { entries: Record<string, GlossaryEntry> };
+      })
+      .then((data) => {
+        if (!cancelled) setGlossary(data.entries ?? {});
+      })
+      .catch(() => {
+        /* glossary stays empty — words still tappable via on-demand lookup */
+      });
+
+    Promise.all([transP, glossP]).finally(() => {
+      if (!cancelled) setLoaded(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [flat, passage.id]);
+
+  if (!loaded) return <LoadingState message="Bún đang chuẩn bị bài đọc…" />;
+
+  if (flat.length === 0) {
+    return (
+      <div>
+        <BackLink />
+        <div
+          style={{
+            padding: 40,
+            textAlign: 'center',
+            background: 'var(--v-panel)',
+            border: '1px dashed var(--v-border)',
+            borderRadius: 'var(--v-radius-md)',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: 14,
+          }}
+        >
+          <Mascot pose="sleep" size={88} />
+          <div style={{ fontFamily: 'var(--v-font-head)', fontWeight: 800, color: 'var(--v-ink)' }}>
+            Bài đọc chưa có nội dung
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <ReadAlongInner
+      passage={passage}
+      flat={flat}
+      translations={translations}
+      glossary={glossary}
+      transAvailable={transAvailable}
+      initialRate={initialRate}
+      initialAuto={initialAuto}
+      initialDeckId={initialDeckId}
+      decks={decks}
+    />
+  );
+}
+
+function BackLink() {
+  return (
+    <Link
+      href="/passage"
+      style={{
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: 4,
+        fontSize: 'var(--v-text-sm)',
+        color: 'var(--v-muted)',
+        textDecoration: 'none',
+        marginBottom: 12,
+      }}
+    >
+      <ArrowLeft size={14} /> Thư viện
+    </Link>
+  );
+}
+
+// ── Engine + UI ──
+function ReadAlongInner({
+  passage,
+  flat,
+  translations,
+  glossary,
+  transAvailable,
+  initialRate,
+  initialAuto,
+  initialDeckId,
+  decks,
+}: Props & {
+  flat: FlatSentence[];
+  translations: Record<number, string | null>;
+  glossary: Record<string, GlossaryEntry>;
+  transAvailable: boolean;
+}) {
+  const reduce = useReducedMotion();
+
+  const persistSetting = (body: Record<string, unknown>) => {
+    fetch('/api/settings', {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    }).catch(() => {});
+  };
+
+  // Which deck saved words go into. User-changeable via the picker in the tray;
+  // persisted as the last-used deck (BR10 / E5.5).
+  const [deckId, setDeckId] = useState<number | null>(initialDeckId);
+  const deckName = decks.find((d) => d.id === deckId)?.name ?? READING_DEFAULT_DECK_NAME;
+  const onDeckChange = (id: number) => {
+    setDeckId(id);
+    persistSetting({ reading_deck_id: id });
+  };
+
+  const k = useKaraoke({
+    sentences: flat,
+    translations,
+    glossary,
+    initialRate,
+    initialAuto,
+    onRateChange: (rate) => persistSetting({ reading_speed: rate }),
+    onAutoChange: (auto) => persistSetting({ reading_auto_continue: auto }),
+  });
+
+  // Restore the per-device parallel-translation preference (localStorage, BR9).
+  useEffect(() => {
+    if (typeof window === 'undefined' || !transAvailable) return;
+    if (window.localStorage.getItem(READING_SHOW_VN_KEY) === '1') k.setShowVN(true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [transAvailable]);
+
+  const onToggleVN = (v: boolean) => {
+    k.setShowVN(v);
+    try {
+      window.localStorage.setItem(READING_SHOW_VN_KEY, v ? '1' : '0');
+    } catch {
+      /* no-op */
+    }
+  };
+
+  const metaPill = `${passage.word_count} từ · ~${estimateSeconds(passage.word_count)}s`;
+  const wordCard = (
+    <WordDetailCard k={k} passageId={passage.id} deckId={deckId} deckName={deckName} reduce={reduce} />
+  );
+  const parallelToggle = transAvailable ? (
+    <ReadingToggle
+      title="Dịch song song"
+      hint="Hiện nghĩa tiếng Việt dưới mỗi câu"
+      checked={k.showVN}
+      onChange={onToggleVN}
+      accent="var(--v-teal)"
+      icon={<Languages size={15} color="#fff" strokeWidth={2.4} />}
+    />
+  ) : null;
+  const autoToggle = (
+    <ReadingToggle
+      title={k.auto ? 'Đọc liền cả đoạn' : 'Đọc từng câu'}
+      hint={k.auto ? 'Hết câu tự sang câu kế tiếp' : 'Hết câu thì dừng, bấm ▶ đọc tiếp'}
+      checked={k.auto}
+      onChange={k.toggleAuto}
+      accent={BUN_BLUE}
+    />
+  );
+  const tray = (
+    <SavedWordsTray k={k} deckId={deckId} decks={decks} onDeckChange={onDeckChange} />
+  );
+  const unsupportedBanner = !k.supported ? (
+    <div
+      style={{
+        background: 'color-mix(in srgb, var(--v-orange) 12%, var(--v-surface))',
+        border: '1px solid color-mix(in srgb, var(--v-orange) 55%, transparent)',
+        borderRadius: 12,
+        padding: '12px 16px',
+        fontFamily: 'var(--v-font-body)',
+        fontSize: 13,
+        fontWeight: 700,
+        color: 'var(--v-orange)',
+      }}
+    >
+      ⚠️ Trình duyệt này không hỗ trợ đọc to. Thử Chrome / Safari để nghe karaoke.
+    </div>
+  ) : null;
+
+  const levelBadge = passage.level_estimate ? (
+    <div
+      style={{
+        background: 'var(--v-orange)',
+        color: '#fff',
+        borderRadius: 10,
+        padding: '6px 12px',
+        fontFamily: 'var(--v-font-head)',
+        fontWeight: 900,
+        fontSize: 13,
+        letterSpacing: '0.04em',
+      }}
+    >
+      CEFR {passage.level_estimate}
+    </div>
+  ) : null;
+
+  return (
+    <>
+      {/* ── Desktop (≥768px) ── */}
+      <div className="hidden md:block">
+        <BackLink />
+        <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginBottom: 18 }}>
+          <div>
+            <div
+              style={{
+                fontFamily: 'var(--v-font-body)',
+                fontSize: 11,
+                fontWeight: 800,
+                color: 'var(--v-muted)',
+                letterSpacing: '0.14em',
+                textTransform: 'uppercase',
+              }}
+            >
+              Đọc theo · Karaoke TTS
+            </div>
+            <h1
+              style={{
+                fontFamily: 'var(--v-font-head)',
+                fontSize: 'var(--v-text-3xl)',
+                fontWeight: 900,
+                lineHeight: 1.05,
+                margin: '4px 0 0',
+                letterSpacing: 'var(--v-tracking-tight)',
+                color: 'var(--v-ink)',
+              }}
+            >
+              {passage.title}
+            </h1>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <div
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 6,
+                padding: '6px 12px',
+                background: 'var(--v-surface)',
+                border: '1px solid var(--v-border)',
+                borderRadius: 999,
+                boxShadow: 'var(--v-shadow-sm)',
+                fontFamily: 'var(--v-font-body)',
+                fontSize: 12,
+                fontWeight: 800,
+                color: 'var(--v-ink-soft)',
+              }}
+            >
+              <BookOpen size={14} /> {metaPill}
+            </div>
+            {levelBadge}
+          </div>
+        </div>
+
+        {unsupportedBanner}
+
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: 20, alignItems: 'start', marginTop: unsupportedBanner ? 14 : 0 }}>
+          <ReadingPassage k={k} vnMode={k.showVN} fontSize={24} reduce={reduce} />
+          <aside style={{ display: 'flex', flexDirection: 'column', gap: 14, position: 'sticky', top: 18 }}>
+            {parallelToggle}
+            {wordCard}
+            <SpeedSelector k={k} cols={2} />
+            {autoToggle}
+            <TransportControls k={k} />
+            {tray}
+          </aside>
+        </div>
+      </div>
+
+      {/* ── Mobile (<768px) ──
+          NOTE: no inline `display` on the `md:hidden` element — an inline style
+          would override Tailwind's `display:none` and the block would never
+          hide on desktop. The flex column lives on the inner wrapper. */}
+      <div className="md:hidden">
+       <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          <Link
+            href="/passage"
+            aria-label="Quay lại"
+            style={{
+              width: 34,
+              height: 34,
+              borderRadius: 11,
+              background: 'var(--v-surface)',
+              border: '1px solid var(--v-border)',
+              boxShadow: 'var(--v-shadow-sm)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+              color: 'var(--v-ink)',
+            }}
+          >
+            <ArrowLeft size={16} />
+          </Link>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div
+              style={{
+                fontFamily: 'var(--v-font-body)',
+                fontSize: 9,
+                fontWeight: 900,
+                color: 'var(--v-muted)',
+                letterSpacing: '0.14em',
+                textTransform: 'uppercase',
+              }}
+            >
+              Đọc theo · Karaoke
+            </div>
+            <div style={{ fontFamily: 'var(--v-font-head)', fontSize: 15, fontWeight: 900, color: 'var(--v-ink)', marginTop: 1 }}>
+              {passage.title}
+            </div>
+          </div>
+          {levelBadge}
+        </div>
+
+        {unsupportedBanner}
+        <ReadingPassage k={k} vnMode={k.showVN} fontSize={16} reduce={reduce} />
+        {parallelToggle}
+        {wordCard}
+        <SpeedSelector k={k} cols={4} />
+        {autoToggle}
+        <TransportControls k={k} />
+        {tray}
+       </div>
+      </div>
+    </>
+  );
+}
