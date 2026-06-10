@@ -1,0 +1,1653 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations (Pearson 2025)",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English.",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 2,468 collocations"
+  },
+  "cards": [
+    {
+      "english": "impose restrictions",
+      "vietnamese": "áp đặt các hạn chế",
+      "ipa": "/ɪmˈpoʊz rɪˈstrɪkʃənz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The government decided to impose restrictions on water usage.",
+          "vi": "Chính phủ quyết định áp đặt các hạn chế về việc dùng nước."
+        },
+        {
+          "en": "Schools may impose restrictions on the use of phones.",
+          "vi": "Trường học có thể áp đặt hạn chế về việc dùng điện thoại."
+        },
+        {
+          "en": "Authorities often impose restrictions to protect public health.",
+          "vi": "Nhà chức trách thường áp đặt hạn chế để bảo vệ sức khỏe cộng đồng."
+        }
+      ]
+    },
+    {
+      "english": "improved performance",
+      "vietnamese": "hiệu suất được cải thiện",
+      "ipa": "/ɪmˈpruːvd pərˈfɔːrməns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new training led to improved performance across the team.",
+          "vi": "Việc đào tạo mới giúp hiệu suất của cả đội được cải thiện."
+        },
+        {
+          "en": "Researchers measured improved performance after the software update.",
+          "vi": "Các nhà nghiên cứu đo được hiệu suất cải thiện sau khi cập nhật phần mềm."
+        },
+        {
+          "en": "Students showed improved performance once they studied regularly.",
+          "vi": "Học sinh có hiệu suất cải thiện khi học đều đặn hơn."
+        }
+      ]
+    },
+    {
+      "english": "increase awareness",
+      "vietnamese": "nâng cao nhận thức",
+      "ipa": "/ɪnˈkriːs əˈwernəs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The campaign aims to increase awareness of climate change.",
+          "vi": "Chiến dịch nhằm nâng cao nhận thức về biến đổi khí hậu."
+        },
+        {
+          "en": "Schools work hard to increase awareness about online safety.",
+          "vi": "Các trường nỗ lực nâng cao nhận thức về an toàn trực tuyến."
+        },
+        {
+          "en": "Posters were used to increase awareness among local residents.",
+          "vi": "Áp phích được dùng để nâng cao nhận thức cho cư dân địa phương."
+        }
+      ]
+    },
+    {
+      "english": "increase dramatically",
+      "vietnamese": "tăng lên đáng kể",
+      "ipa": "/ɪnˈkriːs drəˈmætɪkli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "House prices increase dramatically when demand outpaces supply.",
+          "vi": "Giá nhà tăng đáng kể khi nhu cầu vượt nguồn cung."
+        },
+        {
+          "en": "Sales tend to increase dramatically during the holiday season.",
+          "vi": "Doanh số thường tăng đáng kể trong mùa lễ."
+        },
+        {
+          "en": "Pollution levels can increase dramatically in crowded cities.",
+          "vi": "Mức ô nhiễm có thể tăng đáng kể ở các thành phố đông đúc."
+        }
+      ]
+    },
+    {
+      "english": "increase likelihood",
+      "vietnamese": "làm tăng khả năng xảy ra",
+      "ipa": "/ɪnˈkriːs ˈlaɪkliˌhʊd/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Regular exercise can increase the likelihood of better health.",
+          "vi": "Tập thể dục đều đặn có thể làm tăng khả năng có sức khỏe tốt."
+        },
+        {
+          "en": "Careful planning will increase the likelihood of project success.",
+          "vi": "Lập kế hoạch cẩn thận sẽ làm tăng khả năng thành công của dự án."
+        },
+        {
+          "en": "Poor diet may increase the likelihood of serious illness.",
+          "vi": "Chế độ ăn kém có thể làm tăng khả năng mắc bệnh nặng."
+        }
+      ]
+    },
+    {
+      "english": "increased awareness",
+      "vietnamese": "nhận thức gia tăng",
+      "ipa": "/ɪnˈkriːst əˈwernəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Increased awareness of recycling has reduced household waste.",
+          "vi": "Nhận thức gia tăng về tái chế đã giảm rác thải sinh hoạt."
+        },
+        {
+          "en": "The study reports increased awareness of mental health issues.",
+          "vi": "Nghiên cứu cho thấy nhận thức gia tăng về vấn đề sức khỏe tâm thần."
+        },
+        {
+          "en": "Increased awareness among voters changed the election outcome.",
+          "vi": "Nhận thức gia tăng của cử tri đã thay đổi kết quả bầu cử."
+        }
+      ]
+    },
+    {
+      "english": "increased competition",
+      "vietnamese": "sự cạnh tranh gia tăng",
+      "ipa": "/ɪnˈkriːst ˌkɑːmpəˈtɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Increased competition forced companies to lower their prices.",
+          "vi": "Sự cạnh tranh gia tăng buộc các công ty hạ giá."
+        },
+        {
+          "en": "Global markets face increased competition from new firms.",
+          "vi": "Thị trường toàn cầu đối mặt cạnh tranh gia tăng từ các hãng mới."
+        },
+        {
+          "en": "Increased competition often drives faster innovation.",
+          "vi": "Cạnh tranh gia tăng thường thúc đẩy đổi mới nhanh hơn."
+        }
+      ]
+    },
+    {
+      "english": "increased demand",
+      "vietnamese": "nhu cầu gia tăng",
+      "ipa": "/ɪnˈkriːst dɪˈmænd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Increased demand for housing pushed rents much higher.",
+          "vi": "Nhu cầu gia tăng về nhà ở đẩy tiền thuê lên cao."
+        },
+        {
+          "en": "The factory expanded to meet increased demand for goods.",
+          "vi": "Nhà máy mở rộng để đáp ứng nhu cầu gia tăng về hàng hóa."
+        },
+        {
+          "en": "Increased demand for energy strains the national grid.",
+          "vi": "Nhu cầu gia tăng về năng lượng gây áp lực lên lưới điện quốc gia."
+        }
+      ]
+    },
+    {
+      "english": "increased importance",
+      "vietnamese": "tầm quan trọng gia tăng",
+      "ipa": "/ɪnˈkriːst ɪmˈpɔːrtəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The increased importance of data has reshaped modern business.",
+          "vi": "Tầm quan trọng gia tăng của dữ liệu đã định hình lại kinh doanh hiện đại."
+        },
+        {
+          "en": "Researchers note the increased importance of soft skills.",
+          "vi": "Các nhà nghiên cứu lưu ý tầm quan trọng gia tăng của kỹ năng mềm."
+        },
+        {
+          "en": "Climate policy reflects the increased importance of sustainability.",
+          "vi": "Chính sách khí hậu phản ánh tầm quan trọng gia tăng của tính bền vững."
+        }
+      ]
+    },
+    {
+      "english": "increased interest",
+      "vietnamese": "sự quan tâm gia tăng",
+      "ipa": "/ɪnˈkriːst ˈɪntrəst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is increased interest in learning languages online.",
+          "vi": "Có sự quan tâm gia tăng đến việc học ngôn ngữ trực tuyến."
+        },
+        {
+          "en": "The museum saw increased interest after the new exhibit opened.",
+          "vi": "Bảo tàng có sự quan tâm gia tăng sau khi mở triển lãm mới."
+        },
+        {
+          "en": "Increased interest in healthy food boosted organic sales.",
+          "vi": "Sự quan tâm gia tăng đến thực phẩm lành mạnh thúc đẩy doanh số hữu cơ."
+        }
+      ]
+    },
+    {
+      "english": "increased level",
+      "vietnamese": "mức độ gia tăng",
+      "ipa": "/ɪnˈkriːst ˈlevəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Doctors observed an increased level of stress among students.",
+          "vi": "Bác sĩ ghi nhận mức độ căng thẳng gia tăng ở học sinh."
+        },
+        {
+          "en": "An increased level of activity improves overall fitness.",
+          "vi": "Mức độ vận động gia tăng cải thiện thể lực tổng thể."
+        },
+        {
+          "en": "The report shows an increased level of public spending.",
+          "vi": "Báo cáo cho thấy mức độ chi tiêu công gia tăng."
+        }
+      ]
+    },
+    {
+      "english": "increased number",
+      "vietnamese": "số lượng gia tăng",
+      "ipa": "/ɪnˈkriːst ˈnʌmbər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An increased number of students enrolled in online courses.",
+          "vi": "Số lượng học sinh đăng ký khóa học trực tuyến gia tăng."
+        },
+        {
+          "en": "The city recorded an increased number of cycling commuters.",
+          "vi": "Thành phố ghi nhận số lượng người đi xe đạp gia tăng."
+        },
+        {
+          "en": "An increased number of firms now offer remote work.",
+          "vi": "Số lượng công ty cung cấp làm việc từ xa hiện đã gia tăng."
+        }
+      ]
+    },
+    {
+      "english": "increased pressure",
+      "vietnamese": "áp lực gia tăng",
+      "ipa": "/ɪnˈkriːst ˈpreʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Increased pressure at work left many employees exhausted.",
+          "vi": "Áp lực gia tăng tại nơi làm việc khiến nhiều nhân viên kiệt sức."
+        },
+        {
+          "en": "Farmers face increased pressure from changing weather patterns.",
+          "vi": "Nông dân đối mặt áp lực gia tăng từ thời tiết thay đổi."
+        },
+        {
+          "en": "Increased pressure on resources demands smarter planning.",
+          "vi": "Áp lực gia tăng lên tài nguyên đòi hỏi lập kế hoạch thông minh hơn."
+        }
+      ]
+    },
+    {
+      "english": "increased production",
+      "vietnamese": "sản lượng gia tăng",
+      "ipa": "/ɪnˈkriːst prəˈdʌkʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Increased production helped the company meet rising demand.",
+          "vi": "Sản lượng gia tăng giúp công ty đáp ứng nhu cầu tăng cao."
+        },
+        {
+          "en": "New machines allowed increased production at the plant.",
+          "vi": "Máy móc mới cho phép sản lượng gia tăng tại nhà máy."
+        },
+        {
+          "en": "Increased production of solar panels lowered their cost.",
+          "vi": "Sản lượng gia tăng của tấm pin mặt trời làm giảm giá thành."
+        }
+      ]
+    },
+    {
+      "english": "increased productivity",
+      "vietnamese": "năng suất gia tăng",
+      "ipa": "/ɪnˈkriːst ˌproʊdʌkˈtɪvəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Flexible hours led to increased productivity among staff.",
+          "vi": "Giờ làm linh hoạt dẫn đến năng suất gia tăng của nhân viên."
+        },
+        {
+          "en": "Better tools resulted in increased productivity for the team.",
+          "vi": "Công cụ tốt hơn mang lại năng suất gia tăng cho cả đội."
+        },
+        {
+          "en": "Training programs are linked to increased productivity overall.",
+          "vi": "Các chương trình đào tạo gắn liền với năng suất gia tăng nói chung."
+        }
+      ]
+    },
+    {
+      "english": "increased risk",
+      "vietnamese": "nguy cơ gia tăng",
+      "ipa": "/ɪnˈkriːst rɪsk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Smoking is linked to an increased risk of heart disease.",
+          "vi": "Hút thuốc gắn liền với nguy cơ gia tăng mắc bệnh tim."
+        },
+        {
+          "en": "Poor diet brings an increased risk of long-term illness.",
+          "vi": "Chế độ ăn kém mang lại nguy cơ gia tăng mắc bệnh lâu dài."
+        },
+        {
+          "en": "Climate change creates an increased risk of severe floods.",
+          "vi": "Biến đổi khí hậu tạo ra nguy cơ gia tăng về lũ lụt nghiêm trọng."
+        }
+      ]
+    },
+    {
+      "english": "increasing awareness",
+      "vietnamese": "nhận thức ngày càng tăng",
+      "ipa": "/ɪnˈkriːsɪŋ əˈwernəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is increasing awareness of the dangers of plastic.",
+          "vi": "Có nhận thức ngày càng tăng về mối nguy của nhựa."
+        },
+        {
+          "en": "Increasing awareness of nutrition has changed eating habits.",
+          "vi": "Nhận thức ngày càng tăng về dinh dưỡng đã thay đổi thói quen ăn uống."
+        },
+        {
+          "en": "The media plays a role in increasing awareness of disease.",
+          "vi": "Truyền thông góp phần làm nhận thức về bệnh tật ngày càng tăng."
+        }
+      ]
+    },
+    {
+      "english": "increasing complexity",
+      "vietnamese": "sự phức tạp ngày càng tăng",
+      "ipa": "/ɪnˈkriːsɪŋ kəmˈpleksəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The increasing complexity of software makes testing harder.",
+          "vi": "Sự phức tạp ngày càng tăng của phần mềm khiến kiểm thử khó hơn."
+        },
+        {
+          "en": "Global trade reflects the increasing complexity of economies.",
+          "vi": "Thương mại toàn cầu phản ánh sự phức tạp ngày càng tăng của các nền kinh tế."
+        },
+        {
+          "en": "Students struggle with the increasing complexity of the syllabus.",
+          "vi": "Học sinh vật lộn với sự phức tạp ngày càng tăng của chương trình học."
+        }
+      ]
+    },
+    {
+      "english": "increasing demand",
+      "vietnamese": "nhu cầu ngày càng tăng",
+      "ipa": "/ɪnˈkriːsɪŋ dɪˈmænd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Increasing demand for electric cars is reshaping the industry.",
+          "vi": "Nhu cầu ngày càng tăng về xe điện đang định hình lại ngành."
+        },
+        {
+          "en": "Hospitals face increasing demand for skilled nurses.",
+          "vi": "Bệnh viện đối mặt nhu cầu ngày càng tăng về y tá lành nghề."
+        },
+        {
+          "en": "Increasing demand for clean water threatens scarce supplies.",
+          "vi": "Nhu cầu ngày càng tăng về nước sạch đe dọa nguồn cung khan hiếm."
+        }
+      ]
+    },
+    {
+      "english": "increasing emphasis",
+      "vietnamese": "sự nhấn mạnh ngày càng tăng",
+      "ipa": "/ɪnˈkriːsɪŋ ˈemfəsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is increasing emphasis on practical skills in schools.",
+          "vi": "Có sự nhấn mạnh ngày càng tăng vào kỹ năng thực hành trong trường học."
+        },
+        {
+          "en": "Companies place increasing emphasis on customer satisfaction.",
+          "vi": "Các công ty ngày càng nhấn mạnh vào sự hài lòng của khách hàng."
+        },
+        {
+          "en": "The increasing emphasis on data drives many new policies.",
+          "vi": "Sự nhấn mạnh ngày càng tăng vào dữ liệu thúc đẩy nhiều chính sách mới."
+        }
+      ]
+    },
+    {
+      "english": "increasing importance",
+      "vietnamese": "tầm quan trọng ngày càng tăng",
+      "ipa": "/ɪnˈkriːsɪŋ ɪmˈpɔːrtəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The increasing importance of English shapes career choices.",
+          "vi": "Tầm quan trọng ngày càng tăng của tiếng Anh định hình lựa chọn nghề nghiệp."
+        },
+        {
+          "en": "Educators stress the increasing importance of digital literacy.",
+          "vi": "Nhà giáo dục nhấn mạnh tầm quan trọng ngày càng tăng của hiểu biết số."
+        },
+        {
+          "en": "Reports highlight the increasing importance of renewable energy.",
+          "vi": "Các báo cáo nêu bật tầm quan trọng ngày càng tăng của năng lượng tái tạo."
+        }
+      ]
+    },
+    {
+      "english": "increasing interest",
+      "vietnamese": "sự quan tâm ngày càng tăng",
+      "ipa": "/ɪnˈkriːsɪŋ ˈɪntrəst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is increasing interest in studying abroad among teenagers.",
+          "vi": "Có sự quan tâm ngày càng tăng đến du học trong giới thanh thiếu niên."
+        },
+        {
+          "en": "Scientists show increasing interest in deep-sea exploration.",
+          "vi": "Các nhà khoa học ngày càng quan tâm đến khám phá biển sâu."
+        },
+        {
+          "en": "Increasing interest in vegan food expanded the menu options.",
+          "vi": "Sự quan tâm ngày càng tăng đến đồ ăn thuần chay mở rộng thực đơn."
+        }
+      ]
+    },
+    {
+      "english": "increasing pressure",
+      "vietnamese": "áp lực ngày càng tăng",
+      "ipa": "/ɪnˈkriːsɪŋ ˈpreʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Teachers face increasing pressure to improve exam results.",
+          "vi": "Giáo viên đối mặt áp lực ngày càng tăng để cải thiện kết quả thi."
+        },
+        {
+          "en": "Increasing pressure on the budget forced difficult cuts.",
+          "vi": "Áp lực ngày càng tăng lên ngân sách buộc phải cắt giảm khó khăn."
+        },
+        {
+          "en": "Athletes work under increasing pressure to break records.",
+          "vi": "Vận động viên làm việc dưới áp lực ngày càng tăng để phá kỷ lục."
+        }
+      ]
+    },
+    {
+      "english": "increasing proportion of",
+      "vietnamese": "tỷ lệ ngày càng tăng của",
+      "ipa": "/ɪnˈkriːsɪŋ prəˈpɔːrʃən əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An increasing proportion of workers now telecommute from home.",
+          "vi": "Một tỷ lệ ngày càng tăng của người lao động nay làm việc từ xa tại nhà."
+        },
+        {
+          "en": "An increasing proportion of energy comes from renewable sources.",
+          "vi": "Một tỷ lệ ngày càng tăng của năng lượng đến từ nguồn tái tạo."
+        },
+        {
+          "en": "An increasing proportion of students choose science subjects.",
+          "vi": "Một tỷ lệ ngày càng tăng của học sinh chọn các môn khoa học."
+        }
+      ]
+    },
+    {
+      "english": "increasing tendency",
+      "vietnamese": "xu hướng ngày càng tăng",
+      "ipa": "/ɪnˈkriːsɪŋ ˈtendənsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is an increasing tendency to shop entirely online.",
+          "vi": "Có một xu hướng ngày càng tăng là mua sắm hoàn toàn trực tuyến."
+        },
+        {
+          "en": "Researchers note an increasing tendency toward remote learning.",
+          "vi": "Các nhà nghiên cứu lưu ý xu hướng ngày càng tăng hướng tới học từ xa."
+        },
+        {
+          "en": "An increasing tendency to delay marriage is widely observed.",
+          "vi": "Xu hướng ngày càng tăng là trì hoãn kết hôn được ghi nhận rộng rãi."
+        }
+      ]
+    },
+    {
+      "english": "increasing trend",
+      "vietnamese": "xu thế ngày càng tăng",
+      "ipa": "/ɪnˈkriːsɪŋ trend/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The data reveals an increasing trend in global temperatures.",
+          "vi": "Dữ liệu cho thấy một xu thế ngày càng tăng của nhiệt độ toàn cầu."
+        },
+        {
+          "en": "There is an increasing trend toward plant-based diets.",
+          "vi": "Có một xu thế ngày càng tăng hướng tới chế độ ăn từ thực vật."
+        },
+        {
+          "en": "Analysts highlight an increasing trend in online payments.",
+          "vi": "Các nhà phân tích nêu bật xu thế ngày càng tăng của thanh toán trực tuyến."
+        }
+      ]
+    },
+    {
+      "english": "increasingly aware",
+      "vietnamese": "ngày càng nhận thức rõ",
+      "ipa": "/ɪnˈkriːsɪŋli əˈwer/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Consumers are increasingly aware of the products they buy.",
+          "vi": "Người tiêu dùng ngày càng nhận thức rõ về sản phẩm họ mua."
+        },
+        {
+          "en": "Citizens have become increasingly aware of their legal rights.",
+          "vi": "Người dân ngày càng nhận thức rõ về quyền pháp lý của mình."
+        },
+        {
+          "en": "Companies are increasingly aware of their environmental impact.",
+          "vi": "Các công ty ngày càng nhận thức rõ về tác động môi trường của họ."
+        }
+      ]
+    },
+    {
+      "english": "increasingly common",
+      "vietnamese": "ngày càng phổ biến",
+      "ipa": "/ɪnˈkriːsɪŋli ˈkɑːmən/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Remote work has become increasingly common in recent years.",
+          "vi": "Làm việc từ xa đã trở nên ngày càng phổ biến trong những năm gần đây."
+        },
+        {
+          "en": "Electric vehicles are increasingly common on city streets.",
+          "vi": "Xe điện ngày càng phổ biến trên đường phố thành phố."
+        },
+        {
+          "en": "Online courses are increasingly common at most universities.",
+          "vi": "Khóa học trực tuyến ngày càng phổ biến tại hầu hết các trường đại học."
+        }
+      ]
+    },
+    {
+      "english": "increasingly complex",
+      "vietnamese": "ngày càng phức tạp",
+      "ipa": "/ɪnˈkriːsɪŋli kəmˈpleks/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Modern supply chains have grown increasingly complex worldwide.",
+          "vi": "Chuỗi cung ứng hiện đại đã trở nên ngày càng phức tạp trên toàn cầu."
+        },
+        {
+          "en": "The legal system can seem increasingly complex to ordinary people.",
+          "vi": "Hệ thống pháp luật có thể trở nên ngày càng phức tạp với người thường."
+        },
+        {
+          "en": "Software architecture becomes increasingly complex as it grows.",
+          "vi": "Kiến trúc phần mềm trở nên ngày càng phức tạp khi mở rộng."
+        }
+      ]
+    },
+    {
+      "english": "increasingly difficult",
+      "vietnamese": "ngày càng khó khăn",
+      "ipa": "/ɪnˈkriːsɪŋli ˈdɪfɪkəlt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "It is increasingly difficult to find affordable housing nearby.",
+          "vi": "Ngày càng khó khăn để tìm nhà ở giá phải chăng gần đây."
+        },
+        {
+          "en": "Saving money becomes increasingly difficult as prices rise.",
+          "vi": "Việc tiết kiệm tiền trở nên ngày càng khó khăn khi giá tăng."
+        },
+        {
+          "en": "Maintaining focus is increasingly difficult with constant notifications.",
+          "vi": "Việc giữ tập trung ngày càng khó khăn với thông báo liên tục."
+        }
+      ]
+    },
+    {
+      "english": "increasingly important",
+      "vietnamese": "ngày càng quan trọng",
+      "ipa": "/ɪnˈkriːsɪŋli ɪmˈpɔːrtənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Digital skills are increasingly important in the job market.",
+          "vi": "Kỹ năng số ngày càng quan trọng trong thị trường lao động."
+        },
+        {
+          "en": "Sustainability has become increasingly important to investors.",
+          "vi": "Tính bền vững đã trở nên ngày càng quan trọng với nhà đầu tư."
+        },
+        {
+          "en": "Teamwork is increasingly important in research projects.",
+          "vi": "Làm việc nhóm ngày càng quan trọng trong các dự án nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "increasingly popular",
+      "vietnamese": "ngày càng được ưa chuộng",
+      "ipa": "/ɪnˈkriːsɪŋli ˈpɑːpjələr/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Cycling has become increasingly popular among young commuters.",
+          "vi": "Đi xe đạp ngày càng được ưa chuộng trong giới đi làm trẻ tuổi."
+        },
+        {
+          "en": "Plant-based meals are increasingly popular in restaurants.",
+          "vi": "Bữa ăn từ thực vật ngày càng được ưa chuộng tại nhà hàng."
+        },
+        {
+          "en": "Podcasts are increasingly popular as a way to learn.",
+          "vi": "Podcast ngày càng được ưa chuộng như một cách để học."
+        }
+      ]
+    },
+    {
+      "english": "increasingly sophisticated",
+      "vietnamese": "ngày càng tinh vi",
+      "ipa": "/ɪnˈkriːsɪŋli səˈfɪstɪˌkeɪtɪd/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Cyberattacks are becoming increasingly sophisticated each year.",
+          "vi": "Các cuộc tấn công mạng ngày càng tinh vi qua từng năm."
+        },
+        {
+          "en": "Marketing tools have grown increasingly sophisticated recently.",
+          "vi": "Công cụ tiếp thị đã trở nên ngày càng tinh vi gần đây."
+        },
+        {
+          "en": "Modern robots are increasingly sophisticated and highly precise.",
+          "vi": "Robot hiện đại ngày càng tinh vi và rất chính xác."
+        }
+      ]
+    },
+    {
+      "english": "independent state",
+      "vietnamese": "nhà nước độc lập",
+      "ipa": "/ˌɪndɪˈpendənt steɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The colony fought for years to become an independent state.",
+          "vi": "Thuộc địa đã đấu tranh nhiều năm để trở thành một nhà nước độc lập."
+        },
+        {
+          "en": "An independent state controls its own foreign policy.",
+          "vi": "Một nhà nước độc lập kiểm soát chính sách đối ngoại của mình."
+        },
+        {
+          "en": "The treaty recognized the region as an independent state.",
+          "vi": "Hiệp ước công nhận khu vực là một nhà nước độc lập."
+        }
+      ]
+    },
+    {
+      "english": "independent variable",
+      "vietnamese": "biến độc lập",
+      "ipa": "/ˌɪndɪˈpendənt ˈveriəbəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In the experiment, temperature was the independent variable.",
+          "vi": "Trong thí nghiệm, nhiệt độ là biến độc lập."
+        },
+        {
+          "en": "Researchers change the independent variable to test its effect.",
+          "vi": "Các nhà nghiên cứu thay đổi biến độc lập để kiểm tra ảnh hưởng của nó."
+        },
+        {
+          "en": "The independent variable here is the amount of sleep.",
+          "vi": "Biến độc lập ở đây là lượng giấc ngủ."
+        }
+      ]
+    },
+    {
+      "english": "indigenous people",
+      "vietnamese": "người bản địa",
+      "ipa": "/ɪnˈdɪdʒənəs ˈpiːpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Indigenous people have lived on this land for centuries.",
+          "vi": "Người bản địa đã sống trên vùng đất này nhiều thế kỷ."
+        },
+        {
+          "en": "The museum honors the traditions of indigenous people.",
+          "vi": "Bảo tàng tôn vinh truyền thống của người bản địa."
+        },
+        {
+          "en": "Many indigenous people protect ancient forests carefully.",
+          "vi": "Nhiều người bản địa bảo vệ những khu rừng cổ một cách cẩn thận."
+        }
+      ]
+    },
+    {
+      "english": "indigenous population",
+      "vietnamese": "dân số bản địa",
+      "ipa": "/ɪnˈdɪdʒənəs ˌpɑːpjəˈleɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The indigenous population declined sharply after colonization.",
+          "vi": "Dân số bản địa giảm mạnh sau quá trình thực dân hóa."
+        },
+        {
+          "en": "Researchers studied the health of the indigenous population.",
+          "vi": "Các nhà nghiên cứu nghiên cứu sức khỏe của dân số bản địa."
+        },
+        {
+          "en": "The indigenous population maintains its own distinct language.",
+          "vi": "Dân số bản địa duy trì ngôn ngữ riêng biệt của mình."
+        }
+      ]
+    },
+    {
+      "english": "individual behavior",
+      "vietnamese": "hành vi cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl bɪˈheɪvjər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Psychologists study how culture shapes individual behavior.",
+          "vi": "Nhà tâm lý học nghiên cứu cách văn hóa định hình hành vi cá nhân."
+        },
+        {
+          "en": "Individual behavior can change dramatically under group pressure.",
+          "vi": "Hành vi cá nhân có thể thay đổi mạnh dưới áp lực nhóm."
+        },
+        {
+          "en": "The survey measured individual behavior toward saving money.",
+          "vi": "Khảo sát đo lường hành vi cá nhân đối với việc tiết kiệm tiền."
+        }
+      ]
+    },
+    {
+      "english": "individual case",
+      "vietnamese": "trường hợp riêng lẻ",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl keɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each individual case must be reviewed on its own merits.",
+          "vi": "Mỗi trường hợp riêng lẻ phải được xem xét theo giá trị của nó."
+        },
+        {
+          "en": "The doctor examined every individual case very carefully.",
+          "vi": "Bác sĩ kiểm tra từng trường hợp riêng lẻ rất cẩn thận."
+        },
+        {
+          "en": "Outcomes vary widely from one individual case to another.",
+          "vi": "Kết quả thay đổi rất nhiều từ trường hợp riêng lẻ này sang trường hợp khác."
+        }
+      ]
+    },
+    {
+      "english": "individual characteristics",
+      "vietnamese": "đặc điểm cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˌkerəktəˈrɪstɪks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Teachers should consider the individual characteristics of students.",
+          "vi": "Giáo viên nên xem xét đặc điểm cá nhân của học sinh."
+        },
+        {
+          "en": "The study compared individual characteristics across two groups.",
+          "vi": "Nghiên cứu so sánh đặc điểm cá nhân giữa hai nhóm."
+        },
+        {
+          "en": "Individual characteristics influence how people respond to stress.",
+          "vi": "Đặc điểm cá nhân ảnh hưởng đến cách người ta phản ứng với căng thẳng."
+        }
+      ]
+    },
+    {
+      "english": "individual choice",
+      "vietnamese": "lựa chọn cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl tʃɔɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Voting is an individual choice protected by the constitution.",
+          "vi": "Bỏ phiếu là một lựa chọn cá nhân được hiến pháp bảo vệ."
+        },
+        {
+          "en": "The policy respects individual choice in healthcare decisions.",
+          "vi": "Chính sách tôn trọng lựa chọn cá nhân trong các quyết định y tế."
+        },
+        {
+          "en": "Diet is ultimately a matter of individual choice.",
+          "vi": "Chế độ ăn rốt cuộc là vấn đề của lựa chọn cá nhân."
+        }
+      ]
+    },
+    {
+      "english": "individual component",
+      "vietnamese": "thành phần riêng lẻ",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl kəmˈpoʊnənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Engineers tested each individual component before assembly.",
+          "vi": "Kỹ sư kiểm tra từng thành phần riêng lẻ trước khi lắp ráp."
+        },
+        {
+          "en": "Every individual component of the engine was replaced.",
+          "vi": "Mỗi thành phần riêng lẻ của động cơ đã được thay thế."
+        },
+        {
+          "en": "The report breaks the system into each individual component.",
+          "vi": "Báo cáo chia hệ thống thành từng thành phần riêng lẻ."
+        }
+      ]
+    },
+    {
+      "english": "individual differences",
+      "vietnamese": "sự khác biệt cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˈdɪfərənsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study highlights individual differences in learning speed.",
+          "vi": "Nghiên cứu nêu bật sự khác biệt cá nhân về tốc độ học."
+        },
+        {
+          "en": "Individual differences make a one-size-fits-all approach unwise.",
+          "vi": "Sự khác biệt cá nhân khiến cách tiếp cận chung cho mọi người là không khôn ngoan."
+        },
+        {
+          "en": "Teachers must respect individual differences among their students.",
+          "vi": "Giáo viên phải tôn trọng sự khác biệt cá nhân giữa học sinh."
+        }
+      ]
+    },
+    {
+      "english": "individual element",
+      "vietnamese": "yếu tố riêng lẻ",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˈeləmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each individual element of the design serves a clear purpose.",
+          "vi": "Mỗi yếu tố riêng lẻ của thiết kế phục vụ một mục đích rõ ràng."
+        },
+        {
+          "en": "Analysts examined every individual element of the contract.",
+          "vi": "Các nhà phân tích xem xét từng yếu tố riêng lẻ của hợp đồng."
+        },
+        {
+          "en": "Removing one individual element changed the whole result.",
+          "vi": "Loại bỏ một yếu tố riêng lẻ đã thay đổi toàn bộ kết quả."
+        }
+      ]
+    },
+    {
+      "english": "individual experience",
+      "vietnamese": "trải nghiệm cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ɪkˈspɪriəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every learner brings a unique individual experience to class.",
+          "vi": "Mỗi người học mang một trải nghiệm cá nhân riêng vào lớp."
+        },
+        {
+          "en": "The book draws on the author's individual experience abroad.",
+          "vi": "Cuốn sách dựa trên trải nghiệm cá nhân của tác giả ở nước ngoài."
+        },
+        {
+          "en": "Individual experience strongly shapes how we view the world.",
+          "vi": "Trải nghiệm cá nhân định hình mạnh mẽ cách chúng ta nhìn thế giới."
+        }
+      ]
+    },
+    {
+      "english": "individual interests",
+      "vietnamese": "lợi ích cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˈɪntrəsts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Good leaders balance individual interests with the common good.",
+          "vi": "Lãnh đạo giỏi cân bằng lợi ích cá nhân với lợi ích chung."
+        },
+        {
+          "en": "Sometimes individual interests conflict with team goals.",
+          "vi": "Đôi khi lợi ích cá nhân xung đột với mục tiêu của nhóm."
+        },
+        {
+          "en": "The policy tries to protect individual interests fairly.",
+          "vi": "Chính sách cố gắng bảo vệ lợi ích cá nhân một cách công bằng."
+        }
+      ]
+    },
+    {
+      "english": "individual item",
+      "vietnamese": "món đồ riêng lẻ",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˈaɪtəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The cashier scanned each individual item at the register.",
+          "vi": "Nhân viên thu ngân quét từng món đồ riêng lẻ tại quầy."
+        },
+        {
+          "en": "Every individual item in the collection was carefully labeled.",
+          "vi": "Mỗi món đồ riêng lẻ trong bộ sưu tập được dán nhãn cẩn thận."
+        },
+        {
+          "en": "The price of each individual item is listed clearly.",
+          "vi": "Giá của từng món đồ riêng lẻ được niêm yết rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "individual needs",
+      "vietnamese": "nhu cầu cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl niːdz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The program is designed around each student's individual needs.",
+          "vi": "Chương trình được thiết kế quanh nhu cầu cá nhân của mỗi học sinh."
+        },
+        {
+          "en": "Good care must respond to the individual needs of patients.",
+          "vi": "Chăm sóc tốt phải đáp ứng nhu cầu cá nhân của bệnh nhân."
+        },
+        {
+          "en": "Teachers adapt their lessons to meet individual needs.",
+          "vi": "Giáo viên điều chỉnh bài giảng để đáp ứng nhu cầu cá nhân."
+        }
+      ]
+    },
+    {
+      "english": "individual response",
+      "vietnamese": "phản ứng cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl rɪˈspɑːns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The drug's individual response varies from person to person.",
+          "vi": "Phản ứng cá nhân với thuốc thay đổi tùy từng người."
+        },
+        {
+          "en": "Researchers recorded each individual response to the survey.",
+          "vi": "Các nhà nghiên cứu ghi lại từng phản ứng cá nhân với khảo sát."
+        },
+        {
+          "en": "Individual response to therapy can be hard to predict.",
+          "vi": "Phản ứng cá nhân với liệu pháp có thể khó dự đoán."
+        }
+      ]
+    },
+    {
+      "english": "individual responsibility",
+      "vietnamese": "trách nhiệm cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl rɪˌspɑːnsəˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Recycling depends partly on individual responsibility at home.",
+          "vi": "Việc tái chế phụ thuộc một phần vào trách nhiệm cá nhân ở nhà."
+        },
+        {
+          "en": "The campaign stresses individual responsibility for public health.",
+          "vi": "Chiến dịch nhấn mạnh trách nhiệm cá nhân đối với sức khỏe cộng đồng."
+        },
+        {
+          "en": "Safe driving is a matter of individual responsibility.",
+          "vi": "Lái xe an toàn là vấn đề của trách nhiệm cá nhân."
+        }
+      ]
+    },
+    {
+      "english": "individual rights",
+      "vietnamese": "quyền cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl raɪts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The constitution protects the individual rights of citizens.",
+          "vi": "Hiến pháp bảo vệ quyền cá nhân của công dân."
+        },
+        {
+          "en": "Courts must balance individual rights against public safety.",
+          "vi": "Tòa án phải cân bằng quyền cá nhân với an toàn công cộng."
+        },
+        {
+          "en": "Freedom of speech is a fundamental individual right.",
+          "vi": "Tự do ngôn luận là một quyền cá nhân cơ bản."
+        }
+      ]
+    },
+    {
+      "english": "individual variable",
+      "vietnamese": "biến số cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˈveriəbəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The model adjusts for each individual variable in the dataset.",
+          "vi": "Mô hình điều chỉnh cho từng biến số cá nhân trong bộ dữ liệu."
+        },
+        {
+          "en": "Analysts tested how each individual variable affects the result.",
+          "vi": "Các nhà phân tích kiểm tra cách từng biến số cá nhân ảnh hưởng kết quả."
+        },
+        {
+          "en": "An individual variable may have little impact on its own.",
+          "vi": "Một biến số cá nhân có thể ít tác động khi đứng riêng."
+        }
+      ]
+    },
+    {
+      "english": "individual variation",
+      "vietnamese": "sự biến thiên cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˌveriˈeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is wide individual variation in how people learn.",
+          "vi": "Có sự biến thiên cá nhân lớn về cách người ta học."
+        },
+        {
+          "en": "Individual variation in metabolism affects weight loss results.",
+          "vi": "Sự biến thiên cá nhân về trao đổi chất ảnh hưởng kết quả giảm cân."
+        },
+        {
+          "en": "The data showed considerable individual variation in scores.",
+          "vi": "Dữ liệu cho thấy sự biến thiên cá nhân đáng kể về điểm số."
+        }
+      ]
+    },
+    {
+      "english": "industrial capitalism",
+      "vietnamese": "chủ nghĩa tư bản công nghiệp",
+      "ipa": "/ɪnˈdʌstriəl ˈkæpɪtəlɪzəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Industrial capitalism transformed cities during the nineteenth century.",
+          "vi": "Chủ nghĩa tư bản công nghiệp biến đổi các thành phố trong thế kỷ mười chín."
+        },
+        {
+          "en": "Factories were central to the rise of industrial capitalism.",
+          "vi": "Nhà máy là trung tâm của sự trỗi dậy của chủ nghĩa tư bản công nghiệp."
+        },
+        {
+          "en": "Historians debate the social cost of industrial capitalism.",
+          "vi": "Các sử gia tranh luận về cái giá xã hội của chủ nghĩa tư bản công nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "industrial country",
+      "vietnamese": "quốc gia công nghiệp",
+      "ipa": "/ɪnˈdʌstriəl ˈkʌntri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An industrial country relies heavily on manufacturing for income.",
+          "vi": "Một quốc gia công nghiệp phụ thuộc nhiều vào sản xuất để có thu nhập."
+        },
+        {
+          "en": "Pollution remains a serious problem in many industrial countries.",
+          "vi": "Ô nhiễm vẫn là vấn đề nghiêm trọng ở nhiều quốc gia công nghiệp."
+        },
+        {
+          "en": "An industrial country usually has a large skilled workforce.",
+          "vi": "Một quốc gia công nghiệp thường có lực lượng lao động lành nghề lớn."
+        }
+      ]
+    },
+    {
+      "english": "industrial development",
+      "vietnamese": "phát triển công nghiệp",
+      "ipa": "/ɪnˈdʌstriəl dɪˈveləpmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Industrial development brought new jobs to the rural region.",
+          "vi": "Phát triển công nghiệp mang lại việc làm mới cho vùng nông thôn."
+        },
+        {
+          "en": "Rapid industrial development can harm the local environment.",
+          "vi": "Phát triển công nghiệp nhanh có thể gây hại cho môi trường địa phương."
+        },
+        {
+          "en": "The government invested heavily in industrial development.",
+          "vi": "Chính phủ đầu tư mạnh vào phát triển công nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "industrial production",
+      "vietnamese": "sản xuất công nghiệp",
+      "ipa": "/ɪnˈdʌstriəl prəˈdʌkʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Industrial production rose sharply after the new factory opened.",
+          "vi": "Sản xuất công nghiệp tăng mạnh sau khi nhà máy mới mở."
+        },
+        {
+          "en": "The recession caused industrial production to fall steeply.",
+          "vi": "Suy thoái khiến sản xuất công nghiệp giảm mạnh."
+        },
+        {
+          "en": "Automation has greatly increased industrial production efficiency.",
+          "vi": "Tự động hóa đã tăng đáng kể hiệu quả sản xuất công nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "industrial society",
+      "vietnamese": "xã hội công nghiệp",
+      "ipa": "/ɪnˈdʌstriəl səˈsaɪəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An industrial society depends on machines and steady energy.",
+          "vi": "Một xã hội công nghiệp phụ thuộc vào máy móc và năng lượng ổn định."
+        },
+        {
+          "en": "Life in an industrial society changed family structures greatly.",
+          "vi": "Cuộc sống trong xã hội công nghiệp thay đổi cấu trúc gia đình rất nhiều."
+        },
+        {
+          "en": "Industrial society created both wealth and new inequalities.",
+          "vi": "Xã hội công nghiệp tạo ra cả sự giàu có lẫn bất bình đẳng mới."
+        }
+      ]
+    },
+    {
+      "english": "industrialized country",
+      "vietnamese": "quốc gia công nghiệp hóa",
+      "ipa": "/ɪnˈdʌstriəˌlaɪzd ˈkʌntri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An industrialized country often consumes vast amounts of energy.",
+          "vi": "Một quốc gia công nghiệp hóa thường tiêu thụ lượng năng lượng khổng lồ."
+        },
+        {
+          "en": "Many industrialized countries face an aging population.",
+          "vi": "Nhiều quốc gia công nghiệp hóa đối mặt với dân số già."
+        },
+        {
+          "en": "An industrialized country generally has advanced infrastructure.",
+          "vi": "Một quốc gia công nghiệp hóa nhìn chung có hạ tầng tiên tiến."
+        }
+      ]
+    },
+    {
+      "english": "industrialized nation",
+      "vietnamese": "quốc gia công nghiệp hóa",
+      "ipa": "/ɪnˈdʌstriəˌlaɪzd ˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An industrialized nation produces most goods within its borders.",
+          "vi": "Một quốc gia công nghiệp hóa sản xuất phần lớn hàng hóa trong biên giới."
+        },
+        {
+          "en": "Industrialized nations contribute heavily to global emissions.",
+          "vi": "Các quốc gia công nghiệp hóa đóng góp lớn vào khí thải toàn cầu."
+        },
+        {
+          "en": "An industrialized nation usually offers strong public services.",
+          "vi": "Một quốc gia công nghiệp hóa thường cung cấp dịch vụ công mạnh."
+        }
+      ]
+    },
+    {
+      "english": "increasingly linked to",
+      "vietnamese": "ngày càng gắn liền với",
+      "ipa": "/ɪnˈkriːsɪŋli lɪŋkt tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Poor sleep is increasingly linked to long-term health problems.",
+          "vi": "Giấc ngủ kém ngày càng gắn liền với các vấn đề sức khỏe lâu dài."
+        },
+        {
+          "en": "Success is increasingly linked to digital skills these days.",
+          "vi": "Thành công ngày nay ngày càng gắn liền với kỹ năng số."
+        },
+        {
+          "en": "Rising costs are increasingly linked to global supply issues.",
+          "vi": "Chi phí tăng ngày càng gắn liền với vấn đề cung ứng toàn cầu."
+        }
+      ]
+    },
+    {
+      "english": "infinite number",
+      "vietnamese": "vô số",
+      "ipa": "/ˈɪnfɪnət ˈnʌmbər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is an infinite number of points on a line.",
+          "vi": "Có vô số điểm trên một đường thẳng."
+        },
+        {
+          "en": "An infinite number of combinations is possible with the code.",
+          "vi": "Vô số tổ hợp có thể xảy ra với mã này."
+        },
+        {
+          "en": "The universe may contain an infinite number of stars.",
+          "vi": "Vũ trụ có thể chứa vô số ngôi sao."
+        }
+      ]
+    },
+    {
+      "english": "information flow",
+      "vietnamese": "luồng thông tin",
+      "ipa": "/ˌɪnfərˈmeɪʃən floʊ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "A clear information flow helps teams make better decisions.",
+          "vi": "Luồng thông tin rõ ràng giúp các nhóm ra quyết định tốt hơn."
+        },
+        {
+          "en": "The new system improved information flow between departments.",
+          "vi": "Hệ thống mới cải thiện luồng thông tin giữa các phòng ban."
+        },
+        {
+          "en": "Poor information flow often leads to costly mistakes.",
+          "vi": "Luồng thông tin kém thường dẫn đến những sai lầm tốn kém."
+        }
+      ]
+    },
+    {
+      "english": "information gathering",
+      "vietnamese": "việc thu thập thông tin",
+      "ipa": "/ˌɪnfərˈmeɪʃən ˈɡæðərɪŋ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Information gathering is the first stage of any research project.",
+          "vi": "Việc thu thập thông tin là giai đoạn đầu của mọi dự án nghiên cứu."
+        },
+        {
+          "en": "Careful information gathering reduces the risk of errors.",
+          "vi": "Việc thu thập thông tin cẩn thận giảm rủi ro sai sót."
+        },
+        {
+          "en": "Reporters spend much of their time on information gathering.",
+          "vi": "Phóng viên dành phần lớn thời gian cho việc thu thập thông tin."
+        }
+      ]
+    },
+    {
+      "english": "information processing",
+      "vietnamese": "việc xử lý thông tin",
+      "ipa": "/ˌɪnfərˈmeɪʃən ˈprɑːsesɪŋ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The brain is remarkably fast at information processing.",
+          "vi": "Bộ não xử lý thông tin nhanh một cách đáng kinh ngạc."
+        },
+        {
+          "en": "Computers excel at the rapid information processing of numbers.",
+          "vi": "Máy tính giỏi trong việc xử lý thông tin số liệu nhanh chóng."
+        },
+        {
+          "en": "Stress can slow down our everyday information processing.",
+          "vi": "Căng thẳng có thể làm chậm việc xử lý thông tin hằng ngày của ta."
+        }
+      ]
+    },
+    {
+      "english": "information retrieval",
+      "vietnamese": "việc truy xuất thông tin",
+      "ipa": "/ˌɪnfərˈmeɪʃən rɪˈtriːvəl/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Search engines made information retrieval fast and simple.",
+          "vi": "Công cụ tìm kiếm khiến việc truy xuất thông tin nhanh và đơn giản."
+        },
+        {
+          "en": "Good indexing improves information retrieval from large databases.",
+          "vi": "Lập chỉ mục tốt cải thiện việc truy xuất thông tin từ cơ sở dữ liệu lớn."
+        },
+        {
+          "en": "The library system streamlined information retrieval for students.",
+          "vi": "Hệ thống thư viện tinh giản việc truy xuất thông tin cho sinh viên."
+        }
+      ]
+    },
+    {
+      "english": "information sharing",
+      "vietnamese": "việc chia sẻ thông tin",
+      "ipa": "/ˌɪnfərˈmeɪʃən ˈʃerɪŋ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Information sharing between agencies improved the emergency response.",
+          "vi": "Việc chia sẻ thông tin giữa các cơ quan cải thiện ứng phó khẩn cấp."
+        },
+        {
+          "en": "Open information sharing builds trust within a team.",
+          "vi": "Việc chia sẻ thông tin cởi mở xây dựng niềm tin trong nhóm."
+        },
+        {
+          "en": "Privacy rules can limit information sharing across borders.",
+          "vi": "Quy định riêng tư có thể hạn chế việc chia sẻ thông tin xuyên biên giới."
+        }
+      ]
+    },
+    {
+      "english": "informed consent",
+      "vietnamese": "sự đồng ý có hiểu biết",
+      "ipa": "/ɪnˈfɔːrmd kənˈsent/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Doctors must obtain informed consent before any operation.",
+          "vi": "Bác sĩ phải có được sự đồng ý có hiểu biết trước mọi ca mổ."
+        },
+        {
+          "en": "Researchers require informed consent from every participant.",
+          "vi": "Các nhà nghiên cứu yêu cầu sự đồng ý có hiểu biết từ mỗi người tham gia."
+        },
+        {
+          "en": "Informed consent means the patient understands the risks involved.",
+          "vi": "Sự đồng ý có hiểu biết nghĩa là bệnh nhân hiểu các rủi ro liên quan."
+        }
+      ]
+    },
+    {
+      "english": "initial period",
+      "vietnamese": "giai đoạn ban đầu",
+      "ipa": "/ɪˈnɪʃəl ˈpɪriəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "During the initial period, sales grew slowly but steadily.",
+          "vi": "Trong giai đoạn ban đầu, doanh số tăng chậm nhưng đều."
+        },
+        {
+          "en": "The initial period of training is the most demanding.",
+          "vi": "Giai đoạn ban đầu của quá trình huấn luyện là khắt khe nhất."
+        },
+        {
+          "en": "After the initial period, the project gained strong momentum.",
+          "vi": "Sau giai đoạn ban đầu, dự án có được đà phát triển mạnh."
+        }
+      ]
+    },
+    {
+      "english": "initial phase",
+      "vietnamese": "pha ban đầu",
+      "ipa": "/ɪˈnɪʃəl feɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The initial phase of the study focused on collecting data.",
+          "vi": "Pha ban đầu của nghiên cứu tập trung vào thu thập dữ liệu."
+        },
+        {
+          "en": "Funding was secured during the initial phase of the plan.",
+          "vi": "Nguồn vốn được đảm bảo trong pha ban đầu của kế hoạch."
+        },
+        {
+          "en": "The initial phase of construction took almost six months.",
+          "vi": "Pha ban đầu của việc xây dựng mất gần sáu tháng."
+        }
+      ]
+    },
+    {
+      "english": "initial position",
+      "vietnamese": "vị trí ban đầu",
+      "ipa": "/ɪˈnɪʃəl pəˈzɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The runner returned to her initial position before the race.",
+          "vi": "Vận động viên trở về vị trí ban đầu của mình trước cuộc đua."
+        },
+        {
+          "en": "We measured the object's movement from its initial position.",
+          "vi": "Chúng tôi đo chuyển động của vật từ vị trí ban đầu của nó."
+        },
+        {
+          "en": "The negotiator softened from his initial position over time.",
+          "vi": "Người đàm phán dần nới lỏng từ vị trí ban đầu của mình."
+        }
+      ]
+    },
+    {
+      "english": "initial research",
+      "vietnamese": "nghiên cứu ban đầu",
+      "ipa": "/ɪˈnɪʃəl ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Initial research suggested the treatment was both safe and effective.",
+          "vi": "Nghiên cứu ban đầu cho thấy phương pháp điều trị vừa an toàn vừa hiệu quả."
+        },
+        {
+          "en": "The team published its initial research findings last spring.",
+          "vi": "Nhóm công bố kết quả nghiên cứu ban đầu vào mùa xuân năm ngoái."
+        },
+        {
+          "en": "Initial research often raises more questions than answers.",
+          "vi": "Nghiên cứu ban đầu thường đặt ra nhiều câu hỏi hơn là câu trả lời."
+        }
+      ]
+    },
+    {
+      "english": "initial stage",
+      "vietnamese": "giai đoạn đầu",
+      "ipa": "/ɪˈnɪʃəl steɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In the initial stage, the disease shows almost no symptoms.",
+          "vi": "Ở giai đoạn đầu, căn bệnh hầu như không có triệu chứng."
+        },
+        {
+          "en": "The initial stage of the plan involves gathering feedback.",
+          "vi": "Giai đoạn đầu của kế hoạch bao gồm thu thập phản hồi."
+        },
+        {
+          "en": "Mistakes made in the initial stage are costly to fix.",
+          "vi": "Sai lầm ở giai đoạn đầu rất tốn kém để sửa chữa."
+        }
+      ]
+    },
+    {
+      "english": "institutional arrangement",
+      "vietnamese": "sự sắp xếp về thể chế",
+      "ipa": "/ˌɪnstɪˈtuːʃənəl əˈreɪndʒmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A stable institutional arrangement supports long-term economic growth.",
+          "vi": "Một sự sắp xếp thể chế ổn định hỗ trợ tăng trưởng kinh tế dài hạn."
+        },
+        {
+          "en": "The reform changed the institutional arrangement of local government.",
+          "vi": "Cuộc cải cách thay đổi sự sắp xếp thể chế của chính quyền địa phương."
+        },
+        {
+          "en": "Researchers compared institutional arrangements across several countries.",
+          "vi": "Các nhà nghiên cứu so sánh sự sắp xếp thể chế giữa nhiều quốc gia."
+        }
+      ]
+    },
+    {
+      "english": "institutional context",
+      "vietnamese": "bối cảnh thể chế",
+      "ipa": "/ˌɪnstɪˈtuːʃənəl ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Policies must be understood within their institutional context.",
+          "vi": "Các chính sách phải được hiểu trong bối cảnh thể chế của chúng."
+        },
+        {
+          "en": "The institutional context shapes how reforms are carried out.",
+          "vi": "Bối cảnh thể chế định hình cách các cải cách được thực hiện."
+        },
+        {
+          "en": "Behavior differs greatly depending on the institutional context.",
+          "vi": "Hành vi khác nhau rất nhiều tùy theo bối cảnh thể chế."
+        }
+      ]
+    },
+    {
+      "english": "institutional framework",
+      "vietnamese": "khuôn khổ thể chế",
+      "ipa": "/ˌɪnstɪˈtuːʃənəl ˈfreɪmwɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A strong institutional framework is needed to enforce the new law.",
+          "vi": "Cần một khuôn khổ thể chế vững mạnh để thực thi luật mới."
+        },
+        {
+          "en": "The treaty established an institutional framework for cooperation.",
+          "vi": "Hiệp ước thiết lập một khuôn khổ thể chế cho hợp tác."
+        },
+        {
+          "en": "Without a clear institutional framework, reforms often fail.",
+          "vi": "Thiếu khuôn khổ thể chế rõ ràng, các cải cách thường thất bại."
+        }
+      ]
+    },
+    {
+      "english": "institutional structure",
+      "vietnamese": "cấu trúc thể chế",
+      "ipa": "/ˌɪnstɪˈtuːʃənəl ˈstrʌktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The institutional structure of the university is quite complex.",
+          "vi": "Cấu trúc thể chế của trường đại học khá phức tạp."
+        },
+        {
+          "en": "Reforms aim to simplify the existing institutional structure.",
+          "vi": "Các cải cách nhằm đơn giản hóa cấu trúc thể chế hiện có."
+        },
+        {
+          "en": "The institutional structure determines how decisions are made.",
+          "vi": "Cấu trúc thể chế quyết định cách các quyết định được đưa ra."
+        }
+      ]
+    },
+    {
+      "english": "institutional support",
+      "vietnamese": "sự hỗ trợ từ thể chế",
+      "ipa": "/ˌɪnstɪˈtuːʃənəl səˈpɔːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The project succeeded thanks to strong institutional support.",
+          "vi": "Dự án thành công nhờ sự hỗ trợ thể chế mạnh mẽ."
+        },
+        {
+          "en": "Students benefit from institutional support such as scholarships.",
+          "vi": "Sinh viên hưởng lợi từ sự hỗ trợ thể chế như học bổng."
+        },
+        {
+          "en": "Without institutional support, the initiative quickly collapsed.",
+          "vi": "Thiếu sự hỗ trợ thể chế, sáng kiến nhanh chóng sụp đổ."
+        }
+      ]
+    },
+    {
+      "english": "integral part",
+      "vietnamese": "bộ phận không thể thiếu",
+      "ipa": "/ˈɪntɪɡrəl pɑːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Music is an integral part of the school's daily routine.",
+          "vi": "Âm nhạc là một bộ phận không thể thiếu trong sinh hoạt hằng ngày của trường."
+        },
+        {
+          "en": "Feedback is an integral part of the learning process.",
+          "vi": "Phản hồi là một bộ phận không thể thiếu của quá trình học."
+        },
+        {
+          "en": "Trust is an integral part of any successful partnership.",
+          "vi": "Niềm tin là một bộ phận không thể thiếu của mọi quan hệ đối tác thành công."
+        }
+      ]
+    },
+    {
+      "english": "integrated approach",
+      "vietnamese": "cách tiếp cận tích hợp",
+      "ipa": "/ˈɪntɪˌɡreɪtɪd əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An integrated approach combines several methods into one plan.",
+          "vi": "Một cách tiếp cận tích hợp kết hợp nhiều phương pháp vào một kế hoạch."
+        },
+        {
+          "en": "The clinic uses an integrated approach to patient care.",
+          "vi": "Phòng khám dùng cách tiếp cận tích hợp trong chăm sóc bệnh nhân."
+        },
+        {
+          "en": "An integrated approach to teaching links theory with practice.",
+          "vi": "Cách tiếp cận tích hợp trong giảng dạy kết nối lý thuyết với thực hành."
+        }
+      ]
+    },
+    {
+      "english": "integrated system",
+      "vietnamese": "hệ thống tích hợp",
+      "ipa": "/ˈɪntɪˌɡreɪtɪd ˈsɪstəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company built an integrated system to manage all orders.",
+          "vi": "Công ty xây dựng một hệ thống tích hợp để quản lý mọi đơn hàng."
+        },
+        {
+          "en": "An integrated system connects billing, shipping, and support together.",
+          "vi": "Một hệ thống tích hợp kết nối thanh toán, vận chuyển và hỗ trợ với nhau."
+        },
+        {
+          "en": "The hospital introduced an integrated system for patient records.",
+          "vi": "Bệnh viện giới thiệu một hệ thống tích hợp cho hồ sơ bệnh nhân."
+        }
+      ]
+    },
+    {
+      "english": "intellectual property",
+      "vietnamese": "sở hữu trí tuệ",
+      "ipa": "/ˌɪntəˈlektʃuəl ˈprɑːpərti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Patents protect a company's valuable intellectual property.",
+          "vi": "Bằng sáng chế bảo vệ sở hữu trí tuệ quý giá của công ty."
+        },
+        {
+          "en": "Copying software without permission violates intellectual property rights.",
+          "vi": "Sao chép phần mềm không phép vi phạm quyền sở hữu trí tuệ."
+        },
+        {
+          "en": "Universities increasingly value the intellectual property they create.",
+          "vi": "Các trường đại học ngày càng coi trọng sở hữu trí tuệ mà họ tạo ra."
+        }
+      ]
+    }
+  ]
+}

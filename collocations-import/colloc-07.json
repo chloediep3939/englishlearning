@@ -1,0 +1,1673 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations (Pearson 2025)",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English.",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 2,468 collocations"
+  },
+  "cards": [
+    {
+      "english": "describe a procedure",
+      "vietnamese": "mô tả một quy trình",
+      "ipa": "/dɪˈskraɪb ə prəˈsiːdʒər/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The manual describes a procedure for installing the software safely.",
+          "vi": "Sách hướng dẫn mô tả quy trình cài đặt phần mềm một cách an toàn."
+        },
+        {
+          "en": "She clearly describes a procedure that any nurse can follow.",
+          "vi": "Cô ấy mô tả rõ ràng một quy trình mà bất kỳ y tá nào cũng làm theo được."
+        },
+        {
+          "en": "The paper describes a procedure used to collect the samples.",
+          "vi": "Bài báo mô tả quy trình được dùng để thu thập mẫu."
+        }
+      ]
+    },
+    {
+      "english": "descriptive statistics",
+      "vietnamese": "thống kê mô tả",
+      "ipa": "/dɪˈskrɪptɪv stəˈtɪstɪks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "We used descriptive statistics to summarize the survey results.",
+          "vi": "Chúng tôi dùng thống kê mô tả để tóm tắt kết quả khảo sát."
+        },
+        {
+          "en": "Descriptive statistics show the average score for each group.",
+          "vi": "Thống kê mô tả cho thấy điểm trung bình của từng nhóm."
+        },
+        {
+          "en": "The report begins with descriptive statistics before deeper analysis.",
+          "vi": "Báo cáo bắt đầu bằng thống kê mô tả trước khi phân tích sâu hơn."
+        }
+      ]
+    },
+    {
+      "english": "desired outcome",
+      "vietnamese": "kết quả mong muốn",
+      "ipa": "/dɪˈzaɪərd ˈaʊtkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new policy did not produce the desired outcome.",
+          "vi": "Chính sách mới đã không tạo ra kết quả mong muốn."
+        },
+        {
+          "en": "Careful planning helps you reach the desired outcome faster.",
+          "vi": "Lập kế hoạch kỹ giúp bạn đạt kết quả mong muốn nhanh hơn."
+        },
+        {
+          "en": "Teachers adjust their methods to achieve the desired outcome.",
+          "vi": "Giáo viên điều chỉnh phương pháp để đạt được kết quả mong muốn."
+        }
+      ]
+    },
+    {
+      "english": "detailed analysis",
+      "vietnamese": "phân tích chi tiết",
+      "ipa": "/ˈdiːteɪld əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The thesis provides a detailed analysis of consumer behavior.",
+          "vi": "Luận văn đưa ra phân tích chi tiết về hành vi người tiêu dùng."
+        },
+        {
+          "en": "A detailed analysis revealed several errors in the data.",
+          "vi": "Phân tích chi tiết đã phát hiện nhiều lỗi trong dữ liệu."
+        },
+        {
+          "en": "Investors expect a detailed analysis before making decisions.",
+          "vi": "Nhà đầu tư cần phân tích chi tiết trước khi ra quyết định."
+        }
+      ]
+    },
+    {
+      "english": "detailed examination",
+      "vietnamese": "sự khảo sát chi tiết",
+      "ipa": "/ˈdiːteɪld ɪɡˌzæməˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book offers a detailed examination of ancient trade routes.",
+          "vi": "Cuốn sách khảo sát chi tiết các tuyến đường thương mại cổ đại."
+        },
+        {
+          "en": "A detailed examination of the evidence supports her claim.",
+          "vi": "Việc khảo sát chi tiết bằng chứng ủng hộ lập luận của cô ấy."
+        },
+        {
+          "en": "The doctor recommended a detailed examination of the samples.",
+          "vi": "Bác sĩ đề nghị khảo sát chi tiết các mẫu."
+        }
+      ]
+    },
+    {
+      "english": "detailed information",
+      "vietnamese": "thông tin chi tiết",
+      "ipa": "/ˈdiːteɪld ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The website provides detailed information about each course.",
+          "vi": "Trang web cung cấp thông tin chi tiết về từng khóa học."
+        },
+        {
+          "en": "Please send detailed information about the conference schedule.",
+          "vi": "Vui lòng gửi thông tin chi tiết về lịch hội nghị."
+        },
+        {
+          "en": "Detailed information on the labels helps shoppers choose wisely.",
+          "vi": "Thông tin chi tiết trên nhãn giúp người mua chọn lựa khôn ngoan."
+        }
+      ]
+    },
+    {
+      "english": "detailed study",
+      "vietnamese": "nghiên cứu chi tiết",
+      "ipa": "/ˈdiːteɪld ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "They conducted a detailed study of local water quality.",
+          "vi": "Họ tiến hành một nghiên cứu chi tiết về chất lượng nước địa phương."
+        },
+        {
+          "en": "A detailed study of the region took several years.",
+          "vi": "Một nghiên cứu chi tiết về khu vực này mất vài năm."
+        },
+        {
+          "en": "The detailed study confirmed earlier findings about migration.",
+          "vi": "Nghiên cứu chi tiết đã xác nhận các phát hiện trước về di cư."
+        }
+      ]
+    },
+    {
+      "english": "develop a method",
+      "vietnamese": "phát triển một phương pháp",
+      "ipa": "/dɪˈveləp ə ˈmeθəd/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Researchers worked together to develop a method for testing.",
+          "vi": "Các nhà nghiên cứu hợp tác để phát triển một phương pháp kiểm tra."
+        },
+        {
+          "en": "The team hopes to develop a method that saves time.",
+          "vi": "Nhóm hy vọng phát triển một phương pháp tiết kiệm thời gian."
+        },
+        {
+          "en": "Scientists develop a method before running large experiments.",
+          "vi": "Các nhà khoa học phát triển một phương pháp trước khi làm thí nghiệm lớn."
+        }
+      ]
+    },
+    {
+      "english": "develop a strategy",
+      "vietnamese": "xây dựng một chiến lược",
+      "ipa": "/dɪˈveləp ə ˈstrætədʒi/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The company needs to develop a strategy for new markets.",
+          "vi": "Công ty cần xây dựng một chiến lược cho các thị trường mới."
+        },
+        {
+          "en": "Students learn to develop a strategy before starting an essay.",
+          "vi": "Sinh viên học cách xây dựng một chiến lược trước khi viết tiểu luận."
+        },
+        {
+          "en": "Managers develop a strategy to reduce costs each year.",
+          "vi": "Các quản lý xây dựng một chiến lược cắt giảm chi phí mỗi năm."
+        }
+      ]
+    },
+    {
+      "english": "develop a technique",
+      "vietnamese": "phát triển một kỹ thuật",
+      "ipa": "/dɪˈveləp ə tekˈniːk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The lab worked hard to develop a technique for imaging cells.",
+          "vi": "Phòng thí nghiệm nỗ lực phát triển một kỹ thuật chụp ảnh tế bào."
+        },
+        {
+          "en": "Artists often develop a technique that becomes their signature.",
+          "vi": "Nghệ sĩ thường phát triển một kỹ thuật trở thành dấu ấn riêng."
+        },
+        {
+          "en": "They aim to develop a technique cheaper than current ones.",
+          "vi": "Họ muốn phát triển một kỹ thuật rẻ hơn các kỹ thuật hiện có."
+        }
+      ]
+    },
+    {
+      "english": "develop a theory",
+      "vietnamese": "xây dựng một lý thuyết",
+      "ipa": "/dɪˈveləp ə ˈθiːəri/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Darwin spent years working to develop a theory of evolution.",
+          "vi": "Darwin mất nhiều năm để xây dựng một lý thuyết về tiến hóa."
+        },
+        {
+          "en": "Economists develop a theory to explain how prices change.",
+          "vi": "Các nhà kinh tế xây dựng một lý thuyết giải thích giá cả thay đổi."
+        },
+        {
+          "en": "She used the data to develop a theory about learning.",
+          "vi": "Cô ấy dùng dữ liệu để xây dựng một lý thuyết về việc học."
+        }
+      ]
+    },
+    {
+      "english": "develop an approach",
+      "vietnamese": "phát triển một cách tiếp cận",
+      "ipa": "/dɪˈveləp ən əˈproʊtʃ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The school tried to develop an approach suited to young learners.",
+          "vi": "Trường cố gắng phát triển một cách tiếp cận phù hợp với học sinh nhỏ."
+        },
+        {
+          "en": "We must develop an approach that respects local traditions.",
+          "vi": "Chúng ta phải phát triển một cách tiếp cận tôn trọng truyền thống địa phương."
+        },
+        {
+          "en": "Therapists develop an approach tailored to each patient.",
+          "vi": "Nhà trị liệu phát triển một cách tiếp cận riêng cho từng bệnh nhân."
+        }
+      ]
+    },
+    {
+      "english": "develop an argument",
+      "vietnamese": "triển khai một lập luận",
+      "ipa": "/dɪˈveləp ən ˈɑːrɡjəmənt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "A good essay should develop an argument step by step.",
+          "vi": "Một bài luận hay nên triển khai một lập luận theo từng bước."
+        },
+        {
+          "en": "She uses evidence to develop an argument for reform.",
+          "vi": "Cô ấy dùng bằng chứng để triển khai một lập luận cho cải cách."
+        },
+        {
+          "en": "Lawyers develop an argument carefully before going to court.",
+          "vi": "Luật sư triển khai một lập luận cẩn thận trước khi ra tòa."
+        }
+      ]
+    },
+    {
+      "english": "developmental process",
+      "vietnamese": "quá trình phát triển",
+      "ipa": "/dɪˌveləpˈmentəl ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Language learning is a slow developmental process in children.",
+          "vi": "Việc học ngôn ngữ là một quá trình phát triển chậm ở trẻ em."
+        },
+        {
+          "en": "The book explains each step of the developmental process.",
+          "vi": "Cuốn sách giải thích từng bước của quá trình phát triển."
+        },
+        {
+          "en": "Stress can interrupt the normal developmental process of cells.",
+          "vi": "Căng thẳng có thể làm gián đoạn quá trình phát triển bình thường của tế bào."
+        }
+      ]
+    },
+    {
+      "english": "developmental stage",
+      "vietnamese": "giai đoạn phát triển",
+      "ipa": "/dɪˌveləpˈmentəl steɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each developmental stage brings new skills for the child.",
+          "vi": "Mỗi giai đoạn phát triển mang lại những kỹ năng mới cho trẻ."
+        },
+        {
+          "en": "The plant reaches a developmental stage where it flowers.",
+          "vi": "Cây đạt tới giai đoạn phát triển mà nó nở hoa."
+        },
+        {
+          "en": "Teachers adapt lessons to the pupil's developmental stage.",
+          "vi": "Giáo viên điều chỉnh bài học theo giai đoạn phát triển của học sinh."
+        }
+      ]
+    },
+    {
+      "english": "diagnostic test",
+      "vietnamese": "bài kiểm tra chẩn đoán",
+      "ipa": "/ˌdaɪəɡˈnɑːstɪk test/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The doctor ordered a diagnostic test to confirm the illness.",
+          "vi": "Bác sĩ chỉ định một bài kiểm tra chẩn đoán để xác nhận bệnh."
+        },
+        {
+          "en": "Students take a diagnostic test at the start of the course.",
+          "vi": "Sinh viên làm một bài kiểm tra chẩn đoán đầu khóa học."
+        },
+        {
+          "en": "A simple diagnostic test can detect the problem early.",
+          "vi": "Một bài kiểm tra chẩn đoán đơn giản có thể phát hiện sớm vấn đề."
+        }
+      ]
+    },
+    {
+      "english": "differ considerably",
+      "vietnamese": "khác nhau đáng kể",
+      "ipa": "/ˈdɪfər kənˈsɪdərəbli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Prices differ considerably between the two cities.",
+          "vi": "Giá cả khác nhau đáng kể giữa hai thành phố."
+        },
+        {
+          "en": "Opinions on the matter differ considerably among experts.",
+          "vi": "Quan điểm về vấn đề này khác nhau đáng kể giữa các chuyên gia."
+        },
+        {
+          "en": "The results differ considerably from those of earlier studies.",
+          "vi": "Kết quả khác nhau đáng kể so với các nghiên cứu trước."
+        }
+      ]
+    },
+    {
+      "english": "differ significantly",
+      "vietnamese": "khác nhau rõ rệt",
+      "ipa": "/ˈdɪfər sɪɡˈnɪfɪkəntli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "The two groups differ significantly in their test scores.",
+          "vi": "Hai nhóm khác nhau rõ rệt về điểm kiểm tra."
+        },
+        {
+          "en": "Climate patterns differ significantly from region to region.",
+          "vi": "Kiểu khí hậu khác nhau rõ rệt giữa các vùng."
+        },
+        {
+          "en": "Male and female responses did not differ significantly.",
+          "vi": "Phản hồi của nam và nữ không khác nhau rõ rệt."
+        }
+      ]
+    },
+    {
+      "english": "differ widely",
+      "vietnamese": "khác nhau rất nhiều",
+      "ipa": "/ˈdɪfər ˈwaɪdli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Customs differ widely from one country to another.",
+          "vi": "Phong tục khác nhau rất nhiều giữa các quốc gia."
+        },
+        {
+          "en": "Estimates of the cost differ widely among analysts.",
+          "vi": "Các ước tính về chi phí khác nhau rất nhiều giữa các nhà phân tích."
+        },
+        {
+          "en": "Teaching styles differ widely across the schools surveyed.",
+          "vi": "Phong cách giảng dạy khác nhau rất nhiều giữa các trường được khảo sát."
+        }
+      ]
+    },
+    {
+      "english": "digital information",
+      "vietnamese": "thông tin số",
+      "ipa": "/ˈdɪdʒətəl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Libraries now store vast amounts of digital information.",
+          "vi": "Các thư viện hiện lưu trữ lượng lớn thông tin số."
+        },
+        {
+          "en": "Protecting digital information is a key concern for companies.",
+          "vi": "Bảo vệ thông tin số là mối quan tâm chính của các công ty."
+        },
+        {
+          "en": "Digital information can be shared across the world instantly.",
+          "vi": "Thông tin số có thể được chia sẻ khắp thế giới ngay lập tức."
+        }
+      ]
+    },
+    {
+      "english": "digital media",
+      "vietnamese": "phương tiện truyền thông số",
+      "ipa": "/ˈdɪdʒətəl ˈmiːdiə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Young people spend many hours using digital media daily.",
+          "vi": "Người trẻ dành nhiều giờ mỗi ngày để dùng truyền thông số."
+        },
+        {
+          "en": "Digital media have changed how news reaches the public.",
+          "vi": "Truyền thông số đã thay đổi cách tin tức đến với công chúng."
+        },
+        {
+          "en": "The course explores the impact of digital media on society.",
+          "vi": "Khóa học tìm hiểu tác động của truyền thông số lên xã hội."
+        }
+      ]
+    },
+    {
+      "english": "digital technology",
+      "vietnamese": "công nghệ số",
+      "ipa": "/ˈdɪdʒətəl tekˈnɑːlədʒi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Digital technology has transformed the way we communicate.",
+          "vi": "Công nghệ số đã thay đổi cách chúng ta giao tiếp."
+        },
+        {
+          "en": "Schools invest in digital technology to support learning.",
+          "vi": "Các trường đầu tư vào công nghệ số để hỗ trợ việc học."
+        },
+        {
+          "en": "Many jobs now require basic digital technology skills.",
+          "vi": "Nhiều công việc hiện đòi hỏi kỹ năng công nghệ số cơ bản."
+        }
+      ]
+    },
+    {
+      "english": "direct access",
+      "vietnamese": "quyền truy cập trực tiếp",
+      "ipa": "/dɪˈrekt ˈækses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Members enjoy direct access to the research database.",
+          "vi": "Thành viên được quyền truy cập trực tiếp vào cơ sở dữ liệu nghiên cứu."
+        },
+        {
+          "en": "The app gives users direct access to their account details.",
+          "vi": "Ứng dụng cho người dùng truy cập trực tiếp thông tin tài khoản."
+        },
+        {
+          "en": "Patients now have direct access to their medical records.",
+          "vi": "Bệnh nhân giờ có quyền truy cập trực tiếp hồ sơ y tế của mình."
+        }
+      ]
+    },
+    {
+      "english": "direct communication",
+      "vietnamese": "giao tiếp trực tiếp",
+      "ipa": "/dɪˈrekt kəˌmjuːnɪˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Direct communication between teams prevents misunderstandings.",
+          "vi": "Giao tiếp trực tiếp giữa các nhóm ngăn ngừa hiểu lầm."
+        },
+        {
+          "en": "The manager values direct communication with her staff.",
+          "vi": "Người quản lý coi trọng giao tiếp trực tiếp với nhân viên."
+        },
+        {
+          "en": "Direct communication is often faster than long email chains.",
+          "vi": "Giao tiếp trực tiếp thường nhanh hơn những chuỗi email dài."
+        }
+      ]
+    },
+    {
+      "english": "direct consequences",
+      "vietnamese": "hậu quả trực tiếp",
+      "ipa": "/dɪˈrekt ˈkɑːnsəkwensəz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Pollution has direct consequences for public health.",
+          "vi": "Ô nhiễm có những hậu quả trực tiếp đối với sức khỏe cộng đồng."
+        },
+        {
+          "en": "The policy had direct consequences for small businesses.",
+          "vi": "Chính sách đó đã gây hậu quả trực tiếp cho các doanh nghiệp nhỏ."
+        },
+        {
+          "en": "Cutting funding had direct consequences for the program.",
+          "vi": "Việc cắt kinh phí gây hậu quả trực tiếp cho chương trình."
+        }
+      ]
+    },
+    {
+      "english": "direct contact",
+      "vietnamese": "tiếp xúc trực tiếp",
+      "ipa": "/dɪˈrekt ˈkɑːntækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The disease spreads through direct contact with the skin.",
+          "vi": "Bệnh lây lan qua tiếp xúc trực tiếp với da."
+        },
+        {
+          "en": "Sales staff keep direct contact with their main clients.",
+          "vi": "Nhân viên bán hàng giữ tiếp xúc trực tiếp với khách hàng chính."
+        },
+        {
+          "en": "Avoid direct contact between the chemical and your eyes.",
+          "vi": "Tránh để hóa chất tiếp xúc trực tiếp với mắt bạn."
+        }
+      ]
+    },
+    {
+      "english": "direct evidence",
+      "vietnamese": "bằng chứng trực tiếp",
+      "ipa": "/dɪˈrekt ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is direct evidence linking smoking to lung cancer.",
+          "vi": "Có bằng chứng trực tiếp liên hệ hút thuốc với ung thư phổi."
+        },
+        {
+          "en": "The study found direct evidence of climate change effects.",
+          "vi": "Nghiên cứu tìm thấy bằng chứng trực tiếp về tác động biến đổi khí hậu."
+        },
+        {
+          "en": "Without direct evidence, the theory remains unproven.",
+          "vi": "Nếu thiếu bằng chứng trực tiếp, lý thuyết vẫn chưa được chứng minh."
+        }
+      ]
+    },
+    {
+      "english": "direct impact",
+      "vietnamese": "tác động trực tiếp",
+      "ipa": "/dɪˈrekt ˈɪmpækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new tax had a direct impact on household spending.",
+          "vi": "Thuế mới có tác động trực tiếp đến chi tiêu hộ gia đình."
+        },
+        {
+          "en": "Sleep has a direct impact on a student's performance.",
+          "vi": "Giấc ngủ có tác động trực tiếp đến kết quả của học sinh."
+        },
+        {
+          "en": "The drought had a direct impact on local farmers.",
+          "vi": "Hạn hán có tác động trực tiếp đến nông dân địa phương."
+        }
+      ]
+    },
+    {
+      "english": "direct involvement",
+      "vietnamese": "sự tham gia trực tiếp",
+      "ipa": "/dɪˈrekt ɪnˈvɑːlvmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The project succeeded thanks to direct involvement from staff.",
+          "vi": "Dự án thành công nhờ sự tham gia trực tiếp của nhân viên."
+        },
+        {
+          "en": "Her direct involvement made the campaign far more effective.",
+          "vi": "Sự tham gia trực tiếp của cô ấy khiến chiến dịch hiệu quả hơn nhiều."
+        },
+        {
+          "en": "The report questions the company's direct involvement in the deal.",
+          "vi": "Báo cáo đặt nghi vấn về sự tham gia trực tiếp của công ty vào thương vụ."
+        }
+      ]
+    },
+    {
+      "english": "direct link",
+      "vietnamese": "mối liên hệ trực tiếp",
+      "ipa": "/dɪˈrekt lɪŋk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Scientists found a direct link between diet and heart disease.",
+          "vi": "Các nhà khoa học tìm thấy mối liên hệ trực tiếp giữa ăn uống và bệnh tim."
+        },
+        {
+          "en": "There is a direct link between exercise and better mood.",
+          "vi": "Có mối liên hệ trực tiếp giữa tập thể dục và tâm trạng tốt hơn."
+        },
+        {
+          "en": "The data show a direct link between income and education.",
+          "vi": "Dữ liệu cho thấy mối liên hệ trực tiếp giữa thu nhập và học vấn."
+        }
+      ]
+    },
+    {
+      "english": "direct observation",
+      "vietnamese": "quan sát trực tiếp",
+      "ipa": "/dɪˈrekt ˌɑːbzərˈveɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The findings are based on direct observation of animal behavior.",
+          "vi": "Các phát hiện dựa trên quan sát trực tiếp hành vi động vật."
+        },
+        {
+          "en": "Direct observation gives richer data than surveys alone.",
+          "vi": "Quan sát trực tiếp cho dữ liệu phong phú hơn so với chỉ khảo sát."
+        },
+        {
+          "en": "Through direct observation, she recorded how children played.",
+          "vi": "Qua quan sát trực tiếp, cô ấy ghi lại cách trẻ em chơi."
+        }
+      ]
+    },
+    {
+      "english": "direct relationship",
+      "vietnamese": "mối quan hệ trực tiếp",
+      "ipa": "/dɪˈrekt rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a direct relationship between price and demand.",
+          "vi": "Có mối quan hệ trực tiếp giữa giá cả và nhu cầu."
+        },
+        {
+          "en": "The graph shows a direct relationship between the variables.",
+          "vi": "Biểu đồ cho thấy mối quan hệ trực tiếp giữa các biến số."
+        },
+        {
+          "en": "Researchers noted a direct relationship between stress and sleep.",
+          "vi": "Các nhà nghiên cứu ghi nhận mối quan hệ trực tiếp giữa căng thẳng và giấc ngủ."
+        }
+      ]
+    },
+    {
+      "english": "direct role",
+      "vietnamese": "vai trò trực tiếp",
+      "ipa": "/dɪˈrekt roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She played a direct role in shaping the new policy.",
+          "vi": "Cô ấy đóng vai trò trực tiếp trong việc định hình chính sách mới."
+        },
+        {
+          "en": "Sunlight plays a direct role in plant growth.",
+          "vi": "Ánh nắng đóng vai trò trực tiếp trong sự phát triển của cây."
+        },
+        {
+          "en": "The committee has a direct role in approving the budget.",
+          "vi": "Ủy ban có vai trò trực tiếp trong việc phê duyệt ngân sách."
+        }
+      ]
+    },
+    {
+      "english": "directly affect",
+      "vietnamese": "ảnh hưởng trực tiếp",
+      "ipa": "/dɪˈrektli əˈfekt/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "Interest rates directly affect the cost of borrowing money.",
+          "vi": "Lãi suất ảnh hưởng trực tiếp đến chi phí vay tiền."
+        },
+        {
+          "en": "Diet and sleep directly affect how well students learn.",
+          "vi": "Ăn uống và giấc ngủ ảnh hưởng trực tiếp đến việc học của học sinh."
+        },
+        {
+          "en": "Weather conditions directly affect crop yields each season.",
+          "vi": "Điều kiện thời tiết ảnh hưởng trực tiếp đến năng suất mùa màng."
+        }
+      ]
+    },
+    {
+      "english": "directly affected",
+      "vietnamese": "bị ảnh hưởng trực tiếp",
+      "ipa": "/dɪˈrektli əˈfektɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Coastal towns were directly affected by the rising sea levels.",
+          "vi": "Các thị trấn ven biển bị ảnh hưởng trực tiếp bởi mực nước biển dâng."
+        },
+        {
+          "en": "Workers directly affected by the closure received support.",
+          "vi": "Những công nhân bị ảnh hưởng trực tiếp bởi việc đóng cửa đã được hỗ trợ."
+        },
+        {
+          "en": "Families directly affected by the flood need urgent help.",
+          "vi": "Các gia đình bị ảnh hưởng trực tiếp bởi lũ lụt cần giúp đỡ khẩn cấp."
+        }
+      ]
+    },
+    {
+      "english": "directly connected to",
+      "vietnamese": "kết nối trực tiếp với",
+      "ipa": "/dɪˈrektli kəˈnektɪd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The printer is directly connected to the main computer.",
+          "vi": "Máy in được kết nối trực tiếp với máy tính chính."
+        },
+        {
+          "en": "Air quality is directly connected to public health outcomes.",
+          "vi": "Chất lượng không khí kết nối trực tiếp với sức khỏe cộng đồng."
+        },
+        {
+          "en": "These two ideas are directly connected to each other.",
+          "vi": "Hai ý tưởng này kết nối trực tiếp với nhau."
+        }
+      ]
+    },
+    {
+      "english": "directly involved in",
+      "vietnamese": "trực tiếp tham gia vào",
+      "ipa": "/dɪˈrektli ɪnˈvɑːlvd ɪn/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "She was directly involved in planning the conference.",
+          "vi": "Cô ấy trực tiếp tham gia vào việc lên kế hoạch hội nghị."
+        },
+        {
+          "en": "Students directly involved in the project learned the most.",
+          "vi": "Những sinh viên trực tiếp tham gia vào dự án học được nhiều nhất."
+        },
+        {
+          "en": "He was directly involved in the negotiations last year.",
+          "vi": "Ông ấy trực tiếp tham gia vào các cuộc đàm phán năm ngoái."
+        }
+      ]
+    },
+    {
+      "english": "directly linked to",
+      "vietnamese": "liên hệ trực tiếp với",
+      "ipa": "/dɪˈrektli lɪŋkt tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Poor diet is directly linked to many chronic diseases.",
+          "vi": "Ăn uống kém liên hệ trực tiếp với nhiều bệnh mãn tính."
+        },
+        {
+          "en": "The rise in sales is directly linked to the advertising.",
+          "vi": "Doanh số tăng liên hệ trực tiếp với việc quảng cáo."
+        },
+        {
+          "en": "Their success is directly linked to careful planning.",
+          "vi": "Thành công của họ liên hệ trực tiếp với việc lập kế hoạch kỹ lưỡng."
+        }
+      ]
+    },
+    {
+      "english": "directly proportional to",
+      "vietnamese": "tỷ lệ thuận trực tiếp với",
+      "ipa": "/dɪˈrektli prəˈpɔːrʃənəl tə/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The force is directly proportional to the mass of the object.",
+          "vi": "Lực tỷ lệ thuận trực tiếp với khối lượng của vật."
+        },
+        {
+          "en": "Pressure is directly proportional to temperature in this case.",
+          "vi": "Áp suất tỷ lệ thuận trực tiếp với nhiệt độ trong trường hợp này."
+        },
+        {
+          "en": "Profit was directly proportional to the number of sales.",
+          "vi": "Lợi nhuận tỷ lệ thuận trực tiếp với số lượng bán ra."
+        }
+      ]
+    },
+    {
+      "english": "directly related to",
+      "vietnamese": "liên quan trực tiếp đến",
+      "ipa": "/dɪˈrektli rɪˈleɪtɪd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "His complaint was directly related to the new schedule.",
+          "vi": "Khiếu nại của anh ấy liên quan trực tiếp đến lịch trình mới."
+        },
+        {
+          "en": "The questions are directly related to the course content.",
+          "vi": "Các câu hỏi liên quan trực tiếp đến nội dung khóa học."
+        },
+        {
+          "en": "Health problems here are directly related to air pollution.",
+          "vi": "Các vấn đề sức khỏe ở đây liên quan trực tiếp đến ô nhiễm không khí."
+        }
+      ]
+    },
+    {
+      "english": "directly relevant to",
+      "vietnamese": "liên quan thiết thực đến",
+      "ipa": "/dɪˈrektli ˈreləvənt tə/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "These findings are directly relevant to current policy debates.",
+          "vi": "Những phát hiện này liên quan thiết thực đến các tranh luận chính sách hiện nay."
+        },
+        {
+          "en": "Choose examples that are directly relevant to your topic.",
+          "vi": "Hãy chọn ví dụ liên quan thiết thực đến chủ đề của bạn."
+        },
+        {
+          "en": "The training was directly relevant to her daily work.",
+          "vi": "Khóa đào tạo liên quan thiết thực đến công việc hằng ngày của cô ấy."
+        }
+      ]
+    },
+    {
+      "english": "directly responsible for",
+      "vietnamese": "chịu trách nhiệm trực tiếp về",
+      "ipa": "/dɪˈrektli rɪˈspɑːnsəbəl fər/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The manager is directly responsible for the team's budget.",
+          "vi": "Người quản lý chịu trách nhiệm trực tiếp về ngân sách của nhóm."
+        },
+        {
+          "en": "Smoking is directly responsible for many early deaths.",
+          "vi": "Hút thuốc chịu trách nhiệm trực tiếp cho nhiều ca tử vong sớm."
+        },
+        {
+          "en": "She is directly responsible for training new employees.",
+          "vi": "Cô ấy chịu trách nhiệm trực tiếp về việc đào tạo nhân viên mới."
+        }
+      ]
+    },
+    {
+      "english": "disclose information",
+      "vietnamese": "tiết lộ thông tin",
+      "ipa": "/dɪsˈkloʊz ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Companies must disclose information about their finances.",
+          "vi": "Các công ty phải tiết lộ thông tin về tài chính của mình."
+        },
+        {
+          "en": "Doctors cannot disclose information without the patient's consent.",
+          "vi": "Bác sĩ không thể tiết lộ thông tin khi chưa có sự đồng ý của bệnh nhân."
+        },
+        {
+          "en": "The report refused to disclose information about its sources.",
+          "vi": "Báo cáo từ chối tiết lộ thông tin về nguồn của nó."
+        }
+      ]
+    },
+    {
+      "english": "discuss a topic",
+      "vietnamese": "thảo luận một chủ đề",
+      "ipa": "/dɪˈskʌs ə ˈtɑːpɪk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The class will discuss a topic chosen by the students.",
+          "vi": "Lớp học sẽ thảo luận một chủ đề do sinh viên chọn."
+        },
+        {
+          "en": "We meet weekly to discuss a topic from the reading.",
+          "vi": "Chúng tôi gặp nhau hằng tuần để thảo luận một chủ đề trong bài đọc."
+        },
+        {
+          "en": "It is hard to discuss a topic without enough background.",
+          "vi": "Thật khó để thảo luận một chủ đề khi thiếu kiến thức nền."
+        }
+      ]
+    },
+    {
+      "english": "discuss an issue",
+      "vietnamese": "thảo luận một vấn đề",
+      "ipa": "/dɪˈskʌs ən ˈɪʃuː/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The committee met to discuss an issue raised by parents.",
+          "vi": "Ủy ban họp để thảo luận một vấn đề do phụ huynh nêu ra."
+        },
+        {
+          "en": "It helps to discuss an issue calmly before deciding.",
+          "vi": "Thảo luận một vấn đề một cách bình tĩnh trước khi quyết định sẽ hữu ích."
+        },
+        {
+          "en": "Leaders gathered to discuss an issue affecting the whole region.",
+          "vi": "Các lãnh đạo tụ họp để thảo luận một vấn đề ảnh hưởng cả khu vực."
+        }
+      ]
+    },
+    {
+      "english": "disposable income",
+      "vietnamese": "thu nhập khả dụng",
+      "ipa": "/dɪˈspoʊzəbəl ˈɪnkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Families with higher disposable income tend to travel more.",
+          "vi": "Các gia đình có thu nhập khả dụng cao hơn thường đi du lịch nhiều hơn."
+        },
+        {
+          "en": "Rising prices have reduced people's disposable income.",
+          "vi": "Giá cả tăng đã làm giảm thu nhập khả dụng của người dân."
+        },
+        {
+          "en": "Young workers often spend much of their disposable income.",
+          "vi": "Người lao động trẻ thường tiêu phần lớn thu nhập khả dụng của họ."
+        }
+      ]
+    },
+    {
+      "english": "distinct group",
+      "vietnamese": "nhóm riêng biệt",
+      "ipa": "/dɪˈstɪŋkt ɡruːp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study divided the patients into three distinct groups.",
+          "vi": "Nghiên cứu chia bệnh nhân thành ba nhóm riêng biệt."
+        },
+        {
+          "en": "Each distinct group followed its own set of rules.",
+          "vi": "Mỗi nhóm riêng biệt tuân theo bộ quy tắc riêng của mình."
+        },
+        {
+          "en": "The data revealed a distinct group of frequent users.",
+          "vi": "Dữ liệu cho thấy một nhóm riêng biệt gồm người dùng thường xuyên."
+        }
+      ]
+    },
+    {
+      "english": "distinct type",
+      "vietnamese": "loại riêng biệt",
+      "ipa": "/dɪˈstɪŋkt taɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Researchers identified two distinct types of cells.",
+          "vi": "Các nhà nghiên cứu xác định được hai loại tế bào riêng biệt."
+        },
+        {
+          "en": "Each distinct type of soil supports different plants.",
+          "vi": "Mỗi loại đất riêng biệt thích hợp với những cây khác nhau."
+        },
+        {
+          "en": "The museum displays a distinct type of ancient pottery.",
+          "vi": "Bảo tàng trưng bày một loại gốm cổ riêng biệt."
+        }
+      ]
+    },
+    {
+      "english": "distinctive feature",
+      "vietnamese": "đặc điểm nổi bật",
+      "ipa": "/dɪˈstɪŋktɪv ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The bright colors are a distinctive feature of this bird.",
+          "vi": "Màu sắc sặc sỡ là đặc điểm nổi bật của loài chim này."
+        },
+        {
+          "en": "Strong arches are a distinctive feature of the architecture.",
+          "vi": "Các vòm lớn là đặc điểm nổi bật của lối kiến trúc này."
+        },
+        {
+          "en": "Her clear writing style is a distinctive feature of her work.",
+          "vi": "Lối viết rõ ràng là đặc điểm nổi bật trong tác phẩm của cô ấy."
+        }
+      ]
+    },
+    {
+      "english": "distinguishing feature",
+      "vietnamese": "đặc điểm phân biệt",
+      "ipa": "/dɪˈstɪŋɡwɪʃɪŋ ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The long tail is the distinguishing feature of this species.",
+          "vi": "Cái đuôi dài là đặc điểm phân biệt của loài này."
+        },
+        {
+          "en": "Price is the main distinguishing feature between the two models.",
+          "vi": "Giá cả là đặc điểm phân biệt chính giữa hai mẫu xe."
+        },
+        {
+          "en": "A distinguishing feature of the report is its clear charts.",
+          "vi": "Một đặc điểm phân biệt của báo cáo là các biểu đồ rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "diverse background",
+      "vietnamese": "xuất thân đa dạng",
+      "ipa": "/dɪˈvɜːrs ˈbækɡraʊnd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The students come from a diverse background of cultures.",
+          "vi": "Các sinh viên đến từ nhiều nền văn hóa với xuất thân đa dạng."
+        },
+        {
+          "en": "Her diverse background helps her understand many viewpoints.",
+          "vi": "Xuất thân đa dạng giúp cô ấy hiểu nhiều quan điểm khác nhau."
+        },
+        {
+          "en": "Employers value staff with a diverse background and skills.",
+          "vi": "Nhà tuyển dụng coi trọng nhân viên có xuất thân và kỹ năng đa dạng."
+        }
+      ]
+    },
+    {
+      "english": "diverse group",
+      "vietnamese": "nhóm đa dạng",
+      "ipa": "/dɪˈvɜːrs ɡruːp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The class is a diverse group of learners from many countries.",
+          "vi": "Lớp học là một nhóm đa dạng gồm người học từ nhiều quốc gia."
+        },
+        {
+          "en": "A diverse group often produces more creative ideas.",
+          "vi": "Một nhóm đa dạng thường tạo ra nhiều ý tưởng sáng tạo hơn."
+        },
+        {
+          "en": "The panel included a diverse group of experts and citizens.",
+          "vi": "Hội đồng gồm một nhóm đa dạng các chuyên gia và người dân."
+        }
+      ]
+    },
+    {
+      "english": "diverse range of",
+      "vietnamese": "loạt đa dạng các",
+      "ipa": "/dɪˈvɜːrs reɪndʒ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The shop sells a diverse range of organic products.",
+          "vi": "Cửa hàng bán một loạt đa dạng các sản phẩm hữu cơ."
+        },
+        {
+          "en": "The course covers a diverse range of historical topics.",
+          "vi": "Khóa học bao quát một loạt đa dạng các chủ đề lịch sử."
+        },
+        {
+          "en": "Volunteers came from a diverse range of professions.",
+          "vi": "Các tình nguyện viên đến từ một loạt đa dạng các nghề nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "dividing line",
+      "vietnamese": "ranh giới phân chia",
+      "ipa": "/dɪˈvaɪdɪŋ laɪn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The river forms a natural dividing line between the regions.",
+          "vi": "Con sông tạo thành ranh giới phân chia tự nhiên giữa các vùng."
+        },
+        {
+          "en": "There is a thin dividing line between humor and rudeness.",
+          "vi": "Có một ranh giới phân chia mong manh giữa hài hước và thô lỗ."
+        },
+        {
+          "en": "Age is not a clear dividing line for these opinions.",
+          "vi": "Tuổi tác không phải ranh giới phân chia rõ ràng cho những quan điểm này."
+        }
+      ]
+    },
+    {
+      "english": "documentary evidence",
+      "vietnamese": "bằng chứng tài liệu",
+      "ipa": "/ˌdɑːkjəˈmentəri ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The historian relied on documentary evidence from old letters.",
+          "vi": "Nhà sử học dựa vào bằng chứng tài liệu từ những lá thư cũ."
+        },
+        {
+          "en": "Documentary evidence supported the claims made in court.",
+          "vi": "Bằng chứng tài liệu ủng hộ các tuyên bố đưa ra tại tòa."
+        },
+        {
+          "en": "Without documentary evidence, the story is hard to verify.",
+          "vi": "Nếu thiếu bằng chứng tài liệu, câu chuyện rất khó kiểm chứng."
+        }
+      ]
+    },
+    {
+      "english": "domestic market",
+      "vietnamese": "thị trường nội địa",
+      "ipa": "/dəˈmestɪk ˈmɑːrkɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company focuses mainly on the domestic market.",
+          "vi": "Công ty tập trung chủ yếu vào thị trường nội địa."
+        },
+        {
+          "en": "Cheap imports have hurt the domestic market for textiles.",
+          "vi": "Hàng nhập rẻ đã gây tổn hại cho thị trường dệt may nội địa."
+        },
+        {
+          "en": "Strong demand in the domestic market boosted local jobs.",
+          "vi": "Nhu cầu mạnh ở thị trường nội địa thúc đẩy việc làm địa phương."
+        }
+      ]
+    },
+    {
+      "english": "domestic sphere",
+      "vietnamese": "phạm vi gia đình",
+      "ipa": "/dəˈmestɪk sfɪr/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In the past, women were largely confined to the domestic sphere.",
+          "vi": "Trong quá khứ, phụ nữ phần lớn bị giới hạn trong phạm vi gia đình."
+        },
+        {
+          "en": "The book studies work done within the domestic sphere.",
+          "vi": "Cuốn sách nghiên cứu công việc trong phạm vi gia đình."
+        },
+        {
+          "en": "Modern roles blur the line around the domestic sphere.",
+          "vi": "Các vai trò hiện đại làm mờ ranh giới của phạm vi gia đình."
+        }
+      ]
+    },
+    {
+      "english": "domestic violence",
+      "vietnamese": "bạo lực gia đình",
+      "ipa": "/dəˈmestɪk ˈvaɪələns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The charity helps victims of domestic violence find safety.",
+          "vi": "Tổ chức từ thiện giúp nạn nhân bạo lực gia đình tìm nơi an toàn."
+        },
+        {
+          "en": "New laws aim to reduce cases of domestic violence.",
+          "vi": "Các luật mới nhằm giảm số vụ bạo lực gia đình."
+        },
+        {
+          "en": "Domestic violence often goes unreported for many years.",
+          "vi": "Bạo lực gia đình thường không được báo cáo trong nhiều năm."
+        }
+      ]
+    },
+    {
+      "english": "dominant culture",
+      "vietnamese": "văn hóa chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt ˈkʌltʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Immigrants often adapt to the dominant culture over time.",
+          "vi": "Người nhập cư thường thích nghi với văn hóa chủ đạo theo thời gian."
+        },
+        {
+          "en": "The dominant culture shapes what is shown in the media.",
+          "vi": "Văn hóa chủ đạo định hình những gì được thể hiện trên truyền thông."
+        },
+        {
+          "en": "Smaller traditions can be lost within a dominant culture.",
+          "vi": "Các truyền thống nhỏ có thể bị mai một trong một văn hóa chủ đạo."
+        }
+      ]
+    },
+    {
+      "english": "dominant discourse",
+      "vietnamese": "diễn ngôn chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt ˈdɪskɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The essay challenges the dominant discourse on poverty.",
+          "vi": "Bài luận thách thức diễn ngôn chủ đạo về đói nghèo."
+        },
+        {
+          "en": "Media often reinforce the dominant discourse of a society.",
+          "vi": "Truyền thông thường củng cố diễn ngôn chủ đạo của một xã hội."
+        },
+        {
+          "en": "Scholars question the dominant discourse around success.",
+          "vi": "Các học giả đặt nghi vấn về diễn ngôn chủ đạo quanh sự thành công."
+        }
+      ]
+    },
+    {
+      "english": "dominant form",
+      "vietnamese": "hình thức chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt fɔːrm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Television was once the dominant form of entertainment.",
+          "vi": "Truyền hình từng là hình thức giải trí chủ đạo."
+        },
+        {
+          "en": "Email remains the dominant form of business communication.",
+          "vi": "Email vẫn là hình thức giao tiếp chủ đạo trong kinh doanh."
+        },
+        {
+          "en": "Cash is no longer the dominant form of payment here.",
+          "vi": "Tiền mặt không còn là hình thức thanh toán chủ đạo ở đây."
+        }
+      ]
+    },
+    {
+      "english": "dominant group",
+      "vietnamese": "nhóm thống trị",
+      "ipa": "/ˈdɑːmɪnənt ɡruːp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The dominant group often controls access to resources.",
+          "vi": "Nhóm thống trị thường kiểm soát quyền tiếp cận tài nguyên."
+        },
+        {
+          "en": "Policies sometimes favor the dominant group in society.",
+          "vi": "Các chính sách đôi khi ưu ái nhóm thống trị trong xã hội."
+        },
+        {
+          "en": "Members of the dominant group rarely notice their advantages.",
+          "vi": "Các thành viên của nhóm thống trị hiếm khi nhận ra lợi thế của mình."
+        }
+      ]
+    },
+    {
+      "english": "dominant ideology",
+      "vietnamese": "hệ tư tưởng chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt ˌaɪdiˈɑːlədʒi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The dominant ideology of the era praised free trade.",
+          "vi": "Hệ tư tưởng chủ đạo của thời kỳ đó ca ngợi tự do thương mại."
+        },
+        {
+          "en": "Schools can quietly pass on the dominant ideology.",
+          "vi": "Trường học có thể âm thầm truyền tải hệ tư tưởng chủ đạo."
+        },
+        {
+          "en": "Artists sometimes resist the dominant ideology of their time.",
+          "vi": "Nghệ sĩ đôi khi chống lại hệ tư tưởng chủ đạo của thời đại mình."
+        }
+      ]
+    },
+    {
+      "english": "dominant paradigm",
+      "vietnamese": "mô hình chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt ˈpærədaɪm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The dominant paradigm in physics shifted after Einstein.",
+          "vi": "Mô hình chủ đạo trong vật lý đã thay đổi sau Einstein."
+        },
+        {
+          "en": "Her research questions the dominant paradigm in economics.",
+          "vi": "Nghiên cứu của cô ấy đặt nghi vấn về mô hình chủ đạo trong kinh tế học."
+        },
+        {
+          "en": "A new dominant paradigm can take decades to take hold.",
+          "vi": "Một mô hình chủ đạo mới có thể mất hàng thập kỷ để được chấp nhận."
+        }
+      ]
+    },
+    {
+      "english": "dominant position",
+      "vietnamese": "vị thế thống trị",
+      "ipa": "/ˈdɑːmɪnənt pəˈzɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The firm holds a dominant position in the software market.",
+          "vi": "Công ty giữ vị thế thống trị trên thị trường phần mềm."
+        },
+        {
+          "en": "Their dominant position allowed them to set high prices.",
+          "vi": "Vị thế thống trị cho phép họ đặt giá cao."
+        },
+        {
+          "en": "A dominant position in trade gave the city great wealth.",
+          "vi": "Vị thế thống trị trong thương mại mang lại cho thành phố sự giàu có lớn."
+        }
+      ]
+    },
+    {
+      "english": "dominant role",
+      "vietnamese": "vai trò chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Oil plays a dominant role in the country's economy.",
+          "vi": "Dầu mỏ đóng vai trò chủ đạo trong nền kinh tế của đất nước."
+        },
+        {
+          "en": "She took a dominant role in leading the discussion.",
+          "vi": "Cô ấy đảm nhận vai trò chủ đạo trong việc dẫn dắt thảo luận."
+        },
+        {
+          "en": "Technology now has a dominant role in modern education.",
+          "vi": "Công nghệ giờ đây đóng vai trò chủ đạo trong giáo dục hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "dramatic change",
+      "vietnamese": "sự thay đổi mạnh mẽ",
+      "ipa": "/drəˈmætɪk tʃeɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The city has seen a dramatic change over the past decade.",
+          "vi": "Thành phố đã chứng kiến sự thay đổi mạnh mẽ trong thập kỷ qua."
+        },
+        {
+          "en": "New technology brought a dramatic change to farming.",
+          "vi": "Công nghệ mới mang lại sự thay đổi mạnh mẽ cho ngành nông nghiệp."
+        },
+        {
+          "en": "There was a dramatic change in attitudes after the campaign.",
+          "vi": "Đã có một sự thay đổi mạnh mẽ trong thái độ sau chiến dịch."
+        }
+      ]
+    },
+    {
+      "english": "dramatic effect",
+      "vietnamese": "tác động mạnh mẽ",
+      "ipa": "/drəˈmætɪk ɪˈfekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new law had a dramatic effect on small businesses.",
+          "vi": "Luật mới có tác động mạnh mẽ đến các doanh nghiệp nhỏ."
+        },
+        {
+          "en": "Good lighting can have a dramatic effect on a photo.",
+          "vi": "Ánh sáng tốt có thể tạo tác động mạnh mẽ lên một bức ảnh."
+        },
+        {
+          "en": "Exercise had a dramatic effect on her overall health.",
+          "vi": "Tập thể dục có tác động mạnh mẽ đến sức khỏe tổng thể của cô ấy."
+        }
+      ]
+    },
+    {
+      "english": "dramatic increase",
+      "vietnamese": "sự gia tăng mạnh mẽ",
+      "ipa": "/drəˈmætɪk ˈɪnkriːs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There was a dramatic increase in online sales last year.",
+          "vi": "Đã có sự gia tăng mạnh mẽ về doanh số trực tuyến năm ngoái."
+        },
+        {
+          "en": "The report shows a dramatic increase in energy prices.",
+          "vi": "Báo cáo cho thấy sự gia tăng mạnh mẽ về giá năng lượng."
+        },
+        {
+          "en": "A dramatic increase in users strained the company's servers.",
+          "vi": "Sự gia tăng mạnh mẽ về người dùng gây áp lực lên máy chủ của công ty."
+        }
+      ]
+    },
+    {
+      "english": "draw attention to",
+      "vietnamese": "thu hút sự chú ý đến",
+      "ipa": "/drɔː əˈtenʃən tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The campaign aims to draw attention to climate change.",
+          "vi": "Chiến dịch nhằm thu hút sự chú ý đến biến đổi khí hậu."
+        },
+        {
+          "en": "She used bright colors to draw attention to the poster.",
+          "vi": "Cô ấy dùng màu sắc tươi sáng để thu hút sự chú ý đến tấm áp phích."
+        },
+        {
+          "en": "The author wants to draw attention to a forgotten issue.",
+          "vi": "Tác giả muốn thu hút sự chú ý đến một vấn đề bị lãng quên."
+        }
+      ]
+    },
+    {
+      "english": "draw a conclusion",
+      "vietnamese": "rút ra một kết luận",
+      "ipa": "/drɔː ə kənˈkluːʒən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "It is too early to draw a conclusion from this data.",
+          "vi": "Còn quá sớm để rút ra một kết luận từ dữ liệu này."
+        },
+        {
+          "en": "Readers can draw a conclusion based on the evidence given.",
+          "vi": "Người đọc có thể rút ra một kết luận dựa trên bằng chứng đã nêu."
+        },
+        {
+          "en": "Scientists draw a conclusion only after repeated testing.",
+          "vi": "Các nhà khoa học chỉ rút ra một kết luận sau nhiều lần kiểm tra."
+        }
+      ]
+    },
+    {
+      "english": "draw a distinction",
+      "vietnamese": "phân biệt rõ ràng",
+      "ipa": "/drɔː ə dɪˈstɪŋkʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The author draws a distinction between belief and knowledge.",
+          "vi": "Tác giả phân biệt rõ ràng giữa niềm tin và kiến thức."
+        },
+        {
+          "en": "We must draw a distinction between cause and correlation.",
+          "vi": "Chúng ta phải phân biệt rõ ràng giữa nguyên nhân và mối tương quan."
+        },
+        {
+          "en": "It helps to draw a distinction between needs and wants.",
+          "vi": "Việc phân biệt rõ ràng giữa nhu cầu và mong muốn rất hữu ích."
+        }
+      ]
+    },
+    {
+      "english": "draw a line",
+      "vietnamese": "vạch ra ranh giới",
+      "ipa": "/drɔː ə laɪn/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "It is hard to draw a line between work and rest.",
+          "vi": "Thật khó để vạch ra ranh giới giữa công việc và nghỉ ngơi."
+        },
+        {
+          "en": "Parents should draw a line on screen time for children.",
+          "vi": "Cha mẹ nên vạch ra ranh giới về thời gian dùng màn hình cho trẻ."
+        },
+        {
+          "en": "The law draws a line between free speech and harm.",
+          "vi": "Luật pháp vạch ra ranh giới giữa tự do ngôn luận và gây hại."
+        }
+      ]
+    },
+    {
+      "english": "driving force",
+      "vietnamese": "động lực chính",
+      "ipa": "/ˈdraɪvɪŋ fɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Innovation is the driving force behind the company's success.",
+          "vi": "Đổi mới là động lực chính đằng sau thành công của công ty."
+        },
+        {
+          "en": "Curiosity was the driving force in her research career.",
+          "vi": "Sự tò mò là động lực chính trong sự nghiệp nghiên cứu của cô ấy."
+        },
+        {
+          "en": "Trade became the driving force of the region's growth.",
+          "vi": "Thương mại trở thành động lực chính cho sự tăng trưởng của khu vực."
+        }
+      ]
+    },
+    {
+      "english": "due process",
+      "vietnamese": "trình tự pháp lý đúng đắn",
+      "ipa": "/duː ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every citizen is entitled to due process under the law.",
+          "vi": "Mỗi công dân đều có quyền được hưởng trình tự pháp lý đúng đắn."
+        },
+        {
+          "en": "The court ensured due process before reaching a verdict.",
+          "vi": "Tòa án bảo đảm trình tự pháp lý đúng đắn trước khi đưa ra phán quyết."
+        },
+        {
+          "en": "Skipping due process can make a decision unlawful.",
+          "vi": "Bỏ qua trình tự pháp lý đúng đắn có thể khiến quyết định trái luật."
+        }
+      ]
+    },
+    {
+      "english": "dynamic equilibrium",
+      "vietnamese": "cân bằng động",
+      "ipa": "/daɪˈnæmɪk ˌiːkwəˈlɪbriəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The reaction reaches a dynamic equilibrium after a few minutes.",
+          "vi": "Phản ứng đạt tới trạng thái cân bằng động sau vài phút."
+        },
+        {
+          "en": "In dynamic equilibrium, forward and reverse rates are equal.",
+          "vi": "Trong cân bằng động, tốc độ thuận và nghịch bằng nhau."
+        },
+        {
+          "en": "Ecosystems often exist in a fragile dynamic equilibrium.",
+          "vi": "Các hệ sinh thái thường tồn tại trong một cân bằng động mong manh."
+        }
+      ]
+    },
+    {
+      "english": "dynamic nature",
+      "vietnamese": "bản chất năng động",
+      "ipa": "/daɪˈnæmɪk ˈneɪtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The dynamic nature of language makes it hard to fix rules.",
+          "vi": "Bản chất năng động của ngôn ngữ khiến việc cố định quy tắc rất khó."
+        },
+        {
+          "en": "Markets change quickly due to their dynamic nature.",
+          "vi": "Thị trường thay đổi nhanh do bản chất năng động của nó."
+        },
+        {
+          "en": "The dynamic nature of the field demands constant learning.",
+          "vi": "Bản chất năng động của lĩnh vực này đòi hỏi việc học liên tục."
+        }
+      ]
+    },
+    {
+      "english": "dynamic process",
+      "vietnamese": "quá trình năng động",
+      "ipa": "/daɪˈnæmɪk ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Learning is a dynamic process that continues throughout life.",
+          "vi": "Học tập là một quá trình năng động kéo dài suốt đời."
+        },
+        {
+          "en": "Cell growth is a dynamic process influenced by many factors.",
+          "vi": "Sự phát triển của tế bào là quá trình năng động chịu nhiều yếu tố tác động."
+        },
+        {
+          "en": "Culture is a dynamic process, always shifting over time.",
+          "vi": "Văn hóa là một quá trình năng động, luôn thay đổi theo thời gian."
+        }
+      ]
+    },
+    {
+      "english": "dynamic system",
+      "vietnamese": "hệ thống động",
+      "ipa": "/daɪˈnæmɪk ˈsɪstəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The climate is a dynamic system with many feedback loops.",
+          "vi": "Khí hậu là một hệ thống động với nhiều vòng phản hồi."
+        },
+        {
+          "en": "Engineers model the bridge as a dynamic system under load.",
+          "vi": "Các kỹ sư mô hình hóa cây cầu như một hệ thống động khi chịu tải."
+        },
+        {
+          "en": "A market is a dynamic system shaped by countless decisions.",
+          "vi": "Thị trường là một hệ thống động được định hình bởi vô số quyết định."
+        }
+      ]
+    },
+    {
+      "english": "earlier discussion",
+      "vietnamese": "phần thảo luận trước đó",
+      "ipa": "/ˈɜːrliər dɪˈskʌʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "As noted in the earlier discussion, the data are limited.",
+          "vi": "Như đã nêu trong phần thảo luận trước đó, dữ liệu còn hạn chế."
+        },
+        {
+          "en": "This section builds on the earlier discussion of causes.",
+          "vi": "Phần này dựa trên phần thảo luận trước đó về các nguyên nhân."
+        },
+        {
+          "en": "The earlier discussion raised several unanswered questions.",
+          "vi": "Phần thảo luận trước đó đã nêu ra nhiều câu hỏi chưa được giải đáp."
+        }
+      ]
+    },
+    {
+      "english": "earlier period",
+      "vietnamese": "thời kỳ trước đó",
+      "ipa": "/ˈɜːrliər ˈpɪriəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These customs date back to an earlier period in history.",
+          "vi": "Những phong tục này có từ một thời kỳ trước đó trong lịch sử."
+        },
+        {
+          "en": "Wages were much lower during the earlier period studied.",
+          "vi": "Tiền lương thấp hơn nhiều trong thời kỳ trước đó được nghiên cứu."
+        },
+        {
+          "en": "Art from the earlier period shows simpler designs.",
+          "vi": "Nghệ thuật từ thời kỳ trước đó cho thấy những thiết kế đơn giản hơn."
+        }
+      ]
+    },
+    {
+      "english": "earlier research",
+      "vietnamese": "nghiên cứu trước đó",
+      "ipa": "/ˈɜːrliər ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These results confirm the findings of earlier research.",
+          "vi": "Những kết quả này xác nhận các phát hiện của nghiên cứu trước đó."
+        },
+        {
+          "en": "Earlier research had ignored the role of social factors.",
+          "vi": "Nghiên cứu trước đó đã bỏ qua vai trò của các yếu tố xã hội."
+        },
+        {
+          "en": "Her study builds directly on earlier research in the field.",
+          "vi": "Nghiên cứu của cô ấy dựa trực tiếp vào nghiên cứu trước đó trong lĩnh vực này."
+        }
+      ]
+    },
+    {
+      "english": "earlier stage",
+      "vietnamese": "giai đoạn trước đó",
+      "ipa": "/ˈɜːrliər steɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Problems are easier to fix at an earlier stage.",
+          "vi": "Các vấn đề dễ khắc phục hơn ở một giai đoạn trước đó."
+        },
+        {
+          "en": "At an earlier stage, the plan looked very different.",
+          "vi": "Ở một giai đoạn trước đó, kế hoạch trông rất khác."
+        },
+        {
+          "en": "Doctors aim to detect the disease at an earlier stage.",
+          "vi": "Bác sĩ hướng tới phát hiện bệnh ở một giai đoạn trước đó."
+        }
+      ]
+    }
+  ]
+}

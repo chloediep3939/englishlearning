@@ -1,0 +1,1653 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations (Pearson 2025)",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English.",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 2,468 collocations"
+  },
+  "cards": [
+    {
+      "english": "free access",
+      "vietnamese": "quyền truy cập miễn phí",
+      "ipa": "/friː ˈækses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students enjoy free access to the university's online library.",
+          "vi": "Sinh viên được truy cập miễn phí vào thư viện trực tuyến của trường."
+        },
+        {
+          "en": "The policy guarantees free access to public health services.",
+          "vi": "Chính sách bảo đảm quyền truy cập miễn phí vào dịch vụ y tế công."
+        },
+        {
+          "en": "Researchers value free access to peer-reviewed academic journals.",
+          "vi": "Các nhà nghiên cứu coi trọng quyền truy cập miễn phí vào tạp chí học thuật."
+        }
+      ]
+    },
+    {
+      "english": "free movement",
+      "vietnamese": "sự di chuyển tự do",
+      "ipa": "/friː ˈmuːvmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The treaty allows free movement of workers between member states.",
+          "vi": "Hiệp ước cho phép lao động di chuyển tự do giữa các nước thành viên."
+        },
+        {
+          "en": "Free movement of goods boosts trade across the region.",
+          "vi": "Sự di chuyển tự do của hàng hóa thúc đẩy thương mại trong khu vực."
+        },
+        {
+          "en": "Border controls can restrict the free movement of people.",
+          "vi": "Việc kiểm soát biên giới có thể hạn chế sự di chuyển tự do của con người."
+        }
+      ]
+    },
+    {
+      "english": "freely available",
+      "vietnamese": "có sẵn miễn phí, dễ dàng tiếp cận",
+      "ipa": "/ˈfriːli əˈveɪləbəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The software is freely available for download on the website.",
+          "vi": "Phần mềm này có sẵn miễn phí để tải về trên trang web."
+        },
+        {
+          "en": "Much of the data is freely available to other researchers.",
+          "vi": "Phần lớn dữ liệu được cung cấp miễn phí cho các nhà nghiên cứu khác."
+        },
+        {
+          "en": "These resources are freely available through the public archive.",
+          "vi": "Các tài nguyên này có sẵn miễn phí qua kho lưu trữ công cộng."
+        }
+      ]
+    },
+    {
+      "english": "frequently cited",
+      "vietnamese": "được trích dẫn thường xuyên",
+      "ipa": "/ˈfriːkwəntli ˈsaɪtɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This article is frequently cited in studies of language learning.",
+          "vi": "Bài báo này được trích dẫn thường xuyên trong các nghiên cứu về học ngôn ngữ."
+        },
+        {
+          "en": "Her work remains frequently cited by scholars in the field.",
+          "vi": "Công trình của bà vẫn được các học giả trong ngành trích dẫn thường xuyên."
+        },
+        {
+          "en": "Frequently cited papers tend to shape later research directions.",
+          "vi": "Những bài báo được trích dẫn nhiều thường định hình hướng nghiên cứu về sau."
+        }
+      ]
+    },
+    {
+      "english": "frequently found",
+      "vietnamese": "thường thấy, hay bắt gặp",
+      "ipa": "/ˈfriːkwəntli faʊnd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This species is frequently found in shallow coastal waters.",
+          "vi": "Loài này thường thấy ở vùng nước nông ven biển."
+        },
+        {
+          "en": "Such errors are frequently found in students' early drafts.",
+          "vi": "Những lỗi như vậy thường thấy trong các bản nháp đầu của sinh viên."
+        },
+        {
+          "en": "The compound is frequently found in volcanic rock samples.",
+          "vi": "Hợp chất này hay bắt gặp trong các mẫu đá núi lửa."
+        }
+      ]
+    },
+    {
+      "english": "frequently referred to",
+      "vietnamese": "thường được nhắc đến, hay được viện dẫn",
+      "ipa": "/ˈfriːkwəntli rɪˈfɜːrd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This theory is frequently referred to in economics textbooks.",
+          "vi": "Lý thuyết này thường được nhắc đến trong các giáo trình kinh tế."
+        },
+        {
+          "en": "The case is frequently referred to during legal seminars.",
+          "vi": "Vụ án này hay được viện dẫn trong các buổi hội thảo pháp lý."
+        },
+        {
+          "en": "His model is frequently referred to as a classic example.",
+          "vi": "Mô hình của ông thường được nhắc đến như một ví dụ kinh điển."
+        }
+      ]
+    },
+    {
+      "english": "frequently used",
+      "vietnamese": "thường được sử dụng",
+      "ipa": "/ˈfriːkwəntli juːzd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This method is frequently used in qualitative research studies.",
+          "vi": "Phương pháp này thường được sử dụng trong các nghiên cứu định tính."
+        },
+        {
+          "en": "The term is frequently used by economists to describe inflation.",
+          "vi": "Thuật ngữ này thường được các nhà kinh tế dùng để mô tả lạm phát."
+        },
+        {
+          "en": "Frequently used phrases can make essays sound repetitive.",
+          "vi": "Những cụm từ được dùng nhiều có thể khiến bài luận nghe lặp lại."
+        }
+      ]
+    },
+    {
+      "english": "fulfil an obligation",
+      "vietnamese": "thực hiện một nghĩa vụ",
+      "ipa": "/fʊlˈfɪl ən ˌɑːblɪˈɡeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The company must fulfil an obligation to protect its customers.",
+          "vi": "Công ty phải thực hiện nghĩa vụ bảo vệ khách hàng của mình."
+        },
+        {
+          "en": "Citizens fulfil an obligation by paying their taxes on time.",
+          "vi": "Công dân thực hiện một nghĩa vụ bằng cách nộp thuế đúng hạn."
+        },
+        {
+          "en": "Failing to fulfil an obligation can lead to legal consequences.",
+          "vi": "Không thực hiện nghĩa vụ có thể dẫn đến hậu quả pháp lý."
+        }
+      ]
+    },
+    {
+      "english": "full analysis",
+      "vietnamese": "sự phân tích đầy đủ, toàn diện",
+      "ipa": "/fʊl əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A full analysis of the data revealed several unexpected patterns.",
+          "vi": "Một phân tích đầy đủ về dữ liệu cho thấy nhiều mô hình bất ngờ."
+        },
+        {
+          "en": "The report includes a full analysis of the survey results.",
+          "vi": "Báo cáo bao gồm một phân tích toàn diện về kết quả khảo sát."
+        },
+        {
+          "en": "A full analysis is needed before drawing any firm conclusions.",
+          "vi": "Cần một phân tích đầy đủ trước khi rút ra kết luận chắc chắn."
+        }
+      ]
+    },
+    {
+      "english": "full employment",
+      "vietnamese": "toàn dụng lao động (mọi người có việc làm)",
+      "ipa": "/fʊl ɪmˈplɔɪmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The government aims to achieve full employment within a decade.",
+          "vi": "Chính phủ đặt mục tiêu đạt toàn dụng lao động trong một thập kỷ."
+        },
+        {
+          "en": "Full employment often puts upward pressure on wages.",
+          "vi": "Toàn dụng lao động thường tạo áp lực tăng lên tiền lương."
+        },
+        {
+          "en": "Economists debate whether full employment is truly attainable.",
+          "vi": "Các nhà kinh tế tranh luận liệu toàn dụng lao động có thực sự đạt được."
+        }
+      ]
+    },
+    {
+      "english": "full information",
+      "vietnamese": "thông tin đầy đủ",
+      "ipa": "/fʊl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Patients should receive full information before agreeing to treatment.",
+          "vi": "Bệnh nhân nên nhận thông tin đầy đủ trước khi đồng ý điều trị."
+        },
+        {
+          "en": "The website provides full information about admission requirements.",
+          "vi": "Trang web cung cấp thông tin đầy đủ về yêu cầu tuyển sinh."
+        },
+        {
+          "en": "Decisions made without full information are often unreliable.",
+          "vi": "Quyết định đưa ra mà thiếu thông tin đầy đủ thường không đáng tin."
+        }
+      ]
+    },
+    {
+      "english": "full participation",
+      "vietnamese": "sự tham gia đầy đủ, trọn vẹn",
+      "ipa": "/fʊl pɑːrˌtɪsɪˈpeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The program encourages full participation from every team member.",
+          "vi": "Chương trình khuyến khích sự tham gia đầy đủ của từng thành viên."
+        },
+        {
+          "en": "Full participation in class improves students' speaking confidence.",
+          "vi": "Tham gia đầy đủ trong lớp giúp sinh viên tự tin hơn khi nói."
+        },
+        {
+          "en": "Equal access ensures the full participation of disabled citizens.",
+          "vi": "Tiếp cận bình đẳng bảo đảm sự tham gia trọn vẹn của người khuyết tật."
+        }
+      ]
+    },
+    {
+      "english": "full potential",
+      "vietnamese": "tiềm năng đầy đủ, trọn vẹn",
+      "ipa": "/fʊl pəˈtenʃəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Good teaching helps students reach their full potential.",
+          "vi": "Việc giảng dạy tốt giúp sinh viên phát huy hết tiềm năng của mình."
+        },
+        {
+          "en": "The technology has not yet realized its full potential.",
+          "vi": "Công nghệ này vẫn chưa phát huy hết tiềm năng của nó."
+        },
+        {
+          "en": "Investment is required for the region to achieve full potential.",
+          "vi": "Cần đầu tư để khu vực đạt được tiềm năng trọn vẹn của mình."
+        }
+      ]
+    },
+    {
+      "english": "full range of",
+      "vietnamese": "đầy đủ các loại, toàn bộ phạm vi",
+      "ipa": "/fʊl reɪndʒ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course covers a full range of research methods.",
+          "vi": "Khóa học bao quát đầy đủ các phương pháp nghiên cứu."
+        },
+        {
+          "en": "The clinic offers a full range of medical services.",
+          "vi": "Phòng khám cung cấp đầy đủ các loại dịch vụ y tế."
+        },
+        {
+          "en": "Students explore a full range of viewpoints in the seminar.",
+          "vi": "Sinh viên khám phá toàn bộ phạm vi quan điểm trong buổi hội thảo."
+        }
+      ]
+    },
+    {
+      "english": "fuller discussion",
+      "vietnamese": "sự bàn luận sâu rộng hơn",
+      "ipa": "/ˈfʊlər dɪˈskʌʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A fuller discussion of these issues appears in chapter four.",
+          "vi": "Một bàn luận sâu rộng hơn về các vấn đề này nằm ở chương bốn."
+        },
+        {
+          "en": "The topic deserves a fuller discussion than space allows here.",
+          "vi": "Chủ đề này đáng được bàn luận sâu hơn so với khuôn khổ ở đây."
+        },
+        {
+          "en": "Reviewers asked for a fuller discussion of the limitations.",
+          "vi": "Người phản biện yêu cầu bàn luận đầy đủ hơn về các hạn chế."
+        }
+      ]
+    },
+    {
+      "english": "fully aware",
+      "vietnamese": "hoàn toàn nhận thức được, ý thức rõ",
+      "ipa": "/ˈfʊli əˈwer/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The researchers were fully aware of the study's limitations.",
+          "vi": "Các nhà nghiên cứu hoàn toàn nhận thức được những hạn chế của nghiên cứu."
+        },
+        {
+          "en": "Participants were fully aware of the risks before joining.",
+          "vi": "Người tham gia ý thức rõ về các rủi ro trước khi tham gia."
+        },
+        {
+          "en": "Managers should be fully aware of local labor laws.",
+          "vi": "Người quản lý nên hoàn toàn nắm rõ luật lao động địa phương."
+        }
+      ]
+    },
+    {
+      "english": "fully developed",
+      "vietnamese": "phát triển hoàn chỉnh, đầy đủ",
+      "ipa": "/ˈfʊli dɪˈveləpt/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The theory is not yet fully developed and needs more testing.",
+          "vi": "Lý thuyết này chưa được phát triển hoàn chỉnh và cần kiểm chứng thêm."
+        },
+        {
+          "en": "A fully developed argument requires strong supporting evidence.",
+          "vi": "Một lập luận phát triển đầy đủ cần có bằng chứng hỗ trợ vững chắc."
+        },
+        {
+          "en": "The embryo's organs are not fully developed at this stage.",
+          "vi": "Các cơ quan của phôi chưa phát triển hoàn chỉnh ở giai đoạn này."
+        }
+      ]
+    },
+    {
+      "english": "fully informed",
+      "vietnamese": "được thông tin đầy đủ",
+      "ipa": "/ˈfʊli ɪnˈfɔːrmd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Voters must be fully informed before making such decisions.",
+          "vi": "Cử tri phải được thông tin đầy đủ trước khi đưa ra quyết định đó."
+        },
+        {
+          "en": "The consent form ensures patients are fully informed.",
+          "vi": "Mẫu đồng ý bảo đảm rằng bệnh nhân được thông tin đầy đủ."
+        },
+        {
+          "en": "A fully informed choice depends on access to reliable data.",
+          "vi": "Một lựa chọn được thông tin đầy đủ phụ thuộc vào dữ liệu đáng tin cậy."
+        }
+      ]
+    },
+    {
+      "english": "fully integrated",
+      "vietnamese": "được tích hợp hoàn toàn",
+      "ipa": "/ˈfʊli ˈɪntɪˌɡreɪtɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The new software is fully integrated with existing systems.",
+          "vi": "Phần mềm mới được tích hợp hoàn toàn với các hệ thống hiện có."
+        },
+        {
+          "en": "Immigrants who are fully integrated tend to find work faster.",
+          "vi": "Người nhập cư hòa nhập hoàn toàn thường tìm được việc nhanh hơn."
+        },
+        {
+          "en": "The modules are fully integrated into a single curriculum.",
+          "vi": "Các học phần được tích hợp hoàn toàn vào một chương trình duy nhất."
+        }
+      ]
+    },
+    {
+      "english": "fully realized",
+      "vietnamese": "được hiện thực hóa trọn vẹn",
+      "ipa": "/ˈfʊli ˈriːəˌlaɪzd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The project's benefits were never fully realized in practice.",
+          "vi": "Lợi ích của dự án chưa bao giờ được hiện thực hóa trọn vẹn trên thực tế."
+        },
+        {
+          "en": "Her ambitions were fully realized only after years of work.",
+          "vi": "Hoài bão của cô chỉ được hiện thực hóa trọn vẹn sau nhiều năm nỗ lực."
+        },
+        {
+          "en": "The potential of renewable energy is not yet fully realized.",
+          "vi": "Tiềm năng của năng lượng tái tạo vẫn chưa được khai thác trọn vẹn."
+        }
+      ]
+    },
+    {
+      "english": "fully understand",
+      "vietnamese": "hiểu một cách đầy đủ, thấu hiểu",
+      "ipa": "/ˈfʊli ˌʌndərˈstænd/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "Scientists do not yet fully understand how the disease spreads.",
+          "vi": "Các nhà khoa học vẫn chưa hiểu đầy đủ cách bệnh lây lan."
+        },
+        {
+          "en": "To fully understand the results, read the methods section first.",
+          "vi": "Để hiểu trọn vẹn kết quả, hãy đọc phần phương pháp trước."
+        },
+        {
+          "en": "Students must fully understand the theory before applying it.",
+          "vi": "Sinh viên phải thấu hiểu lý thuyết trước khi áp dụng nó."
+        }
+      ]
+    },
+    {
+      "english": "functional requirement",
+      "vietnamese": "yêu cầu chức năng",
+      "ipa": "/ˈfʌŋkʃənəl rɪˈkwaɪərmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each functional requirement must be tested before the launch.",
+          "vi": "Mỗi yêu cầu chức năng phải được kiểm thử trước khi ra mắt."
+        },
+        {
+          "en": "The team documented every functional requirement of the system.",
+          "vi": "Nhóm đã ghi lại từng yêu cầu chức năng của hệ thống."
+        },
+        {
+          "en": "A missing functional requirement can delay the whole project.",
+          "vi": "Thiếu một yêu cầu chức năng có thể làm chậm cả dự án."
+        }
+      ]
+    },
+    {
+      "english": "fundamental aspect",
+      "vietnamese": "khía cạnh căn bản, cốt lõi",
+      "ipa": "/ˌfʌndəˈmentəl ˈæspekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Trust is a fundamental aspect of any successful partnership.",
+          "vi": "Niềm tin là một khía cạnh căn bản của bất kỳ quan hệ hợp tác nào."
+        },
+        {
+          "en": "The essay overlooks a fundamental aspect of the problem.",
+          "vi": "Bài luận bỏ qua một khía cạnh cốt lõi của vấn đề."
+        },
+        {
+          "en": "Memory is a fundamental aspect of human learning.",
+          "vi": "Trí nhớ là một khía cạnh căn bản của việc học ở con người."
+        }
+      ]
+    },
+    {
+      "english": "fundamental assumption",
+      "vietnamese": "giả định nền tảng",
+      "ipa": "/ˌfʌndəˈmentəl əˈsʌmpʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The model rests on a fundamental assumption about human behavior.",
+          "vi": "Mô hình dựa trên một giả định nền tảng về hành vi con người."
+        },
+        {
+          "en": "Critics challenged the fundamental assumption of the study.",
+          "vi": "Giới phê bình đã chất vấn giả định nền tảng của nghiên cứu."
+        },
+        {
+          "en": "Every fundamental assumption should be stated clearly upfront.",
+          "vi": "Mỗi giả định nền tảng cần được nêu rõ ràng ngay từ đầu."
+        }
+      ]
+    },
+    {
+      "english": "fundamental change",
+      "vietnamese": "sự thay đổi căn bản",
+      "ipa": "/ˌfʌndəˈmentəl tʃeɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The reform brought a fundamental change to the education system.",
+          "vi": "Cuộc cải cách đã mang lại sự thay đổi căn bản cho hệ thống giáo dục."
+        },
+        {
+          "en": "Technology has caused a fundamental change in how we work.",
+          "vi": "Công nghệ đã tạo ra một thay đổi căn bản trong cách chúng ta làm việc."
+        },
+        {
+          "en": "Such a fundamental change requires broad public support.",
+          "vi": "Một thay đổi căn bản như vậy cần sự ủng hộ rộng rãi của công chúng."
+        }
+      ]
+    },
+    {
+      "english": "fundamental component",
+      "vietnamese": "thành phần cốt lõi",
+      "ipa": "/ˌfʌndəˈmentəl kəmˈpoʊnənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Feedback is a fundamental component of effective teaching.",
+          "vi": "Phản hồi là một thành phần cốt lõi của việc giảng dạy hiệu quả."
+        },
+        {
+          "en": "Water is a fundamental component of every living cell.",
+          "vi": "Nước là một thành phần cốt lõi của mọi tế bào sống."
+        },
+        {
+          "en": "Trust forms a fundamental component of stable economies.",
+          "vi": "Niềm tin tạo nên một thành phần cốt lõi của nền kinh tế ổn định."
+        }
+      ]
+    },
+    {
+      "english": "fundamental difference",
+      "vietnamese": "sự khác biệt căn bản",
+      "ipa": "/ˌfʌndəˈmentəl ˈdɪfərəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a fundamental difference between the two approaches.",
+          "vi": "Có một sự khác biệt căn bản giữa hai cách tiếp cận."
+        },
+        {
+          "en": "The study highlights a fundamental difference in cell structure.",
+          "vi": "Nghiên cứu làm nổi bật một khác biệt căn bản trong cấu trúc tế bào."
+        },
+        {
+          "en": "A fundamental difference in values caused the disagreement.",
+          "vi": "Một khác biệt căn bản về giá trị đã gây ra sự bất đồng."
+        }
+      ]
+    },
+    {
+      "english": "fundamental importance",
+      "vietnamese": "tầm quan trọng căn bản",
+      "ipa": "/ˌfʌndəˈmentəl ɪmˈpɔːrtəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Clean water is of fundamental importance to public health.",
+          "vi": "Nước sạch có tầm quan trọng căn bản đối với sức khỏe cộng đồng."
+        },
+        {
+          "en": "These findings are of fundamental importance to the field.",
+          "vi": "Những phát hiện này có tầm quan trọng căn bản đối với ngành."
+        },
+        {
+          "en": "Education is of fundamental importance to economic growth.",
+          "vi": "Giáo dục có tầm quan trọng căn bản đối với tăng trưởng kinh tế."
+        }
+      ]
+    },
+    {
+      "english": "fundamental principle",
+      "vietnamese": "nguyên tắc căn bản",
+      "ipa": "/ˌfʌndəˈmentəl ˈprɪnsəpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Equality before the law is a fundamental principle of democracy.",
+          "vi": "Bình đẳng trước pháp luật là một nguyên tắc căn bản của nền dân chủ."
+        },
+        {
+          "en": "The experiment illustrates a fundamental principle of physics.",
+          "vi": "Thí nghiệm minh họa một nguyên tắc căn bản của vật lý."
+        },
+        {
+          "en": "Respect for evidence is a fundamental principle of science.",
+          "vi": "Tôn trọng bằng chứng là một nguyên tắc căn bản của khoa học."
+        }
+      ]
+    },
+    {
+      "english": "fundamental problem",
+      "vietnamese": "vấn đề căn bản, cốt lõi",
+      "ipa": "/ˌfʌndəˈmentəl ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The fundamental problem is a lack of reliable data.",
+          "vi": "Vấn đề căn bản là sự thiếu hụt dữ liệu đáng tin cậy."
+        },
+        {
+          "en": "Critics argue the plan ignores the fundamental problem entirely.",
+          "vi": "Giới phê bình cho rằng kế hoạch hoàn toàn bỏ qua vấn đề cốt lõi."
+        },
+        {
+          "en": "Solving the fundamental problem requires long-term investment.",
+          "vi": "Giải quyết vấn đề căn bản đòi hỏi đầu tư dài hạn."
+        }
+      ]
+    },
+    {
+      "english": "fundamental question",
+      "vietnamese": "câu hỏi căn bản, cốt lõi",
+      "ipa": "/ˌfʌndəˈmentəl ˈkwestʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study addresses a fundamental question about human memory.",
+          "vi": "Nghiên cứu giải quyết một câu hỏi căn bản về trí nhớ con người."
+        },
+        {
+          "en": "A fundamental question remains: who should pay for this?",
+          "vi": "Một câu hỏi cốt lõi vẫn còn đó: ai sẽ chi trả cho việc này?"
+        },
+        {
+          "en": "Philosophers have long debated this fundamental question.",
+          "vi": "Các triết gia từ lâu đã tranh luận về câu hỏi căn bản này."
+        }
+      ]
+    },
+    {
+      "english": "fundamentally different",
+      "vietnamese": "khác nhau về căn bản",
+      "ipa": "/ˌfʌndəˈmentəli ˈdɪfərənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The two theories are fundamentally different in their assumptions.",
+          "vi": "Hai lý thuyết khác nhau về căn bản trong các giả định của chúng."
+        },
+        {
+          "en": "Online learning is fundamentally different from classroom teaching.",
+          "vi": "Học trực tuyến khác về căn bản so với giảng dạy trên lớp."
+        },
+        {
+          "en": "Their conclusions were fundamentally different despite similar data.",
+          "vi": "Kết luận của họ khác nhau về căn bản dù dùng dữ liệu tương tự."
+        }
+      ]
+    },
+    {
+      "english": "further analysis",
+      "vietnamese": "sự phân tích thêm",
+      "ipa": "/ˈfɜːrðər əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Further analysis is needed to confirm these preliminary results.",
+          "vi": "Cần phân tích thêm để xác nhận những kết quả sơ bộ này."
+        },
+        {
+          "en": "Further analysis revealed a strong link between the variables.",
+          "vi": "Phân tích thêm cho thấy mối liên hệ chặt chẽ giữa các biến số."
+        },
+        {
+          "en": "The data was set aside for further analysis next year.",
+          "vi": "Dữ liệu được giữ lại để phân tích thêm vào năm sau."
+        }
+      ]
+    },
+    {
+      "english": "further consideration",
+      "vietnamese": "sự cân nhắc thêm",
+      "ipa": "/ˈfɜːrðər kənˌsɪdəˈreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The proposal requires further consideration before any approval.",
+          "vi": "Đề xuất cần được cân nhắc thêm trước khi được phê duyệt."
+        },
+        {
+          "en": "These factors deserve further consideration in future studies.",
+          "vi": "Những yếu tố này đáng được cân nhắc thêm trong các nghiên cứu sau."
+        },
+        {
+          "en": "The committee postponed the decision for further consideration.",
+          "vi": "Ủy ban hoãn quyết định để cân nhắc thêm."
+        }
+      ]
+    },
+    {
+      "english": "further development",
+      "vietnamese": "sự phát triển thêm",
+      "ipa": "/ˈfɜːrðər dɪˈveləpmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The prototype needs further development before it can be sold.",
+          "vi": "Bản mẫu cần được phát triển thêm trước khi có thể bán ra."
+        },
+        {
+          "en": "Funding was secured for the further development of the vaccine.",
+          "vi": "Đã có kinh phí cho việc phát triển thêm loại vắc-xin này."
+        },
+        {
+          "en": "These ideas offer scope for further development in later chapters.",
+          "vi": "Những ý tưởng này mở ra hướng phát triển thêm ở các chương sau."
+        }
+      ]
+    },
+    {
+      "english": "further divided into",
+      "vietnamese": "được chia nhỏ thêm thành",
+      "ipa": "/ˈfɜːrðər dɪˈvaɪdɪd ˈɪntə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Each category is further divided into three smaller subgroups.",
+          "vi": "Mỗi nhóm được chia nhỏ thêm thành ba phân nhóm nhỏ hơn."
+        },
+        {
+          "en": "The sample was further divided into control and test groups.",
+          "vi": "Mẫu được chia nhỏ thêm thành nhóm đối chứng và nhóm thử nghiệm."
+        },
+        {
+          "en": "The chapter is further divided into clearly labeled sections.",
+          "vi": "Chương này được chia nhỏ thêm thành các phần được dán nhãn rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "further evidence",
+      "vietnamese": "bằng chứng bổ sung",
+      "ipa": "/ˈfɜːrðər ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Further evidence is required to support this bold claim.",
+          "vi": "Cần bằng chứng bổ sung để hỗ trợ cho khẳng định táo bạo này."
+        },
+        {
+          "en": "Recent fossils provide further evidence for the theory.",
+          "vi": "Các hóa thạch gần đây cung cấp bằng chứng bổ sung cho lý thuyết."
+        },
+        {
+          "en": "The trial gathered further evidence of the drug's safety.",
+          "vi": "Cuộc thử nghiệm đã thu thập thêm bằng chứng về độ an toàn của thuốc."
+        }
+      ]
+    },
+    {
+      "english": "further explanation",
+      "vietnamese": "lời giải thích thêm",
+      "ipa": "/ˈfɜːrðər ˌekspləˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These terms require further explanation for the general reader.",
+          "vi": "Những thuật ngữ này cần được giải thích thêm cho độc giả phổ thông."
+        },
+        {
+          "en": "The teacher offered further explanation after the lecture.",
+          "vi": "Giáo viên đưa ra lời giải thích thêm sau bài giảng."
+        },
+        {
+          "en": "No further explanation was given for the sudden change.",
+          "vi": "Không có lời giải thích thêm nào cho sự thay đổi đột ngột."
+        }
+      ]
+    },
+    {
+      "english": "further information",
+      "vietnamese": "thông tin thêm",
+      "ipa": "/ˈfɜːrðər ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "For further information, please contact the admissions office.",
+          "vi": "Để biết thêm thông tin, vui lòng liên hệ phòng tuyển sinh."
+        },
+        {
+          "en": "The appendix provides further information about the methodology.",
+          "vi": "Phụ lục cung cấp thông tin thêm về phương pháp luận."
+        },
+        {
+          "en": "Further information is available on the project's website.",
+          "vi": "Thông tin thêm có sẵn trên trang web của dự án."
+        }
+      ]
+    },
+    {
+      "english": "further investigation",
+      "vietnamese": "sự điều tra, tìm hiểu thêm",
+      "ipa": "/ˈfɜːrðər ɪnˌvestɪˈɡeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These anomalies warrant further investigation by the research team.",
+          "vi": "Những bất thường này cần được nhóm nghiên cứu tìm hiểu thêm."
+        },
+        {
+          "en": "The police are conducting further investigation into the case.",
+          "vi": "Cảnh sát đang tiến hành điều tra thêm về vụ việc."
+        },
+        {
+          "en": "Further investigation may reveal the cause of the failure.",
+          "vi": "Việc tìm hiểu thêm có thể làm rõ nguyên nhân của sự cố."
+        }
+      ]
+    },
+    {
+      "english": "further research",
+      "vietnamese": "nghiên cứu thêm",
+      "ipa": "/ˈfɜːrðər ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Further research is needed to confirm the link conclusively.",
+          "vi": "Cần nghiên cứu thêm để xác nhận mối liên hệ một cách chắc chắn."
+        },
+        {
+          "en": "The paper suggests several directions for further research.",
+          "vi": "Bài báo gợi ý một số hướng cho nghiên cứu thêm."
+        },
+        {
+          "en": "Further research could explore the long-term effects of the drug.",
+          "vi": "Nghiên cứu thêm có thể khám phá tác động dài hạn của loại thuốc."
+        }
+      ]
+    },
+    {
+      "english": "further study",
+      "vietnamese": "sự nghiên cứu, học tập thêm",
+      "ipa": "/ˈfɜːrðər ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "This topic clearly merits further study in future projects.",
+          "vi": "Chủ đề này rõ ràng xứng đáng được nghiên cứu thêm trong các dự án sau."
+        },
+        {
+          "en": "Many graduates pursue further study at the master's level.",
+          "vi": "Nhiều sinh viên tốt nghiệp theo học thêm ở bậc thạc sĩ."
+        },
+        {
+          "en": "Further study is required to understand the full effects.",
+          "vi": "Cần nghiên cứu thêm để hiểu hết các tác động."
+        }
+      ]
+    },
+    {
+      "english": "future development",
+      "vietnamese": "sự phát triển trong tương lai",
+      "ipa": "/ˈfjuːtʃər dɪˈveləpmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report outlines plans for the future development of the city.",
+          "vi": "Báo cáo phác thảo các kế hoạch phát triển thành phố trong tương lai."
+        },
+        {
+          "en": "Investment today supports the future development of the region.",
+          "vi": "Đầu tư hôm nay hỗ trợ sự phát triển của khu vực trong tương lai."
+        },
+        {
+          "en": "These findings will guide the future development of the product.",
+          "vi": "Những phát hiện này sẽ định hướng phát triển sản phẩm trong tương lai."
+        }
+      ]
+    },
+    {
+      "english": "future prospects",
+      "vietnamese": "triển vọng tương lai",
+      "ipa": "/ˈfjuːtʃər ˈprɑːspekts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A degree can greatly improve a graduate's future prospects.",
+          "vi": "Một tấm bằng có thể cải thiện đáng kể triển vọng tương lai của sinh viên."
+        },
+        {
+          "en": "The report assesses the future prospects of the industry.",
+          "vi": "Báo cáo đánh giá triển vọng tương lai của ngành công nghiệp."
+        },
+        {
+          "en": "Economic uncertainty has dimmed the country's future prospects.",
+          "vi": "Sự bất ổn kinh tế đã làm lu mờ triển vọng tương lai của đất nước."
+        }
+      ]
+    },
+    {
+      "english": "future research",
+      "vietnamese": "nghiên cứu trong tương lai",
+      "ipa": "/ˈfjuːtʃər ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Future research should examine a larger and more diverse sample.",
+          "vi": "Nghiên cứu trong tương lai nên xem xét một mẫu lớn và đa dạng hơn."
+        },
+        {
+          "en": "The authors propose several questions for future research.",
+          "vi": "Các tác giả đề xuất một số câu hỏi cho nghiên cứu trong tương lai."
+        },
+        {
+          "en": "Future research could test the model in other countries.",
+          "vi": "Nghiên cứu trong tương lai có thể kiểm chứng mô hình ở các nước khác."
+        }
+      ]
+    },
+    {
+      "english": "future study",
+      "vietnamese": "nghiên cứu sau này",
+      "ipa": "/ˈfjuːtʃər ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A future study might explore the role of motivation here.",
+          "vi": "Một nghiên cứu sau này có thể khám phá vai trò của động lực ở đây."
+        },
+        {
+          "en": "The findings provide a foundation for future study of the topic.",
+          "vi": "Những phát hiện này tạo nền tảng cho nghiên cứu sau này về chủ đề."
+        },
+        {
+          "en": "Any future study should control for these confounding factors.",
+          "vi": "Mọi nghiên cứu sau này nên kiểm soát các yếu tố gây nhiễu này."
+        }
+      ]
+    },
+    {
+      "english": "gain access to",
+      "vietnamese": "có được quyền truy cập vào",
+      "ipa": "/ɡeɪn ˈækses tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Students can gain access to the database with their library card.",
+          "vi": "Sinh viên có thể truy cập cơ sở dữ liệu bằng thẻ thư viện của mình."
+        },
+        {
+          "en": "Hackers tried to gain access to the company's private servers.",
+          "vi": "Tin tặc đã cố truy cập vào các máy chủ riêng của công ty."
+        },
+        {
+          "en": "Researchers struggled to gain access to the remote region.",
+          "vi": "Các nhà nghiên cứu chật vật để tiếp cận được vùng xa xôi này."
+        }
+      ]
+    },
+    {
+      "english": "gain information",
+      "vietnamese": "thu được thông tin",
+      "ipa": "/ɡeɪn ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Interviews help researchers gain information about people's habits.",
+          "vi": "Phỏng vấn giúp nhà nghiên cứu thu được thông tin về thói quen của mọi người."
+        },
+        {
+          "en": "We gain information about the past by studying old documents.",
+          "vi": "Chúng ta thu được thông tin về quá khứ qua việc nghiên cứu tài liệu cũ."
+        },
+        {
+          "en": "Surveys are a quick way to gain information from many people.",
+          "vi": "Khảo sát là cách nhanh để thu được thông tin từ nhiều người."
+        }
+      ]
+    },
+    {
+      "english": "gain insight into",
+      "vietnamese": "có được hiểu biết sâu sắc về",
+      "ipa": "/ɡeɪn ˈɪnsaɪt ˈɪntə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The study helps us gain insight into consumer decision-making.",
+          "vi": "Nghiên cứu giúp ta hiểu sâu hơn về cách người tiêu dùng ra quyết định."
+        },
+        {
+          "en": "Fieldwork allowed her to gain insight into local traditions.",
+          "vi": "Công tác thực địa giúp cô hiểu sâu sắc về phong tục địa phương."
+        },
+        {
+          "en": "Interviews gain insight into how patients experience illness.",
+          "vi": "Phỏng vấn giúp hiểu sâu về cách bệnh nhân trải nghiệm bệnh tật."
+        }
+      ]
+    },
+    {
+      "english": "gather data",
+      "vietnamese": "thu thập dữ liệu",
+      "ipa": "/ˈɡæðər ˈdeɪtə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The team used surveys to gather data from rural households.",
+          "vi": "Nhóm dùng khảo sát để thu thập dữ liệu từ các hộ gia đình nông thôn."
+        },
+        {
+          "en": "Sensors gather data on temperature throughout the day.",
+          "vi": "Các cảm biến thu thập dữ liệu về nhiệt độ suốt cả ngày."
+        },
+        {
+          "en": "It took six months to gather data for the study.",
+          "vi": "Phải mất sáu tháng để thu thập dữ liệu cho nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "gather information",
+      "vietnamese": "thu thập thông tin",
+      "ipa": "/ˈɡæðər ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Journalists gather information from a wide range of sources.",
+          "vi": "Nhà báo thu thập thông tin từ nhiều nguồn khác nhau."
+        },
+        {
+          "en": "The committee will gather information before making a decision.",
+          "vi": "Ủy ban sẽ thu thập thông tin trước khi đưa ra quyết định."
+        },
+        {
+          "en": "Online tools make it easier to gather information quickly.",
+          "vi": "Các công cụ trực tuyến giúp thu thập thông tin nhanh chóng hơn."
+        }
+      ]
+    },
+    {
+      "english": "gender equality",
+      "vietnamese": "bình đẳng giới",
+      "ipa": "/ˈdʒendər ɪˈkwɑːləti/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The policy aims to promote gender equality in the workplace.",
+          "vi": "Chính sách nhằm thúc đẩy bình đẳng giới tại nơi làm việc."
+        },
+        {
+          "en": "Many countries have made progress toward gender equality.",
+          "vi": "Nhiều quốc gia đã đạt tiến bộ trong việc hướng tới bình đẳng giới."
+        },
+        {
+          "en": "Education plays a key role in achieving gender equality.",
+          "vi": "Giáo dục đóng vai trò quan trọng trong việc đạt bình đẳng giới."
+        }
+      ]
+    },
+    {
+      "english": "gender stereotype",
+      "vietnamese": "định kiến giới",
+      "ipa": "/ˈdʒendər ˈsteriəˌtaɪp/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Advertisements often reinforce a common gender stereotype.",
+          "vi": "Quảng cáo thường củng cố một định kiến giới phổ biến."
+        },
+        {
+          "en": "The study examined how a gender stereotype affects career choice.",
+          "vi": "Nghiên cứu xem xét cách định kiến giới ảnh hưởng đến lựa chọn nghề nghiệp."
+        },
+        {
+          "en": "Teachers should avoid promoting any gender stereotype in class.",
+          "vi": "Giáo viên nên tránh cổ xúy bất kỳ định kiến giới nào trong lớp."
+        }
+      ]
+    },
+    {
+      "english": "general agreement",
+      "vietnamese": "sự nhất trí chung",
+      "ipa": "/ˈdʒenərəl əˈɡriːmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is general agreement that the policy needs reform.",
+          "vi": "Có sự nhất trí chung rằng chính sách này cần được cải cách."
+        },
+        {
+          "en": "The experts reached general agreement on the main causes.",
+          "vi": "Các chuyên gia đã đạt được sự nhất trí chung về các nguyên nhân chính."
+        },
+        {
+          "en": "Despite some debate, general agreement emerged on the goals.",
+          "vi": "Dù còn tranh luận, sự nhất trí chung đã hình thành về các mục tiêu."
+        }
+      ]
+    },
+    {
+      "english": "general approach",
+      "vietnamese": "cách tiếp cận chung",
+      "ipa": "/ˈdʒenərəl əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The chapter outlines a general approach to solving the problem.",
+          "vi": "Chương này phác thảo một cách tiếp cận chung để giải quyết vấn đề."
+        },
+        {
+          "en": "Their general approach combines theory with practical examples.",
+          "vi": "Cách tiếp cận chung của họ kết hợp lý thuyết với ví dụ thực tế."
+        },
+        {
+          "en": "A general approach may not suit every individual case.",
+          "vi": "Một cách tiếp cận chung có thể không phù hợp với mọi trường hợp."
+        }
+      ]
+    },
+    {
+      "english": "general argument",
+      "vietnamese": "lập luận tổng quát",
+      "ipa": "/ˈdʒenərəl ˈɑːrɡjəmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book's general argument is that culture shapes economics.",
+          "vi": "Lập luận tổng quát của cuốn sách là văn hóa định hình kinh tế."
+        },
+        {
+          "en": "Her general argument holds even when the details differ.",
+          "vi": "Lập luận tổng quát của bà vẫn đúng ngay cả khi chi tiết khác nhau."
+        },
+        {
+          "en": "Critics accepted the general argument but questioned the evidence.",
+          "vi": "Giới phê bình chấp nhận lập luận tổng quát nhưng nghi ngờ bằng chứng."
+        }
+      ]
+    },
+    {
+      "english": "general aspect",
+      "vietnamese": "khía cạnh chung",
+      "ipa": "/ˈdʒenərəl ˈæspekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The lecture covered a general aspect of climate science.",
+          "vi": "Bài giảng đề cập đến một khía cạnh chung của khoa học khí hậu."
+        },
+        {
+          "en": "We start with a general aspect before examining the details.",
+          "vi": "Chúng ta bắt đầu với một khía cạnh chung trước khi xem xét chi tiết."
+        },
+        {
+          "en": "This general aspect applies across many different cultures.",
+          "vi": "Khía cạnh chung này áp dụng cho nhiều nền văn hóa khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "general category",
+      "vietnamese": "loại chung, hạng mục chung",
+      "ipa": "/ˈdʒenərəl ˈkætəˌɡɔːri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These responses fall into one broad general category.",
+          "vi": "Những phản hồi này thuộc về một loại chung rộng lớn."
+        },
+        {
+          "en": "The survey grouped answers into a few general categories.",
+          "vi": "Khảo sát nhóm các câu trả lời vào vài hạng mục chung."
+        },
+        {
+          "en": "Each general category is defined clearly in the methods section.",
+          "vi": "Mỗi loại chung được định nghĩa rõ ràng trong phần phương pháp."
+        }
+      ]
+    },
+    {
+      "english": "general conclusion",
+      "vietnamese": "kết luận chung",
+      "ipa": "/ˈdʒenərəl kənˈkluːʒən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The general conclusion is that early intervention works best.",
+          "vi": "Kết luận chung là can thiệp sớm mang lại hiệu quả tốt nhất."
+        },
+        {
+          "en": "From these results we can draw a clear general conclusion.",
+          "vi": "Từ những kết quả này, ta có thể rút ra một kết luận chung rõ ràng."
+        },
+        {
+          "en": "The general conclusion holds despite a few exceptions.",
+          "vi": "Kết luận chung vẫn đúng dù có một vài ngoại lệ."
+        }
+      ]
+    },
+    {
+      "english": "general consensus",
+      "vietnamese": "sự đồng thuận chung",
+      "ipa": "/ˈdʒenərəl kənˈsensəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The general consensus among scientists is that the data is solid.",
+          "vi": "Sự đồng thuận chung giữa các nhà khoa học là dữ liệu đáng tin cậy."
+        },
+        {
+          "en": "There is a general consensus that the reform improved schools.",
+          "vi": "Có sự đồng thuận chung rằng cải cách đã cải thiện trường học."
+        },
+        {
+          "en": "The committee reached a general consensus after long debate.",
+          "vi": "Ủy ban đạt được sự đồng thuận chung sau cuộc tranh luận dài."
+        }
+      ]
+    },
+    {
+      "english": "general definition",
+      "vietnamese": "định nghĩa chung",
+      "ipa": "/ˈdʒenərəl ˌdefɪˈnɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The author begins with a general definition of culture.",
+          "vi": "Tác giả bắt đầu bằng một định nghĩa chung về văn hóa."
+        },
+        {
+          "en": "A general definition helps readers follow the argument.",
+          "vi": "Một định nghĩa chung giúp người đọc theo dõi lập luận."
+        },
+        {
+          "en": "We need a general definition before discussing specific cases.",
+          "vi": "Ta cần một định nghĩa chung trước khi bàn về các trường hợp cụ thể."
+        }
+      ]
+    },
+    {
+      "english": "general feature",
+      "vietnamese": "đặc điểm chung",
+      "ipa": "/ˈdʒenərəl ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Repetition is a general feature of early childhood learning.",
+          "vi": "Sự lặp lại là một đặc điểm chung của việc học ở trẻ nhỏ."
+        },
+        {
+          "en": "The report describes a general feature shared by all the cases.",
+          "vi": "Báo cáo mô tả một đặc điểm chung của tất cả các trường hợp."
+        },
+        {
+          "en": "This general feature appears across many language families.",
+          "vi": "Đặc điểm chung này xuất hiện ở nhiều ngữ hệ khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "general formula",
+      "vietnamese": "công thức tổng quát",
+      "ipa": "/ˈdʒenərəl ˈfɔːrmjələ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The chapter derives a general formula for the area of a polygon.",
+          "vi": "Chương này suy ra một công thức tổng quát cho diện tích đa giác."
+        },
+        {
+          "en": "A general formula lets us solve many similar problems quickly.",
+          "vi": "Một công thức tổng quát giúp ta giải nhanh nhiều bài tương tự."
+        },
+        {
+          "en": "From the examples, students develop a general formula themselves.",
+          "vi": "Từ các ví dụ, sinh viên tự xây dựng một công thức tổng quát."
+        }
+      ]
+    },
+    {
+      "english": "general overview",
+      "vietnamese": "cái nhìn tổng quan chung",
+      "ipa": "/ˈdʒenərəl ˈoʊvərˌvjuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The introduction gives a general overview of the topic.",
+          "vi": "Phần mở đầu đưa ra cái nhìn tổng quan chung về chủ đề."
+        },
+        {
+          "en": "This section offers a general overview before the detailed analysis.",
+          "vi": "Phần này cung cấp cái nhìn tổng quan trước khi phân tích chi tiết."
+        },
+        {
+          "en": "She began the talk with a general overview of the findings.",
+          "vi": "Cô bắt đầu bài nói bằng cái nhìn tổng quan về các phát hiện."
+        }
+      ]
+    },
+    {
+      "english": "general principle",
+      "vietnamese": "nguyên tắc chung",
+      "ipa": "/ˈdʒenərəl ˈprɪnsəpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The same general principle applies to most chemical reactions.",
+          "vi": "Cùng một nguyên tắc chung áp dụng cho hầu hết các phản ứng hóa học."
+        },
+        {
+          "en": "As a general principle, claims must be supported by evidence.",
+          "vi": "Theo nguyên tắc chung, mọi khẳng định phải có bằng chứng hỗ trợ."
+        },
+        {
+          "en": "Students should grasp the general principle before the details.",
+          "vi": "Sinh viên nên nắm nguyên tắc chung trước khi học chi tiết."
+        }
+      ]
+    },
+    {
+      "english": "general statement",
+      "vietnamese": "phát biểu chung chung",
+      "ipa": "/ˈdʒenərəl ˈsteɪtmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Avoid a vague general statement and provide specific evidence.",
+          "vi": "Tránh phát biểu chung chung mơ hồ và hãy đưa ra bằng chứng cụ thể."
+        },
+        {
+          "en": "The essay opens with a general statement about modern cities.",
+          "vi": "Bài luận mở đầu bằng một phát biểu chung về các thành phố hiện đại."
+        },
+        {
+          "en": "A general statement should be narrowed into a clear thesis.",
+          "vi": "Một phát biểu chung nên được thu hẹp thành một luận điểm rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "general tendency",
+      "vietnamese": "xu hướng chung",
+      "ipa": "/ˈdʒenərəl ˈtendənsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The data shows a general tendency toward higher prices.",
+          "vi": "Dữ liệu cho thấy một xu hướng chung là giá tăng cao hơn."
+        },
+        {
+          "en": "There is a general tendency for cities to expand outward.",
+          "vi": "Có một xu hướng chung là các thành phố mở rộng ra bên ngoài."
+        },
+        {
+          "en": "The study identified a general tendency among younger voters.",
+          "vi": "Nghiên cứu xác định một xu hướng chung ở các cử tri trẻ tuổi."
+        }
+      ]
+    },
+    {
+      "english": "general theory",
+      "vietnamese": "lý thuyết tổng quát",
+      "ipa": "/ˈdʒenərəl ˈθɪəri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Einstein's general theory transformed our view of gravity.",
+          "vi": "Lý thuyết tổng quát của Einstein đã thay đổi quan niệm về trọng lực."
+        },
+        {
+          "en": "The book proposes a general theory of social change.",
+          "vi": "Cuốn sách đề xuất một lý thuyết tổng quát về biến đổi xã hội."
+        },
+        {
+          "en": "A general theory must account for a wide range of cases.",
+          "vi": "Một lý thuyết tổng quát phải giải thích được nhiều trường hợp khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "general trend",
+      "vietnamese": "xu thế chung",
+      "ipa": "/ˈdʒenərəl trend/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The graph reveals a general trend of rising temperatures.",
+          "vi": "Biểu đồ cho thấy một xu thế chung là nhiệt độ ngày càng tăng."
+        },
+        {
+          "en": "Despite yearly variation, the general trend is upward.",
+          "vi": "Dù dao động theo năm, xu thế chung vẫn là đi lên."
+        },
+        {
+          "en": "The general trend points to greater use of renewable energy.",
+          "vi": "Xu thế chung cho thấy việc sử dụng năng lượng tái tạo nhiều hơn."
+        }
+      ]
+    },
+    {
+      "english": "generally accepted",
+      "vietnamese": "được công nhận rộng rãi",
+      "ipa": "/ˈdʒenərəli əkˈseptɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "It is generally accepted that exercise benefits mental health.",
+          "vi": "Người ta công nhận rộng rãi rằng tập thể dục có lợi cho sức khỏe tinh thần."
+        },
+        {
+          "en": "These methods are generally accepted in clinical research.",
+          "vi": "Những phương pháp này được công nhận rộng rãi trong nghiên cứu lâm sàng."
+        },
+        {
+          "en": "The theory is now generally accepted by most economists.",
+          "vi": "Lý thuyết này giờ đây được hầu hết các nhà kinh tế công nhận."
+        }
+      ]
+    },
+    {
+      "english": "generally agree",
+      "vietnamese": "nhìn chung đồng ý",
+      "ipa": "/ˈdʒenərəli əˈɡriː/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "Experts generally agree that the policy reduced pollution.",
+          "vi": "Các chuyên gia nhìn chung đồng ý rằng chính sách đã giảm ô nhiễm."
+        },
+        {
+          "en": "Historians generally agree on the main causes of the war.",
+          "vi": "Các sử gia nhìn chung đồng ý về các nguyên nhân chính của cuộc chiến."
+        },
+        {
+          "en": "Researchers generally agree that more data is needed.",
+          "vi": "Các nhà nghiên cứu nhìn chung đồng ý rằng cần thêm dữ liệu."
+        }
+      ]
+    },
+    {
+      "english": "generally assumed",
+      "vietnamese": "thường được cho rằng",
+      "ipa": "/ˈdʒenərəli əˈsuːmd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "It is generally assumed that prices will rise over time.",
+          "vi": "Người ta thường cho rằng giá sẽ tăng theo thời gian."
+        },
+        {
+          "en": "It was generally assumed the experiment would fail.",
+          "vi": "Người ta thường cho rằng thí nghiệm sẽ thất bại."
+        },
+        {
+          "en": "These assumptions are generally assumed without much evidence.",
+          "vi": "Những giả định này thường được cho là đúng mà thiếu bằng chứng."
+        }
+      ]
+    },
+    {
+      "english": "generally considered",
+      "vietnamese": "thường được xem là",
+      "ipa": "/ˈdʒenərəli kənˈsɪdərd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This is generally considered the most reliable method available.",
+          "vi": "Đây thường được xem là phương pháp đáng tin cậy nhất hiện có."
+        },
+        {
+          "en": "She is generally considered an expert in her field.",
+          "vi": "Bà thường được xem là một chuyên gia trong lĩnh vực của mình."
+        },
+        {
+          "en": "The novel is generally considered a masterpiece of the era.",
+          "vi": "Cuốn tiểu thuyết thường được xem là một kiệt tác của thời đại."
+        }
+      ]
+    },
+    {
+      "english": "generally found",
+      "vietnamese": "thường thấy, nhìn chung gặp",
+      "ipa": "/ˈdʒenərəli faʊnd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "These minerals are generally found near volcanic regions.",
+          "vi": "Những khoáng chất này thường thấy gần các vùng núi lửa."
+        },
+        {
+          "en": "Such behavior is generally found in highly social animals.",
+          "vi": "Hành vi như vậy nhìn chung gặp ở các loài vật có tính xã hội cao."
+        },
+        {
+          "en": "The pattern is generally found across most age groups.",
+          "vi": "Mô hình này thường thấy ở hầu hết các nhóm tuổi."
+        }
+      ]
+    },
+    {
+      "english": "generally known as",
+      "vietnamese": "thường được gọi là",
+      "ipa": "/ˈdʒenərəli noʊn əz/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The condition is generally known as the common cold.",
+          "vi": "Tình trạng này thường được gọi là cảm lạnh thông thường."
+        },
+        {
+          "en": "This region is generally known as the country's industrial heart.",
+          "vi": "Vùng này thường được gọi là trái tim công nghiệp của đất nước."
+        },
+        {
+          "en": "The process is generally known as natural selection.",
+          "vi": "Quá trình này thường được gọi là chọn lọc tự nhiên."
+        }
+      ]
+    },
+    {
+      "english": "genetic variation",
+      "vietnamese": "sự biến dị di truyền",
+      "ipa": "/dʒəˈnetɪk ˌveriˈeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Genetic variation helps a population adapt to changing conditions.",
+          "vi": "Sự biến dị di truyền giúp quần thể thích nghi với điều kiện thay đổi."
+        },
+        {
+          "en": "The study measured genetic variation across several populations.",
+          "vi": "Nghiên cứu đo lường sự biến dị di truyền giữa nhiều quần thể."
+        },
+        {
+          "en": "Low genetic variation can make a species vulnerable to disease.",
+          "vi": "Biến dị di truyền thấp có thể khiến loài dễ tổn thương trước bệnh tật."
+        }
+      ]
+    },
+    {
+      "english": "geographic al area",
+      "vietnamese": "khu vực địa lý",
+      "ipa": "/ˌdʒiːəˈɡræfɪkəl ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey covered a wide geographic al area of the country.",
+          "vi": "Cuộc khảo sát bao phủ một khu vực địa lý rộng lớn của đất nước."
+        },
+        {
+          "en": "Rainfall varies greatly from one geographic al area to another.",
+          "vi": "Lượng mưa khác nhau rất nhiều giữa các khu vực địa lý."
+        },
+        {
+          "en": "The disease was limited to a small geographic al area.",
+          "vi": "Dịch bệnh chỉ giới hạn trong một khu vực địa lý nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "geographic al distribution",
+      "vietnamese": "sự phân bố theo địa lý",
+      "ipa": "/ˌdʒiːəˈɡræfɪkəl ˌdɪstrɪˈbjuːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The map shows the geographic al distribution of the species.",
+          "vi": "Bản đồ cho thấy sự phân bố theo địa lý của loài này."
+        },
+        {
+          "en": "Researchers studied the geographic al distribution of the disease.",
+          "vi": "Các nhà nghiên cứu nghiên cứu sự phân bố theo địa lý của dịch bệnh."
+        },
+        {
+          "en": "The geographic al distribution of wealth remains highly uneven.",
+          "vi": "Sự phân bố của cải theo địa lý vẫn rất không đồng đều."
+        }
+      ]
+    },
+    {
+      "english": "geographic al location",
+      "vietnamese": "vị trí địa lý",
+      "ipa": "/ˌdʒiːəˈɡræfɪkəl loʊˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The city's geographic al location made it a major trading hub.",
+          "vi": "Vị trí địa lý của thành phố biến nó thành một trung tâm thương mại lớn."
+        },
+        {
+          "en": "Climate depends heavily on a region's geographic al location.",
+          "vi": "Khí hậu phụ thuộc nhiều vào vị trí địa lý của một vùng."
+        },
+        {
+          "en": "Its geographic al location gives the port a strategic advantage.",
+          "vi": "Vị trí địa lý mang lại cho cảng này một lợi thế chiến lược."
+        }
+      ]
+    },
+    {
+      "english": "get involved with",
+      "vietnamese": "tham gia vào, dính líu đến",
+      "ipa": "/ɡet ɪnˈvɑːlvd wɪð/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "Students are encouraged to get involved with campus activities.",
+          "vi": "Sinh viên được khuyến khích tham gia vào các hoạt động trong trường."
+        },
+        {
+          "en": "She wanted to get involved with the local research project.",
+          "vi": "Cô muốn tham gia vào dự án nghiên cứu của địa phương."
+        },
+        {
+          "en": "Volunteers get involved with the program to gain experience.",
+          "vi": "Các tình nguyện viên tham gia vào chương trình để có kinh nghiệm."
+        }
+      ]
+    },
+    {
+      "english": "give access to",
+      "vietnamese": "cấp quyền truy cập, cho tiếp cận",
+      "ipa": "/ɡɪv ˈækses tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The membership gives access to thousands of academic articles.",
+          "vi": "Tư cách thành viên cho phép truy cập hàng nghìn bài báo học thuật."
+        },
+        {
+          "en": "The new bridge gives access to remote mountain villages.",
+          "vi": "Cây cầu mới giúp tiếp cận các bản làng vùng núi xa xôi."
+        },
+        {
+          "en": "The pass gives access to all areas of the conference.",
+          "vi": "Thẻ vào cổng cho phép tiếp cận mọi khu vực của hội nghị."
+        }
+      ]
+    },
+    {
+      "english": "give consent",
+      "vietnamese": "đưa ra sự đồng ý, chấp thuận",
+      "ipa": "/ɡɪv kənˈsent/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Patients must give consent before any procedure begins.",
+          "vi": "Bệnh nhân phải đưa ra sự đồng ý trước khi bắt đầu bất kỳ thủ thuật nào."
+        },
+        {
+          "en": "Participants gave consent after reading the information sheet.",
+          "vi": "Người tham gia đã chấp thuận sau khi đọc bản thông tin."
+        },
+        {
+          "en": "Parents must give consent for children to join the study.",
+          "vi": "Phụ huynh phải đồng ý để trẻ em tham gia vào nghiên cứu."
+        }
+      ]
+    }
+  ]
+}
