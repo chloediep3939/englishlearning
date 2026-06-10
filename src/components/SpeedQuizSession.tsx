@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { Zap, Check, X } from 'lucide-react';
+import { Zap, Check, X, ArrowRight, BookOpen } from 'lucide-react';
 import AudioButton from './AudioButton';
+import WordReviewModal from './common/WordReviewModal';
 import SummaryScreen, { type QuestionResult } from './speed-quiz/SummaryScreen';
 import TimerBar from './speed-quiz/TimerBar';
 import type { SpeedQuizQuestion, SpeedQuizMode } from '@/lib/types';
@@ -38,14 +39,18 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
   const [results, setResults] = useState<QuestionResult[]>([]);
   const [questionStart, setQuestionStart] = useState(() => Date.now());
   const [done, setDone] = useState(false);
+  const [reviewOpen, setReviewOpen] = useState(false);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const current = questions[position];
   const isLast = position + 1 >= questions.length;
   const showFeedback = selectedIdx !== null || timedOut;
 
-  const advance = useCallback(
-    async (idx: number | null) => {
+  // Record the answer + reveal feedback. Does NOT auto-advance — the learner
+  // stays on the revealed card (can re-study via "Xem lại từ") until they
+  // press "Tiếp".
+  const answer = useCallback(
+    (idx: number | null) => {
       if (!current) return;
       const passed = idx !== null && idx === current.correct_index;
       const timeMs = Date.now() - questionStart;
@@ -67,48 +72,53 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
           metadata: { quiz_mode: mode, selected_idx: idx, timed_out: idx === null },
         }),
       }).catch(() => {});
-
-      // Show feedback briefly, then next
-      await new Promise((r) => setTimeout(r, 700));
-
-      if (isLast) {
-        setDone(true);
-      } else {
-        setPosition((p) => p + 1);
-        setSelectedIdx(null);
-        setTimedOut(false);
-        setQuestionStart(Date.now());
-      }
     },
-    [current, isLast, questionStart, mode]
+    [current, questionStart, mode]
   );
 
-  // Auto-timeout
+  const goNext = useCallback(() => {
+    if (isLast) {
+      setDone(true);
+    } else {
+      setPosition((p) => p + 1);
+      setSelectedIdx(null);
+      setTimedOut(false);
+      setQuestionStart(Date.now());
+    }
+  }, [isLast]);
+
+  // Auto-timeout — reveals the answer (no auto-advance to the next card).
   useEffect(() => {
     if (done || showFeedback) return;
     timeoutRef.current = setTimeout(() => {
       setTimedOut(true);
-      void advance(null);
+      answer(null);
     }, TIME_PER_Q_MS);
     return () => {
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
-  }, [position, done, showFeedback, advance]);
+  }, [position, done, showFeedback, answer]);
 
-  // Keyboard: 1-4 to pick
+  // Keyboard: 1-4 to pick while answering; Enter/Space to advance once
+  // revealed. Disabled while the review modal is open.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (done || showFeedback) return;
-      const idx = ['1', '2', '3', '4'].indexOf(e.key);
-      if (idx !== -1 && current && idx < current.options.length) {
-        setSelectedIdx(idx);
-        if (timeoutRef.current) clearTimeout(timeoutRef.current);
-        void advance(idx);
+      if (done || reviewOpen) return;
+      if (!showFeedback) {
+        const idx = ['1', '2', '3', '4'].indexOf(e.key);
+        if (idx !== -1 && current && idx < current.options.length) {
+          setSelectedIdx(idx);
+          if (timeoutRef.current) clearTimeout(timeoutRef.current);
+          answer(idx);
+        }
+      } else if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        goNext();
       }
     }
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [current, done, showFeedback, advance]);
+  }, [current, done, showFeedback, reviewOpen, answer, goNext]);
 
   if (done) {
     const total = questions.length;
@@ -259,7 +269,7 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
                 if (showFeedback) return;
                 setSelectedIdx(idx);
                 if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                void advance(idx);
+                answer(idx);
               }}
               style={{
                 position: 'relative',
@@ -302,6 +312,61 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
           );
         })}
       </div>
+
+      {/* Feedback actions — revealed after answering. The session pauses here
+          (no auto-advance) so the learner can re-study before the next card. */}
+      {showFeedback && (
+        <div
+          style={{ display: 'flex', gap: 8, justifyContent: 'center', marginTop: 16, flexWrap: 'wrap' }}
+        >
+          <button
+            type="button"
+            onClick={() => setReviewOpen(true)}
+            style={{
+              padding: '12px 18px',
+              background: 'var(--v-surface)',
+              color: 'var(--v-ink-soft)',
+              border: '1px solid var(--v-border)',
+              borderRadius: 'var(--v-radius-md)',
+              boxShadow: 'var(--v-shadow-sm)',
+              fontFamily: 'var(--v-font-head)',
+              fontWeight: 800,
+              fontSize: 'var(--v-text-md)',
+              cursor: 'pointer',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+            }}
+          >
+            <BookOpen size={14} /> Xem lại từ
+          </button>
+          <button
+            type="button"
+            onClick={goNext}
+            style={{
+              padding: '12px 24px',
+              background: 'var(--v-primary)',
+              color: '#fff',
+              border: 'none',
+              borderRadius: 'var(--v-radius-md)',
+              boxShadow: 'var(--v-press), 0 6px 14px rgba(122,193,67,0.4)',
+              fontFamily: 'var(--v-font-head)',
+              fontWeight: 900,
+              fontSize: 'var(--v-text-base)',
+              cursor: 'pointer',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 8,
+            }}
+          >
+            {isLast ? 'XEM KẾT QUẢ' : 'TIẾP'} <ArrowRight size={14} />
+          </button>
+        </div>
+      )}
+
+      {reviewOpen && current && (
+        <WordReviewModal cardId={current.card_id} onClose={() => setReviewOpen(false)} />
+      )}
     </div>
   );
 }

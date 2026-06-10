@@ -2,10 +2,11 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
-import { FileText, RotateCcw, ArrowRight, Check, X, Lightbulb } from 'lucide-react';
+import { FileText, RotateCcw, ArrowRight, Check, X, Lightbulb, BookOpen } from 'lucide-react';
 import Mascot from '@/components/common/Mascot';
 import AudioButton from './AudioButton';
 import LoadingState from '@/components/common/LoadingState';
+import WordReviewModal from '@/components/common/WordReviewModal';
 import type { ClozeChallenge } from '@/lib/types';
 
 export type ClozeMode = 'typing' | 'multiple_choice';
@@ -31,6 +32,7 @@ export default function ClozeSession({ cardIds, mode, onRestart }: Props) {
   const [hintOpen, setHintOpen] = useState(false);
   const [helpedThisCard, setHelpedThisCard] = useState(false);
   const [correct, setCorrect] = useState(0);
+  const [reviewOpen, setReviewOpen] = useState(false);
   const [done, setDone] = useState(cardIds.length === 0);
   const [startTime] = useState(() => Date.now());
   const inputRef = useRef<HTMLInputElement>(null);
@@ -122,7 +124,7 @@ export default function ClozeSession({ cardIds, mode, onRestart }: Props) {
   // Keyboard: Enter to submit / next
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (done || loading || !state) return;
+      if (done || loading || !state || reviewOpen) return;
       if (!revealed) {
         if (mode === 'typing' && e.key === 'Enter') {
           const guess = input.trim().toLowerCase();
@@ -499,7 +501,28 @@ export default function ClozeSession({ cardIds, mode, onRestart }: Props) {
           </div>
         )
       ) : (
-        <div style={{ display: 'flex', gap: 8, justifyContent: 'center' }}>
+        <div style={{ display: 'flex', gap: 8, justifyContent: 'center', flexWrap: 'wrap' }}>
+          <button
+            type="button"
+            onClick={() => setReviewOpen(true)}
+            style={{
+              padding: '12px 18px',
+              background: 'var(--v-surface)',
+              color: 'var(--v-ink-soft)',
+              border: '1px solid var(--v-border)',
+              borderRadius: 'var(--v-radius-md)',
+              boxShadow: 'var(--v-shadow-sm)',
+              fontFamily: 'var(--v-font-head)',
+              fontWeight: 800,
+              fontSize: 'var(--v-text-md)',
+              cursor: 'pointer',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+            }}
+          >
+            <BookOpen size={14} /> Xem lại từ
+          </button>
           <button
             type="button"
             onClick={handleNext}
@@ -522,6 +545,10 @@ export default function ClozeSession({ cardIds, mode, onRestart }: Props) {
             {isLast ? 'XEM KẾT QUẢ' : 'TIẾP'} <ArrowRight size={14} />
           </button>
         </div>
+      )}
+
+      {reviewOpen && currentCardId !== undefined && (
+        <WordReviewModal cardId={currentCardId} onClose={() => setReviewOpen(false)} />
       )}
     </div>
   );

@@ -48,7 +48,7 @@ export default function ClozePage() {
       }
       const data = (await res.json()) as { card_ids?: number[] };
       if (!data.card_ids || data.card_ids.length === 0) {
-        setError('Chưa có từ nào ở trạng thái "đang học" hoặc "ôn tập".');
+        setError('Chưa có từ nào để điền chỗ trống. Hãy thêm từ vào bộ trước.');
         return;
       }
       setSession({ cardIds: data.card_ids, mode });

@@ -20,16 +20,17 @@ export async function GET(req: Request) {
     const deckId = deckIdParam ? Number(deckIdParam) : null;
 
     const db = await getDb();
+    // Any card qualifies regardless of SRS status — cloze works on new cards
+    // too (the /api/cards/:id/cloze route lazily generates a sentence). Only
+    // "Ôn tập" keeps a learned/due gate.
     const sql = deckId
       ? `SELECT id FROM flashcards
          WHERE user_id = ?
-         AND status IN ('learning', 'review')
          AND deck_id = ?
          ORDER BY RANDOM()
          LIMIT ?`
       : `SELECT id FROM flashcards
          WHERE user_id = ?
-         AND status IN ('learning', 'review')
          ORDER BY RANDOM()
          LIMIT ?`;
     const stmt = db.prepare(sql);
