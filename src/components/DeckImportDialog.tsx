@@ -7,6 +7,8 @@ import { apiJson } from '@/lib/common/api-json';
 import type { FlashcardDeckWithCounts } from '@/lib/types';
 
 interface ParsedFile {
+  id: number;
+  fileName: string;
   deckName: string;
   cardCount: number;
   raw: unknown;
@@ -21,6 +23,14 @@ interface ImportResult {
   total: number;
 }
 
+interface BatchImportResult {
+  results: ImportResult[];
+  decks_created: number;
+  total_inserted: number;
+  total_skipped_dupe: number;
+  total_skipped_invalid: number;
+}
+
 interface Props {
   onClose: () => void;
 }
@@ -28,26 +38,29 @@ interface Props {
 type Mode = 'new' | 'existing';
 
 /**
- * Modal that walks the learner through importing a deck JSON:
- *   1. Drop / pick a file → parse and preview deck name + card count.
- *   2. Choose target — create a NEW deck (using file's metadata) or insert
- *      INTO an existing deck (picker showing all user's decks).
+ * Modal that walks the learner through importing one or more deck JSON files:
+ *   1. Pick file(s) → parse and preview each file's deck name + card count.
+ *   2. Choose target — create a NEW deck per file (using each file's
+ *      metadata) or merge ALL files INTO one existing deck.
  *   3. Submit → POST /api/decks/import → success summary → either navigate
- *      to the target deck or refresh the list.
+ *      to the (single) target deck or refresh the list.
  */
 export default function DeckImportDialog({ onClose }: Props) {
   const router = useRouter();
   const fileInputRef = useRef<HTMLInputElement | null>(null);
+  const idRef = useRef(0);
 
-  const [parsed, setParsed] = useState<ParsedFile | null>(null);
+  const [parsed, setParsed] = useState<ParsedFile[]>([]);
   const [parseError, setParseError] = useState<string | null>(null);
   const [mode, setMode] = useState<Mode>('new');
   const [decks, setDecks] = useState<FlashcardDeckWithCounts[]>([]);
   const [targetDeckId, setTargetDeckId] = useState<number | null>(null);
 
   const [submitting, setSubmitting] = useState(false);
-  const [result, setResult] = useState<ImportResult | null>(null);
+  const [result, setResult] = useState<BatchImportResult | null>(null);
   const [submitError, setSubmitError] = useState<string | null>(null);
+
+  const totalCards = parsed.reduce((a, p) => a + p.cardCount, 0);
 
   // Fetch existing decks once — needed for "import into existing" mode.
   useEffect(() => {
@@ -62,35 +75,46 @@ export default function DeckImportDialog({ onClose }: Props) {
       .catch(() => {});
   }, []);
 
-  function handleFile(file: File) {
-    setParseError(null);
-    setParsed(null);
-    const reader = new FileReader();
-    reader.onload = () => {
+  // Parse every picked file and append the valid ones. Files whose name is
+  // already in the list are skipped so re-picking doesn't double-add.
+  async function handleFiles(fileList: FileList) {
+    const incoming = Array.from(fileList);
+    const additions: ParsedFile[] = [];
+    const errors: string[] = [];
+    for (const file of incoming) {
+      if (
+        parsed.some((p) => p.fileName === file.name) ||
+        additions.some((a) => a.fileName === file.name)
+      ) {
+        continue;
+      }
       try {
-        const text = String(reader.result ?? '');
-        const data = JSON.parse(text) as {
-          deck?: { name?: string };
-          cards?: unknown[];
-        };
+        const text = await file.text();
+        const data = JSON.parse(text) as { deck?: { name?: string }; cards?: unknown[] };
         if (!data || !Array.isArray(data.cards)) {
-          throw new Error('File không có trường "cards".');
+          throw new Error('thiếu trường "cards"');
         }
-        setParsed({
+        additions.push({
+          id: idRef.current++,
+          fileName: file.name,
           deckName: typeof data.deck?.name === 'string' ? data.deck.name : '(không tên)',
           cardCount: data.cards.length,
           raw: data,
         });
       } catch (e) {
-        setParseError(e instanceof Error ? e.message : 'File JSON không hợp lệ.');
+        errors.push(`${file.name}: ${e instanceof Error ? e.message : 'JSON lỗi'}`);
       }
-    };
-    reader.onerror = () => setParseError('Không đọc được file.');
-    reader.readAsText(file);
+    }
+    if (additions.length) setParsed((prev) => [...prev, ...additions]);
+    setParseError(errors.length ? errors.join(' · ') : null);
+  }
+
+  function removeFile(id: number) {
+    setParsed((prev) => prev.filter((p) => p.id !== id));
   }
 
   async function submit() {
-    if (!parsed || submitting) return;
+    if (parsed.length === 0 || submitting) return;
     if (mode === 'existing' && targetDeckId === null) {
       setSubmitError('Chọn bộ đích trước.');
       return;
@@ -98,11 +122,11 @@ export default function DeckImportDialog({ onClose }: Props) {
     setSubmitting(true);
     setSubmitError(null);
     try {
-      const data = await apiJson<ImportResult>('/api/decks/import', {
+      const data = await apiJson<BatchImportResult>('/api/decks/import', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          data: parsed.raw,
+          files: parsed.map((p) => p.raw),
           mode,
           ...(mode === 'existing' && targetDeckId !== null
             ? { target_deck_id: targetDeckId }
@@ -121,8 +145,9 @@ export default function DeckImportDialog({ onClose }: Props) {
   }
 
   function goToDeck() {
-    if (!result) return;
-    router.push(`/decks/${result.deck_id}`);
+    const first = result?.results[0];
+    if (!first) return;
+    router.push(`/decks/${first.deck_id}`);
     onClose();
   }
 
@@ -193,38 +218,97 @@ export default function DeckImportDialog({ onClose }: Props) {
             >
               <Check size={18} style={{ color: 'var(--v-primary)', flexShrink: 0, marginTop: 1 }} />
               <div style={{ fontFamily: 'var(--v-font-body)', fontSize: 'var(--v-text-sm)', color: 'var(--v-ink)' }}>
-                Đã thêm <strong>{result.inserted}</strong> từ vào bộ <strong>{result.deck_name}</strong>.
-                {result.skipped_dupe > 0 && (
+                {result.decks_created > 0 ? (
                   <>
-                    {' '}Bỏ qua <strong>{result.skipped_dupe}</strong> từ trùng.
+                    Đã tạo <strong>{result.decks_created}</strong> bộ, thêm{' '}
+                    <strong>{result.total_inserted}</strong> từ.
+                  </>
+                ) : (
+                  <>
+                    Đã thêm <strong>{result.total_inserted}</strong> từ vào bộ{' '}
+                    <strong>{result.results[0]?.deck_name}</strong>.
                   </>
                 )}
-                {result.skipped_invalid > 0 && (
+                {result.total_skipped_dupe > 0 && (
                   <>
-                    {' '}Bỏ qua <strong>{result.skipped_invalid}</strong> từ lỗi format.
+                    {' '}Bỏ qua <strong>{result.total_skipped_dupe}</strong> từ trùng.
+                  </>
+                )}
+                {result.total_skipped_invalid > 0 && (
+                  <>
+                    {' '}Bỏ qua <strong>{result.total_skipped_invalid}</strong> từ lỗi format.
                   </>
                 )}
               </div>
             </div>
+
+            {/* Per-deck breakdown when more than one deck was touched. */}
+            {result.results.length > 1 && (
+              <div
+                style={{
+                  marginBottom: 14,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: 6,
+                  maxHeight: 220,
+                  overflowY: 'auto',
+                }}
+              >
+                {result.results.map((r) => (
+                  <div
+                    key={r.deck_id}
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'baseline',
+                      gap: 10,
+                      padding: '8px 12px',
+                      background: 'var(--v-panel)',
+                      border: '1px solid var(--v-border)',
+                      borderRadius: 'var(--v-radius-sm)',
+                      fontFamily: 'var(--v-font-body)',
+                      fontSize: 'var(--v-text-sm)',
+                    }}
+                  >
+                    <strong style={{ color: 'var(--v-ink)', minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                      {r.deck_name}
+                    </strong>
+                    <span style={{ color: 'var(--v-primary)', fontWeight: 700, flexShrink: 0 }}>
+                      +{r.inserted} từ
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+
             <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end' }}>
-              <button type="button" onClick={onClose} style={ghostBtn()}>Đóng</button>
-              <button type="button" onClick={goToDeck} style={primaryBtn()}>
-                Mở bộ →
-              </button>
+              {result.results.length === 1 && result.results[0] ? (
+                <>
+                  <button type="button" onClick={onClose} style={ghostBtn()}>Đóng</button>
+                  <button type="button" onClick={goToDeck} style={primaryBtn()}>
+                    Mở bộ →
+                  </button>
+                </>
+              ) : (
+                <button type="button" onClick={onClose} style={primaryBtn()}>Xong</button>
+              )}
             </div>
           </div>
         ) : (
           <>
             {/* File picker */}
             <div style={{ marginBottom: 14 }}>
-              <FieldLabel>Chọn file JSON</FieldLabel>
+              <FieldLabel>Chọn file JSON (có thể chọn nhiều)</FieldLabel>
               <input
                 ref={fileInputRef}
                 type="file"
                 accept="application/json,.json"
+                multiple
                 onChange={(e) => {
-                  const f = e.target.files?.[0];
-                  if (f) handleFile(f);
+                  const files = e.target.files;
+                  if (files && files.length) handleFiles(files);
+                  // Reset so re-picking the same file fires onChange again.
+                  e.target.value = '';
                 }}
                 style={{ display: 'none' }}
               />
@@ -248,7 +332,7 @@ export default function DeckImportDialog({ onClose }: Props) {
                   gap: 8,
                 }}
               >
-                <FileJson size={16} /> {parsed ? 'Chọn file khác' : 'Chọn file…'}
+                <FileJson size={16} /> {parsed.length > 0 ? 'Thêm file…' : 'Chọn file…'}
               </button>
               {parseError && (
                 <div
@@ -266,28 +350,75 @@ export default function DeckImportDialog({ onClose }: Props) {
                   <AlertTriangle size={14} /> {parseError}
                 </div>
               )}
-              {parsed && (
+              {parsed.length > 0 && (
                 <div
                   style={{
                     marginTop: 8,
-                    padding: '10px 12px',
-                    background: 'var(--v-panel)',
-                    border: '1px solid var(--v-border)',
-                    borderRadius: 'var(--v-radius-sm)',
-                    fontFamily: 'var(--v-font-body)',
-                    fontSize: 'var(--v-text-sm)',
-                    color: 'var(--v-ink-soft)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: 6,
+                    maxHeight: 220,
+                    overflowY: 'auto',
                   }}
                 >
-                  <strong style={{ color: 'var(--v-ink)' }}>{parsed.deckName}</strong>
-                  {' · '}
-                  <strong style={{ color: 'var(--v-primary)' }}>{parsed.cardCount} từ</strong>
+                  {parsed.map((p) => (
+                    <div
+                      key={p.id}
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 10,
+                        padding: '8px 10px 8px 12px',
+                        background: 'var(--v-panel)',
+                        border: '1px solid var(--v-border)',
+                        borderRadius: 'var(--v-radius-sm)',
+                        fontFamily: 'var(--v-font-body)',
+                        fontSize: 'var(--v-text-sm)',
+                        color: 'var(--v-ink-soft)',
+                      }}
+                    >
+                      <div style={{ minWidth: 0, flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                        <strong style={{ color: 'var(--v-ink)' }}>{p.deckName}</strong>
+                        {' · '}
+                        <strong style={{ color: 'var(--v-primary)' }}>{p.cardCount} từ</strong>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => removeFile(p.id)}
+                        aria-label={`Bỏ ${p.fileName}`}
+                        style={{
+                          padding: 4,
+                          background: 'transparent',
+                          border: 'none',
+                          color: 'var(--v-muted)',
+                          cursor: 'pointer',
+                          display: 'inline-flex',
+                          flexShrink: 0,
+                        }}
+                      >
+                        <X size={15} />
+                      </button>
+                    </div>
+                  ))}
+                  {parsed.length > 1 && (
+                    <div
+                      style={{
+                        padding: '2px 4px',
+                        fontFamily: 'var(--v-font-body)',
+                        fontSize: 'var(--v-text-xs)',
+                        fontWeight: 700,
+                        color: 'var(--v-muted)',
+                      }}
+                    >
+                      {parsed.length} file · {totalCards} từ
+                    </div>
+                  )}
                 </div>
               )}
             </div>
 
             {/* Mode toggle */}
-            {parsed && (
+            {parsed.length > 0 && (
               <>
                 <div style={{ marginBottom: 14 }}>
                   <FieldLabel>Thêm vào</FieldLabel>
@@ -295,14 +426,22 @@ export default function DeckImportDialog({ onClose }: Props) {
                     <ModeOption
                       active={mode === 'new'}
                       onClick={() => setMode('new')}
-                      title="Tạo bộ mới"
-                      sub={`Tạo deck "${parsed.deckName}" và đổ tất cả từ vào`}
+                      title="Tạo bộ mới cho mỗi file"
+                      sub={
+                        parsed.length > 1
+                          ? `Mỗi file → 1 bộ riêng (${parsed.length} bộ)`
+                          : `Tạo deck "${parsed[0].deckName}" và đổ tất cả từ vào`
+                      }
                     />
                     <ModeOption
                       active={mode === 'existing'}
                       onClick={() => setMode('existing')}
-                      title="Insert vào bộ có sẵn"
-                      sub="Chọn 1 bộ hiện tại của bạn — từ trùng english sẽ bị bỏ qua"
+                      title="Gộp vào bộ có sẵn"
+                      sub={
+                        parsed.length > 1
+                          ? 'Đổ từ của tất cả file vào 1 bộ — trùng english bị bỏ qua'
+                          : 'Chọn 1 bộ hiện tại của bạn — từ trùng english sẽ bị bỏ qua'
+                      }
                     />
                   </div>
                 </div>
@@ -366,11 +505,11 @@ export default function DeckImportDialog({ onClose }: Props) {
               <button
                 type="button"
                 onClick={submit}
-                disabled={!parsed || submitting}
+                disabled={parsed.length === 0 || submitting}
                 style={{
                   ...primaryBtn(),
-                  opacity: !parsed || submitting ? 0.55 : 1,
-                  cursor: !parsed || submitting ? 'not-allowed' : 'pointer',
+                  opacity: parsed.length === 0 || submitting ? 0.55 : 1,
+                  cursor: parsed.length === 0 || submitting ? 'not-allowed' : 'pointer',
                 }}
               >
                 {submitting ? (
