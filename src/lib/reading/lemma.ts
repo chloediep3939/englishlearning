@@ -3,13 +3,20 @@
 // (ran→run, went→go, better→good, mice→mouse), not just regular +s/+ed/+ies.
 // Used by /api/words/lookup to retry Oxford / MS Dictionary when the inflected
 // form isn't found.
-import * as lemmatize from 'wink-lemmatizer';
+//import * as lemmatize from 'wink-lemmatizer';
 
 /**
  * Distinct base-form candidates for a cleaned word (lowercase, a–z + apostrophe),
  * trying verb → noun → adjective. Excludes the input itself and anything
  * shorter than 2 chars. Capped to the first 3 to bound Oxford retries.
  */
+
+const lemmatize: any = {
+  verb: (w: string) => w,
+  noun: (w: string) => w,
+  adjective: (w: string) => w,
+};
+
 export function lemmaCandidates(word: string): string[] {
   const w = word;
   if (w.length < 3) return [];

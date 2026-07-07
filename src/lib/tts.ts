@@ -47,6 +47,33 @@ export function setStoredVoicePreference(pref: string): void {
  *
  * Safe to call in environments without speechSynthesis (returns silently).
  */
+// Build an utterance with the user's preferred voice applied. Shared by
+// `speak` and `speakTimes` so the voice-selection fallback lives in one place.
+function makeUtterance(
+  synth: SpeechSynthesis,
+  text: string,
+  opts: TtsOptions,
+): SpeechSynthesisUtterance {
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = opts.lang ?? 'en-US';
+  if (opts.rate !== undefined) u.rate = opts.rate;
+  const voices = synth.getVoices();
+  let voice: SpeechSynthesisVoice | undefined;
+  if (opts.voice_preference && opts.voice_preference !== 'auto') {
+    voice = voices.find((v) => v.name === opts.voice_preference);
+  }
+  // Fallback: prefer an en-US voice over the browser default so we don't
+  // get en-GB on Macs when the caller didn't pick one explicitly.
+  if (!voice && (opts.lang ?? 'en-US').startsWith('en')) {
+    voice =
+      voices.find((v) => v.lang === 'en-US') ??
+      voices.find((v) => v.lang.toLowerCase().startsWith('en-us')) ??
+      voices.find((v) => v.lang.toLowerCase().startsWith('en'));
+  }
+  if (voice) u.voice = voice;
+  return u;
+}
+
 export function speak(text: string, opts: TtsOptions = {}): void {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
   const synth = window.speechSynthesis;
@@ -54,24 +81,7 @@ export function speak(text: string, opts: TtsOptions = {}): void {
   const doSpeak = () => {
     try {
       synth.cancel();
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = opts.lang ?? 'en-US';
-      if (opts.rate !== undefined) u.rate = opts.rate;
-      const voices = synth.getVoices();
-      let voice: SpeechSynthesisVoice | undefined;
-      if (opts.voice_preference && opts.voice_preference !== 'auto') {
-        voice = voices.find((v) => v.name === opts.voice_preference);
-      }
-      // Fallback: prefer an en-US voice over the browser default so we don't
-      // get en-GB on Macs when the caller didn't pick one explicitly.
-      if (!voice && (opts.lang ?? 'en-US').startsWith('en')) {
-        voice =
-          voices.find((v) => v.lang === 'en-US') ??
-          voices.find((v) => v.lang.toLowerCase().startsWith('en-us')) ??
-          voices.find((v) => v.lang.toLowerCase().startsWith('en'));
-      }
-      if (voice) u.voice = voice;
-      synth.speak(u);
+      synth.speak(makeUtterance(synth, text, opts));
     } catch {
       /* ignore — TTS is best-effort */
     }
@@ -83,6 +93,54 @@ export function speak(text: string, opts: TtsOptions = {}): void {
   } else {
     doSpeak();
   }
+}
+
+/**
+ * Speak `text` `times` times in a row, then stop. Relies on the browser's
+ * native utterance queue so each repeat waits for the previous one to finish.
+ * Returns a cancel function — call it on unmount or before moving to the next
+ * prompt so a stale word doesn't keep talking over the new one.
+ *
+ * Used by the speed quiz to auto-drill an English prompt a few times.
+ */
+export function speakTimes(
+  text: string,
+  times: number,
+  opts: TtsOptions = {},
+): () => void {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+    return () => {};
+  }
+  const synth = window.speechSynthesis;
+  let cancelled = false;
+
+  const run = () => {
+    if (cancelled) return;
+    try {
+      synth.cancel();
+      for (let i = 0; i < times; i++) {
+        synth.speak(makeUtterance(synth, text, opts));
+      }
+    } catch {
+      /* ignore — TTS is best-effort */
+    }
+  };
+
+  if (synth.getVoices().length === 0) {
+    synth.addEventListener('voiceschanged', run, { once: true });
+    synth.getVoices(); // kick browsers that need it
+  } else {
+    run();
+  }
+
+  return () => {
+    cancelled = true;
+    try {
+      synth.cancel();
+    } catch {
+      /* ignore */
+    }
+  };
 }
 
 export interface SpeakWordOptions extends TtsOptions {

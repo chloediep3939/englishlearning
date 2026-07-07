@@ -6,7 +6,19 @@ import AudioButton from './AudioButton';
 import WordReviewModal from './common/WordReviewModal';
 import SummaryScreen, { type QuestionResult } from './speed-quiz/SummaryScreen';
 import TimerBar from './speed-quiz/TimerBar';
+import { speakTimes, getStoredVoicePreference } from '@/lib/tts';
 import type { SpeedQuizQuestion, SpeedQuizMode } from '@/lib/types';
+
+// Auto-read an English prompt this many times when a question appears.
+const AUTO_READ_TIMES = 3;
+// How long the green "correct" reveal lingers before auto-advancing.
+const CORRECT_ADVANCE_MS = 900;
+
+// English-side prompts (the word shown is English). Vietnamese-prompt mode
+// (vi_to_en) is not auto-read.
+function isEnglishPrompt(q: SpeedQuizQuestion): boolean {
+  return q.question_mode === 'en_to_vi' || q.question_mode === 'spelling';
+}
 
 function longestStreak(results: ReadonlyArray<{ passed: boolean }>): number {
   let max = 0;
@@ -34,31 +46,32 @@ const OPTION_COLORS = ['var(--v-pink)', 'var(--v-primary)', 'var(--v-purple)', '
 export default function SpeedQuizSession({ questions, mode, onRestart }: Props) {
   const [position, setPosition] = useState(0);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
-  const [timedOut, setTimedOut] = useState(false);
   const [correct, setCorrect] = useState(0);
   const [results, setResults] = useState<QuestionResult[]>([]);
   const [questionStart, setQuestionStart] = useState(() => Date.now());
   const [done, setDone] = useState(false);
   const [reviewOpen, setReviewOpen] = useState(false);
-  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // Pending auto-advance timer set after a correct answer.
+  const advanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const current = questions[position];
   const isLast = position + 1 >= questions.length;
-  const showFeedback = selectedIdx !== null || timedOut;
+  // The timer is "soft": running out does NOT pick an answer. Feedback only
+  // reveals once the learner actually selects an option.
+  const showFeedback = selectedIdx !== null;
+  const answeredWrong = selectedIdx !== null && current != null && selectedIdx !== current.correct_index;
 
-  // Record the answer + reveal feedback. Does NOT auto-advance — the learner
-  // stays on the revealed card (can re-study via "Xem lại từ") until they
-  // press "Tiếp".
+  // Record the answer to the session results + fire the test-attempt log.
   const answer = useCallback(
-    (idx: number | null) => {
+    (idx: number) => {
       if (!current) return;
-      const passed = idx !== null && idx === current.correct_index;
+      const passed = idx === current.correct_index;
       const timeMs = Date.now() - questionStart;
 
       if (passed) setCorrect((c) => c + 1);
       setResults((r) => [
         ...r,
-        { card_id: current.card_id, passed, timed_out: idx === null, time_ms: timeMs },
+        { card_id: current.card_id, passed, timed_out: false, time_ms: timeMs },
       ]);
 
       // Log to /api/cards/:id/test-attempt (fire & forget)
@@ -69,7 +82,7 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
           mode: 'speed',
           passed,
           time_ms: timeMs,
-          metadata: { quiz_mode: mode, selected_idx: idx, timed_out: idx === null },
+          metadata: { quiz_mode: mode, selected_idx: idx, timed_out: false },
         }),
       }).catch(() => {});
     },
@@ -77,27 +90,52 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
   );
 
   const goNext = useCallback(() => {
+    if (advanceTimerRef.current) {
+      clearTimeout(advanceTimerRef.current);
+      advanceTimerRef.current = null;
+    }
     if (isLast) {
       setDone(true);
     } else {
       setPosition((p) => p + 1);
       setSelectedIdx(null);
-      setTimedOut(false);
       setQuestionStart(Date.now());
     }
   }, [isLast]);
 
-  // Auto-timeout — reveals the answer (no auto-advance to the next card).
+  // Pick an option. Correct → brief green reveal, then auto-advance.
+  // Wrong → reveal the right answer and stay put (learner studies, then
+  // presses "Tiếp"). Ignores repeat picks once feedback is showing.
+  const select = useCallback(
+    (idx: number) => {
+      if (selectedIdx !== null || !current) return;
+      setSelectedIdx(idx);
+      answer(idx);
+      if (idx === current.correct_index) {
+        advanceTimerRef.current = setTimeout(goNext, CORRECT_ADVANCE_MS);
+      }
+    },
+    [selectedIdx, current, answer, goNext]
+  );
+
+  // Auto-read the English prompt a few times when the question appears.
   useEffect(() => {
-    if (done || showFeedback) return;
-    timeoutRef.current = setTimeout(() => {
-      setTimedOut(true);
-      answer(null);
-    }, TIME_PER_Q_MS);
-    return () => {
-      if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    };
-  }, [position, done, showFeedback, answer]);
+    if (done || !current || !isEnglishPrompt(current)) return;
+    const cancel = speakTimes(current.prompt, AUTO_READ_TIMES, {
+      lang: 'en-US',
+      rate: 0.95,
+      voice_preference: getStoredVoicePreference(),
+    });
+    return cancel;
+  }, [position, done, current]);
+
+  // Clear a pending auto-advance timer if the session unmounts mid-reveal.
+  useEffect(
+    () => () => {
+      if (advanceTimerRef.current) clearTimeout(advanceTimerRef.current);
+    },
+    []
+  );
 
   // Keyboard: 1-4 to pick while answering; Enter/Space to advance once
   // revealed. Disabled while the review modal is open.
@@ -107,9 +145,7 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
       if (!showFeedback) {
         const idx = ['1', '2', '3', '4'].indexOf(e.key);
         if (idx !== -1 && current && idx < current.options.length) {
-          setSelectedIdx(idx);
-          if (timeoutRef.current) clearTimeout(timeoutRef.current);
-          answer(idx);
+          select(idx);
         }
       } else if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
@@ -118,7 +154,7 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
     }
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [current, done, showFeedback, reviewOpen, answer, goNext]);
+  }, [current, done, showFeedback, reviewOpen, select, goNext]);
 
   if (done) {
     const total = questions.length;
@@ -265,12 +301,7 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
               key={idx}
               type="button"
               disabled={showFeedback}
-              onClick={() => {
-                if (showFeedback) return;
-                setSelectedIdx(idx);
-                if (timeoutRef.current) clearTimeout(timeoutRef.current);
-                answer(idx);
-              }}
+              onClick={() => select(idx)}
               style={{
                 position: 'relative',
                 padding: '18px 14px',
@@ -313,9 +344,11 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
         })}
       </div>
 
-      {/* Feedback actions — revealed after answering. The session pauses here
-          (no auto-advance) so the learner can re-study before the next card. */}
-      {showFeedback && (
+      {/* Feedback actions — only when the answer was WRONG. The session pauses
+          here (no auto-advance) so the learner can study the right answer and
+          re-study via "Xem lại từ" before pressing "Tiếp". A correct answer
+          auto-advances instead, so no buttons are shown. */}
+      {answeredWrong && (
         <div
           style={{ display: 'flex', gap: 8, justifyContent: 'center', marginTop: 16, flexWrap: 'wrap' }}
         >
