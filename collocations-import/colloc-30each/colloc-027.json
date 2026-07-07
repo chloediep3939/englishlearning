@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 27/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 27/83"
+  },
+  "cards": [
+    {
+      "english": "field research",
+      "vietnamese": "nghiên cứu thực địa",
+      "ipa": "/fiːld ˈriːsɜːrtʃ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The biologist spent six months doing field research in the rainforest.",
+          "vi": "Nhà sinh học dành sáu tháng nghiên cứu thực địa trong rừng mưa."
+        },
+        {
+          "en": "Field research often gives insights that lab studies cannot provide.",
+          "vi": "Nghiên cứu thực địa thường mang lại hiểu biết mà nghiên cứu trong phòng không có."
+        },
+        {
+          "en": "Students conducted field research by interviewing local farmers directly.",
+          "vi": "Sinh viên thực hiện nghiên cứu thực địa bằng cách phỏng vấn trực tiếp nông dân địa phương."
+        }
+      ]
+    },
+    {
+      "english": "final analysis",
+      "vietnamese": "phân tích cuối cùng",
+      "ipa": "/ˈfaɪnəl əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The final analysis confirmed that the treatment was effective.",
+          "vi": "Phân tích cuối cùng xác nhận rằng phương pháp điều trị có hiệu quả."
+        },
+        {
+          "en": "In the final analysis, both approaches reached similar conclusions.",
+          "vi": "Xét đến cùng, cả hai cách tiếp cận đều đi đến kết luận tương tự."
+        },
+        {
+          "en": "The team presented its final analysis at the research conference.",
+          "vi": "Nhóm đã trình bày phân tích cuối cùng tại hội nghị nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "final answer",
+      "vietnamese": "câu trả lời cuối cùng",
+      "ipa": "/ˈfaɪnəl ˈænsər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Check your calculations carefully before writing the final answer.",
+          "vi": "Hãy kiểm tra phép tính cẩn thận trước khi viết câu trả lời cuối cùng."
+        },
+        {
+          "en": "The committee gave its final answer after a long discussion.",
+          "vi": "Ủy ban đưa ra câu trả lời cuối cùng sau một cuộc thảo luận dài."
+        },
+        {
+          "en": "She thought carefully and then gave her final answer.",
+          "vi": "Cô suy nghĩ kỹ rồi đưa ra câu trả lời cuối cùng."
+        }
+      ]
+    },
+    {
+      "english": "final chapter",
+      "vietnamese": "chương cuối",
+      "ipa": "/ˈfaɪnəl ˈtʃæptər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The final chapter summarizes the main arguments of the book.",
+          "vi": "Chương cuối tóm tắt các luận điểm chính của cuốn sách."
+        },
+        {
+          "en": "Readers were surprised by the twist in the final chapter.",
+          "vi": "Độc giả bất ngờ trước cú lật ở chương cuối."
+        },
+        {
+          "en": "She wrote the final chapter of her thesis last week.",
+          "vi": "Cô đã viết chương cuối của luận văn vào tuần trước."
+        }
+      ]
+    },
+    {
+      "english": "final decision",
+      "vietnamese": "quyết định cuối cùng",
+      "ipa": "/ˈfaɪnəl dɪˈsɪʒən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The board will make its final decision at tomorrow's meeting.",
+          "vi": "Hội đồng sẽ đưa ra quyết định cuối cùng trong cuộc họp ngày mai."
+        },
+        {
+          "en": "After much debate, the judge announced the final decision.",
+          "vi": "Sau nhiều tranh luận, thẩm phán đã công bố quyết định cuối cùng."
+        },
+        {
+          "en": "The final decision rests with the head of the department.",
+          "vi": "Quyết định cuối cùng thuộc về trưởng khoa."
+        }
+      ]
+    },
+    {
+      "english": "final outcome",
+      "vietnamese": "kết quả cuối cùng",
+      "ipa": "/ˈfaɪnəl ˈaʊtkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "No one could predict the final outcome of the election.",
+          "vi": "Không ai có thể dự đoán kết quả cuối cùng của cuộc bầu cử."
+        },
+        {
+          "en": "The final outcome depended on several unpredictable factors.",
+          "vi": "Kết quả cuối cùng phụ thuộc vào vài yếu tố khó lường."
+        },
+        {
+          "en": "Both teams worked hard, but the final outcome was a draw.",
+          "vi": "Cả hai đội đều cố gắng, nhưng kết quả cuối cùng là hòa."
+        }
+      ]
+    },
+    {
+      "english": "final phase",
+      "vietnamese": "giai đoạn cuối",
+      "ipa": "/ˈfaɪnəl feɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The project has now entered its final phase of testing.",
+          "vi": "Dự án nay đã bước vào giai đoạn cuối của quá trình thử nghiệm."
+        },
+        {
+          "en": "During the final phase, the team checks every detail carefully.",
+          "vi": "Trong giai đoạn cuối, nhóm kiểm tra cẩn thận từng chi tiết."
+        },
+        {
+          "en": "Construction reached its final phase ahead of the deadline.",
+          "vi": "Việc xây dựng đã đến giai đoạn cuối trước thời hạn."
+        }
+      ]
+    },
+    {
+      "english": "final point",
+      "vietnamese": "điểm cuối cùng, luận điểm cuối",
+      "ipa": "/ˈfaɪnəl pɔɪnt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "As a final point, the author urges readers to take action.",
+          "vi": "Như một luận điểm cuối, tác giả kêu gọi độc giả hành động."
+        },
+        {
+          "en": "The speaker saved her strongest argument for the final point.",
+          "vi": "Diễn giả dành luận điểm mạnh nhất cho phần cuối cùng."
+        },
+        {
+          "en": "Let me make one final point before we end the discussion.",
+          "vi": "Hãy để tôi nêu một điểm cuối cùng trước khi kết thúc thảo luận."
+        }
+      ]
+    },
+    {
+      "english": "final position",
+      "vietnamese": "vị trí cuối cùng",
+      "ipa": "/ˈfaɪnəl pəˈzɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The runner secured the final position in the national rankings.",
+          "vi": "Vận động viên giành được vị trí cuối cùng trong bảng xếp hạng quốc gia."
+        },
+        {
+          "en": "Scientists measured the final position of the moving object.",
+          "vi": "Các nhà khoa học đo vị trí cuối cùng của vật chuyển động."
+        },
+        {
+          "en": "After negotiations, both sides clarified their final position.",
+          "vi": "Sau đàm phán, cả hai bên làm rõ lập trường cuối cùng của mình."
+        }
+      ]
+    },
+    {
+      "english": "final product",
+      "vietnamese": "sản phẩm cuối cùng",
+      "ipa": "/ˈfaɪnəl ˈprɑːdʌkt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The final product must pass quality checks before being sold.",
+          "vi": "Sản phẩm cuối cùng phải qua kiểm tra chất lượng trước khi được bán."
+        },
+        {
+          "en": "Customers care more about the final product than the process.",
+          "vi": "Khách hàng quan tâm đến sản phẩm cuối cùng hơn là quy trình."
+        },
+        {
+          "en": "The team was proud of the final product they created.",
+          "vi": "Cả nhóm tự hào về sản phẩm cuối cùng mà họ tạo ra."
+        }
+      ]
+    },
+    {
+      "english": "final result",
+      "vietnamese": "kết quả cuối cùng",
+      "ipa": "/ˈfaɪnəl rɪˈzʌlt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The final result of the experiment matched the team's predictions.",
+          "vi": "Kết quả cuối cùng của thí nghiệm khớp với dự đoán của nhóm."
+        },
+        {
+          "en": "Students waited anxiously for the final result of the exam.",
+          "vi": "Sinh viên hồi hộp chờ kết quả cuối cùng của kỳ thi."
+        },
+        {
+          "en": "The final result showed a clear improvement over last year.",
+          "vi": "Kết quả cuối cùng cho thấy sự cải thiện rõ rệt so với năm ngoái."
+        }
+      ]
+    },
+    {
+      "english": "final section",
+      "vietnamese": "phần cuối",
+      "ipa": "/ˈfaɪnəl ˈsekʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The final section of the report lists recommendations for managers.",
+          "vi": "Phần cuối của báo cáo liệt kê các khuyến nghị cho nhà quản lý."
+        },
+        {
+          "en": "Please read the final section carefully before the exam.",
+          "vi": "Hãy đọc kỹ phần cuối trước khi thi."
+        },
+        {
+          "en": "The final section of the test covers grammar and vocabulary.",
+          "vi": "Phần cuối của bài kiểm tra bao gồm ngữ pháp và từ vựng."
+        }
+      ]
+    },
+    {
+      "english": "final stage",
+      "vietnamese": "giai đoạn cuối",
+      "ipa": "/ˈfaɪnəl steɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The negotiations have now reached their final stage.",
+          "vi": "Các cuộc đàm phán nay đã đến giai đoạn cuối."
+        },
+        {
+          "en": "In the final stage, the caterpillar transforms into a butterfly.",
+          "vi": "Ở giai đoạn cuối, sâu bướm biến thành con bướm."
+        },
+        {
+          "en": "We are in the final stage of preparing the new course.",
+          "vi": "Chúng tôi đang ở giai đoạn cuối của việc chuẩn bị khóa học mới."
+        }
+      ]
+    },
+    {
+      "english": "final step",
+      "vietnamese": "bước cuối cùng",
+      "ipa": "/ˈfaɪnəl step/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The final step is to submit your application before the deadline.",
+          "vi": "Bước cuối cùng là nộp đơn của bạn trước hạn chót."
+        },
+        {
+          "en": "Cooling the mixture is the final step in the procedure.",
+          "vi": "Làm nguội hỗn hợp là bước cuối cùng trong quy trình."
+        },
+        {
+          "en": "After editing, the final step is to publish the article.",
+          "vi": "Sau khi biên tập, bước cuối cùng là xuất bản bài viết."
+        }
+      ]
+    },
+    {
+      "english": "final version",
+      "vietnamese": "phiên bản cuối cùng",
+      "ipa": "/ˈfaɪnəl ˈvɜːrʒən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Please send me the final version of the document by Friday.",
+          "vi": "Vui lòng gửi tôi phiên bản cuối cùng của tài liệu trước thứ Sáu."
+        },
+        {
+          "en": "The final version of the software fixed all major bugs.",
+          "vi": "Phiên bản cuối cùng của phần mềm đã sửa mọi lỗi lớn."
+        },
+        {
+          "en": "She revised the essay three times before the final version.",
+          "vi": "Cô sửa bài luận ba lần trước khi có phiên bản cuối cùng."
+        }
+      ]
+    },
+    {
+      "english": "financial affairs",
+      "vietnamese": "công việc, vấn đề tài chính",
+      "ipa": "/faɪˈnænʃəl əˈferz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An accountant helps the family manage its financial affairs.",
+          "vi": "Một kế toán viên giúp gia đình quản lý các vấn đề tài chính."
+        },
+        {
+          "en": "The company kept its financial affairs strictly confidential.",
+          "vi": "Công ty giữ các vấn đề tài chính của mình hoàn toàn bí mật."
+        },
+        {
+          "en": "Good record-keeping makes managing financial affairs much easier.",
+          "vi": "Việc lưu hồ sơ tốt khiến quản lý tài chính dễ dàng hơn nhiều."
+        }
+      ]
+    },
+    {
+      "english": "financial assistance",
+      "vietnamese": "hỗ trợ tài chính",
+      "ipa": "/faɪˈnænʃəl əˈsɪstəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many students rely on financial assistance to pay their tuition.",
+          "vi": "Nhiều sinh viên dựa vào hỗ trợ tài chính để trả học phí."
+        },
+        {
+          "en": "The charity offers financial assistance to families in need.",
+          "vi": "Tổ chức từ thiện cung cấp hỗ trợ tài chính cho các gia đình khó khăn."
+        },
+        {
+          "en": "Governments provided financial assistance after the natural disaster.",
+          "vi": "Các chính phủ đã cung cấp hỗ trợ tài chính sau thảm họa thiên nhiên."
+        }
+      ]
+    },
+    {
+      "english": "financial institution",
+      "vietnamese": "tổ chức tài chính",
+      "ipa": "/faɪˈnænʃəl ˌɪnstɪˈtuːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A bank is the most common type of financial institution.",
+          "vi": "Ngân hàng là loại tổ chức tài chính phổ biến nhất."
+        },
+        {
+          "en": "Every financial institution must follow strict government regulations.",
+          "vi": "Mọi tổ chức tài chính phải tuân theo các quy định nghiêm ngặt của chính phủ."
+        },
+        {
+          "en": "The financial institution offered low interest rates to borrowers.",
+          "vi": "Tổ chức tài chính này cung cấp lãi suất thấp cho người vay."
+        }
+      ]
+    },
+    {
+      "english": "financial management",
+      "vietnamese": "quản lý tài chính",
+      "ipa": "/faɪˈnænʃəl ˈmænɪdʒmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Sound financial management is essential for any successful business.",
+          "vi": "Quản lý tài chính tốt là điều thiết yếu cho mọi doanh nghiệp thành công."
+        },
+        {
+          "en": "The course teaches basic financial management to young entrepreneurs.",
+          "vi": "Khóa học dạy quản lý tài chính cơ bản cho các doanh nhân trẻ."
+        },
+        {
+          "en": "Poor financial management led the company into serious debt.",
+          "vi": "Quản lý tài chính kém đã đẩy công ty vào nợ nần nghiêm trọng."
+        }
+      ]
+    },
+    {
+      "english": "financial market",
+      "vietnamese": "thị trường tài chính",
+      "ipa": "/faɪˈnænʃəl ˈmɑːrkɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The financial market reacted strongly to the central bank's decision.",
+          "vi": "Thị trường tài chính phản ứng mạnh với quyết định của ngân hàng trung ương."
+        },
+        {
+          "en": "Investors watch the financial market closely for new opportunities.",
+          "vi": "Nhà đầu tư theo dõi sát thị trường tài chính để tìm cơ hội mới."
+        },
+        {
+          "en": "A stable financial market encourages long-term economic growth.",
+          "vi": "Một thị trường tài chính ổn định khuyến khích tăng trưởng kinh tế dài hạn."
+        }
+      ]
+    },
+    {
+      "english": "financial problem",
+      "vietnamese": "vấn đề tài chính",
+      "ipa": "/faɪˈnænʃəl ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The family faced a serious financial problem after losing work.",
+          "vi": "Gia đình đối mặt với một vấn đề tài chính nghiêm trọng sau khi mất việc."
+        },
+        {
+          "en": "Careful budgeting can help you avoid a financial problem.",
+          "vi": "Lập ngân sách cẩn thận có thể giúp bạn tránh vấn đề tài chính."
+        },
+        {
+          "en": "The small business solved its financial problem with a loan.",
+          "vi": "Doanh nghiệp nhỏ đã giải quyết vấn đề tài chính bằng một khoản vay."
+        }
+      ]
+    },
+    {
+      "english": "financial resources",
+      "vietnamese": "nguồn lực tài chính",
+      "ipa": "/faɪˈnænʃəl ˈriːsɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The school lacks the financial resources to hire more teachers.",
+          "vi": "Trường thiếu nguồn lực tài chính để thuê thêm giáo viên."
+        },
+        {
+          "en": "Limited financial resources forced the team to delay the project.",
+          "vi": "Nguồn lực tài chính hạn hẹp buộc nhóm phải hoãn dự án."
+        },
+        {
+          "en": "Wealthy nations have greater financial resources for research.",
+          "vi": "Các quốc gia giàu có có nhiều nguồn lực tài chính hơn cho nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "financial support",
+      "vietnamese": "hỗ trợ tài chính",
+      "ipa": "/faɪˈnænʃəl səˈpɔːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The scholarship provides financial support for talented students.",
+          "vi": "Học bổng cung cấp hỗ trợ tài chính cho các sinh viên tài năng."
+        },
+        {
+          "en": "Without financial support, the research project would have stopped.",
+          "vi": "Nếu không có hỗ trợ tài chính, dự án nghiên cứu đã phải dừng lại."
+        },
+        {
+          "en": "Parents often give financial support to children at university.",
+          "vi": "Cha mẹ thường hỗ trợ tài chính cho con khi học đại học."
+        }
+      ]
+    },
+    {
+      "english": "find evidence",
+      "vietnamese": "tìm thấy bằng chứng",
+      "ipa": "/faɪnd ˈevɪdəns/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Scientists hope to find evidence of water on distant planets.",
+          "vi": "Các nhà khoa học hy vọng tìm thấy bằng chứng về nước trên các hành tinh xa."
+        },
+        {
+          "en": "Investigators worked hard to find evidence of the crime.",
+          "vi": "Các điều tra viên nỗ lực tìm bằng chứng về tội ác."
+        },
+        {
+          "en": "Researchers could not find evidence to support the old theory.",
+          "vi": "Các nhà nghiên cứu không tìm thấy bằng chứng ủng hộ lý thuyết cũ."
+        }
+      ]
+    },
+    {
+      "english": "find information",
+      "vietnamese": "tìm thông tin",
+      "ipa": "/faɪnd ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "You can find information about the course on the website.",
+          "vi": "Bạn có thể tìm thông tin về khóa học trên trang web."
+        },
+        {
+          "en": "Librarians help students find information for their research projects.",
+          "vi": "Thủ thư giúp sinh viên tìm thông tin cho các dự án nghiên cứu."
+        },
+        {
+          "en": "It is easy to find information online, but verify the sources.",
+          "vi": "Tìm thông tin trực tuyến rất dễ, nhưng hãy kiểm chứng nguồn."
+        }
+      ]
+    },
+    {
+      "english": "finite number",
+      "vietnamese": "số lượng hữu hạn",
+      "ipa": "/ˈfaɪnaɪt ˈnʌmbər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is only a finite number of seats in the lecture hall.",
+          "vi": "Chỉ có một số lượng ghế hữu hạn trong giảng đường."
+        },
+        {
+          "en": "The planet holds a finite number of natural resources.",
+          "vi": "Hành tinh chỉ chứa một lượng tài nguyên thiên nhiên hữu hạn."
+        },
+        {
+          "en": "A game with a finite number of moves must eventually end.",
+          "vi": "Một trò chơi có số nước đi hữu hạn cuối cùng phải kết thúc."
+        }
+      ]
+    },
+    {
+      "english": "firmly established",
+      "vietnamese": "được thiết lập vững chắc",
+      "ipa": "/ˈfɜːrmli ɪˈstæblɪʃt/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The theory is now firmly established in modern physics.",
+          "vi": "Lý thuyết này nay đã được thiết lập vững chắc trong vật lý hiện đại."
+        },
+        {
+          "en": "Their reputation became firmly established after years of hard work.",
+          "vi": "Danh tiếng của họ trở nên vững chắc sau nhiều năm nỗ lực."
+        },
+        {
+          "en": "The company is firmly established as a leader in technology.",
+          "vi": "Công ty đã khẳng định vững chắc vị trí dẫn đầu trong ngành công nghệ."
+        }
+      ]
+    },
+    {
+      "english": "first author",
+      "vietnamese": "tác giả chính (đứng tên đầu)",
+      "ipa": "/fɜːrst ˈɔːθər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She was the first author of the highly cited research paper.",
+          "vi": "Cô là tác giả chính của bài nghiên cứu được trích dẫn nhiều."
+        },
+        {
+          "en": "The first author usually does most of the project's work.",
+          "vi": "Tác giả đứng đầu thường làm phần lớn công việc của dự án."
+        },
+        {
+          "en": "As first author, he presented the findings at the conference.",
+          "vi": "Là tác giả chính, anh đã trình bày các phát hiện tại hội nghị."
+        }
+      ]
+    },
+    {
+      "english": "first contact",
+      "vietnamese": "lần tiếp xúc đầu tiên",
+      "ipa": "/fɜːrst ˈkɑːntækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The first contact between the two cultures changed history forever.",
+          "vi": "Lần tiếp xúc đầu tiên giữa hai nền văn hóa đã thay đổi lịch sử mãi mãi."
+        },
+        {
+          "en": "Make a good impression during your first contact with clients.",
+          "vi": "Hãy tạo ấn tượng tốt trong lần tiếp xúc đầu tiên với khách hàng."
+        },
+        {
+          "en": "The receptionist is often the first contact for new visitors.",
+          "vi": "Lễ tân thường là người tiếp xúc đầu tiên với khách mới."
+        }
+      ]
+    },
+    {
+      "english": "first draft",
+      "vietnamese": "bản nháp đầu tiên",
+      "ipa": "/fɜːrst dræft/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The first draft of an essay is rarely perfect or polished.",
+          "vi": "Bản nháp đầu tiên của một bài luận hiếm khi hoàn hảo hay trau chuốt."
+        },
+        {
+          "en": "She finished the first draft of her novel last month.",
+          "vi": "Cô đã hoàn thành bản nháp đầu tiên của tiểu thuyết tháng trước."
+        },
+        {
+          "en": "Always revise your first draft before submitting the final paper.",
+          "vi": "Hãy luôn sửa bản nháp đầu tiên trước khi nộp bài cuối cùng."
+        }
+      ]
+    }
+  ]
+}

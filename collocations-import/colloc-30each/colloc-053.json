@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 53/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 53/83"
+  },
+  "cards": [
+    {
+      "english": "particularly sensitive",
+      "vietnamese": "đặc biệt nhạy cảm",
+      "ipa": "/pərˈtɪkjələrli ˈsensətɪv/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The interview touched on a particularly sensitive personal topic.",
+          "vi": "Cuộc phỏng vấn chạm đến một chủ đề cá nhân đặc biệt nhạy cảm."
+        },
+        {
+          "en": "Young children are particularly sensitive to changes in routine.",
+          "vi": "Trẻ nhỏ đặc biệt nhạy cảm với những thay đổi trong thói quen."
+        },
+        {
+          "en": "This instrument is particularly sensitive to small temperature shifts.",
+          "vi": "Thiết bị này đặc biệt nhạy cảm với những thay đổi nhiệt độ nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "particularly significant",
+      "vietnamese": "đặc biệt quan trọng (đáng kể)",
+      "ipa": "/pərˈtɪkjələrli sɪɡˈnɪfɪkənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "This discovery was particularly significant for cancer research.",
+          "vi": "Phát hiện này đặc biệt quan trọng đối với nghiên cứu ung thư."
+        },
+        {
+          "en": "The difference between the groups was particularly significant.",
+          "vi": "Sự khác biệt giữa các nhóm là đặc biệt đáng kể."
+        },
+        {
+          "en": "Her contribution was particularly significant in that field.",
+          "vi": "Đóng góp của cô đặc biệt quan trọng trong lĩnh vực đó."
+        }
+      ]
+    },
+    {
+      "english": "particularly striking",
+      "vietnamese": "đặc biệt nổi bật (ấn tượng)",
+      "ipa": "/pərˈtɪkjələrli ˈstraɪkɪŋ/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "One result was particularly striking and surprised the whole team.",
+          "vi": "Một kết quả đặc biệt nổi bật và khiến cả nhóm bất ngờ."
+        },
+        {
+          "en": "The contrast between the two regions is particularly striking.",
+          "vi": "Sự tương phản giữa hai khu vực đặc biệt nổi bật."
+        },
+        {
+          "en": "Her use of color is particularly striking in these paintings.",
+          "vi": "Cách cô dùng màu sắc đặc biệt ấn tượng trong những bức tranh này."
+        }
+      ]
+    },
+    {
+      "english": "particularly successful",
+      "vietnamese": "đặc biệt thành công",
+      "ipa": "/pərˈtɪkjələrli səkˈsesfəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The campaign was particularly successful among younger audiences.",
+          "vi": "Chiến dịch đặc biệt thành công với đối tượng khán giả trẻ."
+        },
+        {
+          "en": "This approach has been particularly successful in rural schools.",
+          "vi": "Cách tiếp cận này đặc biệt thành công ở các trường nông thôn."
+        },
+        {
+          "en": "Her first novel was particularly successful with critics.",
+          "vi": "Cuốn tiểu thuyết đầu tay của cô đặc biệt thành công với giới phê bình."
+        }
+      ]
+    },
+    {
+      "english": "particularly suited to",
+      "vietnamese": "đặc biệt phù hợp với",
+      "ipa": "/pərˈtɪkjələrli ˈsuːtɪd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This software is particularly suited to large-scale data analysis.",
+          "vi": "Phần mềm này đặc biệt phù hợp với phân tích dữ liệu quy mô lớn."
+        },
+        {
+          "en": "The plant is particularly suited to hot and dry climates.",
+          "vi": "Loài cây này đặc biệt phù hợp với khí hậu nóng và khô."
+        },
+        {
+          "en": "Her skills are particularly suited to collaborative research projects.",
+          "vi": "Kỹ năng của cô đặc biệt phù hợp với các dự án nghiên cứu hợp tác."
+        }
+      ]
+    },
+    {
+      "english": "particularly useful",
+      "vietnamese": "đặc biệt hữu ích",
+      "ipa": "/pərˈtɪkjələrli ˈjuːsfəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "This guide is particularly useful for first-year students.",
+          "vi": "Cuốn cẩm nang này đặc biệt hữu ích cho sinh viên năm nhất."
+        },
+        {
+          "en": "The technique is particularly useful when time is limited.",
+          "vi": "Kỹ thuật này đặc biệt hữu ích khi thời gian hạn chế."
+        },
+        {
+          "en": "Such maps are particularly useful for planning field research.",
+          "vi": "Những bản đồ như vậy đặc biệt hữu ích cho việc lập kế hoạch nghiên cứu thực địa."
+        }
+      ]
+    },
+    {
+      "english": "particularly valuable",
+      "vietnamese": "đặc biệt giá trị",
+      "ipa": "/pərˈtɪkjələrli ˈvæljəbəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "This dataset is particularly valuable for studying long-term climate trends.",
+          "vi": "Bộ dữ liệu này đặc biệt giá trị cho việc nghiên cứu xu hướng khí hậu dài hạn."
+        },
+        {
+          "en": "Her feedback was particularly valuable during the early drafting stage.",
+          "vi": "Phản hồi của cô đặc biệt giá trị trong giai đoạn viết nháp ban đầu."
+        },
+        {
+          "en": "Such firsthand accounts are particularly valuable to historians.",
+          "vi": "Những lời kể trực tiếp như vậy đặc biệt giá trị đối với các nhà sử học."
+        }
+      ]
+    },
+    {
+      "english": "partly responsible for",
+      "vietnamese": "một phần chịu trách nhiệm về",
+      "ipa": "/ˈpɑːrtli rɪˈspɑːnsəbəl fər/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Poor management was partly responsible for the project's failure.",
+          "vi": "Quản lý kém một phần chịu trách nhiệm về sự thất bại của dự án."
+        },
+        {
+          "en": "The new policy is partly responsible for the recent decline.",
+          "vi": "Chính sách mới một phần chịu trách nhiệm về sự suy giảm gần đây."
+        },
+        {
+          "en": "Genetics may be partly responsible for these behavioral differences.",
+          "vi": "Di truyền có thể một phần chịu trách nhiệm về những khác biệt hành vi này."
+        }
+      ]
+    },
+    {
+      "english": "party leader",
+      "vietnamese": "lãnh đạo đảng",
+      "ipa": "/ˈpɑːrti ˈliːdər/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The party leader announced a major shift in policy yesterday.",
+          "vi": "Lãnh đạo đảng đã công bố một thay đổi lớn về chính sách hôm qua."
+        },
+        {
+          "en": "Members voted to elect a new party leader this spring.",
+          "vi": "Các thành viên đã bỏ phiếu bầu lãnh đạo đảng mới vào mùa xuân này."
+        },
+        {
+          "en": "Critics accused the party leader of ignoring grassroots concerns.",
+          "vi": "Các nhà phê bình cáo buộc lãnh đạo đảng phớt lờ mối lo của cơ sở."
+        }
+      ]
+    },
+    {
+      "english": "past research",
+      "vietnamese": "nghiên cứu trước đây",
+      "ipa": "/pæst ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Past research has shown a clear link between diet and health.",
+          "vi": "Nghiên cứu trước đây đã chỉ ra mối liên hệ rõ ràng giữa chế độ ăn và sức khỏe."
+        },
+        {
+          "en": "Our study builds on past research into bilingual education.",
+          "vi": "Nghiên cứu của chúng tôi dựa trên các nghiên cứu trước đây về giáo dục song ngữ."
+        },
+        {
+          "en": "Past research largely ignored the role of social factors.",
+          "vi": "Nghiên cứu trước đây phần lớn bỏ qua vai trò của các yếu tố xã hội."
+        }
+      ]
+    },
+    {
+      "english": "peace treaty",
+      "vietnamese": "hiệp ước hòa bình",
+      "ipa": "/piːs ˈtriːti/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The two nations finally signed a peace treaty after years of war.",
+          "vi": "Hai quốc gia cuối cùng đã ký hiệp ước hòa bình sau nhiều năm chiến tranh."
+        },
+        {
+          "en": "Historians still debate the terms of that peace treaty.",
+          "vi": "Các nhà sử học vẫn còn tranh luận về các điều khoản của hiệp ước hòa bình đó."
+        },
+        {
+          "en": "The peace treaty redrew the borders across the region.",
+          "vi": "Hiệp ước hòa bình đã vẽ lại biên giới trên khắp khu vực."
+        }
+      ]
+    },
+    {
+      "english": "perceived importance",
+      "vietnamese": "tầm quan trọng được nhận thức",
+      "ipa": "/pərˈsiːvd ɪmˈpɔːrtəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The perceived importance of the issue influenced voter behavior.",
+          "vi": "Tầm quan trọng được nhận thức của vấn đề đã ảnh hưởng đến hành vi cử tri."
+        },
+        {
+          "en": "Researchers measured the perceived importance of each factor.",
+          "vi": "Các nhà nghiên cứu đo lường tầm quan trọng được nhận thức của từng yếu tố."
+        },
+        {
+          "en": "Its perceived importance grew as media coverage increased.",
+          "vi": "Tầm quan trọng được nhận thức của nó tăng lên khi truyền thông đưa tin nhiều hơn."
+        }
+      ]
+    },
+    {
+      "english": "perceived need",
+      "vietnamese": "nhu cầu được nhận thức",
+      "ipa": "/pərˈsiːvd niːd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The perceived need for reform drove the new legislation forward.",
+          "vi": "Nhu cầu cải cách được nhận thức đã thúc đẩy đạo luật mới tiến triển."
+        },
+        {
+          "en": "Marketing often creates a perceived need for new products.",
+          "vi": "Tiếp thị thường tạo ra nhu cầu được nhận thức đối với sản phẩm mới."
+        },
+        {
+          "en": "A perceived need for security shaped these community decisions.",
+          "vi": "Nhu cầu an ninh được nhận thức đã định hình những quyết định cộng đồng này."
+        }
+      ]
+    },
+    {
+      "english": "perceived threat",
+      "vietnamese": "mối đe dọa được nhận thức",
+      "ipa": "/pərˈsiːvd θret/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A perceived threat can trigger strong emotional reactions in people.",
+          "vi": "Một mối đe dọa được nhận thức có thể kích hoạt phản ứng cảm xúc mạnh ở con người."
+        },
+        {
+          "en": "The perceived threat of competition pushed the firm to innovate.",
+          "vi": "Mối đe dọa cạnh tranh được nhận thức đã thúc đẩy công ty đổi mới."
+        },
+        {
+          "en": "Policies often respond to a perceived threat rather than a real one.",
+          "vi": "Chính sách thường phản ứng với mối đe dọa được nhận thức hơn là mối đe dọa thực."
+        }
+      ]
+    },
+    {
+      "english": "perform a function",
+      "vietnamese": "thực hiện một chức năng",
+      "ipa": "/pərˈfɔːrm ə ˈfʌŋkʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Each organ in the body performs a vital function.",
+          "vi": "Mỗi cơ quan trong cơ thể thực hiện một chức năng thiết yếu."
+        },
+        {
+          "en": "These cells perform a function essential to the immune system.",
+          "vi": "Những tế bào này thực hiện một chức năng thiết yếu đối với hệ miễn dịch."
+        },
+        {
+          "en": "The software can perform a complex function with a single click.",
+          "vi": "Phần mềm có thể thực hiện một chức năng phức tạp chỉ với một cú nhấp."
+        }
+      ]
+    },
+    {
+      "english": "perform a study",
+      "vietnamese": "tiến hành một nghiên cứu",
+      "ipa": "/pərˈfɔːrm ə ˈstʌdi/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Scientists performed a study to test the new vaccine's safety.",
+          "vi": "Các nhà khoa học đã tiến hành một nghiên cứu để kiểm tra độ an toàn của vắc-xin mới."
+        },
+        {
+          "en": "The team performed a study on sleep and academic performance.",
+          "vi": "Nhóm đã tiến hành một nghiên cứu về giấc ngủ và kết quả học tập."
+        },
+        {
+          "en": "We performed a study involving over two thousand participants.",
+          "vi": "Chúng tôi đã tiến hành một nghiên cứu với hơn hai nghìn người tham gia."
+        }
+      ]
+    },
+    {
+      "english": "perform a task",
+      "vietnamese": "thực hiện một nhiệm vụ",
+      "ipa": "/pərˈfɔːrm ə tæsk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Participants were asked to perform a simple memory task.",
+          "vi": "Người tham gia được yêu cầu thực hiện một nhiệm vụ ghi nhớ đơn giản."
+        },
+        {
+          "en": "Robots can perform a repetitive task far faster than humans.",
+          "vi": "Robot có thể thực hiện một nhiệm vụ lặp lại nhanh hơn nhiều so với con người."
+        },
+        {
+          "en": "Stress can affect how well we perform a difficult task.",
+          "vi": "Căng thẳng có thể ảnh hưởng đến việc ta thực hiện một nhiệm vụ khó tốt đến đâu."
+        }
+      ]
+    },
+    {
+      "english": "personal choice",
+      "vietnamese": "lựa chọn cá nhân",
+      "ipa": "/ˈpɜːrsənəl tʃɔɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Whether to attend the ceremony is ultimately a personal choice.",
+          "vi": "Có dự buổi lễ hay không rốt cuộc là một lựa chọn cá nhân."
+        },
+        {
+          "en": "The study respects each participant's personal choice about treatment.",
+          "vi": "Nghiên cứu tôn trọng lựa chọn cá nhân của mỗi người tham gia về việc điều trị."
+        },
+        {
+          "en": "Diet is often framed as a personal choice rather than policy.",
+          "vi": "Chế độ ăn thường được xem là lựa chọn cá nhân hơn là vấn đề chính sách."
+        }
+      ]
+    },
+    {
+      "english": "personal circumstances",
+      "vietnamese": "hoàn cảnh cá nhân",
+      "ipa": "/ˈpɜːrsənəl ˈsɜːrkəmstænsəz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students may defer enrollment due to difficult personal circumstances.",
+          "vi": "Sinh viên có thể hoãn nhập học vì hoàn cảnh cá nhân khó khăn."
+        },
+        {
+          "en": "The court considered her personal circumstances before sentencing.",
+          "vi": "Tòa án đã xem xét hoàn cảnh cá nhân của cô trước khi tuyên án."
+        },
+        {
+          "en": "Each application is assessed against the applicant's personal circumstances.",
+          "vi": "Mỗi hồ sơ được đánh giá dựa trên hoàn cảnh cá nhân của người nộp đơn."
+        }
+      ]
+    },
+    {
+      "english": "personal communication",
+      "vietnamese": "trao đổi cá nhân",
+      "ipa": "/ˈpɜːrsənəl kəˌmjuːnɪˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The author cited a personal communication from a leading expert.",
+          "vi": "Tác giả đã trích dẫn một trao đổi cá nhân từ một chuyên gia hàng đầu."
+        },
+        {
+          "en": "Details were confirmed through personal communication with the researcher.",
+          "vi": "Các chi tiết được xác nhận qua trao đổi cá nhân với nhà nghiên cứu."
+        },
+        {
+          "en": "In academic writing, personal communication is cited carefully.",
+          "vi": "Trong văn viết học thuật, trao đổi cá nhân được trích dẫn một cách cẩn thận."
+        }
+      ]
+    },
+    {
+      "english": "personal contact",
+      "vietnamese": "tiếp xúc cá nhân",
+      "ipa": "/ˈpɜːrsənəl ˈkɑːntækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Personal contact with mentors often shapes a student's career path.",
+          "vi": "Tiếp xúc cá nhân với người hướng dẫn thường định hình con đường sự nghiệp của sinh viên."
+        },
+        {
+          "en": "Online learning can reduce personal contact between classmates.",
+          "vi": "Học trực tuyến có thể làm giảm tiếp xúc cá nhân giữa các bạn cùng lớp."
+        },
+        {
+          "en": "She built her network through years of personal contact.",
+          "vi": "Cô xây dựng mạng lưới của mình qua nhiều năm tiếp xúc cá nhân."
+        }
+      ]
+    },
+    {
+      "english": "personal control",
+      "vietnamese": "khả năng tự kiểm soát",
+      "ipa": "/ˈpɜːrsənəl kənˈtroʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A sense of personal control reduces stress in difficult situations.",
+          "vi": "Cảm giác tự kiểm soát giúp giảm căng thẳng trong các tình huống khó khăn."
+        },
+        {
+          "en": "The program aims to increase patients' personal control over recovery.",
+          "vi": "Chương trình nhằm tăng khả năng tự kiểm soát của bệnh nhân đối với việc hồi phục."
+        },
+        {
+          "en": "People with greater personal control tend to feel more satisfied.",
+          "vi": "Những người có khả năng tự kiểm soát cao hơn thường cảm thấy hài lòng hơn."
+        }
+      ]
+    },
+    {
+      "english": "personal experience",
+      "vietnamese": "trải nghiệm cá nhân",
+      "ipa": "/ˈpɜːrsənəl ɪkˈspɪriəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She drew on personal experience to illustrate her main argument.",
+          "vi": "Cô dựa vào trải nghiệm cá nhân để minh họa cho luận điểm chính của mình."
+        },
+        {
+          "en": "Personal experience alone is rarely enough to prove a theory.",
+          "vi": "Riêng trải nghiệm cá nhân hiếm khi đủ để chứng minh một lý thuyết."
+        },
+        {
+          "en": "The interviews captured each nurse's personal experience of the crisis.",
+          "vi": "Các cuộc phỏng vấn ghi lại trải nghiệm cá nhân của mỗi y tá về cuộc khủng hoảng."
+        }
+      ]
+    },
+    {
+      "english": "personal information",
+      "vietnamese": "thông tin cá nhân",
+      "ipa": "/ˈpɜːrsənəl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The website collects personal information without clear consent.",
+          "vi": "Trang web thu thập thông tin cá nhân mà không có sự đồng ý rõ ràng."
+        },
+        {
+          "en": "Researchers must protect the personal information of all participants.",
+          "vi": "Các nhà nghiên cứu phải bảo vệ thông tin cá nhân của mọi người tham gia."
+        },
+        {
+          "en": "New laws restrict how companies share personal information online.",
+          "vi": "Luật mới hạn chế cách các công ty chia sẻ thông tin cá nhân trên mạng."
+        }
+      ]
+    },
+    {
+      "english": "personal interest",
+      "vietnamese": "sở thích cá nhân",
+      "ipa": "/ˈpɜːrsənəl ˈɪntrəst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "His personal interest in astronomy led him to study physics.",
+          "vi": "Sở thích cá nhân về thiên văn đã đưa anh đến với việc học vật lý."
+        },
+        {
+          "en": "The topic reflects the writer's deep personal interest in history.",
+          "vi": "Chủ đề phản ánh sở thích cá nhân sâu sắc của tác giả về lịch sử."
+        },
+        {
+          "en": "Students perform better when they have a personal interest in the subject.",
+          "vi": "Sinh viên học tốt hơn khi có sở thích cá nhân với môn học."
+        }
+      ]
+    },
+    {
+      "english": "personal knowledge",
+      "vietnamese": "hiểu biết cá nhân",
+      "ipa": "/ˈpɜːrsənəl ˈnɑːlɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The witness spoke from personal knowledge of the events.",
+          "vi": "Nhân chứng nói dựa trên hiểu biết cá nhân về các sự kiện."
+        },
+        {
+          "en": "Personal knowledge of the region helped the team plan the survey.",
+          "vi": "Hiểu biết cá nhân về khu vực đã giúp nhóm lên kế hoạch khảo sát."
+        },
+        {
+          "en": "Scientists must distinguish personal knowledge from verified evidence.",
+          "vi": "Các nhà khoa học phải phân biệt hiểu biết cá nhân với bằng chứng đã được kiểm chứng."
+        }
+      ]
+    },
+    {
+      "english": "personal quality",
+      "vietnamese": "phẩm chất cá nhân",
+      "ipa": "/ˈpɜːrsənəl ˈkwɑːləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Patience is a personal quality valued highly in teaching.",
+          "vi": "Kiên nhẫn là một phẩm chất cá nhân được đánh giá cao trong giảng dạy."
+        },
+        {
+          "en": "Employers assess each candidate's personal qualities during interviews.",
+          "vi": "Nhà tuyển dụng đánh giá phẩm chất cá nhân của từng ứng viên trong các cuộc phỏng vấn."
+        },
+        {
+          "en": "Leadership depends on personal qualities as much as on skills.",
+          "vi": "Khả năng lãnh đạo phụ thuộc vào phẩm chất cá nhân nhiều như vào kỹ năng."
+        }
+      ]
+    },
+    {
+      "english": "personal relationship",
+      "vietnamese": "mối quan hệ cá nhân",
+      "ipa": "/ˈpɜːrsənəl rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A strong personal relationship with clients improves long-term trust.",
+          "vi": "Một mối quan hệ cá nhân vững chắc với khách hàng cải thiện niềm tin lâu dài."
+        },
+        {
+          "en": "The study explored how personal relationships affect job satisfaction.",
+          "vi": "Nghiên cứu khám phá cách các mối quan hệ cá nhân ảnh hưởng đến sự hài lòng công việc."
+        },
+        {
+          "en": "Maintaining a personal relationship across distance can be challenging.",
+          "vi": "Duy trì một mối quan hệ cá nhân qua khoảng cách có thể đầy thử thách."
+        }
+      ]
+    },
+    {
+      "english": "personal responsibility",
+      "vietnamese": "trách nhiệm cá nhân",
+      "ipa": "/ˈpɜːrsənəl rɪˌspɑːnsəˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The campaign encourages personal responsibility for the environment.",
+          "vi": "Chiến dịch khuyến khích trách nhiệm cá nhân đối với môi trường."
+        },
+        {
+          "en": "He accepted full personal responsibility for the mistake.",
+          "vi": "Anh đã chấp nhận hoàn toàn trách nhiệm cá nhân về sai lầm đó."
+        },
+        {
+          "en": "Good health partly depends on a sense of personal responsibility.",
+          "vi": "Sức khỏe tốt một phần phụ thuộc vào ý thức trách nhiệm cá nhân."
+        }
+      ]
+    },
+    {
+      "english": "personal safety",
+      "vietnamese": "an toàn cá nhân",
+      "ipa": "/ˈpɜːrsənəl ˈseɪfti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The training covered personal safety in remote fieldwork settings.",
+          "vi": "Khóa đào tạo bao gồm an toàn cá nhân trong môi trường khảo sát thực địa xa xôi."
+        },
+        {
+          "en": "Many residents worry about personal safety after dark.",
+          "vi": "Nhiều cư dân lo lắng về an toàn cá nhân sau khi trời tối."
+        },
+        {
+          "en": "Workers received clear guidelines on personal safety procedures.",
+          "vi": "Người lao động nhận được hướng dẫn rõ ràng về các quy trình an toàn cá nhân."
+        }
+      ]
+    }
+  ]
+}

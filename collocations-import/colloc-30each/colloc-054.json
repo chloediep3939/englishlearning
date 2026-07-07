@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 54/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 54/83"
+  },
+  "cards": [
+    {
+      "english": "personal space",
+      "vietnamese": "không gian riêng tư",
+      "ipa": "/ˈpɜːrsənəl speɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Crowded trains can make passengers feel they lack personal space.",
+          "vi": "Tàu đông đúc có thể khiến hành khách cảm thấy thiếu không gian riêng tư."
+        },
+        {
+          "en": "Notions of personal space vary widely across different cultures.",
+          "vi": "Quan niệm về không gian riêng tư khác nhau rất nhiều giữa các nền văn hóa."
+        },
+        {
+          "en": "Respecting personal space is important during one-on-one interviews.",
+          "vi": "Tôn trọng không gian riêng tư là điều quan trọng trong các cuộc phỏng vấn riêng."
+        }
+      ]
+    },
+    {
+      "english": "physical activity",
+      "vietnamese": "hoạt động thể chất",
+      "ipa": "/ˈfɪzɪkəl ækˈtɪvəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Regular physical activity lowers the risk of heart disease.",
+          "vi": "Hoạt động thể chất đều đặn làm giảm nguy cơ mắc bệnh tim."
+        },
+        {
+          "en": "The study linked daily physical activity to better mood.",
+          "vi": "Nghiên cứu liên hệ hoạt động thể chất hằng ngày với tâm trạng tốt hơn."
+        },
+        {
+          "en": "Schools should provide more time for physical activity.",
+          "vi": "Các trường học nên dành nhiều thời gian hơn cho hoạt động thể chất."
+        }
+      ]
+    },
+    {
+      "english": "physical appearance",
+      "vietnamese": "ngoại hình",
+      "ipa": "/ˈfɪzɪkəl əˈpɪrəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "First impressions often rely too heavily on physical appearance.",
+          "vi": "Ấn tượng đầu tiên thường phụ thuộc quá nhiều vào ngoại hình."
+        },
+        {
+          "en": "The study examined how physical appearance affects hiring decisions.",
+          "vi": "Nghiên cứu xem xét ngoại hình ảnh hưởng thế nào đến quyết định tuyển dụng."
+        },
+        {
+          "en": "Media pressure about physical appearance can harm young people.",
+          "vi": "Áp lực từ truyền thông về ngoại hình có thể gây hại cho người trẻ."
+        }
+      ]
+    },
+    {
+      "english": "physical characteristics",
+      "vietnamese": "đặc điểm thể chất",
+      "ipa": "/ˈfɪzɪkəl ˌkærəktəˈrɪstɪks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Scientists recorded the physical characteristics of each specimen.",
+          "vi": "Các nhà khoa học đã ghi lại đặc điểm thể chất của từng mẫu vật."
+        },
+        {
+          "en": "Soil's physical characteristics affect how well crops grow.",
+          "vi": "Đặc điểm thể chất của đất ảnh hưởng đến mức độ phát triển của cây trồng."
+        },
+        {
+          "en": "The two species differ in several key physical characteristics.",
+          "vi": "Hai loài khác nhau ở một vài đặc điểm thể chất quan trọng."
+        }
+      ]
+    },
+    {
+      "english": "physical contact",
+      "vietnamese": "tiếp xúc cơ thể",
+      "ipa": "/ˈfɪzɪkəl ˈkɑːntækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Some sports involve frequent physical contact between players.",
+          "vi": "Một số môn thể thao có nhiều tiếp xúc cơ thể giữa các cầu thủ."
+        },
+        {
+          "en": "Norms about physical contact differ greatly across cultures.",
+          "vi": "Các chuẩn mực về tiếp xúc cơ thể khác nhau rất nhiều giữa các nền văn hóa."
+        },
+        {
+          "en": "The disease spreads mainly through direct physical contact.",
+          "vi": "Căn bệnh lây lan chủ yếu qua tiếp xúc cơ thể trực tiếp."
+        }
+      ]
+    },
+    {
+      "english": "physical development",
+      "vietnamese": "sự phát triển thể chất",
+      "ipa": "/ˈfɪzɪkəl dɪˈveləpmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Good nutrition supports healthy physical development in children.",
+          "vi": "Dinh dưỡng tốt hỗ trợ sự phát triển thể chất khỏe mạnh ở trẻ em."
+        },
+        {
+          "en": "The study tracked physical development from birth to adolescence.",
+          "vi": "Nghiên cứu theo dõi sự phát triển thể chất từ khi sinh đến tuổi thiếu niên."
+        },
+        {
+          "en": "Play is essential for both physical and cognitive development.",
+          "vi": "Vui chơi là thiết yếu cho cả sự phát triển thể chất lẫn nhận thức."
+        }
+      ]
+    },
+    {
+      "english": "physical environment",
+      "vietnamese": "môi trường vật chất",
+      "ipa": "/ˈfɪzɪkəl ɪnˈvaɪrənmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The physical environment of a classroom can affect concentration.",
+          "vi": "Môi trường vật chất của lớp học có thể ảnh hưởng đến sự tập trung."
+        },
+        {
+          "en": "Urban planning shapes the physical environment we live in.",
+          "vi": "Quy hoạch đô thị định hình môi trường vật chất mà chúng ta sống trong đó."
+        },
+        {
+          "en": "Animals adapt their behavior to the surrounding physical environment.",
+          "vi": "Động vật thích nghi hành vi với môi trường vật chất xung quanh."
+        }
+      ]
+    },
+    {
+      "english": "physical features",
+      "vietnamese": "đặc trưng vật lý",
+      "ipa": "/ˈfɪzɪkəl ˈfiːtʃərz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The map highlights the main physical features of the landscape.",
+          "vi": "Bản đồ làm nổi bật các đặc trưng vật lý chính của cảnh quan."
+        },
+        {
+          "en": "Geographers study the physical features that shape river systems.",
+          "vi": "Các nhà địa lý nghiên cứu những đặc trưng vật lý định hình hệ thống sông."
+        },
+        {
+          "en": "Distinct physical features make the region easy to identify.",
+          "vi": "Những đặc trưng vật lý riêng biệt khiến khu vực dễ nhận ra."
+        }
+      ]
+    },
+    {
+      "english": "physical health",
+      "vietnamese": "sức khỏe thể chất",
+      "ipa": "/ˈfɪzɪkəl helθ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Sleep has a strong impact on overall physical health.",
+          "vi": "Giấc ngủ có tác động mạnh đến sức khỏe thể chất tổng thể."
+        },
+        {
+          "en": "The program improves both physical health and mental wellbeing.",
+          "vi": "Chương trình cải thiện cả sức khỏe thể chất lẫn tinh thần."
+        },
+        {
+          "en": "Poor diet over time damages long-term physical health.",
+          "vi": "Chế độ ăn kém theo thời gian gây hại cho sức khỏe thể chất lâu dài."
+        }
+      ]
+    },
+    {
+      "english": "physical needs",
+      "vietnamese": "nhu cầu thể chất",
+      "ipa": "/ˈfɪzɪkəl niːdz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Good care addresses both the physical needs and emotional needs.",
+          "vi": "Sự chăm sóc tốt đáp ứng cả nhu cầu thể chất lẫn nhu cầu cảm xúc."
+        },
+        {
+          "en": "Infants depend entirely on adults to meet their physical needs.",
+          "vi": "Trẻ sơ sinh hoàn toàn phụ thuộc vào người lớn để đáp ứng nhu cầu thể chất."
+        },
+        {
+          "en": "Shelter design must consider the physical needs of residents.",
+          "vi": "Thiết kế nơi trú ẩn phải xem xét nhu cầu thể chất của cư dân."
+        }
+      ]
+    },
+    {
+      "english": "physical presence",
+      "vietnamese": "sự hiện diện trực tiếp",
+      "ipa": "/ˈfɪzɪkəl ˈprezəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The teacher's physical presence helped keep students focused.",
+          "vi": "Sự hiện diện trực tiếp của giáo viên giúp học sinh tập trung."
+        },
+        {
+          "en": "Remote work reduces the need for physical presence in offices.",
+          "vi": "Làm việc từ xa giảm nhu cầu hiện diện trực tiếp tại văn phòng."
+        },
+        {
+          "en": "A strong physical presence can reassure people during emergencies.",
+          "vi": "Một sự hiện diện trực tiếp mạnh mẽ có thể trấn an mọi người khi khẩn cấp."
+        }
+      ]
+    },
+    {
+      "english": "physical properties",
+      "vietnamese": "tính chất vật lý",
+      "ipa": "/ˈfɪzɪkəl ˈprɑːpərtiz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experiment measured the physical properties of the new material.",
+          "vi": "Thí nghiệm đo lường tính chất vật lý của vật liệu mới."
+        },
+        {
+          "en": "Temperature changes alter the physical properties of metals.",
+          "vi": "Sự thay đổi nhiệt độ làm thay đổi tính chất vật lý của kim loại."
+        },
+        {
+          "en": "Engineers test physical properties before approving any design.",
+          "vi": "Các kỹ sư kiểm tra tính chất vật lý trước khi phê duyệt bất kỳ thiết kế nào."
+        }
+      ]
+    },
+    {
+      "english": "physical proximity",
+      "vietnamese": "khoảng cách gần về vật lý",
+      "ipa": "/ˈfɪzɪkəl prɑːkˈsɪməti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Physical proximity often increases the chance of friendship forming.",
+          "vi": "Khoảng cách gần về vật lý thường làm tăng khả năng hình thành tình bạn."
+        },
+        {
+          "en": "The study found physical proximity boosted team collaboration.",
+          "vi": "Nghiên cứu phát hiện khoảng cách gần về vật lý thúc đẩy hợp tác nhóm."
+        },
+        {
+          "en": "Online tools reduce the importance of physical proximity at work.",
+          "vi": "Công cụ trực tuyến làm giảm tầm quan trọng của khoảng cách gần về vật lý trong công việc."
+        }
+      ]
+    },
+    {
+      "english": "physical science",
+      "vietnamese": "khoa học tự nhiên",
+      "ipa": "/ˈfɪzɪkəl ˈsaɪəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She specialized in physical science before turning to engineering.",
+          "vi": "Cô chuyên về khoa học tự nhiên trước khi chuyển sang kỹ thuật."
+        },
+        {
+          "en": "The curriculum balances physical science with social studies.",
+          "vi": "Chương trình học cân bằng giữa khoa học tự nhiên và khoa học xã hội."
+        },
+        {
+          "en": "Advances in physical science have transformed modern medicine.",
+          "vi": "Những tiến bộ trong khoa học tự nhiên đã biến đổi y học hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "physical space",
+      "vietnamese": "không gian vật lý",
+      "ipa": "/ˈfɪzɪkəl speɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The library lacks enough physical space for group study.",
+          "vi": "Thư viện thiếu không gian vật lý đủ cho việc học nhóm."
+        },
+        {
+          "en": "Digital archives store records without taking up physical space.",
+          "vi": "Kho lưu trữ số lưu giữ hồ sơ mà không chiếm không gian vật lý."
+        },
+        {
+          "en": "The design maximizes physical space in small apartments.",
+          "vi": "Thiết kế tận dụng tối đa không gian vật lý trong các căn hộ nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "physical symptom",
+      "vietnamese": "triệu chứng thể chất",
+      "ipa": "/ˈfɪzɪkəl ˈsɪmptəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Anxiety can produce a physical symptom such as a racing heart.",
+          "vi": "Lo âu có thể gây ra triệu chứng thể chất như tim đập nhanh."
+        },
+        {
+          "en": "Doctors look for any physical symptom that signals infection.",
+          "vi": "Bác sĩ tìm kiếm bất kỳ triệu chứng thể chất nào báo hiệu nhiễm trùng."
+        },
+        {
+          "en": "Stress often shows up first as a physical symptom.",
+          "vi": "Căng thẳng thường biểu hiện đầu tiên dưới dạng một triệu chứng thể chất."
+        }
+      ]
+    },
+    {
+      "english": "physical world",
+      "vietnamese": "thế giới vật chất",
+      "ipa": "/ˈfɪzɪkəl wɜːrld/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Science seeks to explain how the physical world works.",
+          "vi": "Khoa học tìm cách giải thích cách thế giới vật chất vận hành."
+        },
+        {
+          "en": "Virtual reality blurs the line with the physical world.",
+          "vi": "Thực tế ảo làm mờ ranh giới với thế giới vật chất."
+        },
+        {
+          "en": "Children learn about the physical world through play and exploration.",
+          "vi": "Trẻ em học về thế giới vật chất thông qua vui chơi và khám phá."
+        }
+      ]
+    },
+    {
+      "english": "pilot study",
+      "vietnamese": "nghiên cứu thí điểm",
+      "ipa": "/ˈpaɪlət ˈstʌdi/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "A pilot study tested the survey before the full rollout.",
+          "vi": "Một nghiên cứu thí điểm đã kiểm tra bảng khảo sát trước khi triển khai đầy đủ."
+        },
+        {
+          "en": "Results from the pilot study guided the final research design.",
+          "vi": "Kết quả từ nghiên cứu thí điểm đã định hướng thiết kế nghiên cứu cuối cùng."
+        },
+        {
+          "en": "The pilot study involved only thirty volunteers.",
+          "vi": "Nghiên cứu thí điểm chỉ có ba mươi tình nguyện viên tham gia."
+        }
+      ]
+    },
+    {
+      "english": "pioneering work",
+      "vietnamese": "công trình tiên phong",
+      "ipa": "/ˌpaɪəˈnɪrɪŋ wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her pioneering work transformed how we understand genetics.",
+          "vi": "Công trình tiên phong của bà đã thay đổi cách chúng ta hiểu về di truyền."
+        },
+        {
+          "en": "The award honored decades of pioneering work in robotics.",
+          "vi": "Giải thưởng vinh danh nhiều thập kỷ công trình tiên phong trong lĩnh vực robot."
+        },
+        {
+          "en": "Pioneering work in this field often goes unrecognized for years.",
+          "vi": "Công trình tiên phong trong lĩnh vực này thường không được công nhận trong nhiều năm."
+        }
+      ]
+    },
+    {
+      "english": "pivotal role",
+      "vietnamese": "vai trò then chốt",
+      "ipa": "/ˈpɪvətəl roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Education plays a pivotal role in reducing inequality.",
+          "vi": "Giáo dục đóng vai trò then chốt trong việc giảm bất bình đẳng."
+        },
+        {
+          "en": "She played a pivotal role in negotiating the agreement.",
+          "vi": "Cô đã đóng vai trò then chốt trong việc đàm phán thỏa thuận."
+        },
+        {
+          "en": "Technology has a pivotal role in modern healthcare delivery.",
+          "vi": "Công nghệ giữ vai trò then chốt trong việc cung cấp dịch vụ y tế hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "place emphasis",
+      "vietnamese": "đặt sự nhấn mạnh",
+      "ipa": "/pleɪs ˈemfəsɪs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The course places emphasis on practical skills over theory.",
+          "vi": "Khóa học đặt sự nhấn mạnh vào kỹ năng thực hành hơn là lý thuyết."
+        },
+        {
+          "en": "Researchers place emphasis on reproducible and transparent methods.",
+          "vi": "Các nhà nghiên cứu đặt sự nhấn mạnh vào phương pháp minh bạch và có thể tái lập."
+        },
+        {
+          "en": "The report places emphasis on the needs of rural communities.",
+          "vi": "Báo cáo đặt sự nhấn mạnh vào nhu cầu của các cộng đồng nông thôn."
+        }
+      ]
+    },
+    {
+      "english": "planning stage",
+      "vietnamese": "giai đoạn lập kế hoạch",
+      "ipa": "/ˈplænɪŋ steɪdʒ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The project is still in its early planning stage.",
+          "vi": "Dự án vẫn còn trong giai đoạn lập kế hoạch ban đầu."
+        },
+        {
+          "en": "Stakeholders were consulted during the planning stage of the program.",
+          "vi": "Các bên liên quan được tham vấn trong giai đoạn lập kế hoạch của chương trình."
+        },
+        {
+          "en": "Many problems can be avoided at the planning stage.",
+          "vi": "Nhiều vấn đề có thể được tránh ngay từ giai đoạn lập kế hoạch."
+        }
+      ]
+    },
+    {
+      "english": "plausible explanation",
+      "vietnamese": "lời giải thích hợp lý",
+      "ipa": "/ˈplɔːzəbəl ˌekspləˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The theory offers a plausible explanation for the unusual results.",
+          "vi": "Lý thuyết đưa ra một lời giải thích hợp lý cho những kết quả bất thường."
+        },
+        {
+          "en": "No plausible explanation has yet been found for the anomaly.",
+          "vi": "Vẫn chưa tìm ra lời giải thích hợp lý nào cho điều bất thường này."
+        },
+        {
+          "en": "A plausible explanation must fit all the available evidence.",
+          "vi": "Một lời giải thích hợp lý phải phù hợp với mọi bằng chứng hiện có."
+        }
+      ]
+    },
+    {
+      "english": "play a role in",
+      "vietnamese": "đóng vai trò trong",
+      "ipa": "/pleɪ ə roʊl ɪn/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Genes play a role in determining a person's risk of disease.",
+          "vi": "Gen đóng vai trò trong việc xác định nguy cơ mắc bệnh của một người."
+        },
+        {
+          "en": "Social media plays a role in shaping public opinion today.",
+          "vi": "Mạng xã hội đóng vai trò trong việc định hình dư luận ngày nay."
+        },
+        {
+          "en": "Climate change plays a role in the spread of certain diseases.",
+          "vi": "Biến đổi khí hậu đóng vai trò trong sự lan rộng của một số bệnh."
+        }
+      ]
+    },
+    {
+      "english": "political activism",
+      "vietnamese": "hoạt động chính trị tích cực",
+      "ipa": "/pəˈlɪtɪkəl ˈæktɪvɪzəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Student political activism grew sharply during the 1960s.",
+          "vi": "Hoạt động chính trị tích cực của sinh viên tăng mạnh trong những năm 1960."
+        },
+        {
+          "en": "Online platforms have changed the nature of political activism.",
+          "vi": "Các nền tảng trực tuyến đã thay đổi bản chất của hoạt động chính trị tích cực."
+        },
+        {
+          "en": "Her political activism focused on environmental justice.",
+          "vi": "Hoạt động chính trị tích cực của bà tập trung vào công lý môi trường."
+        }
+      ]
+    },
+    {
+      "english": "political activity",
+      "vietnamese": "hoạt động chính trị",
+      "ipa": "/pəˈlɪtɪkəl ækˈtɪvəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The law restricts political activity by certain public officials.",
+          "vi": "Luật hạn chế hoạt động chính trị của một số quan chức nhà nước."
+        },
+        {
+          "en": "Voter turnout is one measure of political activity.",
+          "vi": "Tỷ lệ cử tri đi bầu là một thước đo của hoạt động chính trị."
+        },
+        {
+          "en": "Economic hardship often increases political activity among citizens.",
+          "vi": "Khó khăn kinh tế thường làm gia tăng hoạt động chính trị trong dân chúng."
+        }
+      ]
+    },
+    {
+      "english": "political agenda",
+      "vietnamese": "chương trình nghị sự chính trị",
+      "ipa": "/pəˈlɪtɪkəl əˈdʒendə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Education reform sits high on the government's political agenda.",
+          "vi": "Cải cách giáo dục nằm ở vị trí cao trong chương trình nghị sự chính trị của chính phủ."
+        },
+        {
+          "en": "Critics argued the report served a hidden political agenda.",
+          "vi": "Các nhà phê bình cho rằng báo cáo phục vụ một chương trình nghị sự chính trị ẩn giấu."
+        },
+        {
+          "en": "Each party tried to set the national political agenda.",
+          "vi": "Mỗi đảng đều cố gắng định hình chương trình nghị sự chính trị quốc gia."
+        }
+      ]
+    },
+    {
+      "english": "political arena",
+      "vietnamese": "vũ đài chính trị",
+      "ipa": "/pəˈlɪtɪkəl əˈriːnə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She entered the political arena after a long legal career.",
+          "vi": "Bà bước vào vũ đài chính trị sau một sự nghiệp pháp lý dài."
+        },
+        {
+          "en": "Women remain underrepresented in the political arena.",
+          "vi": "Phụ nữ vẫn còn ít được đại diện trên vũ đài chính trị."
+        },
+        {
+          "en": "The scandal reshaped the entire political arena overnight.",
+          "vi": "Vụ bê bối đã định hình lại toàn bộ vũ đài chính trị chỉ sau một đêm."
+        }
+      ]
+    },
+    {
+      "english": "political authority",
+      "vietnamese": "quyền lực chính trị",
+      "ipa": "/pəˈlɪtɪkəl əˈθɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The constitution defines the limits of political authority.",
+          "vi": "Hiến pháp xác định giới hạn của quyền lực chính trị."
+        },
+        {
+          "en": "Local councils were granted greater political authority.",
+          "vi": "Các hội đồng địa phương được trao quyền lực chính trị lớn hơn."
+        },
+        {
+          "en": "Religious leaders once held significant political authority.",
+          "vi": "Các lãnh đạo tôn giáo từng nắm giữ quyền lực chính trị đáng kể."
+        }
+      ]
+    },
+    {
+      "english": "political circumstances",
+      "vietnamese": "hoàn cảnh chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈsɜːrkəmstænsəz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The reform succeeded due to favorable political circumstances.",
+          "vi": "Cuộc cải cách thành công nhờ hoàn cảnh chính trị thuận lợi."
+        },
+        {
+          "en": "Changing political circumstances forced the policy to be revised.",
+          "vi": "Hoàn cảnh chính trị thay đổi buộc chính sách phải được sửa đổi."
+        },
+        {
+          "en": "Historians stress the political circumstances of the era.",
+          "vi": "Các nhà sử học nhấn mạnh hoàn cảnh chính trị của thời đại đó."
+        }
+      ]
+    }
+  ]
+}

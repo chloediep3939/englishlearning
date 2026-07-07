@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 45/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 45/83"
+  },
+  "cards": [
+    {
+      "english": "major factor",
+      "vietnamese": "yếu tố chính",
+      "ipa": "/ˈmeɪdʒər ˈfæktər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cost was a major factor in choosing this supplier.",
+          "vi": "Chi phí là một yếu tố chính trong việc chọn nhà cung cấp này."
+        },
+        {
+          "en": "Sleep is a major factor affecting students' overall performance.",
+          "vi": "Giấc ngủ là một yếu tố chính ảnh hưởng đến thành tích chung của sinh viên."
+        },
+        {
+          "en": "The study identified pollution as a major factor in disease.",
+          "vi": "Nghiên cứu xác định ô nhiễm là một yếu tố chính gây bệnh."
+        }
+      ]
+    },
+    {
+      "english": "major feature",
+      "vietnamese": "đặc điểm chính",
+      "ipa": "/ˈmeɪdʒər ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Flexibility is a major feature of this online course.",
+          "vi": "Tính linh hoạt là một đặc điểm chính của khóa học trực tuyến này."
+        },
+        {
+          "en": "The report highlights several major features of the new system.",
+          "vi": "Báo cáo nêu bật một số đặc điểm chính của hệ thống mới."
+        },
+        {
+          "en": "A major feature of the design is its low energy use.",
+          "vi": "Một đặc điểm chính của thiết kế là mức tiêu thụ năng lượng thấp."
+        }
+      ]
+    },
+    {
+      "english": "major focus",
+      "vietnamese": "trọng tâm chính",
+      "ipa": "/ˈmeɪdʒər ˈfoʊkəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Customer satisfaction is a major focus of the company.",
+          "vi": "Sự hài lòng của khách hàng là trọng tâm chính của công ty."
+        },
+        {
+          "en": "Reducing waste became a major focus of the research.",
+          "vi": "Giảm thiểu rác thải trở thành trọng tâm chính của nghiên cứu."
+        },
+        {
+          "en": "A major focus of the lecture was climate adaptation.",
+          "vi": "Một trọng tâm chính của bài giảng là thích ứng với khí hậu."
+        }
+      ]
+    },
+    {
+      "english": "major impact",
+      "vietnamese": "tác động lớn",
+      "ipa": "/ˈmeɪdʒər ˈɪmpækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new policy had a major impact on small businesses.",
+          "vi": "Chính sách mới đã có tác động lớn đến các doanh nghiệp nhỏ."
+        },
+        {
+          "en": "Technology has a major impact on how we communicate.",
+          "vi": "Công nghệ có tác động lớn đến cách chúng ta giao tiếp."
+        },
+        {
+          "en": "Early education can make a major impact on later success.",
+          "vi": "Giáo dục sớm có thể tạo ra tác động lớn đến thành công về sau."
+        }
+      ]
+    },
+    {
+      "english": "major implications",
+      "vietnamese": "hệ quả lớn",
+      "ipa": "/ˈmeɪdʒər ˌɪmplɪˈkeɪʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The findings have major implications for public health policy.",
+          "vi": "Các phát hiện có hệ quả lớn đối với chính sách y tế công cộng."
+        },
+        {
+          "en": "This decision carries major implications for future trade deals.",
+          "vi": "Quyết định này mang theo những hệ quả lớn cho các thỏa thuận thương mại tương lai."
+        },
+        {
+          "en": "Rising sea levels have major implications for coastal cities.",
+          "vi": "Mực nước biển dâng có hệ quả lớn đối với các thành phố ven biển."
+        }
+      ]
+    },
+    {
+      "english": "major influence",
+      "vietnamese": "ảnh hưởng lớn",
+      "ipa": "/ˈmeɪdʒər ˈɪnfluəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her mentor had a major influence on her career choices.",
+          "vi": "Người cố vấn của cô đã có ảnh hưởng lớn đến các lựa chọn nghề nghiệp."
+        },
+        {
+          "en": "Culture exerts a major influence on consumer behavior.",
+          "vi": "Văn hóa tạo ra ảnh hưởng lớn đến hành vi của người tiêu dùng."
+        },
+        {
+          "en": "Greek philosophy was a major influence on Western thought.",
+          "vi": "Triết học Hy Lạp là một ảnh hưởng lớn đối với tư tưởng phương Tây."
+        }
+      ]
+    },
+    {
+      "english": "major issue",
+      "vietnamese": "vấn đề lớn",
+      "ipa": "/ˈmeɪdʒər ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Traffic congestion remains a major issue in the city.",
+          "vi": "Ùn tắc giao thông vẫn là một vấn đề lớn ở thành phố."
+        },
+        {
+          "en": "Data privacy is a major issue for many users today.",
+          "vi": "Quyền riêng tư dữ liệu là một vấn đề lớn với nhiều người dùng ngày nay."
+        },
+        {
+          "en": "The meeting addressed a major issue facing the department.",
+          "vi": "Cuộc họp đã giải quyết một vấn đề lớn mà phòng ban đang đối mặt."
+        }
+      ]
+    },
+    {
+      "english": "major part",
+      "vietnamese": "phần lớn",
+      "ipa": "/ˈmeɪdʒər ˈpɑːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Reading plays a major part in language learning.",
+          "vi": "Việc đọc đóng một phần lớn trong việc học ngôn ngữ."
+        },
+        {
+          "en": "Agriculture forms a major part of the local economy.",
+          "vi": "Nông nghiệp tạo nên một phần lớn của nền kinh tế địa phương."
+        },
+        {
+          "en": "A major part of the budget goes to research and development.",
+          "vi": "Một phần lớn ngân sách dành cho nghiên cứu và phát triển."
+        }
+      ]
+    },
+    {
+      "english": "major problem",
+      "vietnamese": "vấn đề nghiêm trọng",
+      "ipa": "/ˈmeɪdʒər ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Air pollution is a major problem in large cities.",
+          "vi": "Ô nhiễm không khí là một vấn đề nghiêm trọng ở các thành phố lớn."
+        },
+        {
+          "en": "The team faced a major problem with the software.",
+          "vi": "Nhóm đã gặp một vấn đề nghiêm trọng với phần mềm."
+        },
+        {
+          "en": "Unemployment became a major problem after the crisis.",
+          "vi": "Thất nghiệp trở thành một vấn đề nghiêm trọng sau khủng hoảng."
+        }
+      ]
+    },
+    {
+      "english": "major reason",
+      "vietnamese": "lý do chính",
+      "ipa": "/ˈmeɪdʒər ˈriːzən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cost is a major reason students choose online courses.",
+          "vi": "Chi phí là một lý do chính khiến sinh viên chọn học trực tuyến."
+        },
+        {
+          "en": "A major reason for the delay was poor planning.",
+          "vi": "Một lý do chính cho sự chậm trễ là việc lập kế hoạch kém."
+        },
+        {
+          "en": "Convenience is a major reason people shop online.",
+          "vi": "Sự tiện lợi là một lý do chính khiến người ta mua sắm trực tuyến."
+        }
+      ]
+    },
+    {
+      "english": "major role",
+      "vietnamese": "vai trò lớn",
+      "ipa": "/ˈmeɪdʒər ˈroʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Teachers play a major role in shaping young minds.",
+          "vi": "Giáo viên đóng một vai trò lớn trong việc định hình tư duy trẻ."
+        },
+        {
+          "en": "Diet plays a major role in maintaining good health.",
+          "vi": "Chế độ ăn đóng một vai trò lớn trong việc duy trì sức khỏe tốt."
+        },
+        {
+          "en": "The internet has a major role in modern education.",
+          "vi": "Internet có một vai trò lớn trong giáo dục hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "major shift",
+      "vietnamese": "sự thay đổi lớn",
+      "ipa": "/ˈmeɪdʒər ˈʃɪft/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There has been a major shift toward remote working.",
+          "vi": "Đã có một sự thay đổi lớn hướng tới làm việc từ xa."
+        },
+        {
+          "en": "The data shows a major shift in consumer preferences.",
+          "vi": "Dữ liệu cho thấy một sự thay đổi lớn trong sở thích người tiêu dùng."
+        },
+        {
+          "en": "A major shift in policy followed the election results.",
+          "vi": "Một sự thay đổi lớn về chính sách diễn ra sau kết quả bầu cử."
+        }
+      ]
+    },
+    {
+      "english": "major source",
+      "vietnamese": "nguồn chính",
+      "ipa": "/ˈmeɪdʒər ˈsɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Tourism is a major source of income for the region.",
+          "vi": "Du lịch là một nguồn thu nhập chính cho khu vực này."
+        },
+        {
+          "en": "Coal remains a major source of energy in many countries.",
+          "vi": "Than đá vẫn là một nguồn năng lượng chính ở nhiều nước."
+        },
+        {
+          "en": "Stress is a major source of health problems among workers.",
+          "vi": "Căng thẳng là một nguồn chính gây vấn đề sức khỏe cho người lao động."
+        }
+      ]
+    },
+    {
+      "english": "major theme",
+      "vietnamese": "chủ đề chính",
+      "ipa": "/ˈmeɪdʒər ˈθiːm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Identity is a major theme in the author's novels.",
+          "vi": "Bản sắc là một chủ đề chính trong các tiểu thuyết của tác giả."
+        },
+        {
+          "en": "Sustainability was a major theme at the conference.",
+          "vi": "Tính bền vững là một chủ đề chính tại hội nghị."
+        },
+        {
+          "en": "A major theme of the essay is social inequality.",
+          "vi": "Một chủ đề chính của bài luận là bất bình đẳng xã hội."
+        }
+      ]
+    },
+    {
+      "english": "make adjustments",
+      "vietnamese": "thực hiện điều chỉnh",
+      "ipa": "/ˈmeɪk əˈdʒʌstmənts/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "We may need to make adjustments to the project plan.",
+          "vi": "Chúng ta có thể cần thực hiện điều chỉnh cho kế hoạch dự án."
+        },
+        {
+          "en": "The teacher made adjustments to suit different learning styles.",
+          "vi": "Giáo viên đã thực hiện điều chỉnh để phù hợp các phong cách học khác nhau."
+        },
+        {
+          "en": "Companies often make adjustments based on customer feedback.",
+          "vi": "Các công ty thường thực hiện điều chỉnh dựa trên phản hồi của khách hàng."
+        }
+      ]
+    },
+    {
+      "english": "make arrangements",
+      "vietnamese": "sắp xếp, thu xếp",
+      "ipa": "/ˈmeɪk əˈreɪndʒmənts/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The office will make arrangements for your accommodation.",
+          "vi": "Văn phòng sẽ thu xếp chỗ ở cho bạn."
+        },
+        {
+          "en": "We need to make arrangements for the guest speaker.",
+          "vi": "Chúng ta cần sắp xếp cho diễn giả khách mời."
+        },
+        {
+          "en": "She made arrangements to travel before the deadline.",
+          "vi": "Cô ấy đã thu xếp để đi lại trước hạn chót."
+        }
+      ]
+    },
+    {
+      "english": "make available",
+      "vietnamese": "cung cấp, làm cho sẵn có",
+      "ipa": "/ˈmeɪk əˈveɪləbəl/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The library makes available many e-books to students.",
+          "vi": "Thư viện cung cấp nhiều sách điện tử cho sinh viên."
+        },
+        {
+          "en": "The company made the report available to all employees.",
+          "vi": "Công ty đã làm cho báo cáo sẵn có với mọi nhân viên."
+        },
+        {
+          "en": "We should make these resources available online for free.",
+          "vi": "Chúng ta nên cung cấp các tài nguyên này trực tuyến miễn phí."
+        }
+      ]
+    },
+    {
+      "english": "make aware",
+      "vietnamese": "làm cho nhận thức được",
+      "ipa": "/ˈmeɪk əˈwer/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The campaign aims to make people aware of the risks.",
+          "vi": "Chiến dịch nhằm làm cho mọi người nhận thức được các rủi ro."
+        },
+        {
+          "en": "Teachers should make students aware of plagiarism rules.",
+          "vi": "Giáo viên nên làm cho sinh viên nhận thức được các quy định đạo văn."
+        },
+        {
+          "en": "The article made readers aware of the growing problem.",
+          "vi": "Bài báo đã làm cho độc giả nhận thức được vấn đề đang gia tăng."
+        }
+      ]
+    },
+    {
+      "english": "make contact",
+      "vietnamese": "liên hệ, tiếp xúc",
+      "ipa": "/ˈmeɪk ˈkɑːntækt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Try to make contact with the supplier before Friday.",
+          "vi": "Hãy cố gắng liên hệ với nhà cung cấp trước thứ Sáu."
+        },
+        {
+          "en": "Researchers made contact with several local communities.",
+          "vi": "Các nhà nghiên cứu đã tiếp xúc với một số cộng đồng địa phương."
+        },
+        {
+          "en": "It can be hard to make contact with busy officials.",
+          "vi": "Có thể khó liên hệ với các quan chức bận rộn."
+        }
+      ]
+    },
+    {
+      "english": "make a contribution",
+      "vietnamese": "đóng góp",
+      "ipa": "/ˈmeɪk ə ˌkɑːntrɪˈbjuːʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Every student can make a contribution to the discussion.",
+          "vi": "Mỗi sinh viên đều có thể đóng góp vào cuộc thảo luận."
+        },
+        {
+          "en": "The scientist made a major contribution to the field.",
+          "vi": "Nhà khoa học đã có một đóng góp lớn cho lĩnh vực này."
+        },
+        {
+          "en": "Volunteers make a valuable contribution to the community.",
+          "vi": "Các tình nguyện viên đóng góp quý giá cho cộng đồng."
+        }
+      ]
+    },
+    {
+      "english": "make explicit",
+      "vietnamese": "làm cho rõ ràng",
+      "ipa": "/ˈmeɪk ɪkˈsplɪsɪt/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The author should make the argument explicit in the introduction.",
+          "vi": "Tác giả nên làm cho lập luận rõ ràng trong phần mở đầu."
+        },
+        {
+          "en": "Good instructions make every step explicit for the reader.",
+          "vi": "Hướng dẫn tốt làm cho mọi bước trở nên rõ ràng với người đọc."
+        },
+        {
+          "en": "The policy makes explicit who is responsible for safety.",
+          "vi": "Chính sách làm rõ ràng ai chịu trách nhiệm về an toàn."
+        }
+      ]
+    },
+    {
+      "english": "make policy",
+      "vietnamese": "hoạch định chính sách",
+      "ipa": "/ˈmeɪk ˈpɑːləsi/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Governments make policy based on careful research.",
+          "vi": "Chính phủ hoạch định chính sách dựa trên nghiên cứu kỹ lưỡng."
+        },
+        {
+          "en": "Those who make policy must consider public opinion.",
+          "vi": "Những người hoạch định chính sách phải cân nhắc ý kiến công chúng."
+        },
+        {
+          "en": "Experts help officials make policy on climate change.",
+          "vi": "Các chuyên gia giúp quan chức hoạch định chính sách về biến đổi khí hậu."
+        }
+      ]
+    },
+    {
+      "english": "make provision",
+      "vietnamese": "có sự chuẩn bị, dự liệu",
+      "ipa": "/ˈmeɪk prəˈvɪʒən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The school should make provision for disabled students.",
+          "vi": "Nhà trường nên có sự chuẩn bị cho sinh viên khuyết tật."
+        },
+        {
+          "en": "The plan makes provision for future population growth.",
+          "vi": "Kế hoạch dự liệu cho sự gia tăng dân số trong tương lai."
+        },
+        {
+          "en": "Governments must make provision for emergency situations.",
+          "vi": "Chính phủ phải có sự chuẩn bị cho các tình huống khẩn cấp."
+        }
+      ]
+    },
+    {
+      "english": "make visible",
+      "vietnamese": "làm cho thấy được",
+      "ipa": "/ˈmeɪk ˈvɪzəbəl/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The chart makes the trend visible at a glance.",
+          "vi": "Biểu đồ làm cho xu hướng thấy được chỉ trong nháy mắt."
+        },
+        {
+          "en": "The study makes visible the hidden costs of pollution.",
+          "vi": "Nghiên cứu làm cho thấy được những chi phí ẩn của ô nhiễm."
+        },
+        {
+          "en": "Good design makes important data visible to users.",
+          "vi": "Thiết kế tốt làm cho dữ liệu quan trọng thấy được với người dùng."
+        }
+      ]
+    },
+    {
+      "english": "make a comment",
+      "vietnamese": "đưa ra nhận xét",
+      "ipa": "/ˈmeɪk ə ˈkɑːment/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The professor made a comment on my essay structure.",
+          "vi": "Giáo sư đã đưa ra nhận xét về cấu trúc bài luận của tôi."
+        },
+        {
+          "en": "Feel free to make a comment during the presentation.",
+          "vi": "Bạn cứ thoải mái đưa ra nhận xét trong bài thuyết trình."
+        },
+        {
+          "en": "She made a brief comment before leaving the meeting.",
+          "vi": "Cô ấy đã đưa ra một nhận xét ngắn trước khi rời cuộc họp."
+        }
+      ]
+    },
+    {
+      "english": "make a distinction",
+      "vietnamese": "phân biệt",
+      "ipa": "/ˈmeɪk ə dɪˈstɪŋkʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "It is important to make a distinction between cause and effect.",
+          "vi": "Điều quan trọng là phân biệt giữa nguyên nhân và hệ quả."
+        },
+        {
+          "en": "The author makes a clear distinction between the two terms.",
+          "vi": "Tác giả phân biệt rõ ràng giữa hai thuật ngữ."
+        },
+        {
+          "en": "We should make a distinction between fact and opinion.",
+          "vi": "Chúng ta nên phân biệt giữa sự thật và ý kiến."
+        }
+      ]
+    },
+    {
+      "english": "make a judgement",
+      "vietnamese": "đưa ra phán đoán, đánh giá",
+      "ipa": "/ˈmeɪk ə ˈdʒʌdʒmənt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Try not to make a judgement before hearing all sides.",
+          "vi": "Cố đừng đưa ra phán đoán trước khi nghe hết các bên."
+        },
+        {
+          "en": "The committee must make a judgement based on evidence.",
+          "vi": "Hội đồng phải đưa ra đánh giá dựa trên bằng chứng."
+        },
+        {
+          "en": "Readers can make their own judgement about the findings.",
+          "vi": "Độc giả có thể tự đưa ra phán đoán về các phát hiện."
+        }
+      ]
+    },
+    {
+      "english": "make a living",
+      "vietnamese": "kiếm sống",
+      "ipa": "/ˈmeɪk ə ˈlɪvɪŋ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Many artists struggle to make a living from their work.",
+          "vi": "Nhiều nghệ sĩ vất vả để kiếm sống bằng nghề của mình."
+        },
+        {
+          "en": "Farmers in the region make a living from rice.",
+          "vi": "Nông dân trong vùng kiếm sống bằng nghề trồng lúa."
+        },
+        {
+          "en": "It is hard to make a living as a freelance writer.",
+          "vi": "Thật khó để kiếm sống bằng nghề viết tự do."
+        }
+      ]
+    },
+    {
+      "english": "make a prediction",
+      "vietnamese": "đưa ra dự đoán",
+      "ipa": "/ˈmeɪk ə prɪˈdɪkʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Scientists make a prediction based on current data.",
+          "vi": "Các nhà khoa học đưa ra dự đoán dựa trên dữ liệu hiện tại."
+        },
+        {
+          "en": "It is risky to make a prediction about the economy.",
+          "vi": "Thật mạo hiểm khi đưa ra dự đoán về nền kinh tế."
+        },
+        {
+          "en": "The model lets us make a prediction about future trends.",
+          "vi": "Mô hình cho phép chúng ta đưa ra dự đoán về xu hướng tương lai."
+        }
+      ]
+    },
+    {
+      "english": "make a recommendation",
+      "vietnamese": "đưa ra khuyến nghị",
+      "ipa": "/ˈmeɪk ə ˌrekəmenˈdeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The report makes a recommendation to improve safety standards.",
+          "vi": "Báo cáo đưa ra khuyến nghị nhằm cải thiện tiêu chuẩn an toàn."
+        },
+        {
+          "en": "The doctor made a recommendation about my diet.",
+          "vi": "Bác sĩ đã đưa ra khuyến nghị về chế độ ăn của tôi."
+        },
+        {
+          "en": "Experts make a recommendation after reviewing the evidence.",
+          "vi": "Các chuyên gia đưa ra khuyến nghị sau khi xem xét bằng chứng."
+        }
+      ]
+    }
+  ]
+}

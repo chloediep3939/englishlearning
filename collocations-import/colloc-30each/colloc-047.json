@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 47/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 47/83"
+  },
+  "cards": [
+    {
+      "english": "metropolitan area",
+      "vietnamese": "khu vực đô thị lớn",
+      "ipa": "/ˌmetrəˈpɑːlɪtən ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Housing costs are highest in the metropolitan area.",
+          "vi": "Chi phí nhà ở cao nhất ở khu vực đô thị lớn."
+        },
+        {
+          "en": "The metropolitan area has grown rapidly over the decade.",
+          "vi": "Khu vực đô thị lớn đã phát triển nhanh chóng trong thập kỷ qua."
+        },
+        {
+          "en": "Public transport connects the whole metropolitan area.",
+          "vi": "Giao thông công cộng kết nối toàn bộ khu vực đô thị lớn."
+        }
+      ]
+    },
+    {
+      "english": "middle income",
+      "vietnamese": "thu nhập trung bình",
+      "ipa": "/ˈmɪdəl ˈɪnkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many middle income families struggle with rising prices.",
+          "vi": "Nhiều gia đình thu nhập trung bình chật vật với giá cả tăng cao."
+        },
+        {
+          "en": "The country has reached middle income status recently.",
+          "vi": "Quốc gia này gần đây đã đạt mức thu nhập trung bình."
+        },
+        {
+          "en": "The policy targets middle income households specifically.",
+          "vi": "Chính sách nhắm cụ thể vào các hộ gia đình thu nhập trung bình."
+        }
+      ]
+    },
+    {
+      "english": "middle management",
+      "vietnamese": "quản lý cấp trung",
+      "ipa": "/ˈmɪdəl ˈmænɪdʒmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Middle management connects senior leaders with regular staff.",
+          "vi": "Quản lý cấp trung kết nối lãnh đạo cấp cao với nhân viên thường."
+        },
+        {
+          "en": "The company cut several middle management positions.",
+          "vi": "Công ty đã cắt giảm một số vị trí quản lý cấp trung."
+        },
+        {
+          "en": "Good middle management improves communication across teams.",
+          "vi": "Quản lý cấp trung tốt cải thiện giao tiếp giữa các nhóm."
+        }
+      ]
+    },
+    {
+      "english": "migrant worker",
+      "vietnamese": "lao động nhập cư",
+      "ipa": "/ˈmaɪgrənt ˈwɜːrkər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many migrant workers send money home to their families.",
+          "vi": "Nhiều lao động nhập cư gửi tiền về cho gia đình họ."
+        },
+        {
+          "en": "The report studies the rights of migrant workers.",
+          "vi": "Báo cáo nghiên cứu quyền lợi của lao động nhập cư."
+        },
+        {
+          "en": "Migrant workers often fill jobs that locals avoid.",
+          "vi": "Lao động nhập cư thường đảm nhận những công việc mà người địa phương né tránh."
+        }
+      ]
+    },
+    {
+      "english": "military action",
+      "vietnamese": "hành động quân sự",
+      "ipa": "/ˈmɪləteri ˈækʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The government threatened military action against the rebels.",
+          "vi": "Chính phủ đã đe dọa hành động quân sự chống lại quân nổi dậy."
+        },
+        {
+          "en": "Many people protested against the military action abroad.",
+          "vi": "Nhiều người đã phản đối hành động quân sự ở nước ngoài."
+        },
+        {
+          "en": "Diplomats hoped to avoid further military action.",
+          "vi": "Các nhà ngoại giao hy vọng tránh được hành động quân sự thêm nữa."
+        }
+      ]
+    },
+    {
+      "english": "military force",
+      "vietnamese": "lực lượng quân sự",
+      "ipa": "/ˈmɪləteri ˈfɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The country used military force to defend its borders.",
+          "vi": "Quốc gia này đã dùng lực lượng quân sự để bảo vệ biên giới."
+        },
+        {
+          "en": "The use of military force was widely criticized.",
+          "vi": "Việc sử dụng lực lượng quân sự đã bị chỉ trích rộng rãi."
+        },
+        {
+          "en": "Both sides agreed to withdraw their military forces.",
+          "vi": "Cả hai bên đã đồng ý rút lực lượng quân sự của mình."
+        }
+      ]
+    },
+    {
+      "english": "military power",
+      "vietnamese": "sức mạnh quân sự",
+      "ipa": "/ˈmɪləteri ˈpaʊər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The nation built up its military power over the decade.",
+          "vi": "Quốc gia này đã xây dựng sức mạnh quân sự trong suốt thập kỷ."
+        },
+        {
+          "en": "Economic strength often supports military power.",
+          "vi": "Sức mạnh kinh tế thường hỗ trợ cho sức mạnh quân sự."
+        },
+        {
+          "en": "Military power alone cannot guarantee lasting peace.",
+          "vi": "Riêng sức mạnh quân sự không thể đảm bảo hòa bình lâu dài."
+        }
+      ]
+    },
+    {
+      "english": "military service",
+      "vietnamese": "nghĩa vụ quân sự",
+      "ipa": "/ˈmɪləteri ˈsɜːrvɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In some countries, military service is compulsory for young men.",
+          "vi": "Ở một số nước, nghĩa vụ quân sự là bắt buộc với nam thanh niên."
+        },
+        {
+          "en": "He completed his military service before attending university.",
+          "vi": "Anh ấy đã hoàn thành nghĩa vụ quân sự trước khi vào đại học."
+        },
+        {
+          "en": "Many veterans struggle to adjust after military service.",
+          "vi": "Nhiều cựu binh chật vật thích nghi sau nghĩa vụ quân sự."
+        }
+      ]
+    },
+    {
+      "english": "minimum level",
+      "vietnamese": "mức tối thiểu",
+      "ipa": "/ˈmɪnɪməm ˈlevəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Applicants must reach a minimum level of English.",
+          "vi": "Ứng viên phải đạt được mức tối thiểu về tiếng Anh."
+        },
+        {
+          "en": "The law sets a minimum level of safety for workplaces.",
+          "vi": "Luật đặt ra một mức tối thiểu về an toàn cho nơi làm việc."
+        },
+        {
+          "en": "Funding was cut to the minimum level this year.",
+          "vi": "Kinh phí đã bị cắt xuống mức tối thiểu trong năm nay."
+        }
+      ]
+    },
+    {
+      "english": "minimum requirement",
+      "vietnamese": "yêu cầu tối thiểu",
+      "ipa": "/ˈmɪnɪməm rɪˈkwaɪərmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A high school diploma is the minimum requirement for this job.",
+          "vi": "Bằng tốt nghiệp phổ thông là yêu cầu tối thiểu cho công việc này."
+        },
+        {
+          "en": "The course has a minimum requirement of basic math.",
+          "vi": "Khóa học có yêu cầu tối thiểu về toán cơ bản."
+        },
+        {
+          "en": "Students who meet the minimum requirement may apply early.",
+          "vi": "Sinh viên đáp ứng yêu cầu tối thiểu có thể nộp đơn sớm."
+        }
+      ]
+    },
+    {
+      "english": "minimum standard",
+      "vietnamese": "tiêu chuẩn tối thiểu",
+      "ipa": "/ˈmɪnɪməm ˈstændərd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The factory must meet a minimum standard of hygiene.",
+          "vi": "Nhà máy phải đạt một tiêu chuẩn tối thiểu về vệ sinh."
+        },
+        {
+          "en": "Regulations set a minimum standard for building safety.",
+          "vi": "Các quy định đặt ra một tiêu chuẩn tối thiểu về an toàn xây dựng."
+        },
+        {
+          "en": "All products fall below the minimum standard required.",
+          "vi": "Mọi sản phẩm đều dưới tiêu chuẩn tối thiểu được yêu cầu."
+        }
+      ]
+    },
+    {
+      "english": "minimum value",
+      "vietnamese": "giá trị tối thiểu",
+      "ipa": "/ˈmɪnɪməm ˈvæljuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The graph shows the minimum value reached in winter.",
+          "vi": "Biểu đồ cho thấy giá trị tối thiểu đạt được vào mùa đông."
+        },
+        {
+          "en": "The function returns a minimum value of zero.",
+          "vi": "Hàm số trả về giá trị tối thiểu là không."
+        },
+        {
+          "en": "Temperatures dropped to their minimum value at night.",
+          "vi": "Nhiệt độ giảm xuống giá trị tối thiểu vào ban đêm."
+        }
+      ]
+    },
+    {
+      "english": "minimum wage",
+      "vietnamese": "lương tối thiểu",
+      "ipa": "/ˈmɪnɪməm ˈweɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The government raised the minimum wage this year.",
+          "vi": "Chính phủ đã tăng lương tối thiểu trong năm nay."
+        },
+        {
+          "en": "Many workers earn only the minimum wage.",
+          "vi": "Nhiều người lao động chỉ kiếm được mức lương tối thiểu."
+        },
+        {
+          "en": "A higher minimum wage can reduce poverty levels.",
+          "vi": "Lương tối thiểu cao hơn có thể giảm mức độ nghèo đói."
+        }
+      ]
+    },
+    {
+      "english": "minor change",
+      "vietnamese": "thay đổi nhỏ",
+      "ipa": "/ˈmaɪnər ˈtʃeɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The editor suggested only a minor change to the draft.",
+          "vi": "Biên tập viên chỉ đề xuất một thay đổi nhỏ cho bản thảo."
+        },
+        {
+          "en": "A minor change in diet improved his energy levels.",
+          "vi": "Một thay đổi nhỏ trong chế độ ăn đã cải thiện mức năng lượng của anh."
+        },
+        {
+          "en": "We made a minor change to the schedule.",
+          "vi": "Chúng tôi đã thực hiện một thay đổi nhỏ trong lịch trình."
+        }
+      ]
+    },
+    {
+      "english": "minor role",
+      "vietnamese": "vai trò nhỏ",
+      "ipa": "/ˈmaɪnər ˈroʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Luck played only a minor role in their success.",
+          "vi": "May mắn chỉ đóng một vai trò nhỏ trong thành công của họ."
+        },
+        {
+          "en": "She had a minor role in the school play.",
+          "vi": "Cô ấy có một vai trò nhỏ trong vở kịch của trường."
+        },
+        {
+          "en": "Diet plays a minor role compared with genetics here.",
+          "vi": "Chế độ ăn đóng vai trò nhỏ so với yếu tố di truyền ở đây."
+        }
+      ]
+    },
+    {
+      "english": "minority group",
+      "vietnamese": "nhóm thiểu số",
+      "ipa": "/maɪˈnɔːrəti ˈgruːp/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The policy aims to protect every minority group.",
+          "vi": "Chính sách nhằm bảo vệ mọi nhóm thiểu số."
+        },
+        {
+          "en": "Members of the minority group faced discrimination at work.",
+          "vi": "Các thành viên của nhóm thiểu số đã đối mặt với phân biệt đối xử tại nơi làm việc."
+        },
+        {
+          "en": "The survey included several ethnic minority groups.",
+          "vi": "Cuộc khảo sát bao gồm một số nhóm dân tộc thiểu số."
+        }
+      ]
+    },
+    {
+      "english": "missing data",
+      "vietnamese": "dữ liệu bị thiếu",
+      "ipa": "/ˈmɪsɪŋ ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Missing data made the analysis less reliable.",
+          "vi": "Dữ liệu bị thiếu khiến phân tích kém tin cậy hơn."
+        },
+        {
+          "en": "Researchers used a model to handle the missing data.",
+          "vi": "Các nhà nghiên cứu đã dùng một mô hình để xử lý dữ liệu bị thiếu."
+        },
+        {
+          "en": "We must explain how missing data was treated.",
+          "vi": "Chúng ta phải giải thích cách dữ liệu bị thiếu được xử lý."
+        }
+      ]
+    },
+    {
+      "english": "modern culture",
+      "vietnamese": "văn hóa hiện đại",
+      "ipa": "/ˈmɑːdərn ˈkʌltʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Social media plays a big part in modern culture.",
+          "vi": "Mạng xã hội đóng một vai trò lớn trong văn hóa hiện đại."
+        },
+        {
+          "en": "The exhibition explores themes in modern culture.",
+          "vi": "Triển lãm khám phá các chủ đề trong văn hóa hiện đại."
+        },
+        {
+          "en": "Modern culture often values speed over patience.",
+          "vi": "Văn hóa hiện đại thường coi trọng tốc độ hơn sự kiên nhẫn."
+        }
+      ]
+    },
+    {
+      "english": "modern method",
+      "vietnamese": "phương pháp hiện đại",
+      "ipa": "/ˈmɑːdərn ˈmeθəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Farmers adopted modern methods to increase their yields.",
+          "vi": "Nông dân đã áp dụng các phương pháp hiện đại để tăng năng suất."
+        },
+        {
+          "en": "The hospital uses modern methods to treat the disease.",
+          "vi": "Bệnh viện sử dụng các phương pháp hiện đại để điều trị căn bệnh."
+        },
+        {
+          "en": "Modern methods of teaching focus on active learning.",
+          "vi": "Các phương pháp giảng dạy hiện đại tập trung vào học chủ động."
+        }
+      ]
+    },
+    {
+      "english": "modern society",
+      "vietnamese": "xã hội hiện đại",
+      "ipa": "/ˈmɑːdərn səˈsaɪəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Technology shapes almost every part of modern society.",
+          "vi": "Công nghệ định hình hầu như mọi mặt của xã hội hiện đại."
+        },
+        {
+          "en": "Modern society faces challenges like climate change.",
+          "vi": "Xã hội hiện đại đối mặt với những thách thức như biến đổi khí hậu."
+        },
+        {
+          "en": "Education is highly valued in modern society.",
+          "vi": "Giáo dục được đánh giá cao trong xã hội hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "modern technology",
+      "vietnamese": "công nghệ hiện đại",
+      "ipa": "/ˈmɑːdərn tekˈnɑːlədʒi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Modern technology has transformed the way we work.",
+          "vi": "Công nghệ hiện đại đã thay đổi cách chúng ta làm việc."
+        },
+        {
+          "en": "Doctors rely on modern technology to diagnose patients.",
+          "vi": "Bác sĩ dựa vào công nghệ hiện đại để chẩn đoán bệnh nhân."
+        },
+        {
+          "en": "Modern technology makes long-distance communication easy.",
+          "vi": "Công nghệ hiện đại làm cho việc liên lạc đường dài trở nên dễ dàng."
+        }
+      ]
+    },
+    {
+      "english": "modified form",
+      "vietnamese": "dạng đã chỉnh sửa",
+      "ipa": "/ˈmɑːdɪfaɪd ˈfɔːrm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The plant was grown in a genetically modified form.",
+          "vi": "Cây trồng được nuôi dưới một dạng biến đổi gen."
+        },
+        {
+          "en": "The team tested a modified form of the original design.",
+          "vi": "Nhóm đã thử nghiệm một dạng đã chỉnh sửa của thiết kế gốc."
+        },
+        {
+          "en": "The theory appears here in a slightly modified form.",
+          "vi": "Lý thuyết xuất hiện ở đây dưới một dạng được chỉnh sửa đôi chút."
+        }
+      ]
+    },
+    {
+      "english": "modified version",
+      "vietnamese": "phiên bản đã chỉnh sửa",
+      "ipa": "/ˈmɑːdəfaɪd ˈvɜːrʒən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The team released a modified version of the original software.",
+          "vi": "Nhóm đã phát hành một phiên bản chỉnh sửa của phần mềm gốc."
+        },
+        {
+          "en": "Researchers tested a modified version of the standard experiment.",
+          "vi": "Các nhà nghiên cứu đã thử nghiệm một phiên bản chỉnh sửa của thí nghiệm chuẩn."
+        },
+        {
+          "en": "She presented a modified version of her earlier proposal.",
+          "vi": "Cô đã trình bày một phiên bản chỉnh sửa của đề xuất trước đó."
+        }
+      ]
+    },
+    {
+      "english": "moral dilemma",
+      "vietnamese": "tình huống khó xử về đạo đức",
+      "ipa": "/ˈmɔːrəl dɪˈlemə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The doctor faced a serious moral dilemma during the emergency.",
+          "vi": "Bác sĩ đối mặt với một tình huống khó xử về đạo đức nghiêm trọng."
+        },
+        {
+          "en": "The novel explores a moral dilemma about loyalty and truth.",
+          "vi": "Cuốn tiểu thuyết khám phá một tình huống đạo đức khó xử về lòng trung thành và sự thật."
+        },
+        {
+          "en": "Students debated the moral dilemma raised in the case study.",
+          "vi": "Sinh viên tranh luận về tình huống đạo đức khó xử nêu trong nghiên cứu tình huống."
+        }
+      ]
+    },
+    {
+      "english": "moral philosophy",
+      "vietnamese": "triết học đạo đức",
+      "ipa": "/ˈmɔːrəl fəˈlɑːsəfi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She wrote her thesis on a key question in moral philosophy.",
+          "vi": "Cô viết luận án về một câu hỏi cốt lõi trong triết học đạo đức."
+        },
+        {
+          "en": "Moral philosophy examines how people should act toward others.",
+          "vi": "Triết học đạo đức xem xét con người nên hành xử với người khác ra sao."
+        },
+        {
+          "en": "The course introduces students to classical moral philosophy.",
+          "vi": "Khóa học giới thiệu cho sinh viên triết học đạo đức cổ điển."
+        }
+      ]
+    },
+    {
+      "english": "moral principle",
+      "vietnamese": "nguyên tắc đạo đức",
+      "ipa": "/ˈmɔːrəl ˈprɪnsəpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "He refused to compromise his core moral principle for money.",
+          "vi": "Anh từ chối thỏa hiệp nguyên tắc đạo đức cốt lõi của mình vì tiền."
+        },
+        {
+          "en": "The constitution rests on a firm moral principle of fairness.",
+          "vi": "Hiến pháp dựa trên một nguyên tắc đạo đức vững chắc về sự công bằng."
+        },
+        {
+          "en": "Teachers try to instill a strong moral principle in children.",
+          "vi": "Giáo viên cố gắng gieo cho trẻ một nguyên tắc đạo đức vững chắc."
+        }
+      ]
+    },
+    {
+      "english": "multiple identities",
+      "vietnamese": "nhiều bản sắc khác nhau",
+      "ipa": "/ˈmʌltəpəl aɪˈdentətiz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many immigrants navigate multiple identities in their daily lives.",
+          "vi": "Nhiều người nhập cư cân bằng nhiều bản sắc trong cuộc sống hằng ngày."
+        },
+        {
+          "en": "The study examines how people manage multiple identities online.",
+          "vi": "Nghiên cứu xem xét cách con người quản lý nhiều bản sắc trên mạng."
+        },
+        {
+          "en": "Globalization allows individuals to hold multiple identities at once.",
+          "vi": "Toàn cầu hóa cho phép cá nhân mang nhiều bản sắc cùng lúc."
+        }
+      ]
+    },
+    {
+      "english": "multiple sources",
+      "vietnamese": "nhiều nguồn khác nhau",
+      "ipa": "/ˈmʌltəpəl ˈsɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Good researchers verify facts using multiple sources of evidence.",
+          "vi": "Nhà nghiên cứu giỏi kiểm chứng sự thật bằng nhiều nguồn bằng chứng."
+        },
+        {
+          "en": "The report draws on multiple sources for a balanced view.",
+          "vi": "Báo cáo dựa trên nhiều nguồn để có một góc nhìn cân bằng."
+        },
+        {
+          "en": "Funding came from multiple sources, including private donors.",
+          "vi": "Kinh phí đến từ nhiều nguồn, bao gồm cả nhà tài trợ tư nhân."
+        }
+      ]
+    },
+    {
+      "english": "municipal government",
+      "vietnamese": "chính quyền thành phố",
+      "ipa": "/mjuːˈnɪsəpəl ˈɡʌvərnmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The municipal government approved funding for the new park.",
+          "vi": "Chính quyền thành phố đã phê duyệt kinh phí cho công viên mới."
+        },
+        {
+          "en": "Local services are usually managed by the municipal government.",
+          "vi": "Các dịch vụ địa phương thường do chính quyền thành phố quản lý."
+        },
+        {
+          "en": "Residents petitioned the municipal government for better roads.",
+          "vi": "Người dân kiến nghị chính quyền thành phố cải thiện đường sá."
+        }
+      ]
+    },
+    {
+      "english": "mutual recognition",
+      "vietnamese": "sự công nhận lẫn nhau",
+      "ipa": "/ˈmjuːtʃuəl ˌrekəɡˈnɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The treaty established mutual recognition of professional qualifications.",
+          "vi": "Hiệp ước thiết lập sự công nhận lẫn nhau về bằng cấp nghề nghiệp."
+        },
+        {
+          "en": "Lasting peace requires mutual recognition between the two states.",
+          "vi": "Hòa bình bền vững đòi hỏi sự công nhận lẫn nhau giữa hai quốc gia."
+        },
+        {
+          "en": "Mutual recognition of degrees makes student exchange easier.",
+          "vi": "Sự công nhận bằng cấp lẫn nhau giúp trao đổi sinh viên dễ hơn."
+        }
+      ]
+    }
+  ]
+}

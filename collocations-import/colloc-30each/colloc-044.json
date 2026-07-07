@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 44/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 44/83"
+  },
+  "cards": [
+    {
+      "english": "low/er frequency",
+      "vietnamese": "tần suất thấp/thấp hơn",
+      "ipa": "/ˈloʊər ˈfriːkwənsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The disease occurs at a lower frequency in rural areas.",
+          "vi": "Căn bệnh xảy ra với tần suất thấp hơn ở vùng nông thôn."
+        },
+        {
+          "en": "Lower frequency sounds travel farther than high ones.",
+          "vi": "Âm thanh tần suất thấp hơn truyền đi xa hơn âm thanh cao."
+        },
+        {
+          "en": "Researchers noted a lower frequency of errors after training.",
+          "vi": "Các nhà nghiên cứu ghi nhận tần suất lỗi thấp hơn sau khi đào tạo."
+        }
+      ]
+    },
+    {
+      "english": "lower class",
+      "vietnamese": "tầng lớp hạ lưu",
+      "ipa": "/ˈloʊər ˈklæs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The novel portrays the hardships of the lower class.",
+          "vi": "Cuốn tiểu thuyết khắc họa những khó khăn của tầng lớp hạ lưu."
+        },
+        {
+          "en": "Education was once denied to the lower class.",
+          "vi": "Giáo dục từng bị từ chối với tầng lớp hạ lưu."
+        },
+        {
+          "en": "Historians studied how the lower class lived during that era.",
+          "vi": "Các nhà sử học nghiên cứu cách tầng lớp hạ lưu sống trong thời đại đó."
+        }
+      ]
+    },
+    {
+      "english": "main area",
+      "vietnamese": "lĩnh vực chính",
+      "ipa": "/ˈmeɪn ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report focuses on three main areas of concern.",
+          "vi": "Báo cáo tập trung vào ba lĩnh vực chính đáng quan tâm."
+        },
+        {
+          "en": "Her main area of research is renewable energy.",
+          "vi": "Lĩnh vực nghiên cứu chính của cô là năng lượng tái tạo."
+        },
+        {
+          "en": "The main area of disagreement concerned the budget.",
+          "vi": "Lĩnh vực bất đồng chính liên quan đến ngân sách."
+        }
+      ]
+    },
+    {
+      "english": "main argument",
+      "vietnamese": "luận điểm chính",
+      "ipa": "/ˈmeɪn ˈɑːrɡjəmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The main argument of the essay appears in the introduction.",
+          "vi": "Luận điểm chính của bài luận xuất hiện ở phần mở đầu."
+        },
+        {
+          "en": "Her main argument rests on solid historical evidence.",
+          "vi": "Luận điểm chính của cô dựa trên bằng chứng lịch sử vững chắc."
+        },
+        {
+          "en": "Critics quickly attacked the writer's main argument.",
+          "vi": "Các nhà phê bình nhanh chóng công kích luận điểm chính của tác giả."
+        }
+      ]
+    },
+    {
+      "english": "main category",
+      "vietnamese": "loại chính",
+      "ipa": "/ˈmeɪn ˈkætəɡɔːri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The data fall into three main categories for analysis.",
+          "vi": "Dữ liệu được chia thành ba loại chính để phân tích."
+        },
+        {
+          "en": "Each main category contains several smaller subgroups.",
+          "vi": "Mỗi loại chính chứa một số nhóm nhỏ hơn."
+        },
+        {
+          "en": "Books here are sorted by their main category first.",
+          "vi": "Sách ở đây được sắp xếp theo loại chính trước tiên."
+        }
+      ]
+    },
+    {
+      "english": "main characteristics",
+      "vietnamese": "những đặc điểm chính",
+      "ipa": "/ˈmeɪn ˌkærəktəˈrɪstɪks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The chapter lists the main characteristics of each species.",
+          "vi": "Chương này liệt kê những đặc điểm chính của mỗi loài."
+        },
+        {
+          "en": "Students must describe the main characteristics of the period.",
+          "vi": "Sinh viên phải mô tả những đặc điểm chính của thời kỳ này."
+        },
+        {
+          "en": "These main characteristics distinguish one group from another.",
+          "vi": "Những đặc điểm chính này phân biệt nhóm này với nhóm khác."
+        }
+      ]
+    },
+    {
+      "english": "main component",
+      "vietnamese": "thành phần chính",
+      "ipa": "/ˈmeɪn kəmˈpoʊnənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Water is the main component of the human body.",
+          "vi": "Nước là thành phần chính của cơ thể con người."
+        },
+        {
+          "en": "The engine is the main component of the entire system.",
+          "vi": "Động cơ là thành phần chính của toàn bộ hệ thống."
+        },
+        {
+          "en": "Reading is the main component of the language course.",
+          "vi": "Đọc là thành phần chính của khóa học ngôn ngữ."
+        }
+      ]
+    },
+    {
+      "english": "main element",
+      "vietnamese": "yếu tố chính",
+      "ipa": "/ˈmeɪn ˈeləmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Trust is the main element of any successful partnership.",
+          "vi": "Sự tin tưởng là yếu tố chính của mọi quan hệ đối tác thành công."
+        },
+        {
+          "en": "The plot is the main element that drives the story.",
+          "vi": "Cốt truyện là yếu tố chính thúc đẩy câu chuyện."
+        },
+        {
+          "en": "Practice remains the main element of mastering a skill.",
+          "vi": "Luyện tập vẫn là yếu tố chính để thành thạo một kỹ năng."
+        }
+      ]
+    },
+    {
+      "english": "main factor",
+      "vietnamese": "yếu tố chính",
+      "ipa": "/ˈmeɪn ˈfæktər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cost was the main factor behind their final decision.",
+          "vi": "Chi phí là yếu tố chính đằng sau quyết định cuối cùng của họ."
+        },
+        {
+          "en": "Climate is the main factor affecting crop yields here.",
+          "vi": "Khí hậu là yếu tố chính ảnh hưởng đến năng suất cây trồng ở đây."
+        },
+        {
+          "en": "Motivation is the main factor in long-term learning.",
+          "vi": "Động lực là yếu tố chính trong việc học lâu dài."
+        }
+      ]
+    },
+    {
+      "english": "main feature",
+      "vietnamese": "đặc điểm chính",
+      "ipa": "/ˈmeɪn ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The main feature of the app is its simple design.",
+          "vi": "Đặc điểm chính của ứng dụng là thiết kế đơn giản của nó."
+        },
+        {
+          "en": "A large garden is the house's main feature.",
+          "vi": "Một khu vườn rộng là đặc điểm chính của ngôi nhà."
+        },
+        {
+          "en": "The main feature of the region is its volcanic soil.",
+          "vi": "Đặc điểm chính của vùng này là đất núi lửa của nó."
+        }
+      ]
+    },
+    {
+      "english": "main findings",
+      "vietnamese": "những phát hiện chính",
+      "ipa": "/ˈmeɪn ˈfaɪndɪŋz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The summary presents the main findings of the study.",
+          "vi": "Phần tóm tắt trình bày những phát hiện chính của nghiên cứu."
+        },
+        {
+          "en": "Her main findings challenged earlier assumptions in the field.",
+          "vi": "Những phát hiện chính của cô thách thức các giả định trước đó trong lĩnh vực này."
+        },
+        {
+          "en": "The main findings were published in a leading journal.",
+          "vi": "Những phát hiện chính được công bố trên một tạp chí hàng đầu."
+        }
+      ]
+    },
+    {
+      "english": "main focus",
+      "vietnamese": "trọng tâm chính",
+      "ipa": "/ˈmeɪn ˈfoʊkəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The main focus of the lecture was climate policy.",
+          "vi": "Trọng tâm chính của bài giảng là chính sách khí hậu."
+        },
+        {
+          "en": "Customer safety is the company's main focus this year.",
+          "vi": "An toàn của khách hàng là trọng tâm chính của công ty năm nay."
+        },
+        {
+          "en": "Her main focus shifted from theory to practice.",
+          "vi": "Trọng tâm chính của cô chuyển từ lý thuyết sang thực hành."
+        }
+      ]
+    },
+    {
+      "english": "main function",
+      "vietnamese": "chức năng chính",
+      "ipa": "/ˈmeɪn ˈfʌŋkʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The heart's main function is to pump blood around the body.",
+          "vi": "Chức năng chính của tim là bơm máu khắp cơ thể."
+        },
+        {
+          "en": "The committee's main function is to review new proposals.",
+          "vi": "Chức năng chính của ủy ban là xem xét các đề xuất mới."
+        },
+        {
+          "en": "A dictionary's main function is to define words clearly.",
+          "vi": "Chức năng chính của từ điển là định nghĩa từ ngữ rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "main issue",
+      "vietnamese": "vấn đề chính",
+      "ipa": "/ˈmeɪn ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The main issue discussed was rising housing costs.",
+          "vi": "Vấn đề chính được thảo luận là chi phí nhà ở tăng cao."
+        },
+        {
+          "en": "We must address the main issue before moving forward.",
+          "vi": "Chúng ta phải giải quyết vấn đề chính trước khi tiến tới."
+        },
+        {
+          "en": "The main issue for many students is a lack of time.",
+          "vi": "Vấn đề chính của nhiều sinh viên là thiếu thời gian."
+        }
+      ]
+    },
+    {
+      "english": "main principle",
+      "vietnamese": "nguyên tắc chính",
+      "ipa": "/ˈmeɪn ˈprɪnsəpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Fairness is the main principle behind the new rules.",
+          "vi": "Công bằng là nguyên tắc chính đằng sau các quy tắc mới."
+        },
+        {
+          "en": "The main principle of the theory is surprisingly simple.",
+          "vi": "Nguyên tắc chính của lý thuyết này đơn giản đến bất ngờ."
+        },
+        {
+          "en": "Equality remains the main principle of the organisation.",
+          "vi": "Bình đẳng vẫn là nguyên tắc chính của tổ chức."
+        }
+      ]
+    },
+    {
+      "english": "main source",
+      "vietnamese": "nguồn chính",
+      "ipa": "/ˈmeɪn ˈsɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Tourism is the main source of income for the island.",
+          "vi": "Du lịch là nguồn thu nhập chính của hòn đảo."
+        },
+        {
+          "en": "The river is the main source of water for the city.",
+          "vi": "Con sông là nguồn nước chính cho thành phố."
+        },
+        {
+          "en": "Books were once the main source of reliable knowledge.",
+          "vi": "Sách từng là nguồn kiến thức đáng tin cậy chính."
+        }
+      ]
+    },
+    {
+      "english": "main task",
+      "vietnamese": "nhiệm vụ chính",
+      "ipa": "/ˈmeɪn ˈtæsk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The main task of the editor is to check accuracy.",
+          "vi": "Nhiệm vụ chính của biên tập viên là kiểm tra độ chính xác."
+        },
+        {
+          "en": "Their main task was to gather data from the field.",
+          "vi": "Nhiệm vụ chính của họ là thu thập dữ liệu từ thực địa."
+        },
+        {
+          "en": "Completing the main task took the team several weeks.",
+          "vi": "Hoàn thành nhiệm vụ chính khiến cả đội mất vài tuần."
+        }
+      ]
+    },
+    {
+      "english": "main theme",
+      "vietnamese": "chủ đề chính",
+      "ipa": "/ˈmeɪn ˈθiːm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Loss is the main theme running through the entire novel.",
+          "vi": "Mất mát là chủ đề chính xuyên suốt cả cuốn tiểu thuyết."
+        },
+        {
+          "en": "The conference's main theme was sustainable development.",
+          "vi": "Chủ đề chính của hội nghị là phát triển bền vững."
+        },
+        {
+          "en": "Identity emerges as the main theme of her poetry.",
+          "vi": "Bản sắc nổi lên như chủ đề chính trong thơ của cô."
+        }
+      ]
+    },
+    {
+      "english": "mainly concerned with",
+      "vietnamese": "chủ yếu liên quan đến",
+      "ipa": "/ˈmeɪnli kənˈsɜːrnd wɪð/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The study is mainly concerned with the effects of sleep.",
+          "vi": "Nghiên cứu chủ yếu liên quan đến tác động của giấc ngủ."
+        },
+        {
+          "en": "This chapter is mainly concerned with economic theory.",
+          "vi": "Chương này chủ yếu liên quan đến lý thuyết kinh tế."
+        },
+        {
+          "en": "Her work is mainly concerned with social inequality.",
+          "vi": "Công việc của cô chủ yếu liên quan đến bất bình đẳng xã hội."
+        }
+      ]
+    },
+    {
+      "english": "maintain contact",
+      "vietnamese": "duy trì liên lạc",
+      "ipa": "/meɪnˈteɪn ˈkɑːntækt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Researchers maintain contact with participants throughout the project.",
+          "vi": "Các nhà nghiên cứu duy trì liên lạc với người tham gia suốt dự án."
+        },
+        {
+          "en": "It is hard to maintain contact with old school friends.",
+          "vi": "Thật khó để duy trì liên lạc với bạn học cũ."
+        },
+        {
+          "en": "The two offices maintain contact through weekly video calls.",
+          "vi": "Hai văn phòng duy trì liên lạc qua các cuộc gọi video hàng tuần."
+        }
+      ]
+    },
+    {
+      "english": "major advantage",
+      "vietnamese": "lợi thế lớn",
+      "ipa": "/ˈmeɪdʒər ədˈvæntɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A major advantage of the method is its low cost.",
+          "vi": "Một lợi thế lớn của phương pháp này là chi phí thấp."
+        },
+        {
+          "en": "Speaking two languages is a major advantage when travelling.",
+          "vi": "Nói được hai ngôn ngữ là một lợi thế lớn khi đi du lịch."
+        },
+        {
+          "en": "Their early start gave them a major advantage.",
+          "vi": "Việc khởi đầu sớm mang lại cho họ một lợi thế lớn."
+        }
+      ]
+    },
+    {
+      "english": "major area",
+      "vietnamese": "lĩnh vực lớn",
+      "ipa": "/ˈmeɪdʒər ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Healthcare is a major area of government spending.",
+          "vi": "Y tế là một lĩnh vực lớn trong chi tiêu của chính phủ."
+        },
+        {
+          "en": "Robotics has become a major area of modern research.",
+          "vi": "Robot học đã trở thành một lĩnh vực lớn của nghiên cứu hiện đại."
+        },
+        {
+          "en": "The reform targeted a major area of public concern.",
+          "vi": "Cuộc cải cách nhắm vào một lĩnh vực lớn mà công chúng quan tâm."
+        }
+      ]
+    },
+    {
+      "english": "major cause",
+      "vietnamese": "nguyên nhân chính",
+      "ipa": "/ˈmeɪdʒər ˈkɔːz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Smoking is a major cause of lung disease worldwide.",
+          "vi": "Hút thuốc là nguyên nhân chính gây bệnh phổi trên toàn thế giới."
+        },
+        {
+          "en": "Deforestation is a major cause of habitat loss.",
+          "vi": "Phá rừng là nguyên nhân chính gây mất môi trường sống."
+        },
+        {
+          "en": "Stress is a major cause of poor sleep in adults.",
+          "vi": "Căng thẳng là nguyên nhân chính gây mất ngủ ở người lớn."
+        }
+      ]
+    },
+    {
+      "english": "major challenge",
+      "vietnamese": "thách thức lớn",
+      "ipa": "/ˈmeɪdʒər ˈtʃælɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Climate change is a major challenge for future generations.",
+          "vi": "Biến đổi khí hậu là một thách thức lớn cho các thế hệ tương lai."
+        },
+        {
+          "en": "Funding remained the major challenge facing the project.",
+          "vi": "Tài chính vẫn là thách thức lớn mà dự án phải đối mặt."
+        },
+        {
+          "en": "Learning a new language poses a major challenge.",
+          "vi": "Học một ngôn ngữ mới đặt ra một thách thức lớn."
+        }
+      ]
+    },
+    {
+      "english": "major change",
+      "vietnamese": "thay đổi lớn",
+      "ipa": "/ˈmeɪdʒər ˈtʃeɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The reform brought a major change to the tax system.",
+          "vi": "Cuộc cải cách mang lại một thay đổi lớn cho hệ thống thuế."
+        },
+        {
+          "en": "Technology has caused a major change in how we work.",
+          "vi": "Công nghệ đã gây ra một thay đổi lớn trong cách chúng ta làm việc."
+        },
+        {
+          "en": "Adapting to a major change takes time and patience.",
+          "vi": "Thích nghi với một thay đổi lớn cần thời gian và kiên nhẫn."
+        }
+      ]
+    },
+    {
+      "english": "major component",
+      "vietnamese": "thành phần chính",
+      "ipa": "/ˈmeɪdʒər kəmˈpoʊnənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Carbon is a major component of all living things.",
+          "vi": "Cacbon là một thành phần chính của mọi sinh vật sống."
+        },
+        {
+          "en": "Tuition is a major component of the total study cost.",
+          "vi": "Học phí là một thành phần chính của tổng chi phí học tập."
+        },
+        {
+          "en": "Trust is a major component of effective teamwork.",
+          "vi": "Sự tin tưởng là một thành phần chính của làm việc nhóm hiệu quả."
+        }
+      ]
+    },
+    {
+      "english": "major concern",
+      "vietnamese": "mối lo ngại lớn",
+      "ipa": "/ˈmeɪdʒər kənˈsɜːrn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Air pollution is a major concern in large cities.",
+          "vi": "Ô nhiễm không khí là một mối lo ngại lớn ở các thành phố lớn."
+        },
+        {
+          "en": "Safety was the parents' major concern about the trip.",
+          "vi": "An toàn là mối lo ngại lớn của phụ huynh về chuyến đi."
+        },
+        {
+          "en": "Rising costs are a major concern for small businesses.",
+          "vi": "Chi phí tăng là một mối lo ngại lớn đối với doanh nghiệp nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "major contribution",
+      "vietnamese": "đóng góp lớn",
+      "ipa": "/ˈmeɪdʒər ˌkɑːntrɪˈbjuːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her research made a major contribution to modern medicine.",
+          "vi": "Nghiên cứu của cô đã có đóng góp lớn cho y học hiện đại."
+        },
+        {
+          "en": "Volunteers made a major contribution to the festival's success.",
+          "vi": "Các tình nguyện viên đã đóng góp lớn vào thành công của lễ hội."
+        },
+        {
+          "en": "The scientist's major contribution was recognised with an award.",
+          "vi": "Đóng góp lớn của nhà khoa học được công nhận bằng một giải thưởng."
+        }
+      ]
+    },
+    {
+      "english": "major decision",
+      "vietnamese": "quyết định quan trọng",
+      "ipa": "/ˈmeɪdʒər dɪˈsɪʒən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Choosing a career is a major decision for young people.",
+          "vi": "Chọn nghề nghiệp là một quyết định quan trọng đối với người trẻ."
+        },
+        {
+          "en": "The board postponed the major decision until next month.",
+          "vi": "Hội đồng đã hoãn quyết định quan trọng đến tháng sau."
+        },
+        {
+          "en": "They consulted experts before making such a major decision.",
+          "vi": "Họ tham khảo ý kiến chuyên gia trước khi đưa ra quyết định quan trọng như vậy."
+        }
+      ]
+    },
+    {
+      "english": "major difference",
+      "vietnamese": "sự khác biệt lớn",
+      "ipa": "/ˈmeɪdʒər ˈdɪfərəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a major difference between the two theories.",
+          "vi": "Có một sự khác biệt lớn giữa hai lý thuyết."
+        },
+        {
+          "en": "Climate is the major difference between the two regions.",
+          "vi": "Khí hậu là sự khác biệt lớn giữa hai vùng."
+        },
+        {
+          "en": "Experience makes a major difference in this kind of work.",
+          "vi": "Kinh nghiệm tạo nên sự khác biệt lớn trong loại công việc này."
+        }
+      ]
+    }
+  ]
+}

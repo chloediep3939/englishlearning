@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 31/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 31/83"
+  },
+  "cards": [
+    {
+      "english": "generally considered",
+      "vietnamese": "thường được xem là",
+      "ipa": "/ˈdʒenərəli kənˈsɪdərd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This is generally considered the most reliable method available.",
+          "vi": "Đây thường được xem là phương pháp đáng tin cậy nhất hiện có."
+        },
+        {
+          "en": "She is generally considered an expert in her field.",
+          "vi": "Bà thường được xem là một chuyên gia trong lĩnh vực của mình."
+        },
+        {
+          "en": "The novel is generally considered a masterpiece of the era.",
+          "vi": "Cuốn tiểu thuyết thường được xem là một kiệt tác của thời đại."
+        }
+      ]
+    },
+    {
+      "english": "generally found",
+      "vietnamese": "thường thấy, nhìn chung gặp",
+      "ipa": "/ˈdʒenərəli faʊnd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "These minerals are generally found near volcanic regions.",
+          "vi": "Những khoáng chất này thường thấy gần các vùng núi lửa."
+        },
+        {
+          "en": "Such behavior is generally found in highly social animals.",
+          "vi": "Hành vi như vậy nhìn chung gặp ở các loài vật có tính xã hội cao."
+        },
+        {
+          "en": "The pattern is generally found across most age groups.",
+          "vi": "Mô hình này thường thấy ở hầu hết các nhóm tuổi."
+        }
+      ]
+    },
+    {
+      "english": "generally known as",
+      "vietnamese": "thường được gọi là",
+      "ipa": "/ˈdʒenərəli noʊn əz/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The condition is generally known as the common cold.",
+          "vi": "Tình trạng này thường được gọi là cảm lạnh thông thường."
+        },
+        {
+          "en": "This region is generally known as the country's industrial heart.",
+          "vi": "Vùng này thường được gọi là trái tim công nghiệp của đất nước."
+        },
+        {
+          "en": "The process is generally known as natural selection.",
+          "vi": "Quá trình này thường được gọi là chọn lọc tự nhiên."
+        }
+      ]
+    },
+    {
+      "english": "genetic variation",
+      "vietnamese": "sự biến dị di truyền",
+      "ipa": "/dʒəˈnetɪk ˌveriˈeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Genetic variation helps a population adapt to changing conditions.",
+          "vi": "Sự biến dị di truyền giúp quần thể thích nghi với điều kiện thay đổi."
+        },
+        {
+          "en": "The study measured genetic variation across several populations.",
+          "vi": "Nghiên cứu đo lường sự biến dị di truyền giữa nhiều quần thể."
+        },
+        {
+          "en": "Low genetic variation can make a species vulnerable to disease.",
+          "vi": "Biến dị di truyền thấp có thể khiến loài dễ tổn thương trước bệnh tật."
+        }
+      ]
+    },
+    {
+      "english": "geographic al area",
+      "vietnamese": "khu vực địa lý",
+      "ipa": "/ˌdʒiːəˈɡræfɪkəl ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey covered a wide geographic al area of the country.",
+          "vi": "Cuộc khảo sát bao phủ một khu vực địa lý rộng lớn của đất nước."
+        },
+        {
+          "en": "Rainfall varies greatly from one geographic al area to another.",
+          "vi": "Lượng mưa khác nhau rất nhiều giữa các khu vực địa lý."
+        },
+        {
+          "en": "The disease was limited to a small geographic al area.",
+          "vi": "Dịch bệnh chỉ giới hạn trong một khu vực địa lý nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "geographic al distribution",
+      "vietnamese": "sự phân bố theo địa lý",
+      "ipa": "/ˌdʒiːəˈɡræfɪkəl ˌdɪstrɪˈbjuːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The map shows the geographic al distribution of the species.",
+          "vi": "Bản đồ cho thấy sự phân bố theo địa lý của loài này."
+        },
+        {
+          "en": "Researchers studied the geographic al distribution of the disease.",
+          "vi": "Các nhà nghiên cứu nghiên cứu sự phân bố theo địa lý của dịch bệnh."
+        },
+        {
+          "en": "The geographic al distribution of wealth remains highly uneven.",
+          "vi": "Sự phân bố của cải theo địa lý vẫn rất không đồng đều."
+        }
+      ]
+    },
+    {
+      "english": "geographic al location",
+      "vietnamese": "vị trí địa lý",
+      "ipa": "/ˌdʒiːəˈɡræfɪkəl loʊˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The city's geographic al location made it a major trading hub.",
+          "vi": "Vị trí địa lý của thành phố biến nó thành một trung tâm thương mại lớn."
+        },
+        {
+          "en": "Climate depends heavily on a region's geographic al location.",
+          "vi": "Khí hậu phụ thuộc nhiều vào vị trí địa lý của một vùng."
+        },
+        {
+          "en": "Its geographic al location gives the port a strategic advantage.",
+          "vi": "Vị trí địa lý mang lại cho cảng này một lợi thế chiến lược."
+        }
+      ]
+    },
+    {
+      "english": "get involved with",
+      "vietnamese": "tham gia vào, dính líu đến",
+      "ipa": "/ɡet ɪnˈvɑːlvd wɪð/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "Students are encouraged to get involved with campus activities.",
+          "vi": "Sinh viên được khuyến khích tham gia vào các hoạt động trong trường."
+        },
+        {
+          "en": "She wanted to get involved with the local research project.",
+          "vi": "Cô muốn tham gia vào dự án nghiên cứu của địa phương."
+        },
+        {
+          "en": "Volunteers get involved with the program to gain experience.",
+          "vi": "Các tình nguyện viên tham gia vào chương trình để có kinh nghiệm."
+        }
+      ]
+    },
+    {
+      "english": "give access to",
+      "vietnamese": "cấp quyền truy cập, cho tiếp cận",
+      "ipa": "/ɡɪv ˈækses tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The membership gives access to thousands of academic articles.",
+          "vi": "Tư cách thành viên cho phép truy cập hàng nghìn bài báo học thuật."
+        },
+        {
+          "en": "The new bridge gives access to remote mountain villages.",
+          "vi": "Cây cầu mới giúp tiếp cận các bản làng vùng núi xa xôi."
+        },
+        {
+          "en": "The pass gives access to all areas of the conference.",
+          "vi": "Thẻ vào cổng cho phép tiếp cận mọi khu vực của hội nghị."
+        }
+      ]
+    },
+    {
+      "english": "give consent",
+      "vietnamese": "đưa ra sự đồng ý, chấp thuận",
+      "ipa": "/ɡɪv kənˈsent/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Patients must give consent before any procedure begins.",
+          "vi": "Bệnh nhân phải đưa ra sự đồng ý trước khi bắt đầu bất kỳ thủ thuật nào."
+        },
+        {
+          "en": "Participants gave consent after reading the information sheet.",
+          "vi": "Người tham gia đã chấp thuận sau khi đọc bản thông tin."
+        },
+        {
+          "en": "Parents must give consent for children to join the study.",
+          "vi": "Phụ huynh phải đồng ý để trẻ em tham gia vào nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "give consideration",
+      "vietnamese": "cân nhắc, xem xét kỹ",
+      "ipa": "/ɡɪv kənˌsɪdəˈreɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The committee will give consideration to every proposal before deciding.",
+          "vi": "Ủy ban sẽ cân nhắc mọi đề xuất trước khi quyết định."
+        },
+        {
+          "en": "Please give consideration to the safety risks involved here.",
+          "vi": "Hãy xem xét kỹ các rủi ro an toàn liên quan ở đây."
+        },
+        {
+          "en": "Researchers must give consideration to ethical issues in their studies.",
+          "vi": "Các nhà nghiên cứu phải cân nhắc các vấn đề đạo đức trong nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "give emphasis",
+      "vietnamese": "nhấn mạnh, chú trọng",
+      "ipa": "/ɡɪv ˈemfəsɪs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The teacher gives emphasis to grammar in every writing lesson.",
+          "vi": "Giáo viên chú trọng ngữ pháp trong mỗi bài học viết."
+        },
+        {
+          "en": "This report gives emphasis to the long-term economic effects.",
+          "vi": "Báo cáo này nhấn mạnh các tác động kinh tế dài hạn."
+        },
+        {
+          "en": "Modern programs give emphasis to practical skills over theory.",
+          "vi": "Các chương trình hiện đại chú trọng kỹ năng thực hành hơn lý thuyết."
+        }
+      ]
+    },
+    {
+      "english": "give evidence",
+      "vietnamese": "đưa ra bằng chứng, làm chứng",
+      "ipa": "/ɡɪv ˈevɪdəns/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The witness agreed to give evidence at the trial tomorrow.",
+          "vi": "Nhân chứng đồng ý làm chứng tại phiên tòa ngày mai."
+        },
+        {
+          "en": "These experiments give evidence that the theory is correct.",
+          "vi": "Các thí nghiệm này đưa ra bằng chứng rằng lý thuyết là đúng."
+        },
+        {
+          "en": "Students must give evidence to support each claim they make.",
+          "vi": "Sinh viên phải đưa ra bằng chứng cho mỗi luận điểm họ nêu."
+        }
+      ]
+    },
+    {
+      "english": "give feedback",
+      "vietnamese": "đưa ra phản hồi, nhận xét",
+      "ipa": "/ɡɪv ˈfiːdbæk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The tutor will give feedback on your essay by Friday.",
+          "vi": "Gia sư sẽ đưa ra phản hồi về bài luận của bạn trước thứ Sáu."
+        },
+        {
+          "en": "Managers should give feedback that is clear and constructive.",
+          "vi": "Quản lý nên đưa ra phản hồi rõ ràng và mang tính xây dựng."
+        },
+        {
+          "en": "Peers give feedback to each other during the workshop sessions.",
+          "vi": "Các bạn học đưa ra nhận xét cho nhau trong các buổi hội thảo."
+        }
+      ]
+    },
+    {
+      "english": "give priority to",
+      "vietnamese": "ưu tiên cho",
+      "ipa": "/ɡɪv praɪˈɔːrəti tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The hospital gives priority to patients with serious conditions.",
+          "vi": "Bệnh viện ưu tiên cho những bệnh nhân có tình trạng nghiêm trọng."
+        },
+        {
+          "en": "We should give priority to reducing pollution in cities.",
+          "vi": "Chúng ta nên ưu tiên cho việc giảm ô nhiễm ở các thành phố."
+        },
+        {
+          "en": "The policy gives priority to families with low incomes.",
+          "vi": "Chính sách ưu tiên cho các gia đình có thu nhập thấp."
+        }
+      ]
+    },
+    {
+      "english": "give guidance",
+      "vietnamese": "đưa ra hướng dẫn, chỉ dẫn",
+      "ipa": "/ɡɪv ˈɡaɪdəns/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The advisor gives guidance to students choosing their courses.",
+          "vi": "Cố vấn đưa ra hướng dẫn cho sinh viên đang chọn môn học."
+        },
+        {
+          "en": "This handbook gives guidance on writing a research proposal.",
+          "vi": "Sổ tay này đưa ra hướng dẫn về cách viết đề cương nghiên cứu."
+        },
+        {
+          "en": "Experienced staff give guidance to new employees every week.",
+          "vi": "Nhân viên giàu kinh nghiệm chỉ dẫn cho người mới mỗi tuần."
+        }
+      ]
+    },
+    {
+      "english": "give information",
+      "vietnamese": "cung cấp thông tin",
+      "ipa": "/ɡɪv ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The website gives information about visa rules for travelers.",
+          "vi": "Trang web cung cấp thông tin về quy định thị thực cho khách du lịch."
+        },
+        {
+          "en": "Please give information about your previous work experience.",
+          "vi": "Vui lòng cung cấp thông tin về kinh nghiệm làm việc trước đây của bạn."
+        },
+        {
+          "en": "The survey gives information on how customers use the product.",
+          "vi": "Cuộc khảo sát cung cấp thông tin về cách khách hàng dùng sản phẩm."
+        }
+      ]
+    },
+    {
+      "english": "give insight into",
+      "vietnamese": "giúp hiểu sâu về, cho cái nhìn sâu sắc về",
+      "ipa": "/ɡɪv ˈɪnsaɪt ˈɪntə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The interviews give insight into how teenagers use social media.",
+          "vi": "Các cuộc phỏng vấn giúp hiểu sâu về cách thanh thiếu niên dùng mạng xã hội."
+        },
+        {
+          "en": "Her diary gives insight into life during the war.",
+          "vi": "Nhật ký của cô cho cái nhìn sâu sắc về cuộc sống thời chiến."
+        },
+        {
+          "en": "These results give insight into the causes of the problem.",
+          "vi": "Những kết quả này giúp hiểu sâu về nguyên nhân của vấn đề."
+        }
+      ]
+    },
+    {
+      "english": "give a presentation",
+      "vietnamese": "thuyết trình, trình bày",
+      "ipa": "/ɡɪv ə ˌprezənˈteɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Each student must give a presentation at the end of term.",
+          "vi": "Mỗi sinh viên phải thuyết trình vào cuối học kỳ."
+        },
+        {
+          "en": "She will give a presentation on renewable energy next week.",
+          "vi": "Cô ấy sẽ thuyết trình về năng lượng tái tạo vào tuần tới."
+        },
+        {
+          "en": "The manager gave a presentation about the new sales strategy.",
+          "vi": "Quản lý đã trình bày về chiến lược bán hàng mới."
+        }
+      ]
+    },
+    {
+      "english": "give an explanation",
+      "vietnamese": "đưa ra lời giải thích",
+      "ipa": "/ɡɪv ən ˌekspləˈneɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The author gives an explanation for the unexpected results.",
+          "vi": "Tác giả đưa ra lời giải thích cho những kết quả bất ngờ."
+        },
+        {
+          "en": "Can you give an explanation of how this machine works?",
+          "vi": "Bạn có thể giải thích máy này hoạt động thế nào không?"
+        },
+        {
+          "en": "The teacher gave an explanation that everyone could understand.",
+          "vi": "Giáo viên đưa ra lời giải thích mà ai cũng có thể hiểu."
+        }
+      ]
+    },
+    {
+      "english": "give an indication of",
+      "vietnamese": "cho thấy dấu hiệu về, biểu thị",
+      "ipa": "/ɡɪv ən ˌɪndɪˈkeɪʃən əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The early data gives an indication of future market trends.",
+          "vi": "Dữ liệu ban đầu cho thấy dấu hiệu về xu hướng thị trường tương lai."
+        },
+        {
+          "en": "His tone gave an indication of how serious the matter was.",
+          "vi": "Giọng điệu của anh biểu thị mức độ nghiêm trọng của vấn đề."
+        },
+        {
+          "en": "These figures give an indication of the company's overall health.",
+          "vi": "Những con số này cho thấy dấu hiệu về tình hình chung của công ty."
+        }
+      ]
+    },
+    {
+      "english": "give an overview of",
+      "vietnamese": "đưa ra cái nhìn tổng quan về",
+      "ipa": "/ɡɪv ən ˈoʊvərvjuː əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The first chapter gives an overview of the whole subject.",
+          "vi": "Chương đầu đưa ra cái nhìn tổng quan về toàn bộ chủ đề."
+        },
+        {
+          "en": "She gave an overview of the project before the discussion.",
+          "vi": "Cô ấy đưa ra cái nhìn tổng quan về dự án trước khi thảo luận."
+        },
+        {
+          "en": "This article gives an overview of recent climate research.",
+          "vi": "Bài viết này đưa ra cái nhìn tổng quan về nghiên cứu khí hậu gần đây."
+        }
+      ]
+    },
+    {
+      "english": "give somebody an impression",
+      "vietnamese": "tạo cho ai đó ấn tượng",
+      "ipa": "/ɡɪv ˈsʌmbɑːdi ən ɪmˈpreʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The opening scene gives the reader an impression of danger.",
+          "vi": "Cảnh mở đầu tạo cho người đọc ấn tượng về sự nguy hiểm."
+        },
+        {
+          "en": "His confident speech gave us an impression of real expertise.",
+          "vi": "Bài phát biểu tự tin của anh tạo cho chúng tôi ấn tượng về sự chuyên môn."
+        },
+        {
+          "en": "The bright office gave visitors an impression of success.",
+          "vi": "Văn phòng sáng sủa tạo cho khách tham quan ấn tượng về sự thành công."
+        }
+      ]
+    },
+    {
+      "english": "give somebody treatment",
+      "vietnamese": "điều trị cho ai đó",
+      "ipa": "/ɡɪv ˈsʌmbɑːdi ˈtriːtmənt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The doctors gave the patient treatment as soon as possible.",
+          "vi": "Các bác sĩ điều trị cho bệnh nhân càng sớm càng tốt."
+        },
+        {
+          "en": "Nurses give every child treatment with great care here.",
+          "vi": "Các y tá điều trị cho từng đứa trẻ rất cẩn thận ở đây."
+        },
+        {
+          "en": "The clinic gives poorer families treatment at no cost.",
+          "vi": "Phòng khám điều trị cho các gia đình nghèo hơn miễn phí."
+        }
+      ]
+    },
+    {
+      "english": "given information",
+      "vietnamese": "thông tin đã cho, thông tin sẵn có",
+      "ipa": "/ˈɡɪvən ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Use the given information to calculate the final answer.",
+          "vi": "Hãy dùng thông tin đã cho để tính ra đáp án cuối cùng."
+        },
+        {
+          "en": "The given information was not enough to solve the case.",
+          "vi": "Thông tin sẵn có không đủ để giải quyết vụ việc."
+        },
+        {
+          "en": "Students must analyze the given information before answering.",
+          "vi": "Sinh viên phải phân tích thông tin đã cho trước khi trả lời."
+        }
+      ]
+    },
+    {
+      "english": "given period",
+      "vietnamese": "khoảng thời gian nhất định",
+      "ipa": "/ˈɡɪvən ˈpɪriəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The chart shows sales during a given period of time.",
+          "vi": "Biểu đồ cho thấy doanh số trong một khoảng thời gian nhất định."
+        },
+        {
+          "en": "Within any given period, prices can rise or fall.",
+          "vi": "Trong bất kỳ khoảng thời gian nhất định nào, giá có thể tăng hoặc giảm."
+        },
+        {
+          "en": "We measured rainfall over a given period of six months.",
+          "vi": "Chúng tôi đo lượng mưa trong khoảng thời gian sáu tháng nhất định."
+        }
+      ]
+    },
+    {
+      "english": "global capitalism",
+      "vietnamese": "chủ nghĩa tư bản toàn cầu",
+      "ipa": "/ˈɡloʊbəl ˈkæpɪtəlɪzəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Global capitalism has reshaped how goods are produced worldwide.",
+          "vi": "Chủ nghĩa tư bản toàn cầu đã định hình lại cách hàng hóa được sản xuất."
+        },
+        {
+          "en": "Critics argue that global capitalism widens the gap between nations.",
+          "vi": "Người phê bình cho rằng chủ nghĩa tư bản toàn cầu nới rộng khoảng cách giữa các quốc gia."
+        },
+        {
+          "en": "The course examines the rise of global capitalism after 1980.",
+          "vi": "Khóa học xem xét sự trỗi dậy của chủ nghĩa tư bản toàn cầu sau năm 1980."
+        }
+      ]
+    },
+    {
+      "english": "global context",
+      "vietnamese": "bối cảnh toàn cầu",
+      "ipa": "/ˈɡloʊbəl ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "We must understand this issue within a global context.",
+          "vi": "Chúng ta phải hiểu vấn đề này trong bối cảnh toàn cầu."
+        },
+        {
+          "en": "In a global context, education standards vary widely between countries.",
+          "vi": "Trong bối cảnh toàn cầu, tiêu chuẩn giáo dục khác nhau nhiều giữa các nước."
+        },
+        {
+          "en": "The author places local events in a broader global context.",
+          "vi": "Tác giả đặt các sự kiện địa phương vào bối cảnh toàn cầu rộng hơn."
+        }
+      ]
+    },
+    {
+      "english": "global culture",
+      "vietnamese": "văn hóa toàn cầu",
+      "ipa": "/ˈɡloʊbəl ˈkʌltʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The internet has helped create a shared global culture.",
+          "vi": "Internet đã giúp tạo nên một nền văn hóa toàn cầu chung."
+        },
+        {
+          "en": "Some fear that global culture is erasing local traditions.",
+          "vi": "Một số người lo rằng văn hóa toàn cầu đang xóa bỏ truyền thống địa phương."
+        },
+        {
+          "en": "Music and films spread global culture across many borders.",
+          "vi": "Âm nhạc và phim ảnh lan truyền văn hóa toàn cầu qua nhiều biên giới."
+        }
+      ]
+    },
+    {
+      "english": "global economy",
+      "vietnamese": "nền kinh tế toàn cầu",
+      "ipa": "/ˈɡloʊbəl ɪˈkɑːnəmi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Rising oil prices affect the entire global economy quickly.",
+          "vi": "Giá dầu tăng ảnh hưởng nhanh đến toàn bộ nền kinh tế toàn cầu."
+        },
+        {
+          "en": "The global economy slowed during the recent financial crisis.",
+          "vi": "Nền kinh tế toàn cầu chậm lại trong cuộc khủng hoảng tài chính gần đây."
+        },
+        {
+          "en": "Many countries depend on each other in the global economy.",
+          "vi": "Nhiều quốc gia phụ thuộc lẫn nhau trong nền kinh tế toàn cầu."
+        }
+      ]
+    }
+  ]
+}

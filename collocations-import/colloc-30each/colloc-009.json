@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 09/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 09/83"
+  },
+  "cards": [
+    {
+      "english": "clearly evident",
+      "vietnamese": "rõ ràng hiển nhiên",
+      "ipa": "/ˈklɪrli ˈevɪdənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Her talent was clearly evident from her very first essay.",
+          "vi": "Tài năng của cô rõ ràng hiển nhiên ngay từ bài luận đầu tiên."
+        },
+        {
+          "en": "The effects of the drought were clearly evident across the fields.",
+          "vi": "Tác động của hạn hán rõ ràng hiển nhiên trên khắp các cánh đồng."
+        },
+        {
+          "en": "It is clearly evident that more research is needed here.",
+          "vi": "Rõ ràng hiển nhiên rằng cần thêm nghiên cứu ở lĩnh vực này."
+        }
+      ]
+    },
+    {
+      "english": "clearly identified",
+      "vietnamese": "được xác định rõ ràng",
+      "ipa": "/ˈklɪrli aɪˈdentɪfaɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Each risk must be clearly identified before the project starts.",
+          "vi": "Mỗi rủi ro phải được xác định rõ ràng trước khi dự án bắt đầu."
+        },
+        {
+          "en": "The main causes of failure were clearly identified in the report.",
+          "vi": "Những nguyên nhân chính của thất bại được xác định rõ ràng trong báo cáo."
+        },
+        {
+          "en": "Sources should be clearly identified to avoid plagiarism.",
+          "vi": "Nguồn tài liệu nên được xác định rõ ràng để tránh đạo văn."
+        }
+      ]
+    },
+    {
+      "english": "clearly important",
+      "vietnamese": "rõ ràng quan trọng",
+      "ipa": "/ˈklɪrli ɪmˈpɔːrtənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Sleep is clearly important for memory and concentration.",
+          "vi": "Giấc ngủ rõ ràng quan trọng đối với trí nhớ và sự tập trung."
+        },
+        {
+          "en": "It is clearly important to verify sources before citing them.",
+          "vi": "Rõ ràng quan trọng là phải kiểm chứng nguồn trước khi trích dẫn."
+        },
+        {
+          "en": "Funding is clearly important, but leadership matters too.",
+          "vi": "Ngân sách rõ ràng quan trọng, nhưng sự lãnh đạo cũng quan trọng."
+        }
+      ]
+    },
+    {
+      "english": "clearly related to",
+      "vietnamese": "rõ ràng liên quan đến",
+      "ipa": "/ˈklɪrli rɪˈleɪtɪd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "These symptoms are clearly related to a lack of sleep.",
+          "vi": "Những triệu chứng này rõ ràng liên quan đến việc thiếu ngủ."
+        },
+        {
+          "en": "Her thesis is clearly related to earlier work in the field.",
+          "vi": "Luận văn của cô rõ ràng liên quan đến các công trình trước trong lĩnh vực."
+        },
+        {
+          "en": "The rise in cases is clearly related to crowded conditions.",
+          "vi": "Sự gia tăng số ca rõ ràng liên quan đến điều kiện đông đúc."
+        }
+      ]
+    },
+    {
+      "english": "clearly understand",
+      "vietnamese": "hiểu rõ ràng",
+      "ipa": "/ˈklɪrli ˌʌndərˈstænd/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "Students must clearly understand the rules before the exam.",
+          "vi": "Sinh viên phải hiểu rõ ràng các quy tắc trước kỳ thi."
+        },
+        {
+          "en": "I want to clearly understand your argument before responding.",
+          "vi": "Mình muốn hiểu rõ ràng lập luận của bạn trước khi phản hồi."
+        },
+        {
+          "en": "Few people clearly understand how the algorithm actually works.",
+          "vi": "Ít người hiểu rõ ràng thuật toán thực sự hoạt động như thế nào."
+        }
+      ]
+    },
+    {
+      "english": "clearly visible",
+      "vietnamese": "rõ ràng có thể thấy",
+      "ipa": "/ˈklɪrli ˈvɪzəbəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The mountains were clearly visible on that bright morning.",
+          "vi": "Những ngọn núi rõ ràng có thể thấy trong buổi sáng quang đãng đó."
+        },
+        {
+          "en": "The trend is clearly visible in the latest set of graphs.",
+          "vi": "Xu hướng rõ ràng có thể thấy trong bộ biểu đồ mới nhất."
+        },
+        {
+          "en": "Safety signs should be clearly visible at every entrance.",
+          "vi": "Biển báo an toàn nên rõ ràng có thể thấy ở mọi lối vào."
+        }
+      ]
+    },
+    {
+      "english": "climate change",
+      "vietnamese": "biến đổi khí hậu",
+      "ipa": "/ˈklaɪmət tʃeɪndʒ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Climate change is one of the greatest challenges of our time.",
+          "vi": "Biến đổi khí hậu là một trong những thách thức lớn nhất thời đại."
+        },
+        {
+          "en": "Scientists warn that climate change is accelerating worldwide.",
+          "vi": "Các nhà khoa học cảnh báo biến đổi khí hậu đang tăng tốc trên toàn cầu."
+        },
+        {
+          "en": "Reducing emissions is essential to slowing climate change.",
+          "vi": "Giảm phát thải là điều thiết yếu để làm chậm biến đổi khí hậu."
+        }
+      ]
+    },
+    {
+      "english": "climatic conditions",
+      "vietnamese": "điều kiện khí hậu",
+      "ipa": "/klaɪˈmætɪk kənˈdɪʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Crops vary depending on local climatic conditions.",
+          "vi": "Cây trồng thay đổi tùy theo điều kiện khí hậu địa phương."
+        },
+        {
+          "en": "Harsh climatic conditions limit which species can survive.",
+          "vi": "Điều kiện khí hậu khắc nghiệt hạn chế những loài có thể sống sót."
+        },
+        {
+          "en": "The study compares plant growth under different climatic conditions.",
+          "vi": "Nghiên cứu so sánh sự phát triển của cây trong các điều kiện khí hậu khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "close contact",
+      "vietnamese": "sự tiếp xúc gần",
+      "ipa": "/kloʊs ˈkɑːntækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The disease spreads through close contact between infected people.",
+          "vi": "Bệnh lây lan qua sự tiếp xúc gần giữa những người bị nhiễm."
+        },
+        {
+          "en": "She kept in close contact with her former colleagues.",
+          "vi": "Cô ấy giữ liên lạc thường xuyên với các đồng nghiệp cũ."
+        },
+        {
+          "en": "Researchers maintain close contact with the communities they study.",
+          "vi": "Các nhà nghiên cứu duy trì sự tiếp xúc gần với cộng đồng họ nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "close proximity",
+      "vietnamese": "khoảng cách rất gần",
+      "ipa": "/kloʊs prɑːkˈsɪməti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The two buildings stand in close proximity to each other.",
+          "vi": "Hai tòa nhà nằm rất gần nhau."
+        },
+        {
+          "en": "Living in close proximity to factories can affect health.",
+          "vi": "Sống gần các nhà máy có thể ảnh hưởng đến sức khỏe."
+        },
+        {
+          "en": "The study examined animals living in close proximity to humans.",
+          "vi": "Nghiên cứu xem xét các loài vật sống rất gần con người."
+        }
+      ]
+    },
+    {
+      "english": "close relationship",
+      "vietnamese": "mối quan hệ thân thiết",
+      "ipa": "/kloʊs rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a close relationship between diet and overall health.",
+          "vi": "Có một mối quan hệ chặt chẽ giữa chế độ ăn và sức khỏe."
+        },
+        {
+          "en": "She built a close relationship with her academic supervisor.",
+          "vi": "Cô ấy xây dựng mối quan hệ thân thiết với người hướng dẫn."
+        },
+        {
+          "en": "The data show a close relationship between income and education.",
+          "vi": "Dữ liệu cho thấy mối quan hệ chặt chẽ giữa thu nhập và học vấn."
+        }
+      ]
+    },
+    {
+      "english": "close scrutiny",
+      "vietnamese": "sự xem xét kỹ lưỡng",
+      "ipa": "/kloʊs ˈskruːtəni/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The proposal came under close scrutiny from the committee.",
+          "vi": "Đề xuất bị ủy ban xem xét kỹ lưỡng."
+        },
+        {
+          "en": "These results deserve close scrutiny before any conclusions are drawn.",
+          "vi": "Những kết quả này cần được xem xét kỹ trước khi kết luận."
+        },
+        {
+          "en": "Public spending is subject to close scrutiny by auditors.",
+          "vi": "Chi tiêu công chịu sự xem xét kỹ lưỡng từ các kiểm toán viên."
+        }
+      ]
+    },
+    {
+      "english": "closely allied to",
+      "vietnamese": "gắn bó chặt chẽ với",
+      "ipa": "/ˈkloʊsli əˈlaɪd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Linguistics is closely allied to psychology in many respects.",
+          "vi": "Ngôn ngữ học gắn bó chặt chẽ với tâm lý học ở nhiều khía cạnh."
+        },
+        {
+          "en": "This theory is closely allied to earlier philosophical ideas.",
+          "vi": "Lý thuyết này gắn bó chặt chẽ với các tư tưởng triết học trước đó."
+        },
+        {
+          "en": "The firm is closely allied to several major research institutions.",
+          "vi": "Công ty gắn bó chặt chẽ với nhiều viện nghiên cứu lớn."
+        }
+      ]
+    },
+    {
+      "english": "closely associated with",
+      "vietnamese": "gắn liền chặt chẽ với",
+      "ipa": "/ˈkloʊsli əˈsoʊsieɪtɪd wɪð/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Smoking is closely associated with several serious diseases.",
+          "vi": "Hút thuốc gắn liền chặt chẽ với nhiều căn bệnh nghiêm trọng."
+        },
+        {
+          "en": "His name is closely associated with the civil rights movement.",
+          "vi": "Tên ông gắn liền chặt chẽ với phong trào dân quyền."
+        },
+        {
+          "en": "Poverty is closely associated with poor educational outcomes.",
+          "vi": "Nghèo đói gắn liền chặt chẽ với kết quả học tập kém."
+        }
+      ]
+    },
+    {
+      "english": "closely connected to",
+      "vietnamese": "liên kết chặt chẽ với",
+      "ipa": "/ˈkloʊsli kəˈnektɪd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Economic growth is closely connected to political stability.",
+          "vi": "Tăng trưởng kinh tế liên kết chặt chẽ với ổn định chính trị."
+        },
+        {
+          "en": "These two problems are closely connected to one another.",
+          "vi": "Hai vấn đề này liên kết chặt chẽ với nhau."
+        },
+        {
+          "en": "Her research is closely connected to current environmental debates.",
+          "vi": "Nghiên cứu của cô liên kết chặt chẽ với các tranh luận môi trường hiện nay."
+        }
+      ]
+    },
+    {
+      "english": "closely linked to",
+      "vietnamese": "liên hệ mật thiết với",
+      "ipa": "/ˈkloʊsli lɪŋkt tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Mental health is closely linked to physical wellbeing.",
+          "vi": "Sức khỏe tinh thần liên hệ mật thiết với sức khỏe thể chất."
+        },
+        {
+          "en": "Unemployment is closely linked to rising crime rates.",
+          "vi": "Thất nghiệp liên hệ mật thiết với tỉ lệ tội phạm tăng."
+        },
+        {
+          "en": "The decline is closely linked to changes in consumer behaviour.",
+          "vi": "Sự suy giảm liên hệ mật thiết với thay đổi trong hành vi tiêu dùng."
+        }
+      ]
+    },
+    {
+      "english": "closely related to",
+      "vietnamese": "có liên quan mật thiết với",
+      "ipa": "/ˈkloʊsli rɪˈleɪtɪd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This species is closely related to the domestic cat.",
+          "vi": "Loài này có liên quan mật thiết với mèo nhà."
+        },
+        {
+          "en": "The two questions are closely related to each other.",
+          "vi": "Hai câu hỏi có liên quan mật thiết với nhau."
+        },
+        {
+          "en": "Job satisfaction is closely related to employee productivity.",
+          "vi": "Sự hài lòng trong công việc liên quan mật thiết với năng suất."
+        }
+      ]
+    },
+    {
+      "english": "closely resemble",
+      "vietnamese": "rất giống với",
+      "ipa": "/ˈkloʊsli rɪˈzembəl/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "The fake documents closely resemble the genuine originals.",
+          "vi": "Các tài liệu giả rất giống bản gốc thật."
+        },
+        {
+          "en": "Her early paintings closely resemble those of her teacher.",
+          "vi": "Các bức tranh ban đầu của cô rất giống tranh của thầy."
+        },
+        {
+          "en": "The model's predictions closely resemble the observed data.",
+          "vi": "Dự đoán của mô hình rất giống với dữ liệu quan sát được."
+        }
+      ]
+    },
+    {
+      "english": "closely tied",
+      "vietnamese": "gắn kết chặt chẽ",
+      "ipa": "/ˈkloʊsli taɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Their success is closely tied to government funding.",
+          "vi": "Thành công của họ gắn kết chặt chẽ với nguồn tài trợ chính phủ."
+        },
+        {
+          "en": "National identity is closely tied to shared language and history.",
+          "vi": "Bản sắc dân tộc gắn kết chặt chẽ với ngôn ngữ và lịch sử chung."
+        },
+        {
+          "en": "Wages are closely tied to overall company performance.",
+          "vi": "Tiền lương gắn kết chặt chẽ với hiệu quả chung của công ty."
+        }
+      ]
+    },
+    {
+      "english": "closer examination",
+      "vietnamese": "sự xem xét kỹ hơn",
+      "ipa": "/ˈkloʊsər ɪɡˌzæmɪˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Closer examination of the data revealed several errors.",
+          "vi": "Việc xem xét kỹ hơn dữ liệu đã phát hiện nhiều sai sót."
+        },
+        {
+          "en": "The argument falls apart under closer examination.",
+          "vi": "Lập luận sụp đổ khi được xem xét kỹ hơn."
+        },
+        {
+          "en": "Closer examination shows the two cases differ significantly.",
+          "vi": "Xem xét kỹ hơn cho thấy hai trường hợp khác nhau đáng kể."
+        }
+      ]
+    },
+    {
+      "english": "closer inspection",
+      "vietnamese": "sự kiểm tra kỹ hơn",
+      "ipa": "/ˈkloʊsər ɪnˈspekʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "On closer inspection, the painting turned out to be a copy.",
+          "vi": "Khi kiểm tra kỹ hơn, bức tranh hóa ra là bản sao."
+        },
+        {
+          "en": "Closer inspection of the results raised new questions.",
+          "vi": "Việc kiểm tra kỹ hơn các kết quả làm nảy sinh câu hỏi mới."
+        },
+        {
+          "en": "The flaw became obvious only on closer inspection.",
+          "vi": "Lỗi chỉ trở nên rõ ràng khi kiểm tra kỹ hơn."
+        }
+      ]
+    },
+    {
+      "english": "closer look",
+      "vietnamese": "cái nhìn cận cảnh hơn",
+      "ipa": "/ˈkloʊsər lʊk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Let us take a closer look at the underlying causes.",
+          "vi": "Chúng ta hãy nhìn kỹ hơn vào các nguyên nhân sâu xa."
+        },
+        {
+          "en": "A closer look reveals important differences between the groups.",
+          "vi": "Một cái nhìn kỹ hơn cho thấy những khác biệt quan trọng giữa các nhóm."
+        },
+        {
+          "en": "This chapter takes a closer look at urban migration.",
+          "vi": "Chương này xem xét kỹ hơn hiện tượng di cư đô thị."
+        }
+      ]
+    },
+    {
+      "english": "cognitive ability",
+      "vietnamese": "khả năng nhận thức",
+      "ipa": "/ˈkɑːɡnətɪv əˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Sleep deprivation can reduce a person's cognitive ability.",
+          "vi": "Thiếu ngủ có thể làm giảm khả năng nhận thức của một người."
+        },
+        {
+          "en": "The tests measure several aspects of cognitive ability.",
+          "vi": "Các bài kiểm tra đo lường nhiều khía cạnh của khả năng nhận thức."
+        },
+        {
+          "en": "Cognitive ability tends to decline gradually with age.",
+          "vi": "Khả năng nhận thức có xu hướng giảm dần theo tuổi tác."
+        }
+      ]
+    },
+    {
+      "english": "cognitive development",
+      "vietnamese": "sự phát triển nhận thức",
+      "ipa": "/ˈkɑːɡnətɪv dɪˈveləpmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Early childhood is crucial for cognitive development.",
+          "vi": "Tuổi thơ ấu rất quan trọng đối với sự phát triển nhận thức."
+        },
+        {
+          "en": "Play supports cognitive development in young children.",
+          "vi": "Vui chơi hỗ trợ sự phát triển nhận thức ở trẻ nhỏ."
+        },
+        {
+          "en": "The study tracked cognitive development over several years.",
+          "vi": "Nghiên cứu theo dõi sự phát triển nhận thức trong nhiều năm."
+        }
+      ]
+    },
+    {
+      "english": "cognitive skills",
+      "vietnamese": "kỹ năng nhận thức",
+      "ipa": "/ˈkɑːɡnətɪv skɪlz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Reading regularly helps children develop cognitive skills.",
+          "vi": "Đọc sách thường xuyên giúp trẻ phát triển kỹ năng nhận thức."
+        },
+        {
+          "en": "The program aims to strengthen students' cognitive skills.",
+          "vi": "Chương trình nhằm tăng cường kỹ năng nhận thức của học sinh."
+        },
+        {
+          "en": "Problem solving relies on a range of cognitive skills.",
+          "vi": "Giải quyết vấn đề dựa vào nhiều kỹ năng nhận thức khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "collaborative learning",
+      "vietnamese": "học tập hợp tác",
+      "ipa": "/kəˈlæbərətɪv ˈlɜːrnɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Collaborative learning encourages students to share ideas freely.",
+          "vi": "Học tập hợp tác khuyến khích học sinh chia sẻ ý tưởng tự do."
+        },
+        {
+          "en": "The teacher organized the class around collaborative learning tasks.",
+          "vi": "Giáo viên tổ chức lớp học quanh các nhiệm vụ học tập hợp tác."
+        },
+        {
+          "en": "Research suggests collaborative learning improves long-term retention.",
+          "vi": "Nghiên cứu cho thấy học tập hợp tác cải thiện khả năng ghi nhớ lâu dài."
+        }
+      ]
+    },
+    {
+      "english": "collect data",
+      "vietnamese": "thu thập dữ liệu",
+      "ipa": "/kəˈlekt ˈdeɪtə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Researchers collect data through surveys and interviews.",
+          "vi": "Các nhà nghiên cứu thu thập dữ liệu qua khảo sát và phỏng vấn."
+        },
+        {
+          "en": "We need to collect data before drawing any conclusions.",
+          "vi": "Chúng ta cần thu thập dữ liệu trước khi đưa ra kết luận."
+        },
+        {
+          "en": "The sensors collect data on temperature every hour.",
+          "vi": "Các cảm biến thu thập dữ liệu về nhiệt độ mỗi giờ."
+        }
+      ]
+    },
+    {
+      "english": "collect information",
+      "vietnamese": "thu thập thông tin",
+      "ipa": "/kəˈlekt ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The team collects information from a wide range of sources.",
+          "vi": "Nhóm thu thập thông tin từ nhiều nguồn khác nhau."
+        },
+        {
+          "en": "Companies collect information about their customers' preferences.",
+          "vi": "Các công ty thu thập thông tin về sở thích của khách hàng."
+        },
+        {
+          "en": "We collect information carefully to ensure accurate results.",
+          "vi": "Chúng tôi thu thập thông tin cẩn thận để đảm bảo kết quả chính xác."
+        }
+      ]
+    },
+    {
+      "english": "collective action",
+      "vietnamese": "hành động tập thể",
+      "ipa": "/kəˈlektɪv ˈækʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Collective action is often needed to tackle climate change.",
+          "vi": "Hành động tập thể thường cần thiết để giải quyết biến đổi khí hậu."
+        },
+        {
+          "en": "The workers organized collective action to demand fair pay.",
+          "vi": "Công nhân tổ chức hành động tập thể để đòi mức lương công bằng."
+        },
+        {
+          "en": "Collective action can achieve what individuals cannot alone.",
+          "vi": "Hành động tập thể có thể đạt được điều mà cá nhân không thể."
+        }
+      ]
+    },
+    {
+      "english": "collective identity",
+      "vietnamese": "bản sắc tập thể",
+      "ipa": "/kəˈlektɪv aɪˈdentəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Shared traditions help build a strong collective identity.",
+          "vi": "Truyền thống chung giúp xây dựng bản sắc tập thể mạnh mẽ."
+        },
+        {
+          "en": "The festival reinforces the community's collective identity.",
+          "vi": "Lễ hội củng cố bản sắc tập thể của cộng đồng."
+        },
+        {
+          "en": "Migration can challenge a nation's sense of collective identity.",
+          "vi": "Di cư có thể thách thức cảm thức về bản sắc tập thể của một quốc gia."
+        }
+      ]
+    }
+  ]
+}

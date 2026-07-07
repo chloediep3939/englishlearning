@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 56/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 56/83"
+  },
+  "cards": [
+    {
+      "english": "political stability",
+      "vietnamese": "sự ổn định về chính trị",
+      "ipa": "/pəˈlɪtɪkəl stəˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Foreign investors value the country's long-term political stability.",
+          "vi": "Nhà đầu tư nước ngoài coi trọng sự ổn định chính trị lâu dài của đất nước."
+        },
+        {
+          "en": "Economic growth often depends on political stability.",
+          "vi": "Tăng trưởng kinh tế thường phụ thuộc vào sự ổn định chính trị."
+        },
+        {
+          "en": "The coup destroyed decades of hard-won political stability.",
+          "vi": "Cuộc đảo chính phá hủy hàng thập kỷ ổn định chính trị khó khăn lắm mới có."
+        }
+      ]
+    },
+    {
+      "english": "political status",
+      "vietnamese": "địa vị chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈstætəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The region's political status remains a sensitive issue.",
+          "vi": "Địa vị chính trị của khu vực vẫn là vấn đề nhạy cảm."
+        },
+        {
+          "en": "Citizens demanded a change in their political status.",
+          "vi": "Người dân đòi thay đổi địa vị chính trị của họ."
+        },
+        {
+          "en": "The treaty clarified the territory's political status.",
+          "vi": "Hiệp ước làm rõ địa vị chính trị của vùng lãnh thổ."
+        }
+      ]
+    },
+    {
+      "english": "political structure",
+      "vietnamese": "cơ cấu chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈstrʌktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book analyzes the political structure of ancient Rome.",
+          "vi": "Cuốn sách phân tích cơ cấu chính trị của La Mã cổ đại."
+        },
+        {
+          "en": "A weak political structure left the nation vulnerable.",
+          "vi": "Một cơ cấu chính trị yếu khiến quốc gia dễ bị tổn thương."
+        },
+        {
+          "en": "Reformers tried to redesign the entire political structure.",
+          "vi": "Những nhà cải cách cố thiết kế lại toàn bộ cơ cấu chính trị."
+        }
+      ]
+    },
+    {
+      "english": "politically correct",
+      "vietnamese": "đúng chuẩn mực chính trị xã hội",
+      "ipa": "/pəˈlɪtɪkli kəˈrekt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "He chose politically correct language to avoid offending anyone.",
+          "vi": "Anh chọn ngôn từ đúng mực để tránh xúc phạm bất kỳ ai."
+        },
+        {
+          "en": "Some critics say the campaign was too politically correct.",
+          "vi": "Một số người chỉ trích cho rằng chiến dịch quá khuôn phép về chính trị xã hội."
+        },
+        {
+          "en": "The textbook was revised to be more politically correct.",
+          "vi": "Cuốn giáo trình được sửa lại cho đúng chuẩn mực hơn."
+        }
+      ]
+    },
+    {
+      "english": "politically motivated",
+      "vietnamese": "có động cơ chính trị",
+      "ipa": "/pəˈlɪtɪkli ˈmoʊtɪveɪtɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Critics claimed the arrests were politically motivated.",
+          "vi": "Những người chỉ trích cho rằng các vụ bắt giữ có động cơ chính trị."
+        },
+        {
+          "en": "The lawsuit looked politically motivated rather than legal.",
+          "vi": "Vụ kiện trông có động cơ chính trị hơn là pháp lý."
+        },
+        {
+          "en": "Analysts described the decision as politically motivated.",
+          "vi": "Các nhà phân tích mô tả quyết định này là có động cơ chính trị."
+        }
+      ]
+    },
+    {
+      "english": "poorly understood",
+      "vietnamese": "chưa được hiểu rõ",
+      "ipa": "/ˈpʊrli ˌʌndərˈstʊd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The disease remains poorly understood despite years of research.",
+          "vi": "Căn bệnh vẫn chưa được hiểu rõ dù đã nghiên cứu nhiều năm."
+        },
+        {
+          "en": "These chemical reactions are still poorly understood.",
+          "vi": "Những phản ứng hóa học này vẫn chưa được hiểu rõ."
+        },
+        {
+          "en": "The long-term effects are poorly understood by scientists.",
+          "vi": "Các tác động lâu dài vẫn chưa được giới khoa học hiểu rõ."
+        }
+      ]
+    },
+    {
+      "english": "popular culture",
+      "vietnamese": "văn hóa đại chúng",
+      "ipa": "/ˈpɑːpjələr ˈkʌltʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The film reflects many themes from popular culture.",
+          "vi": "Bộ phim phản ánh nhiều chủ đề từ văn hóa đại chúng."
+        },
+        {
+          "en": "Social media has reshaped modern popular culture.",
+          "vi": "Mạng xã hội đã định hình lại văn hóa đại chúng hiện đại."
+        },
+        {
+          "en": "The course examines how popular culture influences young people.",
+          "vi": "Khóa học xem xét cách văn hóa đại chúng ảnh hưởng giới trẻ."
+        }
+      ]
+    },
+    {
+      "english": "popular media",
+      "vietnamese": "truyền thông đại chúng",
+      "ipa": "/ˈpɑːpjələr ˈmiːdiə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Popular media often simplifies complex scientific ideas.",
+          "vi": "Truyền thông đại chúng thường đơn giản hóa các ý tưởng khoa học phức tạp."
+        },
+        {
+          "en": "The story spread quickly through popular media.",
+          "vi": "Câu chuyện lan nhanh qua truyền thông đại chúng."
+        },
+        {
+          "en": "Popular media shapes how the public sees the issue.",
+          "vi": "Truyền thông đại chúng định hình cách công chúng nhìn nhận vấn đề."
+        }
+      ]
+    },
+    {
+      "english": "pose a challenge",
+      "vietnamese": "đặt ra một thách thức",
+      "ipa": "/poʊz ə ˈtʃælɪndʒ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Climate change will pose a challenge for future generations.",
+          "vi": "Biến đổi khí hậu sẽ đặt ra thách thức cho các thế hệ tương lai."
+        },
+        {
+          "en": "Rapid growth can pose a challenge to small companies.",
+          "vi": "Tăng trưởng nhanh có thể đặt ra thách thức cho các công ty nhỏ."
+        },
+        {
+          "en": "New regulations pose a challenge for many manufacturers.",
+          "vi": "Các quy định mới đặt ra thách thức cho nhiều nhà sản xuất."
+        }
+      ]
+    },
+    {
+      "english": "pose a problem",
+      "vietnamese": "gây ra một vấn đề",
+      "ipa": "/poʊz ə ˈprɑːbləm/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Heavy traffic poses a problem for emergency services.",
+          "vi": "Giao thông đông đúc gây ra vấn đề cho các dịch vụ khẩn cấp."
+        },
+        {
+          "en": "Missing data can pose a problem for the analysis.",
+          "vi": "Dữ liệu thiếu có thể gây ra vấn đề cho việc phân tích."
+        },
+        {
+          "en": "Rising costs pose a problem for the whole industry.",
+          "vi": "Chi phí tăng gây ra vấn đề cho cả ngành."
+        }
+      ]
+    },
+    {
+      "english": "pose a question",
+      "vietnamese": "đặt ra một câu hỏi",
+      "ipa": "/poʊz ə ˈkwestʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "These results pose a question about the original theory.",
+          "vi": "Những kết quả này đặt ra câu hỏi về lý thuyết ban đầu."
+        },
+        {
+          "en": "The teacher posed a question that puzzled the students.",
+          "vi": "Giáo viên đặt ra một câu hỏi khiến học sinh bối rối."
+        },
+        {
+          "en": "The findings pose a question worth further investigation.",
+          "vi": "Phát hiện này đặt ra câu hỏi đáng được nghiên cứu thêm."
+        }
+      ]
+    },
+    {
+      "english": "pose a threat to",
+      "vietnamese": "đặt ra mối đe dọa đối với",
+      "ipa": "/poʊz ə θret tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Pollution can pose a threat to public health.",
+          "vi": "Ô nhiễm có thể đặt ra mối đe dọa đối với sức khỏe cộng đồng."
+        },
+        {
+          "en": "Invasive species pose a threat to local ecosystems.",
+          "vi": "Các loài xâm lấn đặt ra mối đe dọa đối với hệ sinh thái địa phương."
+        },
+        {
+          "en": "Cyberattacks pose a threat to national security.",
+          "vi": "Các cuộc tấn công mạng đặt ra mối đe dọa đối với an ninh quốc gia."
+        }
+      ]
+    },
+    {
+      "english": "positive action",
+      "vietnamese": "hành động tích cực",
+      "ipa": "/ˈpɑːzətɪv ˈækʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The government took positive action to reduce unemployment.",
+          "vi": "Chính phủ đã có hành động tích cực để giảm thất nghiệp."
+        },
+        {
+          "en": "Positive action is needed to protect endangered species.",
+          "vi": "Cần có hành động tích cực để bảo vệ các loài nguy cấp."
+        },
+        {
+          "en": "The campaign encouraged positive action on recycling.",
+          "vi": "Chiến dịch khuyến khích hành động tích cực về tái chế."
+        }
+      ]
+    },
+    {
+      "english": "positive aspect",
+      "vietnamese": "khía cạnh tích cực",
+      "ipa": "/ˈpɑːzətɪv ˈæspekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report highlights the positive aspect of remote work.",
+          "vi": "Báo cáo nhấn mạnh khía cạnh tích cực của làm việc từ xa."
+        },
+        {
+          "en": "One positive aspect of the change was lower costs.",
+          "vi": "Một khía cạnh tích cực của sự thay đổi là chi phí thấp hơn."
+        },
+        {
+          "en": "Students discussed the positive aspect of online learning.",
+          "vi": "Học sinh thảo luận về khía cạnh tích cực của học trực tuyến."
+        }
+      ]
+    },
+    {
+      "english": "positive attitude",
+      "vietnamese": "thái độ tích cực",
+      "ipa": "/ˈpɑːzətɪv ˈætɪtuːd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A positive attitude helps students cope with difficult exams.",
+          "vi": "Thái độ tích cực giúp học sinh đối phó với các kỳ thi khó."
+        },
+        {
+          "en": "Employers value a positive attitude toward teamwork.",
+          "vi": "Nhà tuyển dụng coi trọng thái độ tích cực với làm việc nhóm."
+        },
+        {
+          "en": "She kept a positive attitude despite many setbacks.",
+          "vi": "Cô giữ thái độ tích cực dù gặp nhiều trở ngại."
+        }
+      ]
+    },
+    {
+      "english": "positive connotation",
+      "vietnamese": "hàm ý tích cực",
+      "ipa": "/ˈpɑːzətɪv ˌkɑːnəˈteɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The word carries a strong positive connotation in English.",
+          "vi": "Từ này mang một hàm ý tích cực mạnh trong tiếng Anh."
+        },
+        {
+          "en": "Marketers prefer terms with a positive connotation.",
+          "vi": "Người làm tiếp thị thích các từ có hàm ý tích cực."
+        },
+        {
+          "en": "Unlike its synonym, this word has a positive connotation.",
+          "vi": "Khác với từ đồng nghĩa, từ này có hàm ý tích cực."
+        }
+      ]
+    },
+    {
+      "english": "positive correlation",
+      "vietnamese": "mối tương quan thuận",
+      "ipa": "/ˈpɑːzətɪv ˌkɔːrəˈleɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study found a positive correlation between exercise and mood.",
+          "vi": "Nghiên cứu tìm thấy mối tương quan thuận giữa tập luyện và tâm trạng."
+        },
+        {
+          "en": "There is a positive correlation between income and education.",
+          "vi": "Có một mối tương quan thuận giữa thu nhập và trình độ học vấn."
+        },
+        {
+          "en": "Researchers reported a positive correlation in the data.",
+          "vi": "Các nhà nghiên cứu báo cáo một mối tương quan thuận trong dữ liệu."
+        }
+      ]
+    },
+    {
+      "english": "positive discrimination",
+      "vietnamese": "phân biệt đối xử tích cực (ưu tiên nhóm yếu thế)",
+      "ipa": "/ˈpɑːzətɪv dɪˌskrɪmɪˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Some universities use positive discrimination to widen access.",
+          "vi": "Một số trường đại học dùng ưu tiên tích cực để mở rộng cơ hội."
+        },
+        {
+          "en": "Positive discrimination remains a controversial policy choice.",
+          "vi": "Phân biệt đối xử tích cực vẫn là một lựa chọn chính sách gây tranh cãi."
+        },
+        {
+          "en": "Critics argue positive discrimination can create new inequalities.",
+          "vi": "Người chỉ trích cho rằng ưu tiên tích cực có thể tạo bất bình đẳng mới."
+        }
+      ]
+    },
+    {
+      "english": "positive effect",
+      "vietnamese": "tác động tích cực",
+      "ipa": "/ˈpɑːzətɪv ɪˈfekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Regular sleep has a positive effect on memory.",
+          "vi": "Ngủ đều đặn có tác động tích cực đến trí nhớ."
+        },
+        {
+          "en": "The new policy had a positive effect on attendance.",
+          "vi": "Chính sách mới có tác động tích cực đến tỷ lệ đi học."
+        },
+        {
+          "en": "Reading widely has a positive effect on writing skills.",
+          "vi": "Đọc nhiều có tác động tích cực đến kỹ năng viết."
+        }
+      ]
+    },
+    {
+      "english": "positive feature",
+      "vietnamese": "đặc điểm tích cực",
+      "ipa": "/ˈpɑːzətɪv ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A positive feature of the design is its simplicity.",
+          "vi": "Một đặc điểm tích cực của thiết kế là sự đơn giản."
+        },
+        {
+          "en": "The most positive feature of the app is its speed.",
+          "vi": "Đặc điểm tích cực nhất của ứng dụng là tốc độ."
+        },
+        {
+          "en": "Flexibility is a positive feature of the new system.",
+          "vi": "Tính linh hoạt là một đặc điểm tích cực của hệ thống mới."
+        }
+      ]
+    },
+    {
+      "english": "positive feedback",
+      "vietnamese": "phản hồi tích cực",
+      "ipa": "/ˈpɑːzətɪv ˈfiːdbæk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The teacher gave positive feedback on the student's essay.",
+          "vi": "Giáo viên đưa ra phản hồi tích cực về bài luận của học sinh."
+        },
+        {
+          "en": "Customers left positive feedback about the service.",
+          "vi": "Khách hàng để lại phản hồi tích cực về dịch vụ."
+        },
+        {
+          "en": "Positive feedback encourages learners to keep practicing.",
+          "vi": "Phản hồi tích cực khuyến khích người học tiếp tục luyện tập."
+        }
+      ]
+    },
+    {
+      "english": "positive image",
+      "vietnamese": "hình ảnh tích cực",
+      "ipa": "/ˈpɑːzətɪv ˈɪmɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company worked hard to build a positive image.",
+          "vi": "Công ty nỗ lực xây dựng một hình ảnh tích cực."
+        },
+        {
+          "en": "Advertising aims to create a positive image of the brand.",
+          "vi": "Quảng cáo nhằm tạo một hình ảnh tích cực về thương hiệu."
+        },
+        {
+          "en": "The city promotes a positive image to attract tourists.",
+          "vi": "Thành phố quảng bá một hình ảnh tích cực để thu hút du khách."
+        }
+      ]
+    },
+    {
+      "english": "positive impact",
+      "vietnamese": "ảnh hưởng tích cực",
+      "ipa": "/ˈpɑːzətɪv ˈɪmpækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Volunteering can have a positive impact on the community.",
+          "vi": "Tình nguyện có thể có ảnh hưởng tích cực đến cộng đồng."
+        },
+        {
+          "en": "The program had a positive impact on student grades.",
+          "vi": "Chương trình có ảnh hưởng tích cực đến điểm số của học sinh."
+        },
+        {
+          "en": "Clean energy has a positive impact on the environment.",
+          "vi": "Năng lượng sạch có ảnh hưởng tích cực đến môi trường."
+        }
+      ]
+    },
+    {
+      "english": "positive influence",
+      "vietnamese": "ảnh hưởng tích cực (sự tác động tốt)",
+      "ipa": "/ˈpɑːzətɪv ˈɪnfluəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A good mentor can be a positive influence on young people.",
+          "vi": "Một người cố vấn tốt có thể là ảnh hưởng tích cực với giới trẻ."
+        },
+        {
+          "en": "Her teacher had a lasting positive influence on her career.",
+          "vi": "Giáo viên của cô có ảnh hưởng tích cực lâu dài đến sự nghiệp."
+        },
+        {
+          "en": "Reading widely had a positive influence on his thinking.",
+          "vi": "Đọc nhiều có ảnh hưởng tích cực đến tư duy của anh."
+        }
+      ]
+    },
+    {
+      "english": "positive outcome",
+      "vietnamese": "kết quả tích cực",
+      "ipa": "/ˈpɑːzətɪv ˈaʊtkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Early treatment increases the chance of a positive outcome.",
+          "vi": "Điều trị sớm tăng cơ hội có một kết quả tích cực."
+        },
+        {
+          "en": "The negotiations led to a positive outcome for both sides.",
+          "vi": "Các cuộc đàm phán dẫn đến kết quả tích cực cho cả hai bên."
+        },
+        {
+          "en": "Researchers hoped for a positive outcome from the trial.",
+          "vi": "Các nhà nghiên cứu hy vọng có kết quả tích cực từ thử nghiệm."
+        }
+      ]
+    },
+    {
+      "english": "positive relationship",
+      "vietnamese": "mối quan hệ tích cực (tương quan thuận)",
+      "ipa": "/ˈpɑːzətɪv rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The data show a positive relationship between study time and grades.",
+          "vi": "Dữ liệu cho thấy mối quan hệ thuận giữa thời gian học và điểm số."
+        },
+        {
+          "en": "Teachers build a positive relationship with their students.",
+          "vi": "Giáo viên xây dựng mối quan hệ tích cực với học sinh."
+        },
+        {
+          "en": "A positive relationship with clients improves business results.",
+          "vi": "Mối quan hệ tích cực với khách hàng cải thiện kết quả kinh doanh."
+        }
+      ]
+    },
+    {
+      "english": "positive result",
+      "vietnamese": "kết quả tích cực",
+      "ipa": "/ˈpɑːzətɪv rɪˈzʌlt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experiment produced a clear positive result.",
+          "vi": "Thí nghiệm tạo ra một kết quả tích cực rõ ràng."
+        },
+        {
+          "en": "A positive result confirmed the team's hypothesis.",
+          "vi": "Một kết quả tích cực xác nhận giả thuyết của nhóm."
+        },
+        {
+          "en": "The treatment showed a positive result within weeks.",
+          "vi": "Phương pháp điều trị cho kết quả tích cực trong vài tuần."
+        }
+      ]
+    },
+    {
+      "english": "positive value",
+      "vietnamese": "giá trị dương (giá trị tích cực)",
+      "ipa": "/ˈpɑːzətɪv ˈvæljuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The function returns a positive value for all valid inputs.",
+          "vi": "Hàm trả về một giá trị dương cho mọi đầu vào hợp lệ."
+        },
+        {
+          "en": "A positive value indicates growth over the period.",
+          "vi": "Một giá trị dương cho thấy sự tăng trưởng trong giai đoạn đó."
+        },
+        {
+          "en": "Education holds a positive value in every society.",
+          "vi": "Giáo dục mang một giá trị tích cực trong mọi xã hội."
+        }
+      ]
+    },
+    {
+      "english": "positive view",
+      "vietnamese": "quan điểm tích cực",
+      "ipa": "/ˈpɑːzətɪv vjuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Most respondents held a positive view of the changes.",
+          "vi": "Hầu hết người trả lời có quan điểm tích cực về những thay đổi."
+        },
+        {
+          "en": "She maintained a positive view despite the criticism.",
+          "vi": "Cô giữ một quan điểm tích cực dù bị chỉ trích."
+        },
+        {
+          "en": "The author takes a positive view of technological progress.",
+          "vi": "Tác giả có quan điểm tích cực về tiến bộ công nghệ."
+        }
+      ]
+    },
+    {
+      "english": "positively associated with",
+      "vietnamese": "có liên hệ thuận với",
+      "ipa": "/ˈpɑːzətɪvli əˈsoʊʃieɪtɪd wɪð/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Higher income is positively associated with better health.",
+          "vi": "Thu nhập cao hơn có liên hệ thuận với sức khỏe tốt hơn."
+        },
+        {
+          "en": "Sleep quality was positively associated with concentration.",
+          "vi": "Chất lượng giấc ngủ có liên hệ thuận với khả năng tập trung."
+        },
+        {
+          "en": "Reading habits are positively associated with vocabulary size.",
+          "vi": "Thói quen đọc có liên hệ thuận với vốn từ vựng."
+        }
+      ]
+    }
+  ]
+}

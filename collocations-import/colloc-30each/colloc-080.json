@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 80/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 80/83"
+  },
+  "cards": [
+    {
+      "english": "use resources",
+      "vietnamese": "sử dụng nguồn lực",
+      "ipa": "/juːz ˈriːsɔːrsɪz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Sustainable companies use resources without harming the environment.",
+          "vi": "Các công ty bền vững sử dụng nguồn lực mà không gây hại cho môi trường."
+        },
+        {
+          "en": "We must use resources wisely during the budget shortfall.",
+          "vi": "Chúng ta phải sử dụng nguồn lực một cách khôn ngoan trong lúc thiếu hụt ngân sách."
+        },
+        {
+          "en": "The project taught students to use resources more efficiently.",
+          "vi": "Dự án dạy sinh viên sử dụng nguồn lực hiệu quả hơn."
+        }
+      ]
+    },
+    {
+      "english": "use sparingly",
+      "vietnamese": "sử dụng dè sẻn",
+      "ipa": "/juːz ˈsperɪŋli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Writers should use sparingly long and complicated technical terms.",
+          "vi": "Người viết nên sử dụng dè sẻn những thuật ngữ kỹ thuật dài và phức tạp."
+        },
+        {
+          "en": "During the drought, families were told to use water sparingly.",
+          "vi": "Trong hạn hán, các gia đình được khuyên sử dụng nước dè sẻn."
+        },
+        {
+          "en": "Good designers use bright colors sparingly for emphasis.",
+          "vi": "Những nhà thiết kế giỏi sử dụng màu sắc rực rỡ dè sẻn để nhấn mạnh."
+        }
+      ]
+    },
+    {
+      "english": "use statistics",
+      "vietnamese": "sử dụng số liệu thống kê",
+      "ipa": "/juːz stəˈtɪstɪks/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Economists use statistics to track changes in the labor market.",
+          "vi": "Các nhà kinh tế sử dụng số liệu thống kê để theo dõi thay đổi trên thị trường lao động."
+        },
+        {
+          "en": "The article uses statistics to support its main argument.",
+          "vi": "Bài báo sử dụng số liệu thống kê để củng cố lập luận chính của nó."
+        },
+        {
+          "en": "Be careful when you use statistics from unreliable sources.",
+          "vi": "Hãy cẩn thận khi bạn sử dụng số liệu thống kê từ những nguồn không đáng tin."
+        }
+      ]
+    },
+    {
+      "english": "use a format",
+      "vietnamese": "sử dụng một định dạng",
+      "ipa": "/juːz ə ˈfɔːrmæt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Please use a format that all team members can open.",
+          "vi": "Vui lòng sử dụng một định dạng mà mọi thành viên trong nhóm có thể mở."
+        },
+        {
+          "en": "Academic journals require authors to use a strict format.",
+          "vi": "Các tạp chí học thuật yêu cầu tác giả sử dụng một định dạng nghiêm ngặt."
+        },
+        {
+          "en": "The slides use a clear format that aids understanding.",
+          "vi": "Các slide sử dụng một định dạng rõ ràng giúp dễ hiểu hơn."
+        }
+      ]
+    },
+    {
+      "english": "use a method",
+      "vietnamese": "sử dụng một phương pháp",
+      "ipa": "/juːz ə ˈmeθəd/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The researchers use a method that reduces measurement errors.",
+          "vi": "Các nhà nghiên cứu sử dụng một phương pháp giúp giảm sai số đo lường."
+        },
+        {
+          "en": "We chose to use a method tested in earlier studies.",
+          "vi": "Chúng tôi chọn sử dụng một phương pháp đã được kiểm chứng ở các nghiên cứu trước."
+        },
+        {
+          "en": "Teachers often use a method suited to younger learners.",
+          "vi": "Giáo viên thường sử dụng một phương pháp phù hợp với người học nhỏ tuổi."
+        }
+      ]
+    },
+    {
+      "english": "use a methodology",
+      "vietnamese": "sử dụng một phương pháp luận",
+      "ipa": "/juːz ə ˌmeθəˈdɑːlədʒi/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The thesis uses a methodology common in social research.",
+          "vi": "Luận văn sử dụng một phương pháp luận phổ biến trong nghiên cứu xã hội."
+        },
+        {
+          "en": "They chose to use a methodology that combines surveys and interviews.",
+          "vi": "Họ chọn sử dụng một phương pháp luận kết hợp khảo sát và phỏng vấn."
+        },
+        {
+          "en": "Authors must clearly explain why they use a methodology.",
+          "vi": "Tác giả phải giải thích rõ vì sao họ sử dụng một phương pháp luận."
+        }
+      ]
+    },
+    {
+      "english": "use a procedure",
+      "vietnamese": "sử dụng một quy trình",
+      "ipa": "/juːz ə prəˈsiːdʒər/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The lab uses a procedure designed to keep samples sterile.",
+          "vi": "Phòng thí nghiệm sử dụng một quy trình được thiết kế để giữ mẫu vô trùng."
+        },
+        {
+          "en": "We use a procedure that anyone can repeat exactly.",
+          "vi": "Chúng tôi sử dụng một quy trình mà bất kỳ ai cũng có thể lặp lại chính xác."
+        },
+        {
+          "en": "Hospitals must use a procedure approved by safety regulators.",
+          "vi": "Các bệnh viện phải sử dụng một quy trình được cơ quan an toàn phê duyệt."
+        }
+      ]
+    },
+    {
+      "english": "use a source",
+      "vietnamese": "sử dụng một nguồn",
+      "ipa": "/juːz ə sɔːrs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Always use a source you can cite and verify.",
+          "vi": "Hãy luôn sử dụng một nguồn mà bạn có thể trích dẫn và kiểm chứng."
+        },
+        {
+          "en": "Students must not use a source without proper acknowledgment.",
+          "vi": "Sinh viên không được sử dụng một nguồn mà không ghi nhận đúng cách."
+        },
+        {
+          "en": "The essay uses a source from a respected academic journal.",
+          "vi": "Bài luận sử dụng một nguồn từ một tạp chí học thuật uy tín."
+        }
+      ]
+    },
+    {
+      "english": "use a strategy",
+      "vietnamese": "sử dụng một chiến lược",
+      "ipa": "/juːz ə ˈstrætədʒi/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The company will use a strategy focused on online sales.",
+          "vi": "Công ty sẽ sử dụng một chiến lược tập trung vào bán hàng trực tuyến."
+        },
+        {
+          "en": "Good students use a strategy to manage exam stress.",
+          "vi": "Học sinh giỏi sử dụng một chiến lược để quản lý căng thẳng khi thi."
+        },
+        {
+          "en": "The coach decided to use a strategy that suits younger players.",
+          "vi": "Huấn luyện viên quyết định sử dụng một chiến lược phù hợp với cầu thủ trẻ."
+        }
+      ]
+    },
+    {
+      "english": "use a technique",
+      "vietnamese": "sử dụng một kỹ thuật",
+      "ipa": "/juːz ə tekˈniːk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Surgeons use a technique that shortens recovery time.",
+          "vi": "Bác sĩ phẫu thuật sử dụng một kỹ thuật giúp rút ngắn thời gian hồi phục."
+        },
+        {
+          "en": "The artist uses a technique borrowed from old masters.",
+          "vi": "Người nghệ sĩ sử dụng một kỹ thuật học từ các bậc thầy xưa."
+        },
+        {
+          "en": "We use a technique that improves the accuracy of measurements.",
+          "vi": "Chúng tôi sử dụng một kỹ thuật giúp cải thiện độ chính xác của phép đo."
+        }
+      ]
+    },
+    {
+      "english": "use a theory",
+      "vietnamese": "vận dụng một lý thuyết",
+      "ipa": "/juːz ə ˈθiːəri/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The paper uses a theory developed in cognitive science.",
+          "vi": "Bài báo vận dụng một lý thuyết được phát triển trong khoa học nhận thức."
+        },
+        {
+          "en": "She decided to use a theory that explains group behavior.",
+          "vi": "Cô quyết định vận dụng một lý thuyết giải thích hành vi nhóm."
+        },
+        {
+          "en": "Good analysts use a theory to interpret their data.",
+          "vi": "Những nhà phân tích giỏi vận dụng một lý thuyết để diễn giải dữ liệu của họ."
+        }
+      ]
+    },
+    {
+      "english": "use an analysis",
+      "vietnamese": "sử dụng một phân tích",
+      "ipa": "/juːz ən əˈnæləsɪs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The report uses an analysis of ten years of sales data.",
+          "vi": "Báo cáo sử dụng một phân tích dữ liệu bán hàng trong mười năm."
+        },
+        {
+          "en": "We use an analysis that compares both groups directly.",
+          "vi": "Chúng tôi sử dụng một phân tích so sánh trực tiếp cả hai nhóm."
+        },
+        {
+          "en": "Planners use an analysis of traffic flow to design roads.",
+          "vi": "Các nhà quy hoạch sử dụng một phân tích lưu lượng giao thông để thiết kế đường."
+        }
+      ]
+    },
+    {
+      "english": "use an approach",
+      "vietnamese": "sử dụng một cách tiếp cận",
+      "ipa": "/juːz ən əˈproʊtʃ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The teacher uses an approach that engages every student.",
+          "vi": "Giáo viên sử dụng một cách tiếp cận thu hút mọi học sinh."
+        },
+        {
+          "en": "We decided to use an approach based on real examples.",
+          "vi": "Chúng tôi quyết định sử dụng một cách tiếp cận dựa trên ví dụ thực tế."
+        },
+        {
+          "en": "Therapists often use an approach tailored to each patient.",
+          "vi": "Các nhà trị liệu thường sử dụng một cách tiếp cận riêng cho từng bệnh nhân."
+        }
+      ]
+    },
+    {
+      "english": "use an definition",
+      "vietnamese": "sử dụng một định nghĩa",
+      "ipa": "/juːz ən ˌdefɪˈnɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The study uses an definition of poverty set by the agency.",
+          "vi": "Nghiên cứu sử dụng một định nghĩa về nghèo do cơ quan này đặt ra."
+        },
+        {
+          "en": "Researchers must use an definition that others can apply consistently.",
+          "vi": "Các nhà nghiên cứu phải sử dụng một định nghĩa mà người khác có thể áp dụng nhất quán."
+        },
+        {
+          "en": "We use an definition broad enough to cover both cases.",
+          "vi": "Chúng tôi sử dụng một định nghĩa đủ rộng để bao quát cả hai trường hợp."
+        }
+      ]
+    },
+    {
+      "english": "use the concept",
+      "vietnamese": "vận dụng khái niệm",
+      "ipa": "/juːz ðə ˈkɑːnsept/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The author uses the concept of identity throughout the book.",
+          "vi": "Tác giả vận dụng khái niệm bản sắc xuyên suốt cuốn sách."
+        },
+        {
+          "en": "We use the concept to explain why prices vary.",
+          "vi": "Chúng tôi vận dụng khái niệm này để giải thích vì sao giá cả biến động."
+        },
+        {
+          "en": "Economists use the concept of supply and demand daily.",
+          "vi": "Các nhà kinh tế vận dụng khái niệm cung và cầu hằng ngày."
+        }
+      ]
+    },
+    {
+      "english": "use the data",
+      "vietnamese": "sử dụng dữ liệu",
+      "ipa": "/juːz ðə ˈdeɪtə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Researchers use the data to test their main hypothesis.",
+          "vi": "Các nhà nghiên cứu sử dụng dữ liệu để kiểm chứng giả thuyết chính của họ."
+        },
+        {
+          "en": "The company will use the data to improve its service.",
+          "vi": "Công ty sẽ sử dụng dữ liệu để cải thiện dịch vụ của mình."
+        },
+        {
+          "en": "We must use the data carefully to avoid wrong conclusions.",
+          "vi": "Chúng ta phải sử dụng dữ liệu cẩn thận để tránh kết luận sai."
+        }
+      ]
+    },
+    {
+      "english": "useful information",
+      "vietnamese": "thông tin hữu ích",
+      "ipa": "/ˈjuːsfəl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey gathered useful information about students' study habits.",
+          "vi": "Cuộc khảo sát thu thập thông tin hữu ích về thói quen học tập của sinh viên."
+        },
+        {
+          "en": "This website provides useful information for first-year university applicants.",
+          "vi": "Trang web này cung cấp thông tin hữu ích cho thí sinh năm nhất đại học."
+        },
+        {
+          "en": "Interviews can yield useful information that questionnaires often miss.",
+          "vi": "Phỏng vấn có thể mang lại thông tin hữu ích mà bảng hỏi thường bỏ sót."
+        }
+      ]
+    },
+    {
+      "english": "useful material",
+      "vietnamese": "tài liệu hữu ích",
+      "ipa": "/ˈjuːsfəl məˈtɪriəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The library offers useful material for writing research papers.",
+          "vi": "Thư viện cung cấp tài liệu hữu ích để viết bài nghiên cứu."
+        },
+        {
+          "en": "She collected useful material before drafting her thesis introduction.",
+          "vi": "Cô ấy thu thập tài liệu hữu ích trước khi viết phần mở đầu luận văn."
+        },
+        {
+          "en": "Teachers shared useful material to help students prepare for exams.",
+          "vi": "Giáo viên chia sẻ tài liệu hữu ích giúp học sinh ôn thi."
+        }
+      ]
+    },
+    {
+      "english": "useful means",
+      "vietnamese": "phương tiện hữu ích",
+      "ipa": "/ˈjuːsfəl miːnz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Surveys are a useful means of measuring public opinion accurately.",
+          "vi": "Khảo sát là một phương tiện hữu ích để đo lường dư luận chính xác."
+        },
+        {
+          "en": "Email remains a useful means of communication in academic settings.",
+          "vi": "Email vẫn là phương tiện liên lạc hữu ích trong môi trường học thuật."
+        },
+        {
+          "en": "Graphs provide a useful means of presenting complex data clearly.",
+          "vi": "Biểu đồ là phương tiện hữu ích để trình bày dữ liệu phức tạp rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "useful source",
+      "vietnamese": "nguồn hữu ích",
+      "ipa": "/ˈjuːsfəl sɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Academic journals are a useful source of reliable evidence.",
+          "vi": "Tạp chí học thuật là nguồn hữu ích cung cấp bằng chứng đáng tin cậy."
+        },
+        {
+          "en": "The internet can be a useful source if used critically.",
+          "vi": "Internet có thể là nguồn hữu ích nếu được dùng một cách phê phán."
+        },
+        {
+          "en": "Government reports proved a useful source for the analysis.",
+          "vi": "Các báo cáo của chính phủ là nguồn hữu ích cho phần phân tích."
+        }
+      ]
+    },
+    {
+      "english": "useful summary",
+      "vietnamese": "bản tóm tắt hữu ích",
+      "ipa": "/ˈjuːsfəl ˈsʌməri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The chapter ends with a useful summary of key points.",
+          "vi": "Chương sách kết thúc bằng một bản tóm tắt hữu ích các ý chính."
+        },
+        {
+          "en": "She wrote a useful summary to revise before the test.",
+          "vi": "Cô ấy viết một bản tóm tắt hữu ích để ôn tập trước bài kiểm tra."
+        },
+        {
+          "en": "A useful summary helps readers grasp the article quickly.",
+          "vi": "Một bản tóm tắt hữu ích giúp người đọc nắm bài viết nhanh chóng."
+        }
+      ]
+    },
+    {
+      "english": "useful tool",
+      "vietnamese": "công cụ hữu ích",
+      "ipa": "/ˈjuːsfəl tuːl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Spreadsheets are a useful tool for organizing research data.",
+          "vi": "Bảng tính là công cụ hữu ích để sắp xếp dữ liệu nghiên cứu."
+        },
+        {
+          "en": "Mind maps can be a useful tool when planning essays.",
+          "vi": "Sơ đồ tư duy có thể là công cụ hữu ích khi lên dàn ý bài luận."
+        },
+        {
+          "en": "Statistical software is a useful tool for analyzing large datasets.",
+          "vi": "Phần mềm thống kê là công cụ hữu ích để phân tích tập dữ liệu lớn."
+        }
+      ]
+    },
+    {
+      "english": "valid argument",
+      "vietnamese": "lập luận hợp lý",
+      "ipa": "/ˈvælɪd ˈɑːrgjəmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She presented a valid argument supported by strong evidence.",
+          "vi": "Cô ấy đưa ra một lập luận hợp lý được hỗ trợ bằng bằng chứng vững chắc."
+        },
+        {
+          "en": "A valid argument must follow logically from its premises.",
+          "vi": "Một lập luận hợp lý phải suy ra logic từ các tiền đề của nó."
+        },
+        {
+          "en": "The essay builds a valid argument against unrestricted social media.",
+          "vi": "Bài luận xây dựng một lập luận hợp lý chống lại mạng xã hội không giới hạn."
+        }
+      ]
+    },
+    {
+      "english": "valuable information",
+      "vietnamese": "thông tin quý giá",
+      "ipa": "/ˈvæljəbəl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experiment produced valuable information about the chemical reaction.",
+          "vi": "Thí nghiệm tạo ra thông tin quý giá về phản ứng hóa học."
+        },
+        {
+          "en": "Patients provided valuable information that improved the treatment plan.",
+          "vi": "Bệnh nhân cung cấp thông tin quý giá giúp cải thiện phác đồ điều trị."
+        },
+        {
+          "en": "Field notes often contain valuable information for later analysis.",
+          "vi": "Ghi chép thực địa thường chứa thông tin quý giá cho phân tích sau này."
+        }
+      ]
+    },
+    {
+      "english": "valuable resources",
+      "vietnamese": "nguồn lực quý giá",
+      "ipa": "/ˈvæljəbəl ˈriːsɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The project wasted valuable resources on poorly planned activities.",
+          "vi": "Dự án lãng phí nguồn lực quý giá vào những hoạt động lập kế hoạch kém."
+        },
+        {
+          "en": "Forests are valuable resources that must be protected carefully.",
+          "vi": "Rừng là nguồn lực quý giá cần được bảo vệ cẩn thận."
+        },
+        {
+          "en": "Libraries offer valuable resources for independent academic research.",
+          "vi": "Thư viện cung cấp nguồn lực quý giá cho nghiên cứu học thuật độc lập."
+        }
+      ]
+    },
+    {
+      "english": "various aspects",
+      "vietnamese": "nhiều khía cạnh khác nhau",
+      "ipa": "/ˈveriəs ˈæspekts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course examines various aspects of modern economic theory.",
+          "vi": "Khóa học xem xét nhiều khía cạnh khác nhau của lý thuyết kinh tế hiện đại."
+        },
+        {
+          "en": "Her study explored various aspects of childhood language development.",
+          "vi": "Nghiên cứu của cô khám phá nhiều khía cạnh của sự phát triển ngôn ngữ trẻ em."
+        },
+        {
+          "en": "We discussed various aspects of the problem before deciding.",
+          "vi": "Chúng tôi thảo luận nhiều khía cạnh của vấn đề trước khi quyết định."
+        }
+      ]
+    },
+    {
+      "english": "vary considerably",
+      "vietnamese": "thay đổi đáng kể",
+      "ipa": "/ˈveri kənˈsɪdərəbli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Prices vary considerably depending on the season and location.",
+          "vi": "Giá cả thay đổi đáng kể tùy theo mùa và địa điểm."
+        },
+        {
+          "en": "Test results vary considerably between the two student groups.",
+          "vi": "Kết quả kiểm tra thay đổi đáng kể giữa hai nhóm sinh viên."
+        },
+        {
+          "en": "Opinions on the policy vary considerably across different regions.",
+          "vi": "Ý kiến về chính sách thay đổi đáng kể giữa các khu vực khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "vary greatly",
+      "vietnamese": "thay đổi rất nhiều",
+      "ipa": "/ˈveri ˈgreɪtli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Living costs vary greatly from one city to another.",
+          "vi": "Chi phí sinh hoạt thay đổi rất nhiều từ thành phố này sang thành phố khác."
+        },
+        {
+          "en": "Students' learning styles vary greatly within a single classroom.",
+          "vi": "Phong cách học của học sinh thay đổi rất nhiều trong cùng một lớp."
+        },
+        {
+          "en": "The quality of online courses can vary greatly nowadays.",
+          "vi": "Chất lượng các khóa học trực tuyến ngày nay có thể thay đổi rất nhiều."
+        }
+      ]
+    },
+    {
+      "english": "vary significantly",
+      "vietnamese": "thay đổi rõ rệt",
+      "ipa": "/ˈveri sɪgˈnɪfɪkəntli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Wages vary significantly across industries and levels of experience.",
+          "vi": "Tiền lương thay đổi rõ rệt giữa các ngành và mức kinh nghiệm."
+        },
+        {
+          "en": "The findings vary significantly depending on the research method used.",
+          "vi": "Kết quả thay đổi rõ rệt tùy thuộc vào phương pháp nghiên cứu được dùng."
+        },
+        {
+          "en": "Temperatures vary significantly between the coastal and inland areas.",
+          "vi": "Nhiệt độ thay đổi rõ rệt giữa khu vực ven biển và nội địa."
+        }
+      ]
+    },
+    {
+      "english": "vary widely",
+      "vietnamese": "thay đổi rất khác nhau",
+      "ipa": "/ˈveri ˈwaɪdli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Cultural attitudes toward time vary widely around the world.",
+          "vi": "Quan niệm văn hóa về thời gian thay đổi rất khác nhau trên thế giới."
+        },
+        {
+          "en": "Estimates of the population vary widely among different sources.",
+          "vi": "Ước tính dân số thay đổi rất khác nhau giữa các nguồn."
+        },
+        {
+          "en": "The prices of textbooks vary widely between online retailers.",
+          "vi": "Giá sách giáo khoa thay đổi rất khác nhau giữa các nhà bán lẻ trực tuyến."
+        }
+      ]
+    }
+  ]
+}

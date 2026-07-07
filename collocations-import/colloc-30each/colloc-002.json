@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 02/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 02/83"
+  },
+  "cards": [
+    {
+      "english": "achieve an outcome",
+      "vietnamese": "đạt được kết quả",
+      "ipa": "/əˈtʃiːv ən ˈaʊtkʌm/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The new method helped achieve a better outcome.",
+          "vi": "Phương pháp mới giúp đạt được kết quả tốt hơn."
+        },
+        {
+          "en": "Careful treatment can achieve a positive outcome.",
+          "vi": "Điều trị cẩn thận có thể đạt được kết quả tích cực."
+        },
+        {
+          "en": "Both sides worked to achieve a fair outcome.",
+          "vi": "Cả hai bên nỗ lực để đạt được một kết quả công bằng."
+        }
+      ]
+    },
+    {
+      "english": "acquire knowledge",
+      "vietnamese": "thu nhận, tích lũy kiến thức",
+      "ipa": "/əˈkwaɪər ˈnɑːlɪdʒ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Students acquire knowledge through reading and practice.",
+          "vi": "Sinh viên thu nhận kiến thức qua việc đọc và thực hành."
+        },
+        {
+          "en": "Travel helps people acquire knowledge of other cultures.",
+          "vi": "Du lịch giúp con người thu nhận kiến thức về các nền văn hóa khác."
+        },
+        {
+          "en": "We acquire knowledge gradually over many years.",
+          "vi": "Chúng ta tích lũy kiến thức dần dần qua nhiều năm."
+        }
+      ]
+    },
+    {
+      "english": "active involvement",
+      "vietnamese": "sự tham gia tích cực",
+      "ipa": "/ˈæktɪv ɪnˈvɑːlvmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her active involvement in the project improved its outcome.",
+          "vi": "Sự tham gia tích cực của cô vào dự án đã cải thiện kết quả."
+        },
+        {
+          "en": "The course rewards active involvement in class discussions.",
+          "vi": "Khóa học khuyến khích sự tham gia tích cực vào các buổi thảo luận trên lớp."
+        },
+        {
+          "en": "Active involvement from parents supports student learning.",
+          "vi": "Sự tham gia tích cực của phụ huynh hỗ trợ việc học của học sinh."
+        }
+      ]
+    },
+    {
+      "english": "active participant",
+      "vietnamese": "người tham gia tích cực",
+      "ipa": "/ˈæktɪv pɑːrˈtɪsəpənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She was an active participant in the debate.",
+          "vi": "Cô là một người tham gia tích cực trong cuộc tranh luận."
+        },
+        {
+          "en": "Every active participant received a certificate.",
+          "vi": "Mỗi người tham gia tích cực đều nhận được giấy chứng nhận."
+        },
+        {
+          "en": "He became an active participant in community projects.",
+          "vi": "Anh trở thành người tham gia tích cực trong các dự án cộng đồng."
+        }
+      ]
+    },
+    {
+      "english": "active participation",
+      "vietnamese": "sự tham gia tích cực",
+      "ipa": "/ˈæktɪv pɑːrˌtɪsəˈpeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The class encourages active participation from everyone.",
+          "vi": "Lớp học khuyến khích sự tham gia tích cực từ mọi người."
+        },
+        {
+          "en": "Active participation improves language learning.",
+          "vi": "Sự tham gia tích cực giúp cải thiện việc học ngôn ngữ."
+        },
+        {
+          "en": "Grades partly depend on active participation.",
+          "vi": "Điểm số một phần phụ thuộc vào sự tham gia tích cực."
+        }
+      ]
+    },
+    {
+      "english": "active role",
+      "vietnamese": "vai trò tích cực, chủ động",
+      "ipa": "/ˈæktɪv roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Teachers play an active role in students' development.",
+          "vi": "Giáo viên giữ vai trò tích cực trong sự phát triển của học sinh."
+        },
+        {
+          "en": "She took an active role in organizing the event.",
+          "vi": "Cô đảm nhận vai trò chủ động trong việc tổ chức sự kiện."
+        },
+        {
+          "en": "Citizens can play an active role in local politics.",
+          "vi": "Người dân có thể đóng vai trò tích cực trong chính trị địa phương."
+        }
+      ]
+    },
+    {
+      "english": "actively involved",
+      "vietnamese": "tham gia tích cực, chủ động",
+      "ipa": "/ˈæktɪvli ɪnˈvɑːlvd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Parents who are actively involved help their children succeed.",
+          "vi": "Phụ huynh tham gia tích cực sẽ giúp con cái thành công."
+        },
+        {
+          "en": "She is actively involved in several research projects.",
+          "vi": "Cô tham gia tích cực vào nhiều dự án nghiên cứu."
+        },
+        {
+          "en": "Students should be actively involved in their own learning.",
+          "vi": "Học sinh nên chủ động tham gia vào việc học của chính mình."
+        }
+      ]
+    },
+    {
+      "english": "acutely aware",
+      "vietnamese": "ý thức rõ rệt, sâu sắc",
+      "ipa": "/əˈkjuːtli əˈwer/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "She is acutely aware of the risks involved.",
+          "vi": "Cô ý thức rõ rệt về những rủi ro liên quan."
+        },
+        {
+          "en": "The company is acutely aware of customer needs.",
+          "vi": "Công ty nhận thức sâu sắc về nhu cầu của khách hàng."
+        },
+        {
+          "en": "He became acutely aware of his own mistakes.",
+          "vi": "Anh trở nên ý thức sâu sắc về những lỗi của bản thân."
+        }
+      ]
+    },
+    {
+      "english": "add information",
+      "vietnamese": "bổ sung thông tin",
+      "ipa": "/æd ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Please add information about your previous experience.",
+          "vi": "Vui lòng bổ sung thông tin về kinh nghiệm trước đây của bạn."
+        },
+        {
+          "en": "The editor asked her to add information to the report.",
+          "vi": "Biên tập viên yêu cầu cô bổ sung thông tin vào báo cáo."
+        },
+        {
+          "en": "You can add information to the form at any time.",
+          "vi": "Bạn có thể bổ sung thông tin vào biểu mẫu bất cứ lúc nào."
+        }
+      ]
+    },
+    {
+      "english": "additional cost",
+      "vietnamese": "chi phí phát sinh, chi phí thêm",
+      "ipa": "/əˈdɪʃənəl kɔːst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Shipping may involve an additional cost.",
+          "vi": "Việc vận chuyển có thể phát sinh thêm chi phí."
+        },
+        {
+          "en": "There is no additional cost for this service.",
+          "vi": "Dịch vụ này không có chi phí phát sinh."
+        },
+        {
+          "en": "The repair came at a significant additional cost.",
+          "vi": "Việc sửa chữa tốn một khoản chi phí phát sinh đáng kể."
+        }
+      ]
+    },
+    {
+      "english": "additional information",
+      "vietnamese": "thông tin bổ sung",
+      "ipa": "/əˈdɪʃənəl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Please contact us for additional information.",
+          "vi": "Vui lòng liên hệ với chúng tôi để biết thêm thông tin."
+        },
+        {
+          "en": "The appendix provides additional information on the method.",
+          "vi": "Phần phụ lục cung cấp thông tin bổ sung về phương pháp."
+        },
+        {
+          "en": "She requested additional information before deciding.",
+          "vi": "Cô yêu cầu thông tin bổ sung trước khi quyết định."
+        }
+      ]
+    },
+    {
+      "english": "additional problem",
+      "vietnamese": "vấn đề phát sinh thêm",
+      "ipa": "/əˈdɪʃənəl ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The delay created an additional problem for the team.",
+          "vi": "Sự chậm trễ tạo ra một vấn đề phát sinh thêm cho nhóm."
+        },
+        {
+          "en": "Bad weather added an additional problem to the trip.",
+          "vi": "Thời tiết xấu làm phát sinh thêm một vấn đề cho chuyến đi."
+        },
+        {
+          "en": "We solved one issue but faced an additional problem.",
+          "vi": "Chúng tôi giải quyết được một việc nhưng lại gặp thêm một vấn đề."
+        }
+      ]
+    },
+    {
+      "english": "additional resources",
+      "vietnamese": "nguồn lực bổ sung, tài nguyên thêm",
+      "ipa": "/əˈdɪʃənəl ˈriːsɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The school requested additional resources for the lab.",
+          "vi": "Nhà trường đề nghị cấp thêm nguồn lực cho phòng thí nghiệm."
+        },
+        {
+          "en": "Additional resources are needed to finish the project.",
+          "vi": "Cần thêm nguồn lực để hoàn thành dự án."
+        },
+        {
+          "en": "Teachers shared additional resources with the students.",
+          "vi": "Giáo viên chia sẻ thêm tài nguyên cho học sinh."
+        }
+      ]
+    },
+    {
+      "english": "additional support",
+      "vietnamese": "hỗ trợ thêm",
+      "ipa": "/əˈdɪʃənəl səˈpɔːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Struggling students receive additional support after class.",
+          "vi": "Học sinh gặp khó khăn được hỗ trợ thêm sau giờ học."
+        },
+        {
+          "en": "The government promised additional support for farmers.",
+          "vi": "Chính phủ cam kết hỗ trợ thêm cho nông dân."
+        },
+        {
+          "en": "She needed additional support to meet the deadline.",
+          "vi": "Cô cần được hỗ trợ thêm để kịp hạn chót."
+        }
+      ]
+    },
+    {
+      "english": "address an issue",
+      "vietnamese": "giải quyết vấn đề",
+      "ipa": "/əˈdres ən ˈɪʃuː/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The meeting was held to address the issue of safety.",
+          "vi": "Cuộc họp được tổ chức để giải quyết vấn đề an toàn."
+        },
+        {
+          "en": "We must address this issue before it gets worse.",
+          "vi": "Chúng ta phải giải quyết vấn đề này trước khi nó tệ hơn."
+        },
+        {
+          "en": "The policy fails to address the real issue.",
+          "vi": "Chính sách này không giải quyết được vấn đề cốt lõi."
+        }
+      ]
+    },
+    {
+      "english": "administrative practices",
+      "vietnamese": "thông lệ, quy trình hành chính",
+      "ipa": "/ədˈmɪnəstreɪtɪv ˈpræktɪsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company reviewed its administrative practices.",
+          "vi": "Công ty rà soát lại các quy trình hành chính của mình."
+        },
+        {
+          "en": "Poor administrative practices slowed the whole process.",
+          "vi": "Quy trình hành chính kém làm chậm toàn bộ tiến trình."
+        },
+        {
+          "en": "New software improved their administrative practices.",
+          "vi": "Phần mềm mới cải thiện các thông lệ hành chính của họ."
+        }
+      ]
+    },
+    {
+      "english": "adopt a procedure",
+      "vietnamese": "áp dụng quy trình",
+      "ipa": "/əˈdɑːpt ə prəˈsiːdʒər/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The hospital decided to adopt a new procedure.",
+          "vi": "Bệnh viện quyết định áp dụng một quy trình mới."
+        },
+        {
+          "en": "Staff were trained to adopt the safety procedure.",
+          "vi": "Nhân viên được đào tạo để áp dụng quy trình an toàn."
+        },
+        {
+          "en": "Many firms adopt the same procedure for hiring.",
+          "vi": "Nhiều công ty áp dụng cùng một quy trình tuyển dụng."
+        }
+      ]
+    },
+    {
+      "english": "adopt an approach",
+      "vietnamese": "áp dụng cách tiếp cận",
+      "ipa": "/əˈdɑːpt ən əˈproʊtʃ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Researchers decided to adopt a different approach.",
+          "vi": "Các nhà nghiên cứu quyết định áp dụng một cách tiếp cận khác."
+        },
+        {
+          "en": "The teacher adopts a flexible approach to learning.",
+          "vi": "Giáo viên áp dụng một cách tiếp cận linh hoạt cho việc học."
+        },
+        {
+          "en": "We should adopt a more practical approach.",
+          "vi": "Chúng ta nên áp dụng một cách tiếp cận thực tế hơn."
+        }
+      ]
+    },
+    {
+      "english": "advanced economy",
+      "vietnamese": "nền kinh tế phát triển",
+      "ipa": "/ədˈvænst ɪˈkɑːnəmi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Japan is often cited as an advanced economy.",
+          "vi": "Nhật Bản thường được xem là một nền kinh tế phát triển."
+        },
+        {
+          "en": "An advanced economy depends on skilled workers.",
+          "vi": "Một nền kinh tế phát triển phụ thuộc vào lao động lành nghề."
+        },
+        {
+          "en": "Advanced economies invest heavily in technology.",
+          "vi": "Các nền kinh tế phát triển đầu tư mạnh vào công nghệ."
+        }
+      ]
+    },
+    {
+      "english": "advanced technology",
+      "vietnamese": "công nghệ tiên tiến",
+      "ipa": "/ədˈvænst tekˈnɑːlədʒi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The factory uses advanced technology to cut waste.",
+          "vi": "Nhà máy sử dụng công nghệ tiên tiến để giảm lãng phí."
+        },
+        {
+          "en": "Advanced technology has transformed modern medicine.",
+          "vi": "Công nghệ tiên tiến đã thay đổi nền y học hiện đại."
+        },
+        {
+          "en": "The country exports advanced technology worldwide.",
+          "vi": "Quốc gia này xuất khẩu công nghệ tiên tiến ra toàn thế giới."
+        }
+      ]
+    },
+    {
+      "english": "adverse effect",
+      "vietnamese": "tác động bất lợi",
+      "ipa": "/ædˈvɜːrs ɪˈfekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The drug may have an adverse effect on the liver.",
+          "vi": "Loại thuốc này có thể gây tác động bất lợi lên gan."
+        },
+        {
+          "en": "Pollution has an adverse effect on public health.",
+          "vi": "Ô nhiễm gây tác động bất lợi đến sức khỏe cộng đồng."
+        },
+        {
+          "en": "Stress can have an adverse effect on sleep.",
+          "vi": "Căng thẳng có thể gây tác động bất lợi đến giấc ngủ."
+        }
+      ]
+    },
+    {
+      "english": "adverse reaction",
+      "vietnamese": "phản ứng bất lợi",
+      "ipa": "/ædˈvɜːrs riˈækʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Some patients had an adverse reaction to the vaccine.",
+          "vi": "Một số bệnh nhân có phản ứng bất lợi với vắc-xin."
+        },
+        {
+          "en": "Report any adverse reaction to your doctor immediately.",
+          "vi": "Hãy báo ngay cho bác sĩ về bất kỳ phản ứng bất lợi nào."
+        },
+        {
+          "en": "The new policy provoked an adverse reaction from staff.",
+          "vi": "Chính sách mới gây ra phản ứng bất lợi từ nhân viên."
+        }
+      ]
+    },
+    {
+      "english": "adversely affect",
+      "vietnamese": "ảnh hưởng xấu, ảnh hưởng bất lợi",
+      "ipa": "/ædˈvɜːrsli əˈfekt/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "Noise can adversely affect concentration.",
+          "vi": "Tiếng ồn có thể ảnh hưởng xấu đến sự tập trung."
+        },
+        {
+          "en": "The drought adversely affected this year's harvest.",
+          "vi": "Hạn hán ảnh hưởng bất lợi đến vụ mùa năm nay."
+        },
+        {
+          "en": "High fees may adversely affect enrollment.",
+          "vi": "Học phí cao có thể ảnh hưởng xấu đến số lượng nhập học."
+        }
+      ]
+    },
+    {
+      "english": "affect the outcome",
+      "vietnamese": "ảnh hưởng đến kết quả",
+      "ipa": "/əˈfekt ði ˈaʊtkʌm/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Many factors can affect the outcome of the experiment.",
+          "vi": "Nhiều yếu tố có thể ảnh hưởng đến kết quả của thí nghiệm."
+        },
+        {
+          "en": "Weather may affect the outcome of the match.",
+          "vi": "Thời tiết có thể ảnh hưởng đến kết quả trận đấu."
+        },
+        {
+          "en": "Bias can seriously affect the outcome of a study.",
+          "vi": "Sự thiên lệch có thể ảnh hưởng nghiêm trọng đến kết quả nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "affect the development of",
+      "vietnamese": "ảnh hưởng đến sự phát triển",
+      "ipa": "/əˈfekt ðə dɪˈveləpmənt əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Early nutrition can affect a child's development.",
+          "vi": "Dinh dưỡng sớm có thể ảnh hưởng đến sự phát triển của trẻ."
+        },
+        {
+          "en": "Government policy may affect economic development.",
+          "vi": "Chính sách của chính phủ có thể ảnh hưởng đến sự phát triển kinh tế."
+        },
+        {
+          "en": "Stress can affect the development of the brain.",
+          "vi": "Căng thẳng có thể ảnh hưởng đến sự phát triển của não bộ."
+        }
+      ]
+    },
+    {
+      "english": "allocate resources",
+      "vietnamese": "phân bổ nguồn lực",
+      "ipa": "/ˈæləkeɪt ˈriːsɔːrsɪz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Managers must allocate resources wisely.",
+          "vi": "Người quản lý phải phân bổ nguồn lực một cách khôn ngoan."
+        },
+        {
+          "en": "The government allocates resources to public health.",
+          "vi": "Chính phủ phân bổ nguồn lực cho y tế công cộng."
+        },
+        {
+          "en": "We need to allocate resources to the most urgent tasks.",
+          "vi": "Chúng ta cần phân bổ nguồn lực cho những nhiệm vụ cấp bách nhất."
+        }
+      ]
+    },
+    {
+      "english": "allow access to",
+      "vietnamese": "cho phép truy cập, cho phép tiếp cận",
+      "ipa": "/əˈlaʊ ˈækses tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The pass will allow access to all areas.",
+          "vi": "Thẻ này sẽ cho phép truy cập vào mọi khu vực."
+        },
+        {
+          "en": "The library allows access to rare manuscripts.",
+          "vi": "Thư viện cho phép tiếp cận các bản thảo quý hiếm."
+        },
+        {
+          "en": "The system does not allow access without a password.",
+          "vi": "Hệ thống không cho phép truy cập nếu không có mật khẩu."
+        }
+      ]
+    },
+    {
+      "english": "almost identical",
+      "vietnamese": "gần như giống hệt",
+      "ipa": "/ˈɔːlmoʊst aɪˈdentɪkəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The two samples were almost identical.",
+          "vi": "Hai mẫu vật gần như giống hệt nhau."
+        },
+        {
+          "en": "Their results were almost identical to ours.",
+          "vi": "Kết quả của họ gần như giống hệt của chúng tôi."
+        },
+        {
+          "en": "The twins look almost identical.",
+          "vi": "Cặp song sinh trông gần như giống hệt nhau."
+        }
+      ]
+    },
+    {
+      "english": "alternative approach",
+      "vietnamese": "cách tiếp cận khác",
+      "ipa": "/ɔːlˈtɜːrnətɪv əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "When one method fails, try an alternative approach.",
+          "vi": "Khi một phương pháp thất bại, hãy thử một cách tiếp cận khác."
+        },
+        {
+          "en": "The team proposed an alternative approach to the problem.",
+          "vi": "Nhóm đề xuất một cách tiếp cận khác cho vấn đề."
+        },
+        {
+          "en": "An alternative approach might save both time and money.",
+          "vi": "Một cách tiếp cận khác có thể tiết kiệm cả thời gian lẫn tiền bạc."
+        }
+      ]
+    },
+    {
+      "english": "alternative explanation",
+      "vietnamese": "lời giải thích khác",
+      "ipa": "/ɔːlˈtɜːrnətɪv ˌekspləˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Scientists offered an alternative explanation for the data.",
+          "vi": "Các nhà khoa học đưa ra một lời giải thích khác cho dữ liệu."
+        },
+        {
+          "en": "There may be an alternative explanation for his behavior.",
+          "vi": "Có thể có một lời giải thích khác cho hành vi của anh ta."
+        },
+        {
+          "en": "She rejected the alternative explanation as unlikely.",
+          "vi": "Cô bác bỏ lời giải thích khác vì cho rằng khó xảy ra."
+        }
+      ]
+    }
+  ]
+}

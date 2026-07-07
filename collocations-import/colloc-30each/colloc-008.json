@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 08/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 08/83"
+  },
+  "cards": [
+    {
+      "english": "change dramatically",
+      "vietnamese": "thay đổi mạnh mẽ",
+      "ipa": "/tʃeɪndʒ drəˈmætɪkli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Attitudes toward technology have changed dramatically over a decade.",
+          "vi": "Thái độ đối với công nghệ đã thay đổi mạnh mẽ trong một thập kỷ."
+        },
+        {
+          "en": "The landscape can change dramatically after a single flood.",
+          "vi": "Cảnh quan có thể thay đổi mạnh mẽ chỉ sau một trận lũ."
+        },
+        {
+          "en": "Her writing style changed dramatically between the two novels.",
+          "vi": "Phong cách viết của cô thay đổi mạnh mẽ giữa hai cuốn tiểu thuyết."
+        }
+      ]
+    },
+    {
+      "english": "change rapidly",
+      "vietnamese": "thay đổi nhanh chóng",
+      "ipa": "/tʃeɪndʒ ˈræpɪdli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Digital technology continues to change rapidly every year.",
+          "vi": "Công nghệ số tiếp tục thay đổi nhanh chóng mỗi năm."
+        },
+        {
+          "en": "Consumer habits can change rapidly during an economic crisis.",
+          "vi": "Thói quen tiêu dùng có thể thay đổi nhanh chóng trong khủng hoảng kinh tế."
+        },
+        {
+          "en": "Cities change rapidly when populations grow without planning.",
+          "vi": "Các thành phố thay đổi nhanh chóng khi dân số tăng mà thiếu quy hoạch."
+        }
+      ]
+    },
+    {
+      "english": "change an attitude",
+      "vietnamese": "thay đổi thái độ",
+      "ipa": "/tʃeɪndʒ ən ˈætɪtuːd/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "A single experience can change an attitude that lasted for years.",
+          "vi": "Một trải nghiệm duy nhất có thể thay đổi thái độ đã tồn tại nhiều năm."
+        },
+        {
+          "en": "Good teachers know how to change an attitude through encouragement.",
+          "vi": "Giáo viên giỏi biết cách thay đổi thái độ thông qua sự khích lệ."
+        },
+        {
+          "en": "Campaigns try to change an attitude toward recycling.",
+          "vi": "Các chiến dịch cố gắng thay đổi thái độ đối với việc tái chế."
+        }
+      ]
+    },
+    {
+      "english": "changing attitudes",
+      "vietnamese": "những thái độ đang thay đổi",
+      "ipa": "/ˈtʃeɪndʒɪŋ ˈætɪtuːdz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey tracks changing attitudes toward remote work.",
+          "vi": "Cuộc khảo sát theo dõi những thái độ đang thay đổi về làm việc từ xa."
+        },
+        {
+          "en": "Changing attitudes about diet have reshaped the food industry.",
+          "vi": "Những thái độ đang thay đổi về ăn uống đã định hình lại ngành thực phẩm."
+        },
+        {
+          "en": "Advertisers must respond to changing attitudes among young consumers.",
+          "vi": "Nhà quảng cáo phải đáp ứng những thái độ đang thay đổi của người tiêu dùng trẻ."
+        }
+      ]
+    },
+    {
+      "english": "changing circumstances",
+      "vietnamese": "hoàn cảnh thay đổi",
+      "ipa": "/ˈtʃeɪndʒɪŋ ˈsɜːrkəmstænsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Successful businesses adapt quickly to changing circumstances.",
+          "vi": "Doanh nghiệp thành công thích nghi nhanh với hoàn cảnh thay đổi."
+        },
+        {
+          "en": "The plan was flexible enough to handle changing circumstances.",
+          "vi": "Kế hoạch đủ linh hoạt để ứng phó với hoàn cảnh thay đổi."
+        },
+        {
+          "en": "Leaders must make decisions under constantly changing circumstances.",
+          "vi": "Người lãnh đạo phải ra quyết định trong hoàn cảnh thay đổi liên tục."
+        }
+      ]
+    },
+    {
+      "english": "changing nature",
+      "vietnamese": "bản chất thay đổi",
+      "ipa": "/ˈtʃeɪndʒɪŋ ˈneɪtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book explores the changing nature of modern families.",
+          "vi": "Cuốn sách khám phá bản chất thay đổi của gia đình hiện đại."
+        },
+        {
+          "en": "Researchers study the changing nature of work in a digital age.",
+          "vi": "Các nhà nghiên cứu nghiên cứu bản chất thay đổi của công việc trong thời đại số."
+        },
+        {
+          "en": "We must understand the changing nature of global trade.",
+          "vi": "Chúng ta phải hiểu bản chất thay đổi của thương mại toàn cầu."
+        }
+      ]
+    },
+    {
+      "english": "changing needs",
+      "vietnamese": "nhu cầu thay đổi",
+      "ipa": "/ˈtʃeɪndʒɪŋ niːdz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The curriculum is updated to meet students' changing needs.",
+          "vi": "Chương trình học được cập nhật để đáp ứng nhu cầu thay đổi của sinh viên."
+        },
+        {
+          "en": "Hospitals must adapt services to the changing needs of patients.",
+          "vi": "Bệnh viện phải điều chỉnh dịch vụ theo nhu cầu thay đổi của bệnh nhân."
+        },
+        {
+          "en": "Good design anticipates the changing needs of its users.",
+          "vi": "Thiết kế tốt dự đoán được nhu cầu thay đổi của người dùng."
+        }
+      ]
+    },
+    {
+      "english": "changing pattern",
+      "vietnamese": "khuôn mẫu thay đổi",
+      "ipa": "/ˈtʃeɪndʒɪŋ ˈpætərn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The data show a changing pattern of migration across the region.",
+          "vi": "Dữ liệu cho thấy một khuôn mẫu di cư đang thay đổi trong khu vực."
+        },
+        {
+          "en": "Scientists noticed a changing pattern in seasonal rainfall.",
+          "vi": "Các nhà khoa học nhận thấy một khuôn mẫu thay đổi trong lượng mưa theo mùa."
+        },
+        {
+          "en": "The changing pattern of consumption reflects new lifestyles.",
+          "vi": "Khuôn mẫu tiêu dùng đang thay đổi phản ánh những lối sống mới."
+        }
+      ]
+    },
+    {
+      "english": "changing world",
+      "vietnamese": "thế giới đang thay đổi",
+      "ipa": "/ˈtʃeɪndʒɪŋ wɜːrld/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Education must prepare young people for a changing world.",
+          "vi": "Giáo dục phải chuẩn bị cho người trẻ bước vào một thế giới đang thay đổi."
+        },
+        {
+          "en": "Businesses that ignore a changing world rarely survive long.",
+          "vi": "Doanh nghiệp bỏ qua một thế giới đang thay đổi hiếm khi tồn tại lâu."
+        },
+        {
+          "en": "In a rapidly changing world, lifelong learning is essential.",
+          "vi": "Trong một thế giới thay đổi nhanh, học tập suốt đời là điều thiết yếu."
+        }
+      ]
+    },
+    {
+      "english": "characteristic feature",
+      "vietnamese": "đặc điểm đặc trưng",
+      "ipa": "/ˌkærəktəˈrɪstɪk ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Steep roofs are a characteristic feature of alpine houses.",
+          "vi": "Mái dốc là một đặc điểm đặc trưng của những ngôi nhà vùng núi cao."
+        },
+        {
+          "en": "Irony is a characteristic feature of the writer's later work.",
+          "vi": "Sự châm biếm là một đặc điểm đặc trưng trong tác phẩm sau này của nhà văn."
+        },
+        {
+          "en": "A characteristic feature of the disease is sudden fatigue.",
+          "vi": "Một đặc điểm đặc trưng của căn bệnh là sự mệt mỏi đột ngột."
+        }
+      ]
+    },
+    {
+      "english": "chemical reaction",
+      "vietnamese": "phản ứng hóa học",
+      "ipa": "/ˈkemɪkəl riˈækʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Mixing the two liquids triggered a violent chemical reaction.",
+          "vi": "Trộn hai chất lỏng đã kích hoạt một phản ứng hóa học dữ dội."
+        },
+        {
+          "en": "Heat often speeds up the rate of a chemical reaction.",
+          "vi": "Nhiệt thường làm tăng tốc độ của một phản ứng hóa học."
+        },
+        {
+          "en": "Photosynthesis is a chemical reaction that produces oxygen.",
+          "vi": "Quang hợp là một phản ứng hóa học tạo ra oxy."
+        }
+      ]
+    },
+    {
+      "english": "civil case",
+      "vietnamese": "vụ án dân sự",
+      "ipa": "/ˈsɪvəl keɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A civil case usually involves disputes over money or property.",
+          "vi": "Một vụ án dân sự thường liên quan đến tranh chấp về tiền hoặc tài sản."
+        },
+        {
+          "en": "Unlike criminal trials, a civil case rarely leads to prison.",
+          "vi": "Khác với án hình sự, một vụ án dân sự hiếm khi dẫn đến tù giam."
+        },
+        {
+          "en": "The lawyer specialized in complex civil cases for businesses.",
+          "vi": "Luật sư chuyên về các vụ án dân sự phức tạp cho doanh nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "civil society",
+      "vietnamese": "xã hội dân sự",
+      "ipa": "/ˈsɪvəl səˈsaɪəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A strong civil society helps hold governments accountable.",
+          "vi": "Một xã hội dân sự mạnh giúp buộc chính phủ phải có trách nhiệm."
+        },
+        {
+          "en": "Charities and unions are important parts of civil society.",
+          "vi": "Các tổ chức từ thiện và công đoàn là phần quan trọng của xã hội dân sự."
+        },
+        {
+          "en": "The essay examines the role of civil society in reform.",
+          "vi": "Bài luận xem xét vai trò của xã hội dân sự trong cải cách."
+        }
+      ]
+    },
+    {
+      "english": "class consciousness",
+      "vietnamese": "ý thức giai cấp",
+      "ipa": "/klæs ˈkɑːnʃəsnəs/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Marx argued that class consciousness drives social change.",
+          "vi": "Marx lập luận rằng ý thức giai cấp thúc đẩy thay đổi xã hội."
+        },
+        {
+          "en": "The strike reflected a growing sense of class consciousness.",
+          "vi": "Cuộc đình công phản ánh một ý thức giai cấp ngày càng tăng."
+        },
+        {
+          "en": "The novel explores class consciousness among factory workers.",
+          "vi": "Cuốn tiểu thuyết khám phá ý thức giai cấp trong giới công nhân nhà máy."
+        }
+      ]
+    },
+    {
+      "english": "classic example",
+      "vietnamese": "ví dụ điển hình",
+      "ipa": "/ˈklæsɪk ɪɡˈzæmpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "This experiment is a classic example of scientific method.",
+          "vi": "Thí nghiệm này là một ví dụ điển hình về phương pháp khoa học."
+        },
+        {
+          "en": "Her speech offers a classic example of persuasive writing.",
+          "vi": "Bài phát biểu của cô là một ví dụ điển hình về văn thuyết phục."
+        },
+        {
+          "en": "The case is a classic example of how markets fail.",
+          "vi": "Vụ việc là một ví dụ điển hình về cách thị trường thất bại."
+        }
+      ]
+    },
+    {
+      "english": "classic study",
+      "vietnamese": "nghiên cứu kinh điển",
+      "ipa": "/ˈklæsɪk ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The lecture referred to a classic study on human memory.",
+          "vi": "Bài giảng nhắc đến một nghiên cứu kinh điển về trí nhớ con người."
+        },
+        {
+          "en": "This classic study still shapes how psychologists view obedience.",
+          "vi": "Nghiên cứu kinh điển này vẫn định hình cách nhà tâm lý nhìn nhận sự phục tùng."
+        },
+        {
+          "en": "Many textbooks cite this classic study as foundational.",
+          "vi": "Nhiều sách giáo khoa trích dẫn nghiên cứu kinh điển này như nền tảng."
+        }
+      ]
+    },
+    {
+      "english": "classic text",
+      "vietnamese": "văn bản kinh điển",
+      "ipa": "/ˈklæsɪk tekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students are required to read this classic text on ethics.",
+          "vi": "Sinh viên được yêu cầu đọc văn bản kinh điển này về đạo đức học."
+        },
+        {
+          "en": "The classic text remains relevant to debates today.",
+          "vi": "Văn bản kinh điển này vẫn còn phù hợp với các tranh luận ngày nay."
+        },
+        {
+          "en": "Every law student encounters this classic text early on.",
+          "vi": "Mọi sinh viên luật đều tiếp xúc văn bản kinh điển này từ sớm."
+        }
+      ]
+    },
+    {
+      "english": "classic work",
+      "vietnamese": "tác phẩm kinh điển",
+      "ipa": "/ˈklæsɪk wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "This classic work influenced generations of economists.",
+          "vi": "Tác phẩm kinh điển này đã ảnh hưởng đến nhiều thế hệ nhà kinh tế."
+        },
+        {
+          "en": "The professor recommended a classic work on political theory.",
+          "vi": "Giáo sư giới thiệu một tác phẩm kinh điển về lý thuyết chính trị."
+        },
+        {
+          "en": "Few classic works are read as widely as this one.",
+          "vi": "Ít tác phẩm kinh điển nào được đọc rộng rãi như cuốn này."
+        }
+      ]
+    },
+    {
+      "english": "classical theory",
+      "vietnamese": "lý thuyết cổ điển",
+      "ipa": "/ˈklæsɪkəl ˈθɪri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Classical theory assumes that markets always reach equilibrium.",
+          "vi": "Lý thuyết cổ điển giả định rằng thị trường luôn đạt đến cân bằng."
+        },
+        {
+          "en": "Modern research often challenges aspects of classical theory.",
+          "vi": "Nghiên cứu hiện đại thường thách thức nhiều khía cạnh của lý thuyết cổ điển."
+        },
+        {
+          "en": "The course compares classical theory with newer approaches.",
+          "vi": "Khóa học so sánh lý thuyết cổ điển với các cách tiếp cận mới hơn."
+        }
+      ]
+    },
+    {
+      "english": "clear boundary",
+      "vietnamese": "ranh giới rõ ràng",
+      "ipa": "/klɪr ˈbaʊndri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is no clear boundary between the two disciplines.",
+          "vi": "Không có ranh giới rõ ràng giữa hai ngành học này."
+        },
+        {
+          "en": "The fence marks a clear boundary between the properties.",
+          "vi": "Hàng rào đánh dấu một ranh giới rõ ràng giữa các khu đất."
+        },
+        {
+          "en": "Good managers set a clear boundary between work and rest.",
+          "vi": "Người quản lý giỏi đặt ranh giới rõ ràng giữa công việc và nghỉ ngơi."
+        }
+      ]
+    },
+    {
+      "english": "clear distinction",
+      "vietnamese": "sự phân biệt rõ ràng",
+      "ipa": "/klɪr dɪˈstɪŋkʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The author draws a clear distinction between fact and opinion.",
+          "vi": "Tác giả phân biệt rõ ràng giữa sự thật và ý kiến."
+        },
+        {
+          "en": "There is a clear distinction between weather and climate.",
+          "vi": "Có một sự phân biệt rõ ràng giữa thời tiết và khí hậu."
+        },
+        {
+          "en": "We must make a clear distinction between cause and effect.",
+          "vi": "Chúng ta phải phân biệt rõ ràng giữa nguyên nhân và kết quả."
+        }
+      ]
+    },
+    {
+      "english": "clear evidence",
+      "vietnamese": "bằng chứng rõ ràng",
+      "ipa": "/klɪr ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study provides clear evidence of rising sea levels.",
+          "vi": "Nghiên cứu cung cấp bằng chứng rõ ràng về mực nước biển dâng."
+        },
+        {
+          "en": "There is clear evidence that exercise improves mental health.",
+          "vi": "Có bằng chứng rõ ràng rằng tập thể dục cải thiện sức khỏe tinh thần."
+        },
+        {
+          "en": "Without clear evidence, the claim remains unconvincing.",
+          "vi": "Không có bằng chứng rõ ràng, lời tuyên bố vẫn thiếu thuyết phục."
+        }
+      ]
+    },
+    {
+      "english": "clear focus",
+      "vietnamese": "trọng tâm rõ ràng",
+      "ipa": "/klɪr ˈfoʊkəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A good essay needs a clear focus from the start.",
+          "vi": "Một bài luận hay cần có trọng tâm rõ ràng ngay từ đầu."
+        },
+        {
+          "en": "The project succeeded because the team kept a clear focus.",
+          "vi": "Dự án thành công vì cả nhóm giữ được một trọng tâm rõ ràng."
+        },
+        {
+          "en": "Without a clear focus, the research became scattered.",
+          "vi": "Không có trọng tâm rõ ràng, nghiên cứu trở nên rời rạc."
+        }
+      ]
+    },
+    {
+      "english": "clear indication",
+      "vietnamese": "dấu hiệu rõ ràng",
+      "ipa": "/klɪr ˌɪndɪˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Rising temperatures are a clear indication of climate change.",
+          "vi": "Nhiệt độ tăng là một dấu hiệu rõ ràng của biến đổi khí hậu."
+        },
+        {
+          "en": "Her quick reply was a clear indication of her interest.",
+          "vi": "Câu trả lời nhanh của cô là một dấu hiệu rõ ràng về sự quan tâm."
+        },
+        {
+          "en": "The data give a clear indication of improving performance.",
+          "vi": "Dữ liệu đưa ra một dấu hiệu rõ ràng về hiệu suất đang cải thiện."
+        }
+      ]
+    },
+    {
+      "english": "clear relationship",
+      "vietnamese": "mối liên hệ rõ ràng",
+      "ipa": "/klɪr rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a clear relationship between sleep and learning.",
+          "vi": "Có một mối liên hệ rõ ràng giữa giấc ngủ và việc học."
+        },
+        {
+          "en": "The graph shows a clear relationship between price and demand.",
+          "vi": "Biểu đồ cho thấy mối liên hệ rõ ràng giữa giá cả và nhu cầu."
+        },
+        {
+          "en": "Researchers found a clear relationship between diet and energy.",
+          "vi": "Các nhà nghiên cứu tìm thấy mối liên hệ rõ ràng giữa chế độ ăn và năng lượng."
+        }
+      ]
+    },
+    {
+      "english": "clear statement",
+      "vietnamese": "tuyên bố rõ ràng",
+      "ipa": "/klɪr ˈsteɪtmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report opens with a clear statement of its aims.",
+          "vi": "Báo cáo mở đầu bằng một tuyên bố rõ ràng về mục tiêu của nó."
+        },
+        {
+          "en": "A clear statement of the problem helps the reader follow.",
+          "vi": "Một tuyên bố rõ ràng về vấn đề giúp người đọc dễ theo dõi."
+        },
+        {
+          "en": "The policy needs a clear statement about who is responsible.",
+          "vi": "Chính sách cần một tuyên bố rõ ràng về việc ai chịu trách nhiệm."
+        }
+      ]
+    },
+    {
+      "english": "clear structure",
+      "vietnamese": "cấu trúc rõ ràng",
+      "ipa": "/klɪr ˈstrʌktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A clear structure makes any argument easier to follow.",
+          "vi": "Một cấu trúc rõ ràng khiến mọi lập luận dễ theo dõi hơn."
+        },
+        {
+          "en": "The essay lacked a clear structure, so ideas felt disconnected.",
+          "vi": "Bài luận thiếu cấu trúc rõ ràng, nên các ý tưởng có vẻ rời rạc."
+        },
+        {
+          "en": "Good presentations rely on a clear structure and strong examples.",
+          "vi": "Bài thuyết trình tốt dựa vào cấu trúc rõ ràng và ví dụ mạnh."
+        }
+      ]
+    },
+    {
+      "english": "clearly defined",
+      "vietnamese": "được xác định rõ ràng",
+      "ipa": "/ˈklɪrli dɪˈfaɪnd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Each team member had a clearly defined role in the project.",
+          "vi": "Mỗi thành viên trong nhóm có một vai trò được xác định rõ ràng."
+        },
+        {
+          "en": "The goals must be clearly defined before work begins.",
+          "vi": "Các mục tiêu phải được xác định rõ ràng trước khi bắt đầu làm việc."
+        },
+        {
+          "en": "A clearly defined hypothesis guides the entire experiment.",
+          "vi": "Một giả thuyết được xác định rõ ràng dẫn dắt toàn bộ thí nghiệm."
+        }
+      ]
+    },
+    {
+      "english": "clearly demonstrated",
+      "vietnamese": "được chứng minh rõ ràng",
+      "ipa": "/ˈklɪrli ˈdemənstreɪtɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The benefits of the method were clearly demonstrated in trials.",
+          "vi": "Lợi ích của phương pháp đã được chứng minh rõ ràng trong các thử nghiệm."
+        },
+        {
+          "en": "She clearly demonstrated the link between the two variables.",
+          "vi": "Cô đã chứng minh rõ ràng mối liên hệ giữa hai biến số."
+        },
+        {
+          "en": "The results clearly demonstrated the value of early intervention.",
+          "vi": "Kết quả đã chứng minh rõ ràng giá trị của việc can thiệp sớm."
+        }
+      ]
+    },
+    {
+      "english": "clearly established",
+      "vietnamese": "được thiết lập rõ ràng",
+      "ipa": "/ˈklɪrli ɪˈstæblɪʃt/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The link between smoking and cancer is clearly established.",
+          "vi": "Mối liên hệ giữa hút thuốc và ung thư đã được thiết lập rõ ràng."
+        },
+        {
+          "en": "Once the rules are clearly established, disputes become rare.",
+          "vi": "Một khi các quy tắc được thiết lập rõ ràng, tranh chấp trở nên hiếm."
+        },
+        {
+          "en": "The procedure follows a clearly established set of guidelines.",
+          "vi": "Quy trình tuân theo một bộ hướng dẫn được thiết lập rõ ràng."
+        }
+      ]
+    }
+  ]
+}

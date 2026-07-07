@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 10/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 10/83"
+  },
+  "cards": [
+    {
+      "english": "collective memory",
+      "vietnamese": "ký ức tập thể",
+      "ipa": "/kəˈlektɪv ˈmeməri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The war remains part of the nation's collective memory.",
+          "vi": "Cuộc chiến vẫn là một phần ký ức tập thể của dân tộc."
+        },
+        {
+          "en": "Monuments help preserve a society's collective memory.",
+          "vi": "Các đài tưởng niệm giúp lưu giữ ký ức tập thể của xã hội."
+        },
+        {
+          "en": "Stories passed down shape our collective memory of the past.",
+          "vi": "Những câu chuyện truyền lại định hình ký ức tập thể về quá khứ."
+        }
+      ]
+    },
+    {
+      "english": "combined effect",
+      "vietnamese": "tác động tổng hợp",
+      "ipa": "/kəmˈbaɪnd ɪˈfekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The combined effect of heat and drought damaged the crops.",
+          "vi": "Tác động tổng hợp của nắng nóng và hạn hán đã làm hỏng mùa màng."
+        },
+        {
+          "en": "Researchers studied the combined effect of diet and exercise.",
+          "vi": "Các nhà nghiên cứu nghiên cứu tác động tổng hợp của ăn uống và tập luyện."
+        },
+        {
+          "en": "The combined effect of these factors is difficult to predict.",
+          "vi": "Tác động tổng hợp của các yếu tố này rất khó dự đoán."
+        }
+      ]
+    },
+    {
+      "english": "come into conflict with",
+      "vietnamese": "xảy ra xung đột với",
+      "ipa": "/kʌm ˈɪntə ˈkɑːnflɪkt wɪð/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "New regulations often come into conflict with existing laws.",
+          "vi": "Các quy định mới thường xung đột với luật hiện hành."
+        },
+        {
+          "en": "His personal beliefs came into conflict with company policy.",
+          "vi": "Niềm tin cá nhân của anh xung đột với chính sách công ty."
+        },
+        {
+          "en": "Economic goals can come into conflict with environmental ones.",
+          "vi": "Các mục tiêu kinh tế có thể xung đột với mục tiêu môi trường."
+        }
+      ]
+    },
+    {
+      "english": "come into contact with",
+      "vietnamese": "tiếp xúc với",
+      "ipa": "/kʌm ˈɪntə ˈkɑːntækt wɪð/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Workers may come into contact with hazardous chemicals.",
+          "vi": "Công nhân có thể tiếp xúc với hóa chất nguy hiểm."
+        },
+        {
+          "en": "Children come into contact with many germs at school.",
+          "vi": "Trẻ em tiếp xúc với nhiều vi khuẩn ở trường."
+        },
+        {
+          "en": "The two cultures first came into contact through trade.",
+          "vi": "Hai nền văn hóa lần đầu tiếp xúc thông qua thương mại."
+        }
+      ]
+    },
+    {
+      "english": "commercial activity",
+      "vietnamese": "hoạt động thương mại",
+      "ipa": "/kəˈmɜːrʃəl ækˈtɪvəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new port boosted commercial activity in the region.",
+          "vi": "Cảng mới thúc đẩy hoạt động thương mại trong khu vực."
+        },
+        {
+          "en": "Commercial activity slowed during the economic downturn.",
+          "vi": "Hoạt động thương mại chậm lại trong thời kỳ suy thoái kinh tế."
+        },
+        {
+          "en": "Strict rules govern commercial activity near the reserve.",
+          "vi": "Các quy định nghiêm ngặt điều chỉnh hoạt động thương mại gần khu bảo tồn."
+        }
+      ]
+    },
+    {
+      "english": "commercial transaction",
+      "vietnamese": "giao dịch thương mại",
+      "ipa": "/kəˈmɜːrʃəl trænˈzækʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every commercial transaction is recorded for accounting purposes.",
+          "vi": "Mọi giao dịch thương mại đều được ghi lại để phục vụ kế toán."
+        },
+        {
+          "en": "Online platforms now handle millions of commercial transactions daily.",
+          "vi": "Các nền tảng trực tuyến nay xử lý hàng triệu giao dịch thương mại mỗi ngày."
+        },
+        {
+          "en": "The contract governs the terms of each commercial transaction.",
+          "vi": "Hợp đồng quy định các điều khoản của mỗi giao dịch thương mại."
+        }
+      ]
+    },
+    {
+      "english": "commit a crime",
+      "vietnamese": "phạm tội",
+      "ipa": "/kəˈmɪt ə kraɪm/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Anyone who commits a crime should face legal consequences.",
+          "vi": "Bất kỳ ai phạm tội đều phải đối mặt với hậu quả pháp lý."
+        },
+        {
+          "en": "Poverty does not force people to commit a crime.",
+          "vi": "Nghèo đói không buộc người ta phải phạm tội."
+        },
+        {
+          "en": "He was accused of committing a serious crime abroad.",
+          "vi": "Anh ta bị cáo buộc phạm một tội nghiêm trọng ở nước ngoài."
+        }
+      ]
+    },
+    {
+      "english": "commit an offence",
+      "vietnamese": "vi phạm pháp luật",
+      "ipa": "/kəˈmɪt ən əˈfens/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Drivers who commit an offence may lose their licence.",
+          "vi": "Tài xế vi phạm có thể bị tước bằng lái."
+        },
+        {
+          "en": "The law clearly states what it means to commit an offence.",
+          "vi": "Luật nêu rõ thế nào là vi phạm pháp luật."
+        },
+        {
+          "en": "Companies that commit an offence can be heavily fined.",
+          "vi": "Các công ty vi phạm có thể bị phạt nặng."
+        }
+      ]
+    },
+    {
+      "english": "common ancestor",
+      "vietnamese": "tổ tiên chung",
+      "ipa": "/ˈkɑːmən ˈænsestər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Humans and apes share a distant common ancestor.",
+          "vi": "Con người và vượn có chung một tổ tiên xa xưa."
+        },
+        {
+          "en": "These languages descend from a single common ancestor.",
+          "vi": "Các ngôn ngữ này đều bắt nguồn từ một tổ tiên chung."
+        },
+        {
+          "en": "Fossils help scientists trace the common ancestor of mammals.",
+          "vi": "Hóa thạch giúp các nhà khoa học truy tìm tổ tiên chung của loài có vú."
+        }
+      ]
+    },
+    {
+      "english": "common approach",
+      "vietnamese": "cách tiếp cận phổ biến",
+      "ipa": "/ˈkɑːmən əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A common approach is to divide the task into stages.",
+          "vi": "Một cách tiếp cận phổ biến là chia nhiệm vụ thành các giai đoạn."
+        },
+        {
+          "en": "The teams agreed on a common approach to the problem.",
+          "vi": "Các nhóm đồng ý về một cách tiếp cận chung cho vấn đề."
+        },
+        {
+          "en": "This common approach has both strengths and clear limitations.",
+          "vi": "Cách tiếp cận phổ biến này có cả điểm mạnh lẫn hạn chế rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "common assumption",
+      "vietnamese": "giả định phổ biến",
+      "ipa": "/ˈkɑːmən əˈsʌmpʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A common assumption is that money guarantees happiness.",
+          "vi": "Một giả định phổ biến là tiền bạc đảm bảo hạnh phúc."
+        },
+        {
+          "en": "The study challenges a common assumption about ageing.",
+          "vi": "Nghiên cứu thách thức một giả định phổ biến về sự lão hóa."
+        },
+        {
+          "en": "This common assumption is not supported by the evidence.",
+          "vi": "Giả định phổ biến này không được bằng chứng ủng hộ."
+        }
+      ]
+    },
+    {
+      "english": "common characteristic",
+      "vietnamese": "đặc điểm chung",
+      "ipa": "/ˈkɑːmən ˌkerəktəˈrɪstɪk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Patience is a common characteristic among successful researchers.",
+          "vi": "Sự kiên nhẫn là đặc điểm chung của các nhà nghiên cứu thành công."
+        },
+        {
+          "en": "The groups share several common characteristics worth examining.",
+          "vi": "Các nhóm có chung nhiều đặc điểm đáng để xem xét."
+        },
+        {
+          "en": "A common characteristic of these regions is high rainfall.",
+          "vi": "Một đặc điểm chung của các vùng này là lượng mưa cao."
+        }
+      ]
+    },
+    {
+      "english": "common culture",
+      "vietnamese": "nền văn hóa chung",
+      "ipa": "/ˈkɑːmən ˈkʌltʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A common culture helps bind diverse communities together.",
+          "vi": "Một nền văn hóa chung giúp gắn kết các cộng đồng đa dạng."
+        },
+        {
+          "en": "Language is central to maintaining a common culture.",
+          "vi": "Ngôn ngữ là yếu tố cốt lõi để duy trì một nền văn hóa chung."
+        },
+        {
+          "en": "Globalization is creating a more common culture worldwide.",
+          "vi": "Toàn cầu hóa đang tạo ra một nền văn hóa chung hơn trên thế giới."
+        }
+      ]
+    },
+    {
+      "english": "common error",
+      "vietnamese": "lỗi phổ biến",
+      "ipa": "/ˈkɑːmən ˈerər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Confusing the two terms is a common error among beginners.",
+          "vi": "Nhầm lẫn hai thuật ngữ là lỗi phổ biến ở người mới học."
+        },
+        {
+          "en": "The guide lists common errors and how to avoid them.",
+          "vi": "Cẩm nang liệt kê các lỗi phổ biến và cách tránh chúng."
+        },
+        {
+          "en": "Skipping the review step is a surprisingly common error.",
+          "vi": "Bỏ qua bước rà soát là một lỗi phổ biến đáng ngạc nhiên."
+        }
+      ]
+    },
+    {
+      "english": "common feature",
+      "vietnamese": "đặc trưng chung",
+      "ipa": "/ˈkɑːmən ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Open spaces are a common feature of modern offices.",
+          "vi": "Không gian mở là đặc trưng chung của các văn phòng hiện đại."
+        },
+        {
+          "en": "Repetition is a common feature of traditional folk songs.",
+          "vi": "Sự lặp lại là đặc trưng chung của các bài dân ca truyền thống."
+        },
+        {
+          "en": "Strict deadlines are a common feature of this industry.",
+          "vi": "Hạn chót nghiêm ngặt là đặc trưng chung của ngành này."
+        }
+      ]
+    },
+    {
+      "english": "common goal",
+      "vietnamese": "mục tiêu chung",
+      "ipa": "/ˈkɑːmən ɡoʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The team worked together toward a common goal.",
+          "vi": "Cả nhóm cùng làm việc hướng tới một mục tiêu chung."
+        },
+        {
+          "en": "Reducing emissions is a common goal of many nations.",
+          "vi": "Giảm phát thải là mục tiêu chung của nhiều quốc gia."
+        },
+        {
+          "en": "A common goal helps members stay motivated and focused.",
+          "vi": "Một mục tiêu chung giúp các thành viên duy trì động lực và tập trung."
+        }
+      ]
+    },
+    {
+      "english": "common method",
+      "vietnamese": "phương pháp phổ biến",
+      "ipa": "/ˈkɑːmən ˈmeθəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Interviewing is a common method of gathering qualitative data.",
+          "vi": "Phỏng vấn là phương pháp phổ biến để thu thập dữ liệu định tính."
+        },
+        {
+          "en": "A common method for storing food is freezing.",
+          "vi": "Một phương pháp phổ biến để bảo quản thực phẩm là đông lạnh."
+        },
+        {
+          "en": "The authors compare several common methods of analysis.",
+          "vi": "Các tác giả so sánh một số phương pháp phân tích phổ biến."
+        }
+      ]
+    },
+    {
+      "english": "common source",
+      "vietnamese": "nguồn chung",
+      "ipa": "/ˈkɑːmən sɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Contaminated water is a common source of illness.",
+          "vi": "Nước bị ô nhiễm là một nguồn gây bệnh phổ biến."
+        },
+        {
+          "en": "Misunderstanding is a common source of workplace conflict.",
+          "vi": "Hiểu lầm là nguồn gốc phổ biến của xung đột nơi làm việc."
+        },
+        {
+          "en": "The two texts appear to share a common source.",
+          "vi": "Hai văn bản dường như có chung một nguồn gốc."
+        }
+      ]
+    },
+    {
+      "english": "common theme",
+      "vietnamese": "chủ đề chung",
+      "ipa": "/ˈkɑːmən θiːm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Loss is a common theme throughout the author's novels.",
+          "vi": "Mất mát là chủ đề chung xuyên suốt các tiểu thuyết của tác giả."
+        },
+        {
+          "en": "A common theme emerged from the interview responses.",
+          "vi": "Một chủ đề chung đã xuất hiện từ các câu trả lời phỏng vấn."
+        },
+        {
+          "en": "Identity is a common theme in postcolonial literature.",
+          "vi": "Bản sắc là chủ đề chung trong văn học hậu thuộc địa."
+        }
+      ]
+    },
+    {
+      "english": "common usage",
+      "vietnamese": "cách dùng thông dụng",
+      "ipa": "/ˈkɑːmən ˈjuːsɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The word has shifted in meaning through common usage.",
+          "vi": "Từ này đã thay đổi nghĩa qua cách dùng thông dụng."
+        },
+        {
+          "en": "Dictionaries record changes in common usage over time.",
+          "vi": "Từ điển ghi lại những thay đổi trong cách dùng thông dụng theo thời gian."
+        },
+        {
+          "en": "This phrase has entered common usage among young people.",
+          "vi": "Cụm từ này đã trở nên thông dụng trong giới trẻ."
+        }
+      ]
+    },
+    {
+      "english": "commonly accepted",
+      "vietnamese": "được chấp nhận rộng rãi",
+      "ipa": "/ˈkɑːmənli əkˈseptɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "It is commonly accepted that exercise benefits mental health.",
+          "vi": "Người ta thường chấp nhận rằng tập thể dục tốt cho sức khỏe tinh thần."
+        },
+        {
+          "en": "The theory is now commonly accepted within the field.",
+          "vi": "Lý thuyết này hiện được chấp nhận rộng rãi trong lĩnh vực."
+        },
+        {
+          "en": "These standards are commonly accepted across the industry.",
+          "vi": "Các tiêu chuẩn này được chấp nhận rộng rãi trong toàn ngành."
+        }
+      ]
+    },
+    {
+      "english": "commonly associated with",
+      "vietnamese": "thường gắn liền với",
+      "ipa": "/ˈkɑːmənli əˈsoʊsieɪtɪd wɪð/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Stress is commonly associated with high blood pressure.",
+          "vi": "Căng thẳng thường gắn liền với huyết áp cao."
+        },
+        {
+          "en": "This style is commonly associated with the Renaissance period.",
+          "vi": "Phong cách này thường gắn liền với thời kỳ Phục hưng."
+        },
+        {
+          "en": "Such symptoms are commonly associated with vitamin deficiency.",
+          "vi": "Những triệu chứng như vậy thường gắn liền với thiếu vitamin."
+        }
+      ]
+    },
+    {
+      "english": "commonly called",
+      "vietnamese": "thường được gọi là",
+      "ipa": "/ˈkɑːmənli kɔːld/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The condition is commonly called the common cold.",
+          "vi": "Tình trạng này thường được gọi là cảm lạnh thông thường."
+        },
+        {
+          "en": "This region is commonly called the breadbasket of the country.",
+          "vi": "Vùng này thường được gọi là vựa lúa của đất nước."
+        },
+        {
+          "en": "The device is commonly called a smartphone today.",
+          "vi": "Thiết bị này ngày nay thường được gọi là điện thoại thông minh."
+        }
+      ]
+    },
+    {
+      "english": "commonly encountered",
+      "vietnamese": "thường gặp",
+      "ipa": "/ˈkɑːmənli ɪnˈkaʊntərd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "These problems are commonly encountered by new students.",
+          "vi": "Những vấn đề này thường gặp ở sinh viên mới."
+        },
+        {
+          "en": "This species is commonly encountered in coastal areas.",
+          "vi": "Loài này thường gặp ở các vùng ven biển."
+        },
+        {
+          "en": "The error is commonly encountered when running old software.",
+          "vi": "Lỗi này thường gặp khi chạy phần mềm cũ."
+        }
+      ]
+    },
+    {
+      "english": "commonly found in",
+      "vietnamese": "thường thấy trong",
+      "ipa": "/ˈkɑːmənli faʊnd ɪn/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This mineral is commonly found in volcanic rocks.",
+          "vi": "Khoáng chất này thường thấy trong đá núi lửa."
+        },
+        {
+          "en": "Such errors are commonly found in early drafts.",
+          "vi": "Những lỗi như vậy thường thấy trong các bản nháp đầu tiên."
+        },
+        {
+          "en": "Iron is commonly found in green leafy vegetables.",
+          "vi": "Sắt thường thấy trong các loại rau lá xanh."
+        }
+      ]
+    },
+    {
+      "english": "commonly known as",
+      "vietnamese": "thường được biết đến là",
+      "ipa": "/ˈkɑːmənli noʊn æz/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The disease is commonly known as whooping cough.",
+          "vi": "Căn bệnh này thường được biết đến là ho gà."
+        },
+        {
+          "en": "The plant is commonly known as the snake plant.",
+          "vi": "Loại cây này thường được biết đến là cây lưỡi hổ."
+        },
+        {
+          "en": "The era is commonly known as the Industrial Revolution.",
+          "vi": "Thời kỳ này thường được biết đến là Cách mạng Công nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "commonly referred to as",
+      "vietnamese": "thường được gọi là",
+      "ipa": "/ˈkɑːmənli rɪˈfɜːrd tə æz/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The phenomenon is commonly referred to as global warming.",
+          "vi": "Hiện tượng này thường được gọi là sự nóng lên toàn cầu."
+        },
+        {
+          "en": "These cells are commonly referred to as stem cells.",
+          "vi": "Những tế bào này thường được gọi là tế bào gốc."
+        },
+        {
+          "en": "The model is commonly referred to as a feedback loop.",
+          "vi": "Mô hình này thường được gọi là vòng phản hồi."
+        }
+      ]
+    },
+    {
+      "english": "commonly used",
+      "vietnamese": "được sử dụng phổ biến",
+      "ipa": "/ˈkɑːmənli juːzd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This method is commonly used in social science research.",
+          "vi": "Phương pháp này được sử dụng phổ biến trong nghiên cứu khoa học xã hội."
+        },
+        {
+          "en": "The term is commonly used in everyday conversation.",
+          "vi": "Thuật ngữ này được sử dụng phổ biến trong giao tiếp hằng ngày."
+        },
+        {
+          "en": "These tools are commonly used by professional designers.",
+          "vi": "Những công cụ này được các nhà thiết kế chuyên nghiệp sử dụng phổ biến."
+        }
+      ]
+    },
+    {
+      "english": "communicate effectively",
+      "vietnamese": "giao tiếp hiệu quả",
+      "ipa": "/kəˈmjuːnɪkeɪt ɪˈfektɪvli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Good leaders must communicate effectively with their teams.",
+          "vi": "Những nhà lãnh đạo giỏi phải giao tiếp hiệu quả với nhóm của mình."
+        },
+        {
+          "en": "The course teaches students to communicate effectively in writing.",
+          "vi": "Khóa học dạy sinh viên giao tiếp hiệu quả qua văn bản."
+        },
+        {
+          "en": "Doctors need to communicate effectively with anxious patients.",
+          "vi": "Bác sĩ cần giao tiếp hiệu quả với những bệnh nhân lo lắng."
+        }
+      ]
+    },
+    {
+      "english": "comparative analysis",
+      "vietnamese": "phân tích so sánh",
+      "ipa": "/kəmˈpærətɪv əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report offers a comparative analysis of three economies.",
+          "vi": "Báo cáo đưa ra một phân tích so sánh giữa ba nền kinh tế."
+        },
+        {
+          "en": "A comparative analysis reveals key differences in policy.",
+          "vi": "Phân tích so sánh cho thấy những khác biệt then chốt về chính sách."
+        },
+        {
+          "en": "She conducted a comparative analysis of two teaching methods.",
+          "vi": "Cô tiến hành phân tích so sánh hai phương pháp giảng dạy."
+        }
+      ]
+    }
+  ]
+}

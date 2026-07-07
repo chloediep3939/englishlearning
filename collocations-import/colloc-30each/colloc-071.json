@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 71/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 71/83"
+  },
+  "cards": [
+    {
+      "english": "simple majority",
+      "vietnamese": "đa số quá bán",
+      "ipa": "/ˈsɪmpəl məˈdʒɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The motion passed with a simple majority of votes.",
+          "vi": "Kiến nghị được thông qua với đa số quá bán phiếu."
+        },
+        {
+          "en": "Only a simple majority is needed to approve the budget.",
+          "vi": "Chỉ cần đa số quá bán để thông qua ngân sách."
+        },
+        {
+          "en": "A simple majority cannot amend the country's constitution.",
+          "vi": "Đa số quá bán không thể sửa đổi hiến pháp của quốc gia."
+        }
+      ]
+    },
+    {
+      "english": "simplified version",
+      "vietnamese": "phiên bản đơn giản hóa",
+      "ipa": "/ˈsɪmpləfaɪd ˈvɜːrʒən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The textbook presents a simplified version of the theory.",
+          "vi": "Sách giáo khoa trình bày một phiên bản đơn giản hóa của lý thuyết."
+        },
+        {
+          "en": "Teachers gave students a simplified version of the rules.",
+          "vi": "Giáo viên đưa cho học sinh một phiên bản đơn giản hóa của các quy tắc."
+        },
+        {
+          "en": "The app offers a simplified version for new users.",
+          "vi": "Ứng dụng cung cấp một phiên bản đơn giản hóa cho người dùng mới."
+        }
+      ]
+    },
+    {
+      "english": "single currency",
+      "vietnamese": "đồng tiền chung",
+      "ipa": "/ˈsɪŋɡəl ˈkɜːrənsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Member states adopted a single currency to ease trade.",
+          "vi": "Các nước thành viên áp dụng đồng tiền chung để thuận lợi thương mại."
+        },
+        {
+          "en": "A single currency removed the need for constant exchange.",
+          "vi": "Đồng tiền chung loại bỏ nhu cầu đổi tiền liên tục."
+        },
+        {
+          "en": "Critics debated whether a single currency suited every economy.",
+          "vi": "Các nhà phê bình tranh luận liệu đồng tiền chung có hợp với mọi nền kinh tế."
+        }
+      ]
+    },
+    {
+      "english": "single element",
+      "vietnamese": "một yếu tố đơn lẻ",
+      "ipa": "/ˈsɪŋɡəl ˈeləmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "No single element alone explains the experiment's complex outcome.",
+          "vi": "Không một yếu tố đơn lẻ nào giải thích được kết quả phức tạp của thí nghiệm."
+        },
+        {
+          "en": "Changing a single element can alter the whole design.",
+          "vi": "Thay đổi một yếu tố đơn lẻ có thể làm thay đổi toàn bộ thiết kế."
+        },
+        {
+          "en": "The diagram highlights each single element of the process.",
+          "vi": "Sơ đồ làm nổi bật từng yếu tố đơn lẻ của quá trình."
+        }
+      ]
+    },
+    {
+      "english": "single entity",
+      "vietnamese": "một thực thể đơn nhất",
+      "ipa": "/ˈsɪŋɡəl ˈentəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The merger combined both firms into a single entity.",
+          "vi": "Vụ sáp nhập gộp cả hai công ty thành một thực thể đơn nhất."
+        },
+        {
+          "en": "The law treats the group as a single entity legally.",
+          "vi": "Luật pháp coi nhóm này như một thực thể đơn nhất về mặt pháp lý."
+        },
+        {
+          "en": "Several departments now operate as a single entity.",
+          "vi": "Nhiều phòng ban giờ hoạt động như một thực thể đơn nhất."
+        }
+      ]
+    },
+    {
+      "english": "single individual",
+      "vietnamese": "một cá nhân đơn lẻ",
+      "ipa": "/ˈsɪŋɡəl ˌɪndɪˈvɪdʒuəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "No single individual can solve this problem alone.",
+          "vi": "Không một cá nhân đơn lẻ nào có thể tự giải quyết vấn đề này."
+        },
+        {
+          "en": "A single individual cannot represent the entire community fairly.",
+          "vi": "Một cá nhân đơn lẻ không thể đại diện công bằng cho cả cộng đồng."
+        },
+        {
+          "en": "The decision rested on a single individual's judgment.",
+          "vi": "Quyết định dựa vào phán đoán của một cá nhân đơn lẻ."
+        }
+      ]
+    },
+    {
+      "english": "single issue",
+      "vietnamese": "một vấn đề đơn lẻ",
+      "ipa": "/ˈsɪŋɡəl ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The campaign focused on a single issue throughout the year.",
+          "vi": "Chiến dịch tập trung vào một vấn đề đơn lẻ trong suốt năm."
+        },
+        {
+          "en": "Voters rarely choose based on a single issue alone.",
+          "vi": "Cử tri hiếm khi chọn dựa trên một vấn đề đơn lẻ."
+        },
+        {
+          "en": "The debate narrowed down to a single issue eventually.",
+          "vi": "Cuộc tranh luận cuối cùng thu hẹp về một vấn đề đơn lẻ."
+        }
+      ]
+    },
+    {
+      "english": "single source",
+      "vietnamese": "một nguồn duy nhất",
+      "ipa": "/ˈsɪŋɡəl sɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Relying on a single source weakens any research argument.",
+          "vi": "Dựa vào một nguồn duy nhất làm yếu đi mọi lập luận nghiên cứu."
+        },
+        {
+          "en": "The report drew its data from a single source.",
+          "vi": "Báo cáo lấy dữ liệu từ một nguồn duy nhất."
+        },
+        {
+          "en": "A single source of income made the family vulnerable.",
+          "vi": "Một nguồn thu nhập duy nhất khiến gia đình dễ tổn thương."
+        }
+      ]
+    },
+    {
+      "english": "single variable",
+      "vietnamese": "một biến số đơn lẻ",
+      "ipa": "/ˈsɪŋɡəl ˈveriəbəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experiment changed only a single variable at a time.",
+          "vi": "Thí nghiệm chỉ thay đổi một biến số đơn lẻ mỗi lần."
+        },
+        {
+          "en": "Isolating a single variable helps clarify the true cause.",
+          "vi": "Tách riêng một biến số đơn lẻ giúp làm rõ nguyên nhân thực sự."
+        },
+        {
+          "en": "A single variable cannot explain such a complex result.",
+          "vi": "Một biến số đơn lẻ không thể giải thích kết quả phức tạp như vậy."
+        }
+      ]
+    },
+    {
+      "english": "skilled worker",
+      "vietnamese": "lao động có tay nghề",
+      "ipa": "/skɪld ˈwɜːrkər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The factory struggled to recruit enough skilled workers.",
+          "vi": "Nhà máy gặp khó khăn trong việc tuyển đủ lao động có tay nghề."
+        },
+        {
+          "en": "A skilled worker can complete the task far more quickly.",
+          "vi": "Một lao động có tay nghề có thể hoàn thành công việc nhanh hơn nhiều."
+        },
+        {
+          "en": "The country relies on skilled workers from abroad.",
+          "vi": "Đất nước phụ thuộc vào lao động có tay nghề từ nước ngoài."
+        }
+      ]
+    },
+    {
+      "english": "slightly different",
+      "vietnamese": "hơi khác một chút",
+      "ipa": "/ˈslaɪtli ˈdɪfərənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Each sample produced a slightly different result in testing.",
+          "vi": "Mỗi mẫu cho ra một kết quả hơi khác một chút khi thử nghiệm."
+        },
+        {
+          "en": "The new edition uses a slightly different layout.",
+          "vi": "Phiên bản mới dùng bố cục hơi khác một chút."
+        },
+        {
+          "en": "Her conclusion was slightly different from the others.",
+          "vi": "Kết luận của cô hơi khác một chút so với những người khác."
+        }
+      ]
+    },
+    {
+      "english": "slightly higher",
+      "vietnamese": "cao hơn một chút",
+      "ipa": "/ˈslaɪtli ˈhaɪər/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Temperatures were slightly higher than the seasonal average.",
+          "vi": "Nhiệt độ cao hơn một chút so với mức trung bình mùa."
+        },
+        {
+          "en": "Prices this year are slightly higher than last year.",
+          "vi": "Giá năm nay cao hơn một chút so với năm ngoái."
+        },
+        {
+          "en": "The treated group showed a slightly higher recovery rate.",
+          "vi": "Nhóm được điều trị có tỷ lệ hồi phục cao hơn một chút."
+        }
+      ]
+    },
+    {
+      "english": "slow process",
+      "vietnamese": "quá trình chậm chạp",
+      "ipa": "/sloʊ ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Learning a new language is often a slow process.",
+          "vi": "Học một ngôn ngữ mới thường là một quá trình chậm chạp."
+        },
+        {
+          "en": "Rebuilding trust after the scandal was a slow process.",
+          "vi": "Xây dựng lại niềm tin sau vụ bê bối là một quá trình chậm chạp."
+        },
+        {
+          "en": "Coral reefs recover through a slow process over decades.",
+          "vi": "Rạn san hô phục hồi qua một quá trình chậm chạp suốt nhiều thập kỷ."
+        }
+      ]
+    },
+    {
+      "english": "small fraction",
+      "vietnamese": "một phần nhỏ",
+      "ipa": "/smɔːl ˈfrækʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Only a small fraction of applicants were finally accepted.",
+          "vi": "Chỉ một phần nhỏ ứng viên cuối cùng được nhận."
+        },
+        {
+          "en": "A small fraction of the budget covers maintenance costs.",
+          "vi": "Một phần nhỏ ngân sách dùng cho chi phí bảo trì."
+        },
+        {
+          "en": "Wind power supplies only a small fraction of the energy.",
+          "vi": "Điện gió chỉ cung cấp một phần nhỏ năng lượng."
+        }
+      ]
+    },
+    {
+      "english": "small minority",
+      "vietnamese": "một thiểu số nhỏ",
+      "ipa": "/smɔːl maɪˈnɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Only a small minority opposed the proposed changes.",
+          "vi": "Chỉ một thiểu số nhỏ phản đối những thay đổi được đề xuất."
+        },
+        {
+          "en": "A small minority of students prefer online classes entirely.",
+          "vi": "Một thiểu số nhỏ sinh viên hoàn toàn thích học trực tuyến."
+        },
+        {
+          "en": "The survey showed a small minority remained undecided.",
+          "vi": "Khảo sát cho thấy một thiểu số nhỏ vẫn chưa quyết định."
+        }
+      ]
+    },
+    {
+      "english": "small percentage",
+      "vietnamese": "một tỷ lệ phần trăm nhỏ",
+      "ipa": "/smɔːl pərˈsentɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Only a small percentage of waste is actually recycled.",
+          "vi": "Chỉ một tỷ lệ phần trăm nhỏ rác thải thực sự được tái chế."
+        },
+        {
+          "en": "A small percentage of patients experienced minor side effects.",
+          "vi": "Một tỷ lệ phần trăm nhỏ bệnh nhân gặp tác dụng phụ nhẹ."
+        },
+        {
+          "en": "Only a small percentage of voters turned out yesterday.",
+          "vi": "Chỉ một tỷ lệ phần trăm nhỏ cử tri đi bầu hôm qua."
+        }
+      ]
+    },
+    {
+      "english": "small portion",
+      "vietnamese": "một phần nhỏ",
+      "ipa": "/smɔːl ˈpɔːrʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Only a small portion of the land is suitable for farming.",
+          "vi": "Chỉ một phần nhỏ đất đai phù hợp cho canh tác."
+        },
+        {
+          "en": "She saved a small portion of her salary each month.",
+          "vi": "Cô tiết kiệm một phần nhỏ lương mỗi tháng."
+        },
+        {
+          "en": "A small portion of the report focused on safety.",
+          "vi": "Một phần nhỏ của báo cáo tập trung vào an toàn."
+        }
+      ]
+    },
+    {
+      "english": "small proportion of",
+      "vietnamese": "một tỷ lệ nhỏ",
+      "ipa": "/smɔːl prəˈpɔːrʃən əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A small proportion of households still lack internet access.",
+          "vi": "Một tỷ lệ nhỏ hộ gia đình vẫn chưa có internet."
+        },
+        {
+          "en": "Only a small proportion of income goes toward savings.",
+          "vi": "Chỉ một tỷ lệ nhỏ thu nhập được dùng để tiết kiệm."
+        },
+        {
+          "en": "A small proportion of cases required hospital treatment.",
+          "vi": "Một tỷ lệ nhỏ ca bệnh cần điều trị tại bệnh viện."
+        }
+      ]
+    },
+    {
+      "english": "small quantities of",
+      "vietnamese": "một lượng nhỏ",
+      "ipa": "/smɔːl ˈkwɑːntətiz əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The recipe uses only small quantities of salt.",
+          "vi": "Công thức chỉ dùng một lượng nhỏ muối."
+        },
+        {
+          "en": "Small quantities of the chemical were found in the water.",
+          "vi": "Một lượng nhỏ hóa chất được tìm thấy trong nước."
+        },
+        {
+          "en": "Plants absorb small quantities of nutrients through their roots.",
+          "vi": "Cây hấp thụ một lượng nhỏ chất dinh dưỡng qua rễ."
+        }
+      ]
+    },
+    {
+      "english": "social activity",
+      "vietnamese": "hoạt động xã hội",
+      "ipa": "/ˈsoʊʃəl ækˈtɪvəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The club organizes a social activity every weekend.",
+          "vi": "Câu lạc bộ tổ chức một hoạt động xã hội mỗi cuối tuần."
+        },
+        {
+          "en": "Social activity helps older adults stay mentally healthy.",
+          "vi": "Hoạt động xã hội giúp người lớn tuổi giữ sức khỏe tinh thần."
+        },
+        {
+          "en": "Many students value social activity as much as study.",
+          "vi": "Nhiều sinh viên coi trọng hoạt động xã hội ngang với học tập."
+        }
+      ]
+    },
+    {
+      "english": "social aspect",
+      "vietnamese": "khía cạnh xã hội",
+      "ipa": "/ˈsoʊʃəl ˈæspekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study explored the social aspect of online gaming.",
+          "vi": "Nghiên cứu khám phá khía cạnh xã hội của trò chơi trực tuyến."
+        },
+        {
+          "en": "Teachers often overlook the social aspect of learning.",
+          "vi": "Giáo viên thường bỏ qua khía cạnh xã hội của việc học."
+        },
+        {
+          "en": "The social aspect of the festival attracts many visitors.",
+          "vi": "Khía cạnh xã hội của lễ hội thu hút nhiều du khách."
+        }
+      ]
+    },
+    {
+      "english": "social attitudes",
+      "vietnamese": "thái độ xã hội",
+      "ipa": "/ˈsoʊʃəl ˈætətuːdz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Social attitudes toward marriage have changed considerably over time.",
+          "vi": "Thái độ xã hội đối với hôn nhân đã thay đổi đáng kể theo thời gian."
+        },
+        {
+          "en": "Education can gradually reshape social attitudes about disability.",
+          "vi": "Giáo dục có thể dần định hình lại thái độ xã hội về khuyết tật."
+        },
+        {
+          "en": "The survey measured social attitudes across different age groups.",
+          "vi": "Cuộc khảo sát đo lường thái độ xã hội ở các nhóm tuổi khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "social background",
+      "vietnamese": "hoàn cảnh xã hội",
+      "ipa": "/ˈsoʊʃəl ˈbækɡraʊnd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students come from very different social backgrounds here.",
+          "vi": "Học sinh ở đây đến từ những hoàn cảnh xã hội rất khác nhau."
+        },
+        {
+          "en": "Social background can strongly influence a child's opportunities.",
+          "vi": "Hoàn cảnh xã hội có thể ảnh hưởng mạnh đến cơ hội của trẻ."
+        },
+        {
+          "en": "The program supports students regardless of social background.",
+          "vi": "Chương trình hỗ trợ học sinh bất kể hoàn cảnh xã hội."
+        }
+      ]
+    },
+    {
+      "english": "social behavior",
+      "vietnamese": "hành vi xã hội",
+      "ipa": "/ˈsoʊʃəl bɪˈheɪvjər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Researchers study how culture shapes social behavior in children.",
+          "vi": "Các nhà nghiên cứu tìm hiểu cách văn hóa định hình hành vi xã hội ở trẻ."
+        },
+        {
+          "en": "Social behavior often differs greatly between rural and urban areas.",
+          "vi": "Hành vi xã hội thường khác nhau nhiều giữa nông thôn và thành thị."
+        },
+        {
+          "en": "The experiment measured changes in social behavior over months.",
+          "vi": "Thí nghiệm đo lường thay đổi trong hành vi xã hội qua nhiều tháng."
+        }
+      ]
+    },
+    {
+      "english": "social circumstances",
+      "vietnamese": "hoàn cảnh xã hội",
+      "ipa": "/ˈsoʊʃəl ˈsɜːrkəmstænsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Their social circumstances limited access to higher education.",
+          "vi": "Hoàn cảnh xã hội của họ hạn chế việc tiếp cận giáo dục đại học."
+        },
+        {
+          "en": "Health outcomes often depend on a person's social circumstances.",
+          "vi": "Kết quả sức khỏe thường phụ thuộc vào hoàn cảnh xã hội của một người."
+        },
+        {
+          "en": "Policies should account for the social circumstances of families.",
+          "vi": "Chính sách nên tính đến hoàn cảnh xã hội của các gia đình."
+        }
+      ]
+    },
+    {
+      "english": "social conflict",
+      "vietnamese": "xung đột xã hội",
+      "ipa": "/ˈsoʊʃəl ˈkɑːnflɪkt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Rising inequality can fuel serious social conflict over time.",
+          "vi": "Bất bình đẳng gia tăng có thể gây ra xung đột xã hội nghiêm trọng."
+        },
+        {
+          "en": "The region has a long history of social conflict.",
+          "vi": "Khu vực này có lịch sử xung đột xã hội lâu dài."
+        },
+        {
+          "en": "Dialogue between groups helped reduce the social conflict.",
+          "vi": "Đối thoại giữa các nhóm đã giúp giảm xung đột xã hội."
+        }
+      ]
+    },
+    {
+      "english": "social consequences",
+      "vietnamese": "hệ quả xã hội",
+      "ipa": "/ˈsoʊʃəl ˈkɑːnsəkwensɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Unemployment carries serious social consequences for whole communities.",
+          "vi": "Thất nghiệp mang lại hệ quả xã hội nghiêm trọng cho cả cộng đồng."
+        },
+        {
+          "en": "The policy ignored the long-term social consequences of poverty.",
+          "vi": "Chính sách đã bỏ qua hệ quả xã hội lâu dài của nghèo đói."
+        },
+        {
+          "en": "New technology often brings unexpected social consequences.",
+          "vi": "Công nghệ mới thường mang lại hệ quả xã hội bất ngờ."
+        }
+      ]
+    },
+    {
+      "english": "social construct",
+      "vietnamese": "kiến tạo xã hội",
+      "ipa": "/ˈsoʊʃəl ˈkɑːnstrʌkt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many scholars argue that race is a social construct.",
+          "vi": "Nhiều học giả cho rằng chủng tộc là một kiến tạo xã hội."
+        },
+        {
+          "en": "Gender roles are often described as a social construct.",
+          "vi": "Vai trò giới thường được mô tả như một kiến tạo xã hội."
+        },
+        {
+          "en": "The idea of beauty is partly a social construct.",
+          "vi": "Quan niệm về cái đẹp một phần là kiến tạo xã hội."
+        }
+      ]
+    },
+    {
+      "english": "social contact",
+      "vietnamese": "tiếp xúc xã hội",
+      "ipa": "/ˈsoʊʃəl ˈkɑːntækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Regular social contact improves mental health in elderly people.",
+          "vi": "Tiếp xúc xã hội thường xuyên cải thiện sức khỏe tinh thần người già."
+        },
+        {
+          "en": "The lockdown reduced everyday social contact for many people.",
+          "vi": "Đợt phong tỏa làm giảm tiếp xúc xã hội hằng ngày của nhiều người."
+        },
+        {
+          "en": "Children develop language skills through frequent social contact.",
+          "vi": "Trẻ phát triển kỹ năng ngôn ngữ qua tiếp xúc xã hội thường xuyên."
+        }
+      ]
+    },
+    {
+      "english": "social context",
+      "vietnamese": "bối cảnh xã hội",
+      "ipa": "/ˈsoʊʃəl ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Language always carries meaning within its social context.",
+          "vi": "Ngôn ngữ luôn mang ý nghĩa trong bối cảnh xã hội của nó."
+        },
+        {
+          "en": "We must understand the social context of the historical event.",
+          "vi": "Chúng ta phải hiểu bối cảnh xã hội của sự kiện lịch sử."
+        },
+        {
+          "en": "Behavior changes depending on the surrounding social context.",
+          "vi": "Hành vi thay đổi tùy theo bối cảnh xã hội xung quanh."
+        }
+      ]
+    }
+  ]
+}

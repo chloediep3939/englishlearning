@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 42/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 42/83"
+  },
+  "cards": [
+    {
+      "english": "legal issue",
+      "vietnamese": "vấn đề pháp lý",
+      "ipa": "/ˈliːɡəl ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The contract raised several complex legal issues for the team.",
+          "vi": "Hợp đồng đặt ra vài vấn đề pháp lý phức tạp cho nhóm."
+        },
+        {
+          "en": "Privacy has become a major legal issue in technology.",
+          "vi": "Quyền riêng tư đã trở thành một vấn đề pháp lý lớn trong công nghệ."
+        },
+        {
+          "en": "The lawyer advised her on a tricky legal issue.",
+          "vi": "Luật sư tư vấn cho cô về một vấn đề pháp lý hóc búa."
+        }
+      ]
+    },
+    {
+      "english": "legal obligation",
+      "vietnamese": "nghĩa vụ pháp lý",
+      "ipa": "/ˈliːɡəl ˌɑːblɪˈɡeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Employers have a legal obligation to ensure workplace safety.",
+          "vi": "Người sử dụng lao động có nghĩa vụ pháp lý bảo đảm an toàn nơi làm việc."
+        },
+        {
+          "en": "The company met its legal obligations under the contract.",
+          "vi": "Công ty đã thực hiện các nghĩa vụ pháp lý theo hợp đồng."
+        },
+        {
+          "en": "Paying taxes is a legal obligation for every citizen.",
+          "vi": "Nộp thuế là một nghĩa vụ pháp lý của mọi công dân."
+        }
+      ]
+    },
+    {
+      "english": "legal position",
+      "vietnamese": "tình trạng pháp lý, lập trường pháp lý",
+      "ipa": "/ˈliːɡəl pəˈzɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The lawyer explained the company's legal position in detail.",
+          "vi": "Luật sư giải thích chi tiết tình trạng pháp lý của công ty."
+        },
+        {
+          "en": "Their legal position weakened once new evidence appeared.",
+          "vi": "Lập trường pháp lý của họ yếu đi khi bằng chứng mới xuất hiện."
+        },
+        {
+          "en": "We should clarify our legal position before signing anything.",
+          "vi": "Chúng ta nên làm rõ tình trạng pháp lý trước khi ký bất cứ điều gì."
+        }
+      ]
+    },
+    {
+      "english": "legal proceedings",
+      "vietnamese": "thủ tục tố tụng",
+      "ipa": "/ˈliːɡəl prəˈsiːdɪŋz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Legal proceedings began after the two firms failed to agree.",
+          "vi": "Thủ tục tố tụng bắt đầu sau khi hai công ty không thể thỏa thuận."
+        },
+        {
+          "en": "The legal proceedings could last for several years.",
+          "vi": "Thủ tục tố tụng có thể kéo dài nhiều năm."
+        },
+        {
+          "en": "She was advised not to comment during the legal proceedings.",
+          "vi": "Cô được khuyên không bình luận trong quá trình tố tụng."
+        }
+      ]
+    },
+    {
+      "english": "legal protection",
+      "vietnamese": "sự bảo vệ pháp lý",
+      "ipa": "/ˈliːɡəl prəˈtekʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The law gives strong legal protection to tenants.",
+          "vi": "Luật trao sự bảo vệ pháp lý mạnh mẽ cho người thuê nhà."
+        },
+        {
+          "en": "Workers demanded better legal protection against unfair dismissal.",
+          "vi": "Người lao động đòi hỏi sự bảo vệ pháp lý tốt hơn trước sa thải bất công."
+        },
+        {
+          "en": "Copyright offers legal protection for original creative work.",
+          "vi": "Bản quyền cung cấp sự bảo vệ pháp lý cho sáng tác gốc."
+        }
+      ]
+    },
+    {
+      "english": "legal requirement",
+      "vietnamese": "yêu cầu pháp lý",
+      "ipa": "/ˈliːɡəl rɪˈkwaɪrmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Wearing a seatbelt is a legal requirement in most countries.",
+          "vi": "Thắt dây an toàn là một yêu cầu pháp lý ở hầu hết các nước."
+        },
+        {
+          "en": "The firm must meet every legal requirement before opening.",
+          "vi": "Công ty phải đáp ứng mọi yêu cầu pháp lý trước khi mở cửa."
+        },
+        {
+          "en": "Reporting income is a legal requirement for all businesses.",
+          "vi": "Khai báo thu nhập là một yêu cầu pháp lý đối với mọi doanh nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "legal right",
+      "vietnamese": "quyền hợp pháp",
+      "ipa": "/ˈliːɡəl ˈraɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every citizen has the legal right to a fair trial.",
+          "vi": "Mọi công dân đều có quyền hợp pháp được xét xử công bằng."
+        },
+        {
+          "en": "Workers have a legal right to safe working conditions.",
+          "vi": "Người lao động có quyền hợp pháp được làm việc trong điều kiện an toàn."
+        },
+        {
+          "en": "The reform extended legal rights to more groups.",
+          "vi": "Cuộc cải cách mở rộng quyền hợp pháp cho nhiều nhóm hơn."
+        }
+      ]
+    },
+    {
+      "english": "legal rule",
+      "vietnamese": "quy tắc pháp lý",
+      "ipa": "/ˈliːɡəl ˈruːl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A clear legal rule helps judges decide similar cases.",
+          "vi": "Một quy tắc pháp lý rõ ràng giúp thẩm phán xử các vụ tương tự."
+        },
+        {
+          "en": "The new legal rule applies to all imported goods.",
+          "vi": "Quy tắc pháp lý mới áp dụng cho mọi hàng hóa nhập khẩu."
+        },
+        {
+          "en": "Courts sometimes reinterpret an old legal rule over time.",
+          "vi": "Tòa án đôi khi diễn giải lại một quy tắc pháp lý cũ theo thời gian."
+        }
+      ]
+    },
+    {
+      "english": "legal status",
+      "vietnamese": "tư cách pháp lý",
+      "ipa": "/ˈliːɡəl ˈstætəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The treaty clarifies the legal status of refugees in the country.",
+          "vi": "Hiệp ước làm rõ tư cách pháp lý của người tị nạn trong nước."
+        },
+        {
+          "en": "Marriage can change a person's legal status in many ways.",
+          "vi": "Hôn nhân có thể thay đổi tư cách pháp lý của một người theo nhiều cách."
+        },
+        {
+          "en": "Lawyers debated the legal status of the disputed land.",
+          "vi": "Các luật sư tranh luận về tư cách pháp lý của khu đất tranh chấp."
+        }
+      ]
+    },
+    {
+      "english": "legal system",
+      "vietnamese": "hệ thống pháp luật",
+      "ipa": "/ˈliːɡəl ˈsɪstəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The country's legal system protects the rights of every citizen.",
+          "vi": "Hệ thống pháp luật của quốc gia bảo vệ quyền của mọi công dân."
+        },
+        {
+          "en": "Reforming the legal system requires careful planning and broad support.",
+          "vi": "Cải cách hệ thống pháp luật đòi hỏi kế hoạch kỹ lưỡng và sự ủng hộ rộng rãi."
+        },
+        {
+          "en": "Students compared the legal system of two different nations.",
+          "vi": "Sinh viên so sánh hệ thống pháp luật của hai quốc gia khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "legislative measures",
+      "vietnamese": "các biện pháp lập pháp",
+      "ipa": "/ˈledʒɪsleɪtɪv ˈmeʒərz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The government introduced legislative measures to reduce air pollution.",
+          "vi": "Chính phủ đưa ra các biện pháp lập pháp để giảm ô nhiễm không khí."
+        },
+        {
+          "en": "New legislative measures aim to protect workers from unfair dismissal.",
+          "vi": "Các biện pháp lập pháp mới nhằm bảo vệ người lao động khỏi việc sa thải bất công."
+        },
+        {
+          "en": "Effective legislative measures often follow extensive public consultation.",
+          "vi": "Các biện pháp lập pháp hiệu quả thường theo sau quá trình tham vấn công chúng rộng rãi."
+        }
+      ]
+    },
+    {
+      "english": "legislative power",
+      "vietnamese": "quyền lập pháp",
+      "ipa": "/ˈledʒɪsleɪtɪv ˈpaʊər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The constitution gives legislative power to the elected parliament.",
+          "vi": "Hiến pháp trao quyền lập pháp cho nghị viện được bầu."
+        },
+        {
+          "en": "Critics argued that the reform expanded the president's legislative power.",
+          "vi": "Các nhà phê bình cho rằng cải cách đã mở rộng quyền lập pháp của tổng thống."
+        },
+        {
+          "en": "Legislative power should remain separate from the judiciary.",
+          "vi": "Quyền lập pháp nên tách biệt khỏi quyền tư pháp."
+        }
+      ]
+    },
+    {
+      "english": "liberal democracy",
+      "vietnamese": "nền dân chủ tự do",
+      "ipa": "/ˈlɪbərəl dɪˈmɑːkrəsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A liberal democracy depends on free elections and individual rights.",
+          "vi": "Một nền dân chủ tự do phụ thuộc vào bầu cử tự do và quyền cá nhân."
+        },
+        {
+          "en": "The essay examined challenges facing modern liberal democracy.",
+          "vi": "Bài luận xem xét những thách thức mà nền dân chủ tự do hiện đại đối mặt."
+        },
+        {
+          "en": "In a liberal democracy, the press operates without state control.",
+          "vi": "Trong nền dân chủ tự do, báo chí hoạt động mà không bị nhà nước kiểm soát."
+        }
+      ]
+    },
+    {
+      "english": "lifelong learning",
+      "vietnamese": "học tập suốt đời",
+      "ipa": "/ˈlaɪflɔːŋ ˈlɜːrnɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Lifelong learning helps people adapt to a changing job market.",
+          "vi": "Học tập suốt đời giúp con người thích nghi với thị trường việc làm đang thay đổi."
+        },
+        {
+          "en": "The university promotes lifelong learning through its evening courses.",
+          "vi": "Trường đại học thúc đẩy học tập suốt đời qua các khóa học buổi tối."
+        },
+        {
+          "en": "Many employers now value a commitment to lifelong learning.",
+          "vi": "Nhiều nhà tuyển dụng giờ đây coi trọng cam kết học tập suốt đời."
+        }
+      ]
+    },
+    {
+      "english": "likely impact",
+      "vietnamese": "tác động có khả năng xảy ra",
+      "ipa": "/ˈlaɪkli ˈɪmpækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Researchers assessed the likely impact of the new policy.",
+          "vi": "Các nhà nghiên cứu đánh giá tác động có khả năng xảy ra của chính sách mới."
+        },
+        {
+          "en": "The report describes the likely impact of climate change on farming.",
+          "vi": "Báo cáo mô tả tác động có khả năng xảy ra của biến đổi khí hậu lên nông nghiệp."
+        },
+        {
+          "en": "Economists disagreed about the likely impact of the tax cut.",
+          "vi": "Các nhà kinh tế bất đồng về tác động có khả năng xảy ra của việc giảm thuế."
+        }
+      ]
+    },
+    {
+      "english": "likely outcome",
+      "vietnamese": "kết quả có khả năng xảy ra",
+      "ipa": "/ˈlaɪkli ˈaʊtkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Analysts predicted the most likely outcome of the election.",
+          "vi": "Các nhà phân tích dự đoán kết quả có khả năng xảy ra nhất của cuộc bầu cử."
+        },
+        {
+          "en": "The model calculates the likely outcome of each treatment.",
+          "vi": "Mô hình tính toán kết quả có khả năng xảy ra của mỗi phương pháp điều trị."
+        },
+        {
+          "en": "A delayed flight was the likely outcome of the storm.",
+          "vi": "Chuyến bay bị hoãn là kết quả có khả năng xảy ra của cơn bão."
+        }
+      ]
+    },
+    {
+      "english": "limited access",
+      "vietnamese": "khả năng tiếp cận hạn chế",
+      "ipa": "/ˈlɪmɪtɪd ˈækses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Rural areas often have limited access to specialist healthcare.",
+          "vi": "Các vùng nông thôn thường có khả năng tiếp cận dịch vụ y tế chuyên khoa hạn chế."
+        },
+        {
+          "en": "Students with limited access to computers fall behind quickly.",
+          "vi": "Học sinh có khả năng tiếp cận máy tính hạn chế sẽ tụt lại nhanh chóng."
+        },
+        {
+          "en": "The reserve grants visitors limited access during nesting season.",
+          "vi": "Khu bảo tồn cho khách tham quan khả năng tiếp cận hạn chế trong mùa làm tổ."
+        }
+      ]
+    },
+    {
+      "english": "limited capacity",
+      "vietnamese": "năng lực hạn chế",
+      "ipa": "/ˈlɪmɪtɪd kəˈpæsəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The hospital has limited capacity to treat emergency patients.",
+          "vi": "Bệnh viện có năng lực hạn chế để điều trị bệnh nhân cấp cứu."
+        },
+        {
+          "en": "Short-term memory has a limited capacity for holding information.",
+          "vi": "Trí nhớ ngắn hạn có năng lực hạn chế trong việc lưu giữ thông tin."
+        },
+        {
+          "en": "Small firms have limited capacity to absorb sudden losses.",
+          "vi": "Các công ty nhỏ có năng lực hạn chế để hấp thụ thua lỗ bất ngờ."
+        }
+      ]
+    },
+    {
+      "english": "limited information",
+      "vietnamese": "thông tin hạn chế",
+      "ipa": "/ˈlɪmɪtɪd ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Doctors made the decision with only limited information available.",
+          "vi": "Các bác sĩ ra quyết định khi chỉ có thông tin hạn chế."
+        },
+        {
+          "en": "The early study provided limited information about the disease.",
+          "vi": "Nghiên cứu ban đầu cung cấp thông tin hạn chế về căn bệnh."
+        },
+        {
+          "en": "Investors often act despite limited information about new markets.",
+          "vi": "Các nhà đầu tư thường hành động dù chỉ có thông tin hạn chế về thị trường mới."
+        }
+      ]
+    },
+    {
+      "english": "limited opportunity",
+      "vietnamese": "cơ hội hạn chế",
+      "ipa": "/ˈlɪmɪtɪd ˌɑːpərˈtuːnəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Young people in the village had limited opportunity for advancement.",
+          "vi": "Người trẻ trong làng có cơ hội thăng tiến hạn chế."
+        },
+        {
+          "en": "The internship offers limited opportunity to gain practical experience.",
+          "vi": "Kỳ thực tập cung cấp cơ hội hạn chế để tích lũy kinh nghiệm thực tế."
+        },
+        {
+          "en": "She faced limited opportunity to present her own research.",
+          "vi": "Cô gặp cơ hội hạn chế để trình bày nghiên cứu của riêng mình."
+        }
+      ]
+    },
+    {
+      "english": "limited range of",
+      "vietnamese": "phạm vi hạn chế của",
+      "ipa": "/ˈlɪmɪtɪd ˈreɪndʒ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The shop stocked only a limited range of imported goods.",
+          "vi": "Cửa hàng chỉ trữ một phạm vi hạn chế của hàng nhập khẩu."
+        },
+        {
+          "en": "The survey covered a limited range of social behaviours.",
+          "vi": "Cuộc khảo sát bao quát một phạm vi hạn chế của các hành vi xã hội."
+        },
+        {
+          "en": "Early phones supported a limited range of functions.",
+          "vi": "Điện thoại đời đầu hỗ trợ một phạm vi hạn chế của các chức năng."
+        }
+      ]
+    },
+    {
+      "english": "limited resources",
+      "vietnamese": "nguồn lực hạn chế",
+      "ipa": "/ˈlɪmɪtɪd ˈriːsɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Charities must achieve their goals with limited resources.",
+          "vi": "Các tổ chức từ thiện phải đạt được mục tiêu với nguồn lực hạn chế."
+        },
+        {
+          "en": "The school managed excellent results despite limited resources.",
+          "vi": "Trường đạt kết quả xuất sắc dù có nguồn lực hạn chế."
+        },
+        {
+          "en": "Developing nations often compete for limited resources.",
+          "vi": "Các quốc gia đang phát triển thường cạnh tranh giành nguồn lực hạn chế."
+        }
+      ]
+    },
+    {
+      "english": "linear relationship",
+      "vietnamese": "mối quan hệ tuyến tính",
+      "ipa": "/ˈlɪniər rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The graph shows a clear linear relationship between the two variables.",
+          "vi": "Đồ thị cho thấy mối quan hệ tuyến tính rõ ràng giữa hai biến số."
+        },
+        {
+          "en": "Researchers found no linear relationship between diet and mood.",
+          "vi": "Các nhà nghiên cứu không tìm thấy mối quan hệ tuyến tính giữa chế độ ăn và tâm trạng."
+        },
+        {
+          "en": "A linear relationship makes the data easy to predict.",
+          "vi": "Mối quan hệ tuyến tính khiến dữ liệu dễ dự đoán."
+        }
+      ]
+    },
+    {
+      "english": "literal interpretation",
+      "vietnamese": "cách diễn giải theo nghĩa đen",
+      "ipa": "/ˈlɪtərəl ɪnˌtɜːrprɪˈteɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A literal interpretation of the poem misses its deeper meaning.",
+          "vi": "Cách diễn giải theo nghĩa đen của bài thơ bỏ lỡ ý nghĩa sâu xa của nó."
+        },
+        {
+          "en": "Judges sometimes prefer a literal interpretation of the law.",
+          "vi": "Đôi khi các thẩm phán ưa thích cách diễn giải luật theo nghĩa đen."
+        },
+        {
+          "en": "His literal interpretation of the instructions caused confusion.",
+          "vi": "Cách diễn giải theo nghĩa đen của anh về hướng dẫn đã gây nhầm lẫn."
+        }
+      ]
+    },
+    {
+      "english": "literal meaning",
+      "vietnamese": "nghĩa đen",
+      "ipa": "/ˈlɪtərəl ˈmiːnɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The literal meaning of the phrase differs from its common usage.",
+          "vi": "Nghĩa đen của cụm từ khác với cách dùng thông thường của nó."
+        },
+        {
+          "en": "Idioms cannot be understood from their literal meaning alone.",
+          "vi": "Không thể hiểu thành ngữ chỉ qua nghĩa đen của chúng."
+        },
+        {
+          "en": "Translators must look beyond the literal meaning of words.",
+          "vi": "Người dịch phải nhìn xa hơn nghĩa đen của từ ngữ."
+        }
+      ]
+    },
+    {
+      "english": "literal sense",
+      "vietnamese": "nghĩa đen",
+      "ipa": "/ˈlɪtərəl ˈsens/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In the literal sense, the word simply means to fall.",
+          "vi": "Theo nghĩa đen, từ này chỉ đơn giản có nghĩa là rơi."
+        },
+        {
+          "en": "She did not mean the comment in a literal sense.",
+          "vi": "Cô không có ý nói nhận xét đó theo nghĩa đen."
+        },
+        {
+          "en": "Taken in its literal sense, the rule seems absurd.",
+          "vi": "Hiểu theo nghĩa đen, quy tắc này có vẻ vô lý."
+        }
+      ]
+    },
+    {
+      "english": "literary text",
+      "vietnamese": "văn bản văn học",
+      "ipa": "/ˈlɪtəreri ˈtekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students analysed the literary text for its hidden symbolism.",
+          "vi": "Sinh viên phân tích văn bản văn học để tìm tính biểu tượng ẩn giấu."
+        },
+        {
+          "en": "Each literary text reflects the era in which it was written.",
+          "vi": "Mỗi văn bản văn học phản ánh thời đại mà nó được viết ra."
+        },
+        {
+          "en": "The professor compared two literary texts from the same period.",
+          "vi": "Giáo sư so sánh hai văn bản văn học từ cùng một thời kỳ."
+        }
+      ]
+    },
+    {
+      "english": "literary tradition",
+      "vietnamese": "truyền thống văn học",
+      "ipa": "/ˈlɪtəreri trəˈdɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The novel draws heavily on a rich literary tradition.",
+          "vi": "Cuốn tiểu thuyết dựa nhiều vào một truyền thống văn học phong phú."
+        },
+        {
+          "en": "Oral storytelling forms part of the region's literary tradition.",
+          "vi": "Kể chuyện truyền miệng là một phần của truyền thống văn học của vùng."
+        },
+        {
+          "en": "Modern writers often challenge an established literary tradition.",
+          "vi": "Các nhà văn hiện đại thường thách thức một truyền thống văn học đã được thiết lập."
+        }
+      ]
+    },
+    {
+      "english": "little evidence",
+      "vietnamese": "ít bằng chứng",
+      "ipa": "/ˈlɪtəl ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is little evidence that the treatment actually works.",
+          "vi": "Có ít bằng chứng cho thấy phương pháp điều trị thực sự hiệu quả."
+        },
+        {
+          "en": "The study found little evidence of long-term harm.",
+          "vi": "Nghiên cứu tìm thấy ít bằng chứng về tác hại lâu dài."
+        },
+        {
+          "en": "Little evidence supports the claim that prices will fall.",
+          "vi": "Ít bằng chứng ủng hộ tuyên bố rằng giá sẽ giảm."
+        }
+      ]
+    },
+    {
+      "english": "little impact",
+      "vietnamese": "ít tác động",
+      "ipa": "/ˈlɪtəl ˈɪmpækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new rules had little impact on student behaviour.",
+          "vi": "Các quy tắc mới có ít tác động đến hành vi của học sinh."
+        },
+        {
+          "en": "Advertising made little impact on the company's sales.",
+          "vi": "Quảng cáo có ít tác động đến doanh số của công ty."
+        },
+        {
+          "en": "Small donations have little impact on a large deficit.",
+          "vi": "Những khoản quyên góp nhỏ có ít tác động đến một khoản thâm hụt lớn."
+        }
+      ]
+    }
+  ]
+}

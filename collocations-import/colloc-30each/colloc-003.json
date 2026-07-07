@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 03/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 03/83"
+  },
+  "cards": [
+    {
+      "english": "alternative form",
+      "vietnamese": "hình thức khác, dạng thay thế",
+      "ipa": "/ɔːlˈtɜːrnətɪv fɔːrm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Solar power is an alternative form of energy.",
+          "vi": "Năng lượng mặt trời là một dạng năng lượng thay thế."
+        },
+        {
+          "en": "The essay can be submitted in an alternative form.",
+          "vi": "Bài luận có thể được nộp dưới một hình thức khác."
+        },
+        {
+          "en": "Sign language is an alternative form of communication.",
+          "vi": "Ngôn ngữ ký hiệu là một hình thức giao tiếp khác."
+        }
+      ]
+    },
+    {
+      "english": "alternative interpretation",
+      "vietnamese": "cách diễn giải khác",
+      "ipa": "/ɔːlˈtɜːrnətɪv ɪnˌtɜːrprəˈteɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The poem allows for an alternative interpretation.",
+          "vi": "Bài thơ cho phép một cách diễn giải khác."
+        },
+        {
+          "en": "He proposed an alternative interpretation of the results.",
+          "vi": "Ông đề xuất một cách diễn giải khác về kết quả."
+        },
+        {
+          "en": "An alternative interpretation challenges the old theory.",
+          "vi": "Một cách diễn giải khác thách thức lý thuyết cũ."
+        }
+      ]
+    },
+    {
+      "english": "alternative means",
+      "vietnamese": "phương tiện khác, cách thức khác",
+      "ipa": "/ɔːlˈtɜːrnətɪv miːnz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cycling is an alternative means of transport.",
+          "vi": "Đạp xe là một phương tiện di chuyển khác."
+        },
+        {
+          "en": "They sought alternative means of funding the project.",
+          "vi": "Họ tìm những cách thức khác để tài trợ cho dự án."
+        },
+        {
+          "en": "Email offers an alternative means of contact.",
+          "vi": "Email cung cấp một phương tiện liên lạc khác."
+        }
+      ]
+    },
+    {
+      "english": "alternative method",
+      "vietnamese": "phương pháp khác",
+      "ipa": "/ɔːlˈtɜːrnətɪv ˈmeθəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Researchers tested an alternative method of analysis.",
+          "vi": "Các nhà nghiên cứu thử một phương pháp phân tích khác."
+        },
+        {
+          "en": "An alternative method produced faster results.",
+          "vi": "Một phương pháp khác cho kết quả nhanh hơn."
+        },
+        {
+          "en": "She prefers the alternative method of teaching.",
+          "vi": "Cô thích phương pháp giảng dạy khác hơn."
+        }
+      ]
+    },
+    {
+      "english": "alternative model",
+      "vietnamese": "mô hình khác",
+      "ipa": "/ɔːlˈtɜːrnətɪv ˈmɑːdəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Economists proposed an alternative model of growth.",
+          "vi": "Các nhà kinh tế đề xuất một mô hình tăng trưởng khác."
+        },
+        {
+          "en": "The study tests an alternative model of behavior.",
+          "vi": "Nghiên cứu kiểm tra một mô hình hành vi khác."
+        },
+        {
+          "en": "An alternative model better explains the findings.",
+          "vi": "Một mô hình khác giải thích các phát hiện tốt hơn."
+        }
+      ]
+    },
+    {
+      "english": "alternative solution",
+      "vietnamese": "giải pháp khác",
+      "ipa": "/ɔːlˈtɜːrnətɪv səˈluːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "If this fails, we need an alternative solution.",
+          "vi": "Nếu cách này thất bại, ta cần một giải pháp khác."
+        },
+        {
+          "en": "Engineers searched for an alternative solution.",
+          "vi": "Các kỹ sư tìm kiếm một giải pháp khác."
+        },
+        {
+          "en": "The committee rejected the alternative solution.",
+          "vi": "Ủy ban bác bỏ giải pháp khác."
+        }
+      ]
+    },
+    {
+      "english": "alternative source",
+      "vietnamese": "nguồn khác, nguồn thay thế",
+      "ipa": "/ɔːlˈtɜːrnətɪv sɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Wind is an alternative source of energy.",
+          "vi": "Gió là một nguồn năng lượng khác."
+        },
+        {
+          "en": "Journalists confirmed it with an alternative source.",
+          "vi": "Các nhà báo xác nhận điều đó qua một nguồn khác."
+        },
+        {
+          "en": "We must find an alternative source of funding.",
+          "vi": "Chúng ta phải tìm một nguồn tài trợ khác."
+        }
+      ]
+    },
+    {
+      "english": "alternative strategy",
+      "vietnamese": "chiến lược khác",
+      "ipa": "/ɔːlˈtɜːrnətɪv ˈstrætədʒi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company adopted an alternative strategy to grow.",
+          "vi": "Công ty áp dụng một chiến lược khác để phát triển."
+        },
+        {
+          "en": "An alternative strategy reduced their losses.",
+          "vi": "Một chiến lược khác giúp giảm thiệt hại của họ."
+        },
+        {
+          "en": "Coaches prepared an alternative strategy for the final.",
+          "vi": "Các huấn luyện viên chuẩn bị một chiến lược khác cho trận chung kết."
+        }
+      ]
+    },
+    {
+      "english": "alternative view",
+      "vietnamese": "quan điểm khác",
+      "ipa": "/ɔːlˈtɜːrnətɪv vjuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She presented an alternative view of the issue.",
+          "vi": "Cô trình bày một quan điểm khác về vấn đề."
+        },
+        {
+          "en": "The article offers an alternative view of history.",
+          "vi": "Bài báo đưa ra một quan điểm khác về lịch sử."
+        },
+        {
+          "en": "It is healthy to consider an alternative view.",
+          "vi": "Việc xem xét một quan điểm khác là điều lành mạnh."
+        }
+      ]
+    },
+    {
+      "english": "alternative way",
+      "vietnamese": "cách khác",
+      "ipa": "/ɔːlˈtɜːrnətɪv weɪ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There must be an alternative way to solve this.",
+          "vi": "Hẳn phải có một cách khác để giải quyết việc này."
+        },
+        {
+          "en": "She found an alternative way to reach the office.",
+          "vi": "Cô tìm được một cách khác để đến văn phòng."
+        },
+        {
+          "en": "Technology offers an alternative way of learning.",
+          "vi": "Công nghệ mang đến một cách học khác."
+        }
+      ]
+    },
+    {
+      "english": "ample evidence",
+      "vietnamese": "bằng chứng dồi dào, đầy đủ",
+      "ipa": "/ˈæmpəl ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is ample evidence to support the theory.",
+          "vi": "Có bằng chứng dồi dào để ủng hộ lý thuyết này."
+        },
+        {
+          "en": "The study provides ample evidence of the trend.",
+          "vi": "Nghiên cứu cung cấp bằng chứng đầy đủ về xu hướng này."
+        },
+        {
+          "en": "Ample evidence shows that exercise improves health.",
+          "vi": "Bằng chứng dồi dào cho thấy tập thể dục cải thiện sức khỏe."
+        }
+      ]
+    },
+    {
+      "english": "analytical approach",
+      "vietnamese": "cách tiếp cận phân tích",
+      "ipa": "/ˌænəˈlɪtɪkəl əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An analytical approach helps break down complex problems.",
+          "vi": "Cách tiếp cận phân tích giúp chia nhỏ các vấn đề phức tạp."
+        },
+        {
+          "en": "She takes an analytical approach to research.",
+          "vi": "Cô áp dụng cách tiếp cận phân tích trong nghiên cứu."
+        },
+        {
+          "en": "The job requires a careful, analytical approach.",
+          "vi": "Công việc đòi hỏi một cách tiếp cận phân tích cẩn thận."
+        }
+      ]
+    },
+    {
+      "english": "analytical tool",
+      "vietnamese": "công cụ phân tích",
+      "ipa": "/ˌænəˈlɪtɪkəl tuːl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Statistics is a powerful analytical tool.",
+          "vi": "Thống kê là một công cụ phân tích mạnh mẽ."
+        },
+        {
+          "en": "The software is a useful analytical tool for data.",
+          "vi": "Phần mềm là một công cụ phân tích dữ liệu hữu ích."
+        },
+        {
+          "en": "Researchers developed a new analytical tool.",
+          "vi": "Các nhà nghiên cứu phát triển một công cụ phân tích mới."
+        }
+      ]
+    },
+    {
+      "english": "anecdotal evidence",
+      "vietnamese": "bằng chứng giai thoại, truyền miệng",
+      "ipa": "/ˌænɪkˈdoʊtəl ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Anecdotal evidence is not enough to prove the claim.",
+          "vi": "Bằng chứng giai thoại không đủ để chứng minh khẳng định này."
+        },
+        {
+          "en": "He relied on anecdotal evidence rather than data.",
+          "vi": "Anh ta dựa vào bằng chứng truyền miệng thay vì dữ liệu."
+        },
+        {
+          "en": "Anecdotal evidence suggests the method works.",
+          "vi": "Bằng chứng giai thoại cho thấy phương pháp này có hiệu quả."
+        }
+      ]
+    },
+    {
+      "english": "annual conference",
+      "vietnamese": "hội nghị thường niên",
+      "ipa": "/ˈænjuəl ˈkɑːnfərəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The annual conference attracts experts from many countries.",
+          "vi": "Hội nghị thường niên thu hút chuyên gia từ nhiều quốc gia."
+        },
+        {
+          "en": "She presented her findings at the annual conference.",
+          "vi": "Cô trình bày các phát hiện tại hội nghị thường niên."
+        },
+        {
+          "en": "The annual conference will be held online this year.",
+          "vi": "Hội nghị thường niên năm nay sẽ được tổ chức trực tuyến."
+        }
+      ]
+    },
+    {
+      "english": "annual meeting",
+      "vietnamese": "cuộc họp thường niên",
+      "ipa": "/ˈænjuəl ˈmiːtɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Shareholders gather for the annual meeting.",
+          "vi": "Các cổ đông tụ họp trong cuộc họp thường niên."
+        },
+        {
+          "en": "The annual meeting reviews the year's progress.",
+          "vi": "Cuộc họp thường niên đánh giá tiến độ của cả năm."
+        },
+        {
+          "en": "Decisions are made at the annual meeting.",
+          "vi": "Các quyết định được đưa ra tại cuộc họp thường niên."
+        }
+      ]
+    },
+    {
+      "english": "annual rate",
+      "vietnamese": "tỷ lệ hằng năm, lãi suất hằng năm",
+      "ipa": "/ˈænjuəl reɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The loan has an annual rate of five percent.",
+          "vi": "Khoản vay có lãi suất hằng năm là năm phần trăm."
+        },
+        {
+          "en": "Inflation reached an annual rate of three percent.",
+          "vi": "Lạm phát đạt tỷ lệ hằng năm là ba phần trăm."
+        },
+        {
+          "en": "The annual rate of growth slowed last year.",
+          "vi": "Tỷ lệ tăng trưởng hằng năm chậm lại vào năm ngoái."
+        }
+      ]
+    },
+    {
+      "english": "annual report",
+      "vietnamese": "báo cáo thường niên",
+      "ipa": "/ˈænjuəl rɪˈpɔːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company published its annual report online.",
+          "vi": "Công ty công bố báo cáo thường niên trực tuyến."
+        },
+        {
+          "en": "The annual report shows a rise in profits.",
+          "vi": "Báo cáo thường niên cho thấy lợi nhuận tăng."
+        },
+        {
+          "en": "Investors study the annual report carefully.",
+          "vi": "Các nhà đầu tư nghiên cứu kỹ báo cáo thường niên."
+        }
+      ]
+    },
+    {
+      "english": "annual review",
+      "vietnamese": "đánh giá thường niên",
+      "ipa": "/ˈænjuəl rɪˈvjuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Employees receive feedback during the annual review.",
+          "vi": "Nhân viên nhận phản hồi trong kỳ đánh giá thường niên."
+        },
+        {
+          "en": "The annual review highlighted several achievements.",
+          "vi": "Bản đánh giá thường niên nêu bật nhiều thành tựu."
+        },
+        {
+          "en": "Her salary increased after the annual review.",
+          "vi": "Lương của cô tăng sau kỳ đánh giá thường niên."
+        }
+      ]
+    },
+    {
+      "english": "apply equally",
+      "vietnamese": "áp dụng như nhau, áp dụng bình đẳng",
+      "ipa": "/əˈplaɪ ˈiːkwəli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "The rules apply equally to all students.",
+          "vi": "Các quy định áp dụng như nhau cho mọi học sinh."
+        },
+        {
+          "en": "This principle applies equally in both cases.",
+          "vi": "Nguyên tắc này áp dụng như nhau trong cả hai trường hợp."
+        },
+        {
+          "en": "The law should apply equally to everyone.",
+          "vi": "Luật pháp nên áp dụng bình đẳng cho tất cả mọi người."
+        }
+      ]
+    },
+    {
+      "english": "apply a method",
+      "vietnamese": "áp dụng phương pháp",
+      "ipa": "/əˈplaɪ ə ˈmeθəd/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Researchers apply a scientific method to the study.",
+          "vi": "Các nhà nghiên cứu áp dụng phương pháp khoa học cho nghiên cứu."
+        },
+        {
+          "en": "You can apply this method to similar problems.",
+          "vi": "Bạn có thể áp dụng phương pháp này cho các vấn đề tương tự."
+        },
+        {
+          "en": "She applied a new method to analyze the results.",
+          "vi": "Cô áp dụng một phương pháp mới để phân tích kết quả."
+        }
+      ]
+    },
+    {
+      "english": "apply the theory",
+      "vietnamese": "áp dụng lý thuyết",
+      "ipa": "/əˈplaɪ ðə ˈθɪri/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Students learn to apply theory to real situations.",
+          "vi": "Sinh viên học cách áp dụng lý thuyết vào tình huống thực tế."
+        },
+        {
+          "en": "It is hard to apply theory without practice.",
+          "vi": "Khó áp dụng lý thuyết nếu thiếu thực hành."
+        },
+        {
+          "en": "Engineers apply theory to design safer bridges.",
+          "vi": "Các kỹ sư áp dụng lý thuyết để thiết kế những cây cầu an toàn hơn."
+        }
+      ]
+    },
+    {
+      "english": "appropriate action",
+      "vietnamese": "hành động phù hợp",
+      "ipa": "/əˈproʊpriət ˈækʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The committee took appropriate action to resolve the dispute quickly.",
+          "vi": "Ủy ban đã có hành động phù hợp để giải quyết tranh chấp nhanh chóng."
+        },
+        {
+          "en": "Managers must decide on appropriate action when problems arise.",
+          "vi": "Người quản lý phải quyết định hành động phù hợp khi vấn đề phát sinh."
+        },
+        {
+          "en": "Failing to take appropriate action can worsen the situation.",
+          "vi": "Không có hành động phù hợp có thể khiến tình hình tồi tệ hơn."
+        }
+      ]
+    },
+    {
+      "english": "appropriate behavior",
+      "vietnamese": "hành vi phù hợp",
+      "ipa": "/əˈproʊpriət bɪˈheɪvjər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Teachers model appropriate behavior for young children in class.",
+          "vi": "Giáo viên làm gương về hành vi phù hợp cho trẻ nhỏ trong lớp."
+        },
+        {
+          "en": "The handbook defines appropriate behavior in the workplace clearly.",
+          "vi": "Cẩm nang quy định rõ hành vi phù hợp tại nơi làm việc."
+        },
+        {
+          "en": "Students learn appropriate behavior through consistent rules and feedback.",
+          "vi": "Học sinh học hành vi phù hợp qua các quy tắc và phản hồi nhất quán."
+        }
+      ]
+    },
+    {
+      "english": "appropriate conditions",
+      "vietnamese": "điều kiện phù hợp",
+      "ipa": "/əˈproʊpriət kənˈdɪʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Plants grow well only under appropriate conditions of light.",
+          "vi": "Cây chỉ phát triển tốt trong điều kiện ánh sáng phù hợp."
+        },
+        {
+          "en": "Researchers created appropriate conditions for the experiment to succeed.",
+          "vi": "Các nhà nghiên cứu tạo điều kiện phù hợp để thí nghiệm thành công."
+        },
+        {
+          "en": "Appropriate conditions are essential for storing sensitive chemical samples.",
+          "vi": "Điều kiện phù hợp rất cần thiết để bảo quản mẫu hóa chất nhạy cảm."
+        }
+      ]
+    },
+    {
+      "english": "appropriate data",
+      "vietnamese": "dữ liệu phù hợp",
+      "ipa": "/əˈproʊpriət ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Selecting appropriate data is the first step in any analysis.",
+          "vi": "Chọn dữ liệu phù hợp là bước đầu tiên trong mọi phân tích."
+        },
+        {
+          "en": "Without appropriate data, the conclusions remain weak and unreliable.",
+          "vi": "Nếu thiếu dữ liệu phù hợp, kết luận sẽ yếu và không đáng tin."
+        },
+        {
+          "en": "The team gathered appropriate data from several reliable sources.",
+          "vi": "Nhóm đã thu thập dữ liệu phù hợp từ nhiều nguồn đáng tin cậy."
+        }
+      ]
+    },
+    {
+      "english": "appropriate form",
+      "vietnamese": "hình thức phù hợp",
+      "ipa": "/əˈproʊpriət fɔːrm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Choose the appropriate form to present your research findings clearly.",
+          "vi": "Hãy chọn hình thức phù hợp để trình bày rõ kết quả nghiên cứu."
+        },
+        {
+          "en": "Data should be stored in an appropriate form for analysis.",
+          "vi": "Dữ liệu nên được lưu ở hình thức phù hợp để phân tích."
+        },
+        {
+          "en": "The instructor explained the appropriate form for citing sources.",
+          "vi": "Giảng viên giải thích hình thức phù hợp để trích dẫn nguồn."
+        }
+      ]
+    },
+    {
+      "english": "appropriate language",
+      "vietnamese": "ngôn ngữ phù hợp",
+      "ipa": "/əˈproʊpriət ˈlæŋɡwɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Academic essays require appropriate language and a formal tone.",
+          "vi": "Bài luận học thuật đòi hỏi ngôn ngữ phù hợp và giọng văn trang trọng."
+        },
+        {
+          "en": "Using appropriate language helps readers understand complex ideas easily.",
+          "vi": "Dùng ngôn ngữ phù hợp giúp người đọc hiểu ý phức tạp dễ dàng."
+        },
+        {
+          "en": "The teacher praised her appropriate language during the formal presentation.",
+          "vi": "Giáo viên khen ngôn ngữ phù hợp của cô trong bài thuyết trình trang trọng."
+        }
+      ]
+    },
+    {
+      "english": "appropriate level",
+      "vietnamese": "mức độ phù hợp",
+      "ipa": "/əˈproʊpriət ˈlevəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course is taught at an appropriate level for beginners.",
+          "vi": "Khóa học được dạy ở mức độ phù hợp cho người mới bắt đầu."
+        },
+        {
+          "en": "Maintaining an appropriate level of difficulty keeps students motivated.",
+          "vi": "Giữ mức độ khó phù hợp giúp học sinh duy trì động lực."
+        },
+        {
+          "en": "Managers set tasks at an appropriate level for each employee.",
+          "vi": "Quản lý giao việc ở mức độ phù hợp với từng nhân viên."
+        }
+      ]
+    },
+    {
+      "english": "appropriate point",
+      "vietnamese": "thời điểm phù hợp",
+      "ipa": "/əˈproʊpriət pɔɪnt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Raise your questions at an appropriate point during the lecture.",
+          "vi": "Hãy nêu câu hỏi vào thời điểm phù hợp trong buổi giảng."
+        },
+        {
+          "en": "The author introduces the theory at an appropriate point.",
+          "vi": "Tác giả giới thiệu lý thuyết vào thời điểm phù hợp."
+        },
+        {
+          "en": "Stopping the discussion at an appropriate point avoids confusion.",
+          "vi": "Dừng thảo luận vào thời điểm phù hợp giúp tránh nhầm lẫn."
+        }
+      ]
+    }
+  ]
+}

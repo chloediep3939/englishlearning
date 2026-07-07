@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 20/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 20/83"
+  },
+  "cards": [
+    {
+      "english": "driving force",
+      "vietnamese": "động lực chính",
+      "ipa": "/ˈdraɪvɪŋ fɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Innovation is the driving force behind the company's success.",
+          "vi": "Đổi mới là động lực chính đằng sau thành công của công ty."
+        },
+        {
+          "en": "Curiosity was the driving force in her research career.",
+          "vi": "Sự tò mò là động lực chính trong sự nghiệp nghiên cứu của cô ấy."
+        },
+        {
+          "en": "Trade became the driving force of the region's growth.",
+          "vi": "Thương mại trở thành động lực chính cho sự tăng trưởng của khu vực."
+        }
+      ]
+    },
+    {
+      "english": "due process",
+      "vietnamese": "trình tự pháp lý đúng đắn",
+      "ipa": "/duː ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every citizen is entitled to due process under the law.",
+          "vi": "Mỗi công dân đều có quyền được hưởng trình tự pháp lý đúng đắn."
+        },
+        {
+          "en": "The court ensured due process before reaching a verdict.",
+          "vi": "Tòa án bảo đảm trình tự pháp lý đúng đắn trước khi đưa ra phán quyết."
+        },
+        {
+          "en": "Skipping due process can make a decision unlawful.",
+          "vi": "Bỏ qua trình tự pháp lý đúng đắn có thể khiến quyết định trái luật."
+        }
+      ]
+    },
+    {
+      "english": "dynamic equilibrium",
+      "vietnamese": "cân bằng động",
+      "ipa": "/daɪˈnæmɪk ˌiːkwəˈlɪbriəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The reaction reaches a dynamic equilibrium after a few minutes.",
+          "vi": "Phản ứng đạt tới trạng thái cân bằng động sau vài phút."
+        },
+        {
+          "en": "In dynamic equilibrium, forward and reverse rates are equal.",
+          "vi": "Trong cân bằng động, tốc độ thuận và nghịch bằng nhau."
+        },
+        {
+          "en": "Ecosystems often exist in a fragile dynamic equilibrium.",
+          "vi": "Các hệ sinh thái thường tồn tại trong một cân bằng động mong manh."
+        }
+      ]
+    },
+    {
+      "english": "dynamic nature",
+      "vietnamese": "bản chất năng động",
+      "ipa": "/daɪˈnæmɪk ˈneɪtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The dynamic nature of language makes it hard to fix rules.",
+          "vi": "Bản chất năng động của ngôn ngữ khiến việc cố định quy tắc rất khó."
+        },
+        {
+          "en": "Markets change quickly due to their dynamic nature.",
+          "vi": "Thị trường thay đổi nhanh do bản chất năng động của nó."
+        },
+        {
+          "en": "The dynamic nature of the field demands constant learning.",
+          "vi": "Bản chất năng động của lĩnh vực này đòi hỏi việc học liên tục."
+        }
+      ]
+    },
+    {
+      "english": "dynamic process",
+      "vietnamese": "quá trình năng động",
+      "ipa": "/daɪˈnæmɪk ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Learning is a dynamic process that continues throughout life.",
+          "vi": "Học tập là một quá trình năng động kéo dài suốt đời."
+        },
+        {
+          "en": "Cell growth is a dynamic process influenced by many factors.",
+          "vi": "Sự phát triển của tế bào là quá trình năng động chịu nhiều yếu tố tác động."
+        },
+        {
+          "en": "Culture is a dynamic process, always shifting over time.",
+          "vi": "Văn hóa là một quá trình năng động, luôn thay đổi theo thời gian."
+        }
+      ]
+    },
+    {
+      "english": "dynamic system",
+      "vietnamese": "hệ thống động",
+      "ipa": "/daɪˈnæmɪk ˈsɪstəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The climate is a dynamic system with many feedback loops.",
+          "vi": "Khí hậu là một hệ thống động với nhiều vòng phản hồi."
+        },
+        {
+          "en": "Engineers model the bridge as a dynamic system under load.",
+          "vi": "Các kỹ sư mô hình hóa cây cầu như một hệ thống động khi chịu tải."
+        },
+        {
+          "en": "A market is a dynamic system shaped by countless decisions.",
+          "vi": "Thị trường là một hệ thống động được định hình bởi vô số quyết định."
+        }
+      ]
+    },
+    {
+      "english": "earlier discussion",
+      "vietnamese": "phần thảo luận trước đó",
+      "ipa": "/ˈɜːrliər dɪˈskʌʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "As noted in the earlier discussion, the data are limited.",
+          "vi": "Như đã nêu trong phần thảo luận trước đó, dữ liệu còn hạn chế."
+        },
+        {
+          "en": "This section builds on the earlier discussion of causes.",
+          "vi": "Phần này dựa trên phần thảo luận trước đó về các nguyên nhân."
+        },
+        {
+          "en": "The earlier discussion raised several unanswered questions.",
+          "vi": "Phần thảo luận trước đó đã nêu ra nhiều câu hỏi chưa được giải đáp."
+        }
+      ]
+    },
+    {
+      "english": "earlier period",
+      "vietnamese": "thời kỳ trước đó",
+      "ipa": "/ˈɜːrliər ˈpɪriəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These customs date back to an earlier period in history.",
+          "vi": "Những phong tục này có từ một thời kỳ trước đó trong lịch sử."
+        },
+        {
+          "en": "Wages were much lower during the earlier period studied.",
+          "vi": "Tiền lương thấp hơn nhiều trong thời kỳ trước đó được nghiên cứu."
+        },
+        {
+          "en": "Art from the earlier period shows simpler designs.",
+          "vi": "Nghệ thuật từ thời kỳ trước đó cho thấy những thiết kế đơn giản hơn."
+        }
+      ]
+    },
+    {
+      "english": "earlier research",
+      "vietnamese": "nghiên cứu trước đó",
+      "ipa": "/ˈɜːrliər ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These results confirm the findings of earlier research.",
+          "vi": "Những kết quả này xác nhận các phát hiện của nghiên cứu trước đó."
+        },
+        {
+          "en": "Earlier research had ignored the role of social factors.",
+          "vi": "Nghiên cứu trước đó đã bỏ qua vai trò của các yếu tố xã hội."
+        },
+        {
+          "en": "Her study builds directly on earlier research in the field.",
+          "vi": "Nghiên cứu của cô ấy dựa trực tiếp vào nghiên cứu trước đó trong lĩnh vực này."
+        }
+      ]
+    },
+    {
+      "english": "earlier stage",
+      "vietnamese": "giai đoạn trước đó",
+      "ipa": "/ˈɜːrliər steɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Problems are easier to fix at an earlier stage.",
+          "vi": "Các vấn đề dễ khắc phục hơn ở một giai đoạn trước đó."
+        },
+        {
+          "en": "At an earlier stage, the plan looked very different.",
+          "vi": "Ở một giai đoạn trước đó, kế hoạch trông rất khác."
+        },
+        {
+          "en": "Doctors aim to detect the disease at an earlier stage.",
+          "vi": "Bác sĩ hướng tới phát hiện bệnh ở một giai đoạn trước đó."
+        }
+      ]
+    },
+    {
+      "english": "earlier study",
+      "vietnamese": "nghiên cứu trước đó",
+      "ipa": "/ˈɜːrliər ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An earlier study reached very different conclusions about the topic.",
+          "vi": "Một nghiên cứu trước đó đã đưa ra những kết luận rất khác về chủ đề này."
+        },
+        {
+          "en": "We compared our results with an earlier study from 2010.",
+          "vi": "Chúng tôi đã so sánh kết quả với một nghiên cứu trước đó từ năm 2010."
+        },
+        {
+          "en": "The earlier study used a much smaller sample size.",
+          "vi": "Nghiên cứu trước đó dùng cỡ mẫu nhỏ hơn nhiều."
+        }
+      ]
+    },
+    {
+      "english": "earlier times",
+      "vietnamese": "thời kỳ trước đây",
+      "ipa": "/ˈɜːrliər taɪmz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In earlier times, most people lived in rural villages.",
+          "vi": "Vào thời kỳ trước đây, hầu hết mọi người sống ở làng quê."
+        },
+        {
+          "en": "Trade was much slower in earlier times than today.",
+          "vi": "Việc buôn bán chậm hơn nhiều vào thời kỳ trước đây so với ngày nay."
+        },
+        {
+          "en": "These traditions date back to much earlier times.",
+          "vi": "Những truyền thống này có từ những thời kỳ trước đây rất lâu."
+        }
+      ]
+    },
+    {
+      "english": "earlier version",
+      "vietnamese": "phiên bản trước đó",
+      "ipa": "/ˈɜːrliər ˈvɜːrʒən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An earlier version of the software lacked this feature.",
+          "vi": "Một phiên bản trước đó của phần mềm thiếu tính năng này."
+        },
+        {
+          "en": "The earlier version of the report contained several errors.",
+          "vi": "Phiên bản trước đó của báo cáo chứa một số lỗi."
+        },
+        {
+          "en": "Reviewers had read an earlier version of the paper.",
+          "vi": "Người bình duyệt đã đọc một phiên bản trước đó của bài báo."
+        }
+      ]
+    },
+    {
+      "english": "earlier work",
+      "vietnamese": "công trình trước đó",
+      "ipa": "/ˈɜːrliər wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her earlier work focused mainly on childhood language development.",
+          "vi": "Công trình trước đó của bà tập trung chủ yếu vào sự phát triển ngôn ngữ ở trẻ em."
+        },
+        {
+          "en": "This paper builds directly on the author's earlier work.",
+          "vi": "Bài báo này được xây dựng trực tiếp trên công trình trước đó của tác giả."
+        },
+        {
+          "en": "Earlier work in this field had largely been ignored.",
+          "vi": "Các công trình trước đó trong lĩnh vực này phần lớn bị bỏ qua."
+        }
+      ]
+    },
+    {
+      "english": "early decades",
+      "vietnamese": "những thập niên đầu",
+      "ipa": "/ˈɜːrli ˈdekeɪdz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The early decades of the century saw rapid industrial growth.",
+          "vi": "Những thập niên đầu của thế kỷ chứng kiến sự tăng trưởng công nghiệp nhanh chóng."
+        },
+        {
+          "en": "Computers were rare during the early decades of the field.",
+          "vi": "Máy tính rất hiếm trong những thập niên đầu của lĩnh vực này."
+        },
+        {
+          "en": "In the early decades, the company employed only ten workers.",
+          "vi": "Trong những thập niên đầu, công ty chỉ thuê mười nhân công."
+        }
+      ]
+    },
+    {
+      "english": "early study",
+      "vietnamese": "nghiên cứu ban đầu",
+      "ipa": "/ˈɜːrli ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An early study suggested a link between diet and sleep.",
+          "vi": "Một nghiên cứu ban đầu cho thấy mối liên hệ giữa chế độ ăn và giấc ngủ."
+        },
+        {
+          "en": "Each early study relied on rather limited data.",
+          "vi": "Mỗi nghiên cứu ban đầu đều dựa trên dữ liệu khá hạn chế."
+        },
+        {
+          "en": "The early study laid the groundwork for later research.",
+          "vi": "Nghiên cứu ban đầu đã đặt nền móng cho các nghiên cứu về sau."
+        }
+      ]
+    },
+    {
+      "english": "easily accessible",
+      "vietnamese": "dễ tiếp cận",
+      "ipa": "/ˈiːzəli əkˈsesəbəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The library makes its archives easily accessible to students.",
+          "vi": "Thư viện làm cho kho lưu trữ dễ tiếp cận với sinh viên."
+        },
+        {
+          "en": "Public transport keeps the city center easily accessible.",
+          "vi": "Giao thông công cộng giúp trung tâm thành phố dễ tiếp cận."
+        },
+        {
+          "en": "Online resources are easily accessible from any device.",
+          "vi": "Tài nguyên trực tuyến dễ tiếp cận từ bất kỳ thiết bị nào."
+        }
+      ]
+    },
+    {
+      "english": "easily identified",
+      "vietnamese": "dễ nhận ra",
+      "ipa": "/ˈiːzəli aɪˈdentɪfaɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The error was easily identified during the first review.",
+          "vi": "Lỗi này dễ dàng được nhận ra trong lần kiểm tra đầu tiên."
+        },
+        {
+          "en": "These patterns are easily identified in the raw data.",
+          "vi": "Những mẫu hình này dễ được nhận ra trong dữ liệu thô."
+        },
+        {
+          "en": "Affected plants can be easily identified by their spots.",
+          "vi": "Cây bị ảnh hưởng có thể dễ dàng được nhận ra qua các đốm."
+        }
+      ]
+    },
+    {
+      "english": "easily understood",
+      "vietnamese": "dễ hiểu",
+      "ipa": "/ˈiːzəli ˌʌndərˈstʊd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The instructions were clear and easily understood by everyone.",
+          "vi": "Hướng dẫn rõ ràng và mọi người dễ dàng hiểu được."
+        },
+        {
+          "en": "Good charts make complex data easily understood.",
+          "vi": "Biểu đồ tốt giúp dữ liệu phức tạp trở nên dễ hiểu."
+        },
+        {
+          "en": "The concept is easily understood once examples are given.",
+          "vi": "Khái niệm này dễ hiểu khi đã có ví dụ."
+        }
+      ]
+    },
+    {
+      "english": "easy access",
+      "vietnamese": "sự tiếp cận dễ dàng",
+      "ipa": "/ˈiːzi ˈækses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students need easy access to reliable academic sources.",
+          "vi": "Sinh viên cần sự tiếp cận dễ dàng với các nguồn học thuật đáng tin cậy."
+        },
+        {
+          "en": "The app gives users easy access to their records.",
+          "vi": "Ứng dụng cho người dùng sự tiếp cận dễ dàng đến hồ sơ của họ."
+        },
+        {
+          "en": "Easy access to clean water improves community health.",
+          "vi": "Sự tiếp cận dễ dàng với nước sạch cải thiện sức khỏe cộng đồng."
+        }
+      ]
+    },
+    {
+      "english": "economic activity",
+      "vietnamese": "hoạt động kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ækˈtɪvəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The pandemic sharply reduced economic activity across the region.",
+          "vi": "Đại dịch đã làm giảm mạnh hoạt động kinh tế trên toàn khu vực."
+        },
+        {
+          "en": "Tourism remains the main economic activity on the island.",
+          "vi": "Du lịch vẫn là hoạt động kinh tế chính trên đảo."
+        },
+        {
+          "en": "Lower interest rates can boost economic activity quickly.",
+          "vi": "Lãi suất thấp hơn có thể thúc đẩy hoạt động kinh tế nhanh chóng."
+        }
+      ]
+    },
+    {
+      "english": "economic affairs",
+      "vietnamese": "các vấn đề kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk əˈferz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The minister is responsible for the nation's economic affairs.",
+          "vi": "Bộ trưởng chịu trách nhiệm về các vấn đề kinh tế của quốc gia."
+        },
+        {
+          "en": "The committee advises the government on economic affairs.",
+          "vi": "Ủy ban tư vấn cho chính phủ về các vấn đề kinh tế."
+        },
+        {
+          "en": "Newspapers devote whole sections to economic affairs.",
+          "vi": "Báo chí dành cả những chuyên mục cho các vấn đề kinh tế."
+        }
+      ]
+    },
+    {
+      "english": "economic analysis",
+      "vietnamese": "phân tích kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A careful economic analysis showed the project was unprofitable.",
+          "vi": "Một phân tích kinh tế cẩn thận cho thấy dự án không có lãi."
+        },
+        {
+          "en": "The report includes a detailed economic analysis of costs.",
+          "vi": "Báo cáo bao gồm một phân tích kinh tế chi tiết về chi phí."
+        },
+        {
+          "en": "Economic analysis helps governments plan future budgets.",
+          "vi": "Phân tích kinh tế giúp các chính phủ lập kế hoạch ngân sách tương lai."
+        }
+      ]
+    },
+    {
+      "english": "economic benefits",
+      "vietnamese": "lợi ích kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈbenɪfɪts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new factory brought clear economic benefits to the town.",
+          "vi": "Nhà máy mới mang lại lợi ích kinh tế rõ rệt cho thị trấn."
+        },
+        {
+          "en": "Researchers measured the economic benefits of better education.",
+          "vi": "Các nhà nghiên cứu đo lường lợi ích kinh tế của giáo dục tốt hơn."
+        },
+        {
+          "en": "Renewable energy offers long-term economic benefits.",
+          "vi": "Năng lượng tái tạo mang lại lợi ích kinh tế lâu dài."
+        }
+      ]
+    },
+    {
+      "english": "economic change",
+      "vietnamese": "sự thay đổi kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk tʃeɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Rapid economic change forced many workers to retrain.",
+          "vi": "Sự thay đổi kinh tế nhanh chóng buộc nhiều công nhân phải học lại nghề."
+        },
+        {
+          "en": "The study tracks economic change over three decades.",
+          "vi": "Nghiên cứu theo dõi sự thay đổi kinh tế trong ba thập kỷ."
+        },
+        {
+          "en": "Technology often drives deep economic change in society.",
+          "vi": "Công nghệ thường thúc đẩy sự thay đổi kinh tế sâu sắc trong xã hội."
+        }
+      ]
+    },
+    {
+      "english": "economic conditions",
+      "vietnamese": "điều kiện kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk kənˈdɪʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Poor economic conditions made it hard to find work.",
+          "vi": "Điều kiện kinh tế kém khiến việc tìm kiếm công việc trở nên khó khăn."
+        },
+        {
+          "en": "Investment decisions depend heavily on current economic conditions.",
+          "vi": "Quyết định đầu tư phụ thuộc nhiều vào điều kiện kinh tế hiện tại."
+        },
+        {
+          "en": "Economic conditions improved steadily after the reforms.",
+          "vi": "Điều kiện kinh tế cải thiện đều đặn sau các cải cách."
+        }
+      ]
+    },
+    {
+      "english": "economic consequences",
+      "vietnamese": "hậu quả kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈkɑːnsɪkwensɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The war had severe economic consequences for both nations.",
+          "vi": "Cuộc chiến gây ra hậu quả kinh tế nghiêm trọng cho cả hai quốc gia."
+        },
+        {
+          "en": "Policymakers must consider the economic consequences of higher taxes.",
+          "vi": "Các nhà hoạch định phải cân nhắc hậu quả kinh tế của việc tăng thuế."
+        },
+        {
+          "en": "Climate change carries far-reaching economic consequences.",
+          "vi": "Biến đổi khí hậu mang lại những hậu quả kinh tế sâu rộng."
+        }
+      ]
+    },
+    {
+      "english": "economic context",
+      "vietnamese": "bối cảnh kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These reforms must be understood in their economic context.",
+          "vi": "Những cải cách này phải được hiểu trong bối cảnh kinh tế của chúng."
+        },
+        {
+          "en": "The author describes the wider economic context of the period.",
+          "vi": "Tác giả mô tả bối cảnh kinh tế rộng lớn hơn của thời kỳ đó."
+        },
+        {
+          "en": "Decisions made sense within the economic context of the time.",
+          "vi": "Các quyết định trở nên hợp lý trong bối cảnh kinh tế thời bấy giờ."
+        }
+      ]
+    },
+    {
+      "english": "economic crisis",
+      "vietnamese": "khủng hoảng kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈkraɪsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The economic crisis left millions of people unemployed.",
+          "vi": "Cuộc khủng hoảng kinh tế khiến hàng triệu người thất nghiệp."
+        },
+        {
+          "en": "Governments struggled to respond to the economic crisis.",
+          "vi": "Các chính phủ chật vật ứng phó với cuộc khủng hoảng kinh tế."
+        },
+        {
+          "en": "The 2008 economic crisis reshaped global financial regulation.",
+          "vi": "Cuộc khủng hoảng kinh tế năm 2008 đã định hình lại quy định tài chính toàn cầu."
+        }
+      ]
+    },
+    {
+      "english": "economic exploitation",
+      "vietnamese": "sự bóc lột kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˌeksplɔɪˈteɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book examines the economic exploitation of colonial workers.",
+          "vi": "Cuốn sách xem xét sự bóc lột kinh tế đối với công nhân thuộc địa."
+        },
+        {
+          "en": "Weak laws allowed widespread economic exploitation of migrants.",
+          "vi": "Luật lệ yếu kém cho phép sự bóc lột kinh tế tràn lan đối với người di cư."
+        },
+        {
+          "en": "Activists campaigned against the economic exploitation of children.",
+          "vi": "Các nhà hoạt động vận động chống lại sự bóc lột kinh tế đối với trẻ em."
+        }
+      ]
+    }
+  ]
+}

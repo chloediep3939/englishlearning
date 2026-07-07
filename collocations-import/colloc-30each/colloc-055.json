@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 55/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 55/83"
+  },
+  "cards": [
+    {
+      "english": "political climate",
+      "vietnamese": "bầu không khí chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈklaɪmət/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The tense political climate discouraged open public debate.",
+          "vi": "Bầu không khí chính trị căng thẳng đã cản trở tranh luận công khai."
+        },
+        {
+          "en": "Investors are wary because of the uncertain political climate.",
+          "vi": "Các nhà đầu tư thận trọng vì bầu không khí chính trị bất ổn."
+        },
+        {
+          "en": "The reform reflects the changing political climate of the decade.",
+          "vi": "Cuộc cải cách phản ánh bầu không khí chính trị đang thay đổi của thập kỷ."
+        }
+      ]
+    },
+    {
+      "english": "political conflict",
+      "vietnamese": "xung đột chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈkɑːnflɪkt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Years of political conflict left the country deeply divided.",
+          "vi": "Nhiều năm xung đột chính trị đã khiến đất nước bị chia rẽ sâu sắc."
+        },
+        {
+          "en": "The treaty aimed to resolve longstanding political conflict.",
+          "vi": "Hiệp ước nhằm giải quyết xung đột chính trị kéo dài."
+        },
+        {
+          "en": "Economic inequality often fuels political conflict.",
+          "vi": "Bất bình đẳng kinh tế thường thổi bùng xung đột chính trị."
+        }
+      ]
+    },
+    {
+      "english": "political consciousness",
+      "vietnamese": "ý thức chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈkɑːnʃəsnəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The movement raised the political consciousness of young voters.",
+          "vi": "Phong trào đã nâng cao ý thức chính trị của các cử tri trẻ."
+        },
+        {
+          "en": "Education can deepen a citizen's political consciousness.",
+          "vi": "Giáo dục có thể làm sâu sắc thêm ý thức chính trị của công dân."
+        },
+        {
+          "en": "Rising political consciousness fueled demands for reform.",
+          "vi": "Ý thức chính trị gia tăng đã thúc đẩy các đòi hỏi cải cách."
+        }
+      ]
+    },
+    {
+      "english": "political consensus",
+      "vietnamese": "sự đồng thuận chính trị",
+      "ipa": "/pəˈlɪtɪkəl kənˈsensəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Reaching a political consensus on the budget proved difficult.",
+          "vi": "Đạt được sự đồng thuận chính trị về ngân sách tỏ ra khó khăn."
+        },
+        {
+          "en": "There is broad political consensus that healthcare needs reform.",
+          "vi": "Có sự đồng thuận chính trị rộng rãi rằng y tế cần được cải cách."
+        },
+        {
+          "en": "The fragile political consensus collapsed within months.",
+          "vi": "Sự đồng thuận chính trị mong manh đã sụp đổ chỉ trong vài tháng."
+        }
+      ]
+    },
+    {
+      "english": "political consequences",
+      "vietnamese": "hệ quả chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈkɑːnsəkwensəz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The decision had serious political consequences for the leadership.",
+          "vi": "Quyết định này gây ra những hệ quả chính trị nghiêm trọng cho ban lãnh đạo."
+        },
+        {
+          "en": "Economic crises often carry far-reaching political consequences.",
+          "vi": "Khủng hoảng kinh tế thường kéo theo những hệ quả chính trị sâu rộng."
+        },
+        {
+          "en": "Analysts warned about the political consequences of inaction.",
+          "vi": "Các nhà phân tích cảnh báo về hệ quả chính trị của việc không hành động."
+        }
+      ]
+    },
+    {
+      "english": "political consideration",
+      "vietnamese": "yếu tố cân nhắc chính trị",
+      "ipa": "/pəˈlɪtɪkəl kənˌsɪdəˈreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Political considerations often shape how budgets are allocated.",
+          "vi": "Các yếu tố cân nhắc chính trị thường định hình cách phân bổ ngân sách."
+        },
+        {
+          "en": "The minister insisted no political consideration influenced the ruling.",
+          "vi": "Bộ trưởng khẳng định không có yếu tố cân nhắc chính trị nào ảnh hưởng đến phán quyết."
+        },
+        {
+          "en": "Scientific advice should outweigh short-term political considerations.",
+          "vi": "Lời khuyên khoa học nên được coi trọng hơn các yếu tố cân nhắc chính trị ngắn hạn."
+        }
+      ]
+    },
+    {
+      "english": "political context",
+      "vietnamese": "bối cảnh chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The novel can only be understood in its political context.",
+          "vi": "Cuốn tiểu thuyết chỉ có thể được hiểu trong bối cảnh chính trị của nó."
+        },
+        {
+          "en": "Researchers examined the policy within its broader political context.",
+          "vi": "Các nhà nghiên cứu xem xét chính sách trong bối cảnh chính trị rộng hơn."
+        },
+        {
+          "en": "The political context of the war shaped its outcome.",
+          "vi": "Bối cảnh chính trị của cuộc chiến đã định hình kết cục của nó."
+        }
+      ]
+    },
+    {
+      "english": "political culture",
+      "vietnamese": "văn hóa chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈkʌltʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A nation's political culture shapes how citizens engage with power.",
+          "vi": "Văn hóa chính trị của một quốc gia định hình cách công dân tham gia vào quyền lực."
+        },
+        {
+          "en": "The book compares political culture across several democracies.",
+          "vi": "Cuốn sách so sánh văn hóa chính trị giữa nhiều nền dân chủ."
+        },
+        {
+          "en": "Distrust of authority is rooted in the local political culture.",
+          "vi": "Sự ngờ vực chính quyền bắt nguồn từ văn hóa chính trị địa phương."
+        }
+      ]
+    },
+    {
+      "english": "political debate",
+      "vietnamese": "tranh luận chính trị",
+      "ipa": "/pəˈlɪtɪkəl dɪˈbeɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Immigration remains at the center of political debate.",
+          "vi": "Vấn đề nhập cư vẫn là trung tâm của tranh luận chính trị."
+        },
+        {
+          "en": "The reform sparked intense political debate across the country.",
+          "vi": "Cuộc cải cách đã châm ngòi cho tranh luận chính trị gay gắt trên cả nước."
+        },
+        {
+          "en": "Television transformed the style of modern political debate.",
+          "vi": "Truyền hình đã biến đổi phong cách của tranh luận chính trị hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "political dimension",
+      "vietnamese": "khía cạnh chính trị",
+      "ipa": "/pəˈlɪtɪkəl dɪˈmenʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The crisis has an economic and a political dimension.",
+          "vi": "Cuộc khủng hoảng có cả khía cạnh kinh tế lẫn khía cạnh chính trị."
+        },
+        {
+          "en": "Scholars often overlook the political dimension of religious change.",
+          "vi": "Các học giả thường bỏ qua khía cạnh chính trị của sự thay đổi tôn giáo."
+        },
+        {
+          "en": "Every major reform carries a political dimension.",
+          "vi": "Mọi cuộc cải cách lớn đều mang một khía cạnh chính trị."
+        }
+      ]
+    },
+    {
+      "english": "political economy",
+      "vietnamese": "kinh tế chính trị",
+      "ipa": "/pəˈlɪtɪkəl ɪˈkɑːnəmi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course introduces the basics of political economy.",
+          "vi": "Khóa học giới thiệu những kiến thức cơ bản về kinh tế chính trị."
+        },
+        {
+          "en": "Her thesis analyzed the political economy of global trade.",
+          "vi": "Luận án của cô phân tích kinh tế chính trị của thương mại toàn cầu."
+        },
+        {
+          "en": "Political economy examines how power and markets interact.",
+          "vi": "Kinh tế chính trị nghiên cứu cách quyền lực và thị trường tương tác."
+        }
+      ]
+    },
+    {
+      "english": "political environment",
+      "vietnamese": "môi trường chính trị",
+      "ipa": "/pəˈlɪtɪkəl ɪnˈvaɪrənmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A stable political environment encourages foreign investment.",
+          "vi": "Một môi trường chính trị ổn định khuyến khích đầu tư nước ngoài."
+        },
+        {
+          "en": "The reforms reshaped the country's political environment.",
+          "vi": "Các cuộc cải cách đã định hình lại môi trường chính trị của đất nước."
+        },
+        {
+          "en": "Businesses must adapt to a shifting political environment.",
+          "vi": "Các doanh nghiệp phải thích nghi với môi trường chính trị đang thay đổi."
+        }
+      ]
+    },
+    {
+      "english": "political factors",
+      "vietnamese": "các yếu tố chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈfæktərz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Political factors strongly influenced where the funds were spent.",
+          "vi": "Các yếu tố chính trị đã ảnh hưởng mạnh đến nơi nguồn quỹ được chi tiêu."
+        },
+        {
+          "en": "The analysis weighed economic and political factors together.",
+          "vi": "Bản phân tích cân nhắc cùng lúc các yếu tố kinh tế và chính trị."
+        },
+        {
+          "en": "Political factors often delay important infrastructure projects.",
+          "vi": "Các yếu tố chính trị thường làm chậm trễ các dự án hạ tầng quan trọng."
+        }
+      ]
+    },
+    {
+      "english": "political identity",
+      "vietnamese": "bản sắc chính trị",
+      "ipa": "/pəˈlɪtɪkəl aɪˈdentəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many young people form their political identity at university.",
+          "vi": "Nhiều người trẻ hình thành bản sắc chính trị của mình ở đại học."
+        },
+        {
+          "en": "Region and religion both shape political identity here.",
+          "vi": "Cả vùng miền lẫn tôn giáo đều định hình bản sắc chính trị ở đây."
+        },
+        {
+          "en": "The study explored how migration affects political identity.",
+          "vi": "Nghiên cứu khám phá cách di cư ảnh hưởng đến bản sắc chính trị."
+        }
+      ]
+    },
+    {
+      "english": "political ideology",
+      "vietnamese": "hệ tư tưởng chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˌaɪdiˈɑːlədʒi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "His political ideology shifted noticeably over the decades.",
+          "vi": "Hệ tư tưởng chính trị của ông thay đổi rõ rệt qua nhiều thập kỷ."
+        },
+        {
+          "en": "The party's political ideology centers on individual freedom.",
+          "vi": "Hệ tư tưởng chính trị của đảng xoay quanh tự do cá nhân."
+        },
+        {
+          "en": "Media can reinforce a particular political ideology.",
+          "vi": "Truyền thông có thể củng cố một hệ tư tưởng chính trị nhất định."
+        }
+      ]
+    },
+    {
+      "english": "political implications",
+      "vietnamese": "hàm ý chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˌɪmplɪˈkeɪʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The discovery has significant political implications for the region.",
+          "vi": "Phát hiện này có những hàm ý chính trị quan trọng đối với khu vực."
+        },
+        {
+          "en": "Researchers rarely discuss the political implications of their findings.",
+          "vi": "Các nhà nghiên cứu hiếm khi bàn về hàm ý chính trị trong phát hiện của họ."
+        },
+        {
+          "en": "The ruling carries political implications well beyond the courtroom.",
+          "vi": "Phán quyết này mang hàm ý chính trị vượt xa khỏi phòng xử án."
+        }
+      ]
+    },
+    {
+      "english": "political instability",
+      "vietnamese": "bất ổn chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˌɪnstəˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Years of political instability damaged the national economy.",
+          "vi": "Nhiều năm bất ổn chính trị đã gây thiệt hại cho nền kinh tế quốc gia."
+        },
+        {
+          "en": "Political instability can quickly drive away foreign investors.",
+          "vi": "Bất ổn chính trị có thể nhanh chóng khiến nhà đầu tư nước ngoài rút lui."
+        },
+        {
+          "en": "The region suffers from ongoing political instability.",
+          "vi": "Khu vực này chịu đựng tình trạng bất ổn chính trị kéo dài."
+        }
+      ]
+    },
+    {
+      "english": "political institution",
+      "vietnamese": "thể chế chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˌɪnstɪˈtuːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Strong political institutions help protect citizens' rights.",
+          "vi": "Các thể chế chính trị vững mạnh giúp bảo vệ quyền của công dân."
+        },
+        {
+          "en": "The reform aimed to modernize outdated political institutions.",
+          "vi": "Cuộc cải cách nhằm hiện đại hóa các thể chế chính trị lỗi thời."
+        },
+        {
+          "en": "Trust in political institutions has declined in recent years.",
+          "vi": "Niềm tin vào các thể chế chính trị đã suy giảm trong những năm gần đây."
+        }
+      ]
+    },
+    {
+      "english": "political leader",
+      "vietnamese": "lãnh đạo chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈliːdər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A respected political leader can unite a divided nation.",
+          "vi": "Một nhà lãnh đạo chính trị được tôn trọng có thể đoàn kết một quốc gia chia rẽ."
+        },
+        {
+          "en": "Several political leaders attended the international summit.",
+          "vi": "Một số lãnh đạo chính trị đã tham dự hội nghị thượng đỉnh quốc tế."
+        },
+        {
+          "en": "The political leader faced criticism over the new tax plan.",
+          "vi": "Nhà lãnh đạo chính trị đối mặt với chỉ trích về kế hoạch thuế mới."
+        }
+      ]
+    },
+    {
+      "english": "political mobilization",
+      "vietnamese": "sự huy động chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˌmoʊbələˈzeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Social media has accelerated political mobilization among youth.",
+          "vi": "Mạng xã hội đã thúc đẩy sự huy động chính trị trong giới trẻ."
+        },
+        {
+          "en": "The strike was the result of sustained political mobilization.",
+          "vi": "Cuộc đình công là kết quả của sự huy động chính trị bền bỉ."
+        },
+        {
+          "en": "Effective political mobilization requires both organization and trust.",
+          "vi": "Sự huy động chính trị hiệu quả đòi hỏi cả tổ chức lẫn niềm tin."
+        }
+      ]
+    },
+    {
+      "english": "political movement",
+      "vietnamese": "phong trào chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈmuːvmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The political movement gained millions of supporters within a year.",
+          "vi": "Phong trào chính trị đã giành được hàng triệu người ủng hộ trong một năm."
+        },
+        {
+          "en": "Historians traced the origins of the political movement carefully.",
+          "vi": "Các nhà sử học đã lần theo nguồn gốc của phong trào chính trị một cách cẩn thận."
+        },
+        {
+          "en": "The political movement demanded greater rights for workers.",
+          "vi": "Phong trào chính trị đòi hỏi quyền lợi nhiều hơn cho người lao động."
+        }
+      ]
+    },
+    {
+      "english": "political organization",
+      "vietnamese": "tổ chức chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˌɔːrɡənəˈzeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The political organization campaigned for fairer voting laws.",
+          "vi": "Tổ chức chính trị đã vận động cho luật bầu cử công bằng hơn."
+        },
+        {
+          "en": "Several political organizations joined forces during the election.",
+          "vi": "Một số tổ chức chính trị đã hợp lực trong cuộc bầu cử."
+        },
+        {
+          "en": "Members built the political organization from the ground up.",
+          "vi": "Các thành viên đã xây dựng tổ chức chính trị từ con số không."
+        }
+      ]
+    },
+    {
+      "english": "political participation",
+      "vietnamese": "sự tham gia chính trị",
+      "ipa": "/pəˈlɪtɪkəl pɑːrˌtɪsəˈpeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Lower voting ages may increase youth political participation.",
+          "vi": "Hạ tuổi bầu cử có thể làm tăng sự tham gia chính trị của giới trẻ."
+        },
+        {
+          "en": "The study measured political participation across income groups.",
+          "vi": "Nghiên cứu đo lường sự tham gia chính trị giữa các nhóm thu nhập."
+        },
+        {
+          "en": "Education tends to boost political participation among citizens.",
+          "vi": "Giáo dục có xu hướng thúc đẩy sự tham gia chính trị của công dân."
+        }
+      ]
+    },
+    {
+      "english": "political party",
+      "vietnamese": "đảng phái chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˈpɑːrti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A new political party emerged ahead of the general election.",
+          "vi": "Một đảng phái chính trị mới xuất hiện trước thềm cuộc tổng tuyển cử."
+        },
+        {
+          "en": "Each political party published a detailed economic manifesto.",
+          "vi": "Mỗi đảng phái chính trị công bố một cương lĩnh kinh tế chi tiết."
+        },
+        {
+          "en": "Membership in the political party has grown steadily.",
+          "vi": "Số thành viên của đảng phái chính trị này đã tăng đều đặn."
+        }
+      ]
+    },
+    {
+      "english": "political philosophy",
+      "vietnamese": "triết học chính trị",
+      "ipa": "/pəˈlɪtɪkəl fəˈlɑːsəfi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The lecture introduced students to classical political philosophy.",
+          "vi": "Bài giảng giới thiệu cho sinh viên về triết học chính trị cổ điển."
+        },
+        {
+          "en": "His political philosophy drew heavily on Enlightenment thinkers.",
+          "vi": "Triết học chính trị của ông chịu ảnh hưởng lớn từ các nhà tư tưởng Khai sáng."
+        },
+        {
+          "en": "Debates in political philosophy still shape modern law.",
+          "vi": "Những tranh luận trong triết học chính trị vẫn định hình luật pháp hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "political reality",
+      "vietnamese": "thực tế chính trị",
+      "ipa": "/pəˈlɪtɪkəl riˈæləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Ideal policies must adjust to the political reality on the ground.",
+          "vi": "Các chính sách lý tưởng phải điều chỉnh theo thực tế chính trị tại chỗ."
+        },
+        {
+          "en": "The political reality made sweeping reform almost impossible.",
+          "vi": "Thực tế chính trị khiến cải cách toàn diện gần như bất khả thi."
+        },
+        {
+          "en": "Leaders cannot ignore the harsh political reality they face.",
+          "vi": "Các nhà lãnh đạo không thể phớt lờ thực tế chính trị khắc nghiệt họ đối mặt."
+        }
+      ]
+    },
+    {
+      "english": "political reform",
+      "vietnamese": "cải cách chính trị",
+      "ipa": "/pəˈlɪtɪkəl rɪˈfɔːrm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Public pressure finally led to genuine political reform.",
+          "vi": "Áp lực từ công chúng cuối cùng đã dẫn đến cải cách chính trị thực sự."
+        },
+        {
+          "en": "The movement demanded sweeping political reform and accountability.",
+          "vi": "Phong trào đòi hỏi cải cách chính trị toàn diện và trách nhiệm giải trình."
+        },
+        {
+          "en": "Political reform often happens slowly and unevenly.",
+          "vi": "Cải cách chính trị thường diễn ra chậm chạp và không đồng đều."
+        }
+      ]
+    },
+    {
+      "english": "political representation",
+      "vietnamese": "sự đại diện chính trị",
+      "ipa": "/pəˈlɪtɪkəl ˌreprɪzenˈteɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Minorities have long fought for fair political representation.",
+          "vi": "Các nhóm thiểu số từ lâu đã đấu tranh cho sự đại diện chính trị công bằng."
+        },
+        {
+          "en": "Quotas were introduced to improve women's political representation.",
+          "vi": "Hạn ngạch được áp dụng để cải thiện sự đại diện chính trị của phụ nữ."
+        },
+        {
+          "en": "Rural areas often lack adequate political representation.",
+          "vi": "Các vùng nông thôn thường thiếu sự đại diện chính trị đầy đủ."
+        }
+      ]
+    },
+    {
+      "english": "political significance",
+      "vietnamese": "tầm quan trọng về chính trị",
+      "ipa": "/pəˈlɪtɪkəl sɪɡˈnɪfɪkəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The treaty had enormous political significance for the region.",
+          "vi": "Hiệp ước có ý nghĩa chính trị to lớn đối với khu vực."
+        },
+        {
+          "en": "Historians still debate the political significance of that speech.",
+          "vi": "Các nhà sử học vẫn tranh luận về tầm quan trọng chính trị của bài phát biểu đó."
+        },
+        {
+          "en": "Few people grasped the political significance of the new law.",
+          "vi": "Ít người hiểu được ý nghĩa chính trị của đạo luật mới."
+        }
+      ]
+    },
+    {
+      "english": "political spectrum",
+      "vietnamese": "phổ chính trị (các khuynh hướng chính trị)",
+      "ipa": "/pəˈlɪtɪkəl ˈspektrəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Voters across the political spectrum supported the reform.",
+          "vi": "Cử tri thuộc mọi khuynh hướng chính trị đều ủng hộ cải cách."
+        },
+        {
+          "en": "Her views sit at the far end of the political spectrum.",
+          "vi": "Quan điểm của cô nằm ở cực xa của phổ chính trị."
+        },
+        {
+          "en": "The debate attracted parties from across the political spectrum.",
+          "vi": "Cuộc tranh luận thu hút các đảng từ khắp phổ chính trị."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 01/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 01/83"
+  },
+  "cards": [
+    {
+      "english": "abstract concept",
+      "vietnamese": "khái niệm trừu tượng",
+      "ipa": "/ˈæbstrækt ˈkɑːnsept/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students often struggle to grasp an abstract concept without concrete examples.",
+          "vi": "Sinh viên thường khó nắm bắt một khái niệm trừu tượng nếu thiếu ví dụ cụ thể."
+        },
+        {
+          "en": "The lecturer explained the abstract concept using a simple diagram.",
+          "vi": "Giảng viên giải thích khái niệm trừu tượng bằng một sơ đồ đơn giản."
+        },
+        {
+          "en": "Philosophy deals with abstract concepts such as justice and freedom.",
+          "vi": "Triết học bàn về những khái niệm trừu tượng như công lý và tự do."
+        }
+      ]
+    },
+    {
+      "english": "academic achievement",
+      "vietnamese": "thành tích học tập",
+      "ipa": "/ˌækəˈdemɪk əˈtʃiːvmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her academic achievement earned her a full scholarship abroad.",
+          "vi": "Thành tích học tập của cô ấy giúp giành được học bổng toàn phần ở nước ngoài."
+        },
+        {
+          "en": "The school celebrates academic achievement at an annual ceremony.",
+          "vi": "Nhà trường vinh danh thành tích học tập trong lễ trao thưởng thường niên."
+        },
+        {
+          "en": "Parental support strongly influences a child's academic achievement.",
+          "vi": "Sự hỗ trợ của cha mẹ ảnh hưởng mạnh đến thành tích học tập của trẻ."
+        }
+      ]
+    },
+    {
+      "english": "academic career",
+      "vietnamese": "sự nghiệp học thuật",
+      "ipa": "/ˌækəˈdemɪk kəˈrɪr/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "He devoted his entire academic career to medieval history.",
+          "vi": "Ông dành trọn sự nghiệp học thuật cho lịch sử trung cổ."
+        },
+        {
+          "en": "Publishing papers is essential for a successful academic career.",
+          "vi": "Công bố bài báo là điều thiết yếu cho một sự nghiệp học thuật thành công."
+        },
+        {
+          "en": "She began her academic career as a junior lecturer.",
+          "vi": "Cô bắt đầu sự nghiệp học thuật với vị trí giảng viên tập sự."
+        }
+      ]
+    },
+    {
+      "english": "academic circles",
+      "vietnamese": "giới học thuật",
+      "ipa": "/ˌækəˈdemɪk ˈsɜːrkəlz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "His theory is widely respected in academic circles.",
+          "vi": "Lý thuyết của ông được giới học thuật rất kính trọng."
+        },
+        {
+          "en": "The discovery sparked heated debate in academic circles.",
+          "vi": "Phát hiện này làm dấy lên tranh luận sôi nổi trong giới học thuật."
+        },
+        {
+          "en": "Such ideas rarely reach beyond academic circles.",
+          "vi": "Những ý tưởng như vậy hiếm khi vượt ra ngoài giới học thuật."
+        }
+      ]
+    },
+    {
+      "english": "academic community",
+      "vietnamese": "cộng đồng học thuật",
+      "ipa": "/ˌækəˈdemɪk kəˈmjuːnəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The academic community welcomed the new research findings.",
+          "vi": "Cộng đồng học thuật hoan nghênh các phát hiện nghiên cứu mới."
+        },
+        {
+          "en": "Online journals connect the global academic community.",
+          "vi": "Các tạp chí trực tuyến kết nối cộng đồng học thuật toàn cầu."
+        },
+        {
+          "en": "Plagiarism damages trust within the academic community.",
+          "vi": "Đạo văn làm tổn hại lòng tin trong cộng đồng học thuật."
+        }
+      ]
+    },
+    {
+      "english": "academic debate",
+      "vietnamese": "tranh luận học thuật",
+      "ipa": "/ˌækəˈdemɪk dɪˈbeɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The topic remains the subject of intense academic debate.",
+          "vi": "Chủ đề này vẫn là tâm điểm của những tranh luận học thuật gay gắt."
+        },
+        {
+          "en": "Her paper contributed fresh ideas to the academic debate.",
+          "vi": "Bài viết của cô đóng góp những ý tưởng mới cho cuộc tranh luận học thuật."
+        },
+        {
+          "en": "Academic debate helps refine competing theories.",
+          "vi": "Tranh luận học thuật giúp hoàn thiện các lý thuyết đối lập."
+        }
+      ]
+    },
+    {
+      "english": "academic discipline",
+      "vietnamese": "ngành học, bộ môn học thuật",
+      "ipa": "/ˌækəˈdemɪk ˈdɪsəplɪn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Economics is a well-established academic discipline.",
+          "vi": "Kinh tế học là một ngành học đã được khẳng định."
+        },
+        {
+          "en": "Each academic discipline has its own research methods.",
+          "vi": "Mỗi ngành học có phương pháp nghiên cứu riêng."
+        },
+        {
+          "en": "The course draws on several academic disciplines.",
+          "vi": "Khóa học vận dụng kiến thức từ nhiều ngành học khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "academic discourse",
+      "vietnamese": "diễn ngôn học thuật",
+      "ipa": "/ˌækəˈdemɪk ˈdɪskɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Academic discourse requires precise and formal language.",
+          "vi": "Diễn ngôn học thuật đòi hỏi ngôn ngữ chính xác và trang trọng."
+        },
+        {
+          "en": "Students must learn the conventions of academic discourse.",
+          "vi": "Sinh viên phải nắm các quy ước của diễn ngôn học thuật."
+        },
+        {
+          "en": "Citations are a key feature of academic discourse.",
+          "vi": "Trích dẫn là một đặc trưng quan trọng của diễn ngôn học thuật."
+        }
+      ]
+    },
+    {
+      "english": "academic institution",
+      "vietnamese": "cơ sở, tổ chức học thuật",
+      "ipa": "/ˌækəˈdemɪk ˌɪnstɪˈtuːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The university is a leading academic institution in the region.",
+          "vi": "Trường đại học này là một cơ sở học thuật hàng đầu trong khu vực."
+        },
+        {
+          "en": "Academic institutions rely on funding for research.",
+          "vi": "Các cơ sở học thuật dựa vào nguồn tài trợ để nghiên cứu."
+        },
+        {
+          "en": "She works at a prestigious academic institution.",
+          "vi": "Cô làm việc tại một tổ chức học thuật danh tiếng."
+        }
+      ]
+    },
+    {
+      "english": "academic journal",
+      "vietnamese": "tạp chí học thuật",
+      "ipa": "/ˌækəˈdemɪk ˈdʒɜːrnəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her study appeared in a respected academic journal.",
+          "vi": "Nghiên cứu của cô được đăng trên một tạp chí học thuật uy tín."
+        },
+        {
+          "en": "Peer review ensures the quality of academic journals.",
+          "vi": "Bình duyệt đảm bảo chất lượng của các tạp chí học thuật."
+        },
+        {
+          "en": "Access to academic journals is often expensive.",
+          "vi": "Việc truy cập các tạp chí học thuật thường tốn kém."
+        }
+      ]
+    },
+    {
+      "english": "academic life",
+      "vietnamese": "đời sống học thuật",
+      "ipa": "/ˌækəˈdemɪk laɪf/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Academic life involves both teaching and research.",
+          "vi": "Đời sống học thuật bao gồm cả giảng dạy lẫn nghiên cứu."
+        },
+        {
+          "en": "He enjoys the intellectual freedom of academic life.",
+          "vi": "Ông tận hưởng sự tự do trí tuệ của đời sống học thuật."
+        },
+        {
+          "en": "Balancing academic life and family can be difficult.",
+          "vi": "Cân bằng giữa đời sống học thuật và gia đình có thể rất khó."
+        }
+      ]
+    },
+    {
+      "english": "academic performance",
+      "vietnamese": "kết quả, thành tích học tập",
+      "ipa": "/ˌækəˈdemɪk pərˈfɔːrməns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Lack of sleep can harm a student's academic performance.",
+          "vi": "Thiếu ngủ có thể ảnh hưởng xấu đến kết quả học tập của sinh viên."
+        },
+        {
+          "en": "The program aims to improve academic performance.",
+          "vi": "Chương trình nhằm cải thiện thành tích học tập."
+        },
+        {
+          "en": "Teachers monitor academic performance throughout the year.",
+          "vi": "Giáo viên theo dõi kết quả học tập suốt cả năm."
+        }
+      ]
+    },
+    {
+      "english": "academic research",
+      "vietnamese": "nghiên cứu học thuật",
+      "ipa": "/ˌækəˈdemɪk ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Academic research often takes years to complete.",
+          "vi": "Nghiên cứu học thuật thường mất nhiều năm để hoàn thành."
+        },
+        {
+          "en": "The grant will fund academic research on climate change.",
+          "vi": "Khoản tài trợ sẽ cấp kinh phí cho nghiên cứu học thuật về biến đổi khí hậu."
+        },
+        {
+          "en": "Academic research must follow strict ethical guidelines.",
+          "vi": "Nghiên cứu học thuật phải tuân theo các nguyên tắc đạo đức nghiêm ngặt."
+        }
+      ]
+    },
+    {
+      "english": "academic skills",
+      "vietnamese": "kỹ năng học thuật",
+      "ipa": "/ˌækəˈdemɪk skɪlz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The workshop helps students develop essential academic skills.",
+          "vi": "Buổi tập huấn giúp sinh viên phát triển các kỹ năng học thuật thiết yếu."
+        },
+        {
+          "en": "Note-taking is an important academic skill.",
+          "vi": "Ghi chép là một kỹ năng học thuật quan trọng."
+        },
+        {
+          "en": "Strong academic skills improve exam results.",
+          "vi": "Kỹ năng học thuật vững vàng giúp cải thiện kết quả thi."
+        }
+      ]
+    },
+    {
+      "english": "academic study",
+      "vietnamese": "việc học, nghiên cứu học thuật",
+      "ipa": "/ˌækəˈdemɪk ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Years of academic study prepared her for the role.",
+          "vi": "Nhiều năm học tập học thuật đã chuẩn bị cho cô đảm nhận vị trí này."
+        },
+        {
+          "en": "The library is a quiet place for academic study.",
+          "vi": "Thư viện là nơi yên tĩnh để học tập."
+        },
+        {
+          "en": "Academic study requires discipline and patience.",
+          "vi": "Việc học học thuật đòi hỏi tính kỷ luật và kiên nhẫn."
+        }
+      ]
+    },
+    {
+      "english": "academic success",
+      "vietnamese": "thành công trong học tập",
+      "ipa": "/ˌækəˈdemɪk səkˈses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Motivation is a key factor in academic success.",
+          "vi": "Động lực là yếu tố then chốt cho thành công trong học tập."
+        },
+        {
+          "en": "The school credits its methods for students' academic success.",
+          "vi": "Nhà trường cho rằng phương pháp của mình tạo nên thành công học tập của học sinh."
+        },
+        {
+          "en": "Academic success often opens career opportunities.",
+          "vi": "Thành công trong học tập thường mở ra cơ hội nghề nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "academic work",
+      "vietnamese": "công việc, bài vở học thuật",
+      "ipa": "/ˌækəˈdemɪk wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She submitted her academic work before the deadline.",
+          "vi": "Cô nộp bài vở học thuật trước hạn chót."
+        },
+        {
+          "en": "His academic work has been cited many times.",
+          "vi": "Công trình học thuật của ông được trích dẫn nhiều lần."
+        },
+        {
+          "en": "Good time management improves academic work.",
+          "vi": "Quản lý thời gian tốt giúp nâng cao chất lượng bài vở học thuật."
+        }
+      ]
+    },
+    {
+      "english": "academic world",
+      "vietnamese": "thế giới, giới học thuật",
+      "ipa": "/ˌækəˈdemɪk wɜːrld/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The academic world can be highly competitive.",
+          "vi": "Giới học thuật có thể rất cạnh tranh."
+        },
+        {
+          "en": "Her ideas made an impact on the academic world.",
+          "vi": "Những ý tưởng của cô tạo dấu ấn trong giới học thuật."
+        },
+        {
+          "en": "He felt at home in the academic world.",
+          "vi": "Ông cảm thấy thoải mái trong thế giới học thuật."
+        }
+      ]
+    },
+    {
+      "english": "academic writing",
+      "vietnamese": "viết học thuật",
+      "ipa": "/ˌækəˈdemɪk ˈraɪtɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Academic writing should be clear and well-structured.",
+          "vi": "Văn viết học thuật cần rõ ràng và có cấu trúc chặt chẽ."
+        },
+        {
+          "en": "Students take a course in academic writing.",
+          "vi": "Sinh viên tham gia một khóa học về viết học thuật."
+        },
+        {
+          "en": "Academic writing avoids slang and contractions.",
+          "vi": "Văn viết học thuật tránh tiếng lóng và dạng viết tắt."
+        }
+      ]
+    },
+    {
+      "english": "academic year",
+      "vietnamese": "năm học",
+      "ipa": "/ˌækəˈdemɪk jɪr/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The academic year begins in early September.",
+          "vi": "Năm học bắt đầu vào đầu tháng Chín."
+        },
+        {
+          "en": "Exams are held at the end of the academic year.",
+          "vi": "Các kỳ thi diễn ra vào cuối năm học."
+        },
+        {
+          "en": "She studied abroad for one academic year.",
+          "vi": "Cô đi du học trong một năm học."
+        }
+      ]
+    },
+    {
+      "english": "accept responsibility",
+      "vietnamese": "nhận trách nhiệm",
+      "ipa": "/əkˈsept rɪˌspɑːnsəˈbɪləti/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The manager agreed to accept responsibility for the error.",
+          "vi": "Người quản lý đồng ý nhận trách nhiệm về sai sót này."
+        },
+        {
+          "en": "Leaders must accept responsibility for their decisions.",
+          "vi": "Người lãnh đạo phải nhận trách nhiệm cho các quyết định của mình."
+        },
+        {
+          "en": "She refused to accept responsibility for the delay.",
+          "vi": "Cô từ chối nhận trách nhiệm về sự chậm trễ."
+        }
+      ]
+    },
+    {
+      "english": "acceptable behavior",
+      "vietnamese": "hành vi chấp nhận được",
+      "ipa": "/əkˈseptəbəl bɪˈheɪvjər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The school sets clear rules for acceptable behavior.",
+          "vi": "Nhà trường đặt ra quy định rõ ràng về hành vi chấp nhận được."
+        },
+        {
+          "en": "Honesty is considered acceptable behavior in any workplace.",
+          "vi": "Trung thực được xem là hành vi chấp nhận được ở mọi nơi làm việc."
+        },
+        {
+          "en": "What counts as acceptable behavior varies between cultures.",
+          "vi": "Hành vi được coi là chấp nhận được khác nhau giữa các nền văn hóa."
+        }
+      ]
+    },
+    {
+      "english": "accurate assessment",
+      "vietnamese": "đánh giá chính xác",
+      "ipa": "/ˈækjərət əˈsesmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Teachers need data for an accurate assessment of progress.",
+          "vi": "Giáo viên cần dữ liệu để đánh giá chính xác sự tiến bộ."
+        },
+        {
+          "en": "An accurate assessment of risk is vital for planning.",
+          "vi": "Đánh giá rủi ro chính xác là rất quan trọng cho việc lập kế hoạch."
+        },
+        {
+          "en": "The report gives an accurate assessment of the situation.",
+          "vi": "Báo cáo đưa ra một đánh giá chính xác về tình hình."
+        }
+      ]
+    },
+    {
+      "english": "accurate description",
+      "vietnamese": "mô tả chính xác",
+      "ipa": "/ˈækjərət dɪˈskrɪpʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The witness gave an accurate description of the event.",
+          "vi": "Nhân chứng đưa ra một mô tả chính xác về sự việc."
+        },
+        {
+          "en": "An accurate description helps readers picture the scene.",
+          "vi": "Mô tả chính xác giúp người đọc hình dung khung cảnh."
+        },
+        {
+          "en": "Scientists aim for an accurate description of nature.",
+          "vi": "Các nhà khoa học hướng tới việc mô tả chính xác tự nhiên."
+        }
+      ]
+    },
+    {
+      "english": "accurate information",
+      "vietnamese": "thông tin chính xác",
+      "ipa": "/ˈækjərət ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Decisions should be based on accurate information.",
+          "vi": "Các quyết định nên dựa trên thông tin chính xác."
+        },
+        {
+          "en": "The website provides accurate information about the course.",
+          "vi": "Trang web cung cấp thông tin chính xác về khóa học."
+        },
+        {
+          "en": "Spreading accurate information reduces public confusion.",
+          "vi": "Lan truyền thông tin chính xác giúp giảm bối rối trong công chúng."
+        }
+      ]
+    },
+    {
+      "english": "accurate measurement",
+      "vietnamese": "phép đo chính xác",
+      "ipa": "/ˈækjərət ˈmeʒərmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Accurate measurement is essential in scientific experiments.",
+          "vi": "Phép đo chính xác là thiết yếu trong các thí nghiệm khoa học."
+        },
+        {
+          "en": "The tool allows accurate measurement of temperature.",
+          "vi": "Thiết bị cho phép đo nhiệt độ một cách chính xác."
+        },
+        {
+          "en": "Small errors prevent accurate measurement of distance.",
+          "vi": "Những sai số nhỏ khiến việc đo khoảng cách thiếu chính xác."
+        }
+      ]
+    },
+    {
+      "english": "accurate picture",
+      "vietnamese": "bức tranh, hình dung chính xác",
+      "ipa": "/ˈækjərət ˈpɪktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey gives an accurate picture of public opinion.",
+          "vi": "Cuộc khảo sát cho thấy một bức tranh chính xác về dư luận."
+        },
+        {
+          "en": "These figures paint an accurate picture of the economy.",
+          "vi": "Những số liệu này phác họa một bức tranh chính xác về nền kinh tế."
+        },
+        {
+          "en": "We need more data for an accurate picture.",
+          "vi": "Chúng ta cần thêm dữ liệu để có hình dung chính xác."
+        }
+      ]
+    },
+    {
+      "english": "accurate record",
+      "vietnamese": "hồ sơ, bản ghi chính xác",
+      "ipa": "/ˈækjərət ˈrekərd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The clinic keeps an accurate record of every patient.",
+          "vi": "Phòng khám lưu giữ hồ sơ chính xác của từng bệnh nhân."
+        },
+        {
+          "en": "Accurate records help track spending over time.",
+          "vi": "Hồ sơ chính xác giúp theo dõi chi tiêu theo thời gian."
+        },
+        {
+          "en": "Historians rely on accurate records of past events.",
+          "vi": "Các nhà sử học dựa vào những bản ghi chính xác về sự kiện quá khứ."
+        }
+      ]
+    },
+    {
+      "english": "achieve a goal",
+      "vietnamese": "đạt được mục tiêu",
+      "ipa": "/əˈtʃiːv ə ɡoʊl/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Hard work helped her achieve her goal of graduating early.",
+          "vi": "Sự chăm chỉ giúp cô đạt được mục tiêu tốt nghiệp sớm."
+        },
+        {
+          "en": "The team worked together to achieve a common goal.",
+          "vi": "Cả nhóm cùng nhau làm việc để đạt được một mục tiêu chung."
+        },
+        {
+          "en": "Setting small steps makes it easier to achieve a goal.",
+          "vi": "Chia thành các bước nhỏ giúp đạt được mục tiêu dễ hơn."
+        }
+      ]
+    },
+    {
+      "english": "achieve an objective",
+      "vietnamese": "đạt được mục tiêu (cụ thể)",
+      "ipa": "/əˈtʃiːv ən əbˈdʒektɪv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The project must achieve its objective within budget.",
+          "vi": "Dự án phải đạt được mục tiêu trong khuôn khổ ngân sách."
+        },
+        {
+          "en": "Clear planning helps a company achieve its objective.",
+          "vi": "Lập kế hoạch rõ ràng giúp công ty đạt được mục tiêu."
+        },
+        {
+          "en": "They failed to achieve the objective on time.",
+          "vi": "Họ không đạt được mục tiêu đúng hạn."
+        }
+      ]
+    }
+  ]
+}

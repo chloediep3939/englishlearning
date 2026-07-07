@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 39/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 39/83"
+  },
+  "cards": [
+    {
+      "english": "information sharing",
+      "vietnamese": "việc chia sẻ thông tin",
+      "ipa": "/ˌɪnfərˈmeɪʃən ˈʃerɪŋ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Information sharing between agencies improved the emergency response.",
+          "vi": "Việc chia sẻ thông tin giữa các cơ quan cải thiện ứng phó khẩn cấp."
+        },
+        {
+          "en": "Open information sharing builds trust within a team.",
+          "vi": "Việc chia sẻ thông tin cởi mở xây dựng niềm tin trong nhóm."
+        },
+        {
+          "en": "Privacy rules can limit information sharing across borders.",
+          "vi": "Quy định riêng tư có thể hạn chế việc chia sẻ thông tin xuyên biên giới."
+        }
+      ]
+    },
+    {
+      "english": "informed consent",
+      "vietnamese": "sự đồng ý có hiểu biết",
+      "ipa": "/ɪnˈfɔːrmd kənˈsent/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Doctors must obtain informed consent before any operation.",
+          "vi": "Bác sĩ phải có được sự đồng ý có hiểu biết trước mọi ca mổ."
+        },
+        {
+          "en": "Researchers require informed consent from every participant.",
+          "vi": "Các nhà nghiên cứu yêu cầu sự đồng ý có hiểu biết từ mỗi người tham gia."
+        },
+        {
+          "en": "Informed consent means the patient understands the risks involved.",
+          "vi": "Sự đồng ý có hiểu biết nghĩa là bệnh nhân hiểu các rủi ro liên quan."
+        }
+      ]
+    },
+    {
+      "english": "initial period",
+      "vietnamese": "giai đoạn ban đầu",
+      "ipa": "/ɪˈnɪʃəl ˈpɪriəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "During the initial period, sales grew slowly but steadily.",
+          "vi": "Trong giai đoạn ban đầu, doanh số tăng chậm nhưng đều."
+        },
+        {
+          "en": "The initial period of training is the most demanding.",
+          "vi": "Giai đoạn ban đầu của quá trình huấn luyện là khắt khe nhất."
+        },
+        {
+          "en": "After the initial period, the project gained strong momentum.",
+          "vi": "Sau giai đoạn ban đầu, dự án có được đà phát triển mạnh."
+        }
+      ]
+    },
+    {
+      "english": "initial phase",
+      "vietnamese": "pha ban đầu",
+      "ipa": "/ɪˈnɪʃəl feɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The initial phase of the study focused on collecting data.",
+          "vi": "Pha ban đầu của nghiên cứu tập trung vào thu thập dữ liệu."
+        },
+        {
+          "en": "Funding was secured during the initial phase of the plan.",
+          "vi": "Nguồn vốn được đảm bảo trong pha ban đầu của kế hoạch."
+        },
+        {
+          "en": "The initial phase of construction took almost six months.",
+          "vi": "Pha ban đầu của việc xây dựng mất gần sáu tháng."
+        }
+      ]
+    },
+    {
+      "english": "initial position",
+      "vietnamese": "vị trí ban đầu",
+      "ipa": "/ɪˈnɪʃəl pəˈzɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The runner returned to her initial position before the race.",
+          "vi": "Vận động viên trở về vị trí ban đầu của mình trước cuộc đua."
+        },
+        {
+          "en": "We measured the object's movement from its initial position.",
+          "vi": "Chúng tôi đo chuyển động của vật từ vị trí ban đầu của nó."
+        },
+        {
+          "en": "The negotiator softened from his initial position over time.",
+          "vi": "Người đàm phán dần nới lỏng từ vị trí ban đầu của mình."
+        }
+      ]
+    },
+    {
+      "english": "initial research",
+      "vietnamese": "nghiên cứu ban đầu",
+      "ipa": "/ɪˈnɪʃəl ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Initial research suggested the treatment was both safe and effective.",
+          "vi": "Nghiên cứu ban đầu cho thấy phương pháp điều trị vừa an toàn vừa hiệu quả."
+        },
+        {
+          "en": "The team published its initial research findings last spring.",
+          "vi": "Nhóm công bố kết quả nghiên cứu ban đầu vào mùa xuân năm ngoái."
+        },
+        {
+          "en": "Initial research often raises more questions than answers.",
+          "vi": "Nghiên cứu ban đầu thường đặt ra nhiều câu hỏi hơn là câu trả lời."
+        }
+      ]
+    },
+    {
+      "english": "initial stage",
+      "vietnamese": "giai đoạn đầu",
+      "ipa": "/ɪˈnɪʃəl steɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In the initial stage, the disease shows almost no symptoms.",
+          "vi": "Ở giai đoạn đầu, căn bệnh hầu như không có triệu chứng."
+        },
+        {
+          "en": "The initial stage of the plan involves gathering feedback.",
+          "vi": "Giai đoạn đầu của kế hoạch bao gồm thu thập phản hồi."
+        },
+        {
+          "en": "Mistakes made in the initial stage are costly to fix.",
+          "vi": "Sai lầm ở giai đoạn đầu rất tốn kém để sửa chữa."
+        }
+      ]
+    },
+    {
+      "english": "institutional arrangement",
+      "vietnamese": "sự sắp xếp về thể chế",
+      "ipa": "/ˌɪnstɪˈtuːʃənəl əˈreɪndʒmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A stable institutional arrangement supports long-term economic growth.",
+          "vi": "Một sự sắp xếp thể chế ổn định hỗ trợ tăng trưởng kinh tế dài hạn."
+        },
+        {
+          "en": "The reform changed the institutional arrangement of local government.",
+          "vi": "Cuộc cải cách thay đổi sự sắp xếp thể chế của chính quyền địa phương."
+        },
+        {
+          "en": "Researchers compared institutional arrangements across several countries.",
+          "vi": "Các nhà nghiên cứu so sánh sự sắp xếp thể chế giữa nhiều quốc gia."
+        }
+      ]
+    },
+    {
+      "english": "institutional context",
+      "vietnamese": "bối cảnh thể chế",
+      "ipa": "/ˌɪnstɪˈtuːʃənəl ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Policies must be understood within their institutional context.",
+          "vi": "Các chính sách phải được hiểu trong bối cảnh thể chế của chúng."
+        },
+        {
+          "en": "The institutional context shapes how reforms are carried out.",
+          "vi": "Bối cảnh thể chế định hình cách các cải cách được thực hiện."
+        },
+        {
+          "en": "Behavior differs greatly depending on the institutional context.",
+          "vi": "Hành vi khác nhau rất nhiều tùy theo bối cảnh thể chế."
+        }
+      ]
+    },
+    {
+      "english": "institutional framework",
+      "vietnamese": "khuôn khổ thể chế",
+      "ipa": "/ˌɪnstɪˈtuːʃənəl ˈfreɪmwɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A strong institutional framework is needed to enforce the new law.",
+          "vi": "Cần một khuôn khổ thể chế vững mạnh để thực thi luật mới."
+        },
+        {
+          "en": "The treaty established an institutional framework for cooperation.",
+          "vi": "Hiệp ước thiết lập một khuôn khổ thể chế cho hợp tác."
+        },
+        {
+          "en": "Without a clear institutional framework, reforms often fail.",
+          "vi": "Thiếu khuôn khổ thể chế rõ ràng, các cải cách thường thất bại."
+        }
+      ]
+    },
+    {
+      "english": "institutional structure",
+      "vietnamese": "cấu trúc thể chế",
+      "ipa": "/ˌɪnstɪˈtuːʃənəl ˈstrʌktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The institutional structure of the university is quite complex.",
+          "vi": "Cấu trúc thể chế của trường đại học khá phức tạp."
+        },
+        {
+          "en": "Reforms aim to simplify the existing institutional structure.",
+          "vi": "Các cải cách nhằm đơn giản hóa cấu trúc thể chế hiện có."
+        },
+        {
+          "en": "The institutional structure determines how decisions are made.",
+          "vi": "Cấu trúc thể chế quyết định cách các quyết định được đưa ra."
+        }
+      ]
+    },
+    {
+      "english": "institutional support",
+      "vietnamese": "sự hỗ trợ từ thể chế",
+      "ipa": "/ˌɪnstɪˈtuːʃənəl səˈpɔːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The project succeeded thanks to strong institutional support.",
+          "vi": "Dự án thành công nhờ sự hỗ trợ thể chế mạnh mẽ."
+        },
+        {
+          "en": "Students benefit from institutional support such as scholarships.",
+          "vi": "Sinh viên hưởng lợi từ sự hỗ trợ thể chế như học bổng."
+        },
+        {
+          "en": "Without institutional support, the initiative quickly collapsed.",
+          "vi": "Thiếu sự hỗ trợ thể chế, sáng kiến nhanh chóng sụp đổ."
+        }
+      ]
+    },
+    {
+      "english": "integral part",
+      "vietnamese": "bộ phận không thể thiếu",
+      "ipa": "/ˈɪntɪɡrəl pɑːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Music is an integral part of the school's daily routine.",
+          "vi": "Âm nhạc là một bộ phận không thể thiếu trong sinh hoạt hằng ngày của trường."
+        },
+        {
+          "en": "Feedback is an integral part of the learning process.",
+          "vi": "Phản hồi là một bộ phận không thể thiếu của quá trình học."
+        },
+        {
+          "en": "Trust is an integral part of any successful partnership.",
+          "vi": "Niềm tin là một bộ phận không thể thiếu của mọi quan hệ đối tác thành công."
+        }
+      ]
+    },
+    {
+      "english": "integrated approach",
+      "vietnamese": "cách tiếp cận tích hợp",
+      "ipa": "/ˈɪntɪˌɡreɪtɪd əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An integrated approach combines several methods into one plan.",
+          "vi": "Một cách tiếp cận tích hợp kết hợp nhiều phương pháp vào một kế hoạch."
+        },
+        {
+          "en": "The clinic uses an integrated approach to patient care.",
+          "vi": "Phòng khám dùng cách tiếp cận tích hợp trong chăm sóc bệnh nhân."
+        },
+        {
+          "en": "An integrated approach to teaching links theory with practice.",
+          "vi": "Cách tiếp cận tích hợp trong giảng dạy kết nối lý thuyết với thực hành."
+        }
+      ]
+    },
+    {
+      "english": "integrated system",
+      "vietnamese": "hệ thống tích hợp",
+      "ipa": "/ˈɪntɪˌɡreɪtɪd ˈsɪstəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company built an integrated system to manage all orders.",
+          "vi": "Công ty xây dựng một hệ thống tích hợp để quản lý mọi đơn hàng."
+        },
+        {
+          "en": "An integrated system connects billing, shipping, and support together.",
+          "vi": "Một hệ thống tích hợp kết nối thanh toán, vận chuyển và hỗ trợ với nhau."
+        },
+        {
+          "en": "The hospital introduced an integrated system for patient records.",
+          "vi": "Bệnh viện giới thiệu một hệ thống tích hợp cho hồ sơ bệnh nhân."
+        }
+      ]
+    },
+    {
+      "english": "intellectual property",
+      "vietnamese": "sở hữu trí tuệ",
+      "ipa": "/ˌɪntəˈlektʃuəl ˈprɑːpərti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Patents protect a company's valuable intellectual property.",
+          "vi": "Bằng sáng chế bảo vệ sở hữu trí tuệ quý giá của công ty."
+        },
+        {
+          "en": "Copying software without permission violates intellectual property rights.",
+          "vi": "Sao chép phần mềm không phép vi phạm quyền sở hữu trí tuệ."
+        },
+        {
+          "en": "Universities increasingly value the intellectual property they create.",
+          "vi": "Các trường đại học ngày càng coi trọng sở hữu trí tuệ mà họ tạo ra."
+        }
+      ]
+    },
+    {
+      "english": "intellectual work",
+      "vietnamese": "công việc trí óc",
+      "ipa": "/ˌɪntəˈlektʃuəl ˈwɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Writing a thesis demands sustained intellectual work over many months.",
+          "vi": "Viết luận án đòi hỏi công việc trí óc bền bỉ trong nhiều tháng."
+        },
+        {
+          "en": "Universities value intellectual work that pushes the boundaries of knowledge.",
+          "vi": "Các trường đại học coi trọng công việc trí óc mở rộng ranh giới tri thức."
+        },
+        {
+          "en": "Good sleep helps the brain handle demanding intellectual work each day.",
+          "vi": "Ngủ đủ giúp não xử lý công việc trí óc nặng nhọc mỗi ngày."
+        }
+      ]
+    },
+    {
+      "english": "intensive study",
+      "vietnamese": "việc học tập chuyên sâu",
+      "ipa": "/ɪnˈtensɪv ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The topic deserves intensive study before any firm conclusions are drawn.",
+          "vi": "Chủ đề này xứng đáng được nghiên cứu chuyên sâu trước khi kết luận."
+        },
+        {
+          "en": "Months of intensive study prepared her for the final examination.",
+          "vi": "Nhiều tháng học tập chuyên sâu đã chuẩn bị cho cô kỳ thi cuối."
+        },
+        {
+          "en": "Intensive study of the data revealed several unexpected patterns.",
+          "vi": "Việc nghiên cứu chuyên sâu dữ liệu đã hé lộ vài mẫu hình bất ngờ."
+        }
+      ]
+    },
+    {
+      "english": "interested party",
+      "vietnamese": "bên liên quan, bên có quyền lợi",
+      "ipa": "/ˈɪntrəstɪd ˈpɑːrti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every interested party was invited to comment on the proposal.",
+          "vi": "Mọi bên liên quan đều được mời góp ý cho đề xuất."
+        },
+        {
+          "en": "The court must consider the views of each interested party.",
+          "vi": "Tòa án phải xem xét quan điểm của từng bên liên quan."
+        },
+        {
+          "en": "As an interested party, the company joined the public consultation.",
+          "vi": "Là một bên có quyền lợi, công ty đã tham gia buổi tham vấn công khai."
+        }
+      ]
+    },
+    {
+      "english": "internal affairs",
+      "vietnamese": "công việc nội bộ",
+      "ipa": "/ɪnˈtɜːrnəl əˈferz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many states reject foreign interference in their internal affairs.",
+          "vi": "Nhiều quốc gia phản đối sự can thiệp nước ngoài vào công việc nội bộ."
+        },
+        {
+          "en": "The minister handles the country's internal affairs and security policy.",
+          "vi": "Vị bộ trưởng phụ trách công việc nội bộ và chính sách an ninh."
+        },
+        {
+          "en": "Critics said the report meddled in the firm's internal affairs.",
+          "vi": "Giới phê bình nói báo cáo can thiệp vào công việc nội bộ của hãng."
+        }
+      ]
+    },
+    {
+      "english": "internal conflict",
+      "vietnamese": "xung đột nội bộ",
+      "ipa": "/ɪnˈtɜːrnəl ˈkɑːnflɪkt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Years of internal conflict weakened the organization from within.",
+          "vi": "Nhiều năm xung đột nội bộ đã làm suy yếu tổ chức từ bên trong."
+        },
+        {
+          "en": "The novel explores the hero's internal conflict over loyalty.",
+          "vi": "Cuốn tiểu thuyết khám phá xung đột nội tâm của người hùng về lòng trung thành."
+        },
+        {
+          "en": "Internal conflict among managers delayed the important decision.",
+          "vi": "Xung đột nội bộ giữa các quản lý đã trì hoãn quyết định quan trọng."
+        }
+      ]
+    },
+    {
+      "english": "internal control",
+      "vietnamese": "kiểm soát nội bộ",
+      "ipa": "/ɪnˈtɜːrnəl kənˈtroʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Strong internal control helps prevent fraud within a company.",
+          "vi": "Kiểm soát nội bộ chặt chẽ giúp ngăn chặn gian lận trong công ty."
+        },
+        {
+          "en": "Auditors examine whether internal control systems work effectively.",
+          "vi": "Kiểm toán viên kiểm tra xem hệ thống kiểm soát nội bộ có hiệu quả không."
+        },
+        {
+          "en": "Weak internal control allowed the errors to go unnoticed for months.",
+          "vi": "Kiểm soát nội bộ yếu khiến các lỗi không bị phát hiện trong nhiều tháng."
+        }
+      ]
+    },
+    {
+      "english": "internal market",
+      "vietnamese": "thị trường nội địa",
+      "ipa": "/ɪnˈtɜːrnəl ˈmɑːrkɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The reforms aimed to create a single internal market for goods.",
+          "vi": "Các cải cách nhằm tạo ra một thị trường nội địa thống nhất cho hàng hóa."
+        },
+        {
+          "en": "Tariffs were removed to strengthen the region's internal market.",
+          "vi": "Thuế quan được bãi bỏ để củng cố thị trường nội địa của khu vực."
+        },
+        {
+          "en": "A growing internal market gives local firms more room to expand.",
+          "vi": "Thị trường nội địa đang lớn mạnh cho doanh nghiệp địa phương thêm dư địa mở rộng."
+        }
+      ]
+    },
+    {
+      "english": "internal organ",
+      "vietnamese": "nội tạng, cơ quan nội tạng",
+      "ipa": "/ɪnˈtɜːrnəl ˈɔːrɡən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The scan revealed damage to several internal organs.",
+          "vi": "Ảnh chụp cho thấy tổn thương ở vài cơ quan nội tạng."
+        },
+        {
+          "en": "Surgeons must work carefully near delicate internal organs.",
+          "vi": "Bác sĩ phẫu thuật phải thao tác cẩn thận gần các nội tạng mong manh."
+        },
+        {
+          "en": "The liver is an internal organ that filters toxins from blood.",
+          "vi": "Gan là một cơ quan nội tạng lọc độc tố khỏi máu."
+        }
+      ]
+    },
+    {
+      "english": "internal structure",
+      "vietnamese": "cấu trúc bên trong",
+      "ipa": "/ɪnˈtɜːrnəl ˈstrʌktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Microscopes let scientists study the internal structure of cells.",
+          "vi": "Kính hiển vi cho phép nhà khoa học nghiên cứu cấu trúc bên trong tế bào."
+        },
+        {
+          "en": "The essay's internal structure follows a clear logical order.",
+          "vi": "Cấu trúc bên trong của bài luận tuân theo một trật tự logic rõ ràng."
+        },
+        {
+          "en": "Engineers analyzed the internal structure of the damaged bridge.",
+          "vi": "Các kỹ sư đã phân tích cấu trúc bên trong của cây cầu hư hỏng."
+        }
+      ]
+    },
+    {
+      "english": "international agreement",
+      "vietnamese": "thỏa thuận quốc tế",
+      "ipa": "/ˌɪntərˈnæʃənəl əˈɡriːmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A new international agreement set limits on carbon emissions.",
+          "vi": "Một thỏa thuận quốc tế mới đặt ra giới hạn cho phát thải carbon."
+        },
+        {
+          "en": "Several nations signed the international agreement on trade.",
+          "vi": "Nhiều quốc gia đã ký thỏa thuận quốc tế về thương mại."
+        },
+        {
+          "en": "The international agreement took years of careful negotiation.",
+          "vi": "Thỏa thuận quốc tế đó mất nhiều năm đàm phán thận trọng."
+        }
+      ]
+    },
+    {
+      "english": "international body",
+      "vietnamese": "tổ chức quốc tế",
+      "ipa": "/ˌɪntərˈnæʃənəl ˈbɑːdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An international body was created to oversee global health.",
+          "vi": "Một tổ chức quốc tế được lập ra để giám sát sức khỏe toàn cầu."
+        },
+        {
+          "en": "Disputes are often referred to a neutral international body.",
+          "vi": "Tranh chấp thường được chuyển đến một tổ chức quốc tế trung lập."
+        },
+        {
+          "en": "The international body issued guidelines for member states.",
+          "vi": "Tổ chức quốc tế đã ban hành hướng dẫn cho các quốc gia thành viên."
+        }
+      ]
+    },
+    {
+      "english": "international community",
+      "vietnamese": "cộng đồng quốc tế",
+      "ipa": "/ˌɪntərˈnæʃənəl kəˈmjuːnəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The international community condemned the violence in strong terms.",
+          "vi": "Cộng đồng quốc tế đã lên án mạnh mẽ bạo lực."
+        },
+        {
+          "en": "Climate change requires action from the whole international community.",
+          "vi": "Biến đổi khí hậu đòi hỏi hành động từ toàn thể cộng đồng quốc tế."
+        },
+        {
+          "en": "Aid flowed in once the international community recognized the crisis.",
+          "vi": "Viện trợ đổ về khi cộng đồng quốc tế thừa nhận cuộc khủng hoảng."
+        }
+      ]
+    },
+    {
+      "english": "international conference",
+      "vietnamese": "hội nghị quốc tế",
+      "ipa": "/ˌɪntərˈnæʃənəl ˈkɑːnfərəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She presented her findings at an international conference in Paris.",
+          "vi": "Cô trình bày kết quả tại một hội nghị quốc tế ở Paris."
+        },
+        {
+          "en": "The international conference brought together experts from many fields.",
+          "vi": "Hội nghị quốc tế quy tụ các chuyên gia từ nhiều lĩnh vực."
+        },
+        {
+          "en": "Leaders met at an international conference to discuss trade policy.",
+          "vi": "Các lãnh đạo gặp nhau tại hội nghị quốc tế để bàn về chính sách thương mại."
+        }
+      ]
+    },
+    {
+      "english": "international context",
+      "vietnamese": "bối cảnh quốc tế",
+      "ipa": "/ˌɪntərˈnæʃənəl ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The policy must be understood within a wider international context.",
+          "vi": "Chính sách này phải được hiểu trong một bối cảnh quốc tế rộng hơn."
+        },
+        {
+          "en": "Her study places local events in an international context.",
+          "vi": "Nghiên cứu của cô đặt các sự kiện địa phương vào bối cảnh quốc tế."
+        },
+        {
+          "en": "In an international context, these standards vary considerably.",
+          "vi": "Trong bối cảnh quốc tế, các tiêu chuẩn này khác nhau đáng kể."
+        }
+      ]
+    }
+  ]
+}

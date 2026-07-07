@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 68/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 68/83"
+  },
+  "cards": [
+    {
+      "english": "scientific theory",
+      "vietnamese": "lý thuyết khoa học",
+      "ipa": "/ˌsaɪənˈtɪfɪk ˈθiːəri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A scientific theory must be supported by repeated experiments.",
+          "vi": "Một lý thuyết khoa học phải được hỗ trợ bởi các thí nghiệm lặp lại."
+        },
+        {
+          "en": "The professor explained the scientific theory behind black holes.",
+          "vi": "Giáo sư giải thích lý thuyết khoa học đằng sau hố đen."
+        },
+        {
+          "en": "New evidence can sometimes overturn an accepted scientific theory.",
+          "vi": "Bằng chứng mới đôi khi có thể lật đổ một lý thuyết khoa học đã được chấp nhận."
+        }
+      ]
+    },
+    {
+      "english": "secondary data",
+      "vietnamese": "dữ liệu thứ cấp",
+      "ipa": "/ˈsekənderi ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study used secondary data collected by another team.",
+          "vi": "Nghiên cứu sử dụng dữ liệu thứ cấp do một nhóm khác thu thập."
+        },
+        {
+          "en": "Analyzing secondary data saved the researchers considerable time.",
+          "vi": "Phân tích dữ liệu thứ cấp giúp các nhà nghiên cứu tiết kiệm nhiều thời gian."
+        },
+        {
+          "en": "Secondary data may not perfectly match a new research question.",
+          "vi": "Dữ liệu thứ cấp có thể không hoàn toàn phù hợp với câu hỏi nghiên cứu mới."
+        }
+      ]
+    },
+    {
+      "english": "secondary education",
+      "vietnamese": "giáo dục trung học",
+      "ipa": "/ˈsekənderi ˌedʒəˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Most students complete secondary education before entering university.",
+          "vi": "Hầu hết học sinh hoàn thành giáo dục trung học trước khi vào đại học."
+        },
+        {
+          "en": "The reform improved the quality of secondary education nationwide.",
+          "vi": "Cuộc cải cách đã nâng cao chất lượng giáo dục trung học trên cả nước."
+        },
+        {
+          "en": "Access to secondary education remains limited in some regions.",
+          "vi": "Khả năng tiếp cận giáo dục trung học vẫn còn hạn chế ở một số vùng."
+        }
+      ]
+    },
+    {
+      "english": "secondary source",
+      "vietnamese": "nguồn thứ cấp",
+      "ipa": "/ˈsekənderi sɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A textbook is considered a secondary source, not original research.",
+          "vi": "Sách giáo khoa được coi là nguồn thứ cấp, không phải nghiên cứu gốc."
+        },
+        {
+          "en": "Historians compare a secondary source with original documents carefully.",
+          "vi": "Các nhà sử học so sánh nguồn thứ cấp với tài liệu gốc một cách cẩn thận."
+        },
+        {
+          "en": "Relying only on a secondary source can introduce errors.",
+          "vi": "Chỉ dựa vào một nguồn thứ cấp có thể gây ra sai sót."
+        }
+      ]
+    },
+    {
+      "english": "security policy",
+      "vietnamese": "chính sách an ninh",
+      "ipa": "/sɪˈkjʊrəti ˈpɑːləsi/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The company updated its security policy after the data breach.",
+          "vi": "Công ty đã cập nhật chính sách an ninh sau vụ rò rỉ dữ liệu."
+        },
+        {
+          "en": "A clear security policy protects both staff and customers.",
+          "vi": "Một chính sách an ninh rõ ràng bảo vệ cả nhân viên lẫn khách hàng."
+        },
+        {
+          "en": "The government debated changes to its national security policy.",
+          "vi": "Chính phủ tranh luận về những thay đổi trong chính sách an ninh quốc gia."
+        }
+      ]
+    },
+    {
+      "english": "seek help",
+      "vietnamese": "tìm kiếm sự giúp đỡ",
+      "ipa": "/siːk help/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Students are encouraged to seek help when they struggle.",
+          "vi": "Học sinh được khuyến khích tìm kiếm sự giúp đỡ khi gặp khó khăn."
+        },
+        {
+          "en": "Many people hesitate to seek help for mental health.",
+          "vi": "Nhiều người ngần ngại tìm kiếm sự giúp đỡ cho sức khỏe tâm thần."
+        },
+        {
+          "en": "If symptoms worsen, you should seek help immediately.",
+          "vi": "Nếu triệu chứng trở nặng, bạn nên tìm kiếm sự giúp đỡ ngay lập tức."
+        }
+      ]
+    },
+    {
+      "english": "seek information",
+      "vietnamese": "tìm kiếm thông tin",
+      "ipa": "/siːk ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Patients increasingly seek information about treatments online.",
+          "vi": "Bệnh nhân ngày càng tìm kiếm thông tin về phương pháp điều trị trên mạng."
+        },
+        {
+          "en": "Reporters seek information from multiple sources before publishing.",
+          "vi": "Phóng viên tìm kiếm thông tin từ nhiều nguồn trước khi đăng bài."
+        },
+        {
+          "en": "Consumers seek information before making expensive purchasing decisions.",
+          "vi": "Người tiêu dùng tìm kiếm thông tin trước khi đưa ra quyết định mua sắm đắt đỏ."
+        }
+      ]
+    },
+    {
+      "english": "seem appropriate",
+      "vietnamese": "có vẻ phù hợp",
+      "ipa": "/siːm əˈproʊpriət/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "This method does not seem appropriate for such young children.",
+          "vi": "Phương pháp này có vẻ không phù hợp với trẻ nhỏ như vậy."
+        },
+        {
+          "en": "A formal tone would seem appropriate for this report.",
+          "vi": "Một giọng điệu trang trọng có vẻ phù hợp cho báo cáo này."
+        },
+        {
+          "en": "Choose whatever measures seem appropriate to the situation.",
+          "vi": "Hãy chọn bất kỳ biện pháp nào có vẻ phù hợp với tình huống."
+        }
+      ]
+    },
+    {
+      "english": "seem obvious",
+      "vietnamese": "có vẻ hiển nhiên",
+      "ipa": "/siːm ˈɑːbviəs/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The answer may seem obvious, but it is actually complex.",
+          "vi": "Câu trả lời có vẻ hiển nhiên, nhưng thực ra lại phức tạp."
+        },
+        {
+          "en": "Some solutions seem obvious only after careful analysis.",
+          "vi": "Một số giải pháp chỉ có vẻ hiển nhiên sau khi phân tích kỹ lưỡng."
+        },
+        {
+          "en": "What seems obvious to experts can confuse beginners completely.",
+          "vi": "Điều có vẻ hiển nhiên với chuyên gia có thể làm người mới hoàn toàn bối rối."
+        }
+      ]
+    },
+    {
+      "english": "seem plausible",
+      "vietnamese": "có vẻ hợp lý",
+      "ipa": "/siːm ˈplɔːzəbəl/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "His explanation does seem plausible given the available evidence.",
+          "vi": "Lời giải thích của anh ấy có vẻ hợp lý dựa trên bằng chứng hiện có."
+        },
+        {
+          "en": "Several theories seem plausible, so further research is needed.",
+          "vi": "Một số lý thuyết có vẻ hợp lý, vì vậy cần nghiên cứu thêm."
+        },
+        {
+          "en": "The argument may seem plausible but lacks solid support.",
+          "vi": "Lập luận có vẻ hợp lý nhưng thiếu sự hỗ trợ vững chắc."
+        }
+      ]
+    },
+    {
+      "english": "seem unlikely",
+      "vietnamese": "có vẻ khó xảy ra",
+      "ipa": "/siːm ʌnˈlaɪkli/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "A quick recovery now seems unlikely given the circumstances.",
+          "vi": "Một sự hồi phục nhanh chóng giờ đây có vẻ khó xảy ra trong hoàn cảnh này."
+        },
+        {
+          "en": "It seems unlikely that the project will finish on time.",
+          "vi": "Có vẻ khó xảy ra việc dự án sẽ hoàn thành đúng hạn."
+        },
+        {
+          "en": "Such an extreme outcome seems unlikely under normal conditions.",
+          "vi": "Một kết quả cực đoan như vậy có vẻ khó xảy ra trong điều kiện bình thường."
+        }
+      ]
+    },
+    {
+      "english": "seminal study",
+      "vietnamese": "nghiên cứu mang tính nền tảng",
+      "ipa": "/ˈseminəl ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "This seminal study shaped the entire field for decades.",
+          "vi": "Nghiên cứu nền tảng này đã định hình cả lĩnh vực trong nhiều thập kỷ."
+        },
+        {
+          "en": "Researchers still cite that seminal study in their papers.",
+          "vi": "Các nhà nghiên cứu vẫn trích dẫn nghiên cứu nền tảng đó trong bài viết của họ."
+        },
+        {
+          "en": "Her seminal study introduced a completely new methodology.",
+          "vi": "Nghiên cứu nền tảng của bà đã giới thiệu một phương pháp hoàn toàn mới."
+        }
+      ]
+    },
+    {
+      "english": "seminal work",
+      "vietnamese": "công trình mang tính nền tảng",
+      "ipa": "/ˈseminəl wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Darwin's seminal work transformed how we understand life.",
+          "vi": "Công trình nền tảng của Darwin đã thay đổi cách chúng ta hiểu về sự sống."
+        },
+        {
+          "en": "The seminal work remains essential reading for new students.",
+          "vi": "Công trình nền tảng này vẫn là tài liệu đọc thiết yếu cho sinh viên mới."
+        },
+        {
+          "en": "Many later theories build upon that seminal work.",
+          "vi": "Nhiều lý thuyết về sau được xây dựng dựa trên công trình nền tảng đó."
+        }
+      ]
+    },
+    {
+      "english": "senior management",
+      "vietnamese": "ban quản lý cấp cao",
+      "ipa": "/ˈsiːnjər ˈmænɪdʒmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Senior management approved the new strategy after long discussions.",
+          "vi": "Ban quản lý cấp cao đã phê duyệt chiến lược mới sau các cuộc thảo luận dài."
+        },
+        {
+          "en": "The report goes directly to senior management each quarter.",
+          "vi": "Báo cáo được gửi thẳng đến ban quản lý cấp cao mỗi quý."
+        },
+        {
+          "en": "Senior management is responsible for setting the company's direction.",
+          "vi": "Ban quản lý cấp cao chịu trách nhiệm định hướng cho công ty."
+        }
+      ]
+    },
+    {
+      "english": "separate entity",
+      "vietnamese": "thực thể riêng biệt",
+      "ipa": "/ˈsepərət ˈentəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Legally, the company is a separate entity from its owners.",
+          "vi": "Về mặt pháp lý, công ty là một thực thể riêng biệt với chủ sở hữu."
+        },
+        {
+          "en": "Each subsidiary operates as a separate entity with its own budget.",
+          "vi": "Mỗi công ty con hoạt động như một thực thể riêng biệt với ngân sách riêng."
+        },
+        {
+          "en": "The mind and body are sometimes treated as separate entities.",
+          "vi": "Tâm trí và cơ thể đôi khi được xem như những thực thể riêng biệt."
+        }
+      ]
+    },
+    {
+      "english": "serious challenge",
+      "vietnamese": "thách thức nghiêm trọng",
+      "ipa": "/ˈsɪriəs ˈtʃælɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Climate change poses a serious challenge to future generations.",
+          "vi": "Biến đổi khí hậu đặt ra một thách thức nghiêm trọng cho các thế hệ tương lai."
+        },
+        {
+          "en": "Funding cuts present a serious challenge for the hospital.",
+          "vi": "Việc cắt giảm ngân sách là một thách thức nghiêm trọng cho bệnh viện."
+        },
+        {
+          "en": "The new policy faced a serious challenge in court.",
+          "vi": "Chính sách mới đối mặt với một thách thức nghiêm trọng tại tòa án."
+        }
+      ]
+    },
+    {
+      "english": "serious consequences",
+      "vietnamese": "hậu quả nghiêm trọng",
+      "ipa": "/ˈsɪriəs ˈkɑːnsəkwensɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Ignoring safety rules can lead to serious consequences.",
+          "vi": "Phớt lờ các quy tắc an toàn có thể dẫn đến hậu quả nghiêm trọng."
+        },
+        {
+          "en": "The decision had serious consequences for the local economy.",
+          "vi": "Quyết định này gây ra hậu quả nghiêm trọng cho nền kinh tế địa phương."
+        },
+        {
+          "en": "Failing to act now may bring serious consequences later.",
+          "vi": "Không hành động ngay bây giờ có thể mang lại hậu quả nghiêm trọng về sau."
+        }
+      ]
+    },
+    {
+      "english": "serious offence",
+      "vietnamese": "tội nghiêm trọng",
+      "ipa": "/ˈsɪriəs əˈfens/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Fraud is a serious offence punishable by imprisonment.",
+          "vi": "Gian lận là một tội nghiêm trọng có thể bị phạt tù."
+        },
+        {
+          "en": "Cheating in exams is treated as a serious offence.",
+          "vi": "Gian lận trong thi cử được xem là một tội nghiêm trọng."
+        },
+        {
+          "en": "He was charged with a serious offence against public safety.",
+          "vi": "Anh ta bị buộc tội một tội nghiêm trọng chống lại an toàn công cộng."
+        }
+      ]
+    },
+    {
+      "english": "serve a function",
+      "vietnamese": "phục vụ một chức năng",
+      "ipa": "/sɜːrv ə ˈfʌŋkʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Even small details serve a function in the overall design.",
+          "vi": "Ngay cả chi tiết nhỏ cũng phục vụ một chức năng trong tổng thể thiết kế."
+        },
+        {
+          "en": "Rituals serve a function in holding communities together.",
+          "vi": "Các nghi lễ phục vụ một chức năng trong việc gắn kết cộng đồng."
+        },
+        {
+          "en": "Each part of the cell serves a specific function.",
+          "vi": "Mỗi phần của tế bào phục vụ một chức năng cụ thể."
+        }
+      ]
+    },
+    {
+      "english": "service sector",
+      "vietnamese": "khu vực dịch vụ",
+      "ipa": "/ˈsɜːrvɪs ˈsektər/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The service sector now employs most of the workforce.",
+          "vi": "Khu vực dịch vụ hiện sử dụng phần lớn lực lượng lao động."
+        },
+        {
+          "en": "Tourism is a major part of the country's service sector.",
+          "vi": "Du lịch là một phần lớn của khu vực dịch vụ của đất nước."
+        },
+        {
+          "en": "Automation is gradually changing jobs in the service sector.",
+          "vi": "Tự động hóa đang dần thay đổi các công việc trong khu vực dịch vụ."
+        }
+      ]
+    },
+    {
+      "english": "set a goal",
+      "vietnamese": "đặt ra một mục tiêu",
+      "ipa": "/set ə ɡoʊl/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "It helps to set a goal before starting any project.",
+          "vi": "Việc đặt ra một mục tiêu trước khi bắt đầu dự án rất hữu ích."
+        },
+        {
+          "en": "The coach asked each player to set a personal goal.",
+          "vi": "Huấn luyện viên yêu cầu mỗi cầu thủ đặt ra một mục tiêu cá nhân."
+        },
+        {
+          "en": "Companies set a goal to reduce emissions by half.",
+          "vi": "Các công ty đặt ra mục tiêu giảm một nửa lượng khí thải."
+        }
+      ]
+    },
+    {
+      "english": "set a target",
+      "vietnamese": "đặt ra một chỉ tiêu",
+      "ipa": "/set ə ˈtɑːrɡət/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The government set a target to plant a million trees.",
+          "vi": "Chính phủ đặt ra chỉ tiêu trồng một triệu cây xanh."
+        },
+        {
+          "en": "Managers set a target for monthly sales each quarter.",
+          "vi": "Người quản lý đặt ra chỉ tiêu doanh số hàng tháng mỗi quý."
+        },
+        {
+          "en": "It is wise to set a target that is realistic.",
+          "vi": "Đặt ra một chỉ tiêu thực tế là điều khôn ngoan."
+        }
+      ]
+    },
+    {
+      "english": "set an objective",
+      "vietnamese": "đặt ra một mục tiêu",
+      "ipa": "/set ən əbˈdʒektɪv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Teachers set an objective for every lesson they plan.",
+          "vi": "Giáo viên đặt ra một mục tiêu cho mỗi bài học họ chuẩn bị."
+        },
+        {
+          "en": "The team set an objective to launch the product early.",
+          "vi": "Nhóm đặt ra mục tiêu ra mắt sản phẩm sớm."
+        },
+        {
+          "en": "Before research, you should set an objective clearly.",
+          "vi": "Trước khi nghiên cứu, bạn nên đặt ra một mục tiêu rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "set the agenda",
+      "vietnamese": "định ra chương trình nghị sự",
+      "ipa": "/set ði əˈdʒendə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The chairperson will set the agenda for tomorrow's meeting.",
+          "vi": "Chủ tọa sẽ định ra chương trình nghị sự cho cuộc họp ngày mai."
+        },
+        {
+          "en": "Powerful media outlets often set the agenda for public debate.",
+          "vi": "Các hãng truyền thông lớn thường định ra chương trình nghị sự cho tranh luận công chúng."
+        },
+        {
+          "en": "Activists tried to set the agenda on environmental issues.",
+          "vi": "Các nhà hoạt động cố gắng định ra chương trình nghị sự về các vấn đề môi trường."
+        }
+      ]
+    },
+    {
+      "english": "set the parameters",
+      "vietnamese": "thiết lập các thông số",
+      "ipa": "/set ðə pəˈræmətərz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The professor set the parameters for the final assignment clearly.",
+          "vi": "Giáo sư thiết lập rõ ràng các thông số cho bài tập cuối kỳ."
+        },
+        {
+          "en": "We must set the parameters before running the experiment.",
+          "vi": "Chúng ta phải thiết lập các thông số trước khi tiến hành thí nghiệm."
+        },
+        {
+          "en": "The contract sets the parameters within which both parties operate.",
+          "vi": "Hợp đồng thiết lập các thông số mà cả hai bên hoạt động trong đó."
+        }
+      ]
+    },
+    {
+      "english": "severely affect",
+      "vietnamese": "ảnh hưởng nghiêm trọng",
+      "ipa": "/səˈvɪrli əˈfekt/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "The drought severely affected crops across the entire region.",
+          "vi": "Hạn hán đã ảnh hưởng nghiêm trọng đến mùa màng trên toàn khu vực."
+        },
+        {
+          "en": "Pollution can severely affect the health of local residents.",
+          "vi": "Ô nhiễm có thể ảnh hưởng nghiêm trọng đến sức khỏe của cư dân địa phương."
+        },
+        {
+          "en": "The strike severely affected public transport for several days.",
+          "vi": "Cuộc đình công đã ảnh hưởng nghiêm trọng đến giao thông công cộng trong vài ngày."
+        }
+      ]
+    },
+    {
+      "english": "sexual abuse",
+      "vietnamese": "lạm dụng tình dục",
+      "ipa": "/ˈsekʃuəl əˈbjuːs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The charity supports survivors of childhood sexual abuse.",
+          "vi": "Tổ chức từ thiện hỗ trợ những người sống sót sau lạm dụng tình dục thời thơ ấu."
+        },
+        {
+          "en": "Schools must report any suspected case of sexual abuse.",
+          "vi": "Trường học phải báo cáo bất kỳ trường hợp nghi ngờ lạm dụng tình dục nào."
+        },
+        {
+          "en": "New laws aim to prevent sexual abuse and protect victims.",
+          "vi": "Luật mới nhằm ngăn chặn lạm dụng tình dục và bảo vệ nạn nhân."
+        }
+      ]
+    },
+    {
+      "english": "sexual act",
+      "vietnamese": "hành vi tình dục",
+      "ipa": "/ˈsekʃuəl ækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The law clearly defines what counts as a sexual act.",
+          "vi": "Luật pháp định nghĩa rõ ràng điều gì được coi là một hành vi tình dục."
+        },
+        {
+          "en": "Consent must be present for any sexual act to be legal.",
+          "vi": "Phải có sự đồng thuận thì một hành vi tình dục mới hợp pháp."
+        },
+        {
+          "en": "Researchers studied attitudes toward depicting a sexual act in media.",
+          "vi": "Các nhà nghiên cứu khảo sát thái độ đối với việc mô tả hành vi tình dục trên truyền thông."
+        }
+      ]
+    },
+    {
+      "english": "sexual behavior",
+      "vietnamese": "hành vi tình dục",
+      "ipa": "/ˈsekʃuəl bɪˈheɪvjər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey examined the sexual behavior of young adults.",
+          "vi": "Cuộc khảo sát xem xét hành vi tình dục của thanh niên."
+        },
+        {
+          "en": "Culture strongly influences attitudes toward sexual behavior.",
+          "vi": "Văn hóa ảnh hưởng mạnh đến thái độ đối với hành vi tình dục."
+        },
+        {
+          "en": "Education can promote safer and more responsible sexual behavior.",
+          "vi": "Giáo dục có thể thúc đẩy hành vi tình dục an toàn và có trách nhiệm hơn."
+        }
+      ]
+    },
+    {
+      "english": "sexual contact",
+      "vietnamese": "tiếp xúc tình dục",
+      "ipa": "/ˈsekʃuəl ˈkɑːntækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Some infections spread mainly through sexual contact.",
+          "vi": "Một số bệnh nhiễm trùng lây lan chủ yếu qua tiếp xúc tình dục."
+        },
+        {
+          "en": "The study tracked rates of unprotected sexual contact.",
+          "vi": "Nghiên cứu theo dõi tỷ lệ tiếp xúc tình dục không được bảo vệ."
+        },
+        {
+          "en": "Health classes explain how sexual contact can transmit disease.",
+          "vi": "Các lớp sức khỏe giải thích cách tiếp xúc tình dục có thể truyền bệnh."
+        }
+      ]
+    }
+  ]
+}

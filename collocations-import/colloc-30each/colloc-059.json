@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 59/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 59/83"
+  },
+  "cards": [
+    {
+      "english": "primarily responsible for",
+      "vietnamese": "chịu trách nhiệm chính cho",
+      "ipa": "/praɪˈmerəli rɪˈspɑːnsəbəl fər/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "These cells are primarily responsible for the immune response.",
+          "vi": "Các tế bào này chịu trách nhiệm chính cho phản ứng miễn dịch."
+        },
+        {
+          "en": "Local councils are primarily responsible for waste collection services.",
+          "vi": "Hội đồng địa phương chịu trách nhiệm chính cho dịch vụ thu gom rác."
+        },
+        {
+          "en": "One enzyme is primarily responsible for breaking down the toxin.",
+          "vi": "Một enzyme chịu trách nhiệm chính cho việc phân hủy độc tố."
+        }
+      ]
+    },
+    {
+      "english": "primary aim",
+      "vietnamese": "mục tiêu chính",
+      "ipa": "/ˈpraɪmeri eɪm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The primary aim of this study is to reduce error rates.",
+          "vi": "Mục tiêu chính của nghiên cứu này là giảm tỷ lệ lỗi."
+        },
+        {
+          "en": "Our primary aim was to improve access for rural patients.",
+          "vi": "Mục tiêu chính của chúng tôi là cải thiện khả năng tiếp cận cho bệnh nhân nông thôn."
+        },
+        {
+          "en": "The program's primary aim is helping students develop critical thinking.",
+          "vi": "Mục tiêu chính của chương trình là giúp học sinh phát triển tư duy phản biện."
+        }
+      ]
+    },
+    {
+      "english": "primary care",
+      "vietnamese": "chăm sóc sức khỏe ban đầu",
+      "ipa": "/ˈpraɪmeri ker/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Most patients first seek help through primary care services.",
+          "vi": "Hầu hết bệnh nhân tìm kiếm sự hỗ trợ đầu tiên qua dịch vụ chăm sóc sức khỏe ban đầu."
+        },
+        {
+          "en": "Investing in primary care reduces pressure on hospitals.",
+          "vi": "Đầu tư vào chăm sóc sức khỏe ban đầu giúp giảm áp lực cho bệnh viện."
+        },
+        {
+          "en": "Primary care doctors often manage chronic conditions over time.",
+          "vi": "Bác sĩ chăm sóc ban đầu thường quản lý các bệnh mãn tính theo thời gian."
+        }
+      ]
+    },
+    {
+      "english": "primary concern",
+      "vietnamese": "mối quan tâm hàng đầu",
+      "ipa": "/ˈpraɪmeri kənˈsɜːrn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Safety remains the primary concern for everyone on the team.",
+          "vi": "An toàn vẫn là mối quan tâm hàng đầu của mọi người trong nhóm."
+        },
+        {
+          "en": "Rising costs are a primary concern for many small businesses.",
+          "vi": "Chi phí tăng là mối quan tâm hàng đầu của nhiều doanh nghiệp nhỏ."
+        },
+        {
+          "en": "The primary concern of parents was their children's education.",
+          "vi": "Mối quan tâm hàng đầu của phụ huynh là việc học của con cái."
+        }
+      ]
+    },
+    {
+      "english": "primary data",
+      "vietnamese": "dữ liệu sơ cấp",
+      "ipa": "/ˈpraɪmeri ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "We collected primary data through interviews and field surveys.",
+          "vi": "Chúng tôi thu thập dữ liệu sơ cấp qua phỏng vấn và khảo sát thực địa."
+        },
+        {
+          "en": "Primary data offers fresh insight that existing records cannot.",
+          "vi": "Dữ liệu sơ cấp mang lại hiểu biết mới mà hồ sơ có sẵn không có."
+        },
+        {
+          "en": "The thesis relies on primary data gathered over two years.",
+          "vi": "Luận án dựa vào dữ liệu sơ cấp thu thập trong hai năm."
+        }
+      ]
+    },
+    {
+      "english": "primary education",
+      "vietnamese": "giáo dục tiểu học",
+      "ipa": "/ˈpraɪmeri ˌedʒəˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Free primary education is a basic right in many countries.",
+          "vi": "Giáo dục tiểu học miễn phí là quyền cơ bản ở nhiều quốc gia."
+        },
+        {
+          "en": "Quality primary education lays the foundation for later learning.",
+          "vi": "Giáo dục tiểu học chất lượng đặt nền tảng cho việc học sau này."
+        },
+        {
+          "en": "The reform aims to expand primary education in remote villages.",
+          "vi": "Cuộc cải cách nhằm mở rộng giáo dục tiểu học ở các làng xa xôi."
+        }
+      ]
+    },
+    {
+      "english": "primary focus",
+      "vietnamese": "trọng tâm chính",
+      "ipa": "/ˈpraɪmeri ˈfoʊkəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The primary focus of the report is renewable energy growth.",
+          "vi": "Trọng tâm chính của báo cáo là sự tăng trưởng năng lượng tái tạo."
+        },
+        {
+          "en": "Customer satisfaction has become the company's primary focus this year.",
+          "vi": "Sự hài lòng của khách hàng đã trở thành trọng tâm chính của công ty năm nay."
+        },
+        {
+          "en": "Her primary focus during the project was data quality.",
+          "vi": "Trọng tâm chính của cô trong dự án là chất lượng dữ liệu."
+        }
+      ]
+    },
+    {
+      "english": "primary function",
+      "vietnamese": "chức năng chính",
+      "ipa": "/ˈpraɪmeri ˈfʌŋkʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The heart's primary function is to pump blood around the body.",
+          "vi": "Chức năng chính của tim là bơm máu đi khắp cơ thể."
+        },
+        {
+          "en": "The primary function of the device is to monitor temperature.",
+          "vi": "Chức năng chính của thiết bị là theo dõi nhiệt độ."
+        },
+        {
+          "en": "A library's primary function is to provide access to knowledge.",
+          "vi": "Chức năng chính của thư viện là cung cấp khả năng tiếp cận tri thức."
+        }
+      ]
+    },
+    {
+      "english": "primary objective",
+      "vietnamese": "mục tiêu chính",
+      "ipa": "/ˈpraɪmeri əbˈdʒektɪv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The primary objective is to lower unemployment in the region.",
+          "vi": "Mục tiêu chính là giảm tỷ lệ thất nghiệp trong khu vực."
+        },
+        {
+          "en": "Reducing waste was the primary objective of the new plan.",
+          "vi": "Giảm rác thải là mục tiêu chính của kế hoạch mới."
+        },
+        {
+          "en": "Each team set a clear primary objective for the quarter.",
+          "vi": "Mỗi nhóm đặt ra một mục tiêu chính rõ ràng cho quý."
+        }
+      ]
+    },
+    {
+      "english": "primary purpose",
+      "vietnamese": "mục đích chính",
+      "ipa": "/ˈpraɪmeri ˈpɜːrpəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The primary purpose of the survey was to gather opinions.",
+          "vi": "Mục đích chính của khảo sát là thu thập ý kiến."
+        },
+        {
+          "en": "Its primary purpose is to protect users from online fraud.",
+          "vi": "Mục đích chính của nó là bảo vệ người dùng khỏi lừa đảo trực tuyến."
+        },
+        {
+          "en": "The fund's primary purpose is supporting research in medicine.",
+          "vi": "Mục đích chính của quỹ là hỗ trợ nghiên cứu y học."
+        }
+      ]
+    },
+    {
+      "english": "primary reason",
+      "vietnamese": "lý do chính",
+      "ipa": "/ˈpraɪmeri ˈriːzən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cost was the primary reason for delaying the project.",
+          "vi": "Chi phí là lý do chính khiến dự án bị trì hoãn."
+        },
+        {
+          "en": "The primary reason for the change is improved efficiency.",
+          "vi": "Lý do chính cho sự thay đổi là cải thiện hiệu quả."
+        },
+        {
+          "en": "Poor weather was the primary reason for the low turnout.",
+          "vi": "Thời tiết xấu là lý do chính cho lượng người tham dự thấp."
+        }
+      ]
+    },
+    {
+      "english": "primary research",
+      "vietnamese": "nghiên cứu sơ cấp",
+      "ipa": "/ˈpraɪmeri rɪˈsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The essay combines primary research with published statistics.",
+          "vi": "Bài luận kết hợp nghiên cứu sơ cấp với số liệu thống kê đã công bố."
+        },
+        {
+          "en": "Conducting primary research requires careful planning and ethical approval.",
+          "vi": "Tiến hành nghiên cứu sơ cấp đòi hỏi lập kế hoạch kỹ lưỡng và phê duyệt đạo đức."
+        },
+        {
+          "en": "Students learn primary research methods such as interviews and observation.",
+          "vi": "Sinh viên học các phương pháp nghiên cứu sơ cấp như phỏng vấn và quan sát."
+        }
+      ]
+    },
+    {
+      "english": "primary responsibility",
+      "vietnamese": "trách nhiệm chính",
+      "ipa": "/ˈpraɪmeri rɪˌspɑːnsəˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her primary responsibility is managing the research budget carefully.",
+          "vi": "Trách nhiệm chính của cô là quản lý ngân sách nghiên cứu cẩn thận."
+        },
+        {
+          "en": "Schools bear primary responsibility for keeping students safe.",
+          "vi": "Trường học gánh trách nhiệm chính trong việc giữ an toàn cho học sinh."
+        },
+        {
+          "en": "The minister's primary responsibility is overseeing public health policy.",
+          "vi": "Trách nhiệm chính của bộ trưởng là giám sát chính sách y tế công cộng."
+        }
+      ]
+    },
+    {
+      "english": "primary source",
+      "vietnamese": "nguồn sơ cấp",
+      "ipa": "/ˈpraɪmeri sɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Letters and diaries serve as a valuable primary source.",
+          "vi": "Thư từ và nhật ký là nguồn sơ cấp quý giá."
+        },
+        {
+          "en": "Historians prefer a primary source to a later commentary.",
+          "vi": "Các nhà sử học thích nguồn sơ cấp hơn là bình luận về sau."
+        },
+        {
+          "en": "The interview became the primary source for her dissertation.",
+          "vi": "Cuộc phỏng vấn trở thành nguồn sơ cấp cho luận văn của cô."
+        }
+      ]
+    },
+    {
+      "english": "primary task",
+      "vietnamese": "nhiệm vụ chính",
+      "ipa": "/ˈpraɪmeri tæsk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The primary task of the committee is reviewing applications.",
+          "vi": "Nhiệm vụ chính của ủy ban là xem xét các đơn đăng ký."
+        },
+        {
+          "en": "His primary task was to translate the documents accurately.",
+          "vi": "Nhiệm vụ chính của anh là dịch các tài liệu một cách chính xác."
+        },
+        {
+          "en": "Our primary task this week is testing the new software.",
+          "vi": "Nhiệm vụ chính của chúng tôi tuần này là kiểm thử phần mềm mới."
+        }
+      ]
+    },
+    {
+      "english": "prime example",
+      "vietnamese": "ví dụ điển hình",
+      "ipa": "/praɪm ɪɡˈzæmpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "This city is a prime example of rapid urban growth.",
+          "vi": "Thành phố này là ví dụ điển hình của sự phát triển đô thị nhanh chóng."
+        },
+        {
+          "en": "Her speech offered a prime example of persuasive writing.",
+          "vi": "Bài phát biểu của cô là ví dụ điển hình của lối viết thuyết phục."
+        },
+        {
+          "en": "The reform is a prime example of successful public policy.",
+          "vi": "Cuộc cải cách là ví dụ điển hình của chính sách công thành công."
+        }
+      ]
+    },
+    {
+      "english": "prime time",
+      "vietnamese": "khung giờ vàng",
+      "ipa": "/praɪm taɪm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The debate was broadcast during prime time on national television.",
+          "vi": "Cuộc tranh luận được phát sóng vào khung giờ vàng trên truyền hình quốc gia."
+        },
+        {
+          "en": "Advertising during prime time costs far more than late slots.",
+          "vi": "Quảng cáo vào khung giờ vàng tốn kém hơn nhiều so với khung giờ khuya."
+        },
+        {
+          "en": "The popular show dominates prime time every weekday evening.",
+          "vi": "Chương trình nổi tiếng thống trị khung giờ vàng mỗi tối ngày thường."
+        }
+      ]
+    },
+    {
+      "english": "principal source",
+      "vietnamese": "nguồn chủ yếu",
+      "ipa": "/ˈprɪnsəpəl sɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Coal was once the principal source of energy worldwide.",
+          "vi": "Than đá từng là nguồn năng lượng chủ yếu trên toàn thế giới."
+        },
+        {
+          "en": "Tourism is the principal source of income for the island.",
+          "vi": "Du lịch là nguồn thu nhập chủ yếu của hòn đảo."
+        },
+        {
+          "en": "Newspapers remain a principal source of local news for many.",
+          "vi": "Báo chí vẫn là nguồn tin tức địa phương chủ yếu với nhiều người."
+        }
+      ]
+    },
+    {
+      "english": "prior experience",
+      "vietnamese": "kinh nghiệm trước đó",
+      "ipa": "/ˈpraɪər ɪkˈspɪriəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "No prior experience is needed to join the workshop.",
+          "vi": "Không cần kinh nghiệm trước đó để tham gia hội thảo."
+        },
+        {
+          "en": "Her prior experience in nursing helped during the crisis.",
+          "vi": "Kinh nghiệm điều dưỡng trước đó của cô đã giúp ích trong khủng hoảng."
+        },
+        {
+          "en": "Applicants with prior experience are given strong preference.",
+          "vi": "Ứng viên có kinh nghiệm trước đó được ưu tiên rõ rệt."
+        }
+      ]
+    },
+    {
+      "english": "prior knowledge",
+      "vietnamese": "kiến thức nền có sẵn",
+      "ipa": "/ˈpraɪər ˈnɑːlɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Learners connect new ideas to their prior knowledge.",
+          "vi": "Người học kết nối ý tưởng mới với kiến thức nền có sẵn của mình."
+        },
+        {
+          "en": "The test assumes some prior knowledge of basic statistics.",
+          "vi": "Bài kiểm tra giả định có sẵn một số kiến thức cơ bản về thống kê."
+        },
+        {
+          "en": "Teachers should assess students' prior knowledge before each unit.",
+          "vi": "Giáo viên nên đánh giá kiến thức nền của học sinh trước mỗi bài."
+        }
+      ]
+    },
+    {
+      "english": "private individual",
+      "vietnamese": "cá nhân riêng lẻ",
+      "ipa": "/ˈpraɪvət ˌɪndɪˈvɪdʒuəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A private individual donated the land to the city.",
+          "vi": "Một cá nhân riêng lẻ đã hiến tặng mảnh đất cho thành phố."
+        },
+        {
+          "en": "The law protects a private individual's personal data online.",
+          "vi": "Luật bảo vệ dữ liệu cá nhân của một cá nhân riêng lẻ trên mạng."
+        },
+        {
+          "en": "Such loans are rarely available to a private individual.",
+          "vi": "Những khoản vay như vậy hiếm khi dành cho một cá nhân riêng lẻ."
+        }
+      ]
+    },
+    {
+      "english": "private investment",
+      "vietnamese": "đầu tư tư nhân",
+      "ipa": "/ˈpraɪvət ɪnˈvestmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Private investment in clean energy rose sharply last year.",
+          "vi": "Đầu tư tư nhân vào năng lượng sạch tăng mạnh năm ngoái."
+        },
+        {
+          "en": "The government hopes to attract more private investment in transport.",
+          "vi": "Chính phủ hy vọng thu hút thêm đầu tư tư nhân vào giao thông."
+        },
+        {
+          "en": "Private investment often complements public funding for large projects.",
+          "vi": "Đầu tư tư nhân thường bổ sung cho nguồn vốn công cho các dự án lớn."
+        }
+      ]
+    },
+    {
+      "english": "private sector",
+      "vietnamese": "khu vực tư nhân",
+      "ipa": "/ˈpraɪvət ˈsektər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many graduates prefer jobs in the private sector.",
+          "vi": "Nhiều sinh viên tốt nghiệp thích công việc trong khu vực tư nhân."
+        },
+        {
+          "en": "The private sector now delivers many former public services.",
+          "vi": "Khu vực tư nhân hiện cung cấp nhiều dịch vụ công trước đây."
+        },
+        {
+          "en": "Wages in the private sector vary widely across industries.",
+          "vi": "Tiền lương trong khu vực tư nhân chênh lệch lớn giữa các ngành."
+        }
+      ]
+    },
+    {
+      "english": "private sphere",
+      "vietnamese": "lĩnh vực riêng tư",
+      "ipa": "/ˈpraɪvət sfɪr/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These decisions belong to the private sphere, not the state.",
+          "vi": "Những quyết định này thuộc lĩnh vực riêng tư, không phải của nhà nước."
+        },
+        {
+          "en": "Historically, women were confined to the private sphere of home.",
+          "vi": "Trong lịch sử, phụ nữ bị giới hạn trong lĩnh vực riêng tư của gia đình."
+        },
+        {
+          "en": "The book explores how technology invades the private sphere.",
+          "vi": "Cuốn sách khám phá cách công nghệ xâm phạm lĩnh vực riêng tư."
+        }
+      ]
+    },
+    {
+      "english": "privileged position",
+      "vietnamese": "vị thế đặc quyền",
+      "ipa": "/ˈprɪvəlɪdʒd pəˈzɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Wealthy families often enjoy a privileged position in society.",
+          "vi": "Các gia đình giàu có thường có vị thế đặc quyền trong xã hội."
+        },
+        {
+          "en": "The bank holds a privileged position in the local economy.",
+          "vi": "Ngân hàng giữ vị thế đặc quyền trong nền kinh tế địa phương."
+        },
+        {
+          "en": "Editors occupy a privileged position in shaping public opinion.",
+          "vi": "Các biên tập viên chiếm vị thế đặc quyền trong việc định hình dư luận."
+        }
+      ]
+    },
+    {
+      "english": "problem area",
+      "vietnamese": "lĩnh vực có vấn đề",
+      "ipa": "/ˈprɑːbləm ˈeriə/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The audit identified several problem areas in the system.",
+          "vi": "Cuộc kiểm toán đã xác định một số lĩnh vực có vấn đề trong hệ thống."
+        },
+        {
+          "en": "Traffic congestion is a major problem area for the city.",
+          "vi": "Tắc nghẽn giao thông là một lĩnh vực có vấn đề lớn của thành phố."
+        },
+        {
+          "en": "The teacher focused revision on each student's main problem areas.",
+          "vi": "Giáo viên tập trung ôn tập vào các lĩnh vực có vấn đề chính của từng học sinh."
+        }
+      ]
+    },
+    {
+      "english": "process data",
+      "vietnamese": "xử lý dữ liệu",
+      "ipa": "/ˈprɑːses ˈdeɪtə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The software can process data from thousands of sensors instantly.",
+          "vi": "Phần mềm có thể xử lý dữ liệu từ hàng nghìn cảm biến ngay lập tức."
+        },
+        {
+          "en": "Analysts process data carefully before drawing any conclusions.",
+          "vi": "Các nhà phân tích xử lý dữ liệu cẩn thận trước khi rút ra kết luận."
+        },
+        {
+          "en": "Companies must process data fairly under privacy law.",
+          "vi": "Các công ty phải xử lý dữ liệu một cách công bằng theo luật bảo mật."
+        }
+      ]
+    },
+    {
+      "english": "process information",
+      "vietnamese": "xử lý thông tin",
+      "ipa": "/ˈprɑːses ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The brain can process information remarkably quickly.",
+          "vi": "Não bộ có thể xử lý thông tin nhanh một cách đáng kinh ngạc."
+        },
+        {
+          "en": "Children process information differently from adults in many tasks.",
+          "vi": "Trẻ em xử lý thông tin khác với người lớn trong nhiều nhiệm vụ."
+        },
+        {
+          "en": "The system helps users process information from multiple sources.",
+          "vi": "Hệ thống giúp người dùng xử lý thông tin từ nhiều nguồn."
+        }
+      ]
+    },
+    {
+      "english": "professional activity",
+      "vietnamese": "hoạt động nghề nghiệp",
+      "ipa": "/prəˈfeʃənəl ækˈtɪvəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Teaching is the main professional activity recorded in her file.",
+          "vi": "Giảng dạy là hoạt động nghề nghiệp chính được ghi trong hồ sơ của cô."
+        },
+        {
+          "en": "Conferences are an important professional activity for researchers.",
+          "vi": "Hội nghị là một hoạt động nghề nghiệp quan trọng đối với nhà nghiên cứu."
+        },
+        {
+          "en": "The survey tracked the professional activity of recent graduates.",
+          "vi": "Khảo sát theo dõi hoạt động nghề nghiệp của sinh viên mới tốt nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "professional body",
+      "vietnamese": "tổ chức nghề nghiệp",
+      "ipa": "/prəˈfeʃənəl ˈbɑːdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The professional body sets ethical standards for all members.",
+          "vi": "Tổ chức nghề nghiệp đặt ra các tiêu chuẩn đạo đức cho mọi thành viên."
+        },
+        {
+          "en": "Engineers must register with the relevant professional body.",
+          "vi": "Các kỹ sư phải đăng ký với tổ chức nghề nghiệp liên quan."
+        },
+        {
+          "en": "A professional body can revoke a member's license for misconduct.",
+          "vi": "Tổ chức nghề nghiệp có thể thu hồi giấy phép của thành viên vì vi phạm."
+        }
+      ]
+    }
+  ]
+}

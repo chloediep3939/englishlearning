@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 17/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 17/83"
+  },
+  "cards": [
+    {
+      "english": "defining characteristic",
+      "vietnamese": "đặc điểm nhận diện",
+      "ipa": "/dɪˈfaɪnɪŋ ˌkærəktəˈrɪstɪk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Curiosity is a defining characteristic of good scientists.",
+          "vi": "Tính tò mò là đặc điểm nhận diện của những nhà khoa học giỏi."
+        },
+        {
+          "en": "The defining characteristic of mammals is their fur.",
+          "vi": "Đặc điểm nhận diện của động vật có vú là bộ lông của chúng."
+        },
+        {
+          "en": "Flexibility became the defining characteristic of the new design.",
+          "vi": "Tính linh hoạt trở thành đặc điểm nhận diện của thiết kế mới."
+        }
+      ]
+    },
+    {
+      "english": "defining concept",
+      "vietnamese": "khái niệm cốt lõi",
+      "ipa": "/dɪˈfaɪnɪŋ ˈkɑːnsept/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Freedom is a defining concept in modern political thought.",
+          "vi": "Tự do là một khái niệm cốt lõi trong tư tưởng chính trị hiện đại."
+        },
+        {
+          "en": "The lecture explained the defining concept of the theory.",
+          "vi": "Bài giảng giải thích khái niệm cốt lõi của lý thuyết."
+        },
+        {
+          "en": "Sustainability has become a defining concept in design.",
+          "vi": "Tính bền vững đã trở thành một khái niệm cốt lõi trong thiết kế."
+        }
+      ]
+    },
+    {
+      "english": "defining feature",
+      "vietnamese": "đặc trưng nổi bật",
+      "ipa": "/dɪˈfaɪnɪŋ ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Strong rhythm is a defining feature of this music.",
+          "vi": "Nhịp điệu mạnh mẽ là đặc trưng nổi bật của loại nhạc này."
+        },
+        {
+          "en": "The defining feature of the building is its glass roof.",
+          "vi": "Đặc trưng nổi bật của tòa nhà là mái kính của nó."
+        },
+        {
+          "en": "Openness is the defining feature of their company culture.",
+          "vi": "Sự cởi mở là đặc trưng nổi bật của văn hóa công ty họ."
+        }
+      ]
+    },
+    {
+      "english": "deliberate attempt",
+      "vietnamese": "nỗ lực có chủ đích",
+      "ipa": "/dɪˈlɪbərət əˈtempt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The policy was a deliberate attempt to reduce poverty.",
+          "vi": "Chính sách này là một nỗ lực có chủ đích nhằm giảm nghèo."
+        },
+        {
+          "en": "His remarks seemed a deliberate attempt to provoke debate.",
+          "vi": "Những lời của anh có vẻ là nỗ lực có chủ đích để khơi mào tranh luận."
+        },
+        {
+          "en": "The redesign was a deliberate attempt to improve safety.",
+          "vi": "Việc thiết kế lại là một nỗ lực có chủ đích để cải thiện an toàn."
+        }
+      ]
+    },
+    {
+      "english": "democratic institution",
+      "vietnamese": "thiết chế dân chủ",
+      "ipa": "/ˌdeməˈkrætɪk ˌɪnstɪˈtuːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Free elections are a key democratic institution.",
+          "vi": "Bầu cử tự do là một thiết chế dân chủ then chốt."
+        },
+        {
+          "en": "Strong democratic institutions protect citizens' rights.",
+          "vi": "Các thiết chế dân chủ vững mạnh bảo vệ quyền của công dân."
+        },
+        {
+          "en": "The reforms aimed to strengthen democratic institutions.",
+          "vi": "Các cải cách nhằm củng cố các thiết chế dân chủ."
+        }
+      ]
+    },
+    {
+      "english": "democratic process",
+      "vietnamese": "tiến trình dân chủ",
+      "ipa": "/ˌdeməˈkrætɪk ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Voting is a fundamental part of the democratic process.",
+          "vi": "Bỏ phiếu là một phần cơ bản của tiến trình dân chủ."
+        },
+        {
+          "en": "Citizens take part in the democratic process through elections.",
+          "vi": "Công dân tham gia tiến trình dân chủ thông qua bầu cử."
+        },
+        {
+          "en": "A free press supports a healthy democratic process.",
+          "vi": "Báo chí tự do hỗ trợ một tiến trình dân chủ lành mạnh."
+        }
+      ]
+    },
+    {
+      "english": "democratic society",
+      "vietnamese": "xã hội dân chủ",
+      "ipa": "/ˌdeməˈkrætɪk səˈsaɪəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Free speech is essential in a democratic society.",
+          "vi": "Tự do ngôn luận là điều thiết yếu trong một xã hội dân chủ."
+        },
+        {
+          "en": "A democratic society depends on informed and active citizens.",
+          "vi": "Một xã hội dân chủ phụ thuộc vào công dân hiểu biết và năng động."
+        },
+        {
+          "en": "Education plays a vital role in any democratic society.",
+          "vi": "Giáo dục đóng vai trò sống còn trong bất kỳ xã hội dân chủ nào."
+        }
+      ]
+    },
+    {
+      "english": "democratic state",
+      "vietnamese": "nhà nước dân chủ",
+      "ipa": "/ˌdeməˈkrætɪk steɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A democratic state guarantees basic rights to its people.",
+          "vi": "Một nhà nước dân chủ bảo đảm các quyền cơ bản cho người dân."
+        },
+        {
+          "en": "The country became a democratic state after the reforms.",
+          "vi": "Đất nước trở thành một nhà nước dân chủ sau các cuộc cải cách."
+        },
+        {
+          "en": "In a democratic state, leaders are chosen by the people.",
+          "vi": "Trong một nhà nước dân chủ, lãnh đạo do người dân lựa chọn."
+        }
+      ]
+    },
+    {
+      "english": "demographic change",
+      "vietnamese": "thay đổi nhân khẩu học",
+      "ipa": "/ˌdeməˈɡræfɪk tʃeɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Demographic change is reshaping the country's labor market.",
+          "vi": "Thay đổi nhân khẩu học đang định hình lại thị trường lao động của đất nước."
+        },
+        {
+          "en": "An aging population is a major demographic change.",
+          "vi": "Dân số già hóa là một thay đổi nhân khẩu học lớn."
+        },
+        {
+          "en": "Planners must prepare for rapid demographic change.",
+          "vi": "Các nhà hoạch định phải chuẩn bị cho thay đổi nhân khẩu học nhanh chóng."
+        }
+      ]
+    },
+    {
+      "english": "demographic characteristics",
+      "vietnamese": "đặc điểm nhân khẩu học",
+      "ipa": "/ˌdeməˈɡræfɪk ˌkærəktəˈrɪstɪks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey recorded the demographic characteristics of each respondent.",
+          "vi": "Cuộc khảo sát ghi lại đặc điểm nhân khẩu học của từng người trả lời."
+        },
+        {
+          "en": "Demographic characteristics include age, gender, and income.",
+          "vi": "Đặc điểm nhân khẩu học bao gồm tuổi, giới tính và thu nhập."
+        },
+        {
+          "en": "Marketers study demographic characteristics to target customers.",
+          "vi": "Người làm tiếp thị nghiên cứu đặc điểm nhân khẩu học để nhắm khách hàng."
+        }
+      ]
+    },
+    {
+      "english": "demographic factor",
+      "vietnamese": "yếu tố nhân khẩu học",
+      "ipa": "/ˌdeməˈɡræfɪk ˈfæktər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Age is an important demographic factor in voting behavior.",
+          "vi": "Tuổi tác là một yếu tố nhân khẩu học quan trọng trong hành vi bỏ phiếu."
+        },
+        {
+          "en": "The study controlled for several demographic factors.",
+          "vi": "Nghiên cứu đã kiểm soát một số yếu tố nhân khẩu học."
+        },
+        {
+          "en": "Income is a demographic factor linked to health outcomes.",
+          "vi": "Thu nhập là một yếu tố nhân khẩu học liên quan đến kết quả sức khỏe."
+        }
+      ]
+    },
+    {
+      "english": "demonstrate competence",
+      "vietnamese": "thể hiện năng lực",
+      "ipa": "/ˈdemənstreɪt ˈkɑːmpətəns/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Candidates must demonstrate competence in basic mathematics.",
+          "vi": "Ứng viên phải thể hiện năng lực trong toán học cơ bản."
+        },
+        {
+          "en": "The exam allows students to demonstrate competence in writing.",
+          "vi": "Kỳ thi cho phép sinh viên thể hiện năng lực viết."
+        },
+        {
+          "en": "New nurses demonstrate competence before working alone.",
+          "vi": "Y tá mới thể hiện năng lực trước khi làm việc độc lập."
+        }
+      ]
+    },
+    {
+      "english": "densely populated",
+      "vietnamese": "đông dân cư",
+      "ipa": "/ˈdensli ˈpɑːpjuleɪtɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The city is one of the most densely populated in the world.",
+          "vi": "Thành phố này là một trong những nơi đông dân cư nhất thế giới."
+        },
+        {
+          "en": "Densely populated areas often struggle with housing shortages.",
+          "vi": "Các khu vực đông dân cư thường gặp khó khăn với việc thiếu nhà ở."
+        },
+        {
+          "en": "Disease spreads faster in densely populated regions.",
+          "vi": "Dịch bệnh lây lan nhanh hơn ở các vùng đông dân cư."
+        }
+      ]
+    },
+    {
+      "english": "deny access to",
+      "vietnamese": "từ chối quyền tiếp cận",
+      "ipa": "/dɪˈnaɪ ˈækses tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The system can deny access to unauthorized users.",
+          "vi": "Hệ thống có thể từ chối quyền tiếp cận với người dùng trái phép."
+        },
+        {
+          "en": "Officials cannot deny access to public records without cause.",
+          "vi": "Quan chức không thể từ chối quyền tiếp cận hồ sơ công nếu không có lý do."
+        },
+        {
+          "en": "The policy may deny access to certain restricted areas.",
+          "vi": "Chính sách có thể từ chối quyền tiếp cận vào một số khu vực hạn chế."
+        }
+      ]
+    },
+    {
+      "english": "dependent variable",
+      "vietnamese": "biến phụ thuộc",
+      "ipa": "/dɪˈpendənt ˈveriəbəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In this experiment, reaction time is the dependent variable.",
+          "vi": "Trong thí nghiệm này, thời gian phản ứng là biến phụ thuộc."
+        },
+        {
+          "en": "Researchers measure the dependent variable after each trial.",
+          "vi": "Các nhà nghiên cứu đo biến phụ thuộc sau mỗi lần thử."
+        },
+        {
+          "en": "The dependent variable changes as the input is adjusted.",
+          "vi": "Biến phụ thuộc thay đổi khi đầu vào được điều chỉnh."
+        }
+      ]
+    },
+    {
+      "english": "describe a method",
+      "vietnamese": "mô tả một phương pháp",
+      "ipa": "/dɪˈskraɪb ə ˈmeθəd/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The paper describes a method for measuring air quality.",
+          "vi": "Bài báo mô tả một phương pháp để đo chất lượng không khí."
+        },
+        {
+          "en": "Please describe a method you used to collect the data.",
+          "vi": "Hãy mô tả một phương pháp bạn đã dùng để thu thập dữ liệu."
+        },
+        {
+          "en": "The chapter describes a method for training new staff.",
+          "vi": "Chương này mô tả một phương pháp để đào tạo nhân viên mới."
+        }
+      ]
+    },
+    {
+      "english": "describe a process",
+      "vietnamese": "mô tả một quá trình",
+      "ipa": "/dɪˈskraɪb ə ˈprɑːses/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The diagram helps describe a process step by step.",
+          "vi": "Sơ đồ giúp mô tả một quá trình theo từng bước."
+        },
+        {
+          "en": "Students learn to describe a process clearly in writing.",
+          "vi": "Sinh viên học cách mô tả một quá trình rõ ràng bằng văn bản."
+        },
+        {
+          "en": "The video describes a process for recycling plastic.",
+          "vi": "Video mô tả một quá trình tái chế nhựa."
+        }
+      ]
+    },
+    {
+      "english": "describe a procedure",
+      "vietnamese": "mô tả một quy trình",
+      "ipa": "/dɪˈskraɪb ə prəˈsiːdʒər/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The manual describes a procedure for installing the software safely.",
+          "vi": "Sách hướng dẫn mô tả quy trình cài đặt phần mềm một cách an toàn."
+        },
+        {
+          "en": "She clearly describes a procedure that any nurse can follow.",
+          "vi": "Cô ấy mô tả rõ ràng một quy trình mà bất kỳ y tá nào cũng làm theo được."
+        },
+        {
+          "en": "The paper describes a procedure used to collect the samples.",
+          "vi": "Bài báo mô tả quy trình được dùng để thu thập mẫu."
+        }
+      ]
+    },
+    {
+      "english": "descriptive statistics",
+      "vietnamese": "thống kê mô tả",
+      "ipa": "/dɪˈskrɪptɪv stəˈtɪstɪks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "We used descriptive statistics to summarize the survey results.",
+          "vi": "Chúng tôi dùng thống kê mô tả để tóm tắt kết quả khảo sát."
+        },
+        {
+          "en": "Descriptive statistics show the average score for each group.",
+          "vi": "Thống kê mô tả cho thấy điểm trung bình của từng nhóm."
+        },
+        {
+          "en": "The report begins with descriptive statistics before deeper analysis.",
+          "vi": "Báo cáo bắt đầu bằng thống kê mô tả trước khi phân tích sâu hơn."
+        }
+      ]
+    },
+    {
+      "english": "desired outcome",
+      "vietnamese": "kết quả mong muốn",
+      "ipa": "/dɪˈzaɪərd ˈaʊtkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new policy did not produce the desired outcome.",
+          "vi": "Chính sách mới đã không tạo ra kết quả mong muốn."
+        },
+        {
+          "en": "Careful planning helps you reach the desired outcome faster.",
+          "vi": "Lập kế hoạch kỹ giúp bạn đạt kết quả mong muốn nhanh hơn."
+        },
+        {
+          "en": "Teachers adjust their methods to achieve the desired outcome.",
+          "vi": "Giáo viên điều chỉnh phương pháp để đạt được kết quả mong muốn."
+        }
+      ]
+    },
+    {
+      "english": "detailed analysis",
+      "vietnamese": "phân tích chi tiết",
+      "ipa": "/ˈdiːteɪld əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The thesis provides a detailed analysis of consumer behavior.",
+          "vi": "Luận văn đưa ra phân tích chi tiết về hành vi người tiêu dùng."
+        },
+        {
+          "en": "A detailed analysis revealed several errors in the data.",
+          "vi": "Phân tích chi tiết đã phát hiện nhiều lỗi trong dữ liệu."
+        },
+        {
+          "en": "Investors expect a detailed analysis before making decisions.",
+          "vi": "Nhà đầu tư cần phân tích chi tiết trước khi ra quyết định."
+        }
+      ]
+    },
+    {
+      "english": "detailed examination",
+      "vietnamese": "sự khảo sát chi tiết",
+      "ipa": "/ˈdiːteɪld ɪɡˌzæməˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book offers a detailed examination of ancient trade routes.",
+          "vi": "Cuốn sách khảo sát chi tiết các tuyến đường thương mại cổ đại."
+        },
+        {
+          "en": "A detailed examination of the evidence supports her claim.",
+          "vi": "Việc khảo sát chi tiết bằng chứng ủng hộ lập luận của cô ấy."
+        },
+        {
+          "en": "The doctor recommended a detailed examination of the samples.",
+          "vi": "Bác sĩ đề nghị khảo sát chi tiết các mẫu."
+        }
+      ]
+    },
+    {
+      "english": "detailed information",
+      "vietnamese": "thông tin chi tiết",
+      "ipa": "/ˈdiːteɪld ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The website provides detailed information about each course.",
+          "vi": "Trang web cung cấp thông tin chi tiết về từng khóa học."
+        },
+        {
+          "en": "Please send detailed information about the conference schedule.",
+          "vi": "Vui lòng gửi thông tin chi tiết về lịch hội nghị."
+        },
+        {
+          "en": "Detailed information on the labels helps shoppers choose wisely.",
+          "vi": "Thông tin chi tiết trên nhãn giúp người mua chọn lựa khôn ngoan."
+        }
+      ]
+    },
+    {
+      "english": "detailed study",
+      "vietnamese": "nghiên cứu chi tiết",
+      "ipa": "/ˈdiːteɪld ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "They conducted a detailed study of local water quality.",
+          "vi": "Họ tiến hành một nghiên cứu chi tiết về chất lượng nước địa phương."
+        },
+        {
+          "en": "A detailed study of the region took several years.",
+          "vi": "Một nghiên cứu chi tiết về khu vực này mất vài năm."
+        },
+        {
+          "en": "The detailed study confirmed earlier findings about migration.",
+          "vi": "Nghiên cứu chi tiết đã xác nhận các phát hiện trước về di cư."
+        }
+      ]
+    },
+    {
+      "english": "develop a method",
+      "vietnamese": "phát triển một phương pháp",
+      "ipa": "/dɪˈveləp ə ˈmeθəd/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Researchers worked together to develop a method for testing.",
+          "vi": "Các nhà nghiên cứu hợp tác để phát triển một phương pháp kiểm tra."
+        },
+        {
+          "en": "The team hopes to develop a method that saves time.",
+          "vi": "Nhóm hy vọng phát triển một phương pháp tiết kiệm thời gian."
+        },
+        {
+          "en": "Scientists develop a method before running large experiments.",
+          "vi": "Các nhà khoa học phát triển một phương pháp trước khi làm thí nghiệm lớn."
+        }
+      ]
+    },
+    {
+      "english": "develop a strategy",
+      "vietnamese": "xây dựng một chiến lược",
+      "ipa": "/dɪˈveləp ə ˈstrætədʒi/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The company needs to develop a strategy for new markets.",
+          "vi": "Công ty cần xây dựng một chiến lược cho các thị trường mới."
+        },
+        {
+          "en": "Students learn to develop a strategy before starting an essay.",
+          "vi": "Sinh viên học cách xây dựng một chiến lược trước khi viết tiểu luận."
+        },
+        {
+          "en": "Managers develop a strategy to reduce costs each year.",
+          "vi": "Các quản lý xây dựng một chiến lược cắt giảm chi phí mỗi năm."
+        }
+      ]
+    },
+    {
+      "english": "develop a technique",
+      "vietnamese": "phát triển một kỹ thuật",
+      "ipa": "/dɪˈveləp ə tekˈniːk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The lab worked hard to develop a technique for imaging cells.",
+          "vi": "Phòng thí nghiệm nỗ lực phát triển một kỹ thuật chụp ảnh tế bào."
+        },
+        {
+          "en": "Artists often develop a technique that becomes their signature.",
+          "vi": "Nghệ sĩ thường phát triển một kỹ thuật trở thành dấu ấn riêng."
+        },
+        {
+          "en": "They aim to develop a technique cheaper than current ones.",
+          "vi": "Họ muốn phát triển một kỹ thuật rẻ hơn các kỹ thuật hiện có."
+        }
+      ]
+    },
+    {
+      "english": "develop a theory",
+      "vietnamese": "xây dựng một lý thuyết",
+      "ipa": "/dɪˈveləp ə ˈθiːəri/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Darwin spent years working to develop a theory of evolution.",
+          "vi": "Darwin mất nhiều năm để xây dựng một lý thuyết về tiến hóa."
+        },
+        {
+          "en": "Economists develop a theory to explain how prices change.",
+          "vi": "Các nhà kinh tế xây dựng một lý thuyết giải thích giá cả thay đổi."
+        },
+        {
+          "en": "She used the data to develop a theory about learning.",
+          "vi": "Cô ấy dùng dữ liệu để xây dựng một lý thuyết về việc học."
+        }
+      ]
+    },
+    {
+      "english": "develop an approach",
+      "vietnamese": "phát triển một cách tiếp cận",
+      "ipa": "/dɪˈveləp ən əˈproʊtʃ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The school tried to develop an approach suited to young learners.",
+          "vi": "Trường cố gắng phát triển một cách tiếp cận phù hợp với học sinh nhỏ."
+        },
+        {
+          "en": "We must develop an approach that respects local traditions.",
+          "vi": "Chúng ta phải phát triển một cách tiếp cận tôn trọng truyền thống địa phương."
+        },
+        {
+          "en": "Therapists develop an approach tailored to each patient.",
+          "vi": "Nhà trị liệu phát triển một cách tiếp cận riêng cho từng bệnh nhân."
+        }
+      ]
+    },
+    {
+      "english": "develop an argument",
+      "vietnamese": "triển khai một lập luận",
+      "ipa": "/dɪˈveləp ən ˈɑːrɡjəmənt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "A good essay should develop an argument step by step.",
+          "vi": "Một bài luận hay nên triển khai một lập luận theo từng bước."
+        },
+        {
+          "en": "She uses evidence to develop an argument for reform.",
+          "vi": "Cô ấy dùng bằng chứng để triển khai một lập luận cho cải cách."
+        },
+        {
+          "en": "Lawyers develop an argument carefully before going to court.",
+          "vi": "Luật sư triển khai một lập luận cẩn thận trước khi ra tòa."
+        }
+      ]
+    }
+  ]
+}

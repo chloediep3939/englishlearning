@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 58/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 58/83"
+  },
+  "cards": [
+    {
+      "english": "preliminary data",
+      "vietnamese": "dữ liệu sơ bộ",
+      "ipa": "/prɪˈlɪmɪneri ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The preliminary data suggest a promising trend.",
+          "vi": "Dữ liệu sơ bộ cho thấy một xu hướng đầy hứa hẹn."
+        },
+        {
+          "en": "Researchers shared preliminary data at the conference.",
+          "vi": "Các nhà nghiên cứu chia sẻ dữ liệu sơ bộ tại hội nghị."
+        },
+        {
+          "en": "Preliminary data must be confirmed by larger studies.",
+          "vi": "Dữ liệu sơ bộ cần được xác nhận bằng các nghiên cứu lớn hơn."
+        }
+      ]
+    },
+    {
+      "english": "preliminary findings",
+      "vietnamese": "những phát hiện sơ bộ",
+      "ipa": "/prɪˈlɪmɪneri ˈfaɪndɪŋz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Preliminary findings indicate a need for further research.",
+          "vi": "Những phát hiện sơ bộ cho thấy cần nghiên cứu thêm."
+        },
+        {
+          "en": "The team presented preliminary findings to the committee.",
+          "vi": "Nhóm trình bày những phát hiện sơ bộ cho ủy ban."
+        },
+        {
+          "en": "These preliminary findings should be treated with caution.",
+          "vi": "Những phát hiện sơ bộ này nên được xem xét thận trọng."
+        }
+      ]
+    },
+    {
+      "english": "preliminary result",
+      "vietnamese": "kết quả sơ bộ",
+      "ipa": "/prɪˈlɪmɪneri rɪˈzʌlt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The preliminary result looks promising but needs confirmation.",
+          "vi": "Kết quả sơ bộ trông hứa hẹn nhưng cần được xác nhận."
+        },
+        {
+          "en": "Each preliminary result was reviewed by two experts.",
+          "vi": "Mỗi kết quả sơ bộ đều được hai chuyên gia xem xét."
+        },
+        {
+          "en": "The preliminary result supported the team's hypothesis.",
+          "vi": "Kết quả sơ bộ ủng hộ giả thuyết của nhóm."
+        }
+      ]
+    },
+    {
+      "english": "premature death",
+      "vietnamese": "cái chết yểu (tử vong sớm)",
+      "ipa": "/ˌpriːməˈtʃʊr deθ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Smoking is a leading cause of premature death.",
+          "vi": "Hút thuốc là một nguyên nhân hàng đầu gây tử vong sớm."
+        },
+        {
+          "en": "The study links air pollution to premature death.",
+          "vi": "Nghiên cứu liên kết ô nhiễm không khí với tử vong sớm."
+        },
+        {
+          "en": "Better healthcare can prevent many premature deaths.",
+          "vi": "Chăm sóc y tế tốt hơn có thể ngăn nhiều ca tử vong sớm."
+        }
+      ]
+    },
+    {
+      "english": "present context",
+      "vietnamese": "bối cảnh hiện tại",
+      "ipa": "/ˈpreznt ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In the present context, the old theory no longer applies.",
+          "vi": "Trong bối cảnh hiện tại, lý thuyết cũ không còn áp dụng được."
+        },
+        {
+          "en": "The present context demands a new approach to teaching.",
+          "vi": "Bối cảnh hiện tại đòi hỏi một cách tiếp cận mới trong giảng dạy."
+        },
+        {
+          "en": "These rules make sense only in the present context.",
+          "vi": "Những quy tắc này chỉ hợp lý trong bối cảnh hiện tại."
+        }
+      ]
+    },
+    {
+      "english": "present data",
+      "vietnamese": "trình bày dữ liệu",
+      "ipa": "/prɪˈzent ˈdeɪtə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The authors present data from three separate experiments.",
+          "vi": "Các tác giả trình bày dữ liệu từ ba thí nghiệm riêng biệt."
+        },
+        {
+          "en": "Researchers must present data clearly and honestly.",
+          "vi": "Các nhà nghiên cứu phải trình bày dữ liệu rõ ràng và trung thực."
+        },
+        {
+          "en": "She used charts to present data to the audience.",
+          "vi": "Cô dùng biểu đồ để trình bày dữ liệu cho khán giả."
+        }
+      ]
+    },
+    {
+      "english": "present difficulties",
+      "vietnamese": "gây ra khó khăn",
+      "ipa": "/prɪˈzent ˈdɪfɪkəltiz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Translating poetry can present difficulties for any scholar.",
+          "vi": "Dịch thơ có thể gây ra khó khăn cho bất kỳ học giả nào."
+        },
+        {
+          "en": "Limited funding present difficulties for many new projects.",
+          "vi": "Nguồn tài trợ hạn chế gây ra khó khăn cho nhiều dự án mới."
+        },
+        {
+          "en": "Remote locations present difficulties for data collection.",
+          "vi": "Các địa điểm xa xôi gây ra khó khăn cho việc thu thập dữ liệu."
+        }
+      ]
+    },
+    {
+      "english": "present evidence",
+      "vietnamese": "đưa ra bằng chứng",
+      "ipa": "/prɪˈzent ˈevɪdəns/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The lawyer will present evidence to support the claim.",
+          "vi": "Luật sư sẽ đưa ra bằng chứng để hỗ trợ cho lập luận."
+        },
+        {
+          "en": "The authors present evidence from several recent studies.",
+          "vi": "Các tác giả đưa ra bằng chứng từ vài nghiên cứu gần đây."
+        },
+        {
+          "en": "Scientists present evidence that the climate is changing.",
+          "vi": "Các nhà khoa học đưa ra bằng chứng rằng khí hậu đang thay đổi."
+        }
+      ]
+    },
+    {
+      "english": "present a challenge",
+      "vietnamese": "đặt ra một thách thức",
+      "ipa": "/prɪˈzent ə ˈtʃælɪndʒ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Large classes present a challenge for individual attention.",
+          "vi": "Lớp học đông đặt ra một thách thức cho việc quan tâm từng học sinh."
+        },
+        {
+          "en": "New technology can present a challenge for older workers.",
+          "vi": "Công nghệ mới có thể đặt ra một thách thức cho người lao động lớn tuổi."
+        },
+        {
+          "en": "The disease continues to present a challenge to doctors.",
+          "vi": "Căn bệnh tiếp tục đặt ra một thách thức cho các bác sĩ."
+        }
+      ]
+    },
+    {
+      "english": "present a summary",
+      "vietnamese": "trình bày một bản tóm tắt",
+      "ipa": "/prɪˈzent ə ˈsʌməri/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The final chapter present a summary of the main findings.",
+          "vi": "Chương cuối trình bày một bản tóm tắt các phát hiện chính."
+        },
+        {
+          "en": "She will present a summary of the report tomorrow.",
+          "vi": "Cô sẽ trình bày một bản tóm tắt của báo cáo vào ngày mai."
+        },
+        {
+          "en": "Speakers present a summary before the detailed analysis.",
+          "vi": "Diễn giả trình bày một bản tóm tắt trước khi phân tích chi tiết."
+        }
+      ]
+    },
+    {
+      "english": "present an argument",
+      "vietnamese": "trình bày một lập luận",
+      "ipa": "/prɪˈzent ən ˈɑːrɡjəmənt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The essay must present an argument supported by evidence.",
+          "vi": "Bài luận phải trình bày một lập luận được hỗ trợ bằng bằng chứng."
+        },
+        {
+          "en": "He clearly present an argument for stricter regulation.",
+          "vi": "Anh trình bày rõ ràng một lập luận ủng hộ quy định chặt chẽ hơn."
+        },
+        {
+          "en": "Students learn to present an argument logically.",
+          "vi": "Học sinh học cách trình bày một lập luận một cách logic."
+        }
+      ]
+    },
+    {
+      "english": "presidential election",
+      "vietnamese": "cuộc bầu cử tổng thống",
+      "ipa": "/ˌprezɪˈdenʃəl ɪˈlekʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The presidential election attracted record voter turnout.",
+          "vi": "Cuộc bầu cử tổng thống thu hút số cử tri đi bầu kỷ lục."
+        },
+        {
+          "en": "Analysts studied the results of the presidential election.",
+          "vi": "Các nhà phân tích nghiên cứu kết quả của cuộc bầu cử tổng thống."
+        },
+        {
+          "en": "The presidential election dominated the news for months.",
+          "vi": "Cuộc bầu cử tổng thống chiếm sóng tin tức suốt nhiều tháng."
+        }
+      ]
+    },
+    {
+      "english": "previous chapter",
+      "vietnamese": "chương trước",
+      "ipa": "/ˈpriːviəs ˈtʃæptər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The previous chapter explained the research design.",
+          "vi": "Chương trước đã giải thích thiết kế nghiên cứu."
+        },
+        {
+          "en": "This argument was introduced in the previous chapter.",
+          "vi": "Lập luận này đã được giới thiệu ở chương trước."
+        },
+        {
+          "en": "Readers should review the previous chapter first.",
+          "vi": "Người đọc nên xem lại chương trước trước tiên."
+        }
+      ]
+    },
+    {
+      "english": "previous decade",
+      "vietnamese": "thập kỷ trước",
+      "ipa": "/ˈpriːviəs ˈdekeɪd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Unemployment fell sharply over the previous decade.",
+          "vi": "Tỷ lệ thất nghiệp giảm mạnh trong thập kỷ trước."
+        },
+        {
+          "en": "The previous decade saw rapid growth in technology.",
+          "vi": "Thập kỷ trước chứng kiến sự phát triển nhanh của công nghệ."
+        },
+        {
+          "en": "Prices rose steadily throughout the previous decade.",
+          "vi": "Giá cả tăng đều đặn suốt thập kỷ trước."
+        }
+      ]
+    },
+    {
+      "english": "previous discussion",
+      "vietnamese": "phần thảo luận trước",
+      "ipa": "/ˈpriːviəs dɪˈskʌʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The previous discussion focused on theoretical models.",
+          "vi": "Phần thảo luận trước tập trung vào các mô hình lý thuyết."
+        },
+        {
+          "en": "This point builds on our previous discussion.",
+          "vi": "Điểm này dựa trên phần thảo luận trước của chúng ta."
+        },
+        {
+          "en": "As the previous discussion showed, opinions differ widely.",
+          "vi": "Như phần thảo luận trước cho thấy, các ý kiến rất khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "previous experience",
+      "vietnamese": "kinh nghiệm trước đây",
+      "ipa": "/ˈpriːviəs ɪkˈspɪriəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Previous experience in teaching helped her get the job.",
+          "vi": "Kinh nghiệm giảng dạy trước đây giúp cô có được công việc."
+        },
+        {
+          "en": "The role requires previous experience in marketing.",
+          "vi": "Vị trí này yêu cầu kinh nghiệm trước đây trong lĩnh vực tiếp thị."
+        },
+        {
+          "en": "His previous experience made the transition easier.",
+          "vi": "Kinh nghiệm trước đây của anh giúp quá trình chuyển đổi dễ dàng hơn."
+        }
+      ]
+    },
+    {
+      "english": "previous generation",
+      "vietnamese": "thế hệ trước",
+      "ipa": "/ˈpriːviəs ˌdʒenəˈreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The previous generation faced very different challenges.",
+          "vi": "Thế hệ trước đã đối mặt với những thách thức rất khác."
+        },
+        {
+          "en": "Young people often reject the values of the previous generation.",
+          "vi": "Người trẻ thường bác bỏ các giá trị của thế hệ trước."
+        },
+        {
+          "en": "This device is far faster than the previous generation.",
+          "vi": "Thiết bị này nhanh hơn nhiều so với thế hệ trước."
+        }
+      ]
+    },
+    {
+      "english": "previous knowledge",
+      "vietnamese": "kiến thức đã có từ trước",
+      "ipa": "/ˈpriːviəs ˈnɑːlɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course assumes no previous knowledge of statistics.",
+          "vi": "Khóa học không đòi hỏi kiến thức trước về thống kê."
+        },
+        {
+          "en": "Learners connect new ideas to their previous knowledge.",
+          "vi": "Người học kết nối ý tưởng mới với kiến thức đã có từ trước."
+        },
+        {
+          "en": "Previous knowledge of the topic made the reading easier.",
+          "vi": "Kiến thức có từ trước về chủ đề khiến việc đọc dễ hơn."
+        }
+      ]
+    },
+    {
+      "english": "previous paragraph",
+      "vietnamese": "đoạn văn trước",
+      "ipa": "/ˈpriːviəs ˈpærəɡræf/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The previous paragraph introduced the central claim.",
+          "vi": "Đoạn văn trước đã giới thiệu luận điểm trung tâm."
+        },
+        {
+          "en": "This idea was mentioned in the previous paragraph.",
+          "vi": "Ý tưởng này đã được nhắc đến ở đoạn văn trước."
+        },
+        {
+          "en": "The example supports the point made in the previous paragraph.",
+          "vi": "Ví dụ hỗ trợ cho luận điểm nêu ở đoạn văn trước."
+        }
+      ]
+    },
+    {
+      "english": "previous part",
+      "vietnamese": "phần trước",
+      "ipa": "/ˈpriːviəs pɑːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The previous part of the report covered the survey results.",
+          "vi": "Phần trước của báo cáo đã đề cập đến kết quả khảo sát."
+        },
+        {
+          "en": "This section continues from the previous part.",
+          "vi": "Phần này nối tiếp từ phần trước."
+        },
+        {
+          "en": "Refer to the previous part for the full definitions.",
+          "vi": "Hãy tham khảo phần trước để xem đầy đủ các định nghĩa."
+        }
+      ]
+    },
+    {
+      "english": "previous research",
+      "vietnamese": "nghiên cứu trước đây",
+      "ipa": "/ˈpriːviəs rɪˈsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Previous research suggests a strong link between diet and mood.",
+          "vi": "Các nghiên cứu trước đây cho thấy mối liên hệ chặt chẽ giữa chế độ ăn và tâm trạng."
+        },
+        {
+          "en": "Our findings build directly on previous research in this field.",
+          "vi": "Phát hiện của chúng tôi dựa trực tiếp vào nghiên cứu trước đây trong lĩnh vực này."
+        },
+        {
+          "en": "Previous research had largely ignored younger age groups.",
+          "vi": "Nghiên cứu trước đây phần lớn đã bỏ qua các nhóm tuổi trẻ hơn."
+        }
+      ]
+    },
+    {
+      "english": "previous section",
+      "vietnamese": "phần trước đó",
+      "ipa": "/ˈpriːviəs ˈsekʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "As noted in the previous section, the method has clear limits.",
+          "vi": "Như đã nêu ở phần trước, phương pháp này có những hạn chế rõ ràng."
+        },
+        {
+          "en": "The previous section described the data collection process in detail.",
+          "vi": "Phần trước đã mô tả chi tiết quá trình thu thập dữ liệu."
+        },
+        {
+          "en": "We now extend the model introduced in the previous section.",
+          "vi": "Bây giờ chúng tôi mở rộng mô hình đã giới thiệu ở phần trước."
+        }
+      ]
+    },
+    {
+      "english": "previous study",
+      "vietnamese": "nghiên cứu trước",
+      "ipa": "/ˈpriːviəs ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A previous study reported similar results among older patients.",
+          "vi": "Một nghiên cứu trước đã báo cáo kết quả tương tự ở bệnh nhân lớn tuổi."
+        },
+        {
+          "en": "This finding contradicts a previous study from the same lab.",
+          "vi": "Phát hiện này mâu thuẫn với một nghiên cứu trước từ cùng phòng thí nghiệm."
+        },
+        {
+          "en": "Unlike the previous study, we used a larger sample size.",
+          "vi": "Khác với nghiên cứu trước, chúng tôi dùng cỡ mẫu lớn hơn."
+        }
+      ]
+    },
+    {
+      "english": "previous work",
+      "vietnamese": "công trình trước đây",
+      "ipa": "/ˈpriːviəs wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Our approach combines ideas from several lines of previous work.",
+          "vi": "Cách tiếp cận của chúng tôi kết hợp ý tưởng từ nhiều công trình trước đây."
+        },
+        {
+          "en": "Previous work in this area focused mainly on urban populations.",
+          "vi": "Công trình trước đây trong lĩnh vực này chủ yếu tập trung vào dân cư thành thị."
+        },
+        {
+          "en": "She summarized her previous work before presenting new results.",
+          "vi": "Cô tóm tắt các công trình trước đây trước khi trình bày kết quả mới."
+        }
+      ]
+    },
+    {
+      "english": "previously described",
+      "vietnamese": "đã được mô tả trước đó",
+      "ipa": "/ˈpriːviəsli dɪˈskraɪbd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The samples were prepared using a previously described protocol.",
+          "vi": "Các mẫu được chuẩn bị theo quy trình đã mô tả trước đó."
+        },
+        {
+          "en": "We applied the previously described technique to a new dataset.",
+          "vi": "Chúng tôi áp dụng kỹ thuật đã mô tả trước đó cho một tập dữ liệu mới."
+        },
+        {
+          "en": "These symptoms match the condition previously described in the literature.",
+          "vi": "Các triệu chứng này khớp với tình trạng đã được mô tả trước đó trong tài liệu."
+        }
+      ]
+    },
+    {
+      "english": "previously discussed",
+      "vietnamese": "đã được thảo luận trước đó",
+      "ipa": "/ˈpriːviəsli dɪˈskʌst/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The factors previously discussed all contribute to higher costs.",
+          "vi": "Các yếu tố đã thảo luận trước đó đều góp phần làm tăng chi phí."
+        },
+        {
+          "en": "As previously discussed, the policy affects rural areas most.",
+          "vi": "Như đã thảo luận trước đó, chính sách này ảnh hưởng nhiều nhất đến nông thôn."
+        },
+        {
+          "en": "This section revisits a problem previously discussed in chapter two.",
+          "vi": "Phần này xem lại một vấn đề đã thảo luận trước đó ở chương hai."
+        }
+      ]
+    },
+    {
+      "english": "previously known",
+      "vietnamese": "đã được biết đến trước đó",
+      "ipa": "/ˈpriːviəsli noʊn/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The species was previously known only from a single region.",
+          "vi": "Loài này trước đó chỉ được biết đến ở một vùng duy nhất."
+        },
+        {
+          "en": "This gene was not previously known to affect growth.",
+          "vi": "Gen này trước đó chưa được biết là ảnh hưởng đến sự tăng trưởng."
+        },
+        {
+          "en": "The site was previously known by a different local name.",
+          "vi": "Địa điểm này trước đó được biết đến bằng một tên địa phương khác."
+        }
+      ]
+    },
+    {
+      "english": "previously mentioned",
+      "vietnamese": "đã được nhắc đến trước đó",
+      "ipa": "/ˈpriːviəsli ˈmenʃənd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The previously mentioned limitations apply to this analysis too.",
+          "vi": "Các hạn chế đã nhắc đến trước đó cũng áp dụng cho phân tích này."
+        },
+        {
+          "en": "As previously mentioned, the survey covered three countries.",
+          "vi": "Như đã nhắc đến trước đó, khảo sát bao gồm ba quốc gia."
+        },
+        {
+          "en": "We now return to the previously mentioned example for clarity.",
+          "vi": "Bây giờ chúng tôi quay lại ví dụ đã nhắc đến trước đó cho rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "previously thought",
+      "vietnamese": "vốn được cho là trước đây",
+      "ipa": "/ˈpriːviəsli θɔːt/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The disease spreads faster than previously thought.",
+          "vi": "Căn bệnh lây lan nhanh hơn so với những gì người ta từng nghĩ."
+        },
+        {
+          "en": "These ruins are older than previously thought by historians.",
+          "vi": "Những tàn tích này cổ hơn so với điều các nhà sử học từng nghĩ."
+        },
+        {
+          "en": "The two effects are more closely linked than previously thought.",
+          "vi": "Hai tác động này liên kết chặt chẽ hơn so với điều từng được cho là."
+        }
+      ]
+    },
+    {
+      "english": "primarily concerned with",
+      "vietnamese": "chủ yếu quan tâm đến",
+      "ipa": "/praɪˈmerəli kənˈsɜːrnd wɪð/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This chapter is primarily concerned with economic policy and trade.",
+          "vi": "Chương này chủ yếu quan tâm đến chính sách kinh tế và thương mại."
+        },
+        {
+          "en": "The study was primarily concerned with how children learn language.",
+          "vi": "Nghiên cứu chủ yếu quan tâm đến cách trẻ em học ngôn ngữ."
+        },
+        {
+          "en": "Early researchers were primarily concerned with measuring physical traits.",
+          "vi": "Các nhà nghiên cứu thời kỳ đầu chủ yếu quan tâm đến việc đo lường đặc điểm thể chất."
+        }
+      ]
+    }
+  ]
+}

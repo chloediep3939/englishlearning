@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 46/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 46/83"
+  },
+  "cards": [
+    {
+      "english": "make a statement",
+      "vietnamese": "đưa ra tuyên bố",
+      "ipa": "/ˈmeɪk ə ˈsteɪtmənt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The minister will make a statement about the new law.",
+          "vi": "Bộ trưởng sẽ đưa ra tuyên bố về luật mới."
+        },
+        {
+          "en": "She made a strong statement against the proposal.",
+          "vi": "Cô ấy đã đưa ra một tuyên bố mạnh mẽ phản đối đề xuất."
+        },
+        {
+          "en": "The company made a statement to reassure its customers.",
+          "vi": "Công ty đã đưa ra tuyên bố để trấn an khách hàng."
+        }
+      ]
+    },
+    {
+      "english": "make a transition",
+      "vietnamese": "thực hiện sự chuyển đổi",
+      "ipa": "/ˈmeɪk ə trænˈzɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Many firms make a transition to clean energy slowly.",
+          "vi": "Nhiều công ty thực hiện sự chuyển đổi sang năng lượng sạch một cách chậm rãi."
+        },
+        {
+          "en": "Students make a transition from school to university life.",
+          "vi": "Sinh viên thực hiện sự chuyển đổi từ trường phổ thông sang đời sống đại học."
+        },
+        {
+          "en": "The country made a transition to a market economy.",
+          "vi": "Đất nước đã thực hiện sự chuyển đổi sang nền kinh tế thị trường."
+        }
+      ]
+    },
+    {
+      "english": "make an argument",
+      "vietnamese": "đưa ra lập luận",
+      "ipa": "/ˈmeɪk ən ˈɑːrgjumənt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The writer makes an argument for stricter regulations.",
+          "vi": "Người viết đưa ra lập luận ủng hộ các quy định chặt chẽ hơn."
+        },
+        {
+          "en": "You should support each claim when you make an argument.",
+          "vi": "Bạn nên hỗ trợ mỗi luận điểm khi đưa ra lập luận."
+        },
+        {
+          "en": "She made a convincing argument during the debate.",
+          "vi": "Cô ấy đã đưa ra một lập luận thuyết phục trong cuộc tranh luận."
+        }
+      ]
+    },
+    {
+      "english": "make an assessment",
+      "vietnamese": "đưa ra đánh giá",
+      "ipa": "/ˈmeɪk ən əˈsesmənt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The teacher makes an assessment of each student's progress.",
+          "vi": "Giáo viên đưa ra đánh giá về tiến bộ của từng học sinh."
+        },
+        {
+          "en": "Experts made an assessment of the environmental risks.",
+          "vi": "Các chuyên gia đã đưa ra đánh giá về các rủi ro môi trường."
+        },
+        {
+          "en": "We need to make an assessment before approving the plan.",
+          "vi": "Chúng ta cần đưa ra đánh giá trước khi phê duyệt kế hoạch."
+        }
+      ]
+    },
+    {
+      "english": "make an assumption",
+      "vietnamese": "đưa ra giả định",
+      "ipa": "/ˈmeɪk ən əˈsʌmpʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Do not make an assumption without checking the facts.",
+          "vi": "Đừng đưa ra giả định mà chưa kiểm tra sự thật."
+        },
+        {
+          "en": "The model makes an assumption that prices stay stable.",
+          "vi": "Mô hình đưa ra giả định rằng giá cả giữ ổn định."
+        },
+        {
+          "en": "Researchers often make an assumption to simplify analysis.",
+          "vi": "Các nhà nghiên cứu thường đưa ra giả định để đơn giản hóa phân tích."
+        }
+      ]
+    },
+    {
+      "english": "make an impact",
+      "vietnamese": "tạo ra ảnh hưởng",
+      "ipa": "/ˈmeɪk ən ˈɪmpækt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Small changes can make an impact on the environment.",
+          "vi": "Những thay đổi nhỏ có thể tạo ra ảnh hưởng đến môi trường."
+        },
+        {
+          "en": "The campaign made an impact on public attitudes.",
+          "vi": "Chiến dịch đã tạo ra ảnh hưởng đến thái độ của công chúng."
+        },
+        {
+          "en": "Volunteers hope to make an impact in their community.",
+          "vi": "Các tình nguyện viên hy vọng tạo ra ảnh hưởng trong cộng đồng."
+        }
+      ]
+    },
+    {
+      "english": "make an impression",
+      "vietnamese": "gây ấn tượng",
+      "ipa": "/ˈmeɪk ən ɪmˈpreʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "A strong introduction helps you make an impression on readers.",
+          "vi": "Một phần mở đầu mạnh giúp bạn gây ấn tượng với độc giả."
+        },
+        {
+          "en": "The candidate made a good impression during the interview.",
+          "vi": "Ứng viên đã gây ấn tượng tốt trong buổi phỏng vấn."
+        },
+        {
+          "en": "Her speech made a lasting impression on the audience.",
+          "vi": "Bài phát biểu của cô đã gây ấn tượng lâu dài với khán giả."
+        }
+      ]
+    },
+    {
+      "english": "make an observation",
+      "vietnamese": "đưa ra nhận xét, quan sát",
+      "ipa": "/ˈmeɪk ən ˌɑːbzərˈveɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The scientist made an observation about the cells' behavior.",
+          "vi": "Nhà khoa học đã đưa ra một quan sát về hành vi của các tế bào."
+        },
+        {
+          "en": "Let me make an observation about the survey results.",
+          "vi": "Cho tôi đưa ra một nhận xét về kết quả khảo sát."
+        },
+        {
+          "en": "She made a sharp observation during the seminar.",
+          "vi": "Cô ấy đã đưa ra một nhận xét sắc sảo trong buổi hội thảo."
+        }
+      ]
+    },
+    {
+      "english": "male dominance",
+      "vietnamese": "sự thống trị của nam giới",
+      "ipa": "/ˈmeɪl ˈdɑːmɪnəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study examines male dominance in senior management.",
+          "vi": "Nghiên cứu xem xét sự thống trị của nam giới ở cấp quản lý cao."
+        },
+        {
+          "en": "Male dominance in the field has declined over time.",
+          "vi": "Sự thống trị của nam giới trong lĩnh vực này đã giảm theo thời gian."
+        },
+        {
+          "en": "Many professions still show clear male dominance.",
+          "vi": "Nhiều ngành nghề vẫn cho thấy sự thống trị rõ rệt của nam giới."
+        }
+      ]
+    },
+    {
+      "english": "manual worker",
+      "vietnamese": "công nhân lao động chân tay",
+      "ipa": "/ˈmænjuəl ˈwɜːrkər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A manual worker often faces a higher risk of injury.",
+          "vi": "Công nhân lao động chân tay thường đối mặt nguy cơ chấn thương cao hơn."
+        },
+        {
+          "en": "Wages for manual workers have risen in recent years.",
+          "vi": "Lương cho công nhân lao động chân tay đã tăng trong những năm gần đây."
+        },
+        {
+          "en": "The factory employs many skilled manual workers.",
+          "vi": "Nhà máy thuê nhiều công nhân lao động chân tay lành nghề."
+        }
+      ]
+    },
+    {
+      "english": "manufacturing sector",
+      "vietnamese": "khu vực sản xuất",
+      "ipa": "/ˌmænjəˈfæktʃərɪŋ ˈsektər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The manufacturing sector employs millions of workers nationwide.",
+          "vi": "Khu vực sản xuất thuê hàng triệu lao động trên toàn quốc."
+        },
+        {
+          "en": "Growth in the manufacturing sector boosted the economy.",
+          "vi": "Sự tăng trưởng của khu vực sản xuất đã thúc đẩy nền kinh tế."
+        },
+        {
+          "en": "The manufacturing sector has adopted more automation recently.",
+          "vi": "Khu vực sản xuất gần đây đã áp dụng nhiều tự động hóa hơn."
+        }
+      ]
+    },
+    {
+      "english": "marked contrast",
+      "vietnamese": "sự tương phản rõ rệt",
+      "ipa": "/ˈmɑːrkt ˈkɑːntræst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a marked contrast between the two regions' incomes.",
+          "vi": "Có một sự tương phản rõ rệt giữa thu nhập của hai vùng."
+        },
+        {
+          "en": "The results show a marked contrast with earlier studies.",
+          "vi": "Kết quả cho thấy một sự tương phản rõ rệt với các nghiên cứu trước."
+        },
+        {
+          "en": "Her calm tone was in marked contrast to the chaos.",
+          "vi": "Giọng điệu bình tĩnh của cô tương phản rõ rệt với sự hỗn loạn."
+        }
+      ]
+    },
+    {
+      "english": "markedly different",
+      "vietnamese": "khác biệt rõ rệt",
+      "ipa": "/ˈmɑːrkɪdli ˈdɪfərənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The two groups produced markedly different results.",
+          "vi": "Hai nhóm đã tạo ra những kết quả khác biệt rõ rệt."
+        },
+        {
+          "en": "Urban life is markedly different from rural life.",
+          "vi": "Đời sống đô thị khác biệt rõ rệt so với đời sống nông thôn."
+        },
+        {
+          "en": "Their views on the issue were markedly different.",
+          "vi": "Quan điểm của họ về vấn đề này khác biệt rõ rệt."
+        }
+      ]
+    },
+    {
+      "english": "maximum duration",
+      "vietnamese": "thời lượng tối đa",
+      "ipa": "/ˈmæksɪməm dʊˈreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The maximum duration of the exam is three hours.",
+          "vi": "Thời lượng tối đa của bài thi là ba giờ."
+        },
+        {
+          "en": "The contract sets a maximum duration of two years.",
+          "vi": "Hợp đồng đặt ra thời lượng tối đa là hai năm."
+        },
+        {
+          "en": "Each presentation has a maximum duration of ten minutes.",
+          "vi": "Mỗi bài thuyết trình có thời lượng tối đa là mười phút."
+        }
+      ]
+    },
+    {
+      "english": "mean score",
+      "vietnamese": "điểm trung bình",
+      "ipa": "/ˈmiːn ˈskɔːr/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The mean score for the class was seventy-five percent.",
+          "vi": "Điểm trung bình của lớp là bảy mươi lăm phần trăm."
+        },
+        {
+          "en": "Researchers compared the mean score of both groups.",
+          "vi": "Các nhà nghiên cứu so sánh điểm trung bình của cả hai nhóm."
+        },
+        {
+          "en": "The mean score rose after the new teaching method.",
+          "vi": "Điểm trung bình tăng sau phương pháp giảng dạy mới."
+        }
+      ]
+    },
+    {
+      "english": "meaningful way",
+      "vietnamese": "cách có ý nghĩa",
+      "ipa": "/ˈmiːnɪŋfəl ˈweɪ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The project lets students apply theory in a meaningful way.",
+          "vi": "Dự án cho phép sinh viên áp dụng lý thuyết một cách có ý nghĩa."
+        },
+        {
+          "en": "We should present the data in a meaningful way.",
+          "vi": "Chúng ta nên trình bày dữ liệu một cách có ý nghĩa."
+        },
+        {
+          "en": "Volunteering connects people in a meaningful way.",
+          "vi": "Tình nguyện kết nối mọi người theo một cách có ý nghĩa."
+        }
+      ]
+    },
+    {
+      "english": "media coverage",
+      "vietnamese": "sự đưa tin của truyền thông",
+      "ipa": "/ˈmiːdiə ˈkʌvərɪdʒ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The event received wide media coverage across the country.",
+          "vi": "Sự kiện nhận được sự đưa tin rộng rãi của truyền thông khắp cả nước."
+        },
+        {
+          "en": "Media coverage of the scandal lasted several weeks.",
+          "vi": "Sự đưa tin của truyền thông về vụ bê bối kéo dài vài tuần."
+        },
+        {
+          "en": "Negative media coverage can damage a company's reputation.",
+          "vi": "Sự đưa tin tiêu cực của truyền thông có thể làm hại danh tiếng công ty."
+        }
+      ]
+    },
+    {
+      "english": "medical assistance",
+      "vietnamese": "hỗ trợ y tế",
+      "ipa": "/ˈmedɪkəl əˈsɪstəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The injured hikers needed immediate medical assistance.",
+          "vi": "Những người leo núi bị thương cần hỗ trợ y tế ngay lập tức."
+        },
+        {
+          "en": "The charity provides medical assistance to remote villages.",
+          "vi": "Tổ chức từ thiện cung cấp hỗ trợ y tế cho các bản làng xa xôi."
+        },
+        {
+          "en": "Travelers should know where to find medical assistance abroad.",
+          "vi": "Du khách nên biết tìm hỗ trợ y tế ở đâu khi ở nước ngoài."
+        }
+      ]
+    },
+    {
+      "english": "medical treatment",
+      "vietnamese": "điều trị y tế",
+      "ipa": "/ˈmedɪkəl ˈtriːtmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The patient received medical treatment for several months.",
+          "vi": "Bệnh nhân đã được điều trị y tế trong vài tháng."
+        },
+        {
+          "en": "Many people cannot afford proper medical treatment.",
+          "vi": "Nhiều người không đủ khả năng chi trả cho điều trị y tế đúng cách."
+        },
+        {
+          "en": "Early medical treatment can prevent serious complications.",
+          "vi": "Điều trị y tế sớm có thể ngăn ngừa các biến chứng nghiêm trọng."
+        }
+      ]
+    },
+    {
+      "english": "meet criteria",
+      "vietnamese": "đáp ứng tiêu chí",
+      "ipa": "/ˈmiːt kraɪˈtɪriə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Applicants must meet criteria before being accepted.",
+          "vi": "Ứng viên phải đáp ứng tiêu chí trước khi được chấp nhận."
+        },
+        {
+          "en": "The proposal failed to meet criteria set by the committee.",
+          "vi": "Đề xuất đã không đáp ứng được tiêu chí mà hội đồng đặt ra."
+        },
+        {
+          "en": "Only products that meet criteria receive the safety label.",
+          "vi": "Chỉ những sản phẩm đáp ứng tiêu chí mới nhận được nhãn an toàn."
+        }
+      ]
+    },
+    {
+      "english": "meet expectations",
+      "vietnamese": "đáp ứng kỳ vọng",
+      "ipa": "/ˈmiːt ˌekspekˈteɪʃənz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The new product failed to meet expectations in sales.",
+          "vi": "Sản phẩm mới đã không đáp ứng kỳ vọng về doanh số."
+        },
+        {
+          "en": "The course did not meet the students' expectations.",
+          "vi": "Khóa học đã không đáp ứng kỳ vọng của sinh viên."
+        },
+        {
+          "en": "Their performance exceeded and met all expectations.",
+          "vi": "Màn thể hiện của họ đã vượt qua và đáp ứng mọi kỳ vọng."
+        }
+      ]
+    },
+    {
+      "english": "meet a requirement",
+      "vietnamese": "đáp ứng một yêu cầu",
+      "ipa": "/ˈmiːt ə rɪˈkwaɪərmənt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Students must meet a requirement of forty credits to graduate.",
+          "vi": "Sinh viên phải đáp ứng yêu cầu bốn mươi tín chỉ để tốt nghiệp."
+        },
+        {
+          "en": "The design did not meet a key safety requirement.",
+          "vi": "Thiết kế đã không đáp ứng một yêu cầu an toàn quan trọng."
+        },
+        {
+          "en": "All candidates must meet a language requirement first.",
+          "vi": "Mọi ứng viên trước hết phải đáp ứng một yêu cầu về ngôn ngữ."
+        }
+      ]
+    },
+    {
+      "english": "meet a target",
+      "vietnamese": "đạt được chỉ tiêu",
+      "ipa": "/ˈmiːt ə ˈtɑːrgɪt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The team worked hard to meet a sales target.",
+          "vi": "Cả nhóm đã làm việc chăm chỉ để đạt được chỉ tiêu doanh số."
+        },
+        {
+          "en": "The country aims to meet a target for clean energy.",
+          "vi": "Quốc gia này hướng tới đạt được chỉ tiêu về năng lượng sạch."
+        },
+        {
+          "en": "They failed to meet a target set last year.",
+          "vi": "Họ đã không đạt được chỉ tiêu đặt ra năm ngoái."
+        }
+      ]
+    },
+    {
+      "english": "meet an objective",
+      "vietnamese": "đạt được mục tiêu",
+      "ipa": "/ˈmiːt ən əbˈdʒektɪv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The program helped the school meet an objective on literacy.",
+          "vi": "Chương trình đã giúp nhà trường đạt được mục tiêu về xóa mù chữ."
+        },
+        {
+          "en": "Each task is designed to meet an objective of the course.",
+          "vi": "Mỗi nhiệm vụ được thiết kế để đạt được một mục tiêu của khóa học."
+        },
+        {
+          "en": "The company met an important objective ahead of schedule.",
+          "vi": "Công ty đã đạt được một mục tiêu quan trọng trước thời hạn."
+        }
+      ]
+    },
+    {
+      "english": "mental health",
+      "vietnamese": "sức khỏe tâm thần",
+      "ipa": "/ˈmentəl ˈhelθ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Regular exercise can improve your mental health.",
+          "vi": "Tập thể dục đều đặn có thể cải thiện sức khỏe tâm thần của bạn."
+        },
+        {
+          "en": "The university offers mental health support to students.",
+          "vi": "Trường đại học cung cấp hỗ trợ sức khỏe tâm thần cho sinh viên."
+        },
+        {
+          "en": "Stress at work can harm long-term mental health.",
+          "vi": "Căng thẳng trong công việc có thể làm hại sức khỏe tâm thần lâu dài."
+        }
+      ]
+    },
+    {
+      "english": "mental illness",
+      "vietnamese": "bệnh tâm thần",
+      "ipa": "/ˈmentəl ˈɪlnəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many people with mental illness do not seek help.",
+          "vi": "Nhiều người mắc bệnh tâm thần không tìm kiếm sự giúp đỡ."
+        },
+        {
+          "en": "The campaign aims to reduce the stigma of mental illness.",
+          "vi": "Chiến dịch nhằm giảm sự kỳ thị đối với bệnh tâm thần."
+        },
+        {
+          "en": "Early treatment of mental illness improves recovery rates.",
+          "vi": "Điều trị sớm bệnh tâm thần cải thiện tỷ lệ hồi phục."
+        }
+      ]
+    },
+    {
+      "english": "mental state",
+      "vietnamese": "trạng thái tâm lý",
+      "ipa": "/ˈmentəl ˈsteɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Lack of sleep can affect a person's mental state.",
+          "vi": "Thiếu ngủ có thể ảnh hưởng đến trạng thái tâm lý của một người."
+        },
+        {
+          "en": "The doctor assessed the patient's mental state carefully.",
+          "vi": "Bác sĩ đã đánh giá cẩn thận trạng thái tâm lý của bệnh nhân."
+        },
+        {
+          "en": "His calm mental state helped him handle the crisis.",
+          "vi": "Trạng thái tâm lý bình tĩnh đã giúp anh xử lý khủng hoảng."
+        }
+      ]
+    },
+    {
+      "english": "methodological approach",
+      "vietnamese": "cách tiếp cận phương pháp luận",
+      "ipa": "/ˌmeθədəˈlɑːdʒɪkəl əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study uses a quantitative methodological approach.",
+          "vi": "Nghiên cứu sử dụng cách tiếp cận phương pháp luận định lượng."
+        },
+        {
+          "en": "Their methodological approach differs from earlier research.",
+          "vi": "Cách tiếp cận phương pháp luận của họ khác với nghiên cứu trước."
+        },
+        {
+          "en": "A clear methodological approach makes results easier to trust.",
+          "vi": "Cách tiếp cận phương pháp luận rõ ràng làm kết quả dễ tin cậy hơn."
+        }
+      ]
+    },
+    {
+      "english": "methodological issue",
+      "vietnamese": "vấn đề phương pháp luận",
+      "ipa": "/ˌmeθədəˈlɑːdʒɪkəl ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The reviewers raised a methodological issue with the sample.",
+          "vi": "Các phản biện đã nêu một vấn đề phương pháp luận về mẫu khảo sát."
+        },
+        {
+          "en": "A methodological issue weakened the study's conclusions.",
+          "vi": "Một vấn đề phương pháp luận đã làm suy yếu các kết luận của nghiên cứu."
+        },
+        {
+          "en": "The author discusses each methodological issue in detail.",
+          "vi": "Tác giả thảo luận chi tiết từng vấn đề phương pháp luận."
+        }
+      ]
+    },
+    {
+      "english": "methodological problem",
+      "vietnamese": "khó khăn về phương pháp luận",
+      "ipa": "/ˌmeθədəˈlɑːdʒɪkəl ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A serious methodological problem affected the data quality.",
+          "vi": "Một khó khăn nghiêm trọng về phương pháp luận đã ảnh hưởng đến chất lượng dữ liệu."
+        },
+        {
+          "en": "The team solved a methodological problem in the survey design.",
+          "vi": "Nhóm đã giải quyết một khó khăn về phương pháp luận trong thiết kế khảo sát."
+        },
+        {
+          "en": "Critics pointed to a methodological problem in the analysis.",
+          "vi": "Các nhà phê bình chỉ ra một khó khăn về phương pháp luận trong phân tích."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 43/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 43/83"
+  },
+  "cards": [
+    {
+      "english": "little information",
+      "vietnamese": "ít thông tin",
+      "ipa": "/ˈlɪtəl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The website offers little information about the program's costs.",
+          "vi": "Trang web cung cấp ít thông tin về chi phí của chương trình."
+        },
+        {
+          "en": "We had little information to guide our final decision.",
+          "vi": "Chúng tôi có ít thông tin để định hướng quyết định cuối cùng."
+        },
+        {
+          "en": "Little information existed about the species before this study.",
+          "vi": "Có ít thông tin về loài này trước nghiên cứu này."
+        }
+      ]
+    },
+    {
+      "english": "little research",
+      "vietnamese": "ít nghiên cứu",
+      "ipa": "/ˈlɪtəl ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Little research has examined the effects of night-shift work.",
+          "vi": "Ít nghiên cứu đã xem xét tác động của công việc ca đêm."
+        },
+        {
+          "en": "Surprisingly little research exists on this common illness.",
+          "vi": "Đáng ngạc nhiên là có ít nghiên cứu về căn bệnh phổ biến này."
+        },
+        {
+          "en": "There is little research linking the two phenomena directly.",
+          "vi": "Có ít nghiên cứu liên kết trực tiếp hai hiện tượng này."
+        }
+      ]
+    },
+    {
+      "english": "little significance",
+      "vietnamese": "ít ý nghĩa",
+      "ipa": "/ˈlɪtəl sɪɡˈnɪfɪkəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The difference between the groups had little significance statistically.",
+          "vi": "Sự khác biệt giữa các nhóm có ít ý nghĩa về mặt thống kê."
+        },
+        {
+          "en": "Critics argued the discovery held little significance for medicine.",
+          "vi": "Các nhà phê bình cho rằng phát hiện này có ít ý nghĩa với y học."
+        },
+        {
+          "en": "These minor errors are of little significance to the result.",
+          "vi": "Những lỗi nhỏ này có ít ý nghĩa đối với kết quả."
+        }
+      ]
+    },
+    {
+      "english": "living conditions",
+      "vietnamese": "điều kiện sống",
+      "ipa": "/ˈlɪvɪŋ kənˈdɪʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Poor living conditions can lead to serious health problems.",
+          "vi": "Điều kiện sống tồi tệ có thể dẫn đến các vấn đề sức khỏe nghiêm trọng."
+        },
+        {
+          "en": "The charity works to improve living conditions in slums.",
+          "vi": "Tổ chức từ thiện nỗ lực cải thiện điều kiện sống trong các khu ổ chuột."
+        },
+        {
+          "en": "Better living conditions have raised average life expectancy.",
+          "vi": "Điều kiện sống tốt hơn đã nâng cao tuổi thọ trung bình."
+        }
+      ]
+    },
+    {
+      "english": "living organism",
+      "vietnamese": "sinh vật sống",
+      "ipa": "/ˈlɪvɪŋ ˈɔːrɡənɪzəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every living organism requires energy to survive and grow.",
+          "vi": "Mọi sinh vật sống đều cần năng lượng để tồn tại và phát triển."
+        },
+        {
+          "en": "Bacteria are the smallest living organism visible under a microscope.",
+          "vi": "Vi khuẩn là sinh vật sống nhỏ nhất có thể thấy dưới kính hiển vi."
+        },
+        {
+          "en": "Pollution threatens nearly every living organism in the river.",
+          "vi": "Ô nhiễm đe dọa gần như mọi sinh vật sống trong dòng sông."
+        }
+      ]
+    },
+    {
+      "english": "living standard",
+      "vietnamese": "mức sống",
+      "ipa": "/ˈlɪvɪŋ ˈstændərd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Rising wages have improved the living standard of many families.",
+          "vi": "Lương tăng đã cải thiện mức sống của nhiều gia đình."
+        },
+        {
+          "en": "Economists use income to measure a country's living standard.",
+          "vi": "Các nhà kinh tế dùng thu nhập để đo lường mức sống của một quốc gia."
+        },
+        {
+          "en": "A higher living standard often follows steady economic growth.",
+          "vi": "Mức sống cao hơn thường đi kèm với tăng trưởng kinh tế ổn định."
+        }
+      ]
+    },
+    {
+      "english": "local area",
+      "vietnamese": "khu vực địa phương",
+      "ipa": "/ˈloʊkəl ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey gathered opinions from residents in the local area.",
+          "vi": "Cuộc khảo sát thu thập ý kiến từ cư dân trong khu vực địa phương."
+        },
+        {
+          "en": "New shops have brought more jobs to the local area.",
+          "vi": "Các cửa hàng mới đã mang lại nhiều việc làm hơn cho khu vực địa phương."
+        },
+        {
+          "en": "Volunteers cleaned several parks across the local area.",
+          "vi": "Các tình nguyện viên dọn dẹp vài công viên trong khu vực địa phương."
+        }
+      ]
+    },
+    {
+      "english": "local authority",
+      "vietnamese": "chính quyền địa phương",
+      "ipa": "/ˈloʊkəl əˈθɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The local authority is responsible for collecting household waste.",
+          "vi": "Chính quyền địa phương chịu trách nhiệm thu gom rác thải sinh hoạt."
+        },
+        {
+          "en": "Residents petitioned the local authority for safer roads.",
+          "vi": "Cư dân kiến nghị chính quyền địa phương về những con đường an toàn hơn."
+        },
+        {
+          "en": "Funding from the local authority supports the public library.",
+          "vi": "Kinh phí từ chính quyền địa phương hỗ trợ thư viện công cộng."
+        }
+      ]
+    },
+    {
+      "english": "local circumstances",
+      "vietnamese": "hoàn cảnh địa phương",
+      "ipa": "/ˈloʊkəl ˈsɜːrkəmstænsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Policies must be adapted to suit local circumstances.",
+          "vi": "Các chính sách phải được điều chỉnh để phù hợp với hoàn cảnh địa phương."
+        },
+        {
+          "en": "What works in one city may fail under different local circumstances.",
+          "vi": "Điều hiệu quả ở một thành phố có thể thất bại trong hoàn cảnh địa phương khác."
+        },
+        {
+          "en": "The plan ignored important local circumstances and quickly failed.",
+          "vi": "Kế hoạch bỏ qua những hoàn cảnh địa phương quan trọng và nhanh chóng thất bại."
+        }
+      ]
+    },
+    {
+      "english": "local community",
+      "vietnamese": "cộng đồng địa phương",
+      "ipa": "/ˈloʊkəl kəˈmjuːnəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The factory provides many jobs for the local community.",
+          "vi": "Nhà máy cung cấp nhiều việc làm cho cộng đồng địa phương."
+        },
+        {
+          "en": "Schools play a central role in the local community.",
+          "vi": "Trường học đóng vai trò trung tâm trong cộng đồng địa phương."
+        },
+        {
+          "en": "The festival brings the whole local community together.",
+          "vi": "Lễ hội gắn kết cả cộng đồng địa phương lại với nhau."
+        }
+      ]
+    },
+    {
+      "english": "local culture",
+      "vietnamese": "văn hóa địa phương",
+      "ipa": "/ˈloʊkəl ˈkʌltʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Tourists are encouraged to respect the local culture.",
+          "vi": "Du khách được khuyến khích tôn trọng văn hóa địa phương."
+        },
+        {
+          "en": "The museum preserves objects that reflect the local culture.",
+          "vi": "Bảo tàng lưu giữ các hiện vật phản ánh văn hóa địa phương."
+        },
+        {
+          "en": "Globalisation sometimes threatens unique forms of local culture.",
+          "vi": "Toàn cầu hóa đôi khi đe dọa những hình thức độc đáo của văn hóa địa phương."
+        }
+      ]
+    },
+    {
+      "english": "local economy",
+      "vietnamese": "nền kinh tế địa phương",
+      "ipa": "/ˈloʊkəl ɪˈkɑːnəmi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Tourism contributes significantly to the local economy each summer.",
+          "vi": "Du lịch đóng góp đáng kể cho nền kinh tế địa phương mỗi mùa hè."
+        },
+        {
+          "en": "Closing the mine would damage the entire local economy.",
+          "vi": "Việc đóng cửa mỏ sẽ làm tổn hại cả nền kinh tế địa phương."
+        },
+        {
+          "en": "Small businesses are the backbone of the local economy.",
+          "vi": "Các doanh nghiệp nhỏ là xương sống của nền kinh tế địa phương."
+        }
+      ]
+    },
+    {
+      "english": "local government",
+      "vietnamese": "chính quyền địa phương",
+      "ipa": "/ˈloʊkəl ˈɡʌvərnmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Local government manages schools, roads, and public parks.",
+          "vi": "Chính quyền địa phương quản lý trường học, đường sá và công viên công cộng."
+        },
+        {
+          "en": "Citizens elect representatives to their local government every four years.",
+          "vi": "Người dân bầu đại biểu vào chính quyền địa phương bốn năm một lần."
+        },
+        {
+          "en": "Budget cuts have reduced services provided by local government.",
+          "vi": "Việc cắt giảm ngân sách đã thu hẹp dịch vụ do chính quyền địa phương cung cấp."
+        }
+      ]
+    },
+    {
+      "english": "logical approach",
+      "vietnamese": "cách tiếp cận hợp lý",
+      "ipa": "/ˈlɑːdʒɪkəl əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A logical approach to the problem saves a lot of time.",
+          "vi": "Một cách tiếp cận hợp lý cho vấn đề tiết kiệm rất nhiều thời gian."
+        },
+        {
+          "en": "The teacher praised her logical approach to the essay.",
+          "vi": "Giáo viên khen ngợi cách tiếp cận hợp lý của cô với bài luận."
+        },
+        {
+          "en": "Engineers favour a logical approach over guesswork.",
+          "vi": "Các kỹ sư ưa thích cách tiếp cận hợp lý hơn là phỏng đoán."
+        }
+      ]
+    },
+    {
+      "english": "logical argument",
+      "vietnamese": "lập luận hợp lý",
+      "ipa": "/ˈlɑːdʒɪkəl ˈɑːrɡjəmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She built a logical argument supported by clear evidence.",
+          "vi": "Cô xây dựng một lập luận hợp lý được hỗ trợ bởi bằng chứng rõ ràng."
+        },
+        {
+          "en": "A logical argument should avoid contradictions and gaps.",
+          "vi": "Một lập luận hợp lý nên tránh mâu thuẫn và những lỗ hổng."
+        },
+        {
+          "en": "The debate was won through a calm, logical argument.",
+          "vi": "Cuộc tranh luận được thắng nhờ một lập luận bình tĩnh và hợp lý."
+        }
+      ]
+    },
+    {
+      "english": "logical conclusion",
+      "vietnamese": "kết luận hợp lý",
+      "ipa": "/ˈlɑːdʒɪkəl kənˈkluːʒən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The evidence leads to one clear, logical conclusion.",
+          "vi": "Bằng chứng dẫn đến một kết luận hợp lý rõ ràng."
+        },
+        {
+          "en": "Taking the idea to its logical conclusion reveals a flaw.",
+          "vi": "Đưa ý tưởng đến kết luận hợp lý của nó cho thấy một sai sót."
+        },
+        {
+          "en": "Readers can draw their own logical conclusion from the data.",
+          "vi": "Người đọc có thể tự rút ra kết luận hợp lý từ dữ liệu."
+        }
+      ]
+    },
+    {
+      "english": "long duration",
+      "vietnamese": "thời gian dài",
+      "ipa": "/ˈlɔːŋ duˈreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experiment ran over a long duration to ensure accuracy.",
+          "vi": "Thí nghiệm chạy trong một thời gian dài để đảm bảo độ chính xác."
+        },
+        {
+          "en": "Treatments of long duration often raise the cost of care.",
+          "vi": "Các liệu trình kéo dài thời gian dài thường làm tăng chi phí chăm sóc."
+        },
+        {
+          "en": "The storm's long duration caused widespread flooding.",
+          "vi": "Thời gian dài của cơn bão đã gây ra lũ lụt trên diện rộng."
+        }
+      ]
+    },
+    {
+      "english": "long established",
+      "vietnamese": "đã được thiết lập từ lâu",
+      "ipa": "/ˈlɔːŋ ɪˈstæblɪʃt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The company follows a long established tradition of quality.",
+          "vi": "Công ty tuân theo một truyền thống chất lượng đã được thiết lập từ lâu."
+        },
+        {
+          "en": "These long established methods are still taught today.",
+          "vi": "Những phương pháp đã được thiết lập từ lâu này vẫn được dạy ngày nay."
+        },
+        {
+          "en": "She challenged a long established belief in the field.",
+          "vi": "Cô thách thức một niềm tin đã được thiết lập từ lâu trong lĩnh vực này."
+        }
+      ]
+    },
+    {
+      "english": "longitudinal study",
+      "vietnamese": "nghiên cứu theo chiều dọc",
+      "ipa": "/ˌlɔːndʒɪˈtuːdɪnəl ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A longitudinal study followed the same children for ten years.",
+          "vi": "Một nghiên cứu theo chiều dọc theo dõi cùng những đứa trẻ trong mười năm."
+        },
+        {
+          "en": "The longitudinal study revealed gradual changes in health.",
+          "vi": "Nghiên cứu theo chiều dọc cho thấy những thay đổi dần dần về sức khỏe."
+        },
+        {
+          "en": "Funding a longitudinal study requires long-term commitment.",
+          "vi": "Tài trợ cho một nghiên cứu theo chiều dọc đòi hỏi cam kết lâu dài."
+        }
+      ]
+    },
+    {
+      "english": "low income",
+      "vietnamese": "thu nhập thấp",
+      "ipa": "/ˈloʊ ˈɪnkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Families on a low income struggle to afford housing.",
+          "vi": "Các gia đình có thu nhập thấp gặp khó khăn trong việc trang trải nhà ở."
+        },
+        {
+          "en": "The program offers grants to low income students.",
+          "vi": "Chương trình cấp học bổng cho sinh viên có thu nhập thấp."
+        },
+        {
+          "en": "Low income often limits access to healthy food.",
+          "vi": "Thu nhập thấp thường hạn chế khả năng tiếp cận thực phẩm lành mạnh."
+        }
+      ]
+    },
+    {
+      "english": "low intensity",
+      "vietnamese": "cường độ thấp",
+      "ipa": "/ˈloʊ ɪnˈtensəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Low intensity exercise is recommended for older patients.",
+          "vi": "Bài tập cường độ thấp được khuyến nghị cho bệnh nhân lớn tuổi."
+        },
+        {
+          "en": "The conflict remained at low intensity for several years.",
+          "vi": "Cuộc xung đột duy trì ở cường độ thấp trong vài năm."
+        },
+        {
+          "en": "Plants near the wall received only low intensity light.",
+          "vi": "Cây cối gần tường chỉ nhận được ánh sáng cường độ thấp."
+        }
+      ]
+    },
+    {
+      "english": "low level",
+      "vietnamese": "mức độ thấp",
+      "ipa": "/ˈloʊ ˈlevəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Tests detected a low level of pollution in the water.",
+          "vi": "Các xét nghiệm phát hiện mức độ ô nhiễm thấp trong nước."
+        },
+        {
+          "en": "Workers reported a low level of job satisfaction.",
+          "vi": "Người lao động báo cáo mức độ hài lòng với công việc thấp."
+        },
+        {
+          "en": "A low level of rainfall harmed the year's harvest.",
+          "vi": "Mức độ lượng mưa thấp đã làm hỏng vụ thu hoạch năm đó."
+        }
+      ]
+    },
+    {
+      "english": "low percentage",
+      "vietnamese": "tỷ lệ phần trăm thấp",
+      "ipa": "/ˈloʊ pərˈsentɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Only a low percentage of applicants passed the final exam.",
+          "vi": "Chỉ một tỷ lệ phần trăm thấp ứng viên vượt qua kỳ thi cuối."
+        },
+        {
+          "en": "A low percentage of voters turned out for the election.",
+          "vi": "Một tỷ lệ phần trăm thấp cử tri đi bỏ phiếu trong cuộc bầu cử."
+        },
+        {
+          "en": "The drug helped only a low percentage of patients.",
+          "vi": "Loại thuốc chỉ giúp được một tỷ lệ phần trăm thấp bệnh nhân."
+        }
+      ]
+    },
+    {
+      "english": "low priority",
+      "vietnamese": "mức ưu tiên thấp",
+      "ipa": "/ˈloʊ praɪˈɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Road repairs were given low priority in this year's budget.",
+          "vi": "Việc sửa đường được dành mức ưu tiên thấp trong ngân sách năm nay."
+        },
+        {
+          "en": "The task seemed important but was actually low priority.",
+          "vi": "Nhiệm vụ có vẻ quan trọng nhưng thực ra là mức ưu tiên thấp."
+        },
+        {
+          "en": "Staff training became a low priority during the crisis.",
+          "vi": "Đào tạo nhân viên trở thành mức ưu tiên thấp trong khủng hoảng."
+        }
+      ]
+    },
+    {
+      "english": "low probability",
+      "vietnamese": "xác suất thấp",
+      "ipa": "/ˈloʊ ˌprɑːbəˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a low probability of rain this afternoon.",
+          "vi": "Có xác suất thấp xảy ra mưa vào chiều nay."
+        },
+        {
+          "en": "The model assigns a low probability to that outcome.",
+          "vi": "Mô hình gán xác suất thấp cho kết quả đó."
+        },
+        {
+          "en": "Despite the low probability, the team prepared for failure.",
+          "vi": "Dù xác suất thấp, đội vẫn chuẩn bị cho thất bại."
+        }
+      ]
+    },
+    {
+      "english": "low profile",
+      "vietnamese": "sự kín đáo, ít phô trương",
+      "ipa": "/ˈloʊ ˈproʊfaɪl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The politician kept a low profile during the scandal.",
+          "vi": "Chính trị gia giữ thái độ kín đáo trong suốt vụ bê bối."
+        },
+        {
+          "en": "After the controversy, the company maintained a low profile.",
+          "vi": "Sau cuộc tranh cãi, công ty duy trì sự kín đáo."
+        },
+        {
+          "en": "She prefers a low profile and avoids public attention.",
+          "vi": "Cô thích sự kín đáo và tránh sự chú ý của công chúng."
+        }
+      ]
+    },
+    {
+      "english": "low quality",
+      "vietnamese": "chất lượng thấp",
+      "ipa": "/ˈloʊ ˈkwɑːləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Customers complained about the low quality of the materials.",
+          "vi": "Khách hàng phàn nàn về chất lượng thấp của vật liệu."
+        },
+        {
+          "en": "Low quality data can ruin an otherwise good study.",
+          "vi": "Dữ liệu chất lượng thấp có thể phá hỏng một nghiên cứu vốn tốt."
+        },
+        {
+          "en": "Cheap goods are often of disappointingly low quality.",
+          "vi": "Hàng giá rẻ thường có chất lượng thấp đáng thất vọng."
+        }
+      ]
+    },
+    {
+      "english": "low status",
+      "vietnamese": "địa vị thấp",
+      "ipa": "/ˈloʊ ˈstætəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Manual jobs were once seen as having low status.",
+          "vi": "Công việc chân tay từng bị xem là có địa vị thấp."
+        },
+        {
+          "en": "The reform aimed to help workers of low status.",
+          "vi": "Cuộc cải cách nhằm giúp đỡ những người lao động có địa vị thấp."
+        },
+        {
+          "en": "Low status within the group limited her influence.",
+          "vi": "Địa vị thấp trong nhóm đã hạn chế ảnh hưởng của cô."
+        }
+      ]
+    },
+    {
+      "english": "low turnover",
+      "vietnamese": "tỷ lệ thay đổi nhân sự thấp",
+      "ipa": "/ˈloʊ ˈtɜːrnoʊvər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The firm enjoys low turnover thanks to fair wages.",
+          "vi": "Công ty có tỷ lệ thay đổi nhân sự thấp nhờ mức lương công bằng."
+        },
+        {
+          "en": "Low turnover suggests employees are happy in their roles.",
+          "vi": "Tỷ lệ thay đổi nhân sự thấp cho thấy nhân viên hài lòng với vai trò của mình."
+        },
+        {
+          "en": "Good management is linked to low turnover among staff.",
+          "vi": "Quản lý tốt gắn liền với tỷ lệ thay đổi nhân sự thấp."
+        }
+      ]
+    },
+    {
+      "english": "low unemployment",
+      "vietnamese": "tỷ lệ thất nghiệp thấp",
+      "ipa": "/ˈloʊ ˌʌnɪmˈplɔɪmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Low unemployment usually signals a healthy economy.",
+          "vi": "Tỷ lệ thất nghiệp thấp thường báo hiệu một nền kinh tế lành mạnh."
+        },
+        {
+          "en": "The region enjoyed low unemployment for several years.",
+          "vi": "Khu vực này có tỷ lệ thất nghiệp thấp trong nhiều năm."
+        },
+        {
+          "en": "Low unemployment can push wages gradually higher.",
+          "vi": "Tỷ lệ thất nghiệp thấp có thể đẩy lương tăng dần lên."
+        }
+      ]
+    }
+  ]
+}

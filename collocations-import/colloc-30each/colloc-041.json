@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 41/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 41/83"
+  },
+  "cards": [
+    {
+      "english": "key source",
+      "vietnamese": "nguồn tư liệu then chốt",
+      "ipa": "/ˈkiː ˈsɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These letters are a key source for understanding the period.",
+          "vi": "Những bức thư này là nguồn tư liệu then chốt để hiểu thời kỳ đó."
+        },
+        {
+          "en": "The census remains a key source of population statistics.",
+          "vi": "Cuộc tổng điều tra vẫn là nguồn then chốt cho số liệu dân số."
+        },
+        {
+          "en": "Interviews became a key source of evidence in her study.",
+          "vi": "Phỏng vấn trở thành nguồn bằng chứng then chốt trong nghiên cứu của cô."
+        }
+      ]
+    },
+    {
+      "english": "key text",
+      "vietnamese": "văn bản then chốt",
+      "ipa": "/ˈkiː ˈtekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "This essay is a key text in the history of philosophy.",
+          "vi": "Tiểu luận này là một văn bản then chốt trong lịch sử triết học."
+        },
+        {
+          "en": "The reading list includes the key texts of the movement.",
+          "vi": "Danh mục đọc gồm các văn bản then chốt của trào lưu đó."
+        },
+        {
+          "en": "Scholars still return to this key text again and again.",
+          "vi": "Các học giả vẫn liên tục quay lại văn bản then chốt này."
+        }
+      ]
+    },
+    {
+      "english": "key theme",
+      "vietnamese": "chủ đề then chốt",
+      "ipa": "/ˈkiː ˈθiːm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Loss is a key theme running through the entire novel.",
+          "vi": "Mất mát là một chủ đề then chốt xuyên suốt cả cuốn tiểu thuyết."
+        },
+        {
+          "en": "The conference focused on three key themes in education.",
+          "vi": "Hội nghị tập trung vào ba chủ đề then chốt trong giáo dục."
+        },
+        {
+          "en": "Identity emerges as a key theme in her later poems.",
+          "vi": "Bản sắc nổi lên như một chủ đề then chốt trong các bài thơ sau này của bà."
+        }
+      ]
+    },
+    {
+      "english": "key topic",
+      "vietnamese": "chủ đề then chốt",
+      "ipa": "/ˈkiː ˈtɑːpɪk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Climate change is a key topic in environmental science courses.",
+          "vi": "Biến đổi khí hậu là một chủ đề then chốt trong các môn khoa học môi trường."
+        },
+        {
+          "en": "The seminar will cover several key topics in detail.",
+          "vi": "Buổi hội thảo sẽ đề cập chi tiết vài chủ đề then chốt."
+        },
+        {
+          "en": "Inequality has become a key topic in public debate.",
+          "vi": "Bất bình đẳng đã trở thành một chủ đề then chốt trong tranh luận công khai."
+        }
+      ]
+    },
+    {
+      "english": "large majority",
+      "vietnamese": "đa số áp đảo",
+      "ipa": "/ˈlɑːrdʒ məˈdʒɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A large majority of students supported the proposed change.",
+          "vi": "Một đa số áp đảo sinh viên ủng hộ thay đổi được đề xuất."
+        },
+        {
+          "en": "The bill passed with a large majority in parliament.",
+          "vi": "Dự luật được thông qua với đa số áp đảo trong quốc hội."
+        },
+        {
+          "en": "In the survey, a large majority preferred online classes.",
+          "vi": "Trong khảo sát, một đa số áp đảo thích các lớp học trực tuyến."
+        }
+      ]
+    },
+    {
+      "english": "large percentage",
+      "vietnamese": "tỷ lệ phần trăm lớn",
+      "ipa": "/ˈlɑːrdʒ pərˈsentɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A large percentage of the budget goes toward research.",
+          "vi": "Một tỷ lệ phần trăm lớn của ngân sách dành cho nghiên cứu."
+        },
+        {
+          "en": "A large percentage of respondents reported feeling stressed.",
+          "vi": "Một tỷ lệ phần trăm lớn người trả lời cho biết họ thấy căng thẳng."
+        },
+        {
+          "en": "The disease affects a large percentage of the elderly.",
+          "vi": "Căn bệnh ảnh hưởng đến một tỷ lệ phần trăm lớn người cao tuổi."
+        }
+      ]
+    },
+    {
+      "english": "large portion",
+      "vietnamese": "phần lớn",
+      "ipa": "/ˈlɑːrdʒ ˈpɔːrʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A large portion of the data was collected during summer.",
+          "vi": "Phần lớn dữ liệu đã được thu thập trong mùa hè."
+        },
+        {
+          "en": "She devoted a large portion of the essay to methods.",
+          "vi": "Cô dành phần lớn bài luận để nói về phương pháp."
+        },
+        {
+          "en": "A large portion of the population lives near the coast.",
+          "vi": "Phần lớn dân số sinh sống gần bờ biển."
+        }
+      ]
+    },
+    {
+      "english": "large proportion of",
+      "vietnamese": "một phần lớn của",
+      "ipa": "/ˈlɑːrdʒ prəˈpɔːrʃən əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A large proportion of income is spent on housing costs.",
+          "vi": "Một phần lớn thu nhập được chi cho chi phí nhà ở."
+        },
+        {
+          "en": "A large proportion of the sample came from rural areas.",
+          "vi": "Một phần lớn của mẫu khảo sát đến từ vùng nông thôn."
+        },
+        {
+          "en": "A large proportion of energy is still lost as heat.",
+          "vi": "Một phần lớn năng lượng vẫn bị thất thoát dưới dạng nhiệt."
+        }
+      ]
+    },
+    {
+      "english": "large quantities of",
+      "vietnamese": "một lượng lớn",
+      "ipa": "/ˈlɑːrdʒ ˈkwɑːntətiz əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The factory releases large quantities of waste into the river.",
+          "vi": "Nhà máy thải một lượng lớn chất thải ra sông."
+        },
+        {
+          "en": "Researchers processed large quantities of survey data by computer.",
+          "vi": "Các nhà nghiên cứu xử lý một lượng lớn dữ liệu khảo sát bằng máy tính."
+        },
+        {
+          "en": "Large quantities of food are wasted every single day.",
+          "vi": "Một lượng lớn thực phẩm bị lãng phí mỗi ngày."
+        }
+      ]
+    },
+    {
+      "english": "large range of",
+      "vietnamese": "phạm vi rộng các",
+      "ipa": "/ˈlɑːrdʒ ˈreɪndʒ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The library offers a large range of academic resources.",
+          "vi": "Thư viện cung cấp một phạm vi rộng các tài nguyên học thuật."
+        },
+        {
+          "en": "The study covered a large range of age groups.",
+          "vi": "Nghiên cứu bao quát một phạm vi rộng các nhóm tuổi."
+        },
+        {
+          "en": "The course explores a large range of historical sources.",
+          "vi": "Khóa học khám phá một phạm vi rộng các nguồn sử liệu."
+        }
+      ]
+    },
+    {
+      "english": "largely based on",
+      "vietnamese": "chủ yếu dựa trên",
+      "ipa": "/ˈlɑːrdʒli ˈbeɪst ɑːn/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Her argument is largely based on earlier field research.",
+          "vi": "Lập luận của cô chủ yếu dựa trên nghiên cứu thực địa trước đó."
+        },
+        {
+          "en": "The model is largely based on assumptions about behavior.",
+          "vi": "Mô hình này chủ yếu dựa trên các giả định về hành vi."
+        },
+        {
+          "en": "The film is largely based on a true historical event.",
+          "vi": "Bộ phim chủ yếu dựa trên một sự kiện lịch sử có thật."
+        }
+      ]
+    },
+    {
+      "english": "largely confined to",
+      "vietnamese": "phần lớn giới hạn trong",
+      "ipa": "/ˈlɑːrdʒli kənˈfaɪnd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The disease is largely confined to tropical regions.",
+          "vi": "Căn bệnh phần lớn giới hạn trong các vùng nhiệt đới."
+        },
+        {
+          "en": "Early debate was largely confined to a few specialists.",
+          "vi": "Cuộc tranh luận ban đầu phần lớn giới hạn trong vài chuyên gia."
+        },
+        {
+          "en": "Such practices were largely confined to rural communities.",
+          "vi": "Những tập tục như vậy phần lớn giới hạn trong các cộng đồng nông thôn."
+        }
+      ]
+    },
+    {
+      "english": "largely determined by",
+      "vietnamese": "phần lớn được quyết định bởi",
+      "ipa": "/ˈlɑːrdʒli dɪˈtɜːrmɪnd baɪ/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Success is largely determined by effort and preparation.",
+          "vi": "Thành công phần lớn được quyết định bởi nỗ lực và sự chuẩn bị."
+        },
+        {
+          "en": "Crop yields are largely determined by rainfall each season.",
+          "vi": "Năng suất cây trồng phần lớn được quyết định bởi lượng mưa mỗi mùa."
+        },
+        {
+          "en": "Wages are largely determined by supply and demand.",
+          "vi": "Tiền lương phần lớn được quyết định bởi cung và cầu."
+        }
+      ]
+    },
+    {
+      "english": "largely ignored",
+      "vietnamese": "phần lớn bị phớt lờ",
+      "ipa": "/ˈlɑːrdʒli ɪɡˈnɔːrd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Her early warnings were largely ignored by the authorities.",
+          "vi": "Những cảnh báo sớm của cô phần lớn bị giới chức phớt lờ."
+        },
+        {
+          "en": "The issue was largely ignored until the crisis began.",
+          "vi": "Vấn đề này phần lớn bị phớt lờ cho đến khi khủng hoảng bắt đầu."
+        },
+        {
+          "en": "These findings were largely ignored by later researchers.",
+          "vi": "Những phát hiện này phần lớn bị các nhà nghiên cứu sau phớt lờ."
+        }
+      ]
+    },
+    {
+      "english": "largely responsible for",
+      "vietnamese": "phần lớn chịu trách nhiệm cho",
+      "ipa": "/ˈlɑːrdʒli rɪˈspɑːnsəbəl fər/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Human activity is largely responsible for rising temperatures.",
+          "vi": "Hoạt động của con người phần lớn chịu trách nhiệm cho nhiệt độ tăng."
+        },
+        {
+          "en": "Poor planning was largely responsible for the project's delay.",
+          "vi": "Việc lập kế hoạch kém phần lớn chịu trách nhiệm cho sự chậm trễ của dự án."
+        },
+        {
+          "en": "She was largely responsible for the program's early success.",
+          "vi": "Cô phần lớn chịu trách nhiệm cho thành công ban đầu của chương trình."
+        }
+      ]
+    },
+    {
+      "english": "later work",
+      "vietnamese": "công trình về sau",
+      "ipa": "/ˈleɪtər ˈwɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "His later work shows a clear shift in style.",
+          "vi": "Công trình về sau của ông cho thấy một sự thay đổi rõ về phong cách."
+        },
+        {
+          "en": "Her later work builds directly on these early experiments.",
+          "vi": "Công trình về sau của cô xây dựng trực tiếp trên những thí nghiệm ban đầu này."
+        },
+        {
+          "en": "Critics often prefer the artist's later work to her earliest.",
+          "vi": "Giới phê bình thường thích công trình về sau của nghệ sĩ hơn các tác phẩm đầu tay."
+        }
+      ]
+    },
+    {
+      "english": "later writings",
+      "vietnamese": "các trước tác về sau",
+      "ipa": "/ˈleɪtər ˈraɪtɪŋz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "His later writings reveal a more cautious philosophical view.",
+          "vi": "Các trước tác về sau của ông bộc lộ một quan điểm triết học thận trọng hơn."
+        },
+        {
+          "en": "Scholars find new themes in her later writings.",
+          "vi": "Các học giả tìm thấy những chủ đề mới trong các trước tác về sau của bà."
+        },
+        {
+          "en": "The later writings address questions the early ones avoided.",
+          "vi": "Các trước tác về sau giải quyết những câu hỏi mà tác phẩm đầu tránh né."
+        }
+      ]
+    },
+    {
+      "english": "lead to the conclusion",
+      "vietnamese": "dẫn đến kết luận",
+      "ipa": "/ˈliːd tə ðə kənˈkluːʒən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "These results lead to the conclusion that the method works.",
+          "vi": "Những kết quả này dẫn đến kết luận rằng phương pháp có hiệu quả."
+        },
+        {
+          "en": "Such evidence may lead to the conclusion that reform is needed.",
+          "vi": "Bằng chứng như vậy có thể dẫn đến kết luận rằng cần cải cách."
+        },
+        {
+          "en": "The data lead to the conclusion that costs are rising.",
+          "vi": "Dữ liệu dẫn đến kết luận rằng chi phí đang tăng."
+        }
+      ]
+    },
+    {
+      "english": "leading role",
+      "vietnamese": "vai trò dẫn dắt",
+      "ipa": "/ˈliːdɪŋ ˈroʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The university played a leading role in the research effort.",
+          "vi": "Trường đại học đóng vai trò dẫn dắt trong nỗ lực nghiên cứu."
+        },
+        {
+          "en": "She took a leading role in shaping the new policy.",
+          "vi": "Cô đảm nhận vai trò dẫn dắt trong việc định hình chính sách mới."
+        },
+        {
+          "en": "The country has a leading role in regional trade talks.",
+          "vi": "Quốc gia này có vai trò dẫn dắt trong các cuộc đàm phán thương mại khu vực."
+        }
+      ]
+    },
+    {
+      "english": "learning activity",
+      "vietnamese": "hoạt động học tập",
+      "ipa": "/ˈlɜːrnɪŋ ækˈtɪvəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each learning activity is designed to reinforce a key skill.",
+          "vi": "Mỗi hoạt động học tập được thiết kế để củng cố một kỹ năng then chốt."
+        },
+        {
+          "en": "Group discussion is a popular learning activity in this class.",
+          "vi": "Thảo luận nhóm là một hoạt động học tập phổ biến trong lớp này."
+        },
+        {
+          "en": "Teachers vary learning activities to keep students engaged.",
+          "vi": "Giáo viên thay đổi các hoạt động học tập để giữ học sinh hứng thú."
+        }
+      ]
+    },
+    {
+      "english": "learning difficulties",
+      "vietnamese": "khó khăn trong học tập",
+      "ipa": "/ˈlɜːrnɪŋ ˈdɪfɪkəltiz/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The school offers extra support for children with learning difficulties.",
+          "vi": "Trường cung cấp hỗ trợ thêm cho trẻ có khó khăn trong học tập."
+        },
+        {
+          "en": "Early diagnosis of learning difficulties improves later outcomes.",
+          "vi": "Chẩn đoán sớm khó khăn trong học tập giúp cải thiện kết quả về sau."
+        },
+        {
+          "en": "Teachers are trained to recognize common learning difficulties.",
+          "vi": "Giáo viên được đào tạo để nhận ra các khó khăn học tập thường gặp."
+        }
+      ]
+    },
+    {
+      "english": "learning environment",
+      "vietnamese": "môi trường học tập",
+      "ipa": "/ˈlɜːrnɪŋ ɪnˈvaɪrənmənt/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "A safe learning environment helps students take more risks.",
+          "vi": "Một môi trường học tập an toàn giúp học sinh dám mạo hiểm hơn."
+        },
+        {
+          "en": "Technology has transformed the modern learning environment.",
+          "vi": "Công nghệ đã thay đổi môi trường học tập hiện đại."
+        },
+        {
+          "en": "Teachers work hard to create a positive learning environment.",
+          "vi": "Giáo viên nỗ lực tạo ra một môi trường học tập tích cực."
+        }
+      ]
+    },
+    {
+      "english": "learning objective",
+      "vietnamese": "mục tiêu học tập",
+      "ipa": "/ˈlɜːrnɪŋ əbˈdʒektɪv/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Each lesson begins with a clearly stated learning objective.",
+          "vi": "Mỗi bài học bắt đầu với một mục tiêu học tập được nêu rõ."
+        },
+        {
+          "en": "The teacher aligned the activities with the learning objectives.",
+          "vi": "Giáo viên đã gắn các hoạt động với mục tiêu học tập."
+        },
+        {
+          "en": "Students should know the learning objectives before they start.",
+          "vi": "Học sinh nên biết các mục tiêu học tập trước khi bắt đầu."
+        }
+      ]
+    },
+    {
+      "english": "learning outcome",
+      "vietnamese": "kết quả học tập đầu ra",
+      "ipa": "/ˈlɜːrnɪŋ ˈaʊtkʌm/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The course lists its learning outcomes in the syllabus.",
+          "vi": "Khóa học liệt kê các kết quả học tập đầu ra trong đề cương."
+        },
+        {
+          "en": "Assessment should match the stated learning outcomes closely.",
+          "vi": "Việc đánh giá nên bám sát các kết quả học tập đầu ra đã nêu."
+        },
+        {
+          "en": "Clear learning outcomes help students measure their progress.",
+          "vi": "Kết quả học tập đầu ra rõ ràng giúp học sinh đo lường tiến bộ."
+        }
+      ]
+    },
+    {
+      "english": "learning process",
+      "vietnamese": "quá trình học tập",
+      "ipa": "/ˈlɜːrnɪŋ ˈprɑːses/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Mistakes are a natural part of the learning process.",
+          "vi": "Sai lầm là một phần tự nhiên của quá trình học tập."
+        },
+        {
+          "en": "Feedback plays a central role in the learning process.",
+          "vi": "Phản hồi đóng vai trò trung tâm trong quá trình học tập."
+        },
+        {
+          "en": "The study examines how emotion shapes the learning process.",
+          "vi": "Nghiên cứu xem xét cách cảm xúc định hình quá trình học tập."
+        }
+      ]
+    },
+    {
+      "english": "learning resources",
+      "vietnamese": "tài nguyên học tập",
+      "ipa": "/ˈlɜːrnɪŋ ˈriːsɔːrsɪz/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The platform offers free learning resources to every student.",
+          "vi": "Nền tảng cung cấp tài nguyên học tập miễn phí cho mọi học sinh."
+        },
+        {
+          "en": "Good learning resources can make difficult topics easier.",
+          "vi": "Tài nguyên học tập tốt có thể giúp các chủ đề khó trở nên dễ hơn."
+        },
+        {
+          "en": "Teachers create learning resources tailored to their classes.",
+          "vi": "Giáo viên tạo ra tài nguyên học tập phù hợp với lớp của mình."
+        }
+      ]
+    },
+    {
+      "english": "learning strategy",
+      "vietnamese": "chiến lược học tập",
+      "ipa": "/ˈlɜːrnɪŋ ˈstrætədʒi/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Spacing out review is an effective learning strategy.",
+          "vi": "Giãn cách việc ôn tập là một chiến lược học tập hiệu quả."
+        },
+        {
+          "en": "Students benefit from trying several learning strategies.",
+          "vi": "Học sinh hưởng lợi khi thử nhiều chiến lược học tập khác nhau."
+        },
+        {
+          "en": "The teacher explained a simple learning strategy for vocabulary.",
+          "vi": "Giáo viên giải thích một chiến lược học tập đơn giản cho từ vựng."
+        }
+      ]
+    },
+    {
+      "english": "legal action",
+      "vietnamese": "hành động pháp lý",
+      "ipa": "/ˈliːɡəl ˈækʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company threatened legal action against its former partner.",
+          "vi": "Công ty đe dọa hành động pháp lý chống lại đối tác cũ."
+        },
+        {
+          "en": "Victims may take legal action to recover their losses.",
+          "vi": "Nạn nhân có thể tiến hành hành động pháp lý để đòi lại tổn thất."
+        },
+        {
+          "en": "Legal action was avoided when both sides reached a settlement.",
+          "vi": "Hành động pháp lý được tránh khi hai bên đạt được thỏa thuận."
+        }
+      ]
+    },
+    {
+      "english": "legal basis",
+      "vietnamese": "cơ sở pháp lý",
+      "ipa": "/ˈliːɡəl ˈbeɪsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The decision lacked any clear legal basis at the time.",
+          "vi": "Quyết định khi đó thiếu một cơ sở pháp lý rõ ràng."
+        },
+        {
+          "en": "The treaty provides the legal basis for the new rules.",
+          "vi": "Hiệp ước cung cấp cơ sở pháp lý cho các quy định mới."
+        },
+        {
+          "en": "Lawyers questioned the legal basis of the government's order.",
+          "vi": "Các luật sư đặt nghi vấn về cơ sở pháp lý của lệnh chính phủ."
+        }
+      ]
+    },
+    {
+      "english": "legal framework",
+      "vietnamese": "khung pháp lý",
+      "ipa": "/ˈliːɡəl ˈfreɪmwɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A clear legal framework is needed to regulate the industry.",
+          "vi": "Cần một khung pháp lý rõ ràng để điều chỉnh ngành công nghiệp này."
+        },
+        {
+          "en": "The new legal framework protects consumers more effectively.",
+          "vi": "Khung pháp lý mới bảo vệ người tiêu dùng hiệu quả hơn."
+        },
+        {
+          "en": "Companies must operate within the existing legal framework.",
+          "vi": "Các công ty phải hoạt động trong khung pháp lý hiện hành."
+        }
+      ]
+    }
+  ]
+}

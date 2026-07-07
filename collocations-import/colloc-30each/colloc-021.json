@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 21/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 21/83"
+  },
+  "cards": [
+    {
+      "english": "economic factors",
+      "vietnamese": "các yếu tố kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈfæktərz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Several economic factors influenced the family's decision to move.",
+          "vi": "Một số yếu tố kinh tế ảnh hưởng đến quyết định chuyển nhà của gia đình."
+        },
+        {
+          "en": "The study controlled for economic factors such as income.",
+          "vi": "Nghiên cứu đã kiểm soát các yếu tố kinh tế như thu nhập."
+        },
+        {
+          "en": "Economic factors alone cannot explain the trend.",
+          "vi": "Các yếu tố kinh tế đơn thuần không thể giải thích xu hướng này."
+        }
+      ]
+    },
+    {
+      "english": "economic forces",
+      "vietnamese": "các lực lượng kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈfɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Powerful economic forces shaped the city's rapid growth.",
+          "vi": "Những lực lượng kinh tế mạnh mẽ định hình sự phát triển nhanh của thành phố."
+        },
+        {
+          "en": "Global economic forces affect small local businesses too.",
+          "vi": "Các lực lượng kinh tế toàn cầu cũng tác động đến doanh nghiệp địa phương nhỏ."
+        },
+        {
+          "en": "The decline resulted from forces beyond local control.",
+          "vi": "Sự suy giảm bắt nguồn từ những lực lượng nằm ngoài tầm kiểm soát địa phương."
+        }
+      ]
+    },
+    {
+      "english": "economic goal",
+      "vietnamese": "mục tiêu kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ɡoʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Reducing unemployment is the government's main economic goal.",
+          "vi": "Giảm tỷ lệ thất nghiệp là mục tiêu kinh tế chính của chính phủ."
+        },
+        {
+          "en": "The plan balances social and economic goals carefully.",
+          "vi": "Kế hoạch cân bằng cẩn thận giữa mục tiêu xã hội và kinh tế."
+        },
+        {
+          "en": "Each economic goal must be measurable and realistic.",
+          "vi": "Mỗi mục tiêu kinh tế phải đo lường được và thực tế."
+        }
+      ]
+    },
+    {
+      "english": "economic growth",
+      "vietnamese": "tăng trưởng kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ɡroʊθ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Strong economic growth created thousands of new jobs.",
+          "vi": "Tăng trưởng kinh tế mạnh mẽ tạo ra hàng nghìn việc làm mới."
+        },
+        {
+          "en": "Education investment supports long-term economic growth.",
+          "vi": "Đầu tư vào giáo dục hỗ trợ tăng trưởng kinh tế lâu dài."
+        },
+        {
+          "en": "Economic growth slowed sharply during the recession.",
+          "vi": "Tăng trưởng kinh tế chững lại rõ rệt trong thời kỳ suy thoái."
+        }
+      ]
+    },
+    {
+      "english": "economic inequality",
+      "vietnamese": "bất bình đẳng kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˌɪnɪˈkwɑːləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Economic inequality has widened in many developed countries.",
+          "vi": "Bất bình đẳng kinh tế đã gia tăng ở nhiều nước phát triển."
+        },
+        {
+          "en": "The policy aims to reduce growing economic inequality.",
+          "vi": "Chính sách nhằm giảm bớt sự bất bình đẳng kinh tế ngày càng tăng."
+        },
+        {
+          "en": "High economic inequality can fuel social unrest.",
+          "vi": "Bất bình đẳng kinh tế cao có thể thổi bùng bất ổn xã hội."
+        }
+      ]
+    },
+    {
+      "english": "economic integration",
+      "vietnamese": "hội nhập kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˌɪntɪˈɡreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Economic integration allowed goods to move freely between countries.",
+          "vi": "Hội nhập kinh tế cho phép hàng hóa lưu thông tự do giữa các nước."
+        },
+        {
+          "en": "The treaty promotes deeper economic integration in the region.",
+          "vi": "Hiệp ước thúc đẩy hội nhập kinh tế sâu rộng hơn trong khu vực."
+        },
+        {
+          "en": "Economic integration can lower prices for consumers.",
+          "vi": "Hội nhập kinh tế có thể giảm giá cho người tiêu dùng."
+        }
+      ]
+    },
+    {
+      "english": "economic interests",
+      "vietnamese": "lợi ích kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈɪntrəsts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The two nations share important economic interests.",
+          "vi": "Hai quốc gia chia sẻ những lợi ích kinh tế quan trọng."
+        },
+        {
+          "en": "Critics argue the law protects narrow economic interests.",
+          "vi": "Các nhà phê bình cho rằng luật này bảo vệ những lợi ích kinh tế hẹp hòi."
+        },
+        {
+          "en": "Companies often lobby to defend their economic interests.",
+          "vi": "Các công ty thường vận động hành lang để bảo vệ lợi ích kinh tế."
+        }
+      ]
+    },
+    {
+      "english": "economic policy",
+      "vietnamese": "chính sách kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈpɑːləsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new economic policy aims to control inflation.",
+          "vi": "Chính sách kinh tế mới nhằm kiểm soát lạm phát."
+        },
+        {
+          "en": "Economists disagreed sharply about the government's economic policy.",
+          "vi": "Các nhà kinh tế bất đồng gay gắt về chính sách kinh tế của chính phủ."
+        },
+        {
+          "en": "Sound economic policy can stabilize a fragile market.",
+          "vi": "Chính sách kinh tế hợp lý có thể ổn định một thị trường mong manh."
+        }
+      ]
+    },
+    {
+      "english": "economic power",
+      "vietnamese": "sức mạnh kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈpaʊər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The country's economic power grew rapidly after the reforms.",
+          "vi": "Sức mạnh kinh tế của quốc gia tăng nhanh sau các cải cách."
+        },
+        {
+          "en": "Large corporations wield enormous economic power today.",
+          "vi": "Các tập đoàn lớn nắm giữ sức mạnh kinh tế khổng lồ ngày nay."
+        },
+        {
+          "en": "Economic power often translates into political influence.",
+          "vi": "Sức mạnh kinh tế thường chuyển thành ảnh hưởng chính trị."
+        }
+      ]
+    },
+    {
+      "english": "economic prosperity",
+      "vietnamese": "sự thịnh vượng kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk prɑːˈsperəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Stable institutions are essential for lasting economic prosperity.",
+          "vi": "Các thể chế ổn định là điều thiết yếu cho sự thịnh vượng kinh tế bền vững."
+        },
+        {
+          "en": "Trade brought a period of remarkable economic prosperity.",
+          "vi": "Thương mại mang lại một thời kỳ thịnh vượng kinh tế đáng kể."
+        },
+        {
+          "en": "Many factors contribute to a region's economic prosperity.",
+          "vi": "Nhiều yếu tố góp phần vào sự thịnh vượng kinh tế của một vùng."
+        }
+      ]
+    },
+    {
+      "english": "economic reform",
+      "vietnamese": "cải cách kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk rɪˈfɔːrm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Economic reform opened the country to foreign investment.",
+          "vi": "Cải cách kinh tế đã mở cửa đất nước cho đầu tư nước ngoài."
+        },
+        {
+          "en": "The government promised sweeping economic reform after the election.",
+          "vi": "Chính phủ hứa hẹn cải cách kinh tế sâu rộng sau bầu cử."
+        },
+        {
+          "en": "Economic reform often faces strong political resistance.",
+          "vi": "Cải cách kinh tế thường vấp phải sự phản kháng chính trị mạnh mẽ."
+        }
+      ]
+    },
+    {
+      "english": "economic relations",
+      "vietnamese": "quan hệ kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk rɪˈleɪʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The agreement strengthened economic relations between the two states.",
+          "vi": "Hiệp định củng cố quan hệ kinh tế giữa hai quốc gia."
+        },
+        {
+          "en": "Tensions damaged economic relations across the border.",
+          "vi": "Căng thẳng làm tổn hại quan hệ kinh tế xuyên biên giới."
+        },
+        {
+          "en": "Trade fairs help build new economic relations.",
+          "vi": "Hội chợ thương mại giúp xây dựng quan hệ kinh tế mới."
+        }
+      ]
+    },
+    {
+      "english": "economic relationships",
+      "vietnamese": "các mối quan hệ kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk rɪˈleɪʃənʃɪps/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Global trade creates complex economic relationships between nations.",
+          "vi": "Thương mại toàn cầu tạo ra các mối quan hệ kinh tế phức tạp giữa các nước."
+        },
+        {
+          "en": "The chapter analyzes economic relationships within rural communities.",
+          "vi": "Chương này phân tích các mối quan hệ kinh tế trong cộng đồng nông thôn."
+        },
+        {
+          "en": "Trust underpins long-term economic relationships between firms.",
+          "vi": "Niềm tin là nền tảng cho các mối quan hệ kinh tế lâu dài giữa các công ty."
+        }
+      ]
+    },
+    {
+      "english": "economic resources",
+      "vietnamese": "nguồn lực kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈriːsɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The region lacks the economic resources to rebuild quickly.",
+          "vi": "Khu vực thiếu nguồn lực kinh tế để tái thiết nhanh chóng."
+        },
+        {
+          "en": "Wealthy families can devote more economic resources to education.",
+          "vi": "Gia đình giàu có thể dành nhiều nguồn lực kinh tế hơn cho giáo dục."
+        },
+        {
+          "en": "Scarce economic resources must be allocated carefully.",
+          "vi": "Nguồn lực kinh tế khan hiếm phải được phân bổ cẩn thận."
+        }
+      ]
+    },
+    {
+      "english": "economic sector",
+      "vietnamese": "khu vực kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈsektər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The service economic sector now employs most urban workers.",
+          "vi": "Khu vực kinh tế dịch vụ hiện thuê hầu hết lao động đô thị."
+        },
+        {
+          "en": "Each economic sector responded differently to the new tax.",
+          "vi": "Mỗi khu vực kinh tế phản ứng khác nhau với loại thuế mới."
+        },
+        {
+          "en": "The report focuses on the agricultural economic sector.",
+          "vi": "Báo cáo tập trung vào khu vực kinh tế nông nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "economic stability",
+      "vietnamese": "sự ổn định kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk stəˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Low inflation contributes to long-term economic stability.",
+          "vi": "Lạm phát thấp góp phần vào sự ổn định kinh tế lâu dài."
+        },
+        {
+          "en": "Investors prefer countries with strong economic stability.",
+          "vi": "Nhà đầu tư ưa chuộng các nước có sự ổn định kinh tế vững chắc."
+        },
+        {
+          "en": "The crisis threatened the region's fragile economic stability.",
+          "vi": "Cuộc khủng hoảng đe dọa sự ổn định kinh tế mong manh của khu vực."
+        }
+      ]
+    },
+    {
+      "english": "economic status",
+      "vietnamese": "địa vị kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈstætəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A family's economic status often affects children's opportunities.",
+          "vi": "Địa vị kinh tế của một gia đình thường ảnh hưởng đến cơ hội của con cái."
+        },
+        {
+          "en": "The survey grouped respondents by economic status.",
+          "vi": "Cuộc khảo sát phân nhóm người trả lời theo địa vị kinh tế."
+        },
+        {
+          "en": "Education can help people improve their economic status.",
+          "vi": "Giáo dục có thể giúp con người cải thiện địa vị kinh tế."
+        }
+      ]
+    },
+    {
+      "english": "economic structure",
+      "vietnamese": "cấu trúc kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈstrʌktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Industrialization transformed the country's entire economic structure.",
+          "vi": "Công nghiệp hóa đã biến đổi toàn bộ cấu trúc kinh tế của đất nước."
+        },
+        {
+          "en": "The economic structure shifted from farming to manufacturing.",
+          "vi": "Cấu trúc kinh tế chuyển từ nông nghiệp sang sản xuất."
+        },
+        {
+          "en": "A rigid economic structure can slow needed change.",
+          "vi": "Một cấu trúc kinh tế cứng nhắc có thể làm chậm những thay đổi cần thiết."
+        }
+      ]
+    },
+    {
+      "english": "economic success",
+      "vietnamese": "thành công kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk səkˈses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The firm's economic success depended on constant innovation.",
+          "vi": "Thành công kinh tế của công ty phụ thuộc vào sự đổi mới liên tục."
+        },
+        {
+          "en": "Education is widely seen as a path to economic success.",
+          "vi": "Giáo dục được xem rộng rãi là con đường dẫn đến thành công kinh tế."
+        },
+        {
+          "en": "The country's economic success attracted skilled migrants.",
+          "vi": "Thành công kinh tế của đất nước thu hút lao động lành nghề."
+        }
+      ]
+    },
+    {
+      "english": "economic system",
+      "vietnamese": "hệ thống kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈsɪstəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A market economic system relies on supply and demand.",
+          "vi": "Một hệ thống kinh tế thị trường dựa vào cung và cầu."
+        },
+        {
+          "en": "The reforms gradually changed the entire economic system.",
+          "vi": "Các cải cách dần dần thay đổi toàn bộ hệ thống kinh tế."
+        },
+        {
+          "en": "Every economic system distributes resources in its own way.",
+          "vi": "Mỗi hệ thống kinh tế phân phối nguồn lực theo cách riêng."
+        }
+      ]
+    },
+    {
+      "english": "economic theory",
+      "vietnamese": "lý thuyết kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈθiːəri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The professor explained the economic theory behind inflation.",
+          "vi": "Giáo sư giải thích lý thuyết kinh tế đằng sau lạm phát."
+        },
+        {
+          "en": "Classical economic theory assumes that people act rationally.",
+          "vi": "Lý thuyết kinh tế cổ điển giả định rằng con người hành động một cách lý trí."
+        },
+        {
+          "en": "Real markets rarely behave as economic theory predicts.",
+          "vi": "Thị trường thực hiếm khi diễn ra như lý thuyết kinh tế dự đoán."
+        }
+      ]
+    },
+    {
+      "english": "economic value",
+      "vietnamese": "giá trị kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈvæljuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Forests have ecological as well as economic value.",
+          "vi": "Rừng có giá trị sinh thái cũng như giá trị kinh tế."
+        },
+        {
+          "en": "The study estimated the economic value of clean air.",
+          "vi": "Nghiên cứu ước tính giá trị kinh tế của không khí sạch."
+        },
+        {
+          "en": "Skilled labor adds significant economic value to products.",
+          "vi": "Lao động lành nghề tạo thêm giá trị kinh tế đáng kể cho sản phẩm."
+        }
+      ]
+    },
+    {
+      "english": "economic welfare",
+      "vietnamese": "phúc lợi kinh tế",
+      "ipa": "/ˌiːkəˈnɑːmɪk ˈwelfer/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The policy aims to improve the economic welfare of citizens.",
+          "vi": "Chính sách nhằm cải thiện phúc lợi kinh tế của người dân."
+        },
+        {
+          "en": "Free trade can raise the economic welfare of a nation.",
+          "vi": "Thương mại tự do có thể nâng cao phúc lợi kinh tế của một quốc gia."
+        },
+        {
+          "en": "Economists debate how best to measure economic welfare.",
+          "vi": "Các nhà kinh tế tranh luận về cách đo lường phúc lợi kinh tế tốt nhất."
+        }
+      ]
+    },
+    {
+      "english": "educational institution",
+      "vietnamese": "cơ sở giáo dục",
+      "ipa": "/ˌedʒuˈkeɪʃənəl ˌɪnstɪˈtuːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every educational institution must meet basic safety standards.",
+          "vi": "Mọi cơ sở giáo dục đều phải đáp ứng các tiêu chuẩn an toàn cơ bản."
+        },
+        {
+          "en": "The university is the city's oldest educational institution.",
+          "vi": "Trường đại học là cơ sở giáo dục lâu đời nhất của thành phố."
+        },
+        {
+          "en": "Funding for educational institutions was cut last year.",
+          "vi": "Ngân sách cho các cơ sở giáo dục bị cắt giảm năm ngoái."
+        }
+      ]
+    },
+    {
+      "english": "educational opportunity",
+      "vietnamese": "cơ hội giáo dục",
+      "ipa": "/ˌedʒuˈkeɪʃənəl ˌɑːpərˈtuːnəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Scholarships give poorer students better educational opportunity.",
+          "vi": "Học bổng mang lại cho học sinh nghèo cơ hội giáo dục tốt hơn."
+        },
+        {
+          "en": "The program expands educational opportunity in rural areas.",
+          "vi": "Chương trình mở rộng cơ hội giáo dục ở các vùng nông thôn."
+        },
+        {
+          "en": "Equal educational opportunity remains a central policy goal.",
+          "vi": "Cơ hội giáo dục bình đẳng vẫn là một mục tiêu chính sách trọng tâm."
+        }
+      ]
+    },
+    {
+      "english": "educational policy",
+      "vietnamese": "chính sách giáo dục",
+      "ipa": "/ˌedʒuˈkeɪʃənəl ˈpɑːləsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A new educational policy raised the school leaving age.",
+          "vi": "Một chính sách giáo dục mới đã nâng độ tuổi rời trường."
+        },
+        {
+          "en": "Educational policy should respond to changing labor markets.",
+          "vi": "Chính sách giáo dục nên thích ứng với thị trường lao động đang thay đổi."
+        },
+        {
+          "en": "Researchers evaluated the impact of recent educational policy.",
+          "vi": "Các nhà nghiên cứu đánh giá tác động của chính sách giáo dục gần đây."
+        }
+      ]
+    },
+    {
+      "english": "educational program",
+      "vietnamese": "chương trình giáo dục",
+      "ipa": "/ˌedʒuˈkeɪʃənəl ˈproʊɡræm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The charity runs an educational program for young refugees.",
+          "vi": "Tổ chức từ thiện điều hành một chương trình giáo dục cho người tị nạn trẻ."
+        },
+        {
+          "en": "An effective educational program needs trained, motivated teachers.",
+          "vi": "Một chương trình giáo dục hiệu quả cần giáo viên được đào tạo và đầy nhiệt huyết."
+        },
+        {
+          "en": "The educational program improved students' reading scores.",
+          "vi": "Chương trình giáo dục đã cải thiện điểm đọc của học sinh."
+        }
+      ]
+    },
+    {
+      "english": "educational provision",
+      "vietnamese": "việc cung cấp giáo dục",
+      "ipa": "/ˌedʒuˈkeɪʃənəl prəˈvɪʒən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Educational provision in remote regions is often inadequate.",
+          "vi": "Việc cung cấp giáo dục ở các vùng xa thường không đầy đủ."
+        },
+        {
+          "en": "The council improved educational provision for disabled children.",
+          "vi": "Hội đồng cải thiện việc cung cấp giáo dục cho trẻ em khuyết tật."
+        },
+        {
+          "en": "Funding gaps led to uneven educational provision nationwide.",
+          "vi": "Thiếu hụt ngân sách dẫn đến việc cung cấp giáo dục không đồng đều trên cả nước."
+        }
+      ]
+    },
+    {
+      "english": "educational qualification",
+      "vietnamese": "bằng cấp giáo dục",
+      "ipa": "/ˌedʒuˈkeɪʃənəl ˌkwɑːlɪfɪˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many jobs now require a higher educational qualification.",
+          "vi": "Nhiều công việc hiện đòi hỏi bằng cấp giáo dục cao hơn."
+        },
+        {
+          "en": "Her educational qualifications opened doors to better careers.",
+          "vi": "Bằng cấp giáo dục của cô mở ra cánh cửa cho những nghề nghiệp tốt hơn."
+        },
+        {
+          "en": "Employers verify each applicant's educational qualifications carefully.",
+          "vi": "Nhà tuyển dụng kiểm tra cẩn thận bằng cấp giáo dục của từng ứng viên."
+        }
+      ]
+    },
+    {
+      "english": "educational research",
+      "vietnamese": "nghiên cứu giáo dục",
+      "ipa": "/ˌedʒuˈkeɪʃənəl ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Educational research informs how teachers design their lessons.",
+          "vi": "Nghiên cứu giáo dục định hướng cách giáo viên thiết kế bài giảng."
+        },
+        {
+          "en": "She published widely in the field of educational research.",
+          "vi": "Bà đã công bố nhiều bài trong lĩnh vực nghiên cứu giáo dục."
+        },
+        {
+          "en": "Recent educational research questions traditional grading methods.",
+          "vi": "Nghiên cứu giáo dục gần đây đặt câu hỏi về phương pháp chấm điểm truyền thống."
+        }
+      ]
+    }
+  ]
+}

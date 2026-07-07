@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 07/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 07/83"
+  },
+  "cards": [
+    {
+      "english": "carry out the task",
+      "vietnamese": "thực hiện nhiệm vụ",
+      "ipa": "/ˈkæri aʊt ðə tæsk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The students worked together to carry out the task efficiently.",
+          "vi": "Các sinh viên cùng nhau thực hiện nhiệm vụ một cách hiệu quả."
+        },
+        {
+          "en": "He needed clear instructions before he could carry out the task.",
+          "vi": "Anh cần hướng dẫn rõ ràng trước khi có thể thực hiện nhiệm vụ."
+        },
+        {
+          "en": "The robot was programmed to carry out the task automatically.",
+          "vi": "Robot được lập trình để thực hiện nhiệm vụ một cách tự động."
+        }
+      ]
+    },
+    {
+      "english": "cast doubt on",
+      "vietnamese": "gây nghi ngờ về",
+      "ipa": "/kæst daʊt ɑːn/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "New evidence cast doubt on the original conclusions of the study.",
+          "vi": "Bằng chứng mới đã gây nghi ngờ về các kết luận ban đầu của nghiên cứu."
+        },
+        {
+          "en": "Critics cast doubt on the reliability of the survey results.",
+          "vi": "Người phê phán gây nghi ngờ về độ tin cậy của kết quả khảo sát."
+        },
+        {
+          "en": "The contradiction casts doubt on his entire argument.",
+          "vi": "Sự mâu thuẫn này gây nghi ngờ về toàn bộ lập luận của anh."
+        }
+      ]
+    },
+    {
+      "english": "causal link",
+      "vietnamese": "mối liên hệ nhân quả",
+      "ipa": "/ˈkɔːzəl lɪŋk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Researchers found a causal link between smoking and lung disease.",
+          "vi": "Các nhà nghiên cứu tìm thấy mối liên hệ nhân quả giữa hút thuốc và bệnh phổi."
+        },
+        {
+          "en": "Correlation alone does not prove a true causal link.",
+          "vi": "Chỉ riêng tương quan không chứng minh được mối liên hệ nhân quả thực sự."
+        },
+        {
+          "en": "The study failed to establish any clear causal link.",
+          "vi": "Nghiên cứu không thiết lập được mối liên hệ nhân quả rõ ràng nào."
+        }
+      ]
+    },
+    {
+      "english": "causal relation",
+      "vietnamese": "quan hệ nhân quả",
+      "ipa": "/ˈkɔːzəl rɪˈleɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Philosophers have long debated the nature of causal relation.",
+          "vi": "Các nhà triết học từ lâu đã tranh luận về bản chất của quan hệ nhân quả."
+        },
+        {
+          "en": "The data suggest a causal relation between income and health.",
+          "vi": "Dữ liệu gợi ý một quan hệ nhân quả giữa thu nhập và sức khỏe."
+        },
+        {
+          "en": "Establishing a causal relation requires controlled experiments.",
+          "vi": "Thiết lập một quan hệ nhân quả đòi hỏi các thí nghiệm có kiểm soát."
+        }
+      ]
+    },
+    {
+      "english": "causal relationship",
+      "vietnamese": "mối quan hệ nhân quả",
+      "ipa": "/ˈkɔːzəl rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experiment confirmed a causal relationship between diet and weight.",
+          "vi": "Thí nghiệm xác nhận một mối quan hệ nhân quả giữa chế độ ăn và cân nặng."
+        },
+        {
+          "en": "It is hard to prove a causal relationship in social science.",
+          "vi": "Rất khó chứng minh một mối quan hệ nhân quả trong khoa học xã hội."
+        },
+        {
+          "en": "They tested whether a causal relationship existed between the two factors.",
+          "vi": "Họ kiểm tra xem có mối quan hệ nhân quả giữa hai yếu tố hay không."
+        }
+      ]
+    },
+    {
+      "english": "cause consequences",
+      "vietnamese": "gây ra hậu quả",
+      "ipa": "/kɔːz ˈkɑːnsɪkwensɪz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Careless decisions can cause consequences that last for years.",
+          "vi": "Những quyết định cẩu thả có thể gây ra hậu quả kéo dài nhiều năm."
+        },
+        {
+          "en": "Pollution causes consequences far beyond the local area.",
+          "vi": "Ô nhiễm gây ra hậu quả vượt xa khu vực địa phương."
+        },
+        {
+          "en": "Ignoring the warnings may cause serious consequences later.",
+          "vi": "Bỏ qua những cảnh báo có thể gây ra hậu quả nghiêm trọng về sau."
+        }
+      ]
+    },
+    {
+      "english": "cause stress",
+      "vietnamese": "gây căng thẳng",
+      "ipa": "/kɔːz stres/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Tight deadlines often cause stress for many students.",
+          "vi": "Những hạn chót gấp gáp thường gây căng thẳng cho nhiều sinh viên."
+        },
+        {
+          "en": "Financial pressure can cause stress that affects physical health.",
+          "vi": "Áp lực tài chính có thể gây căng thẳng ảnh hưởng đến sức khỏe thể chất."
+        },
+        {
+          "en": "Loud, crowded environments tend to cause stress over time.",
+          "vi": "Môi trường ồn ào, đông đúc có xu hướng gây căng thẳng theo thời gian."
+        }
+      ]
+    },
+    {
+      "english": "central authority",
+      "vietnamese": "cơ quan trung ương",
+      "ipa": "/ˈsentrəl əˈθɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A strong central authority coordinated the country's emergency response.",
+          "vi": "Một cơ quan trung ương mạnh đã điều phối ứng phó khẩn cấp của cả nước."
+        },
+        {
+          "en": "Without a central authority, the regions made conflicting decisions.",
+          "vi": "Không có cơ quan trung ương, các vùng đưa ra những quyết định mâu thuẫn."
+        },
+        {
+          "en": "The central authority sets standards that local offices must follow.",
+          "vi": "Cơ quan trung ương đặt ra các tiêu chuẩn mà văn phòng địa phương phải tuân theo."
+        }
+      ]
+    },
+    {
+      "english": "central concept",
+      "vietnamese": "khái niệm trung tâm",
+      "ipa": "/ˈsentrəl ˈkɑːnsept/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Supply and demand is a central concept in economics.",
+          "vi": "Cung và cầu là một khái niệm trung tâm trong kinh tế học."
+        },
+        {
+          "en": "The lecture introduced the central concept of natural selection.",
+          "vi": "Bài giảng giới thiệu khái niệm trung tâm về chọn lọc tự nhiên."
+        },
+        {
+          "en": "Understanding this central concept makes the rest of the theory clearer.",
+          "vi": "Hiểu khái niệm trung tâm này khiến phần còn lại của lý thuyết rõ ràng hơn."
+        }
+      ]
+    },
+    {
+      "english": "central concern",
+      "vietnamese": "mối quan tâm chính",
+      "ipa": "/ˈsentrəl kənˈsɜːrn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Student safety is a central concern for the whole university.",
+          "vi": "An toàn của sinh viên là mối quan tâm chính của toàn trường đại học."
+        },
+        {
+          "en": "Fairness remained the central concern throughout the policy debate.",
+          "vi": "Sự công bằng vẫn là mối quan tâm chính trong suốt cuộc tranh luận chính sách."
+        },
+        {
+          "en": "Data privacy has become a central concern in modern research.",
+          "vi": "Quyền riêng tư dữ liệu đã trở thành mối quan tâm chính trong nghiên cứu hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "central control",
+      "vietnamese": "sự kiểm soát tập trung",
+      "ipa": "/ˈsentrəl kənˈtroʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The system relies on central control to keep operations consistent.",
+          "vi": "Hệ thống dựa vào sự kiểm soát tập trung để giữ hoạt động nhất quán."
+        },
+        {
+          "en": "Too much central control can slow down local decision-making.",
+          "vi": "Sự kiểm soát tập trung quá mức có thể làm chậm việc ra quyết định địa phương."
+        },
+        {
+          "en": "The reform reduced central control and gave regions more freedom.",
+          "vi": "Cuộc cải cách giảm sự kiểm soát tập trung và cho các vùng nhiều tự do hơn."
+        }
+      ]
+    },
+    {
+      "english": "central core",
+      "vietnamese": "lõi trung tâm",
+      "ipa": "/ˈsentrəl kɔːr/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Honesty forms the central core of his entire argument.",
+          "vi": "Sự trung thực tạo thành lõi trung tâm của toàn bộ lập luận của anh."
+        },
+        {
+          "en": "The central core of the planet remains extremely hot.",
+          "vi": "Lõi trung tâm của hành tinh vẫn còn cực kỳ nóng."
+        },
+        {
+          "en": "These principles make up the central core of the curriculum.",
+          "vi": "Những nguyên tắc này tạo nên lõi trung tâm của chương trình học."
+        }
+      ]
+    },
+    {
+      "english": "central feature",
+      "vietnamese": "đặc điểm trung tâm",
+      "ipa": "/ˈsentrəl ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Repetition is a central feature of the author's writing style.",
+          "vi": "Sự lặp lại là một đặc điểm trung tâm trong phong cách viết của tác giả."
+        },
+        {
+          "en": "Collaboration became the central feature of the new program.",
+          "vi": "Sự hợp tác trở thành đặc điểm trung tâm của chương trình mới."
+        },
+        {
+          "en": "Open courtyards are a central feature of traditional architecture.",
+          "vi": "Sân trong rộng mở là một đặc điểm trung tâm của kiến trúc truyền thống."
+        }
+      ]
+    },
+    {
+      "english": "central focus",
+      "vietnamese": "trọng tâm chính",
+      "ipa": "/ˈsentrəl ˈfoʊkəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Climate change is the central focus of this year's conference.",
+          "vi": "Biến đổi khí hậu là trọng tâm chính của hội nghị năm nay."
+        },
+        {
+          "en": "The central focus of her thesis is childhood language development.",
+          "vi": "Trọng tâm chính của luận văn cô là sự phát triển ngôn ngữ ở trẻ em."
+        },
+        {
+          "en": "Student wellbeing should be the central focus of any school.",
+          "vi": "Sự khỏe mạnh của học sinh nên là trọng tâm chính của mọi trường học."
+        }
+      ]
+    },
+    {
+      "english": "central government",
+      "vietnamese": "chính quyền trung ương",
+      "ipa": "/ˈsentrəl ˈɡʌvərnmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The central government allocated extra funding to rural schools.",
+          "vi": "Chính quyền trung ương phân bổ thêm ngân sách cho các trường nông thôn."
+        },
+        {
+          "en": "Local councils often clash with the central government over budgets.",
+          "vi": "Hội đồng địa phương thường xung đột với chính quyền trung ương về ngân sách."
+        },
+        {
+          "en": "The central government sets national policies on education and health.",
+          "vi": "Chính quyền trung ương đặt ra chính sách quốc gia về giáo dục và y tế."
+        }
+      ]
+    },
+    {
+      "english": "central importance",
+      "vietnamese": "tầm quan trọng cốt lõi",
+      "ipa": "/ˈsentrəl ɪmˈpɔːrtəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Clean water is of central importance to public health.",
+          "vi": "Nước sạch có tầm quan trọng cốt lõi đối với sức khỏe cộng đồng."
+        },
+        {
+          "en": "The author stresses the central importance of historical context.",
+          "vi": "Tác giả nhấn mạnh tầm quan trọng cốt lõi của bối cảnh lịch sử."
+        },
+        {
+          "en": "Trust is of central importance in any working relationship.",
+          "vi": "Sự tin tưởng có tầm quan trọng cốt lõi trong bất kỳ mối quan hệ làm việc nào."
+        }
+      ]
+    },
+    {
+      "english": "central issue",
+      "vietnamese": "vấn đề trung tâm",
+      "ipa": "/ˈsentrəl ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The central issue of the debate was access to healthcare.",
+          "vi": "Vấn đề trung tâm của cuộc tranh luận là khả năng tiếp cận y tế."
+        },
+        {
+          "en": "Funding remains the central issue facing the research department.",
+          "vi": "Ngân sách vẫn là vấn đề trung tâm mà khoa nghiên cứu đối mặt."
+        },
+        {
+          "en": "We must address the central issue before discussing minor details.",
+          "vi": "Chúng ta phải giải quyết vấn đề trung tâm trước khi bàn các chi tiết nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "central part",
+      "vietnamese": "phần trung tâm",
+      "ipa": "/ˈsentrəl pɑːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Fieldwork forms the central part of this geography course.",
+          "vi": "Thực địa tạo thành phần trung tâm của khóa học địa lý này."
+        },
+        {
+          "en": "The market sits in the central part of the old city.",
+          "vi": "Khu chợ nằm ở phần trung tâm của thành phố cổ."
+        },
+        {
+          "en": "Reflection is a central part of effective learning.",
+          "vi": "Sự suy ngẫm là một phần trung tâm của việc học hiệu quả."
+        }
+      ]
+    },
+    {
+      "english": "central point",
+      "vietnamese": "luận điểm trung tâm",
+      "ipa": "/ˈsentrəl pɔɪnt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The central point of her argument is often overlooked.",
+          "vi": "Luận điểm trung tâm trong lập luận của cô thường bị bỏ qua."
+        },
+        {
+          "en": "Let me restate the central point so it stays clear.",
+          "vi": "Để mình nhắc lại luận điểm trung tâm để nó luôn rõ ràng."
+        },
+        {
+          "en": "Every paragraph should support the essay's central point.",
+          "vi": "Mỗi đoạn văn nên hỗ trợ cho luận điểm trung tâm của bài luận."
+        }
+      ]
+    },
+    {
+      "english": "central position",
+      "vietnamese": "vị trí trung tâm",
+      "ipa": "/ˈsentrəl pəˈzɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The theory holds a central position in modern psychology.",
+          "vi": "Lý thuyết này giữ một vị trí trung tâm trong tâm lý học hiện đại."
+        },
+        {
+          "en": "Her central position in the team gave her real influence.",
+          "vi": "Vị trí trung tâm của cô trong nhóm mang lại cho cô ảnh hưởng thực sự."
+        },
+        {
+          "en": "The city's central position made it a key trading hub.",
+          "vi": "Vị trí trung tâm của thành phố khiến nó thành một trung tâm thương mại quan trọng."
+        }
+      ]
+    },
+    {
+      "english": "central problem",
+      "vietnamese": "vấn đề cốt lõi",
+      "ipa": "/ˈsentrəl ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The central problem is a lack of reliable, recent data.",
+          "vi": "Vấn đề cốt lõi là thiếu dữ liệu đáng tin cậy và mới."
+        },
+        {
+          "en": "Her paper identifies the central problem facing urban planners.",
+          "vi": "Bài viết của cô xác định vấn đề cốt lõi mà các nhà quy hoạch đô thị gặp phải."
+        },
+        {
+          "en": "Solving the central problem will resolve many smaller difficulties.",
+          "vi": "Giải quyết vấn đề cốt lõi sẽ tháo gỡ nhiều khó khăn nhỏ hơn."
+        }
+      ]
+    },
+    {
+      "english": "central question",
+      "vietnamese": "câu hỏi trung tâm",
+      "ipa": "/ˈsentrəl ˈkwestʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The central question of the study concerns memory and aging.",
+          "vi": "Câu hỏi trung tâm của nghiên cứu liên quan đến trí nhớ và lão hóa."
+        },
+        {
+          "en": "A clear central question keeps the research focused.",
+          "vi": "Một câu hỏi trung tâm rõ ràng giữ cho nghiên cứu tập trung."
+        },
+        {
+          "en": "The seminar revolved around one central question about justice.",
+          "vi": "Buổi hội thảo xoay quanh một câu hỏi trung tâm về công lý."
+        }
+      ]
+    },
+    {
+      "english": "central role",
+      "vietnamese": "vai trò trung tâm",
+      "ipa": "/ˈsentrəl roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Technology plays a central role in modern education.",
+          "vi": "Công nghệ đóng một vai trò trung tâm trong giáo dục hiện đại."
+        },
+        {
+          "en": "She played a central role in organizing the conference.",
+          "vi": "Cô đóng vai trò trung tâm trong việc tổ chức hội nghị."
+        },
+        {
+          "en": "Trust plays a central role in successful teamwork.",
+          "vi": "Sự tin tưởng đóng vai trò trung tâm trong làm việc nhóm thành công."
+        }
+      ]
+    },
+    {
+      "english": "central tenet",
+      "vietnamese": "nguyên lý cốt lõi",
+      "ipa": "/ˈsentrəl ˈtenət/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Equality is a central tenet of democratic society.",
+          "vi": "Bình đẳng là một nguyên lý cốt lõi của xã hội dân chủ."
+        },
+        {
+          "en": "The central tenet of his philosophy is personal responsibility.",
+          "vi": "Nguyên lý cốt lõi trong triết lý của ông là trách nhiệm cá nhân."
+        },
+        {
+          "en": "Respect for evidence is a central tenet of science.",
+          "vi": "Tôn trọng bằng chứng là một nguyên lý cốt lõi của khoa học."
+        }
+      ]
+    },
+    {
+      "english": "central theme",
+      "vietnamese": "chủ đề trung tâm",
+      "ipa": "/ˈsentrəl θiːm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Identity is the central theme of the entire novel.",
+          "vi": "Bản sắc là chủ đề trung tâm của toàn bộ cuốn tiểu thuyết."
+        },
+        {
+          "en": "The central theme of the lecture was sustainable development.",
+          "vi": "Chủ đề trung tâm của bài giảng là phát triển bền vững."
+        },
+        {
+          "en": "Loss runs as a central theme through her poetry.",
+          "vi": "Mất mát là chủ đề trung tâm xuyên suốt thơ của cô."
+        }
+      ]
+    },
+    {
+      "english": "central aspect",
+      "vietnamese": "khía cạnh trung tâm",
+      "ipa": "/ˈsentrəl ˈæspekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Communication is a central aspect of effective leadership.",
+          "vi": "Giao tiếp là một khía cạnh trung tâm của khả năng lãnh đạo hiệu quả."
+        },
+        {
+          "en": "The central aspect of the design is its flexibility.",
+          "vi": "Khía cạnh trung tâm của thiết kế là tính linh hoạt của nó."
+        },
+        {
+          "en": "Motivation remains a central aspect of student success.",
+          "vi": "Động lực vẫn là một khía cạnh trung tâm của thành công học tập."
+        }
+      ]
+    },
+    {
+      "english": "central assumptions",
+      "vietnamese": "giả định cốt lõi",
+      "ipa": "/ˈsentrəl əˈsʌmpʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The model rests on several central assumptions about human behavior.",
+          "vi": "Mô hình dựa trên một số giả định cốt lõi về hành vi con người."
+        },
+        {
+          "en": "Critics questioned the central assumptions behind the forecast.",
+          "vi": "Người phê phán nghi ngờ những giả định cốt lõi đằng sau dự báo."
+        },
+        {
+          "en": "If the central assumptions are wrong, the conclusions collapse.",
+          "vi": "Nếu các giả định cốt lõi sai, các kết luận sẽ sụp đổ."
+        }
+      ]
+    },
+    {
+      "english": "central characteristics",
+      "vietnamese": "đặc trưng cốt lõi",
+      "ipa": "/ˈsentrəl ˌkærəktəˈrɪstɪks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report lists the central characteristics of a healthy ecosystem.",
+          "vi": "Báo cáo liệt kê các đặc trưng cốt lõi của một hệ sinh thái khỏe mạnh."
+        },
+        {
+          "en": "Flexibility and curiosity are central characteristics of good researchers.",
+          "vi": "Linh hoạt và tò mò là những đặc trưng cốt lõi của nhà nghiên cứu giỏi."
+        },
+        {
+          "en": "These central characteristics distinguish one species from another.",
+          "vi": "Những đặc trưng cốt lõi này phân biệt loài này với loài khác."
+        }
+      ]
+    },
+    {
+      "english": "central circumstances",
+      "vietnamese": "hoàn cảnh cốt lõi",
+      "ipa": "/ˈsentrəl ˈsɜːrkəmstænsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The court examined the central circumstances surrounding the dispute.",
+          "vi": "Tòa án xem xét các hoàn cảnh cốt lõi xoay quanh vụ tranh chấp."
+        },
+        {
+          "en": "Understanding the central circumstances helps explain the decision.",
+          "vi": "Hiểu các hoàn cảnh cốt lõi giúp giải thích quyết định đó."
+        },
+        {
+          "en": "Her analysis focuses on the central circumstances of the conflict.",
+          "vi": "Phân tích của cô tập trung vào các hoàn cảnh cốt lõi của cuộc xung đột."
+        }
+      ]
+    },
+    {
+      "english": "change constantly",
+      "vietnamese": "thay đổi liên tục",
+      "ipa": "/tʃeɪndʒ ˈkɑːnstəntli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Market prices change constantly in response to global events.",
+          "vi": "Giá thị trường thay đổi liên tục để phản ứng với các sự kiện toàn cầu."
+        },
+        {
+          "en": "Languages change constantly as new words enter everyday use.",
+          "vi": "Ngôn ngữ thay đổi liên tục khi những từ mới đi vào sử dụng hàng ngày."
+        },
+        {
+          "en": "Weather patterns change constantly, making forecasts difficult.",
+          "vi": "Các kiểu thời tiết thay đổi liên tục, khiến việc dự báo trở nên khó khăn."
+        }
+      ]
+    }
+  ]
+}

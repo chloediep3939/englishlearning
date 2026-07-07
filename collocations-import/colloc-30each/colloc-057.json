@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 57/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 57/83"
+  },
+  "cards": [
+    {
+      "english": "positively correlated with",
+      "vietnamese": "tương quan thuận với",
+      "ipa": "/ˈpɑːzətɪvli ˈkɔːrəleɪtɪd wɪð/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Test scores were positively correlated with study hours.",
+          "vi": "Điểm thi tương quan thuận với số giờ học."
+        },
+        {
+          "en": "Temperature is positively correlated with ice-cream sales.",
+          "vi": "Nhiệt độ tương quan thuận với doanh số kem."
+        },
+        {
+          "en": "Job satisfaction was positively correlated with productivity.",
+          "vi": "Sự hài lòng công việc tương quan thuận với năng suất."
+        }
+      ]
+    },
+    {
+      "english": "possible consequences",
+      "vietnamese": "những hậu quả có thể xảy ra",
+      "ipa": "/ˈpɑːsəbəl ˈkɑːnsəkwensɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report outlines the possible consequences of inaction.",
+          "vi": "Báo cáo nêu ra những hậu quả có thể xảy ra nếu không hành động."
+        },
+        {
+          "en": "Students must consider the possible consequences of their choices.",
+          "vi": "Học sinh phải cân nhắc những hậu quả có thể xảy ra từ lựa chọn của mình."
+        },
+        {
+          "en": "Scientists warned about the possible consequences of warming.",
+          "vi": "Các nhà khoa học cảnh báo về những hậu quả có thể xảy ra của sự ấm lên."
+        }
+      ]
+    },
+    {
+      "english": "possible explanation",
+      "vietnamese": "một cách giải thích khả dĩ",
+      "ipa": "/ˈpɑːsəbəl ˌekspləˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "One possible explanation is a flaw in the method.",
+          "vi": "Một cách giải thích khả dĩ là sai sót trong phương pháp."
+        },
+        {
+          "en": "The author offers a possible explanation for the results.",
+          "vi": "Tác giả đưa ra một cách giải thích khả dĩ cho các kết quả."
+        },
+        {
+          "en": "Several possible explanations remain to be tested.",
+          "vi": "Vẫn còn vài cách giải thích khả dĩ cần được kiểm chứng."
+        }
+      ]
+    },
+    {
+      "english": "possible outcome",
+      "vietnamese": "kết quả có thể xảy ra",
+      "ipa": "/ˈpɑːsəbəl ˈaʊtkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The model predicts every possible outcome of the experiment.",
+          "vi": "Mô hình dự đoán mọi kết quả có thể xảy ra của thí nghiệm."
+        },
+        {
+          "en": "We must prepare for the worst possible outcome.",
+          "vi": "Chúng ta phải chuẩn bị cho kết quả tệ nhất có thể xảy ra."
+        },
+        {
+          "en": "Each possible outcome was carefully analyzed.",
+          "vi": "Mỗi kết quả có thể xảy ra đều được phân tích kỹ lưỡng."
+        }
+      ]
+    },
+    {
+      "english": "possible source",
+      "vietnamese": "nguồn gốc có thể có",
+      "ipa": "/ˈpɑːsəbəl sɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The team investigated every possible source of the error.",
+          "vi": "Nhóm điều tra mọi nguồn gốc có thể có của sai sót."
+        },
+        {
+          "en": "Contaminated water is a possible source of the disease.",
+          "vi": "Nước ô nhiễm là một nguồn gốc có thể có của căn bệnh."
+        },
+        {
+          "en": "Researchers identified a possible source of funding.",
+          "vi": "Các nhà nghiên cứu xác định một nguồn tài trợ có thể có."
+        }
+      ]
+    },
+    {
+      "english": "potential benefits",
+      "vietnamese": "những lợi ích tiềm năng",
+      "ipa": "/pəˈtenʃəl ˈbenɪfɪts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study examines the potential benefits of meditation.",
+          "vi": "Nghiên cứu xem xét những lợi ích tiềm năng của thiền."
+        },
+        {
+          "en": "Investors weighed the potential benefits against the risks.",
+          "vi": "Nhà đầu tư cân nhắc những lợi ích tiềm năng so với rủi ro."
+        },
+        {
+          "en": "The report highlights the potential benefits of the new policy.",
+          "vi": "Báo cáo nhấn mạnh những lợi ích tiềm năng của chính sách mới."
+        }
+      ]
+    },
+    {
+      "english": "potential conflict",
+      "vietnamese": "xung đột tiềm ẩn",
+      "ipa": "/pəˈtenʃəl ˈkɑːnflɪkt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The manager spotted a potential conflict between the teams.",
+          "vi": "Người quản lý phát hiện một xung đột tiềm ẩn giữa các nhóm."
+        },
+        {
+          "en": "Clear rules help avoid potential conflict over resources.",
+          "vi": "Quy định rõ ràng giúp tránh xung đột tiềm ẩn về nguồn lực."
+        },
+        {
+          "en": "The treaty was designed to reduce potential conflict.",
+          "vi": "Hiệp ước được thiết kế để giảm xung đột tiềm ẩn."
+        }
+      ]
+    },
+    {
+      "english": "potential customer",
+      "vietnamese": "khách hàng tiềm năng",
+      "ipa": "/pəˈtenʃəl ˈkʌstəmər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The advertisement targets every potential customer in the city.",
+          "vi": "Quảng cáo nhắm đến mọi khách hàng tiềm năng trong thành phố."
+        },
+        {
+          "en": "A friendly website attracts each potential customer quickly.",
+          "vi": "Một trang web thân thiện thu hút mỗi khách hàng tiềm năng nhanh chóng."
+        },
+        {
+          "en": "Sales staff follow up with every potential customer.",
+          "vi": "Nhân viên bán hàng theo dõi mọi khách hàng tiềm năng."
+        }
+      ]
+    },
+    {
+      "english": "potential harm",
+      "vietnamese": "tác hại tiềm ẩn",
+      "ipa": "/pəˈtenʃəl hɑːrm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study warns of potential harm from excessive screen time.",
+          "vi": "Nghiên cứu cảnh báo về tác hại tiềm ẩn từ việc dùng màn hình quá nhiều."
+        },
+        {
+          "en": "Doctors weigh the potential harm of each treatment.",
+          "vi": "Bác sĩ cân nhắc tác hại tiềm ẩn của mỗi phương pháp điều trị."
+        },
+        {
+          "en": "Regulators assess the potential harm of new chemicals.",
+          "vi": "Cơ quan quản lý đánh giá tác hại tiềm ẩn của các hóa chất mới."
+        }
+      ]
+    },
+    {
+      "english": "potential impact",
+      "vietnamese": "tác động tiềm tàng",
+      "ipa": "/pəˈtenʃəl ˈɪmpækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Researchers studied the potential impact of rising sea levels.",
+          "vi": "Các nhà nghiên cứu nghiên cứu tác động tiềm tàng của mực nước biển dâng."
+        },
+        {
+          "en": "The report assesses the potential impact of the merger.",
+          "vi": "Báo cáo đánh giá tác động tiềm tàng của vụ sáp nhập."
+        },
+        {
+          "en": "Planners considered the potential impact on local traffic.",
+          "vi": "Các nhà quy hoạch xem xét tác động tiềm tàng đến giao thông địa phương."
+        }
+      ]
+    },
+    {
+      "english": "potential problem",
+      "vietnamese": "vấn đề tiềm ẩn",
+      "ipa": "/pəˈtenʃəl ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The engineer identified a potential problem with the design.",
+          "vi": "Kỹ sư xác định một vấn đề tiềm ẩn trong thiết kế."
+        },
+        {
+          "en": "Early testing helps reveal any potential problem.",
+          "vi": "Kiểm thử sớm giúp phát hiện bất kỳ vấn đề tiềm ẩn nào."
+        },
+        {
+          "en": "Managers discussed every potential problem before launch.",
+          "vi": "Các nhà quản lý thảo luận mọi vấn đề tiềm ẩn trước khi ra mắt."
+        }
+      ]
+    },
+    {
+      "english": "potential risk",
+      "vietnamese": "rủi ro tiềm ẩn",
+      "ipa": "/pəˈtenʃəl rɪsk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The label warns users of any potential risk.",
+          "vi": "Nhãn cảnh báo người dùng về bất kỳ rủi ro tiềm ẩn nào."
+        },
+        {
+          "en": "Investors must understand the potential risk involved.",
+          "vi": "Nhà đầu tư phải hiểu rủi ro tiềm ẩn liên quan."
+        },
+        {
+          "en": "The team reduced the potential risk through careful planning.",
+          "vi": "Nhóm giảm rủi ro tiềm ẩn nhờ lập kế hoạch cẩn thận."
+        }
+      ]
+    },
+    {
+      "english": "potential source",
+      "vietnamese": "nguồn tiềm năng",
+      "ipa": "/pəˈtenʃəl sɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Solar energy is a potential source of clean power.",
+          "vi": "Năng lượng mặt trời là một nguồn tiềm năng cho điện sạch."
+        },
+        {
+          "en": "Bias is a potential source of error in surveys.",
+          "vi": "Thiên kiến là một nguồn tiềm năng gây sai số trong khảo sát."
+        },
+        {
+          "en": "The lake is a potential source of drinking water.",
+          "vi": "Hồ là một nguồn tiềm năng cung cấp nước uống."
+        }
+      ]
+    },
+    {
+      "english": "potential value",
+      "vietnamese": "giá trị tiềm năng",
+      "ipa": "/pəˈtenʃəl ˈvæljuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Investors recognized the potential value of the technology.",
+          "vi": "Nhà đầu tư nhận ra giá trị tiềm năng của công nghệ này."
+        },
+        {
+          "en": "The land has great potential value for development.",
+          "vi": "Khu đất có giá trị tiềm năng lớn cho phát triển."
+        },
+        {
+          "en": "The study underestimates the potential value of the data.",
+          "vi": "Nghiên cứu đánh giá thấp giá trị tiềm năng của dữ liệu."
+        }
+      ]
+    },
+    {
+      "english": "potentially dangerous",
+      "vietnamese": "có thể nguy hiểm",
+      "ipa": "/pəˈtenʃəli ˈdeɪndʒərəs/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The chemical is potentially dangerous if mishandled.",
+          "vi": "Hóa chất này có thể nguy hiểm nếu xử lý sai cách."
+        },
+        {
+          "en": "Driving while tired is potentially dangerous.",
+          "vi": "Lái xe khi mệt mỏi có thể nguy hiểm."
+        },
+        {
+          "en": "The study identified a potentially dangerous side effect.",
+          "vi": "Nghiên cứu xác định một tác dụng phụ có thể nguy hiểm."
+        }
+      ]
+    },
+    {
+      "english": "powerful force",
+      "vietnamese": "một lực lượng mạnh mẽ",
+      "ipa": "/ˈpaʊərfəl fɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Education is a powerful force for social change.",
+          "vi": "Giáo dục là một lực lượng mạnh mẽ thúc đẩy thay đổi xã hội."
+        },
+        {
+          "en": "Gravity is a powerful force shaping the universe.",
+          "vi": "Trọng lực là một lực mạnh mẽ định hình vũ trụ."
+        },
+        {
+          "en": "Public opinion became a powerful force in the debate.",
+          "vi": "Dư luận trở thành một lực lượng mạnh mẽ trong cuộc tranh luận."
+        }
+      ]
+    },
+    {
+      "english": "powerful group",
+      "vietnamese": "một nhóm có quyền lực",
+      "ipa": "/ˈpaʊərfəl ɡruːp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A powerful group of investors controlled the company.",
+          "vi": "Một nhóm nhà đầu tư có quyền lực kiểm soát công ty."
+        },
+        {
+          "en": "The reform threatened several powerful groups in society.",
+          "vi": "Cuộc cải cách đe dọa vài nhóm có quyền lực trong xã hội."
+        },
+        {
+          "en": "A powerful group lobbied against the new tax.",
+          "vi": "Một nhóm có quyền lực vận động chống lại loại thuế mới."
+        }
+      ]
+    },
+    {
+      "english": "powerful influence",
+      "vietnamese": "ảnh hưởng mạnh mẽ",
+      "ipa": "/ˈpaʊərfəl ˈɪnfluəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The media has a powerful influence on public opinion.",
+          "vi": "Truyền thông có ảnh hưởng mạnh mẽ đến dư luận."
+        },
+        {
+          "en": "His writing had a powerful influence on later authors.",
+          "vi": "Tác phẩm của ông có ảnh hưởng mạnh mẽ đến các tác giả sau này."
+        },
+        {
+          "en": "Parents exert a powerful influence on their children.",
+          "vi": "Cha mẹ có ảnh hưởng mạnh mẽ đến con cái."
+        }
+      ]
+    },
+    {
+      "english": "powerful tool",
+      "vietnamese": "một công cụ mạnh mẽ",
+      "ipa": "/ˈpaʊərfəl tuːl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Statistics is a powerful tool for understanding data.",
+          "vi": "Thống kê là một công cụ mạnh mẽ để hiểu dữ liệu."
+        },
+        {
+          "en": "The internet is a powerful tool for learning.",
+          "vi": "Internet là một công cụ mạnh mẽ cho việc học."
+        },
+        {
+          "en": "Language is a powerful tool for shaping ideas.",
+          "vi": "Ngôn ngữ là một công cụ mạnh mẽ để định hình ý tưởng."
+        }
+      ]
+    },
+    {
+      "english": "practical consideration",
+      "vietnamese": "yếu tố thực tiễn cần cân nhắc",
+      "ipa": "/ˈpræktɪkəl kənˌsɪdəˈreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cost is an important practical consideration in the plan.",
+          "vi": "Chi phí là một yếu tố thực tiễn quan trọng cần cân nhắc trong kế hoạch."
+        },
+        {
+          "en": "Practical considerations limited the scope of the study.",
+          "vi": "Những yếu tố thực tiễn đã giới hạn phạm vi của nghiên cứu."
+        },
+        {
+          "en": "We balanced ideals against practical considerations.",
+          "vi": "Chúng tôi cân bằng giữa lý tưởng và các yếu tố thực tiễn."
+        }
+      ]
+    },
+    {
+      "english": "practical difficulties",
+      "vietnamese": "những khó khăn thực tế",
+      "ipa": "/ˈpræktɪkəl ˈdɪfɪkəltiz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The project faced many practical difficulties at first.",
+          "vi": "Dự án gặp nhiều khó khăn thực tế lúc ban đầu."
+        },
+        {
+          "en": "Practical difficulties delayed the start of the trial.",
+          "vi": "Những khó khăn thực tế làm chậm việc bắt đầu thử nghiệm."
+        },
+        {
+          "en": "Researchers described the practical difficulties of fieldwork.",
+          "vi": "Các nhà nghiên cứu mô tả những khó khăn thực tế của công việc thực địa."
+        }
+      ]
+    },
+    {
+      "english": "practical issue",
+      "vietnamese": "vấn đề thực tế",
+      "ipa": "/ˈpræktɪkəl ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The meeting focused on one practical issue at a time.",
+          "vi": "Cuộc họp tập trung vào một vấn đề thực tế tại mỗi thời điểm."
+        },
+        {
+          "en": "Funding is a practical issue every charity must face.",
+          "vi": "Tài trợ là một vấn đề thực tế mà mọi tổ chức từ thiện phải đối mặt."
+        },
+        {
+          "en": "The committee resolved several practical issues quickly.",
+          "vi": "Ủy ban giải quyết nhanh chóng vài vấn đề thực tế."
+        }
+      ]
+    },
+    {
+      "english": "practical significance",
+      "vietnamese": "ý nghĩa thực tiễn",
+      "ipa": "/ˈpræktɪkəl sɪɡˈnɪfɪkəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The findings have real practical significance for teachers.",
+          "vi": "Phát hiện này có ý nghĩa thực tiễn thật sự đối với giáo viên."
+        },
+        {
+          "en": "The author explains the practical significance of the theory.",
+          "vi": "Tác giả giải thích ý nghĩa thực tiễn của lý thuyết."
+        },
+        {
+          "en": "A small effect may still have practical significance.",
+          "vi": "Một hiệu ứng nhỏ vẫn có thể có ý nghĩa thực tiễn."
+        }
+      ]
+    },
+    {
+      "english": "preceding chapter",
+      "vietnamese": "chương trước đó",
+      "ipa": "/prɪˈsiːdɪŋ ˈtʃæptər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "As noted in the preceding chapter, the data were limited.",
+          "vi": "Như đã nêu trong chương trước đó, dữ liệu còn hạn chế."
+        },
+        {
+          "en": "The preceding chapter introduced the main theoretical framework.",
+          "vi": "Chương trước đó đã giới thiệu khung lý thuyết chính."
+        },
+        {
+          "en": "This section builds on the preceding chapter's argument.",
+          "vi": "Phần này dựa trên lập luận của chương trước đó."
+        }
+      ]
+    },
+    {
+      "english": "preceding discussion",
+      "vietnamese": "phần thảo luận trước đó",
+      "ipa": "/prɪˈsiːdɪŋ dɪˈskʌʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The preceding discussion raised several important questions.",
+          "vi": "Phần thảo luận trước đó đã nêu ra vài câu hỏi quan trọng."
+        },
+        {
+          "en": "These conclusions follow from the preceding discussion.",
+          "vi": "Những kết luận này rút ra từ phần thảo luận trước đó."
+        },
+        {
+          "en": "The preceding discussion clarified the key terms.",
+          "vi": "Phần thảo luận trước đó đã làm rõ các thuật ngữ chính."
+        }
+      ]
+    },
+    {
+      "english": "preceding section",
+      "vietnamese": "phần trước đó",
+      "ipa": "/prɪˈsiːdɪŋ ˈsekʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The preceding section described the research methods.",
+          "vi": "Phần trước đó đã mô tả các phương pháp nghiên cứu."
+        },
+        {
+          "en": "As shown in the preceding section, the results vary.",
+          "vi": "Như đã thấy ở phần trước đó, các kết quả có sự khác biệt."
+        },
+        {
+          "en": "This argument extends ideas from the preceding section.",
+          "vi": "Lập luận này mở rộng các ý tưởng từ phần trước đó."
+        }
+      ]
+    },
+    {
+      "english": "precise definition",
+      "vietnamese": "định nghĩa chính xác",
+      "ipa": "/prɪˈsaɪs ˌdefɪˈnɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The term lacks a precise definition in the literature.",
+          "vi": "Thuật ngữ này thiếu một định nghĩa chính xác trong tài liệu."
+        },
+        {
+          "en": "A precise definition helps avoid misunderstanding.",
+          "vi": "Một định nghĩa chính xác giúp tránh hiểu lầm."
+        },
+        {
+          "en": "Scientists agreed on a precise definition of the unit.",
+          "vi": "Các nhà khoa học đã thống nhất một định nghĩa chính xác cho đơn vị."
+        }
+      ]
+    },
+    {
+      "english": "precise nature",
+      "vietnamese": "bản chất cụ thể",
+      "ipa": "/prɪˈsaɪs ˈneɪtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The precise nature of the link is still unclear.",
+          "vi": "Bản chất cụ thể của mối liên hệ vẫn chưa rõ ràng."
+        },
+        {
+          "en": "Researchers debated the precise nature of the disorder.",
+          "vi": "Các nhà nghiên cứu tranh luận về bản chất cụ thể của chứng rối loạn."
+        },
+        {
+          "en": "We need more data to understand its precise nature.",
+          "vi": "Chúng ta cần thêm dữ liệu để hiểu bản chất cụ thể của nó."
+        }
+      ]
+    },
+    {
+      "english": "predictive power",
+      "vietnamese": "khả năng dự đoán",
+      "ipa": "/prɪˈdɪktɪv ˈpaʊər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The model has strong predictive power for short-term trends.",
+          "vi": "Mô hình có khả năng dự đoán mạnh đối với các xu hướng ngắn hạn."
+        },
+        {
+          "en": "Adding variables improved the model's predictive power.",
+          "vi": "Việc thêm biến số đã cải thiện khả năng dự đoán của mô hình."
+        },
+        {
+          "en": "The theory's predictive power impressed the researchers.",
+          "vi": "Khả năng dự đoán của lý thuyết gây ấn tượng với các nhà nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "preferential treatment",
+      "vietnamese": "sự đối xử ưu ái",
+      "ipa": "/ˌprefəˈrenʃəl ˈtriːtmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Employees complained about preferential treatment for managers.",
+          "vi": "Nhân viên phàn nàn về sự đối xử ưu ái dành cho quản lý."
+        },
+        {
+          "en": "The policy bans preferential treatment based on connections.",
+          "vi": "Chính sách cấm sự đối xử ưu ái dựa trên quan hệ."
+        },
+        {
+          "en": "Some customers receive preferential treatment for loyalty.",
+          "vi": "Một số khách hàng nhận được sự đối xử ưu ái vì lòng trung thành."
+        }
+      ]
+    }
+  ]
+}

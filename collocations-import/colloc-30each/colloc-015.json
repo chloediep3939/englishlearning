@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 15/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 15/83"
+  },
+  "cards": [
+    {
+      "english": "critical reflection",
+      "vietnamese": "sự suy ngẫm phản biện",
+      "ipa": "/ˈkrɪtɪkəl rɪˈflekʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course requires critical reflection on your own learning.",
+          "vi": "Khóa học yêu cầu sự suy ngẫm phản biện về việc học của chính bạn."
+        },
+        {
+          "en": "Critical reflection allows teachers to improve their practice.",
+          "vi": "Sự suy ngẫm phản biện cho phép giáo viên cải thiện phương pháp của mình."
+        },
+        {
+          "en": "He kept a journal for daily critical reflection on events.",
+          "vi": "Anh giữ một cuốn nhật ký để suy ngẫm phản biện hằng ngày về các sự kiện."
+        }
+      ]
+    },
+    {
+      "english": "critical review",
+      "vietnamese": "bài đánh giá phản biện",
+      "ipa": "/ˈkrɪtɪkəl rɪˈvjuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She published a critical review of the new theory.",
+          "vi": "Cô đã công bố một bài đánh giá phản biện về lý thuyết mới."
+        },
+        {
+          "en": "The assignment asks for a critical review of two articles.",
+          "vi": "Bài tập yêu cầu một bài đánh giá phản biện về hai bài báo."
+        },
+        {
+          "en": "A critical review weighs both the strengths and weaknesses.",
+          "vi": "Một bài đánh giá phản biện cân nhắc cả điểm mạnh lẫn điểm yếu."
+        }
+      ]
+    },
+    {
+      "english": "critical role",
+      "vietnamese": "vai trò then chốt",
+      "ipa": "/ˈkrɪtɪkəl roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Sleep plays a critical role in memory consolidation.",
+          "vi": "Giấc ngủ đóng vai trò then chốt trong việc củng cố trí nhớ."
+        },
+        {
+          "en": "Teachers play a critical role in shaping young minds.",
+          "vi": "Giáo viên đóng vai trò then chốt trong việc định hình tâm trí trẻ."
+        },
+        {
+          "en": "Technology now plays a critical role in modern education.",
+          "vi": "Công nghệ giờ đây đóng vai trò then chốt trong giáo dục hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "critical scrutiny",
+      "vietnamese": "sự xem xét kỹ lưỡng",
+      "ipa": "/ˈkrɪtɪkəl ˈskruːtəni/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The proposal came under critical scrutiny from the board.",
+          "vi": "Đề xuất chịu sự xem xét kỹ lưỡng từ hội đồng."
+        },
+        {
+          "en": "His claims did not survive close critical scrutiny.",
+          "vi": "Các tuyên bố của anh không trụ vững trước sự xem xét kỹ lưỡng."
+        },
+        {
+          "en": "Every source deserves critical scrutiny before being cited.",
+          "vi": "Mọi nguồn đều đáng được xem xét kỹ lưỡng trước khi trích dẫn."
+        }
+      ]
+    },
+    {
+      "english": "critical theory",
+      "vietnamese": "lý thuyết phản biện",
+      "ipa": "/ˈkrɪtɪkəl ˈθɪri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The lecture introduced students to critical theory and its origins.",
+          "vi": "Bài giảng giới thiệu cho sinh viên về lý thuyết phản biện và nguồn gốc của nó."
+        },
+        {
+          "en": "Critical theory examines power relations within society.",
+          "vi": "Lý thuyết phản biện xem xét các quan hệ quyền lực trong xã hội."
+        },
+        {
+          "en": "She applied critical theory to analyze the famous novel.",
+          "vi": "Cô áp dụng lý thuyết phản biện để phân tích cuốn tiểu thuyết nổi tiếng."
+        }
+      ]
+    },
+    {
+      "english": "critical thinking",
+      "vietnamese": "tư duy phản biện",
+      "ipa": "/ˈkrɪtɪkəl ˈθɪŋkɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The program aims to develop students' critical thinking skills.",
+          "vi": "Chương trình nhằm phát triển kỹ năng tư duy phản biện của sinh viên."
+        },
+        {
+          "en": "Critical thinking helps you spot weak arguments quickly.",
+          "vi": "Tư duy phản biện giúp bạn nhận ra các lập luận yếu một cách nhanh chóng."
+        },
+        {
+          "en": "Employers value critical thinking as much as technical knowledge.",
+          "vi": "Nhà tuyển dụng coi trọng tư duy phản biện ngang với kiến thức chuyên môn."
+        }
+      ]
+    },
+    {
+      "english": "critical writing",
+      "vietnamese": "lối viết phân tích",
+      "ipa": "/ˈkrɪtɪkəl ˈraɪtɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Academic essays require critical writing rather than mere description.",
+          "vi": "Bài luận học thuật đòi hỏi lối viết phân tích chứ không chỉ mô tả."
+        },
+        {
+          "en": "The workshop teaches the basics of critical writing.",
+          "vi": "Buổi hội thảo dạy những điều cơ bản của lối viết phân tích."
+        },
+        {
+          "en": "Good critical writing supports each claim with clear evidence.",
+          "vi": "Lối viết phân tích tốt chứng minh mỗi luận điểm bằng bằng chứng rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "critically evaluate",
+      "vietnamese": "đánh giá một cách phản biện",
+      "ipa": "/ˈkrɪtɪkli ɪˈvæljueɪt/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "Students must critically evaluate the evidence before drawing conclusions.",
+          "vi": "Sinh viên phải đánh giá bằng chứng một cách phản biện trước khi kết luận."
+        },
+        {
+          "en": "The essay asks you to critically evaluate two opposing theories.",
+          "vi": "Bài luận yêu cầu bạn đánh giá một cách phản biện hai lý thuyết đối lập."
+        },
+        {
+          "en": "Readers should critically evaluate claims found on social media.",
+          "vi": "Người đọc nên đánh giá một cách phản biện những tuyên bố trên mạng xã hội."
+        }
+      ]
+    },
+    {
+      "english": "crucial difference",
+      "vietnamese": "khác biệt mấu chốt",
+      "ipa": "/ˈkruːʃəl ˈdɪfərəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a crucial difference between knowing and understanding.",
+          "vi": "Có một khác biệt mấu chốt giữa biết và hiểu."
+        },
+        {
+          "en": "Timing made a crucial difference to the final outcome.",
+          "vi": "Thời điểm tạo nên khác biệt mấu chốt cho kết quả cuối cùng."
+        },
+        {
+          "en": "The study reveals a crucial difference between the two groups.",
+          "vi": "Nghiên cứu cho thấy một khác biệt mấu chốt giữa hai nhóm."
+        }
+      ]
+    },
+    {
+      "english": "crucial factor",
+      "vietnamese": "yếu tố then chốt",
+      "ipa": "/ˈkruːʃəl ˈfæktər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Motivation is a crucial factor in academic success.",
+          "vi": "Động lực là yếu tố then chốt trong thành công học tập."
+        },
+        {
+          "en": "Cost was the crucial factor in their final decision.",
+          "vi": "Chi phí là yếu tố then chốt trong quyết định cuối cùng của họ."
+        },
+        {
+          "en": "Weather is a crucial factor affecting crop yields.",
+          "vi": "Thời tiết là yếu tố then chốt ảnh hưởng đến năng suất cây trồng."
+        }
+      ]
+    },
+    {
+      "english": "crucial importance",
+      "vietnamese": "tầm quan trọng thiết yếu",
+      "ipa": "/ˈkruːʃəl ɪmˈpɔːrtəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Trust is of crucial importance in any working relationship.",
+          "vi": "Niềm tin có tầm quan trọng thiết yếu trong bất kỳ mối quan hệ làm việc nào."
+        },
+        {
+          "en": "The report stresses the crucial importance of accurate data.",
+          "vi": "Báo cáo nhấn mạnh tầm quan trọng thiết yếu của dữ liệu chính xác."
+        },
+        {
+          "en": "Early diagnosis is of crucial importance for treatment.",
+          "vi": "Chẩn đoán sớm có tầm quan trọng thiết yếu cho việc điều trị."
+        }
+      ]
+    },
+    {
+      "english": "crucial part",
+      "vietnamese": "phần thiết yếu",
+      "ipa": "/ˈkruːʃəl pɑːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Revision is a crucial part of preparing for exams.",
+          "vi": "Ôn tập là phần thiết yếu trong việc chuẩn bị cho kỳ thi."
+        },
+        {
+          "en": "Feedback forms a crucial part of the learning process.",
+          "vi": "Phản hồi tạo nên phần thiết yếu của quá trình học tập."
+        },
+        {
+          "en": "Trade has always been a crucial part of the economy.",
+          "vi": "Thương mại luôn là phần thiết yếu của nền kinh tế."
+        }
+      ]
+    },
+    {
+      "english": "crucial point",
+      "vietnamese": "điểm thiết yếu",
+      "ipa": "/ˈkruːʃəl pɔɪnt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She raised a crucial point that nobody had considered.",
+          "vi": "Cô nêu một điểm thiết yếu mà chưa ai cân nhắc."
+        },
+        {
+          "en": "The lecture reached a crucial point about ethical limits.",
+          "vi": "Bài giảng đến một điểm thiết yếu về các giới hạn đạo đức."
+        },
+        {
+          "en": "Understanding this crucial point clarifies the whole argument.",
+          "vi": "Hiểu điểm thiết yếu này làm sáng tỏ toàn bộ lập luận."
+        }
+      ]
+    },
+    {
+      "english": "crucial question",
+      "vietnamese": "câu hỏi mấu chốt",
+      "ipa": "/ˈkruːʃəl ˈkwestʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The crucial question is whether the method actually works.",
+          "vi": "Câu hỏi mấu chốt là liệu phương pháp có thực sự hiệu quả hay không."
+        },
+        {
+          "en": "Her thesis addresses a crucial question in economics.",
+          "vi": "Luận án của cô giải quyết một câu hỏi mấu chốt trong kinh tế học."
+        },
+        {
+          "en": "We still face the crucial question of how to fund it.",
+          "vi": "Chúng ta vẫn đối mặt câu hỏi mấu chốt là làm sao tài trợ cho nó."
+        }
+      ]
+    },
+    {
+      "english": "crucial role",
+      "vietnamese": "vai trò thiết yếu",
+      "ipa": "/ˈkruːʃəl roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Parents play a crucial role in a child's development.",
+          "vi": "Cha mẹ đóng vai trò thiết yếu trong sự phát triển của trẻ."
+        },
+        {
+          "en": "Bees play a crucial role in pollinating many crops.",
+          "vi": "Ong đóng vai trò thiết yếu trong việc thụ phấn cho nhiều cây trồng."
+        },
+        {
+          "en": "The internet plays a crucial role in spreading information.",
+          "vi": "Internet đóng vai trò thiết yếu trong việc lan truyền thông tin."
+        }
+      ]
+    },
+    {
+      "english": "cultural activity",
+      "vietnamese": "hoạt động văn hóa",
+      "ipa": "/ˈkʌltʃərəl ækˈtɪvəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The festival offers a wide range of cultural activities.",
+          "vi": "Lễ hội mang đến nhiều hoạt động văn hóa đa dạng."
+        },
+        {
+          "en": "Students join cultural activities to learn about other countries.",
+          "vi": "Sinh viên tham gia các hoạt động văn hóa để tìm hiểu về các nước khác."
+        },
+        {
+          "en": "Music and dance are popular cultural activities in the region.",
+          "vi": "Âm nhạc và khiêu vũ là những hoạt động văn hóa phổ biến trong vùng."
+        }
+      ]
+    },
+    {
+      "english": "cultural aspect",
+      "vietnamese": "khía cạnh văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈæspekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course explores the cultural aspects of language learning.",
+          "vi": "Khóa học khám phá các khía cạnh văn hóa của việc học ngôn ngữ."
+        },
+        {
+          "en": "Travelers should respect the cultural aspects of each country.",
+          "vi": "Du khách nên tôn trọng các khía cạnh văn hóa của mỗi quốc gia."
+        },
+        {
+          "en": "Her research focuses on the cultural aspects of food.",
+          "vi": "Nghiên cứu của cô tập trung vào các khía cạnh văn hóa của ẩm thực."
+        }
+      ]
+    },
+    {
+      "english": "cultural attitudes",
+      "vietnamese": "thái độ văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈætɪtuːdz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cultural attitudes toward work vary greatly between nations.",
+          "vi": "Thái độ văn hóa đối với công việc khác nhau rất nhiều giữa các quốc gia."
+        },
+        {
+          "en": "The survey examined cultural attitudes about marriage and family.",
+          "vi": "Cuộc khảo sát xem xét thái độ văn hóa về hôn nhân và gia đình."
+        },
+        {
+          "en": "Changing cultural attitudes have shaped modern parenting.",
+          "vi": "Thái độ văn hóa thay đổi đã định hình cách nuôi dạy con hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "cultural background",
+      "vietnamese": "nền tảng văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈbækɡraʊnd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students come from a variety of cultural backgrounds.",
+          "vi": "Sinh viên đến từ nhiều nền tảng văn hóa khác nhau."
+        },
+        {
+          "en": "Her cultural background shaped how she viewed the issue.",
+          "vi": "Nền tảng văn hóa của cô định hình cách cô nhìn nhận vấn đề."
+        },
+        {
+          "en": "Teachers should respect each student's cultural background.",
+          "vi": "Giáo viên nên tôn trọng nền tảng văn hóa của mỗi học sinh."
+        }
+      ]
+    },
+    {
+      "english": "cultural boundary",
+      "vietnamese": "ranh giới văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈbaʊndəri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Music often crosses cultural boundaries with surprising ease.",
+          "vi": "Âm nhạc thường vượt qua ranh giới văn hóa một cách dễ dàng đáng ngạc nhiên."
+        },
+        {
+          "en": "Globalization has blurred many traditional cultural boundaries.",
+          "vi": "Toàn cầu hóa đã làm mờ nhiều ranh giới văn hóa truyền thống."
+        },
+        {
+          "en": "The project aims to break down cultural boundaries between groups.",
+          "vi": "Dự án nhằm phá vỡ các ranh giới văn hóa giữa các nhóm."
+        }
+      ]
+    },
+    {
+      "english": "cultural change",
+      "vietnamese": "sự thay đổi văn hóa",
+      "ipa": "/ˈkʌltʃərəl tʃeɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Technology has driven rapid cultural change in recent decades.",
+          "vi": "Công nghệ đã thúc đẩy sự thay đổi văn hóa nhanh chóng trong các thập kỷ gần đây."
+        },
+        {
+          "en": "Cultural change often happens slowly across generations.",
+          "vi": "Sự thay đổi văn hóa thường diễn ra chậm qua nhiều thế hệ."
+        },
+        {
+          "en": "Immigration can be a powerful source of cultural change.",
+          "vi": "Di cư có thể là nguồn mạnh mẽ của sự thay đổi văn hóa."
+        }
+      ]
+    },
+    {
+      "english": "cultural context",
+      "vietnamese": "bối cảnh văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Words can mean different things in another cultural context.",
+          "vi": "Từ ngữ có thể mang nghĩa khác trong một bối cảnh văn hóa khác."
+        },
+        {
+          "en": "Understanding the cultural context helps interpret the poem.",
+          "vi": "Hiểu bối cảnh văn hóa giúp diễn giải bài thơ."
+        },
+        {
+          "en": "Every artwork should be studied within its cultural context.",
+          "vi": "Mọi tác phẩm nghệ thuật nên được nghiên cứu trong bối cảnh văn hóa của nó."
+        }
+      ]
+    },
+    {
+      "english": "cultural differences",
+      "vietnamese": "những khác biệt văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈdɪfərənsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cultural differences can cause misunderstandings in the workplace.",
+          "vi": "Những khác biệt văn hóa có thể gây hiểu lầm tại nơi làm việc."
+        },
+        {
+          "en": "Travel teaches us to appreciate cultural differences.",
+          "vi": "Du lịch dạy chúng ta trân trọng những khác biệt văn hóa."
+        },
+        {
+          "en": "The training program addresses cultural differences among staff.",
+          "vi": "Chương trình đào tạo giải quyết những khác biệt văn hóa giữa nhân viên."
+        }
+      ]
+    },
+    {
+      "english": "cultural dimension",
+      "vietnamese": "chiều kích văn hóa",
+      "ipa": "/ˈkʌltʃərəl daɪˈmenʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The author ignores the cultural dimension of the conflict.",
+          "vi": "Tác giả bỏ qua chiều kích văn hóa của cuộc xung đột."
+        },
+        {
+          "en": "Marketing must consider the cultural dimension of each market.",
+          "vi": "Tiếp thị phải xét đến chiều kích văn hóa của mỗi thị trường."
+        },
+        {
+          "en": "Her study adds a cultural dimension to economic analysis.",
+          "vi": "Nghiên cứu của cô bổ sung chiều kích văn hóa vào phân tích kinh tế."
+        }
+      ]
+    },
+    {
+      "english": "cultural diversity",
+      "vietnamese": "sự đa dạng văn hóa",
+      "ipa": "/ˈkʌltʃərəl daɪˈvɜːrsəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The city is celebrated for its rich cultural diversity.",
+          "vi": "Thành phố được ca ngợi vì sự đa dạng văn hóa phong phú của nó."
+        },
+        {
+          "en": "Schools benefit greatly from cultural diversity in the classroom.",
+          "vi": "Trường học hưởng lợi rất nhiều từ sự đa dạng văn hóa trong lớp."
+        },
+        {
+          "en": "Cultural diversity encourages creativity and new ideas.",
+          "vi": "Sự đa dạng văn hóa khuyến khích sự sáng tạo và những ý tưởng mới."
+        }
+      ]
+    },
+    {
+      "english": "cultural factors",
+      "vietnamese": "các yếu tố văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈfæktərz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cultural factors strongly influence consumer behavior.",
+          "vi": "Các yếu tố văn hóa ảnh hưởng mạnh đến hành vi người tiêu dùng."
+        },
+        {
+          "en": "The study controlled for cultural factors affecting health.",
+          "vi": "Nghiên cứu đã kiểm soát các yếu tố văn hóa ảnh hưởng đến sức khỏe."
+        },
+        {
+          "en": "Cultural factors help explain differences in eating habits.",
+          "vi": "Các yếu tố văn hóa giúp giải thích khác biệt trong thói quen ăn uống."
+        }
+      ]
+    },
+    {
+      "english": "cultural heritage",
+      "vietnamese": "di sản văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈherɪtɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The temple is part of the nation's cultural heritage.",
+          "vi": "Ngôi đền là một phần của di sản văn hóa quốc gia."
+        },
+        {
+          "en": "Museums work hard to preserve our cultural heritage.",
+          "vi": "Các bảo tàng nỗ lực để bảo tồn di sản văn hóa của chúng ta."
+        },
+        {
+          "en": "Local festivals keep cultural heritage alive for younger people.",
+          "vi": "Các lễ hội địa phương giữ cho di sản văn hóa sống động với người trẻ."
+        }
+      ]
+    },
+    {
+      "english": "cultural history",
+      "vietnamese": "lịch sử văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈhɪstəri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The lecture traced the cultural history of the region.",
+          "vi": "Bài giảng lần theo lịch sử văn hóa của vùng này."
+        },
+        {
+          "en": "Her book explores the cultural history of coffee.",
+          "vi": "Cuốn sách của cô khám phá lịch sử văn hóa của cà phê."
+        },
+        {
+          "en": "Understanding cultural history enriches our view of art.",
+          "vi": "Hiểu lịch sử văn hóa làm phong phú cách ta nhìn nghệ thuật."
+        }
+      ]
+    },
+    {
+      "english": "cultural identity",
+      "vietnamese": "bản sắc văn hóa",
+      "ipa": "/ˈkʌltʃərəl aɪˈdentəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Language is closely tied to a person's cultural identity.",
+          "vi": "Ngôn ngữ gắn chặt với bản sắc văn hóa của một người."
+        },
+        {
+          "en": "Young immigrants often struggle to maintain their cultural identity.",
+          "vi": "Người nhập cư trẻ thường vật lộn để giữ gìn bản sắc văn hóa của mình."
+        },
+        {
+          "en": "Traditional clothing expresses a strong cultural identity.",
+          "vi": "Trang phục truyền thống thể hiện một bản sắc văn hóa mạnh mẽ."
+        }
+      ]
+    },
+    {
+      "english": "cultural influence",
+      "vietnamese": "ảnh hưởng văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈɪnfluəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Foreign films have a strong cultural influence on teenagers.",
+          "vi": "Phim nước ngoài có ảnh hưởng văn hóa mạnh đến thanh thiếu niên."
+        },
+        {
+          "en": "The region shows clear cultural influence from its neighbors.",
+          "vi": "Vùng này cho thấy ảnh hưởng văn hóa rõ rệt từ các nước láng giềng."
+        },
+        {
+          "en": "Cuisine often reflects the cultural influence of past traders.",
+          "vi": "Ẩm thực thường phản ánh ảnh hưởng văn hóa của các thương nhân xưa."
+        }
+      ]
+    }
+  ]
+}

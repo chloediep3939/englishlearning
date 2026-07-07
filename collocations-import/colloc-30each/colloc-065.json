@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 65/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 65/83"
+  },
+  "cards": [
+    {
+      "english": "related factor",
+      "vietnamese": "yếu tố liên quan",
+      "ipa": "/rɪˈleɪtɪd ˈfæktər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Income is one related factor that influences educational outcomes.",
+          "vi": "Thu nhập là một yếu tố liên quan ảnh hưởng đến kết quả giáo dục."
+        },
+        {
+          "en": "The study controlled for every related factor it could identify.",
+          "vi": "Nghiên cứu đã kiểm soát mọi yếu tố liên quan mà nó có thể xác định."
+        },
+        {
+          "en": "Stress and sleep are two closely related factors here.",
+          "vi": "Căng thẳng và giấc ngủ là hai yếu tố liên quan chặt chẽ ở đây."
+        }
+      ]
+    },
+    {
+      "english": "related information",
+      "vietnamese": "thông tin liên quan",
+      "ipa": "/rɪˈleɪtɪd ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The website groups all related information on a single page.",
+          "vi": "Trang web nhóm tất cả thông tin liên quan vào một trang duy nhất."
+        },
+        {
+          "en": "Please attach any related information to support your application.",
+          "vi": "Vui lòng đính kèm bất kỳ thông tin liên quan nào để hỗ trợ đơn của bạn."
+        },
+        {
+          "en": "The footnotes point readers toward related information elsewhere.",
+          "vi": "Các chú thích chỉ dẫn người đọc đến thông tin liên quan ở nơi khác."
+        }
+      ]
+    },
+    {
+      "english": "related issue",
+      "vietnamese": "vấn đề liên quan",
+      "ipa": "/rɪˈleɪtɪd ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Privacy is a related issue that the report also addresses.",
+          "vi": "Quyền riêng tư là một vấn đề liên quan mà báo cáo cũng đề cập."
+        },
+        {
+          "en": "Before concluding, the author raises one final related issue.",
+          "vi": "Trước khi kết luận, tác giả nêu ra một vấn đề liên quan cuối cùng."
+        },
+        {
+          "en": "We should not ignore this closely related issue.",
+          "vi": "Chúng ta không nên bỏ qua vấn đề liên quan chặt chẽ này."
+        }
+      ]
+    },
+    {
+      "english": "related problem",
+      "vietnamese": "vấn đề liên quan",
+      "ipa": "/rɪˈleɪtɪd ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Traffic and pollution are a closely related problem in cities.",
+          "vi": "Giao thông và ô nhiễm là một vấn đề liên quan chặt chẽ ở các thành phố."
+        },
+        {
+          "en": "Solving one issue often reveals another related problem.",
+          "vi": "Giải quyết một vấn đề thường làm lộ ra một vấn đề liên quan khác."
+        },
+        {
+          "en": "The next section discusses a related problem in detail.",
+          "vi": "Phần tiếp theo thảo luận chi tiết một vấn đề liên quan."
+        }
+      ]
+    },
+    {
+      "english": "related question",
+      "vietnamese": "câu hỏi liên quan",
+      "ipa": "/rɪˈleɪtɪd ˈkwestʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "This leads us to a related question about funding.",
+          "vi": "Điều này dẫn chúng ta đến một câu hỏi liên quan về kinh phí."
+        },
+        {
+          "en": "The interview ended with a related question about future plans.",
+          "vi": "Cuộc phỏng vấn kết thúc bằng một câu hỏi liên quan về kế hoạch tương lai."
+        },
+        {
+          "en": "A related question concerns who should pay for repairs.",
+          "vi": "Một câu hỏi liên quan là ai nên trả tiền sửa chữa."
+        }
+      ]
+    },
+    {
+      "english": "related topic",
+      "vietnamese": "chủ đề liên quan",
+      "ipa": "/rɪˈleɪtɪd ˈtɑːpɪk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The seminar covered migration and one related topic afterwards.",
+          "vi": "Buổi hội thảo bàn về di cư và sau đó một chủ đề liên quan."
+        },
+        {
+          "en": "Students may choose any related topic for their final essay.",
+          "vi": "Sinh viên có thể chọn bất kỳ chủ đề liên quan nào cho bài luận cuối kỳ."
+        },
+        {
+          "en": "The lecture briefly touched on a related topic at the end.",
+          "vi": "Bài giảng đề cập ngắn gọn một chủ đề liên quan ở phần cuối."
+        }
+      ]
+    },
+    {
+      "english": "relative autonomy",
+      "vietnamese": "quyền tự chủ tương đối",
+      "ipa": "/ˈrelətɪv ɔːˈtɑːnəmi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Local councils enjoy relative autonomy in managing their budgets.",
+          "vi": "Các hội đồng địa phương có quyền tự chủ tương đối trong việc quản lý ngân sách."
+        },
+        {
+          "en": "The article examines the relative autonomy of universities from the state.",
+          "vi": "Bài báo xem xét quyền tự chủ tương đối của các trường đại học với nhà nước."
+        },
+        {
+          "en": "Teachers value the relative autonomy they have in the classroom.",
+          "vi": "Giáo viên coi trọng quyền tự chủ tương đối họ có trong lớp học."
+        }
+      ]
+    },
+    {
+      "english": "relative merits",
+      "vietnamese": "ưu điểm tương đối",
+      "ipa": "/ˈrelətɪv ˈmerɪts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The essay weighs the relative merits of two teaching methods.",
+          "vi": "Bài luận cân nhắc ưu điểm tương đối của hai phương pháp giảng dạy."
+        },
+        {
+          "en": "We debated the relative merits of each proposed solution.",
+          "vi": "Chúng tôi tranh luận về ưu điểm tương đối của mỗi giải pháp được đề xuất."
+        },
+        {
+          "en": "Consider the relative merits before choosing a research design.",
+          "vi": "Hãy cân nhắc ưu điểm tương đối trước khi chọn một thiết kế nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "relative status",
+      "vietnamese": "vị thế tương đối",
+      "ipa": "/ˈrelətɪv ˈsteɪtəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study compares the relative status of men and women.",
+          "vi": "Nghiên cứu so sánh vị thế tương đối của nam giới và nữ giới."
+        },
+        {
+          "en": "Income often shapes a family's relative status in society.",
+          "vi": "Thu nhập thường định hình vị thế tương đối của một gia đình trong xã hội."
+        },
+        {
+          "en": "Language can signal the relative status of the speakers.",
+          "vi": "Ngôn ngữ có thể báo hiệu vị thế tương đối của người nói."
+        }
+      ]
+    },
+    {
+      "english": "relatively common",
+      "vietnamese": "tương đối phổ biến",
+      "ipa": "/ˈrelətɪvli ˈkɑːmən/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "This condition is relatively common among older adults.",
+          "vi": "Tình trạng này tương đối phổ biến ở người lớn tuổi."
+        },
+        {
+          "en": "Spelling errors are relatively common in early drafts.",
+          "vi": "Lỗi chính tả tương đối phổ biến trong các bản nháp đầu tiên."
+        },
+        {
+          "en": "Such mistakes are relatively common but easy to correct.",
+          "vi": "Những lỗi như vậy tương đối phổ biến nhưng dễ sửa."
+        }
+      ]
+    },
+    {
+      "english": "relatively constant",
+      "vietnamese": "tương đối ổn định",
+      "ipa": "/ˈrelətɪvli ˈkɑːnstənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The temperature stayed relatively constant throughout the experiment.",
+          "vi": "Nhiệt độ duy trì tương đối ổn định trong suốt thí nghiệm."
+        },
+        {
+          "en": "Prices have remained relatively constant over the past year.",
+          "vi": "Giá cả vẫn tương đối ổn định trong năm qua."
+        },
+        {
+          "en": "Population size was relatively constant across the whole period.",
+          "vi": "Quy mô dân số tương đối ổn định trong suốt giai đoạn này."
+        }
+      ]
+    },
+    {
+      "english": "relatively few",
+      "vietnamese": "tương đối ít",
+      "ipa": "/ˈrelətɪvli ˈfjuː/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Relatively few students chose to study the optional module.",
+          "vi": "Tương đối ít sinh viên chọn học học phần tự chọn."
+        },
+        {
+          "en": "There are relatively few studies on this rare disease.",
+          "vi": "Có tương đối ít nghiên cứu về căn bệnh hiếm gặp này."
+        },
+        {
+          "en": "Relatively few people attended the early morning lecture.",
+          "vi": "Tương đối ít người tham dự bài giảng buổi sáng sớm."
+        }
+      ]
+    },
+    {
+      "english": "relatively high",
+      "vietnamese": "tương đối cao",
+      "ipa": "/ˈrelətɪvli ˈhaɪ/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Unemployment remained relatively high in the region last year.",
+          "vi": "Tỷ lệ thất nghiệp vẫn tương đối cao ở khu vực này năm ngoái."
+        },
+        {
+          "en": "The cost of living here is relatively high for students.",
+          "vi": "Chi phí sinh hoạt ở đây tương đối cao đối với sinh viên."
+        },
+        {
+          "en": "The course has a relatively high pass rate this term.",
+          "vi": "Khóa học có tỷ lệ đậu tương đối cao trong học kỳ này."
+        }
+      ]
+    },
+    {
+      "english": "relatively little",
+      "vietnamese": "tương đối ít",
+      "ipa": "/ˈrelətɪvli ˈlɪtəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Relatively little research exists on this particular topic.",
+          "vi": "Có tương đối ít nghiên cứu về chủ đề cụ thể này."
+        },
+        {
+          "en": "The project required relatively little funding to complete.",
+          "vi": "Dự án cần tương đối ít kinh phí để hoàn thành."
+        },
+        {
+          "en": "We know relatively little about how the system fails.",
+          "vi": "Chúng ta biết tương đối ít về cách hệ thống bị lỗi."
+        }
+      ]
+    },
+    {
+      "english": "relatively low",
+      "vietnamese": "tương đối thấp",
+      "ipa": "/ˈrelətɪvli ˈloʊ/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The risk of infection is relatively low in this group.",
+          "vi": "Nguy cơ nhiễm trùng tương đối thấp ở nhóm này."
+        },
+        {
+          "en": "Wages in the sector remain relatively low despite demand.",
+          "vi": "Lương trong ngành vẫn tương đối thấp dù nhu cầu cao."
+        },
+        {
+          "en": "The error rate was relatively low throughout the test.",
+          "vi": "Tỷ lệ lỗi tương đối thấp trong suốt bài kiểm tra."
+        }
+      ]
+    },
+    {
+      "english": "relatively minor",
+      "vietnamese": "tương đối nhỏ",
+      "ipa": "/ˈrelətɪvli ˈmaɪnər/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The damage was relatively minor and quickly repaired.",
+          "vi": "Thiệt hại tương đối nhỏ và được sửa chữa nhanh chóng."
+        },
+        {
+          "en": "These are relatively minor errors that do not affect the results.",
+          "vi": "Đây là những lỗi tương đối nhỏ không ảnh hưởng đến kết quả."
+        },
+        {
+          "en": "Compared to the benefits, the costs seem relatively minor.",
+          "vi": "So với lợi ích, chi phí có vẻ tương đối nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "relatively rare",
+      "vietnamese": "tương đối hiếm",
+      "ipa": "/ˈrelətɪvli ˈrer/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Such severe reactions are relatively rare among patients.",
+          "vi": "Những phản ứng nghiêm trọng như vậy tương đối hiếm ở bệnh nhân."
+        },
+        {
+          "en": "This species has become relatively rare in the wild.",
+          "vi": "Loài này đã trở nên tương đối hiếm trong tự nhiên."
+        },
+        {
+          "en": "Genuine breakthroughs are relatively rare in this field.",
+          "vi": "Những bước đột phá thực sự tương đối hiếm trong lĩnh vực này."
+        }
+      ]
+    },
+    {
+      "english": "relatively recent",
+      "vietnamese": "tương đối gần đây",
+      "ipa": "/ˈrelətɪvli ˈriːsənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Online learning is a relatively recent development in education.",
+          "vi": "Học trực tuyến là một sự phát triển tương đối gần đây trong giáo dục."
+        },
+        {
+          "en": "The practice has a relatively recent history in this country.",
+          "vi": "Thông lệ này có một lịch sử tương đối gần đây ở đất nước này."
+        },
+        {
+          "en": "This theory is relatively recent and still being tested.",
+          "vi": "Lý thuyết này tương đối gần đây và vẫn đang được kiểm chứng."
+        }
+      ]
+    },
+    {
+      "english": "relatively simple",
+      "vietnamese": "tương đối đơn giản",
+      "ipa": "/ˈrelətɪvli ˈsɪmpəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The procedure is relatively simple and takes only minutes.",
+          "vi": "Quy trình tương đối đơn giản và chỉ mất vài phút."
+        },
+        {
+          "en": "She explained the idea in relatively simple terms.",
+          "vi": "Cô giải thích ý tưởng bằng những lời lẽ tương đối đơn giản."
+        },
+        {
+          "en": "The first task is relatively simple compared to the rest.",
+          "vi": "Nhiệm vụ đầu tiên tương đối đơn giản so với phần còn lại."
+        }
+      ]
+    },
+    {
+      "english": "relatively stable",
+      "vietnamese": "tương đối ổn định",
+      "ipa": "/ˈrelətɪvli ˈsteɪbəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The economy has remained relatively stable in recent months.",
+          "vi": "Nền kinh tế vẫn tương đối ổn định trong những tháng gần đây."
+        },
+        {
+          "en": "Their results were relatively stable across all conditions.",
+          "vi": "Kết quả của họ tương đối ổn định trong mọi điều kiện."
+        },
+        {
+          "en": "Prices stayed relatively stable despite the disruption.",
+          "vi": "Giá cả vẫn tương đối ổn định bất chấp sự gián đoạn."
+        }
+      ]
+    },
+    {
+      "english": "relatively straightforward",
+      "vietnamese": "tương đối dễ hiểu",
+      "ipa": "/ˈrelətɪvli ˌstreɪtˈfɔːrwərd/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The instructions were relatively straightforward and easy to follow.",
+          "vi": "Hướng dẫn tương đối dễ hiểu và dễ làm theo."
+        },
+        {
+          "en": "The first stage of the analysis is relatively straightforward.",
+          "vi": "Giai đoạn đầu của phân tích tương đối dễ hiểu."
+        },
+        {
+          "en": "Setting up the equipment proved relatively straightforward.",
+          "vi": "Việc lắp đặt thiết bị hóa ra tương đối dễ dàng."
+        }
+      ]
+    },
+    {
+      "english": "relevant data",
+      "vietnamese": "dữ liệu liên quan",
+      "ipa": "/ˈreləvənt ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The researcher gathered all relevant data before drawing conclusions.",
+          "vi": "Nhà nghiên cứu thu thập tất cả dữ liệu liên quan trước khi đưa ra kết luận."
+        },
+        {
+          "en": "Only relevant data should be included in the final report.",
+          "vi": "Chỉ những dữ liệu liên quan mới nên được đưa vào báo cáo cuối cùng."
+        },
+        {
+          "en": "The team struggled to find relevant data on rural areas.",
+          "vi": "Nhóm gặp khó khăn trong việc tìm dữ liệu liên quan về khu vực nông thôn."
+        }
+      ]
+    },
+    {
+      "english": "relevant factors",
+      "vietnamese": "các yếu tố liên quan",
+      "ipa": "/ˈreləvənt ˈfæktərz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The model accounts for all relevant factors affecting growth.",
+          "vi": "Mô hình tính đến tất cả các yếu tố liên quan ảnh hưởng đến tăng trưởng."
+        },
+        {
+          "en": "Before deciding, managers weigh several relevant factors carefully.",
+          "vi": "Trước khi quyết định, các quản lý cân nhắc cẩn thận một số yếu tố liên quan."
+        },
+        {
+          "en": "Climate and soil are two relevant factors in farming.",
+          "vi": "Khí hậu và đất là hai yếu tố liên quan trong canh tác."
+        }
+      ]
+    },
+    {
+      "english": "relevant information",
+      "vietnamese": "thông tin liên quan",
+      "ipa": "/ˈreləvənt ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Please highlight the relevant information in each source.",
+          "vi": "Vui lòng làm nổi bật thông tin liên quan trong mỗi nguồn."
+        },
+        {
+          "en": "Good readers quickly identify the relevant information in a text.",
+          "vi": "Người đọc giỏi nhanh chóng nhận ra thông tin liên quan trong một văn bản."
+        },
+        {
+          "en": "The form asks applicants to provide all relevant information.",
+          "vi": "Mẫu đơn yêu cầu người nộp cung cấp tất cả thông tin liên quan."
+        }
+      ]
+    },
+    {
+      "english": "relevant issue",
+      "vietnamese": "vấn đề liên quan",
+      "ipa": "/ˈreləvənt ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The debate raised every relevant issue surrounding the policy.",
+          "vi": "Cuộc tranh luận đã nêu ra mọi vấn đề liên quan xoay quanh chính sách."
+        },
+        {
+          "en": "Cost is the most relevant issue for many families.",
+          "vi": "Chi phí là vấn đề liên quan nhất đối với nhiều gia đình."
+        },
+        {
+          "en": "The committee focused only on the most relevant issue.",
+          "vi": "Ủy ban chỉ tập trung vào vấn đề liên quan nhất."
+        }
+      ]
+    },
+    {
+      "english": "relevant literature",
+      "vietnamese": "tài liệu liên quan",
+      "ipa": "/ˈreləvənt ˈlɪtərətʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The thesis reviews all relevant literature on the subject.",
+          "vi": "Luận văn điểm lại tất cả tài liệu liên quan về chủ đề này."
+        },
+        {
+          "en": "She spent weeks reading the relevant literature before writing.",
+          "vi": "Cô dành nhiều tuần đọc tài liệu liên quan trước khi viết."
+        },
+        {
+          "en": "Citing relevant literature strengthens the credibility of your argument.",
+          "vi": "Trích dẫn tài liệu liên quan giúp lập luận của bạn đáng tin hơn."
+        }
+      ]
+    },
+    {
+      "english": "relevant material",
+      "vietnamese": "tài liệu liên quan",
+      "ipa": "/ˈreləvənt məˈtɪriəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The lecturer posts all relevant material on the course website.",
+          "vi": "Giảng viên đăng tất cả tài liệu liên quan trên trang web của khóa học."
+        },
+        {
+          "en": "Students should bring relevant material to each tutorial.",
+          "vi": "Sinh viên nên mang tài liệu liên quan đến mỗi buổi hướng dẫn."
+        },
+        {
+          "en": "She organised the relevant material into clear folders.",
+          "vi": "Cô sắp xếp tài liệu liên quan vào các thư mục rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "reliable data",
+      "vietnamese": "dữ liệu đáng tin cậy",
+      "ipa": "/rɪˈlaɪəbəl ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Sound conclusions depend on reliable data from careful measurement.",
+          "vi": "Kết luận đúng đắn phụ thuộc vào dữ liệu đáng tin cậy từ việc đo lường cẩn thận."
+        },
+        {
+          "en": "Without reliable data, the model cannot make accurate predictions.",
+          "vi": "Nếu không có dữ liệu đáng tin cậy, mô hình không thể dự đoán chính xác."
+        },
+        {
+          "en": "Collecting reliable data took the team several months.",
+          "vi": "Việc thu thập dữ liệu đáng tin cậy mất của nhóm vài tháng."
+        }
+      ]
+    },
+    {
+      "english": "reliable information",
+      "vietnamese": "thông tin đáng tin cậy",
+      "ipa": "/rɪˈlaɪəbəl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Always check several sources to get reliable information.",
+          "vi": "Luôn kiểm tra nhiều nguồn để có được thông tin đáng tin cậy."
+        },
+        {
+          "en": "The library provides reliable information for academic research.",
+          "vi": "Thư viện cung cấp thông tin đáng tin cậy cho nghiên cứu học thuật."
+        },
+        {
+          "en": "Reliable information is hard to find during a crisis.",
+          "vi": "Thông tin đáng tin cậy rất khó tìm trong một cuộc khủng hoảng."
+        }
+      ]
+    },
+    {
+      "english": "religious belief",
+      "vietnamese": "niềm tin tôn giáo",
+      "ipa": "/rɪˈlɪdʒəs bɪˈliːf/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The law protects each citizen's religious belief and practice.",
+          "vi": "Luật bảo vệ niềm tin và việc thực hành tôn giáo của mỗi công dân."
+        },
+        {
+          "en": "Religious belief shaped the architecture of these ancient temples.",
+          "vi": "Niềm tin tôn giáo đã định hình kiến trúc của những ngôi đền cổ này."
+        },
+        {
+          "en": "The survey explored how religious belief affects daily choices.",
+          "vi": "Cuộc khảo sát tìm hiểu niềm tin tôn giáo ảnh hưởng đến lựa chọn hằng ngày ra sao."
+        }
+      ]
+    }
+  ]
+}

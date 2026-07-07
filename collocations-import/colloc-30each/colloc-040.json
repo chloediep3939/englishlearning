@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 40/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 40/83"
+  },
+  "cards": [
+    {
+      "english": "international journal",
+      "vietnamese": "tạp chí quốc tế",
+      "ipa": "/ˌɪntərˈnæʃənəl ˈdʒɜːrnəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her paper appeared in a leading international journal last year.",
+          "vi": "Bài báo của cô xuất hiện trên một tạp chí quốc tế hàng đầu năm ngoái."
+        },
+        {
+          "en": "Publishing in an international journal boosts a researcher's reputation.",
+          "vi": "Đăng bài trên tạp chí quốc tế nâng cao danh tiếng của nhà nghiên cứu."
+        },
+        {
+          "en": "The international journal reviews each submission very carefully.",
+          "vi": "Tạp chí quốc tế đánh giá rất kỹ từng bài gửi đến."
+        }
+      ]
+    },
+    {
+      "english": "international organization",
+      "vietnamese": "tổ chức quốc tế",
+      "ipa": "/ˌɪntərˈnæʃənəl ˌɔːrɡənəˈzeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The international organization coordinates relief efforts after disasters.",
+          "vi": "Tổ chức quốc tế điều phối các nỗ lực cứu trợ sau thảm họa."
+        },
+        {
+          "en": "Many countries fund the international organization through annual dues.",
+          "vi": "Nhiều nước tài trợ cho tổ chức quốc tế qua phí thường niên."
+        },
+        {
+          "en": "She works for an international organization focused on human rights.",
+          "vi": "Cô làm việc cho một tổ chức quốc tế tập trung vào nhân quyền."
+        }
+      ]
+    },
+    {
+      "english": "international treaty",
+      "vietnamese": "hiệp ước quốc tế",
+      "ipa": "/ˌɪntərˈnæʃənəl ˈtriːti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The international treaty bans the testing of nuclear weapons.",
+          "vi": "Hiệp ước quốc tế cấm thử nghiệm vũ khí hạt nhân."
+        },
+        {
+          "en": "Both governments agreed to honor the international treaty fully.",
+          "vi": "Cả hai chính phủ đồng ý tuân thủ đầy đủ hiệp ước quốc tế."
+        },
+        {
+          "en": "Ratifying the international treaty required approval from parliament.",
+          "vi": "Việc phê chuẩn hiệp ước quốc tế cần sự đồng ý của quốc hội."
+        }
+      ]
+    },
+    {
+      "english": "internet access",
+      "vietnamese": "khả năng truy cập internet",
+      "ipa": "/ˈɪntərnet ˈækses/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Rural schools often lack reliable internet access for students.",
+          "vi": "Các trường ở nông thôn thường thiếu internet ổn định cho học sinh."
+        },
+        {
+          "en": "Internet access has become essential for everyday academic work.",
+          "vi": "Truy cập internet đã trở nên thiết yếu cho việc học hằng ngày."
+        },
+        {
+          "en": "The library provides free internet access to all members.",
+          "vi": "Thư viện cung cấp truy cập internet miễn phí cho mọi thành viên."
+        }
+      ]
+    },
+    {
+      "english": "interpersonal relationships",
+      "vietnamese": "các mối quan hệ giữa người với người",
+      "ipa": "/ˌɪntərˈpɜːrsənəl rɪˈleɪʃənʃɪps/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Healthy interpersonal relationships support emotional well-being at work.",
+          "vi": "Các mối quan hệ lành mạnh giữa người với người hỗ trợ sức khỏe tinh thần ở nơi làm việc."
+        },
+        {
+          "en": "The course examines how culture shapes interpersonal relationships.",
+          "vi": "Khóa học xem xét cách văn hóa định hình các mối quan hệ giữa người với người."
+        },
+        {
+          "en": "Strong interpersonal relationships help teams resolve conflict quickly.",
+          "vi": "Các mối quan hệ tốt giữa người với người giúp đội nhóm giải quyết xung đột nhanh."
+        }
+      ]
+    },
+    {
+      "english": "interpersonal skills",
+      "vietnamese": "kỹ năng giao tiếp ứng xử",
+      "ipa": "/ˌɪntərˈpɜːrsənəl skɪlz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Good interpersonal skills are vital for working in a team.",
+          "vi": "Kỹ năng giao tiếp ứng xử tốt rất quan trọng khi làm việc nhóm."
+        },
+        {
+          "en": "Employers increasingly value interpersonal skills over technical knowledge.",
+          "vi": "Nhà tuyển dụng ngày càng coi trọng kỹ năng ứng xử hơn kiến thức kỹ thuật."
+        },
+        {
+          "en": "The workshop helps students develop their interpersonal skills.",
+          "vi": "Buổi hội thảo giúp sinh viên phát triển kỹ năng giao tiếp ứng xử."
+        }
+      ]
+    },
+    {
+      "english": "interpret data",
+      "vietnamese": "diễn giải dữ liệu",
+      "ipa": "/ɪnˈtɜːrprət ˈdeɪtə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Researchers must interpret data carefully before drawing conclusions.",
+          "vi": "Nhà nghiên cứu phải diễn giải dữ liệu cẩn thận trước khi kết luận."
+        },
+        {
+          "en": "Students learn to interpret data using statistical software.",
+          "vi": "Sinh viên học cách diễn giải dữ liệu bằng phần mềm thống kê."
+        },
+        {
+          "en": "It is easy to interpret data wrongly without proper context.",
+          "vi": "Rất dễ diễn giải sai dữ liệu nếu thiếu bối cảnh phù hợp."
+        }
+      ]
+    },
+    {
+      "english": "intimate relationship",
+      "vietnamese": "mối quan hệ thân mật",
+      "ipa": "/ˈɪntəmət rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study explores how trust develops in an intimate relationship.",
+          "vi": "Nghiên cứu khám phá cách lòng tin phát triển trong một mối quan hệ thân mật."
+        },
+        {
+          "en": "An intimate relationship requires honest and open communication.",
+          "vi": "Một mối quan hệ thân mật cần sự giao tiếp trung thực và cởi mở."
+        },
+        {
+          "en": "Stress can place strain on even a strong intimate relationship.",
+          "vi": "Căng thẳng có thể gây áp lực ngay cả lên một mối quan hệ thân mật vững chắc."
+        }
+      ]
+    },
+    {
+      "english": "intimately connected to",
+      "vietnamese": "gắn bó chặt chẽ với",
+      "ipa": "/ˈɪntəmətli kəˈnektɪd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Language is intimately connected to the culture that produces it.",
+          "vi": "Ngôn ngữ gắn bó chặt chẽ với nền văn hóa đã sản sinh ra nó."
+        },
+        {
+          "en": "Poverty is intimately connected to poor health outcomes worldwide.",
+          "vi": "Nghèo đói gắn bó chặt chẽ với các kết quả sức khỏe kém trên toàn cầu."
+        },
+        {
+          "en": "The two theories are intimately connected to one another.",
+          "vi": "Hai lý thuyết này gắn bó chặt chẽ với nhau."
+        }
+      ]
+    },
+    {
+      "english": "intrinsic value",
+      "vietnamese": "giá trị nội tại",
+      "ipa": "/ɪnˈtrɪnsɪk ˈvæljuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Philosophers debate whether nature has intrinsic value of its own.",
+          "vi": "Các triết gia tranh luận liệu thiên nhiên có giá trị nội tại hay không."
+        },
+        {
+          "en": "Education has an intrinsic value beyond future earning power.",
+          "vi": "Giáo dục có một giá trị nội tại vượt ra ngoài khả năng kiếm tiền tương lai."
+        },
+        {
+          "en": "The artwork's intrinsic value does not depend on its price.",
+          "vi": "Giá trị nội tại của tác phẩm nghệ thuật không phụ thuộc vào giá tiền."
+        }
+      ]
+    },
+    {
+      "english": "introduce legislation",
+      "vietnamese": "đưa ra dự luật",
+      "ipa": "/ˌɪntrəˈduːs ˌledʒɪsˈleɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The government plans to introduce legislation on data privacy.",
+          "vi": "Chính phủ dự định đưa ra dự luật về quyền riêng tư dữ liệu."
+        },
+        {
+          "en": "Lawmakers introduce legislation hoping to curb pollution.",
+          "vi": "Các nhà lập pháp đưa ra dự luật với hy vọng hạn chế ô nhiễm."
+        },
+        {
+          "en": "It took years to introduce legislation protecting workers' rights.",
+          "vi": "Phải mất nhiều năm để đưa ra dự luật bảo vệ quyền của người lao động."
+        }
+      ]
+    },
+    {
+      "english": "introductory chapter",
+      "vietnamese": "chương mở đầu",
+      "ipa": "/ˌɪntrəˈdʌktəri ˈtʃæptər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The introductory chapter outlines the main argument of the book.",
+          "vi": "Chương mở đầu phác thảo luận điểm chính của cuốn sách."
+        },
+        {
+          "en": "Read the introductory chapter carefully before the first lecture.",
+          "vi": "Hãy đọc kỹ chương mở đầu trước buổi giảng đầu tiên."
+        },
+        {
+          "en": "Her introductory chapter sets out the research questions clearly.",
+          "vi": "Chương mở đầu của cô trình bày rõ các câu hỏi nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "introductory section",
+      "vietnamese": "phần mở đầu",
+      "ipa": "/ˌɪntrəˈdʌktəri ˈsekʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The introductory section explains why the topic matters today.",
+          "vi": "Phần mở đầu giải thích vì sao chủ đề này quan trọng hiện nay."
+        },
+        {
+          "en": "Keep the introductory section brief and focused on context.",
+          "vi": "Hãy giữ phần mở đầu ngắn gọn và tập trung vào bối cảnh."
+        },
+        {
+          "en": "Reviewers often judge a paper from its introductory section.",
+          "vi": "Người phản biện thường đánh giá bài báo qua phần mở đầu."
+        }
+      ]
+    },
+    {
+      "english": "introductory text",
+      "vietnamese": "giáo trình nhập môn",
+      "ipa": "/ˌɪntrəˈdʌktəri ˈtekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "This introductory text covers the basics of economics clearly.",
+          "vi": "Giáo trình nhập môn này trình bày rõ những điều cơ bản của kinh tế học."
+        },
+        {
+          "en": "Beginners should start with an accessible introductory text.",
+          "vi": "Người mới nên bắt đầu với một giáo trình nhập môn dễ hiểu."
+        },
+        {
+          "en": "The introductory text includes exercises at the end of each chapter.",
+          "vi": "Giáo trình nhập môn có bài tập ở cuối mỗi chương."
+        }
+      ]
+    },
+    {
+      "english": "keenly aware",
+      "vietnamese": "ý thức rõ rệt, nhận thức sâu sắc",
+      "ipa": "/ˈkiːnli əˈwer/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The author is keenly aware of the limits of her data.",
+          "vi": "Tác giả ý thức rõ rệt về những giới hạn trong dữ liệu của mình."
+        },
+        {
+          "en": "Managers must be keenly aware of changing market conditions.",
+          "vi": "Các nhà quản lý phải nhận thức sâu sắc về điều kiện thị trường thay đổi."
+        },
+        {
+          "en": "We were keenly aware that time was running short.",
+          "vi": "Chúng tôi ý thức rõ rệt rằng thời gian sắp hết."
+        }
+      ]
+    },
+    {
+      "english": "key area",
+      "vietnamese": "lĩnh vực then chốt",
+      "ipa": "/ˈkiː ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report identifies three key areas for future research.",
+          "vi": "Báo cáo xác định ba lĩnh vực then chốt cho nghiên cứu tương lai."
+        },
+        {
+          "en": "Healthcare is a key area in which reform is urgently needed.",
+          "vi": "Y tế là một lĩnh vực then chốt cần cải cách gấp."
+        },
+        {
+          "en": "The course covers several key areas of modern linguistics.",
+          "vi": "Khóa học bao quát vài lĩnh vực then chốt của ngôn ngữ học hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "key aspect",
+      "vietnamese": "khía cạnh then chốt",
+      "ipa": "/ˈkiː ˈæspekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Motivation is a key aspect of successful language learning.",
+          "vi": "Động lực là một khía cạnh then chốt của việc học ngôn ngữ thành công."
+        },
+        {
+          "en": "The essay overlooks one key aspect of the original theory.",
+          "vi": "Bài luận bỏ qua một khía cạnh then chốt của lý thuyết gốc."
+        },
+        {
+          "en": "Cost remains a key aspect of any practical solution.",
+          "vi": "Chi phí vẫn là một khía cạnh then chốt của bất kỳ giải pháp thực tế nào."
+        }
+      ]
+    },
+    {
+      "english": "key characteristic",
+      "vietnamese": "đặc điểm then chốt",
+      "ipa": "/ˈkiː ˌkærəktəˈrɪstɪk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Flexibility is a key characteristic of a good research design.",
+          "vi": "Tính linh hoạt là một đặc điểm then chốt của thiết kế nghiên cứu tốt."
+        },
+        {
+          "en": "The author lists the key characteristics of each social group.",
+          "vi": "Tác giả liệt kê các đặc điểm then chốt của từng nhóm xã hội."
+        },
+        {
+          "en": "Transparency is a key characteristic of trustworthy institutions.",
+          "vi": "Minh bạch là một đặc điểm then chốt của các thể chế đáng tin."
+        }
+      ]
+    },
+    {
+      "english": "key component",
+      "vietnamese": "thành phần then chốt",
+      "ipa": "/ˈkiː kəmˈpoʊnənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Feedback is a key component of the whole learning process.",
+          "vi": "Phản hồi là một thành phần then chốt của toàn bộ quá trình học."
+        },
+        {
+          "en": "Trust is a key component of any lasting partnership.",
+          "vi": "Lòng tin là một thành phần then chốt của mọi quan hệ đối tác bền vững."
+        },
+        {
+          "en": "Memory is a key component in the model of cognition.",
+          "vi": "Trí nhớ là một thành phần then chốt trong mô hình nhận thức."
+        }
+      ]
+    },
+    {
+      "english": "key concept",
+      "vietnamese": "khái niệm then chốt",
+      "ipa": "/ˈkiː ˈkɑːnsept/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The lecture introduced several key concepts in economics.",
+          "vi": "Bài giảng giới thiệu vài khái niệm then chốt trong kinh tế học."
+        },
+        {
+          "en": "Students should master this key concept before moving on.",
+          "vi": "Sinh viên nên nắm vững khái niệm then chốt này trước khi học tiếp."
+        },
+        {
+          "en": "Identity is a key concept running through the entire course.",
+          "vi": "Bản sắc là một khái niệm then chốt xuyên suốt cả khóa học."
+        }
+      ]
+    },
+    {
+      "english": "key element",
+      "vietnamese": "yếu tố then chốt",
+      "ipa": "/ˈkiː ˈeləmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Clear goals are a key element of effective planning.",
+          "vi": "Mục tiêu rõ ràng là một yếu tố then chốt của việc lập kế hoạch hiệu quả."
+        },
+        {
+          "en": "The author treats narrative as a key element of memory.",
+          "vi": "Tác giả xem tự sự là một yếu tố then chốt của trí nhớ."
+        },
+        {
+          "en": "Cooperation became a key element in the project's success.",
+          "vi": "Sự hợp tác trở thành một yếu tố then chốt cho thành công của dự án."
+        }
+      ]
+    },
+    {
+      "english": "key factor",
+      "vietnamese": "nhân tố then chốt",
+      "ipa": "/ˈkiː ˈfæktər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cost was a key factor in the committee's final decision.",
+          "vi": "Chi phí là một nhân tố then chốt trong quyết định cuối của hội đồng."
+        },
+        {
+          "en": "Climate is a key factor shaping where crops can grow.",
+          "vi": "Khí hậu là một nhân tố then chốt quyết định nơi cây trồng có thể phát triển."
+        },
+        {
+          "en": "Motivation is often the key factor behind student success.",
+          "vi": "Động lực thường là nhân tố then chốt đằng sau thành công của sinh viên."
+        }
+      ]
+    },
+    {
+      "english": "key feature",
+      "vietnamese": "đặc trưng then chốt",
+      "ipa": "/ˈkiː ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Symmetry is a key feature of the building's design.",
+          "vi": "Tính đối xứng là một đặc trưng then chốt trong thiết kế tòa nhà."
+        },
+        {
+          "en": "The report highlights the key features of the new system.",
+          "vi": "Báo cáo nêu bật các đặc trưng then chốt của hệ thống mới."
+        },
+        {
+          "en": "Repetition is a key feature of the poem's structure.",
+          "vi": "Sự lặp lại là một đặc trưng then chốt trong cấu trúc bài thơ."
+        }
+      ]
+    },
+    {
+      "english": "key findings",
+      "vietnamese": "những phát hiện then chốt",
+      "ipa": "/ˈkiː ˈfaɪndɪŋz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The abstract summarizes the study's key findings in a paragraph.",
+          "vi": "Phần tóm tắt nêu những phát hiện then chốt của nghiên cứu trong một đoạn."
+        },
+        {
+          "en": "She presented the key findings to the research committee.",
+          "vi": "Cô trình bày những phát hiện then chốt cho hội đồng nghiên cứu."
+        },
+        {
+          "en": "The key findings challenge several long-held assumptions.",
+          "vi": "Những phát hiện then chốt thách thức vài giả định lâu nay."
+        }
+      ]
+    },
+    {
+      "english": "key issue",
+      "vietnamese": "vấn đề then chốt",
+      "ipa": "/ˈkiː ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Funding remains the key issue facing the new program.",
+          "vi": "Kinh phí vẫn là vấn đề then chốt mà chương trình mới đối mặt."
+        },
+        {
+          "en": "The debate centered on one key issue: data privacy.",
+          "vi": "Cuộc tranh luận xoay quanh một vấn đề then chốt: quyền riêng tư dữ liệu."
+        },
+        {
+          "en": "Fairness is a key issue in any discussion of taxation.",
+          "vi": "Công bằng là một vấn đề then chốt trong mọi cuộc bàn về thuế."
+        }
+      ]
+    },
+    {
+      "english": "key objective",
+      "vietnamese": "mục tiêu then chốt",
+      "ipa": "/ˈkiː əbˈdʒektɪv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Reducing waste is a key objective of the new policy.",
+          "vi": "Giảm lãng phí là một mục tiêu then chốt của chính sách mới."
+        },
+        {
+          "en": "The plan lists three key objectives for the coming year.",
+          "vi": "Kế hoạch liệt kê ba mục tiêu then chốt cho năm tới."
+        },
+        {
+          "en": "Improving safety remained the project's key objective throughout.",
+          "vi": "Cải thiện an toàn vẫn là mục tiêu then chốt của dự án từ đầu đến cuối."
+        }
+      ]
+    },
+    {
+      "english": "key player",
+      "vietnamese": "nhân vật chủ chốt",
+      "ipa": "/ˈkiː ˈpleɪər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company is a key player in the renewable energy market.",
+          "vi": "Công ty là một nhân vật chủ chốt trên thị trường năng lượng tái tạo."
+        },
+        {
+          "en": "She became a key player in the negotiations early on.",
+          "vi": "Cô trở thành nhân vật chủ chốt trong các cuộc đàm phán từ sớm."
+        },
+        {
+          "en": "Several key players left the project before it was finished.",
+          "vi": "Vài nhân vật chủ chốt đã rời dự án trước khi nó hoàn thành."
+        }
+      ]
+    },
+    {
+      "english": "key policy",
+      "vietnamese": "chính sách then chốt",
+      "ipa": "/ˈkiː ˈpɑːləsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Education reform was the government's key policy that year.",
+          "vi": "Cải cách giáo dục là chính sách then chốt của chính phủ năm đó."
+        },
+        {
+          "en": "The party announced several key policies before the election.",
+          "vi": "Đảng công bố vài chính sách then chốt trước cuộc bầu cử."
+        },
+        {
+          "en": "Critics questioned whether the key policy would actually work.",
+          "vi": "Giới phê bình nghi ngờ liệu chính sách then chốt có thực sự hiệu quả."
+        }
+      ]
+    },
+    {
+      "english": "key principle",
+      "vietnamese": "nguyên tắc then chốt",
+      "ipa": "/ˈkiː ˈprɪnsəpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Fairness is a key principle underlying the whole legal system.",
+          "vi": "Công bằng là một nguyên tắc then chốt làm nền cho cả hệ thống pháp luật."
+        },
+        {
+          "en": "The chapter explains the key principles of sustainable design.",
+          "vi": "Chương này giải thích các nguyên tắc then chốt của thiết kế bền vững."
+        },
+        {
+          "en": "Respect for evidence is a key principle of good science.",
+          "vi": "Tôn trọng bằng chứng là một nguyên tắc then chốt của khoa học chân chính."
+        }
+      ]
+    },
+    {
+      "english": "key role",
+      "vietnamese": "vai trò then chốt",
+      "ipa": "/ˈkiː ˈroʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Technology plays a key role in modern medical research.",
+          "vi": "Công nghệ đóng vai trò then chốt trong nghiên cứu y học hiện đại."
+        },
+        {
+          "en": "Teachers play a key role in shaping young minds.",
+          "vi": "Giáo viên đóng vai trò then chốt trong việc hình thành những trí óc trẻ."
+        },
+        {
+          "en": "She played a key role in organizing the conference.",
+          "vi": "Cô đóng vai trò then chốt trong việc tổ chức hội nghị."
+        }
+      ]
+    }
+  ]
+}

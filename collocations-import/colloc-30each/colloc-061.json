@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 61/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 61/83"
+  },
+  "cards": [
+    {
+      "english": "provide evidence",
+      "vietnamese": "cung cấp bằng chứng",
+      "ipa": "/prəˈvaɪd ˈevɪdəns/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The study provides evidence that exercise improves memory.",
+          "vi": "Nghiên cứu cung cấp bằng chứng rằng tập thể dục cải thiện trí nhớ."
+        },
+        {
+          "en": "You must provide evidence to support every claim you make.",
+          "vi": "Bạn phải cung cấp bằng chứng để hỗ trợ cho mọi khẳng định của mình."
+        },
+        {
+          "en": "Fossils provide evidence of life from millions of years ago.",
+          "vi": "Hóa thạch cung cấp bằng chứng về sự sống từ hàng triệu năm trước."
+        }
+      ]
+    },
+    {
+      "english": "provide feedback",
+      "vietnamese": "đưa ra phản hồi",
+      "ipa": "/prəˈvaɪd ˈfiːdbæk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The tutor will provide feedback on your draft next week.",
+          "vi": "Người hướng dẫn sẽ đưa ra phản hồi về bản nháp của bạn tuần tới."
+        },
+        {
+          "en": "Managers should provide feedback that is specific and constructive.",
+          "vi": "Quản lý nên đưa ra phản hồi cụ thể và mang tính xây dựng."
+        },
+        {
+          "en": "Students are encouraged to provide feedback on the course.",
+          "vi": "Sinh viên được khuyến khích đưa ra phản hồi về khóa học."
+        }
+      ]
+    },
+    {
+      "english": "provide guidance",
+      "vietnamese": "đưa ra sự hướng dẫn",
+      "ipa": "/prəˈvaɪd ˈɡaɪdəns/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The handbook provides guidance for new staff members.",
+          "vi": "Cuốn sổ tay đưa ra sự hướng dẫn cho các nhân viên mới."
+        },
+        {
+          "en": "Mentors provide guidance to students throughout their final year.",
+          "vi": "Người cố vấn đưa ra sự hướng dẫn cho sinh viên suốt năm cuối."
+        },
+        {
+          "en": "The agency provides guidance on applying for research grants.",
+          "vi": "Cơ quan đưa ra sự hướng dẫn về việc xin tài trợ nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "provide information",
+      "vietnamese": "cung cấp thông tin",
+      "ipa": "/prəˈvaɪd ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The leaflet provides information about local health services.",
+          "vi": "Tờ rơi cung cấp thông tin về các dịch vụ y tế địa phương."
+        },
+        {
+          "en": "Witnesses agreed to provide information to the investigators.",
+          "vi": "Các nhân chứng đồng ý cung cấp thông tin cho các điều tra viên."
+        },
+        {
+          "en": "The website provides information on visa requirements for travelers.",
+          "vi": "Trang web cung cấp thông tin về yêu cầu thị thực cho khách du lịch."
+        }
+      ]
+    },
+    {
+      "english": "provide insight into",
+      "vietnamese": "mang lại hiểu biết sâu về",
+      "ipa": "/prəˈvaɪd ˈɪnsaɪt ˈɪntə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The interviews provide insight into how patients cope daily.",
+          "vi": "Các cuộc phỏng vấn mang lại hiểu biết sâu về cách bệnh nhân xoay xở hằng ngày."
+        },
+        {
+          "en": "These letters provide insight into life during the war.",
+          "vi": "Những lá thư này mang lại hiểu biết sâu về cuộc sống thời chiến."
+        },
+        {
+          "en": "The data provide insight into changing consumer habits.",
+          "vi": "Dữ liệu mang lại hiểu biết sâu về thói quen tiêu dùng đang thay đổi."
+        }
+      ]
+    },
+    {
+      "english": "provide material",
+      "vietnamese": "cung cấp tài liệu",
+      "ipa": "/prəˈvaɪd məˈtɪriəl/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The archive provides material for students researching local history.",
+          "vi": "Kho lưu trữ cung cấp tài liệu cho sinh viên nghiên cứu lịch sử địa phương."
+        },
+        {
+          "en": "These case studies provide material for classroom discussion.",
+          "vi": "Các tình huống nghiên cứu này cung cấp tài liệu cho thảo luận trên lớp."
+        },
+        {
+          "en": "The publisher will provide material for the new textbook.",
+          "vi": "Nhà xuất bản sẽ cung cấp tài liệu cho cuốn giáo trình mới."
+        }
+      ]
+    },
+    {
+      "english": "provide resources",
+      "vietnamese": "cung cấp nguồn lực",
+      "ipa": "/prəˈvaɪd ˈriːsɔːrsɪz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The government provides resources for schools in poorer regions.",
+          "vi": "Chính phủ cung cấp nguồn lực cho các trường ở vùng nghèo hơn."
+        },
+        {
+          "en": "The platform provides resources for teachers planning online lessons.",
+          "vi": "Nền tảng cung cấp nguồn lực cho giáo viên lên kế hoạch bài học trực tuyến."
+        },
+        {
+          "en": "Donors provide resources that keep the clinic running.",
+          "vi": "Các nhà tài trợ cung cấp nguồn lực giúp phòng khám duy trì hoạt động."
+        }
+      ]
+    },
+    {
+      "english": "provide support",
+      "vietnamese": "cung cấp sự hỗ trợ",
+      "ipa": "/prəˈvaɪd səˈpɔːrt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The university provides support for students facing financial hardship.",
+          "vi": "Trường đại học cung cấp sự hỗ trợ cho sinh viên gặp khó khăn tài chính."
+        },
+        {
+          "en": "Counselors provide support to anyone struggling with stress.",
+          "vi": "Cố vấn cung cấp sự hỗ trợ cho bất kỳ ai đang vật lộn với căng thẳng."
+        },
+        {
+          "en": "Family and friends provide support during difficult times.",
+          "vi": "Gia đình và bạn bè cung cấp sự hỗ trợ trong những lúc khó khăn."
+        }
+      ]
+    },
+    {
+      "english": "provide a benefit",
+      "vietnamese": "mang lại lợi ích",
+      "ipa": "/prəˈvaɪd ə ˈbenɪfɪt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Regular exercise can provide a benefit to mental health.",
+          "vi": "Tập thể dục đều đặn có thể mang lại lợi ích cho sức khỏe tinh thần."
+        },
+        {
+          "en": "The new system provides a benefit to both staff and customers.",
+          "vi": "Hệ thống mới mang lại lợi ích cho cả nhân viên lẫn khách hàng."
+        },
+        {
+          "en": "Even small changes can provide a benefit over time.",
+          "vi": "Ngay cả những thay đổi nhỏ cũng có thể mang lại lợi ích theo thời gian."
+        }
+      ]
+    },
+    {
+      "english": "provide a clue",
+      "vietnamese": "đưa ra một manh mối",
+      "ipa": "/prəˈvaɪd ə kluː/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The fingerprints provided a clue to the suspect's identity.",
+          "vi": "Dấu vân tay đưa ra một manh mối về danh tính nghi phạm."
+        },
+        {
+          "en": "Word choice can provide a clue to the author's attitude.",
+          "vi": "Cách chọn từ có thể đưa ra một manh mối về thái độ của tác giả."
+        },
+        {
+          "en": "These ancient tools provide a clue about early human life.",
+          "vi": "Những công cụ cổ này đưa ra một manh mối về đời sống con người thuở sơ khai."
+        }
+      ]
+    },
+    {
+      "english": "provide a focus",
+      "vietnamese": "tạo một trọng tâm",
+      "ipa": "/prəˈvaɪd ə ˈfoʊkəs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "A clear question provides a focus for the whole essay.",
+          "vi": "Một câu hỏi rõ ràng tạo một trọng tâm cho toàn bộ bài luận."
+        },
+        {
+          "en": "The festival provides a focus for community life each summer.",
+          "vi": "Lễ hội tạo một trọng tâm cho đời sống cộng đồng mỗi mùa hè."
+        },
+        {
+          "en": "Setting goals provides a focus for the team's daily work.",
+          "vi": "Việc đặt mục tiêu tạo một trọng tâm cho công việc hằng ngày của nhóm."
+        }
+      ]
+    },
+    {
+      "english": "provide a foundation for",
+      "vietnamese": "tạo nền tảng cho",
+      "ipa": "/prəˈvaɪd ə faʊnˈdeɪʃən fər/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Early reading skills provide a foundation for later learning.",
+          "vi": "Kỹ năng đọc sớm tạo nền tảng cho việc học sau này."
+        },
+        {
+          "en": "These findings provide a foundation for further research in the area.",
+          "vi": "Những phát hiện này tạo nền tảng cho nghiên cứu sâu hơn trong lĩnh vực này."
+        },
+        {
+          "en": "Trust provides a foundation for any successful working relationship.",
+          "vi": "Sự tin tưởng tạo nền tảng cho bất kỳ mối quan hệ làm việc thành công nào."
+        }
+      ]
+    },
+    {
+      "english": "provide a service",
+      "vietnamese": "cung cấp một dịch vụ",
+      "ipa": "/prəˈvaɪd ə ˈsɜːrvəs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The hospital aims to provide a service that meets local needs.",
+          "vi": "Bệnh viện hướng tới cung cấp một dịch vụ đáp ứng nhu cầu địa phương."
+        },
+        {
+          "en": "Companies must provide a service that customers genuinely value.",
+          "vi": "Các công ty phải cung cấp một dịch vụ mà khách hàng thực sự coi trọng."
+        },
+        {
+          "en": "Volunteers provide a service free of charge to the community.",
+          "vi": "Tình nguyện viên cung cấp một dịch vụ miễn phí cho cộng đồng."
+        }
+      ]
+    },
+    {
+      "english": "provide a source",
+      "vietnamese": "cung cấp một nguồn",
+      "ipa": "/prəˈvaɪd ə ˈsɔːrs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Interviews provide a source of rich qualitative data for analysis.",
+          "vi": "Các cuộc phỏng vấn cung cấp một nguồn dữ liệu định tính phong phú để phân tích."
+        },
+        {
+          "en": "These archives provide a source of valuable historical evidence.",
+          "vi": "Các kho lưu trữ này cung cấp một nguồn bằng chứng lịch sử quý giá."
+        },
+        {
+          "en": "The river provides a source of water for nearby farms.",
+          "vi": "Con sông cung cấp một nguồn nước cho các trang trại gần đó."
+        }
+      ]
+    },
+    {
+      "english": "provide a summary",
+      "vietnamese": "đưa ra một bản tóm tắt",
+      "ipa": "/prəˈvaɪd ə ˈsʌməri/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The abstract should provide a summary of the entire study.",
+          "vi": "Phần tóm lược nên đưa ra một bản tóm tắt của toàn bộ nghiên cứu."
+        },
+        {
+          "en": "Please provide a summary of your main findings on this page.",
+          "vi": "Vui lòng đưa ra một bản tóm tắt các phát hiện chính ở trang này."
+        },
+        {
+          "en": "The report provides a summary before discussing the details.",
+          "vi": "Bản báo cáo đưa ra một bản tóm tắt trước khi thảo luận chi tiết."
+        }
+      ]
+    },
+    {
+      "english": "provide an alternative",
+      "vietnamese": "đưa ra một lựa chọn thay thế",
+      "ipa": "/prəˈvaɪd ən ɔːlˈtɜːrnətɪv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The author provides an alternative to the standard explanation.",
+          "vi": "Tác giả đưa ra một lựa chọn thay thế cho cách giải thích tiêu chuẩn."
+        },
+        {
+          "en": "Solar power provides an alternative to fossil fuels in cities.",
+          "vi": "Năng lượng mặt trời đưa ra một lựa chọn thay thế nhiên liệu hóa thạch ở thành phố."
+        },
+        {
+          "en": "This method provides an alternative when resources are limited.",
+          "vi": "Phương pháp này đưa ra một lựa chọn thay thế khi nguồn lực hạn chế."
+        }
+      ]
+    },
+    {
+      "english": "provide an example",
+      "vietnamese": "đưa ra một ví dụ",
+      "ipa": "/prəˈvaɪd ən ɪɡˈzæmpəl/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The lecturer provided an example to clarify the abstract concept.",
+          "vi": "Giảng viên đã đưa ra một ví dụ để làm rõ khái niệm trừu tượng."
+        },
+        {
+          "en": "Can you provide an example that supports your argument here?",
+          "vi": "Bạn có thể đưa ra một ví dụ ủng hộ lập luận của mình không?"
+        },
+        {
+          "en": "The textbook provides an example after each new definition.",
+          "vi": "Sách giáo khoa đưa ra một ví dụ sau mỗi định nghĩa mới."
+        }
+      ]
+    },
+    {
+      "english": "provide an explanation",
+      "vietnamese": "đưa ra một lời giải thích",
+      "ipa": "/prəˈvaɪd ən ˌekspləˈneɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The study provides an explanation for the unexpected results.",
+          "vi": "Nghiên cứu đưa ra một lời giải thích cho những kết quả bất ngờ."
+        },
+        {
+          "en": "Teachers should provide an explanation that students can follow.",
+          "vi": "Giáo viên nên đưa ra một lời giải thích mà học sinh có thể theo kịp."
+        },
+        {
+          "en": "He provided an explanation for his absence from the meeting.",
+          "vi": "Anh ấy đưa ra một lời giải thích cho việc vắng mặt tại cuộc họp."
+        }
+      ]
+    },
+    {
+      "english": "provide an illustration",
+      "vietnamese": "đưa ra một minh họa",
+      "ipa": "/prəˈvaɪd ən ˌɪləˈstreɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The case study provides an illustration of the theory in practice.",
+          "vi": "Nghiên cứu tình huống đưa ra một minh họa cho lý thuyết trong thực tế."
+        },
+        {
+          "en": "This diagram provides an illustration of the whole process clearly.",
+          "vi": "Sơ đồ này đưa ra một minh họa rõ ràng về toàn bộ quá trình."
+        },
+        {
+          "en": "The author provides an illustration to make the point concrete.",
+          "vi": "Tác giả đưa ra một minh họa để làm cho ý tưởng trở nên cụ thể."
+        }
+      ]
+    },
+    {
+      "english": "provide an indication of",
+      "vietnamese": "cho thấy một dấu hiệu về",
+      "ipa": "/prəˈvaɪd ən ˌɪndɪˈkeɪʃən əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "These figures provide an indication of the project's overall success.",
+          "vi": "Những con số này cho thấy một dấu hiệu về thành công chung của dự án."
+        },
+        {
+          "en": "Test scores provide an indication of how students are progressing.",
+          "vi": "Điểm kiểm tra cho thấy một dấu hiệu về cách học sinh đang tiến bộ."
+        },
+        {
+          "en": "The survey provides an indication of public opinion on the issue.",
+          "vi": "Cuộc khảo sát cho thấy một dấu hiệu về ý kiến công chúng về vấn đề này."
+        }
+      ]
+    },
+    {
+      "english": "provide an opportunity",
+      "vietnamese": "tạo ra một cơ hội",
+      "ipa": "/prəˈvaɪd ən ˌɑːpərˈtuːnəti/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Internships provide an opportunity to apply classroom knowledge practically.",
+          "vi": "Thực tập tạo ra một cơ hội để áp dụng kiến thức trên lớp vào thực tế."
+        },
+        {
+          "en": "The conference provides an opportunity to meet leading researchers.",
+          "vi": "Hội nghị tạo ra một cơ hội để gặp gỡ các nhà nghiên cứu hàng đầu."
+        },
+        {
+          "en": "Studying abroad provides an opportunity to learn a new language.",
+          "vi": "Du học tạo ra một cơ hội để học một ngôn ngữ mới."
+        }
+      ]
+    },
+    {
+      "english": "provide an overview of",
+      "vietnamese": "cung cấp một cái nhìn tổng quan về",
+      "ipa": "/prəˈvaɪd ən ˈoʊvərvjuː əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "This chapter provides an overview of the major theories involved.",
+          "vi": "Chương này cung cấp một cái nhìn tổng quan về các lý thuyết chính liên quan."
+        },
+        {
+          "en": "The introduction provides an overview of the entire research field.",
+          "vi": "Phần mở đầu cung cấp một cái nhìn tổng quan về toàn bộ lĩnh vực nghiên cứu."
+        },
+        {
+          "en": "Let me provide an overview of the steps before we begin.",
+          "vi": "Hãy để mình cung cấp một cái nhìn tổng quan về các bước trước khi bắt đầu."
+        }
+      ]
+    },
+    {
+      "english": "public access",
+      "vietnamese": "quyền tiếp cận công cộng",
+      "ipa": "/ˈpʌblɪk ˈækses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new law guarantees public access to government records.",
+          "vi": "Luật mới đảm bảo quyền tiếp cận công cộng đối với hồ sơ chính phủ."
+        },
+        {
+          "en": "The park offers public access to the riverside walking trails.",
+          "vi": "Công viên mở quyền tiếp cận công cộng tới các lối đi bộ ven sông."
+        },
+        {
+          "en": "Researchers fought to ensure public access to the data set.",
+          "vi": "Các nhà nghiên cứu đấu tranh để đảm bảo quyền tiếp cận công cộng với tập dữ liệu."
+        }
+      ]
+    },
+    {
+      "english": "public administration",
+      "vietnamese": "hành chính công",
+      "ipa": "/ˈpʌblɪk ədˌmɪnəˈstreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She studies public administration and the reform of local government.",
+          "vi": "Cô ấy nghiên cứu hành chính công và việc cải cách chính quyền địa phương."
+        },
+        {
+          "en": "Efficient public administration is essential for delivering basic services.",
+          "vi": "Hành chính công hiệu quả là điều thiết yếu để cung cấp dịch vụ cơ bản."
+        },
+        {
+          "en": "The course covers public administration in developing countries.",
+          "vi": "Khóa học bao quát hành chính công ở các nước đang phát triển."
+        }
+      ]
+    },
+    {
+      "english": "public attitudes",
+      "vietnamese": "thái độ của công chúng",
+      "ipa": "/ˈpʌblɪk ˈætətuːdz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey tracked public attitudes toward climate change over time.",
+          "vi": "Cuộc khảo sát theo dõi thái độ của công chúng đối với biến đổi khí hậu theo thời gian."
+        },
+        {
+          "en": "Public attitudes to immigration have shifted in recent decades.",
+          "vi": "Thái độ của công chúng với nhập cư đã thay đổi trong những thập kỷ gần đây."
+        },
+        {
+          "en": "Media coverage can strongly influence public attitudes on policy.",
+          "vi": "Đưa tin trên truyền thông có thể tác động mạnh đến thái độ của công chúng về chính sách."
+        }
+      ]
+    },
+    {
+      "english": "public authority",
+      "vietnamese": "cơ quan công quyền",
+      "ipa": "/ˈpʌblɪk əˈθɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each public authority must publish its annual spending report.",
+          "vi": "Mỗi cơ quan công quyền phải công bố báo cáo chi tiêu hàng năm."
+        },
+        {
+          "en": "The decision was challenged before the relevant public authority.",
+          "vi": "Quyết định này bị khiếu nại trước cơ quan công quyền liên quan."
+        },
+        {
+          "en": "A public authority is accountable to the citizens it serves.",
+          "vi": "Một cơ quan công quyền phải chịu trách nhiệm trước những công dân mà nó phục vụ."
+        }
+      ]
+    },
+    {
+      "english": "public awareness",
+      "vietnamese": "nhận thức của công chúng",
+      "ipa": "/ˈpʌblɪk əˈwernəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The campaign aims to raise public awareness of mental health issues.",
+          "vi": "Chiến dịch nhằm nâng cao nhận thức của công chúng về vấn đề sức khỏe tâm thần."
+        },
+        {
+          "en": "Greater public awareness led to changes in recycling habits.",
+          "vi": "Nhận thức của công chúng cao hơn dẫn đến thay đổi thói quen tái chế."
+        },
+        {
+          "en": "Schools play a key role in building public awareness early.",
+          "vi": "Trường học đóng vai trò quan trọng trong việc xây dựng nhận thức của công chúng từ sớm."
+        }
+      ]
+    },
+    {
+      "english": "public debate",
+      "vietnamese": "cuộc tranh luận công khai",
+      "ipa": "/ˈpʌblɪk dɪˈbeɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The proposal sparked a heated public debate across the nation.",
+          "vi": "Đề xuất này đã châm ngòi một cuộc tranh luận công khai sôi nổi trên cả nước."
+        },
+        {
+          "en": "Open public debate is vital for a healthy democracy to thrive.",
+          "vi": "Tranh luận công khai cởi mở là thiết yếu để một nền dân chủ lành mạnh phát triển."
+        },
+        {
+          "en": "Scientists joined the public debate about renewable energy policy.",
+          "vi": "Các nhà khoa học tham gia cuộc tranh luận công khai về chính sách năng lượng tái tạo."
+        }
+      ]
+    },
+    {
+      "english": "public discourse",
+      "vietnamese": "diễn ngôn công cộng",
+      "ipa": "/ˈpʌblɪk ˈdɪskɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Social media has transformed the nature of public discourse today.",
+          "vi": "Mạng xã hội đã làm thay đổi bản chất của diễn ngôn công cộng ngày nay."
+        },
+        {
+          "en": "The book analyses how language shapes public discourse on race.",
+          "vi": "Cuốn sách phân tích cách ngôn ngữ định hình diễn ngôn công cộng về chủng tộc."
+        },
+        {
+          "en": "Politicians often dominate public discourse during election seasons.",
+          "vi": "Các chính trị gia thường chi phối diễn ngôn công cộng trong mùa bầu cử."
+        }
+      ]
+    },
+    {
+      "english": "public display",
+      "vietnamese": "sự phô bày công khai",
+      "ipa": "/ˈpʌblɪk dɪˈspleɪ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The artifacts are on public display in the city museum.",
+          "vi": "Các hiện vật đang được phô bày công khai tại bảo tàng thành phố."
+        },
+        {
+          "en": "Norms about public display of emotion vary across cultures.",
+          "vi": "Các chuẩn mực về sự phô bày cảm xúc công khai khác nhau giữa các nền văn hóa."
+        },
+        {
+          "en": "A public display of support encouraged the protesting workers.",
+          "vi": "Sự phô bày ủng hộ công khai đã khích lệ những công nhân biểu tình."
+        }
+      ]
+    }
+  ]
+}

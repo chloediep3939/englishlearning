@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 06/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 06/83"
+  },
+  "cards": [
+    {
+      "english": "brief review",
+      "vietnamese": "bản tổng quan ngắn gọn",
+      "ipa": "/briːf rɪˈvjuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The paper opens with a brief review of earlier studies.",
+          "vi": "Bài báo mở đầu bằng một bản tổng quan ngắn gọn về các nghiên cứu trước."
+        },
+        {
+          "en": "She wrote a brief review of the new economics textbook.",
+          "vi": "Cô viết một bản tổng quan ngắn gọn về cuốn giáo trình kinh tế mới."
+        },
+        {
+          "en": "A brief review of the literature reveals several research gaps.",
+          "vi": "Một bản tổng quan ngắn gọn về tài liệu cho thấy vài khoảng trống nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "brief summary",
+      "vietnamese": "bản tóm tắt ngắn gọn",
+      "ipa": "/briːf ˈsʌməri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Please write a brief summary of the article's main points.",
+          "vi": "Vui lòng viết một bản tóm tắt ngắn gọn về các ý chính của bài."
+        },
+        {
+          "en": "The conclusion provides a brief summary of all the results.",
+          "vi": "Phần kết luận đưa ra một bản tóm tắt ngắn gọn về toàn bộ kết quả."
+        },
+        {
+          "en": "He gave a brief summary before the meeting ended.",
+          "vi": "Anh đưa ra một bản tóm tắt ngắn gọn trước khi cuộc họp kết thúc."
+        }
+      ]
+    },
+    {
+      "english": "brief time",
+      "vietnamese": "thời gian ngắn ngủi",
+      "ipa": "/briːf taɪm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In a brief time, the small startup grew enormously.",
+          "vi": "Trong một thời gian ngắn ngủi, công ty khởi nghiệp nhỏ đã lớn mạnh đáng kể."
+        },
+        {
+          "en": "They achieved remarkable results in a surprisingly brief time.",
+          "vi": "Họ đạt được kết quả đáng kể trong một thời gian ngắn ngủi đáng ngạc nhiên."
+        },
+        {
+          "en": "For a brief time, the two teams worked together closely.",
+          "vi": "Trong một thời gian ngắn ngủi, hai nhóm đã hợp tác chặt chẽ."
+        }
+      ]
+    },
+    {
+      "english": "briefly describe",
+      "vietnamese": "mô tả ngắn gọn",
+      "ipa": "/ˈbriːfli dɪˈskraɪb/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "Please briefly describe your previous experience in the field.",
+          "vi": "Vui lòng mô tả ngắn gọn kinh nghiệm trước đây của bạn trong lĩnh vực này."
+        },
+        {
+          "en": "The author briefly describes the method used in the experiment.",
+          "vi": "Tác giả mô tả ngắn gọn phương pháp được dùng trong thí nghiệm."
+        },
+        {
+          "en": "Can you briefly describe how the new system works?",
+          "vi": "Bạn có thể mô tả ngắn gọn cách hệ thống mới hoạt động không?"
+        }
+      ]
+    },
+    {
+      "english": "briefly discuss",
+      "vietnamese": "thảo luận ngắn gọn",
+      "ipa": "/ˈbriːfli dɪˈskʌs/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "The essay will briefly discuss the causes of urban poverty.",
+          "vi": "Bài luận sẽ thảo luận ngắn gọn về nguyên nhân của nghèo đô thị."
+        },
+        {
+          "en": "Let us briefly discuss the limitations of this approach.",
+          "vi": "Hãy thảo luận ngắn gọn về những hạn chế của cách tiếp cận này."
+        },
+        {
+          "en": "The teacher asked students to briefly discuss the reading.",
+          "vi": "Giáo viên yêu cầu học sinh thảo luận ngắn gọn về bài đọc."
+        }
+      ]
+    },
+    {
+      "english": "broad agreement",
+      "vietnamese": "sự đồng thuận rộng rãi",
+      "ipa": "/brɔːd əˈɡriːmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is broad agreement that pollution harms public health.",
+          "vi": "Có sự đồng thuận rộng rãi rằng ô nhiễm gây hại cho sức khỏe cộng đồng."
+        },
+        {
+          "en": "The delegates reached broad agreement on the main proposals.",
+          "vi": "Các đại biểu đạt được sự đồng thuận rộng rãi về các đề xuất chính."
+        },
+        {
+          "en": "Despite some debate, broad agreement emerged among the experts.",
+          "vi": "Dù còn tranh luận, sự đồng thuận rộng rãi đã hình thành giữa các chuyên gia."
+        }
+      ]
+    },
+    {
+      "english": "broad category",
+      "vietnamese": "phạm trù rộng",
+      "ipa": "/brɔːd ˈkætəɡɔːri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey divides respondents into a few broad categories.",
+          "vi": "Khảo sát chia người trả lời thành một vài phạm trù rộng."
+        },
+        {
+          "en": "These problems fall within a broad category of social issues.",
+          "vi": "Những vấn đề này thuộc một phạm trù rộng về các vấn đề xã hội."
+        },
+        {
+          "en": "Each broad category includes several more specific subgroups.",
+          "vi": "Mỗi phạm trù rộng bao gồm vài nhóm nhỏ cụ thể hơn."
+        }
+      ]
+    },
+    {
+      "english": "broad definition",
+      "vietnamese": "định nghĩa rộng",
+      "ipa": "/brɔːd ˌdefɪˈnɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The author uses a broad definition of the term culture.",
+          "vi": "Tác giả dùng một định nghĩa rộng cho thuật ngữ văn hóa."
+        },
+        {
+          "en": "A broad definition allows the concept to cover many cases.",
+          "vi": "Một định nghĩa rộng cho phép khái niệm bao quát nhiều trường hợp."
+        },
+        {
+          "en": "Critics argue that the broad definition is too vague.",
+          "vi": "Các nhà phê bình cho rằng định nghĩa rộng này quá mơ hồ."
+        }
+      ]
+    },
+    {
+      "english": "broad range of",
+      "vietnamese": "phạm vi rộng",
+      "ipa": "/brɔːd reɪndʒ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The university offers a broad range of courses for students.",
+          "vi": "Trường đại học cung cấp một phạm vi rộng các khóa học cho sinh viên."
+        },
+        {
+          "en": "The study covers a broad range of social and economic topics.",
+          "vi": "Nghiên cứu bao quát một phạm vi rộng các chủ đề xã hội và kinh tế."
+        },
+        {
+          "en": "Her work appeals to a broad range of readers.",
+          "vi": "Tác phẩm của cô thu hút một phạm vi rộng độc giả."
+        }
+      ]
+    },
+    {
+      "english": "broad spectrum",
+      "vietnamese": "phổ rộng",
+      "ipa": "/brɔːd ˈspektrəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The conference attracted a broad spectrum of industry professionals.",
+          "vi": "Hội nghị thu hút một phổ rộng các chuyên gia trong ngành."
+        },
+        {
+          "en": "This medicine treats a broad spectrum of bacterial infections.",
+          "vi": "Loại thuốc này điều trị một phổ rộng các bệnh nhiễm khuẩn."
+        },
+        {
+          "en": "Their policies appeal to a broad spectrum of voters.",
+          "vi": "Các chính sách của họ thu hút một phổ rộng cử tri."
+        }
+      ]
+    },
+    {
+      "english": "broader context",
+      "vietnamese": "bối cảnh rộng hơn",
+      "ipa": "/ˈbrɔːdər ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "We must understand the event within its broader context.",
+          "vi": "Chúng ta phải hiểu sự kiện trong bối cảnh rộng hơn của nó."
+        },
+        {
+          "en": "The author places the issue in a broader historical context.",
+          "vi": "Tác giả đặt vấn đề trong một bối cảnh lịch sử rộng hơn."
+        },
+        {
+          "en": "Viewing data in a broader context reveals important patterns.",
+          "vi": "Nhìn dữ liệu trong bối cảnh rộng hơn làm lộ ra các quy luật quan trọng."
+        }
+      ]
+    },
+    {
+      "english": "broadly defined",
+      "vietnamese": "được định nghĩa một cách rộng rãi",
+      "ipa": "/ˈbrɔːdli dɪˈfaɪnd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Health, broadly defined, includes physical, mental, and social wellbeing.",
+          "vi": "Sức khỏe, được định nghĩa rộng rãi, gồm thể chất, tinh thần và xã hội."
+        },
+        {
+          "en": "The term, broadly defined, covers many different research areas.",
+          "vi": "Thuật ngữ này, được định nghĩa rộng rãi, bao quát nhiều lĩnh vực nghiên cứu."
+        },
+        {
+          "en": "Culture is broadly defined as shared values and practices.",
+          "vi": "Văn hóa được định nghĩa rộng rãi là các giá trị và thực hành chung."
+        }
+      ]
+    },
+    {
+      "english": "broadly similar",
+      "vietnamese": "tương tự về cơ bản",
+      "ipa": "/ˈbrɔːdli ˈsɪmələr/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The two regions have broadly similar climates and economies.",
+          "vi": "Hai vùng có khí hậu và nền kinh tế tương tự về cơ bản."
+        },
+        {
+          "en": "Results from both experiments were broadly similar overall.",
+          "vi": "Kết quả từ cả hai thí nghiệm về cơ bản là tương tự nhau."
+        },
+        {
+          "en": "Although different in detail, the plans are broadly similar.",
+          "vi": "Dù khác nhau ở chi tiết, các kế hoạch về cơ bản là tương tự."
+        }
+      ]
+    },
+    {
+      "english": "business sector",
+      "vietnamese": "khu vực doanh nghiệp",
+      "ipa": "/ˈbɪznəs ˈsektər/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The business sector plays a major role in the economy.",
+          "vi": "Khu vực doanh nghiệp đóng vai trò quan trọng trong nền kinh tế."
+        },
+        {
+          "en": "Government policies strongly affect the entire business sector nationwide.",
+          "vi": "Các chính sách của chính phủ ảnh hưởng mạnh đến toàn bộ khu vực doanh nghiệp."
+        },
+        {
+          "en": "New technology is reshaping the global business sector rapidly.",
+          "vi": "Công nghệ mới đang định hình lại khu vực doanh nghiệp toàn cầu nhanh chóng."
+        }
+      ]
+    },
+    {
+      "english": "business transaction",
+      "vietnamese": "giao dịch kinh doanh",
+      "ipa": "/ˈbɪznəs trænˈzækʃən/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Every business transaction should be recorded carefully for accounting.",
+          "vi": "Mỗi giao dịch kinh doanh nên được ghi chép cẩn thận cho kế toán."
+        },
+        {
+          "en": "Online platforms make each business transaction faster and easier.",
+          "vi": "Các nền tảng trực tuyến giúp mỗi giao dịch kinh doanh nhanh và dễ hơn."
+        },
+        {
+          "en": "Trust is essential in any successful business transaction between partners.",
+          "vi": "Niềm tin là điều thiết yếu trong mọi giao dịch kinh doanh thành công giữa các đối tác."
+        }
+      ]
+    },
+    {
+      "english": "capitalist country",
+      "vietnamese": "nước tư bản chủ nghĩa",
+      "ipa": "/ˈkæpɪtəlɪst ˈkʌntri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In a capitalist country, private businesses drive most economic growth.",
+          "vi": "Ở một nước tư bản, các doanh nghiệp tư nhân thúc đẩy phần lớn tăng trưởng kinh tế."
+        },
+        {
+          "en": "The author compares living standards across several capitalist countries.",
+          "vi": "Tác giả so sánh mức sống giữa nhiều nước tư bản khác nhau."
+        },
+        {
+          "en": "Many capitalist countries rely heavily on free-market competition.",
+          "vi": "Nhiều nước tư bản phụ thuộc nhiều vào cạnh tranh thị trường tự do."
+        }
+      ]
+    },
+    {
+      "english": "capitalist economy",
+      "vietnamese": "nền kinh tế tư bản",
+      "ipa": "/ˈkæpɪtəlɪst ɪˈkɑːnəmi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A capitalist economy lets supply and demand set most prices.",
+          "vi": "Một nền kinh tế tư bản để cung và cầu quyết định phần lớn giá cả."
+        },
+        {
+          "en": "The lecture explained how a capitalist economy distributes resources.",
+          "vi": "Bài giảng giải thích cách nền kinh tế tư bản phân bổ nguồn lực."
+        },
+        {
+          "en": "Inequality often grows quickly within an unregulated capitalist economy.",
+          "vi": "Bất bình đẳng thường tăng nhanh trong nền kinh tế tư bản thiếu kiểm soát."
+        }
+      ]
+    },
+    {
+      "english": "capitalist society",
+      "vietnamese": "xã hội tư bản",
+      "ipa": "/ˈkæpɪtəlɪst səˈsaɪəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In a capitalist society, success is often measured by wealth.",
+          "vi": "Trong xã hội tư bản, thành công thường được đo bằng của cải."
+        },
+        {
+          "en": "The essay critiques class divisions found in capitalist society.",
+          "vi": "Bài luận phê phán sự phân chia giai cấp trong xã hội tư bản."
+        },
+        {
+          "en": "Capitalist society rewards individual ambition more than collective effort.",
+          "vi": "Xã hội tư bản tưởng thưởng tham vọng cá nhân hơn nỗ lực tập thể."
+        }
+      ]
+    },
+    {
+      "english": "capitalist system",
+      "vietnamese": "hệ thống tư bản",
+      "ipa": "/ˈkæpɪtəlɪst ˈsɪstəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The capitalist system depends on private ownership and open markets.",
+          "vi": "Hệ thống tư bản dựa trên sở hữu tư nhân và thị trường mở."
+        },
+        {
+          "en": "Critics argue the capitalist system concentrates power among the wealthy.",
+          "vi": "Người phê phán cho rằng hệ thống tư bản tập trung quyền lực vào người giàu."
+        },
+        {
+          "en": "Reforms aim to soften the harsher effects of the capitalist system.",
+          "vi": "Các cải cách nhằm làm dịu những tác động khắc nghiệt của hệ thống tư bản."
+        }
+      ]
+    },
+    {
+      "english": "capitalist world",
+      "vietnamese": "thế giới tư bản",
+      "ipa": "/ˈkæpɪtəlɪst wɜːrld/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Global trade ties most nations into one capitalist world.",
+          "vi": "Thương mại toàn cầu gắn hầu hết các quốc gia vào một thế giới tư bản."
+        },
+        {
+          "en": "In the capitalist world, competition shapes nearly every industry.",
+          "vi": "Trong thế giới tư bản, cạnh tranh định hình gần như mọi ngành công nghiệp."
+        },
+        {
+          "en": "The book traces how the capitalist world expanded after colonialism.",
+          "vi": "Cuốn sách lần theo cách thế giới tư bản mở rộng sau thời thuộc địa."
+        }
+      ]
+    },
+    {
+      "english": "career development",
+      "vietnamese": "sự phát triển nghề nghiệp",
+      "ipa": "/kəˈrɪr dɪˈveləpmənt/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The company invests in the career development of every employee.",
+          "vi": "Công ty đầu tư vào sự phát triển nghề nghiệp của từng nhân viên."
+        },
+        {
+          "en": "Mentoring plays a key role in long-term career development.",
+          "vi": "Việc cố vấn đóng vai trò quan trọng trong phát triển nghề nghiệp lâu dài."
+        },
+        {
+          "en": "Students attended a workshop focused on career development skills.",
+          "vi": "Sinh viên tham gia hội thảo tập trung vào kỹ năng phát triển nghề nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "career opportunity",
+      "vietnamese": "cơ hội nghề nghiệp",
+      "ipa": "/kəˈrɪr ˌɑːpərˈtuːnəti/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Graduating abroad opened up a major career opportunity for her.",
+          "vi": "Tốt nghiệp ở nước ngoài đã mở ra một cơ hội nghề nghiệp lớn cho cô."
+        },
+        {
+          "en": "The fair connected students with new career opportunities each year.",
+          "vi": "Hội chợ kết nối sinh viên với những cơ hội nghề nghiệp mới mỗi năm."
+        },
+        {
+          "en": "He turned down a promising career opportunity to study further.",
+          "vi": "Anh từ chối một cơ hội nghề nghiệp hứa hẹn để học cao hơn."
+        }
+      ]
+    },
+    {
+      "english": "careful analysis",
+      "vietnamese": "sự phân tích cẩn thận",
+      "ipa": "/ˈkerfəl əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Careful analysis of the data revealed an unexpected trend.",
+          "vi": "Sự phân tích cẩn thận dữ liệu đã cho thấy một xu hướng bất ngờ."
+        },
+        {
+          "en": "The report draws its conclusions from careful analysis of records.",
+          "vi": "Báo cáo rút ra kết luận từ sự phân tích cẩn thận các hồ sơ."
+        },
+        {
+          "en": "Only careful analysis can separate correlation from genuine causation.",
+          "vi": "Chỉ phân tích cẩn thận mới tách được tương quan khỏi nhân quả thực sự."
+        }
+      ]
+    },
+    {
+      "english": "careful attention",
+      "vietnamese": "sự chú ý cẩn thận",
+      "ipa": "/ˈkerfəl əˈtenʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experiment requires careful attention to every measurement.",
+          "vi": "Thí nghiệm đòi hỏi sự chú ý cẩn thận đến từng phép đo."
+        },
+        {
+          "en": "She paid careful attention to the instructions before starting.",
+          "vi": "Cô chú ý cẩn thận đến hướng dẫn trước khi bắt đầu."
+        },
+        {
+          "en": "Editing demands careful attention to grammar and tone.",
+          "vi": "Việc biên tập đòi hỏi sự chú ý cẩn thận đến ngữ pháp và giọng văn."
+        }
+      ]
+    },
+    {
+      "english": "careful consideration",
+      "vietnamese": "sự cân nhắc kỹ lưỡng",
+      "ipa": "/ˈkerfəl kənˌsɪdəˈreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The proposal deserves careful consideration before any decision is made.",
+          "vi": "Đề xuất xứng đáng được cân nhắc kỹ lưỡng trước khi đưa ra quyết định nào."
+        },
+        {
+          "en": "After careful consideration, the committee approved the new policy.",
+          "vi": "Sau khi cân nhắc kỹ lưỡng, ủy ban đã phê duyệt chính sách mới."
+        },
+        {
+          "en": "These risks warrant careful consideration by the whole research team.",
+          "vi": "Những rủi ro này đáng được cả nhóm nghiên cứu cân nhắc kỹ lưỡng."
+        }
+      ]
+    },
+    {
+      "english": "careful thought",
+      "vietnamese": "sự suy nghĩ thấu đáo",
+      "ipa": "/ˈkerfəl θɔːt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The design clearly reflects careful thought about user needs.",
+          "vi": "Thiết kế rõ ràng phản ánh sự suy nghĩ thấu đáo về nhu cầu người dùng."
+        },
+        {
+          "en": "Such a complex question demands careful thought, not quick answers.",
+          "vi": "Một câu hỏi phức tạp như vậy đòi hỏi suy nghĩ thấu đáo, không phải trả lời vội."
+        },
+        {
+          "en": "After careful thought, she changed the structure of her essay.",
+          "vi": "Sau khi suy nghĩ thấu đáo, cô đã thay đổi cấu trúc bài luận."
+        }
+      ]
+    },
+    {
+      "english": "carefully controlled",
+      "vietnamese": "được kiểm soát cẩn thận",
+      "ipa": "/ˈkerfəli kənˈtroʊld/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The temperature was carefully controlled throughout the entire experiment.",
+          "vi": "Nhiệt độ được kiểm soát cẩn thận trong suốt toàn bộ thí nghiệm."
+        },
+        {
+          "en": "Results are reliable because conditions were carefully controlled.",
+          "vi": "Kết quả đáng tin cậy vì các điều kiện được kiểm soát cẩn thận."
+        },
+        {
+          "en": "In a carefully controlled trial, each variable is monitored closely.",
+          "vi": "Trong một thử nghiệm được kiểm soát cẩn thận, mỗi biến số được theo dõi sát."
+        }
+      ]
+    },
+    {
+      "english": "carefully selected",
+      "vietnamese": "được chọn lựa kỹ càng",
+      "ipa": "/ˈkerfəli sɪˈlektɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The participants were carefully selected to match the study criteria.",
+          "vi": "Những người tham gia được chọn lựa kỹ càng để phù hợp tiêu chí nghiên cứu."
+        },
+        {
+          "en": "Each quotation in the book was carefully selected for relevance.",
+          "vi": "Mỗi trích dẫn trong sách đều được chọn lựa kỹ càng cho phù hợp."
+        },
+        {
+          "en": "A carefully selected sample helps reduce bias in the findings.",
+          "vi": "Một mẫu được chọn lựa kỹ càng giúp giảm thiên lệch trong kết quả."
+        }
+      ]
+    },
+    {
+      "english": "carry information",
+      "vietnamese": "truyền tải thông tin",
+      "ipa": "/ˈkæri ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Nerve cells carry information from the body to the brain.",
+          "vi": "Các tế bào thần kinh truyền tải thông tin từ cơ thể đến não."
+        },
+        {
+          "en": "Fiber-optic cables carry information across continents in milliseconds.",
+          "vi": "Cáp quang truyền tải thông tin qua các châu lục chỉ trong vài mili giây."
+        },
+        {
+          "en": "Genes carry information that determines an organism's traits.",
+          "vi": "Gen mang thông tin quyết định các đặc điểm của một sinh vật."
+        }
+      ]
+    },
+    {
+      "english": "carry out research of",
+      "vietnamese": "tiến hành nghiên cứu về",
+      "ipa": "/ˈkæri aʊt ˈriːsɜːrtʃ əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The team will carry out research of marine ecosystems next summer.",
+          "vi": "Nhóm sẽ tiến hành nghiên cứu về hệ sinh thái biển vào mùa hè tới."
+        },
+        {
+          "en": "Scientists carry out research of new materials in this lab.",
+          "vi": "Các nhà khoa học tiến hành nghiên cứu về vật liệu mới trong phòng thí nghiệm này."
+        },
+        {
+          "en": "She received a grant to carry out research of rural education.",
+          "vi": "Cô nhận được tài trợ để tiến hành nghiên cứu về giáo dục nông thôn."
+        }
+      ]
+    }
+  ]
+}

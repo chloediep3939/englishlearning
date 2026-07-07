@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 38/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 38/83"
+  },
+  "cards": [
+    {
+      "english": "indigenous population",
+      "vietnamese": "dân số bản địa",
+      "ipa": "/ɪnˈdɪdʒənəs ˌpɑːpjəˈleɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The indigenous population declined sharply after colonization.",
+          "vi": "Dân số bản địa giảm mạnh sau quá trình thực dân hóa."
+        },
+        {
+          "en": "Researchers studied the health of the indigenous population.",
+          "vi": "Các nhà nghiên cứu nghiên cứu sức khỏe của dân số bản địa."
+        },
+        {
+          "en": "The indigenous population maintains its own distinct language.",
+          "vi": "Dân số bản địa duy trì ngôn ngữ riêng biệt của mình."
+        }
+      ]
+    },
+    {
+      "english": "individual behavior",
+      "vietnamese": "hành vi cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl bɪˈheɪvjər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Psychologists study how culture shapes individual behavior.",
+          "vi": "Nhà tâm lý học nghiên cứu cách văn hóa định hình hành vi cá nhân."
+        },
+        {
+          "en": "Individual behavior can change dramatically under group pressure.",
+          "vi": "Hành vi cá nhân có thể thay đổi mạnh dưới áp lực nhóm."
+        },
+        {
+          "en": "The survey measured individual behavior toward saving money.",
+          "vi": "Khảo sát đo lường hành vi cá nhân đối với việc tiết kiệm tiền."
+        }
+      ]
+    },
+    {
+      "english": "individual case",
+      "vietnamese": "trường hợp riêng lẻ",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl keɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each individual case must be reviewed on its own merits.",
+          "vi": "Mỗi trường hợp riêng lẻ phải được xem xét theo giá trị của nó."
+        },
+        {
+          "en": "The doctor examined every individual case very carefully.",
+          "vi": "Bác sĩ kiểm tra từng trường hợp riêng lẻ rất cẩn thận."
+        },
+        {
+          "en": "Outcomes vary widely from one individual case to another.",
+          "vi": "Kết quả thay đổi rất nhiều từ trường hợp riêng lẻ này sang trường hợp khác."
+        }
+      ]
+    },
+    {
+      "english": "individual characteristics",
+      "vietnamese": "đặc điểm cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˌkerəktəˈrɪstɪks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Teachers should consider the individual characteristics of students.",
+          "vi": "Giáo viên nên xem xét đặc điểm cá nhân của học sinh."
+        },
+        {
+          "en": "The study compared individual characteristics across two groups.",
+          "vi": "Nghiên cứu so sánh đặc điểm cá nhân giữa hai nhóm."
+        },
+        {
+          "en": "Individual characteristics influence how people respond to stress.",
+          "vi": "Đặc điểm cá nhân ảnh hưởng đến cách người ta phản ứng với căng thẳng."
+        }
+      ]
+    },
+    {
+      "english": "individual choice",
+      "vietnamese": "lựa chọn cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl tʃɔɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Voting is an individual choice protected by the constitution.",
+          "vi": "Bỏ phiếu là một lựa chọn cá nhân được hiến pháp bảo vệ."
+        },
+        {
+          "en": "The policy respects individual choice in healthcare decisions.",
+          "vi": "Chính sách tôn trọng lựa chọn cá nhân trong các quyết định y tế."
+        },
+        {
+          "en": "Diet is ultimately a matter of individual choice.",
+          "vi": "Chế độ ăn rốt cuộc là vấn đề của lựa chọn cá nhân."
+        }
+      ]
+    },
+    {
+      "english": "individual component",
+      "vietnamese": "thành phần riêng lẻ",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl kəmˈpoʊnənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Engineers tested each individual component before assembly.",
+          "vi": "Kỹ sư kiểm tra từng thành phần riêng lẻ trước khi lắp ráp."
+        },
+        {
+          "en": "Every individual component of the engine was replaced.",
+          "vi": "Mỗi thành phần riêng lẻ của động cơ đã được thay thế."
+        },
+        {
+          "en": "The report breaks the system into each individual component.",
+          "vi": "Báo cáo chia hệ thống thành từng thành phần riêng lẻ."
+        }
+      ]
+    },
+    {
+      "english": "individual differences",
+      "vietnamese": "sự khác biệt cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˈdɪfərənsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study highlights individual differences in learning speed.",
+          "vi": "Nghiên cứu nêu bật sự khác biệt cá nhân về tốc độ học."
+        },
+        {
+          "en": "Individual differences make a one-size-fits-all approach unwise.",
+          "vi": "Sự khác biệt cá nhân khiến cách tiếp cận chung cho mọi người là không khôn ngoan."
+        },
+        {
+          "en": "Teachers must respect individual differences among their students.",
+          "vi": "Giáo viên phải tôn trọng sự khác biệt cá nhân giữa học sinh."
+        }
+      ]
+    },
+    {
+      "english": "individual element",
+      "vietnamese": "yếu tố riêng lẻ",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˈeləmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each individual element of the design serves a clear purpose.",
+          "vi": "Mỗi yếu tố riêng lẻ của thiết kế phục vụ một mục đích rõ ràng."
+        },
+        {
+          "en": "Analysts examined every individual element of the contract.",
+          "vi": "Các nhà phân tích xem xét từng yếu tố riêng lẻ của hợp đồng."
+        },
+        {
+          "en": "Removing one individual element changed the whole result.",
+          "vi": "Loại bỏ một yếu tố riêng lẻ đã thay đổi toàn bộ kết quả."
+        }
+      ]
+    },
+    {
+      "english": "individual experience",
+      "vietnamese": "trải nghiệm cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ɪkˈspɪriəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every learner brings a unique individual experience to class.",
+          "vi": "Mỗi người học mang một trải nghiệm cá nhân riêng vào lớp."
+        },
+        {
+          "en": "The book draws on the author's individual experience abroad.",
+          "vi": "Cuốn sách dựa trên trải nghiệm cá nhân của tác giả ở nước ngoài."
+        },
+        {
+          "en": "Individual experience strongly shapes how we view the world.",
+          "vi": "Trải nghiệm cá nhân định hình mạnh mẽ cách chúng ta nhìn thế giới."
+        }
+      ]
+    },
+    {
+      "english": "individual interests",
+      "vietnamese": "lợi ích cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˈɪntrəsts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Good leaders balance individual interests with the common good.",
+          "vi": "Lãnh đạo giỏi cân bằng lợi ích cá nhân với lợi ích chung."
+        },
+        {
+          "en": "Sometimes individual interests conflict with team goals.",
+          "vi": "Đôi khi lợi ích cá nhân xung đột với mục tiêu của nhóm."
+        },
+        {
+          "en": "The policy tries to protect individual interests fairly.",
+          "vi": "Chính sách cố gắng bảo vệ lợi ích cá nhân một cách công bằng."
+        }
+      ]
+    },
+    {
+      "english": "individual item",
+      "vietnamese": "món đồ riêng lẻ",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˈaɪtəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The cashier scanned each individual item at the register.",
+          "vi": "Nhân viên thu ngân quét từng món đồ riêng lẻ tại quầy."
+        },
+        {
+          "en": "Every individual item in the collection was carefully labeled.",
+          "vi": "Mỗi món đồ riêng lẻ trong bộ sưu tập được dán nhãn cẩn thận."
+        },
+        {
+          "en": "The price of each individual item is listed clearly.",
+          "vi": "Giá của từng món đồ riêng lẻ được niêm yết rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "individual needs",
+      "vietnamese": "nhu cầu cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl niːdz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The program is designed around each student's individual needs.",
+          "vi": "Chương trình được thiết kế quanh nhu cầu cá nhân của mỗi học sinh."
+        },
+        {
+          "en": "Good care must respond to the individual needs of patients.",
+          "vi": "Chăm sóc tốt phải đáp ứng nhu cầu cá nhân của bệnh nhân."
+        },
+        {
+          "en": "Teachers adapt their lessons to meet individual needs.",
+          "vi": "Giáo viên điều chỉnh bài giảng để đáp ứng nhu cầu cá nhân."
+        }
+      ]
+    },
+    {
+      "english": "individual response",
+      "vietnamese": "phản ứng cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl rɪˈspɑːns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The drug's individual response varies from person to person.",
+          "vi": "Phản ứng cá nhân với thuốc thay đổi tùy từng người."
+        },
+        {
+          "en": "Researchers recorded each individual response to the survey.",
+          "vi": "Các nhà nghiên cứu ghi lại từng phản ứng cá nhân với khảo sát."
+        },
+        {
+          "en": "Individual response to therapy can be hard to predict.",
+          "vi": "Phản ứng cá nhân với liệu pháp có thể khó dự đoán."
+        }
+      ]
+    },
+    {
+      "english": "individual responsibility",
+      "vietnamese": "trách nhiệm cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl rɪˌspɑːnsəˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Recycling depends partly on individual responsibility at home.",
+          "vi": "Việc tái chế phụ thuộc một phần vào trách nhiệm cá nhân ở nhà."
+        },
+        {
+          "en": "The campaign stresses individual responsibility for public health.",
+          "vi": "Chiến dịch nhấn mạnh trách nhiệm cá nhân đối với sức khỏe cộng đồng."
+        },
+        {
+          "en": "Safe driving is a matter of individual responsibility.",
+          "vi": "Lái xe an toàn là vấn đề của trách nhiệm cá nhân."
+        }
+      ]
+    },
+    {
+      "english": "individual rights",
+      "vietnamese": "quyền cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl raɪts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The constitution protects the individual rights of citizens.",
+          "vi": "Hiến pháp bảo vệ quyền cá nhân của công dân."
+        },
+        {
+          "en": "Courts must balance individual rights against public safety.",
+          "vi": "Tòa án phải cân bằng quyền cá nhân với an toàn công cộng."
+        },
+        {
+          "en": "Freedom of speech is a fundamental individual right.",
+          "vi": "Tự do ngôn luận là một quyền cá nhân cơ bản."
+        }
+      ]
+    },
+    {
+      "english": "individual variable",
+      "vietnamese": "biến số cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˈveriəbəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The model adjusts for each individual variable in the dataset.",
+          "vi": "Mô hình điều chỉnh cho từng biến số cá nhân trong bộ dữ liệu."
+        },
+        {
+          "en": "Analysts tested how each individual variable affects the result.",
+          "vi": "Các nhà phân tích kiểm tra cách từng biến số cá nhân ảnh hưởng kết quả."
+        },
+        {
+          "en": "An individual variable may have little impact on its own.",
+          "vi": "Một biến số cá nhân có thể ít tác động khi đứng riêng."
+        }
+      ]
+    },
+    {
+      "english": "individual variation",
+      "vietnamese": "sự biến thiên cá nhân",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl ˌveriˈeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is wide individual variation in how people learn.",
+          "vi": "Có sự biến thiên cá nhân lớn về cách người ta học."
+        },
+        {
+          "en": "Individual variation in metabolism affects weight loss results.",
+          "vi": "Sự biến thiên cá nhân về trao đổi chất ảnh hưởng kết quả giảm cân."
+        },
+        {
+          "en": "The data showed considerable individual variation in scores.",
+          "vi": "Dữ liệu cho thấy sự biến thiên cá nhân đáng kể về điểm số."
+        }
+      ]
+    },
+    {
+      "english": "industrial capitalism",
+      "vietnamese": "chủ nghĩa tư bản công nghiệp",
+      "ipa": "/ɪnˈdʌstriəl ˈkæpɪtəlɪzəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Industrial capitalism transformed cities during the nineteenth century.",
+          "vi": "Chủ nghĩa tư bản công nghiệp biến đổi các thành phố trong thế kỷ mười chín."
+        },
+        {
+          "en": "Factories were central to the rise of industrial capitalism.",
+          "vi": "Nhà máy là trung tâm của sự trỗi dậy của chủ nghĩa tư bản công nghiệp."
+        },
+        {
+          "en": "Historians debate the social cost of industrial capitalism.",
+          "vi": "Các sử gia tranh luận về cái giá xã hội của chủ nghĩa tư bản công nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "industrial country",
+      "vietnamese": "quốc gia công nghiệp",
+      "ipa": "/ɪnˈdʌstriəl ˈkʌntri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An industrial country relies heavily on manufacturing for income.",
+          "vi": "Một quốc gia công nghiệp phụ thuộc nhiều vào sản xuất để có thu nhập."
+        },
+        {
+          "en": "Pollution remains a serious problem in many industrial countries.",
+          "vi": "Ô nhiễm vẫn là vấn đề nghiêm trọng ở nhiều quốc gia công nghiệp."
+        },
+        {
+          "en": "An industrial country usually has a large skilled workforce.",
+          "vi": "Một quốc gia công nghiệp thường có lực lượng lao động lành nghề lớn."
+        }
+      ]
+    },
+    {
+      "english": "industrial development",
+      "vietnamese": "phát triển công nghiệp",
+      "ipa": "/ɪnˈdʌstriəl dɪˈveləpmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Industrial development brought new jobs to the rural region.",
+          "vi": "Phát triển công nghiệp mang lại việc làm mới cho vùng nông thôn."
+        },
+        {
+          "en": "Rapid industrial development can harm the local environment.",
+          "vi": "Phát triển công nghiệp nhanh có thể gây hại cho môi trường địa phương."
+        },
+        {
+          "en": "The government invested heavily in industrial development.",
+          "vi": "Chính phủ đầu tư mạnh vào phát triển công nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "industrial production",
+      "vietnamese": "sản xuất công nghiệp",
+      "ipa": "/ɪnˈdʌstriəl prəˈdʌkʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Industrial production rose sharply after the new factory opened.",
+          "vi": "Sản xuất công nghiệp tăng mạnh sau khi nhà máy mới mở."
+        },
+        {
+          "en": "The recession caused industrial production to fall steeply.",
+          "vi": "Suy thoái khiến sản xuất công nghiệp giảm mạnh."
+        },
+        {
+          "en": "Automation has greatly increased industrial production efficiency.",
+          "vi": "Tự động hóa đã tăng đáng kể hiệu quả sản xuất công nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "industrial society",
+      "vietnamese": "xã hội công nghiệp",
+      "ipa": "/ɪnˈdʌstriəl səˈsaɪəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An industrial society depends on machines and steady energy.",
+          "vi": "Một xã hội công nghiệp phụ thuộc vào máy móc và năng lượng ổn định."
+        },
+        {
+          "en": "Life in an industrial society changed family structures greatly.",
+          "vi": "Cuộc sống trong xã hội công nghiệp thay đổi cấu trúc gia đình rất nhiều."
+        },
+        {
+          "en": "Industrial society created both wealth and new inequalities.",
+          "vi": "Xã hội công nghiệp tạo ra cả sự giàu có lẫn bất bình đẳng mới."
+        }
+      ]
+    },
+    {
+      "english": "industrialized country",
+      "vietnamese": "quốc gia công nghiệp hóa",
+      "ipa": "/ɪnˈdʌstriəˌlaɪzd ˈkʌntri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An industrialized country often consumes vast amounts of energy.",
+          "vi": "Một quốc gia công nghiệp hóa thường tiêu thụ lượng năng lượng khổng lồ."
+        },
+        {
+          "en": "Many industrialized countries face an aging population.",
+          "vi": "Nhiều quốc gia công nghiệp hóa đối mặt với dân số già."
+        },
+        {
+          "en": "An industrialized country generally has advanced infrastructure.",
+          "vi": "Một quốc gia công nghiệp hóa nhìn chung có hạ tầng tiên tiến."
+        }
+      ]
+    },
+    {
+      "english": "industrialized nation",
+      "vietnamese": "quốc gia công nghiệp hóa",
+      "ipa": "/ɪnˈdʌstriəˌlaɪzd ˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An industrialized nation produces most goods within its borders.",
+          "vi": "Một quốc gia công nghiệp hóa sản xuất phần lớn hàng hóa trong biên giới."
+        },
+        {
+          "en": "Industrialized nations contribute heavily to global emissions.",
+          "vi": "Các quốc gia công nghiệp hóa đóng góp lớn vào khí thải toàn cầu."
+        },
+        {
+          "en": "An industrialized nation usually offers strong public services.",
+          "vi": "Một quốc gia công nghiệp hóa thường cung cấp dịch vụ công mạnh."
+        }
+      ]
+    },
+    {
+      "english": "increasingly linked to",
+      "vietnamese": "ngày càng gắn liền với",
+      "ipa": "/ɪnˈkriːsɪŋli lɪŋkt tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Poor sleep is increasingly linked to long-term health problems.",
+          "vi": "Giấc ngủ kém ngày càng gắn liền với các vấn đề sức khỏe lâu dài."
+        },
+        {
+          "en": "Success is increasingly linked to digital skills these days.",
+          "vi": "Thành công ngày nay ngày càng gắn liền với kỹ năng số."
+        },
+        {
+          "en": "Rising costs are increasingly linked to global supply issues.",
+          "vi": "Chi phí tăng ngày càng gắn liền với vấn đề cung ứng toàn cầu."
+        }
+      ]
+    },
+    {
+      "english": "infinite number",
+      "vietnamese": "vô số",
+      "ipa": "/ˈɪnfɪnət ˈnʌmbər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is an infinite number of points on a line.",
+          "vi": "Có vô số điểm trên một đường thẳng."
+        },
+        {
+          "en": "An infinite number of combinations is possible with the code.",
+          "vi": "Vô số tổ hợp có thể xảy ra với mã này."
+        },
+        {
+          "en": "The universe may contain an infinite number of stars.",
+          "vi": "Vũ trụ có thể chứa vô số ngôi sao."
+        }
+      ]
+    },
+    {
+      "english": "information flow",
+      "vietnamese": "luồng thông tin",
+      "ipa": "/ˌɪnfərˈmeɪʃən floʊ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "A clear information flow helps teams make better decisions.",
+          "vi": "Luồng thông tin rõ ràng giúp các nhóm ra quyết định tốt hơn."
+        },
+        {
+          "en": "The new system improved information flow between departments.",
+          "vi": "Hệ thống mới cải thiện luồng thông tin giữa các phòng ban."
+        },
+        {
+          "en": "Poor information flow often leads to costly mistakes.",
+          "vi": "Luồng thông tin kém thường dẫn đến những sai lầm tốn kém."
+        }
+      ]
+    },
+    {
+      "english": "information gathering",
+      "vietnamese": "việc thu thập thông tin",
+      "ipa": "/ˌɪnfərˈmeɪʃən ˈɡæðərɪŋ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Information gathering is the first stage of any research project.",
+          "vi": "Việc thu thập thông tin là giai đoạn đầu của mọi dự án nghiên cứu."
+        },
+        {
+          "en": "Careful information gathering reduces the risk of errors.",
+          "vi": "Việc thu thập thông tin cẩn thận giảm rủi ro sai sót."
+        },
+        {
+          "en": "Reporters spend much of their time on information gathering.",
+          "vi": "Phóng viên dành phần lớn thời gian cho việc thu thập thông tin."
+        }
+      ]
+    },
+    {
+      "english": "information processing",
+      "vietnamese": "việc xử lý thông tin",
+      "ipa": "/ˌɪnfərˈmeɪʃən ˈprɑːsesɪŋ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The brain is remarkably fast at information processing.",
+          "vi": "Bộ não xử lý thông tin nhanh một cách đáng kinh ngạc."
+        },
+        {
+          "en": "Computers excel at the rapid information processing of numbers.",
+          "vi": "Máy tính giỏi trong việc xử lý thông tin số liệu nhanh chóng."
+        },
+        {
+          "en": "Stress can slow down our everyday information processing.",
+          "vi": "Căng thẳng có thể làm chậm việc xử lý thông tin hằng ngày của ta."
+        }
+      ]
+    },
+    {
+      "english": "information retrieval",
+      "vietnamese": "việc truy xuất thông tin",
+      "ipa": "/ˌɪnfərˈmeɪʃən rɪˈtriːvəl/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Search engines made information retrieval fast and simple.",
+          "vi": "Công cụ tìm kiếm khiến việc truy xuất thông tin nhanh và đơn giản."
+        },
+        {
+          "en": "Good indexing improves information retrieval from large databases.",
+          "vi": "Lập chỉ mục tốt cải thiện việc truy xuất thông tin từ cơ sở dữ liệu lớn."
+        },
+        {
+          "en": "The library system streamlined information retrieval for students.",
+          "vi": "Hệ thống thư viện tinh giản việc truy xuất thông tin cho sinh viên."
+        }
+      ]
+    }
+  ]
+}

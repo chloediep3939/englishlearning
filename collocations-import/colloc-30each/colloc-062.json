@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 62/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 62/83"
+  },
+  "cards": [
+    {
+      "english": "public domain",
+      "vietnamese": "phạm vi công cộng",
+      "ipa": "/ˈpʌblɪk doʊˈmeɪn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Once copyright expires, a work enters the public domain freely.",
+          "vi": "Khi bản quyền hết hạn, một tác phẩm tự do bước vào phạm vi công cộng."
+        },
+        {
+          "en": "These images are in the public domain and free to reuse.",
+          "vi": "Những hình ảnh này thuộc phạm vi công cộng và được tái sử dụng miễn phí."
+        },
+        {
+          "en": "The report placed the findings in the public domain at last.",
+          "vi": "Bản báo cáo cuối cùng đã đưa các phát hiện vào phạm vi công cộng."
+        }
+      ]
+    },
+    {
+      "english": "public expenditure",
+      "vietnamese": "chi tiêu công",
+      "ipa": "/ˈpʌblɪk ɪkˈspendətʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The government pledged to reduce public expenditure next year.",
+          "vi": "Chính phủ cam kết giảm chi tiêu công vào năm tới."
+        },
+        {
+          "en": "Health and education account for most public expenditure here.",
+          "vi": "Y tế và giáo dục chiếm phần lớn chi tiêu công ở đây."
+        },
+        {
+          "en": "Rising public expenditure put pressure on the national budget.",
+          "vi": "Chi tiêu công gia tăng tạo áp lực lên ngân sách quốc gia."
+        }
+      ]
+    },
+    {
+      "english": "public funds",
+      "vietnamese": "ngân quỹ công",
+      "ipa": "/ˈpʌblɪk fʌndz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The project was financed entirely from public funds last year.",
+          "vi": "Dự án được tài trợ hoàn toàn từ ngân quỹ công vào năm ngoái."
+        },
+        {
+          "en": "Auditors check how public funds are spent on local services.",
+          "vi": "Kiểm toán viên kiểm tra cách ngân quỹ công được chi cho dịch vụ địa phương."
+        },
+        {
+          "en": "Misuse of public funds led to a lengthy formal investigation.",
+          "vi": "Việc lạm dụng ngân quỹ công dẫn đến một cuộc điều tra chính thức kéo dài."
+        }
+      ]
+    },
+    {
+      "english": "public image",
+      "vietnamese": "hình ảnh trước công chúng",
+      "ipa": "/ˈpʌblɪk ˈɪmɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company worked hard to improve its public image after the scandal.",
+          "vi": "Công ty nỗ lực cải thiện hình ảnh trước công chúng sau vụ bê bối."
+        },
+        {
+          "en": "A positive public image can attract both talent and investors.",
+          "vi": "Một hình ảnh tích cực trước công chúng có thể thu hút cả nhân tài lẫn nhà đầu tư."
+        },
+        {
+          "en": "Politicians carefully manage their public image during campaigns.",
+          "vi": "Các chính trị gia cẩn thận quản lý hình ảnh trước công chúng trong các chiến dịch."
+        }
+      ]
+    },
+    {
+      "english": "public institution",
+      "vietnamese": "thiết chế công",
+      "ipa": "/ˈpʌblɪk ˌɪnstəˈtuːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A university is a public institution that serves the wider society.",
+          "vi": "Trường đại học là một thiết chế công phục vụ cho xã hội rộng lớn hơn."
+        },
+        {
+          "en": "Trust in public institutions has declined in many countries.",
+          "vi": "Niềm tin vào các thiết chế công đã suy giảm ở nhiều quốc gia."
+        },
+        {
+          "en": "Every public institution must follow strict transparency rules.",
+          "vi": "Mọi thiết chế công đều phải tuân theo các quy tắc minh bạch nghiêm ngặt."
+        }
+      ]
+    },
+    {
+      "english": "public perception",
+      "vietnamese": "cảm nhận của công chúng",
+      "ipa": "/ˈpʌblɪk pərˈsepʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Media coverage shaped public perception of the new vaccine quickly.",
+          "vi": "Đưa tin truyền thông nhanh chóng định hình cảm nhận của công chúng về vắc-xin mới."
+        },
+        {
+          "en": "Public perception of risk often differs from expert assessments.",
+          "vi": "Cảm nhận của công chúng về rủi ro thường khác với đánh giá của chuyên gia."
+        },
+        {
+          "en": "The study measured changes in public perception over six months.",
+          "vi": "Nghiên cứu đo lường những thay đổi trong cảm nhận của công chúng qua sáu tháng."
+        }
+      ]
+    },
+    {
+      "english": "public policy",
+      "vietnamese": "chính sách công",
+      "ipa": "/ˈpʌblɪk ˈpɑːləsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Researchers hope their findings will inform future public policy.",
+          "vi": "Các nhà nghiên cứu hy vọng phát hiện của họ sẽ định hướng chính sách công tương lai."
+        },
+        {
+          "en": "Public policy on housing varies widely between the two cities.",
+          "vi": "Chính sách công về nhà ở khác nhau rất nhiều giữa hai thành phố."
+        },
+        {
+          "en": "She advises lawmakers on public policy related to education.",
+          "vi": "Cô ấy tư vấn cho các nhà lập pháp về chính sách công liên quan đến giáo dục."
+        }
+      ]
+    },
+    {
+      "english": "public sector",
+      "vietnamese": "khu vực công",
+      "ipa": "/ˈpʌblɪk ˈsektər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many graduates seek stable employment in the public sector.",
+          "vi": "Nhiều sinh viên tốt nghiệp tìm kiếm việc làm ổn định trong khu vực công."
+        },
+        {
+          "en": "Wages in the public sector rose slightly compared to last year.",
+          "vi": "Mức lương trong khu vực công tăng nhẹ so với năm ngoái."
+        },
+        {
+          "en": "The reform reshaped how the public sector delivers its services.",
+          "vi": "Cuộc cải cách định hình lại cách khu vực công cung cấp dịch vụ."
+        }
+      ]
+    },
+    {
+      "english": "public sphere",
+      "vietnamese": "không gian công cộng",
+      "ipa": "/ˈpʌblɪk sfɪr/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Newspapers once dominated debate within the public sphere entirely.",
+          "vi": "Báo chí từng chi phối hoàn toàn tranh luận trong không gian công cộng."
+        },
+        {
+          "en": "Women gradually gained a stronger voice in the public sphere.",
+          "vi": "Phụ nữ dần có tiếng nói mạnh mẽ hơn trong không gian công cộng."
+        },
+        {
+          "en": "The internet has expanded the public sphere beyond national borders.",
+          "vi": "Internet đã mở rộng không gian công cộng vượt ra ngoài biên giới quốc gia."
+        }
+      ]
+    },
+    {
+      "english": "public transport",
+      "vietnamese": "giao thông công cộng",
+      "ipa": "/ˈpʌblɪk ˈtrænspɔːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Improving public transport could reduce traffic in the city center.",
+          "vi": "Cải thiện giao thông công cộng có thể giảm ùn tắc ở trung tâm thành phố."
+        },
+        {
+          "en": "Many residents rely on public transport to reach their workplaces.",
+          "vi": "Nhiều cư dân phụ thuộc vào giao thông công cộng để đến nơi làm việc."
+        },
+        {
+          "en": "Cheaper public transport encourages people to leave cars at home.",
+          "vi": "Giao thông công cộng rẻ hơn khuyến khích mọi người để xe ở nhà."
+        }
+      ]
+    },
+    {
+      "english": "public welfare",
+      "vietnamese": "phúc lợi công cộng",
+      "ipa": "/ˈpʌblɪk ˈwelfer/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The policy was designed to protect public welfare during the crisis.",
+          "vi": "Chính sách được thiết kế để bảo vệ phúc lợi công cộng trong khủng hoảng."
+        },
+        {
+          "en": "Governments must balance economic growth with public welfare needs.",
+          "vi": "Chính phủ phải cân bằng tăng trưởng kinh tế với nhu cầu phúc lợi công cộng."
+        },
+        {
+          "en": "Critics argued the plan ignored long-term public welfare entirely.",
+          "vi": "Những người phê bình cho rằng kế hoạch hoàn toàn bỏ qua phúc lợi công cộng lâu dài."
+        }
+      ]
+    },
+    {
+      "english": "publicly available",
+      "vietnamese": "công khai cho mọi người",
+      "ipa": "/ˈpʌblɪkli əˈveɪləbəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The full data set is now publicly available on the website.",
+          "vi": "Toàn bộ tập dữ liệu hiện đã được công khai cho mọi người trên trang web."
+        },
+        {
+          "en": "Researchers prefer sources that are publicly available and verifiable.",
+          "vi": "Các nhà nghiên cứu thích những nguồn công khai cho mọi người và có thể kiểm chứng."
+        },
+        {
+          "en": "These reports became publicly available after the new law passed.",
+          "vi": "Các báo cáo này trở nên công khai cho mọi người sau khi luật mới được thông qua."
+        }
+      ]
+    },
+    {
+      "english": "publish research",
+      "vietnamese": "công bố nghiên cứu",
+      "ipa": "/ˈpʌblɪʃ ˈriːsɜːrtʃ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Scholars must publish research regularly to advance their careers.",
+          "vi": "Các học giả phải công bố nghiên cứu thường xuyên để thăng tiến sự nghiệp."
+        },
+        {
+          "en": "The team plans to publish research on the new treatment soon.",
+          "vi": "Nhóm dự định sớm công bố nghiên cứu về phương pháp điều trị mới."
+        },
+        {
+          "en": "Universities encourage staff to publish research in leading journals.",
+          "vi": "Các trường đại học khuyến khích nhân viên công bố nghiên cứu trên tạp chí hàng đầu."
+        }
+      ]
+    },
+    {
+      "english": "publish a journal",
+      "vietnamese": "xuất bản một tạp chí",
+      "ipa": "/ˈpʌblɪʃ ə ˈdʒɜːrnəl/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The society plans to publish a journal on environmental science.",
+          "vi": "Hội dự định xuất bản một tạp chí về khoa học môi trường."
+        },
+        {
+          "en": "They publish a journal four times a year for members.",
+          "vi": "Họ xuất bản một tạp chí bốn lần mỗi năm cho các thành viên."
+        },
+        {
+          "en": "The department decided to publish a journal entirely online.",
+          "vi": "Khoa quyết định xuất bản một tạp chí hoàn toàn trực tuyến."
+        }
+      ]
+    },
+    {
+      "english": "publish a report",
+      "vietnamese": "công bố một báo cáo",
+      "ipa": "/ˈpʌblɪʃ ə rɪˈpɔːrt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The agency will publish a report on air quality next month.",
+          "vi": "Cơ quan này sẽ công bố một báo cáo về chất lượng không khí vào tháng tới."
+        },
+        {
+          "en": "Researchers publish a report summarizing their findings each year.",
+          "vi": "Các nhà nghiên cứu công bố một báo cáo tóm tắt phát hiện của họ mỗi năm."
+        },
+        {
+          "en": "The committee voted to publish a report before the deadline.",
+          "vi": "Ủy ban đã bỏ phiếu công bố một báo cáo trước thời hạn."
+        }
+      ]
+    },
+    {
+      "english": "publish an article",
+      "vietnamese": "đăng một bài báo",
+      "ipa": "/ˈpʌblɪʃ ən ˈɑːrtɪkəl/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "She hopes to publish an article in a respected academic journal.",
+          "vi": "Cô ấy hy vọng đăng một bài báo trên một tạp chí học thuật uy tín."
+        },
+        {
+          "en": "The newspaper agreed to publish an article on local pollution.",
+          "vi": "Tờ báo đồng ý đăng một bài báo về ô nhiễm địa phương."
+        },
+        {
+          "en": "It can take months to publish an article after peer review.",
+          "vi": "Có thể mất nhiều tháng để đăng một bài báo sau khi bình duyệt."
+        }
+      ]
+    },
+    {
+      "english": "published literature",
+      "vietnamese": "tài liệu đã xuất bản",
+      "ipa": "/ˈpʌblɪʃt ˈlɪtərətʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The review surveyed all published literature on childhood obesity.",
+          "vi": "Bài tổng quan khảo sát toàn bộ tài liệu đã xuất bản về béo phì ở trẻ em."
+        },
+        {
+          "en": "Existing published literature offers little guidance on this topic.",
+          "vi": "Tài liệu đã xuất bản hiện có cung cấp rất ít hướng dẫn về chủ đề này."
+        },
+        {
+          "en": "She compared her results with the wider published literature carefully.",
+          "vi": "Cô ấy cẩn thận so sánh kết quả với tài liệu đã xuất bản rộng hơn."
+        }
+      ]
+    },
+    {
+      "english": "published material",
+      "vietnamese": "tài liệu đã được công bố",
+      "ipa": "/ˈpʌblɪʃt məˈtɪriəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course relies heavily on recently published material for reading.",
+          "vi": "Khóa học dựa nhiều vào tài liệu đã được công bố gần đây để đọc."
+        },
+        {
+          "en": "Students must cite all published material used in their essays.",
+          "vi": "Sinh viên phải trích dẫn mọi tài liệu đã được công bố dùng trong bài luận."
+        },
+        {
+          "en": "The database collects published material from hundreds of sources.",
+          "vi": "Cơ sở dữ liệu thu thập tài liệu đã được công bố từ hàng trăm nguồn."
+        }
+      ]
+    },
+    {
+      "english": "published research",
+      "vietnamese": "nghiên cứu đã công bố",
+      "ipa": "/ˈpʌblɪʃt ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her argument draws on a large body of published research.",
+          "vi": "Lập luận của cô dựa trên một khối lượng lớn nghiên cứu đã công bố."
+        },
+        {
+          "en": "Published research on the topic remains surprisingly limited so far.",
+          "vi": "Nghiên cứu đã công bố về chủ đề này vẫn còn hạn chế đáng ngạc nhiên."
+        },
+        {
+          "en": "We evaluated published research before designing our own experiment.",
+          "vi": "Chúng tôi đánh giá nghiên cứu đã công bố trước khi thiết kế thí nghiệm riêng."
+        }
+      ]
+    },
+    {
+      "english": "published work",
+      "vietnamese": "công trình đã xuất bản",
+      "ipa": "/ˈpʌblɪʃt wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "His published work has influenced researchers across several disciplines.",
+          "vi": "Công trình đã xuất bản của ông đã ảnh hưởng đến nhiều ngành nghiên cứu."
+        },
+        {
+          "en": "The committee assessed each candidate's published work very closely.",
+          "vi": "Ủy ban đánh giá rất kỹ công trình đã xuất bản của từng ứng viên."
+        },
+        {
+          "en": "Most of her published work focuses on language acquisition.",
+          "vi": "Phần lớn công trình đã xuất bản của cô tập trung vào việc tiếp thu ngôn ngữ."
+        }
+      ]
+    },
+    {
+      "english": "purchasing power",
+      "vietnamese": "sức mua",
+      "ipa": "/ˈpɜːrtʃəsɪŋ ˈpaʊər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Rising inflation steadily eroded the purchasing power of households.",
+          "vi": "Lạm phát gia tăng làm xói mòn dần sức mua của các hộ gia đình."
+        },
+        {
+          "en": "Higher wages increased the purchasing power of ordinary workers.",
+          "vi": "Mức lương cao hơn làm tăng sức mua của những người lao động bình thường."
+        },
+        {
+          "en": "Economists compare purchasing power across countries using special indices.",
+          "vi": "Các nhà kinh tế so sánh sức mua giữa các nước bằng những chỉ số đặc biệt."
+        }
+      ]
+    },
+    {
+      "english": "qualitative analysis",
+      "vietnamese": "phân tích định tính",
+      "ipa": "/ˈkwɑːlɪteɪtɪv əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The thesis combines qualitative analysis with detailed statistical modeling.",
+          "vi": "Luận văn kết hợp phân tích định tính với mô hình thống kê chi tiết."
+        },
+        {
+          "en": "Qualitative analysis of the interviews revealed several recurring themes.",
+          "vi": "Phân tích định tính các cuộc phỏng vấn cho thấy vài chủ đề lặp lại."
+        },
+        {
+          "en": "She used qualitative analysis to interpret the open-ended responses.",
+          "vi": "Cô ấy dùng phân tích định tính để diễn giải các câu trả lời mở."
+        }
+      ]
+    },
+    {
+      "english": "qualitative approach",
+      "vietnamese": "phương pháp tiếp cận định tính",
+      "ipa": "/ˈkwɑːlɪteɪtɪv əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A qualitative approach suits research exploring lived human experience.",
+          "vi": "Phương pháp tiếp cận định tính phù hợp với nghiên cứu khám phá trải nghiệm con người."
+        },
+        {
+          "en": "The author adopted a qualitative approach to study classroom behavior.",
+          "vi": "Tác giả áp dụng phương pháp tiếp cận định tính để nghiên cứu hành vi trong lớp."
+        },
+        {
+          "en": "A qualitative approach can uncover meanings that numbers often miss.",
+          "vi": "Phương pháp tiếp cận định tính có thể khám phá ý nghĩa mà con số thường bỏ sót."
+        }
+      ]
+    },
+    {
+      "english": "qualitative data",
+      "vietnamese": "dữ liệu định tính",
+      "ipa": "/ˈkwɑːlɪteɪtɪv ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The interviews generated rich qualitative data for the final report.",
+          "vi": "Các cuộc phỏng vấn tạo ra dữ liệu định tính phong phú cho báo cáo cuối."
+        },
+        {
+          "en": "Coding qualitative data carefully takes considerable time and patience.",
+          "vi": "Mã hóa dữ liệu định tính cẩn thận đòi hỏi nhiều thời gian và kiên nhẫn."
+        },
+        {
+          "en": "Qualitative data helped explain why the numbers looked so unusual.",
+          "vi": "Dữ liệu định tính giúp giải thích vì sao các con số trông bất thường."
+        }
+      ]
+    },
+    {
+      "english": "qualitative method",
+      "vietnamese": "phương pháp định tính",
+      "ipa": "/ˈkwɑːlɪteɪtɪv ˈmeθəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She chose a qualitative method to explore students' personal attitudes.",
+          "vi": "Cô ấy chọn một phương pháp định tính để khám phá thái độ cá nhân của học sinh."
+        },
+        {
+          "en": "A qualitative method captures depth that surveys alone cannot reach.",
+          "vi": "Một phương pháp định tính nắm bắt chiều sâu mà chỉ khảo sát không thể đạt được."
+        },
+        {
+          "en": "The study mixes a qualitative method with quantitative measurement tools.",
+          "vi": "Nghiên cứu kết hợp một phương pháp định tính với các công cụ đo lường định lượng."
+        }
+      ]
+    },
+    {
+      "english": "qualitative research",
+      "vietnamese": "nghiên cứu định tính",
+      "ipa": "/ˈkwɑːlɪteɪtɪv ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Qualitative research often relies on interviews, observation, and case studies.",
+          "vi": "Nghiên cứu định tính thường dựa vào phỏng vấn, quan sát và nghiên cứu tình huống."
+        },
+        {
+          "en": "Her qualitative research explored how patients cope with chronic illness.",
+          "vi": "Nghiên cứu định tính của cô khám phá cách bệnh nhân đối phó với bệnh mãn tính."
+        },
+        {
+          "en": "Good qualitative research demands careful attention to participants' words.",
+          "vi": "Nghiên cứu định tính tốt đòi hỏi chú ý kỹ đến lời nói của người tham gia."
+        }
+      ]
+    },
+    {
+      "english": "qualitative study",
+      "vietnamese": "nghiên cứu định tính",
+      "ipa": "/ˈkwɑːlɪteɪtɪv ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The qualitative study followed ten families over an entire year.",
+          "vi": "Nghiên cứu định tính theo dõi mười gia đình trong suốt một năm."
+        },
+        {
+          "en": "A qualitative study can reveal unexpected patterns in everyday behavior.",
+          "vi": "Một nghiên cứu định tính có thể tiết lộ những khuôn mẫu bất ngờ trong hành vi hàng ngày."
+        },
+        {
+          "en": "They published a qualitative study based on detailed teacher interviews.",
+          "vi": "Họ công bố một nghiên cứu định tính dựa trên phỏng vấn giáo viên chi tiết."
+        }
+      ]
+    },
+    {
+      "english": "qualitatively different",
+      "vietnamese": "khác biệt về chất",
+      "ipa": "/ˈkwɑːlɪteɪtɪvli ˈdɪfərənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The two approaches are qualitatively different, not merely a matter of degree.",
+          "vi": "Hai cách tiếp cận khác biệt về chất, không chỉ là vấn đề mức độ."
+        },
+        {
+          "en": "Children's reasoning becomes qualitatively different as they mature.",
+          "vi": "Lập luận của trẻ trở nên khác biệt về chất khi chúng trưởng thành."
+        },
+        {
+          "en": "Online learning is qualitatively different from traditional classroom teaching.",
+          "vi": "Học trực tuyến khác biệt về chất so với giảng dạy truyền thống trên lớp."
+        }
+      ]
+    },
+    {
+      "english": "quantitative analysis",
+      "vietnamese": "phân tích định lượng",
+      "ipa": "/ˈkwɑːntɪteɪtɪv əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Quantitative analysis confirmed a strong link between the two variables.",
+          "vi": "Phân tích định lượng xác nhận mối liên hệ chặt chẽ giữa hai biến."
+        },
+        {
+          "en": "The report includes quantitative analysis of national survey results.",
+          "vi": "Bản báo cáo bao gồm phân tích định lượng kết quả khảo sát quốc gia."
+        },
+        {
+          "en": "She performed quantitative analysis using specialized statistical software.",
+          "vi": "Cô ấy thực hiện phân tích định lượng bằng phần mềm thống kê chuyên dụng."
+        }
+      ]
+    },
+    {
+      "english": "quantitative approach",
+      "vietnamese": "phương pháp tiếp cận định lượng",
+      "ipa": "/ˈkwɑːntɪteɪtɪv əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A quantitative approach allows researchers to test hypotheses with numbers.",
+          "vi": "Phương pháp tiếp cận định lượng cho phép nhà nghiên cứu kiểm định giả thuyết bằng số liệu."
+        },
+        {
+          "en": "The team favored a quantitative approach to measure clear outcomes.",
+          "vi": "Nhóm ưa chuộng phương pháp tiếp cận định lượng để đo lường kết quả rõ ràng."
+        },
+        {
+          "en": "A quantitative approach works best when large samples are available.",
+          "vi": "Phương pháp tiếp cận định lượng hiệu quả nhất khi có sẵn mẫu lớn."
+        }
+      ]
+    }
+  ]
+}

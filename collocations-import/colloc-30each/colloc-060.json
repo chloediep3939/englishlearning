@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 60/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 60/83"
+  },
+  "cards": [
+    {
+      "english": "professional colleague",
+      "vietnamese": "đồng nghiệp",
+      "ipa": "/prəˈfeʃənəl ˈkɑːliːɡ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She discussed the diagnosis with a professional colleague first.",
+          "vi": "Cô thảo luận chẩn đoán với một đồng nghiệp trước."
+        },
+        {
+          "en": "Sharing ideas with a professional colleague improves your own work.",
+          "vi": "Chia sẻ ý tưởng với đồng nghiệp giúp cải thiện công việc của bạn."
+        },
+        {
+          "en": "He praised a professional colleague for the careful analysis.",
+          "vi": "Anh khen ngợi một đồng nghiệp vì sự phân tích cẩn thận."
+        }
+      ]
+    },
+    {
+      "english": "professional development",
+      "vietnamese": "phát triển nghề nghiệp",
+      "ipa": "/prəˈfeʃənəl dɪˈveləpmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The school funds ongoing professional development for its teachers.",
+          "vi": "Trường tài trợ cho việc phát triển nghề nghiệp liên tục cho giáo viên."
+        },
+        {
+          "en": "Professional development helps staff keep up with new methods.",
+          "vi": "Phát triển nghề nghiệp giúp nhân viên theo kịp các phương pháp mới."
+        },
+        {
+          "en": "She attends workshops as part of her professional development.",
+          "vi": "Cô tham dự các hội thảo như một phần của việc phát triển nghề nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "professional experience",
+      "vietnamese": "kinh nghiệm nghề nghiệp",
+      "ipa": "/prəˈfeʃənəl ɪkˈspɪriəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Years of professional experience shaped his teaching style.",
+          "vi": "Nhiều năm kinh nghiệm nghề nghiệp đã định hình phong cách giảng dạy của ông."
+        },
+        {
+          "en": "The internship gives students valuable professional experience early.",
+          "vi": "Kỳ thực tập mang lại cho sinh viên kinh nghiệm nghề nghiệp quý giá từ sớm."
+        },
+        {
+          "en": "Employers value relevant professional experience over formal qualifications.",
+          "vi": "Nhà tuyển dụng coi trọng kinh nghiệm nghề nghiệp liên quan hơn bằng cấp chính thức."
+        }
+      ]
+    },
+    {
+      "english": "professional knowledge",
+      "vietnamese": "kiến thức chuyên môn",
+      "ipa": "/prəˈfeʃənəl ˈnɑːlɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Doctors must constantly update their professional knowledge.",
+          "vi": "Bác sĩ phải liên tục cập nhật kiến thức chuyên môn của mình."
+        },
+        {
+          "en": "Her deep professional knowledge made the report highly reliable.",
+          "vi": "Kiến thức chuyên môn sâu rộng của cô khiến báo cáo rất đáng tin cậy."
+        },
+        {
+          "en": "The course builds professional knowledge through real case studies.",
+          "vi": "Khóa học xây dựng kiến thức chuyên môn qua các tình huống thực tế."
+        }
+      ]
+    },
+    {
+      "english": "professional practice",
+      "vietnamese": "hành nghề chuyên môn",
+      "ipa": "/prəˈfeʃənəl ˈpræktɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Ethics guidelines shape everyday professional practice in medicine.",
+          "vi": "Hướng dẫn đạo đức định hình việc hành nghề chuyên môn hằng ngày trong y khoa."
+        },
+        {
+          "en": "Reflection is central to improving one's professional practice.",
+          "vi": "Sự tự suy ngẫm là cốt lõi để cải thiện việc hành nghề chuyên môn."
+        },
+        {
+          "en": "The course connects academic theory with real professional practice.",
+          "vi": "Khóa học kết nối lý thuyết học thuật với việc hành nghề chuyên môn thực tế."
+        }
+      ]
+    },
+    {
+      "english": "professional qualification",
+      "vietnamese": "chứng chỉ hành nghề",
+      "ipa": "/prəˈfeʃənəl ˌkwɑːləfəˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The role requires a recognized professional qualification in accounting.",
+          "vi": "Vị trí này đòi hỏi một chứng chỉ hành nghề được công nhận về kế toán."
+        },
+        {
+          "en": "She earned her professional qualification after three years of study.",
+          "vi": "Cô đạt được chứng chỉ hành nghề sau ba năm học tập."
+        },
+        {
+          "en": "Some professional qualifications must be renewed every few years.",
+          "vi": "Một số chứng chỉ hành nghề phải được gia hạn vài năm một lần."
+        }
+      ]
+    },
+    {
+      "english": "professional staff",
+      "vietnamese": "đội ngũ nhân viên chuyên môn",
+      "ipa": "/prəˈfeʃənəl stæf/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The clinic employs highly trained professional staff around the clock.",
+          "vi": "Phòng khám có đội ngũ nhân viên chuyên môn được đào tạo bài bản suốt ngày đêm."
+        },
+        {
+          "en": "Professional staff handle inquiries that volunteers cannot answer.",
+          "vi": "Nhân viên chuyên môn xử lý các thắc mắc mà tình nguyện viên không thể trả lời."
+        },
+        {
+          "en": "The university expanded its professional staff to support research.",
+          "vi": "Trường đại học mở rộng đội ngũ nhân viên chuyên môn để hỗ trợ nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "professional standard",
+      "vietnamese": "chuẩn mực nghề nghiệp",
+      "ipa": "/prəˈfeʃənəl ˈstændərd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "All work must meet a high professional standard.",
+          "vi": "Mọi công việc phải đáp ứng chuẩn mực nghề nghiệp cao."
+        },
+        {
+          "en": "Breaching the professional standard can lead to disciplinary action.",
+          "vi": "Vi phạm chuẩn mực nghề nghiệp có thể dẫn đến biện pháp kỷ luật."
+        },
+        {
+          "en": "The association reviews its professional standards every five years.",
+          "vi": "Hiệp hội xem xét lại các chuẩn mực nghề nghiệp của mình năm năm một lần."
+        }
+      ]
+    },
+    {
+      "english": "professional status",
+      "vietnamese": "địa vị nghề nghiệp",
+      "ipa": "/prəˈfeʃənəl ˈsteɪtəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Gaining professional status often requires passing a formal exam.",
+          "vi": "Đạt được địa vị nghề nghiệp thường đòi hỏi phải vượt qua kỳ thi chính thức."
+        },
+        {
+          "en": "The reform raised the professional status of nurses nationwide.",
+          "vi": "Cuộc cải cách nâng cao địa vị nghề nghiệp của y tá trên toàn quốc."
+        },
+        {
+          "en": "Teachers fought hard to protect their professional status.",
+          "vi": "Giáo viên đấu tranh mạnh mẽ để bảo vệ địa vị nghề nghiệp của mình."
+        }
+      ]
+    },
+    {
+      "english": "professional support",
+      "vietnamese": "hỗ trợ chuyên môn",
+      "ipa": "/prəˈfeʃənəl səˈpɔːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Patients receive professional support throughout their recovery.",
+          "vi": "Bệnh nhân nhận được hỗ trợ chuyên môn trong suốt quá trình hồi phục."
+        },
+        {
+          "en": "New teachers benefit from professional support during their first year.",
+          "vi": "Giáo viên mới hưởng lợi từ hỗ trợ chuyên môn trong năm đầu tiên."
+        },
+        {
+          "en": "The charity offers professional support to families in crisis.",
+          "vi": "Tổ chức từ thiện cung cấp hỗ trợ chuyên môn cho các gia đình gặp khủng hoảng."
+        }
+      ]
+    },
+    {
+      "english": "professional training",
+      "vietnamese": "đào tạo chuyên môn",
+      "ipa": "/prəˈfeʃənəl ˈtreɪnɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The program offers professional training for future social workers.",
+          "vi": "Chương trình cung cấp đào tạo chuyên môn cho nhân viên xã hội tương lai."
+        },
+        {
+          "en": "Without proper professional training, errors become far more likely.",
+          "vi": "Nếu không có đào tạo chuyên môn phù hợp, sai sót dễ xảy ra hơn nhiều."
+        },
+        {
+          "en": "She completed her professional training at a leading hospital.",
+          "vi": "Cô hoàn thành đào tạo chuyên môn tại một bệnh viện hàng đầu."
+        }
+      ]
+    },
+    {
+      "english": "professional work",
+      "vietnamese": "công việc chuyên môn",
+      "ipa": "/prəˈfeʃənəl wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her professional work spans both teaching and clinical research.",
+          "vi": "Công việc chuyên môn của cô trải dài cả giảng dạy lẫn nghiên cứu lâm sàng."
+        },
+        {
+          "en": "He balances professional work with caring for his family.",
+          "vi": "Anh cân bằng công việc chuyên môn với việc chăm sóc gia đình."
+        },
+        {
+          "en": "The exhibition displays professional work by emerging architects.",
+          "vi": "Triển lãm trưng bày công việc chuyên môn của các kiến trúc sư mới nổi."
+        }
+      ]
+    },
+    {
+      "english": "profound effect",
+      "vietnamese": "ảnh hưởng sâu sắc",
+      "ipa": "/prəˈfaʊnd ɪˈfekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new policy had a profound effect on rural communities.",
+          "vi": "Chính sách mới có ảnh hưởng sâu sắc đến các cộng đồng nông thôn."
+        },
+        {
+          "en": "Early childhood experiences have a profound effect on development.",
+          "vi": "Trải nghiệm thời thơ ấu có ảnh hưởng sâu sắc đến sự phát triển."
+        },
+        {
+          "en": "Her mentor's advice had a profound effect on her career.",
+          "vi": "Lời khuyên của người cố vấn có ảnh hưởng sâu sắc đến sự nghiệp của cô."
+        }
+      ]
+    },
+    {
+      "english": "profound impact",
+      "vietnamese": "tác động sâu sắc",
+      "ipa": "/prəˈfaʊnd ˈɪmpækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The internet has had a profound impact on daily life.",
+          "vi": "Internet đã có tác động sâu sắc đến cuộc sống hằng ngày."
+        },
+        {
+          "en": "Climate change is expected to have a profound impact globally.",
+          "vi": "Biến đổi khí hậu được dự đoán sẽ có tác động sâu sắc trên toàn cầu."
+        },
+        {
+          "en": "The reform had a profound impact on how schools operate.",
+          "vi": "Cuộc cải cách có tác động sâu sắc đến cách các trường vận hành."
+        }
+      ]
+    },
+    {
+      "english": "prominent feature",
+      "vietnamese": "đặc điểm nổi bật",
+      "ipa": "/ˈprɑːmɪnənt ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The tower is a prominent feature of the city skyline.",
+          "vi": "Tòa tháp là đặc điểm nổi bật của đường chân trời thành phố."
+        },
+        {
+          "en": "Repetition is a prominent feature of the poet's style.",
+          "vi": "Sự lặp lại là đặc điểm nổi bật trong phong cách của nhà thơ."
+        },
+        {
+          "en": "Strong color contrast is a prominent feature of her paintings.",
+          "vi": "Sự tương phản màu mạnh mẽ là đặc điểm nổi bật trong tranh của cô."
+        }
+      ]
+    },
+    {
+      "english": "prominent member",
+      "vietnamese": "thành viên nổi bật",
+      "ipa": "/ˈprɑːmɪnənt ˈmembər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She was a prominent member of the research committee.",
+          "vi": "Bà là một thành viên nổi bật của ủy ban nghiên cứu."
+        },
+        {
+          "en": "He became a prominent member of the local business community.",
+          "vi": "Ông trở thành một thành viên nổi bật của cộng đồng doanh nghiệp địa phương."
+        },
+        {
+          "en": "Several prominent members of the party opposed the new bill.",
+          "vi": "Một số thành viên nổi bật của đảng phản đối dự luật mới."
+        }
+      ]
+    },
+    {
+      "english": "prominent role",
+      "vietnamese": "vai trò nổi bật",
+      "ipa": "/ˈprɑːmɪnənt roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Women played a prominent role in the social movement.",
+          "vi": "Phụ nữ đóng vai trò nổi bật trong phong trào xã hội."
+        },
+        {
+          "en": "Technology now plays a prominent role in modern teaching.",
+          "vi": "Công nghệ ngày nay đóng vai trò nổi bật trong giảng dạy hiện đại."
+        },
+        {
+          "en": "The charity took a prominent role in the relief effort.",
+          "vi": "Tổ chức từ thiện đóng vai trò nổi bật trong nỗ lực cứu trợ."
+        }
+      ]
+    },
+    {
+      "english": "promote equality",
+      "vietnamese": "thúc đẩy bình đẳng",
+      "ipa": "/prəˈmoʊt ɪˈkwɑːləti/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The new law aims to promote equality in the workplace.",
+          "vi": "Luật mới nhằm thúc đẩy bình đẳng tại nơi làm việc."
+        },
+        {
+          "en": "Schools can promote equality by treating all students fairly.",
+          "vi": "Trường học có thể thúc đẩy bình đẳng bằng cách đối xử công bằng với mọi học sinh."
+        },
+        {
+          "en": "The campaign was designed to promote equality between the sexes.",
+          "vi": "Chiến dịch được thiết kế để thúc đẩy bình đẳng giữa hai giới."
+        }
+      ]
+    },
+    {
+      "english": "promote the development of",
+      "vietnamese": "thúc đẩy sự phát triển của",
+      "ipa": "/prəˈmoʊt ðə dɪˈveləpmənt əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "These programs promote the development of critical thinking skills.",
+          "vi": "Các chương trình này thúc đẩy sự phát triển của kỹ năng tư duy phản biện."
+        },
+        {
+          "en": "Funding helps promote the development of renewable energy sources.",
+          "vi": "Nguồn vốn giúp thúc đẩy sự phát triển của các nguồn năng lượng tái tạo."
+        },
+        {
+          "en": "Good nutrition can promote the development of healthy children.",
+          "vi": "Dinh dưỡng tốt có thể thúc đẩy sự phát triển của trẻ em khỏe mạnh."
+        }
+      ]
+    },
+    {
+      "english": "properly understood",
+      "vietnamese": "được hiểu đúng đắn",
+      "ipa": "/ˈprɑːpərli ˌʌndərˈstʊd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "When properly understood, the theory explains many observations.",
+          "vi": "Khi được hiểu đúng đắn, lý thuyết này giải thích nhiều quan sát."
+        },
+        {
+          "en": "The risks must be properly understood before any decision.",
+          "vi": "Các rủi ro phải được hiểu đúng đắn trước khi đưa ra quyết định nào."
+        },
+        {
+          "en": "Properly understood, the data point to a clear trend.",
+          "vi": "Nếu được hiểu đúng đắn, dữ liệu chỉ ra một xu hướng rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "proposed legislation",
+      "vietnamese": "dự thảo luật",
+      "ipa": "/prəˈpoʊzd ˌledʒɪsˈleɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The proposed legislation would tighten rules on data privacy.",
+          "vi": "Dự thảo luật sẽ siết chặt các quy định về quyền riêng tư dữ liệu."
+        },
+        {
+          "en": "Critics argue the proposed legislation could harm small businesses.",
+          "vi": "Các nhà phê bình cho rằng dự thảo luật có thể gây hại cho doanh nghiệp nhỏ."
+        },
+        {
+          "en": "The committee will review the proposed legislation next week.",
+          "vi": "Ủy ban sẽ xem xét dự thảo luật vào tuần tới."
+        }
+      ]
+    },
+    {
+      "english": "prove successful",
+      "vietnamese": "tỏ ra thành công",
+      "ipa": "/pruːv səkˈsesfəl/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The new strategy is likely to prove successful over time.",
+          "vi": "Chiến lược mới có khả năng tỏ ra thành công theo thời gian."
+        },
+        {
+          "en": "If the trial proves successful, the drug will be approved.",
+          "vi": "Nếu thử nghiệm tỏ ra thành công, loại thuốc sẽ được phê duyệt."
+        },
+        {
+          "en": "The pilot scheme proved successful and was quickly expanded.",
+          "vi": "Chương trình thí điểm tỏ ra thành công và nhanh chóng được mở rộng."
+        }
+      ]
+    },
+    {
+      "english": "prove useful",
+      "vietnamese": "tỏ ra hữu ích",
+      "ipa": "/pruːv ˈjuːsfəl/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "These notes may prove useful when you revise later.",
+          "vi": "Những ghi chú này có thể tỏ ra hữu ích khi bạn ôn lại sau."
+        },
+        {
+          "en": "The model proved useful for predicting seasonal demand.",
+          "vi": "Mô hình tỏ ra hữu ích trong việc dự đoán nhu cầu theo mùa."
+        },
+        {
+          "en": "Her language skills proved useful during the field study.",
+          "vi": "Kỹ năng ngôn ngữ của cô tỏ ra hữu ích trong chuyến nghiên cứu thực địa."
+        }
+      ]
+    },
+    {
+      "english": "provide access to",
+      "vietnamese": "cung cấp quyền truy cập đến",
+      "ipa": "/prəˈvaɪd ˈækses tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The library aims to provide access to digital archives.",
+          "vi": "Thư viện hướng tới cung cấp quyền truy cập đến kho lưu trữ số."
+        },
+        {
+          "en": "The program provides access to clean water in rural areas.",
+          "vi": "Chương trình cung cấp khả năng tiếp cận nước sạch ở vùng nông thôn."
+        },
+        {
+          "en": "Scholarships provide access to higher education for low-income students.",
+          "vi": "Học bổng cung cấp cơ hội tiếp cận giáo dục đại học cho sinh viên thu nhập thấp."
+        }
+      ]
+    },
+    {
+      "english": "provide assistance",
+      "vietnamese": "cung cấp sự hỗ trợ",
+      "ipa": "/prəˈvaɪd əˈsɪstəns/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Volunteers provide assistance to families affected by the flood.",
+          "vi": "Tình nguyện viên cung cấp sự hỗ trợ cho các gia đình bị ảnh hưởng bởi lũ."
+        },
+        {
+          "en": "The office provides assistance to students with disabilities.",
+          "vi": "Văn phòng cung cấp sự hỗ trợ cho sinh viên khuyết tật."
+        },
+        {
+          "en": "International agencies provide assistance during humanitarian crises.",
+          "vi": "Các cơ quan quốc tế cung cấp sự hỗ trợ trong khủng hoảng nhân đạo."
+        }
+      ]
+    },
+    {
+      "english": "provide care",
+      "vietnamese": "cung cấp sự chăm sóc",
+      "ipa": "/prəˈvaɪd ker/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Nurses provide care for patients throughout the night.",
+          "vi": "Y tá cung cấp sự chăm sóc cho bệnh nhân suốt đêm."
+        },
+        {
+          "en": "The charity provides care for elderly people living alone.",
+          "vi": "Tổ chức từ thiện cung cấp sự chăm sóc cho người già sống một mình."
+        },
+        {
+          "en": "Family members often provide care without any formal training.",
+          "vi": "Các thành viên gia đình thường cung cấp sự chăm sóc mà không được đào tạo chính thức."
+        }
+      ]
+    },
+    {
+      "english": "provide context",
+      "vietnamese": "cung cấp bối cảnh",
+      "ipa": "/prəˈvaɪd ˈkɑːntekst/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The introduction provides context for the entire argument.",
+          "vi": "Phần mở đầu cung cấp bối cảnh cho toàn bộ lập luận."
+        },
+        {
+          "en": "Historical examples provide context for current political debates.",
+          "vi": "Các ví dụ lịch sử cung cấp bối cảnh cho các cuộc tranh luận chính trị hiện nay."
+        },
+        {
+          "en": "A short summary can provide context for new readers.",
+          "vi": "Một bản tóm tắt ngắn có thể cung cấp bối cảnh cho độc giả mới."
+        }
+      ]
+    },
+    {
+      "english": "provide coverage",
+      "vietnamese": "cung cấp sự bao phủ",
+      "ipa": "/prəˈvaɪd ˈkʌvərɪdʒ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The policy provides coverage for both accidents and illness.",
+          "vi": "Chính sách cung cấp sự bảo hiểm cho cả tai nạn lẫn bệnh tật."
+        },
+        {
+          "en": "New towers provide coverage to previously unconnected rural areas.",
+          "vi": "Các cột phát sóng mới cung cấp sự phủ sóng cho vùng nông thôn trước đây chưa kết nối."
+        },
+        {
+          "en": "The network struggles to provide coverage in mountainous regions.",
+          "vi": "Mạng lưới gặp khó khăn trong việc cung cấp phủ sóng ở vùng núi."
+        }
+      ]
+    },
+    {
+      "english": "provide data",
+      "vietnamese": "cung cấp dữ liệu",
+      "ipa": "/prəˈvaɪd ˈdeɪtə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The sensors provide data on temperature and humidity continuously.",
+          "vi": "Các cảm biến cung cấp dữ liệu về nhiệt độ và độ ẩm liên tục."
+        },
+        {
+          "en": "Participants agreed to provide data for the long-term study.",
+          "vi": "Người tham gia đồng ý cung cấp dữ liệu cho nghiên cứu dài hạn."
+        },
+        {
+          "en": "The census provides data used by planners and researchers.",
+          "vi": "Cuộc điều tra dân số cung cấp dữ liệu cho các nhà quy hoạch và nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "provide details",
+      "vietnamese": "cung cấp chi tiết",
+      "ipa": "/prəˈvaɪd ˈdiːteɪlz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Please provide details of your previous work experience.",
+          "vi": "Vui lòng cung cấp chi tiết về kinh nghiệm làm việc trước đây của bạn."
+        },
+        {
+          "en": "The report fails to provide details about the methodology.",
+          "vi": "Báo cáo không cung cấp chi tiết về phương pháp luận."
+        },
+        {
+          "en": "The website provides details on opening hours and fees.",
+          "vi": "Trang web cung cấp chi tiết về giờ mở cửa và phí."
+        }
+      ]
+    }
+  ]
+}

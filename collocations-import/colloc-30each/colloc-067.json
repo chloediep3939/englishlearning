@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 67/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 67/83"
+  },
+  "cards": [
+    {
+      "english": "revised edition",
+      "vietnamese": "ấn bản sửa đổi",
+      "ipa": "/rɪˈvaɪzd ɪˈdɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The revised edition of the textbook includes several new chapters.",
+          "vi": "Ấn bản sửa đổi của giáo trình bao gồm vài chương mới."
+        },
+        {
+          "en": "Students were told to buy the revised edition this year.",
+          "vi": "Sinh viên được yêu cầu mua ấn bản sửa đổi năm nay."
+        },
+        {
+          "en": "The revised edition corrects many errors found in earlier printings.",
+          "vi": "Ấn bản sửa đổi sửa nhiều lỗi tìm thấy trong các bản in trước."
+        }
+      ]
+    },
+    {
+      "english": "revised version",
+      "vietnamese": "phiên bản sửa đổi",
+      "ipa": "/rɪˈvaɪzd ˈvɜːrʒən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She submitted a revised version of her essay after feedback.",
+          "vi": "Cô ấy nộp một phiên bản sửa đổi của bài luận sau khi nhận phản hồi."
+        },
+        {
+          "en": "The revised version of the policy addresses earlier concerns.",
+          "vi": "Phiên bản sửa đổi của chính sách giải quyết những lo ngại trước đó."
+        },
+        {
+          "en": "Please read the revised version before the meeting tomorrow.",
+          "vi": "Hãy đọc phiên bản sửa đổi trước cuộc họp ngày mai."
+        }
+      ]
+    },
+    {
+      "english": "rich source",
+      "vietnamese": "nguồn dồi dào, phong phú",
+      "ipa": "/rɪtʃ sɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Old newspapers are a rich source of historical information.",
+          "vi": "Những tờ báo cũ là một nguồn thông tin lịch sử phong phú."
+        },
+        {
+          "en": "Vegetables are a rich source of vitamins and fiber.",
+          "vi": "Rau củ là một nguồn dồi dào vitamin và chất xơ."
+        },
+        {
+          "en": "Interviews provided a rich source of data for the study.",
+          "vi": "Các cuộc phỏng vấn cung cấp một nguồn dữ liệu phong phú cho nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "rising cost",
+      "vietnamese": "chi phí tăng cao",
+      "ipa": "/ˈraɪzɪŋ kɔːst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The rising cost of housing worries many young families.",
+          "vi": "Chi phí nhà ở tăng cao khiến nhiều gia đình trẻ lo lắng."
+        },
+        {
+          "en": "Universities struggle with the rising cost of research equipment.",
+          "vi": "Các trường đại học chật vật với chi phí thiết bị nghiên cứu tăng cao."
+        },
+        {
+          "en": "The rising cost of fuel affected the whole economy.",
+          "vi": "Chi phí nhiên liệu tăng cao ảnh hưởng đến toàn bộ nền kinh tế."
+        }
+      ]
+    },
+    {
+      "english": "risk assessment",
+      "vietnamese": "việc đánh giá rủi ro",
+      "ipa": "/rɪsk əˈsesmənt/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "A careful risk assessment was completed before the project began.",
+          "vi": "Một bản đánh giá rủi ro kỹ lưỡng đã hoàn thành trước khi dự án bắt đầu."
+        },
+        {
+          "en": "Banks use risk assessment to decide whether to grant loans.",
+          "vi": "Ngân hàng dùng việc đánh giá rủi ro để quyết định cho vay hay không."
+        },
+        {
+          "en": "The risk assessment identified several potential safety hazards.",
+          "vi": "Việc đánh giá rủi ro đã xác định một số nguy cơ an toàn tiềm ẩn."
+        }
+      ]
+    },
+    {
+      "english": "roughly equal",
+      "vietnamese": "gần như bằng nhau",
+      "ipa": "/ˈrʌfli ˈiːkwəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The two groups were roughly equal in size and ability.",
+          "vi": "Hai nhóm gần như bằng nhau về quy mô và năng lực."
+        },
+        {
+          "en": "Both candidates received a roughly equal share of votes.",
+          "vi": "Cả hai ứng viên nhận được số phiếu gần như bằng nhau."
+        },
+        {
+          "en": "The costs and benefits turned out to be roughly equal.",
+          "vi": "Chi phí và lợi ích hóa ra gần như bằng nhau."
+        }
+      ]
+    },
+    {
+      "english": "roughly equivalent",
+      "vietnamese": "gần như tương đương",
+      "ipa": "/ˈrʌfli ɪˈkwɪvələnt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "One mile is roughly equivalent to one point six kilometers.",
+          "vi": "Một dặm gần như tương đương với một phẩy sáu kilômét."
+        },
+        {
+          "en": "His salary is roughly equivalent to the national average.",
+          "vi": "Lương của anh ấy gần như tương đương mức trung bình toàn quốc."
+        },
+        {
+          "en": "The two degrees are roughly equivalent in academic value.",
+          "vi": "Hai tấm bằng gần như tương đương về giá trị học thuật."
+        }
+      ]
+    },
+    {
+      "english": "ruling class",
+      "vietnamese": "giai cấp thống trị",
+      "ipa": "/ˈruːlɪŋ klæs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The ruling class held most of the country's wealth.",
+          "vi": "Giai cấp thống trị nắm giữ phần lớn của cải của đất nước."
+        },
+        {
+          "en": "Historians study how the ruling class maintained its power.",
+          "vi": "Các nhà sử học nghiên cứu cách giai cấp thống trị duy trì quyền lực."
+        },
+        {
+          "en": "The revolution aimed to overthrow the old ruling class.",
+          "vi": "Cuộc cách mạng nhằm lật đổ giai cấp thống trị cũ."
+        }
+      ]
+    },
+    {
+      "english": "ruling party",
+      "vietnamese": "đảng cầm quyền",
+      "ipa": "/ˈruːlɪŋ ˈpɑːrti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The ruling party announced new economic reforms this week.",
+          "vi": "Đảng cầm quyền công bố các cải cách kinh tế mới trong tuần này."
+        },
+        {
+          "en": "Voters seemed dissatisfied with the ruling party's recent policies.",
+          "vi": "Cử tri có vẻ không hài lòng với các chính sách gần đây của đảng cầm quyền."
+        },
+        {
+          "en": "The ruling party won a comfortable majority in parliament.",
+          "vi": "Đảng cầm quyền giành đa số ghế thoải mái trong quốc hội."
+        }
+      ]
+    },
+    {
+      "english": "rural area",
+      "vietnamese": "khu vực nông thôn",
+      "ipa": "/ˈrʊrəl ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many people in the rural area lack access to hospitals.",
+          "vi": "Nhiều người ở khu vực nông thôn thiếu khả năng tiếp cận bệnh viện."
+        },
+        {
+          "en": "Internet connections remain slow in this remote rural area.",
+          "vi": "Kết nối internet vẫn còn chậm ở khu vực nông thôn xa xôi này."
+        },
+        {
+          "en": "Young people often leave the rural area to find work.",
+          "vi": "Người trẻ thường rời khu vực nông thôn để tìm việc làm."
+        }
+      ]
+    },
+    {
+      "english": "rural community",
+      "vietnamese": "cộng đồng nông thôn",
+      "ipa": "/ˈrʊrəl kəˈmjuːnəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The rural community depends heavily on farming for income.",
+          "vi": "Cộng đồng nông thôn phụ thuộc nhiều vào nông nghiệp để kiếm thu nhập."
+        },
+        {
+          "en": "New roads connected the rural community to nearby towns.",
+          "vi": "Những con đường mới nối cộng đồng nông thôn với các thị trấn gần đó."
+        },
+        {
+          "en": "Researchers studied health needs in a small rural community.",
+          "vi": "Các nhà nghiên cứu khảo sát nhu cầu sức khỏe ở một cộng đồng nông thôn nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "rural economy",
+      "vietnamese": "kinh tế nông thôn",
+      "ipa": "/ˈrʊrəl ɪˈkɑːnəmi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The rural economy suffered after the factory closed down.",
+          "vi": "Kinh tế nông thôn bị ảnh hưởng sau khi nhà máy đóng cửa."
+        },
+        {
+          "en": "Tourism has helped diversify the local rural economy.",
+          "vi": "Du lịch đã giúp đa dạng hóa nền kinh tế nông thôn địa phương."
+        },
+        {
+          "en": "Government grants aim to strengthen the struggling rural economy.",
+          "vi": "Các khoản tài trợ của chính phủ nhằm củng cố nền kinh tế nông thôn đang khó khăn."
+        }
+      ]
+    },
+    {
+      "english": "rural population",
+      "vietnamese": "dân số nông thôn",
+      "ipa": "/ˈrʊrəl ˌpɑːpjəˈleɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The rural population has declined steadily over recent decades.",
+          "vi": "Dân số nông thôn đã giảm đều trong những thập kỷ gần đây."
+        },
+        {
+          "en": "Most of the rural population works in agriculture.",
+          "vi": "Phần lớn dân số nông thôn làm việc trong lĩnh vực nông nghiệp."
+        },
+        {
+          "en": "Health services struggle to reach the scattered rural population.",
+          "vi": "Các dịch vụ y tế khó tiếp cận được dân số nông thôn rải rác."
+        }
+      ]
+    },
+    {
+      "english": "rural society",
+      "vietnamese": "xã hội nông thôn",
+      "ipa": "/ˈrʊrəl səˈsaɪəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Traditional values remain strong in this rural society.",
+          "vi": "Các giá trị truyền thống vẫn còn mạnh mẽ trong xã hội nông thôn này."
+        },
+        {
+          "en": "Industrialization gradually transformed the old rural society.",
+          "vi": "Công nghiệp hóa dần dần biến đổi xã hội nông thôn cũ."
+        },
+        {
+          "en": "Family ties play a central role in rural society.",
+          "vi": "Mối quan hệ gia đình đóng vai trò trung tâm trong xã hội nông thôn."
+        }
+      ]
+    },
+    {
+      "english": "safe sex",
+      "vietnamese": "tình dục an toàn",
+      "ipa": "/seɪf seks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Health campaigns encourage young people to practice safe sex.",
+          "vi": "Các chiến dịch sức khỏe khuyến khích người trẻ thực hành tình dục an toàn."
+        },
+        {
+          "en": "Teachers discussed safe sex during the health education class.",
+          "vi": "Giáo viên thảo luận về tình dục an toàn trong giờ giáo dục sức khỏe."
+        },
+        {
+          "en": "Practicing safe sex helps prevent the spread of disease.",
+          "vi": "Thực hành tình dục an toàn giúp ngăn ngừa lây lan bệnh tật."
+        }
+      ]
+    },
+    {
+      "english": "salient characteristic",
+      "vietnamese": "đặc điểm nổi bật",
+      "ipa": "/ˈseɪliənt ˌkerəktəˈrɪstɪk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Honesty is a salient characteristic of his leadership style.",
+          "vi": "Sự trung thực là một đặc điểm nổi bật trong phong cách lãnh đạo của anh ấy."
+        },
+        {
+          "en": "The author describes the salient characteristic of each species.",
+          "vi": "Tác giả mô tả đặc điểm nổi bật của mỗi loài."
+        },
+        {
+          "en": "Curiosity is a salient characteristic of successful researchers.",
+          "vi": "Tính tò mò là một đặc điểm nổi bật của các nhà nghiên cứu thành công."
+        }
+      ]
+    },
+    {
+      "english": "salient feature",
+      "vietnamese": "đặc trưng nổi bật",
+      "ipa": "/ˈseɪliənt ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report highlights the salient feature of each proposal.",
+          "vi": "Báo cáo nhấn mạnh đặc trưng nổi bật của mỗi đề xuất."
+        },
+        {
+          "en": "A salient feature of the design is its simplicity.",
+          "vi": "Một đặc trưng nổi bật của thiết kế là sự đơn giản của nó."
+        },
+        {
+          "en": "Students should identify the salient feature of the painting.",
+          "vi": "Học sinh nên xác định đặc trưng nổi bật của bức tranh."
+        }
+      ]
+    },
+    {
+      "english": "scarce resources",
+      "vietnamese": "nguồn lực khan hiếm",
+      "ipa": "/skers ˈriːsɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Managers must allocate scarce resources as efficiently as possible.",
+          "vi": "Người quản lý phải phân bổ các nguồn lực khan hiếm hiệu quả nhất có thể."
+        },
+        {
+          "en": "Wars often break out over scarce resources like water.",
+          "vi": "Chiến tranh thường nổ ra vì các nguồn lực khan hiếm như nước."
+        },
+        {
+          "en": "Economics studies how people use scarce resources wisely.",
+          "vi": "Kinh tế học nghiên cứu cách con người sử dụng nguồn lực khan hiếm một cách khôn ngoan."
+        }
+      ]
+    },
+    {
+      "english": "schematic representation",
+      "vietnamese": "biểu diễn dạng sơ đồ",
+      "ipa": "/skɪˈmætɪk ˌreprɪzenˈteɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The diagram offers a schematic representation of the process.",
+          "vi": "Sơ đồ cung cấp một biểu diễn dạng sơ đồ của quá trình."
+        },
+        {
+          "en": "A schematic representation helps readers grasp complex relationships quickly.",
+          "vi": "Biểu diễn dạng sơ đồ giúp người đọc nắm bắt các mối quan hệ phức tạp nhanh chóng."
+        },
+        {
+          "en": "The textbook includes a schematic representation of the human heart.",
+          "vi": "Giáo trình có một biểu diễn dạng sơ đồ của tim người."
+        }
+      ]
+    },
+    {
+      "english": "scholarly journal",
+      "vietnamese": "tạp chí học thuật",
+      "ipa": "/ˈskɑːlərli ˈdʒɜːrnəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her article appeared in a respected scholarly journal last year.",
+          "vi": "Bài viết của cô ấy xuất hiện trên một tạp chí học thuật uy tín năm ngoái."
+        },
+        {
+          "en": "A scholarly journal usually requires peer review before publication.",
+          "vi": "Một tạp chí học thuật thường yêu cầu phản biện trước khi xuất bản."
+        },
+        {
+          "en": "Students should cite a scholarly journal rather than a blog.",
+          "vi": "Sinh viên nên trích dẫn tạp chí học thuật thay vì một blog."
+        }
+      ]
+    },
+    {
+      "english": "scholarly literature",
+      "vietnamese": "tài liệu học thuật",
+      "ipa": "/ˈskɑːlərli ˈlɪtərətʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The thesis reviews recent scholarly literature on the topic.",
+          "vi": "Luận văn tổng quan tài liệu học thuật gần đây về chủ đề này."
+        },
+        {
+          "en": "Much scholarly literature supports this particular interpretation.",
+          "vi": "Nhiều tài liệu học thuật ủng hộ cách diễn giải cụ thể này."
+        },
+        {
+          "en": "Searching scholarly literature is the first step in research.",
+          "vi": "Tìm kiếm tài liệu học thuật là bước đầu tiên trong nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "scholarly research",
+      "vietnamese": "nghiên cứu học thuật",
+      "ipa": "/ˈskɑːlərli ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Years of scholarly research went into writing this book.",
+          "vi": "Nhiều năm nghiên cứu học thuật đã được dành để viết cuốn sách này."
+        },
+        {
+          "en": "Scholarly research must follow strict ethical and methodological standards.",
+          "vi": "Nghiên cứu học thuật phải tuân theo các chuẩn mực đạo đức và phương pháp nghiêm ngặt."
+        },
+        {
+          "en": "The library supports scholarly research with extensive online databases.",
+          "vi": "Thư viện hỗ trợ nghiên cứu học thuật bằng các cơ sở dữ liệu trực tuyến phong phú."
+        }
+      ]
+    },
+    {
+      "english": "scholarly work",
+      "vietnamese": "công trình học thuật",
+      "ipa": "/ˈskɑːlərli wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her scholarly work has influenced many younger researchers.",
+          "vi": "Công trình học thuật của bà đã ảnh hưởng đến nhiều nhà nghiên cứu trẻ hơn."
+        },
+        {
+          "en": "This scholarly work is widely cited across several disciplines.",
+          "vi": "Công trình học thuật này được trích dẫn rộng rãi trong nhiều ngành."
+        },
+        {
+          "en": "Producing serious scholarly work requires patience and discipline.",
+          "vi": "Tạo ra công trình học thuật nghiêm túc đòi hỏi sự kiên nhẫn và kỷ luật."
+        }
+      ]
+    },
+    {
+      "english": "scientific community",
+      "vietnamese": "cộng đồng khoa học",
+      "ipa": "/ˌsaɪənˈtɪfɪk kəˈmjuːnəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The discovery surprised much of the scientific community.",
+          "vi": "Phát hiện này khiến phần lớn cộng đồng khoa học ngạc nhiên."
+        },
+        {
+          "en": "The scientific community generally accepts the theory of evolution.",
+          "vi": "Cộng đồng khoa học nhìn chung chấp nhận thuyết tiến hóa."
+        },
+        {
+          "en": "Her findings were quickly shared with the scientific community.",
+          "vi": "Các phát hiện của cô ấy nhanh chóng được chia sẻ với cộng đồng khoa học."
+        }
+      ]
+    },
+    {
+      "english": "scientific discourse",
+      "vietnamese": "diễn ngôn khoa học",
+      "ipa": "/ˌsaɪənˈtɪfɪk ˈdɪskɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Scientific discourse relies on clear evidence and logical argument.",
+          "vi": "Diễn ngôn khoa học dựa trên bằng chứng rõ ràng và lập luận logic."
+        },
+        {
+          "en": "The journal contributes to ongoing scientific discourse about the climate.",
+          "vi": "Tạp chí đóng góp vào diễn ngôn khoa học đang diễn ra về khí hậu."
+        },
+        {
+          "en": "Precise terminology is essential in formal scientific discourse.",
+          "vi": "Thuật ngữ chính xác là điều thiết yếu trong diễn ngôn khoa học chính thức."
+        }
+      ]
+    },
+    {
+      "english": "scientific evidence",
+      "vietnamese": "bằng chứng khoa học",
+      "ipa": "/ˌsaɪənˈtɪfɪk ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is strong scientific evidence linking smoking to cancer.",
+          "vi": "Có bằng chứng khoa học mạnh mẽ liên kết hút thuốc với ung thư."
+        },
+        {
+          "en": "Policy decisions should be based on solid scientific evidence.",
+          "vi": "Các quyết định chính sách nên dựa trên bằng chứng khoa học vững chắc."
+        },
+        {
+          "en": "The claim lacks any reliable scientific evidence to support it.",
+          "vi": "Khẳng định này thiếu bất kỳ bằng chứng khoa học đáng tin cậy nào để hỗ trợ."
+        }
+      ]
+    },
+    {
+      "english": "scientific investigation",
+      "vietnamese": "cuộc điều tra khoa học",
+      "ipa": "/ˌsaɪənˈtɪfɪk ɪnˌvestɪˈɡeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A careful scientific investigation revealed the cause of the outbreak.",
+          "vi": "Một cuộc điều tra khoa học kỹ lưỡng đã làm rõ nguyên nhân của đợt bùng phát."
+        },
+        {
+          "en": "Scientific investigation begins with a clear, testable question.",
+          "vi": "Điều tra khoa học bắt đầu bằng một câu hỏi rõ ràng, có thể kiểm chứng."
+        },
+        {
+          "en": "The accident prompted a thorough scientific investigation by experts.",
+          "vi": "Vụ tai nạn đã thúc đẩy một cuộc điều tra khoa học kỹ lưỡng bởi các chuyên gia."
+        }
+      ]
+    },
+    {
+      "english": "scientific method",
+      "vietnamese": "phương pháp khoa học",
+      "ipa": "/ˌsaɪənˈtɪfɪk ˈmeθəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The scientific method involves observation, hypothesis, and careful testing.",
+          "vi": "Phương pháp khoa học bao gồm quan sát, giả thuyết và kiểm chứng cẩn thận."
+        },
+        {
+          "en": "Students learn the scientific method early in their education.",
+          "vi": "Học sinh học phương pháp khoa học sớm trong quá trình học tập."
+        },
+        {
+          "en": "Applying the scientific method reduces bias in research results.",
+          "vi": "Áp dụng phương pháp khoa học làm giảm thiên kiến trong kết quả nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "scientific objectivity",
+      "vietnamese": "tính khách quan khoa học",
+      "ipa": "/ˌsaɪənˈtɪfɪk ˌɑːbdʒekˈtɪvəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Scientific objectivity requires researchers to set aside personal beliefs.",
+          "vi": "Tính khách quan khoa học đòi hỏi nhà nghiên cứu gạt bỏ niềm tin cá nhân."
+        },
+        {
+          "en": "Critics questioned the scientific objectivity of the funded study.",
+          "vi": "Các nhà phê bình nghi ngờ tính khách quan khoa học của nghiên cứu được tài trợ."
+        },
+        {
+          "en": "Maintaining scientific objectivity is difficult when emotions run high.",
+          "vi": "Duy trì tính khách quan khoa học rất khó khi cảm xúc dâng cao."
+        }
+      ]
+    },
+    {
+      "english": "scientific research",
+      "vietnamese": "nghiên cứu khoa học",
+      "ipa": "/ˌsaɪənˈtɪfɪk ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The government invests heavily in scientific research each year.",
+          "vi": "Chính phủ đầu tư mạnh vào nghiên cứu khoa học mỗi năm."
+        },
+        {
+          "en": "Scientific research often takes years to produce useful results.",
+          "vi": "Nghiên cứu khoa học thường mất nhiều năm để tạo ra kết quả hữu ích."
+        },
+        {
+          "en": "New technology has greatly accelerated modern scientific research.",
+          "vi": "Công nghệ mới đã đẩy nhanh đáng kể nghiên cứu khoa học hiện đại."
+        }
+      ]
+    }
+  ]
+}

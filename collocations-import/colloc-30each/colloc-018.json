@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 18/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 18/83"
+  },
+  "cards": [
+    {
+      "english": "developmental process",
+      "vietnamese": "quá trình phát triển",
+      "ipa": "/dɪˌveləpˈmentəl ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Language learning is a slow developmental process in children.",
+          "vi": "Việc học ngôn ngữ là một quá trình phát triển chậm ở trẻ em."
+        },
+        {
+          "en": "The book explains each step of the developmental process.",
+          "vi": "Cuốn sách giải thích từng bước của quá trình phát triển."
+        },
+        {
+          "en": "Stress can interrupt the normal developmental process of cells.",
+          "vi": "Căng thẳng có thể làm gián đoạn quá trình phát triển bình thường của tế bào."
+        }
+      ]
+    },
+    {
+      "english": "developmental stage",
+      "vietnamese": "giai đoạn phát triển",
+      "ipa": "/dɪˌveləpˈmentəl steɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each developmental stage brings new skills for the child.",
+          "vi": "Mỗi giai đoạn phát triển mang lại những kỹ năng mới cho trẻ."
+        },
+        {
+          "en": "The plant reaches a developmental stage where it flowers.",
+          "vi": "Cây đạt tới giai đoạn phát triển mà nó nở hoa."
+        },
+        {
+          "en": "Teachers adapt lessons to the pupil's developmental stage.",
+          "vi": "Giáo viên điều chỉnh bài học theo giai đoạn phát triển của học sinh."
+        }
+      ]
+    },
+    {
+      "english": "diagnostic test",
+      "vietnamese": "bài kiểm tra chẩn đoán",
+      "ipa": "/ˌdaɪəɡˈnɑːstɪk test/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The doctor ordered a diagnostic test to confirm the illness.",
+          "vi": "Bác sĩ chỉ định một bài kiểm tra chẩn đoán để xác nhận bệnh."
+        },
+        {
+          "en": "Students take a diagnostic test at the start of the course.",
+          "vi": "Sinh viên làm một bài kiểm tra chẩn đoán đầu khóa học."
+        },
+        {
+          "en": "A simple diagnostic test can detect the problem early.",
+          "vi": "Một bài kiểm tra chẩn đoán đơn giản có thể phát hiện sớm vấn đề."
+        }
+      ]
+    },
+    {
+      "english": "differ considerably",
+      "vietnamese": "khác nhau đáng kể",
+      "ipa": "/ˈdɪfər kənˈsɪdərəbli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Prices differ considerably between the two cities.",
+          "vi": "Giá cả khác nhau đáng kể giữa hai thành phố."
+        },
+        {
+          "en": "Opinions on the matter differ considerably among experts.",
+          "vi": "Quan điểm về vấn đề này khác nhau đáng kể giữa các chuyên gia."
+        },
+        {
+          "en": "The results differ considerably from those of earlier studies.",
+          "vi": "Kết quả khác nhau đáng kể so với các nghiên cứu trước."
+        }
+      ]
+    },
+    {
+      "english": "differ significantly",
+      "vietnamese": "khác nhau rõ rệt",
+      "ipa": "/ˈdɪfər sɪɡˈnɪfɪkəntli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "The two groups differ significantly in their test scores.",
+          "vi": "Hai nhóm khác nhau rõ rệt về điểm kiểm tra."
+        },
+        {
+          "en": "Climate patterns differ significantly from region to region.",
+          "vi": "Kiểu khí hậu khác nhau rõ rệt giữa các vùng."
+        },
+        {
+          "en": "Male and female responses did not differ significantly.",
+          "vi": "Phản hồi của nam và nữ không khác nhau rõ rệt."
+        }
+      ]
+    },
+    {
+      "english": "differ widely",
+      "vietnamese": "khác nhau rất nhiều",
+      "ipa": "/ˈdɪfər ˈwaɪdli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Customs differ widely from one country to another.",
+          "vi": "Phong tục khác nhau rất nhiều giữa các quốc gia."
+        },
+        {
+          "en": "Estimates of the cost differ widely among analysts.",
+          "vi": "Các ước tính về chi phí khác nhau rất nhiều giữa các nhà phân tích."
+        },
+        {
+          "en": "Teaching styles differ widely across the schools surveyed.",
+          "vi": "Phong cách giảng dạy khác nhau rất nhiều giữa các trường được khảo sát."
+        }
+      ]
+    },
+    {
+      "english": "digital information",
+      "vietnamese": "thông tin số",
+      "ipa": "/ˈdɪdʒətəl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Libraries now store vast amounts of digital information.",
+          "vi": "Các thư viện hiện lưu trữ lượng lớn thông tin số."
+        },
+        {
+          "en": "Protecting digital information is a key concern for companies.",
+          "vi": "Bảo vệ thông tin số là mối quan tâm chính của các công ty."
+        },
+        {
+          "en": "Digital information can be shared across the world instantly.",
+          "vi": "Thông tin số có thể được chia sẻ khắp thế giới ngay lập tức."
+        }
+      ]
+    },
+    {
+      "english": "digital media",
+      "vietnamese": "phương tiện truyền thông số",
+      "ipa": "/ˈdɪdʒətəl ˈmiːdiə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Young people spend many hours using digital media daily.",
+          "vi": "Người trẻ dành nhiều giờ mỗi ngày để dùng truyền thông số."
+        },
+        {
+          "en": "Digital media have changed how news reaches the public.",
+          "vi": "Truyền thông số đã thay đổi cách tin tức đến với công chúng."
+        },
+        {
+          "en": "The course explores the impact of digital media on society.",
+          "vi": "Khóa học tìm hiểu tác động của truyền thông số lên xã hội."
+        }
+      ]
+    },
+    {
+      "english": "digital technology",
+      "vietnamese": "công nghệ số",
+      "ipa": "/ˈdɪdʒətəl tekˈnɑːlədʒi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Digital technology has transformed the way we communicate.",
+          "vi": "Công nghệ số đã thay đổi cách chúng ta giao tiếp."
+        },
+        {
+          "en": "Schools invest in digital technology to support learning.",
+          "vi": "Các trường đầu tư vào công nghệ số để hỗ trợ việc học."
+        },
+        {
+          "en": "Many jobs now require basic digital technology skills.",
+          "vi": "Nhiều công việc hiện đòi hỏi kỹ năng công nghệ số cơ bản."
+        }
+      ]
+    },
+    {
+      "english": "direct access",
+      "vietnamese": "quyền truy cập trực tiếp",
+      "ipa": "/dɪˈrekt ˈækses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Members enjoy direct access to the research database.",
+          "vi": "Thành viên được quyền truy cập trực tiếp vào cơ sở dữ liệu nghiên cứu."
+        },
+        {
+          "en": "The app gives users direct access to their account details.",
+          "vi": "Ứng dụng cho người dùng truy cập trực tiếp thông tin tài khoản."
+        },
+        {
+          "en": "Patients now have direct access to their medical records.",
+          "vi": "Bệnh nhân giờ có quyền truy cập trực tiếp hồ sơ y tế của mình."
+        }
+      ]
+    },
+    {
+      "english": "direct communication",
+      "vietnamese": "giao tiếp trực tiếp",
+      "ipa": "/dɪˈrekt kəˌmjuːnɪˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Direct communication between teams prevents misunderstandings.",
+          "vi": "Giao tiếp trực tiếp giữa các nhóm ngăn ngừa hiểu lầm."
+        },
+        {
+          "en": "The manager values direct communication with her staff.",
+          "vi": "Người quản lý coi trọng giao tiếp trực tiếp với nhân viên."
+        },
+        {
+          "en": "Direct communication is often faster than long email chains.",
+          "vi": "Giao tiếp trực tiếp thường nhanh hơn những chuỗi email dài."
+        }
+      ]
+    },
+    {
+      "english": "direct consequences",
+      "vietnamese": "hậu quả trực tiếp",
+      "ipa": "/dɪˈrekt ˈkɑːnsəkwensəz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Pollution has direct consequences for public health.",
+          "vi": "Ô nhiễm có những hậu quả trực tiếp đối với sức khỏe cộng đồng."
+        },
+        {
+          "en": "The policy had direct consequences for small businesses.",
+          "vi": "Chính sách đó đã gây hậu quả trực tiếp cho các doanh nghiệp nhỏ."
+        },
+        {
+          "en": "Cutting funding had direct consequences for the program.",
+          "vi": "Việc cắt kinh phí gây hậu quả trực tiếp cho chương trình."
+        }
+      ]
+    },
+    {
+      "english": "direct contact",
+      "vietnamese": "tiếp xúc trực tiếp",
+      "ipa": "/dɪˈrekt ˈkɑːntækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The disease spreads through direct contact with the skin.",
+          "vi": "Bệnh lây lan qua tiếp xúc trực tiếp với da."
+        },
+        {
+          "en": "Sales staff keep direct contact with their main clients.",
+          "vi": "Nhân viên bán hàng giữ tiếp xúc trực tiếp với khách hàng chính."
+        },
+        {
+          "en": "Avoid direct contact between the chemical and your eyes.",
+          "vi": "Tránh để hóa chất tiếp xúc trực tiếp với mắt bạn."
+        }
+      ]
+    },
+    {
+      "english": "direct evidence",
+      "vietnamese": "bằng chứng trực tiếp",
+      "ipa": "/dɪˈrekt ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is direct evidence linking smoking to lung cancer.",
+          "vi": "Có bằng chứng trực tiếp liên hệ hút thuốc với ung thư phổi."
+        },
+        {
+          "en": "The study found direct evidence of climate change effects.",
+          "vi": "Nghiên cứu tìm thấy bằng chứng trực tiếp về tác động biến đổi khí hậu."
+        },
+        {
+          "en": "Without direct evidence, the theory remains unproven.",
+          "vi": "Nếu thiếu bằng chứng trực tiếp, lý thuyết vẫn chưa được chứng minh."
+        }
+      ]
+    },
+    {
+      "english": "direct impact",
+      "vietnamese": "tác động trực tiếp",
+      "ipa": "/dɪˈrekt ˈɪmpækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new tax had a direct impact on household spending.",
+          "vi": "Thuế mới có tác động trực tiếp đến chi tiêu hộ gia đình."
+        },
+        {
+          "en": "Sleep has a direct impact on a student's performance.",
+          "vi": "Giấc ngủ có tác động trực tiếp đến kết quả của học sinh."
+        },
+        {
+          "en": "The drought had a direct impact on local farmers.",
+          "vi": "Hạn hán có tác động trực tiếp đến nông dân địa phương."
+        }
+      ]
+    },
+    {
+      "english": "direct involvement",
+      "vietnamese": "sự tham gia trực tiếp",
+      "ipa": "/dɪˈrekt ɪnˈvɑːlvmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The project succeeded thanks to direct involvement from staff.",
+          "vi": "Dự án thành công nhờ sự tham gia trực tiếp của nhân viên."
+        },
+        {
+          "en": "Her direct involvement made the campaign far more effective.",
+          "vi": "Sự tham gia trực tiếp của cô ấy khiến chiến dịch hiệu quả hơn nhiều."
+        },
+        {
+          "en": "The report questions the company's direct involvement in the deal.",
+          "vi": "Báo cáo đặt nghi vấn về sự tham gia trực tiếp của công ty vào thương vụ."
+        }
+      ]
+    },
+    {
+      "english": "direct link",
+      "vietnamese": "mối liên hệ trực tiếp",
+      "ipa": "/dɪˈrekt lɪŋk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Scientists found a direct link between diet and heart disease.",
+          "vi": "Các nhà khoa học tìm thấy mối liên hệ trực tiếp giữa ăn uống và bệnh tim."
+        },
+        {
+          "en": "There is a direct link between exercise and better mood.",
+          "vi": "Có mối liên hệ trực tiếp giữa tập thể dục và tâm trạng tốt hơn."
+        },
+        {
+          "en": "The data show a direct link between income and education.",
+          "vi": "Dữ liệu cho thấy mối liên hệ trực tiếp giữa thu nhập và học vấn."
+        }
+      ]
+    },
+    {
+      "english": "direct observation",
+      "vietnamese": "quan sát trực tiếp",
+      "ipa": "/dɪˈrekt ˌɑːbzərˈveɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The findings are based on direct observation of animal behavior.",
+          "vi": "Các phát hiện dựa trên quan sát trực tiếp hành vi động vật."
+        },
+        {
+          "en": "Direct observation gives richer data than surveys alone.",
+          "vi": "Quan sát trực tiếp cho dữ liệu phong phú hơn so với chỉ khảo sát."
+        },
+        {
+          "en": "Through direct observation, she recorded how children played.",
+          "vi": "Qua quan sát trực tiếp, cô ấy ghi lại cách trẻ em chơi."
+        }
+      ]
+    },
+    {
+      "english": "direct relationship",
+      "vietnamese": "mối quan hệ trực tiếp",
+      "ipa": "/dɪˈrekt rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a direct relationship between price and demand.",
+          "vi": "Có mối quan hệ trực tiếp giữa giá cả và nhu cầu."
+        },
+        {
+          "en": "The graph shows a direct relationship between the variables.",
+          "vi": "Biểu đồ cho thấy mối quan hệ trực tiếp giữa các biến số."
+        },
+        {
+          "en": "Researchers noted a direct relationship between stress and sleep.",
+          "vi": "Các nhà nghiên cứu ghi nhận mối quan hệ trực tiếp giữa căng thẳng và giấc ngủ."
+        }
+      ]
+    },
+    {
+      "english": "direct role",
+      "vietnamese": "vai trò trực tiếp",
+      "ipa": "/dɪˈrekt roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She played a direct role in shaping the new policy.",
+          "vi": "Cô ấy đóng vai trò trực tiếp trong việc định hình chính sách mới."
+        },
+        {
+          "en": "Sunlight plays a direct role in plant growth.",
+          "vi": "Ánh nắng đóng vai trò trực tiếp trong sự phát triển của cây."
+        },
+        {
+          "en": "The committee has a direct role in approving the budget.",
+          "vi": "Ủy ban có vai trò trực tiếp trong việc phê duyệt ngân sách."
+        }
+      ]
+    },
+    {
+      "english": "directly affect",
+      "vietnamese": "ảnh hưởng trực tiếp",
+      "ipa": "/dɪˈrektli əˈfekt/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "Interest rates directly affect the cost of borrowing money.",
+          "vi": "Lãi suất ảnh hưởng trực tiếp đến chi phí vay tiền."
+        },
+        {
+          "en": "Diet and sleep directly affect how well students learn.",
+          "vi": "Ăn uống và giấc ngủ ảnh hưởng trực tiếp đến việc học của học sinh."
+        },
+        {
+          "en": "Weather conditions directly affect crop yields each season.",
+          "vi": "Điều kiện thời tiết ảnh hưởng trực tiếp đến năng suất mùa màng."
+        }
+      ]
+    },
+    {
+      "english": "directly affected",
+      "vietnamese": "bị ảnh hưởng trực tiếp",
+      "ipa": "/dɪˈrektli əˈfektɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Coastal towns were directly affected by the rising sea levels.",
+          "vi": "Các thị trấn ven biển bị ảnh hưởng trực tiếp bởi mực nước biển dâng."
+        },
+        {
+          "en": "Workers directly affected by the closure received support.",
+          "vi": "Những công nhân bị ảnh hưởng trực tiếp bởi việc đóng cửa đã được hỗ trợ."
+        },
+        {
+          "en": "Families directly affected by the flood need urgent help.",
+          "vi": "Các gia đình bị ảnh hưởng trực tiếp bởi lũ lụt cần giúp đỡ khẩn cấp."
+        }
+      ]
+    },
+    {
+      "english": "directly connected to",
+      "vietnamese": "kết nối trực tiếp với",
+      "ipa": "/dɪˈrektli kəˈnektɪd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The printer is directly connected to the main computer.",
+          "vi": "Máy in được kết nối trực tiếp với máy tính chính."
+        },
+        {
+          "en": "Air quality is directly connected to public health outcomes.",
+          "vi": "Chất lượng không khí kết nối trực tiếp với sức khỏe cộng đồng."
+        },
+        {
+          "en": "These two ideas are directly connected to each other.",
+          "vi": "Hai ý tưởng này kết nối trực tiếp với nhau."
+        }
+      ]
+    },
+    {
+      "english": "directly involved in",
+      "vietnamese": "trực tiếp tham gia vào",
+      "ipa": "/dɪˈrektli ɪnˈvɑːlvd ɪn/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "She was directly involved in planning the conference.",
+          "vi": "Cô ấy trực tiếp tham gia vào việc lên kế hoạch hội nghị."
+        },
+        {
+          "en": "Students directly involved in the project learned the most.",
+          "vi": "Những sinh viên trực tiếp tham gia vào dự án học được nhiều nhất."
+        },
+        {
+          "en": "He was directly involved in the negotiations last year.",
+          "vi": "Ông ấy trực tiếp tham gia vào các cuộc đàm phán năm ngoái."
+        }
+      ]
+    },
+    {
+      "english": "directly linked to",
+      "vietnamese": "liên hệ trực tiếp với",
+      "ipa": "/dɪˈrektli lɪŋkt tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Poor diet is directly linked to many chronic diseases.",
+          "vi": "Ăn uống kém liên hệ trực tiếp với nhiều bệnh mãn tính."
+        },
+        {
+          "en": "The rise in sales is directly linked to the advertising.",
+          "vi": "Doanh số tăng liên hệ trực tiếp với việc quảng cáo."
+        },
+        {
+          "en": "Their success is directly linked to careful planning.",
+          "vi": "Thành công của họ liên hệ trực tiếp với việc lập kế hoạch kỹ lưỡng."
+        }
+      ]
+    },
+    {
+      "english": "directly proportional to",
+      "vietnamese": "tỷ lệ thuận trực tiếp với",
+      "ipa": "/dɪˈrektli prəˈpɔːrʃənəl tə/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The force is directly proportional to the mass of the object.",
+          "vi": "Lực tỷ lệ thuận trực tiếp với khối lượng của vật."
+        },
+        {
+          "en": "Pressure is directly proportional to temperature in this case.",
+          "vi": "Áp suất tỷ lệ thuận trực tiếp với nhiệt độ trong trường hợp này."
+        },
+        {
+          "en": "Profit was directly proportional to the number of sales.",
+          "vi": "Lợi nhuận tỷ lệ thuận trực tiếp với số lượng bán ra."
+        }
+      ]
+    },
+    {
+      "english": "directly related to",
+      "vietnamese": "liên quan trực tiếp đến",
+      "ipa": "/dɪˈrektli rɪˈleɪtɪd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "His complaint was directly related to the new schedule.",
+          "vi": "Khiếu nại của anh ấy liên quan trực tiếp đến lịch trình mới."
+        },
+        {
+          "en": "The questions are directly related to the course content.",
+          "vi": "Các câu hỏi liên quan trực tiếp đến nội dung khóa học."
+        },
+        {
+          "en": "Health problems here are directly related to air pollution.",
+          "vi": "Các vấn đề sức khỏe ở đây liên quan trực tiếp đến ô nhiễm không khí."
+        }
+      ]
+    },
+    {
+      "english": "directly relevant to",
+      "vietnamese": "liên quan thiết thực đến",
+      "ipa": "/dɪˈrektli ˈreləvənt tə/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "These findings are directly relevant to current policy debates.",
+          "vi": "Những phát hiện này liên quan thiết thực đến các tranh luận chính sách hiện nay."
+        },
+        {
+          "en": "Choose examples that are directly relevant to your topic.",
+          "vi": "Hãy chọn ví dụ liên quan thiết thực đến chủ đề của bạn."
+        },
+        {
+          "en": "The training was directly relevant to her daily work.",
+          "vi": "Khóa đào tạo liên quan thiết thực đến công việc hằng ngày của cô ấy."
+        }
+      ]
+    },
+    {
+      "english": "directly responsible for",
+      "vietnamese": "chịu trách nhiệm trực tiếp về",
+      "ipa": "/dɪˈrektli rɪˈspɑːnsəbəl fər/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The manager is directly responsible for the team's budget.",
+          "vi": "Người quản lý chịu trách nhiệm trực tiếp về ngân sách của nhóm."
+        },
+        {
+          "en": "Smoking is directly responsible for many early deaths.",
+          "vi": "Hút thuốc chịu trách nhiệm trực tiếp cho nhiều ca tử vong sớm."
+        },
+        {
+          "en": "She is directly responsible for training new employees.",
+          "vi": "Cô ấy chịu trách nhiệm trực tiếp về việc đào tạo nhân viên mới."
+        }
+      ]
+    },
+    {
+      "english": "disclose information",
+      "vietnamese": "tiết lộ thông tin",
+      "ipa": "/dɪsˈkloʊz ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Companies must disclose information about their finances.",
+          "vi": "Các công ty phải tiết lộ thông tin về tài chính của mình."
+        },
+        {
+          "en": "Doctors cannot disclose information without the patient's consent.",
+          "vi": "Bác sĩ không thể tiết lộ thông tin khi chưa có sự đồng ý của bệnh nhân."
+        },
+        {
+          "en": "The report refused to disclose information about its sources.",
+          "vi": "Báo cáo từ chối tiết lộ thông tin về nguồn của nó."
+        }
+      ]
+    }
+  ]
+}

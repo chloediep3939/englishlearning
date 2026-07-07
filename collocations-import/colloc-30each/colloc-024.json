@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 24/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 24/83"
+  },
+  "cards": [
+    {
+      "english": "equally likely",
+      "vietnamese": "có khả năng ngang nhau",
+      "ipa": "/ˈiːkwəli ˈlaɪkli/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Both outcomes are equally likely when the coin is fair.",
+          "vi": "Cả hai kết quả đều có khả năng ngang nhau khi đồng xu công bằng."
+        },
+        {
+          "en": "Men and women are equally likely to choose this career.",
+          "vi": "Nam và nữ có khả năng ngang nhau khi chọn nghề này."
+        },
+        {
+          "en": "It is equally likely that either team will win the match.",
+          "vi": "Khả năng ngang nhau cho việc đội nào cũng có thể thắng trận đấu."
+        }
+      ]
+    },
+    {
+      "english": "equally true",
+      "vietnamese": "cũng đúng như vậy",
+      "ipa": "/ˈiːkwəli truː/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The rule is equally true for beginners and experts alike.",
+          "vi": "Quy tắc này cũng đúng như vậy với cả người mới và chuyên gia."
+        },
+        {
+          "en": "What applies to one country is equally true for another.",
+          "vi": "Điều áp dụng cho một quốc gia cũng đúng như vậy với quốc gia khác."
+        },
+        {
+          "en": "This statement is equally true in theory and in practice.",
+          "vi": "Phát biểu này cũng đúng như vậy cả trên lý thuyết lẫn thực tế."
+        }
+      ]
+    },
+    {
+      "english": "equally valid",
+      "vietnamese": "có giá trị ngang nhau",
+      "ipa": "/ˈiːkwəli ˈvælɪd/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Both interpretations of the poem seem equally valid to me.",
+          "vi": "Cả hai cách diễn giải bài thơ với tôi đều có giá trị ngang nhau."
+        },
+        {
+          "en": "Her argument is equally valid despite using different evidence.",
+          "vi": "Lập luận của cô có giá trị ngang nhau dù dùng bằng chứng khác."
+        },
+        {
+          "en": "These two methods are equally valid for solving the equation.",
+          "vi": "Hai phương pháp này có giá trị ngang nhau để giải phương trình."
+        }
+      ]
+    },
+    {
+      "english": "essential component",
+      "vietnamese": "thành phần thiết yếu",
+      "ipa": "/ɪˈsenʃəl kəmˈpoʊnənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Trust is an essential component of any healthy relationship.",
+          "vi": "Lòng tin là thành phần thiết yếu của mọi mối quan hệ lành mạnh."
+        },
+        {
+          "en": "Water is an essential component of every living cell.",
+          "vi": "Nước là thành phần thiết yếu của mọi tế bào sống."
+        },
+        {
+          "en": "Practice is an essential component of learning a language.",
+          "vi": "Luyện tập là thành phần thiết yếu của việc học một ngôn ngữ."
+        }
+      ]
+    },
+    {
+      "english": "essential element",
+      "vietnamese": "yếu tố thiết yếu",
+      "ipa": "/ɪˈsenʃəl ˈeləmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Clear communication is an essential element of good teamwork.",
+          "vi": "Giao tiếp rõ ràng là yếu tố thiết yếu của làm việc nhóm tốt."
+        },
+        {
+          "en": "Suspense is an essential element of a gripping novel.",
+          "vi": "Sự hồi hộp là yếu tố thiết yếu của một cuốn tiểu thuyết hấp dẫn."
+        },
+        {
+          "en": "Sunlight is an essential element for healthy plant growth.",
+          "vi": "Ánh nắng là yếu tố thiết yếu cho sự phát triển khỏe mạnh của cây."
+        }
+      ]
+    },
+    {
+      "english": "essential feature",
+      "vietnamese": "đặc điểm thiết yếu",
+      "ipa": "/ɪˈsenʃəl ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Flexibility is an essential feature of the new software design.",
+          "vi": "Sự linh hoạt là đặc điểm thiết yếu của thiết kế phần mềm mới."
+        },
+        {
+          "en": "Symmetry is an essential feature of many traditional buildings.",
+          "vi": "Sự đối xứng là đặc điểm thiết yếu của nhiều tòa nhà truyền thống."
+        },
+        {
+          "en": "Repetition is an essential feature of effective advertising.",
+          "vi": "Sự lặp lại là đặc điểm thiết yếu của quảng cáo hiệu quả."
+        }
+      ]
+    },
+    {
+      "english": "essential function",
+      "vietnamese": "chức năng thiết yếu",
+      "ipa": "/ɪˈsenʃəl ˈfʌŋkʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The heart performs an essential function in the human body.",
+          "vi": "Tim thực hiện một chức năng thiết yếu trong cơ thể con người."
+        },
+        {
+          "en": "Storing memory is an essential function of the brain.",
+          "vi": "Lưu trữ ký ức là chức năng thiết yếu của não bộ."
+        },
+        {
+          "en": "Filtering waste is an essential function of the kidneys.",
+          "vi": "Lọc chất thải là chức năng thiết yếu của thận."
+        }
+      ]
+    },
+    {
+      "english": "essential information",
+      "vietnamese": "thông tin thiết yếu",
+      "ipa": "/ɪˈsenʃəl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The first page contains all the essential information you need.",
+          "vi": "Trang đầu chứa tất cả thông tin thiết yếu bạn cần."
+        },
+        {
+          "en": "Always read the essential information before signing any contract.",
+          "vi": "Hãy luôn đọc thông tin thiết yếu trước khi ký bất kỳ hợp đồng nào."
+        },
+        {
+          "en": "The guide highlights essential information for new travelers.",
+          "vi": "Cẩm nang nêu bật thông tin thiết yếu cho khách du lịch mới."
+        }
+      ]
+    },
+    {
+      "english": "essential role",
+      "vietnamese": "vai trò thiết yếu",
+      "ipa": "/ɪˈsenʃəl roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Teachers play an essential role in shaping young minds.",
+          "vi": "Giáo viên đóng vai trò thiết yếu trong việc định hình tư duy trẻ."
+        },
+        {
+          "en": "Bees serve an essential role in pollinating crops.",
+          "vi": "Ong giữ vai trò thiết yếu trong việc thụ phấn cho cây trồng."
+        },
+        {
+          "en": "Sleep has an essential role in maintaining good health.",
+          "vi": "Giấc ngủ có vai trò thiết yếu trong việc duy trì sức khỏe tốt."
+        }
+      ]
+    },
+    {
+      "english": "establish a relationship",
+      "vietnamese": "thiết lập một mối quan hệ",
+      "ipa": "/ɪˈstæblɪʃ ə rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Companies work hard to establish a relationship with new clients.",
+          "vi": "Các công ty nỗ lực để thiết lập một mối quan hệ với khách hàng mới."
+        },
+        {
+          "en": "It takes time to establish a relationship built on trust.",
+          "vi": "Cần thời gian để thiết lập một mối quan hệ dựa trên lòng tin."
+        },
+        {
+          "en": "The two nations sought to establish a relationship after the war.",
+          "vi": "Hai quốc gia tìm cách thiết lập một mối quan hệ sau chiến tranh."
+        }
+      ]
+    },
+    {
+      "english": "established order",
+      "vietnamese": "trật tự đã được thiết lập",
+      "ipa": "/ɪˈstæblɪʃt ˈɔːrdər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The revolution challenged the established order of the time.",
+          "vi": "Cuộc cách mạng thách thức trật tự đã được thiết lập của thời đó."
+        },
+        {
+          "en": "Many feared that the reforms would upset the established order.",
+          "vi": "Nhiều người lo rằng cải cách sẽ phá vỡ trật tự đã được thiết lập."
+        },
+        {
+          "en": "New ideas often clash with the established order in society.",
+          "vi": "Ý tưởng mới thường xung đột với trật tự đã được thiết lập trong xã hội."
+        }
+      ]
+    },
+    {
+      "english": "established practice",
+      "vietnamese": "thông lệ đã được thiết lập",
+      "ipa": "/ɪˈstæblɪʃt ˈpræktɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Reviewing the literature first is established practice in research.",
+          "vi": "Đọc tài liệu trước là thông lệ đã được thiết lập trong nghiên cứu."
+        },
+        {
+          "en": "It is established practice to back up data every evening.",
+          "vi": "Sao lưu dữ liệu mỗi tối là thông lệ đã được thiết lập."
+        },
+        {
+          "en": "Following the established practice helps avoid common mistakes.",
+          "vi": "Tuân theo thông lệ đã được thiết lập giúp tránh các lỗi phổ biến."
+        }
+      ]
+    },
+    {
+      "english": "established principle",
+      "vietnamese": "nguyên tắc đã được thiết lập",
+      "ipa": "/ɪˈstæblɪʃt ˈprɪnsəpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Fair trial is an established principle in most legal systems.",
+          "vi": "Xét xử công bằng là nguyên tắc đã được thiết lập trong hầu hết hệ thống pháp luật."
+        },
+        {
+          "en": "The theory rests on a well established principle of physics.",
+          "vi": "Lý thuyết dựa trên một nguyên tắc vật lý đã được thiết lập vững chắc."
+        },
+        {
+          "en": "Respect for others is an established principle in our school.",
+          "vi": "Tôn trọng người khác là nguyên tắc đã được thiết lập ở trường chúng tôi."
+        }
+      ]
+    },
+    {
+      "english": "ethical consideration",
+      "vietnamese": "cân nhắc về đạo đức",
+      "ipa": "/ˈeθɪkəl kənˌsɪdəˈreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every medical trial must take ethical consideration into account.",
+          "vi": "Mọi thử nghiệm y khoa phải tính đến cân nhắc về đạo đức."
+        },
+        {
+          "en": "Ethical consideration guided the researchers throughout the study.",
+          "vi": "Cân nhắc về đạo đức dẫn dắt các nhà nghiên cứu suốt cuộc nghiên cứu."
+        },
+        {
+          "en": "The committee discussed ethical consideration before approving funding.",
+          "vi": "Ủy ban bàn về cân nhắc đạo đức trước khi phê duyệt tài trợ."
+        }
+      ]
+    },
+    {
+      "english": "ethical dilemma",
+      "vietnamese": "tình huống tiến thoái lưỡng nan về đạo đức",
+      "ipa": "/ˈeθɪkəl dɪˈlemə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The doctor faced a difficult ethical dilemma over the treatment.",
+          "vi": "Bác sĩ đối mặt với một tình huống lưỡng nan về đạo đức trong việc điều trị."
+        },
+        {
+          "en": "Journalists often confront an ethical dilemma when reporting tragedies.",
+          "vi": "Nhà báo thường gặp tình huống lưỡng nan về đạo đức khi đưa tin bi kịch."
+        },
+        {
+          "en": "The novel explores an ethical dilemma about loyalty and truth.",
+          "vi": "Cuốn tiểu thuyết khám phá tình huống lưỡng nan về đạo đức giữa lòng trung thành và sự thật."
+        }
+      ]
+    },
+    {
+      "english": "ethical issue",
+      "vietnamese": "vấn đề đạo đức",
+      "ipa": "/ˈeθɪkəl ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cloning raises a serious ethical issue for many scientists.",
+          "vi": "Nhân bản đặt ra một vấn đề đạo đức nghiêm trọng với nhiều nhà khoa học."
+        },
+        {
+          "en": "The class debated an ethical issue surrounding artificial intelligence.",
+          "vi": "Lớp học tranh luận về một vấn đề đạo đức xoay quanh trí tuệ nhân tạo."
+        },
+        {
+          "en": "Privacy has become a major ethical issue in the digital age.",
+          "vi": "Quyền riêng tư đã trở thành vấn đề đạo đức lớn trong thời đại số."
+        }
+      ]
+    },
+    {
+      "english": "ethical principle",
+      "vietnamese": "nguyên tắc đạo đức",
+      "ipa": "/ˈeθɪkəl ˈprɪnsəpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Honesty is a basic ethical principle taught to every child.",
+          "vi": "Trung thực là một nguyên tắc đạo đức cơ bản dạy cho mọi đứa trẻ."
+        },
+        {
+          "en": "The profession is guided by a strict ethical principle of care.",
+          "vi": "Nghề này được dẫn dắt bởi một nguyên tắc đạo đức nghiêm ngặt về sự chăm sóc."
+        },
+        {
+          "en": "Respecting consent is a key ethical principle in research.",
+          "vi": "Tôn trọng sự đồng ý là nguyên tắc đạo đức then chốt trong nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "ethical problem",
+      "vietnamese": "vấn đề đạo đức",
+      "ipa": "/ˈeθɪkəl ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Using animals in testing poses a real ethical problem.",
+          "vi": "Dùng động vật để thử nghiệm đặt ra một vấn đề đạo đức thực sự."
+        },
+        {
+          "en": "The lawyer saw an ethical problem with accepting the case.",
+          "vi": "Luật sư nhận ra một vấn đề đạo đức khi nhận vụ án này."
+        },
+        {
+          "en": "Sharing private data creates a clear ethical problem for firms.",
+          "vi": "Chia sẻ dữ liệu riêng tư tạo ra một vấn đề đạo đức rõ ràng cho doanh nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "ethical question",
+      "vietnamese": "câu hỏi đạo đức",
+      "ipa": "/ˈeθɪkəl ˈkwestʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The discovery raises a difficult ethical question for scientists.",
+          "vi": "Phát hiện này đặt ra một câu hỏi đạo đức khó cho các nhà khoa học."
+        },
+        {
+          "en": "Whether to tell the truth was a tough ethical question.",
+          "vi": "Có nên nói sự thật hay không là một câu hỏi đạo đức khó."
+        },
+        {
+          "en": "The film leaves the audience with a powerful ethical question.",
+          "vi": "Bộ phim để lại cho khán giả một câu hỏi đạo đức mạnh mẽ."
+        }
+      ]
+    },
+    {
+      "english": "ethnic community",
+      "vietnamese": "cộng đồng dân tộc",
+      "ipa": "/ˈeθnɪk kəˈmjuːnəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The festival celebrates the traditions of each ethnic community.",
+          "vi": "Lễ hội tôn vinh truyền thống của mỗi cộng đồng dân tộc."
+        },
+        {
+          "en": "The city is home to a large ethnic community from Asia.",
+          "vi": "Thành phố là nơi sinh sống của một cộng đồng dân tộc lớn từ châu Á."
+        },
+        {
+          "en": "Local schools serve children from every ethnic community nearby.",
+          "vi": "Trường học địa phương phục vụ trẻ em từ mọi cộng đồng dân tộc lân cận."
+        }
+      ]
+    },
+    {
+      "english": "ethnic differences",
+      "vietnamese": "sự khác biệt về dân tộc",
+      "ipa": "/ˈeθnɪk ˈdɪfrənsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study examined ethnic differences in eating habits.",
+          "vi": "Nghiên cứu xem xét sự khác biệt về dân tộc trong thói quen ăn uống."
+        },
+        {
+          "en": "Respecting ethnic differences strengthens harmony in the workplace.",
+          "vi": "Tôn trọng sự khác biệt về dân tộc củng cố sự hòa hợp nơi làm việc."
+        },
+        {
+          "en": "Ethnic differences should be celebrated rather than feared.",
+          "vi": "Sự khác biệt về dân tộc nên được tôn vinh thay vì lo ngại."
+        }
+      ]
+    },
+    {
+      "english": "ethnic diversity",
+      "vietnamese": "sự đa dạng dân tộc",
+      "ipa": "/ˈeθnɪk daɪˈvɜːrsəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The city is famous for its rich ethnic diversity.",
+          "vi": "Thành phố nổi tiếng với sự đa dạng dân tộc phong phú."
+        },
+        {
+          "en": "Ethnic diversity brings new ideas and cuisines to the region.",
+          "vi": "Sự đa dạng dân tộc mang đến ý tưởng và ẩm thực mới cho khu vực."
+        },
+        {
+          "en": "The university values ethnic diversity among its students.",
+          "vi": "Trường đại học coi trọng sự đa dạng dân tộc trong sinh viên."
+        }
+      ]
+    },
+    {
+      "english": "ethnic group",
+      "vietnamese": "nhóm dân tộc",
+      "ipa": "/ˈeθnɪk ɡruːp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each ethnic group in the country has its own language.",
+          "vi": "Mỗi nhóm dân tộc trong nước có ngôn ngữ riêng."
+        },
+        {
+          "en": "The survey included people from every major ethnic group.",
+          "vi": "Cuộc khảo sát bao gồm người từ mọi nhóm dân tộc chính."
+        },
+        {
+          "en": "This ethnic group has lived in the mountains for centuries.",
+          "vi": "Nhóm dân tộc này đã sống ở vùng núi trong nhiều thế kỷ."
+        }
+      ]
+    },
+    {
+      "english": "ethnic identity",
+      "vietnamese": "bản sắc dân tộc",
+      "ipa": "/ˈeθnɪk aɪˈdentəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Language plays a key role in shaping ethnic identity.",
+          "vi": "Ngôn ngữ đóng vai trò then chốt trong việc định hình bản sắc dân tộc."
+        },
+        {
+          "en": "Many people take pride in their ethnic identity and heritage.",
+          "vi": "Nhiều người tự hào về bản sắc dân tộc và di sản của mình."
+        },
+        {
+          "en": "Migration can complicate a person's sense of ethnic identity.",
+          "vi": "Di cư có thể làm phức tạp cảm nhận về bản sắc dân tộc của một người."
+        }
+      ]
+    },
+    {
+      "english": "ethnic minority",
+      "vietnamese": "dân tộc thiểu số",
+      "ipa": "/ˈeθnɪk maɪˈnɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The government introduced programs to support each ethnic minority.",
+          "vi": "Chính phủ giới thiệu các chương trình hỗ trợ mỗi dân tộc thiểu số."
+        },
+        {
+          "en": "Members of the ethnic minority preserve their ancient customs.",
+          "vi": "Các thành viên dân tộc thiểu số gìn giữ phong tục cổ xưa của họ."
+        },
+        {
+          "en": "The report studied access to healthcare among ethnic minority groups.",
+          "vi": "Báo cáo nghiên cứu việc tiếp cận y tế trong các nhóm dân tộc thiểu số."
+        }
+      ]
+    },
+    {
+      "english": "ethnic origin",
+      "vietnamese": "nguồn gốc dân tộc",
+      "ipa": "/ˈeθnɪk ˈɔːrɪdʒɪn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Job applicants should not be judged by their ethnic origin.",
+          "vi": "Ứng viên không nên bị đánh giá dựa trên nguồn gốc dân tộc của họ."
+        },
+        {
+          "en": "The form asks respondents to state their ethnic origin.",
+          "vi": "Biểu mẫu yêu cầu người trả lời nêu nguồn gốc dân tộc của mình."
+        },
+        {
+          "en": "People of every ethnic origin are welcome at the event.",
+          "vi": "Mọi người thuộc mọi nguồn gốc dân tộc đều được chào đón tại sự kiện."
+        }
+      ]
+    },
+    {
+      "english": "ever changing",
+      "vietnamese": "luôn thay đổi",
+      "ipa": "/ˈevər ˈtʃeɪndʒɪŋ/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Technology operates in an ever changing global marketplace.",
+          "vi": "Công nghệ vận hành trong một thị trường toàn cầu luôn thay đổi."
+        },
+        {
+          "en": "Fashion trends are ever changing and hard to predict.",
+          "vi": "Xu hướng thời trang luôn thay đổi và khó dự đoán."
+        },
+        {
+          "en": "Teachers must adapt to the ever changing needs of students.",
+          "vi": "Giáo viên phải thích nghi với nhu cầu luôn thay đổi của học sinh."
+        }
+      ]
+    },
+    {
+      "english": "ever increasing",
+      "vietnamese": "không ngừng gia tăng",
+      "ipa": "/ˈevər ɪnˈkriːsɪŋ/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The company faces ever increasing demand for its products.",
+          "vi": "Công ty đối mặt với nhu cầu không ngừng gia tăng đối với sản phẩm."
+        },
+        {
+          "en": "There is an ever increasing amount of data to manage.",
+          "vi": "Có một lượng dữ liệu không ngừng gia tăng cần quản lý."
+        },
+        {
+          "en": "Cities struggle with the ever increasing cost of housing.",
+          "vi": "Các thành phố vật lộn với chi phí nhà ở không ngừng gia tăng."
+        }
+      ]
+    },
+    {
+      "english": "evolutionary process",
+      "vietnamese": "quá trình tiến hóa",
+      "ipa": "/ˌevəˈluːʃəneri ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The evolutionary process shaped the wings of birds over time.",
+          "vi": "Quá trình tiến hóa đã định hình đôi cánh của chim theo thời gian."
+        },
+        {
+          "en": "Language develops through a slow evolutionary process across generations.",
+          "vi": "Ngôn ngữ phát triển qua một quá trình tiến hóa chậm qua các thế hệ."
+        },
+        {
+          "en": "Scientists trace the evolutionary process using fossil evidence.",
+          "vi": "Các nhà khoa học truy nguyên quá trình tiến hóa bằng bằng chứng hóa thạch."
+        }
+      ]
+    },
+    {
+      "english": "evolutionary theory",
+      "vietnamese": "thuyết tiến hóa",
+      "ipa": "/ˌevəˈluːʃəneri ˈθɪəri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Evolutionary theory explains how species change over many generations.",
+          "vi": "Thuyết tiến hóa giải thích cách các loài thay đổi qua nhiều thế hệ."
+        },
+        {
+          "en": "Darwin's evolutionary theory transformed the study of biology.",
+          "vi": "Thuyết tiến hóa của Darwin đã làm thay đổi việc nghiên cứu sinh học."
+        },
+        {
+          "en": "The professor lectured on evolutionary theory for two hours.",
+          "vi": "Giáo sư giảng về thuyết tiến hóa trong hai giờ."
+        }
+      ]
+    }
+  ]
+}

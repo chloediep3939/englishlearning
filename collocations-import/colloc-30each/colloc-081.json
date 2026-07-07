@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 81/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 81/83"
+  },
+  "cards": [
+    {
+      "english": "varying degree",
+      "vietnamese": "mức độ khác nhau",
+      "ipa": "/ˈveriɪŋ dɪˈgriː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students showed a varying degree of interest in the topic.",
+          "vi": "Học sinh thể hiện mức độ quan tâm khác nhau đối với chủ đề."
+        },
+        {
+          "en": "The reforms succeeded to a varying degree across different schools.",
+          "vi": "Các cải cách thành công ở mức độ khác nhau giữa các trường."
+        },
+        {
+          "en": "Participants experienced stress to a varying degree during the study.",
+          "vi": "Người tham gia trải qua căng thẳng ở mức độ khác nhau trong nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "vast amount of",
+      "vietnamese": "một lượng khổng lồ",
+      "ipa": "/væst əˈmaʊnt əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Modern science generates a vast amount of data daily.",
+          "vi": "Khoa học hiện đại tạo ra một lượng dữ liệu khổng lồ mỗi ngày."
+        },
+        {
+          "en": "Writing a thesis requires a vast amount of careful reading.",
+          "vi": "Viết luận văn đòi hỏi một lượng đọc kỹ lưỡng khổng lồ."
+        },
+        {
+          "en": "The project consumed a vast amount of time and money.",
+          "vi": "Dự án tiêu tốn một lượng thời gian và tiền bạc khổng lồ."
+        }
+      ]
+    },
+    {
+      "english": "vast area",
+      "vietnamese": "khu vực rộng lớn",
+      "ipa": "/væst ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The fire destroyed a vast area of ancient forest.",
+          "vi": "Đám cháy phá hủy một khu vực rừng cổ rộng lớn."
+        },
+        {
+          "en": "Satellites can monitor a vast area of the ocean simultaneously.",
+          "vi": "Vệ tinh có thể giám sát một khu vực đại dương rộng lớn cùng lúc."
+        },
+        {
+          "en": "The survey covered a vast area of rural farmland.",
+          "vi": "Cuộc khảo sát bao phủ một khu vực đất nông nghiệp rộng lớn."
+        }
+      ]
+    },
+    {
+      "english": "vast array of",
+      "vietnamese": "một loạt phong phú",
+      "ipa": "/væst əˈreɪ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The museum displays a vast array of historical artifacts.",
+          "vi": "Bảo tàng trưng bày một loạt phong phú các hiện vật lịch sử."
+        },
+        {
+          "en": "Students can choose from a vast array of elective courses.",
+          "vi": "Sinh viên có thể chọn từ một loạt phong phú các môn tự chọn."
+        },
+        {
+          "en": "The library houses a vast array of academic publications.",
+          "vi": "Thư viện lưu giữ một loạt phong phú các ấn phẩm học thuật."
+        }
+      ]
+    },
+    {
+      "english": "vast majority",
+      "vietnamese": "đại đa số",
+      "ipa": "/væst məˈdʒɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The vast majority of students passed the final examination.",
+          "vi": "Đại đa số sinh viên đã đậu kỳ thi cuối kỳ."
+        },
+        {
+          "en": "A vast majority of respondents supported the new policy.",
+          "vi": "Đại đa số người được hỏi ủng hộ chính sách mới."
+        },
+        {
+          "en": "The vast majority of cases were resolved within a week.",
+          "vi": "Đại đa số các trường hợp được giải quyết trong một tuần."
+        }
+      ]
+    },
+    {
+      "english": "vast number",
+      "vietnamese": "số lượng khổng lồ",
+      "ipa": "/væst ˈnʌmbər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A vast number of species remain undiscovered in the rainforest.",
+          "vi": "Một số lượng khổng lồ các loài vẫn chưa được phát hiện trong rừng nhiệt đới."
+        },
+        {
+          "en": "The campaign reached a vast number of young voters.",
+          "vi": "Chiến dịch tiếp cận được một số lượng khổng lồ cử tri trẻ."
+        },
+        {
+          "en": "Researchers analyzed a vast number of documents for the study.",
+          "vi": "Các nhà nghiên cứu phân tích một số lượng khổng lồ tài liệu cho nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "vast quantities of",
+      "vietnamese": "lượng lớn khổng lồ",
+      "ipa": "/væst ˈkwɑːntətiz əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Factories release vast quantities of waste into the rivers.",
+          "vi": "Các nhà máy thải lượng lớn khổng lồ chất thải ra sông."
+        },
+        {
+          "en": "The country imports vast quantities of oil each year.",
+          "vi": "Quốc gia nhập khẩu lượng lớn khổng lồ dầu mỗi năm."
+        },
+        {
+          "en": "Vast quantities of data are stored in modern cloud systems.",
+          "vi": "Lượng lớn khổng lồ dữ liệu được lưu trữ trong các hệ thống đám mây hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "vast range of",
+      "vietnamese": "phạm vi rộng lớn",
+      "ipa": "/væst reɪndʒ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The conference covered a vast range of scientific topics.",
+          "vi": "Hội nghị bao quát một phạm vi rộng lớn các chủ đề khoa học."
+        },
+        {
+          "en": "This platform offers a vast range of online learning tools.",
+          "vi": "Nền tảng này cung cấp một phạm vi rộng lớn các công cụ học trực tuyến."
+        },
+        {
+          "en": "Her research addresses a vast range of social issues.",
+          "vi": "Nghiên cứu của cô đề cập đến một phạm vi rộng lớn các vấn đề xã hội."
+        }
+      ]
+    },
+    {
+      "english": "verbal communication",
+      "vietnamese": "giao tiếp bằng lời",
+      "ipa": "/ˈvɜːrbəl kəˌmjuːnɪˈkeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Effective verbal communication is essential in clinical practice.",
+          "vi": "Giao tiếp bằng lời hiệu quả là điều thiết yếu trong thực hành lâm sàng."
+        },
+        {
+          "en": "The course aims to improve students' verbal communication skills.",
+          "vi": "Khóa học nhằm cải thiện kỹ năng giao tiếp bằng lời của sinh viên."
+        },
+        {
+          "en": "Verbal communication often conveys emotion more directly than text.",
+          "vi": "Giao tiếp bằng lời thường truyền tải cảm xúc trực tiếp hơn văn bản."
+        }
+      ]
+    },
+    {
+      "english": "verbal language",
+      "vietnamese": "ngôn ngữ nói",
+      "ipa": "/ˈvɜːrbəl ˈlæŋgwɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Children acquire verbal language naturally through daily interaction.",
+          "vi": "Trẻ em tiếp thu ngôn ngữ nói một cách tự nhiên qua tương tác hằng ngày."
+        },
+        {
+          "en": "Verbal language and gestures together shape how meaning is understood.",
+          "vi": "Ngôn ngữ nói và cử chỉ cùng định hình cách hiểu ý nghĩa."
+        },
+        {
+          "en": "The study compared verbal language across several cultural groups.",
+          "vi": "Nghiên cứu so sánh ngôn ngữ nói giữa nhiều nhóm văn hóa."
+        }
+      ]
+    },
+    {
+      "english": "vested interest",
+      "vietnamese": "lợi ích cá nhân gắn liền",
+      "ipa": "/ˈvestɪd ˈɪntrəst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Companies have a vested interest in shaping public opinion.",
+          "vi": "Các công ty có lợi ích cá nhân gắn liền trong việc định hình dư luận."
+        },
+        {
+          "en": "Politicians with a vested interest may resist genuine reform.",
+          "vi": "Các chính trị gia có lợi ích cá nhân gắn liền có thể chống lại cải cách thực sự."
+        },
+        {
+          "en": "Researchers must declare any vested interest in their findings.",
+          "vi": "Nhà nghiên cứu phải khai báo mọi lợi ích cá nhân gắn liền với kết quả."
+        }
+      ]
+    },
+    {
+      "english": "virtual community",
+      "vietnamese": "cộng đồng ảo",
+      "ipa": "/ˈvɜːrtʃuəl kəˈmjuːnəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Online forums help create a strong virtual community of learners.",
+          "vi": "Các diễn đàn trực tuyến giúp tạo ra một cộng đồng ảo người học vững mạnh."
+        },
+        {
+          "en": "A virtual community can offer support across great distances.",
+          "vi": "Một cộng đồng ảo có thể hỗ trợ lẫn nhau dù cách xa về khoảng cách."
+        },
+        {
+          "en": "The study examined how a virtual community shapes its members' identity.",
+          "vi": "Nghiên cứu xem xét cách một cộng đồng ảo định hình bản sắc của thành viên."
+        }
+      ]
+    },
+    {
+      "english": "virtually impossible",
+      "vietnamese": "gần như không thể",
+      "ipa": "/ˈvɜːrtʃuəli ɪmˈpɑːsəbəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "It is virtually impossible to predict the stock market precisely.",
+          "vi": "Gần như không thể dự đoán thị trường chứng khoán một cách chính xác."
+        },
+        {
+          "en": "Without funding, completing the project was virtually impossible.",
+          "vi": "Không có kinh phí, việc hoàn thành dự án là gần như không thể."
+        },
+        {
+          "en": "Reaching total agreement among all experts is virtually impossible.",
+          "vi": "Đạt được sự đồng thuận hoàn toàn giữa các chuyên gia là gần như không thể."
+        }
+      ]
+    },
+    {
+      "english": "visual image",
+      "vietnamese": "hình ảnh trực quan",
+      "ipa": "/ˈvɪʒuəl ˈɪmɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A strong visual image can make an argument more memorable.",
+          "vi": "Một hình ảnh trực quan mạnh có thể khiến lập luận đáng nhớ hơn."
+        },
+        {
+          "en": "The advertisement relied on a single striking visual image.",
+          "vi": "Quảng cáo dựa vào một hình ảnh trực quan ấn tượng duy nhất."
+        },
+        {
+          "en": "Our memory often stores a visual image more easily than words.",
+          "vi": "Trí nhớ của chúng ta thường lưu hình ảnh trực quan dễ hơn từ ngữ."
+        }
+      ]
+    },
+    {
+      "english": "visual media",
+      "vietnamese": "phương tiện truyền thông hình ảnh",
+      "ipa": "/ˈvɪʒuəl ˈmiːdiə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Visual media now shape how young people understand world events.",
+          "vi": "Phương tiện truyền thông hình ảnh nay định hình cách giới trẻ hiểu các sự kiện thế giới."
+        },
+        {
+          "en": "The lecture explored the growing influence of visual media.",
+          "vi": "Bài giảng khám phá ảnh hưởng ngày càng lớn của truyền thông hình ảnh."
+        },
+        {
+          "en": "Teachers increasingly use visual media to engage their students.",
+          "vi": "Giáo viên ngày càng dùng truyền thông hình ảnh để thu hút học sinh."
+        }
+      ]
+    },
+    {
+      "english": "visual perception",
+      "vietnamese": "tri giác thị giác",
+      "ipa": "/ˈvɪʒuəl pərˈsepʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Visual perception allows us to interpret depth and distance accurately.",
+          "vi": "Tri giác thị giác cho phép ta diễn giải độ sâu và khoảng cách chính xác."
+        },
+        {
+          "en": "The experiment tested how lighting affects visual perception.",
+          "vi": "Thí nghiệm kiểm tra cách ánh sáng ảnh hưởng đến tri giác thị giác."
+        },
+        {
+          "en": "Studies of visual perception reveal how the brain processes images.",
+          "vi": "Các nghiên cứu về tri giác thị giác cho thấy cách não xử lý hình ảnh."
+        }
+      ]
+    },
+    {
+      "english": "visual representation",
+      "vietnamese": "biểu diễn trực quan",
+      "ipa": "/ˈvɪʒuəl ˌreprɪzenˈteɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A graph offers a clear visual representation of the trend.",
+          "vi": "Biểu đồ cung cấp một biểu diễn trực quan rõ ràng về xu hướng."
+        },
+        {
+          "en": "The map provides a visual representation of population density.",
+          "vi": "Bản đồ cung cấp một biểu diễn trực quan về mật độ dân số."
+        },
+        {
+          "en": "Diagrams give students a useful visual representation of the process.",
+          "vi": "Sơ đồ cho học sinh một biểu diễn trực quan hữu ích về quy trình."
+        }
+      ]
+    },
+    {
+      "english": "vital importance",
+      "vietnamese": "tầm quan trọng sống còn",
+      "ipa": "/ˈvaɪtəl ɪmˈpɔːrtəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Clean water is of vital importance to public health.",
+          "vi": "Nước sạch có tầm quan trọng sống còn đối với sức khỏe cộng đồng."
+        },
+        {
+          "en": "Early diagnosis is of vital importance in treating cancer.",
+          "vi": "Chẩn đoán sớm có tầm quan trọng sống còn trong điều trị ung thư."
+        },
+        {
+          "en": "Teamwork is of vital importance to the project's success.",
+          "vi": "Làm việc nhóm có tầm quan trọng sống còn đối với thành công của dự án."
+        }
+      ]
+    },
+    {
+      "english": "vital part",
+      "vietnamese": "phần thiết yếu",
+      "ipa": "/ˈvaɪtəl pɑːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Feedback is a vital part of the learning process.",
+          "vi": "Phản hồi là một phần thiết yếu của quá trình học tập."
+        },
+        {
+          "en": "Sleep forms a vital part of a healthy lifestyle.",
+          "vi": "Giấc ngủ là một phần thiết yếu của lối sống lành mạnh."
+        },
+        {
+          "en": "Reading widely is a vital part of academic preparation.",
+          "vi": "Đọc rộng là một phần thiết yếu của việc chuẩn bị học thuật."
+        }
+      ]
+    },
+    {
+      "english": "vital role",
+      "vietnamese": "vai trò thiết yếu",
+      "ipa": "/ˈvaɪtəl roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Teachers play a vital role in shaping young minds.",
+          "vi": "Giáo viên đóng vai trò thiết yếu trong việc hình thành tư duy trẻ."
+        },
+        {
+          "en": "Bees play a vital role in pollinating food crops.",
+          "vi": "Ong đóng vai trò thiết yếu trong việc thụ phấn cho cây lương thực."
+        },
+        {
+          "en": "Technology plays a vital role in modern medical research.",
+          "vi": "Công nghệ đóng vai trò thiết yếu trong nghiên cứu y học hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "vulnerable group",
+      "vietnamese": "nhóm dễ bị tổn thương",
+      "ipa": "/ˈvʌlnərəbəl gruːp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The policy aims to protect vulnerable groups during economic crises.",
+          "vi": "Chính sách nhằm bảo vệ các nhóm dễ bị tổn thương trong khủng hoảng kinh tế."
+        },
+        {
+          "en": "Elderly people are often a particularly vulnerable group.",
+          "vi": "Người cao tuổi thường là một nhóm đặc biệt dễ bị tổn thương."
+        },
+        {
+          "en": "Researchers focused on vulnerable groups affected by the disaster.",
+          "vi": "Các nhà nghiên cứu tập trung vào các nhóm dễ bị tổn thương bởi thảm họa."
+        }
+      ]
+    },
+    {
+      "english": "welfare reform",
+      "vietnamese": "cải cách phúc lợi",
+      "ipa": "/ˈwelfer rɪˈfɔːrm/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The government introduced welfare reform to reduce dependency on benefits.",
+          "vi": "Chính phủ đưa ra cải cách phúc lợi để giảm sự phụ thuộc vào trợ cấp."
+        },
+        {
+          "en": "Critics argued that welfare reform harmed the poorest families.",
+          "vi": "Các nhà phê bình cho rằng cải cách phúc lợi làm tổn hại các gia đình nghèo nhất."
+        },
+        {
+          "en": "Welfare reform remains a controversial topic among policymakers.",
+          "vi": "Cải cách phúc lợi vẫn là chủ đề gây tranh cãi giữa các nhà hoạch định chính sách."
+        }
+      ]
+    },
+    {
+      "english": "well aware",
+      "vietnamese": "nhận thức rõ",
+      "ipa": "/wel əˈwer/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The author is well aware of the study's limitations.",
+          "vi": "Tác giả nhận thức rõ những hạn chế của nghiên cứu."
+        },
+        {
+          "en": "Students should be well aware of the deadline requirements.",
+          "vi": "Sinh viên nên nhận thức rõ các yêu cầu về thời hạn nộp bài."
+        },
+        {
+          "en": "Managers were well aware of the risks before deciding.",
+          "vi": "Các quản lý đã nhận thức rõ các rủi ro trước khi quyết định."
+        }
+      ]
+    },
+    {
+      "english": "well designed",
+      "vietnamese": "được thiết kế tốt",
+      "ipa": "/wel dɪˈzaɪnd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "A well designed experiment controls for unwanted variables.",
+          "vi": "Một thí nghiệm được thiết kế tốt kiểm soát các biến không mong muốn."
+        },
+        {
+          "en": "The well designed survey produced clear and reliable results.",
+          "vi": "Cuộc khảo sát được thiết kế tốt cho ra kết quả rõ ràng và đáng tin cậy."
+        },
+        {
+          "en": "Well designed buildings make efficient use of natural light.",
+          "vi": "Các tòa nhà được thiết kế tốt tận dụng hiệu quả ánh sáng tự nhiên."
+        }
+      ]
+    },
+    {
+      "english": "well documented",
+      "vietnamese": "được ghi chép đầy đủ",
+      "ipa": "/wel ˈdɑːkjəmentɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The effects of smoking are well documented in medical literature.",
+          "vi": "Tác hại của hút thuốc đã được ghi chép đầy đủ trong tài liệu y học."
+        },
+        {
+          "en": "Her claims are well documented with reliable primary sources.",
+          "vi": "Các khẳng định của cô được ghi chép đầy đủ bằng nguồn sơ cấp đáng tin cậy."
+        },
+        {
+          "en": "This phenomenon is well documented across several earlier studies.",
+          "vi": "Hiện tượng này được ghi chép đầy đủ trong nhiều nghiên cứu trước đó."
+        }
+      ]
+    },
+    {
+      "english": "well educated",
+      "vietnamese": "có học thức cao",
+      "ipa": "/wel ˈedʒəkeɪtɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "A well educated workforce is essential for economic growth.",
+          "vi": "Một lực lượng lao động có học thức cao là thiết yếu cho tăng trưởng kinh tế."
+        },
+        {
+          "en": "Well educated citizens tend to participate more in politics.",
+          "vi": "Công dân có học thức cao thường tham gia chính trị nhiều hơn."
+        },
+        {
+          "en": "The company prefers candidates who are well educated and adaptable.",
+          "vi": "Công ty ưu tiên ứng viên có học thức cao và dễ thích nghi."
+        }
+      ]
+    },
+    {
+      "english": "well established",
+      "vietnamese": "đã được khẳng định vững chắc",
+      "ipa": "/wel ɪˈstæblɪʃt/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The link between diet and health is well established.",
+          "vi": "Mối liên hệ giữa chế độ ăn và sức khỏe đã được khẳng định vững chắc."
+        },
+        {
+          "en": "She joined a well established research team at the university.",
+          "vi": "Cô gia nhập một nhóm nghiên cứu đã được khẳng định vững chắc ở trường đại học."
+        },
+        {
+          "en": "This theory is well established and widely taught today.",
+          "vi": "Lý thuyết này đã được khẳng định vững chắc và được giảng dạy rộng rãi ngày nay."
+        }
+      ]
+    },
+    {
+      "english": "well received",
+      "vietnamese": "được đón nhận tốt",
+      "ipa": "/wel rɪˈsiːvd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Her presentation was well received by the entire committee.",
+          "vi": "Bài thuyết trình của cô được toàn bộ hội đồng đón nhận tốt."
+        },
+        {
+          "en": "The new policy was well received among local residents.",
+          "vi": "Chính sách mới được người dân địa phương đón nhận tốt."
+        },
+        {
+          "en": "The book was well received by critics and readers alike.",
+          "vi": "Cuốn sách được cả giới phê bình lẫn độc giả đón nhận tốt."
+        }
+      ]
+    },
+    {
+      "english": "western democracy",
+      "vietnamese": "nền dân chủ phương Tây",
+      "ipa": "/ˈwestərn dɪˈmɑːkrəsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Western democracy relies on free elections and a free press.",
+          "vi": "Nền dân chủ phương Tây dựa vào bầu cử tự do và báo chí tự do."
+        },
+        {
+          "en": "The essay compares western democracy with other political systems.",
+          "vi": "Bài luận so sánh nền dân chủ phương Tây với các hệ thống chính trị khác."
+        },
+        {
+          "en": "Many scholars debate the future of western democracy today.",
+          "vi": "Nhiều học giả tranh luận về tương lai của nền dân chủ phương Tây hiện nay."
+        }
+      ]
+    },
+    {
+      "english": "western society",
+      "vietnamese": "xã hội phương Tây",
+      "ipa": "/ˈwestərn səˈsaɪəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Individualism is a strong value in western society.",
+          "vi": "Chủ nghĩa cá nhân là một giá trị mạnh trong xã hội phương Tây."
+        },
+        {
+          "en": "Western society has changed rapidly with new technology.",
+          "vi": "Xã hội phương Tây đã thay đổi nhanh chóng với công nghệ mới."
+        },
+        {
+          "en": "The study examines aging populations across western society.",
+          "vi": "Nghiên cứu xem xét tình trạng dân số già hóa trong xã hội phương Tây."
+        }
+      ]
+    }
+  ]
+}

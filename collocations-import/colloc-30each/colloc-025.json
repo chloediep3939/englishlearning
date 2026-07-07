@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 25/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 25/83"
+  },
+  "cards": [
+    {
+      "english": "examine the role of",
+      "vietnamese": "xem xét vai trò của",
+      "ipa": "/ɪɡˈzæmɪn ðə roʊl əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "This essay will examine the role of women in the revolution.",
+          "vi": "Bài luận này sẽ xem xét vai trò của phụ nữ trong cuộc cách mạng."
+        },
+        {
+          "en": "Researchers examine the role of stress in causing illness.",
+          "vi": "Các nhà nghiên cứu xem xét vai trò của căng thẳng trong việc gây bệnh."
+        },
+        {
+          "en": "The chapter examines the role of media in shaping opinion.",
+          "vi": "Chương này xem xét vai trò của truyền thông trong việc định hình dư luận."
+        }
+      ]
+    },
+    {
+      "english": "exceptional case",
+      "vietnamese": "trường hợp ngoại lệ",
+      "ipa": "/ɪkˈsepʃənəl keɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The committee approved the request only as an exceptional case.",
+          "vi": "Ủy ban chỉ chấp thuận yêu cầu như một trường hợp ngoại lệ."
+        },
+        {
+          "en": "Refunds are given solely in an exceptional case like illness.",
+          "vi": "Hoàn tiền chỉ được thực hiện trong trường hợp ngoại lệ như ốm đau."
+        },
+        {
+          "en": "Her recovery was an exceptional case that surprised the doctors.",
+          "vi": "Sự hồi phục của cô là trường hợp ngoại lệ khiến các bác sĩ ngạc nhiên."
+        }
+      ]
+    },
+    {
+      "english": "exceptional circumstances",
+      "vietnamese": "hoàn cảnh đặc biệt",
+      "ipa": "/ɪkˈsepʃənəl ˈsɜːrkəmstænsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Late submissions are accepted only under exceptional circumstances.",
+          "vi": "Nộp muộn chỉ được chấp nhận trong hoàn cảnh đặc biệt."
+        },
+        {
+          "en": "The law allows exceptions in exceptional circumstances such as war.",
+          "vi": "Luật cho phép ngoại lệ trong hoàn cảnh đặc biệt như chiến tranh."
+        },
+        {
+          "en": "Only in exceptional circumstances will the deadline be extended.",
+          "vi": "Hạn chót chỉ được gia hạn trong hoàn cảnh đặc biệt."
+        }
+      ]
+    },
+    {
+      "english": "exercise authority",
+      "vietnamese": "thực thi quyền lực",
+      "ipa": "/ˈeksərsaɪz əˈθɔːrəti/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The manager must exercise authority fairly over the whole team.",
+          "vi": "Người quản lý phải thực thi quyền lực một cách công bằng với cả nhóm."
+        },
+        {
+          "en": "Judges exercise authority granted to them by the constitution.",
+          "vi": "Các thẩm phán thực thi quyền lực được hiến pháp trao cho họ."
+        },
+        {
+          "en": "A good leader knows when to exercise authority and when to listen.",
+          "vi": "Một lãnh đạo giỏi biết khi nào nên thực thi quyền lực và khi nào nên lắng nghe."
+        }
+      ]
+    },
+    {
+      "english": "existing data",
+      "vietnamese": "dữ liệu hiện có",
+      "ipa": "/ɪɡˈzɪstɪŋ ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The researchers analyzed existing data before collecting new samples.",
+          "vi": "Các nhà nghiên cứu phân tích dữ liệu hiện có trước khi thu thập mẫu mới."
+        },
+        {
+          "en": "Existing data suggests a strong link between diet and health.",
+          "vi": "Dữ liệu hiện có cho thấy mối liên hệ chặt chẽ giữa chế độ ăn và sức khỏe."
+        },
+        {
+          "en": "We reviewed existing data to identify gaps in the literature.",
+          "vi": "Chúng tôi rà soát dữ liệu hiện có để tìm lỗ hổng trong tài liệu."
+        }
+      ]
+    },
+    {
+      "english": "existing research",
+      "vietnamese": "nghiên cứu hiện có",
+      "ipa": "/ɪɡˈzɪstɪŋ ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Existing research supports the idea that exercise improves mood.",
+          "vi": "Nghiên cứu hiện có ủng hộ ý kiến rằng tập thể dục cải thiện tâm trạng."
+        },
+        {
+          "en": "Her thesis builds on existing research in the field.",
+          "vi": "Luận văn của cô dựa trên nghiên cứu hiện có trong lĩnh vực này."
+        },
+        {
+          "en": "The author criticized gaps in the existing research on the topic.",
+          "vi": "Tác giả phê phán những lỗ hổng trong nghiên cứu hiện có về chủ đề này."
+        }
+      ]
+    },
+    {
+      "english": "existing structure",
+      "vietnamese": "cấu trúc hiện có",
+      "ipa": "/ɪɡˈzɪstɪŋ ˈstrʌktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The plan adds a new wing to the existing structure.",
+          "vi": "Kế hoạch xây thêm một cánh mới vào cấu trúc hiện có."
+        },
+        {
+          "en": "Engineers tested whether the existing structure could bear the load.",
+          "vi": "Các kỹ sư kiểm tra xem cấu trúc hiện có có chịu được tải trọng không."
+        },
+        {
+          "en": "Reform should improve, not destroy, the existing structure of government.",
+          "vi": "Cải cách nên cải thiện, không phá hủy, cấu trúc hiện có của chính quyền."
+        }
+      ]
+    },
+    {
+      "english": "expand rapidly",
+      "vietnamese": "mở rộng nhanh chóng",
+      "ipa": "/ɪkˈspænd ˈræpɪdli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "The city began to expand rapidly after the railway opened.",
+          "vi": "Thành phố bắt đầu mở rộng nhanh chóng sau khi tuyến đường sắt mở."
+        },
+        {
+          "en": "Online businesses can expand rapidly with little upfront cost.",
+          "vi": "Doanh nghiệp trực tuyến có thể mở rộng nhanh chóng với chi phí ban đầu thấp."
+        },
+        {
+          "en": "The population continued to expand rapidly throughout the century.",
+          "vi": "Dân số tiếp tục mở rộng nhanh chóng suốt thế kỷ."
+        }
+      ]
+    },
+    {
+      "english": "experience difficulties",
+      "vietnamese": "gặp khó khăn",
+      "ipa": "/ɪkˈspɪriəns ˈdɪfɪkəltiz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Many students experience difficulties when starting university life.",
+          "vi": "Nhiều sinh viên gặp khó khăn khi bắt đầu cuộc sống đại học."
+        },
+        {
+          "en": "Small firms often experience difficulties during an economic downturn.",
+          "vi": "Các doanh nghiệp nhỏ thường gặp khó khăn trong thời kỳ suy thoái kinh tế."
+        },
+        {
+          "en": "Travelers may experience difficulties with the local language.",
+          "vi": "Du khách có thể gặp khó khăn với ngôn ngữ địa phương."
+        }
+      ]
+    },
+    {
+      "english": "experience problems",
+      "vietnamese": "gặp vấn đề",
+      "ipa": "/ɪkˈspɪriəns ˈprɑːbləmz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Users may experience problems if the software is not updated.",
+          "vi": "Người dùng có thể gặp vấn đề nếu phần mềm không được cập nhật."
+        },
+        {
+          "en": "The factory began to experience problems with old machinery.",
+          "vi": "Nhà máy bắt đầu gặp vấn đề với máy móc cũ."
+        },
+        {
+          "en": "Patients sometimes experience problems sleeping after the surgery.",
+          "vi": "Bệnh nhân đôi khi gặp vấn đề về giấc ngủ sau phẫu thuật."
+        }
+      ]
+    },
+    {
+      "english": "experiential learning",
+      "vietnamese": "học tập qua trải nghiệm",
+      "ipa": "/ɪkˌspɪriˈenʃəl ˈlɜːrnɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Experiential learning lets students gain skills through real practice.",
+          "vi": "Học tập qua trải nghiệm cho phép sinh viên có kỹ năng qua thực hành thực tế."
+        },
+        {
+          "en": "The internship is built around experiential learning in the field.",
+          "vi": "Kỳ thực tập được xây dựng quanh việc học tập qua trải nghiệm thực tế."
+        },
+        {
+          "en": "Teachers use experiential learning to make lessons more engaging.",
+          "vi": "Giáo viên dùng học tập qua trải nghiệm để bài học hấp dẫn hơn."
+        }
+      ]
+    },
+    {
+      "english": "experimental conditions",
+      "vietnamese": "điều kiện thí nghiệm",
+      "ipa": "/ɪkˌsperɪˈmentəl kənˈdɪʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The results were the same under different experimental conditions.",
+          "vi": "Kết quả vẫn giống nhau dưới các điều kiện thí nghiệm khác nhau."
+        },
+        {
+          "en": "Scientists carefully controlled the experimental conditions in the lab.",
+          "vi": "Các nhà khoa học kiểm soát cẩn thận điều kiện thí nghiệm trong phòng lab."
+        },
+        {
+          "en": "Changing the experimental conditions altered the outcome significantly.",
+          "vi": "Thay đổi điều kiện thí nghiệm đã làm kết quả thay đổi đáng kể."
+        }
+      ]
+    },
+    {
+      "english": "experimental data",
+      "vietnamese": "dữ liệu thí nghiệm",
+      "ipa": "/ɪkˌsperɪˈmentəl ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The team published its experimental data in a leading journal.",
+          "vi": "Nhóm đã công bố dữ liệu thí nghiệm của mình trên một tạp chí hàng đầu."
+        },
+        {
+          "en": "Experimental data confirmed the predictions of the new model.",
+          "vi": "Dữ liệu thí nghiệm xác nhận các dự đoán của mô hình mới."
+        },
+        {
+          "en": "They compared experimental data with results from earlier studies.",
+          "vi": "Họ so sánh dữ liệu thí nghiệm với kết quả từ các nghiên cứu trước."
+        }
+      ]
+    },
+    {
+      "english": "experimental design",
+      "vietnamese": "thiết kế thí nghiệm",
+      "ipa": "/ɪkˌsperɪˈmentəl dɪˈzaɪn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A flawed experimental design can lead to misleading conclusions.",
+          "vi": "Thiết kế thí nghiệm sai sót có thể dẫn đến kết luận sai lệch."
+        },
+        {
+          "en": "The professor praised the student's careful experimental design.",
+          "vi": "Giáo sư khen ngợi thiết kế thí nghiệm cẩn thận của sinh viên."
+        },
+        {
+          "en": "Good experimental design controls for as many variables as possible.",
+          "vi": "Thiết kế thí nghiệm tốt kiểm soát càng nhiều biến càng tốt."
+        }
+      ]
+    },
+    {
+      "english": "experimental evidence",
+      "vietnamese": "bằng chứng thực nghiệm",
+      "ipa": "/ɪkˌsperɪˈmentəl ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is strong experimental evidence supporting the theory.",
+          "vi": "Có bằng chứng thực nghiệm mạnh mẽ ủng hộ lý thuyết này."
+        },
+        {
+          "en": "The claim lacks any solid experimental evidence so far.",
+          "vi": "Cho đến nay tuyên bố này thiếu bằng chứng thực nghiệm vững chắc."
+        },
+        {
+          "en": "New experimental evidence challenged the long held assumption.",
+          "vi": "Bằng chứng thực nghiệm mới thách thức giả định tồn tại lâu nay."
+        }
+      ]
+    },
+    {
+      "english": "experimental method",
+      "vietnamese": "phương pháp thực nghiệm",
+      "ipa": "/ɪkˌsperɪˈmentəl ˈmeθəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experimental method allows scientists to test their hypotheses.",
+          "vi": "Phương pháp thực nghiệm cho phép các nhà khoa học kiểm chứng giả thuyết."
+        },
+        {
+          "en": "She explained the experimental method clearly in the report.",
+          "vi": "Cô giải thích rõ ràng phương pháp thực nghiệm trong báo cáo."
+        },
+        {
+          "en": "Psychology adopted the experimental method from the natural sciences.",
+          "vi": "Tâm lý học đã tiếp nhận phương pháp thực nghiệm từ khoa học tự nhiên."
+        }
+      ]
+    },
+    {
+      "english": "experimental research",
+      "vietnamese": "nghiên cứu thực nghiệm",
+      "ipa": "/ɪkˌsperɪˈmentəl ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Experimental research often requires a controlled laboratory setting.",
+          "vi": "Nghiên cứu thực nghiệm thường đòi hỏi môi trường phòng lab được kiểm soát."
+        },
+        {
+          "en": "Her experimental research focuses on memory and aging.",
+          "vi": "Nghiên cứu thực nghiệm của cô tập trung vào trí nhớ và quá trình lão hóa."
+        },
+        {
+          "en": "The grant funds experimental research into renewable energy.",
+          "vi": "Khoản tài trợ cấp vốn cho nghiên cứu thực nghiệm về năng lượng tái tạo."
+        }
+      ]
+    },
+    {
+      "english": "experimental results",
+      "vietnamese": "kết quả thí nghiệm",
+      "ipa": "/ɪkˌsperɪˈmentəl rɪˈzʌlts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experimental results matched the theoretical predictions closely.",
+          "vi": "Kết quả thí nghiệm khớp chặt với các dự đoán lý thuyết."
+        },
+        {
+          "en": "Researchers repeated the test to confirm the experimental results.",
+          "vi": "Các nhà nghiên cứu lặp lại bài kiểm tra để xác nhận kết quả thí nghiệm."
+        },
+        {
+          "en": "The experimental results were surprising and sparked further study.",
+          "vi": "Kết quả thí nghiệm đầy bất ngờ và khơi mào cho nghiên cứu thêm."
+        }
+      ]
+    },
+    {
+      "english": "experimental study",
+      "vietnamese": "nghiên cứu thí nghiệm",
+      "ipa": "/ɪkˌsperɪˈmentəl ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experimental study involved two hundred volunteers over a year.",
+          "vi": "Nghiên cứu thí nghiệm có hai trăm tình nguyện viên trong một năm."
+        },
+        {
+          "en": "An experimental study tested the new drug on healthy adults.",
+          "vi": "Một nghiên cứu thí nghiệm thử thuốc mới trên những người trưởng thành khỏe mạnh."
+        },
+        {
+          "en": "The experimental study produced clear and reliable findings.",
+          "vi": "Nghiên cứu thí nghiệm đã cho ra kết quả rõ ràng và đáng tin cậy."
+        }
+      ]
+    },
+    {
+      "english": "experimental work",
+      "vietnamese": "công việc thí nghiệm",
+      "ipa": "/ɪkˌsperɪˈmentəl wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Most of her experimental work was carried out at night.",
+          "vi": "Phần lớn công việc thí nghiệm của cô được thực hiện vào ban đêm."
+        },
+        {
+          "en": "The paper combines theory with detailed experimental work.",
+          "vi": "Bài báo kết hợp lý thuyết với công việc thí nghiệm chi tiết."
+        },
+        {
+          "en": "Funding cuts delayed the experimental work for several months.",
+          "vi": "Việc cắt giảm ngân sách đã làm chậm công việc thí nghiệm vài tháng."
+        }
+      ]
+    },
+    {
+      "english": "expert opinion",
+      "vietnamese": "ý kiến chuyên gia",
+      "ipa": "/ˈekspɜːrt əˈpɪnjən/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The court relied on expert opinion to reach its verdict.",
+          "vi": "Tòa án dựa vào ý kiến chuyên gia để đưa ra phán quyết."
+        },
+        {
+          "en": "Before deciding, the company sought expert opinion on the matter.",
+          "vi": "Trước khi quyết định, công ty đã tìm kiếm ý kiến chuyên gia về vấn đề này."
+        },
+        {
+          "en": "Expert opinion is divided on the safety of the new method.",
+          "vi": "Ý kiến chuyên gia bị chia rẽ về độ an toàn của phương pháp mới."
+        }
+      ]
+    },
+    {
+      "english": "explanatory power",
+      "vietnamese": "khả năng giải thích",
+      "ipa": "/ɪkˈsplænətɔːri ˈpaʊər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A good theory has strong explanatory power across many cases.",
+          "vi": "Một lý thuyết tốt có khả năng giải thích mạnh trong nhiều trường hợp."
+        },
+        {
+          "en": "The model's explanatory power impressed the review committee.",
+          "vi": "Khả năng giải thích của mô hình đã gây ấn tượng với hội đồng thẩm định."
+        },
+        {
+          "en": "Critics argued the framework lacked real explanatory power.",
+          "vi": "Những người chỉ trích cho rằng khung lý thuyết thiếu khả năng giải thích thực sự."
+        }
+      ]
+    },
+    {
+      "english": "explore further",
+      "vietnamese": "khám phá sâu hơn",
+      "ipa": "/ɪkˈsplɔːr ˈfɜːrðər/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "The findings are promising, but we must explore further.",
+          "vi": "Những phát hiện này đầy hứa hẹn, nhưng chúng ta phải khám phá sâu hơn."
+        },
+        {
+          "en": "The author invites readers to explore further in later chapters.",
+          "vi": "Tác giả mời độc giả khám phá sâu hơn ở các chương sau."
+        },
+        {
+          "en": "Researchers plan to explore further how stress affects memory.",
+          "vi": "Các nhà nghiên cứu dự định khám phá sâu hơn cách căng thẳng ảnh hưởng trí nhớ."
+        }
+      ]
+    },
+    {
+      "english": "explore an issue",
+      "vietnamese": "tìm hiểu một vấn đề",
+      "ipa": "/ɪkˈsplɔːr ən ˈɪʃuː/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The seminar gave us time to explore an issue in depth.",
+          "vi": "Buổi hội thảo cho chúng tôi thời gian để tìm hiểu một vấn đề sâu sắc."
+        },
+        {
+          "en": "Documentaries often explore an issue that the news overlooks.",
+          "vi": "Phim tài liệu thường tìm hiểu một vấn đề mà tin tức bỏ qua."
+        },
+        {
+          "en": "Her essay sets out to explore an issue facing modern cities.",
+          "vi": "Bài luận của cô nhằm tìm hiểu một vấn đề mà các thành phố hiện đại đối mặt."
+        }
+      ]
+    },
+    {
+      "english": "extended period",
+      "vietnamese": "khoảng thời gian kéo dài",
+      "ipa": "/ɪkˈstendɪd ˈpɪriəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Sitting for an extended period can harm your back over time.",
+          "vi": "Ngồi trong một khoảng thời gian kéo dài có thể hại lưng theo thời gian."
+        },
+        {
+          "en": "The drought lasted for an extended period across the region.",
+          "vi": "Đợt hạn hán kéo dài trong một khoảng thời gian dài khắp khu vực."
+        },
+        {
+          "en": "She trained over an extended period before the competition.",
+          "vi": "Cô tập luyện trong một khoảng thời gian kéo dài trước cuộc thi."
+        }
+      ]
+    },
+    {
+      "english": "extensive research",
+      "vietnamese": "nghiên cứu sâu rộng",
+      "ipa": "/ɪkˈstensɪv ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book is based on extensive research into local history.",
+          "vi": "Cuốn sách dựa trên nghiên cứu sâu rộng về lịch sử địa phương."
+        },
+        {
+          "en": "Extensive research has shown the benefits of regular exercise.",
+          "vi": "Nghiên cứu sâu rộng đã chỉ ra lợi ích của việc tập thể dục đều đặn."
+        },
+        {
+          "en": "She conducted extensive research before writing her dissertation.",
+          "vi": "Cô tiến hành nghiên cứu sâu rộng trước khi viết luận án của mình."
+        }
+      ]
+    },
+    {
+      "english": "extensively used",
+      "vietnamese": "được sử dụng rộng rãi",
+      "ipa": "/ɪkˈstensɪvli juːzd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This method is extensively used in modern medical research today.",
+          "vi": "Phương pháp này được sử dụng rộng rãi trong nghiên cứu y học hiện đại."
+        },
+        {
+          "en": "Solar panels are now extensively used across many rural communities.",
+          "vi": "Tấm pin mặt trời nay được sử dụng rộng rãi ở nhiều vùng nông thôn."
+        },
+        {
+          "en": "The software is extensively used by students writing their theses.",
+          "vi": "Phần mềm này được sinh viên dùng rộng rãi khi viết luận văn."
+        }
+      ]
+    },
+    {
+      "english": "external environment",
+      "vietnamese": "môi trường bên ngoài",
+      "ipa": "/ɪkˈstɜːrnəl ɪnˈvaɪrənmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Companies must adapt quickly to changes in the external environment.",
+          "vi": "Các công ty phải nhanh chóng thích nghi với thay đổi của môi trường bên ngoài."
+        },
+        {
+          "en": "The external environment shapes how organisms behave and survive.",
+          "vi": "Môi trường bên ngoài định hình cách sinh vật ứng xử và tồn tại."
+        },
+        {
+          "en": "Analyzing the external environment helps managers plan effective strategies.",
+          "vi": "Phân tích môi trường bên ngoài giúp nhà quản lý hoạch định chiến lược hiệu quả."
+        }
+      ]
+    },
+    {
+      "english": "external factors",
+      "vietnamese": "các yếu tố bên ngoài",
+      "ipa": "/ɪkˈstɜːrnəl ˈfæktərz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "External factors such as weather strongly affected the harvest this year.",
+          "vi": "Các yếu tố bên ngoài như thời tiết đã ảnh hưởng mạnh đến vụ mùa năm nay."
+        },
+        {
+          "en": "Researchers tried to isolate the external factors influencing the results.",
+          "vi": "Các nhà nghiên cứu cố tách riêng các yếu tố bên ngoài tác động đến kết quả."
+        },
+        {
+          "en": "Economic external factors can quickly change a company's profit margins.",
+          "vi": "Các yếu tố kinh tế bên ngoài có thể nhanh chóng thay đổi lợi nhuận công ty."
+        }
+      ]
+    },
+    {
+      "english": "external forces",
+      "vietnamese": "các lực bên ngoài",
+      "ipa": "/ɪkˈstɜːrnəl ˈfɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "External forces caused the bridge to collapse during the storm.",
+          "vi": "Các lực bên ngoài khiến cây cầu sụp đổ trong cơn bão."
+        },
+        {
+          "en": "The nation's politics were shaped by powerful external forces.",
+          "vi": "Nền chính trị của quốc gia bị các lực bên ngoài mạnh mẽ định hình."
+        },
+        {
+          "en": "Engineers calculate how external forces act upon a structure.",
+          "vi": "Kỹ sư tính toán cách các lực bên ngoài tác động lên một kết cấu."
+        }
+      ]
+    }
+  ]
+}

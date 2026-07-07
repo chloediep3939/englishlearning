@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 19/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 19/83"
+  },
+  "cards": [
+    {
+      "english": "discuss a topic",
+      "vietnamese": "thảo luận một chủ đề",
+      "ipa": "/dɪˈskʌs ə ˈtɑːpɪk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The class will discuss a topic chosen by the students.",
+          "vi": "Lớp học sẽ thảo luận một chủ đề do sinh viên chọn."
+        },
+        {
+          "en": "We meet weekly to discuss a topic from the reading.",
+          "vi": "Chúng tôi gặp nhau hằng tuần để thảo luận một chủ đề trong bài đọc."
+        },
+        {
+          "en": "It is hard to discuss a topic without enough background.",
+          "vi": "Thật khó để thảo luận một chủ đề khi thiếu kiến thức nền."
+        }
+      ]
+    },
+    {
+      "english": "discuss an issue",
+      "vietnamese": "thảo luận một vấn đề",
+      "ipa": "/dɪˈskʌs ən ˈɪʃuː/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The committee met to discuss an issue raised by parents.",
+          "vi": "Ủy ban họp để thảo luận một vấn đề do phụ huynh nêu ra."
+        },
+        {
+          "en": "It helps to discuss an issue calmly before deciding.",
+          "vi": "Thảo luận một vấn đề một cách bình tĩnh trước khi quyết định sẽ hữu ích."
+        },
+        {
+          "en": "Leaders gathered to discuss an issue affecting the whole region.",
+          "vi": "Các lãnh đạo tụ họp để thảo luận một vấn đề ảnh hưởng cả khu vực."
+        }
+      ]
+    },
+    {
+      "english": "disposable income",
+      "vietnamese": "thu nhập khả dụng",
+      "ipa": "/dɪˈspoʊzəbəl ˈɪnkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Families with higher disposable income tend to travel more.",
+          "vi": "Các gia đình có thu nhập khả dụng cao hơn thường đi du lịch nhiều hơn."
+        },
+        {
+          "en": "Rising prices have reduced people's disposable income.",
+          "vi": "Giá cả tăng đã làm giảm thu nhập khả dụng của người dân."
+        },
+        {
+          "en": "Young workers often spend much of their disposable income.",
+          "vi": "Người lao động trẻ thường tiêu phần lớn thu nhập khả dụng của họ."
+        }
+      ]
+    },
+    {
+      "english": "distinct group",
+      "vietnamese": "nhóm riêng biệt",
+      "ipa": "/dɪˈstɪŋkt ɡruːp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study divided the patients into three distinct groups.",
+          "vi": "Nghiên cứu chia bệnh nhân thành ba nhóm riêng biệt."
+        },
+        {
+          "en": "Each distinct group followed its own set of rules.",
+          "vi": "Mỗi nhóm riêng biệt tuân theo bộ quy tắc riêng của mình."
+        },
+        {
+          "en": "The data revealed a distinct group of frequent users.",
+          "vi": "Dữ liệu cho thấy một nhóm riêng biệt gồm người dùng thường xuyên."
+        }
+      ]
+    },
+    {
+      "english": "distinct type",
+      "vietnamese": "loại riêng biệt",
+      "ipa": "/dɪˈstɪŋkt taɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Researchers identified two distinct types of cells.",
+          "vi": "Các nhà nghiên cứu xác định được hai loại tế bào riêng biệt."
+        },
+        {
+          "en": "Each distinct type of soil supports different plants.",
+          "vi": "Mỗi loại đất riêng biệt thích hợp với những cây khác nhau."
+        },
+        {
+          "en": "The museum displays a distinct type of ancient pottery.",
+          "vi": "Bảo tàng trưng bày một loại gốm cổ riêng biệt."
+        }
+      ]
+    },
+    {
+      "english": "distinctive feature",
+      "vietnamese": "đặc điểm nổi bật",
+      "ipa": "/dɪˈstɪŋktɪv ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The bright colors are a distinctive feature of this bird.",
+          "vi": "Màu sắc sặc sỡ là đặc điểm nổi bật của loài chim này."
+        },
+        {
+          "en": "Strong arches are a distinctive feature of the architecture.",
+          "vi": "Các vòm lớn là đặc điểm nổi bật của lối kiến trúc này."
+        },
+        {
+          "en": "Her clear writing style is a distinctive feature of her work.",
+          "vi": "Lối viết rõ ràng là đặc điểm nổi bật trong tác phẩm của cô ấy."
+        }
+      ]
+    },
+    {
+      "english": "distinguishing feature",
+      "vietnamese": "đặc điểm phân biệt",
+      "ipa": "/dɪˈstɪŋɡwɪʃɪŋ ˈfiːtʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The long tail is the distinguishing feature of this species.",
+          "vi": "Cái đuôi dài là đặc điểm phân biệt của loài này."
+        },
+        {
+          "en": "Price is the main distinguishing feature between the two models.",
+          "vi": "Giá cả là đặc điểm phân biệt chính giữa hai mẫu xe."
+        },
+        {
+          "en": "A distinguishing feature of the report is its clear charts.",
+          "vi": "Một đặc điểm phân biệt của báo cáo là các biểu đồ rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "diverse background",
+      "vietnamese": "xuất thân đa dạng",
+      "ipa": "/dɪˈvɜːrs ˈbækɡraʊnd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The students come from a diverse background of cultures.",
+          "vi": "Các sinh viên đến từ nhiều nền văn hóa với xuất thân đa dạng."
+        },
+        {
+          "en": "Her diverse background helps her understand many viewpoints.",
+          "vi": "Xuất thân đa dạng giúp cô ấy hiểu nhiều quan điểm khác nhau."
+        },
+        {
+          "en": "Employers value staff with a diverse background and skills.",
+          "vi": "Nhà tuyển dụng coi trọng nhân viên có xuất thân và kỹ năng đa dạng."
+        }
+      ]
+    },
+    {
+      "english": "diverse group",
+      "vietnamese": "nhóm đa dạng",
+      "ipa": "/dɪˈvɜːrs ɡruːp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The class is a diverse group of learners from many countries.",
+          "vi": "Lớp học là một nhóm đa dạng gồm người học từ nhiều quốc gia."
+        },
+        {
+          "en": "A diverse group often produces more creative ideas.",
+          "vi": "Một nhóm đa dạng thường tạo ra nhiều ý tưởng sáng tạo hơn."
+        },
+        {
+          "en": "The panel included a diverse group of experts and citizens.",
+          "vi": "Hội đồng gồm một nhóm đa dạng các chuyên gia và người dân."
+        }
+      ]
+    },
+    {
+      "english": "diverse range of",
+      "vietnamese": "loạt đa dạng các",
+      "ipa": "/dɪˈvɜːrs reɪndʒ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The shop sells a diverse range of organic products.",
+          "vi": "Cửa hàng bán một loạt đa dạng các sản phẩm hữu cơ."
+        },
+        {
+          "en": "The course covers a diverse range of historical topics.",
+          "vi": "Khóa học bao quát một loạt đa dạng các chủ đề lịch sử."
+        },
+        {
+          "en": "Volunteers came from a diverse range of professions.",
+          "vi": "Các tình nguyện viên đến từ một loạt đa dạng các nghề nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "dividing line",
+      "vietnamese": "ranh giới phân chia",
+      "ipa": "/dɪˈvaɪdɪŋ laɪn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The river forms a natural dividing line between the regions.",
+          "vi": "Con sông tạo thành ranh giới phân chia tự nhiên giữa các vùng."
+        },
+        {
+          "en": "There is a thin dividing line between humor and rudeness.",
+          "vi": "Có một ranh giới phân chia mong manh giữa hài hước và thô lỗ."
+        },
+        {
+          "en": "Age is not a clear dividing line for these opinions.",
+          "vi": "Tuổi tác không phải ranh giới phân chia rõ ràng cho những quan điểm này."
+        }
+      ]
+    },
+    {
+      "english": "documentary evidence",
+      "vietnamese": "bằng chứng tài liệu",
+      "ipa": "/ˌdɑːkjəˈmentəri ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The historian relied on documentary evidence from old letters.",
+          "vi": "Nhà sử học dựa vào bằng chứng tài liệu từ những lá thư cũ."
+        },
+        {
+          "en": "Documentary evidence supported the claims made in court.",
+          "vi": "Bằng chứng tài liệu ủng hộ các tuyên bố đưa ra tại tòa."
+        },
+        {
+          "en": "Without documentary evidence, the story is hard to verify.",
+          "vi": "Nếu thiếu bằng chứng tài liệu, câu chuyện rất khó kiểm chứng."
+        }
+      ]
+    },
+    {
+      "english": "domestic market",
+      "vietnamese": "thị trường nội địa",
+      "ipa": "/dəˈmestɪk ˈmɑːrkɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company focuses mainly on the domestic market.",
+          "vi": "Công ty tập trung chủ yếu vào thị trường nội địa."
+        },
+        {
+          "en": "Cheap imports have hurt the domestic market for textiles.",
+          "vi": "Hàng nhập rẻ đã gây tổn hại cho thị trường dệt may nội địa."
+        },
+        {
+          "en": "Strong demand in the domestic market boosted local jobs.",
+          "vi": "Nhu cầu mạnh ở thị trường nội địa thúc đẩy việc làm địa phương."
+        }
+      ]
+    },
+    {
+      "english": "domestic sphere",
+      "vietnamese": "phạm vi gia đình",
+      "ipa": "/dəˈmestɪk sfɪr/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In the past, women were largely confined to the domestic sphere.",
+          "vi": "Trong quá khứ, phụ nữ phần lớn bị giới hạn trong phạm vi gia đình."
+        },
+        {
+          "en": "The book studies work done within the domestic sphere.",
+          "vi": "Cuốn sách nghiên cứu công việc trong phạm vi gia đình."
+        },
+        {
+          "en": "Modern roles blur the line around the domestic sphere.",
+          "vi": "Các vai trò hiện đại làm mờ ranh giới của phạm vi gia đình."
+        }
+      ]
+    },
+    {
+      "english": "domestic violence",
+      "vietnamese": "bạo lực gia đình",
+      "ipa": "/dəˈmestɪk ˈvaɪələns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The charity helps victims of domestic violence find safety.",
+          "vi": "Tổ chức từ thiện giúp nạn nhân bạo lực gia đình tìm nơi an toàn."
+        },
+        {
+          "en": "New laws aim to reduce cases of domestic violence.",
+          "vi": "Các luật mới nhằm giảm số vụ bạo lực gia đình."
+        },
+        {
+          "en": "Domestic violence often goes unreported for many years.",
+          "vi": "Bạo lực gia đình thường không được báo cáo trong nhiều năm."
+        }
+      ]
+    },
+    {
+      "english": "dominant culture",
+      "vietnamese": "văn hóa chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt ˈkʌltʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Immigrants often adapt to the dominant culture over time.",
+          "vi": "Người nhập cư thường thích nghi với văn hóa chủ đạo theo thời gian."
+        },
+        {
+          "en": "The dominant culture shapes what is shown in the media.",
+          "vi": "Văn hóa chủ đạo định hình những gì được thể hiện trên truyền thông."
+        },
+        {
+          "en": "Smaller traditions can be lost within a dominant culture.",
+          "vi": "Các truyền thống nhỏ có thể bị mai một trong một văn hóa chủ đạo."
+        }
+      ]
+    },
+    {
+      "english": "dominant discourse",
+      "vietnamese": "diễn ngôn chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt ˈdɪskɔːrs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The essay challenges the dominant discourse on poverty.",
+          "vi": "Bài luận thách thức diễn ngôn chủ đạo về đói nghèo."
+        },
+        {
+          "en": "Media often reinforce the dominant discourse of a society.",
+          "vi": "Truyền thông thường củng cố diễn ngôn chủ đạo của một xã hội."
+        },
+        {
+          "en": "Scholars question the dominant discourse around success.",
+          "vi": "Các học giả đặt nghi vấn về diễn ngôn chủ đạo quanh sự thành công."
+        }
+      ]
+    },
+    {
+      "english": "dominant form",
+      "vietnamese": "hình thức chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt fɔːrm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Television was once the dominant form of entertainment.",
+          "vi": "Truyền hình từng là hình thức giải trí chủ đạo."
+        },
+        {
+          "en": "Email remains the dominant form of business communication.",
+          "vi": "Email vẫn là hình thức giao tiếp chủ đạo trong kinh doanh."
+        },
+        {
+          "en": "Cash is no longer the dominant form of payment here.",
+          "vi": "Tiền mặt không còn là hình thức thanh toán chủ đạo ở đây."
+        }
+      ]
+    },
+    {
+      "english": "dominant group",
+      "vietnamese": "nhóm thống trị",
+      "ipa": "/ˈdɑːmɪnənt ɡruːp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The dominant group often controls access to resources.",
+          "vi": "Nhóm thống trị thường kiểm soát quyền tiếp cận tài nguyên."
+        },
+        {
+          "en": "Policies sometimes favor the dominant group in society.",
+          "vi": "Các chính sách đôi khi ưu ái nhóm thống trị trong xã hội."
+        },
+        {
+          "en": "Members of the dominant group rarely notice their advantages.",
+          "vi": "Các thành viên của nhóm thống trị hiếm khi nhận ra lợi thế của mình."
+        }
+      ]
+    },
+    {
+      "english": "dominant ideology",
+      "vietnamese": "hệ tư tưởng chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt ˌaɪdiˈɑːlədʒi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The dominant ideology of the era praised free trade.",
+          "vi": "Hệ tư tưởng chủ đạo của thời kỳ đó ca ngợi tự do thương mại."
+        },
+        {
+          "en": "Schools can quietly pass on the dominant ideology.",
+          "vi": "Trường học có thể âm thầm truyền tải hệ tư tưởng chủ đạo."
+        },
+        {
+          "en": "Artists sometimes resist the dominant ideology of their time.",
+          "vi": "Nghệ sĩ đôi khi chống lại hệ tư tưởng chủ đạo của thời đại mình."
+        }
+      ]
+    },
+    {
+      "english": "dominant paradigm",
+      "vietnamese": "mô hình chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt ˈpærədaɪm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The dominant paradigm in physics shifted after Einstein.",
+          "vi": "Mô hình chủ đạo trong vật lý đã thay đổi sau Einstein."
+        },
+        {
+          "en": "Her research questions the dominant paradigm in economics.",
+          "vi": "Nghiên cứu của cô ấy đặt nghi vấn về mô hình chủ đạo trong kinh tế học."
+        },
+        {
+          "en": "A new dominant paradigm can take decades to take hold.",
+          "vi": "Một mô hình chủ đạo mới có thể mất hàng thập kỷ để được chấp nhận."
+        }
+      ]
+    },
+    {
+      "english": "dominant position",
+      "vietnamese": "vị thế thống trị",
+      "ipa": "/ˈdɑːmɪnənt pəˈzɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The firm holds a dominant position in the software market.",
+          "vi": "Công ty giữ vị thế thống trị trên thị trường phần mềm."
+        },
+        {
+          "en": "Their dominant position allowed them to set high prices.",
+          "vi": "Vị thế thống trị cho phép họ đặt giá cao."
+        },
+        {
+          "en": "A dominant position in trade gave the city great wealth.",
+          "vi": "Vị thế thống trị trong thương mại mang lại cho thành phố sự giàu có lớn."
+        }
+      ]
+    },
+    {
+      "english": "dominant role",
+      "vietnamese": "vai trò chủ đạo",
+      "ipa": "/ˈdɑːmɪnənt roʊl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Oil plays a dominant role in the country's economy.",
+          "vi": "Dầu mỏ đóng vai trò chủ đạo trong nền kinh tế của đất nước."
+        },
+        {
+          "en": "She took a dominant role in leading the discussion.",
+          "vi": "Cô ấy đảm nhận vai trò chủ đạo trong việc dẫn dắt thảo luận."
+        },
+        {
+          "en": "Technology now has a dominant role in modern education.",
+          "vi": "Công nghệ giờ đây đóng vai trò chủ đạo trong giáo dục hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "dramatic change",
+      "vietnamese": "sự thay đổi mạnh mẽ",
+      "ipa": "/drəˈmætɪk tʃeɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The city has seen a dramatic change over the past decade.",
+          "vi": "Thành phố đã chứng kiến sự thay đổi mạnh mẽ trong thập kỷ qua."
+        },
+        {
+          "en": "New technology brought a dramatic change to farming.",
+          "vi": "Công nghệ mới mang lại sự thay đổi mạnh mẽ cho ngành nông nghiệp."
+        },
+        {
+          "en": "There was a dramatic change in attitudes after the campaign.",
+          "vi": "Đã có một sự thay đổi mạnh mẽ trong thái độ sau chiến dịch."
+        }
+      ]
+    },
+    {
+      "english": "dramatic effect",
+      "vietnamese": "tác động mạnh mẽ",
+      "ipa": "/drəˈmætɪk ɪˈfekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new law had a dramatic effect on small businesses.",
+          "vi": "Luật mới có tác động mạnh mẽ đến các doanh nghiệp nhỏ."
+        },
+        {
+          "en": "Good lighting can have a dramatic effect on a photo.",
+          "vi": "Ánh sáng tốt có thể tạo tác động mạnh mẽ lên một bức ảnh."
+        },
+        {
+          "en": "Exercise had a dramatic effect on her overall health.",
+          "vi": "Tập thể dục có tác động mạnh mẽ đến sức khỏe tổng thể của cô ấy."
+        }
+      ]
+    },
+    {
+      "english": "dramatic increase",
+      "vietnamese": "sự gia tăng mạnh mẽ",
+      "ipa": "/drəˈmætɪk ˈɪnkriːs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There was a dramatic increase in online sales last year.",
+          "vi": "Đã có sự gia tăng mạnh mẽ về doanh số trực tuyến năm ngoái."
+        },
+        {
+          "en": "The report shows a dramatic increase in energy prices.",
+          "vi": "Báo cáo cho thấy sự gia tăng mạnh mẽ về giá năng lượng."
+        },
+        {
+          "en": "A dramatic increase in users strained the company's servers.",
+          "vi": "Sự gia tăng mạnh mẽ về người dùng gây áp lực lên máy chủ của công ty."
+        }
+      ]
+    },
+    {
+      "english": "draw attention to",
+      "vietnamese": "thu hút sự chú ý đến",
+      "ipa": "/drɔː əˈtenʃən tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The campaign aims to draw attention to climate change.",
+          "vi": "Chiến dịch nhằm thu hút sự chú ý đến biến đổi khí hậu."
+        },
+        {
+          "en": "She used bright colors to draw attention to the poster.",
+          "vi": "Cô ấy dùng màu sắc tươi sáng để thu hút sự chú ý đến tấm áp phích."
+        },
+        {
+          "en": "The author wants to draw attention to a forgotten issue.",
+          "vi": "Tác giả muốn thu hút sự chú ý đến một vấn đề bị lãng quên."
+        }
+      ]
+    },
+    {
+      "english": "draw a conclusion",
+      "vietnamese": "rút ra một kết luận",
+      "ipa": "/drɔː ə kənˈkluːʒən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "It is too early to draw a conclusion from this data.",
+          "vi": "Còn quá sớm để rút ra một kết luận từ dữ liệu này."
+        },
+        {
+          "en": "Readers can draw a conclusion based on the evidence given.",
+          "vi": "Người đọc có thể rút ra một kết luận dựa trên bằng chứng đã nêu."
+        },
+        {
+          "en": "Scientists draw a conclusion only after repeated testing.",
+          "vi": "Các nhà khoa học chỉ rút ra một kết luận sau nhiều lần kiểm tra."
+        }
+      ]
+    },
+    {
+      "english": "draw a distinction",
+      "vietnamese": "phân biệt rõ ràng",
+      "ipa": "/drɔː ə dɪˈstɪŋkʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The author draws a distinction between belief and knowledge.",
+          "vi": "Tác giả phân biệt rõ ràng giữa niềm tin và kiến thức."
+        },
+        {
+          "en": "We must draw a distinction between cause and correlation.",
+          "vi": "Chúng ta phải phân biệt rõ ràng giữa nguyên nhân và mối tương quan."
+        },
+        {
+          "en": "It helps to draw a distinction between needs and wants.",
+          "vi": "Việc phân biệt rõ ràng giữa nhu cầu và mong muốn rất hữu ích."
+        }
+      ]
+    },
+    {
+      "english": "draw a line",
+      "vietnamese": "vạch ra ranh giới",
+      "ipa": "/drɔː ə laɪn/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "It is hard to draw a line between work and rest.",
+          "vi": "Thật khó để vạch ra ranh giới giữa công việc và nghỉ ngơi."
+        },
+        {
+          "en": "Parents should draw a line on screen time for children.",
+          "vi": "Cha mẹ nên vạch ra ranh giới về thời gian dùng màn hình cho trẻ."
+        },
+        {
+          "en": "The law draws a line between free speech and harm.",
+          "vi": "Luật pháp vạch ra ranh giới giữa tự do ngôn luận và gây hại."
+        }
+      ]
+    }
+  ]
+}

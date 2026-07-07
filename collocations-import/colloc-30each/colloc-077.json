@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 77/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 77/83"
+  },
+  "cards": [
+    {
+      "english": "take responsibility",
+      "vietnamese": "chịu trách nhiệm",
+      "ipa": "/ˈteɪk rɪˌspɑːnsəˈbɪləti/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Managers must take responsibility for their team's mistakes.",
+          "vi": "Người quản lý phải chịu trách nhiệm về sai lầm của nhóm mình."
+        },
+        {
+          "en": "He was willing to take responsibility for the failed project.",
+          "vi": "Anh ấy sẵn sàng chịu trách nhiệm về dự án thất bại."
+        },
+        {
+          "en": "Citizens should take responsibility for protecting the environment.",
+          "vi": "Người dân nên chịu trách nhiệm bảo vệ môi trường."
+        }
+      ]
+    },
+    {
+      "english": "take a role in",
+      "vietnamese": "đóng vai trò trong",
+      "ipa": "/ˈteɪk ə ˈroʊl ɪn/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Parents should take a role in their children's education.",
+          "vi": "Cha mẹ nên đóng vai trò trong việc giáo dục con cái."
+        },
+        {
+          "en": "Volunteers take a role in organizing the annual festival.",
+          "vi": "Các tình nguyện viên đóng vai trò trong việc tổ chức lễ hội hằng năm."
+        },
+        {
+          "en": "She hopes to take a role in shaping company policy.",
+          "vi": "Cô hy vọng được đóng vai trò trong việc định hình chính sách công ty."
+        }
+      ]
+    },
+    {
+      "english": "take an approach",
+      "vietnamese": "áp dụng một cách tiếp cận",
+      "ipa": "/ˈteɪk ən əˈproʊtʃ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The researchers decided to take a different approach this time.",
+          "vi": "Các nhà nghiên cứu quyết định áp dụng một cách tiếp cận khác lần này."
+        },
+        {
+          "en": "We should take a more practical approach to the problem.",
+          "vi": "Chúng ta nên áp dụng một cách tiếp cận thực tế hơn với vấn đề."
+        },
+        {
+          "en": "Teachers can take an approach suited to each student's needs.",
+          "vi": "Giáo viên có thể áp dụng một cách tiếp cận phù hợp với nhu cầu từng học sinh."
+        }
+      ]
+    },
+    {
+      "english": "take into consideration",
+      "vietnamese": "cân nhắc đến",
+      "ipa": "/ˈteɪk ˌɪntə kənˌsɪdəˈreɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "We must take into consideration the needs of every student.",
+          "vi": "Chúng ta phải cân nhắc đến nhu cầu của mọi học sinh."
+        },
+        {
+          "en": "The plan takes into consideration both cost and safety.",
+          "vi": "Kế hoạch cân nhắc đến cả chi phí lẫn an toàn."
+        },
+        {
+          "en": "Judges take into consideration the circumstances of each case.",
+          "vi": "Thẩm phán cân nhắc đến hoàn cảnh của từng vụ việc."
+        }
+      ]
+    },
+    {
+      "english": "take on the role of",
+      "vietnamese": "đảm nhận vai trò",
+      "ipa": "/ˈteɪk ˈɑːn ðə ˈroʊl əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "She agreed to take on the role of team leader.",
+          "vi": "Cô đồng ý đảm nhận vai trò trưởng nhóm."
+        },
+        {
+          "en": "He will take on the role of project coordinator next month.",
+          "vi": "Anh ấy sẽ đảm nhận vai trò điều phối dự án vào tháng tới."
+        },
+        {
+          "en": "New graduates often take on the role of junior analyst.",
+          "vi": "Sinh viên mới ra trường thường đảm nhận vai trò chuyên viên phân tích cấp dưới."
+        }
+      ]
+    },
+    {
+      "english": "take up the role of",
+      "vietnamese": "tiếp nhận vai trò",
+      "ipa": "/ˈteɪk ˈʌp ðə ˈroʊl əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "He will take up the role of department head in July.",
+          "vi": "Ông sẽ tiếp nhận vai trò trưởng khoa vào tháng Bảy."
+        },
+        {
+          "en": "She was asked to take up the role of mentor.",
+          "vi": "Cô được đề nghị tiếp nhận vai trò người hướng dẫn."
+        },
+        {
+          "en": "After retirement, he took up the role of adviser.",
+          "vi": "Sau khi nghỉ hưu, ông tiếp nhận vai trò cố vấn."
+        }
+      ]
+    },
+    {
+      "english": "target audience",
+      "vietnamese": "đối tượng mục tiêu",
+      "ipa": "/ˈtɑːrɡɪt ˈɔːdiəns/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Writers should always consider their target audience first.",
+          "vi": "Người viết nên luôn cân nhắc đối tượng mục tiêu trước tiên."
+        },
+        {
+          "en": "The campaign was designed for a young target audience.",
+          "vi": "Chiến dịch được thiết kế cho đối tượng mục tiêu là người trẻ."
+        },
+        {
+          "en": "Knowing your target audience improves the impact of a message.",
+          "vi": "Hiểu đối tượng mục tiêu giúp tăng tác động của thông điệp."
+        }
+      ]
+    },
+    {
+      "english": "teaching strategy",
+      "vietnamese": "chiến lược giảng dạy",
+      "ipa": "/ˈtiːtʃɪŋ ˈstrætədʒi/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The teacher adopted a new teaching strategy this semester.",
+          "vi": "Giáo viên áp dụng một chiến lược giảng dạy mới trong học kỳ này."
+        },
+        {
+          "en": "An effective teaching strategy keeps students actively engaged.",
+          "vi": "Một chiến lược giảng dạy hiệu quả giữ cho học sinh tích cực tham gia."
+        },
+        {
+          "en": "The workshop introduced several teaching strategies for large classes.",
+          "vi": "Buổi tập huấn giới thiệu một số chiến lược giảng dạy cho lớp đông."
+        }
+      ]
+    },
+    {
+      "english": "technical aspect",
+      "vietnamese": "khía cạnh kỹ thuật",
+      "ipa": "/ˈteknɪkəl ˈæspekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report explains the technical aspects of the new system.",
+          "vi": "Báo cáo giải thích các khía cạnh kỹ thuật của hệ thống mới."
+        },
+        {
+          "en": "She struggled with the technical aspects of the software.",
+          "vi": "Cô gặp khó khăn với các khía cạnh kỹ thuật của phần mềm."
+        },
+        {
+          "en": "We hired an expert to handle the technical aspects.",
+          "vi": "Chúng tôi thuê một chuyên gia để xử lý các khía cạnh kỹ thuật."
+        }
+      ]
+    },
+    {
+      "english": "technical assistance",
+      "vietnamese": "hỗ trợ kỹ thuật",
+      "ipa": "/ˈteknɪkəl əˈsɪstəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The organization provides technical assistance to developing countries.",
+          "vi": "Tổ chức cung cấp hỗ trợ kỹ thuật cho các nước đang phát triển."
+        },
+        {
+          "en": "Customers can request technical assistance by phone or email.",
+          "vi": "Khách hàng có thể yêu cầu hỗ trợ kỹ thuật qua điện thoại hoặc email."
+        },
+        {
+          "en": "The project received technical assistance from international experts.",
+          "vi": "Dự án nhận được hỗ trợ kỹ thuật từ các chuyên gia quốc tế."
+        }
+      ]
+    },
+    {
+      "english": "technical detail",
+      "vietnamese": "chi tiết kỹ thuật",
+      "ipa": "/ˈteknɪkəl ˈdiːteɪl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The manual covers every technical detail of the machine.",
+          "vi": "Sách hướng dẫn bao gồm mọi chi tiết kỹ thuật của máy."
+        },
+        {
+          "en": "She explained the technical details clearly to the audience.",
+          "vi": "Cô giải thích các chi tiết kỹ thuật rõ ràng cho khán giả."
+        },
+        {
+          "en": "Don't get lost in technical details during the presentation.",
+          "vi": "Đừng sa vào các chi tiết kỹ thuật trong khi thuyết trình."
+        }
+      ]
+    },
+    {
+      "english": "technical expertise",
+      "vietnamese": "chuyên môn kỹ thuật",
+      "ipa": "/ˈteknɪkəl ˌekspɜːrˈtiːz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The job requires strong technical expertise in data analysis.",
+          "vi": "Công việc đòi hỏi chuyên môn kỹ thuật vững về phân tích dữ liệu."
+        },
+        {
+          "en": "Her technical expertise made her a valuable team member.",
+          "vi": "Chuyên môn kỹ thuật khiến cô trở thành thành viên quý giá của nhóm."
+        },
+        {
+          "en": "The company lacked the technical expertise to finish the project.",
+          "vi": "Công ty thiếu chuyên môn kỹ thuật để hoàn thành dự án."
+        }
+      ]
+    },
+    {
+      "english": "technical issue",
+      "vietnamese": "vấn đề kỹ thuật",
+      "ipa": "/ˈteknɪkəl ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A technical issue delayed the start of the online exam.",
+          "vi": "Một vấn đề kỹ thuật làm trễ giờ bắt đầu kỳ thi trực tuyến."
+        },
+        {
+          "en": "The team quickly resolved the technical issue with the server.",
+          "vi": "Nhóm nhanh chóng khắc phục vấn đề kỹ thuật với máy chủ."
+        },
+        {
+          "en": "We apologize for the technical issues during the broadcast.",
+          "vi": "Chúng tôi xin lỗi về các vấn đề kỹ thuật trong buổi phát sóng."
+        }
+      ]
+    },
+    {
+      "english": "technical knowledge",
+      "vietnamese": "kiến thức kỹ thuật",
+      "ipa": "/ˈteknɪkəl ˈnɑːlɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course builds technical knowledge in network security.",
+          "vi": "Khóa học xây dựng kiến thức kỹ thuật về an ninh mạng."
+        },
+        {
+          "en": "Practical projects deepen students' technical knowledge.",
+          "vi": "Các dự án thực hành làm sâu kiến thức kỹ thuật của sinh viên."
+        },
+        {
+          "en": "He gained valuable technical knowledge during the internship.",
+          "vi": "Anh ấy tích lũy kiến thức kỹ thuật quý báu trong kỳ thực tập."
+        }
+      ]
+    },
+    {
+      "english": "technical problem",
+      "vietnamese": "trục trặc kỹ thuật",
+      "ipa": "/ˈteknɪkəl ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A technical problem caused the website to crash repeatedly.",
+          "vi": "Một trục trặc kỹ thuật khiến trang web liên tục bị sập."
+        },
+        {
+          "en": "Engineers worked overnight to fix the technical problem.",
+          "vi": "Các kỹ sư làm việc suốt đêm để khắc phục trục trặc kỹ thuật."
+        },
+        {
+          "en": "The flight was delayed because of a minor technical problem.",
+          "vi": "Chuyến bay bị hoãn vì một trục trặc kỹ thuật nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "technical skill",
+      "vietnamese": "kỹ năng kỹ thuật",
+      "ipa": "/ˈteknɪkəl ˈskɪl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Employers value both technical skills and good communication.",
+          "vi": "Nhà tuyển dụng coi trọng cả kỹ năng kỹ thuật lẫn giao tiếp tốt."
+        },
+        {
+          "en": "The training program develops practical technical skills.",
+          "vi": "Chương trình đào tạo phát triển các kỹ năng kỹ thuật thực tế."
+        },
+        {
+          "en": "She improved her technical skills through online courses.",
+          "vi": "Cô nâng cao kỹ năng kỹ thuật của mình qua các khóa học trực tuyến."
+        }
+      ]
+    },
+    {
+      "english": "technical support",
+      "vietnamese": "hỗ trợ kỹ thuật",
+      "ipa": "/ˈteknɪkəl səˈpɔːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Call technical support if the device stops responding.",
+          "vi": "Gọi bộ phận hỗ trợ kỹ thuật nếu thiết bị ngừng phản hồi."
+        },
+        {
+          "en": "The software includes free technical support for one year.",
+          "vi": "Phần mềm bao gồm hỗ trợ kỹ thuật miễn phí trong một năm."
+        },
+        {
+          "en": "Their technical support team responds within a few hours.",
+          "vi": "Đội hỗ trợ kỹ thuật của họ phản hồi trong vài giờ."
+        }
+      ]
+    },
+    {
+      "english": "technical term",
+      "vietnamese": "thuật ngữ chuyên môn",
+      "ipa": "/ˈteknɪkəl ˈtɜːrm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The author defines each technical term before using it.",
+          "vi": "Tác giả định nghĩa từng thuật ngữ chuyên môn trước khi dùng nó."
+        },
+        {
+          "en": "Avoid too many technical terms when writing for general readers.",
+          "vi": "Tránh dùng quá nhiều thuật ngữ chuyên môn khi viết cho độc giả phổ thông."
+        },
+        {
+          "en": "The glossary explains all the technical terms in the report.",
+          "vi": "Bảng thuật ngữ giải thích mọi thuật ngữ chuyên môn trong báo cáo."
+        }
+      ]
+    },
+    {
+      "english": "technological advances",
+      "vietnamese": "những tiến bộ công nghệ",
+      "ipa": "/ˌteknəˈlɑːdʒɪkəl ədˈvænsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Recent technological advances have transformed how we communicate.",
+          "vi": "Những tiến bộ công nghệ gần đây đã thay đổi cách chúng ta giao tiếp."
+        },
+        {
+          "en": "Technological advances in medicine save millions of lives.",
+          "vi": "Những tiến bộ công nghệ trong y học cứu sống hàng triệu người."
+        },
+        {
+          "en": "The industry depends on continuous technological advances.",
+          "vi": "Ngành này phụ thuộc vào những tiến bộ công nghệ liên tục."
+        }
+      ]
+    },
+    {
+      "english": "technological change",
+      "vietnamese": "sự thay đổi công nghệ",
+      "ipa": "/ˌteknəˈlɑːdʒɪkəl ˈtʃeɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Rapid technological change reshaped the global job market.",
+          "vi": "Sự thay đổi công nghệ nhanh chóng định hình lại thị trường lao động toàn cầu."
+        },
+        {
+          "en": "Workers must adapt to constant technological change.",
+          "vi": "Người lao động phải thích ứng với sự thay đổi công nghệ liên tục."
+        },
+        {
+          "en": "The essay examines how technological change affects daily life.",
+          "vi": "Bài luận xem xét sự thay đổi công nghệ ảnh hưởng đến đời sống thường nhật ra sao."
+        }
+      ]
+    },
+    {
+      "english": "technological development",
+      "vietnamese": "sự phát triển công nghệ",
+      "ipa": "/ˌteknəˈlɑːdʒɪkəl dɪˈveləpmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Technological development drives much of modern economic growth.",
+          "vi": "Sự phát triển công nghệ thúc đẩy phần lớn tăng trưởng kinh tế hiện đại."
+        },
+        {
+          "en": "The country invested heavily in technological development.",
+          "vi": "Quốc gia này đầu tư mạnh vào sự phát triển công nghệ."
+        },
+        {
+          "en": "Technological development has improved access to education worldwide.",
+          "vi": "Sự phát triển công nghệ đã cải thiện việc tiếp cận giáo dục trên toàn cầu."
+        }
+      ]
+    },
+    {
+      "english": "technological innovation",
+      "vietnamese": "đổi mới công nghệ",
+      "ipa": "/ˌteknəˈlɑːdʒɪkəl ˌɪnəˈveɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Technological innovation gives companies a strong competitive edge.",
+          "vi": "Đổi mới công nghệ mang lại cho công ty lợi thế cạnh tranh lớn."
+        },
+        {
+          "en": "The region became a hub for technological innovation.",
+          "vi": "Khu vực này trở thành trung tâm đổi mới công nghệ."
+        },
+        {
+          "en": "Government funding supports technological innovation in universities.",
+          "vi": "Ngân sách chính phủ hỗ trợ đổi mới công nghệ tại các trường đại học."
+        }
+      ]
+    },
+    {
+      "english": "technological progress",
+      "vietnamese": "tiến bộ công nghệ",
+      "ipa": "/ˌteknəˈlɑːdʒɪkəl ˈprɑːɡres/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Technological progress has made information far easier to access.",
+          "vi": "Tiến bộ công nghệ đã làm cho việc tiếp cận thông tin dễ dàng hơn nhiều."
+        },
+        {
+          "en": "Some worry that technological progress may replace many jobs.",
+          "vi": "Một số người lo rằng tiến bộ công nghệ có thể thay thế nhiều việc làm."
+        },
+        {
+          "en": "Rapid technological progress requires constant learning and adaptation.",
+          "vi": "Tiến bộ công nghệ nhanh chóng đòi hỏi học hỏi và thích ứng liên tục."
+        }
+      ]
+    },
+    {
+      "english": "test score",
+      "vietnamese": "điểm kiểm tra",
+      "ipa": "/ˈtest ˈskɔːr/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Her test scores improved steadily throughout the school year.",
+          "vi": "Điểm kiểm tra của cô cải thiện đều đặn suốt năm học."
+        },
+        {
+          "en": "The study compared test scores across different teaching methods.",
+          "vi": "Nghiên cứu so sánh điểm kiểm tra giữa các phương pháp giảng dạy khác nhau."
+        },
+        {
+          "en": "High test scores do not always reflect deep understanding.",
+          "vi": "Điểm kiểm tra cao không phải lúc nào cũng phản ánh sự hiểu sâu."
+        }
+      ]
+    },
+    {
+      "english": "test a theory",
+      "vietnamese": "kiểm chứng một lý thuyết",
+      "ipa": "/test ə ˈθiːəri/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Scientists design experiments to test a theory under controlled conditions.",
+          "vi": "Các nhà khoa học thiết kế thí nghiệm để kiểm chứng một lý thuyết trong điều kiện kiểm soát."
+        },
+        {
+          "en": "We collected new data to test a theory about memory.",
+          "vi": "Chúng tôi thu thập dữ liệu mới để kiểm chứng một lý thuyết về trí nhớ."
+        },
+        {
+          "en": "Researchers must test a theory before accepting it as fact.",
+          "vi": "Các nhà nghiên cứu phải kiểm chứng một lý thuyết trước khi xem nó là sự thật."
+        }
+      ]
+    },
+    {
+      "english": "textual analysis",
+      "vietnamese": "phân tích văn bản",
+      "ipa": "/ˈtekstʃuəl əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her textual analysis revealed hidden themes in the old manuscript.",
+          "vi": "Phân tích văn bản của cô đã hé lộ những chủ đề ẩn trong bản thảo cũ."
+        },
+        {
+          "en": "Careful textual analysis helps students understand the author's intent.",
+          "vi": "Phân tích văn bản kỹ lưỡng giúp sinh viên hiểu ý đồ của tác giả."
+        },
+        {
+          "en": "The course introduces methods of textual analysis for literary criticism.",
+          "vi": "Khóa học giới thiệu các phương pháp phân tích văn bản cho phê bình văn học."
+        }
+      ]
+    },
+    {
+      "english": "thematic analysis",
+      "vietnamese": "phân tích theo chủ đề",
+      "ipa": "/θɪˈmætɪk əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "We used thematic analysis to identify patterns in the interviews.",
+          "vi": "Chúng tôi dùng phân tích theo chủ đề để tìm các mẫu trong các cuộc phỏng vấn."
+        },
+        {
+          "en": "Thematic analysis is common in qualitative social science research.",
+          "vi": "Phân tích theo chủ đề rất phổ biến trong nghiên cứu khoa học xã hội định tính."
+        },
+        {
+          "en": "The report presents a thematic analysis of student feedback.",
+          "vi": "Báo cáo trình bày một phân tích theo chủ đề về phản hồi của sinh viên."
+        }
+      ]
+    },
+    {
+      "english": "theoretical analysis",
+      "vietnamese": "phân tích lý thuyết",
+      "ipa": "/ˌθiːəˈretɪkəl əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The paper offers a detailed theoretical analysis of market behavior.",
+          "vi": "Bài báo đưa ra một phân tích lý thuyết chi tiết về hành vi thị trường."
+        },
+        {
+          "en": "Theoretical analysis often precedes any practical experiment in physics.",
+          "vi": "Phân tích lý thuyết thường đi trước bất kỳ thí nghiệm thực tế nào trong vật lý."
+        },
+        {
+          "en": "Her theoretical analysis explained why the model sometimes failed.",
+          "vi": "Phân tích lý thuyết của cô giải thích vì sao mô hình đôi khi thất bại."
+        }
+      ]
+    },
+    {
+      "english": "theoretical approach",
+      "vietnamese": "cách tiếp cận lý thuyết",
+      "ipa": "/ˌθiːəˈretɪkəl əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each theoretical approach offers a different way of explaining behavior.",
+          "vi": "Mỗi cách tiếp cận lý thuyết đưa ra một cách giải thích hành vi khác nhau."
+        },
+        {
+          "en": "The author combines two theoretical approaches in her new study.",
+          "vi": "Tác giả kết hợp hai cách tiếp cận lý thuyết trong nghiên cứu mới của mình."
+        },
+        {
+          "en": "Students compared the theoretical approach with the empirical findings.",
+          "vi": "Sinh viên so sánh cách tiếp cận lý thuyết với các kết quả thực nghiệm."
+        }
+      ]
+    },
+    {
+      "english": "theoretical basis",
+      "vietnamese": "cơ sở lý thuyết",
+      "ipa": "/ˌθiːəˈretɪkəl ˈbeɪsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study lacks a solid theoretical basis for its claims.",
+          "vi": "Nghiên cứu thiếu một cơ sở lý thuyết vững chắc cho các tuyên bố của nó."
+        },
+        {
+          "en": "His argument rests on a clear theoretical basis from psychology.",
+          "vi": "Lập luận của anh dựa trên một cơ sở lý thuyết rõ ràng từ tâm lý học."
+        },
+        {
+          "en": "We must establish the theoretical basis before designing the experiment.",
+          "vi": "Chúng ta phải thiết lập cơ sở lý thuyết trước khi thiết kế thí nghiệm."
+        }
+      ]
+    }
+  ]
+}

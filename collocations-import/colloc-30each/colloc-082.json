@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 82/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 82/83"
+  },
+  "cards": [
+    {
+      "english": "western tradition",
+      "vietnamese": "truyền thống phương Tây",
+      "ipa": "/ˈwestərn trəˈdɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course traces the western tradition of philosophical thought.",
+          "vi": "Khóa học truy nguyên truyền thống tư tưởng triết học phương Tây."
+        },
+        {
+          "en": "This artwork blends eastern and western tradition beautifully.",
+          "vi": "Tác phẩm này kết hợp truyền thống phương Đông và phương Tây một cách đẹp đẽ."
+        },
+        {
+          "en": "Western tradition has deeply shaped modern legal systems.",
+          "vi": "Truyền thống phương Tây đã định hình sâu sắc các hệ thống pháp luật hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "whole area",
+      "vietnamese": "toàn bộ lĩnh vực",
+      "ipa": "/hoʊl ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The whole area of cognitive science has grown rapidly.",
+          "vi": "Toàn bộ lĩnh vực khoa học nhận thức đã phát triển nhanh chóng."
+        },
+        {
+          "en": "Her research opened up a whole area of inquiry.",
+          "vi": "Nghiên cứu của cô mở ra toàn bộ một lĩnh vực tìm hiểu mới."
+        },
+        {
+          "en": "The flood damaged the whole area surrounding the river.",
+          "vi": "Lũ lụt làm hư hại toàn bộ khu vực xung quanh con sông."
+        }
+      ]
+    },
+    {
+      "english": "whole period",
+      "vietnamese": "toàn bộ giai đoạn",
+      "ipa": "/hoʊl ˈpɪriəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Sales remained stable throughout the whole period of study.",
+          "vi": "Doanh số ổn định suốt toàn bộ giai đoạn nghiên cứu."
+        },
+        {
+          "en": "The data were collected over the whole period of treatment.",
+          "vi": "Dữ liệu được thu thập trong toàn bộ giai đoạn điều trị."
+        },
+        {
+          "en": "Temperatures rose gradually during the whole period observed.",
+          "vi": "Nhiệt độ tăng dần trong toàn bộ giai đoạn được quan sát."
+        }
+      ]
+    },
+    {
+      "english": "whole range of",
+      "vietnamese": "toàn bộ phạm vi",
+      "ipa": "/hoʊl reɪndʒ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The program offers a whole range of support services.",
+          "vi": "Chương trình cung cấp toàn bộ một phạm vi các dịch vụ hỗ trợ."
+        },
+        {
+          "en": "Climate change affects a whole range of natural systems.",
+          "vi": "Biến đổi khí hậu ảnh hưởng đến toàn bộ một phạm vi các hệ thống tự nhiên."
+        },
+        {
+          "en": "Her job involves a whole range of administrative tasks.",
+          "vi": "Công việc của cô bao gồm toàn bộ một phạm vi các nhiệm vụ hành chính."
+        }
+      ]
+    },
+    {
+      "english": "wide area",
+      "vietnamese": "khu vực rộng",
+      "ipa": "/waɪd ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new network covers a wide area of the city.",
+          "vi": "Mạng lưới mới bao phủ một khu vực rộng của thành phố."
+        },
+        {
+          "en": "Pollution from the factory spread over a wide area.",
+          "vi": "Ô nhiễm từ nhà máy lan rộng trên một khu vực rộng."
+        },
+        {
+          "en": "The drought affected a wide area of farmland this year.",
+          "vi": "Hạn hán ảnh hưởng đến một khu vực rộng đất nông nghiệp năm nay."
+        }
+      ]
+    },
+    {
+      "english": "wide array of",
+      "vietnamese": "một loạt đa dạng",
+      "ipa": "/waɪd əˈreɪ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The festival featured a wide array of cultural performances.",
+          "vi": "Lễ hội có một loạt đa dạng các tiết mục văn hóa."
+        },
+        {
+          "en": "Students explored a wide array of career options at the fair.",
+          "vi": "Sinh viên khám phá một loạt đa dạng lựa chọn nghề nghiệp tại hội chợ."
+        },
+        {
+          "en": "The report addresses a wide array of environmental concerns.",
+          "vi": "Báo cáo đề cập một loạt đa dạng các mối quan ngại về môi trường."
+        }
+      ]
+    },
+    {
+      "english": "wide range of",
+      "vietnamese": "phạm vi rộng",
+      "ipa": "/waɪd reɪndʒ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The library holds books on a wide range of subjects.",
+          "vi": "Thư viện có sách về một phạm vi rộng các môn học."
+        },
+        {
+          "en": "The survey gathered views from a wide range of people.",
+          "vi": "Cuộc khảo sát thu thập quan điểm từ một phạm vi rộng người dân."
+        },
+        {
+          "en": "Her work draws on a wide range of academic disciplines.",
+          "vi": "Công trình của cô dựa trên một phạm vi rộng các ngành học thuật."
+        }
+      ]
+    },
+    {
+      "english": "wide variation",
+      "vietnamese": "sự dao động rộng",
+      "ipa": "/waɪd ˌveriˈeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is wide variation in income across the region.",
+          "vi": "Có sự dao động rộng về thu nhập trên khắp khu vực."
+        },
+        {
+          "en": "The study found wide variation in students' test scores.",
+          "vi": "Nghiên cứu phát hiện sự dao động rộng trong điểm thi của học sinh."
+        },
+        {
+          "en": "Wide variation in rainfall makes farming difficult to plan.",
+          "vi": "Sự dao động rộng về lượng mưa khiến việc canh tác khó lên kế hoạch."
+        }
+      ]
+    },
+    {
+      "english": "widely accepted",
+      "vietnamese": "được chấp nhận rộng rãi",
+      "ipa": "/ˈwaɪdli əkˈseptɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This theory is now widely accepted within the scientific community.",
+          "vi": "Lý thuyết này nay được chấp nhận rộng rãi trong cộng đồng khoa học."
+        },
+        {
+          "en": "It is widely accepted that exercise improves mental health.",
+          "vi": "Người ta chấp nhận rộng rãi rằng tập thể dục cải thiện sức khỏe tinh thần."
+        },
+        {
+          "en": "The method became widely accepted after repeated successful trials.",
+          "vi": "Phương pháp này được chấp nhận rộng rãi sau nhiều thử nghiệm thành công."
+        }
+      ]
+    },
+    {
+      "english": "widely adopted",
+      "vietnamese": "được áp dụng rộng rãi",
+      "ipa": "/ˈwaɪdli əˈdɑːptɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The new standard was widely adopted across the industry.",
+          "vi": "Tiêu chuẩn mới được áp dụng rộng rãi trong toàn ngành."
+        },
+        {
+          "en": "Renewable technologies are being widely adopted in many countries.",
+          "vi": "Công nghệ tái tạo đang được áp dụng rộng rãi ở nhiều quốc gia."
+        },
+        {
+          "en": "The teaching approach was widely adopted in primary schools.",
+          "vi": "Phương pháp giảng dạy được áp dụng rộng rãi ở các trường tiểu học."
+        }
+      ]
+    },
+    {
+      "english": "widely available",
+      "vietnamese": "có sẵn rộng rãi",
+      "ipa": "/ˈwaɪdli əˈveɪləbəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Vaccines are now widely available in most rural areas.",
+          "vi": "Vắc-xin nay có sẵn rộng rãi ở hầu hết các vùng nông thôn."
+        },
+        {
+          "en": "Online courses have made education more widely available.",
+          "vi": "Các khóa học trực tuyến đã làm cho giáo dục có sẵn rộng rãi hơn."
+        },
+        {
+          "en": "Such data is widely available through government websites.",
+          "vi": "Dữ liệu như vậy có sẵn rộng rãi qua các trang web chính phủ."
+        }
+      ]
+    },
+    {
+      "english": "widely believed",
+      "vietnamese": "được tin tưởng rộng rãi",
+      "ipa": "/ˈwaɪdli bɪˈliːvd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "It is widely believed that early intervention improves outcomes.",
+          "vi": "Người ta tin tưởng rộng rãi rằng can thiệp sớm cải thiện kết quả."
+        },
+        {
+          "en": "This myth was widely believed for many centuries.",
+          "vi": "Lầm tưởng này được tin tưởng rộng rãi trong nhiều thế kỷ."
+        },
+        {
+          "en": "It is widely believed that the policy will reduce unemployment.",
+          "vi": "Người ta tin tưởng rộng rãi rằng chính sách sẽ giảm thất nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "widely different",
+      "vietnamese": "khác nhau rõ rệt",
+      "ipa": "/ˈwaɪdli ˈdɪfərənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The two studies reached widely different conclusions about the cause.",
+          "vi": "Hai nghiên cứu đi đến những kết luận khác nhau rõ rệt về nguyên nhân."
+        },
+        {
+          "en": "Participants came from widely different social backgrounds.",
+          "vi": "Người tham gia đến từ những hoàn cảnh xã hội khác nhau rõ rệt."
+        },
+        {
+          "en": "Their views on the issue were widely different from ours.",
+          "vi": "Quan điểm của họ về vấn đề khác nhau rõ rệt so với chúng tôi."
+        }
+      ]
+    },
+    {
+      "english": "widely discussed",
+      "vietnamese": "được bàn luận rộng rãi",
+      "ipa": "/ˈwaɪdli dɪˈskʌst/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The topic of climate change is widely discussed in classrooms.",
+          "vi": "Chủ đề biến đổi khí hậu được bàn luận rộng rãi trong lớp học."
+        },
+        {
+          "en": "Her findings were widely discussed at the annual conference.",
+          "vi": "Phát hiện của cô được bàn luận rộng rãi tại hội nghị thường niên."
+        },
+        {
+          "en": "This issue has been widely discussed in recent newspapers.",
+          "vi": "Vấn đề này đã được bàn luận rộng rãi trên báo chí gần đây."
+        }
+      ]
+    },
+    {
+      "english": "widely dispersed",
+      "vietnamese": "phân tán rộng",
+      "ipa": "/ˈwaɪdli dɪˈspɜːrst/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The population is widely dispersed across remote mountain villages.",
+          "vi": "Dân cư phân tán rộng khắp các ngôi làng miền núi xa xôi."
+        },
+        {
+          "en": "Seeds are widely dispersed by wind and passing animals.",
+          "vi": "Hạt giống được phân tán rộng nhờ gió và động vật đi qua."
+        },
+        {
+          "en": "The research samples were widely dispersed throughout the country.",
+          "vi": "Các mẫu nghiên cứu được phân tán rộng khắp cả nước."
+        }
+      ]
+    },
+    {
+      "english": "widely distributed",
+      "vietnamese": "được phân bố rộng rãi",
+      "ipa": "/ˈwaɪdli dɪˈstrɪbjutɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This species is widely distributed across temperate regions.",
+          "vi": "Loài này được phân bố rộng rãi khắp các vùng ôn đới."
+        },
+        {
+          "en": "The survey forms were widely distributed among the students.",
+          "vi": "Các phiếu khảo sát được phân bố rộng rãi giữa các sinh viên."
+        },
+        {
+          "en": "Wealth is not widely distributed across the whole population.",
+          "vi": "Của cải không được phân bố rộng rãi trên toàn bộ dân số."
+        }
+      ]
+    },
+    {
+      "english": "widely known",
+      "vietnamese": "được biết đến rộng rãi",
+      "ipa": "/ˈwaɪdli noʊn/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The scientist is widely known for her work on genetics.",
+          "vi": "Nhà khoa học được biết đến rộng rãi nhờ công trình về di truyền học."
+        },
+        {
+          "en": "It is widely known that smoking causes serious illness.",
+          "vi": "Người ta biết đến rộng rãi rằng hút thuốc gây bệnh nghiêm trọng."
+        },
+        {
+          "en": "This city is widely known for its historic architecture.",
+          "vi": "Thành phố này được biết đến rộng rãi nhờ kiến trúc lịch sử."
+        }
+      ]
+    },
+    {
+      "english": "widely read",
+      "vietnamese": "được đọc rộng rãi",
+      "ipa": "/ˈwaɪdli red/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Her novel became widely read across several generations.",
+          "vi": "Tiểu thuyết của bà trở nên được đọc rộng rãi qua nhiều thế hệ."
+        },
+        {
+          "en": "The journal is widely read by researchers in the field.",
+          "vi": "Tạp chí được đọc rộng rãi bởi các nhà nghiên cứu trong lĩnh vực."
+        },
+        {
+          "en": "This newspaper remains widely read despite the rise of online media.",
+          "vi": "Tờ báo này vẫn được đọc rộng rãi dù truyền thông trực tuyến phát triển."
+        }
+      ]
+    },
+    {
+      "english": "widely recognized",
+      "vietnamese": "được công nhận rộng rãi",
+      "ipa": "/ˈwaɪdli ˈrekəgnaɪzd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The brand is widely recognized for its high quality.",
+          "vi": "Thương hiệu được công nhận rộng rãi về chất lượng cao."
+        },
+        {
+          "en": "It is widely recognized that education reduces poverty over time.",
+          "vi": "Người ta công nhận rộng rãi rằng giáo dục giảm nghèo theo thời gian."
+        },
+        {
+          "en": "Her contribution to the field is widely recognized today.",
+          "vi": "Đóng góp của cô cho lĩnh vực này được công nhận rộng rãi ngày nay."
+        }
+      ]
+    },
+    {
+      "english": "widely regarded as",
+      "vietnamese": "được xem rộng rãi là",
+      "ipa": "/ˈwaɪdli rɪˈgɑːrdɪd æz/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "She is widely regarded as the leading expert in linguistics.",
+          "vi": "Cô được xem rộng rãi là chuyên gia hàng đầu về ngôn ngữ học."
+        },
+        {
+          "en": "This book is widely regarded as a classic in its field.",
+          "vi": "Cuốn sách này được xem rộng rãi là tác phẩm kinh điển trong lĩnh vực."
+        },
+        {
+          "en": "The reform is widely regarded as a major political success.",
+          "vi": "Cuộc cải cách được xem rộng rãi là một thành công chính trị lớn."
+        }
+      ]
+    },
+    {
+      "english": "widely shared",
+      "vietnamese": "được chia sẻ rộng rãi",
+      "ipa": "/ˈwaɪdli ʃerd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The post was widely shared across many social media platforms.",
+          "vi": "Bài đăng được chia sẻ rộng rãi trên nhiều nền tảng mạng xã hội."
+        },
+        {
+          "en": "This concern is widely shared among parents and teachers.",
+          "vi": "Mối lo ngại này được chia sẻ rộng rãi giữa phụ huynh và giáo viên."
+        },
+        {
+          "en": "The belief in fairness is widely shared across cultures.",
+          "vi": "Niềm tin vào sự công bằng được chia sẻ rộng rãi giữa các nền văn hóa."
+        }
+      ]
+    },
+    {
+      "english": "widely used",
+      "vietnamese": "được sử dụng rộng rãi",
+      "ipa": "/ˈwaɪdli juːzd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "This software is widely used in academic data analysis.",
+          "vi": "Phần mềm này được sử dụng rộng rãi trong phân tích dữ liệu học thuật."
+        },
+        {
+          "en": "English is widely used as a language of international research.",
+          "vi": "Tiếng Anh được sử dụng rộng rãi như ngôn ngữ của nghiên cứu quốc tế."
+        },
+        {
+          "en": "The method is widely used because it is simple and reliable.",
+          "vi": "Phương pháp được sử dụng rộng rãi vì nó đơn giản và đáng tin cậy."
+        }
+      ]
+    },
+    {
+      "english": "wider audience",
+      "vietnamese": "đối tượng khán giả rộng hơn",
+      "ipa": "/ˈwaɪdər ˈɔːdiəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Publishing online helps research reach a wider audience.",
+          "vi": "Xuất bản trực tuyến giúp nghiên cứu tiếp cận đối tượng khán giả rộng hơn."
+        },
+        {
+          "en": "The author simplified the text to attract a wider audience.",
+          "vi": "Tác giả đơn giản hóa văn bản để thu hút đối tượng khán giả rộng hơn."
+        },
+        {
+          "en": "Social media allows ideas to spread to a wider audience.",
+          "vi": "Mạng xã hội cho phép ý tưởng lan tới đối tượng khán giả rộng hơn."
+        }
+      ]
+    },
+    {
+      "english": "wider community",
+      "vietnamese": "cộng đồng rộng lớn hơn",
+      "ipa": "/ˈwaɪdər kəˈmjuːnəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The university shares its research with the wider community.",
+          "vi": "Trường đại học chia sẻ nghiên cứu với cộng đồng rộng lớn hơn."
+        },
+        {
+          "en": "Volunteering builds stronger links with the wider community.",
+          "vi": "Hoạt động tình nguyện xây dựng liên kết bền chặt hơn với cộng đồng rộng lớn hơn."
+        },
+        {
+          "en": "The project aims to benefit the wider community as well.",
+          "vi": "Dự án cũng nhằm mang lại lợi ích cho cộng đồng rộng lớn hơn."
+        }
+      ]
+    },
+    {
+      "english": "wider context",
+      "vietnamese": "bối cảnh rộng hơn",
+      "ipa": "/ˈwaɪdər ˈkɑːntekst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The essay places the war in its wider context.",
+          "vi": "Bài luận đặt cuộc chiến trong bối cảnh rộng hơn của nó."
+        },
+        {
+          "en": "Understanding the wider context helps interpret the findings correctly.",
+          "vi": "Hiểu bối cảnh rộng hơn giúp diễn giải kết quả một cách chính xác."
+        },
+        {
+          "en": "We must consider the wider context of these economic changes.",
+          "vi": "Chúng ta phải xem xét bối cảnh rộng hơn của những thay đổi kinh tế này."
+        }
+      ]
+    },
+    {
+      "english": "wider implications",
+      "vietnamese": "những hệ quả rộng hơn",
+      "ipa": "/ˈwaɪdər ˌɪmplɪˈkeɪʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study explores the wider implications of climate policy.",
+          "vi": "Nghiên cứu khám phá những hệ quả rộng hơn của chính sách khí hậu."
+        },
+        {
+          "en": "These results have wider implications for public health planning.",
+          "vi": "Những kết quả này có hệ quả rộng hơn đối với việc lập kế hoạch y tế công cộng."
+        },
+        {
+          "en": "We should not ignore the wider implications of this decision.",
+          "vi": "Chúng ta không nên bỏ qua những hệ quả rộng hơn của quyết định này."
+        }
+      ]
+    },
+    {
+      "english": "wider issue",
+      "vietnamese": "vấn đề rộng hơn",
+      "ipa": "/ˈwaɪdər ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "This complaint points to a wider issue within the system.",
+          "vi": "Lời phàn nàn này chỉ ra một vấn đề rộng hơn trong hệ thống."
+        },
+        {
+          "en": "The debate reflects a wider issue about social inequality.",
+          "vi": "Cuộc tranh luận phản ánh một vấn đề rộng hơn về bất bình đẳng xã hội."
+        },
+        {
+          "en": "Her paper connects local data to a wider issue.",
+          "vi": "Bài viết của cô kết nối dữ liệu địa phương với một vấn đề rộng hơn."
+        }
+      ]
+    },
+    {
+      "english": "wider public",
+      "vietnamese": "công chúng rộng rãi hơn",
+      "ipa": "/ˈwaɪdər ˈpʌblɪk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Scientists must explain their findings to the wider public.",
+          "vi": "Các nhà khoa học phải giải thích phát hiện của mình cho công chúng rộng rãi hơn."
+        },
+        {
+          "en": "The campaign aimed to raise awareness among the wider public.",
+          "vi": "Chiến dịch nhằm nâng cao nhận thức trong công chúng rộng rãi hơn."
+        },
+        {
+          "en": "The exhibition made the artworks accessible to the wider public.",
+          "vi": "Cuộc triển lãm giúp các tác phẩm dễ tiếp cận với công chúng rộng rãi hơn."
+        }
+      ]
+    },
+    {
+      "english": "wider society",
+      "vietnamese": "xã hội rộng lớn hơn",
+      "ipa": "/ˈwaɪdər səˈsaɪəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Schools prepare young people to contribute to wider society.",
+          "vi": "Trường học chuẩn bị cho người trẻ đóng góp cho xã hội rộng lớn hơn."
+        },
+        {
+          "en": "The reform had positive effects on wider society overall.",
+          "vi": "Cuộc cải cách có tác động tích cực đến xã hội rộng lớn hơn nói chung."
+        },
+        {
+          "en": "Such attitudes can spread quickly throughout wider society.",
+          "vi": "Những thái độ như vậy có thể lan nhanh khắp xã hội rộng lớn hơn."
+        }
+      ]
+    },
+    {
+      "english": "widespread acceptance",
+      "vietnamese": "sự chấp nhận rộng khắp",
+      "ipa": "/ˈwaɪdspred əkˈseptəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new theory gained widespread acceptance among researchers.",
+          "vi": "Lý thuyết mới giành được sự chấp nhận rộng khắp giữa các nhà nghiên cứu."
+        },
+        {
+          "en": "Widespread acceptance of recycling took several decades to achieve.",
+          "vi": "Sự chấp nhận rộng khắp về tái chế phải mất vài thập kỷ mới đạt được."
+        },
+        {
+          "en": "The idea has not yet won widespread acceptance in practice.",
+          "vi": "Ý tưởng này vẫn chưa giành được sự chấp nhận rộng khắp trong thực tế."
+        }
+      ]
+    }
+  ]
+}

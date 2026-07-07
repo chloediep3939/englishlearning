@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 16/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 16/83"
+  },
+  "cards": [
+    {
+      "english": "cultural institution",
+      "vietnamese": "thiết chế văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˌɪnstɪˈtuːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Libraries are important cultural institutions in every community.",
+          "vi": "Thư viện là những thiết chế văn hóa quan trọng trong mọi cộng đồng."
+        },
+        {
+          "en": "The government funds several major cultural institutions.",
+          "vi": "Chính phủ tài trợ cho một số thiết chế văn hóa lớn."
+        },
+        {
+          "en": "Museums serve as cultural institutions that educate the public.",
+          "vi": "Bảo tàng đóng vai trò thiết chế văn hóa giáo dục công chúng."
+        }
+      ]
+    },
+    {
+      "english": "cultural issue",
+      "vietnamese": "vấn đề văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The film raises important cultural issues about identity.",
+          "vi": "Bộ phim nêu lên những vấn đề văn hóa quan trọng về bản sắc."
+        },
+        {
+          "en": "Managers must handle cultural issues in international teams.",
+          "vi": "Nhà quản lý phải xử lý các vấn đề văn hóa trong đội ngũ quốc tế."
+        },
+        {
+          "en": "Language barriers are a common cultural issue for newcomers.",
+          "vi": "Rào cản ngôn ngữ là một vấn đề văn hóa phổ biến với người mới đến."
+        }
+      ]
+    },
+    {
+      "english": "cultural life",
+      "vietnamese": "đời sống văn hóa",
+      "ipa": "/ˈkʌltʃərəl laɪf/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The city has a rich and vibrant cultural life.",
+          "vi": "Thành phố có một đời sống văn hóa phong phú và sôi động."
+        },
+        {
+          "en": "Theaters and galleries enrich the cultural life of the town.",
+          "vi": "Nhà hát và phòng tranh làm phong phú đời sống văn hóa của thị trấn."
+        },
+        {
+          "en": "Students contribute to campus cultural life through clubs.",
+          "vi": "Sinh viên đóng góp vào đời sống văn hóa của trường qua các câu lạc bộ."
+        }
+      ]
+    },
+    {
+      "english": "cultural norm",
+      "vietnamese": "chuẩn mực văn hóa",
+      "ipa": "/ˈkʌltʃərəl nɔːrm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cultural norms determine how people greet one another.",
+          "vi": "Chuẩn mực văn hóa quyết định cách người ta chào hỏi nhau."
+        },
+        {
+          "en": "Visitors should learn the local cultural norms before arriving.",
+          "vi": "Khách nên tìm hiểu chuẩn mực văn hóa địa phương trước khi đến."
+        },
+        {
+          "en": "Breaking a cultural norm can cause unintended offense.",
+          "vi": "Vi phạm một chuẩn mực văn hóa có thể gây xúc phạm ngoài ý muốn."
+        }
+      ]
+    },
+    {
+      "english": "cultural perspective",
+      "vietnamese": "góc nhìn văn hóa",
+      "ipa": "/ˈkʌltʃərəl pərˈspektɪv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "From a cultural perspective, the gift carries deep meaning.",
+          "vi": "Từ góc nhìn văn hóa, món quà mang ý nghĩa sâu sắc."
+        },
+        {
+          "en": "The book offers a fresh cultural perspective on history.",
+          "vi": "Cuốn sách mang đến một góc nhìn văn hóa mới mẻ về lịch sử."
+        },
+        {
+          "en": "Adopting a cultural perspective helps explain unusual customs.",
+          "vi": "Áp dụng góc nhìn văn hóa giúp giải thích các phong tục khác lạ."
+        }
+      ]
+    },
+    {
+      "english": "cultural phenomenon",
+      "vietnamese": "hiện tượng văn hóa",
+      "ipa": "/ˈkʌltʃərəl fəˈnɑːmənɑːn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The song became a global cultural phenomenon overnight.",
+          "vi": "Bài hát trở thành một hiện tượng văn hóa toàn cầu chỉ sau một đêm."
+        },
+        {
+          "en": "Social media is a cultural phenomenon worth studying closely.",
+          "vi": "Mạng xã hội là một hiện tượng văn hóa đáng nghiên cứu kỹ."
+        },
+        {
+          "en": "Researchers analyzed the cultural phenomenon of viral videos.",
+          "vi": "Các nhà nghiên cứu phân tích hiện tượng văn hóa của video lan truyền."
+        }
+      ]
+    },
+    {
+      "english": "cultural practice",
+      "vietnamese": "tập quán văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈpræktɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Sharing meals is a common cultural practice in the village.",
+          "vi": "Cùng nhau dùng bữa là một tập quán văn hóa phổ biến ở làng."
+        },
+        {
+          "en": "Some cultural practices are passed down for many centuries.",
+          "vi": "Một số tập quán văn hóa được truyền lại qua nhiều thế kỷ."
+        },
+        {
+          "en": "The documentary records the cultural practices of the tribe.",
+          "vi": "Phim tài liệu ghi lại các tập quán văn hóa của bộ tộc."
+        }
+      ]
+    },
+    {
+      "english": "cultural significance",
+      "vietnamese": "ý nghĩa văn hóa",
+      "ipa": "/ˈkʌltʃərəl sɪɡˈnɪfɪkəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The festival has great cultural significance for the community.",
+          "vi": "Lễ hội có ý nghĩa văn hóa lớn đối với cộng đồng."
+        },
+        {
+          "en": "Scholars debate the cultural significance of the ancient site.",
+          "vi": "Các học giả tranh luận về ý nghĩa văn hóa của di chỉ cổ."
+        },
+        {
+          "en": "The painting holds cultural significance beyond its beauty.",
+          "vi": "Bức tranh mang ý nghĩa văn hóa vượt xa vẻ đẹp của nó."
+        }
+      ]
+    },
+    {
+      "english": "cultural theory",
+      "vietnamese": "lý thuyết văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈθɪri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The module introduces key ideas in cultural theory.",
+          "vi": "Học phần giới thiệu những ý tưởng chính trong lý thuyết văn hóa."
+        },
+        {
+          "en": "Cultural theory examines how meaning is produced in society.",
+          "vi": "Lý thuyết văn hóa xem xét cách ý nghĩa được tạo ra trong xã hội."
+        },
+        {
+          "en": "She drew on cultural theory to interpret the advertisement.",
+          "vi": "Cô vận dụng lý thuyết văn hóa để diễn giải mẩu quảng cáo."
+        }
+      ]
+    },
+    {
+      "english": "cultural tradition",
+      "vietnamese": "truyền thống văn hóa",
+      "ipa": "/ˈkʌltʃərəl trəˈdɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The family keeps many old cultural traditions alive.",
+          "vi": "Gia đình giữ gìn nhiều truyền thống văn hóa cũ."
+        },
+        {
+          "en": "Cultural traditions help younger generations understand their roots.",
+          "vi": "Truyền thống văn hóa giúp thế hệ trẻ hiểu về cội nguồn của mình."
+        },
+        {
+          "en": "Each region celebrates its own unique cultural traditions.",
+          "vi": "Mỗi vùng tôn vinh những truyền thống văn hóa độc đáo riêng."
+        }
+      ]
+    },
+    {
+      "english": "cultural values",
+      "vietnamese": "giá trị văn hóa",
+      "ipa": "/ˈkʌltʃərəl ˈvæljuːz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Cultural values shape how people define success.",
+          "vi": "Giá trị văn hóa định hình cách con người định nghĩa thành công."
+        },
+        {
+          "en": "The school teaches respect for different cultural values.",
+          "vi": "Nhà trường dạy tôn trọng các giá trị văn hóa khác nhau."
+        },
+        {
+          "en": "Advertising often reflects the cultural values of its audience.",
+          "vi": "Quảng cáo thường phản ánh giá trị văn hóa của khán giả."
+        }
+      ]
+    },
+    {
+      "english": "culturally specific",
+      "vietnamese": "mang tính đặc thù văn hóa",
+      "ipa": "/ˈkʌltʃərəli spəˈsɪfɪk/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Some gestures are culturally specific and easily misread.",
+          "vi": "Một số cử chỉ mang tính đặc thù văn hóa và dễ bị hiểu sai."
+        },
+        {
+          "en": "Humor is often culturally specific and hard to translate.",
+          "vi": "Sự hài hước thường mang tính đặc thù văn hóa và khó dịch."
+        },
+        {
+          "en": "These rituals are culturally specific to that small region.",
+          "vi": "Những nghi lễ này mang tính đặc thù văn hóa của vùng nhỏ đó."
+        }
+      ]
+    },
+    {
+      "english": "current climate",
+      "vietnamese": "bối cảnh hiện tại",
+      "ipa": "/ˈkɜːrənt ˈklaɪmət/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In the current climate, many companies are cutting costs.",
+          "vi": "Trong bối cảnh hiện tại, nhiều công ty đang cắt giảm chi phí."
+        },
+        {
+          "en": "The current economic climate makes investment risky.",
+          "vi": "Bối cảnh kinh tế hiện tại khiến việc đầu tư rủi ro."
+        },
+        {
+          "en": "Researchers worry about the current political climate.",
+          "vi": "Các nhà nghiên cứu lo ngại về bối cảnh chính trị hiện tại."
+        }
+      ]
+    },
+    {
+      "english": "current issue",
+      "vietnamese": "vấn đề thời sự",
+      "ipa": "/ˈkɜːrənt ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The seminar focuses on current issues in public health.",
+          "vi": "Buổi hội thảo tập trung vào các vấn đề thời sự trong y tế công cộng."
+        },
+        {
+          "en": "Newspapers help students stay aware of current issues.",
+          "vi": "Báo chí giúp sinh viên nắm bắt các vấn đề thời sự."
+        },
+        {
+          "en": "Climate change is one of the most pressing current issues.",
+          "vi": "Biến đổi khí hậu là một trong những vấn đề thời sự cấp bách nhất."
+        }
+      ]
+    },
+    {
+      "english": "current policy",
+      "vietnamese": "chính sách hiện hành",
+      "ipa": "/ˈkɜːrənt ˈpɑːləsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report criticizes the current policy on immigration.",
+          "vi": "Báo cáo chỉ trích chính sách hiện hành về nhập cư."
+        },
+        {
+          "en": "Current policy does little to reduce traffic congestion.",
+          "vi": "Chính sách hiện hành làm rất ít để giảm ùn tắc giao thông."
+        },
+        {
+          "en": "Experts recommend reviewing the current policy soon.",
+          "vi": "Các chuyên gia khuyến nghị sớm xem xét lại chính sách hiện hành."
+        }
+      ]
+    },
+    {
+      "english": "current research",
+      "vietnamese": "nghiên cứu hiện nay",
+      "ipa": "/ˈkɜːrənt ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Current research suggests that exercise improves memory.",
+          "vi": "Nghiên cứu hiện nay cho thấy tập thể dục cải thiện trí nhớ."
+        },
+        {
+          "en": "She reviewed the current research before writing her thesis.",
+          "vi": "Cô đã xem lại nghiên cứu hiện nay trước khi viết luận án."
+        },
+        {
+          "en": "Current research focuses on renewable energy technologies.",
+          "vi": "Nghiên cứu hiện nay tập trung vào các công nghệ năng lượng tái tạo."
+        }
+      ]
+    },
+    {
+      "english": "current status",
+      "vietnamese": "tình trạng hiện tại",
+      "ipa": "/ˈkɜːrənt ˈstætəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report describes the current status of the project.",
+          "vi": "Báo cáo mô tả tình trạng hiện tại của dự án."
+        },
+        {
+          "en": "Please update me on the current status of the application.",
+          "vi": "Hãy cập nhật cho tôi về tình trạng hiện tại của đơn đăng ký."
+        },
+        {
+          "en": "Scientists monitor the current status of endangered species.",
+          "vi": "Các nhà khoa học theo dõi tình trạng hiện tại của các loài nguy cấp."
+        }
+      ]
+    },
+    {
+      "english": "current technology",
+      "vietnamese": "công nghệ hiện tại",
+      "ipa": "/ˈkɜːrənt tekˈnɑːlədʒi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Current technology allows doctors to diagnose diseases earlier.",
+          "vi": "Công nghệ hiện tại cho phép bác sĩ chẩn đoán bệnh sớm hơn."
+        },
+        {
+          "en": "The factory relies heavily on current technology to compete.",
+          "vi": "Nhà máy phụ thuộc nhiều vào công nghệ hiện tại để cạnh tranh."
+        },
+        {
+          "en": "Current technology cannot yet solve this difficult problem.",
+          "vi": "Công nghệ hiện tại vẫn chưa thể giải quyết vấn đề khó này."
+        }
+      ]
+    },
+    {
+      "english": "current trend",
+      "vietnamese": "xu hướng hiện nay",
+      "ipa": "/ˈkɜːrənt trend/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The current trend is toward remote and flexible work.",
+          "vi": "Xu hướng hiện nay là làm việc từ xa và linh hoạt."
+        },
+        {
+          "en": "Designers must keep up with the current trends.",
+          "vi": "Nhà thiết kế phải theo kịp các xu hướng hiện nay."
+        },
+        {
+          "en": "The current trend in education favors active learning.",
+          "vi": "Xu hướng hiện nay trong giáo dục ưu tiên học tập chủ động."
+        }
+      ]
+    },
+    {
+      "english": "currently available",
+      "vietnamese": "hiện đang có sẵn",
+      "ipa": "/ˈkɜːrəntli əˈveɪləbəl/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Several scholarships are currently available to new students.",
+          "vi": "Một số học bổng hiện đang có sẵn cho sinh viên mới."
+        },
+        {
+          "en": "The treatment is not currently available in this country.",
+          "vi": "Phương pháp điều trị này hiện chưa có sẵn ở nước này."
+        },
+        {
+          "en": "Only limited data is currently available on the topic.",
+          "vi": "Chỉ có lượng dữ liệu hạn chế hiện đang có sẵn về chủ đề này."
+        }
+      ]
+    },
+    {
+      "english": "daily living",
+      "vietnamese": "sinh hoạt hằng ngày",
+      "ipa": "/ˈdeɪli ˈlɪvɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The illness affects many tasks of daily living.",
+          "vi": "Căn bệnh ảnh hưởng đến nhiều việc trong sinh hoạt hằng ngày."
+        },
+        {
+          "en": "Technology has changed the patterns of daily living.",
+          "vi": "Công nghệ đã thay đổi các nếp sinh hoạt hằng ngày."
+        },
+        {
+          "en": "Therapists help patients regain skills for daily living.",
+          "vi": "Chuyên viên trị liệu giúp bệnh nhân lấy lại kỹ năng sinh hoạt hằng ngày."
+        }
+      ]
+    },
+    {
+      "english": "data gathering",
+      "vietnamese": "việc thu thập dữ liệu",
+      "ipa": "/ˈdeɪtə ˈɡæðərɪŋ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Data gathering took several months before analysis began.",
+          "vi": "Việc thu thập dữ liệu mất vài tháng trước khi bắt đầu phân tích."
+        },
+        {
+          "en": "Surveys are a common method of data gathering.",
+          "vi": "Khảo sát là một phương pháp phổ biến để thu thập dữ liệu."
+        },
+        {
+          "en": "Careful data gathering ensures more reliable results.",
+          "vi": "Việc thu thập dữ liệu cẩn thận đảm bảo kết quả đáng tin cậy hơn."
+        }
+      ]
+    },
+    {
+      "english": "data set",
+      "vietnamese": "tập dữ liệu",
+      "ipa": "/ˈdeɪtə set/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The researchers analyzed a large data set of responses.",
+          "vi": "Các nhà nghiên cứu phân tích một tập dữ liệu lớn gồm các phản hồi."
+        },
+        {
+          "en": "This data set contains information from over a thousand patients.",
+          "vi": "Tập dữ liệu này chứa thông tin từ hơn một nghìn bệnh nhân."
+        },
+        {
+          "en": "Cleaning the data set removed many incomplete records.",
+          "vi": "Việc làm sạch tập dữ liệu đã loại bỏ nhiều bản ghi không đầy đủ."
+        }
+      ]
+    },
+    {
+      "english": "deal with an issue",
+      "vietnamese": "giải quyết một vấn đề",
+      "ipa": "/diːl wɪð ən ˈɪʃuː/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The committee met to deal with an issue about funding.",
+          "vi": "Ủy ban họp để giải quyết một vấn đề về tài trợ."
+        },
+        {
+          "en": "Managers must learn to deal with an issue calmly.",
+          "vi": "Nhà quản lý phải học cách giải quyết một vấn đề một cách bình tĩnh."
+        },
+        {
+          "en": "The essay explains how to deal with an issue systematically.",
+          "vi": "Bài luận giải thích cách giải quyết một vấn đề một cách có hệ thống."
+        }
+      ]
+    },
+    {
+      "english": "deem appropriate",
+      "vietnamese": "cho là phù hợp",
+      "ipa": "/diːm əˈproʊpriət/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "Teachers may use whatever methods they deem appropriate.",
+          "vi": "Giáo viên có thể dùng bất kỳ phương pháp nào họ cho là phù hợp."
+        },
+        {
+          "en": "The committee will take action as it deems appropriate.",
+          "vi": "Ủy ban sẽ hành động theo cách mà họ cho là phù hợp."
+        },
+        {
+          "en": "You may cite any sources you deem appropriate.",
+          "vi": "Bạn có thể trích dẫn bất kỳ nguồn nào bạn cho là phù hợp."
+        }
+      ]
+    },
+    {
+      "english": "deem necessary",
+      "vietnamese": "cho là cần thiết",
+      "ipa": "/diːm ˈnesəseri/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The doctor will order any tests she deems necessary.",
+          "vi": "Bác sĩ sẽ chỉ định bất kỳ xét nghiệm nào cô cho là cần thiết."
+        },
+        {
+          "en": "Staff may take steps they deem necessary for safety.",
+          "vi": "Nhân viên có thể thực hiện các bước họ cho là cần thiết vì an toàn."
+        },
+        {
+          "en": "The board approved the spending it deemed necessary.",
+          "vi": "Hội đồng đã phê duyệt khoản chi mà họ cho là cần thiết."
+        }
+      ]
+    },
+    {
+      "english": "deep understanding of",
+      "vietnamese": "sự hiểu biết sâu sắc về",
+      "ipa": "/diːp ˌʌndərˈstændɪŋ əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course gives a deep understanding of human behavior.",
+          "vi": "Khóa học mang lại sự hiểu biết sâu sắc về hành vi con người."
+        },
+        {
+          "en": "She has a deep understanding of historical events.",
+          "vi": "Cô có một sự hiểu biết sâu sắc về các sự kiện lịch sử."
+        },
+        {
+          "en": "Good teaching builds a deep understanding of core concepts.",
+          "vi": "Việc dạy tốt xây dựng sự hiểu biết sâu sắc về các khái niệm cốt lõi."
+        }
+      ]
+    },
+    {
+      "english": "deeper level",
+      "vietnamese": "tầng sâu hơn",
+      "ipa": "/ˈdiːpər ˈlevəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The novel works on a deeper level than it first appears.",
+          "vi": "Cuốn tiểu thuyết hoạt động ở một tầng sâu hơn so với vẻ ngoài."
+        },
+        {
+          "en": "We need to analyze the problem at a deeper level.",
+          "vi": "Chúng ta cần phân tích vấn đề ở một tầng sâu hơn."
+        },
+        {
+          "en": "On a deeper level, the poem questions human freedom.",
+          "vi": "Ở tầng sâu hơn, bài thơ chất vấn về tự do của con người."
+        }
+      ]
+    },
+    {
+      "english": "deeply embedded",
+      "vietnamese": "ăn sâu, gắn chặt",
+      "ipa": "/ˈdiːpli ɪmˈbedɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "These beliefs are deeply embedded in the local culture.",
+          "vi": "Những niềm tin này ăn sâu trong văn hóa địa phương."
+        },
+        {
+          "en": "Corruption was deeply embedded in the old system.",
+          "vi": "Tham nhũng đã ăn sâu trong hệ thống cũ."
+        },
+        {
+          "en": "Such habits become deeply embedded over many years.",
+          "vi": "Những thói quen như vậy trở nên ăn sâu qua nhiều năm."
+        }
+      ]
+    },
+    {
+      "english": "deeply rooted",
+      "vietnamese": "bắt rễ sâu",
+      "ipa": "/ˈdiːpli ˈruːtɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Their traditions are deeply rooted in ancient history.",
+          "vi": "Truyền thống của họ bắt rễ sâu trong lịch sử cổ xưa."
+        },
+        {
+          "en": "The conflict is deeply rooted in economic inequality.",
+          "vi": "Cuộc xung đột bắt rễ sâu trong bất bình đẳng kinh tế."
+        },
+        {
+          "en": "Prejudice can be deeply rooted and hard to change.",
+          "vi": "Định kiến có thể bắt rễ sâu và khó thay đổi."
+        }
+      ]
+    }
+  ]
+}

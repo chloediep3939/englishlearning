@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 63/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 63/83"
+  },
+  "cards": [
+    {
+      "english": "quantitative data",
+      "vietnamese": "dữ liệu định lượng",
+      "ipa": "/ˈkwɑːntɪteɪtɪv ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The researchers collected quantitative data from thousands of survey responses.",
+          "vi": "Các nhà nghiên cứu thu thập dữ liệu định lượng từ hàng nghìn phản hồi khảo sát."
+        },
+        {
+          "en": "Quantitative data can be summarized using means and standard deviations.",
+          "vi": "Dữ liệu định lượng có thể được tóm tắt bằng giá trị trung bình và độ lệch chuẩn."
+        },
+        {
+          "en": "They analyzed quantitative data to detect trends across several years.",
+          "vi": "Họ phân tích dữ liệu định lượng để phát hiện xu hướng qua nhiều năm."
+        }
+      ]
+    },
+    {
+      "english": "quantitative method",
+      "vietnamese": "phương pháp định lượng",
+      "ipa": "/ˈkwɑːntɪteɪtɪv ˈmeθəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A quantitative method lets researchers measure relationships between variables precisely.",
+          "vi": "Một phương pháp định lượng cho phép nhà nghiên cứu đo chính xác mối quan hệ giữa các biến."
+        },
+        {
+          "en": "The course teaches a quantitative method for analyzing economic data.",
+          "vi": "Khóa học dạy một phương pháp định lượng để phân tích dữ liệu kinh tế."
+        },
+        {
+          "en": "Many social scientists combine a quantitative method with interviews.",
+          "vi": "Nhiều nhà khoa học xã hội kết hợp một phương pháp định lượng với phỏng vấn."
+        }
+      ]
+    },
+    {
+      "english": "quantitative research",
+      "vietnamese": "nghiên cứu định lượng",
+      "ipa": "/ˈkwɑːntɪteɪtɪv ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Quantitative research relies on numerical data and statistical testing methods.",
+          "vi": "Nghiên cứu định lượng dựa vào dữ liệu số và các phương pháp kiểm định thống kê."
+        },
+        {
+          "en": "His quantitative research measured the effect of class size on grades.",
+          "vi": "Nghiên cứu định lượng của ông đo lường tác động của sĩ số lớp đến điểm số."
+        },
+        {
+          "en": "Quantitative research can reveal patterns across very large populations.",
+          "vi": "Nghiên cứu định lượng có thể tiết lộ các khuôn mẫu trên những quần thể rất lớn."
+        }
+      ]
+    },
+    {
+      "english": "quantitative result",
+      "vietnamese": "kết quả định lượng",
+      "ipa": "/ˈkwɑːntɪteɪtɪv rɪˈzʌlt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The quantitative result showed a significant rise in test scores.",
+          "vi": "Kết quả định lượng cho thấy sự gia tăng đáng kể về điểm kiểm tra."
+        },
+        {
+          "en": "Each quantitative result was checked against the original raw data.",
+          "vi": "Mỗi kết quả định lượng được đối chiếu với dữ liệu thô ban đầu."
+        },
+        {
+          "en": "They interpreted the quantitative result alongside qualitative feedback carefully.",
+          "vi": "Họ diễn giải kết quả định lượng cùng với phản hồi định tính một cách cẩn thận."
+        }
+      ]
+    },
+    {
+      "english": "quantitative study",
+      "vietnamese": "nghiên cứu định lượng",
+      "ipa": "/ˈkwɑːntɪteɪtɪv ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The quantitative study surveyed five hundred students across three universities.",
+          "vi": "Nghiên cứu định lượng khảo sát năm trăm sinh viên ở ba trường đại học."
+        },
+        {
+          "en": "A large quantitative study can produce more generalizable conclusions overall.",
+          "vi": "Một nghiên cứu định lượng lớn có thể tạo ra kết luận khái quát hơn."
+        },
+        {
+          "en": "They designed a quantitative study to test the proposed hypothesis.",
+          "vi": "Họ thiết kế một nghiên cứu định lượng để kiểm định giả thuyết được đề xuất."
+        }
+      ]
+    },
+    {
+      "english": "racial differences",
+      "vietnamese": "sự khác biệt chủng tộc",
+      "ipa": "/ˈreɪʃəl ˈdɪfərənsəz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study examined racial differences in access to quality healthcare.",
+          "vi": "Nghiên cứu xem xét sự khác biệt chủng tộc trong việc tiếp cận chăm sóc y tế chất lượng."
+        },
+        {
+          "en": "Researchers found persistent racial differences in average household income.",
+          "vi": "Các nhà nghiên cứu phát hiện sự khác biệt chủng tộc dai dẳng về thu nhập hộ gia đình."
+        },
+        {
+          "en": "Racial differences in test scores often reflect unequal opportunities.",
+          "vi": "Sự khác biệt chủng tộc về điểm kiểm tra thường phản ánh cơ hội bất bình đẳng."
+        }
+      ]
+    },
+    {
+      "english": "racial discrimination",
+      "vietnamese": "phân biệt chủng tộc",
+      "ipa": "/ˈreɪʃəl dɪˌskrɪmɪˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new law explicitly prohibits racial discrimination in the workplace.",
+          "vi": "Luật mới cấm rõ ràng phân biệt chủng tộc tại nơi làm việc."
+        },
+        {
+          "en": "Many activists devoted their lives to fighting racial discrimination.",
+          "vi": "Nhiều nhà hoạt động cống hiến cả đời để chống lại phân biệt chủng tộc."
+        },
+        {
+          "en": "The report documented widespread racial discrimination in housing markets.",
+          "vi": "Bản báo cáo ghi nhận phân biệt chủng tộc lan rộng trong thị trường nhà ở."
+        }
+      ]
+    },
+    {
+      "english": "racial equality",
+      "vietnamese": "bình đẳng chủng tộc",
+      "ipa": "/ˈreɪʃəl ɪˈkwɑːləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The movement campaigned tirelessly for racial equality and civil rights.",
+          "vi": "Phong trào vận động không mệt mỏi cho bình đẳng chủng tộc và quyền công dân."
+        },
+        {
+          "en": "True racial equality requires changes in both law and attitudes.",
+          "vi": "Bình đẳng chủng tộc thực sự đòi hỏi thay đổi cả luật pháp lẫn thái độ."
+        },
+        {
+          "en": "Schools play an important part in promoting racial equality early.",
+          "vi": "Trường học đóng vai trò quan trọng trong việc thúc đẩy bình đẳng chủng tộc từ sớm."
+        }
+      ]
+    },
+    {
+      "english": "racial group",
+      "vietnamese": "nhóm chủng tộc",
+      "ipa": "/ˈreɪʃəl ɡruːp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey compared health outcomes between several major racial groups.",
+          "vi": "Cuộc khảo sát so sánh kết quả sức khỏe giữa vài nhóm chủng tộc lớn."
+        },
+        {
+          "en": "Each racial group faced distinct barriers in the labor market.",
+          "vi": "Mỗi nhóm chủng tộc đối mặt với những rào cản riêng trên thị trường lao động."
+        },
+        {
+          "en": "Census data tracks the size of every racial group nationally.",
+          "vi": "Dữ liệu điều tra dân số theo dõi quy mô của từng nhóm chủng tộc trên toàn quốc."
+        }
+      ]
+    },
+    {
+      "english": "racial stereotype",
+      "vietnamese": "định kiến chủng tộc",
+      "ipa": "/ˈreɪʃəl ˈsteriətaɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The film challenges a common racial stereotype found in older media.",
+          "vi": "Bộ phim thách thức một định kiến chủng tộc phổ biến trong truyền thông cũ."
+        },
+        {
+          "en": "Repeated exposure to a racial stereotype can shape young minds.",
+          "vi": "Tiếp xúc lặp lại với một định kiến chủng tộc có thể định hình tâm trí trẻ."
+        },
+        {
+          "en": "Educators work hard to dismantle every harmful racial stereotype.",
+          "vi": "Các nhà giáo dục nỗ lực để xóa bỏ mọi định kiến chủng tộc gây hại."
+        }
+      ]
+    },
+    {
+      "english": "radical change",
+      "vietnamese": "sự thay đổi triệt để",
+      "ipa": "/ˈrædɪkəl tʃeɪndʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The reform brought radical change to the entire education system.",
+          "vi": "Cuộc cải cách mang lại sự thay đổi triệt để cho toàn bộ hệ thống giáo dục."
+        },
+        {
+          "en": "Technology has driven radical change in how people communicate daily.",
+          "vi": "Công nghệ đã thúc đẩy sự thay đổi triệt để trong cách con người giao tiếp hàng ngày."
+        },
+        {
+          "en": "Such radical change often meets strong resistance from established groups.",
+          "vi": "Sự thay đổi triệt để như vậy thường gặp phải sự phản kháng mạnh từ các nhóm cố hữu."
+        }
+      ]
+    },
+    {
+      "english": "radical critique",
+      "vietnamese": "sự phê phán triệt để",
+      "ipa": "/ˈrædɪkəl krɪˈtiːk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book offers a radical critique of mainstream economic theory.",
+          "vi": "Cuốn sách đưa ra một sự phê phán triệt để đối với lý thuyết kinh tế chủ đạo."
+        },
+        {
+          "en": "Her essay presents a radical critique of modern consumer culture.",
+          "vi": "Bài luận của cô trình bày một sự phê phán triệt để văn hóa tiêu dùng hiện đại."
+        },
+        {
+          "en": "A radical critique questions assumptions that others simply take for granted.",
+          "vi": "Một sự phê phán triệt để chất vấn những giả định mà người khác mặc nhiên chấp nhận."
+        }
+      ]
+    },
+    {
+      "english": "radical differences",
+      "vietnamese": "những khác biệt căn bản",
+      "ipa": "/ˈrædɪkəl ˈdɪfərənsəz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The two cultures show radical differences in their family structures.",
+          "vi": "Hai nền văn hóa cho thấy những khác biệt căn bản trong cấu trúc gia đình."
+        },
+        {
+          "en": "There are radical differences between the two theories of learning.",
+          "vi": "Có những khác biệt căn bản giữa hai lý thuyết về việc học."
+        },
+        {
+          "en": "Researchers noted radical differences in how the species adapt.",
+          "vi": "Các nhà nghiên cứu ghi nhận những khác biệt căn bản trong cách các loài thích nghi."
+        }
+      ]
+    },
+    {
+      "english": "radical transformation",
+      "vietnamese": "sự chuyển đổi triệt để",
+      "ipa": "/ˈrædɪkəl ˌtrænsfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The internet caused a radical transformation of global communication.",
+          "vi": "Internet đã gây ra sự chuyển đổi triệt để trong giao tiếp toàn cầu."
+        },
+        {
+          "en": "The factory underwent radical transformation after adopting new technology.",
+          "vi": "Nhà máy trải qua sự chuyển đổi triệt để sau khi áp dụng công nghệ mới."
+        },
+        {
+          "en": "Climate goals demand a radical transformation of the energy sector.",
+          "vi": "Các mục tiêu khí hậu đòi hỏi sự chuyển đổi triệt để của ngành năng lượng."
+        }
+      ]
+    },
+    {
+      "english": "radically different",
+      "vietnamese": "khác biệt hoàn toàn",
+      "ipa": "/ˈrædɪkli ˈdɪfərənt/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "The two authors reach radically different conclusions from similar data.",
+          "vi": "Hai tác giả đi đến những kết luận khác biệt hoàn toàn từ dữ liệu tương tự."
+        },
+        {
+          "en": "Life in the city is radically different from rural village life.",
+          "vi": "Cuộc sống ở thành phố khác biệt hoàn toàn so với đời sống làng quê."
+        },
+        {
+          "en": "Their new strategy is radically different from anything tried before.",
+          "vi": "Chiến lược mới của họ khác biệt hoàn toàn so với mọi thứ từng thử trước đây."
+        }
+      ]
+    },
+    {
+      "english": "raise awareness",
+      "vietnamese": "nâng cao nhận thức",
+      "ipa": "/reɪz əˈwernəs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The charity works to raise awareness of homelessness in the city.",
+          "vi": "Tổ chức từ thiện hoạt động để nâng cao nhận thức về tình trạng vô gia cư trong thành phố."
+        },
+        {
+          "en": "Posters and talks helped raise awareness of online safety risks.",
+          "vi": "Áp phích và buổi nói chuyện đã giúp nâng cao nhận thức về rủi ro an toàn trực tuyến."
+        },
+        {
+          "en": "Schools raise awareness of healthy eating through practical cooking classes.",
+          "vi": "Trường học nâng cao nhận thức về ăn uống lành mạnh qua các lớp nấu ăn thực hành."
+        }
+      ]
+    },
+    {
+      "english": "raise a question",
+      "vietnamese": "đặt ra một câu hỏi",
+      "ipa": "/reɪz ə ˈkwestʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "These findings raise a question about the validity of earlier studies.",
+          "vi": "Những phát hiện này đặt ra một câu hỏi về tính hợp lệ của các nghiên cứu trước."
+        },
+        {
+          "en": "The student raised a question that the lecturer had not expected.",
+          "vi": "Sinh viên đặt ra một câu hỏi mà giảng viên không lường trước."
+        },
+        {
+          "en": "The new policy raises a question about who actually benefits.",
+          "vi": "Chính sách mới đặt ra một câu hỏi về việc ai thực sự được hưởng lợi."
+        }
+      ]
+    },
+    {
+      "english": "raise an issue",
+      "vietnamese": "nêu lên một vấn đề",
+      "ipa": "/reɪz ən ˈɪʃuː/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "She raised an issue about funding during the committee meeting.",
+          "vi": "Cô ấy nêu lên một vấn đề về kinh phí trong cuộc họp ủy ban."
+        },
+        {
+          "en": "The report raises an issue that policymakers can no longer ignore.",
+          "vi": "Bản báo cáo nêu lên một vấn đề mà các nhà hoạch định không thể bỏ qua nữa."
+        },
+        {
+          "en": "Feel free to raise an issue if anything seems unclear to you.",
+          "vi": "Hãy thoải mái nêu lên một vấn đề nếu điều gì đó còn chưa rõ với bạn."
+        }
+      ]
+    },
+    {
+      "english": "random error",
+      "vietnamese": "sai số ngẫu nhiên",
+      "ipa": "/ˈrændəm ˈerər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Repeated measurements help reduce the effect of random error.",
+          "vi": "Đo lường lặp lại giúp giảm tác động của sai số ngẫu nhiên."
+        },
+        {
+          "en": "Random error scatters results without favoring any particular direction.",
+          "vi": "Sai số ngẫu nhiên làm kết quả phân tán mà không thiên về hướng cụ thể nào."
+        },
+        {
+          "en": "The analysis distinguished random error from a clear systematic bias.",
+          "vi": "Phân tích phân biệt sai số ngẫu nhiên với một thiên lệch hệ thống rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "random sample",
+      "vietnamese": "mẫu ngẫu nhiên",
+      "ipa": "/ˈrændəm ˈsæmpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The researchers drew a random sample from the national population.",
+          "vi": "Các nhà nghiên cứu lấy một mẫu ngẫu nhiên từ dân số quốc gia."
+        },
+        {
+          "en": "A truly random sample reduces bias and improves generalizability.",
+          "vi": "Một mẫu ngẫu nhiên thực sự làm giảm thiên lệch và tăng khả năng khái quát."
+        },
+        {
+          "en": "They surveyed a random sample of two thousand registered voters.",
+          "vi": "Họ khảo sát một mẫu ngẫu nhiên gồm hai nghìn cử tri đã đăng ký."
+        }
+      ]
+    },
+    {
+      "english": "random variable",
+      "vietnamese": "biến ngẫu nhiên",
+      "ipa": "/ˈrændəm ˈveriəbəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In statistics, a random variable assigns numbers to possible outcomes.",
+          "vi": "Trong thống kê, một biến ngẫu nhiên gán số cho các kết quả có thể."
+        },
+        {
+          "en": "The model treats waiting time as a continuous random variable.",
+          "vi": "Mô hình coi thời gian chờ là một biến ngẫu nhiên liên tục."
+        },
+        {
+          "en": "Each random variable in the equation follows a known distribution.",
+          "vi": "Mỗi biến ngẫu nhiên trong phương trình tuân theo một phân phối đã biết."
+        }
+      ]
+    },
+    {
+      "english": "randomly assigned to",
+      "vietnamese": "được phân ngẫu nhiên vào",
+      "ipa": "/ˈrændəmli əˈsaɪnd tə/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Participants were randomly assigned to either the control or treatment group.",
+          "vi": "Người tham gia được phân ngẫu nhiên vào nhóm đối chứng hoặc nhóm điều trị."
+        },
+        {
+          "en": "Students were randomly assigned to classes of different sizes.",
+          "vi": "Học sinh được phân ngẫu nhiên vào các lớp có quy mô khác nhau."
+        },
+        {
+          "en": "Each patient was randomly assigned to one of three conditions.",
+          "vi": "Mỗi bệnh nhân được phân ngẫu nhiên vào một trong ba điều kiện."
+        }
+      ]
+    },
+    {
+      "english": "randomly chosen",
+      "vietnamese": "được chọn ngẫu nhiên",
+      "ipa": "/ˈrændəmli ˈtʃoʊzən/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The names were randomly chosen from a list of all members.",
+          "vi": "Các tên được chọn ngẫu nhiên từ danh sách toàn bộ thành viên."
+        },
+        {
+          "en": "A randomly chosen subset was tested to verify the procedure.",
+          "vi": "Một tập con được chọn ngẫu nhiên đã được kiểm tra để xác minh quy trình."
+        },
+        {
+          "en": "Participants were randomly chosen to avoid any selection bias.",
+          "vi": "Người tham gia được chọn ngẫu nhiên để tránh bất kỳ thiên lệch lựa chọn nào."
+        }
+      ]
+    },
+    {
+      "english": "randomly selected",
+      "vietnamese": "được tuyển chọn ngẫu nhiên",
+      "ipa": "/ˈrændəmli sɪˈlektɪd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Households were randomly selected to take part in the survey.",
+          "vi": "Các hộ gia đình được tuyển chọn ngẫu nhiên để tham gia khảo sát."
+        },
+        {
+          "en": "The sample was randomly selected from official school registers.",
+          "vi": "Mẫu được tuyển chọn ngẫu nhiên từ sổ đăng ký chính thức của trường."
+        },
+        {
+          "en": "Reviewers were randomly selected to ensure a fair evaluation process.",
+          "vi": "Người đánh giá được tuyển chọn ngẫu nhiên để đảm bảo quá trình đánh giá công bằng."
+        }
+      ]
+    },
+    {
+      "english": "rapid expansion",
+      "vietnamese": "sự mở rộng nhanh chóng",
+      "ipa": "/ˈræpɪd ɪkˈspænʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The company's rapid expansion created hundreds of new jobs overnight.",
+          "vi": "Sự mở rộng nhanh chóng của công ty tạo ra hàng trăm việc làm mới trong một đêm."
+        },
+        {
+          "en": "Rapid expansion of cities has strained local water supplies.",
+          "vi": "Sự mở rộng nhanh chóng của các thành phố đã gây áp lực lên nguồn nước địa phương."
+        },
+        {
+          "en": "The rapid expansion of online shopping reshaped traditional retail.",
+          "vi": "Sự mở rộng nhanh chóng của mua sắm trực tuyến đã định hình lại bán lẻ truyền thống."
+        }
+      ]
+    },
+    {
+      "english": "rapidly changing",
+      "vietnamese": "đang thay đổi nhanh chóng",
+      "ipa": "/ˈræpɪdli ˈtʃeɪndʒɪŋ/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Workers must adapt to a rapidly changing technological environment.",
+          "vi": "Người lao động phải thích nghi với môi trường công nghệ đang thay đổi nhanh chóng."
+        },
+        {
+          "en": "The course prepares students for a rapidly changing job market.",
+          "vi": "Khóa học chuẩn bị cho sinh viên một thị trường việc làm đang thay đổi nhanh chóng."
+        },
+        {
+          "en": "Climate scientists study the rapidly changing conditions in the Arctic.",
+          "vi": "Các nhà khoa học khí hậu nghiên cứu điều kiện đang thay đổi nhanh chóng ở Bắc Cực."
+        }
+      ]
+    },
+    {
+      "english": "rapidly growing",
+      "vietnamese": "đang phát triển nhanh chóng",
+      "ipa": "/ˈræpɪdli ˈɡroʊɪŋ/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Renewable energy is a rapidly growing part of the economy.",
+          "vi": "Năng lượng tái tạo là một phần đang phát triển nhanh chóng của nền kinh tế."
+        },
+        {
+          "en": "The city has a rapidly growing population of young professionals.",
+          "vi": "Thành phố có dân số chuyên gia trẻ đang phát triển nhanh chóng."
+        },
+        {
+          "en": "Researchers track the rapidly growing demand for clean drinking water.",
+          "vi": "Các nhà nghiên cứu theo dõi nhu cầu đang phát triển nhanh chóng về nước uống sạch."
+        }
+      ]
+    },
+    {
+      "english": "raw data",
+      "vietnamese": "dữ liệu thô",
+      "ipa": "/rɔː ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The researchers stored all raw data before beginning any analysis.",
+          "vi": "Các nhà nghiên cứu lưu trữ toàn bộ dữ liệu thô trước khi bắt đầu phân tích."
+        },
+        {
+          "en": "Raw data must be cleaned carefully to remove obvious errors.",
+          "vi": "Dữ liệu thô phải được làm sạch cẩn thận để loại bỏ các lỗi rõ ràng."
+        },
+        {
+          "en": "Other scientists may request the raw data to verify the results.",
+          "vi": "Các nhà khoa học khác có thể yêu cầu dữ liệu thô để xác minh kết quả."
+        }
+      ]
+    },
+    {
+      "english": "reach a consensus",
+      "vietnamese": "đạt được sự đồng thuận",
+      "ipa": "/riːtʃ ə kənˈsensəs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "After long discussion, the committee finally reached a consensus.",
+          "vi": "Sau cuộc thảo luận dài, ủy ban cuối cùng đạt được sự đồng thuận."
+        },
+        {
+          "en": "Scientists have yet to reach a consensus on the exact cause.",
+          "vi": "Các nhà khoa học vẫn chưa đạt được sự đồng thuận về nguyên nhân chính xác."
+        },
+        {
+          "en": "The group worked patiently to reach a consensus everyone accepted.",
+          "vi": "Cả nhóm kiên nhẫn làm việc để đạt được sự đồng thuận mà mọi người chấp nhận."
+        }
+      ]
+    },
+    {
+      "english": "reach a peak",
+      "vietnamese": "đạt đến đỉnh điểm",
+      "ipa": "/riːtʃ ə piːk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Sales reached a peak in December before falling sharply afterward.",
+          "vi": "Doanh số đạt đến đỉnh điểm vào tháng Mười Hai trước khi giảm mạnh sau đó."
+        },
+        {
+          "en": "Unemployment reached a peak during the worst of the recession.",
+          "vi": "Tỷ lệ thất nghiệp đạt đến đỉnh điểm trong giai đoạn suy thoái tồi tệ nhất."
+        },
+        {
+          "en": "The temperature reaches a peak in the early afternoon each day.",
+          "vi": "Nhiệt độ đạt đến đỉnh điểm vào đầu giờ chiều mỗi ngày."
+        }
+      ]
+    }
+  ]
+}

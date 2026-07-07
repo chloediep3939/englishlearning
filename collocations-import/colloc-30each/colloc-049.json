@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 49/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 49/83"
+  },
+  "cards": [
+    {
+      "english": "natural language",
+      "vietnamese": "ngôn ngữ tự nhiên",
+      "ipa": "/ˈnætʃərəl ˈlæŋɡwɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Computers still struggle to fully understand natural language.",
+          "vi": "Máy tính vẫn gặp khó khăn trong việc hiểu trọn vẹn ngôn ngữ tự nhiên."
+        },
+        {
+          "en": "The app uses natural language to answer everyday questions.",
+          "vi": "Ứng dụng dùng ngôn ngữ tự nhiên để trả lời các câu hỏi hằng ngày."
+        },
+        {
+          "en": "Natural language processing has improved rapidly in recent years.",
+          "vi": "Xử lý ngôn ngữ tự nhiên đã tiến bộ nhanh chóng trong những năm gần đây."
+        }
+      ]
+    },
+    {
+      "english": "natural law",
+      "vietnamese": "luật tự nhiên",
+      "ipa": "/ˈnætʃərəl lɔː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Philosophers debated whether natural law applies to all people.",
+          "vi": "Các triết gia tranh luận liệu luật tự nhiên có áp dụng cho mọi người không."
+        },
+        {
+          "en": "The idea of natural law shaped early human rights theory.",
+          "vi": "Ý niệm về luật tự nhiên đã định hình lý thuyết nhân quyền sơ khai."
+        },
+        {
+          "en": "He argued that justice should be grounded in natural law.",
+          "vi": "Ông lập luận rằng công lý nên được đặt trên nền tảng luật tự nhiên."
+        }
+      ]
+    },
+    {
+      "english": "natural order",
+      "vietnamese": "trật tự tự nhiên",
+      "ipa": "/ˈnætʃərəl ˈɔːrdər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Ancient thinkers believed everything followed a fixed natural order.",
+          "vi": "Các nhà tư tưởng cổ đại tin rằng mọi thứ tuân theo một trật tự tự nhiên cố định."
+        },
+        {
+          "en": "The film questions whether technology disrupts the natural order.",
+          "vi": "Bộ phim đặt câu hỏi liệu công nghệ có phá vỡ trật tự tự nhiên không."
+        },
+        {
+          "en": "Predators and prey maintain a delicate natural order.",
+          "vi": "Kẻ săn mồi và con mồi duy trì một trật tự tự nhiên mong manh."
+        }
+      ]
+    },
+    {
+      "english": "natural philosophy",
+      "vietnamese": "triết học tự nhiên",
+      "ipa": "/ˈnætʃərəl fəˈlɑːsəfi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Before modern science, physics was called natural philosophy.",
+          "vi": "Trước khoa học hiện đại, vật lý được gọi là triết học tự nhiên."
+        },
+        {
+          "en": "Newton's work transformed the field of natural philosophy.",
+          "vi": "Công trình của Newton đã biến đổi lĩnh vực triết học tự nhiên."
+        },
+        {
+          "en": "The lecture traced the roots of natural philosophy in Greece.",
+          "vi": "Bài giảng đã truy nguồn gốc của triết học tự nhiên ở Hy Lạp."
+        }
+      ]
+    },
+    {
+      "english": "natural process",
+      "vietnamese": "quá trình tự nhiên",
+      "ipa": "/ˈnætʃərəl ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Decay is a natural process that recycles nutrients in soil.",
+          "vi": "Phân hủy là một quá trình tự nhiên tái chế dưỡng chất trong đất."
+        },
+        {
+          "en": "Aging is a natural process that affects every living thing.",
+          "vi": "Lão hóa là một quá trình tự nhiên ảnh hưởng đến mọi sinh vật."
+        },
+        {
+          "en": "The river changes course through a slow natural process.",
+          "vi": "Dòng sông đổi dòng qua một quá trình tự nhiên chậm rãi."
+        }
+      ]
+    },
+    {
+      "english": "natural resources",
+      "vietnamese": "tài nguyên thiên nhiên",
+      "ipa": "/ˈnætʃərəl ˈriːsɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The country is rich in natural resources such as oil and gas.",
+          "vi": "Đất nước này giàu tài nguyên thiên nhiên như dầu mỏ và khí đốt."
+        },
+        {
+          "en": "Overuse of natural resources threatens long-term sustainability.",
+          "vi": "Việc khai thác quá mức tài nguyên thiên nhiên đe dọa tính bền vững lâu dài."
+        },
+        {
+          "en": "The treaty aims to manage shared natural resources fairly.",
+          "vi": "Hiệp ước nhằm quản lý công bằng các tài nguyên thiên nhiên chung."
+        }
+      ]
+    },
+    {
+      "english": "natural right",
+      "vietnamese": "quyền tự nhiên",
+      "ipa": "/ˈnætʃərəl raɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Many thinkers regard freedom as a basic natural right.",
+          "vi": "Nhiều nhà tư tưởng coi tự do là một quyền tự nhiên căn bản."
+        },
+        {
+          "en": "The declaration was based on the idea of natural right.",
+          "vi": "Bản tuyên ngôn dựa trên ý niệm về quyền tự nhiên."
+        },
+        {
+          "en": "He argued that property is not an absolute natural right.",
+          "vi": "Ông lập luận rằng tài sản không phải là một quyền tự nhiên tuyệt đối."
+        }
+      ]
+    },
+    {
+      "english": "natural science",
+      "vietnamese": "khoa học tự nhiên",
+      "ipa": "/ˈnætʃərəl ˈsaɪəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She decided to major in a natural science at university.",
+          "vi": "Cô đã quyết định chọn ngành chính là một môn khoa học tự nhiên ở đại học."
+        },
+        {
+          "en": "Natural science relies heavily on observation and experiment.",
+          "vi": "Khoa học tự nhiên phụ thuộc nhiều vào quan sát và thí nghiệm."
+        },
+        {
+          "en": "The grant supports research across several natural science fields.",
+          "vi": "Khoản tài trợ hỗ trợ nghiên cứu trên nhiều lĩnh vực khoa học tự nhiên."
+        }
+      ]
+    },
+    {
+      "english": "natural tendency",
+      "vietnamese": "khuynh hướng tự nhiên",
+      "ipa": "/ˈnætʃərəl ˈtendənsi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "People have a natural tendency to trust familiar faces.",
+          "vi": "Con người có một khuynh hướng tự nhiên là tin những gương mặt quen thuộc."
+        },
+        {
+          "en": "The market shows a natural tendency to correct over time.",
+          "vi": "Thị trường cho thấy một khuynh hướng tự nhiên là tự điều chỉnh theo thời gian."
+        },
+        {
+          "en": "Children display a natural tendency to imitate adults.",
+          "vi": "Trẻ em thể hiện một khuynh hướng tự nhiên là bắt chước người lớn."
+        }
+      ]
+    },
+    {
+      "english": "natural world",
+      "vietnamese": "thế giới tự nhiên",
+      "ipa": "/ˈnætʃərəl wɜːrld/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Her photographs capture the beauty of the natural world.",
+          "vi": "Những bức ảnh của cô ghi lại vẻ đẹp của thế giới tự nhiên."
+        },
+        {
+          "en": "Science helps us understand patterns in the natural world.",
+          "vi": "Khoa học giúp chúng ta hiểu các quy luật trong thế giới tự nhiên."
+        },
+        {
+          "en": "Children should spend more time exploring the natural world.",
+          "vi": "Trẻ em nên dành nhiều thời gian hơn để khám phá thế giới tự nhiên."
+        }
+      ]
+    },
+    {
+      "english": "naturally occurring",
+      "vietnamese": "xuất hiện tự nhiên",
+      "ipa": "/ˈnætʃərəli əˈkɜːrɪŋ/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "Vitamin D is a naturally occurring substance in sunlight.",
+          "vi": "Vitamin D là một chất xuất hiện tự nhiên trong ánh nắng mặt trời."
+        },
+        {
+          "en": "The study focused on naturally occurring chemicals in plants.",
+          "vi": "Nghiên cứu tập trung vào các hóa chất xuất hiện tự nhiên trong thực vật."
+        },
+        {
+          "en": "Some naturally occurring minerals are mined for industrial use.",
+          "vi": "Một số khoáng chất xuất hiện tự nhiên được khai thác cho mục đích công nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "necessary information",
+      "vietnamese": "thông tin cần thiết",
+      "ipa": "/ˈnesəseri ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Please gather all the necessary information before the meeting.",
+          "vi": "Vui lòng thu thập tất cả thông tin cần thiết trước cuộc họp."
+        },
+        {
+          "en": "The form requests only the necessary information from applicants.",
+          "vi": "Biểu mẫu chỉ yêu cầu thông tin cần thiết từ người nộp đơn."
+        },
+        {
+          "en": "Without the necessary information, we cannot make a decision.",
+          "vi": "Thiếu thông tin cần thiết, chúng ta không thể đưa ra quyết định."
+        }
+      ]
+    },
+    {
+      "english": "negative aspect",
+      "vietnamese": "khía cạnh tiêu cực",
+      "ipa": "/ˈneɡətɪv ˈæspekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The essay discusses one negative aspect of social media use.",
+          "vi": "Bài luận bàn về một khía cạnh tiêu cực của việc dùng mạng xã hội."
+        },
+        {
+          "en": "Every technology has a negative aspect worth considering.",
+          "vi": "Mọi công nghệ đều có một khía cạnh tiêu cực đáng cân nhắc."
+        },
+        {
+          "en": "She acknowledged the negative aspect of working long hours.",
+          "vi": "Cô thừa nhận khía cạnh tiêu cực của việc làm việc nhiều giờ."
+        }
+      ]
+    },
+    {
+      "english": "negative attitude",
+      "vietnamese": "thái độ tiêu cực",
+      "ipa": "/ˈneɡətɪv ˈætətuːd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "His negative attitude discouraged the rest of the team.",
+          "vi": "Thái độ tiêu cực của anh đã làm nản lòng cả đội."
+        },
+        {
+          "en": "The survey measured students' negative attitude toward exams.",
+          "vi": "Cuộc khảo sát đo lường thái độ tiêu cực của sinh viên với kỳ thi."
+        },
+        {
+          "en": "A negative attitude can make small problems seem huge.",
+          "vi": "Thái độ tiêu cực có thể khiến vấn đề nhỏ trở nên to lớn."
+        }
+      ]
+    },
+    {
+      "english": "negative connotation",
+      "vietnamese": "hàm ý tiêu cực",
+      "ipa": "/ˈneɡətɪv ˌkɑːnəˈteɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The word \"cheap\" often carries a negative connotation.",
+          "vi": "Từ \"rẻ tiền\" thường mang một hàm ý tiêu cực."
+        },
+        {
+          "en": "Writers should avoid terms with a strong negative connotation.",
+          "vi": "Người viết nên tránh những từ có hàm ý tiêu cực mạnh."
+        },
+        {
+          "en": "In some cultures the label has a negative connotation.",
+          "vi": "Ở một số nền văn hóa, nhãn này mang hàm ý tiêu cực."
+        }
+      ]
+    },
+    {
+      "english": "negative consequences",
+      "vietnamese": "hậu quả tiêu cực",
+      "ipa": "/ˈneɡətɪv ˈkɑːnsəkwensɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The policy had several negative consequences for small businesses.",
+          "vi": "Chính sách đã gây ra nhiều hậu quả tiêu cực cho doanh nghiệp nhỏ."
+        },
+        {
+          "en": "Skipping sleep regularly leads to serious negative consequences.",
+          "vi": "Thường xuyên thiếu ngủ dẫn đến những hậu quả tiêu cực nghiêm trọng."
+        },
+        {
+          "en": "Researchers warned about the negative consequences of pollution.",
+          "vi": "Các nhà nghiên cứu cảnh báo về hậu quả tiêu cực của ô nhiễm."
+        }
+      ]
+    },
+    {
+      "english": "negative correlation",
+      "vietnamese": "mối tương quan nghịch",
+      "ipa": "/ˈneɡətɪv ˌkɔːrəˈleɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The data showed a negative correlation between stress and sleep.",
+          "vi": "Dữ liệu cho thấy mối tương quan nghịch giữa căng thẳng và giấc ngủ."
+        },
+        {
+          "en": "There is a clear negative correlation between price and demand.",
+          "vi": "Có một mối tương quan nghịch rõ ràng giữa giá cả và nhu cầu."
+        },
+        {
+          "en": "A negative correlation means one variable rises as another falls.",
+          "vi": "Mối tương quan nghịch nghĩa là một biến tăng khi biến kia giảm."
+        }
+      ]
+    },
+    {
+      "english": "negative effect",
+      "vietnamese": "tác động tiêu cực",
+      "ipa": "/ˈneɡətɪv ɪˈfekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Excessive screen time can have a negative effect on sleep.",
+          "vi": "Thời gian dùng màn hình quá mức có thể gây tác động tiêu cực đến giấc ngủ."
+        },
+        {
+          "en": "The drought had a negative effect on this year's harvest.",
+          "vi": "Hạn hán đã gây tác động tiêu cực đến vụ mùa năm nay."
+        },
+        {
+          "en": "Noise pollution has a negative effect on concentration.",
+          "vi": "Ô nhiễm tiếng ồn có tác động tiêu cực đến sự tập trung."
+        }
+      ]
+    },
+    {
+      "english": "negative feedback",
+      "vietnamese": "phản hồi tiêu cực",
+      "ipa": "/ˈneɡətɪv ˈfiːdbæk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She handled the negative feedback calmly and improved her work.",
+          "vi": "Cô đón nhận phản hồi tiêu cực một cách bình tĩnh và cải thiện công việc."
+        },
+        {
+          "en": "Constructive negative feedback can help students grow faster.",
+          "vi": "Phản hồi tiêu cực mang tính xây dựng có thể giúp sinh viên tiến bộ nhanh hơn."
+        },
+        {
+          "en": "The product received negative feedback from early reviewers.",
+          "vi": "Sản phẩm nhận phản hồi tiêu cực từ những người đánh giá ban đầu."
+        }
+      ]
+    },
+    {
+      "english": "negative impact",
+      "vietnamese": "ảnh hưởng tiêu cực",
+      "ipa": "/ˈneɡətɪv ˈɪmpækt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Tourism can have a negative impact on fragile ecosystems.",
+          "vi": "Du lịch có thể gây ảnh hưởng tiêu cực đến các hệ sinh thái mong manh."
+        },
+        {
+          "en": "The new tax had a negative impact on consumer spending.",
+          "vi": "Thuế mới đã gây ảnh hưởng tiêu cực đến chi tiêu của người tiêu dùng."
+        },
+        {
+          "en": "Researchers measured the negative impact of stress on health.",
+          "vi": "Các nhà nghiên cứu đo lường ảnh hưởng tiêu cực của căng thẳng đến sức khỏe."
+        }
+      ]
+    },
+    {
+      "english": "negative outcome",
+      "vietnamese": "kết quả tiêu cực",
+      "ipa": "/ˈneɡətɪv ˈaʊtkʌm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Poor planning often leads to a negative outcome for projects.",
+          "vi": "Lập kế hoạch kém thường dẫn đến một kết quả tiêu cực cho các dự án."
+        },
+        {
+          "en": "The trial produced a surprisingly negative outcome for patients.",
+          "vi": "Thử nghiệm đã cho một kết quả tiêu cực đáng ngạc nhiên với bệnh nhân."
+        },
+        {
+          "en": "We must prepare for any negative outcome of the negotiations.",
+          "vi": "Chúng ta phải chuẩn bị cho bất kỳ kết quả tiêu cực nào của cuộc đàm phán."
+        }
+      ]
+    },
+    {
+      "english": "negative side",
+      "vietnamese": "mặt tiêu cực",
+      "ipa": "/ˈneɡətɪv saɪd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Every opportunity has a negative side worth weighing carefully.",
+          "vi": "Mọi cơ hội đều có một mặt tiêu cực đáng cân nhắc kỹ."
+        },
+        {
+          "en": "The article highlights the negative side of rapid urban growth.",
+          "vi": "Bài viết làm nổi bật mặt tiêu cực của tăng trưởng đô thị nhanh."
+        },
+        {
+          "en": "On the negative side, the plan is extremely expensive.",
+          "vi": "Về mặt tiêu cực, kế hoạch này cực kỳ tốn kém."
+        }
+      ]
+    },
+    {
+      "english": "negative stereotype",
+      "vietnamese": "định kiến tiêu cực",
+      "ipa": "/ˈneɡətɪv ˈsteriətaɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The campaign aims to challenge a common negative stereotype.",
+          "vi": "Chiến dịch nhằm thách thức một định kiến tiêu cực phổ biến."
+        },
+        {
+          "en": "Media often reinforces a negative stereotype about teenagers.",
+          "vi": "Truyền thông thường củng cố một định kiến tiêu cực về thanh thiếu niên."
+        },
+        {
+          "en": "Education can help break down each negative stereotype slowly.",
+          "vi": "Giáo dục có thể giúp dần phá bỏ từng định kiến tiêu cực."
+        }
+      ]
+    },
+    {
+      "english": "negative value",
+      "vietnamese": "giá trị âm",
+      "ipa": "/ˈneɡətɪv ˈvæljuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A negative value in the equation indicates a loss.",
+          "vi": "Một giá trị âm trong phương trình cho thấy một khoản lỗ."
+        },
+        {
+          "en": "The sensor returned a negative value due to a calibration error.",
+          "vi": "Cảm biến trả về một giá trị âm do lỗi hiệu chuẩn."
+        },
+        {
+          "en": "Temperatures fell to a negative value overnight.",
+          "vi": "Nhiệt độ đã giảm xuống một giá trị âm qua đêm."
+        }
+      ]
+    },
+    {
+      "english": "negative view",
+      "vietnamese": "cái nhìn tiêu cực",
+      "ipa": "/ˈneɡətɪv vjuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The author takes a negative view of unregulated markets.",
+          "vi": "Tác giả có một cái nhìn tiêu cực về các thị trường không được quản lý."
+        },
+        {
+          "en": "Many residents hold a negative view of the proposed development.",
+          "vi": "Nhiều cư dân có cái nhìn tiêu cực về dự án phát triển được đề xuất."
+        },
+        {
+          "en": "Her negative view of the plan changed after the presentation.",
+          "vi": "Cái nhìn tiêu cực của cô về kế hoạch đã thay đổi sau buổi thuyết trình."
+        }
+      ]
+    },
+    {
+      "english": "negatively correlated with",
+      "vietnamese": "tương quan nghịch với",
+      "ipa": "/ˈneɡətɪvli ˈkɔːrəleɪtɪd wɪð/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Anxiety levels were negatively correlated with exam performance.",
+          "vi": "Mức độ lo âu có tương quan nghịch với kết quả thi."
+        },
+        {
+          "en": "Income is often negatively correlated with reported stress.",
+          "vi": "Thu nhập thường có tương quan nghịch với mức căng thẳng được ghi nhận."
+        },
+        {
+          "en": "Screen time was negatively correlated with hours of sleep.",
+          "vi": "Thời gian dùng màn hình có tương quan nghịch với số giờ ngủ."
+        }
+      ]
+    },
+    {
+      "english": "new initiative",
+      "vietnamese": "sáng kiến mới",
+      "ipa": "/nuː ɪˈnɪʃətɪv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The school launched a new initiative to reduce food waste.",
+          "vi": "Nhà trường đã khởi động một sáng kiến mới để giảm lãng phí thực phẩm."
+        },
+        {
+          "en": "The new initiative encourages employees to share fresh ideas.",
+          "vi": "Sáng kiến mới khuyến khích nhân viên chia sẻ những ý tưởng mới mẻ."
+        },
+        {
+          "en": "Funding was secured for a new initiative on clean energy.",
+          "vi": "Kinh phí đã được bảo đảm cho một sáng kiến mới về năng lượng sạch."
+        }
+      ]
+    },
+    {
+      "english": "new insight",
+      "vietnamese": "hiểu biết sâu sắc mới",
+      "ipa": "/nuː ˈɪnsaɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The experiment offered a new insight into how memory works.",
+          "vi": "Thí nghiệm đã mang lại một hiểu biết sâu sắc mới về cách trí nhớ hoạt động."
+        },
+        {
+          "en": "Her interviews provided a new insight into rural poverty.",
+          "vi": "Các cuộc phỏng vấn của cô đã cho một góc nhìn sâu sắc mới về nghèo đói nông thôn."
+        },
+        {
+          "en": "The data gave researchers a new insight into climate change.",
+          "vi": "Dữ liệu đã cho các nhà nghiên cứu một hiểu biết mới về biến đổi khí hậu."
+        }
+      ]
+    },
+    {
+      "english": "new perspective",
+      "vietnamese": "góc nhìn mới",
+      "ipa": "/nuː pərˈspektɪv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Traveling abroad gave her a completely new perspective on life.",
+          "vi": "Đi du lịch nước ngoài đã cho cô một góc nhìn hoàn toàn mới về cuộc sống."
+        },
+        {
+          "en": "The book offers a new perspective on a familiar problem.",
+          "vi": "Cuốn sách mang đến một góc nhìn mới về một vấn đề quen thuộc."
+        },
+        {
+          "en": "Hearing other students brought a new perspective to the debate.",
+          "vi": "Lắng nghe các sinh viên khác đã mang một góc nhìn mới vào cuộc tranh luận."
+        }
+      ]
+    },
+    {
+      "english": "newly acquired",
+      "vietnamese": "vừa mới có được",
+      "ipa": "/ˈnuːli əˈkwaɪərd/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "She used her newly acquired skills to redesign the website.",
+          "vi": "Cô đã dùng những kỹ năng vừa mới có được để thiết kế lại trang web."
+        },
+        {
+          "en": "The museum displayed its newly acquired ancient artifacts.",
+          "vi": "Bảo tàng đã trưng bày các cổ vật vừa mới có được."
+        },
+        {
+          "en": "He applied his newly acquired knowledge during the internship.",
+          "vi": "Anh áp dụng kiến thức vừa mới có được trong kỳ thực tập."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 12/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 12/83"
+  },
+  "cards": [
+    {
+      "english": "conduct research",
+      "vietnamese": "tiến hành nghiên cứu",
+      "ipa": "/kənˈdʌkt ˈriːsɜːrtʃ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The university encourages students to conduct original research.",
+          "vi": "Trường đại học khuyến khích sinh viên tiến hành nghiên cứu độc lập."
+        },
+        {
+          "en": "They conduct research on renewable energy sources.",
+          "vi": "Họ tiến hành nghiên cứu về các nguồn năng lượng tái tạo."
+        },
+        {
+          "en": "Scientists conduct research to test their hypotheses carefully.",
+          "vi": "Các nhà khoa học tiến hành nghiên cứu để kiểm tra giả thuyết cẩn thận."
+        }
+      ]
+    },
+    {
+      "english": "conduct a study",
+      "vietnamese": "tiến hành một nghiên cứu",
+      "ipa": "/kənˈdʌkt ə ˈstʌdi/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Researchers will conduct a study on sleep and memory next year.",
+          "vi": "Các nhà nghiên cứu sẽ tiến hành một nghiên cứu về giấc ngủ và trí nhớ vào năm tới."
+        },
+        {
+          "en": "We decided to conduct a study comparing two teaching methods.",
+          "vi": "Chúng tôi quyết định tiến hành một nghiên cứu so sánh hai phương pháp giảng dạy."
+        },
+        {
+          "en": "The team conducted a study to measure customer satisfaction levels.",
+          "vi": "Nhóm đã tiến hành một nghiên cứu để đo mức độ hài lòng của khách hàng."
+        }
+      ]
+    },
+    {
+      "english": "conduct a survey",
+      "vietnamese": "thực hiện một cuộc khảo sát",
+      "ipa": "/kənˈdʌkt ə ˈsɜːrveɪ/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The university conducted a survey to learn about student needs.",
+          "vi": "Trường đại học đã thực hiện một cuộc khảo sát để tìm hiểu nhu cầu của sinh viên."
+        },
+        {
+          "en": "We plan to conduct a survey among local small business owners.",
+          "vi": "Chúng tôi dự định thực hiện một cuộc khảo sát với các chủ doanh nghiệp nhỏ trong vùng."
+        },
+        {
+          "en": "Before launching, the company conducted a survey of potential users.",
+          "vi": "Trước khi ra mắt, công ty đã thực hiện một cuộc khảo sát người dùng tiềm năng."
+        }
+      ]
+    },
+    {
+      "english": "conduct an analysis",
+      "vietnamese": "thực hiện một phân tích",
+      "ipa": "/kənˈdʌkt ən əˈnæləsɪs/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The analysts conducted an analysis of last quarter's sales data.",
+          "vi": "Các chuyên viên đã thực hiện một phân tích về dữ liệu bán hàng quý trước."
+        },
+        {
+          "en": "We need to conduct an analysis before making any final decision.",
+          "vi": "Chúng ta cần thực hiện một phân tích trước khi đưa ra quyết định cuối cùng."
+        },
+        {
+          "en": "She conducted an analysis to identify the main causes of failure.",
+          "vi": "Cô đã thực hiện một phân tích để xác định các nguyên nhân chính gây thất bại."
+        }
+      ]
+    },
+    {
+      "english": "conduct an interview",
+      "vietnamese": "tiến hành một cuộc phỏng vấn",
+      "ipa": "/kənˈdʌkt ən ˈɪntərvjuː/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The journalist conducted an interview with the city's new mayor.",
+          "vi": "Nhà báo đã tiến hành một cuộc phỏng vấn với thị trưởng mới của thành phố."
+        },
+        {
+          "en": "Researchers conducted an interview with each participant separately.",
+          "vi": "Các nhà nghiên cứu đã tiến hành một cuộc phỏng vấn riêng với từng người tham gia."
+        },
+        {
+          "en": "We will conduct an interview to understand their daily routines.",
+          "vi": "Chúng tôi sẽ tiến hành một cuộc phỏng vấn để hiểu thói quen hằng ngày của họ."
+        }
+      ]
+    },
+    {
+      "english": "conflict resolution",
+      "vietnamese": "giải quyết xung đột",
+      "ipa": "/ˈkɑːnflɪkt ˌrezəˈluːʃən/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Good managers need strong conflict resolution skills at work.",
+          "vi": "Người quản lý giỏi cần có kỹ năng giải quyết xung đột tốt trong công việc."
+        },
+        {
+          "en": "The course teaches conflict resolution through real-life case studies.",
+          "vi": "Khóa học dạy giải quyết xung đột qua các tình huống thực tế."
+        },
+        {
+          "en": "Conflict resolution often requires patience and careful listening.",
+          "vi": "Giải quyết xung đột thường đòi hỏi sự kiên nhẫn và lắng nghe cẩn thận."
+        }
+      ]
+    },
+    {
+      "english": "conflicting interests",
+      "vietnamese": "những lợi ích xung đột nhau",
+      "ipa": "/kənˈflɪktɪŋ ˈɪntrəsts/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The two departments have conflicting interests over the new budget.",
+          "vi": "Hai phòng ban có những lợi ích xung đột nhau về ngân sách mới."
+        },
+        {
+          "en": "Negotiators must balance conflicting interests to reach an agreement.",
+          "vi": "Các nhà đàm phán phải cân bằng những lợi ích xung đột để đạt thỏa thuận."
+        },
+        {
+          "en": "Conflicting interests among shareholders delayed the final decision.",
+          "vi": "Những lợi ích xung đột giữa các cổ đông đã trì hoãn quyết định cuối cùng."
+        }
+      ]
+    },
+    {
+      "english": "consider appropriate",
+      "vietnamese": "cho là phù hợp",
+      "ipa": "/kənˈsɪdər əˈproʊpriət/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "Teachers may use whatever methods they consider appropriate for the class.",
+          "vi": "Giáo viên có thể dùng bất kỳ phương pháp nào họ cho là phù hợp với lớp."
+        },
+        {
+          "en": "The committee will take any action it considers appropriate.",
+          "vi": "Ủy ban sẽ thực hiện bất kỳ hành động nào họ cho là phù hợp."
+        },
+        {
+          "en": "Please dress in a way you consider appropriate for the interview.",
+          "vi": "Hãy ăn mặc theo cách mà bạn cho là phù hợp cho buổi phỏng vấn."
+        }
+      ]
+    },
+    {
+      "english": "consider relevant",
+      "vietnamese": "cho là có liên quan",
+      "ipa": "/kənˈsɪdər ˈreləvənt/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "Include only the details you consider relevant to your argument.",
+          "vi": "Chỉ đưa vào những chi tiết mà bạn cho là có liên quan đến luận điểm."
+        },
+        {
+          "en": "The judge will examine any evidence she considers relevant to the case.",
+          "vi": "Thẩm phán sẽ xem xét bất kỳ bằng chứng nào bà cho là có liên quan đến vụ án."
+        },
+        {
+          "en": "Readers may skip sections they do not consider relevant.",
+          "vi": "Người đọc có thể bỏ qua các phần họ không cho là có liên quan."
+        }
+      ]
+    },
+    {
+      "english": "consider a possibility",
+      "vietnamese": "xem xét một khả năng",
+      "ipa": "/kənˈsɪdər ə ˌpɑːsəˈbɪləti/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "We should consider a possibility that no one has examined yet.",
+          "vi": "Chúng ta nên xem xét một khả năng mà chưa ai khảo sát đến."
+        },
+        {
+          "en": "The board agreed to consider a possibility of merging the two teams.",
+          "vi": "Hội đồng đồng ý xem xét một khả năng sáp nhập hai nhóm."
+        },
+        {
+          "en": "Scientists must consider a possibility before rejecting any theory.",
+          "vi": "Các nhà khoa học phải xem xét một khả năng trước khi bác bỏ lý thuyết nào."
+        }
+      ]
+    },
+    {
+      "english": "consider an aspect",
+      "vietnamese": "xem xét một khía cạnh",
+      "ipa": "/kənˈsɪdər ən ˈæspekt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The essay fails to consider an aspect central to the debate.",
+          "vi": "Bài luận không xem xét một khía cạnh trung tâm của cuộc tranh luận."
+        },
+        {
+          "en": "Let us consider an aspect of the problem we often overlook.",
+          "vi": "Hãy xem xét một khía cạnh của vấn đề mà chúng ta thường bỏ qua."
+        },
+        {
+          "en": "Good planners consider an aspect of cost at every stage.",
+          "vi": "Người lập kế hoạch giỏi xem xét một khía cạnh chi phí ở mọi giai đoạn."
+        }
+      ]
+    },
+    {
+      "english": "consider an issue",
+      "vietnamese": "xem xét một vấn đề",
+      "ipa": "/kənˈsɪdər ən ˈɪʃuː/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The council will consider an issue raised by local residents.",
+          "vi": "Hội đồng sẽ xem xét một vấn đề do người dân địa phương nêu ra."
+        },
+        {
+          "en": "We must consider an issue from several different points of view.",
+          "vi": "Chúng ta phải xem xét một vấn đề từ nhiều góc nhìn khác nhau."
+        },
+        {
+          "en": "The chapter helps readers consider an issue more deeply.",
+          "vi": "Chương này giúp người đọc xem xét một vấn đề sâu sắc hơn."
+        }
+      ]
+    },
+    {
+      "english": "consider the impact of",
+      "vietnamese": "cân nhắc tác động của",
+      "ipa": "/kənˈsɪdər ði ˈɪmpækt əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Planners must consider the impact of the new road on traffic.",
+          "vi": "Người quy hoạch phải cân nhắc tác động của con đường mới đến giao thông."
+        },
+        {
+          "en": "The report asks us to consider the impact of climate change.",
+          "vi": "Báo cáo yêu cầu chúng ta cân nhắc tác động của biến đổi khí hậu."
+        },
+        {
+          "en": "We should consider the impact of these cuts on poorer families.",
+          "vi": "Chúng ta nên cân nhắc tác động của những khoản cắt giảm này lên các gia đình nghèo."
+        }
+      ]
+    },
+    {
+      "english": "consider the implications",
+      "vietnamese": "cân nhắc những hệ quả",
+      "ipa": "/kənˈsɪdər ði ˌɪmplɪˈkeɪʃənz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Before voting, members should consider the implications of the proposal.",
+          "vi": "Trước khi bỏ phiếu, các thành viên nên cân nhắc những hệ quả của đề xuất."
+        },
+        {
+          "en": "The author asks readers to consider the implications for future policy.",
+          "vi": "Tác giả yêu cầu người đọc cân nhắc những hệ quả đối với chính sách tương lai."
+        },
+        {
+          "en": "We failed to consider the implications of releasing the data early.",
+          "vi": "Chúng tôi đã không cân nhắc những hệ quả của việc công bố dữ liệu sớm."
+        }
+      ]
+    },
+    {
+      "english": "consider the role of",
+      "vietnamese": "xem xét vai trò của",
+      "ipa": "/kənˈsɪdər ðə roʊl əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The lecture asks us to consider the role of luck in success.",
+          "vi": "Bài giảng yêu cầu chúng ta xem xét vai trò của may mắn trong thành công."
+        },
+        {
+          "en": "We must consider the role of teachers in shaping young minds.",
+          "vi": "Chúng ta phải xem xét vai trò của giáo viên trong việc định hình tư duy trẻ."
+        },
+        {
+          "en": "Historians consider the role of trade in building early cities.",
+          "vi": "Các nhà sử học xem xét vai trò của thương mại trong việc xây dựng các thành phố cổ."
+        }
+      ]
+    },
+    {
+      "english": "considerable amount of",
+      "vietnamese": "một lượng đáng kể",
+      "ipa": "/kənˈsɪdərəbəl əˈmaʊnt əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The project required a considerable amount of time and money.",
+          "vi": "Dự án đòi hỏi một lượng đáng kể thời gian và tiền bạc."
+        },
+        {
+          "en": "She spent a considerable amount of effort on the final report.",
+          "vi": "Cô đã bỏ ra một lượng đáng kể công sức cho bản báo cáo cuối cùng."
+        },
+        {
+          "en": "A considerable amount of data was lost during the system failure.",
+          "vi": "Một lượng đáng kể dữ liệu đã bị mất trong sự cố hệ thống."
+        }
+      ]
+    },
+    {
+      "english": "considerable attention",
+      "vietnamese": "sự chú ý đáng kể",
+      "ipa": "/kənˈsɪdərəbəl əˈtenʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new theory has attracted considerable attention from scientists.",
+          "vi": "Lý thuyết mới đã thu hút sự chú ý đáng kể từ các nhà khoa học."
+        },
+        {
+          "en": "This issue deserves considerable attention in future research.",
+          "vi": "Vấn đề này xứng đáng nhận được sự chú ý đáng kể trong nghiên cứu sau này."
+        },
+        {
+          "en": "The film received considerable attention after the awards ceremony.",
+          "vi": "Bộ phim nhận được sự chú ý đáng kể sau lễ trao giải."
+        }
+      ]
+    },
+    {
+      "english": "considerable debate",
+      "vietnamese": "cuộc tranh luận đáng kể",
+      "ipa": "/kənˈsɪdərəbəl dɪˈbeɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is considerable debate about the causes of the decline.",
+          "vi": "Có một cuộc tranh luận đáng kể về nguyên nhân của sự suy giảm."
+        },
+        {
+          "en": "The proposal sparked considerable debate among local officials.",
+          "vi": "Đề xuất đã làm dấy lên cuộc tranh luận đáng kể giữa các quan chức địa phương."
+        },
+        {
+          "en": "Considerable debate surrounds the best way to teach reading.",
+          "vi": "Cuộc tranh luận đáng kể xoay quanh cách tốt nhất để dạy đọc."
+        }
+      ]
+    },
+    {
+      "english": "considerable degree of",
+      "vietnamese": "một mức độ đáng kể của",
+      "ipa": "/kənˈsɪdərəbəl dɪˈɡriː əv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The task demands a considerable degree of skill and patience.",
+          "vi": "Nhiệm vụ đòi hỏi một mức độ đáng kể về kỹ năng và sự kiên nhẫn."
+        },
+        {
+          "en": "Workers enjoy a considerable degree of freedom in this company.",
+          "vi": "Nhân viên được hưởng một mức độ tự do đáng kể trong công ty này."
+        },
+        {
+          "en": "The results show a considerable degree of variation between groups.",
+          "vi": "Kết quả cho thấy một mức độ khác biệt đáng kể giữa các nhóm."
+        }
+      ]
+    },
+    {
+      "english": "considerable detail",
+      "vietnamese": "sự chi tiết đáng kể",
+      "ipa": "/kənˈsɪdərəbəl ˈdiːteɪl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The author describes each method in considerable detail.",
+          "vi": "Tác giả mô tả từng phương pháp với sự chi tiết đáng kể."
+        },
+        {
+          "en": "The report covers the budget in considerable detail.",
+          "vi": "Báo cáo trình bày ngân sách với sự chi tiết đáng kể."
+        },
+        {
+          "en": "She explained the procedure in considerable detail for beginners.",
+          "vi": "Cô đã giải thích quy trình rất chi tiết cho người mới bắt đầu."
+        }
+      ]
+    },
+    {
+      "english": "considerable effort",
+      "vietnamese": "công sức đáng kể",
+      "ipa": "/kənˈsɪdərəbəl ˈefərt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "It took considerable effort to finish the thesis on time.",
+          "vi": "Phải mất công sức đáng kể mới hoàn thành luận văn đúng hạn."
+        },
+        {
+          "en": "The team put considerable effort into improving the website.",
+          "vi": "Nhóm đã bỏ công sức đáng kể để cải thiện trang web."
+        },
+        {
+          "en": "Considerable effort is needed to change such old habits.",
+          "vi": "Cần công sức đáng kể để thay đổi những thói quen cũ như vậy."
+        }
+      ]
+    },
+    {
+      "english": "considerable evidence",
+      "vietnamese": "bằng chứng đáng kể",
+      "ipa": "/kənˈsɪdərəbəl ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is considerable evidence linking exercise to better health.",
+          "vi": "Có bằng chứng đáng kể liên hệ tập thể dục với sức khỏe tốt hơn."
+        },
+        {
+          "en": "Considerable evidence suggests the policy reduced crime rates.",
+          "vi": "Bằng chứng đáng kể cho thấy chính sách đã làm giảm tỷ lệ tội phạm."
+        },
+        {
+          "en": "The study collected considerable evidence over five long years.",
+          "vi": "Nghiên cứu đã thu thập bằng chứng đáng kể trong suốt năm năm dài."
+        }
+      ]
+    },
+    {
+      "english": "considerable extent",
+      "vietnamese": "mức độ đáng kể",
+      "ipa": "/kənˈsɪdərəbəl ɪkˈstent/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "To a considerable extent, the project's success depended on funding.",
+          "vi": "Ở một mức độ đáng kể, thành công của dự án phụ thuộc vào nguồn vốn."
+        },
+        {
+          "en": "Her work shaped the field to a considerable extent.",
+          "vi": "Công trình của bà đã định hình lĩnh vực ở một mức độ đáng kể."
+        },
+        {
+          "en": "The outcome reflects the local culture to a considerable extent.",
+          "vi": "Kết quả phản ánh văn hóa địa phương ở một mức độ đáng kể."
+        }
+      ]
+    },
+    {
+      "english": "considerable importance",
+      "vietnamese": "tầm quan trọng đáng kể",
+      "ipa": "/kənˈsɪdərəbəl ɪmˈpɔːrtəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "These findings are of considerable importance to medical research.",
+          "vi": "Những phát hiện này có tầm quan trọng đáng kể đối với nghiên cứu y học."
+        },
+        {
+          "en": "The treaty held considerable importance for both countries.",
+          "vi": "Hiệp ước có tầm quan trọng đáng kể đối với cả hai quốc gia."
+        },
+        {
+          "en": "Early education is of considerable importance for later success.",
+          "vi": "Giáo dục sớm có tầm quan trọng đáng kể đối với thành công về sau."
+        }
+      ]
+    },
+    {
+      "english": "considerable influence",
+      "vietnamese": "ảnh hưởng đáng kể",
+      "ipa": "/kənˈsɪdərəbəl ˈɪnfluəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The teacher had a considerable influence on my career choices.",
+          "vi": "Người thầy đã có ảnh hưởng đáng kể đến lựa chọn nghề nghiệp của tôi."
+        },
+        {
+          "en": "Media exerts considerable influence over public opinion today.",
+          "vi": "Truyền thông tạo ảnh hưởng đáng kể lên dư luận ngày nay."
+        },
+        {
+          "en": "Her writing exerted considerable influence on later philosophers.",
+          "vi": "Trước tác của bà có ảnh hưởng đáng kể đến các triết gia về sau."
+        }
+      ]
+    },
+    {
+      "english": "considerable interest",
+      "vietnamese": "sự quan tâm đáng kể",
+      "ipa": "/kənˈsɪdərəbəl ˈɪntrəst/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The discovery generated considerable interest among biologists.",
+          "vi": "Phát hiện đã tạo ra sự quan tâm đáng kể trong giới sinh học."
+        },
+        {
+          "en": "There is considerable interest in renewable energy these days.",
+          "vi": "Hiện nay có sự quan tâm đáng kể đến năng lượng tái tạo."
+        },
+        {
+          "en": "The lecture attracted considerable interest from local students.",
+          "vi": "Buổi giảng đã thu hút sự quan tâm đáng kể từ sinh viên địa phương."
+        }
+      ]
+    },
+    {
+      "english": "considerable research",
+      "vietnamese": "nghiên cứu đáng kể",
+      "ipa": "/kənˈsɪdərəbəl ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Considerable research has examined how children learn languages.",
+          "vi": "Đã có nghiên cứu đáng kể khảo sát cách trẻ em học ngôn ngữ."
+        },
+        {
+          "en": "The claim is supported by considerable research over decades.",
+          "vi": "Khẳng định này được hỗ trợ bởi nghiên cứu đáng kể qua nhiều thập kỷ."
+        },
+        {
+          "en": "Considerable research is still needed to confirm these results.",
+          "vi": "Vẫn cần nghiên cứu đáng kể để xác nhận những kết quả này."
+        }
+      ]
+    },
+    {
+      "english": "considerable support",
+      "vietnamese": "sự ủng hộ đáng kể",
+      "ipa": "/kənˈsɪdərəbəl səˈpɔːrt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The plan received considerable support from local community groups.",
+          "vi": "Kế hoạch nhận được sự ủng hộ đáng kể từ các nhóm cộng đồng địa phương."
+        },
+        {
+          "en": "There is considerable support for reforming the exam system.",
+          "vi": "Có sự ủng hộ đáng kể cho việc cải cách hệ thống thi cử."
+        },
+        {
+          "en": "Considerable support exists for protecting the old forest.",
+          "vi": "Tồn tại sự ủng hộ đáng kể cho việc bảo vệ khu rừng cổ."
+        }
+      ]
+    },
+    {
+      "english": "considerable variation",
+      "vietnamese": "sự khác biệt đáng kể",
+      "ipa": "/kənˈsɪdərəbəl ˌveriˈeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is considerable variation in rainfall across the region.",
+          "vi": "Có sự khác biệt đáng kể về lượng mưa trên khắp khu vực."
+        },
+        {
+          "en": "The data showed considerable variation between the two samples.",
+          "vi": "Dữ liệu cho thấy sự khác biệt đáng kể giữa hai mẫu."
+        },
+        {
+          "en": "Prices reveal considerable variation from one city to another.",
+          "vi": "Giá cả cho thấy sự khác biệt đáng kể giữa thành phố này với thành phố khác."
+        }
+      ]
+    },
+    {
+      "english": "consistent pattern",
+      "vietnamese": "khuôn mẫu nhất quán",
+      "ipa": "/kənˈsɪstənt ˈpætərn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The survey revealed a consistent pattern of late payments.",
+          "vi": "Cuộc khảo sát cho thấy một khuôn mẫu nhất quán về việc trả tiền muộn."
+        },
+        {
+          "en": "Researchers found a consistent pattern across all five studies.",
+          "vi": "Các nhà nghiên cứu tìm thấy một khuôn mẫu nhất quán qua cả năm nghiên cứu."
+        },
+        {
+          "en": "A consistent pattern of growth appeared over the last decade.",
+          "vi": "Một khuôn mẫu tăng trưởng nhất quán xuất hiện trong thập kỷ qua."
+        }
+      ]
+    }
+  ]
+}

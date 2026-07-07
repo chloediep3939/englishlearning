@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 11/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 11/83"
+  },
+  "cards": [
+    {
+      "english": "comparative research",
+      "vietnamese": "nghiên cứu so sánh",
+      "ipa": "/kəmˈpærətɪv ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Comparative research helps identify patterns across different cultures.",
+          "vi": "Nghiên cứu so sánh giúp nhận ra các khuôn mẫu giữa các nền văn hóa."
+        },
+        {
+          "en": "Her comparative research focused on education systems in Asia.",
+          "vi": "Nghiên cứu so sánh của cô tập trung vào các hệ thống giáo dục ở châu Á."
+        },
+        {
+          "en": "Comparative research requires careful selection of comparable cases.",
+          "vi": "Nghiên cứu so sánh đòi hỏi lựa chọn cẩn thận các trường hợp tương đương."
+        }
+      ]
+    },
+    {
+      "english": "comparative study",
+      "vietnamese": "công trình so sánh",
+      "ipa": "/kəmˈpærətɪv ˈstʌdi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The team published a comparative study of urban transport.",
+          "vi": "Nhóm đã công bố một công trình so sánh về giao thông đô thị."
+        },
+        {
+          "en": "This comparative study examines healthcare in five countries.",
+          "vi": "Công trình so sánh này xem xét hệ thống y tế ở năm quốc gia."
+        },
+        {
+          "en": "A comparative study can highlight strengths of each approach.",
+          "vi": "Một công trình so sánh có thể làm nổi bật điểm mạnh của từng cách tiếp cận."
+        }
+      ]
+    },
+    {
+      "english": "compelling argument",
+      "vietnamese": "lập luận thuyết phục",
+      "ipa": "/kəmˈpelɪŋ ˈɑːrɡjəmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "She made a compelling argument for reforming the system.",
+          "vi": "Cô đưa ra một lập luận thuyết phục để cải cách hệ thống."
+        },
+        {
+          "en": "The essay presents a compelling argument supported by data.",
+          "vi": "Bài luận trình bày một lập luận thuyết phục được dữ liệu hỗ trợ."
+        },
+        {
+          "en": "His compelling argument changed many people's minds.",
+          "vi": "Lập luận thuyết phục của ông đã thay đổi suy nghĩ của nhiều người."
+        }
+      ]
+    },
+    {
+      "english": "compelling evidence",
+      "vietnamese": "bằng chứng thuyết phục",
+      "ipa": "/kəmˈpelɪŋ ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study provides compelling evidence of climate change.",
+          "vi": "Nghiên cứu cung cấp bằng chứng thuyết phục về biến đổi khí hậu."
+        },
+        {
+          "en": "There is compelling evidence linking smoking to cancer.",
+          "vi": "Có bằng chứng thuyết phục liên hệ hút thuốc với ung thư."
+        },
+        {
+          "en": "Without compelling evidence, the claim cannot be accepted.",
+          "vi": "Không có bằng chứng thuyết phục, tuyên bố không thể được chấp nhận."
+        }
+      ]
+    },
+    {
+      "english": "compelling reason",
+      "vietnamese": "lý do thuyết phục",
+      "ipa": "/kəmˈpelɪŋ ˈriːzən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a compelling reason to revise the current policy.",
+          "vi": "Có một lý do thuyết phục để sửa đổi chính sách hiện tại."
+        },
+        {
+          "en": "She gave no compelling reason for missing the deadline.",
+          "vi": "Cô không đưa ra lý do thuyết phục nào cho việc trễ hạn."
+        },
+        {
+          "en": "Investors need a compelling reason to fund the project.",
+          "vi": "Các nhà đầu tư cần một lý do thuyết phục để tài trợ dự án."
+        }
+      ]
+    },
+    {
+      "english": "competitive market",
+      "vietnamese": "thị trường cạnh tranh",
+      "ipa": "/kəmˈpetətɪv ˈmɑːrkɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In a competitive market, prices tend to stay low.",
+          "vi": "Trong một thị trường cạnh tranh, giá cả có xu hướng thấp."
+        },
+        {
+          "en": "Small firms struggle to survive in a competitive market.",
+          "vi": "Các công ty nhỏ khó tồn tại trong thị trường cạnh tranh."
+        },
+        {
+          "en": "Innovation is essential to thrive in a competitive market.",
+          "vi": "Đổi mới là thiết yếu để phát triển trong thị trường cạnh tranh."
+        }
+      ]
+    },
+    {
+      "english": "competitive pressure",
+      "vietnamese": "áp lực cạnh tranh",
+      "ipa": "/kəmˈpetətɪv ˈpreʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Competitive pressure forced the company to lower its prices.",
+          "vi": "Áp lực cạnh tranh buộc công ty phải hạ giá."
+        },
+        {
+          "en": "Firms face growing competitive pressure from overseas rivals.",
+          "vi": "Các công ty đối mặt với áp lực cạnh tranh ngày càng tăng từ đối thủ nước ngoài."
+        },
+        {
+          "en": "Competitive pressure often drives rapid technological change.",
+          "vi": "Áp lực cạnh tranh thường thúc đẩy thay đổi công nghệ nhanh chóng."
+        }
+      ]
+    },
+    {
+      "english": "complete a task",
+      "vietnamese": "hoàn thành nhiệm vụ",
+      "ipa": "/kəmˈpliːt ə tæsk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Students must complete a task before moving to the next.",
+          "vi": "Học sinh phải hoàn thành nhiệm vụ trước khi chuyển sang phần tiếp."
+        },
+        {
+          "en": "It took the team two weeks to complete the task.",
+          "vi": "Nhóm mất hai tuần để hoàn thành nhiệm vụ."
+        },
+        {
+          "en": "Clear instructions help workers complete a task efficiently.",
+          "vi": "Hướng dẫn rõ ràng giúp công nhân hoàn thành nhiệm vụ hiệu quả."
+        }
+      ]
+    },
+    {
+      "english": "complex area",
+      "vietnamese": "lĩnh vực phức tạp",
+      "ipa": "/ˈkɑːmpleks ˈeriə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Tax law is a complex area that requires expert advice.",
+          "vi": "Luật thuế là một lĩnh vực phức tạp đòi hỏi tư vấn chuyên môn."
+        },
+        {
+          "en": "This complex area of research is still poorly understood.",
+          "vi": "Lĩnh vực nghiên cứu phức tạp này vẫn chưa được hiểu rõ."
+        },
+        {
+          "en": "Ethics in medicine remains a deeply complex area.",
+          "vi": "Đạo đức trong y học vẫn là một lĩnh vực hết sức phức tạp."
+        }
+      ]
+    },
+    {
+      "english": "complex interaction",
+      "vietnamese": "tương tác phức tạp",
+      "ipa": "/ˈkɑːmpleks ˌɪntərˈækʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Behaviour results from a complex interaction of many factors.",
+          "vi": "Hành vi nảy sinh từ sự tương tác phức tạp của nhiều yếu tố."
+        },
+        {
+          "en": "The model captures the complex interaction between species.",
+          "vi": "Mô hình nắm bắt sự tương tác phức tạp giữa các loài."
+        },
+        {
+          "en": "Climate involves a complex interaction of ocean and atmosphere.",
+          "vi": "Khí hậu liên quan đến tương tác phức tạp giữa đại dương và khí quyển."
+        }
+      ]
+    },
+    {
+      "english": "complex issue",
+      "vietnamese": "vấn đề phức tạp",
+      "ipa": "/ˈkɑːmpleks ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Immigration is a complex issue with no simple solution.",
+          "vi": "Nhập cư là một vấn đề phức tạp không có lời giải đơn giản."
+        },
+        {
+          "en": "The report addresses the complex issue of inequality.",
+          "vi": "Báo cáo đề cập đến vấn đề phức tạp về bất bình đẳng."
+        },
+        {
+          "en": "Resolving this complex issue requires cooperation from everyone.",
+          "vi": "Giải quyết vấn đề phức tạp này cần sự hợp tác từ mọi người."
+        }
+      ]
+    },
+    {
+      "english": "complex pattern",
+      "vietnamese": "mô hình phức tạp",
+      "ipa": "/ˈkɑːmpleks ˈpætərn/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The data reveal a complex pattern of seasonal change.",
+          "vi": "Dữ liệu cho thấy một mô hình thay đổi theo mùa phức tạp."
+        },
+        {
+          "en": "Migration follows a complex pattern shaped by many forces.",
+          "vi": "Di cư diễn ra theo mô hình phức tạp do nhiều yếu tố tạo nên."
+        },
+        {
+          "en": "Researchers uncovered a complex pattern in the genetic data.",
+          "vi": "Các nhà nghiên cứu phát hiện một mô hình phức tạp trong dữ liệu di truyền."
+        }
+      ]
+    },
+    {
+      "english": "complex problem",
+      "vietnamese": "bài toán phức tạp",
+      "ipa": "/ˈkɑːmpleks ˈprɑːbləm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Climate change is a complex problem facing every nation.",
+          "vi": "Biến đổi khí hậu là một bài toán phức tạp với mọi quốc gia."
+        },
+        {
+          "en": "Breaking a complex problem into steps makes it manageable.",
+          "vi": "Chia một bài toán phức tạp thành các bước giúp dễ xử lý hơn."
+        },
+        {
+          "en": "The engineers solved a complex problem with a simple design.",
+          "vi": "Các kỹ sư giải một bài toán phức tạp bằng một thiết kế đơn giản."
+        }
+      ]
+    },
+    {
+      "english": "complex process",
+      "vietnamese": "quá trình phức tạp",
+      "ipa": "/ˈkɑːmpleks ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Learning a language is a long and complex process.",
+          "vi": "Học một ngôn ngữ là một quá trình lâu dài và phức tạp."
+        },
+        {
+          "en": "Digestion is a complex process involving several organs.",
+          "vi": "Tiêu hóa là một quá trình phức tạp liên quan đến nhiều cơ quan."
+        },
+        {
+          "en": "The complex process of approval can take many months.",
+          "vi": "Quá trình phê duyệt phức tạp có thể mất nhiều tháng."
+        }
+      ]
+    },
+    {
+      "english": "complex question",
+      "vietnamese": "câu hỏi phức tạp",
+      "ipa": "/ˈkɑːmpleks ˈkwestʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "This is a complex question that deserves careful thought.",
+          "vi": "Đây là một câu hỏi phức tạp xứng đáng được suy nghĩ kỹ."
+        },
+        {
+          "en": "The essay tackles the complex question of free will.",
+          "vi": "Bài luận giải quyết câu hỏi phức tạp về ý chí tự do."
+        },
+        {
+          "en": "There is no easy answer to such a complex question.",
+          "vi": "Không có câu trả lời dễ dàng cho một câu hỏi phức tạp như vậy."
+        }
+      ]
+    },
+    {
+      "english": "complex relationship",
+      "vietnamese": "mối quan hệ phức tạp",
+      "ipa": "/ˈkɑːmpleks rɪˈleɪʃənʃɪp/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a complex relationship between stress and illness.",
+          "vi": "Có một mối quan hệ phức tạp giữa căng thẳng và bệnh tật."
+        },
+        {
+          "en": "The novel explores the complex relationship between the brothers.",
+          "vi": "Cuốn tiểu thuyết khám phá mối quan hệ phức tạp giữa hai anh em."
+        },
+        {
+          "en": "Economics studies the complex relationship between supply and demand.",
+          "vi": "Kinh tế học nghiên cứu mối quan hệ phức tạp giữa cung và cầu."
+        }
+      ]
+    },
+    {
+      "english": "complex set",
+      "vietnamese": "tập hợp phức tạp",
+      "ipa": "/ˈkɑːmpleks set/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The rules form a complex set of legal obligations.",
+          "vi": "Các quy tắc tạo thành một tập hợp phức tạp các nghĩa vụ pháp lý."
+        },
+        {
+          "en": "A complex set of factors shapes consumer behaviour.",
+          "vi": "Một tập hợp phức tạp các yếu tố định hình hành vi tiêu dùng."
+        },
+        {
+          "en": "Pilots must follow a complex set of safety procedures.",
+          "vi": "Phi công phải tuân theo một tập hợp phức tạp các quy trình an toàn."
+        }
+      ]
+    },
+    {
+      "english": "complex situation",
+      "vietnamese": "tình huống phức tạp",
+      "ipa": "/ˈkɑːmpleks ˌsɪtʃuˈeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Managers must stay calm in a complex situation.",
+          "vi": "Các nhà quản lý phải bình tĩnh trong một tình huống phức tạp."
+        },
+        {
+          "en": "The diplomat handled the complex situation with great skill.",
+          "vi": "Nhà ngoại giao xử lý tình huống phức tạp với kỹ năng tuyệt vời."
+        },
+        {
+          "en": "This complex situation has no obvious right answer.",
+          "vi": "Tình huống phức tạp này không có câu trả lời đúng rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "complex structure",
+      "vietnamese": "cấu trúc phức tạp",
+      "ipa": "/ˈkɑːmpleks ˈstrʌktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The brain has an extremely complex structure.",
+          "vi": "Não bộ có một cấu trúc cực kỳ phức tạp."
+        },
+        {
+          "en": "The molecule's complex structure makes it hard to synthesize.",
+          "vi": "Cấu trúc phức tạp của phân tử khiến nó khó tổng hợp."
+        },
+        {
+          "en": "The poem has a complex structure with shifting rhythms.",
+          "vi": "Bài thơ có một cấu trúc phức tạp với nhịp điệu biến đổi."
+        }
+      ]
+    },
+    {
+      "english": "complex system",
+      "vietnamese": "hệ thống phức tạp",
+      "ipa": "/ˈkɑːmpleks ˈsɪstəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The economy is a complex system with many moving parts.",
+          "vi": "Nền kinh tế là một hệ thống phức tạp với nhiều bộ phận vận động."
+        },
+        {
+          "en": "Ecosystems are complex systems that respond to small changes.",
+          "vi": "Hệ sinh thái là những hệ thống phức tạp phản ứng với thay đổi nhỏ."
+        },
+        {
+          "en": "Managing a complex system requires constant monitoring.",
+          "vi": "Quản lý một hệ thống phức tạp đòi hỏi giám sát liên tục."
+        }
+      ]
+    },
+    {
+      "english": "comprehensive account",
+      "vietnamese": "bản tường thuật toàn diện",
+      "ipa": "/ˌkɑːmprɪˈhensɪv əˈkaʊnt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book offers a comprehensive account of the revolution.",
+          "vi": "Cuốn sách đưa ra một bản tường thuật toàn diện về cuộc cách mạng."
+        },
+        {
+          "en": "She gave a comprehensive account of the experiment's results.",
+          "vi": "Cô trình bày một bản tường thuật toàn diện về kết quả thí nghiệm."
+        },
+        {
+          "en": "No single source provides a comprehensive account of events.",
+          "vi": "Không nguồn nào đưa ra bản tường thuật toàn diện về các sự kiện."
+        }
+      ]
+    },
+    {
+      "english": "comprehensive approach",
+      "vietnamese": "cách tiếp cận toàn diện",
+      "ipa": "/ˌkɑːmprɪˈhensɪv əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Tackling poverty requires a comprehensive approach.",
+          "vi": "Giải quyết nghèo đói đòi hỏi một cách tiếp cận toàn diện."
+        },
+        {
+          "en": "The school adopted a comprehensive approach to student welfare.",
+          "vi": "Trường áp dụng cách tiếp cận toàn diện đối với phúc lợi học sinh."
+        },
+        {
+          "en": "A comprehensive approach considers economic and social factors together.",
+          "vi": "Cách tiếp cận toàn diện xem xét cả yếu tố kinh tế và xã hội."
+        }
+      ]
+    },
+    {
+      "english": "comprehensive overview",
+      "vietnamese": "cái nhìn tổng quan toàn diện",
+      "ipa": "/ˌkɑːmprɪˈhensɪv ˈoʊvərvjuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The first chapter gives a comprehensive overview of the field.",
+          "vi": "Chương đầu đưa ra cái nhìn tổng quan toàn diện về lĩnh vực này."
+        },
+        {
+          "en": "Her lecture provided a comprehensive overview of recent research.",
+          "vi": "Bài giảng của cô cung cấp cái nhìn toàn diện về nghiên cứu gần đây."
+        },
+        {
+          "en": "This guide offers a comprehensive overview for new employees.",
+          "vi": "Cẩm nang này cung cấp cái nhìn tổng quan toàn diện cho nhân viên mới."
+        }
+      ]
+    },
+    {
+      "english": "comprehensive review",
+      "vietnamese": "đánh giá toàn diện",
+      "ipa": "/ˌkɑːmprɪˈhensɪv rɪˈvjuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The committee conducted a comprehensive review of the policy.",
+          "vi": "Ủy ban tiến hành một cuộc đánh giá toàn diện về chính sách."
+        },
+        {
+          "en": "The article provides a comprehensive review of the literature.",
+          "vi": "Bài viết cung cấp một đánh giá toàn diện về tài liệu nghiên cứu."
+        },
+        {
+          "en": "A comprehensive review revealed several gaps in the system.",
+          "vi": "Một cuộc đánh giá toàn diện đã phát hiện nhiều lỗ hổng trong hệ thống."
+        }
+      ]
+    },
+    {
+      "english": "comprehensive system",
+      "vietnamese": "hệ thống toàn diện",
+      "ipa": "/ˌkɑːmprɪˈhensɪv ˈsɪstəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The country built a comprehensive system of public healthcare.",
+          "vi": "Quốc gia này xây dựng một hệ thống y tế công toàn diện."
+        },
+        {
+          "en": "A comprehensive system of checks prevents most errors.",
+          "vi": "Một hệ thống kiểm tra toàn diện ngăn chặn hầu hết sai sót."
+        },
+        {
+          "en": "They developed a comprehensive system for tracking shipments.",
+          "vi": "Họ phát triển một hệ thống toàn diện để theo dõi các lô hàng."
+        }
+      ]
+    },
+    {
+      "english": "conceptual framework",
+      "vietnamese": "khung khái niệm",
+      "ipa": "/kənˈseptʃuəl ˈfreɪmwɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study is built on a clear conceptual framework.",
+          "vi": "Nghiên cứu được xây dựng trên một khung khái niệm rõ ràng."
+        },
+        {
+          "en": "A solid conceptual framework guides the entire investigation.",
+          "vi": "Một khung khái niệm vững chắc định hướng toàn bộ cuộc điều tra."
+        },
+        {
+          "en": "The authors propose a new conceptual framework for analysis.",
+          "vi": "Các tác giả đề xuất một khung khái niệm mới để phân tích."
+        }
+      ]
+    },
+    {
+      "english": "concerted effort",
+      "vietnamese": "nỗ lực phối hợp",
+      "ipa": "/kənˈsɜːrtɪd ˈefərt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A concerted effort is needed to reduce plastic waste.",
+          "vi": "Cần một nỗ lực phối hợp để giảm rác thải nhựa."
+        },
+        {
+          "en": "Through a concerted effort, the team met the deadline.",
+          "vi": "Bằng một nỗ lực phối hợp, nhóm đã kịp hạn chót."
+        },
+        {
+          "en": "Governments made a concerted effort to control the disease.",
+          "vi": "Các chính phủ đã nỗ lực phối hợp để kiểm soát dịch bệnh."
+        }
+      ]
+    },
+    {
+      "english": "concluding remarks",
+      "vietnamese": "lời nhận xét kết luận",
+      "ipa": "/kənˈkluːdɪŋ rɪˈmɑːrks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "In her concluding remarks, she summarized the main findings.",
+          "vi": "Trong lời nhận xét kết luận, cô tóm tắt các phát hiện chính."
+        },
+        {
+          "en": "The author's concluding remarks point toward future research.",
+          "vi": "Lời nhận xét kết luận của tác giả hướng tới nghiên cứu tương lai."
+        },
+        {
+          "en": "His concluding remarks were brief but memorable.",
+          "vi": "Lời nhận xét kết luận của ông ngắn gọn nhưng đáng nhớ."
+        }
+      ]
+    },
+    {
+      "english": "concluding section",
+      "vietnamese": "phần kết luận",
+      "ipa": "/kənˈkluːdɪŋ ˈsekʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The concluding section restates the paper's central argument.",
+          "vi": "Phần kết luận nêu lại lập luận trung tâm của bài viết."
+        },
+        {
+          "en": "In the concluding section, the author suggests further study.",
+          "vi": "Trong phần kết luận, tác giả gợi ý nghiên cứu thêm."
+        },
+        {
+          "en": "The concluding section ties together the earlier chapters.",
+          "vi": "Phần kết luận liên kết các chương trước đó với nhau."
+        }
+      ]
+    },
+    {
+      "english": "concluding probability",
+      "vietnamese": "xác suất kết luận",
+      "ipa": "/kənˈkluːdɪŋ ˌprɑːbəˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The analysis yields a concluding probability for each outcome.",
+          "vi": "Phân tích đưa ra một xác suất kết luận cho mỗi kết quả."
+        },
+        {
+          "en": "Researchers reported the concluding probability of the event.",
+          "vi": "Các nhà nghiên cứu báo cáo xác suất kết luận của sự kiện."
+        },
+        {
+          "en": "A high concluding probability strengthens confidence in the model.",
+          "vi": "Xác suất kết luận cao làm tăng độ tin cậy vào mô hình."
+        }
+      ]
+    }
+  ]
+}

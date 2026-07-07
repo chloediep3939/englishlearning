@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 33/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 33/83"
+  },
+  "cards": [
+    {
+      "english": "greatly enhance",
+      "vietnamese": "nâng cao đáng kể",
+      "ipa": "/ˈɡreɪtli ɪnˈhæns/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "Good lighting can greatly enhance the quality of photographs.",
+          "vi": "Ánh sáng tốt có thể nâng cao đáng kể chất lượng ảnh chụp."
+        },
+        {
+          "en": "New software will greatly enhance the team's productivity.",
+          "vi": "Phần mềm mới sẽ nâng cao đáng kể năng suất của nhóm."
+        },
+        {
+          "en": "Studying abroad can greatly enhance your career prospects.",
+          "vi": "Du học có thể nâng cao đáng kể triển vọng nghề nghiệp của bạn."
+        }
+      ]
+    },
+    {
+      "english": "greatly increase",
+      "vietnamese": "tăng đáng kể",
+      "ipa": "/ˈɡreɪtli ɪnˈkriːs/",
+      "part_of_speech": "adv + v",
+      "examples": [
+        {
+          "en": "Smoking can greatly increase the risk of lung disease.",
+          "vi": "Hút thuốc có thể tăng đáng kể nguy cơ mắc bệnh phổi."
+        },
+        {
+          "en": "The new road will greatly increase traffic into the town.",
+          "vi": "Con đường mới sẽ làm tăng đáng kể lượng xe vào thị trấn."
+        },
+        {
+          "en": "Advertising can greatly increase sales of a new product.",
+          "vi": "Quảng cáo có thể tăng đáng kể doanh số của sản phẩm mới."
+        }
+      ]
+    },
+    {
+      "english": "greatly influenced by",
+      "vietnamese": "chịu ảnh hưởng lớn bởi",
+      "ipa": "/ˈɡreɪtli ˈɪnfluənst baɪ/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Her writing was greatly influenced by classical literature.",
+          "vi": "Văn của cô chịu ảnh hưởng lớn bởi văn học cổ điển."
+        },
+        {
+          "en": "The artist was greatly influenced by his travels abroad.",
+          "vi": "Người nghệ sĩ chịu ảnh hưởng lớn bởi những chuyến đi nước ngoài."
+        },
+        {
+          "en": "Modern science was greatly influenced by ancient Greek thinkers.",
+          "vi": "Khoa học hiện đại chịu ảnh hưởng lớn bởi các nhà tư tưởng Hy Lạp cổ."
+        }
+      ]
+    },
+    {
+      "english": "greatly reduced",
+      "vietnamese": "giảm đáng kể",
+      "ipa": "/ˈɡreɪtli rɪˈduːst/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "Pollution was greatly reduced after the new law passed.",
+          "vi": "Ô nhiễm đã giảm đáng kể sau khi luật mới được thông qua."
+        },
+        {
+          "en": "The risk of infection is greatly reduced by washing hands.",
+          "vi": "Nguy cơ nhiễm trùng giảm đáng kể nhờ rửa tay."
+        },
+        {
+          "en": "Travel time was greatly reduced once the bridge opened.",
+          "vi": "Thời gian di chuyển giảm đáng kể khi cây cầu được khánh thành."
+        }
+      ]
+    },
+    {
+      "english": "grow rapidly",
+      "vietnamese": "phát triển nhanh chóng",
+      "ipa": "/ɡroʊ ˈræpɪdli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "The city's population began to grow rapidly after 1990.",
+          "vi": "Dân số thành phố bắt đầu phát triển nhanh chóng sau năm 1990."
+        },
+        {
+          "en": "Online businesses can grow rapidly with the right strategy.",
+          "vi": "Các doanh nghiệp trực tuyến có thể phát triển nhanh chóng với chiến lược đúng."
+        },
+        {
+          "en": "Demand for electric cars continues to grow rapidly worldwide.",
+          "vi": "Nhu cầu về ô tô điện tiếp tục phát triển nhanh chóng trên toàn cầu."
+        }
+      ]
+    },
+    {
+      "english": "growing awareness",
+      "vietnamese": "nhận thức ngày càng tăng",
+      "ipa": "/ˈɡroʊɪŋ əˈwernəs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is growing awareness of the effects of climate change.",
+          "vi": "Có nhận thức ngày càng tăng về các tác động của biến đổi khí hậu."
+        },
+        {
+          "en": "Growing awareness of healthy eating has changed shopping habits.",
+          "vi": "Nhận thức ngày càng tăng về ăn uống lành mạnh đã thay đổi thói quen mua sắm."
+        },
+        {
+          "en": "The campaign reflects growing awareness of online safety.",
+          "vi": "Chiến dịch phản ánh nhận thức ngày càng tăng về an toàn trực tuyến."
+        }
+      ]
+    },
+    {
+      "english": "growing trend",
+      "vietnamese": "xu hướng ngày càng tăng",
+      "ipa": "/ˈɡroʊɪŋ trend/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a growing trend toward working from home.",
+          "vi": "Có một xu hướng ngày càng tăng về làm việc tại nhà."
+        },
+        {
+          "en": "A growing trend among young people is shopping online.",
+          "vi": "Một xu hướng ngày càng tăng trong giới trẻ là mua sắm trực tuyến."
+        },
+        {
+          "en": "The report identifies a growing trend in renewable energy use.",
+          "vi": "Báo cáo chỉ ra một xu hướng ngày càng tăng về dùng năng lượng tái tạo."
+        }
+      ]
+    },
+    {
+      "english": "guiding principle",
+      "vietnamese": "nguyên tắc chỉ đạo",
+      "ipa": "/ˈɡaɪdɪŋ ˈprɪnsəpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Honesty is the guiding principle of our entire organization.",
+          "vi": "Trung thực là nguyên tắc chỉ đạo của toàn bộ tổ chức chúng tôi."
+        },
+        {
+          "en": "Fairness should be the guiding principle behind every decision.",
+          "vi": "Công bằng nên là nguyên tắc chỉ đạo đằng sau mỗi quyết định."
+        },
+        {
+          "en": "The guiding principle of the law is to protect citizens.",
+          "vi": "Nguyên tắc chỉ đạo của luật là bảo vệ công dân."
+        }
+      ]
+    },
+    {
+      "english": "hardly surprising",
+      "vietnamese": "chẳng có gì đáng ngạc nhiên",
+      "ipa": "/ˈhɑːrdli sərˈpraɪzɪŋ/",
+      "part_of_speech": "adv + adj",
+      "examples": [
+        {
+          "en": "It is hardly surprising that prices rose after the shortage.",
+          "vi": "Chẳng có gì đáng ngạc nhiên khi giá tăng sau tình trạng khan hiếm."
+        },
+        {
+          "en": "Given the rain, the low turnout was hardly surprising.",
+          "vi": "Với trời mưa, lượng người tham dự thấp chẳng có gì đáng ngạc nhiên."
+        },
+        {
+          "en": "It is hardly surprising that students prefer shorter lectures.",
+          "vi": "Chẳng có gì đáng ngạc nhiên khi sinh viên thích các bài giảng ngắn hơn."
+        }
+      ]
+    },
+    {
+      "english": "have access to",
+      "vietnamese": "có quyền tiếp cận, được sử dụng",
+      "ipa": "/hæv ˈækses tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "All students have access to the library's online resources.",
+          "vi": "Tất cả sinh viên đều có quyền tiếp cận tài nguyên trực tuyến của thư viện."
+        },
+        {
+          "en": "Many rural areas still do not have access to clean water.",
+          "vi": "Nhiều vùng nông thôn vẫn chưa được sử dụng nước sạch."
+        },
+        {
+          "en": "Only managers have access to the confidential files.",
+          "vi": "Chỉ quản lý mới có quyền tiếp cận các hồ sơ mật."
+        }
+      ]
+    },
+    {
+      "english": "have consequences",
+      "vietnamese": "gây ra hậu quả",
+      "ipa": "/hæv ˈkɑːnsəkwensəz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Every decision we make will have consequences for the future.",
+          "vi": "Mỗi quyết định chúng ta đưa ra đều sẽ gây ra hậu quả cho tương lai."
+        },
+        {
+          "en": "Ignoring the warning could have serious consequences for everyone.",
+          "vi": "Bỏ qua cảnh báo có thể gây ra hậu quả nghiêm trọng cho mọi người."
+        },
+        {
+          "en": "Poor planning often has consequences that are hard to fix.",
+          "vi": "Lập kế hoạch kém thường gây ra hậu quả khó khắc phục."
+        }
+      ]
+    },
+    {
+      "english": "have limitations",
+      "vietnamese": "có hạn chế",
+      "ipa": "/hæv ˌlɪmɪˈteɪʃənz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Every research method has limitations that we should recognize.",
+          "vi": "Mọi phương pháp nghiên cứu đều có hạn chế mà ta nên nhận ra."
+        },
+        {
+          "en": "The study has limitations because the sample was quite small.",
+          "vi": "Nghiên cứu có hạn chế vì mẫu khá nhỏ."
+        },
+        {
+          "en": "Even the best technology has limitations in extreme conditions.",
+          "vi": "Ngay cả công nghệ tốt nhất cũng có hạn chế trong điều kiện khắc nghiệt."
+        }
+      ]
+    },
+    {
+      "english": "have potential",
+      "vietnamese": "có tiềm năng",
+      "ipa": "/hæv pəˈtenʃəl/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "This new approach has potential to improve learning outcomes.",
+          "vi": "Cách tiếp cận mới này có tiềm năng cải thiện kết quả học tập."
+        },
+        {
+          "en": "The young athlete clearly has potential to compete nationally.",
+          "vi": "Vận động viên trẻ rõ ràng có tiềm năng thi đấu cấp quốc gia."
+        },
+        {
+          "en": "Renewable sources have potential to replace fossil fuels.",
+          "vi": "Các nguồn tái tạo có tiềm năng thay thế nhiên liệu hóa thạch."
+        }
+      ]
+    },
+    {
+      "english": "have a strategy",
+      "vietnamese": "có một chiến lược",
+      "ipa": "/hæv ə ˈstrætədʒi/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Successful companies always have a clear strategy for growth.",
+          "vi": "Các công ty thành công luôn có một chiến lược rõ ràng để phát triển."
+        },
+        {
+          "en": "You should have a strategy before starting the negotiation.",
+          "vi": "Bạn nên có một chiến lược trước khi bắt đầu đàm phán."
+        },
+        {
+          "en": "The team needs to have a strategy to handle the crisis.",
+          "vi": "Nhóm cần có một chiến lược để xử lý khủng hoảng."
+        }
+      ]
+    },
+    {
+      "english": "have a tendency to",
+      "vietnamese": "có xu hướng",
+      "ipa": "/hæv ə ˈtendənsi tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "People have a tendency to remember bad news more easily.",
+          "vi": "Con người có xu hướng nhớ tin xấu dễ dàng hơn."
+        },
+        {
+          "en": "New drivers have a tendency to brake too suddenly.",
+          "vi": "Tài xế mới có xu hướng phanh quá đột ngột."
+        },
+        {
+          "en": "Prices have a tendency to rise during the holiday season.",
+          "vi": "Giá cả có xu hướng tăng trong mùa lễ hội."
+        }
+      ]
+    },
+    {
+      "english": "have an obligation",
+      "vietnamese": "có nghĩa vụ",
+      "ipa": "/hæv ən ˌɑːblɪˈɡeɪʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Companies have an obligation to protect their customers' data.",
+          "vi": "Các công ty có nghĩa vụ bảo vệ dữ liệu của khách hàng."
+        },
+        {
+          "en": "Citizens have an obligation to obey the laws of the country.",
+          "vi": "Công dân có nghĩa vụ tuân thủ pháp luật của đất nước."
+        },
+        {
+          "en": "Teachers have an obligation to treat every student fairly.",
+          "vi": "Giáo viên có nghĩa vụ đối xử công bằng với mọi học sinh."
+        }
+      ]
+    },
+    {
+      "english": "heated debate",
+      "vietnamese": "cuộc tranh luận gay gắt",
+      "ipa": "/ˈhiːtəd dɪˈbeɪt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The new policy sparked a heated debate among the students.",
+          "vi": "Chính sách mới làm dấy lên một cuộc tranh luận gay gắt giữa các sinh viên."
+        },
+        {
+          "en": "There was a heated debate about how to spend the budget.",
+          "vi": "Đã có một cuộc tranh luận gay gắt về cách chi tiêu ngân sách."
+        },
+        {
+          "en": "The topic of immigration often leads to heated debate.",
+          "vi": "Chủ đề nhập cư thường dẫn đến tranh luận gay gắt."
+        }
+      ]
+    },
+    {
+      "english": "heavily influenced by",
+      "vietnamese": "chịu ảnh hưởng mạnh bởi",
+      "ipa": "/ˈhevɪli ˈɪnfluənst baɪ/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The region's cuisine is heavily influenced by neighboring countries.",
+          "vi": "Ẩm thực của vùng chịu ảnh hưởng mạnh bởi các nước láng giềng."
+        },
+        {
+          "en": "His early music was heavily influenced by local folk songs.",
+          "vi": "Âm nhạc thời kỳ đầu của anh chịu ảnh hưởng mạnh bởi dân ca địa phương."
+        },
+        {
+          "en": "Voters were heavily influenced by the candidate's promises.",
+          "vi": "Cử tri chịu ảnh hưởng mạnh bởi những lời hứa của ứng viên."
+        }
+      ]
+    },
+    {
+      "english": "hierarchical structure",
+      "vietnamese": "cấu trúc thứ bậc",
+      "ipa": "/ˌhaɪəˈrɑːrkɪkəl ˈstrʌktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The army relies on a strict hierarchical structure of command.",
+          "vi": "Quân đội dựa vào một cấu trúc thứ bậc chỉ huy nghiêm ngặt."
+        },
+        {
+          "en": "Many traditional companies still use a hierarchical structure.",
+          "vi": "Nhiều công ty truyền thống vẫn dùng cấu trúc thứ bậc."
+        },
+        {
+          "en": "A hierarchical structure can slow down important decisions.",
+          "vi": "Cấu trúc thứ bậc có thể làm chậm các quyết định quan trọng."
+        }
+      ]
+    },
+    {
+      "english": "high concentration",
+      "vietnamese": "nồng độ cao, sự tập trung cao",
+      "ipa": "/haɪ ˌkɑːnsənˈtreɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The water contained a high concentration of harmful chemicals.",
+          "vi": "Nước chứa nồng độ cao các hóa chất độc hại."
+        },
+        {
+          "en": "There is a high concentration of factories near the river.",
+          "vi": "Có sự tập trung cao các nhà máy gần con sông."
+        },
+        {
+          "en": "A high concentration of salt can damage most plants.",
+          "vi": "Nồng độ muối cao có thể gây hại cho hầu hết cây trồng."
+        }
+      ]
+    },
+    {
+      "english": "high correlation",
+      "vietnamese": "mối tương quan cao",
+      "ipa": "/haɪ ˌkɔːrəˈleɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a high correlation between exercise and good health.",
+          "vi": "Có mối tương quan cao giữa tập luyện và sức khỏe tốt."
+        },
+        {
+          "en": "The study found a high correlation between income and education.",
+          "vi": "Nghiên cứu tìm thấy mối tương quan cao giữa thu nhập và học vấn."
+        },
+        {
+          "en": "A high correlation does not always prove a direct cause.",
+          "vi": "Mối tương quan cao không phải lúc nào cũng chứng minh nguyên nhân trực tiếp."
+        }
+      ]
+    },
+    {
+      "english": "high expectations",
+      "vietnamese": "kỳ vọng cao",
+      "ipa": "/haɪ ˌekspekˈteɪʃənz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Parents often have high expectations for their children's grades.",
+          "vi": "Cha mẹ thường có kỳ vọng cao về điểm số của con cái."
+        },
+        {
+          "en": "The new manager set high expectations for the whole team.",
+          "vi": "Quản lý mới đặt kỳ vọng cao cho toàn đội."
+        },
+        {
+          "en": "High expectations can motivate students to work harder.",
+          "vi": "Kỳ vọng cao có thể thúc đẩy sinh viên cố gắng hơn."
+        }
+      ]
+    },
+    {
+      "english": "high incidence",
+      "vietnamese": "tỷ lệ xảy ra cao",
+      "ipa": "/haɪ ˈɪnsɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The region has a high incidence of certain heart diseases.",
+          "vi": "Vùng này có tỷ lệ xảy ra cao của một số bệnh tim."
+        },
+        {
+          "en": "Researchers studied the high incidence of accidents on that road.",
+          "vi": "Các nhà nghiên cứu nghiên cứu tỷ lệ tai nạn cao trên con đường đó."
+        },
+        {
+          "en": "Poor housing is linked to a high incidence of illness.",
+          "vi": "Nhà ở kém liên quan đến tỷ lệ bệnh tật cao."
+        }
+      ]
+    },
+    {
+      "english": "high intensity",
+      "vietnamese": "cường độ cao",
+      "ipa": "/haɪ ɪnˈtensəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "High intensity exercise can burn calories in a short time.",
+          "vi": "Bài tập cường độ cao có thể đốt calo trong thời gian ngắn."
+        },
+        {
+          "en": "The storm hit the coast with surprisingly high intensity.",
+          "vi": "Cơn bão đổ bộ vào bờ biển với cường độ cao đáng ngạc nhiên."
+        },
+        {
+          "en": "The light's high intensity made it hard to look directly.",
+          "vi": "Cường độ cao của ánh sáng khiến khó nhìn trực tiếp."
+        }
+      ]
+    },
+    {
+      "english": "high level",
+      "vietnamese": "mức độ cao",
+      "ipa": "/haɪ ˈlevəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The job requires a high level of skill and patience.",
+          "vi": "Công việc đòi hỏi mức độ cao về kỹ năng và sự kiên nhẫn."
+        },
+        {
+          "en": "There is a high level of trust between the two partners.",
+          "vi": "Có mức độ tin tưởng cao giữa hai đối tác."
+        },
+        {
+          "en": "Athletes maintain a high level of fitness all year round.",
+          "vi": "Các vận động viên duy trì mức độ thể lực cao quanh năm."
+        }
+      ]
+    },
+    {
+      "english": "high order",
+      "vietnamese": "bậc cao, cấp độ cao",
+      "ipa": "/haɪ ˈɔːrdər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The exam tests high order thinking rather than simple memory.",
+          "vi": "Kỳ thi kiểm tra tư duy bậc cao chứ không phải trí nhớ đơn giản."
+        },
+        {
+          "en": "Solving the puzzle requires skills of a high order.",
+          "vi": "Giải câu đố này đòi hỏi các kỹ năng bậc cao."
+        },
+        {
+          "en": "These tasks develop high order reasoning in young learners.",
+          "vi": "Những nhiệm vụ này phát triển lập luận bậc cao ở người học nhỏ tuổi."
+        }
+      ]
+    },
+    {
+      "english": "high percentage",
+      "vietnamese": "tỷ lệ phần trăm cao",
+      "ipa": "/haɪ pərˈsentɪdʒ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A high percentage of graduates found work within six months.",
+          "vi": "Một tỷ lệ phần trăm cao sinh viên tốt nghiệp tìm được việc trong sáu tháng."
+        },
+        {
+          "en": "The survey showed a high percentage of satisfied customers.",
+          "vi": "Khảo sát cho thấy tỷ lệ phần trăm cao khách hàng hài lòng."
+        },
+        {
+          "en": "A high percentage of energy is still wasted in old buildings.",
+          "vi": "Một tỷ lệ phần trăm cao năng lượng vẫn bị lãng phí trong tòa nhà cũ."
+        }
+      ]
+    },
+    {
+      "english": "high priority",
+      "vietnamese": "ưu tiên cao",
+      "ipa": "/haɪ praɪˈɔːrəti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Reducing road accidents is a high priority for the government.",
+          "vi": "Giảm tai nạn giao thông là ưu tiên cao của chính phủ."
+        },
+        {
+          "en": "The company gives high priority to customer safety.",
+          "vi": "Công ty dành ưu tiên cao cho sự an toàn của khách hàng."
+        },
+        {
+          "en": "Clean water should be a high priority in poor regions.",
+          "vi": "Nước sạch nên là ưu tiên cao ở các vùng nghèo."
+        }
+      ]
+    },
+    {
+      "english": "high probability",
+      "vietnamese": "xác suất cao",
+      "ipa": "/haɪ ˌprɑːbəˈbɪləti/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is a high probability of rain later this afternoon.",
+          "vi": "Có xác suất cao trời sẽ mưa vào chiều muộn nay."
+        },
+        {
+          "en": "The model shows a high probability of further price increases.",
+          "vi": "Mô hình cho thấy xác suất cao giá sẽ tiếp tục tăng."
+        },
+        {
+          "en": "There is a high probability that the experiment will succeed.",
+          "vi": "Có xác suất cao thí nghiệm sẽ thành công."
+        }
+      ]
+    },
+    {
+      "english": "high profile",
+      "vietnamese": "nổi bật, được chú ý nhiều",
+      "ipa": "/haɪ ˈproʊfaɪl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The trial received high profile coverage in the national press.",
+          "vi": "Phiên tòa nhận được sự đưa tin nổi bật trên báo chí quốc gia."
+        },
+        {
+          "en": "She took a high profile role in the campaign last year.",
+          "vi": "Cô đảm nhận một vai trò nổi bật trong chiến dịch năm ngoái."
+        },
+        {
+          "en": "A high profile event attracted thousands of curious visitors.",
+          "vi": "Một sự kiện được chú ý nhiều thu hút hàng ngàn khách tò mò."
+        }
+      ]
+    }
+  ]
+}

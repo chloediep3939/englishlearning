@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 14/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 14/83"
+  },
+  "cards": [
+    {
+      "english": "core value",
+      "vietnamese": "giá trị cốt lõi",
+      "ipa": "/kɔːr ˈvæljuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Honesty is a core value the company expects from everyone.",
+          "vi": "Trung thực là một giá trị cốt lõi mà công ty kỳ vọng ở mọi người."
+        },
+        {
+          "en": "Respect for others remains a core value at this school.",
+          "vi": "Tôn trọng người khác vẫn là một giá trị cốt lõi tại trường này."
+        },
+        {
+          "en": "The charity built its work around one clear core value.",
+          "vi": "Tổ chức từ thiện xây dựng công việc quanh một giá trị cốt lõi rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "correct interpretation",
+      "vietnamese": "cách diễn giải đúng",
+      "ipa": "/kəˈrekt ɪnˌtɜːrprɪˈteɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Finding the correct interpretation of the data took several weeks.",
+          "vi": "Tìm ra cách diễn giải đúng của dữ liệu mất vài tuần."
+        },
+        {
+          "en": "Scholars still argue about the correct interpretation of the text.",
+          "vi": "Các học giả vẫn tranh luận về cách diễn giải đúng của văn bản."
+        },
+        {
+          "en": "A correct interpretation depends on understanding the full context.",
+          "vi": "Cách diễn giải đúng phụ thuộc vào việc hiểu toàn bộ bối cảnh."
+        }
+      ]
+    },
+    {
+      "english": "correct an error",
+      "vietnamese": "sửa một lỗi",
+      "ipa": "/kəˈrekt ən ˈerər/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The editor took an hour to correct an error in the report.",
+          "vi": "Biên tập viên mất một giờ để sửa một lỗi trong báo cáo."
+        },
+        {
+          "en": "Always read your work again to correct an error early.",
+          "vi": "Hãy luôn đọc lại bài để sửa một lỗi từ sớm."
+        },
+        {
+          "en": "The team rushed to correct an error before the deadline.",
+          "vi": "Nhóm đã vội vã sửa một lỗi trước hạn chót."
+        }
+      ]
+    },
+    {
+      "english": "counter argument",
+      "vietnamese": "lập luận phản bác",
+      "ipa": "/ˈkaʊntər ˈɑːrɡjumənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "A strong essay should address the main counter argument honestly.",
+          "vi": "Một bài luận mạnh nên giải quyết lập luận phản bác chính một cách trung thực."
+        },
+        {
+          "en": "She offered a clear counter argument during the class debate.",
+          "vi": "Cô đã đưa ra một lập luận phản bác rõ ràng trong buổi tranh luận trên lớp."
+        },
+        {
+          "en": "The counter argument focuses on the cost of the new policy.",
+          "vi": "Lập luận phản bác tập trung vào chi phí của chính sách mới."
+        }
+      ]
+    },
+    {
+      "english": "cover a range of",
+      "vietnamese": "bao quát một loạt",
+      "ipa": "/ˈkʌvər ə reɪndʒ əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The textbook covers a range of topics in modern history.",
+          "vi": "Sách giáo khoa bao quát một loạt chủ đề trong lịch sử hiện đại."
+        },
+        {
+          "en": "The survey covers a range of questions about daily habits.",
+          "vi": "Cuộc khảo sát bao quát một loạt câu hỏi về thói quen hằng ngày."
+        },
+        {
+          "en": "Our service covers a range of needs for small businesses.",
+          "vi": "Dịch vụ của chúng tôi bao quát một loạt nhu cầu cho doanh nghiệp nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "cover a topic",
+      "vietnamese": "đề cập một chủ đề",
+      "ipa": "/ˈkʌvər ə ˈtɑːpɪk/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Each lecture will cover a topic in greater depth.",
+          "vi": "Mỗi bài giảng sẽ đề cập một chủ đề một cách sâu hơn."
+        },
+        {
+          "en": "The article covers a topic that few writers have explored.",
+          "vi": "Bài báo đề cập một chủ đề mà ít cây bút đã khám phá."
+        },
+        {
+          "en": "We did not have time to cover a topic on grammar.",
+          "vi": "Chúng tôi không có thời gian để đề cập một chủ đề về ngữ pháp."
+        }
+      ]
+    },
+    {
+      "english": "cover an area",
+      "vietnamese": "bao phủ một khu vực",
+      "ipa": "/ˈkʌvər ən ˈeriə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The new network will cover an area of fifty square miles.",
+          "vi": "Mạng lưới mới sẽ bao phủ một khu vực rộng năm mươi dặm vuông."
+        },
+        {
+          "en": "The flood covered an area larger than the whole city.",
+          "vi": "Trận lụt đã bao phủ một khu vực lớn hơn cả thành phố."
+        },
+        {
+          "en": "Patrols cover an area along the entire northern border.",
+          "vi": "Các đội tuần tra bao phủ một khu vực dọc toàn bộ biên giới phía bắc."
+        }
+      ]
+    },
+    {
+      "english": "create conditions",
+      "vietnamese": "tạo điều kiện",
+      "ipa": "/kriˈeɪt kənˈdɪʃənz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Good policies create conditions that help businesses grow.",
+          "vi": "Chính sách tốt tạo điều kiện giúp doanh nghiệp phát triển."
+        },
+        {
+          "en": "Teachers try to create conditions where students feel safe.",
+          "vi": "Giáo viên cố tạo điều kiện để học sinh cảm thấy an toàn."
+        },
+        {
+          "en": "Heavy rain created conditions ideal for the spreading disease.",
+          "vi": "Mưa lớn đã tạo điều kiện lý tưởng cho dịch bệnh lan rộng."
+        }
+      ]
+    },
+    {
+      "english": "create opportunities",
+      "vietnamese": "tạo cơ hội",
+      "ipa": "/kriˈeɪt ˌɑːpərˈtuːnətiz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "New technology can create opportunities for young entrepreneurs.",
+          "vi": "Công nghệ mới có thể tạo cơ hội cho các doanh nhân trẻ."
+        },
+        {
+          "en": "The program aims to create opportunities for rural students.",
+          "vi": "Chương trình nhằm tạo cơ hội cho sinh viên vùng nông thôn."
+        },
+        {
+          "en": "Travel often creates opportunities to learn new languages.",
+          "vi": "Du lịch thường tạo cơ hội để học các ngôn ngữ mới."
+        }
+      ]
+    },
+    {
+      "english": "create problems",
+      "vietnamese": "gây ra vấn đề",
+      "ipa": "/kriˈeɪt ˈprɑːbləmz/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Rushing the project may create problems we cannot fix later.",
+          "vi": "Vội vàng làm dự án có thể gây ra vấn đề ta không sửa được về sau."
+        },
+        {
+          "en": "Poor planning often creates problems for the whole team.",
+          "vi": "Lập kế hoạch kém thường gây ra vấn đề cho cả nhóm."
+        },
+        {
+          "en": "Too much traffic creates problems for people living downtown.",
+          "vi": "Quá nhiều xe cộ gây ra vấn đề cho người sống ở trung tâm."
+        }
+      ]
+    },
+    {
+      "english": "create an environment",
+      "vietnamese": "tạo ra một môi trường",
+      "ipa": "/kriˈeɪt ən ɪnˈvaɪrənmənt/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Good leaders create an environment where everyone can contribute.",
+          "vi": "Người lãnh đạo giỏi tạo ra một môi trường để mọi người đều đóng góp được."
+        },
+        {
+          "en": "The school tries to create an environment of mutual respect.",
+          "vi": "Trường học cố tạo ra một môi trường tôn trọng lẫn nhau."
+        },
+        {
+          "en": "Soft lighting helps create an environment that feels calm.",
+          "vi": "Ánh sáng dịu giúp tạo ra một môi trường mang lại cảm giác yên bình."
+        }
+      ]
+    },
+    {
+      "english": "create an impression",
+      "vietnamese": "tạo ấn tượng",
+      "ipa": "/kriˈeɪt ən ɪmˈpreʃən/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "A neat resume helps create an impression of professionalism.",
+          "vi": "Một bản lý lịch gọn gàng giúp tạo ấn tượng về sự chuyên nghiệp."
+        },
+        {
+          "en": "The opening scene creates an impression of quiet tension.",
+          "vi": "Cảnh mở đầu tạo ấn tượng về sự căng thẳng lặng lẽ."
+        },
+        {
+          "en": "Try to create an impression of confidence during the interview.",
+          "vi": "Hãy cố tạo ấn tượng về sự tự tin trong buổi phỏng vấn."
+        }
+      ]
+    },
+    {
+      "english": "create an opportunity",
+      "vietnamese": "tạo ra một cơ hội",
+      "ipa": "/kriˈeɪt ən ˌɑːpərˈtuːnəti/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The merger could create an opportunity to enter new markets.",
+          "vi": "Việc sáp nhập có thể tạo ra một cơ hội để thâm nhập thị trường mới."
+        },
+        {
+          "en": "Volunteering created an opportunity for her to meet experts.",
+          "vi": "Làm tình nguyện đã tạo ra một cơ hội để cô gặp gỡ các chuyên gia."
+        },
+        {
+          "en": "A short delay created an opportunity to review the plan.",
+          "vi": "Một chút chậm trễ đã tạo ra một cơ hội để xem lại kế hoạch."
+        }
+      ]
+    },
+    {
+      "english": "creative process",
+      "vietnamese": "quá trình sáng tạo",
+      "ipa": "/kriˈeɪtɪv ˈprɑːses/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Writing a novel is a long and demanding creative process.",
+          "vi": "Viết một cuốn tiểu thuyết là một quá trình sáng tạo dài và đòi hỏi nhiều."
+        },
+        {
+          "en": "The artist described her creative process in great detail.",
+          "vi": "Người nghệ sĩ đã mô tả quá trình sáng tạo của mình rất chi tiết."
+        },
+        {
+          "en": "Mistakes are a natural part of any creative process.",
+          "vi": "Sai lầm là một phần tự nhiên của bất kỳ quá trình sáng tạo nào."
+        }
+      ]
+    },
+    {
+      "english": "creative thinking",
+      "vietnamese": "tư duy sáng tạo",
+      "ipa": "/kriˈeɪtɪv ˈθɪŋkɪŋ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The workshop encourages creative thinking through group activities.",
+          "vi": "Buổi hội thảo khuyến khích tư duy sáng tạo qua các hoạt động nhóm."
+        },
+        {
+          "en": "Creative thinking helps students solve problems in new ways.",
+          "vi": "Tư duy sáng tạo giúp học sinh giải quyết vấn đề theo cách mới."
+        },
+        {
+          "en": "Employers increasingly value creative thinking over rote memory.",
+          "vi": "Nhà tuyển dụng ngày càng coi trọng tư duy sáng tạo hơn học thuộc lòng."
+        }
+      ]
+    },
+    {
+      "english": "creative work",
+      "vietnamese": "tác phẩm sáng tạo",
+      "ipa": "/kriˈeɪtɪv wɜːrk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The exhibition displays creative work by local young artists.",
+          "vi": "Triển lãm trưng bày tác phẩm sáng tạo của các nghệ sĩ trẻ địa phương."
+        },
+        {
+          "en": "Copyright law protects creative work from being copied freely.",
+          "vi": "Luật bản quyền bảo vệ tác phẩm sáng tạo khỏi bị sao chép tùy ý."
+        },
+        {
+          "en": "She devotes her evenings to creative work after office hours.",
+          "vi": "Cô dành các buổi tối cho công việc sáng tạo sau giờ làm việc."
+        }
+      ]
+    },
+    {
+      "english": "criminal offence",
+      "vietnamese": "hành vi phạm tội",
+      "ipa": "/ˈkrɪmɪnəl əˈfens/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Driving without a license is a serious criminal offence.",
+          "vi": "Lái xe không có bằng là một hành vi phạm tội nghiêm trọng."
+        },
+        {
+          "en": "The new law makes online fraud a criminal offence.",
+          "vi": "Luật mới biến gian lận trực tuyến thành một hành vi phạm tội."
+        },
+        {
+          "en": "He was charged with a criminal offence last month.",
+          "vi": "Anh ta bị buộc tội với một hành vi phạm tội vào tháng trước."
+        }
+      ]
+    },
+    {
+      "english": "critical analysis",
+      "vietnamese": "phân tích phản biện",
+      "ipa": "/ˈkrɪtɪkəl əˈnæləsɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The essay offers a critical analysis of the author's main claims.",
+          "vi": "Bài luận đưa ra một phân tích phản biện về các luận điểm chính của tác giả."
+        },
+        {
+          "en": "Students must provide critical analysis, not just a summary.",
+          "vi": "Sinh viên phải đưa ra phân tích phản biện, chứ không chỉ tóm tắt."
+        },
+        {
+          "en": "Her critical analysis revealed serious flaws in the study.",
+          "vi": "Phân tích phản biện của cô đã làm lộ những lỗ hổng nghiêm trọng trong nghiên cứu."
+        }
+      ]
+    },
+    {
+      "english": "critical approach",
+      "vietnamese": "cách tiếp cận phản biện",
+      "ipa": "/ˈkrɪtɪkəl əˈproʊtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The course teaches a critical approach to reading the news.",
+          "vi": "Khóa học dạy một cách tiếp cận phản biện khi đọc tin tức."
+        },
+        {
+          "en": "A critical approach asks who benefits from each decision.",
+          "vi": "Cách tiếp cận phản biện đặt câu hỏi ai được lợi từ mỗi quyết định."
+        },
+        {
+          "en": "She brought a critical approach to every source she used.",
+          "vi": "Cô áp dụng cách tiếp cận phản biện với mọi nguồn cô dùng."
+        }
+      ]
+    },
+    {
+      "english": "critical attention",
+      "vietnamese": "sự chú ý phê bình",
+      "ipa": "/ˈkrɪtɪkəl əˈtenʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The novel received critical attention soon after its release.",
+          "vi": "Cuốn tiểu thuyết nhận được sự chú ý phê bình ngay sau khi ra mắt."
+        },
+        {
+          "en": "Her early films drew little critical attention at the time.",
+          "vi": "Những bộ phim đầu của bà ít được giới phê bình chú ý vào lúc đó."
+        },
+        {
+          "en": "This topic deserves more critical attention from scholars.",
+          "vi": "Chủ đề này xứng đáng được giới học giả chú ý phê bình nhiều hơn."
+        }
+      ]
+    },
+    {
+      "english": "critical essay",
+      "vietnamese": "bài luận phản biện",
+      "ipa": "/ˈkrɪtɪkəl ˈeseɪ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students wrote a critical essay on the poem's central theme.",
+          "vi": "Sinh viên viết một bài luận phản biện về chủ đề trung tâm của bài thơ."
+        },
+        {
+          "en": "A good critical essay supports every claim with clear evidence.",
+          "vi": "Một bài luận phản biện tốt hỗ trợ mọi luận điểm bằng bằng chứng rõ ràng."
+        },
+        {
+          "en": "The professor praised her critical essay for its balanced argument.",
+          "vi": "Giáo sư khen bài luận phản biện của cô vì lập luận cân bằng."
+        }
+      ]
+    },
+    {
+      "english": "critical evaluation",
+      "vietnamese": "đánh giá phản biện",
+      "ipa": "/ˈkrɪtɪkəl ɪˌvæljuˈeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report includes a critical evaluation of the proposed plan.",
+          "vi": "Báo cáo bao gồm một đánh giá phản biện về kế hoạch được đề xuất."
+        },
+        {
+          "en": "Critical evaluation of sources is a key research skill.",
+          "vi": "Đánh giá phản biện các nguồn là một kỹ năng nghiên cứu quan trọng."
+        },
+        {
+          "en": "Her critical evaluation showed where the method could improve.",
+          "vi": "Đánh giá phản biện của cô chỉ ra nơi phương pháp có thể cải thiện."
+        }
+      ]
+    },
+    {
+      "english": "critical examination",
+      "vietnamese": "sự xem xét phản biện",
+      "ipa": "/ˈkrɪtɪkəl ɪɡˌzæmɪˈneɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book offers a critical examination of modern economic theory.",
+          "vi": "Cuốn sách đưa ra sự xem xét phản biện về lý thuyết kinh tế hiện đại."
+        },
+        {
+          "en": "A critical examination of the data raised several new questions.",
+          "vi": "Sự xem xét phản biện đối với dữ liệu đã đặt ra nhiều câu hỏi mới."
+        },
+        {
+          "en": "The chapter calls for a critical examination of old assumptions.",
+          "vi": "Chương này kêu gọi sự xem xét phản biện đối với các giả định cũ."
+        }
+      ]
+    },
+    {
+      "english": "critical factor",
+      "vietnamese": "yếu tố then chốt",
+      "ipa": "/ˈkrɪtɪkəl ˈfæktər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Timing was a critical factor in the company's early success.",
+          "vi": "Thời điểm là một yếu tố then chốt trong thành công sớm của công ty."
+        },
+        {
+          "en": "Cost is often the critical factor when choosing a supplier.",
+          "vi": "Chi phí thường là yếu tố then chốt khi chọn nhà cung cấp."
+        },
+        {
+          "en": "Motivation is a critical factor in long-term language learning.",
+          "vi": "Động lực là một yếu tố then chốt trong việc học ngôn ngữ lâu dài."
+        }
+      ]
+    },
+    {
+      "english": "critical importance",
+      "vietnamese": "tầm quan trọng then chốt",
+      "ipa": "/ˈkrɪtɪkəl ɪmˈpɔːrtəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study highlights the critical importance of early intervention.",
+          "vi": "Nghiên cứu nhấn mạnh tầm quan trọng then chốt của can thiệp sớm."
+        },
+        {
+          "en": "Clean water is of critical importance to public health.",
+          "vi": "Nước sạch có tầm quan trọng then chốt đối với sức khỏe cộng đồng."
+        },
+        {
+          "en": "Teachers stress the critical importance of regular practice.",
+          "vi": "Giáo viên nhấn mạnh tầm quan trọng then chốt của việc luyện tập đều đặn."
+        }
+      ]
+    },
+    {
+      "english": "critical inquiry",
+      "vietnamese": "sự tìm hiểu phản biện",
+      "ipa": "/ˈkrɪtɪkəl ɪnˈkwaɪri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The seminar encourages critical inquiry into historical sources.",
+          "vi": "Buổi hội thảo khuyến khích sự tìm hiểu phản biện về các nguồn lịch sử."
+        },
+        {
+          "en": "Critical inquiry helps students question accepted assumptions.",
+          "vi": "Sự tìm hiểu phản biện giúp sinh viên chất vấn những giả định đã được chấp nhận."
+        },
+        {
+          "en": "Her essay demonstrates careful critical inquiry and clear reasoning.",
+          "vi": "Bài luận của cô thể hiện sự tìm hiểu phản biện cẩn thận và lập luận rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "critical introduction",
+      "vietnamese": "phần dẫn nhập phân tích",
+      "ipa": "/ˈkrɪtɪkəl ˌɪntrəˈdʌkʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book opens with a critical introduction to the topic.",
+          "vi": "Cuốn sách mở đầu bằng phần dẫn nhập phân tích về chủ đề."
+        },
+        {
+          "en": "She wrote a critical introduction explaining the author's main ideas.",
+          "vi": "Cô viết một phần dẫn nhập phân tích giải thích các ý chính của tác giả."
+        },
+        {
+          "en": "A good critical introduction sets the context for later chapters.",
+          "vi": "Một phần dẫn nhập phân tích tốt định khung bối cảnh cho các chương sau."
+        }
+      ]
+    },
+    {
+      "english": "critical issue",
+      "vietnamese": "vấn đề trọng yếu",
+      "ipa": "/ˈkrɪtɪkəl ˈɪʃuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Climate change remains a critical issue for future generations.",
+          "vi": "Biến đổi khí hậu vẫn là một vấn đề trọng yếu cho các thế hệ tương lai."
+        },
+        {
+          "en": "The committee discussed several critical issues facing the school.",
+          "vi": "Ủy ban đã thảo luận nhiều vấn đề trọng yếu mà trường đang đối mặt."
+        },
+        {
+          "en": "Data privacy has become a critical issue in modern society.",
+          "vi": "Quyền riêng tư dữ liệu đã trở thành một vấn đề trọng yếu trong xã hội hiện đại."
+        }
+      ]
+    },
+    {
+      "english": "critical perspective",
+      "vietnamese": "góc nhìn phản biện",
+      "ipa": "/ˈkrɪtɪkəl pərˈspektɪv/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The author adopts a critical perspective on modern technology.",
+          "vi": "Tác giả áp dụng một góc nhìn phản biện về công nghệ hiện đại."
+        },
+        {
+          "en": "Reading widely gives students a richer critical perspective.",
+          "vi": "Đọc rộng mang lại cho sinh viên một góc nhìn phản biện phong phú hơn."
+        },
+        {
+          "en": "A critical perspective helps us evaluate competing arguments.",
+          "vi": "Một góc nhìn phản biện giúp ta đánh giá các lập luận đối lập."
+        }
+      ]
+    },
+    {
+      "english": "critical point",
+      "vietnamese": "điểm mấu chốt",
+      "ipa": "/ˈkrɪtɪkəl pɔɪnt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The negotiations reached a critical point late at night.",
+          "vi": "Các cuộc đàm phán đã đến điểm mấu chốt vào đêm khuya."
+        },
+        {
+          "en": "She made a critical point about the study's limitations.",
+          "vi": "Cô đã nêu một điểm mấu chốt về những hạn chế của nghiên cứu."
+        },
+        {
+          "en": "At this critical point, every decision carries serious consequences.",
+          "vi": "Tại điểm mấu chốt này, mọi quyết định đều mang hậu quả nghiêm trọng."
+        }
+      ]
+    }
+  ]
+}

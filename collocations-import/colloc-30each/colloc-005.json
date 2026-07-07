@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 05/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 05/83"
+  },
+  "cards": [
+    {
+      "english": "bear resemblance to",
+      "vietnamese": "có nét giống với",
+      "ipa": "/ber rɪˈzembləns tə/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The new design bears resemblance to an older famous model.",
+          "vi": "Thiết kế mới có nét giống với một mẫu nổi tiếng cũ hơn."
+        },
+        {
+          "en": "Her painting bears resemblance to the works of impressionist masters.",
+          "vi": "Bức tranh của cô có nét giống với tác phẩm của các bậc thầy trường phái ấn tượng."
+        },
+        {
+          "en": "These two languages bear resemblance to each other in grammar.",
+          "vi": "Hai ngôn ngữ này có nét giống nhau về ngữ pháp."
+        }
+      ]
+    },
+    {
+      "english": "become apparent",
+      "vietnamese": "trở nên rõ ràng",
+      "ipa": "/bɪˈkʌm əˈpærənt/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The problems with the plan soon became apparent to everyone.",
+          "vi": "Những vấn đề của kế hoạch nhanh chóng trở nên rõ ràng với mọi người."
+        },
+        {
+          "en": "It became apparent that the data had been recorded incorrectly.",
+          "vi": "Rõ ràng là dữ liệu đã được ghi chép sai."
+        },
+        {
+          "en": "The benefits of exercise become apparent after a few weeks.",
+          "vi": "Lợi ích của tập thể dục trở nên rõ ràng sau vài tuần."
+        }
+      ]
+    },
+    {
+      "english": "become available",
+      "vietnamese": "trở nên sẵn có",
+      "ipa": "/bɪˈkʌm əˈveɪləbəl/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "New scholarships will become available to students next academic year.",
+          "vi": "Học bổng mới sẽ trở nên sẵn có cho sinh viên vào năm học tới."
+        },
+        {
+          "en": "As more data become available, the model grows more accurate.",
+          "vi": "Khi có thêm dữ liệu sẵn có, mô hình trở nên chính xác hơn."
+        },
+        {
+          "en": "The medicine became available after years of careful testing.",
+          "vi": "Loại thuốc trở nên sẵn có sau nhiều năm thử nghiệm kỹ lưỡng."
+        }
+      ]
+    },
+    {
+      "english": "become aware",
+      "vietnamese": "trở nên ý thức được",
+      "ipa": "/bɪˈkʌm əˈwer/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "People are becoming aware of the dangers of plastic waste.",
+          "vi": "Mọi người đang trở nên ý thức được mối nguy của rác thải nhựa."
+        },
+        {
+          "en": "Students gradually become aware of their own learning habits.",
+          "vi": "Học sinh dần trở nên ý thức được thói quen học tập của mình."
+        },
+        {
+          "en": "She became aware that the experiment had a serious flaw.",
+          "vi": "Cô nhận ra rằng thí nghiệm có một lỗi nghiêm trọng."
+        }
+      ]
+    },
+    {
+      "english": "become blurred",
+      "vietnamese": "trở nên mờ nhạt",
+      "ipa": "/bɪˈkʌm blɜːrd/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The line between work and home has become blurred recently.",
+          "vi": "Ranh giới giữa công việc và gia đình gần đây đã trở nên mờ nhạt."
+        },
+        {
+          "en": "Distinctions between the two categories often become blurred over time.",
+          "vi": "Sự phân biệt giữa hai loại thường trở nên mờ nhạt theo thời gian."
+        },
+        {
+          "en": "Old memories become blurred as the years go by.",
+          "vi": "Những ký ức cũ trở nên mờ nhạt khi năm tháng trôi qua."
+        }
+      ]
+    },
+    {
+      "english": "become established",
+      "vietnamese": "trở nên vững chắc",
+      "ipa": "/bɪˈkʌm ɪˈstæblɪʃt/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The new theory took years to become established in science.",
+          "vi": "Lý thuyết mới mất nhiều năm để trở nên vững chắc trong khoa học."
+        },
+        {
+          "en": "Once habits become established, they are hard to change.",
+          "vi": "Một khi thói quen trở nên vững chắc, chúng rất khó thay đổi."
+        },
+        {
+          "en": "The company became established as a leader in renewable energy.",
+          "vi": "Công ty đã trở nên vững chắc với vị thế dẫn đầu về năng lượng tái tạo."
+        }
+      ]
+    },
+    {
+      "english": "become evident",
+      "vietnamese": "trở nên rõ rệt",
+      "ipa": "/bɪˈkʌm ˈevɪdənt/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "It became evident that further research would be necessary soon.",
+          "vi": "Rõ rệt là cần phải có thêm nghiên cứu trong thời gian tới."
+        },
+        {
+          "en": "The effects of the policy became evident within a year.",
+          "vi": "Tác động của chính sách trở nên rõ rệt chỉ trong một năm."
+        },
+        {
+          "en": "Her talent became evident during the first few rehearsals.",
+          "vi": "Tài năng của cô trở nên rõ rệt trong vài buổi tập đầu tiên."
+        }
+      ]
+    },
+    {
+      "english": "become independent",
+      "vietnamese": "trở nên độc lập",
+      "ipa": "/bɪˈkʌm ˌɪndɪˈpendənt/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "Many countries became independent during the twentieth century.",
+          "vi": "Nhiều quốc gia đã trở nên độc lập trong thế kỷ hai mươi."
+        },
+        {
+          "en": "University helps young people become independent and self-reliant adults.",
+          "vi": "Đại học giúp người trẻ trở nên độc lập và tự lập."
+        },
+        {
+          "en": "Children gradually become independent as they grow older.",
+          "vi": "Trẻ em dần trở nên độc lập khi lớn lên."
+        }
+      ]
+    },
+    {
+      "english": "become involved with",
+      "vietnamese": "trở nên gắn bó với",
+      "ipa": "/bɪˈkʌm ɪnˈvɑːlvd wɪð/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "She became involved with several community projects during college.",
+          "vi": "Cô trở nên gắn bó với nhiều dự án cộng đồng trong thời đại học."
+        },
+        {
+          "en": "Students are encouraged to become involved with campus organizations.",
+          "vi": "Sinh viên được khuyến khích tham gia gắn bó với các tổ chức trong trường."
+        },
+        {
+          "en": "He became involved with the research team after graduation.",
+          "vi": "Anh trở nên gắn bó với nhóm nghiên cứu sau khi tốt nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "become obvious",
+      "vietnamese": "trở nên hiển nhiên",
+      "ipa": "/bɪˈkʌm ˈɑːbviəs/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "The mistake became obvious as soon as we checked again.",
+          "vi": "Lỗi sai trở nên hiển nhiên ngay khi chúng tôi kiểm tra lại."
+        },
+        {
+          "en": "It became obvious that the original plan would not work.",
+          "vi": "Rõ ràng là kế hoạch ban đầu sẽ không hiệu quả."
+        },
+        {
+          "en": "The reasons for the failure became obvious after the analysis.",
+          "vi": "Lý do thất bại trở nên hiển nhiên sau khi phân tích."
+        }
+      ]
+    },
+    {
+      "english": "become visible",
+      "vietnamese": "trở nên rõ thấy",
+      "ipa": "/bɪˈkʌm ˈvɪzəbəl/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "Tiny cracks become visible only under a powerful microscope.",
+          "vi": "Những vết nứt nhỏ chỉ trở nên rõ thấy dưới kính hiển vi mạnh."
+        },
+        {
+          "en": "The stars become visible once the city lights fade.",
+          "vi": "Các ngôi sao trở nên rõ thấy khi ánh đèn thành phố mờ đi."
+        },
+        {
+          "en": "Social problems become visible during times of economic crisis.",
+          "vi": "Các vấn đề xã hội trở nên rõ thấy trong thời kỳ khủng hoảng kinh tế."
+        }
+      ]
+    },
+    {
+      "english": "become widespread",
+      "vietnamese": "trở nên phổ biến rộng rãi",
+      "ipa": "/bɪˈkʌm ˈwaɪdˈspred/",
+      "part_of_speech": "v + adj",
+      "examples": [
+        {
+          "en": "Mobile phones became widespread within a single decade worldwide.",
+          "vi": "Điện thoại di động trở nên phổ biến rộng rãi chỉ trong một thập kỷ."
+        },
+        {
+          "en": "The practice became widespread after the new law passed.",
+          "vi": "Thực hành này trở nên phổ biến rộng rãi sau khi luật mới được thông qua."
+        },
+        {
+          "en": "Once the idea became widespread, attitudes slowly began changing.",
+          "vi": "Khi ý tưởng trở nên phổ biến rộng rãi, thái độ dần bắt đầu thay đổi."
+        }
+      ]
+    },
+    {
+      "english": "become a source of",
+      "vietnamese": "trở thành nguồn gốc của",
+      "ipa": "/bɪˈkʌm ə sɔːrs əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The river became a source of fresh water for the village.",
+          "vi": "Con sông trở thành nguồn nước ngọt cho ngôi làng."
+        },
+        {
+          "en": "Social media can become a source of stress for teenagers.",
+          "vi": "Mạng xã hội có thể trở thành nguồn gây căng thẳng cho thanh thiếu niên."
+        },
+        {
+          "en": "Tourism has become a source of income for the region.",
+          "vi": "Du lịch đã trở thành nguồn thu nhập cho cả vùng."
+        }
+      ]
+    },
+    {
+      "english": "become the focus of",
+      "vietnamese": "trở thành trọng tâm của",
+      "ipa": "/bɪˈkʌm ðə ˈfoʊkəs əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Climate change has become the focus of recent global discussions.",
+          "vi": "Biến đổi khí hậu đã trở thành trọng tâm của các thảo luận toàn cầu gần đây."
+        },
+        {
+          "en": "The young scientist became the focus of considerable media attention.",
+          "vi": "Nhà khoa học trẻ trở thành trọng tâm của nhiều sự chú ý từ truyền thông."
+        },
+        {
+          "en": "Education became the focus of the government's new reform program.",
+          "vi": "Giáo dục trở thành trọng tâm của chương trình cải cách mới của chính phủ."
+        }
+      ]
+    },
+    {
+      "english": "begin a process",
+      "vietnamese": "bắt đầu một quá trình",
+      "ipa": "/bɪˈɡɪn ə ˈprɑːses/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "The company will begin a process of major internal reform.",
+          "vi": "Công ty sẽ bắt đầu một quá trình cải tổ nội bộ lớn."
+        },
+        {
+          "en": "Researchers begin a process of testing before publishing any results.",
+          "vi": "Các nhà nghiên cứu bắt đầu một quá trình thử nghiệm trước khi công bố kết quả."
+        },
+        {
+          "en": "The two nations agreed to begin a process of negotiation.",
+          "vi": "Hai quốc gia đồng ý bắt đầu một quá trình đàm phán."
+        }
+      ]
+    },
+    {
+      "english": "behave differently",
+      "vietnamese": "hành xử khác nhau",
+      "ipa": "/bɪˈheɪv ˈdɪfrəntli/",
+      "part_of_speech": "v + adv",
+      "examples": [
+        {
+          "en": "Children often behave differently when their parents are watching.",
+          "vi": "Trẻ em thường hành xử khác đi khi có bố mẹ quan sát."
+        },
+        {
+          "en": "These materials behave differently under high temperature and pressure.",
+          "vi": "Các vật liệu này phản ứng khác nhau dưới nhiệt độ và áp suất cao."
+        },
+        {
+          "en": "People may behave differently in unfamiliar social situations.",
+          "vi": "Mọi người có thể hành xử khác nhau trong tình huống xã hội lạ lẫm."
+        }
+      ]
+    },
+    {
+      "english": "beneficial effect",
+      "vietnamese": "tác động có lợi",
+      "ipa": "/ˌbenɪˈfɪʃəl ɪˈfekt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Regular exercise has a beneficial effect on mental health.",
+          "vi": "Tập thể dục đều đặn có tác động có lợi đối với sức khỏe tinh thần."
+        },
+        {
+          "en": "The new policy had a beneficial effect on small businesses.",
+          "vi": "Chính sách mới có tác động có lợi đối với các doanh nghiệp nhỏ."
+        },
+        {
+          "en": "Sleep has a beneficial effect on memory and concentration.",
+          "vi": "Giấc ngủ có tác động có lợi đối với trí nhớ và sự tập trung."
+        }
+      ]
+    },
+    {
+      "english": "best described as",
+      "vietnamese": "được mô tả chính xác nhất là",
+      "ipa": "/best dɪˈskraɪbd æz/",
+      "part_of_speech": "adv + vpp",
+      "examples": [
+        {
+          "en": "The novel is best described as a thoughtful social commentary.",
+          "vi": "Cuốn tiểu thuyết được mô tả chính xác nhất là một bình luận xã hội sâu sắc."
+        },
+        {
+          "en": "His leadership style is best described as calm and inclusive.",
+          "vi": "Phong cách lãnh đạo của anh được mô tả chính xác nhất là điềm tĩnh và bao dung."
+        },
+        {
+          "en": "The region's climate is best described as warm and humid.",
+          "vi": "Khí hậu của vùng này được mô tả chính xác nhất là ấm và ẩm."
+        }
+      ]
+    },
+    {
+      "english": "binary opposition",
+      "vietnamese": "đối lập nhị phân",
+      "ipa": "/ˈbaɪnəri ˌɑːpəˈzɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The essay explores the binary opposition between nature and culture.",
+          "vi": "Bài luận khám phá sự đối lập nhị phân giữa tự nhiên và văn hóa."
+        },
+        {
+          "en": "Many myths are structured around a clear binary opposition.",
+          "vi": "Nhiều thần thoại được cấu trúc quanh một đối lập nhị phân rõ ràng."
+        },
+        {
+          "en": "Critics question whether this binary opposition truly reflects reality.",
+          "vi": "Các nhà phê bình nghi ngờ liệu đối lập nhị phân này có phản ánh đúng thực tế."
+        }
+      ]
+    },
+    {
+      "english": "binary system",
+      "vietnamese": "hệ nhị phân",
+      "ipa": "/ˈbaɪnəri ˈsɪstəm/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Computers store information using a simple binary system of digits.",
+          "vi": "Máy tính lưu thông tin bằng một hệ nhị phân đơn giản gồm các chữ số."
+        },
+        {
+          "en": "The binary system uses only the digits zero and one.",
+          "vi": "Hệ nhị phân chỉ dùng hai chữ số là không và một."
+        },
+        {
+          "en": "Students learn to convert numbers into the binary system.",
+          "vi": "Học sinh học cách chuyển đổi số sang hệ nhị phân."
+        }
+      ]
+    },
+    {
+      "english": "biological evolution",
+      "vietnamese": "tiến hóa sinh học",
+      "ipa": "/ˌbaɪəˈlɑːdʒɪkəl ˌevəˈluːʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Biological evolution explains how species change over many generations.",
+          "vi": "Tiến hóa sinh học giải thích cách các loài thay đổi qua nhiều thế hệ."
+        },
+        {
+          "en": "The lecture covered the basic mechanisms of biological evolution.",
+          "vi": "Bài giảng trình bày các cơ chế cơ bản của tiến hóa sinh học."
+        },
+        {
+          "en": "Fossils provide strong evidence for biological evolution over time.",
+          "vi": "Hóa thạch cung cấp bằng chứng mạnh mẽ cho tiến hóa sinh học theo thời gian."
+        }
+      ]
+    },
+    {
+      "english": "biological science",
+      "vietnamese": "khoa học sinh học",
+      "ipa": "/ˌbaɪəˈlɑːdʒɪkəl ˈsaɪəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Biological science has made remarkable progress in recent decades.",
+          "vi": "Khoa học sinh học đã đạt nhiều tiến bộ đáng kể trong những thập kỷ gần đây."
+        },
+        {
+          "en": "She decided to major in biological science at university.",
+          "vi": "Cô quyết định học chuyên ngành khoa học sinh học ở đại học."
+        },
+        {
+          "en": "Advances in biological science improve medicine and agriculture worldwide.",
+          "vi": "Tiến bộ trong khoa học sinh học cải thiện y học và nông nghiệp toàn cầu."
+        }
+      ]
+    },
+    {
+      "english": "biological sex",
+      "vietnamese": "giới tính sinh học",
+      "ipa": "/ˌbaɪəˈlɑːdʒɪkəl seks/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study examined health differences related to biological sex.",
+          "vi": "Nghiên cứu khảo sát khác biệt về sức khỏe liên quan đến giới tính sinh học."
+        },
+        {
+          "en": "Researchers distinguish biological sex from socially constructed gender roles.",
+          "vi": "Các nhà nghiên cứu phân biệt giới tính sinh học với vai trò giới do xã hội tạo nên."
+        },
+        {
+          "en": "Some medical conditions are linked closely to biological sex.",
+          "vi": "Một số bệnh lý liên quan chặt chẽ đến giới tính sinh học."
+        }
+      ]
+    },
+    {
+      "english": "brief account",
+      "vietnamese": "bản tường thuật ngắn gọn",
+      "ipa": "/briːf əˈkaʊnt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The article gives a brief account of the region's history.",
+          "vi": "Bài viết đưa ra một bản tường thuật ngắn gọn về lịch sử của vùng."
+        },
+        {
+          "en": "She wrote a brief account of the meeting for colleagues.",
+          "vi": "Cô viết một bản tường thuật ngắn gọn về cuộc họp cho đồng nghiệp."
+        },
+        {
+          "en": "Please provide a brief account of what happened yesterday.",
+          "vi": "Vui lòng cung cấp một bản tường thuật ngắn gọn về việc xảy ra hôm qua."
+        }
+      ]
+    },
+    {
+      "english": "brief description",
+      "vietnamese": "mô tả ngắn gọn",
+      "ipa": "/briːf dɪˈskrɪpʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Each chapter begins with a brief description of its goals.",
+          "vi": "Mỗi chương bắt đầu với một mô tả ngắn gọn về mục tiêu của nó."
+        },
+        {
+          "en": "The catalog includes a brief description of every product available.",
+          "vi": "Bản danh mục có một mô tả ngắn gọn về mọi sản phẩm hiện có."
+        },
+        {
+          "en": "Write a brief description of yourself for the application form.",
+          "vi": "Hãy viết một mô tả ngắn gọn về bản thân cho mẫu đơn xin việc."
+        }
+      ]
+    },
+    {
+      "english": "brief discussion",
+      "vietnamese": "cuộc thảo luận ngắn gọn",
+      "ipa": "/briːf dɪˈskʌʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "After a brief discussion, the committee reached a final decision.",
+          "vi": "Sau một cuộc thảo luận ngắn gọn, ủy ban đã đi đến quyết định cuối cùng."
+        },
+        {
+          "en": "The section ends with a brief discussion of future research.",
+          "vi": "Phần này kết thúc bằng một cuộc thảo luận ngắn gọn về nghiên cứu tương lai."
+        },
+        {
+          "en": "We had a brief discussion about the changes before lunch.",
+          "vi": "Chúng tôi có một cuộc thảo luận ngắn gọn về các thay đổi trước bữa trưa."
+        }
+      ]
+    },
+    {
+      "english": "brief history",
+      "vietnamese": "lịch sử tóm lược",
+      "ipa": "/briːf ˈhɪstəri/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The book offers a brief history of modern computing technology.",
+          "vi": "Cuốn sách đưa ra một lịch sử tóm lược về công nghệ máy tính hiện đại."
+        },
+        {
+          "en": "The lecture opened with a brief history of the company.",
+          "vi": "Bài giảng mở đầu bằng một lịch sử tóm lược về công ty."
+        },
+        {
+          "en": "She gave a brief history of the town's growth.",
+          "vi": "Cô trình bày một lịch sử tóm lược về sự phát triển của thị trấn."
+        }
+      ]
+    },
+    {
+      "english": "brief introduction",
+      "vietnamese": "phần giới thiệu ngắn gọn",
+      "ipa": "/briːf ˌɪntrəˈdʌkʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The speaker gave a brief introduction before starting the lecture.",
+          "vi": "Diễn giả có phần giới thiệu ngắn gọn trước khi bắt đầu bài giảng."
+        },
+        {
+          "en": "This chapter provides a brief introduction to economic theory.",
+          "vi": "Chương này cung cấp một phần giới thiệu ngắn gọn về lý thuyết kinh tế."
+        },
+        {
+          "en": "After a brief introduction, the workshop moved to practical tasks.",
+          "vi": "Sau phần giới thiệu ngắn gọn, buổi học chuyển sang các bài tập thực hành."
+        }
+      ]
+    },
+    {
+      "english": "brief overview",
+      "vietnamese": "cái nhìn tổng quan ngắn gọn",
+      "ipa": "/briːf ˈoʊvərˌvjuː/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The report begins with a brief overview of the findings.",
+          "vi": "Báo cáo mở đầu bằng một cái nhìn tổng quan ngắn gọn về các phát hiện."
+        },
+        {
+          "en": "Let me give you a brief overview of today's agenda.",
+          "vi": "Hãy để tôi đưa ra một cái nhìn tổng quan ngắn gọn về chương trình hôm nay."
+        },
+        {
+          "en": "A brief overview helps new readers grasp the main ideas.",
+          "vi": "Một cái nhìn tổng quan ngắn gọn giúp người đọc mới nắm các ý chính."
+        }
+      ]
+    },
+    {
+      "english": "brief period",
+      "vietnamese": "khoảng thời gian ngắn",
+      "ipa": "/briːf ˈpɪriəd/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "For a brief period, the factory stopped production entirely.",
+          "vi": "Trong một khoảng thời gian ngắn, nhà máy ngừng sản xuất hoàn toàn."
+        },
+        {
+          "en": "She lived abroad for a brief period after graduation.",
+          "vi": "Cô sống ở nước ngoài trong một khoảng thời gian ngắn sau khi tốt nghiệp."
+        },
+        {
+          "en": "Prices rose sharply during a brief period of shortage.",
+          "vi": "Giá tăng mạnh trong một khoảng thời gian ngắn khan hiếm."
+        }
+      ]
+    }
+  ]
+}

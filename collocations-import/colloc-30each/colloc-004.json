@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "exported_at": "2026-06-11T00:00:00.000Z",
+  "deck": {
+    "name": "Academic Collocations 04/83",
+    "description": "2,468 distinct academic collocations from Pearson's Academic Collocation List (PTE v2/2025). Source: Pearson International Corpus of Academic English. (The source numbers entries up to 2,469 but skips one in the 'significant' group.)",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "PTE · 30 collocations · 04/83"
+  },
+  "cards": [
+    {
+      "english": "appropriate response",
+      "vietnamese": "phản ứng phù hợp",
+      "ipa": "/əˈproʊpriət rɪˈspɑːns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "An appropriate response to criticism is to listen calmly.",
+          "vi": "Một phản ứng phù hợp với lời chỉ trích là lắng nghe bình tĩnh."
+        },
+        {
+          "en": "The government's appropriate response reduced public panic during the crisis.",
+          "vi": "Phản ứng phù hợp của chính phủ đã giảm hoảng loạn trong khủng hoảng."
+        },
+        {
+          "en": "Choosing an appropriate response requires understanding the whole situation.",
+          "vi": "Chọn phản ứng phù hợp đòi hỏi hiểu rõ toàn bộ tình huống."
+        }
+      ]
+    },
+    {
+      "english": "appropriate skills",
+      "vietnamese": "kỹ năng phù hợp",
+      "ipa": "/əˈproʊpriət skɪlz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Employers look for candidates with the appropriate skills and experience.",
+          "vi": "Nhà tuyển dụng tìm ứng viên có kỹ năng phù hợp và kinh nghiệm."
+        },
+        {
+          "en": "The program develops appropriate skills for the modern workplace.",
+          "vi": "Chương trình phát triển kỹ năng phù hợp cho nơi làm việc hiện đại."
+        },
+        {
+          "en": "Without appropriate skills, completing the task becomes very difficult.",
+          "vi": "Nếu thiếu kỹ năng phù hợp, việc hoàn thành nhiệm vụ trở nên rất khó."
+        }
+      ]
+    },
+    {
+      "english": "appropriate treatment",
+      "vietnamese": "phương pháp điều trị phù hợp",
+      "ipa": "/əˈproʊpriət ˈtriːtmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Doctors recommend appropriate treatment based on each patient's condition.",
+          "vi": "Bác sĩ đề xuất điều trị phù hợp dựa trên tình trạng từng bệnh nhân."
+        },
+        {
+          "en": "Early diagnosis allows for more appropriate treatment of the disease.",
+          "vi": "Chẩn đoán sớm cho phép điều trị bệnh phù hợp hơn."
+        },
+        {
+          "en": "The study compared appropriate treatment options for chronic pain.",
+          "vi": "Nghiên cứu so sánh các phương pháp điều trị phù hợp cho cơn đau mãn tính."
+        }
+      ]
+    },
+    {
+      "english": "appropriate way",
+      "vietnamese": "cách thức phù hợp",
+      "ipa": "/əˈproʊpriət weɪ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "There is an appropriate way to address senior colleagues formally.",
+          "vi": "Có một cách thức phù hợp để xưng hô trang trọng với đồng nghiệp lớn tuổi."
+        },
+        {
+          "en": "The manual describes the appropriate way to handle equipment.",
+          "vi": "Sổ tay mô tả cách thức phù hợp để vận hành thiết bị."
+        },
+        {
+          "en": "Finding the appropriate way to explain results helps readers.",
+          "vi": "Tìm cách thức phù hợp để giải thích kết quả giúp ích cho người đọc."
+        }
+      ]
+    },
+    {
+      "english": "armed conflict",
+      "vietnamese": "xung đột vũ trang",
+      "ipa": "/ɑːrmd ˈkɑːnflɪkt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Millions of people were displaced by the long armed conflict.",
+          "vi": "Hàng triệu người phải di tản vì xung đột vũ trang kéo dài."
+        },
+        {
+          "en": "The treaty aimed to end decades of armed conflict.",
+          "vi": "Hiệp ước nhằm chấm dứt hàng chục năm xung đột vũ trang."
+        },
+        {
+          "en": "Researchers study how armed conflict affects civilian populations and economies.",
+          "vi": "Các nhà nghiên cứu tìm hiểu xung đột vũ trang ảnh hưởng dân thường và kinh tế thế nào."
+        }
+      ]
+    },
+    {
+      "english": "artificial intelligence",
+      "vietnamese": "trí tuệ nhân tạo",
+      "ipa": "/ˌɑːrtɪˈfɪʃəl ɪnˈtelɪdʒəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Artificial intelligence is transforming how businesses analyze large datasets.",
+          "vi": "Trí tuệ nhân tạo đang thay đổi cách doanh nghiệp phân tích dữ liệu lớn."
+        },
+        {
+          "en": "The university offers a new course on artificial intelligence.",
+          "vi": "Trường đại học mở một khóa học mới về trí tuệ nhân tạo."
+        },
+        {
+          "en": "Many jobs may change as artificial intelligence becomes more advanced.",
+          "vi": "Nhiều công việc có thể thay đổi khi trí tuệ nhân tạo tiến bộ hơn."
+        }
+      ]
+    },
+    {
+      "english": "assess the impact of",
+      "vietnamese": "đánh giá tác động của",
+      "ipa": "/əˈses ði ˈɪmpækt əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "Scientists assess the impact of climate change on coastal cities.",
+          "vi": "Các nhà khoa học đánh giá tác động của biến đổi khí hậu lên thành phố ven biển."
+        },
+        {
+          "en": "The report tries to assess the impact of new policies.",
+          "vi": "Báo cáo cố gắng đánh giá tác động của các chính sách mới."
+        },
+        {
+          "en": "We must assess the impact of advertising on consumer choices.",
+          "vi": "Chúng ta phải đánh giá tác động của quảng cáo lên lựa chọn người tiêu dùng."
+        }
+      ]
+    },
+    {
+      "english": "assessment process",
+      "vietnamese": "quá trình đánh giá",
+      "ipa": "/əˈsesmənt ˈprɑːses/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "The assessment process includes written tests and practical exercises.",
+          "vi": "Quá trình đánh giá gồm bài kiểm tra viết và bài thực hành."
+        },
+        {
+          "en": "A fair assessment process ensures all students are treated equally.",
+          "vi": "Quá trình đánh giá công bằng đảm bảo mọi học sinh được đối xử như nhau."
+        },
+        {
+          "en": "Teachers explained each stage of the assessment process clearly.",
+          "vi": "Giáo viên giải thích rõ từng giai đoạn của quá trình đánh giá."
+        }
+      ]
+    },
+    {
+      "english": "associated factors",
+      "vietnamese": "các yếu tố liên quan",
+      "ipa": "/əˈsoʊsieɪtɪd ˈfæktərz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The study identified several associated factors that influence student performance.",
+          "vi": "Nghiên cứu xác định một số yếu tố liên quan ảnh hưởng đến thành tích học sinh."
+        },
+        {
+          "en": "Researchers examined associated factors linked to high blood pressure.",
+          "vi": "Các nhà nghiên cứu khảo sát yếu tố liên quan đến huyết áp cao."
+        },
+        {
+          "en": "Understanding associated factors helps doctors prevent the disease early.",
+          "vi": "Hiểu các yếu tố liên quan giúp bác sĩ phòng bệnh sớm."
+        }
+      ]
+    },
+    {
+      "english": "assume responsibility",
+      "vietnamese": "đảm nhận trách nhiệm",
+      "ipa": "/əˈsuːm rɪˌspɑːnsəˈbɪləti/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "New managers must assume responsibility for their team's results.",
+          "vi": "Quản lý mới phải đảm nhận trách nhiệm về kết quả của nhóm mình."
+        },
+        {
+          "en": "She agreed to assume responsibility for the entire research project.",
+          "vi": "Cô đồng ý đảm nhận trách nhiệm cho toàn bộ dự án nghiên cứu."
+        },
+        {
+          "en": "Citizens should assume responsibility for protecting their local environment.",
+          "vi": "Người dân nên đảm nhận trách nhiệm bảo vệ môi trường địa phương."
+        }
+      ]
+    },
+    {
+      "english": "assume the role of",
+      "vietnamese": "đảm nhận vai trò",
+      "ipa": "/əˈsuːm ðə roʊl əv/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "She will assume the role of department head next month.",
+          "vi": "Cô sẽ đảm nhận vai trò trưởng phòng vào tháng tới."
+        },
+        {
+          "en": "In the experiment, students assume the role of observers.",
+          "vi": "Trong thí nghiệm, học sinh đảm nhận vai trò người quan sát."
+        },
+        {
+          "en": "Older siblings often assume the role of caregivers at home.",
+          "vi": "Anh chị lớn thường đảm nhận vai trò người chăm sóc ở nhà."
+        }
+      ]
+    },
+    {
+      "english": "atomic energy",
+      "vietnamese": "năng lượng nguyên tử",
+      "ipa": "/əˈtɑːmɪk ˈenərdʒi/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Atomic energy can generate large amounts of electricity efficiently.",
+          "vi": "Năng lượng nguyên tử có thể tạo ra lượng điện lớn một cách hiệu quả."
+        },
+        {
+          "en": "The agency monitors the peaceful use of atomic energy worldwide.",
+          "vi": "Cơ quan này giám sát việc sử dụng hòa bình năng lượng nguyên tử toàn cầu."
+        },
+        {
+          "en": "Debates about atomic energy focus on safety and waste.",
+          "vi": "Các tranh luận về năng lượng nguyên tử tập trung vào an toàn và chất thải."
+        }
+      ]
+    },
+    {
+      "english": "attend a conference",
+      "vietnamese": "tham dự một hội nghị",
+      "ipa": "/əˈtend ə ˈkɑːnfərəns/",
+      "part_of_speech": "v + n",
+      "examples": [
+        {
+          "en": "She will attend a conference on renewable energy next week.",
+          "vi": "Cô sẽ tham dự một hội nghị về năng lượng tái tạo vào tuần tới."
+        },
+        {
+          "en": "Many researchers travel abroad to attend a conference each year.",
+          "vi": "Nhiều nhà nghiên cứu ra nước ngoài để tham dự một hội nghị mỗi năm."
+        },
+        {
+          "en": "Students were encouraged to attend a conference and present posters.",
+          "vi": "Sinh viên được khuyến khích tham dự một hội nghị và trình bày áp phích."
+        }
+      ]
+    },
+    {
+      "english": "available data",
+      "vietnamese": "dữ liệu sẵn có",
+      "ipa": "/əˈveɪləbəl ˈdeɪtə/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The conclusion is based on all the available data so far.",
+          "vi": "Kết luận dựa trên toàn bộ dữ liệu sẵn có cho đến nay."
+        },
+        {
+          "en": "Limited available data made the analysis quite challenging for researchers.",
+          "vi": "Dữ liệu sẵn có hạn chế khiến việc phân tích khá khó với các nhà nghiên cứu."
+        },
+        {
+          "en": "They reviewed available data before designing the new survey.",
+          "vi": "Họ xem lại dữ liệu sẵn có trước khi thiết kế khảo sát mới."
+        }
+      ]
+    },
+    {
+      "english": "available evidence",
+      "vietnamese": "bằng chứng sẵn có",
+      "ipa": "/əˈveɪləbəl ˈevɪdəns/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The available evidence strongly supports the researcher's main hypothesis.",
+          "vi": "Bằng chứng sẵn có ủng hộ mạnh mẽ giả thuyết chính của nhà nghiên cứu."
+        },
+        {
+          "en": "Based on available evidence, the court reached a fair decision.",
+          "vi": "Dựa trên bằng chứng sẵn có, tòa án đã đưa ra phán quyết công bằng."
+        },
+        {
+          "en": "Scientists must weigh all available evidence before drawing conclusions.",
+          "vi": "Các nhà khoa học phải cân nhắc mọi bằng chứng sẵn có trước khi kết luận."
+        }
+      ]
+    },
+    {
+      "english": "available information",
+      "vietnamese": "thông tin sẵn có",
+      "ipa": "/əˈveɪləbəl ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Make your decision using all the available information you have.",
+          "vi": "Hãy đưa ra quyết định bằng mọi thông tin sẵn có mà bạn có."
+        },
+        {
+          "en": "The website gathers available information about local public transport services.",
+          "vi": "Trang web tập hợp thông tin sẵn có về dịch vụ giao thông công cộng địa phương."
+        },
+        {
+          "en": "With little available information, predicting the outcome proved difficult.",
+          "vi": "Với ít thông tin sẵn có, việc dự đoán kết quả trở nên khó khăn."
+        }
+      ]
+    },
+    {
+      "english": "available resources",
+      "vietnamese": "nguồn lực sẵn có",
+      "ipa": "/əˈveɪləbəl ˈriːsɔːrsɪz/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The team completed the project using only available resources efficiently.",
+          "vi": "Nhóm hoàn thành dự án chỉ bằng nguồn lực sẵn có một cách hiệu quả."
+        },
+        {
+          "en": "Schools must make the best use of available resources.",
+          "vi": "Trường học phải tận dụng tốt nhất nguồn lực sẵn có."
+        },
+        {
+          "en": "Limited available resources forced the charity to set priorities.",
+          "vi": "Nguồn lực sẵn có hạn chế buộc tổ chức từ thiện phải đặt ưu tiên."
+        }
+      ]
+    },
+    {
+      "english": "average score",
+      "vietnamese": "điểm trung bình",
+      "ipa": "/ˈævərɪdʒ skɔːr/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The class achieved an average score above the national level.",
+          "vi": "Lớp đạt điểm trung bình cao hơn mức của cả nước."
+        },
+        {
+          "en": "Her average score improved steadily throughout the entire semester.",
+          "vi": "Điểm trung bình của cô cải thiện đều đặn suốt cả học kỳ."
+        },
+        {
+          "en": "The report compares the average score of different age groups.",
+          "vi": "Báo cáo so sánh điểm trung bình của các nhóm tuổi khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "background knowledge",
+      "vietnamese": "kiến thức nền",
+      "ipa": "/ˈbækɡraʊnd ˈnɑːlɪdʒ/",
+      "part_of_speech": "n + n",
+      "examples": [
+        {
+          "en": "Strong background knowledge helps students understand difficult academic texts.",
+          "vi": "Kiến thức nền vững giúp học sinh hiểu các văn bản học thuật khó."
+        },
+        {
+          "en": "The lecture assumes some background knowledge of basic economics.",
+          "vi": "Bài giảng giả định người học có kiến thức nền về kinh tế cơ bản."
+        },
+        {
+          "en": "Readers with little background knowledge may find the article confusing.",
+          "vi": "Người đọc thiếu kiến thức nền có thể thấy bài viết khó hiểu."
+        }
+      ]
+    },
+    {
+      "english": "basic assumption",
+      "vietnamese": "giả định cơ bản",
+      "ipa": "/ˈbeɪsɪk əˈsʌmpʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The model rests on a basic assumption about human behavior.",
+          "vi": "Mô hình dựa trên một giả định cơ bản về hành vi con người."
+        },
+        {
+          "en": "If the basic assumption is wrong, the whole theory fails.",
+          "vi": "Nếu giả định cơ bản sai, toàn bộ lý thuyết sẽ thất bại."
+        },
+        {
+          "en": "Economists often question the basic assumption that people act rationally.",
+          "vi": "Các nhà kinh tế thường nghi ngờ giả định cơ bản rằng con người hành động hợp lý."
+        }
+      ]
+    },
+    {
+      "english": "basic component",
+      "vietnamese": "thành phần cơ bản",
+      "ipa": "/ˈbeɪsɪk kəmˈpoʊnənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Water is a basic component of every living cell.",
+          "vi": "Nước là một thành phần cơ bản của mọi tế bào sống."
+        },
+        {
+          "en": "Trust is a basic component of any healthy relationship.",
+          "vi": "Sự tin tưởng là một thành phần cơ bản của mọi mối quan hệ lành mạnh."
+        },
+        {
+          "en": "The course covers each basic component of computer hardware.",
+          "vi": "Khóa học giới thiệu từng thành phần cơ bản của phần cứng máy tính."
+        }
+      ]
+    },
+    {
+      "english": "basic concept",
+      "vietnamese": "khái niệm cơ bản",
+      "ipa": "/ˈbeɪsɪk ˈkɑːnsept/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students must grasp the basic concept before moving to applications.",
+          "vi": "Học sinh phải nắm khái niệm cơ bản trước khi học các ứng dụng."
+        },
+        {
+          "en": "The first chapter introduces the basic concept of supply.",
+          "vi": "Chương đầu giới thiệu khái niệm cơ bản về cung."
+        },
+        {
+          "en": "A clear example explains the basic concept very effectively.",
+          "vi": "Một ví dụ rõ ràng giải thích khái niệm cơ bản rất hiệu quả."
+        }
+      ]
+    },
+    {
+      "english": "basic element",
+      "vietnamese": "yếu tố cơ bản",
+      "ipa": "/ˈbeɪsɪk ˈeləmənt/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Color is a basic element of effective visual design.",
+          "vi": "Màu sắc là một yếu tố cơ bản của thiết kế hình ảnh hiệu quả."
+        },
+        {
+          "en": "Communication is a basic element of successful teamwork everywhere.",
+          "vi": "Giao tiếp là một yếu tố cơ bản của làm việc nhóm thành công khắp nơi."
+        },
+        {
+          "en": "The teacher explained each basic element of the writing process.",
+          "vi": "Giáo viên giải thích từng yếu tố cơ bản của quá trình viết."
+        }
+      ]
+    },
+    {
+      "english": "basic function",
+      "vietnamese": "chức năng cơ bản",
+      "ipa": "/ˈbeɪsɪk ˈfʌŋkʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The basic function of the heart is to pump blood.",
+          "vi": "Chức năng cơ bản của tim là bơm máu."
+        },
+        {
+          "en": "Every government has the basic function of protecting its citizens.",
+          "vi": "Mọi chính phủ đều có chức năng cơ bản là bảo vệ công dân."
+        },
+        {
+          "en": "The manual describes the basic function of each button.",
+          "vi": "Sổ tay mô tả chức năng cơ bản của từng nút."
+        }
+      ]
+    },
+    {
+      "english": "basic information",
+      "vietnamese": "thông tin cơ bản",
+      "ipa": "/ˈbeɪsɪk ˌɪnfərˈmeɪʃən/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Please provide some basic information about your previous work experience.",
+          "vi": "Vui lòng cung cấp một số thông tin cơ bản về kinh nghiệm làm việc trước đây."
+        },
+        {
+          "en": "The form collects basic information such as name and address.",
+          "vi": "Mẫu đơn thu thập thông tin cơ bản như tên và địa chỉ."
+        },
+        {
+          "en": "The leaflet gives basic information about the new health service.",
+          "vi": "Tờ rơi cung cấp thông tin cơ bản về dịch vụ y tế mới."
+        }
+      ]
+    },
+    {
+      "english": "basic premise",
+      "vietnamese": "tiền đề cơ bản",
+      "ipa": "/ˈbeɪsɪk ˈpremɪs/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The basic premise of the argument is that education matters.",
+          "vi": "Tiền đề cơ bản của lập luận là giáo dục có vai trò quan trọng."
+        },
+        {
+          "en": "Critics challenged the basic premise behind the entire study.",
+          "vi": "Các nhà phê bình thách thức tiền đề cơ bản đằng sau toàn bộ nghiên cứu."
+        },
+        {
+          "en": "Her essay clearly states its basic premise in the introduction.",
+          "vi": "Bài luận của cô nêu rõ tiền đề cơ bản ngay ở phần mở đầu."
+        }
+      ]
+    },
+    {
+      "english": "basic principle",
+      "vietnamese": "nguyên tắc cơ bản",
+      "ipa": "/ˈbeɪsɪk ˈprɪnsəpəl/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Fairness is a basic principle of any good legal system.",
+          "vi": "Công bằng là một nguyên tắc cơ bản của mọi hệ thống pháp luật tốt."
+        },
+        {
+          "en": "The lecture explains the basic principle of supply and demand.",
+          "vi": "Bài giảng giải thích nguyên tắc cơ bản về cung và cầu."
+        },
+        {
+          "en": "Engineers apply this basic principle when designing safe bridges.",
+          "vi": "Kỹ sư áp dụng nguyên tắc cơ bản này khi thiết kế cầu an toàn."
+        }
+      ]
+    },
+    {
+      "english": "basic research",
+      "vietnamese": "nghiên cứu cơ bản",
+      "ipa": "/ˈbeɪsɪk ˈriːsɜːrtʃ/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Basic research often leads to unexpected and valuable practical applications.",
+          "vi": "Nghiên cứu cơ bản thường dẫn đến những ứng dụng thực tế bất ngờ và giá trị."
+        },
+        {
+          "en": "The government increased funding for basic research in biology.",
+          "vi": "Chính phủ tăng kinh phí cho nghiên cứu cơ bản trong sinh học."
+        },
+        {
+          "en": "Without basic research, technological progress would slow down considerably.",
+          "vi": "Nếu thiếu nghiên cứu cơ bản, tiến bộ công nghệ sẽ chậm lại đáng kể."
+        }
+      ]
+    },
+    {
+      "english": "basic structure",
+      "vietnamese": "cấu trúc cơ bản",
+      "ipa": "/ˈbeɪsɪk ˈstrʌktʃər/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "The basic structure of an essay includes introduction and conclusion.",
+          "vi": "Cấu trúc cơ bản của một bài luận gồm mở bài và kết bài."
+        },
+        {
+          "en": "Scientists studied the basic structure of the protein molecule.",
+          "vi": "Các nhà khoa học nghiên cứu cấu trúc cơ bản của phân tử protein."
+        },
+        {
+          "en": "Understanding the basic structure helps readers follow the argument.",
+          "vi": "Hiểu cấu trúc cơ bản giúp người đọc theo dõi lập luận."
+        }
+      ]
+    },
+    {
+      "english": "basic technique",
+      "vietnamese": "kỹ thuật cơ bản",
+      "ipa": "/ˈbeɪsɪk tekˈniːk/",
+      "part_of_speech": "adj + n",
+      "examples": [
+        {
+          "en": "Students learn the basic technique before attempting advanced experiments.",
+          "vi": "Học sinh học kỹ thuật cơ bản trước khi thử các thí nghiệm nâng cao."
+        },
+        {
+          "en": "This basic technique is used widely in modern photography.",
+          "vi": "Kỹ thuật cơ bản này được dùng rộng rãi trong nhiếp ảnh hiện đại."
+        },
+        {
+          "en": "The coach demonstrated the basic technique to the new players.",
+          "vi": "Huấn luyện viên minh họa kỹ thuật cơ bản cho các cầu thủ mới."
+        }
+      ]
+    }
+  ]
+}
