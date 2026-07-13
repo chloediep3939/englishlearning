@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Trash2, CheckCircle2 } from 'lucide-react';
+import { Trash2, CheckCircle2, Pencil } from 'lucide-react';
 import type { Passage } from '@/lib/types';
 
 interface Props {
@@ -13,6 +13,14 @@ interface Props {
 export default function PassageLibraryRow({ passage }: Props) {
   const router = useRouter();
   const [deleting, setDeleting] = useState(false);
+
+  // Both the edit + delete controls live inside the row's <Link>, so they must
+  // preventDefault/stopPropagation to avoid also navigating to the reader.
+  function handleEdit(e: React.MouseEvent) {
+    e.preventDefault();
+    e.stopPropagation();
+    router.push(`/passage/${passage.id}/edit`);
+  }
 
   async function handleDelete(e: React.MouseEvent) {
     e.preventDefault();
@@ -124,6 +132,26 @@ export default function PassageLibraryRow({ passage }: Props) {
             )}
           </div>
         </div>
+        <button
+          type="button"
+          onClick={handleEdit}
+          aria-label="Sửa"
+          disabled={deleting}
+          style={{
+            padding: 8,
+            borderRadius: 'var(--v-radius-sm)',
+            border: '1px solid transparent',
+            background: 'transparent',
+            color: 'var(--v-muted)',
+            cursor: deleting ? 'not-allowed' : 'pointer',
+            flexShrink: 0,
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          <Pencil size={16} />
+        </button>
         <button
           type="button"
           onClick={handleDelete}

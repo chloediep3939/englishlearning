@@ -30,12 +30,15 @@ export default function WordDetailCard({
   deckId,
   deckName,
   reduce,
+  allowSave = true,
 }: {
   k: KaraokeEngine;
   passageId: number;
   deckId: number | null;
   deckName: string;
   reduce: boolean;
+  // Read-once mode passes false: show meaning/pronunciation but no save button.
+  allowSave?: boolean;
 }) {
   const { sel } = k;
   const clean = sel?.clean ?? '';
@@ -93,7 +96,11 @@ export default function WordDetailCard({
             lineHeight: 1.45,
           }}
         >
-          {k.playing ? 'Mình đang đọc, bạn nghe nha…' : 'Click vào một từ để xem nghĩa & lưu vào bộ từ.'}
+          {k.playing
+            ? 'Mình đang đọc, bạn nghe nha…'
+            : allowSave
+              ? 'Click vào một từ để xem nghĩa & lưu vào bộ từ.'
+              : 'Click vào một từ để xem nghĩa.'}
         </div>
       </div>
     );
@@ -252,52 +259,56 @@ export default function WordDetailCard({
         )}
       </div>
 
-      <button
-        onClick={handleSave}
-        disabled={saved || saving}
-        style={{
-          width: '100%',
-          marginTop: 12,
-          padding: '11px 14px',
-          borderRadius: 12,
-          cursor: saved || saving ? 'default' : 'pointer',
-          background: saved ? 'color-mix(in srgb, var(--v-primary) 16%, transparent)' : BUN_BLUE,
-          color: saved ? 'var(--v-primary)' : '#fff',
-          border: 'none',
-          boxShadow: saved ? 'none' : `0 3px 0 rgba(20,40,80,.18), 0 4px 10px ${BUN_BLUE}55`,
-          fontFamily: 'var(--v-font-head)',
-          fontWeight: 900,
-          fontSize: 13,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          gap: 7,
-          opacity: saving ? 0.7 : 1,
-        }}
-      >
-        {saved ? (
-          <>
-            <Check size={15} strokeWidth={3} /> Đã lưu vào “{deckName}”
-          </>
-        ) : (
-          <>
-            <Plus size={15} strokeWidth={3} /> {saving ? 'Đang lưu…' : 'Lưu vào bộ từ'}
-          </>
-        )}
-      </button>
+      {allowSave && (
+        <>
+          <button
+            onClick={handleSave}
+            disabled={saved || saving}
+            style={{
+              width: '100%',
+              marginTop: 12,
+              padding: '11px 14px',
+              borderRadius: 12,
+              cursor: saved || saving ? 'default' : 'pointer',
+              background: saved ? 'color-mix(in srgb, var(--v-primary) 16%, transparent)' : BUN_BLUE,
+              color: saved ? 'var(--v-primary)' : '#fff',
+              border: 'none',
+              boxShadow: saved ? 'none' : `0 3px 0 rgba(20,40,80,.18), 0 4px 10px ${BUN_BLUE}55`,
+              fontFamily: 'var(--v-font-head)',
+              fontWeight: 900,
+              fontSize: 13,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: 7,
+              opacity: saving ? 0.7 : 1,
+            }}
+          >
+            {saved ? (
+              <>
+                <Check size={15} strokeWidth={3} /> Đã lưu vào “{deckName}”
+              </>
+            ) : (
+              <>
+                <Plus size={15} strokeWidth={3} /> {saving ? 'Đang lưu…' : 'Lưu vào bộ từ'}
+              </>
+            )}
+          </button>
 
-      {saveError && (
-        <div
-          style={{
-            marginTop: 8,
-            fontFamily: 'var(--v-font-body)',
-            fontSize: 12,
-            fontWeight: 700,
-            color: 'var(--v-red)',
-          }}
-        >
-          Không thể lưu, bấm để thử lại.
-        </div>
+          {saveError && (
+            <div
+              style={{
+                marginTop: 8,
+                fontFamily: 'var(--v-font-body)',
+                fontSize: 12,
+                fontWeight: 700,
+                color: 'var(--v-red)',
+              }}
+            >
+              Không thể lưu, bấm để thử lại.
+            </div>
+          )}
+        </>
       )}
     </div>
   );

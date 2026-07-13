@@ -1,12 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Zap, Languages, BookOpen, PenLine, Shuffle } from 'lucide-react';
 import QuizSetup, { type QuizMode } from '@/components/QuizSetup';
 import SpeedQuizSession from '@/components/SpeedQuizSession';
 import LoadingState from '@/components/common/LoadingState';
-import type { SpeedQuizQuestion, SpeedQuizMode } from '@/lib/types';
+import { apiJson } from '@/lib/common/api-json';
+import type { SpeedQuizQuestion, SpeedQuizMode, FlashcardSettings } from '@/lib/types';
 
 const MODES: QuizMode<SpeedQuizMode>[] = [
   {
@@ -44,6 +45,16 @@ export default function SpeedPage() {
   const [quiz, setQuiz] = useState<QuizState | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  // Per-question timer (seconds) from settings; 0 = off. Default 8 until loaded.
+  const [timerSeconds, setTimerSeconds] = useState(8);
+
+  useEffect(() => {
+    apiJson<FlashcardSettings>('/api/settings')
+      .then((s) => {
+        if (typeof s.speed_timer_seconds === 'number') setTimerSeconds(s.speed_timer_seconds);
+      })
+      .catch(() => {/* fall back to default 8 */});
+  }, []);
 
   async function start({ mode, count, deckId }: { mode: SpeedQuizMode; count: number; deckId: number | null }) {
     setLoading(true);
@@ -106,7 +117,7 @@ export default function SpeedPage() {
           fontSize: 'var(--v-text-md)',
         }}
       >
-        4 lựa chọn · 8 giây mỗi câu · phản xạ nhanh
+        4 lựa chọn · {timerSeconds > 0 ? `${timerSeconds} giây mỗi câu` : 'không giới hạn giờ'} · phản xạ nhanh
       </p>
 
       {error && (
@@ -146,6 +157,7 @@ export default function SpeedPage() {
           questions={quiz.questions}
           mode={quiz.mode}
           onRestart={() => setQuiz(null)}
+          timerSeconds={timerSeconds}
         />
       )}
     </div>

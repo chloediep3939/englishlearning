@@ -12,6 +12,7 @@ import Slider from '@/components/settings-controls/Slider';
 import Toggle from '@/components/settings-controls/Toggle';
 import SliderWithIcon from '@/components/settings-controls/SliderWithIcon';
 import MaxAttemptsControl from '@/components/settings-controls/MaxAttemptsControl';
+import SpeedTimerControl from '@/components/settings-controls/SpeedTimerControl';
 import CefrControl from '@/components/settings-controls/CefrControl';
 import TtsRateControl from '@/components/settings-controls/TtsRateControl';
 import VoicePickerControl from '@/components/settings-controls/VoicePickerControl';
@@ -262,6 +263,10 @@ export default function SettingsPage() {
               step={M3_SETTINGS.f3_max_words_per_composition.step}
               onCommit={(v) => save({ f3_max_words_per_composition: v })}
               suffix="từ"
+            />
+            <SpeedTimerControl
+              value={settings.speed_timer_seconds}
+              onCommit={(v) => save({ speed_timer_seconds: v })}
             />
           </SettingsCard>
 

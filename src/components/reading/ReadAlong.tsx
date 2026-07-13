@@ -43,10 +43,16 @@ interface Props {
   initialAuto: boolean;
   initialDeckId: number | null;
   decks: DeckOption[];
+  // "Read once without saving" mode: translate raw content (no cached passage
+  // row) and hide all save-to-deck affordances. Defaults to the normal
+  // saved-passage flow.
+  ephemeral?: boolean;
+  // Where the back arrows point. Defaults to the passage library.
+  backHref?: string;
 }
 
 // ── Loader: split passage, fetch translations + glossary, then mount engine ──
-export default function ReadAlong({ passage, initialRate, initialAuto, initialDeckId, decks }: Props) {
+export default function ReadAlong({ passage, initialRate, initialAuto, initialDeckId, decks, ephemeral = false, backHref = '/passage' }: Props) {
   const { flat } = useMemo(() => splitPassage(passage.content), [passage.content]);
 
   const [loaded, setLoaded] = useState(false);
@@ -61,7 +67,15 @@ export default function ReadAlong({ passage, initialRate, initialAuto, initialDe
     }
     let cancelled = false;
 
-    const transP = fetch(`/api/passages/${passage.id}/translations`)
+    // Ephemeral (read-once) has no passage row → use the id-less translate
+    // endpoint that takes raw content; otherwise the cache-through route.
+    const transP = (ephemeral
+      ? fetch('/api/reading/translate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ content: passage.content }),
+        })
+      : fetch(`/api/passages/${passage.id}/translations`))
       .then(async (r) => {
         if (!r.ok) throw r.status;
         return (await r.json()) as { sentences: TranslatedSentence[]; translationAvailable?: boolean };
@@ -100,14 +114,14 @@ export default function ReadAlong({ passage, initialRate, initialAuto, initialDe
     return () => {
       cancelled = true;
     };
-  }, [flat, passage.id]);
+  }, [flat, passage.id, passage.content, ephemeral]);
 
   if (!loaded) return <LoadingState message="Bún đang chuẩn bị bài đọc…" />;
 
   if (flat.length === 0) {
     return (
       <div>
-        <BackLink />
+        <BackLink href={backHref} />
         <div
           style={{
             padding: 40,
@@ -141,14 +155,16 @@ export default function ReadAlong({ passage, initialRate, initialAuto, initialDe
       initialAuto={initialAuto}
       initialDeckId={initialDeckId}
       decks={decks}
+      ephemeral={ephemeral}
+      backHref={backHref}
     />
   );
 }
 
-function BackLink() {
+function BackLink({ href }: { href: string }) {
   return (
     <Link
-      href="/passage"
+      href={href}
       style={{
         display: 'inline-flex',
         alignItems: 'center',
@@ -175,6 +191,8 @@ function ReadAlongInner({
   initialAuto,
   initialDeckId,
   decks,
+  ephemeral = false,
+  backHref = '/passage',
 }: Props & {
   flat: FlatSentence[];
   translations: Record<number, string | null>;
@@ -228,7 +246,14 @@ function ReadAlongInner({
 
   const metaPill = `${passage.word_count} từ · ~${estimateSeconds(passage.word_count)}s`;
   const wordCard = (
-    <WordDetailCard k={k} passageId={passage.id} deckId={deckId} deckName={deckName} reduce={reduce} />
+    <WordDetailCard
+      k={k}
+      passageId={passage.id}
+      deckId={deckId}
+      deckName={deckName}
+      reduce={reduce}
+      allowSave={!ephemeral}
+    />
   );
   const parallelToggle = transAvailable ? (
     <ReadingToggle
@@ -249,7 +274,8 @@ function ReadAlongInner({
       accent={BUN_BLUE}
     />
   );
-  const tray = (
+  // No save-to-deck in read-once mode → no saved-words tray / deck picker.
+  const tray = ephemeral ? null : (
     <SavedWordsTray k={k} deckId={deckId} decks={decks} onDeckChange={onDeckChange} />
   );
   const unsupportedBanner = !k.supported ? (
@@ -290,7 +316,7 @@ function ReadAlongInner({
     <>
       {/* ── Desktop (≥768px) ── */}
       <div className="hidden md:block">
-        <BackLink />
+        <BackLink href={backHref} />
         <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginBottom: 18 }}>
           <div>
             <div
@@ -365,7 +391,7 @@ function ReadAlongInner({
        <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
           <Link
-            href="/passage"
+            href={backHref}
             aria-label="Quay lại"
             style={{
               width: 34,

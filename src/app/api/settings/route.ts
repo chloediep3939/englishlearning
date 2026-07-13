@@ -59,6 +59,10 @@ export async function PUT(req: Request) {
     if (typeof body.f3_max_words_per_composition === 'number' && body.f3_max_words_per_composition >= 5 && body.f3_max_words_per_composition <= 100) {
       partial.f3_max_words_per_composition = Math.floor(body.f3_max_words_per_composition);
     }
+    // speed_timer_seconds: 0 = off, otherwise 4-20s.
+    if (typeof body.speed_timer_seconds === 'number' && (body.speed_timer_seconds === 0 || (body.speed_timer_seconds >= 4 && body.speed_timer_seconds <= 20))) {
+      partial.speed_timer_seconds = Math.floor(body.speed_timer_seconds);
+    }
     // ----- M4 keys -----
     if (typeof body.user_cefr_level === 'string' && (M4_SETTINGS.user_cefr_level.values as readonly string[]).includes(body.user_cefr_level)) {
       partial.user_cefr_level = body.user_cefr_level as FlashcardSettings['user_cefr_level'];

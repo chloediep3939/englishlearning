@@ -38,12 +38,13 @@ interface Props {
   questions: SpeedQuizQuestion[];
   mode: SpeedQuizMode;
   onRestart: () => void;
+  // Per-question countdown, in seconds. 0 = no timer (the bar is hidden).
+  // Comes from the user's `speed_timer_seconds` setting; defaults to 8.
+  timerSeconds?: number;
 }
 
-const TIME_PER_Q_MS = 8000;
-const OPTION_COLORS = ['var(--v-pink)', 'var(--v-primary)', 'var(--v-purple)', 'var(--v-blue)'];
-
-export default function SpeedQuizSession({ questions, mode, onRestart }: Props) {
+export default function SpeedQuizSession({ questions, mode, onRestart, timerSeconds = 8 }: Props) {
+  const timerMs = timerSeconds * 1000;
   const [position, setPosition] = useState(0);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
   const [correct, setCorrect] = useState(0);
@@ -215,8 +216,8 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
           position: 'relative',
         }}
       >
-        {/* Timer ring */}
-        <TimerBar key={position} duration={TIME_PER_Q_MS} paused={showFeedback} />
+        {/* Timer ring — hidden entirely when the timer is turned off (0s). */}
+        {timerSeconds > 0 && <TimerBar key={position} duration={timerMs} paused={showFeedback} />}
 
         <div
           style={{
@@ -278,7 +279,7 @@ export default function SpeedQuizSession({ questions, mode, onRestart }: Props) 
           const reveal = showFeedback;
           let bg = 'var(--v-surface)';
           let color = 'var(--v-ink)';
-          let border = `2px solid ${OPTION_COLORS[idx]}`;
+          let border = '2px solid var(--v-border)';
           let shadow = 'var(--v-shadow-sm)';
           if (reveal && isCorrect) {
             bg = 'var(--v-primary)';

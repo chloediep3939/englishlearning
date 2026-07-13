@@ -234,6 +234,7 @@ export interface FlashcardSettings {
   f1_max_attempts: number;            // 0 = unlimited
   f2_timer_seconds: number;
   f3_max_words_per_composition: number;
+  speed_timer_seconds: number;        // Flashcard nhanh countdown; 0 = off
   // ----- M4 keys -----
   user_cefr_level: CefrLevel;
   passage_tts_rate: number;           // 0.5–1.5
@@ -364,6 +365,7 @@ export const M3_SETTINGS = {
   f1_max_attempts: { default: 3, min: 1, max: 10, step: 1 }, // 0 = unlimited (handled separately)
   f2_timer_seconds: { default: 60, min: 15, max: 300, step: 15 },
   f3_max_words_per_composition: { default: 30, min: 5, max: 100, step: 5 },
+  speed_timer_seconds: { default: 8, min: 4, max: 20, step: 1 }, // 0 = off (handled separately)
 } as const;
 
 export type M3SettingKey = keyof typeof M3_SETTINGS;

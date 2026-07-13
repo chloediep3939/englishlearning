@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowLeft, Newspaper, Plus } from 'lucide-react';
+import { ArrowLeft, Newspaper, Plus, BookOpen } from 'lucide-react';
 import { requireUserId } from '@/lib/current-user';
 import { passagesDb } from '@/lib/passages/db';
 import PassageLibraryRow from '@/components/PassageLibraryRow';
@@ -59,25 +59,47 @@ export default async function PassageLibraryPage() {
         >
           <Newspaper size={24} style={{ color: 'var(--v-teal)' }} /> Bài đọc
         </h1>
-        <Link
-          href="/passage/new"
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: 6,
-            padding: '10px 16px',
-            borderRadius: 'var(--v-radius-md)',
-            background: 'var(--v-primary)',
-            color: '#fff',
-            fontFamily: 'var(--v-font-body)',
-            fontWeight: 800,
-            fontSize: 'var(--v-text-md)',
-            textDecoration: 'none',
-            boxShadow: 'var(--v-shadow-sm)',
-          }}
-        >
-          <Plus size={16} /> Tạo bài mới
-        </Link>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+          <Link
+            href="/read-once"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+              padding: '10px 16px',
+              borderRadius: 'var(--v-radius-md)',
+              background: 'var(--v-surface)',
+              border: '1px solid var(--v-border)',
+              color: 'var(--v-ink)',
+              fontFamily: 'var(--v-font-body)',
+              fontWeight: 800,
+              fontSize: 'var(--v-text-md)',
+              textDecoration: 'none',
+              boxShadow: 'var(--v-shadow-sm)',
+            }}
+          >
+            <BookOpen size={16} /> Đọc nhanh
+          </Link>
+          <Link
+            href="/passage/new"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+              padding: '10px 16px',
+              borderRadius: 'var(--v-radius-md)',
+              background: 'var(--v-primary)',
+              color: '#fff',
+              fontFamily: 'var(--v-font-body)',
+              fontWeight: 800,
+              fontSize: 'var(--v-text-md)',
+              textDecoration: 'none',
+              boxShadow: 'var(--v-shadow-sm)',
+            }}
+          >
+            <Plus size={16} /> Tạo bài mới
+          </Link>
+        </div>
       </div>
 
       {passages.length === 0 ? (

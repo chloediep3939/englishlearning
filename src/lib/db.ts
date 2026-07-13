@@ -978,6 +978,7 @@ const SETTINGS_KEYS = [
   'f1_max_attempts',
   'f2_timer_seconds',
   'f3_max_words_per_composition',
+  'speed_timer_seconds',
   // M4 keys
   'user_cefr_level',
   'passage_tts_rate',
@@ -1015,6 +1016,7 @@ export const userSettingsDb = {
       .all<{ key: string; value: string }>();
     const map = new Map(result.results.map((r) => [r.key, r.value]));
     const f1Raw = map.get('f1_max_attempts');
+    const speedTimerRaw = map.get('speed_timer_seconds');
     return {
       daily_goal_new: Number(map.get('flashcard_daily_goal_new')) || 10,
       daily_goal_review: Number(map.get('flashcard_daily_goal_review')) || 50,
@@ -1029,6 +1031,9 @@ export const userSettingsDb = {
       f1_max_attempts: f1Raw === undefined ? 3 : Number(f1Raw),
       f2_timer_seconds: Number(map.get('f2_timer_seconds')) || 60,
       f3_max_words_per_composition: Number(map.get('f3_max_words_per_composition')) || 30,
+      // speed_timer_seconds can legitimately be 0 ("Tắt") — preserve it
+      // explicitly instead of coercing via `|| default`.
+      speed_timer_seconds: speedTimerRaw === undefined ? 8 : Number(speedTimerRaw),
       // M4 keys — defaults from M4_SETTINGS so they stay in lockstep with
       // the validator and UI ranges.
       user_cefr_level: parseCefr(map.get('user_cefr_level')),
@@ -1074,6 +1079,7 @@ export const userSettingsDb = {
     if (partial.f1_max_attempts !== undefined)              upsert('f1_max_attempts', String(partial.f1_max_attempts));
     if (partial.f2_timer_seconds !== undefined)             upsert('f2_timer_seconds', String(partial.f2_timer_seconds));
     if (partial.f3_max_words_per_composition !== undefined) upsert('f3_max_words_per_composition', String(partial.f3_max_words_per_composition));
+    if (partial.speed_timer_seconds !== undefined)          upsert('speed_timer_seconds', String(partial.speed_timer_seconds));
     if (partial.user_cefr_level !== undefined)              upsert('user_cefr_level', partial.user_cefr_level);
     if (partial.passage_tts_rate !== undefined)             upsert('passage_tts_rate', String(partial.passage_tts_rate));
     if (partial.passage_pre_fetch !== undefined)            upsert('passage_pre_fetch', partial.passage_pre_fetch ? '1' : '0');
