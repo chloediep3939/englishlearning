@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookOpen, Languages } from 'lucide-react';
+import { ArrowLeft, BookOpen, Languages, Scissors } from 'lucide-react';
 import LoadingState from '@/components/common/LoadingState';
 import Mascot from '@/components/common/Mascot';
 import ReadingPassage from '@/components/reading/ReadingPassage';
@@ -12,6 +12,8 @@ import ReadingToggle from '@/components/reading/ReadingToggle';
 import TransportControls from '@/components/reading/TransportControls';
 import SavedWordsTray from '@/components/reading/SavedWordsTray';
 import { useKaraoke } from '@/lib/reading/use-karaoke';
+import { useChunkPractice } from '@/lib/reading/use-chunk-practice';
+import ChunkPracticeControls from '@/components/reading/ChunkPracticeControls';
 import { useReducedMotion } from '@/lib/reading/use-reduced-motion';
 import { splitPassage, contentWords } from '@/lib/reading/tokenizer';
 import {
@@ -49,10 +51,15 @@ interface Props {
   ephemeral?: boolean;
   // Where the back arrows point. Defaults to the passage library.
   backHref?: string;
+  // When set, the back arrows call this instead of navigating (no page
+  // reload) — used by read-once to return to the paste screen.
+  onBack?: () => void;
+  // Global word indices (chunk starts) parsed from "/" in the pasted text.
+  seedBreaks?: number[];
 }
 
 // ── Loader: split passage, fetch translations + glossary, then mount engine ──
-export default function ReadAlong({ passage, initialRate, initialAuto, initialDeckId, decks, ephemeral = false, backHref = '/passage' }: Props) {
+export default function ReadAlong({ passage, initialRate, initialAuto, initialDeckId, decks, ephemeral = false, backHref = '/passage', onBack, seedBreaks }: Props) {
   const { flat } = useMemo(() => splitPassage(passage.content), [passage.content]);
 
   const [loaded, setLoaded] = useState(false);
@@ -121,7 +128,7 @@ export default function ReadAlong({ passage, initialRate, initialAuto, initialDe
   if (flat.length === 0) {
     return (
       <div>
-        <BackLink href={backHref} />
+        <BackLink href={backHref} onBack={onBack} />
         <div
           style={{
             padding: 40,
@@ -157,25 +164,38 @@ export default function ReadAlong({ passage, initialRate, initialAuto, initialDe
       decks={decks}
       ephemeral={ephemeral}
       backHref={backHref}
+      onBack={onBack}
+      seedBreaks={seedBreaks}
     />
   );
 }
 
-function BackLink({ href }: { href: string }) {
+function BackLink({ href, onBack }: { href: string; onBack?: () => void }) {
+  const label = onBack ? 'Đọc bài khác' : 'Thư viện';
+  const style: React.CSSProperties = {
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: 4,
+    fontSize: 'var(--v-text-sm)',
+    color: 'var(--v-muted)',
+    textDecoration: 'none',
+    marginBottom: 12,
+    background: 'transparent',
+    border: 'none',
+    cursor: 'pointer',
+    padding: 0,
+    fontFamily: 'inherit',
+  };
+  if (onBack) {
+    return (
+      <button type="button" onClick={onBack} style={style}>
+        <ArrowLeft size={14} /> {label}
+      </button>
+    );
+  }
   return (
-    <Link
-      href={href}
-      style={{
-        display: 'inline-flex',
-        alignItems: 'center',
-        gap: 4,
-        fontSize: 'var(--v-text-sm)',
-        color: 'var(--v-muted)',
-        textDecoration: 'none',
-        marginBottom: 12,
-      }}
-    >
-      <ArrowLeft size={14} /> Thư viện
+    <Link href={href} style={style}>
+      <ArrowLeft size={14} /> {label}
     </Link>
   );
 }
@@ -193,6 +213,8 @@ function ReadAlongInner({
   decks,
   ephemeral = false,
   backHref = '/passage',
+  onBack,
+  seedBreaks,
 }: Props & {
   flat: FlatSentence[];
   translations: Record<number, string | null>;
@@ -227,6 +249,9 @@ function ReadAlongInner({
     onRateChange: (rate) => persistSetting({ reading_speed: rate }),
     onAutoChange: (auto) => persistSetting({ reading_auto_continue: auto }),
   });
+
+  // PTE thought-group practice (chunk markers + echo mode + manual/AI chunking).
+  const cp = useChunkPractice({ sentences: flat, rate: k.rate, seedGlobalBreaks: seedBreaks });
 
   // Restore the per-device parallel-translation preference (localStorage, BR9).
   useEffect(() => {
@@ -274,6 +299,17 @@ function ReadAlongInner({
       accent={BUN_BLUE}
     />
   );
+  const chunkToggle = (
+    <ReadingToggle
+      title="Ngắt cụm (PTE)"
+      hint="Hiện dấu / giữa các cụm ý + luyện đọc theo từng cụm"
+      checked={cp.enabled}
+      onChange={cp.setEnabled}
+      accent="var(--v-purple)"
+      icon={<Scissors size={15} color="#fff" strokeWidth={2.4} />}
+    />
+  );
+  const chunkControls = cp.enabled ? <ChunkPracticeControls cp={cp} /> : null;
   // No save-to-deck in read-once mode → no saved-words tray / deck picker.
   const tray = ephemeral ? null : (
     <SavedWordsTray k={k} deckId={deckId} decks={decks} onDeckChange={onDeckChange} />
@@ -316,7 +352,7 @@ function ReadAlongInner({
     <>
       {/* ── Desktop (≥768px) ── */}
       <div className="hidden md:block">
-        <BackLink href={backHref} />
+        <BackLink href={backHref} onBack={onBack} />
         <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginBottom: 18 }}>
           <div>
             <div
@@ -371,8 +407,10 @@ function ReadAlongInner({
         {unsupportedBanner}
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: 20, alignItems: 'start', marginTop: unsupportedBanner ? 14 : 0 }}>
-          <ReadingPassage k={k} vnMode={k.showVN} fontSize={24} reduce={reduce} />
+          <ReadingPassage k={k} vnMode={k.showVN} fontSize={24} reduce={reduce} cp={cp} />
           <aside style={{ display: 'flex', flexDirection: 'column', gap: 14, position: 'sticky', top: 18 }}>
+            {chunkToggle}
+            {chunkControls}
             {parallelToggle}
             {wordCard}
             <SpeedSelector k={k} cols={2} />
@@ -390,10 +428,8 @@ function ReadAlongInner({
       <div className="md:hidden">
        <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <Link
-            href={backHref}
-            aria-label="Quay lại"
-            style={{
+          {(() => {
+            const backStyle: React.CSSProperties = {
               width: 34,
               height: 34,
               borderRadius: 11,
@@ -405,10 +441,19 @@ function ReadAlongInner({
               justifyContent: 'center',
               flexShrink: 0,
               color: 'var(--v-ink)',
-            }}
-          >
-            <ArrowLeft size={16} />
-          </Link>
+              cursor: 'pointer',
+              padding: 0,
+            };
+            return onBack ? (
+              <button type="button" onClick={onBack} aria-label="Đọc bài khác" style={backStyle}>
+                <ArrowLeft size={16} />
+              </button>
+            ) : (
+              <Link href={backHref} aria-label="Quay lại" style={backStyle}>
+                <ArrowLeft size={16} />
+              </Link>
+            );
+          })()}
           <div style={{ flex: 1, minWidth: 0 }}>
             <div
               style={{
@@ -430,7 +475,9 @@ function ReadAlongInner({
         </div>
 
         {unsupportedBanner}
-        <ReadingPassage k={k} vnMode={k.showVN} fontSize={16} reduce={reduce} />
+        <ReadingPassage k={k} vnMode={k.showVN} fontSize={16} reduce={reduce} cp={cp} />
+        {chunkToggle}
+        {chunkControls}
         {parallelToggle}
         {wordCard}
         <SpeedSelector k={k} cols={4} />

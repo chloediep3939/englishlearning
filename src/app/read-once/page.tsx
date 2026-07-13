@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, BookOpen, Play } from 'lucide-react';
+import { ArrowLeft, BookOpen, Play, Trash2 } from 'lucide-react';
 import ReadAlong from '@/components/reading/ReadAlong';
+import { parseManualBreaks } from '@/lib/reading/chunker';
 import { apiJson } from '@/lib/common/api-json';
 import type { FlashcardSettings } from '@/lib/types';
 
@@ -13,6 +14,9 @@ const HARD_CAP = 10_000;
 export default function ReadOncePage() {
   const [content, setContent] = useState('');
   const [started, setStarted] = useState(false);
+  // Parsed on "Đọc ngay": clean text (slashes stripped) + chunk-start word
+  // indices from any "/" the learner typed.
+  const [parsed, setParsed] = useState<{ content: string; breakWordIndices: number[] } | null>(null);
   // Reading prefs, pulled from settings so read-once matches the saved reader.
   const [initialRate, setInitialRate] = useState(1.0);
   const [initialAuto, setInitialAuto] = useState(true);
@@ -28,17 +32,26 @@ export default function ReadOncePage() {
 
   const trimmed = content.trim();
   const charCount = content.length;
-  const wordCount = trimmed.length === 0 ? 0 : (trimmed.match(/\S+/g) ?? []).length;
+  // Slash markers don't count as words in the live counter.
+  const wordCount =
+    trimmed.length === 0 ? 0 : (trimmed.match(/\S+/g) ?? []).filter((t) => !/^\/+$/.test(t)).length;
   const canStart = trimmed.length >= MIN_CHARS && trimmed.length <= HARD_CAP;
 
-  if (started) {
+  function handleStart() {
+    if (!canStart) return;
+    setParsed(parseManualBreaks(content));
+    setStarted(true);
+  }
+
+  if (started && parsed) {
+    const cleanWords = parsed.content.trim().match(/\S+/g)?.length ?? 0;
     return (
       <ReadAlong
         passage={{
           id: 0,
           title: 'Đọc nhanh',
-          content: trimmed,
-          word_count: wordCount,
+          content: parsed.content,
+          word_count: cleanWords,
           level_estimate: null,
         }}
         initialRate={initialRate}
@@ -47,6 +60,13 @@ export default function ReadOncePage() {
         decks={[]}
         ephemeral
         backHref="/read-once"
+        onBack={() => {
+          // "Đọc bài khác" = reset the passage: back to an empty paste screen.
+          setStarted(false);
+          setContent('');
+          setParsed(null);
+        }}
+        seedBreaks={parsed.breakWordIndices}
       />
     );
   }
@@ -92,7 +112,8 @@ export default function ReadOncePage() {
         }}
       >
         Dán một đoạn văn tiếng Anh để đọc theo karaoke + dịch câu. Bài này không
-        lưu vào thư viện — đọc xong là xong.
+        lưu vào thư viện — đọc xong là xong. Mẹo: chèn dấu <b>/</b> vào chỗ muốn
+        ngắt cụm, mình sẽ tự bật chế độ luyện ngắt cụm theo đúng dấu đó.
       </p>
 
       <div
@@ -146,10 +167,35 @@ export default function ReadOncePage() {
           </div>
         </div>
 
-        <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+        <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 8 }}>
           <button
             type="button"
-            onClick={() => canStart && setStarted(true)}
+            onClick={() => {
+              setContent('');
+              setParsed(null);
+            }}
+            disabled={content.length === 0}
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+              padding: '10px 16px',
+              borderRadius: 'var(--v-radius-md)',
+              border: '1px solid var(--v-border)',
+              background: 'var(--v-surface)',
+              color: 'var(--v-ink)',
+              fontFamily: 'var(--v-font-body)',
+              fontWeight: 700,
+              fontSize: 'var(--v-text-md)',
+              cursor: content.length === 0 ? 'not-allowed' : 'pointer',
+              opacity: content.length === 0 ? 0.5 : 1,
+            }}
+          >
+            <Trash2 size={15} /> Xoá
+          </button>
+          <button
+            type="button"
+            onClick={handleStart}
             disabled={!canStart}
             style={{
               display: 'inline-flex',
