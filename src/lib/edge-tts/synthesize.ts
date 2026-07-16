@@ -13,10 +13,13 @@
 // All constants Microsoft may rotate live below for easy patching.
 
 const TRUSTED_CLIENT_TOKEN = '6A5AA1D4EAFF4E9FB37E23D68491D6F4';
-const SEC_MS_GEC_VERSION = '1-130.0.2849.68';
+// Must track a CURRENT Edge release — Microsoft 403s stale versions. Values
+// mirror rany2/edge-tts constants.py (verified 2026-07-16 via a raw WS
+// handshake: stale 130.x → 403, current 143.x → 101).
+const SEC_MS_GEC_VERSION = '1-143.0.3650.75';
 const EDGE_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ' +
-  'Chrome/130.0.0.0 Safari/537.36 Edg/130.0.2849.68';
+  'Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0';
 const EDGE_ORIGIN = 'chrome-extension://jdiccldimpdaibmpdkjnbmckianbfold';
 const ENDPOINT =
   'https://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1';
