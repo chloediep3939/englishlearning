@@ -38,11 +38,16 @@ export default function AudioButton({
   audioStatus = null,
   audioVersion = null,
 }: Props) {
+  // Multi-word entries (collocations / phrasal verbs) intentionally play via
+  // browser TTS: Oxford has no phrase recordings, and stitched/synthesized
+  // files sounded worse than the browser's neural voice (user preference).
+  const isPhrase = /\s/.test(fallbackText.trim());
+
   function play() {
     if (typeof window === 'undefined') return;
     // Oxford US mp3 when one is stored for this card; otherwise browser TTS.
     // Vietnamese never has a recording, so it always uses TTS.
-    if (lang === 'en-US' && cardId && audioStatus === 'ok') {
+    if (lang === 'en-US' && !isPhrase && cardId && audioStatus === 'ok') {
       playOxfordMp3(cardId);
       return;
     }
@@ -118,9 +123,10 @@ export default function AudioButton({
   ) : null;
 
   // Warning when the Oxford mp3 fetch failed — the speaker still works (TTS),
-  // we just flag that the recorded clip is unavailable.
+  // we just flag that the recorded clip is unavailable. Phrases are exempt:
+  // TTS is their intended playback, not a failure.
   const failedBadge =
-    audioStatus === 'failed' ? (
+    audioStatus === 'failed' && !isPhrase ? (
       <span
         title="Phát âm Oxford lỗi — đang dùng giọng máy"
         aria-label="Phát âm Oxford lỗi — đang dùng giọng máy"

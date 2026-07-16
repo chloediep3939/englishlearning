@@ -9,11 +9,12 @@
 //     (same convention as the CMU multi-word joiner in
 //     `@/lib/flashcards/cmu-ipa`). All-or-nothing — any token missing IPA →
 //     card IPA unchanged.
-//   - Audio: synthesize the WHOLE phrase as one fluent utterance via Edge TTS
-//     (neural voice — glued per-word clips sounded disjointed). Fallback
-//     chain: Edge TTS → per-word Oxford mp3 byte-concat → status 'failed'
-//     (browser TTS speaks the phrase). Either way ONE file lands at the
-//     card's existing R2 key, so `/api/audio/[cardId]` needs no changes.
+//   - Audio: NONE by design — phrases play via browser TTS (AudioButton
+//     speaks any whitespace-containing entry with speechSynthesis). Stitched
+//     Oxford clips and Edge TTS were both tried and rejected by the user in
+//     favor of the browser's neural voice (see src/doc/oxford-multiword-audio.md;
+//     the Edge TTS client lives in git history at b2abfad if ever wanted).
+//     Stored audio state is cleared so no stale glued clip lingers.
 //
 // NEVER throws — every failure (Oxford down, R2 binding absent under plain
 // `next dev`, bad markup) resolves to `{ ok: false, failed: true }` so it can
@@ -21,7 +22,6 @@
 
 import { lookupUrl } from '@/components/common/LookupPills';
 import { flashcardsDb, getAudioBucket } from '@/lib/db';
-import { synthesizeEdgeTts } from '@/lib/edge-tts/synthesize';
 import { lemmaCandidates } from '@/lib/reading/lemma';
 import type { Flashcard } from '@/lib/types';
 import { fetchOxfordPronunciation } from './pronunciation';
@@ -61,56 +61,35 @@ function joinIpa(ipas: string[]): string {
   return `/${inner}/`;
 }
 
-function concatBuffers(bufs: ArrayBuffer[]): ArrayBuffer {
-  const total = bufs.reduce((n, b) => n + b.byteLength, 0);
-  const out = new Uint8Array(total);
-  let offset = 0;
-  for (const b of bufs) {
-    out.set(new Uint8Array(b), offset);
-    offset += b.byteLength;
-  }
-  return out.buffer;
-}
-
-/** Resolve a card's pronunciation: single fetch for one word, split + fetch
- *  each token + combine for phrases. Returns the mp3 bytes to store (or null)
- *  and the IPA to write (or null = leave unchanged). */
+/** Resolve a card's pronunciation: single fetch for one word; for phrases,
+ *  per-token IPA only (playback is browser TTS — no file). Returns the mp3
+ *  bytes to store (or null), the IPA to write (or null = leave unchanged),
+ *  and whether the entry is a multi-word phrase. */
 async function resolvePronunciation(
   word: string,
-): Promise<{ mp3: ArrayBuffer | null; ipa: string | null }> {
+): Promise<{ mp3: ArrayBuffer | null; ipa: string | null; phrase: boolean }> {
   const tokens = word.trim().split(/\s+/).filter(Boolean);
 
   if (tokens.length === 1) {
     const p = await fetchTokenPronunciation(tokens[0]);
-    return { mp3: p.mp3, ipa: p.ipaUs?.trim() || null };
+    return { mp3: p.mp3, ipa: p.ipaUs?.trim() || null, phrase: false };
   }
 
   if (tokens.length === 0 || tokens.length > MAX_PHRASE_TOKENS) {
-    return { mp3: null, ipa: null };
+    return { mp3: null, ipa: null, phrase: tokens.length > 0 };
   }
 
   // Sequential on purpose — polite to Oxford; a phrase is only 2–4 fetches.
-  // These per-word fetches are needed for the joined IPA regardless of which
-  // audio source wins below.
   const parts: OxfordPronunciation[] = [];
   for (const t of tokens) parts.push(await fetchTokenPronunciation(t));
 
   const ipas = parts.map((p) => p.ipaUs?.trim() || null);
-  const mp3s = parts.map((p) => p.mp3);
-
-  // Audio: one fluent Edge TTS utterance of the whole phrase. Glued per-word
-  // clips sounded disjointed, so the byte-concat is only the fallback.
-  let mp3 = await synthesizeEdgeTts(tokens.join(' '));
-  if (!mp3) {
-    console.warn('[edge-tts] synthesis failed — falling back to per-word concat:', word);
-    mp3 = mp3s.every((m): m is ArrayBuffer => !!m) ? concatBuffers(mp3s) : null;
-  }
-
   return {
     // All-or-nothing (same rule as CMU): a partial phrase transcription would
-    // be worse than the fallback.
+    // be worse than none.
     ipa: ipas.every((i): i is string => !!i) ? joinIpa(ipas) : null,
-    mp3,
+    mp3: null, // phrases play via browser TTS by design
+    phrase: true,
   };
 }
 
@@ -119,12 +98,19 @@ export async function fetchAndStoreOxfordAudio(
   cardId: number,
   word: string,
 ): Promise<OxfordAudioResult> {
-  const { mp3, ipa } = await resolvePronunciation(word); // never throws
+  const { mp3, ipa, phrase } = await resolvePronunciation(word); // never throws
 
   const update: Partial<Flashcard> = {};
   let ok = false;
 
-  if (mp3) {
+  if (phrase) {
+    // Browser TTS is the intended playback for phrases — nothing to store.
+    // Clear any previously stored glued clip so AudioButton state stays clean
+    // (`ok: true` so bulk refresh doesn't report every collocation as failed).
+    update.audio_us_key = null;
+    update.audio_us_status = null;
+    ok = true;
+  } else if (mp3) {
     try {
       const bucket = await getAudioBucket();
       await bucket.put(audioKey(cardId), mp3, {

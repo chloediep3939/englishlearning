@@ -56,9 +56,13 @@ export default function WordRow({ card, index, isLast, onClick, onCardUpdated }:
   const missing = getMissingFields(card);
   const [fetching, setFetching] = useState(false);
   const [fetchFailed, setFetchFailed] = useState(false);
-  // "Get IPA + Oxford audio" is offered whenever either is missing. Multi-word
-  // entries are split server-side (per-word Oxford fetch, combined mp3 + IPA).
-  const needsPronunciation = !card.ipa || card.audio_us_status !== 'ok';
+  // "Get IPA + Oxford audio" is offered whenever something is missing.
+  // Phrases never store audio (browser TTS is their playback), so for them
+  // only a missing IPA warrants the button; single words also check audio.
+  const isPhrase = /\s/.test(card.english.trim());
+  const needsPronunciation = isPhrase
+    ? !card.ipa
+    : !card.ipa || card.audio_us_status !== 'ok';
 
   async function handleFetchPronunciation(e: React.MouseEvent) {
     e.stopPropagation();
