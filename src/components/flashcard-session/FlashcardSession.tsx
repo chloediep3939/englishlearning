@@ -48,10 +48,14 @@ interface Props {
  * has NOT received a q=0 on this card in the current session. Matches
  * srs.ts so the session UI counter and the DB `status` agree.
  *
- * SRS state is updated server-side on every rate regardless of queue
- * movement — repeated rates on the same card (e.g. LẠI then TỐT) produce
- * separate `flashcard_reviews` rows. The card's final SRS state reflects
- * the LAST rating, which matches the learner's most recent signal.
+ * SRS apply protocol (apply_srs flag on /api/cards/:id/rate):
+ *   - LẠI (q=0)            → ALWAYS applied (a lapse is a lapse, even if the
+ *                            card was rated Tốt two minutes earlier).
+ *   - gate-passing rating  → applied (the card's FINAL verdict this session).
+ *   - intermediate ratings → log-only (flashcard_reviews row, no SRS mutation).
+ * Consequence: quitting mid-session leaves unfinished cards untouched — new
+ * cards stay 'new' and reappear in /study; due cards stay due. Every rating
+ * is still logged either way.
  *
  * Reload mid-session: state is in memory only. Acceptable v1 trade-off.
  */
@@ -76,9 +80,6 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
   // run) or 3 (had a wrong) — see calculateMastery in handleRate. Resets
   // to 0 whenever the card gets q=0.
   const correctCountRef = useRef<Map<number, number>>(new Map());
-  // NEW: tracks cards whose server SRS state has been mutated this session.
-  // First rating per card per session: mutate + log. Subsequent: log only.
-  const srsUpdatedThisSessionRef = useRef<Set<number>>(new Set());
 
   const [phase, setPhase] = useState<Phase>('TYPING');
   const [input, setInput] = useState('');
@@ -117,7 +118,16 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
     setAutoplayCount(0);
     let cancelled = false;
     let count = 0;
-    const { english: word, audio_url } = current;
+    const { english: word } = current;
+    // Stored Oxford US mp3 (R2, served by /api/audio/[cardId]) — same source
+    // as AudioButton. Phrases never store audio (browser TTS by design), and
+    // a failed/never-fetched card has no file — both fall through to TTS.
+    // If the file 404s / stalls anyway, per-play error handlers fall back.
+    const oxfordUrl =
+      current.audio_us_status === 'ok' && !/\s/.test(word.trim())
+        ? `/api/audio/${current.id}?v=${encodeURIComponent(current.updated_at ?? '')}`
+        : null;
+    let currentAudio: HTMLAudioElement | null = null;
 
     function playOnce() {
       if (cancelled || count >= AUDIO_AUTOPLAY_COUNT) return;
@@ -128,33 +138,19 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
         if (!cancelled) setTimeout(playOnce, AUDIO_PAUSE_MS);
       };
 
-      // TEMP: bypass DB `audio_url` and always use TTS while recorded
-      // dictionary audio is unreliable. Remove this short-circuit (and
-      // restore the `if (audio_url) { ... }` block below) to bring back
-      // the original mp3-first autoplay.
-      speakTTS();
-      return;
-      // eslint-disable-next-line no-unreachable
-      if (audio_url) {
+      if (oxfordUrl) {
         try {
-          // Narrowed to non-null by the if; cast required because the TEMP
-          // `return` above confuses TS flow analysis in this dead branch.
-          const audio = new Audio(audio_url as string);
+          const audio = new Audio(oxfordUrl);
+          currentAudio = audio;
           audio.onended = onComplete;
-          audio.onerror = (e) => {
+          audio.onerror = () => {
             // eslint-disable-next-line no-console
-            console.warn('[autoplay] audio_url failed, fallback TTS:', audio_url, e);
+            console.warn('[autoplay] Oxford mp3 failed, fallback TTS:', oxfordUrl);
             speakTTS();
           };
-          audio.play().catch((err) => {
-            // eslint-disable-next-line no-console
-            console.warn('[autoplay] audio.play() rejected, fallback TTS:', err);
-            speakTTS();
-          });
+          audio.play().catch(() => speakTTS());
           return;
-        } catch (err) {
-          // eslint-disable-next-line no-console
-          console.warn('[autoplay] new Audio() threw, fallback TTS:', err);
+        } catch {
           speakTTS();
           return;
         }
@@ -196,6 +192,11 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
     return () => {
       cancelled = true;
       clearTimeout(startTimer);
+      if (currentAudio) {
+        try {
+          currentAudio.pause();
+        } catch {}
+      }
       if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
         try {
           window.speechSynthesis.cancel();
@@ -229,8 +230,17 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
       const failedThisSession = failedThisSessionRef.current.has(current.id);
       const correctCount = correctCountRef.current.get(current.id) ?? 0;
 
-      const isFirstRatingThisSession = !srsUpdatedThisSessionRef.current.has(current.id);
-      srsUpdatedThisSessionRef.current.add(current.id);
+      // Session gate — decides both queue eviction AND whether this rating
+      // is the card's final (SRS-applied) verdict for the session.
+      const shouldMaster =
+        quality === 5 ||
+        correctCount >= 3 ||
+        (correctCount >= 2 && !failedThisSession);
+
+      // Apply SRS on: every LẠI (lapse must always count), and the
+      // gate-passing final rating. Intermediate ratings are log-only, so
+      // quitting mid-session leaves the card's schedule untouched.
+      const applySrs = quality === 0 || shouldMaster;
 
       void fetch(`/api/cards/${current.id}/rate`, {
         method: 'POST',
@@ -238,7 +248,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
         body: JSON.stringify({
           quality,
           failed_this_session: failedThisSession,
-          is_first_rating_this_session: isFirstRatingThisSession,
+          apply_srs: applySrs,
         }),
       })
         .then((res) => {
@@ -252,20 +262,12 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
           setTimeout(() => setErrorMsg(null), 4000);
         });
 
-      // Local queue eviction only. Server SRS state is decided by
-      // calculateNextReview's interval-based mastery gate (see srs.ts).
-      // These two "mastered" notions are intentionally decoupled — within a
-      // session the learner only needs to see a card 2-3 times even if it's
-      // not yet mastered on the server.
+      // Queue movement — `shouldMaster` computed above (it also decided
+      // whether the rating was SRS-applied):
       //   - q=5 (DỄ)                                 → evict immediately
       //   - correctCount >= 2 AND no fail this run   → evict (clean run)
       //   - correctCount >= 3                        → evict (had a wrong)
       //   - else                                     → requeue
-      const shouldMaster =
-        quality === 5 ||
-        correctCount >= 3 ||
-        (correctCount >= 2 && !failedThisSession);
-
       if (shouldMaster) {
         setMastered((prev) => {
           const next = new Set(prev);

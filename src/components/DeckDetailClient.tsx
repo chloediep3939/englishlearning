@@ -81,6 +81,16 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
     [cards],
   );
 
+  // Cards due for review RIGHT NOW (never-scheduled counts as due) — the
+  // stage bar shows lifecycle distribution, but "đến hạn" is what actually
+  // answers "có gì để ôn không?". Matches getDueForReview's SQL predicate;
+  // next_review_at is stored as UTC "YYYY-MM-DD HH:MM:SS" so a plain string
+  // compare against the same format works.
+  const dueCount = useMemo(() => {
+    const nowUtc = new Date().toISOString().replace('T', ' ').slice(0, 19);
+    return cards.filter((c) => !c.next_review_at || c.next_review_at <= nowUtc).length;
+  }, [cards]);
+
   const total = cards.length;
 
   const filtered = useMemo(() => {
@@ -371,6 +381,29 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
 
         {/* Stage breakdown bar */}
         <StageBreakdown counts={counts} total={total} />
+
+        {/* Due-now chip — the stage legend above shows lifecycle stages
+            (ÔN = status 'review'), which confused "is anything due?". */}
+        {dueCount > 0 && (
+          <div
+            style={{
+              marginTop: 10,
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+              padding: '5px 12px',
+              background: 'color-mix(in srgb, var(--v-primary) 12%, transparent)',
+              border: '1px solid color-mix(in srgb, var(--v-primary) 40%, transparent)',
+              borderRadius: 'var(--v-radius-pill)',
+              fontFamily: 'var(--v-font-head)',
+              fontWeight: 800,
+              fontSize: 'var(--v-text-xs)',
+              color: 'var(--v-primary)',
+            }}
+          >
+            ⏰ {dueCount} từ đến hạn ôn hôm nay
+          </div>
+        )}
 
         {/* Broken-card fixer — only shown when at least one card is missing
             an auto-fillable field. Sits inline so it stays adjacent to the

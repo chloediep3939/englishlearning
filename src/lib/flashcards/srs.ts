@@ -62,17 +62,38 @@ function applyFuzz(interval: number): number {
   return Math.max(1, Math.round(interval + offset));
 }
 
+/** Lapse keeps this share of the old interval (Anki's "new interval %").
+ *  A 6-month card that slips once relearns from ~6 weeks, not from zero. */
+const LAPSE_KEEP_RATIO = 0.25;
+
 /**
  * SM-2 with 4-button rating (Lại/Khó/Tốt/Dễ → 0/2/4/5).
  *
  * Returns next review state given current card state + user rating.
  *
- *   quality 0 (Lại):  reset reps, schedule +1 minute, ease −0.2 (floor 1.3)
- *   quality 2 (Khó):  interval × 1.2 once graduated; ease −0.15 (−0.25 at reps=1)
+ *   quality 0 (Lại):  reps→0, schedule +1 minute (same-session relearn).
+ *                     Graduated cards (reps>=2): ease −0.2 AND keep 25% of
+ *                     the old interval as the relearn baseline. Cards still
+ *                     in learning: no ease penalty (Anki: learning-phase
+ *                     answers never touch ease — avoids "ease hell").
+ *   quality 2 (Khó):  interval × 1.2 once graduated; ease −0.15 (graduated only)
  *   quality 4 (Tốt):  interval × ease;               ease unchanged
- *   quality 5 (Dễ):   interval × ease × 1.3;         ease +0.15
+ *   quality 5 (Dễ):   interval × ease × 1.3;         ease +0.15 (graduated only)
  *
- * Mastery gate (NEW, tight): status='mastered' only when both
+ * Day-granular scheduling: q>0 intervals land on the DATE boundary
+ * (00:00 UTC ≈ 7:00 sáng VN) — "1 ngày" means the card IS due tomorrow
+ * morning, not 24h-to-the-minute after tonight's rating (which made cards
+ * invisible in morning sessions).
+ *
+ * `failedThisSession`: the learner lapsed this card earlier in the current
+ * session. A graduating Dễ right after a lapse caps at the 1-day step
+ * instead of jumping to 4 days.
+ *
+ * Lapse carry-over: after q=0 keeps 25% of the interval, the next
+ * graduating/early steps use max(step, carried interval) so relearning a
+ * mature card doesn't clobber the kept remnant back down to 1–4 days.
+ *
+ * Mastery gate (tight): status='mastered' only when both
  *   - interval_days >= 60   (held for ~2 months without forgetting)
  *   - repetitions >= 4      (multiple distinct review sessions)
  *
@@ -86,6 +107,9 @@ export function calculateNextReview(
   opts: { failedThisSession?: boolean } = {},
 ): SRSUpdate {
   const prev_interval = card.interval_days;
+  // Ease only ever moves once the card has graduated (2+ successful reps
+  // BEFORE this rating). Learning-phase answers never touch it.
+  const graduated = card.repetitions >= 2;
   let ease = card.ease_factor;
   let interval = card.interval_days;
   let reps = card.repetitions;
@@ -93,17 +117,26 @@ export function calculateNextReview(
 
   if (quality === 0) {
     reps = 0;
-    interval = 0;
-    ease = Math.max(1.3, ease - 0.2);
     status = 'learning';
+    if (graduated) {
+      ease = Math.max(1.3, ease - 0.2);
+      // Keep a fraction of the old interval — relearning resumes from here.
+      interval = Math.max(1, Math.round(interval * LAPSE_KEEP_RATIO));
+    } else {
+      interval = 0; // true reset for cards that never graduated
+    }
   } else {
     reps += 1;
     if (reps === 1) {
-      // Graduating step: Easy gets 4 days, Good/Hard get 1 day.
-      interval = quality === 5 ? 4 : 1;
+      // Graduating step: Easy gets 4 days, Good/Hard get 1 day. An Easy
+      // right after an in-session lapse stays at 1 day. max() preserves a
+      // lapse carry-over (25% of a mature interval) instead of clobbering it.
+      const step = quality === 5 && !opts.failedThisSession ? 4 : 1;
+      interval = Math.max(step, interval);
       status = 'learning';
     } else if (reps === 2) {
-      interval = quality === 2 ? 2 : quality === 4 ? 3 : 4;
+      const step = quality === 2 ? 2 : quality === 4 ? 3 : 4;
+      interval = Math.max(step, interval);
       status = 'review';
     } else {
       const mult = quality === 2 ? 1.2 : quality === 4 ? ease : ease * 1.3;
@@ -111,15 +144,12 @@ export function calculateNextReview(
       status = 'review';
     }
 
-    // Ease adjustments
-    if (quality === 2) {
-      // Stronger penalty at reps=1: Khó on a fresh card means the learner
-      // really struggled, so make future intervals shorter via lower ease.
-      ease = Math.max(1.3, ease - (reps === 1 ? 0.25 : 0.15));
-    } else if (quality === 5) {
-      ease = ease + 0.15;
+    // Ease adjustments — graduated cards only (see note above).
+    if (graduated) {
+      if (quality === 2) ease = Math.max(1.3, ease - 0.15);
+      else if (quality === 5) ease = ease + 0.15;
+      // quality === 4 (Tốt): ease unchanged — SM-2 standard
     }
-    // quality === 4 (Tốt): ease unchanged — SM-2 standard
 
     // Fuzz intervals >= 4 days to prevent clumping
     if (interval >= 4) interval = applyFuzz(interval);
@@ -132,13 +162,16 @@ export function calculateNextReview(
   }
 
   const next = new Date();
+  let next_review_at: string;
   if (quality === 0) {
     next.setMinutes(next.getMinutes() + 1);
+    next_review_at = next.toISOString().replace('T', ' ').slice(0, 19);
   } else {
-    next.setDate(next.getDate() + interval);
+    // Day-granular: due at 00:00 UTC of the target date (≈ 7:00 sáng VN),
+    // so an evening "1 ngày" rating is reviewable the next morning.
+    next.setUTCDate(next.getUTCDate() + interval);
+    next_review_at = `${next.toISOString().slice(0, 10)} 00:00:00`;
   }
-  // ISO format: "YYYY-MM-DD HH:MM:SS"
-  const next_review_at = next.toISOString().replace('T', ' ').slice(0, 19);
 
   return {
     status,

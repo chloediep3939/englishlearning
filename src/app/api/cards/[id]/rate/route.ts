@@ -23,6 +23,7 @@ export async function POST(
     const body = (await req.json().catch(() => ({}))) as {
       quality?: unknown;
       failed_this_session?: unknown;
+      apply_srs?: unknown;
       is_first_rating_this_session?: unknown;
     };
     const quality = Number(body.quality);
@@ -33,9 +34,15 @@ export async function POST(
       );
     }
     const failedThisSession = body.failed_this_session === true;
-    // Default true: a single direct call (no flag) is treated as a first rating.
-    // Session UI explicitly sends `false` on re-rates within the same session.
-    const isFirstRatingThisSession = body.is_first_rating_this_session !== false;
+    // `apply_srs` (default true): whether this rating mutates SRS state or is
+    // log-only. The session UI applies SRS when a card passes the session
+    // gate (its final rating) and on every LẠI (lapse) — intermediate
+    // re-ratings are log-only. Legacy field `is_first_rating_this_session`
+    // still honored for cached clients.
+    const applySrs =
+      body.apply_srs !== undefined
+        ? body.apply_srs === true
+        : body.is_first_rating_this_session !== false;
 
     const result = await flashcardReviewsDb.recordRating(
       userId,
@@ -43,7 +50,7 @@ export async function POST(
       quality as SRSQuality,
       {
         failedThisSession,
-        srsUpdate: isFirstRatingThisSession,
+        srsUpdate: applySrs,
       },
     );
 
