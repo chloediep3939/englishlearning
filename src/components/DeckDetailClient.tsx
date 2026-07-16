@@ -571,6 +571,7 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
               index={idx + 1}
               isLast={idx === filtered.length - 1}
               onClick={() => setSelectedCard(card)}
+              onCardUpdated={handleCardUpdated}
             />
           ))}
         </div>

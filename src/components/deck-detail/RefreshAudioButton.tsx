@@ -22,10 +22,13 @@ interface Progress {
 }
 
 interface Props {
-  cards: Flashcard[];
+  /** Only id + english are needed — lets the decks index page pass a slim
+   *  list of ALL the user's cards without serializing full card rows. */
+  cards: ReadonlyArray<Pick<Flashcard, 'id' | 'english'>>;
   /** Swap the refreshed card into the parent's state — the new `updated_at`
-   *  also busts the audio cache so the new clip plays immediately. */
-  onCardUpdated: (card: Flashcard) => void;
+   *  also busts the audio cache so the new clip plays immediately. Optional:
+   *  the decks index page has no card list state to update. */
+  onCardUpdated?: (card: Flashcard) => void;
   /** Style override so the host can fit the button into its header row. */
   style?: React.CSSProperties;
 }
@@ -62,7 +65,7 @@ export default function RefreshAudioButton({ cards, onCardUpdated, style }: Prop
             `/api/cards/${card.id}/refresh-audio`,
             { method: 'POST' },
           );
-          if (data.card) onCardUpdated(data.card);
+          if (data.card) onCardUpdated?.(data.card);
           setProgress((p) =>
             p
               ? {
