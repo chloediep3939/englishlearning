@@ -8,6 +8,8 @@ import type { PteTemplate, PteTemplateFill } from '@/lib/types';
 
 interface Props {
   template: PteTemplate;
+  /** Edit mode when present: prefill and PATCH instead of POST. */
+  fill?: PteTemplateFill;
   onBack: () => void;
   /** Called after a successful save. `readNow` = jump straight to karaoke. */
   onSaved: (fill: PteTemplateFill, readNow: boolean) => void;
@@ -29,14 +31,17 @@ function segmentFrame(frame: string): Segment[] {
   return out;
 }
 
-export default function FillForm({ template, onBack, onSaved }: Props) {
+export default function FillForm({ template, fill, onBack, onSaved }: Props) {
   const slots = useMemo(() => extractSlots(template.frame_text), [template.frame_text]);
   const segments = useMemo(() => segmentFrame(template.frame_text), [template.frame_text]);
+  const editing = !!fill;
 
-  const [mode, setMode] = useState<'form' | 'paste'>('form');
-  const [topic, setTopic] = useState('');
-  const [values, setValues] = useState<Record<string, string>>({});
-  const [pasted, setPasted] = useState('');
+  const [mode, setMode] = useState<'form' | 'paste'>(
+    fill && !fill.slot_values ? 'paste' : 'form',
+  );
+  const [topic, setTopic] = useState(fill?.topic ?? '');
+  const [values, setValues] = useState<Record<string, string>>(fill?.slot_values ?? {});
+  const [pasted, setPasted] = useState(fill && !fill.slot_values ? fill.filled_text : '');
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -56,9 +61,11 @@ export default function FillForm({ template, onBack, onSaved }: Props) {
           ? { topic: topic.trim(), slot_values: values }
           : { topic: topic.trim(), filled_text: pasted.trim() };
       const data = await apiJson<{ fill: PteTemplateFill }>(
-        `/api/templates/${template.id}/fills`,
+        editing
+          ? `/api/templates/${template.id}/fills/${fill.id}`
+          : `/api/templates/${template.id}/fills`,
         {
-          method: 'POST',
+          method: editing ? 'PATCH' : 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(body),
         },
@@ -126,7 +133,7 @@ export default function FillForm({ template, onBack, onSaved }: Props) {
           color: 'var(--v-ink)',
         }}
       >
-        Tự luyện với đề mới
+        {editing ? 'Sửa bài mẫu' : 'Tự luyện với đề mới'}
       </h2>
       <p
         style={{
@@ -136,8 +143,9 @@ export default function FillForm({ template, onBack, onSaved }: Props) {
           fontSize: 'var(--v-text-sm)',
         }}
       >
-        Điền ý cho một chủ đề mới rồi nghe mình đọc cả bài — hoặc dán bài đã điền
-        sẵn từ nơi khác.
+        {editing
+          ? 'Sửa nội dung rồi lưu — bài nghe sẽ cập nhật theo ngay.'
+          : 'Điền ý cho một chủ đề mới rồi nghe mình đọc cả bài — hoặc dán bài đã điền sẵn từ nơi khác.'}
       </p>
 
       <div style={{ display: 'flex', gap: 8, marginBottom: 14 }}>
@@ -330,7 +338,7 @@ export default function FillForm({ template, onBack, onSaved }: Props) {
             opacity: canSave ? 1 : 0.5,
           }}
         >
-          <Save size={15} /> {saving ? 'Đang lưu…' : 'Lưu bài mẫu'}
+          <Save size={15} /> {saving ? 'Đang lưu…' : editing ? 'Lưu thay đổi' : 'Lưu bài mẫu'}
         </button>
         <button
           type="button"

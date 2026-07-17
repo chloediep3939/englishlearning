@@ -143,6 +143,37 @@ export const pteTemplateFillsDb = {
     return row ? hydrateFill(row) : null;
   },
 
+  /**
+   * Partial update. `slot_values` and `filled_text` travel together from the
+   * route (it re-assembles filled_text whenever slot_values change) so the
+   * stored pair stays consistent.
+   */
+  async update(
+    userId: number,
+    id: number,
+    fields: Partial<{
+      topic: string;
+      slot_values: Record<string, string> | null;
+      filled_text: string;
+    }>,
+  ): Promise<PteTemplateFill | null> {
+    const sets: string[] = [];
+    const values: unknown[] = [];
+    if (fields.topic !== undefined)       { sets.push('topic = ?');            values.push(fields.topic); }
+    if (fields.slot_values !== undefined) { sets.push('slot_values_json = ?');
+                                            values.push(fields.slot_values ? JSON.stringify(fields.slot_values) : null); }
+    if (fields.filled_text !== undefined) { sets.push('filled_text = ?');      values.push(fields.filled_text); }
+    if (sets.length === 0) return pteTemplateFillsDb.getById(userId, id);
+
+    values.push(id, userId);
+    const db = await getDb();
+    await db
+      .prepare(`UPDATE pte_template_fills SET ${sets.join(', ')} WHERE id = ? AND user_id = ?`)
+      .bind(...values)
+      .run();
+    return pteTemplateFillsDb.getById(userId, id);
+  },
+
   async listByTemplate(userId: number, templateId: number): Promise<PteTemplateFill[]> {
     const db = await getDb();
     const result = await db

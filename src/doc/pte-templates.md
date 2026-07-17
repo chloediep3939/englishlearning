@@ -46,7 +46,10 @@ and offers four practice modes centered on TTS listening.
    `POST /api/reading/tts` (blob cached per line, speechSynthesis fallback).
 3. **Tự luyện với đề mới** (`FillForm`): slot form with live preview (filled
    values green, missing slots orange) or paste-whole toggle; "Lưu và đọc ngay"
-   saves then jumps straight to karaoke of the new fill.
+   saves then jumps straight to karaoke of the new fill. The same component
+   also edits an existing fill (Pencil button on a fill row → prefilled form,
+   PATCH `/api/templates/[id]/fills/[fillId]`; switching modes converts the
+   fill between slot-form and pasted-whole).
 4. **Quiz điền slot** (`SlotQuiz`): frame visible, slot contents of a chosen
    fill hidden behind inline inputs; lenient grading (lowercase, strip
    punctuation, collapse spaces); per-slot reveal; only fills with
@@ -72,5 +75,4 @@ and offers four practice modes centered on TTS listening.
   session — same as read-once.
 - `SLOT_RE` would treat prose like `[sic]` as a slot; the editor's live slot
   pills make that visible.
-- No SRS, no fill re-edit (delete + recreate), no mobile-optimized layout for
-  the new pages.
+- No SRS, no mobile-optimized layout for the new pages.

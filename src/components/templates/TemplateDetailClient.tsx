@@ -36,6 +36,7 @@ export default function TemplateDetailClient({
   const [fills, setFills] = useState(initialFills);
   const [mode, setMode] = useState<Mode>('menu');
   const [karaokeSource, setKaraokeSource] = useState<{ title: string; text: string } | null>(null);
+  const [editingFill, setEditingFill] = useState<PteTemplateFill | null>(null);
   const [busy, setBusy] = useState(false);
 
   const slotCount = extractSlots(template.frame_text).length;
@@ -50,7 +51,13 @@ export default function TemplateDetailClient({
   };
 
   const handleFillSaved = (fill: PteTemplateFill, readNow: boolean) => {
-    setFills((prev) => [fill, ...prev]);
+    // Replace when it's an edit, prepend when it's new.
+    setFills((prev) =>
+      prev.some((f) => f.id === fill.id)
+        ? prev.map((f) => (f.id === fill.id ? fill : f))
+        : [fill, ...prev],
+    );
+    setEditingFill(null);
     router.refresh();
     if (readNow) openFillKaraoke(fill);
     else setMode('menu');
@@ -106,7 +113,17 @@ export default function TemplateDetailClient({
     );
   }
   if (mode === 'fill') {
-    return <FillForm template={template} onBack={() => setMode('menu')} onSaved={handleFillSaved} />;
+    return (
+      <FillForm
+        template={template}
+        fill={editingFill ?? undefined}
+        onBack={() => {
+          setEditingFill(null);
+          setMode('menu');
+        }}
+        onSaved={handleFillSaved}
+      />
+    );
   }
   if (mode === 'quiz') {
     return <SlotQuiz template={template} fills={fills} onBack={() => setMode('menu')} />;
@@ -148,7 +165,10 @@ export default function TemplateDetailClient({
       color: 'var(--v-teal)',
       title: 'Tự luyện với đề mới',
       desc: 'Điền các ý cho một chủ đề mới rồi nghe mình đọc cả bài hoàn chỉnh.',
-      onClick: () => setMode('fill'),
+      onClick: () => {
+        setEditingFill(null);
+        setMode('fill');
+      },
     },
     {
       key: 'quiz',
@@ -382,6 +402,30 @@ export default function TemplateDetailClient({
                 }}
               >
                 <Play size={13} /> Đọc bài
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setEditingFill(f);
+                  setMode('fill');
+                }}
+                title="Sửa bài mẫu"
+                aria-label="Sửa bài mẫu"
+                style={{
+                  width: 32,
+                  height: 32,
+                  borderRadius: 9,
+                  border: '1px solid var(--v-border)',
+                  background: 'var(--v-surface)',
+                  color: 'var(--v-ink-soft)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  cursor: 'pointer',
+                  flexShrink: 0,
+                }}
+              >
+                <Pencil size={14} />
               </button>
               <button
                 type="button"
