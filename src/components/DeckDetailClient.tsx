@@ -21,6 +21,7 @@ import CardDetailModal from './deck-detail/CardDetailModal';
 import DeleteDeckDialog from './deck-detail/DeleteDeckDialog';
 import DeckExportButton from './deck-detail/DeckExportButton';
 import RefreshAudioButton from './deck-detail/RefreshAudioButton';
+import RefreshIpaButton from './deck-detail/RefreshIpaButton';
 import { STAGE_COLOR, type FilterTab } from './deck-detail/constants';
 
 interface RegenResponse {
@@ -162,6 +163,19 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
   // handleCardSaved this doesn't open the modal — it's a background update.
   function handleCardUpdated(updated: Flashcard) {
     setCards((prev) => prev.map((c) => (c.id === updated.id ? updated : c)));
+  }
+
+  // Reload the whole card list after a bulk IPA refresh — the route only
+  // returns counts, so re-fetch to show the new IPAs in the word rows.
+  async function reloadCards() {
+    try {
+      const data = await apiJson<{ cards: Flashcard[] }>(
+        `/api/cards?deck_id=${deck.id}&limit=500`,
+      );
+      setCards(data.cards);
+    } catch {
+      router.refresh();
+    }
   }
 
   /**
@@ -306,6 +320,7 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
           )}
           <DeckExportButton deckId={deck.id} />
           <RefreshAudioButton cards={cards} onCardUpdated={handleCardUpdated} />
+          <RefreshIpaButton deckId={deck.id} onDone={() => void reloadCards()} />
           <button
             type="button"
             onClick={() => setEditing(true)}

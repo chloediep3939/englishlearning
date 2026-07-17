@@ -2,22 +2,12 @@ import Link from 'next/link';
 import { ArrowLeft, Folder } from 'lucide-react';
 import DeckList from '@/components/DeckList';
 import MDecksList from '@/components/app-mobile/screens/MDecksList';
-import RefreshIpaButton from '@/components/RefreshIpaButton';
 import DeckImportButton from '@/components/DeckImportButton';
-import RefreshAudioButton from '@/components/deck-detail/RefreshAudioButton';
-import { requireUserId } from '@/lib/current-user';
-import { flashcardsDb } from '@/lib/db';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 export default async function DecksPage() {
-  // Slim id+english list for the all-decks "Cập nhật phát âm" button — full
-  // card rows would bloat the RSC payload at collocation-deck scale.
-  const userId = await requireUserId();
-  const cards = await flashcardsDb.getAll(userId, 10_000);
-  const slim = cards.map((c) => ({ id: c.id, english: c.english }));
-
   return (
     <>
     <div className="md:hidden">
@@ -67,8 +57,6 @@ export default async function DecksPage() {
 
       <div style={{ marginBottom: 20, display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
         <DeckImportButton />
-        <RefreshIpaButton />
-        <RefreshAudioButton cards={slim} />
       </div>
 
       <DeckList />
