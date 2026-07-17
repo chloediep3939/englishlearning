@@ -75,3 +75,25 @@ toggle hides, word lookups still return Gemini IPA only.
 - Desktop + mobile layouts render both subtrees (`hidden md:block` / `md:hidden`) sharing one engine instance — the passage DOM exists twice (one hidden).
 - Sentence splitting is regex-based; abbreviations ("Dr.", "U.S.") may mis-split.
 - `KaraokeReader.tsx` is now orphaned (kept, per repo's no-delete-orphans convention).
+
+## Aria voice (Edge TTS) — 2026-07-17
+
+Sentence playback now prefers a server-synthesized **Edge TTS Aria** mp3 over
+browser speechSynthesis:
+
+- `POST /api/reading/tts` ({ text } ≤ 800 chars) → `{ audio: base64,
+  boundaries: [{t, w}] }` via `src/lib/edge-tts/synthesize.ts` (restored from
+  commit b2abfad and extended with `wordBoundaryEnabled` — the synthesizer
+  reports each word's audio offset).
+- `use-karaoke.ts`: `speakSentence` fetches + memoizes the mp3 per sentence
+  (blob URL, sticky 'failed'), plays it with a rAF loop mapping
+  `audio.currentTime` → i-th word boundary → i-th word token (karaoke
+  highlight preserved). Prefetches the next sentence during playback so
+  auto-continue has no synthesis gap. Rate chips adjust `playbackRate` live.
+  Any failure (dev-mode Node runtime, MS DRM rotation, 503, autoplay block)
+  falls back to the original speechSynthesis path per sentence.
+- Unofficial-API caveat: constants in `synthesize.ts` must track a current
+  Edge version (stale → 403). If MS breaks it, the reader silently reverts
+  to browser TTS.
+- Chunk practice (`use-chunk-practice`) still uses browser TTS — separate
+  engine, candidate for the same treatment later.
