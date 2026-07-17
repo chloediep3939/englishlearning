@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { Zap, Check, X, ArrowRight, BookOpen } from 'lucide-react';
+import { Zap, Check, X, ArrowRight, BookOpen, Timer, TimerOff } from 'lucide-react';
 import AudioButton from './AudioButton';
 import WordReviewModal from './common/WordReviewModal';
 import SummaryScreen, { type QuestionResult } from './speed-quiz/SummaryScreen';
@@ -18,6 +18,26 @@ const CORRECT_ADVANCE_MS = 900;
 // (vi_to_en) is not auto-read.
 function isEnglishPrompt(q: SpeedQuizQuestion): boolean {
   return q.question_mode === 'en_to_vi' || q.question_mode === 'spelling';
+}
+
+// Remembered show/hide preference for the timer bar (purely visual — the
+// timer is soft and never picks an answer, so hiding it changes nothing else).
+const TIMER_VISIBLE_KEY = 'speed-quiz-timer-visible';
+
+function getStoredTimerVisible(): boolean {
+  try {
+    return window.localStorage.getItem(TIMER_VISIBLE_KEY) !== '0';
+  } catch {
+    return true;
+  }
+}
+
+function storeTimerVisible(visible: boolean) {
+  try {
+    window.localStorage.setItem(TIMER_VISIBLE_KEY, visible ? '1' : '0');
+  } catch {
+    // localStorage unavailable — preference just won't persist
+  }
 }
 
 function longestStreak(results: ReadonlyArray<{ passed: boolean }>): number {
@@ -52,6 +72,9 @@ export default function SpeedQuizSession({ questions, mode, onRestart, timerSeco
   const [questionStart, setQuestionStart] = useState(() => Date.now());
   const [done, setDone] = useState(false);
   const [reviewOpen, setReviewOpen] = useState(false);
+  // Show/hide the timer bar (visual only). Mounted client-side only (after
+  // the quiz starts), so reading localStorage in the initializer is safe.
+  const [timerVisible, setTimerVisible] = useState(getStoredTimerVisible);
   // Pending auto-advance timer set after a correct answer.
   const advanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -200,7 +223,41 @@ export default function SpeedQuizSession({ questions, mode, onRestart, timerSeco
         <span>
           <Zap size={12} style={{ display: 'inline', verticalAlign: -2, color: 'var(--v-yellow)' }} /> {position + 1} / {questions.length}
         </span>
-        <span style={{ color: 'var(--v-primary)' }}>{correct} đúng</span>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 10 }}>
+          {timerSeconds > 0 && (
+            <button
+              type="button"
+              onClick={() => {
+                setTimerVisible((v) => {
+                  storeTimerVisible(!v);
+                  return !v;
+                });
+              }}
+              title={timerVisible ? 'Ẩn thanh giờ' : 'Hiện thanh giờ'}
+              aria-label={timerVisible ? 'Ẩn thanh giờ' : 'Hiện thanh giờ'}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 4,
+                padding: '3px 8px',
+                background: 'var(--v-surface)',
+                border: '1px solid var(--v-border)',
+                borderRadius: 'var(--v-radius-sm)',
+                color: timerVisible ? 'var(--v-ink-soft)' : 'var(--v-muted)',
+                fontFamily: 'var(--v-font-head)',
+                fontWeight: 800,
+                fontSize: 'var(--v-text-2xs)',
+                letterSpacing: 'var(--v-tracking-wide)',
+                textTransform: 'uppercase',
+                cursor: 'pointer',
+              }}
+            >
+              {timerVisible ? <Timer size={12} /> : <TimerOff size={12} />}
+              {timerVisible ? 'Ẩn giờ' : 'Hiện giờ'}
+            </button>
+          )}
+          <span style={{ color: 'var(--v-primary)' }}>{correct} đúng</span>
+        </span>
       </div>
 
       {/* Prompt card */}
@@ -216,8 +273,11 @@ export default function SpeedQuizSession({ questions, mode, onRestart, timerSeco
           position: 'relative',
         }}
       >
-        {/* Timer ring — hidden entirely when the timer is turned off (0s). */}
-        {timerSeconds > 0 && <TimerBar key={position} duration={timerMs} paused={showFeedback} />}
+        {/* Timer ring — hidden when the timer is off (0s) or the learner
+            toggled it off ("Ẩn giờ") to avoid distraction. */}
+        {timerSeconds > 0 && timerVisible && (
+          <TimerBar key={position} duration={timerMs} paused={showFeedback} />
+        )}
 
         <div
           style={{
@@ -313,7 +373,10 @@ export default function SpeedQuizSession({ questions, mode, onRestart, timerSeco
                 boxShadow: shadow,
                 fontFamily: 'var(--v-font-head)',
                 fontWeight: 800,
-                fontSize: 'var(--v-text-lg)',
+                // vi_to_en options are single English words — give them a
+                // bigger size for readability. Other modes keep the smaller
+                // size (Vietnamese meanings can be long phrases).
+                fontSize: current.question_mode === 'vi_to_en' ? 'var(--v-text-2xl)' : 'var(--v-text-lg)',
                 cursor: showFeedback ? 'default' : 'pointer',
                 textAlign: 'center',
                 minHeight: 64,
