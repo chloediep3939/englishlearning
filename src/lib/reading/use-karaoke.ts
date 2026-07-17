@@ -61,6 +61,9 @@ export function useKaraoke(options: UseKaraokeOptions) {
   const [curTok, setCurTok] = useState(-1);
   const [rate, setRate] = useState(options.initialRate ?? READING_DEFAULT_RATE);
   const [auto, setAuto] = useState(options.initialAuto ?? true);
+  // Loop whole passage: when auto-continue runs past the last sentence,
+  // restart from sentence 0 instead of stopping. Session-only (not persisted).
+  const [loop, setLoop] = useState(false);
   const [supported, setSupported] = useState(true);
   const [showVN, setShowVN] = useState(false);
   const [sel, setSel] = useState<SelectedWord | null>(null);
@@ -71,6 +74,8 @@ export function useKaraoke(options: UseKaraokeOptions) {
   rateRef.current = rate;
   const autoRef = useRef(auto);
   autoRef.current = auto;
+  const loopRef = useRef(loop);
+  loopRef.current = loop;
   const singleRef = useRef(false);
 
   // ── Edge TTS (Aria) sentence audio ──────────────────────────────────────
@@ -164,6 +169,11 @@ export function useKaraoke(options: UseKaraokeOptions) {
   const speakSentence = useCallback(
     (idx: number) => {
       if (idx < 0 || idx >= flat.length) {
+        // Ran past the end with loop on → wrap to the first sentence.
+        if (idx >= flat.length && loopRef.current && flat.length > 0) {
+          speakSentence(0);
+          return;
+        }
         setPlaying(false);
         setCurSent(-1);
         setCurTok(-1);
@@ -355,6 +365,14 @@ export function useKaraoke(options: UseKaraokeOptions) {
     });
   }, [onAutoChange]);
 
+  const toggleLoop = useCallback(() => {
+    setLoop((l) => {
+      const next = !l;
+      loopRef.current = next;
+      return next;
+    });
+  }, []);
+
   const addWord = useCallback((entry: SavedWord) => {
     setSaved((prev) => (prev.some((w) => w.clean === entry.clean) ? prev : [...prev, entry]));
   }, []);
@@ -385,6 +403,7 @@ export function useKaraoke(options: UseKaraokeOptions) {
     curTok,
     rate,
     auto,
+    loop,
     supported,
     singleRef,
     showVN,
@@ -403,6 +422,7 @@ export function useKaraoke(options: UseKaraokeOptions) {
     speakWord,
     pickRate,
     toggleAuto,
+    toggleLoop,
   };
 }
 

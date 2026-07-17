@@ -1,6 +1,6 @@
 'use client';
 
-import { SkipBack, SkipForward, Play, Pause, RefreshCw } from 'lucide-react';
+import { SkipBack, SkipForward, Play, Pause, RefreshCw, Repeat } from 'lucide-react';
 import type { KaraokeEngine } from '@/lib/reading/use-karaoke';
 import { BUN_BLUE } from '@/lib/reading/constants';
 
@@ -68,28 +68,54 @@ export default function TransportControls({ k }: { k: KaraokeEngine }) {
         </button>
       </div>
 
-      <button
-        onClick={k.restart}
-        disabled={!k.supported}
-        style={{
-          width: '100%',
-          padding: 10,
-          borderRadius: 12,
-          background: 'var(--v-panel)',
-          border: '1px solid var(--v-border)',
-          cursor: k.supported ? 'pointer' : 'not-allowed',
-          fontFamily: 'var(--v-font-head)',
-          fontWeight: 800,
-          fontSize: 12,
-          color: 'var(--v-ink-soft)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          gap: 7,
-        }}
-      >
-        <RefreshCw size={14} /> Đọc lại từ đầu
-      </button>
+      <div style={{ display: 'flex', gap: 8 }}>
+        <button
+          onClick={k.restart}
+          disabled={!k.supported}
+          style={{
+            flex: 1,
+            padding: 10,
+            borderRadius: 12,
+            background: 'var(--v-panel)',
+            border: '1px solid var(--v-border)',
+            cursor: k.supported ? 'pointer' : 'not-allowed',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 800,
+            fontSize: 12,
+            color: 'var(--v-ink-soft)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 7,
+          }}
+        >
+          <RefreshCw size={14} /> Đọc lại từ đầu
+        </button>
+        <button
+          onClick={k.toggleLoop}
+          disabled={!k.supported}
+          title="Hết bài tự quay về đầu đọc tiếp"
+          aria-pressed={k.loop}
+          style={{
+            flex: 1,
+            padding: 10,
+            borderRadius: 12,
+            background: k.loop ? BUN_BLUE : 'var(--v-panel)',
+            border: k.loop ? `1px solid ${BUN_BLUE}` : '1px solid var(--v-border)',
+            cursor: k.supported ? 'pointer' : 'not-allowed',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 800,
+            fontSize: 12,
+            color: k.loop ? '#fff' : 'var(--v-ink-soft)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 7,
+          }}
+        >
+          <Repeat size={14} /> Lặp cả bài
+        </button>
+      </div>
 
       <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 12 }}>
         <div style={{ flex: 1, height: 7, background: 'var(--v-panel)', borderRadius: 999, overflow: 'hidden' }}>

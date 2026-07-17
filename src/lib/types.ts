@@ -430,6 +430,46 @@ export interface PassageRow {
   content_hash: string | null;
 }
 
+// ===== PTE speaking templates (Template PTE) =====
+
+export interface PteTemplate {
+  id: number;
+  user_id: number;
+  title: string;
+  frame_text: string;        // raw frame incl. [slot] tokens and "/" markers
+  created_at: string;
+  fill_count?: number;       // populated by listByUser only
+}
+
+export interface PteTemplateRow {
+  id: number;
+  user_id: number;
+  title: string;
+  frame_text: string;
+  created_at: string;
+  fill_count?: number;
+}
+
+export interface PteTemplateFill {
+  id: number;
+  user_id: number;
+  template_id: number;
+  topic: string;
+  slot_values: Record<string, string> | null;  // hydrated from slot_values_json; null = pasted whole
+  filled_text: string;                          // assembled speech, keeps "/" markers
+  created_at: string;
+}
+
+export interface PteTemplateFillRow {
+  id: number;
+  user_id: number;
+  template_id: number;
+  topic: string;
+  slot_values_json: string | null;
+  filled_text: string;
+  created_at: string;
+}
+
 export interface GrammarPattern {
   name: string;
   explanation_vi: string;
