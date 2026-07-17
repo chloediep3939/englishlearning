@@ -72,3 +72,12 @@ keeps its rule/manual breaks. This makes AI output safe by construction.
   double-firing with the word-tap handlers.
 - No word-level highlight during chunk playback (whole chunk is tinted);
   boundary mapping inside chunks is a possible later upgrade.
+
+## Aria voice (2026-07-17)
+
+Chunk playback (echo + read-whole-passage) now prefers Edge TTS Aria via
+`POST /api/reading/tts`, mirroring the karaoke reader. Cache is keyed by chunk
+TEXT (manual re-chunking → new text → fresh fetch; identical chunks share one
+blob), next chunk is prefetched during playback, and any failure falls back to
+browser speechSynthesis per chunk. `stop()` bumps a play-sequence token and
+pauses the in-flight Audio element.

@@ -65,6 +65,60 @@ export function useChunkPractice({ sentences, rate, seedGlobalBreaks }: UseChunk
   const rateRef = useRef(rate);
   rateRef.current = rate;
 
+  // ── Edge TTS (Aria) chunk audio ─────────────────────────────────────────
+  // Same source as the karaoke reader (/api/reading/tts) but keyed by chunk
+  // TEXT — manual re-chunking produces new texts that fetch fresh, and
+  // identical chunks reuse one blob. Browser speechSynthesis stays as the
+  // per-chunk fallback. No word boundaries needed (whole chunk is tinted).
+  const chunkAudioCacheRef = useRef<Map<string, string | 'failed'>>(new Map());
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  // Monotonic token — any new play/stop invalidates in-flight async work.
+  const playSeqRef = useRef(0);
+
+  const stopAudio = useCallback(() => {
+    if (audioRef.current) {
+      try {
+        audioRef.current.pause();
+      } catch {
+        /* no-op */
+      }
+      audioRef.current = null;
+    }
+  }, []);
+
+  const ensureChunkAudio = useCallback(async (text: string): Promise<string | 'failed'> => {
+    const key = text.trim();
+    const cached = chunkAudioCacheRef.current.get(key);
+    if (cached) return cached;
+    try {
+      const r = await fetch('/api/reading/tts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: key }),
+      });
+      if (!r.ok) throw new Error(String(r.status));
+      const data = (await r.json()) as { audio: string };
+      const bytes = Uint8Array.from(atob(data.audio), (c) => c.charCodeAt(0));
+      const url = URL.createObjectURL(new Blob([bytes], { type: 'audio/mpeg' }));
+      chunkAudioCacheRef.current.set(key, url);
+      return url;
+    } catch {
+      chunkAudioCacheRef.current.set(key, 'failed');
+      return 'failed';
+    }
+  }, []);
+
+  // Revoke cached blobs on unmount.
+  useEffect(() => {
+    const cache = chunkAudioCacheRef.current;
+    return () => {
+      for (const url of cache.values()) {
+        if (url !== 'failed') URL.revokeObjectURL(url);
+      }
+      cache.clear();
+    };
+  }, []);
+
   // Default breaks: user's own "/" markers when the pasted text had them,
   // otherwise rule-based chunking. Recomputed when the passage changes.
   const defaultBreaks = useMemo(() => {
@@ -96,30 +150,32 @@ export function useChunkPractice({ sentences, rate, seedGlobalBreaks }: UseChunk
 
   const speakChunk = useCallback(
     (c: ChunkCursor) => {
-      if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+      if (typeof window === 'undefined') return;
       const ranges = rangesFor(c.gi);
       const range = ranges[c.ci];
       if (!range) return;
-      const synth = window.speechSynthesis;
-      synth.cancel();
+      const synth = 'speechSynthesis' in window ? window.speechSynthesis : null;
+      synth?.cancel();
+      stopAudio();
       if (pauseTimerRef.current) {
         clearTimeout(pauseTimerRef.current);
         pauseTimerRef.current = null;
       }
-      const u = new SpeechSynthesisUtterance(range.text);
-      u.lang = 'en-US';
-      u.rate = rateRef.current;
+      const seq = ++playSeqRef.current;
       setCur(c);
       setPlaying(true);
       setWaiting(false);
       setDone(false);
-      u.onend = () => {
+
+      // Shared completion: echo waits for the learner; read-whole-passage
+      // pauses then auto-advances.
+      const onSpoken = () => {
+        if (playSeqRef.current !== seq) return;
         setPlaying(false);
         if (!autoReadRef.current) {
           setWaiting(true); // echo: learner's turn — no timer, advance manually
           return;
         }
-        // Read-whole-passage: pause, then auto-advance to the next chunk.
         pauseTimerRef.current = setTimeout(() => {
           if (!autoReadRef.current) return;
           const r = rangesFor(c.gi);
@@ -142,11 +198,50 @@ export function useChunkPractice({ sentences, rate, seedGlobalBreaks }: UseChunk
           }
         }, CHUNK_PAUSE_MS);
       };
-      synth.speak(u);
+
+      const speakBrowser = () => {
+        if (!synth || playSeqRef.current !== seq) return;
+        const u = new SpeechSynthesisUtterance(range.text);
+        u.lang = 'en-US';
+        u.rate = rateRef.current;
+        u.onend = onSpoken;
+        synth.speak(u);
+      };
+
+      void (async () => {
+        const url = await ensureChunkAudio(range.text);
+        if (playSeqRef.current !== seq) return; // superseded while fetching
+        if (url === 'failed') {
+          speakBrowser();
+          return;
+        }
+        const audio = new Audio(url);
+        audioRef.current = audio;
+        audio.playbackRate = rateRef.current;
+        audio.onended = onSpoken;
+        audio.onerror = () => {
+          if (playSeqRef.current === seq) speakBrowser();
+        };
+        audio.play().catch(() => {
+          if (playSeqRef.current === seq) speakBrowser();
+        });
+        // Warm the next chunk so echo/auto flow has no synthesis gap.
+        if (c.ci + 1 < ranges.length) {
+          void ensureChunkAudio(ranges[c.ci + 1].text);
+        } else {
+          for (let gi = c.gi + 1; gi < sentences.length; gi++) {
+            const nr = rangesFor(gi);
+            if (nr.length > 0) {
+              void ensureChunkAudio(nr[0].text);
+              break;
+            }
+          }
+        }
+      })();
     },
     // speakChunk recurses in auto mode (same pattern as use-karaoke).
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [rangesFor, sentences.length],
+    [rangesFor, sentences.length, ensureChunkAudio, stopAudio],
   );
 
   /** First sentence that actually has words. */
@@ -208,9 +303,11 @@ export function useChunkPractice({ sentences, rate, seedGlobalBreaks }: UseChunk
   }, [cur, goManual, rangesFor, speakChunk]);
 
   const stop = useCallback(() => {
+    playSeqRef.current++; // invalidate in-flight fetch/audio callbacks
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }
+    stopAudio();
     if (pauseTimerRef.current) {
       clearTimeout(pauseTimerRef.current);
       pauseTimerRef.current = null;
@@ -221,7 +318,7 @@ export function useChunkPractice({ sentences, rate, seedGlobalBreaks }: UseChunk
     setWaiting(false);
     setCur(null);
     setDone(false);
-  }, []);
+  }, [stopAudio]);
 
   // Clear any pending inter-chunk pause on unmount.
   useEffect(() => () => {
