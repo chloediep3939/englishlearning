@@ -437,6 +437,7 @@ export interface PteTemplate {
   user_id: number;
   title: string;
   frame_text: string;        // raw frame incl. [slot] tokens and "/" markers
+  note: string | null;       // learner's own reminders; NULL = no note
   created_at: string;
   fill_count?: number;       // populated by listByUser only
 }
@@ -446,6 +447,7 @@ export interface PteTemplateRow {
   user_id: number;
   title: string;
   frame_text: string;
+  note: string | null;
   created_at: string;
   fill_count?: number;
 }

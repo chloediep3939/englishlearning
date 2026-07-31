@@ -10,6 +10,7 @@ const MIN_CHARS = 20;
 const MAX_CHARS = 10_000;
 const MAX_TITLE = 200;
 const MAX_SLOTS = 40;
+const MAX_NOTE = 2_000;
 
 function parseId(raw: string): number | null {
   const n = Number(raw);
@@ -79,6 +80,11 @@ export async function PATCH(
         );
       }
       updates.frame_text = frame;
+    }
+    // Note clears to NULL when the client sends an empty string or null.
+    if (typeof body.note === 'string' || body.note === null) {
+      const n2 = typeof body.note === 'string' ? body.note.trim().slice(0, MAX_NOTE) : '';
+      updates.note = n2.length > 0 ? n2 : null;
     }
 
     if (Object.keys(updates).length === 0) {

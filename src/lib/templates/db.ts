@@ -36,12 +36,12 @@ function hydrateFill(row: PteTemplateFillRow): PteTemplateFill {
 export const pteTemplatesDb = {
   async create(
     userId: number,
-    data: { title: string; frame_text: string },
+    data: { title: string; frame_text: string; note?: string | null },
   ): Promise<PteTemplate> {
     const db = await getDb();
     const result = await db
-      .prepare(`INSERT INTO pte_templates (user_id, title, frame_text) VALUES (?, ?, ?)`)
-      .bind(userId, data.title, data.frame_text)
+      .prepare(`INSERT INTO pte_templates (user_id, title, frame_text, note) VALUES (?, ?, ?, ?)`)
+      .bind(userId, data.title, data.frame_text, data.note ?? null)
       .run();
     const id = Number(result.meta.last_row_id);
     const created = await pteTemplatesDb.getById(userId, id);
@@ -77,12 +77,13 @@ export const pteTemplatesDb = {
   async update(
     userId: number,
     id: number,
-    fields: Partial<{ title: string; frame_text: string }>,
+    fields: Partial<{ title: string; frame_text: string; note: string | null }>,
   ): Promise<PteTemplate | null> {
     const sets: string[] = [];
     const values: unknown[] = [];
     if (fields.title !== undefined)      { sets.push('title = ?');      values.push(fields.title); }
     if (fields.frame_text !== undefined) { sets.push('frame_text = ?'); values.push(fields.frame_text); }
+    if (fields.note !== undefined)       { sets.push('note = ?');       values.push(fields.note); }
     if (sets.length === 0) return pteTemplatesDb.getById(userId, id);
 
     values.push(id, userId);

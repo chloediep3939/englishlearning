@@ -6,6 +6,7 @@ import DeckEditor from './DeckEditor';
 import DeckCard from './DeckCard';
 import DeleteDeckDialog from './deck-detail/DeleteDeckDialog';
 import LoadingState from '@/components/common/LoadingState';
+import DeckViewToggle, { useDeckViewMode } from '@/components/common/DeckViewToggle';
 import type { FlashcardDeck, FlashcardDeckWithCounts } from '@/lib/types';
 
 export default function DeckList() {
@@ -14,6 +15,7 @@ export default function DeckList() {
   // undefined = no modal open. null = creating new. FlashcardDeck = editing existing.
   const [editing, setEditing] = useState<FlashcardDeck | null | undefined>(undefined);
   const [deleting, setDeleting] = useState<FlashcardDeckWithCounts | null>(null);
+  const [viewMode, setViewMode] = useDeckViewMode();
 
   async function load() {
     setLoading(true);
@@ -65,40 +67,55 @@ export default function DeckList() {
 
   return (
     <>
-      <button
-        type="button"
-        onClick={() => setEditing(null)}
+      <div
         style={{
-          padding: '11px 18px',
-          background: 'var(--v-primary)',
-          color: '#fff',
-          border: 'none',
-          borderRadius: 'var(--v-radius-md)',
-          boxShadow: 'var(--v-press), 0 4px 10px rgba(122,193,67,0.4)',
-          fontFamily: 'var(--v-font-head)',
-          fontWeight: 900,
-          fontSize: 'var(--v-text-md)',
-          display: 'inline-flex',
+          display: 'flex',
           alignItems: 'center',
-          gap: 8,
-          cursor: 'pointer',
+          justifyContent: 'space-between',
+          gap: 12,
           marginBottom: 18,
         }}
       >
-        <Plus size={14} /> TẠO BỘ MỚI
-      </button>
+        <button
+          type="button"
+          onClick={() => setEditing(null)}
+          style={{
+            padding: '11px 18px',
+            background: 'var(--v-primary)',
+            color: '#fff',
+            border: 'none',
+            borderRadius: 'var(--v-radius-md)',
+            boxShadow: 'var(--v-press), 0 4px 10px rgba(122,193,67,0.4)',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 900,
+            fontSize: 'var(--v-text-md)',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 8,
+            cursor: 'pointer',
+          }}
+        >
+          <Plus size={14} /> TẠO BỘ MỚI
+        </button>
+        <DeckViewToggle mode={viewMode} onChange={setViewMode} />
+      </div>
 
       <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-          gap: 16,
-        }}
+        style={
+          viewMode === 'grid'
+            ? {
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                gap: 16,
+              }
+            : { display: 'flex', flexDirection: 'column', gap: 10 }
+        }
       >
         {decks.map((deck) => (
           <DeckCard
             key={deck.id}
             deck={deck}
+            layout={viewMode}
             onEdit={() => setEditing(deck)}
             onDelete={() => handleDelete(deck)}
           />

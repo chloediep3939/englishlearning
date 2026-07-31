@@ -3,13 +3,14 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, ScrollText, Save, X } from 'lucide-react';
+import { ArrowLeft, ScrollText, Save, X, StickyNote } from 'lucide-react';
 import { apiJson, ApiError } from '@/lib/common/api-json';
 import { extractSlots } from '@/lib/templates/slots';
 import type { PteTemplate } from '@/lib/types';
 
 const MIN_CHARS = 20;
 const HARD_CAP = 10_000;
+const NOTE_CAP = 2_000;
 
 interface Props {
   /** Edit mode when present; create mode otherwise. */
@@ -25,16 +26,19 @@ export default function TemplateEditor({ template, onDone, onCancel }: Props) {
   const editing = !!template;
   const [title, setTitle] = useState(template?.title ?? '');
   const [frame, setFrame] = useState(template?.frame_text ?? '');
+  const [note, setNote] = useState(template?.note ?? '');
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   const trimmedFrame = frame.trim();
+  const trimmedNote = note.trim();
   const slots = extractSlots(trimmedFrame);
   const canSave =
     !saving &&
     title.trim().length > 0 &&
     trimmedFrame.length >= MIN_CHARS &&
     trimmedFrame.length <= HARD_CAP &&
+    trimmedNote.length <= NOTE_CAP &&
     slots.length > 0;
 
   async function handleSave() {
@@ -46,7 +50,7 @@ export default function TemplateEditor({ template, onDone, onCancel }: Props) {
         const data = await apiJson<{ template: PteTemplate }>(`/api/templates/${template.id}`, {
           method: 'PATCH',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ title: title.trim(), frame_text: trimmedFrame }),
+          body: JSON.stringify({ title: title.trim(), frame_text: trimmedFrame, note: trimmedNote }),
         });
         onDone?.(data.template);
         router.refresh();
@@ -54,7 +58,7 @@ export default function TemplateEditor({ template, onDone, onCancel }: Props) {
         const data = await apiJson<{ template: PteTemplate }>('/api/templates', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ title: title.trim(), frame_text: trimmedFrame }),
+          body: JSON.stringify({ title: title.trim(), frame_text: trimmedFrame, note: trimmedNote }),
         });
         router.push(`/templates/${data.template.id}`);
       }
@@ -216,6 +220,61 @@ export default function TemplateEditor({ template, onDone, onCancel }: Props) {
             ))}
           </div>
         )}
+
+        {/* Ghi chú — tuỳ chọn, không tính vào điều kiện lưu trừ khi quá dài. */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+          <label
+            htmlFor="template-note"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+              fontFamily: 'var(--v-font-body)',
+              fontSize: 'var(--v-text-xs)',
+              fontWeight: 800,
+              color: 'var(--v-muted)',
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+            }}
+          >
+            <StickyNote size={13} /> Ghi chú (tuỳ chọn)
+          </label>
+          <textarea
+            id="template-note"
+            value={note}
+            onChange={(e) => setNote(e.target.value)}
+            placeholder="Ví dụ: dùng cho Describe Image / nhớ ngắt hơi sau 'overall' / chỗ [N2] hay quên…"
+            rows={3}
+            style={{
+              width: '100%',
+              padding: '10px 12px',
+              borderRadius: 'var(--v-radius-sm)',
+              border: '1px solid var(--v-border)',
+              background: 'var(--v-bg)',
+              color: 'var(--v-ink)',
+              fontFamily: 'var(--v-font-body)',
+              fontSize: 'var(--v-text-md)',
+              lineHeight: 1.55,
+              outline: 'none',
+              boxSizing: 'border-box',
+              resize: 'vertical',
+              minHeight: 72,
+            }}
+          />
+          {trimmedNote.length > NOTE_CAP && (
+            <div
+              style={{
+                fontFamily: 'var(--v-font-body)',
+                fontSize: 'var(--v-text-xs)',
+                fontWeight: 700,
+                color: 'var(--v-red)',
+              }}
+            >
+              Ghi chú quá dài ({trimmedNote.length.toLocaleString('vi-VN')} /{' '}
+              {NOTE_CAP.toLocaleString('vi-VN')} ký tự).
+            </div>
+          )}
+        </div>
 
         <div
           style={{

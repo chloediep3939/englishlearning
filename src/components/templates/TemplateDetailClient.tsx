@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import {
   ArrowLeft, Headphones, EyeOff, PenLine, ListChecks,
-  Pencil, Trash2, Play,
+  Pencil, Trash2, Play, StickyNote,
 } from 'lucide-react';
 import { apiJson } from '@/lib/common/api-json';
 import { extractSlots, stripSlots } from '@/lib/templates/slots';
@@ -266,6 +266,53 @@ export default function TemplateDetailClient({
       >
         {slotCount} chỗ trống · {fills.length} bài mẫu
       </div>
+
+      {/* Ghi chú của bạn — chỉ hiện khi template có note. Sửa qua nút "Sửa". */}
+      {template.note && (
+        <div
+          style={{
+            display: 'flex',
+            gap: 10,
+            alignItems: 'flex-start',
+            padding: '12px 14px',
+            marginBottom: 18,
+            background: 'color-mix(in srgb, var(--v-yellow) 10%, var(--v-surface))',
+            border: '1px solid color-mix(in srgb, var(--v-yellow) 40%, transparent)',
+            borderRadius: 'var(--v-radius-md)',
+          }}
+        >
+          <StickyNote
+            size={15}
+            style={{ color: 'var(--v-yellow-deep)', flexShrink: 0, marginTop: 2 }}
+          />
+          <div style={{ minWidth: 0 }}>
+            <div
+              style={{
+                fontFamily: 'var(--v-font-body)',
+                fontSize: 11,
+                fontWeight: 800,
+                color: 'var(--v-yellow-deep)',
+                letterSpacing: '0.14em',
+                textTransform: 'uppercase',
+                marginBottom: 3,
+              }}
+            >
+              Ghi chú
+            </div>
+            <div
+              style={{
+                fontFamily: 'var(--v-font-body)',
+                fontSize: 'var(--v-text-md)',
+                color: 'var(--v-ink)',
+                lineHeight: 1.55,
+                whiteSpace: 'pre-wrap',
+              }}
+            >
+              {template.note}
+            </div>
+          </div>
+        </div>
+      )}
 
       <div
         style={{

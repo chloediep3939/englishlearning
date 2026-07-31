@@ -10,10 +10,12 @@ const MIN_CHARS = 20;
 const MAX_CHARS = 10_000;
 const MAX_TITLE = 200;
 const MAX_SLOTS = 40;
+const MAX_NOTE = 2_000;
 
 interface CreateBody {
   title?: unknown;
   frame_text?: unknown;
+  note?: unknown;
 }
 
 export async function GET() {
@@ -70,7 +72,11 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Thiếu tên template.' }, { status: 400 });
     }
 
-    const template = await pteTemplatesDb.create(userId, { title, frame_text: frame });
+    // Note is optional — empty string is stored as NULL so "no note" is one shape.
+    const rawNote = typeof body.note === 'string' ? body.note.trim().slice(0, MAX_NOTE) : '';
+    const note = rawNote.length > 0 ? rawNote : null;
+
+    const template = await pteTemplatesDb.create(userId, { title, frame_text: frame, note });
     return NextResponse.json({ template }, { status: 201 });
   } catch (err) {
     if (err instanceof UnauthorizedError) {

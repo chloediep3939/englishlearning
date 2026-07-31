@@ -41,9 +41,29 @@ export default function RevealStage({
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
-      <header style={{ paddingBottom: 12, borderBottom: '1px solid var(--v-border)' }}>
-        <POSPill pos={card.part_of_speech} />
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: 18, marginTop: 6, flexWrap: 'wrap' }}>
+      {/* Headword centered so the eye lands on the key word first; the
+          audio/TTS cluster is pinned to the top-right corner instead of
+          sitting inline so it doesn't pull the word off-center. */}
+      <header
+        style={{
+          paddingBottom: 12,
+          borderBottom: '1px solid var(--v-border)',
+          position: 'relative',
+          textAlign: 'center',
+        }}
+      >
+        <div style={{ position: 'absolute', bottom: 12, left: 0 }}>
+          <POSPill pos={card.part_of_speech} />
+        </div>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'baseline',
+            justifyContent: 'center',
+            gap: 18,
+            flexWrap: 'wrap',
+          }}
+        >
           <h1
             style={{
               fontFamily: 'var(--v-font-head)',
@@ -84,17 +104,26 @@ export default function RevealStage({
               {card.ipa}
             </span>
           )}
-          <div style={{ marginLeft: 'auto', alignSelf: 'center', display: 'flex', alignItems: 'center', gap: 8 }}>
-            <AutoplayDots played={autoplayCount} total={AUDIO_AUTOPLAY_COUNT} />
-            <AudioButton
-              fallbackText={card.english}
-              size={36}
-              showTts
-              cardId={card.id}
-              audioStatus={card.audio_us_status}
-              audioVersion={card.updated_at}
-            />
-          </div>
+        </div>
+        <div
+          style={{
+            position: 'absolute',
+            bottom: 12,
+            right: 0,
+            display: 'flex',
+            alignItems: 'center',
+            gap: 8,
+          }}
+        >
+          <AutoplayDots played={autoplayCount} total={AUDIO_AUTOPLAY_COUNT} />
+          <AudioButton
+            fallbackText={card.english}
+            size={36}
+            showTts
+            cardId={card.id}
+            audioStatus={card.audio_us_status}
+            audioVersion={card.updated_at}
+          />
         </div>
       </header>
 

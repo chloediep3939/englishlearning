@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import type { FlashcardDeckWithCounts } from '@/lib/types';
 import Mascot from '@/components/common/Mascot';
+import DeckViewToggle, { useDeckViewMode } from '@/components/common/DeckViewToggle';
 import type { SessionMode } from './types';
 
 const ICON_MAP: Record<string, LucideIcon> = {
@@ -41,6 +42,7 @@ interface Props {
  * all" from "no choice made yet".
  */
 export default function DeckPickerStep({ mode, decks, basePath, totalAll }: Props) {
+  const [viewMode, setViewMode] = useDeckViewMode();
   const isStudy = mode === 'study';
   const title = isStudy ? 'Chọn bộ từ để học hôm nay' : 'Chọn bộ từ để ôn tập';
   const subtitle = isStudy
@@ -65,29 +67,39 @@ export default function DeckPickerStep({ mode, decks, basePath, totalAll }: Prop
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
-      <header>
-        <h2
-          style={{
-            fontFamily: 'var(--v-font-head)',
-            fontSize: 'var(--v-text-2xl)',
-            fontWeight: 900,
-            margin: 0,
-            color: 'var(--v-ink)',
-            letterSpacing: 'var(--v-tracking-tight)',
-          }}
-        >
-          {title}
-        </h2>
-        <p
-          style={{
-            fontFamily: 'var(--v-font-body)',
-            fontSize: 'var(--v-text-md)',
-            color: 'var(--v-muted)',
-            margin: '4px 0 0',
-          }}
-        >
-          {subtitle}
-        </p>
+      <header
+        style={{
+          display: 'flex',
+          alignItems: 'flex-end',
+          justifyContent: 'space-between',
+          gap: 12,
+        }}
+      >
+        <div style={{ minWidth: 0 }}>
+          <h2
+            style={{
+              fontFamily: 'var(--v-font-head)',
+              fontSize: 'var(--v-text-2xl)',
+              fontWeight: 900,
+              margin: 0,
+              color: 'var(--v-ink)',
+              letterSpacing: 'var(--v-tracking-tight)',
+            }}
+          >
+            {title}
+          </h2>
+          <p
+            style={{
+              fontFamily: 'var(--v-font-body)',
+              fontSize: 'var(--v-text-md)',
+              color: 'var(--v-muted)',
+              margin: '4px 0 0',
+            }}
+          >
+            {subtitle}
+          </p>
+        </div>
+        <DeckViewToggle mode={viewMode} onChange={setViewMode} />
       </header>
 
       {/* "Tất cả" card */}
@@ -103,7 +115,14 @@ export default function DeckPickerStep({ mode, decks, basePath, totalAll }: Prop
       />
 
       {/* Per-deck cards */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 12 }}>
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns:
+            viewMode === 'grid' ? 'repeat(auto-fill, minmax(260px, 1fr))' : '1fr',
+          gap: 12,
+        }}
+      >
         {sortedDecks.map((d) => {
           const count = relevantCount(d);
           const Icon = (d.icon && ICON_MAP[d.icon]) || BookOpen;
