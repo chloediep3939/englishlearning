@@ -109,8 +109,19 @@ export default function SpeedQuizSession({ questions, mode, onRestart, timerSeco
           metadata: { quiz_mode: mode, selected_idx: idx, timed_out: false },
         }),
       }).catch(() => {});
+
+      // SRS scoring — TIMED variant only (study-unified Part B). Free play
+      // (timer off) writes no review rows and never touches SRS state. The
+      // server owns all rules (new/due/daily-cap); we just report the result.
+      if (timerSeconds > 0) {
+        void fetch(`/api/cards/${current.card_id}/flashcard-result`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ correct: passed }),
+        }).catch(() => {});
+      }
     },
-    [current, questionStart, mode]
+    [current, questionStart, mode, timerSeconds]
   );
 
   const goNext = useCallback(() => {

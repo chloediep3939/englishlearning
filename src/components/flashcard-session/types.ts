@@ -1,4 +1,6 @@
-// Two-phase flow: TYPING (user guesses) → REVEAL (answer shown + rate).
+// Two-phase flow: PROMPT (typed guess, or flip prompt on recognition decks)
+// → REVEAL (answer shown + rate). The phase name stays 'TYPING' for the
+// typed variant's history.
 export type Phase = 'TYPING' | 'REVEAL';
 
 // SM-2 quality buckets. Matches `recordRating` in @/lib/db.
@@ -31,25 +33,18 @@ export const AUDIO_PAUSE_MS = 1000;
 export const REVEAL_AUDIO_START_DELAY_MS = 250;
 
 /**
- * Anki-like reinsert offsets. After rating with `quality`, the card is
- * popped from the front of the queue and reinserted at this offset (from
- * the front of the remaining queue). q=5 doesn't appear here — DỄ always
- * masters immediately and is removed.
+ * Anki-like reinsert offsets (study-unified A3). After rating with
+ * `quality`, the card is popped from the front of the queue and reinserted
+ * at this offset (from the front of the remaining queue). q=4/q=5 don't
+ * appear here — TỐT and DỄ always remove the card from the queue.
  *
- * q=4 (TỐT) is in the table because the session-level mastery gate may
- * decide a TỐT rating isn't enough yet (clean run needs 2 corrects, a
- * failed run needs 3) — when the gate keeps the card around it requeues
- * at offset 6, a longer spaced break than KHÓ since the learner is
- * already comfortable.
- *
- * Tuning: q=0 ("LẠI") loops back in ~2 cards; q=2 ("KHÓ") at ~4;
- * q=4 ("TỐT") at ~6. All within the working-memory window where
- * repetition reinforces rather than fatigues.
+ * Tuning: q=0 ("LẠI") loops back in ~2 cards; q=2 ("KHÓ") at ~4. Both
+ * within the working-memory window where repetition reinforces rather
+ * than fatigues.
  */
 export const REQUEUE_OFFSET: Partial<Record<Quality, number>> = {
   0: 2,
   2: 4,
-  4: 6,
 };
 
 /**
@@ -60,8 +55,7 @@ export const REQUEUE_OFFSET: Partial<Record<Quality, number>> = {
  * label. Everything else (queue logic, typing UX, reveal layout, SRS
  * rating, key bindings, completion screen) is shared.
  *
- * The `mode` field drives the SessionPicker's headings and status-badge
- * behavior (Review shows new/learning/review badges; Study omits them).
+ * The `mode` field records which page flavor a config belongs to.
  */
 export interface SessionConfig {
   mode: SessionMode;

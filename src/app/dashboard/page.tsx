@@ -163,7 +163,7 @@ export default async function DashboardPage() {
             <div style={{ display: 'flex', gap: 10, marginTop: 12, flexWrap: 'wrap' }}>
               {dueCount > 0 && (
                 <Link
-                  href="/review"
+                  href="/study"
                   style={{
                     padding: '11px 18px',
                     background: '#fff',

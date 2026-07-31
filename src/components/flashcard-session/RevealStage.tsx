@@ -17,6 +17,9 @@ interface Props {
   card: Flashcard;
   guess: string;
   isCorrect: boolean;
+  /** Recognition flip flow has no typed guess — hide the char-diff box and
+   *  the Enter-default hint tied to typing accuracy. */
+  hideGuess?: boolean;
   autoplayCount: number;
   onRate: (q: Quality) => void;
   /** Label above the rating buttons (varies by page). */
@@ -35,7 +38,7 @@ interface Props {
  * default so the shortcut is discoverable.
  */
 export default function RevealStage({
-  card, guess, isCorrect, autoplayCount, onRate, ratingRowLabel, failedThisSession,
+  card, guess, isCorrect, hideGuess, autoplayCount, onRate, ratingRowLabel, failedThisSession,
 }: Props) {
   const intervals = previewIntervals(card, { failedThisSession });
 
@@ -100,7 +103,7 @@ export default function RevealStage({
 
       <section style={{ display: 'grid', gridTemplateColumns: '1.25fr 1fr', gap: 20, alignItems: 'flex-start' }}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
-          <CharDiffBox guess={guess} answer={card.english} />
+          {!hideGuess && <CharDiffBox guess={guess} answer={card.english} />}
 
           <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
             <div style={{ width: 5, alignSelf: 'stretch', background: 'var(--v-accent)', borderRadius: 3, flexShrink: 0 }} />

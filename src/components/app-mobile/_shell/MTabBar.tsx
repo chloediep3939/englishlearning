@@ -19,7 +19,7 @@ interface TabSpec {
 
 const TABS: ReadonlyArray<TabSpec> = [
   { key: 'home',   label: 'Tổng quan', icon: 'home',     color: 'var(--v-primary)', href: '/dashboard' },
-  { key: 'review', label: 'Ôn tập',    icon: 'refresh',  color: 'var(--v-blue)',    href: '/review' },
+  { key: 'review', label: 'Học',       icon: 'refresh',  color: 'var(--v-blue)',    href: '/study' },
   { key: 'add',    label: 'Thêm',      icon: 'plus',     color: 'var(--v-brand)',   href: '/add' },
   { key: 'decks',  label: 'Bộ từ',     icon: 'folder',   color: 'var(--v-pink)',    href: '/decks' },
   { key: 'more',   label: 'Khác',      icon: 'settings', color: 'var(--v-muted)',   href: '/settings' },

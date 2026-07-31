@@ -6,6 +6,7 @@ import {
   Star, Music, Camera, Code, Flame, Sparkles,
   type LucideIcon,
 } from 'lucide-react';
+import Toggle from '@/components/settings-controls/Toggle';
 import type { FlashcardDeck, DeckIcon } from '@/lib/types';
 import { DECK_ICON_OPTIONS } from '@/lib/types';
 
@@ -33,6 +34,7 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
       ? (deck.icon as DeckIcon)
       : DECK_ICON_OPTIONS[0])
   );
+  const [recognitionOnly, setRecognitionOnly] = useState(deck?.recognition_only ?? false);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -46,6 +48,7 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
         ? (deck.icon as DeckIcon)
         : DECK_ICON_OPTIONS[0]
     );
+    setRecognitionOnly(deck?.recognition_only ?? false);
   }, [deck]);
 
   async function handleSave() {
@@ -68,6 +71,7 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
           color,
           icon,
           subtitle: trimmedSub.length === 0 ? null : trimmedSub,
+          recognition_only: recognitionOnly,
         }),
       });
       if (!res.ok) {
@@ -221,6 +225,16 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
               </button>
             );
           })}
+        </div>
+
+        <div style={{ marginTop: 14 }}>
+          <Toggle
+            label="Chỉ hiểu nghĩa"
+            hint="Chỉ luyện nhận diện nghĩa, không luyện chính tả / gõ từ."
+            checked={recognitionOnly}
+            onChange={setRecognitionOnly}
+            disabled={saving}
+          />
         </div>
 
         <Label>Màu</Label>

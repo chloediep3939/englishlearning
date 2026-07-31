@@ -22,3 +22,13 @@ export const reviewConfig: SessionConfig = {
   inputPlaceholder: 'Gõ tiếng Anh…',
   ratingRowLabel: 'Bạn thấy thế nào?',
 };
+
+/** Unified /study session (Ôn + Học merged) — neutral copy that works for
+ *  both due and new cards in the same queue. */
+export const unifiedConfig: SessionConfig = {
+  mode: 'study',
+  progressGradient: 'linear-gradient(90deg, var(--v-blue), var(--v-primary))',
+  promptEyebrow: 'Hãy dịch giúp mình',
+  inputPlaceholder: 'Gõ tiếng Anh — đoán cũng được',
+  ratingRowLabel: 'Bạn thấy thế nào?',
+};

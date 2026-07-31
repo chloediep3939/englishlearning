@@ -29,6 +29,7 @@ export async function POST(req: Request) {
       color?: unknown;
       icon?: unknown;
       subtitle?: unknown;
+      recognition_only?: unknown;
     };
 
     const name = typeof body.name === 'string' ? body.name.trim() : '';
@@ -53,7 +54,9 @@ export async function POST(req: Request) {
       subtitle = trimmed.length === 0 ? null : trimmed.slice(0, 60);
     }
 
-    const id = await flashcardDecksDb.create(userId, { name, description, color, icon, subtitle });
+    const recognition_only = body.recognition_only === true;
+
+    const id = await flashcardDecksDb.create(userId, { name, description, color, icon, subtitle, recognition_only });
     const deck = await flashcardDecksDb.getById(userId, id);
     return NextResponse.json(deck, { status: 201 });
   } catch (err) {

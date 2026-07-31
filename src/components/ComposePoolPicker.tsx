@@ -280,7 +280,7 @@ function TodayPanel({
             Bún muốn bạn ôn vài thẻ trước rồi quay lại nha — bài viết sẽ dùng chính những từ vừa học.
           </div>
           <Link
-            href="/review"
+            href="/study"
             style={{
               marginTop: 4,
               padding: '10px 18px',
