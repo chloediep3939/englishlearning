@@ -1,11 +1,9 @@
 'use client';
 
-import { useState } from 'react';
-import { AlertTriangle, Download, ExternalLink } from 'lucide-react';
+import { AlertTriangle, ExternalLink } from 'lucide-react';
 import AudioButton from '@/components/AudioButton';
 import { getPOSColor } from '@/components/common/POSPill';
 import { lookupUrl } from '@/components/common/LookupPills';
-import { apiJson } from '@/lib/common/api-json';
 import type { Flashcard } from '@/lib/types';
 import { STAGE_COLOR, STAGE_LABEL } from './constants';
 
@@ -39,8 +37,6 @@ interface Props {
   index: number;
   isLast: boolean;
   onClick: () => void;
-  /** Swap the updated card into the parent's list after an inline fetch. */
-  onCardUpdated?: (card: Flashcard) => void;
 }
 
 /**
@@ -52,36 +48,8 @@ interface Props {
  * detail modal in the parent. The audio button stops propagation so it
  * doesn't trigger the modal.
  */
-export default function WordRow({ card, index, isLast, onClick, onCardUpdated }: Props) {
+export default function WordRow({ card, index, isLast, onClick }: Props) {
   const missing = getMissingFields(card);
-  const [fetching, setFetching] = useState(false);
-  const [fetchFailed, setFetchFailed] = useState(false);
-  // "Get IPA + Oxford audio" is offered whenever something is missing.
-  // Phrases never store audio (browser TTS is their playback), so for them
-  // only a missing IPA warrants the button; single words also check audio.
-  const isPhrase = /\s/.test(card.english.trim());
-  const needsPronunciation = isPhrase
-    ? !card.ipa
-    : !card.ipa || card.audio_us_status !== 'ok';
-
-  async function handleFetchPronunciation(e: React.MouseEvent) {
-    e.stopPropagation();
-    if (fetching) return;
-    setFetching(true);
-    setFetchFailed(false);
-    try {
-      const data = await apiJson<{ ok: boolean; failed: boolean; card: Flashcard }>(
-        `/api/cards/${card.id}/refresh-audio`,
-        { method: 'POST' },
-      );
-      if (data.card) onCardUpdated?.(data.card);
-      if (data.failed) setFetchFailed(true);
-    } catch {
-      setFetchFailed(true);
-    } finally {
-      setFetching(false);
-    }
-  }
   return (
     <div
       role="button"
@@ -166,41 +134,6 @@ export default function WordRow({ card, index, isLast, onClick, onCardUpdated }:
             audioVersion={card.updated_at}
           />
         </span>
-        {/* get IPA + Oxford audio — only when either is missing. Multi-word
-            entries are split into words server-side and recombined. */}
-        {needsPronunciation && onCardUpdated && (
-          <button
-            type="button"
-            onClick={handleFetchPronunciation}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') e.stopPropagation();
-            }}
-            disabled={fetching}
-            title={
-              fetchFailed
-                ? 'Oxford không có từ này — thử lại?'
-                : 'Lấy phiên âm + cách đọc Oxford'
-            }
-            aria-label="Lấy phiên âm + cách đọc Oxford"
-            style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              width: 22,
-              height: 22,
-              borderRadius: '50%',
-              border: `1px solid ${fetchFailed ? 'var(--v-red)' : 'var(--v-border)'}`,
-              background: 'var(--v-surface)',
-              color: fetchFailed ? 'var(--v-red)' : 'var(--v-blue)',
-              cursor: fetching ? 'default' : 'pointer',
-              opacity: fetching ? 0.4 : 1,
-              flexShrink: 0,
-              padding: 0,
-            }}
-          >
-            <Download size={12} strokeWidth={2.6} />
-          </button>
-        )}
         {/* warning badge — surfaces "missing auto-fill fields" so the user
             can open the card detail (or the bulk fixer) and regen. */}
         {missing.length > 0 && (

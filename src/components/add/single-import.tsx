@@ -153,13 +153,12 @@ export default function SingleImport() {
   async function runSave() {
     if (!edit) return;
     const en = english.trim();
+    // Vietnamese meaning is optional ("Bỏ trống để Bún tự dịch") — when
+    // auto-translate fails the card saves with '' and the deck UI flags it
+    // as "thiếu nghĩa" for a later regen.
     const vi = edit.vietnamese.trim();
     if (en.length === 0) {
       setError('Cần điền từ tiếng Anh.');
-      return;
-    }
-    if (vi.length === 0) {
-      setError('Cần điền nghĩa tiếng Việt.');
       return;
     }
     setError(null);

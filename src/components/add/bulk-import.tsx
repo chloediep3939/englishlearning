@@ -131,10 +131,10 @@ export default function BulkImport() {
     );
     setPhase('processing');
 
-    await runBatch(todo);
+    await runBatch(todo, targetDeckId);
   }
 
-  async function runBatch(items: ParsedBulkItem[]) {
+  async function runBatch(items: ParsedBulkItem[], targetDeckId: number | null) {
     // Worker-pool pattern: keep PARALLELISM tasks in flight, pulling the next
     // word from `queue` whenever one finishes. Avoids "wait for entire batch
     // before starting the next" latency.
@@ -142,7 +142,7 @@ export default function BulkImport() {
     async function worker() {
       while (cursor < items.length) {
         const idx = cursor++;
-        await processOne(items[idx]);
+        await processOne(items[idx], targetDeckId);
       }
     }
     const workers = Array.from({ length: Math.min(PARALLELISM, items.length) }, () => worker());
@@ -151,7 +151,7 @@ export default function BulkImport() {
     router.refresh();
   }
 
-  async function processOne(item: ParsedBulkItem) {
+  async function processOne(item: ParsedBulkItem, targetDeckId: number | null) {
     const word = item.english;
     setRows((prev) =>
       prev.map((r) => (r.word === word ? { ...r, status: 'processing', error: undefined } : r))
@@ -165,7 +165,10 @@ export default function BulkImport() {
           // Pre-supplied gloss from `word: meaning` lines — when present, the
           // server stamps this verbatim instead of calling translate.
           vn_meaning: item.vietnamese,
-          deck_id: deckId, // null → server falls back to user's default deck
+          // Resolved id ("Mặc định" placeholder → actual default-deck id).
+          // null only when the user has no decks yet — the server then
+          // resolves via ensureDefault.
+          deck_id: targetDeckId,
           skip_image: skipImage,
         }),
       });
@@ -174,6 +177,17 @@ export default function BulkImport() {
         setRows((prev) =>
           prev.map((r) =>
             r.word === word ? { ...r, status: 'failed', error: data.error ?? `HTTP ${res.status}` } : r
+          )
+        );
+        return;
+      }
+      // Never trust a bare 200: only a `saved: true` payload means the word
+      // actually landed in a deck (guards against silent generate-only runs).
+      const data = (await res.json().catch(() => ({}))) as { saved?: boolean };
+      if (data.saved !== true) {
+        setRows((prev) =>
+          prev.map((r) =>
+            r.word === word ? { ...r, status: 'failed', error: 'Không lưu được vào bộ từ.' } : r
           )
         );
         return;
@@ -196,7 +210,9 @@ export default function BulkImport() {
     // status fields).
     const row = rows.find((r) => r.word === word);
     if (!row) return;
-    void processOne({ english: row.word, vietnamese: row.vietnamese });
+    // resolvedDeckId was stamped in handleSubmit, so the retry targets the
+    // same deck as the original batch.
+    void processOne({ english: row.word, vietnamese: row.vietnamese }, resolvedDeckId);
   }
 
   function resetForRound() {

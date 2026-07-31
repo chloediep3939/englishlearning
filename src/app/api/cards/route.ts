@@ -122,7 +122,9 @@ export async function POST(req: Request) {
     if (english.length === 0 || english.length > 200) {
       return NextResponse.json({ error: 'Từ tiếng Anh không hợp lệ.' }, { status: 400 });
     }
-    if (vietnamese.length === 0 || vietnamese.length > 500) {
+    // Empty is allowed — the meaning field is optional (auto-translate is
+    // best-effort); an empty '' shows up as "thiếu nghĩa" in the deck UI.
+    if (vietnamese.length > 500) {
       return NextResponse.json({ error: 'Nghĩa tiếng Việt không hợp lệ.' }, { status: 400 });
     }
 
