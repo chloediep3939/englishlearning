@@ -67,6 +67,31 @@ function applyFuzz(interval: number): number {
 const LAPSE_KEEP_RATIO = 0.25;
 
 /**
+ * Timed Flashcard-nhanh correct answer on a DUE card: gentle interval growth
+ * only — ease and repetitions untouched so game play can never feed the
+ * mastery gate. Returns the new interval (days) and the day-granular
+ * next_review_at (00:00 UTC ≈ 7:00 sáng VN, same convention as
+ * calculateNextReview).
+ *
+ *   interval = max(interval + 1, round(interval × 1.2)), then ±15% fuzz
+ *   when the result is ≥ 4 days.
+ */
+export function calculateFlashcardBoost(
+  card: Flashcard,
+): { interval_days: number; next_review_at: string; prev_interval: number } {
+  const prev_interval = card.interval_days;
+  let interval = Math.max(prev_interval + 1, Math.round(prev_interval * 1.2));
+  interval = applyFuzz(interval);
+  const next = new Date();
+  next.setUTCDate(next.getUTCDate() + interval);
+  return {
+    interval_days: interval,
+    next_review_at: `${next.toISOString().slice(0, 10)} 00:00:00`,
+    prev_interval,
+  };
+}
+
+/**
  * SM-2 with 4-button rating (Lại/Khó/Tốt/Dễ → 0/2/4/5).
  *
  * Returns next review state given current card state + user rating.

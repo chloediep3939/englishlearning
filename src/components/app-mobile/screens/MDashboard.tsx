@@ -172,7 +172,7 @@ export default function MDashboard() {
           </div>
           <div style={{ position: 'relative', display: 'flex', gap: 8 }}>
             <Link
-              href="/review"
+              href="/study"
               style={{
                 flex: 1,
                 padding: '12px 14px',

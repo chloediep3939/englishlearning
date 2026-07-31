@@ -105,6 +105,13 @@ export async function PUT(req: Request) {
     } else if (typeof body.reading_deck_id === 'number' && Number.isInteger(body.reading_deck_id) && body.reading_deck_id > 0) {
       partial.reading_deck_id = body.reading_deck_id;
     }
+    // ----- Unified study session keys -----
+    if (typeof body.session_review_limit === 'number' && body.session_review_limit >= 1 && body.session_review_limit <= 200) {
+      partial.session_review_limit = Math.floor(body.session_review_limit);
+    }
+    if (typeof body.session_new_limit === 'number' && body.session_new_limit >= 1 && body.session_new_limit <= 200) {
+      partial.session_new_limit = Math.floor(body.session_new_limit);
+    }
 
     await userSettingsDb.updateFlashcardSettings(userId, partial);
     const settings = await userSettingsDb.getFlashcardSettings(userId);

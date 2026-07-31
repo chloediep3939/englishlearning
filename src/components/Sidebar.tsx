@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import {
-  LayoutGrid, Plus, BookOpen, RotateCcw, Zap, FileText,
+  LayoutGrid, Plus, BookOpen, Zap, FileText,
   Library, Folder, BarChart3, Settings, Mic, PenLine, BookOpenText, Newspaper,
   ScrollText, PanelLeftClose, PanelLeftOpen,
 } from 'lucide-react';
@@ -23,8 +23,8 @@ const NAV: NavItem[] = [
   { href: '/dashboard',  label: 'Tổng quan',       icon: LayoutGrid, color: 'var(--v-primary)' },
   { href: '/decks',      label: 'Bộ từ',           icon: Folder,     color: 'var(--v-pink)' },
   { href: '/add',        label: 'Thêm từ',         icon: Plus,       color: 'var(--v-accent)' },
-  { href: '/study',      label: 'Học hôm nay',     icon: BookOpen,   color: 'var(--v-orange)' },
-  { href: '/review',     label: 'Ôn tập',          icon: RotateCcw,  color: 'var(--v-blue)' },
+  // study-unified: Học + Ôn tập merged into the single /study flow.
+  { href: '/study',      label: 'Học',             icon: BookOpen,   color: 'var(--v-orange)' },
   // Speed tile uses yellow-deep so the white icon stays readable on the pastel
   // yellow used elsewhere; --v-yellow itself is reserved for speed surfaces.
   { href: '/speed',      label: 'Flashcard nhanh', icon: Zap,        color: 'var(--v-yellow-deep)' },

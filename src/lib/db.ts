@@ -10,6 +10,7 @@ import type {
   FlashcardSettings,
   FlashcardStatus,
   PracticeSentence,
+  ReviewSource,
   TestMode,
   User,
 } from './types';
@@ -20,7 +21,7 @@ function parseCefr(raw: string | undefined): CefrLevel {
   if (raw && (CEFR_VALUES as readonly string[]).includes(raw)) return raw as CefrLevel;
   return M4_SETTINGS.user_cefr_level.default;
 }
-import { calculateNextReview, type SRSQuality } from './flashcards/srs';
+import { calculateFlashcardBoost, calculateNextReview, type SRSQuality } from './flashcards/srs';
 
 /**
  * Returns the D1 database binding from the Cloudflare context.
@@ -82,6 +83,7 @@ function hydrateDeck(row: Record<string, unknown> | null): FlashcardDeck | null 
   return {
     ...(row as unknown as FlashcardDeck),
     is_default: Number(row.is_default) === 1,
+    recognition_only: Number(row.recognition_only) === 1,
   };
 }
 
@@ -161,8 +163,8 @@ export const flashcardDecksDb = {
     if (existing) return existing.id;
     const result = await db
       .prepare(
-        `INSERT INTO flashcard_decks (user_id, name, description, color, position, is_default)
-         VALUES (?, ?, ?, ?, 0, 1)`
+        `INSERT INTO flashcard_decks (user_id, name, description, color, position, is_default, recognition_only)
+         VALUES (?, ?, ?, ?, 0, 1, 0)`
       )
       .bind(userId, DEFAULT_DECK_NAME, 'Bộ từ mặc định', '#7ac143')
       .run();
@@ -210,6 +212,7 @@ export const flashcardDecksDb = {
     return result.results.map((r) => ({
       ...(r as unknown as FlashcardDeckWithCounts),
       is_default: Number(r.is_default) === 1,
+      recognition_only: Number(r.recognition_only) === 1,
       total: Number(r.total) || 0,
       new_count: Number(r.new_count) || 0,
       learning_count: Number(r.learning_count) || 0,
@@ -219,7 +222,7 @@ export const flashcardDecksDb = {
     }));
   },
 
-  async create(userId: number, input: { name: string; description?: string | null; color?: string; icon?: string | null; subtitle?: string | null }): Promise<number> {
+  async create(userId: number, input: { name: string; description?: string | null; color?: string; icon?: string | null; subtitle?: string | null; recognition_only?: boolean }): Promise<number> {
     const db = await getDb();
     const maxRow = await db
       .prepare('SELECT COALESCE(MAX(position), -1) as m FROM flashcard_decks WHERE user_id = ?')
@@ -228,8 +231,8 @@ export const flashcardDecksDb = {
     const position = (maxRow?.m ?? -1) + 1;
     const result = await db
       .prepare(
-        `INSERT INTO flashcard_decks (user_id, name, description, color, position, is_default, icon, subtitle)
-         VALUES (?, ?, ?, ?, ?, 0, ?, ?)`
+        `INSERT INTO flashcard_decks (user_id, name, description, color, position, is_default, icon, subtitle, recognition_only)
+         VALUES (?, ?, ?, ?, ?, 0, ?, ?, ?)`
       )
       .bind(
         userId,
@@ -239,12 +242,13 @@ export const flashcardDecksDb = {
         position,
         input.icon ?? null,
         input.subtitle ?? null,
+        input.recognition_only ? 1 : 0,
       )
       .run();
     return Number(result.meta.last_row_id);
   },
 
-  async update(userId: number, id: number, fields: Partial<Pick<FlashcardDeck, 'name' | 'description' | 'color' | 'position' | 'icon' | 'subtitle'>>): Promise<void> {
+  async update(userId: number, id: number, fields: Partial<Pick<FlashcardDeck, 'name' | 'description' | 'color' | 'position' | 'icon' | 'subtitle' | 'recognition_only'>>): Promise<void> {
     const db = await getDb();
     const sets: string[] = [];
     const values: unknown[] = [];
@@ -254,6 +258,7 @@ export const flashcardDecksDb = {
     if (fields.position !== undefined)    { sets.push('position = ?');    values.push(fields.position); }
     if (fields.icon !== undefined)        { sets.push('icon = ?');        values.push(fields.icon); }
     if (fields.subtitle !== undefined)    { sets.push('subtitle = ?');    values.push(fields.subtitle); }
+    if (fields.recognition_only !== undefined) { sets.push('recognition_only = ?'); values.push(fields.recognition_only ? 1 : 0); }
     if (sets.length === 0) return;
     values.push(id, userId);
     await db
@@ -473,6 +478,85 @@ export const flashcardsDb = {
     return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
   },
 
+  /**
+   * Unified /study pool counts for a set of decks (already filtered to one
+   * deck group by the caller). "Due" = has SRS state (status != 'new') and
+   * next_review_at <= now — same due predicate the rest of the app uses.
+   * "New" = status = 'new' (never rated in a study session).
+   */
+  async countStudyPool(
+    userId: number,
+    deckIds: number[],
+    excludeMastered: boolean,
+  ): Promise<{ due: number; fresh: number }> {
+    if (deckIds.length === 0) return { due: 0, fresh: 0 };
+    const db = await getDb();
+    const placeholders = deckIds.map(() => '?').join(',');
+    const masteredClause = excludeMastered ? "AND status != 'mastered'" : '';
+    const row = await db
+      .prepare(
+        `SELECT
+           SUM(CASE WHEN status != 'new' AND next_review_at IS NOT NULL
+                     AND next_review_at <= datetime('now') ${masteredClause}
+                    THEN 1 ELSE 0 END) as due,
+           SUM(CASE WHEN status = 'new' THEN 1 ELSE 0 END) as fresh
+         FROM flashcards
+         WHERE user_id = ? AND deck_id IN (${placeholders})`,
+      )
+      .bind(userId, ...deckIds)
+      .first<{ due: number; fresh: number }>();
+    return { due: Number(row?.due) || 0, fresh: Number(row?.fresh) || 0 };
+  },
+
+  /** Due cards across a set of decks, most overdue first. */
+  async getDueInDecks(
+    userId: number,
+    deckIds: number[],
+    limit: number,
+    excludeMastered: boolean,
+  ): Promise<Flashcard[]> {
+    if (deckIds.length === 0) return [];
+    const db = await getDb();
+    const placeholders = deckIds.map(() => '?').join(',');
+    const masteredClause = excludeMastered ? "AND status != 'mastered'" : '';
+    const result = await db
+      .prepare(
+        `SELECT * FROM flashcards
+         WHERE user_id = ? AND deck_id IN (${placeholders})
+           AND status != 'new'
+           AND next_review_at IS NOT NULL
+           AND next_review_at <= datetime('now')
+           ${masteredClause}
+         ORDER BY next_review_at ASC
+         LIMIT ?`,
+      )
+      .bind(userId, ...deckIds, limit)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
+  /**
+   * Random sample from the new pool across a set of decks. RANDOM() is
+   * intentional per the study-unified spec ("Học": random sample) — the
+   * queue is not meant to be reproducible.
+   */
+  async getNewRandomInDecks(userId: number, deckIds: number[], limit: number): Promise<Flashcard[]> {
+    if (deckIds.length === 0) return [];
+    const db = await getDb();
+    const placeholders = deckIds.map(() => '?').join(',');
+    const result = await db
+      .prepare(
+        `SELECT * FROM flashcards
+         WHERE user_id = ? AND deck_id IN (${placeholders})
+           AND status = 'new'
+         ORDER BY RANDOM()
+         LIMIT ?`,
+      )
+      .bind(userId, ...deckIds, limit)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
   async search(userId: number, query: string, limit: number = 50): Promise<Flashcard[]> {
     const db = await getDb();
     const like = `%${query.toLowerCase()}%`;
@@ -634,14 +718,22 @@ export class CardNotFoundError extends Error {
 }
 
 export const flashcardReviewsDb = {
-  async create(userId: number, input: { flashcard_id: number; quality: 0 | 2 | 4 | 5; prev_interval: number; new_interval: number }): Promise<number> {
+  async create(userId: number, input: { flashcard_id: number; quality: 0 | 2 | 4 | 5; prev_interval: number; new_interval: number; source?: ReviewSource; srs_applied?: boolean }): Promise<number> {
     const db = await getDb();
     const result = await db
       .prepare(
-        `INSERT INTO flashcard_reviews (user_id, flashcard_id, quality, prev_interval, new_interval)
-         VALUES (?, ?, ?, ?, ?)`
+        `INSERT INTO flashcard_reviews (user_id, flashcard_id, quality, prev_interval, new_interval, source, srs_applied)
+         VALUES (?, ?, ?, ?, ?, ?, ?)`
       )
-      .bind(userId, input.flashcard_id, input.quality, input.prev_interval, input.new_interval)
+      .bind(
+        userId,
+        input.flashcard_id,
+        input.quality,
+        input.prev_interval,
+        input.new_interval,
+        input.source ?? 'study',
+        input.srs_applied === false ? 0 : 1,
+      )
       .run();
     return Number(result.meta.last_row_id);
   },
@@ -656,7 +748,7 @@ export const flashcardReviewsDb = {
     userId: number,
     flashcardId: number,
     quality: SRSQuality,
-    opts: { failedThisSession?: boolean; srsUpdate?: boolean } = {},
+    opts: { failedThisSession?: boolean; srsUpdate?: boolean; source?: ReviewSource } = {},
   ): Promise<{ prev_interval: number; new_interval: number; next_review_at: string; new_status: FlashcardStatus }> {
     const card = await flashcardsDb.getById(userId, flashcardId);
     if (!card) throw new CardNotFoundError();
@@ -664,19 +756,21 @@ export const flashcardReviewsDb = {
     // Compute next state (used for both logging and possible apply).
     const update = calculateNextReview(card, quality, opts);
 
-    // Always log the review event.
-    await flashcardReviewsDb.create(userId, {
-      flashcard_id: flashcardId,
-      quality,
-      prev_interval: update.prev_interval,
-      new_interval: update.interval_days,
-    });
-
     // Only apply SRS state mutation if requested.
     // Default true so non-session callers (e.g. /api/sentence/timeout) work
     // exactly as before. Session UI passes `srsUpdate: false` for re-ratings
     // on the same card within a single session.
     const shouldUpdateSRS = opts.srsUpdate !== false;
+
+    // Always log the review event (srs_applied mirrors whether we mutate).
+    await flashcardReviewsDb.create(userId, {
+      flashcard_id: flashcardId,
+      quality,
+      prev_interval: update.prev_interval,
+      new_interval: update.interval_days,
+      source: opts.source ?? 'study',
+      srs_applied: shouldUpdateSRS,
+    });
 
     if (shouldUpdateSRS) {
       await flashcardsDb.updateSRS(userId, flashcardId, {
@@ -695,6 +789,115 @@ export const flashcardReviewsDb = {
       next_review_at: shouldUpdateSRS ? update.next_review_at : (card.next_review_at ?? update.next_review_at),
       new_status: shouldUpdateSRS ? update.status : card.status,
     };
+  },
+
+  /**
+   * Timed Flashcard-nhanh answer → SRS transition (study-unified Part B).
+   * The game only reports correct/wrong + card id; all rules live here:
+   *
+   *   - New card (status='new')      → log-only. First learning happens in
+   *                                    study sessions.
+   *   - Correct AND due              → interval ×1.2 boost (calculateFlashcardBoost);
+   *                                    ease & repetitions untouched.
+   *   - Correct AND not due          → log-only (no interval farming).
+   *   - Wrong                       → full "Lại" lapse via the SAME path as
+   *                                    study sessions (calculateNextReview q=0).
+   *   - Daily cap: max ONE srs_applied=1 flashcard event per card per local
+   *     day. Exception: if today's applied event was a CORRECT boost and the
+   *     user later answers wrong, the lapse still applies (once). After an
+   *     applied lapse, everything else that day is log-only.
+   *
+   * Every answer writes a flashcard_reviews row (source='flashcard') either
+   * way, so timed play always counts as review activity for stats/streak.
+   */
+  async recordFlashcardResult(
+    userId: number,
+    flashcardId: number,
+    correct: boolean,
+  ): Promise<{ srs_applied: boolean }> {
+    const card = await flashcardsDb.getById(userId, flashcardId);
+    if (!card) throw new CardNotFoundError();
+
+    const db = await getDb();
+    const quality: SRSQuality = correct ? 4 : 0;
+
+    const logOnly = async () => {
+      await flashcardReviewsDb.create(userId, {
+        flashcard_id: flashcardId,
+        quality,
+        prev_interval: card.interval_days,
+        new_interval: card.interval_days,
+        source: 'flashcard',
+        srs_applied: false,
+      });
+      return { srs_applied: false };
+    };
+
+    // New cards never mutate from game play.
+    if (card.status === 'new') return logOnly();
+
+    // Today's already-applied flashcard events for this card (local day,
+    // same boundary as the streak queries).
+    const appliedToday = await db
+      .prepare(
+        `SELECT quality FROM flashcard_reviews
+         WHERE user_id = ? AND flashcard_id = ?
+           AND source = 'flashcard' AND srs_applied = 1
+           AND date(reviewed_at, 'localtime') = date('now', 'localtime')`,
+      )
+      .bind(userId, flashcardId)
+      .all<{ quality: number }>();
+    const hasAppliedToday = appliedToday.results.length > 0;
+    const hasAppliedLapseToday = appliedToday.results.some((r) => Number(r.quality) === 0);
+
+    const nowIso = new Date().toISOString().replace('T', ' ').slice(0, 19);
+
+    if (correct) {
+      const isDue = card.next_review_at !== null && card.next_review_at <= nowIso;
+      if (hasAppliedToday || !isDue) return logOnly();
+
+      const boost = calculateFlashcardBoost(card);
+      await flashcardReviewsDb.create(userId, {
+        flashcard_id: flashcardId,
+        quality: 4,
+        prev_interval: boost.prev_interval,
+        new_interval: boost.interval_days,
+        source: 'flashcard',
+        srs_applied: true,
+      });
+      // Ease, repetitions, and status stay untouched — only the schedule moves.
+      await flashcardsDb.updateSRS(userId, flashcardId, {
+        ease_factor: card.ease_factor,
+        interval_days: boost.interval_days,
+        repetitions: card.repetitions,
+        next_review_at: boost.next_review_at,
+        last_reviewed_at: nowIso,
+      });
+      return { srs_applied: true };
+    }
+
+    // Wrong: full lapse unless one was already applied today. A correct
+    // boost earlier today does NOT block the lapse (wrong-overrides-correct).
+    if (hasAppliedLapseToday) return logOnly();
+
+    const update = calculateNextReview(card, 0);
+    await flashcardReviewsDb.create(userId, {
+      flashcard_id: flashcardId,
+      quality: 0,
+      prev_interval: update.prev_interval,
+      new_interval: update.interval_days,
+      source: 'flashcard',
+      srs_applied: true,
+    });
+    await flashcardsDb.updateSRS(userId, flashcardId, {
+      status: update.status,
+      ease_factor: update.ease_factor,
+      interval_days: update.interval_days,
+      repetitions: update.repetitions,
+      next_review_at: update.next_review_at,
+      last_reviewed_at: nowIso,
+    });
+    return { srs_applied: true };
   },
 
   async getTodayCount(userId: number): Promise<number> {
@@ -994,6 +1197,9 @@ const SETTINGS_KEYS = [
   'reading_speed',
   'reading_auto_continue',
   'reading_deck_id',
+  // Unified study session (study-unified)
+  'session_review_limit',
+  'session_new_limit',
 ] as const;
 
 const THEME_VALUES: ReadonlyArray<'light' | 'dark' | 'system'> = ['light', 'dark', 'system'];
@@ -1051,6 +1257,9 @@ export const userSettingsDb = {
       reading_speed: Number(map.get('reading_speed')) || 1.0,
       reading_auto_continue: (map.get('reading_auto_continue') ?? '1') === '1',
       reading_deck_id: map.get('reading_deck_id') ? Number(map.get('reading_deck_id')) : null,
+      // Unified study session defaults — 20 thẻ ôn / 20 thẻ mới mỗi phiên.
+      session_review_limit: Number(map.get('session_review_limit')) || 20,
+      session_new_limit: Number(map.get('session_new_limit')) || 20,
     };
   },
 
@@ -1092,6 +1301,8 @@ export const userSettingsDb = {
     if (partial.reading_auto_continue !== undefined)        upsert('reading_auto_continue', partial.reading_auto_continue ? '1' : '0');
     // reading_deck_id: null means "clear" — store empty so the reader reverts to its fallback.
     if (partial.reading_deck_id !== undefined)              upsert('reading_deck_id', partial.reading_deck_id == null ? '' : String(partial.reading_deck_id));
+    if (partial.session_review_limit !== undefined)         upsert('session_review_limit', String(partial.session_review_limit));
+    if (partial.session_new_limit !== undefined)            upsert('session_new_limit', String(partial.session_new_limit));
     if (stmts.length === 0) return;
     await db.batch(stmts);
   },

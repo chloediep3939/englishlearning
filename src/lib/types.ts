@@ -57,6 +57,10 @@ export interface FlashcardDeck {
   created_at: string;
   icon: string | null;       // lucide-react icon name (e.g., "BookOpen")
   subtitle: string | null;
+  // "Chỉ hiểu nghĩa": recognition-only deck — study sessions drop
+  // production/typing exercises and use EN→VI flip-and-self-grade instead.
+  // SRS scheduling is identical to full decks.
+  recognition_only: boolean;
 }
 
 export const DECK_ICON_OPTIONS = [
@@ -131,6 +135,12 @@ export interface Flashcard {
   source_context: string | null;
 }
 
+// Where a review row came from: unified study session vs timed Flashcard
+// nhanh play. `srs_applied` marks whether the row mutated SRS state (1) or
+// was log-only activity (0). Both values count as "review activity" for
+// stats/streak purposes.
+export type ReviewSource = 'study' | 'flashcard';
+
 export interface FlashcardReview {
   id: number;
   flashcard_id: number;
@@ -139,6 +149,8 @@ export interface FlashcardReview {
   prev_interval: number;
   new_interval: number;
   reviewed_at: string;
+  source: ReviewSource;
+  srs_applied: 0 | 1;
 }
 
 export type TestMode = 'speed' | 'cloze' | 'pronunciation' | 'sentence';
@@ -250,6 +262,23 @@ export interface FlashcardSettings {
   reading_speed: number;              // TTS rate chip: 0.7 / 0.85 / 1.0 / 1.3, default 1.0
   reading_auto_continue: boolean;     // sentence-end → next sentence, default true
   reading_deck_id: number | null;     // last-used deck for saving words; null = none yet
+  // ----- Unified study session (study-unified) -----
+  session_review_limit: number;       // default số thẻ ôn mỗi phiên (1–200)
+  session_new_limit: number;          // default số thẻ mới mỗi phiên (1–200)
+}
+
+// ===== Unified study session (/study) =====
+
+/** Ôn (due only) / Học (new only) / Ôn + Học (interleaved). */
+export type StudySessionMode = 'review' | 'new' | 'mix';
+/** Deck group a session runs on — never mixed. */
+export type StudyDeckGroup = 'full' | 'recognition';
+
+export interface StudySessionResponse {
+  due_count: number;
+  new_count: number;
+  /** Server-built queue. Absent when countsOnly=1. */
+  cards?: Flashcard[];
 }
 
 export type ThemeMode = 'light' | 'dark' | 'system';

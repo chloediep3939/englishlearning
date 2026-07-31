@@ -51,6 +51,7 @@ export async function POST(
       {
         failedThisSession,
         srsUpdate: applySrs,
+        source: 'study',
       },
     );
 

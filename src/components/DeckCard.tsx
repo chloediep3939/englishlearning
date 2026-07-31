@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import {
-  Pencil, Trash2,
+  Pencil, Trash2, Eye,
   BookOpen, Coffee, Briefcase, GraduationCap, Plane, Heart,
   Star, Music, Camera, Code, Flame, Sparkles,
   type LucideIcon,
@@ -283,6 +283,25 @@ export default function DeckCard({ deck, onEdit, onDelete, layout = 'grid' }: Pr
                 }}
               >
                 Mặc định
+              </span>
+            )}
+            {deck.recognition_only && (
+              <span
+                style={{
+                  padding: '1px 6px',
+                  background: 'var(--v-blue-soft)',
+                  color: 'var(--v-blue)',
+                  borderRadius: 'var(--v-radius-pill)',
+                  fontSize: 10,
+                  fontWeight: 800,
+                  letterSpacing: 'var(--v-tracking-wide)',
+                  textTransform: 'uppercase',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: 3,
+                }}
+              >
+                <Eye size={10} strokeWidth={2.6} /> Hiểu nghĩa
               </span>
             )}
           </div>

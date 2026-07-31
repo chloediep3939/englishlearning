@@ -124,8 +124,8 @@ export async function seedDemoUser(userId: number): Promise<void> {
     if (h.status === 'learning') {
       await db
         .prepare(
-          `INSERT INTO flashcard_reviews (flashcard_id, user_id, quality, prev_interval, new_interval, reviewed_at)
-           VALUES (?, ?, 4, 0, 1, ?)`
+          `INSERT INTO flashcard_reviews (flashcard_id, user_id, quality, prev_interval, new_interval, reviewed_at, source, srs_applied)
+           VALUES (?, ?, 4, 0, 1, ?, 'study', 1)`
         )
         .bind(cardId, userId, yesterdayIso)
         .run();
@@ -147,15 +147,15 @@ export async function seedDemoUser(userId: number): Promise<void> {
       // review status — two history rows, second one today
       await db
         .prepare(
-          `INSERT INTO flashcard_reviews (flashcard_id, user_id, quality, prev_interval, new_interval, reviewed_at)
-           VALUES (?, ?, 4, 0, 1, ?)`
+          `INSERT INTO flashcard_reviews (flashcard_id, user_id, quality, prev_interval, new_interval, reviewed_at, source, srs_applied)
+           VALUES (?, ?, 4, 0, 1, ?, 'study', 1)`
         )
         .bind(cardId, userId, yesterdayIso)
         .run();
       await db
         .prepare(
-          `INSERT INTO flashcard_reviews (flashcard_id, user_id, quality, prev_interval, new_interval, reviewed_at)
-           VALUES (?, ?, 5, 1, 3, ?)`
+          `INSERT INTO flashcard_reviews (flashcard_id, user_id, quality, prev_interval, new_interval, reviewed_at, source, srs_applied)
+           VALUES (?, ?, 5, 1, 3, ?, 'study', 1)`
         )
         .bind(cardId, userId, todayIso)
         .run();

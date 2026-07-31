@@ -51,6 +51,7 @@ export async function PUT(
       icon?: unknown;
       subtitle?: unknown;
       is_default?: unknown;
+      recognition_only?: unknown;
     };
     const fields: Parameters<typeof flashcardDecksDb.update>[2] = {};
     if (typeof body.name === 'string') {
@@ -73,6 +74,7 @@ export async function PUT(
       const trimmed = body.subtitle.trim();
       fields.subtitle = trimmed.length === 0 ? null : trimmed.slice(0, 60);
     }
+    if (typeof body.recognition_only === 'boolean') fields.recognition_only = body.recognition_only;
 
     const existing = await flashcardDecksDb.getById(userId, id);
     if (!existing) return NextResponse.json({ error: 'Not found.' }, { status: 404 });

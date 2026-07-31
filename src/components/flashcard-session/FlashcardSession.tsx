@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import TypingStage from './TypingStage';
+import FlipStage from './FlipStage';
 import RevealStage from './RevealStage';
 import SummaryScreen from './SummaryScreen';
 import type { Flashcard } from '@/lib/types';
@@ -17,49 +18,42 @@ import {
 } from './types';
 
 interface Props {
-  /** The user-selected subset from SessionPicker. Order is preserved
+  /** Server-built queue from /api/study/session. Order is preserved
    *  for the initial queue. */
   cards: Flashcard[];
   config: SessionConfig;
+  /** Recognition-only deck group ("Chỉ hiểu nghĩa"): the prompt stage is an
+   *  EN→VI flip (FlipStage) instead of typed VI→EN recall, and the reveal
+   *  hides the char-diff. SRS scheduling is identical either way. */
+  recognition?: boolean;
   /** Fired when the user clicks "Học thêm phiên nữa" on the summary —
-   *  the parent should re-fetch candidates and re-mount the picker. */
+   *  the parent should re-fetch candidates and re-mount the setup screen. */
   onAnotherSession: () => void;
 }
 
 /**
- * Anki-like session orchestrator. Owns:
+ * Anki-like session orchestrator (study-unified A3). Owns:
  *   - the queue (read from front, mutated immutably)
- *   - the typing↔reveal phase machine
+ *   - the prompt↔reveal phase machine (typed recall, or flip on recognition decks)
  *   - per-card audio autoplay loop
  *   - key bindings (1-4 + Enter + Escape)
  *   - the SRS rating POST to /api/cards/:id/rate
  *
- * Queue logic (post-rate, gated by the session mastery threshold —
- * see calculateMastery below and the matching DB-side gate in
- * `src/lib/flashcards/srs.ts`):
- *   q=5 (DỄ)  → always pop + mastered.add(card.id)
- *   q=0 (LẠI) → reset card's correctCount; pop + reinsert at offset +2
- *   q=2 (KHÓ) → increment correctCount; if gate passes pop+master,
- *                else pop + reinsert at offset +4
- *   q=4 (TỐT) → increment correctCount; if gate passes pop+master,
- *                else pop + reinsert at offset +6
- *
- * Mastery gate: correctCount >= 3, OR correctCount >= 2 AND the learner
- * has NOT received a q=0 on this card in the current session. Matches
- * srs.ts so the session UI counter and the DB `status` agree.
+ * Queue logic (post-rate):
+ *   q=0 (LẠI) → pop + reinsert at offset +2
+ *   q=2 (KHÓ) → pop + reinsert at offset +4
+ *   q=4 (TỐT) / q=5 (DỄ) → remove from queue (mastered.add)
  *
  * SRS apply protocol (apply_srs flag on /api/cards/:id/rate):
- *   - LẠI (q=0)            → ALWAYS applied (a lapse is a lapse, even if the
- *                            card was rated Tốt two minutes earlier).
- *   - gate-passing rating  → applied (the card's FINAL verdict this session).
- *   - intermediate ratings → log-only (flashcard_reviews row, no SRS mutation).
- * Consequence: quitting mid-session leaves unfinished cards untouched — new
- * cards stay 'new' and reappear in /study; due cards stay due. Every rating
- * is still logged either way.
+ *   - the FIRST rating of a card in this session → applied (mutates SRS).
+ *   - every later rating of the same card       → log-only
+ *     (flashcard_reviews row with srs_applied=0, no schedule change).
+ * Consequence: a card's schedule is decided by its first answer; the
+ * re-queue loop afterwards is purely in-session reinforcement.
  *
  * Reload mid-session: state is in memory only. Acceptable v1 trade-off.
  */
-export default function FlashcardSession({ cards, config, onAnotherSession }: Props) {
+export default function FlashcardSession({ cards, config, recognition = false, onAnotherSession }: Props) {
   const router = useRouter();
 
   // initialCount is captured once at mount so the progress display
@@ -72,14 +66,12 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
   });
   // Per-card session-scoped wrong-tracker. Once a card receives quality=0
   // in this session its id lands here and stays through the rest of the
-  // session, bumping the mastery threshold from 2 corrects to 3. Resets
-  // on mount → next session starts clean.
+  // session — threads into previewIntervals so the "ôn sau X" hints stay
+  // honest. Resets on mount → next session starts clean.
   const failedThisSessionRef = useRef<Set<number>>(new Set());
-  // Per-card running count of non-zero ratings (q=2/4/5) since the last
-  // q=0 reset. The session mastery gate compares this against 2 (clean
-  // run) or 3 (had a wrong) — see calculateMastery in handleRate. Resets
-  // to 0 whenever the card gets q=0.
-  const correctCountRef = useRef<Map<number, number>>(new Map());
+  // First-rating-per-session guard: ids of cards already rated once. Only
+  // the first rating mutates SRS state; later ratings are log-only.
+  const ratedOnceRef = useRef<Set<number>>(new Set());
 
   const [phase, setPhase] = useState<Phase>('TYPING');
   const [input, setInput] = useState('');
@@ -97,17 +89,21 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
 
   const current = queue[0];
   const done = queue.length === 0;
-  const isCorrect = !!current && input.trim().toLowerCase() === current.english.toLowerCase();
+  // Recognition flip has no guess — treat as "correct" so the Enter default
+  // on reveal is TỐT (self-grade flow), matching the flip-and-self-grade UX.
+  const isCorrect = recognition
+    ? true
+    : !!current && input.trim().toLowerCase() === current.english.toLowerCase();
   const progressPct = initialCount > 0 ? (mastered.size / initialCount) * 100 : 0;
 
-  // Autofocus on each new card's typing phase.
+  // Autofocus on each new card's typing phase (typed variant only).
   useEffect(() => {
-    if (phase === 'TYPING' && inputRef.current) {
+    if (!recognition && phase === 'TYPING' && inputRef.current) {
       inputRef.current.focus();
     }
     // current?.id covers the case where the queue head changes via
     // reinsert (same length) without phase changing.
-  }, [phase, current?.id]);
+  }, [phase, current?.id, recognition]);
 
   // Auto-play audio AUDIO_AUTOPLAY_COUNT times on reveal entry. Falls
   // back to TTS if dictionary audio fails, and is cancellable when the
@@ -204,7 +200,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
       }
     };
     // Depend on current?.id (primitive) instead of the Flashcard object —
-    // when SessionFlow re-syncs candidates from a router.refresh, the
+    // if the parent re-syncs cards from a router.refresh, the
     // object identity can change for the same card and the effect would
     // re-fire, cleanup-cancel the in-flight audio, and the autoplay would
     // never produce sound.
@@ -218,29 +214,18 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
       // DB always sees every signal.
       setQualityCounts((prev) => ({ ...prev, [quality]: prev[quality] + 1 }));
 
-      // Maintain session-scoped tracking BEFORE we read it for the
-      // mastery gate below.
       if (quality === 0) {
         failedThisSessionRef.current.add(current.id);
-        correctCountRef.current.set(current.id, 0);
-      } else {
-        const prev = correctCountRef.current.get(current.id) ?? 0;
-        correctCountRef.current.set(current.id, prev + 1);
       }
       const failedThisSession = failedThisSessionRef.current.has(current.id);
-      const correctCount = correctCountRef.current.get(current.id) ?? 0;
 
-      // Session gate — decides both queue eviction AND whether this rating
-      // is the card's final (SRS-applied) verdict for the session.
-      const shouldMaster =
-        quality === 5 ||
-        correctCount >= 3 ||
-        (correctCount >= 2 && !failedThisSession);
+      // First-rating-per-session guard: only the first rating of a card in
+      // this session mutates SRS state; every later rating is log-only.
+      const applySrs = !ratedOnceRef.current.has(current.id);
+      ratedOnceRef.current.add(current.id);
 
-      // Apply SRS on: every LẠI (lapse must always count), and the
-      // gate-passing final rating. Intermediate ratings are log-only, so
-      // quitting mid-session leaves the card's schedule untouched.
-      const applySrs = quality === 0 || shouldMaster;
+      // Queue rule (A3): TỐT/DỄ leave the queue, LẠI/KHÓ requeue.
+      const shouldMaster = quality >= 4;
 
       void fetch(`/api/cards/${current.id}/rate`, {
         method: 'POST',
@@ -262,12 +247,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
           setTimeout(() => setErrorMsg(null), 4000);
         });
 
-      // Queue movement — `shouldMaster` computed above (it also decided
-      // whether the rating was SRS-applied):
-      //   - q=5 (DỄ)                                 → evict immediately
-      //   - correctCount >= 2 AND no fail this run   → evict (clean run)
-      //   - correctCount >= 3                        → evict (had a wrong)
-      //   - else                                     → requeue
+      // Queue movement — TỐT/DỄ evict, LẠI/KHÓ requeue at their offsets.
       if (shouldMaster) {
         setMastered((prev) => {
           const next = new Set(prev);
@@ -276,10 +256,9 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
         });
         setQueue((prev) => prev.slice(1));
       } else {
-        // Reinsert at offset 2 (LẠI), 4 (KHÓ), or 6 (TỐT not-yet-mastered),
-        // counted from the head of the post-pop queue. min(offset,
-        // rest.length) clamps to "append to end" when the queue is
-        // shorter than the offset.
+        // Reinsert at offset 2 (LẠI) or 4 (KHÓ), counted from the head of
+        // the post-pop queue. min(offset, rest.length) clamps to "append
+        // to end" when the queue is shorter than the offset.
         const offset = REQUEUE_OFFSET[quality]!;
         setQueue((prev) => {
           const rest = prev.slice(1);
@@ -318,13 +297,19 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
     revealEnteredAt.current = Date.now();
   }, []);
 
-  // Window listener: only Escape + REVEAL-phase keys. TYPING+Enter is
-  // owned by the <input onKeyDown> so we don't need to handle it here.
+  // Window listener: Escape + REVEAL-phase keys. TYPING+Enter is owned by
+  // the <input onKeyDown> in the typed variant; the recognition flip has no
+  // input, so Enter-to-reveal is handled here instead.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (done) return;
       if (e.key === 'Escape') {
         if (window.confirm('Thoát luôn?')) router.push('/dashboard');
+        return;
+      }
+      if (recognition && phase === 'TYPING' && e.key === 'Enter') {
+        e.preventDefault();
+        handleSubmitAnswer('');
         return;
       }
       if (phase === 'REVEAL') {
@@ -340,7 +325,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
     }
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [phase, done, handleRate, router, isCorrect]);
+  }, [phase, done, handleRate, handleSubmitAnswer, router, isCorrect, recognition]);
 
   if (done) {
     return (
@@ -402,7 +387,11 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
         />
       </div>
 
-      {phase === 'TYPING' && (
+      {phase === 'TYPING' && recognition && (
+        <FlipStage card={current} onReveal={() => handleSubmitAnswer('')} />
+      )}
+
+      {phase === 'TYPING' && !recognition && (
         <TypingStage
           card={current}
           input={input}
@@ -419,6 +408,7 @@ export default function FlashcardSession({ cards, config, onAnotherSession }: Pr
           card={current}
           guess={submittedGuess}
           isCorrect={isCorrect}
+          hideGuess={recognition}
           autoplayCount={autoplayCount}
           onRate={handleRate}
           ratingRowLabel={config.ratingRowLabel}

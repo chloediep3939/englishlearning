@@ -188,6 +188,20 @@ export default function SettingsPage() {
               onCommit={(v) => save({ daily_new_word_target: v })}
               suffix="từ"
             />
+            <SessionLimitInput
+              label="Số thẻ ôn mỗi phiên"
+              hint="Mặc định cho phiên Học — chỉnh được từng phiên"
+              value={settings.session_review_limit}
+              onCommit={(v) => save({ session_review_limit: v })}
+              disabled={saving}
+            />
+            <SessionLimitInput
+              label="Số thẻ mới mỗi phiên"
+              hint="Số từ mới tối đa trộn vào mỗi phiên Học"
+              value={settings.session_new_limit}
+              onCommit={(v) => save({ session_new_limit: v })}
+              disabled={saving}
+            />
           </SettingsCard>
 
           {/* 🔔 Nhắc nhở + ôn tập */}
@@ -324,6 +338,90 @@ export default function SettingsPage() {
 // ============================================================================
 // Helpers
 // ============================================================================
+
+/**
+ * Number input for the unified-study session limits (1–200). Commits on
+ * blur / Enter so half-typed values don't fire PUTs; reverts to the saved
+ * value when the input is invalid.
+ */
+function SessionLimitInput({
+  label, hint, value, onCommit, disabled,
+}: {
+  label: string;
+  hint: string;
+  value: number;
+  onCommit: (v: number) => void;
+  disabled: boolean;
+}) {
+  const [raw, setRaw] = useState(String(value));
+
+  useEffect(() => {
+    setRaw(String(value));
+  }, [value]);
+
+  function commit() {
+    const n = Math.floor(Number(raw));
+    if (!Number.isFinite(n) || n < 1 || n > 200) {
+      setRaw(String(value));
+      return;
+    }
+    if (n !== value) onCommit(n);
+    setRaw(String(n));
+  }
+
+  return (
+    <div style={{ marginTop: 10, marginBottom: 10 }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+        <label
+          style={{
+            flex: 1,
+            fontFamily: 'var(--v-font-body)',
+            fontSize: 'var(--v-text-md)',
+            color: 'var(--v-ink)',
+            fontWeight: 600,
+          }}
+        >
+          {label}
+        </label>
+        <input
+          type="number"
+          min={1}
+          max={200}
+          value={raw}
+          disabled={disabled}
+          onChange={(e) => setRaw(e.target.value)}
+          onBlur={commit}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') (e.target as HTMLInputElement).blur();
+          }}
+          style={{
+            width: 84,
+            padding: '8px 12px',
+            background: 'var(--v-surface)',
+            border: '1.5px solid var(--v-border)',
+            borderRadius: 'var(--v-radius-sm)',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 800,
+            fontSize: 'var(--v-text-base)',
+            color: 'var(--v-ink)',
+            outline: 'none',
+            textAlign: 'center',
+          }}
+        />
+      </div>
+      <div
+        style={{
+          fontFamily: 'var(--v-font-body)',
+          fontSize: 'var(--v-text-sm)',
+          color: 'var(--v-muted)',
+          marginTop: 2,
+        }}
+      >
+        {hint}
+      </div>
+    </div>
+  );
+}
 
 function applyThemeImmediately(theme: ThemeMode) {
   if (typeof window === 'undefined') return;
