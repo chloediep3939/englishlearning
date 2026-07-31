@@ -200,9 +200,9 @@ export const flashcardDecksDb = {
            SUM(CASE WHEN c.status = 'learning' THEN 1 ELSE 0 END) as learning_count,
            SUM(CASE WHEN c.status = 'review' THEN 1 ELSE 0 END) as review_count,
            SUM(CASE WHEN c.status = 'mastered' THEN 1 ELSE 0 END) as mastered_count,
-           SUM(CASE WHEN c.next_review_at IS NULL OR c.next_review_at <= datetime('now') THEN 1 ELSE 0 END) as due_count
+           SUM(CASE WHEN c.id IS NOT NULL AND (c.next_review_at IS NULL OR c.next_review_at <= datetime('now')) THEN 1 ELSE 0 END) as due_count
          FROM flashcard_decks d
-         LEFT JOIN flashcards c ON c.deck_id = d.id
+         LEFT JOIN flashcards c ON c.deck_id = d.id AND c.user_id = d.user_id
          WHERE d.user_id = ?
          GROUP BY d.id
          ORDER BY d.position ASC, d.id ASC`
@@ -694,10 +694,24 @@ export const flashcardsDb = {
       .run();
   },
 
-  async countByStatus(userId: number): Promise<Record<FlashcardStatus, number>> {
+  /**
+   * Per-status card counts. `excludeRecognitionOnly` drops cards living in
+   * "chỉ hiểu nghĩa" decks (recognition_only = 1) — the dashboard uses
+   * this so its learning stats only reflect full-study decks.
+   */
+  async countByStatus(
+    userId: number,
+    opts: { excludeRecognitionOnly?: boolean } = {},
+  ): Promise<Record<FlashcardStatus, number>> {
     const db = await getDb();
+    const sql = opts.excludeRecognitionOnly
+      ? `SELECT c.status, COUNT(*) as n FROM flashcards c
+         JOIN flashcard_decks d ON d.id = c.deck_id AND d.user_id = c.user_id
+         WHERE c.user_id = ? AND d.recognition_only = 0
+         GROUP BY c.status`
+      : `SELECT status, COUNT(*) as n FROM flashcards WHERE user_id = ? GROUP BY status`;
     const result = await db
-      .prepare(`SELECT status, COUNT(*) as n FROM flashcards WHERE user_id = ? GROUP BY status`)
+      .prepare(sql)
       .bind(userId)
       .all<{ status: FlashcardStatus; n: number }>();
     const counts: Record<FlashcardStatus, number> = { new: 0, learning: 0, review: 0, mastered: 0 };
@@ -905,7 +919,7 @@ export const flashcardReviewsDb = {
     const row = await db
       .prepare(
         `SELECT COUNT(*) as n FROM flashcard_reviews
-         WHERE user_id = ? AND date(reviewed_at) = date('now', 'localtime')`
+         WHERE user_id = ? AND date(reviewed_at, 'localtime') = date('now', 'localtime')`
       )
       .bind(userId)
       .first<{ n: number }>();
@@ -953,7 +967,7 @@ export const flashcardReviewsDb = {
                 SUM(CASE WHEN prev_interval > 0 THEN 1 ELSE 0 END) as review_count
          FROM flashcard_reviews
          WHERE user_id = ?
-         AND reviewed_at >= datetime('now', '-' || ? || ' days')
+         AND date(reviewed_at, 'localtime') >= date('now', 'localtime', '-' || ? || ' days')
          GROUP BY date(reviewed_at, 'localtime')
          ORDER BY d ASC`
       )

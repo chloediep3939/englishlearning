@@ -59,7 +59,8 @@ export interface FlashcardDeck {
   subtitle: string | null;
   // "Chỉ hiểu nghĩa": recognition-only deck — study sessions drop
   // production/typing exercises and use EN→VI flip-and-self-grade instead.
-  // SRS scheduling is identical to full decks.
+  // SRS scheduling is identical to full decks, but these decks are kept
+  // out of the dashboard learning stats.
   recognition_only: boolean;
 }
 

@@ -118,9 +118,9 @@ export function calculateFlashcardBoost(
  * graduating/early steps use max(step, carried interval) so relearning a
  * mature card doesn't clobber the kept remnant back down to 1–4 days.
  *
- * Mastery gate (tight): status='mastered' only when both
- *   - interval_days >= 60   (held for ~2 months without forgetting)
- *   - repetitions >= 4      (multiple distinct review sessions)
+ * Mastery gate (Anki-style "mature"): status='mastered' only when both
+ *   - interval_days >= 21   (held for ~3 weeks without forgetting)
+ *   - repetitions >= 3      (multiple distinct review sessions)
  *
  * 'mastered' is NOT terminal — cards keep growing intervals and remain
  * reviewable. The /review query no longer filters mastered by default
@@ -180,9 +180,9 @@ export function calculateNextReview(
     if (interval >= 4) interval = applyFuzz(interval);
   }
 
-  // Mastery gate (tight): only true long-term retention.
-  // Both conditions required.
-  if (status === 'review' && interval >= 60 && reps >= 4) {
+  // Mastery gate (Anki-style "mature"): both conditions required.
+  // Migration 0018 retro-promoted existing review cards to this bar.
+  if (status === 'review' && interval >= 21 && reps >= 3) {
     status = 'mastered';
   }
 
