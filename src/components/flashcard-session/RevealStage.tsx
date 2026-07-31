@@ -9,7 +9,7 @@ import Kbd from './Kbd';
 import { highlightTarget } from './highlight';
 import { previewIntervals, intervalLabel } from '@/lib/flashcards/srs';
 import type { Flashcard } from '@/lib/types';
-import { AUDIO_AUTOPLAY_COUNT, RATINGS, type Quality } from './types';
+import { RATINGS, type Quality } from './types';
 
 const COLL_COLORS = ['var(--v-pink)', 'var(--v-teal)', 'var(--v-yellow-deep)'];
 
@@ -21,6 +21,9 @@ interface Props {
    *  the Enter-default hint tied to typing accuracy. */
   hideGuess?: boolean;
   autoplayCount: number;
+  /** Total autoplay repeats (`reveal_read_count` setting); 0 = autoplay off,
+   *  which hides the progress dots entirely. */
+  autoplayTotal: number;
   onRate: (q: Quality) => void;
   /** Label above the rating buttons (varies by page). */
   ratingRowLabel: string;
@@ -38,7 +41,7 @@ interface Props {
  * default so the shortcut is discoverable.
  */
 export default function RevealStage({
-  card, guess, isCorrect, hideGuess, autoplayCount, onRate, ratingRowLabel, failedThisSession,
+  card, guess, isCorrect, hideGuess, autoplayCount, autoplayTotal, onRate, ratingRowLabel, failedThisSession,
 }: Props) {
   const intervals = previewIntervals(card, { failedThisSession });
 
@@ -118,7 +121,7 @@ export default function RevealStage({
             gap: 8,
           }}
         >
-          <AutoplayDots played={autoplayCount} total={AUDIO_AUTOPLAY_COUNT} />
+          {autoplayTotal > 0 && <AutoplayDots played={autoplayCount} total={autoplayTotal} />}
           <AudioButton
             fallbackText={card.english}
             size={36}

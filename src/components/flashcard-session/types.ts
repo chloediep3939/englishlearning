@@ -24,13 +24,23 @@ export const RATINGS: Rating[] = [
   { quality: 5, label: 'DỄ',  emoji: '🎉', bg: 'var(--v-blue)',    key: '4' },
 ];
 
-// Audio autoplay tuning on reveal entry. 6 plays with a ~1.5s pause between
-// each so the learner has breathing room to actually subvocalize / mimic
-// the pronunciation before the next repetition kicks in. The previous 300ms
-// was too tight — words blurred into one another.
-export const AUDIO_AUTOPLAY_COUNT = 6;
-export const AUDIO_PAUSE_MS = 1000;
+// Delay before the first autoplay after reveal. Repeat count / pause length
+// are user settings now (`reveal_read_count` / `reveal_read_gap_ms`), passed
+// in via SessionAudioSettings.
 export const REVEAL_AUDIO_START_DELAY_MS = 250;
+
+/** User audio settings for the reveal autoplay, resolved server-side from
+ *  FlashcardSettings and threaded through SessionFlow. */
+export interface SessionAudioSettings {
+  /** `autoplay_audio` — false = silent reveal. */
+  autoplay: boolean;
+  /** `reveal_read_count` — how many times the word plays. */
+  readCount: number;
+  /** `reveal_read_gap_ms` — pause between plays so the learner can mimic. */
+  gapMs: number;
+  /** `word_tts_rate` — playback rate for both the mp3 and the TTS fallback. */
+  wordRate: number;
+}
 
 /**
  * Anki-like reinsert offsets (study-unified A3). After rating with

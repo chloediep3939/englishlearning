@@ -7,13 +7,13 @@ import FlipStage from './FlipStage';
 import RevealStage from './RevealStage';
 import SummaryScreen from './SummaryScreen';
 import type { Flashcard } from '@/lib/types';
+import { speak, getStoredVoicePreference } from '@/lib/tts';
 import {
-  AUDIO_AUTOPLAY_COUNT,
-  AUDIO_PAUSE_MS,
   REQUEUE_OFFSET,
   REVEAL_AUDIO_START_DELAY_MS,
   type Phase,
   type Quality,
+  type SessionAudioSettings,
   type SessionConfig,
 } from './types';
 
@@ -26,6 +26,8 @@ interface Props {
    *  EN→VI flip (FlipStage) instead of typed VI→EN recall, and the reveal
    *  hides the char-diff. SRS scheduling is identical either way. */
   recognition?: boolean;
+  /** Reveal-autoplay settings (autoplay on/off, repeat count, gap, rate). */
+  audio: SessionAudioSettings;
   /** Fired when the user clicks "Học thêm phiên nữa" on the summary —
    *  the parent should re-fetch candidates and re-mount the setup screen. */
   onAnotherSession: () => void;
@@ -53,7 +55,7 @@ interface Props {
  *
  * Reload mid-session: state is in memory only. Acceptable v1 trade-off.
  */
-export default function FlashcardSession({ cards, config, recognition = false, onAnotherSession }: Props) {
+export default function FlashcardSession({ cards, config, recognition = false, audio, onAnotherSession }: Props) {
   const router = useRouter();
 
   // initialCount is captured once at mount so the progress display
@@ -105,11 +107,11 @@ export default function FlashcardSession({ cards, config, recognition = false, o
     // reinsert (same length) without phase changing.
   }, [phase, current?.id, recognition]);
 
-  // Auto-play audio AUDIO_AUTOPLAY_COUNT times on reveal entry. Falls
-  // back to TTS if dictionary audio fails, and is cancellable when the
-  // user advances or unmounts mid-play.
+  // Auto-play audio `audio.readCount` times on reveal entry (gated by the
+  // `autoplay_audio` setting). Falls back to TTS if dictionary audio fails,
+  // and is cancellable when the user advances or unmounts mid-play.
   useEffect(() => {
-    if (phase !== 'REVEAL' || !current) return;
+    if (phase !== 'REVEAL' || !current || !audio.autoplay) return;
 
     setAutoplayCount(0);
     let cancelled = false;
@@ -126,25 +128,28 @@ export default function FlashcardSession({ cards, config, recognition = false, o
     let currentAudio: HTMLAudioElement | null = null;
 
     function playOnce() {
-      if (cancelled || count >= AUDIO_AUTOPLAY_COUNT) return;
+      if (cancelled || count >= audio.readCount) return;
       count++;
       setAutoplayCount(count);
 
       const onComplete = () => {
-        if (!cancelled) setTimeout(playOnce, AUDIO_PAUSE_MS);
+        if (!cancelled) setTimeout(playOnce, audio.gapMs);
       };
 
       if (oxfordUrl) {
         try {
-          const audio = new Audio(oxfordUrl);
-          currentAudio = audio;
-          audio.onended = onComplete;
-          audio.onerror = () => {
+          const el = new Audio(oxfordUrl);
+          currentAudio = el;
+          // Recorded audio outside 0.5–1.5x sounds garbled — same clamp as
+          // playAudioUrl in @/lib/tts.
+          el.playbackRate = Math.min(1.5, Math.max(0.5, audio.wordRate));
+          el.onended = onComplete;
+          el.onerror = () => {
             // eslint-disable-next-line no-console
             console.warn('[autoplay] Oxford mp3 failed, fallback TTS:', oxfordUrl);
             speakTTS();
           };
-          audio.play().catch(() => speakTTS());
+          el.play().catch(() => speakTTS());
           return;
         } catch {
           speakTTS();
@@ -154,33 +159,14 @@ export default function FlashcardSession({ cards, config, recognition = false, o
       speakTTS();
 
       function speakTTS() {
-        if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-          onComplete();
-          return;
-        }
-        const synth = window.speechSynthesis;
-        const doSpeak = () => {
-          try {
-            synth.cancel();
-            const u = new SpeechSynthesisUtterance(word);
-            u.lang = 'en-US';
-            u.rate = 1;
-            u.onend = onComplete;
-            u.onerror = onComplete;
-            synth.speak(u);
-          } catch {
-            onComplete();
-          }
-        };
-        // Chrome on first page load returns [] until voiceschanged fires.
-        // Calling speak() with no voices produces no sound (bug, not spec).
-        // Mirror the wait-for-voices dance the `speak()` helper already does.
-        if (synth.getVoices().length === 0) {
-          synth.addEventListener('voiceschanged', doSpeak, { once: true });
-          synth.getVoices();
-        } else {
-          doSpeak();
-        }
+        // Shared helper: honors voice_preference, does the wait-for-voices
+        // dance, and fires onDone even when speechSynthesis is unavailable.
+        speak(word, {
+          lang: 'en-US',
+          rate: audio.wordRate,
+          voice_preference: getStoredVoicePreference(),
+          onDone: onComplete,
+        });
       }
     }
 
@@ -203,8 +189,9 @@ export default function FlashcardSession({ cards, config, recognition = false, o
     // if the parent re-syncs cards from a router.refresh, the
     // object identity can change for the same card and the effect would
     // re-fire, cleanup-cancel the in-flight audio, and the autoplay would
-    // never produce sound.
-  }, [phase, current?.id]);
+    // never produce sound. Audio settings are primitives and fixed for the
+    // session (resolved server-side), so listing them is safe.
+  }, [phase, current?.id, audio.autoplay, audio.readCount, audio.gapMs, audio.wordRate]);
 
   const handleRate = useCallback(
     (quality: Quality) => {
@@ -410,6 +397,7 @@ export default function FlashcardSession({ cards, config, recognition = false, o
           isCorrect={isCorrect}
           hideGuess={recognition}
           autoplayCount={autoplayCount}
+          autoplayTotal={audio.autoplay ? audio.readCount : 0}
           onRate={handleRate}
           ratingRowLabel={config.ratingRowLabel}
           failedThisSession={failedThisSessionRef.current.has(current.id)}

@@ -70,6 +70,12 @@ export default async function StudyPage() {
           decks={decks}
           defaultReviewLimit={settings.session_review_limit}
           defaultNewLimit={settings.session_new_limit}
+          audio={{
+            autoplay: settings.autoplay_audio,
+            readCount: settings.reveal_read_count,
+            gapMs: settings.reveal_read_gap_ms,
+            wordRate: settings.word_tts_rate,
+          }}
         />
       )}
     </div>

@@ -14,7 +14,7 @@ import type {
   TestMode,
   User,
 } from './types';
-import { M4_SETTINGS } from './types';
+import { M4_SETTINGS, M6_SETTINGS } from './types';
 
 const CEFR_VALUES = M4_SETTINGS.user_cefr_level.values;
 function parseCefr(raw: string | undefined): CefrLevel {
@@ -1169,15 +1169,10 @@ export const flashcardClozePoolDb = {
 // ============================================================================
 
 const SETTINGS_KEYS = [
-  'flashcard_daily_goal_new',
   'flashcard_daily_goal_review',
-  'flashcard_reminder_time',
-  'flashcard_reminder_enabled',
   'flashcard_mastered_hide_from_review',
-  'flashcard_daily_new_limit',
   // M3 keys — stored under their bare names (no `flashcard_` prefix) so they
   // can later be reused for non-flashcard practice modes without rename pain.
-  'daily_new_word_target',
   'f1_max_attempts',
   'f2_timer_seconds',
   'f3_max_words_per_composition',
@@ -1200,6 +1195,13 @@ const SETTINGS_KEYS = [
   // Unified study session (study-unified)
   'session_review_limit',
   'session_new_limit',
+  // M6 keys (settings overhaul)
+  'reveal_read_count',
+  'reveal_read_gap_ms',
+  'word_tts_rate',
+  'speed_read_count',
+  'chunk_pause_ms',
+  'default_session_size',
 ] as const;
 
 const THEME_VALUES: ReadonlyArray<'light' | 'dark' | 'system'> = ['light', 'dark', 'system'];
@@ -1221,45 +1223,50 @@ export const userSettingsDb = {
       .bind(userId, ...SETTINGS_KEYS)
       .all<{ key: string; value: string }>();
     const map = new Map(result.results.map((r) => [r.key, r.value]));
-    const f1Raw = map.get('f1_max_attempts');
-    const speedTimerRaw = map.get('speed_timer_seconds');
+    // Absent key → default; present key → its numeric value, even when that
+    // value is legitimately 0 (f1_max_attempts "Không giới hạn", speed timer
+    // "Tắt", speed_read_count off…). `Number(x) || default` would swallow 0.
+    const numOr = (key: string, def: number): number => {
+      const raw = map.get(key);
+      if (raw === undefined) return def;
+      const n = Number(raw);
+      return Number.isFinite(n) ? n : def;
+    };
     return {
-      daily_goal_new: Number(map.get('flashcard_daily_goal_new')) || 10,
-      daily_goal_review: Number(map.get('flashcard_daily_goal_review')) || 50,
-      reminder_time: map.get('flashcard_reminder_time') ?? '20:00',
-      reminder_enabled: map.get('flashcard_reminder_enabled') === '1',
-      mastered_hide_from_review: (map.get('flashcard_mastered_hide_from_review') ?? '0') === '1',
-      daily_new_limit: Number(map.get('flashcard_daily_new_limit')) || 10,
+      daily_goal_review: numOr('flashcard_daily_goal_review', 50),
+      mastered_hide_from_review: (map.get('flashcard_mastered_hide_from_review') ?? '1') === '1',
       // M3 keys (defaults pulled from M3_SETTINGS in @/lib/types).
-      // f1_max_attempts can legitimately be 0 ("Không giới hạn") — preserve
-      // that explicitly instead of coercing via `|| default`.
-      daily_new_word_target: Number(map.get('daily_new_word_target')) || 30,
-      f1_max_attempts: f1Raw === undefined ? 3 : Number(f1Raw),
-      f2_timer_seconds: Number(map.get('f2_timer_seconds')) || 60,
-      f3_max_words_per_composition: Number(map.get('f3_max_words_per_composition')) || 30,
-      // speed_timer_seconds can legitimately be 0 ("Tắt") — preserve it
-      // explicitly instead of coercing via `|| default`.
-      speed_timer_seconds: speedTimerRaw === undefined ? 8 : Number(speedTimerRaw),
+      f1_max_attempts: numOr('f1_max_attempts', 3),
+      f2_timer_seconds: numOr('f2_timer_seconds', 60),
+      f3_max_words_per_composition: numOr('f3_max_words_per_composition', 30),
+      speed_timer_seconds: numOr('speed_timer_seconds', 8),
       // M4 keys — defaults from M4_SETTINGS so they stay in lockstep with
       // the validator and UI ranges.
       user_cefr_level: parseCefr(map.get('user_cefr_level')),
-      passage_tts_rate: Number(map.get('passage_tts_rate')) || M4_SETTINGS.passage_tts_rate.default,
+      passage_tts_rate: numOr('passage_tts_rate', M4_SETTINGS.passage_tts_rate.default),
       passage_pre_fetch: (map.get('passage_pre_fetch') ?? (M4_SETTINGS.passage_pre_fetch.default ? '1' : '0')) === '1',
       // M5 keys
       autoplay_audio: (map.get('autoplay_audio') ?? '1') === '1',
       voice_preference: map.get('voice_preference') ?? 'auto',
       theme: parseTheme(map.get('theme')),
       // Pomodoro defaults — 25/5 (standard Pomodoro technique).
-      pomodoro_work_minutes: Number(map.get('pomodoro_work_minutes')) || 25,
-      pomodoro_break_minutes: Number(map.get('pomodoro_break_minutes')) || 5,
+      pomodoro_work_minutes: numOr('pomodoro_work_minutes', 25),
+      pomodoro_break_minutes: numOr('pomodoro_break_minutes', 5),
       // Read-Along defaults (BR7–BR10). reading_deck_id absent → null (no
       // last-used deck yet); the reader falls back to first/auto-created deck.
-      reading_speed: Number(map.get('reading_speed')) || 1.0,
+      reading_speed: numOr('reading_speed', 1.0),
       reading_auto_continue: (map.get('reading_auto_continue') ?? '1') === '1',
       reading_deck_id: map.get('reading_deck_id') ? Number(map.get('reading_deck_id')) : null,
       // Unified study session defaults — 20 thẻ ôn / 20 thẻ mới mỗi phiên.
-      session_review_limit: Number(map.get('session_review_limit')) || 20,
-      session_new_limit: Number(map.get('session_new_limit')) || 20,
+      session_review_limit: numOr('session_review_limit', 20),
+      session_new_limit: numOr('session_new_limit', 20),
+      // M6 keys — defaults from M6_SETTINGS.
+      reveal_read_count: numOr('reveal_read_count', M6_SETTINGS.reveal_read_count.default),
+      reveal_read_gap_ms: numOr('reveal_read_gap_ms', M6_SETTINGS.reveal_read_gap_ms.default),
+      word_tts_rate: numOr('word_tts_rate', M6_SETTINGS.word_tts_rate.default),
+      speed_read_count: numOr('speed_read_count', M6_SETTINGS.speed_read_count.default),
+      chunk_pause_ms: numOr('chunk_pause_ms', M6_SETTINGS.chunk_pause_ms.default),
+      default_session_size: numOr('default_session_size', M6_SETTINGS.default_session_size.default),
     };
   },
 
@@ -1278,13 +1285,8 @@ export const userSettingsDb = {
           .bind(userId, key, value)
       );
     };
-    if (partial.daily_goal_new !== undefined)            upsert('flashcard_daily_goal_new', String(partial.daily_goal_new));
     if (partial.daily_goal_review !== undefined)         upsert('flashcard_daily_goal_review', String(partial.daily_goal_review));
-    if (partial.reminder_time !== undefined)             upsert('flashcard_reminder_time', partial.reminder_time);
-    if (partial.reminder_enabled !== undefined)          upsert('flashcard_reminder_enabled', partial.reminder_enabled ? '1' : '0');
     if (partial.mastered_hide_from_review !== undefined) upsert('flashcard_mastered_hide_from_review', partial.mastered_hide_from_review ? '1' : '0');
-    if (partial.daily_new_limit !== undefined)           upsert('flashcard_daily_new_limit', String(partial.daily_new_limit));
-    if (partial.daily_new_word_target !== undefined)        upsert('daily_new_word_target', String(partial.daily_new_word_target));
     if (partial.f1_max_attempts !== undefined)              upsert('f1_max_attempts', String(partial.f1_max_attempts));
     if (partial.f2_timer_seconds !== undefined)             upsert('f2_timer_seconds', String(partial.f2_timer_seconds));
     if (partial.f3_max_words_per_composition !== undefined) upsert('f3_max_words_per_composition', String(partial.f3_max_words_per_composition));
@@ -1303,6 +1305,12 @@ export const userSettingsDb = {
     if (partial.reading_deck_id !== undefined)              upsert('reading_deck_id', partial.reading_deck_id == null ? '' : String(partial.reading_deck_id));
     if (partial.session_review_limit !== undefined)         upsert('session_review_limit', String(partial.session_review_limit));
     if (partial.session_new_limit !== undefined)            upsert('session_new_limit', String(partial.session_new_limit));
+    if (partial.reveal_read_count !== undefined)            upsert('reveal_read_count', String(partial.reveal_read_count));
+    if (partial.reveal_read_gap_ms !== undefined)           upsert('reveal_read_gap_ms', String(partial.reveal_read_gap_ms));
+    if (partial.word_tts_rate !== undefined)                upsert('word_tts_rate', String(partial.word_tts_rate));
+    if (partial.speed_read_count !== undefined)             upsert('speed_read_count', String(partial.speed_read_count));
+    if (partial.chunk_pause_ms !== undefined)               upsert('chunk_pause_ms', String(partial.chunk_pause_ms));
+    if (partial.default_session_size !== undefined)         upsert('default_session_size', String(partial.default_session_size));
     if (stmts.length === 0) return;
     await db.batch(stmts);
   },

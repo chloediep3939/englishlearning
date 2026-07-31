@@ -6,9 +6,43 @@ export interface TtsOptions {
   voice_preference?: string;
   lang?: string;
   rate?: number;
+  /** Called once when the utterance finishes (or errors). Lets callers chain
+   *  repeated plays without re-implementing the wait-for-voices dance. */
+  onDone?: () => void;
 }
 
 const VOICE_PREF_KEY = 'voice_preference';
+const WORD_TTS_RATE_KEY = 'word_tts_rate';
+
+/** Default rate for single-word playback (flashcard reveal, quiz prompts,
+ *  speaker buttons) — the historical hardcoded 0.95. */
+export const DEFAULT_WORD_TTS_RATE = 0.95;
+
+/**
+ * Returns the user's stored word-TTS rate, falling back to the default when
+ * unavailable (SSR, localStorage disabled, or never set). Mirrors the DB
+ * `word_tts_rate` setting the same way `voice_preference` is mirrored.
+ */
+export function getStoredWordTtsRate(): number {
+  if (typeof window === 'undefined') return DEFAULT_WORD_TTS_RATE;
+  try {
+    const n = Number(window.localStorage.getItem(WORD_TTS_RATE_KEY));
+    return Number.isFinite(n) && n > 0 ? n : DEFAULT_WORD_TTS_RATE;
+  } catch {
+    return DEFAULT_WORD_TTS_RATE;
+  }
+}
+
+/** Persist the word-TTS rate locally; the Settings page calls this on change.
+ *  The source of truth is still the DB. */
+export function setStoredWordTtsRate(rate: number): void {
+  if (typeof window === 'undefined') return;
+  try {
+    window.localStorage.setItem(WORD_TTS_RATE_KEY, String(rate));
+  } catch {
+    /* ignore */
+  }
+}
 
 /**
  * Returns the user's stored voice preference, falling back to 'auto' when
@@ -75,15 +109,30 @@ function makeUtterance(
 }
 
 export function speak(text: string, opts: TtsOptions = {}): void {
-  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+    opts.onDone?.();
+    return;
+  }
   const synth = window.speechSynthesis;
 
   const doSpeak = () => {
     try {
       synth.cancel();
-      synth.speak(makeUtterance(synth, text, opts));
+      const u = makeUtterance(synth, text, opts);
+      if (opts.onDone) {
+        let done = false;
+        const fire = () => {
+          if (done) return;
+          done = true;
+          opts.onDone?.();
+        };
+        u.onend = fire;
+        u.onerror = fire;
+      }
+      synth.speak(u);
     } catch {
-      /* ignore — TTS is best-effort */
+      // TTS is best-effort — still unblock any chained caller.
+      opts.onDone?.();
     }
   };
 

@@ -42,24 +42,27 @@ export default function ComposePoolPicker({ onConfirm }: Props) {
 
   const [capWarning, setCapWarning] = useState(false);
 
-  // Settings + initial load
+  // Settings + initial load. The today-pool fetch waits for the settings so
+  // its `limit` matches `f3_max_words_per_composition` — the old hardcoded
+  // limit=30 silently capped users who raised the setting above 30.
   useEffect(() => {
-    apiJson<FlashcardSettings>('/api/settings')
-      .then((s) => {
-        if (typeof s.f3_max_words_per_composition === 'number' && s.f3_max_words_per_composition >= 5) {
-          setMaxWords(s.f3_max_words_per_composition);
-        }
-      })
-      .catch(() => {
-        /* fall back to default */
-      });
-
     const start = new Date();
     start.setHours(0, 0, 0, 0);
     const since = start.toISOString();
-    apiJson<{ cards: Flashcard[] }>(
-      `/api/compose/today-pool?since=${encodeURIComponent(since)}&limit=${DEFAULT_MAX}`
-    )
+
+    apiJson<FlashcardSettings>('/api/settings')
+      .then((s) =>
+        typeof s.f3_max_words_per_composition === 'number' && s.f3_max_words_per_composition >= 5
+          ? s.f3_max_words_per_composition
+          : DEFAULT_MAX
+      )
+      .catch(() => DEFAULT_MAX)
+      .then((max) => {
+        setMaxWords(max);
+        return apiJson<{ cards: Flashcard[] }>(
+          `/api/compose/today-pool?since=${encodeURIComponent(since)}&limit=${max}`
+        );
+      })
       .then(({ cards }) => setTodayWords(cards))
       .catch(() => setTodayWords([]))
       .finally(() => setTodayLoading(false));

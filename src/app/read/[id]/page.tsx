@@ -51,6 +51,7 @@ export default async function ReadAlongPage({ params }: { params: Promise<{ id: 
         initialAuto={settings.reading_auto_continue}
         initialDeckId={deckId}
         decks={decks.map((d) => ({ id: d.id, name: d.name }))}
+        chunkPauseMs={settings.chunk_pause_ms}
       />
 
       {/* Grammar analysis ("Tìm hiểu grammar patterns") tạm bỏ theo yêu cầu.

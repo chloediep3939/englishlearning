@@ -23,6 +23,8 @@ interface Props {
   fills: PteTemplateFill[];
   initialRate: number;
   initialAuto: boolean;
+  /** Gap between chunks in chunk-practice auto-read (`chunk_pause_ms` setting). */
+  chunkPauseMs?: number;
 }
 
 export default function TemplateDetailClient({
@@ -30,6 +32,7 @@ export default function TemplateDetailClient({
   fills: initialFills,
   initialRate,
   initialAuto,
+  chunkPauseMs,
 }: Props) {
   const router = useRouter();
   const [template, setTemplate] = useState(initialTemplate);
@@ -99,6 +102,7 @@ export default function TemplateDetailClient({
         text={karaokeSource.text}
         initialRate={initialRate}
         initialAuto={initialAuto}
+        chunkPauseMs={chunkPauseMs}
         onBack={() => setMode('menu')}
       />
     );

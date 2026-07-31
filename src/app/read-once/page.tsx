@@ -20,12 +20,14 @@ export default function ReadOncePage() {
   // Reading prefs, pulled from settings so read-once matches the saved reader.
   const [initialRate, setInitialRate] = useState(1.0);
   const [initialAuto, setInitialAuto] = useState(true);
+  const [chunkPauseMs, setChunkPauseMs] = useState(550);
 
   useEffect(() => {
     apiJson<FlashcardSettings>('/api/settings')
       .then((s) => {
         if (typeof s.reading_speed === 'number') setInitialRate(s.reading_speed);
         if (typeof s.reading_auto_continue === 'boolean') setInitialAuto(s.reading_auto_continue);
+        if (typeof s.chunk_pause_ms === 'number') setChunkPauseMs(s.chunk_pause_ms);
       })
       .catch(() => {/* defaults are fine */});
   }, []);
@@ -67,6 +69,7 @@ export default function ReadOncePage() {
           setParsed(null);
         }}
         seedBreaks={parsed.breakWordIndices}
+        chunkPauseMs={chunkPauseMs}
       />
     );
   }

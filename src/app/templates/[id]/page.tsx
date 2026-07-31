@@ -27,6 +27,7 @@ export default async function TemplateDetailPage({ params }: { params: Promise<{
       fills={fills}
       initialRate={settings.reading_speed}
       initialAuto={settings.reading_auto_continue}
+      chunkPauseMs={settings.chunk_pause_ms}
     />
   );
 }

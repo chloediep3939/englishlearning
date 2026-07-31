@@ -18,13 +18,16 @@ export interface ChunkCursor {
 }
 
 // Silent gap inserted between chunks in "read whole passage" mode — the
-// thought-group pause a good PTE reader leaves between phrases.
+// thought-group pause a good PTE reader leaves between phrases. Default for
+// the `chunk_pause_ms` user setting.
 const CHUNK_PAUSE_MS = 550;
 
 export interface UseChunkPracticeOptions {
   sentences: FlatSentence[];
   /** Current TTS rate (mirrors the karaoke engine's rate chip). */
   rate: number;
+  /** Gap between chunks in auto-read mode (`chunk_pause_ms` setting). */
+  pauseMs?: number;
   /** Global word indices (chunk starts) parsed from "/" markers in the pasted
    *  text. When present, these become the default chunking and practice mode
    *  turns on automatically. */
@@ -40,7 +43,7 @@ export interface UseChunkPracticeOptions {
  * Uses window.speechSynthesis directly with the same cancel-before-speak
  * discipline as use-karaoke; any other play action simply cancels ours.
  */
-export function useChunkPractice({ sentences, rate, seedGlobalBreaks }: UseChunkPracticeOptions) {
+export function useChunkPractice({ sentences, rate, pauseMs = CHUNK_PAUSE_MS, seedGlobalBreaks }: UseChunkPracticeOptions) {
   const hasSeed = (seedGlobalBreaks?.length ?? 0) > 0;
   const [enabled, setEnabled] = useState(hasSeed);
   const [editMode, setEditMode] = useState(false);
@@ -64,6 +67,8 @@ export function useChunkPractice({ sentences, rate, seedGlobalBreaks }: UseChunk
 
   const rateRef = useRef(rate);
   rateRef.current = rate;
+  const pauseMsRef = useRef(pauseMs);
+  pauseMsRef.current = pauseMs;
 
   // ── Edge TTS (Aria) chunk audio ─────────────────────────────────────────
   // Same source as the karaoke reader (/api/reading/tts) but keyed by chunk
@@ -196,7 +201,7 @@ export function useChunkPractice({ sentences, rate, seedGlobalBreaks }: UseChunk
             setDone(true);
             setCur(null);
           }
-        }, CHUNK_PAUSE_MS);
+        }, pauseMsRef.current);
       };
 
       const speakBrowser = () => {

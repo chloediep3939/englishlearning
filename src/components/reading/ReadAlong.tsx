@@ -56,10 +56,12 @@ interface Props {
   onBack?: () => void;
   // Global word indices (chunk starts) parsed from "/" in the pasted text.
   seedBreaks?: number[];
+  // Gap between chunks in chunk-practice auto-read (`chunk_pause_ms` setting).
+  chunkPauseMs?: number;
 }
 
 // ── Loader: split passage, fetch translations + glossary, then mount engine ──
-export default function ReadAlong({ passage, initialRate, initialAuto, initialDeckId, decks, ephemeral = false, backHref = '/passage', onBack, seedBreaks }: Props) {
+export default function ReadAlong({ passage, initialRate, initialAuto, initialDeckId, decks, ephemeral = false, backHref = '/passage', onBack, seedBreaks, chunkPauseMs }: Props) {
   const { flat } = useMemo(() => splitPassage(passage.content), [passage.content]);
 
   const [loaded, setLoaded] = useState(false);
@@ -166,6 +168,7 @@ export default function ReadAlong({ passage, initialRate, initialAuto, initialDe
       backHref={backHref}
       onBack={onBack}
       seedBreaks={seedBreaks}
+      chunkPauseMs={chunkPauseMs}
     />
   );
 }
@@ -215,6 +218,7 @@ function ReadAlongInner({
   backHref = '/passage',
   onBack,
   seedBreaks,
+  chunkPauseMs,
 }: Props & {
   flat: FlatSentence[];
   translations: Record<number, string | null>;
@@ -251,7 +255,7 @@ function ReadAlongInner({
   });
 
   // PTE thought-group practice (chunk markers + echo mode + manual/AI chunking).
-  const cp = useChunkPractice({ sentences: flat, rate: k.rate, seedGlobalBreaks: seedBreaks });
+  const cp = useChunkPractice({ sentences: flat, rate: k.rate, pauseMs: chunkPauseMs, seedGlobalBreaks: seedBreaks });
 
   // Restore the per-device parallel-translation preference (localStorage, BR9).
   useEffect(() => {

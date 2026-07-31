@@ -11,12 +11,14 @@ interface Props {
   text: string;
   initialRate: number;
   initialAuto: boolean;
+  /** Gap between chunks in chunk-practice auto-read (`chunk_pause_ms` setting). */
+  chunkPauseMs?: number;
   onBack: () => void;
 }
 
 /** Karaoke mode for templates — exactly the read-once wiring: ephemeral
  *  passage (id 0), chunk breaks seeded from the "/" markers in the text. */
-export default function TemplateKaraoke({ title, text, initialRate, initialAuto, onBack }: Props) {
+export default function TemplateKaraoke({ title, text, initialRate, initialAuto, chunkPauseMs, onBack }: Props) {
   const parsed = useMemo(() => parseManualBreaks(text), [text]);
   const wordCount = parsed.content.trim().match(/\S+/g)?.length ?? 0;
 
@@ -37,6 +39,7 @@ export default function TemplateKaraoke({ title, text, initialRate, initialAuto,
       backHref="/templates"
       onBack={onBack}
       seedBreaks={parsed.breakWordIndices}
+      chunkPauseMs={chunkPauseMs}
     />
   );
 }

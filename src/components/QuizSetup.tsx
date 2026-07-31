@@ -1,9 +1,19 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
-import type { FlashcardDeck, FlashcardDeckWithCounts } from '@/lib/types';
+import type { FlashcardDeck, FlashcardDeckWithCounts, FlashcardSettings } from '@/lib/types';
 import { apiJson } from '@/lib/common/api-json';
+
+// Nearest chip to the user's `default_session_size`; ties break to the
+// smaller chip (15 with chips [10,20,30] → 10).
+function snapToOptions(target: number, options: number[]): number {
+  return options.reduce((best, o) => {
+    const d = Math.abs(o - target);
+    const bestD = Math.abs(best - target);
+    return d < bestD || (d === bestD && o < best) ? o : best;
+  });
+}
 
 export interface QuizMode<V extends string = string> {
   value: V;
@@ -45,11 +55,25 @@ export default function QuizSetup<V extends string = string>({
   const [count, setCount] = useState(defaultCount);
   const [deckId, setDeckId] = useState<number | null>(null);
   const [decks, setDecks] = useState<FlashcardDeckWithCounts[]>([]);
+  // Once the user clicks a count chip, the settings fetch must not override
+  // their pick (it can resolve later on a slow connection).
+  const countTouchedRef = useRef(false);
 
   useEffect(() => {
     apiJson<{ decks?: FlashcardDeckWithCounts[] }>('/api/decks')
       .then((d) => setDecks(d.decks ?? []))
       .catch(() => {});
+    // `default_session_size` pre-selects the closest chip; `defaultCount`
+    // stays as the pre-fetch / error fallback.
+    apiJson<FlashcardSettings>('/api/settings')
+      .then((s) => {
+        if (typeof s.default_session_size === 'number' && !countTouchedRef.current) {
+          setCount(snapToOptions(s.default_session_size, countOptions));
+        }
+      })
+      .catch(() => {});
+    // countOptions is a per-page literal; mount-only fetch is intentional.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -142,7 +166,10 @@ export default function QuizSetup<V extends string = string>({
             <button
               key={c}
               type="button"
-              onClick={() => setCount(c)}
+              onClick={() => {
+                countTouchedRef.current = true;
+                setCount(c);
+              }}
               style={{
                 flex: 1,
                 padding: '10px 0',

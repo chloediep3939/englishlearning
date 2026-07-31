@@ -3,19 +3,36 @@
 import { useEffect, useRef, useState } from 'react';
 import { Gauge, Play } from 'lucide-react';
 import { M4_SETTINGS } from '@/lib/types';
-import { speak } from '@/lib/tts';
+import { speak, getStoredVoicePreference } from '@/lib/tts';
 
 interface Props {
   value: number;
   onCommit: (v: number) => void;
+  // Optional overrides so the same control serves both `passage_tts_rate`
+  // (defaults below) and `word_tts_rate` on the settings page.
+  label?: string;
+  hint?: string;
+  min?: number;
+  max?: number;
+  step?: number;
+  previewText?: string;
 }
 
 /**
- * Slider for the karaoke TTS rate on passage steps. Includes a "Nghe thử"
- * button that previews the *current local* slider position (not the saved
- * one) so the user hears exactly what they're dragging toward.
+ * Slider for a TTS rate setting. Includes a "Nghe thử" button that previews
+ * the *current local* slider position (not the saved one) so the user hears
+ * exactly what they're dragging toward.
  */
-export default function TtsRateControl({ value, onCommit }: Props) {
+export default function TtsRateControl({
+  value,
+  onCommit,
+  label = 'Tốc độ đọc của Bún',
+  hint = 'Tốc độ TTS khi nghe đọc bài',
+  min = M4_SETTINGS.passage_tts_rate.min,
+  max = M4_SETTINGS.passage_tts_rate.max,
+  step = M4_SETTINGS.passage_tts_rate.step,
+  previewText = 'Reading practice helps you understand English more naturally.',
+}: Props) {
   const [local, setLocal] = useState(value);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const dragging = useRef(false);
@@ -41,13 +58,15 @@ export default function TtsRateControl({ value, onCommit }: Props) {
   }
 
   function preview() {
-    speak('Reading practice helps you understand English more naturally.', {
+    speak(previewText, {
       rate: local,
       lang: 'en-US',
+      voice_preference: getStoredVoicePreference(),
     });
   }
 
-  const display = local.toFixed(1);
+  // Fine-grained steps (word rate uses 0.05) need two decimals to not look stuck.
+  const display = local.toFixed(step < 0.1 ? 2 : 1);
 
   return (
     <div style={{ marginBottom: 14 }}>
@@ -56,7 +75,7 @@ export default function TtsRateControl({ value, onCommit }: Props) {
           <Gauge size={14} />
         </span>
         <span style={{ flex: 1, fontFamily: 'var(--v-font-body)', fontSize: 'var(--v-text-md)', color: 'var(--v-ink)', fontWeight: 600 }}>
-          Tốc độ đọc của Bún
+          {label}
         </span>
         <span style={{ fontFamily: 'var(--v-font-head)', fontSize: 'var(--v-text-md)', fontWeight: 900, color: 'var(--v-primary)' }}>
           {display}×
@@ -64,9 +83,9 @@ export default function TtsRateControl({ value, onCommit }: Props) {
       </div>
       <input
         type="range"
-        min={M4_SETTINGS.passage_tts_rate.min}
-        max={M4_SETTINGS.passage_tts_rate.max}
-        step={M4_SETTINGS.passage_tts_rate.step}
+        min={min}
+        max={max}
+        step={step}
         value={local}
         onPointerDown={() => { dragging.current = true; }}
         onChange={(e) => {
@@ -88,7 +107,7 @@ export default function TtsRateControl({ value, onCommit }: Props) {
         }}
       >
         <div style={{ fontSize: 'var(--v-text-xs)', color: 'var(--v-muted)' }}>
-          Tốc độ TTS khi nghe đọc bài
+          {hint}
         </div>
         <button
           type="button"

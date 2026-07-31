@@ -173,12 +173,8 @@ export async function GET(req: Request) {
 
       // Seed default settings for new user
       await db.batch([
-        db.prepare(`INSERT INTO user_settings (user_id, key, value) VALUES (?, 'flashcard_daily_goal_new', '10')`).bind(userId),
         db.prepare(`INSERT INTO user_settings (user_id, key, value) VALUES (?, 'flashcard_daily_goal_review', '50')`).bind(userId),
-        db.prepare(`INSERT INTO user_settings (user_id, key, value) VALUES (?, 'flashcard_reminder_time', '20:00')`).bind(userId),
-        db.prepare(`INSERT INTO user_settings (user_id, key, value) VALUES (?, 'flashcard_reminder_enabled', '0')`).bind(userId),
         db.prepare(`INSERT INTO user_settings (user_id, key, value) VALUES (?, 'flashcard_mastered_hide_from_review', '1')`).bind(userId),
-        db.prepare(`INSERT INTO user_settings (user_id, key, value) VALUES (?, 'flashcard_daily_new_limit', '10')`).bind(userId),
       ]);
     }
   } catch (err) {
