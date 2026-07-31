@@ -35,7 +35,7 @@ yarn-error.log*
 .dev.vars
 
 # cloudflare / opennext
-.wrangler/
+.wrangler
 .open-next/
 
 # vercel
