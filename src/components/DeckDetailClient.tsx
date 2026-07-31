@@ -21,7 +21,6 @@ import CardDetailModal from './deck-detail/CardDetailModal';
 import DeleteDeckDialog from './deck-detail/DeleteDeckDialog';
 import DeckExportButton from './deck-detail/DeckExportButton';
 import RefreshAudioButton from './deck-detail/RefreshAudioButton';
-import RefreshIpaButton from './deck-detail/RefreshIpaButton';
 import { STAGE_COLOR, type FilterTab } from './deck-detail/constants';
 
 interface RegenResponse {
@@ -77,8 +76,23 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
     return c;
   }, [cards]);
 
-  const brokenCards = useMemo(
-    () => cards.filter((c) => getMissingFields(c).length > 0),
+  // Cards the toolbar "Sửa từ thiếu info" sweep can improve: missing content
+  // (image / meaning → regen route) or missing pronunciation (IPA / Oxford
+  // mp3 → refresh-audio route, the same function behind "Cập nhật phát âm").
+  // Phrases never store mp3s (browser TTS is their playback), so only a
+  // missing IPA counts for them.
+  const fixTargets = useMemo(
+    () =>
+      cards
+        .map((card) => {
+          const contentMissing = getMissingFields(card).filter((f) => f !== 'ipa');
+          const isPhrase = /\s/.test(card.english.trim());
+          const needsPron = isPhrase
+            ? !card.ipa
+            : !card.ipa || card.audio_us_status !== 'ok';
+          return { card, contentMissing, needsPron };
+        })
+        .filter((t) => t.contentMissing.length > 0 || t.needsPron),
     [cards],
   );
 
@@ -165,28 +179,18 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
     setCards((prev) => prev.map((c) => (c.id === updated.id ? updated : c)));
   }
 
-  // Reload the whole card list after a bulk IPA refresh — the route only
-  // returns counts, so re-fetch to show the new IPAs in the word rows.
-  async function reloadCards() {
-    try {
-      const data = await apiJson<{ cards: Flashcard[] }>(
-        `/api/cards?deck_id=${deck.id}&limit=500`,
-      );
-      setCards(data.cards);
-    } catch {
-      router.refresh();
-    }
-  }
-
   /**
-   * Bulk regen: walks every broken card and calls /api/cards/[id]/regenerate
-   * with the per-card missing-field list. Worker-pool concurrency 3 — high
-   * enough to feel snappy, low enough to stay polite with Pexels/dictionary
-   * upstreams. Per-card failures are logged but never abort the whole sweep.
+   * "Sửa từ thiếu info" sweep: walks every fixable card in two steps —
+   * content (image / meaning) via /api/cards/[id]/regenerate, then
+   * pronunciation (IPA + Oxford mp3) via /api/cards/[id]/refresh-audio,
+   * the same function the "Cập nhật phát âm" button uses. Worker-pool
+   * concurrency 3 — high enough to feel snappy, low enough to stay polite
+   * with Pexels/dictionary/Oxford upstreams. Per-card failures are logged
+   * but never abort the whole sweep.
    */
   async function handleBulkRegen() {
     if (bulkProgress !== null) return;
-    const targets = brokenCards.map((c) => ({ card: c, missing: getMissingFields(c) }));
+    const targets = fixTargets;
     if (targets.length === 0) return;
 
     setBulkProgress({ total: targets.length, done: 0, fixed: 0, failed: 0 });
@@ -196,30 +200,50 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
     async function worker() {
       while (cursor < targets.length) {
         const idx = cursor++;
-        const { card, missing } = targets[idx];
-        try {
-          const data = await apiJson<RegenResponse>(`/api/cards/${card.id}/regenerate`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ fields: missing }),
-          });
-          setCards((prev) => prev.map((c) => (c.id === data.card.id ? data.card : c)));
-          setBulkProgress((p) =>
-            p
-              ? {
-                  ...p,
-                  done: p.done + 1,
-                  fixed: p.fixed + (data.ok.length > 0 ? 1 : 0),
-                  failed: p.failed + (data.ok.length === 0 ? 1 : 0),
-                }
-              : p,
-          );
-        } catch (err) {
-          console.error('[bulk regen] error:', err);
-          setBulkProgress((p) =>
-            p ? { ...p, done: p.done + 1, failed: p.failed + 1 } : p,
-          );
+        const { card, contentMissing, needsPron } = targets[idx];
+        let okAny = false;
+
+        if (contentMissing.length > 0) {
+          try {
+            const data = await apiJson<RegenResponse>(`/api/cards/${card.id}/regenerate`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ fields: contentMissing }),
+            });
+            setCards((prev) => prev.map((c) => (c.id === data.card.id ? data.card : c)));
+            if (data.ok.length > 0) okAny = true;
+          } catch (err) {
+            console.error('[bulk regen] error:', err);
+          }
         }
+
+        if (needsPron) {
+          try {
+            const data = await apiJson<{
+              ok: boolean;
+              failed: boolean;
+              card: Flashcard | null;
+            }>(`/api/cards/${card.id}/refresh-audio`, { method: 'POST' });
+            if (data.card) {
+              const updated = data.card;
+              setCards((prev) => prev.map((c) => (c.id === updated.id ? updated : c)));
+            }
+            if (data.ok) okAny = true;
+          } catch (err) {
+            console.error('[bulk regen audio] error:', err);
+          }
+        }
+
+        setBulkProgress((p) =>
+          p
+            ? {
+                ...p,
+                done: p.done + 1,
+                fixed: p.fixed + (okAny ? 1 : 0),
+                failed: p.failed + (okAny ? 0 : 1),
+              }
+            : p,
+        );
       }
     }
     const workers = Array.from(
@@ -320,7 +344,36 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
           )}
           <DeckExportButton deckId={deck.id} />
           <RefreshAudioButton cards={cards} onCardUpdated={handleCardUpdated} />
-          <RefreshIpaButton deckId={deck.id} onDone={() => void reloadCards()} />
+          {cards.length > 0 && (
+            <button
+              type="button"
+              onClick={handleBulkRegen}
+              disabled={bulkProgress !== null || fixTargets.length === 0}
+              title="Quét cả bộ, tự bổ sung hình / nghĩa / IPA / phát âm còn thiếu"
+              style={{
+                ...smallBtnStyle(),
+                color: 'var(--v-orange)',
+                cursor:
+                  bulkProgress !== null
+                    ? 'wait'
+                    : fixTargets.length === 0
+                      ? 'default'
+                      : 'pointer',
+                opacity: fixTargets.length === 0 && bulkProgress === null ? 0.55 : 1,
+              }}
+            >
+              {bulkProgress !== null ? (
+                <Loader2 size={12} style={{ animation: 'v-spin 1s linear infinite' }} />
+              ) : (
+                <Sparkles size={12} />
+              )}
+              {bulkProgress !== null
+                ? `Đang sửa ${bulkProgress.done}/${bulkProgress.total}`
+                : fixTargets.length === 0
+                  ? 'Đủ info'
+                  : `Sửa ${fixTargets.length} từ thiếu info`}
+            </button>
+          )}
           <button
             type="button"
             onClick={() => setEditing(true)}
@@ -420,10 +473,9 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
           </div>
         )}
 
-        {/* Broken-card fixer — only shown when at least one card is missing
-            an auto-fillable field. Sits inline so it stays adjacent to the
-            stat breakdown that motivates it. */}
-        {(brokenCards.length > 0 || bulkProgress) && (
+        {/* Sweep progress strip — visible while the toolbar "Sửa từ thiếu
+            info" sweep runs (and for a few seconds after, showing totals). */}
+        {bulkProgress && (
           <div
             style={{
               marginTop: 14,
@@ -448,57 +500,15 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
                 fontWeight: 700,
               }}
             >
-              {bulkProgress ? (
+              Đang sửa: {bulkProgress.done}/{bulkProgress.total} ·{' '}
+              <span style={{ color: 'var(--v-primary)' }}>OK {bulkProgress.fixed}</span>
+              {bulkProgress.failed > 0 && (
                 <>
-                  Đang sửa: {bulkProgress.done}/{bulkProgress.total} ·{' '}
-                  <span style={{ color: 'var(--v-primary)' }}>OK {bulkProgress.fixed}</span>
-                  {bulkProgress.failed > 0 && (
-                    <>
-                      {' · '}
-                      <span style={{ color: 'var(--v-red)' }}>lỗi {bulkProgress.failed}</span>
-                    </>
-                  )}
-                </>
-              ) : (
-                <>
-                  <strong>{brokenCards.length} từ</strong> thiếu hình, audio, IPA, hoặc nghĩa.
+                  {' · '}
+                  <span style={{ color: 'var(--v-red)' }}>lỗi {bulkProgress.failed}</span>
                 </>
               )}
             </div>
-            <button
-              type="button"
-              onClick={handleBulkRegen}
-              disabled={bulkProgress !== null}
-              style={{
-                padding: '8px 14px',
-                background:
-                  bulkProgress !== null ? 'var(--v-border)' : 'var(--v-orange)',
-                color: '#fff',
-                border: 'none',
-                borderRadius: 'var(--v-radius-md)',
-                boxShadow:
-                  bulkProgress !== null
-                    ? 'none'
-                    : 'var(--v-press), 0 4px 10px rgba(255,154,60,0.4)',
-                fontFamily: 'var(--v-font-head)',
-                fontWeight: 900,
-                fontSize: 'var(--v-text-sm)',
-                cursor: bulkProgress !== null ? 'wait' : 'pointer',
-                opacity: bulkProgress !== null ? 0.85 : 1,
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: 6,
-              }}
-            >
-              {bulkProgress !== null ? (
-                <Loader2 size={12} style={{ animation: 'v-spin 1s linear infinite' }} />
-              ) : (
-                <Sparkles size={12} />
-              )}
-              {bulkProgress !== null
-                ? 'Đang sửa…'
-                : `Sửa ${brokenCards.length} từ thiếu info`}
-            </button>
           </div>
         )}
       </div>
@@ -619,7 +629,6 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
               index={idx + 1}
               isLast={idx === filtered.length - 1}
               onClick={() => setSelectedCard(card)}
-              onCardUpdated={handleCardUpdated}
             />
           ))}
         </div>

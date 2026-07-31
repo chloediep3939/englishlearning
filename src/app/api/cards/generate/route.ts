@@ -33,10 +33,10 @@ export async function POST(req: Request) {
     const vnMeaning =
       typeof body.vn_meaning === 'string' ? body.vn_meaning.trim().slice(0, 500) : '';
 
-    // Optional persist-on-generate path (used by bulk import). When deck_id is
-    // present, we both generate and save in one shot — the single-word UI keeps
-    // the two-step flow and never passes deck_id here.
-    let deckId: number | null = null;
+    // Generate + save in one shot (bulk import is the only caller — the
+    // single-word UI uses /api/cards/preview + POST /api/cards). Missing
+    // deck_id resolves to the user's default deck, so a save always happens.
+    let deckId: number;
     if (body.deck_id !== undefined && body.deck_id !== null && body.deck_id !== '') {
       const n = Number(body.deck_id);
       if (!Number.isInteger(n) || n <= 0) {
@@ -47,6 +47,8 @@ export async function POST(req: Request) {
         return NextResponse.json({ error: 'Deck not found.' }, { status: 404 });
       }
       deckId = n;
+    } else {
+      deckId = await flashcardDecksDb.ensureDefault(userId);
     }
 
     const data = await generateCardData(english, imageSkip, skipImage);
@@ -54,80 +56,73 @@ export async function POST(req: Request) {
     // /api/cards/preview so the contract is consistent across both add paths.
     if (vnMeaning) data.vietnamese = vnMeaning;
 
-    if (deckId !== null) {
-      const vi = (data.vietnamese ?? '').trim();
-      if (vi.length === 0) {
-        return NextResponse.json(
-          { error: 'Không sinh được nghĩa tiếng Việt cho từ này.' },
-          { status: 422 }
-        );
-      }
-      // Save the lemmatized headword (data.english) — single words like
-      // "boxes" / "ran" are persisted as "box" / "run" so audio, IPA, and
-      // dictionary fields all align with the saved key.
-      // `examples` is intentionally omitted: example sentences come from the
-      // shared cloze pool (Part 3 of the cloze-pool feature) on read. The
-      // `flashcards.examples` column is kept for legacy rows but no longer
-      // populated from this route.
-      const id = await flashcardsDb.create(userId, {
-        deck_id: deckId,
-        english: data.english,
-        vietnamese: vi,
-        ipa: data.ipa,
-        part_of_speech: data.part_of_speech,
-        audio_url: data.audio_url,
-        collocations: data.collocations,
-        image_url: data.image_url,
-        image_attribution: data.image_attribution,
-        notes: null,
-      });
-      // Best-effort Oxford US pronunciation (mp3 → R2, US IPA → card). Awaited
-      // inline per spec: bulk-added cards get audio for free at ~1–3s/card.
-      // Never throws — a miss leaves status 'failed' and the UI uses TTS.
-      await fetchAndStoreOxfordAudio(userId, id, data.english);
-      const card = await flashcardsDb.getById(userId, id);
+    // Vietnamese meaning is optional: auto-translate is best-effort (free
+    // MyMemory tier), so a failed translation saves as '' and the deck UI
+    // flags the card as "thiếu nghĩa" for a later regen.
+    const vi = (data.vietnamese ?? '').trim();
+    // Save the lemmatized headword (data.english) — single words like
+    // "boxes" / "ran" are persisted as "box" / "run" so audio, IPA, and
+    // dictionary fields all align with the saved key.
+    // `examples` is intentionally omitted: example sentences come from the
+    // shared cloze pool (Part 3 of the cloze-pool feature) on read. The
+    // `flashcards.examples` column is kept for legacy rows but no longer
+    // populated from this route.
+    const id = await flashcardsDb.create(userId, {
+      deck_id: deckId,
+      english: data.english,
+      vietnamese: vi,
+      ipa: data.ipa,
+      part_of_speech: data.part_of_speech,
+      audio_url: data.audio_url,
+      collocations: data.collocations,
+      image_url: data.image_url,
+      image_attribution: data.image_attribution,
+      notes: null,
+    });
+    // Best-effort Oxford US pronunciation (mp3 → R2, US IPA → card). Awaited
+    // inline per spec: bulk-added cards get audio for free at ~1–3s/card.
+    // Never throws — a miss leaves status 'failed' and the UI uses TTS.
+    await fetchAndStoreOxfordAudio(userId, id, data.english);
+    const card = await flashcardsDb.getById(userId, id);
 
-      // Fire-and-forget cloze pool gen for the lemmatized headword. waitUntil
-      // keeps the worker alive past the response so AI can finish in the
-      // background; if ctx isn't available (some local-dev edge cases), fall
-      // back to a detached promise so the request still returns fast.
-      const headword = data.english;
-      const backgroundTasks: Promise<unknown>[] = [ensureClozePool(headword)];
+    // Fire-and-forget cloze pool gen for the lemmatized headword. waitUntil
+    // keeps the worker alive past the response so AI can finish in the
+    // background; if ctx isn't available (some local-dev edge cases), fall
+    // back to a detached promise so the request still returns fast.
+    const headword = data.english;
+    const backgroundTasks: Promise<unknown>[] = [ensureClozePool(headword)];
 
-      // When the caller asked to skip image (bulk import default), schedule a
-      // background Pexels fetch and update the saved row. Pexels is the
-      // slowest leg of generateCardData; doing it post-response keeps bulk
-      // insert fast but still ends up with images. Capped at one attempt per
-      // card — if Pexels returns null we leave image_url null.
-      if (skipImage) {
-        backgroundTasks.push(
-          (async () => {
-            try {
-              const pexels = await getPexelsImage(data.english, 0);
-              if (pexels) {
-                await flashcardsDb.update(userId, id, {
-                  image_url: pexels.image_url,
-                  image_attribution: pexels.image_attribution,
-                });
-              }
-            } catch (err) {
-              console.error('[card generate bg image] error:', err);
+    // When the caller asked to skip image (bulk import default), schedule a
+    // background Pexels fetch and update the saved row. Pexels is the
+    // slowest leg of generateCardData; doing it post-response keeps bulk
+    // insert fast but still ends up with images. Capped at one attempt per
+    // card — if Pexels returns null we leave image_url null.
+    if (skipImage) {
+      backgroundTasks.push(
+        (async () => {
+          try {
+            const pexels = await getPexelsImage(data.english, 0);
+            if (pexels) {
+              await flashcardsDb.update(userId, id, {
+                image_url: pexels.image_url,
+                image_attribution: pexels.image_attribution,
+              });
             }
-          })()
-        );
-      }
-
-      try {
-        const cf = await getCloudflareContext({ async: true });
-        for (const task of backgroundTasks) cf.ctx.waitUntil(task);
-      } catch {
-        for (const task of backgroundTasks) task.catch(() => {});
-      }
-
-      return NextResponse.json({ saved: true, card }, { status: 201 });
+          } catch (err) {
+            console.error('[card generate bg image] error:', err);
+          }
+        })()
+      );
     }
 
-    return NextResponse.json(data);
+    try {
+      const cf = await getCloudflareContext({ async: true });
+      for (const task of backgroundTasks) cf.ctx.waitUntil(task);
+    } catch {
+      for (const task of backgroundTasks) task.catch(() => {});
+    }
+
+    return NextResponse.json({ saved: true, card }, { status: 201 });
   } catch (err) {
     if (err instanceof UnauthorizedError) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
