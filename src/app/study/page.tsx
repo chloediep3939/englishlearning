@@ -94,7 +94,17 @@ export default async function StudyPage({ searchParams }: StudyPageProps) {
       ) : cards.length === 0 ? (
         <StudyEmpty />
       ) : (
-        <SessionFlow mode="study" initialCards={cards} defaultPick={settings.daily_new_limit} />
+        <SessionFlow
+          mode="study"
+          initialCards={cards}
+          defaultPick={settings.daily_new_limit}
+          audio={{
+            autoplay: settings.autoplay_audio,
+            readCount: settings.reveal_read_count,
+            gapMs: settings.reveal_read_gap_ms,
+            wordRate: settings.word_tts_rate,
+          }}
+        />
       )}
     </div>
   );

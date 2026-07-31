@@ -6,7 +6,7 @@ import { Mic, HelpCircle, X, Volume2, RotateCcw, ArrowRight, Check } from 'lucid
 import Mascot from '@/components/common/Mascot';
 import type { Flashcard, PronunciationAttemptMeta } from '@/lib/types';
 import { isMatch } from '@/lib/pronounce/match';
-import { speakWord, getStoredVoicePreference } from '@/lib/tts';
+import { speakWord, getStoredVoicePreference, getStoredWordTtsRate } from '@/lib/tts';
 
 interface Props {
   cards: Flashcard[];
@@ -654,7 +654,7 @@ function HelpPanel({
     void speakWord(card.english, {
       audioUrl: card.audio_url,
       lang: 'en-US',
-      rate: 0.95,
+      rate: getStoredWordTtsRate(),
       voice_preference: getStoredVoicePreference(),
     });
   }

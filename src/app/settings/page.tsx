@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   ArrowLeft, Settings as SettingsIcon, Check, Target, Mic, Timer,
-  BookOpenText, Volume2, Palette, Bell,
+  BookOpenText, Volume2, Palette, Repeat, ListChecks,
 } from 'lucide-react';
 import LoadingState from '@/components/common/LoadingState';
 import SettingsCard from '@/components/SettingsCard';
@@ -19,8 +19,8 @@ import VoicePickerControl from '@/components/settings-controls/VoicePickerContro
 import ThemeControl from '@/components/settings-controls/ThemeControl';
 import MSettings from '@/components/app-mobile/screens/MSettings';
 import type { FlashcardSettings, ThemeMode } from '@/lib/types';
-import { M3_SETTINGS } from '@/lib/types';
-import { setStoredVoicePreference } from '@/lib/tts';
+import { M3_SETTINGS, M6_SETTINGS } from '@/lib/types';
+import { setStoredVoicePreference, setStoredWordTtsRate } from '@/lib/tts';
 import { apiJson } from '@/lib/common/api-json';
 
 export default function SettingsPage() {
@@ -33,9 +33,10 @@ export default function SettingsPage() {
     apiJson<FlashcardSettings>('/api/settings')
       .then((d) => {
         setSettings(d);
-        // Mirror voice preference into localStorage so AudioButton picks it
-        // up without re-fetching settings.
+        // Mirror voice preference + word rate into localStorage so AudioButton
+        // & friends pick them up without re-fetching settings.
         setStoredVoicePreference(d.voice_preference);
+        setStoredWordTtsRate(d.word_tts_rate);
       })
       .catch(() => setError('Không tải được cài đặt.'));
   }, []);
@@ -59,6 +60,9 @@ export default function SettingsPage() {
       setSettings(updated);
       if (partial.voice_preference !== undefined) {
         setStoredVoicePreference(updated.voice_preference);
+      }
+      if (partial.word_tts_rate !== undefined) {
+        setStoredWordTtsRate(updated.word_tts_rate);
       }
       if (partial.theme !== undefined) {
         // Apply immediately so the user sees the change without a refresh.
@@ -177,56 +181,6 @@ export default function SettingsPage() {
               onCommit={(v) => save({ daily_goal_review: v })}
               suffix="từ"
             />
-            <SliderWithIcon
-              icon={<Target size={14} />}
-              label="Mục tiêu từ mới (M3)"
-              hint="Số từ mới Bún sẽ giúp bạn học mỗi ngày"
-              value={settings.daily_new_word_target}
-              min={M3_SETTINGS.daily_new_word_target.min}
-              max={M3_SETTINGS.daily_new_word_target.max}
-              step={M3_SETTINGS.daily_new_word_target.step}
-              onCommit={(v) => save({ daily_new_word_target: v })}
-              suffix="từ"
-            />
-          </SettingsCard>
-
-          {/* 🔔 Nhắc nhở + ôn tập */}
-          <SettingsCard title="Nhắc nhở + ôn tập" icon={<Bell size={16} style={{ color: 'var(--v-orange)' }} />}>
-            <Toggle
-              label="Bật nhắc học hàng ngày"
-              hint="Push notification — cần permission từ browser"
-              checked={settings.reminder_enabled}
-              onChange={(v) => save({ reminder_enabled: v })}
-              disabled={saving}
-            />
-            <div style={{ marginTop: 10, marginBottom: 10, display: 'flex', alignItems: 'center', gap: 12 }}>
-              <label
-                style={{
-                  fontFamily: 'var(--v-font-body)',
-                  fontSize: 'var(--v-text-md)',
-                  color: 'var(--v-ink)',
-                  fontWeight: 600,
-                }}
-              >
-                Giờ nhắc
-              </label>
-              <input
-                type="time"
-                value={settings.reminder_time}
-                onChange={(e) => save({ reminder_time: e.target.value })}
-                disabled={saving || !settings.reminder_enabled}
-                style={{
-                  padding: '8px 12px',
-                  background: 'var(--v-surface)',
-                  border: '1.5px solid var(--v-border)',
-                  borderRadius: 'var(--v-radius-sm)',
-                  fontFamily: 'var(--v-font-mono)',
-                  fontSize: 'var(--v-text-base)',
-                  color: 'var(--v-ink)',
-                  outline: 'none',
-                }}
-              />
-            </div>
             <Toggle
               label="Ẩn từ đã master khỏi ôn tập"
               hint="Từ ở status 'master' sẽ không hiện trong /review"
@@ -268,6 +222,28 @@ export default function SettingsPage() {
               value={settings.speed_timer_seconds}
               onCommit={(v) => save({ speed_timer_seconds: v })}
             />
+            <SliderWithIcon
+              icon={<Repeat size={14} />}
+              label="Số lần đọc từ (Flashcard nhanh)"
+              hint="Tự đọc từ tiếng Anh khi câu hỏi hiện ra — 0 là tắt"
+              value={settings.speed_read_count}
+              min={0}
+              max={M6_SETTINGS.speed_read_count.max}
+              step={M6_SETTINGS.speed_read_count.step}
+              onCommit={(v) => save({ speed_read_count: v })}
+              suffix="lần"
+            />
+            <SliderWithIcon
+              icon={<ListChecks size={14} />}
+              label="Số câu mặc định mỗi phiên"
+              hint="Được chọn sẵn khi mở Flashcard nhanh / Điền từ / Luyện đọc / Đặt câu"
+              value={settings.default_session_size}
+              min={M6_SETTINGS.default_session_size.min}
+              max={M6_SETTINGS.default_session_size.max}
+              step={M6_SETTINGS.default_session_size.step}
+              onCommit={(v) => save({ default_session_size: v })}
+              suffix="câu"
+            />
           </SettingsCard>
 
           {/* 📖 Học theo bài đọc */}
@@ -288,6 +264,17 @@ export default function SettingsPage() {
               onChange={(v) => save({ passage_pre_fetch: v })}
               disabled={saving}
             />
+            <SliderWithIcon
+              icon={<Timer size={14} />}
+              label="Khoảng dừng giữa các cụm"
+              hint="Nghỉ giữa các thought-group khi luyện đọc theo cụm"
+              value={settings.chunk_pause_ms}
+              min={M6_SETTINGS.chunk_pause_ms.min}
+              max={M6_SETTINGS.chunk_pause_ms.max}
+              step={M6_SETTINGS.chunk_pause_ms.step}
+              onCommit={(v) => save({ chunk_pause_ms: v })}
+              suffix="ms"
+            />
           </SettingsCard>
 
           {/* 🔊 Âm thanh */}
@@ -298,6 +285,40 @@ export default function SettingsPage() {
               checked={settings.autoplay_audio}
               onChange={(v) => save({ autoplay_audio: v })}
               disabled={saving}
+            />
+            <SliderWithIcon
+              icon={<Repeat size={14} />}
+              label="Số lần đọc lại từ"
+              hint="Khi xem đáp án flashcard, Bún đọc từ lặp lại bấy nhiêu lần"
+              value={settings.reveal_read_count}
+              min={M6_SETTINGS.reveal_read_count.min}
+              max={M6_SETTINGS.reveal_read_count.max}
+              step={M6_SETTINGS.reveal_read_count.step}
+              onCommit={(v) => save({ reveal_read_count: v })}
+              suffix="lần"
+              disabled={!settings.autoplay_audio}
+            />
+            <SliderWithIcon
+              icon={<Timer size={14} />}
+              label="Khoảng nghỉ giữa các lần đọc"
+              hint="Nghỉ bao lâu giữa hai lần đọc để bạn kịp nhẩm theo"
+              value={settings.reveal_read_gap_ms}
+              min={M6_SETTINGS.reveal_read_gap_ms.min}
+              max={M6_SETTINGS.reveal_read_gap_ms.max}
+              step={M6_SETTINGS.reveal_read_gap_ms.step}
+              onCommit={(v) => save({ reveal_read_gap_ms: v })}
+              suffix="ms"
+              disabled={!settings.autoplay_audio}
+            />
+            <TtsRateControl
+              value={settings.word_tts_rate}
+              onCommit={(v) => save({ word_tts_rate: v })}
+              label="Tốc độ đọc từ"
+              hint="Áp dụng khi Bún đọc một từ đơn (flashcard, quiz, nút loa)"
+              min={M6_SETTINGS.word_tts_rate.min}
+              max={M6_SETTINGS.word_tts_rate.max}
+              step={M6_SETTINGS.word_tts_rate.step}
+              previewText="vocabulary"
             />
             <VoicePickerControl
               value={settings.voice_preference}

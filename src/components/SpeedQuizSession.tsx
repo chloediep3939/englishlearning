@@ -6,11 +6,9 @@ import AudioButton from './AudioButton';
 import WordReviewModal from './common/WordReviewModal';
 import SummaryScreen, { type QuestionResult } from './speed-quiz/SummaryScreen';
 import TimerBar from './speed-quiz/TimerBar';
-import { speakTimes, getStoredVoicePreference } from '@/lib/tts';
+import { speakTimes, getStoredVoicePreference, DEFAULT_WORD_TTS_RATE } from '@/lib/tts';
 import type { SpeedQuizQuestion, SpeedQuizMode } from '@/lib/types';
 
-// Auto-read an English prompt this many times when a question appears.
-const AUTO_READ_TIMES = 3;
 // How long the green "correct" reveal lingers before auto-advancing.
 const CORRECT_ADVANCE_MS = 900;
 
@@ -61,9 +59,21 @@ interface Props {
   // Per-question countdown, in seconds. 0 = no timer (the bar is hidden).
   // Comes from the user's `speed_timer_seconds` setting; defaults to 8.
   timerSeconds?: number;
+  // How many times an English prompt is auto-read when a question appears.
+  // Comes from `speed_read_count`; 0 = off.
+  readTimes?: number;
+  // TTS rate for the auto-read. Comes from `word_tts_rate`.
+  ttsRate?: number;
 }
 
-export default function SpeedQuizSession({ questions, mode, onRestart, timerSeconds = 8 }: Props) {
+export default function SpeedQuizSession({
+  questions,
+  mode,
+  onRestart,
+  timerSeconds = 8,
+  readTimes = 3,
+  ttsRate = DEFAULT_WORD_TTS_RATE,
+}: Props) {
   const timerMs = timerSeconds * 1000;
   const [position, setPosition] = useState(0);
   const [selectedIdx, setSelectedIdx] = useState<number | null>(null);
@@ -144,14 +154,14 @@ export default function SpeedQuizSession({ questions, mode, onRestart, timerSeco
 
   // Auto-read the English prompt a few times when the question appears.
   useEffect(() => {
-    if (done || !current || !isEnglishPrompt(current)) return;
-    const cancel = speakTimes(current.prompt, AUTO_READ_TIMES, {
+    if (done || !current || !isEnglishPrompt(current) || readTimes <= 0) return;
+    const cancel = speakTimes(current.prompt, readTimes, {
       lang: 'en-US',
-      rate: 0.95,
+      rate: ttsRate,
       voice_preference: getStoredVoicePreference(),
     });
     return cancel;
-  }, [position, done, current]);
+  }, [position, done, current, readTimes, ttsRate]);
 
   // Clear a pending auto-advance timer if the session unmounts mid-reveal.
   useEffect(

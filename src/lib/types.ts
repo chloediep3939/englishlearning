@@ -223,14 +223,10 @@ export interface ClozeSentence {
 
 // Settings
 export interface FlashcardSettings {
-  daily_goal_new: number;
-  daily_goal_review: number;
-  reminder_time: string;
-  reminder_enabled: boolean;
+  daily_goal_review: number;          // caps the /review queue + dashboard goal ring
   mastered_hide_from_review: boolean;
   daily_new_limit: number;
   // ----- M3 keys -----
-  daily_new_word_target: number;
   f1_max_attempts: number;            // 0 = unlimited
   f2_timer_seconds: number;
   f3_max_words_per_composition: number;
@@ -250,6 +246,13 @@ export interface FlashcardSettings {
   reading_speed: number;              // TTS rate chip: 0.7 / 0.85 / 1.0 / 1.3, default 1.0
   reading_auto_continue: boolean;     // sentence-end → next sentence, default true
   reading_deck_id: number | null;     // last-used deck for saving words; null = none yet
+  // ----- M6 keys (settings overhaul) -----
+  reveal_read_count: number;          // flashcard reveal: how many times the word auto-plays
+  reveal_read_gap_ms: number;         // pause between those auto-plays
+  word_tts_rate: number;              // TTS rate for single-word playback (flashcard/quiz/speaker button)
+  speed_read_count: number;           // Flashcard nhanh: prompt auto-reads; 0 = off
+  chunk_pause_ms: number;             // chunk practice: pause between thought-groups
+  default_session_size: number;       // pre-selected question count in practice pickers (snapped to each picker's chips)
 }
 
 export type ThemeMode = 'light' | 'dark' | 'system';
@@ -361,7 +364,6 @@ export interface CompositionRow {
 
 // ----- M3 settings keys + defaults -----
 export const M3_SETTINGS = {
-  daily_new_word_target: { default: 30, min: 5, max: 100, step: 5 },
   f1_max_attempts: { default: 3, min: 1, max: 10, step: 1 }, // 0 = unlimited (handled separately)
   f2_timer_seconds: { default: 60, min: 15, max: 300, step: 15 },
   f3_max_words_per_composition: { default: 30, min: 5, max: 100, step: 5 },
@@ -546,6 +548,16 @@ export const M4_SETTINGS = {
   },
   passage_tts_rate: { default: 1.0, min: 0.5, max: 1.5, step: 0.1 },
   passage_pre_fetch: { default: true },
+} as const;
+
+// ----- M6 settings keys + defaults / ranges (settings overhaul) -----
+export const M6_SETTINGS = {
+  reveal_read_count: { default: 6, min: 1, max: 10, step: 1 },
+  reveal_read_gap_ms: { default: 1000, min: 300, max: 3000, step: 100 },
+  word_tts_rate: { default: 0.95, min: 0.5, max: 1.5, step: 0.05 },
+  speed_read_count: { default: 3, min: 1, max: 6, step: 1 }, // 0 = off (handled separately)
+  chunk_pause_ms: { default: 550, min: 200, max: 2000, step: 50 },
+  default_session_size: { default: 10, min: 5, max: 30, step: 5 },
 } as const;
 
 // Stats

@@ -23,11 +23,12 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
   const deckFilter: number | null =
     deck_id && deck_id !== 'all' && /^\d+$/.test(deck_id) ? Number(deck_id) : null;
 
+  // Queue size follows the "Số từ ôn tối đa mỗi ngày" setting (10–200).
   const cards = showDeckPicker
     ? []
     : await flashcardsDb.getDueForReview(
         userId,
-        50,
+        settings.daily_goal_review,
         settings.mastered_hide_from_review,
         deckFilter,
       );
@@ -90,7 +91,16 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
       ) : cards.length === 0 ? (
         <ReviewEmpty />
       ) : (
-        <SessionFlow mode="review" initialCards={cards} />
+        <SessionFlow
+          mode="review"
+          initialCards={cards}
+          audio={{
+            autoplay: settings.autoplay_audio,
+            readCount: settings.reveal_read_count,
+            gapMs: settings.reveal_read_gap_ms,
+            wordRate: settings.word_tts_rate,
+          }}
+        />
       )}
     </div>
   );

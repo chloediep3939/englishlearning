@@ -1,6 +1,6 @@
 /**
  * Row of small dots that fill in green as the reveal-phase audio
- * auto-plays. Visual progress for the AUDIO_AUTOPLAY_COUNT cycle.
+ * auto-plays. Visual progress for the reveal_read_count autoplay cycle.
  */
 export default function AutoplayDots({ played, total }: { played: number; total: number }) {
   return (

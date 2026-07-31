@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { userSettingsDb } from '@/lib/db';
 import type { FlashcardSettings } from '@/lib/types';
-import { M4_SETTINGS } from '@/lib/types';
+import { M4_SETTINGS, M6_SETTINGS } from '@/lib/types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -27,17 +27,10 @@ export async function PUT(req: Request) {
     const body = (await req.json().catch(() => ({}))) as Record<string, unknown>;
     const partial: Partial<FlashcardSettings> = {};
 
-    if (typeof body.daily_goal_new === 'number' && body.daily_goal_new >= 0 && body.daily_goal_new <= 100) {
-      partial.daily_goal_new = Math.floor(body.daily_goal_new);
-    }
-    if (typeof body.daily_goal_review === 'number' && body.daily_goal_review >= 0 && body.daily_goal_review <= 500) {
+    // daily_goal_review now caps the real /review queue — keep it within the
+    // UI slider range (10–200) so a stray low value can't empty the queue.
+    if (typeof body.daily_goal_review === 'number' && body.daily_goal_review >= 10 && body.daily_goal_review <= 200) {
       partial.daily_goal_review = Math.floor(body.daily_goal_review);
-    }
-    if (typeof body.reminder_time === 'string' && /^\d{2}:\d{2}$/.test(body.reminder_time)) {
-      partial.reminder_time = body.reminder_time;
-    }
-    if (typeof body.reminder_enabled === 'boolean') {
-      partial.reminder_enabled = body.reminder_enabled;
     }
     if (typeof body.mastered_hide_from_review === 'boolean') {
       partial.mastered_hide_from_review = body.mastered_hide_from_review;
@@ -46,9 +39,6 @@ export async function PUT(req: Request) {
       partial.daily_new_limit = Math.floor(body.daily_new_limit);
     }
     // ----- M3 keys -----
-    if (typeof body.daily_new_word_target === 'number' && body.daily_new_word_target >= 5 && body.daily_new_word_target <= 100) {
-      partial.daily_new_word_target = Math.floor(body.daily_new_word_target);
-    }
     // f1_max_attempts: 0 = unlimited, otherwise 1-10
     if (typeof body.f1_max_attempts === 'number' && body.f1_max_attempts >= 0 && body.f1_max_attempts <= 10) {
       partial.f1_max_attempts = Math.floor(body.f1_max_attempts);
@@ -104,6 +94,26 @@ export async function PUT(req: Request) {
       partial.reading_deck_id = null;
     } else if (typeof body.reading_deck_id === 'number' && Number.isInteger(body.reading_deck_id) && body.reading_deck_id > 0) {
       partial.reading_deck_id = body.reading_deck_id;
+    }
+    // ----- M6 keys (ranges from M6_SETTINGS) -----
+    if (typeof body.reveal_read_count === 'number' && body.reveal_read_count >= M6_SETTINGS.reveal_read_count.min && body.reveal_read_count <= M6_SETTINGS.reveal_read_count.max) {
+      partial.reveal_read_count = Math.floor(body.reveal_read_count);
+    }
+    if (typeof body.reveal_read_gap_ms === 'number' && body.reveal_read_gap_ms >= M6_SETTINGS.reveal_read_gap_ms.min && body.reveal_read_gap_ms <= M6_SETTINGS.reveal_read_gap_ms.max) {
+      partial.reveal_read_gap_ms = Math.floor(body.reveal_read_gap_ms);
+    }
+    if (typeof body.word_tts_rate === 'number' && body.word_tts_rate >= M6_SETTINGS.word_tts_rate.min && body.word_tts_rate <= M6_SETTINGS.word_tts_rate.max) {
+      partial.word_tts_rate = Math.round(body.word_tts_rate * 100) / 100;
+    }
+    // speed_read_count: 0 = off, otherwise 1-6.
+    if (typeof body.speed_read_count === 'number' && (body.speed_read_count === 0 || (body.speed_read_count >= M6_SETTINGS.speed_read_count.min && body.speed_read_count <= M6_SETTINGS.speed_read_count.max))) {
+      partial.speed_read_count = Math.floor(body.speed_read_count);
+    }
+    if (typeof body.chunk_pause_ms === 'number' && body.chunk_pause_ms >= M6_SETTINGS.chunk_pause_ms.min && body.chunk_pause_ms <= M6_SETTINGS.chunk_pause_ms.max) {
+      partial.chunk_pause_ms = Math.floor(body.chunk_pause_ms);
+    }
+    if (typeof body.default_session_size === 'number' && body.default_session_size >= M6_SETTINGS.default_session_size.min && body.default_session_size <= M6_SETTINGS.default_session_size.max) {
+      partial.default_session_size = Math.floor(body.default_session_size);
     }
 
     await userSettingsDb.updateFlashcardSettings(userId, partial);

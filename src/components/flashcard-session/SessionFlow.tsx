@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import FlashcardSession from './FlashcardSession';
 import SessionPicker from './SessionPicker';
 import { reviewConfig, studyConfig } from './configs';
-import type { SessionMode } from './types';
+import type { SessionAudioSettings, SessionMode } from './types';
 import type { Flashcard } from '@/lib/types';
 
 interface Props {
@@ -14,6 +14,8 @@ interface Props {
    *  due-for-review for review). The picker default-selects all of
    *  these and lets the user trim. */
   initialCards: Flashcard[];
+  /** Reveal-autoplay settings, resolved server-side from FlashcardSettings. */
+  audio: SessionAudioSettings;
   /** Pre-check the first N candidates instead of all. Used by /study to
    *  honor the user's `daily_new_limit` as a soft default while still
    *  letting them pick more via "Chọn hết". Omit for /review (default =
@@ -36,7 +38,7 @@ type Stage = 'picking' | 'studying';
  * the due-now query). The local `candidates` mirror is refreshed by the
  * effect below.
  */
-export default function SessionFlow({ mode, initialCards, defaultPick }: Props) {
+export default function SessionFlow({ mode, initialCards, audio, defaultPick }: Props) {
   const router = useRouter();
   const [stage, setStage] = useState<Stage>('picking');
   const [selected, setSelected] = useState<Flashcard[]>([]);
@@ -76,6 +78,6 @@ export default function SessionFlow({ mode, initialCards, defaultPick }: Props) 
     );
   }
   return (
-    <FlashcardSession cards={selected} config={config} onAnotherSession={handleAnotherSession} />
+    <FlashcardSession cards={selected} config={config} audio={audio} onAnotherSession={handleAnotherSession} />
   );
 }

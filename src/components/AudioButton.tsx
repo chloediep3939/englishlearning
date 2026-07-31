@@ -1,7 +1,7 @@
 'use client';
 
 import { Volume2, AlertTriangle } from 'lucide-react';
-import { getStoredVoicePreference, speak } from '@/lib/tts';
+import { getStoredVoicePreference, getStoredWordTtsRate, speak } from '@/lib/tts';
 
 interface Props {
   /**
@@ -89,7 +89,7 @@ export default function AudioButton({
   function speakTTS() {
     speak(fallbackText, {
       lang,
-      rate: 0.95,
+      rate: getStoredWordTtsRate(),
       voice_preference: getStoredVoicePreference(),
     });
   }

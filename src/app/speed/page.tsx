@@ -7,6 +7,7 @@ import QuizSetup, { type QuizMode } from '@/components/QuizSetup';
 import SpeedQuizSession from '@/components/SpeedQuizSession';
 import LoadingState from '@/components/common/LoadingState';
 import { apiJson } from '@/lib/common/api-json';
+import { DEFAULT_WORD_TTS_RATE } from '@/lib/tts';
 import type { SpeedQuizQuestion, SpeedQuizMode, FlashcardSettings } from '@/lib/types';
 
 const MODES: QuizMode<SpeedQuizMode>[] = [
@@ -47,13 +48,18 @@ export default function SpeedPage() {
   const [error, setError] = useState<string | null>(null);
   // Per-question timer (seconds) from settings; 0 = off. Default 8 until loaded.
   const [timerSeconds, setTimerSeconds] = useState(8);
+  // Prompt auto-read count (`speed_read_count`, 0 = off) + word TTS rate.
+  const [readTimes, setReadTimes] = useState(3);
+  const [ttsRate, setTtsRate] = useState(DEFAULT_WORD_TTS_RATE);
 
   useEffect(() => {
     apiJson<FlashcardSettings>('/api/settings')
       .then((s) => {
         if (typeof s.speed_timer_seconds === 'number') setTimerSeconds(s.speed_timer_seconds);
+        if (typeof s.speed_read_count === 'number') setReadTimes(s.speed_read_count);
+        if (typeof s.word_tts_rate === 'number') setTtsRate(s.word_tts_rate);
       })
-      .catch(() => {/* fall back to default 8 */});
+      .catch(() => {/* fall back to defaults */});
   }, []);
 
   async function start({ mode, count, deckId }: { mode: SpeedQuizMode; count: number; deckId: number | null }) {
@@ -158,6 +164,8 @@ export default function SpeedPage() {
           mode={quiz.mode}
           onRestart={() => setQuiz(null)}
           timerSeconds={timerSeconds}
+          readTimes={readTimes}
+          ttsRate={ttsRate}
         />
       )}
     </div>
