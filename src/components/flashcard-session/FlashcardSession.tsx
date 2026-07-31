@@ -328,10 +328,9 @@ export default function FlashcardSession({ cards, config, recognition = false, a
   if (!current) return null;
 
   return (
-    // Center the session horizontally — <main> has no width cap, so without
-    // this the study content hugs the left edge on wide screens. 960px
-    // matches the TypingStage speech bubble (min(960px, 95vw)).
-    <div style={{ maxWidth: 960, margin: '0 auto' }}>
+    // Full width per user preference — the session content fills <main>
+    // (the 960px cap tried earlier felt too narrow on wide screens).
+    <div>
       {/* Top bar: mastered/initial progress + queue-remaining counter */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
         <span
