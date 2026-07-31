@@ -14,6 +14,7 @@ import {
   userSettingsDb,
   getDb,
 } from '@/lib/db';
+import { deckProgressPct } from '@/lib/flashcards/progress';
 
 function daysAgoIso(n: number): string {
   const d = new Date();
@@ -29,15 +30,22 @@ export default async function DashboardPage() {
 
   const [counts, todayCount, streak, longestStreak, dueRow, activity30, decks, settings] =
     await Promise.all([
-      flashcardsDb.countByStatus(userId),
+      // Learning stats only count "học đầy đủ" decks — "chỉ hiểu nghĩa"
+      // (study_mode = 'meaning') decks are reference material.
+      flashcardsDb.countByStatus(userId, { excludeMeaning: true }),
       flashcardReviewsDb.getTodayCount(userId),
       flashcardReviewsDb.getStreakDays(userId),
       flashcardReviewsDb.getLongestStreak(userId),
+      // Due = scheduled review cards only. `status != 'new'` keeps the hero
+      // from double-counting brand-new cards (they're the "· X từ mới" half
+      // of the same line). Meaning-only decks excluded, same as the tiles.
       db
         .prepare(
-          `SELECT COUNT(*) as n FROM flashcards
-           WHERE user_id = ? AND status != 'mastered'
-           AND (next_review_at IS NULL OR next_review_at <= datetime('now'))`
+          `SELECT COUNT(*) as n FROM flashcards c
+           JOIN flashcard_decks d ON d.id = c.deck_id AND d.user_id = c.user_id
+           WHERE c.user_id = ? AND c.status NOT IN ('new', 'mastered')
+           AND d.study_mode != 'meaning'
+           AND (c.next_review_at IS NULL OR c.next_review_at <= datetime('now'))`
         )
         .bind(userId)
         .first<{ n: number }>(),
@@ -351,7 +359,7 @@ export default async function DashboardPage() {
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
               {topDecks.map((d) => {
-                const pct = d.total > 0 ? Math.round((d.mastered_count / d.total) * 100) : 0;
+                const pct = deckProgressPct(d);
                 return (
                   <Link
                     key={d.id}

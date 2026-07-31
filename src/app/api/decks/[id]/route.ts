@@ -51,6 +51,7 @@ export async function PUT(
       icon?: unknown;
       subtitle?: unknown;
       is_default?: unknown;
+      study_mode?: unknown;
     };
     const fields: Parameters<typeof flashcardDecksDb.update>[2] = {};
     if (typeof body.name === 'string') {
@@ -72,6 +73,9 @@ export async function PUT(
     else if (typeof body.subtitle === 'string') {
       const trimmed = body.subtitle.trim();
       fields.subtitle = trimmed.length === 0 ? null : trimmed.slice(0, 60);
+    }
+    if (body.study_mode === 'full' || body.study_mode === 'meaning') {
+      fields.study_mode = body.study_mode;
     }
 
     const existing = await flashcardDecksDb.getById(userId, id);

@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import type { DeckIcon, FlashcardDeckWithCounts } from '@/lib/types';
 import { DECK_ICON_OPTIONS } from '@/lib/types';
+import { deckProgressPct } from '@/lib/flashcards/progress';
 
 interface Props {
   deck: FlashcardDeckWithCounts;
@@ -32,10 +33,8 @@ export default function DeckCard({ deck, onEdit, onDelete }: Props) {
   const router = useRouter();
   const Icon = resolveIcon(deck.icon);
 
-  // Progress = mastered / total. Empty deck shows 0%.
-  const progress = deck.total > 0
-    ? Math.round((deck.mastered_count / deck.total) * 100)
-    : 0;
+  // Weighted stage progress (new=0, học=1/3, ôn=2/3, thuộc=1).
+  const progress = deckProgressPct(deck);
 
   return (
     <div

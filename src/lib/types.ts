@@ -46,6 +46,11 @@ export interface FeedbackInput {
 
 export type FlashcardStatus = 'new' | 'learning' | 'review' | 'mastered';
 
+// 'full' = học đầy đủ (SRS study/review). 'meaning' = chỉ hiểu nghĩa —
+// reference decks shown in their own /decks tab and excluded from the
+// dashboard learning stats.
+export type DeckStudyMode = 'full' | 'meaning';
+
 export interface FlashcardDeck {
   id: number;
   user_id: number;
@@ -57,6 +62,7 @@ export interface FlashcardDeck {
   created_at: string;
   icon: string | null;       // lucide-react icon name (e.g., "BookOpen")
   subtitle: string | null;
+  study_mode: DeckStudyMode;
 }
 
 export const DECK_ICON_OPTIONS = [

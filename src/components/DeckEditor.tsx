@@ -6,7 +6,7 @@ import {
   Star, Music, Camera, Code, Flame, Sparkles,
   type LucideIcon,
 } from 'lucide-react';
-import type { FlashcardDeck, DeckIcon } from '@/lib/types';
+import type { FlashcardDeck, DeckIcon, DeckStudyMode } from '@/lib/types';
 import { DECK_ICON_OPTIONS } from '@/lib/types';
 
 interface Props {
@@ -33,6 +33,7 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
       ? (deck.icon as DeckIcon)
       : DECK_ICON_OPTIONS[0])
   );
+  const [studyMode, setStudyMode] = useState<DeckStudyMode>(deck?.study_mode ?? 'full');
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -46,6 +47,7 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
         ? (deck.icon as DeckIcon)
         : DECK_ICON_OPTIONS[0]
     );
+    setStudyMode(deck?.study_mode ?? 'full');
   }, [deck]);
 
   async function handleSave() {
@@ -68,6 +70,7 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
           color,
           icon,
           subtitle: trimmedSub.length === 0 ? null : trimmedSub,
+          study_mode: studyMode,
         }),
       });
       if (!res.ok) {
@@ -182,6 +185,41 @@ export default function DeckEditor({ deck, onClose, onSaved }: Props) {
           rows={2}
           style={{ ...inputStyle(), resize: 'vertical', fontFamily: 'var(--v-font-body)' }}
         />
+
+        <Label>Loại bộ</Label>
+        <div style={{ display: 'flex', gap: 8, marginBottom: 8 }}>
+          {(
+            [
+              { value: 'full', label: 'Học đầy đủ', hint: 'Học & ôn SRS, tính vào thống kê' },
+              { value: 'meaning', label: 'Chỉ hiểu nghĩa', hint: 'Tra cứu là chính, không tính vào thống kê học' },
+            ] as const
+          ).map((opt) => {
+            const active = studyMode === opt.value;
+            return (
+              <button
+                key={opt.value}
+                type="button"
+                onClick={() => setStudyMode(opt.value)}
+                title={opt.hint}
+                style={{
+                  flex: 1,
+                  padding: '9px 12px',
+                  borderRadius: 'var(--v-radius-md)',
+                  border: active ? '2px solid var(--v-primary)' : '1.5px solid var(--v-border)',
+                  background: active ? 'var(--v-primary-soft)' : 'var(--v-bg)',
+                  color: active ? 'var(--v-primary-deep)' : 'var(--v-ink-soft)',
+                  fontFamily: 'var(--v-font-head)',
+                  fontWeight: 800,
+                  fontSize: 'var(--v-text-sm)',
+                  cursor: 'pointer',
+                  transition: 'all 0.15s ease',
+                }}
+              >
+                {opt.label}
+              </button>
+            );
+          })}
+        </div>
 
         <Label>Biểu tượng</Label>
         <div

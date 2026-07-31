@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { flashcardDecksDb } from '@/lib/db';
 import { DECK_ICON_OPTIONS } from '@/lib/types';
+import type { DeckStudyMode } from '@/lib/types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -29,6 +30,7 @@ export async function POST(req: Request) {
       color?: unknown;
       icon?: unknown;
       subtitle?: unknown;
+      study_mode?: unknown;
     };
 
     const name = typeof body.name === 'string' ? body.name.trim() : '';
@@ -52,8 +54,11 @@ export async function POST(req: Request) {
       const trimmed = body.subtitle.trim();
       subtitle = trimmed.length === 0 ? null : trimmed.slice(0, 60);
     }
+    const studyMode: DeckStudyMode = body.study_mode === 'meaning' ? 'meaning' : 'full';
 
-    const id = await flashcardDecksDb.create(userId, { name, description, color, icon, subtitle });
+    const id = await flashcardDecksDb.create(userId, {
+      name, description, color, icon, subtitle, study_mode: studyMode,
+    });
     const deck = await flashcardDecksDb.getById(userId, id);
     return NextResponse.json(deck, { status: 201 });
   } catch (err) {

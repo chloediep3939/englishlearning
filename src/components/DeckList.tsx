@@ -5,12 +5,16 @@ import { Plus } from 'lucide-react';
 import DeckEditor from './DeckEditor';
 import DeckCard from './DeckCard';
 import DeleteDeckDialog from './deck-detail/DeleteDeckDialog';
+import FilterPill from './deck-detail/FilterPill';
 import LoadingState from '@/components/common/LoadingState';
-import type { FlashcardDeck, FlashcardDeckWithCounts } from '@/lib/types';
+import type { DeckStudyMode, FlashcardDeck, FlashcardDeckWithCounts } from '@/lib/types';
 
 export default function DeckList() {
   const [decks, setDecks] = useState<FlashcardDeckWithCounts[]>([]);
   const [loading, setLoading] = useState(true);
+  // Which study-mode tab is showing: 'full' (học đầy đủ) or 'meaning'
+  // (chỉ hiểu nghĩa — reference decks).
+  const [tab, setTab] = useState<DeckStudyMode>('full');
   // undefined = no modal open. null = creating new. FlashcardDeck = editing existing.
   const [editing, setEditing] = useState<FlashcardDeck | null | undefined>(undefined);
   const [deleting, setDeleting] = useState<FlashcardDeckWithCounts | null>(null);
@@ -63,47 +67,89 @@ export default function DeckList() {
 
   if (loading) return <LoadingState message="Đang tải bộ từ…" />;
 
+  const fullDecks = decks.filter((d) => d.study_mode !== 'meaning');
+  const meaningDecks = decks.filter((d) => d.study_mode === 'meaning');
+  const visible = tab === 'meaning' ? meaningDecks : fullDecks;
+
   return (
     <>
-      <button
-        type="button"
-        onClick={() => setEditing(null)}
+      <div
         style={{
-          padding: '11px 18px',
-          background: 'var(--v-primary)',
-          color: '#fff',
-          border: 'none',
-          borderRadius: 'var(--v-radius-md)',
-          boxShadow: 'var(--v-press), 0 4px 10px rgba(122,193,67,0.4)',
-          fontFamily: 'var(--v-font-head)',
-          fontWeight: 900,
-          fontSize: 'var(--v-text-md)',
-          display: 'inline-flex',
+          display: 'flex',
           alignItems: 'center',
           gap: 8,
-          cursor: 'pointer',
+          flexWrap: 'wrap',
           marginBottom: 18,
         }}
       >
-        <Plus size={14} /> TẠO BỘ MỚI
-      </button>
-
-      <div
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-          gap: 16,
-        }}
-      >
-        {decks.map((deck) => (
-          <DeckCard
-            key={deck.id}
-            deck={deck}
-            onEdit={() => setEditing(deck)}
-            onDelete={() => handleDelete(deck)}
-          />
-        ))}
+        <FilterPill
+          label={`Học đầy đủ (${fullDecks.length})`}
+          active={tab === 'full'}
+          onClick={() => setTab('full')}
+        />
+        <FilterPill
+          label={`Chỉ hiểu nghĩa (${meaningDecks.length})`}
+          active={tab === 'meaning'}
+          onClick={() => setTab('meaning')}
+        />
+        <button
+          type="button"
+          onClick={() => setEditing(null)}
+          style={{
+            padding: '11px 18px',
+            background: 'var(--v-primary)',
+            color: '#fff',
+            border: 'none',
+            borderRadius: 'var(--v-radius-md)',
+            boxShadow: 'var(--v-press), 0 4px 10px rgba(122,193,67,0.4)',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 900,
+            fontSize: 'var(--v-text-md)',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 8,
+            cursor: 'pointer',
+            marginLeft: 8,
+          }}
+        >
+          <Plus size={14} /> TẠO BỘ MỚI
+        </button>
       </div>
+
+      {visible.length === 0 ? (
+        <div
+          style={{
+            padding: '28px 16px',
+            border: '1.5px dashed var(--v-border)',
+            borderRadius: 'var(--v-radius-lg)',
+            textAlign: 'center',
+            color: 'var(--v-muted)',
+            fontFamily: 'var(--v-font-body)',
+            fontSize: 'var(--v-text-md)',
+          }}
+        >
+          {tab === 'meaning'
+            ? 'Chưa có bộ "chỉ hiểu nghĩa" nào — sửa một bộ và đổi Loại bộ để chuyển sang tab này.'
+            : 'Chưa có bộ nào ở tab này.'}
+        </div>
+      ) : (
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+            gap: 16,
+          }}
+        >
+          {visible.map((deck) => (
+            <DeckCard
+              key={deck.id}
+              deck={deck}
+              onEdit={() => setEditing(deck)}
+              onDelete={() => handleDelete(deck)}
+            />
+          ))}
+        </div>
+      )}
 
       {editing !== undefined && (
         <DeckEditor

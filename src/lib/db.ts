@@ -3,6 +3,7 @@ import type { D1Database, R2Bucket } from '@cloudflare/workers-types';
 import type {
   CefrLevel,
   ClozeSentence,
+  DeckStudyMode,
   Feedback,
   Flashcard,
   FlashcardDeck,
@@ -82,6 +83,7 @@ function hydrateDeck(row: Record<string, unknown> | null): FlashcardDeck | null 
   return {
     ...(row as unknown as FlashcardDeck),
     is_default: Number(row.is_default) === 1,
+    study_mode: row.study_mode === 'meaning' ? 'meaning' : 'full',
   };
 }
 
@@ -198,9 +200,9 @@ export const flashcardDecksDb = {
            SUM(CASE WHEN c.status = 'learning' THEN 1 ELSE 0 END) as learning_count,
            SUM(CASE WHEN c.status = 'review' THEN 1 ELSE 0 END) as review_count,
            SUM(CASE WHEN c.status = 'mastered' THEN 1 ELSE 0 END) as mastered_count,
-           SUM(CASE WHEN c.next_review_at IS NULL OR c.next_review_at <= datetime('now') THEN 1 ELSE 0 END) as due_count
+           SUM(CASE WHEN c.id IS NOT NULL AND (c.next_review_at IS NULL OR c.next_review_at <= datetime('now')) THEN 1 ELSE 0 END) as due_count
          FROM flashcard_decks d
-         LEFT JOIN flashcards c ON c.deck_id = d.id
+         LEFT JOIN flashcards c ON c.deck_id = d.id AND c.user_id = d.user_id
          WHERE d.user_id = ?
          GROUP BY d.id
          ORDER BY d.position ASC, d.id ASC`
@@ -210,6 +212,7 @@ export const flashcardDecksDb = {
     return result.results.map((r) => ({
       ...(r as unknown as FlashcardDeckWithCounts),
       is_default: Number(r.is_default) === 1,
+      study_mode: r.study_mode === 'meaning' ? ('meaning' as const) : ('full' as const),
       total: Number(r.total) || 0,
       new_count: Number(r.new_count) || 0,
       learning_count: Number(r.learning_count) || 0,
@@ -219,7 +222,7 @@ export const flashcardDecksDb = {
     }));
   },
 
-  async create(userId: number, input: { name: string; description?: string | null; color?: string; icon?: string | null; subtitle?: string | null }): Promise<number> {
+  async create(userId: number, input: { name: string; description?: string | null; color?: string; icon?: string | null; subtitle?: string | null; study_mode?: DeckStudyMode }): Promise<number> {
     const db = await getDb();
     const maxRow = await db
       .prepare('SELECT COALESCE(MAX(position), -1) as m FROM flashcard_decks WHERE user_id = ?')
@@ -228,8 +231,8 @@ export const flashcardDecksDb = {
     const position = (maxRow?.m ?? -1) + 1;
     const result = await db
       .prepare(
-        `INSERT INTO flashcard_decks (user_id, name, description, color, position, is_default, icon, subtitle)
-         VALUES (?, ?, ?, ?, ?, 0, ?, ?)`
+        `INSERT INTO flashcard_decks (user_id, name, description, color, position, is_default, icon, subtitle, study_mode)
+         VALUES (?, ?, ?, ?, ?, 0, ?, ?, ?)`
       )
       .bind(
         userId,
@@ -239,12 +242,13 @@ export const flashcardDecksDb = {
         position,
         input.icon ?? null,
         input.subtitle ?? null,
+        input.study_mode ?? 'full',
       )
       .run();
     return Number(result.meta.last_row_id);
   },
 
-  async update(userId: number, id: number, fields: Partial<Pick<FlashcardDeck, 'name' | 'description' | 'color' | 'position' | 'icon' | 'subtitle'>>): Promise<void> {
+  async update(userId: number, id: number, fields: Partial<Pick<FlashcardDeck, 'name' | 'description' | 'color' | 'position' | 'icon' | 'subtitle' | 'study_mode'>>): Promise<void> {
     const db = await getDb();
     const sets: string[] = [];
     const values: unknown[] = [];
@@ -254,6 +258,7 @@ export const flashcardDecksDb = {
     if (fields.position !== undefined)    { sets.push('position = ?');    values.push(fields.position); }
     if (fields.icon !== undefined)        { sets.push('icon = ?');        values.push(fields.icon); }
     if (fields.subtitle !== undefined)    { sets.push('subtitle = ?');    values.push(fields.subtitle); }
+    if (fields.study_mode !== undefined)  { sets.push('study_mode = ?');  values.push(fields.study_mode); }
     if (sets.length === 0) return;
     values.push(id, userId);
     await db
@@ -610,10 +615,25 @@ export const flashcardsDb = {
       .run();
   },
 
-  async countByStatus(userId: number): Promise<Record<FlashcardStatus, number>> {
+  /**
+   * Per-status card counts. `excludeMeaning` drops cards living in
+   * "chỉ hiểu nghĩa" decks (study_mode = 'meaning') — the dashboard uses
+   * this so its learning stats only reflect decks the user actually
+   * studies via SRS.
+   */
+  async countByStatus(
+    userId: number,
+    opts: { excludeMeaning?: boolean } = {},
+  ): Promise<Record<FlashcardStatus, number>> {
     const db = await getDb();
+    const sql = opts.excludeMeaning
+      ? `SELECT c.status, COUNT(*) as n FROM flashcards c
+         JOIN flashcard_decks d ON d.id = c.deck_id AND d.user_id = c.user_id
+         WHERE c.user_id = ? AND d.study_mode != 'meaning'
+         GROUP BY c.status`
+      : `SELECT status, COUNT(*) as n FROM flashcards WHERE user_id = ? GROUP BY status`;
     const result = await db
-      .prepare(`SELECT status, COUNT(*) as n FROM flashcards WHERE user_id = ? GROUP BY status`)
+      .prepare(sql)
       .bind(userId)
       .all<{ status: FlashcardStatus; n: number }>();
     const counts: Record<FlashcardStatus, number> = { new: 0, learning: 0, review: 0, mastered: 0 };
@@ -702,7 +722,7 @@ export const flashcardReviewsDb = {
     const row = await db
       .prepare(
         `SELECT COUNT(*) as n FROM flashcard_reviews
-         WHERE user_id = ? AND date(reviewed_at) = date('now', 'localtime')`
+         WHERE user_id = ? AND date(reviewed_at, 'localtime') = date('now', 'localtime')`
       )
       .bind(userId)
       .first<{ n: number }>();
@@ -750,7 +770,7 @@ export const flashcardReviewsDb = {
                 SUM(CASE WHEN prev_interval > 0 THEN 1 ELSE 0 END) as review_count
          FROM flashcard_reviews
          WHERE user_id = ?
-         AND reviewed_at >= datetime('now', '-' || ? || ' days')
+         AND date(reviewed_at, 'localtime') >= date('now', 'localtime', '-' || ? || ' days')
          GROUP BY date(reviewed_at, 'localtime')
          ORDER BY d ASC`
       )
