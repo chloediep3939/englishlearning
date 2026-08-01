@@ -1,21 +1,29 @@
 /**
- * Weighted deck progress percent, shared by the /decks cards and the
- * dashboard "Bộ từ" widget (extracted because the old mastered-only formula
- * was duplicated in both and drifted).
- *
- * Each card contributes by SRS stage: new = 0, learning = 1/3,
- * review = 2/3, mastered = 1 — so the bar moves from the very first study
- * session instead of staying at 0% until cards mature.
+ * Deck progress percentages, shared by the /decks cards and the dashboard
+ * "Bộ từ" widget. The bar renders two layers:
+ *   - green (`learnedPct`): cards the user has started studying (non-new)
+ *   - yellow overlay (`masteredPct`): cards fully mastered ("thuộc kĩ")
+ * Yellow is always ≤ green, so the overlay never overshoots the green fill.
+ * (Yellow here is a user-requested exception to the speed-quiz-only yellow
+ * convention.)
  *
  * Pure and client-safe (no server-only imports).
  */
-export function deckProgressPct(deck: {
+
+interface DeckCounts {
   total: number;
-  learning_count: number;
-  review_count: number;
+  new_count: number;
   mastered_count: number;
-}): number {
+}
+
+/** % of cards the user has started studying (no longer `new`). */
+export function learnedPct(deck: DeckCounts): number {
   if (deck.total <= 0) return 0;
-  const score = deck.learning_count + 2 * deck.review_count + 3 * deck.mastered_count;
-  return Math.round((score / (3 * deck.total)) * 100);
+  return Math.round(((deck.total - deck.new_count) / deck.total) * 100);
+}
+
+/** % of cards fully mastered ("thuộc kĩ"). */
+export function masteredPct(deck: DeckCounts): number {
+  if (deck.total <= 0) return 0;
+  return Math.round((deck.mastered_count / deck.total) * 100);
 }

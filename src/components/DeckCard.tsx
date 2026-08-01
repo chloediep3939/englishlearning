@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 import type { DeckIcon, FlashcardDeckWithCounts } from '@/lib/types';
 import { DECK_ICON_OPTIONS } from '@/lib/types';
-import { deckProgressPct } from '@/lib/flashcards/progress';
+import { learnedPct, masteredPct } from '@/lib/flashcards/progress';
 
 interface Props {
   deck: FlashcardDeckWithCounts;
@@ -35,8 +35,10 @@ export default function DeckCard({ deck, onEdit, onDelete, layout = 'grid' }: Pr
   const router = useRouter();
   const Icon = resolveIcon(deck.icon);
 
-  // Weighted stage progress (new=0, học=1/3, ôn=2/3, thuộc=1).
-  const progress = deckProgressPct(deck);
+  // Two-layer progress: green = đã học (non-new), yellow overlay = thuộc kĩ.
+  const learned = learnedPct(deck);
+  const mastered = masteredPct(deck);
+  const progressTitle = `Đã học ${learned}% · thuộc kĩ ${mastered}%`;
 
   function open() {
     router.push(`/decks/${deck.id}`);
@@ -141,9 +143,11 @@ export default function DeckCard({ deck, onEdit, onDelete, layout = 'grid' }: Pr
           </div>
         </div>
 
-        {/* Progress bar */}
+        {/* Progress bar — green = đã học, yellow overlay = thuộc kĩ */}
         <div
+          title={progressTitle}
           style={{
+            position: 'relative',
             width: 110,
             height: 8,
             background: 'var(--v-border)',
@@ -154,15 +158,27 @@ export default function DeckCard({ deck, onEdit, onDelete, layout = 'grid' }: Pr
         >
           <div
             style={{
-              width: `${progress}%`,
-              height: '100%',
+              position: 'absolute',
+              inset: 0,
+              width: `${learned}%`,
               background: 'var(--v-primary)',
+              borderRadius: 'var(--v-radius-pill)',
+              transition: 'width 0.3s ease',
+            }}
+          />
+          <div
+            style={{
+              position: 'absolute',
+              inset: 0,
+              width: `${mastered}%`,
+              background: 'var(--v-yellow)',
               borderRadius: 'var(--v-radius-pill)',
               transition: 'width 0.3s ease',
             }}
           />
         </div>
         <span
+          title={progressTitle}
           style={{
             fontFamily: 'var(--v-font-head)',
             fontSize: 'var(--v-text-sm)',
@@ -173,7 +189,7 @@ export default function DeckCard({ deck, onEdit, onDelete, layout = 'grid' }: Pr
             flexShrink: 0,
           }}
         >
-          {progress}%
+          {learned}%
         </span>
 
         <div style={{ display: 'flex', gap: 4, flexShrink: 0 }}>
@@ -364,10 +380,12 @@ export default function DeckCard({ deck, onEdit, onDelete, layout = 'grid' }: Pr
         </p>
       )}
 
-      {/* Progress bar */}
+      {/* Progress bar — green = đã học, yellow overlay = thuộc kĩ */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
         <div
+          title={progressTitle}
           style={{
+            position: 'relative',
             flex: 1,
             height: 8,
             background: 'var(--v-border)',
@@ -377,15 +395,27 @@ export default function DeckCard({ deck, onEdit, onDelete, layout = 'grid' }: Pr
         >
           <div
             style={{
-              width: `${progress}%`,
-              height: '100%',
+              position: 'absolute',
+              inset: 0,
+              width: `${learned}%`,
               background: 'var(--v-primary)',
+              borderRadius: 'var(--v-radius-pill)',
+              transition: 'width 0.3s ease',
+            }}
+          />
+          <div
+            style={{
+              position: 'absolute',
+              inset: 0,
+              width: `${mastered}%`,
+              background: 'var(--v-yellow)',
               borderRadius: 'var(--v-radius-pill)',
               transition: 'width 0.3s ease',
             }}
           />
         </div>
         <span
+          title={progressTitle}
           style={{
             fontFamily: 'var(--v-font-head)',
             fontSize: 'var(--v-text-sm)',
@@ -395,7 +425,7 @@ export default function DeckCard({ deck, onEdit, onDelete, layout = 'grid' }: Pr
             textAlign: 'right',
           }}
         >
-          {progress}%
+          {learned}%
         </span>
       </div>
     </div>

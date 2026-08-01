@@ -14,7 +14,7 @@ import {
   userSettingsDb,
   getDb,
 } from '@/lib/db';
-import { deckProgressPct } from '@/lib/flashcards/progress';
+import { learnedPct, masteredPct } from '@/lib/flashcards/progress';
 
 function daysAgoIso(n: number): string {
   const d = new Date();
@@ -359,7 +359,10 @@ export default async function DashboardPage() {
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
               {topDecks.map((d) => {
-                const pct = deckProgressPct(d);
+                // Same two-layer semantics as DeckCard: green (deck color)
+                // = đã học, yellow overlay = thuộc kĩ.
+                const learned = learnedPct(d);
+                const mastered = masteredPct(d);
                 return (
                   <Link
                     key={d.id}
@@ -408,7 +411,9 @@ export default async function DashboardPage() {
                         {d.name}
                       </div>
                       <div
+                        title={`Đã học ${learned}% · thuộc kĩ ${mastered}%`}
                         style={{
+                          position: 'relative',
                           height: 6,
                           background: '#fff',
                           border: '1px solid var(--v-border)',
@@ -417,11 +422,12 @@ export default async function DashboardPage() {
                           overflow: 'hidden',
                         }}
                       >
-                        <div style={{ width: `${pct}%`, height: '100%', background: d.color }} />
+                        <div style={{ position: 'absolute', inset: 0, width: `${learned}%`, background: d.color }} />
+                        <div style={{ position: 'absolute', inset: 0, width: `${mastered}%`, background: 'var(--v-yellow)' }} />
                       </div>
                     </div>
                     <div style={{ fontFamily: 'var(--v-font-head)', fontWeight: 900, fontSize: 12, flexShrink: 0 }}>
-                      {pct}%
+                      {learned}%
                     </div>
                   </Link>
                 );
