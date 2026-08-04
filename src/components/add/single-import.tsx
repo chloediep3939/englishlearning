@@ -478,7 +478,7 @@ export default function SingleImport() {
             >
               {isGenerating
                 ? 'Bún đang tra cứu IPA · audio · ví dụ · ảnh · collocations...'
-                : 'Tự sinh: IPA · audio · 3 ví dụ · ảnh từ Pexels · collocations'}
+                : 'Tự sinh: IPA · audio · 3 ví dụ Oxford + dịch Việt · ảnh Pexels · collocations'}
             </div>
           </div>
 

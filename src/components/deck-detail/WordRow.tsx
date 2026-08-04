@@ -7,7 +7,7 @@ import { lookupUrl } from '@/components/common/LookupPills';
 import type { Flashcard } from '@/lib/types';
 import { STAGE_COLOR, STAGE_LABEL } from './constants';
 
-export type RegenField = 'image' | 'audio' | 'ipa' | 'vietnamese';
+export type RegenField = 'image' | 'audio' | 'ipa' | 'vietnamese' | 'examples';
 
 /**
  * A card is "broken" when image / IPA / vietnamese is missing. Audio is
@@ -28,6 +28,7 @@ const FIELD_LABEL_VI: Record<RegenField, string> = {
   audio: 'audio',
   ipa: 'IPA',
   vietnamese: 'nghĩa',
+  examples: 'ví dụ',
 };
 
 interface Props {

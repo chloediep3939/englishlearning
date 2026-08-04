@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 import AudioButton from '../AudioButton';
 import { apiJson } from '@/lib/common/api-json';
-import type { ClozeSentence, Flashcard } from '@/lib/types';
+import type { ClozeSentence, Flashcard, FlashcardExample } from '@/lib/types';
 
 type RegenField = 'image' | 'audio' | 'ipa' | 'vietnamese';
 const ALL_REGEN_FIELDS: RegenField[] = ['image', 'audio', 'ipa', 'vietnamese'];
@@ -42,11 +42,9 @@ type Mode = 'view' | 'edit';
  * mode swaps the scalar fields (english, vietnamese, ipa, pos, notes)
  * into inputs and surfaces save/cancel actions.
  *
- * Out of scope for v1 edit: examples and collocations are array-shaped
- * — editing them inline needs add/remove/reorder UI which is its own
- * mini-feature. They stay read-only in edit mode and the modal shows a
- * hint that re-generating from the Add screen is the path to refresh
- * them.
+ * Edit mode also exposes the card's example sentences (en + vi rows,
+ * add/remove, max 5) — the same shape the single-import preview editor
+ * uses. Collocations stay read-only.
  */
 export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Props) {
   const [mode, setMode] = useState<Mode>('view');
@@ -58,6 +56,7 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
   const [ipa, setIpa] = useState(card.ipa ?? '');
   const [pos, setPos] = useState(card.part_of_speech ?? '');
   const [notes, setNotes] = useState(card.notes ?? '');
+  const [examples, setExamples] = useState<FlashcardExample[]>(card.examples);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -73,10 +72,12 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
     setIpa(card.ipa ?? '');
     setPos(card.part_of_speech ?? '');
     setNotes(card.notes ?? '');
+    setExamples(card.examples);
     setMode('view');
     setError(null);
     setRegenerating(new Set());
     setRegenMsg(null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [card.id]);
 
   async function regenerate(fields: RegenField[]) {
@@ -140,12 +141,23 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
     };
   }, [card.id, card.english]);
 
+  // Rows the PUT will actually persist: en required, vi kept only when
+  // non-empty. Blank rows (fresh "+ Thêm ví dụ" not yet typed) drop out.
+  const cleanedExamples: FlashcardExample[] = examples
+    .map((ex) => {
+      const en = ex.en.trim();
+      const vi = (ex.vi ?? '').trim();
+      return vi ? { en, vi } : { en };
+    })
+    .filter((ex) => ex.en.length > 0);
+
   const dirty =
     english.trim() !== card.english ||
     vietnamese.trim() !== card.vietnamese ||
     (ipa.trim() || null) !== (card.ipa ?? null) ||
     (pos.trim() || null) !== (card.part_of_speech ?? null) ||
-    (notes.trim() || null) !== (card.notes ?? null);
+    (notes.trim() || null) !== (card.notes ?? null) ||
+    JSON.stringify(cleanedExamples) !== JSON.stringify(card.examples);
 
   function cancel() {
     setEnglish(card.english);
@@ -153,6 +165,7 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
     setIpa(card.ipa ?? '');
     setPos(card.part_of_speech ?? '');
     setNotes(card.notes ?? '');
+    setExamples(card.examples);
     setMode('view');
     setError(null);
   }
@@ -181,6 +194,7 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
           ipa: ipa.trim() || null,
           part_of_speech: pos.trim() || null,
           notes: notes.trim() || null,
+          examples: cleanedExamples,
         }),
       });
       onSaved(updated);
@@ -417,11 +431,90 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
           )
         )}
 
-        {/* Examples — sourced from the shared cloze pool (Part 3 of the cloze
-            pool feature). The legacy `card.examples` column is shown only when
-            the pool is empty AND the legacy data exists, so cards saved before
-            the migration don't appear blank. */}
-        {(poolSentences.length > 0 || (!poolLoading && card.examples.length > 0)) && (
+        {/* Examples. Edit mode: en+vi rows over `card.examples` (the column
+            "Học câu" drills), add/remove, max 5. View mode: cloze-pool
+            sentences, falling back to `card.examples` for pre-pool cards. */}
+        {mode === 'edit' && (
+          <Section title="Ví dụ (en + vi, dùng cho Học câu)">
+            {examples.map((ex, i) => (
+              <div
+                key={i}
+                style={{
+                  display: 'flex',
+                  gap: 6,
+                  alignItems: 'flex-start',
+                  marginBottom: 6,
+                }}
+              >
+                <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 4 }}>
+                  <input
+                    type="text"
+                    value={ex.en}
+                    onChange={(e) => {
+                      const next = [...examples];
+                      next[i] = { ...next[i], en: e.target.value };
+                      setExamples(next);
+                    }}
+                    placeholder={`Câu tiếng Anh ${i + 1}…`}
+                    style={inputStyle()}
+                  />
+                  <input
+                    type="text"
+                    value={ex.vi ?? ''}
+                    onChange={(e) => {
+                      const next = [...examples];
+                      next[i] = { ...next[i], vi: e.target.value };
+                      setExamples(next);
+                    }}
+                    placeholder="Nghĩa tiếng Việt (tuỳ chọn)…"
+                    style={{ ...inputStyle(), fontFamily: 'var(--v-font-body)' }}
+                  />
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setExamples(examples.filter((_, j) => j !== i))}
+                  aria-label={`Xoá ví dụ ${i + 1}`}
+                  style={{
+                    marginTop: 4,
+                    width: 28,
+                    height: 28,
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    background: 'var(--v-surface)',
+                    border: '1px solid var(--v-border)',
+                    borderRadius: 'var(--v-radius-sm)',
+                    color: 'var(--v-red)',
+                    cursor: 'pointer',
+                    flexShrink: 0,
+                  }}
+                >
+                  <X size={13} />
+                </button>
+              </div>
+            ))}
+            {examples.length < 5 && (
+              <button
+                type="button"
+                onClick={() => setExamples([...examples, { en: '', vi: '' }])}
+                style={{
+                  padding: '7px 12px',
+                  background: 'var(--v-surface)',
+                  border: '1px dashed var(--v-border)',
+                  borderRadius: 'var(--v-radius-sm)',
+                  color: 'var(--v-ink-soft)',
+                  fontFamily: 'var(--v-font-head)',
+                  fontWeight: 800,
+                  fontSize: 'var(--v-text-xs)',
+                  cursor: 'pointer',
+                }}
+              >
+                + Thêm ví dụ
+              </button>
+            )}
+          </Section>
+        )}
+        {mode === 'view' && (poolSentences.length > 0 || (!poolLoading && card.examples.length > 0)) && (
           <Section title="Ví dụ">
             {poolSentences.length > 0
               ? poolSentences.map((s, i) => (

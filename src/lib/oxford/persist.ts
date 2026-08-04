@@ -40,6 +40,10 @@ export interface OxfordAudioResult {
   ok: boolean; // mp3 fetched + stored in R2
   ipa: string | null; // US IPA written to the card (null if not found)
   failed: boolean; // no mp3 stored (Oxford miss / error)
+  /** Example sentences parsed from the same entry page (single words only;
+   *  phrases return [] — dictionary fallback covers them). NOT persisted
+   *  here — callers feed them to ensureCardExamples. */
+  examples: string[];
 }
 
 /** Fetch one word's pronunciation, retrying lemma base forms on a miss —
@@ -67,16 +71,16 @@ function joinIpa(ipas: string[]): string {
  *  and whether the entry is a multi-word phrase. */
 async function resolvePronunciation(
   word: string,
-): Promise<{ mp3: ArrayBuffer | null; ipa: string | null; phrase: boolean }> {
+): Promise<{ mp3: ArrayBuffer | null; ipa: string | null; phrase: boolean; examples: string[] }> {
   const tokens = word.trim().split(/\s+/).filter(Boolean);
 
   if (tokens.length === 1) {
     const p = await fetchTokenPronunciation(tokens[0]);
-    return { mp3: p.mp3, ipa: p.ipaUs?.trim() || null, phrase: false };
+    return { mp3: p.mp3, ipa: p.ipaUs?.trim() || null, phrase: false, examples: p.examples };
   }
 
   if (tokens.length === 0 || tokens.length > MAX_PHRASE_TOKENS) {
-    return { mp3: null, ipa: null, phrase: tokens.length > 0 };
+    return { mp3: null, ipa: null, phrase: tokens.length > 0, examples: [] };
   }
 
   // Sequential on purpose — polite to Oxford; a phrase is only 2–4 fetches.
@@ -90,6 +94,8 @@ async function resolvePronunciation(
     ipa: ipas.every((i): i is string => !!i) ? joinIpa(ipas) : null,
     mp3: null, // phrases play via browser TTS by design
     phrase: true,
+    // Per-token examples aren't about the phrase — dictionary fallback covers.
+    examples: [],
   };
 }
 
@@ -98,7 +104,7 @@ export async function fetchAndStoreOxfordAudio(
   cardId: number,
   word: string,
 ): Promise<OxfordAudioResult> {
-  const { mp3, ipa, phrase } = await resolvePronunciation(word); // never throws
+  const { mp3, ipa, phrase, examples } = await resolvePronunciation(word); // never throws
 
   const update: Partial<Flashcard> = {};
   let ok = false;
@@ -138,5 +144,5 @@ export async function fetchAndStoreOxfordAudio(
     console.error('[oxford audio] db update failed:', err);
   }
 
-  return { ok, ipa, failed: !ok };
+  return { ok, ipa, failed: !ok, examples };
 }

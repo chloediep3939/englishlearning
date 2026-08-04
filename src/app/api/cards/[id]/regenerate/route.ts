@@ -2,7 +2,10 @@ import { NextResponse } from 'next/server';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { flashcardsDb } from '@/lib/db';
 import { lookupWord } from '@/lib/flashcards/dictionary';
+import { ensureCardExamples } from '@/lib/flashcards/build-examples';
 import { lemmatize } from '@/lib/flashcards/lemmatize';
+import { fetchOxfordExamples } from '@/lib/oxford/pronunciation';
+import { lookupUrl } from '@/components/common/LookupPills';
 import { translateEnToVi } from '@/lib/flashcards/translate';
 import { getPexelsImage } from '@/lib/flashcards/pexels';
 import type { Flashcard, FlashcardImageAttribution } from '@/lib/types';
@@ -12,8 +15,9 @@ export const dynamic = 'force-dynamic';
 
 // Fields that can be individually regenerated. `audio` and `ipa` both come
 // from the dictionary, so when the caller asks for both we only hit the
-// dictionary once.
-const VALID_FIELDS = ['image', 'audio', 'ipa', 'vietnamese'] as const;
+// dictionary once. `examples` fills ONLY 0-example cards (user rule:
+// a card with even one example is never touched — see ensureCardExamples).
+const VALID_FIELDS = ['image', 'audio', 'ipa', 'vietnamese', 'examples'] as const;
 type Field = (typeof VALID_FIELDS)[number];
 
 interface RegenResult {
@@ -68,6 +72,7 @@ export async function POST(
     const wantsIpa = fields.includes('ipa');
     const wantsImage = fields.includes('image');
     const wantsVietnamese = fields.includes('vietnamese');
+    const wantsExamples = fields.includes('examples');
 
     // Run fan-out in parallel. Each leg returns the patch fragment it wants
     // applied; failures are captured per-field so partial success is fine.
@@ -159,6 +164,29 @@ export async function POST(
           } catch (err) {
             console.error('[card regen vi] error:', err);
             result.failed.push('vietnamese');
+          }
+        })(),
+      );
+    }
+
+    if (wantsExamples) {
+      tasks.push(
+        (async () => {
+          try {
+            const [oxfordExamples, dict] = await Promise.all([
+              fetchOxfordExamples(lookupUrl('Oxford', lemma)),
+              lookupWord(lemma).catch(() => null),
+            ]);
+            // Persists on its own; no-op when the card already has examples.
+            const res = await ensureCardExamples(userId, id, {
+              oxfordExamples,
+              dictExamples: dict?.examples?.map((e) => e.en) ?? [],
+            });
+            if (res.added > 0) result.ok.push('examples');
+            else result.failed.push('examples');
+          } catch (err) {
+            console.error('[card regen examples] error:', err);
+            result.failed.push('examples');
           }
         })(),
       );

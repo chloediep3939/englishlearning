@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
+import { getCloudflareContext } from '@opennextjs/cloudflare';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { flashcardsDb, flashcardDecksDb } from '@/lib/db';
+import { ensureCardExamples } from '@/lib/flashcards/build-examples';
 import { fetchAndStoreOxfordAudio } from '@/lib/oxford/persist';
 import type { FlashcardExample, FlashcardCollocation, FlashcardImageAttribution } from '@/lib/types';
 
@@ -168,8 +170,22 @@ export async function POST(req: Request) {
     // the IPA with the US value. Never throws — a miss leaves status 'failed'
     // and the read button falls back to TTS. Awaited inline so the returned
     // card already reflects the US IPA / audio for the add-page preview.
-    await fetchAndStoreOxfordAudio(userId, id, english);
+    const audio = await fetchAndStoreOxfordAudio(userId, id, english);
     const card = await flashcardsDb.getById(userId, id);
+
+    // Saved with 0 examples (user cleared / preview had none) → background
+    // fill from the Oxford page + MyMemory. ensureCardExamples never touches
+    // a card that already has any example, so user-entered ones always win.
+    if (card && card.examples.length === 0) {
+      const fillTask = ensureCardExamples(userId, id, { oxfordExamples: audio.examples });
+      try {
+        const cf = await getCloudflareContext({ async: true });
+        cf.ctx.waitUntil(fillTask);
+      } catch {
+        fillTask.catch(() => {});
+      }
+    }
+
     return NextResponse.json(card, { status: 201 });
   } catch (err) {
     if (err instanceof UnauthorizedError) {

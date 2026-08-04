@@ -95,9 +95,16 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
           const needsExampleImages = card.examples.some(
             (ex) => ex.en.trim().length > 0 && !ex.image_url,
           );
-          return { card, contentMissing, needsPron, needsExampleImages };
+          // 0-example cards get Oxford/dictionary examples + MyMemory vi via
+          // the regenerate 'examples' leg. Cards with ANY example are
+          // user-controlled and never touched (user rule).
+          const needsExamples = card.examples.length === 0;
+          return { card, contentMissing, needsPron, needsExampleImages, needsExamples };
         })
-        .filter((t) => t.contentMissing.length > 0 || t.needsPron || t.needsExampleImages),
+        .filter(
+          (t) =>
+            t.contentMissing.length > 0 || t.needsPron || t.needsExampleImages || t.needsExamples,
+        ),
     [cards],
   );
 
@@ -206,15 +213,18 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
     async function worker() {
       while (cursor < targets.length) {
         const idx = cursor++;
-        const { card, contentMissing, needsPron, needsExampleImages } = targets[idx];
+        const { card, contentMissing, needsPron, needsExampleImages, needsExamples } = targets[idx];
         let okAny = false;
 
-        if (contentMissing.length > 0) {
+        const regenFields: RegenField[] = needsExamples
+          ? [...contentMissing, 'examples']
+          : contentMissing;
+        if (regenFields.length > 0) {
           try {
             const data = await apiJson<RegenResponse>(`/api/cards/${card.id}/regenerate`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ fields: contentMissing }),
+              body: JSON.stringify({ fields: regenFields }),
             });
             setCards((prev) => prev.map((c) => (c.id === data.card.id ? data.card : c)));
             if (data.ok.length > 0) okAny = true;
@@ -240,7 +250,9 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
           }
         }
 
-        if (needsExampleImages) {
+        // needsExamples too: examples the regen leg just added start
+        // imageless — same-sweep fill instead of waiting for the next sweep.
+        if (needsExampleImages || needsExamples) {
           try {
             const data = await apiJson<{
               ok: boolean;

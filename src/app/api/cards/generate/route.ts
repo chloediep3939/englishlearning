@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { getCloudflareContext } from '@opennextjs/cloudflare';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { generateCardData } from '@/lib/flashcards/generate';
+import { ensureCardExamples } from '@/lib/flashcards/build-examples';
 import { ensureClozePool } from '@/lib/flashcards/cloze';
 import { getPexelsImage } from '@/lib/flashcards/pexels';
 import { fetchAndStoreOxfordAudio } from '@/lib/oxford/persist';
@@ -82,7 +83,7 @@ export async function POST(req: Request) {
     // Best-effort Oxford US pronunciation (mp3 → R2, US IPA → card). Awaited
     // inline per spec: bulk-added cards get audio for free at ~1–3s/card.
     // Never throws — a miss leaves status 'failed' and the UI uses TTS.
-    await fetchAndStoreOxfordAudio(userId, id, data.english);
+    const audio = await fetchAndStoreOxfordAudio(userId, id, data.english);
     const card = await flashcardsDb.getById(userId, id);
 
     // Fire-and-forget cloze pool gen for the lemmatized headword. waitUntil
@@ -91,6 +92,17 @@ export async function POST(req: Request) {
     // back to a detached promise so the request still returns fast.
     const headword = data.english;
     const backgroundTasks: Promise<unknown>[] = [ensureClozePool(headword)];
+
+    // Bulk-added cards start with 0 examples → fill from the Oxford page the
+    // audio fetch just downloaded (fallback: dictionary examples) + MyMemory
+    // translations, in the background so the insert stays fast.
+    // ensureCardExamples never touches a card that already has any example.
+    backgroundTasks.push(
+      ensureCardExamples(userId, id, {
+        oxfordExamples: audio.examples,
+        dictExamples: data.examples.map((e) => e.en),
+      }),
+    );
 
     // When the caller asked to skip image (bulk import default), schedule a
     // background Pexels fetch and update the saved row. Pexels is the
