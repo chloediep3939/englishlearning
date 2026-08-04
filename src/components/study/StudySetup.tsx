@@ -135,7 +135,11 @@ export default function StudySetup({
         borderRadius: 'var(--v-radius-lg)',
         boxShadow: 'var(--v-shadow-md)',
         padding: 24,
-        maxWidth: 720,
+        // Full-width card, centered — capped only so controls stay reachable
+        // on ultra-wide screens.
+        width: '100%',
+        maxWidth: 960,
+        margin: '0 auto',
       }}
     >
       {/* Deck-group segments — hidden when the user has no recognition decks */}
