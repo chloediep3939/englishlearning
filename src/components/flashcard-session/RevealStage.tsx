@@ -214,6 +214,43 @@ export default function RevealStage({
               </div>
             </div>
           )}
+
+          {/* Card note (chú thích) — moved here from the typing prompt: notes
+              often contain the answer word, so they only show once the answer
+              is revealed. */}
+          {card.notes && (
+            <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
+              <div style={{ width: 5, alignSelf: 'stretch', background: 'var(--v-primary)', borderRadius: 3, flexShrink: 0 }} />
+              <div>
+                <div
+                  style={{
+                    fontFamily: 'var(--v-font-body)',
+                    fontSize: 11,
+                    fontWeight: 900,
+                    color: 'var(--v-primary)',
+                    letterSpacing: '0.15em',
+                    textTransform: 'uppercase',
+                  }}
+                >
+                  Ghi chú
+                </div>
+                <p
+                  style={{
+                    fontFamily: 'var(--v-font-body)',
+                    fontSize: 13,
+                    fontWeight: 600,
+                    fontStyle: 'italic',
+                    color: 'var(--v-ink-soft)',
+                    margin: '4px 0 0',
+                    lineHeight: 1.5,
+                    whiteSpace: 'pre-wrap',
+                  }}
+                >
+                  {card.notes}
+                </p>
+              </div>
+            </div>
+          )}
         </div>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>

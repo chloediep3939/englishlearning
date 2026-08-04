@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowRight, Eye, Heart, Sparkles, StickyNote } from 'lucide-react';
+import { ArrowRight, Eye, Heart, Sparkles } from 'lucide-react';
 import type { Flashcard } from '@/lib/types';
 
 interface Props {
@@ -114,31 +114,9 @@ export default function TypingStage({
           >
             &ldquo;{card.vietnamese}&rdquo;
           </div>
-          {/* Card note (chú thích) — shown as a soft hint line under the
-              meaning. May contain the answer word; that's the user's own
-              note, so we display it as-is. */}
-          {card.notes && (
-            <div
-              style={{
-                marginTop: 8,
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'flex-start',
-                gap: 6,
-                fontFamily: 'var(--v-font-body)',
-                fontSize: 13,
-                fontWeight: 600,
-                fontStyle: 'italic',
-                color: 'var(--v-ink-soft)',
-                whiteSpace: 'pre-wrap',
-                textAlign: 'center',
-                lineHeight: 1.45,
-              }}
-            >
-              <StickyNote size={14} style={{ flexShrink: 0, marginTop: 2 }} color="var(--v-primary)" />
-              <span>{card.notes}</span>
-            </div>
-          )}
+          {/* Card note intentionally NOT shown here — it often contains the
+              answer word or usage hints, which defeats the recall prompt.
+              Notes stay visible on the reveal side / card detail. */}
           {/* Tail */}
           <div
             style={{
