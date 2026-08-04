@@ -14,7 +14,13 @@ type Provider = 'Oxford' | 'YouGlish' | 'ozdic';
 const PROVIDERS: ReadonlyArray<Provider> = ['Oxford', 'YouGlish', 'ozdic'];
 
 export function lookupUrl(provider: Provider, word: string): string {
-  const w = encodeURIComponent(word.trim());
+  // Oxford entry slugs are lowercase — "Bangladesh" 404s while "bangladesh"
+  // resolves, which silently broke the audio/IPA/examples scrape for
+  // capitalized headwords (they fell back to CMU IPA). Lowercase for Oxford
+  // always; other providers are case-insensitive, leave as typed.
+  const w = encodeURIComponent(
+    provider === 'Oxford' ? word.trim().toLowerCase() : word.trim(),
+  );
   if (provider === 'Oxford')
     return `https://www.oxfordlearnersdictionaries.com/definition/english/${w}`;
   if (provider === 'YouGlish') return `https://youglish.com/pronounce/${w}/english`;
