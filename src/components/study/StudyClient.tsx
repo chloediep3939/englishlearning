@@ -96,8 +96,7 @@ export default function StudyClient({ decks, defaultReviewLimit, defaultNewLimit
             color: 'var(--v-red)',
             fontSize: 'var(--v-text-md)',
             marginBottom: 16,
-            maxWidth: 960,
-            margin: '0 auto 16px',
+            maxWidth: 720,
           }}
         >
           {error}
