@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Eye, GraduationCap, Plus } from 'lucide-react';
+import { Eye, GraduationCap } from 'lucide-react';
 import DeckEditor from './DeckEditor';
+import { DECKS_CHANGED_EVENT } from './DeckCreateButton';
 import DeckCard from './DeckCard';
 import DeleteDeckDialog from './deck-detail/DeleteDeckDialog';
 import LoadingState from '@/components/common/LoadingState';
@@ -35,6 +36,11 @@ export default function DeckList() {
 
   useEffect(() => {
     void load();
+    // Reload when the title-row "TẠO BỘ MỚI" button (a sibling subtree)
+    // creates a deck.
+    const onChanged = () => void load();
+    window.addEventListener(DECKS_CHANGED_EVENT, onChanged);
+    return () => window.removeEventListener(DECKS_CHANGED_EVENT, onChanged);
   }, []);
 
   function handleDelete(deck: FlashcardDeckWithCounts) {
@@ -72,34 +78,8 @@ export default function DeckList() {
 
   return (
     <>
-      {/* Deck-group tabs — same pill tablist styling as /add */}
-      <div
-        role="tablist"
-        style={{
-          display: 'inline-flex',
-          gap: 4,
-          padding: 4,
-          background: 'var(--v-panel)',
-          border: '1px solid var(--v-border)',
-          borderRadius: 999,
-          marginBottom: 18,
-          marginRight: 12,
-        }}
-      >
-        <TabButton
-          active={tab === 'full'}
-          onClick={() => setTab('full')}
-          icon={<GraduationCap size={14} strokeWidth={2.4} />}
-          label="Học đầy đủ"
-        />
-        <TabButton
-          active={tab === 'recognition'}
-          onClick={() => setTab('recognition')}
-          icon={<Eye size={14} strokeWidth={2.4} />}
-          label="Chỉ hiểu nghĩa"
-        />
-      </div>
-
+      {/* Deck-group tabs (pill tablist, same styling as /add) + view toggle.
+          "TẠO BỘ MỚI" moved to the title row next to Import (DeckCreateButton). */}
       <div
         style={{
           display: 'flex',
@@ -109,27 +89,30 @@ export default function DeckList() {
           marginBottom: 18,
         }}
       >
-        <button
-          type="button"
-          onClick={() => setEditing(null)}
+        <div
+          role="tablist"
           style={{
-            padding: '11px 18px',
-            background: 'var(--v-primary)',
-            color: '#fff',
-            border: 'none',
-            borderRadius: 'var(--v-radius-md)',
-            boxShadow: 'var(--v-press), 0 4px 10px rgba(122,193,67,0.4)',
-            fontFamily: 'var(--v-font-head)',
-            fontWeight: 900,
-            fontSize: 'var(--v-text-md)',
             display: 'inline-flex',
-            alignItems: 'center',
-            gap: 8,
-            cursor: 'pointer',
+            gap: 4,
+            padding: 4,
+            background: 'var(--v-panel)',
+            border: '1px solid var(--v-border)',
+            borderRadius: 999,
           }}
         >
-          <Plus size={14} /> TẠO BỘ MỚI
-        </button>
+          <TabButton
+            active={tab === 'full'}
+            onClick={() => setTab('full')}
+            icon={<GraduationCap size={14} strokeWidth={2.4} />}
+            label="Học đầy đủ"
+          />
+          <TabButton
+            active={tab === 'recognition'}
+            onClick={() => setTab('recognition')}
+            icon={<Eye size={14} strokeWidth={2.4} />}
+            label="Chỉ hiểu nghĩa"
+          />
+        </div>
         <DeckViewToggle mode={viewMode} onChange={setViewMode} />
       </div>
 

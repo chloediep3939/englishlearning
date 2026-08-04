@@ -3,6 +3,7 @@ import { ArrowLeft, FileDown, Folder } from 'lucide-react';
 import DeckList from '@/components/DeckList';
 import MDecksList from '@/components/app-mobile/screens/MDecksList';
 import DeckImportButton from '@/components/DeckImportButton';
+import DeckCreateButton from '@/components/DeckCreateButton';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -55,6 +56,7 @@ export default async function DecksPage() {
           <Folder size={24} style={{ color: 'var(--v-primary)' }} /> Bộ từ
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+          <DeckCreateButton />
           <DeckImportButton />
           {/* Static sample of the import format (served from /public) — each
               card carries 3 en+vi examples so imports feed "Học câu" too. */}
