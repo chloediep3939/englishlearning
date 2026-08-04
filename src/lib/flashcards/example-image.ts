@@ -5,29 +5,21 @@
 import { flashcardsDb } from '@/lib/db';
 import { getPexelsImage } from './pexels';
 
-const STOPWORDS = new Set([
-  'the', 'a', 'an', 'and', 'or', 'but', 'of', 'in', 'on', 'at', 'to', 'for',
-  'with', 'by', 'from', 'as', 'is', 'are', 'was', 'were', 'be', 'been', 'being',
-  'that', 'this', 'these', 'those', 'it', 'its', 'their', 'his', 'her', 'our',
-  'your', 'they', 'he', 'she', 'we', 'you', 'have', 'has', 'had', 'will',
-  'would', 'can', 'could', 'should', 'not', 'more', 'most', 'some', 'any',
-  'there', 'which', 'who', 'when', 'where', 'than', 'into', 'about', 'also',
-]);
-
 /**
- * Pexels search term for a sentence: the card's headword + the sentence's
- * 2 longest content words. Full sentences make terrible search queries;
- * a few salient nouns/verbs land far closer.
+ * Pexels search term for a sentence: the WHOLE sentence, cleaned of
+ * punctuation and capped. Pexels ranks concrete nouns in the query highest,
+ * so "I've been going to the gym less frequently this month" lands on gym
+ * photos — far better than the old longest-words heuristic, which dropped
+ * short concrete words ("gym" < 4 chars) and queried on filler like
+ * "frequently month". Callers fall back to the headword on a miss.
  */
-export function sentenceImageQuery(english: string, sentence: string): string {
-  const content = sentence
+export function sentenceImageQuery(sentence: string): string {
+  return sentence
     .toLowerCase()
-    .replace(/[^a-z\s-]/g, ' ')
-    .split(/\s+/)
-    .filter((w) => w.length >= 4 && !STOPWORDS.has(w) && !english.toLowerCase().includes(w))
-    .sort((a, b) => b.length - a.length)
-    .slice(0, 2);
-  return [english, ...content].join(' ').trim();
+    .replace(/[^a-z0-9\s-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 100);
 }
 
 /**
@@ -44,7 +36,10 @@ export async function fillExampleImage(
   const card = await flashcardsDb.getById(userId, cardId);
   const ex = card?.examples?.[exampleIndex];
   if (!card || !ex || !ex.en.trim() || ex.image_url) return false;
-  const pexels = await getPexelsImage(sentenceImageQuery(card.english, ex.en));
+  // Whole sentence first; headword as the fallback when Pexels has no hit.
+  const pexels =
+    (await getPexelsImage(sentenceImageQuery(ex.en))) ??
+    (await getPexelsImage(card.english));
   if (!pexels) return false;
   const examples = card.examples.map((e, i) =>
     i === exampleIndex ? { ...e, image_url: pexels.image_url } : e,

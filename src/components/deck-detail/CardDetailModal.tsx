@@ -142,12 +142,18 @@ export default function CardDetailModal({ card, onClose, onDelete, onSaved }: Pr
   }, [card.id, card.english]);
 
   // Rows the PUT will actually persist: en required, vi kept only when
-  // non-empty. Blank rows (fresh "+ Thêm ví dụ" not yet typed) drop out.
+  // non-empty, image_url carried through untouched (the editor doesn't
+  // manage it — dropping it here would silently wipe sentence images).
+  // Blank rows (fresh "+ Thêm ví dụ" not yet typed) drop out.
   const cleanedExamples: FlashcardExample[] = examples
     .map((ex) => {
       const en = ex.en.trim();
       const vi = (ex.vi ?? '').trim();
-      return vi ? { en, vi } : { en };
+      return {
+        en,
+        ...(vi ? { vi } : {}),
+        ...(ex.image_url ? { image_url: ex.image_url } : {}),
+      };
     })
     .filter((ex) => ex.en.length > 0);
 
