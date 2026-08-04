@@ -5,6 +5,7 @@ import Link from 'next/link';
 import {
   ArrowLeft, Settings as SettingsIcon, Check, Target, Mic, Timer,
   BookOpenText, Volume2, Palette, Repeat, ListChecks, Headphones,
+  NotebookPen, Zap,
 } from 'lucide-react';
 import LoadingState from '@/components/common/LoadingState';
 import SettingsCard from '@/components/SettingsCard';
@@ -19,12 +20,25 @@ import VoicePickerControl from '@/components/settings-controls/VoicePickerContro
 import ThemeControl from '@/components/settings-controls/ThemeControl';
 import MSettings from '@/components/app-mobile/screens/MSettings';
 import type { FlashcardSettings, ThemeMode } from '@/lib/types';
-import { LISTENING_SETTINGS, M3_SETTINGS, M6_SETTINGS } from '@/lib/types';
+import { LISTENING_SETTINGS, M3_SETTINGS, M6_SETTINGS, SENTENCE_STUDY_SETTINGS } from '@/lib/types';
 import { setStoredVoicePreference, setStoredWordTtsRate } from '@/lib/tts';
 import { apiJson } from '@/lib/common/api-json';
 
+// Tabbed layout — one focused panel at a time instead of a wall of five
+// uneven cards. Tab order mirrors how often each group is touched.
+type SettingsTab = 'study' | 'audio' | 'practice' | 'reading' | 'ui';
+
+const TABS: Array<{ value: SettingsTab; label: string; icon: React.ReactNode }> = [
+  { value: 'study',    label: 'Học & mục tiêu', icon: <Target size={14} strokeWidth={2.4} /> },
+  { value: 'audio',    label: 'Âm thanh',       icon: <Volume2 size={14} strokeWidth={2.4} /> },
+  { value: 'practice', label: 'Luyện tập',      icon: <Zap size={14} strokeWidth={2.4} /> },
+  { value: 'reading',  label: 'Bài đọc',        icon: <BookOpenText size={14} strokeWidth={2.4} /> },
+  { value: 'ui',       label: 'Giao diện',      icon: <Palette size={14} strokeWidth={2.4} /> },
+];
+
 export default function SettingsPage() {
   const [settings, setSettings] = useState<FlashcardSettings | null>(null);
+  const [tab, setTab] = useState<SettingsTab>('study');
   const [saved, setSaved] = useState(false);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -82,7 +96,7 @@ export default function SettingsPage() {
     <div className="md:hidden">
       <MSettings />
     </div>
-    <div className="hidden md:block" style={{ maxWidth: 1100, margin: '0 auto' }}>
+    <div className="hidden md:block" style={{ maxWidth: 760, margin: '0 auto' }}>
       <Link
         href="/dashboard"
         style={{
@@ -98,24 +112,27 @@ export default function SettingsPage() {
         <ArrowLeft size={14} /> Dashboard
       </Link>
 
-      <h1
-        style={{
-          fontFamily: 'var(--v-font-head)',
-          fontWeight: 900,
-          fontSize: 'var(--v-text-3xl)',
-          letterSpacing: 'var(--v-tracking-tight)',
-          margin: '0 0 24px',
-          display: 'flex',
-          alignItems: 'center',
-          gap: 10,
-          color: 'var(--v-ink)',
-        }}
-      >
-        <SettingsIcon size={24} style={{ color: 'var(--v-primary)' }} /> Cài đặt
-      </h1>
-
-      {saved && (
-        <div
+      {/* Header row — title + a fixed slot for the "Đã lưu" chip so it never
+          shifts the layout when it pops in. */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12, margin: '0 0 18px' }}>
+        <h1
+          style={{
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 900,
+            fontSize: 'var(--v-text-3xl)',
+            letterSpacing: 'var(--v-tracking-tight)',
+            margin: 0,
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            color: 'var(--v-ink)',
+          }}
+        >
+          <SettingsIcon size={24} style={{ color: 'var(--v-primary)' }} /> Cài đặt
+        </h1>
+        <span style={{ flex: 1 }} />
+        <span
+          aria-live="polite"
           style={{
             display: 'inline-flex',
             alignItems: 'center',
@@ -127,12 +144,13 @@ export default function SettingsPage() {
             fontFamily: 'var(--v-font-head)',
             fontWeight: 800,
             fontSize: 'var(--v-text-xs)',
-            marginBottom: 14,
+            opacity: saved ? 1 : 0,
+            transition: 'opacity 200ms var(--v-ease)',
           }}
         >
           <Check size={12} /> Đã lưu
-        </div>
-      )}
+        </span>
+      </div>
 
       {error && (
         <div
@@ -150,215 +168,275 @@ export default function SettingsPage() {
         </div>
       )}
 
+      {/* Tab bar */}
+      <div
+        role="tablist"
+        style={{
+          display: 'inline-flex',
+          gap: 4,
+          padding: 4,
+          background: 'var(--v-panel)',
+          border: '1px solid var(--v-border)',
+          borderRadius: 999,
+          marginBottom: 18,
+          flexWrap: 'wrap',
+        }}
+      >
+        {TABS.map((t) => {
+          const active = tab === t.value;
+          return (
+            <button
+              key={t.value}
+              type="button"
+              role="tab"
+              aria-selected={active}
+              onClick={() => setTab(t.value)}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 6,
+                padding: '8px 16px',
+                background: active ? 'var(--v-primary-soft)' : 'transparent',
+                color: active ? 'var(--v-primary)' : 'var(--v-ink-soft)',
+                border: 'none',
+                borderRadius: 999,
+                fontFamily: 'var(--v-font-head)',
+                fontWeight: 900,
+                fontSize: 12,
+                letterSpacing: '0.04em',
+                cursor: 'pointer',
+                transition: 'background 150ms var(--v-ease), color 150ms var(--v-ease)',
+              }}
+            >
+              {t.icon}
+              {t.label}
+            </button>
+          );
+        })}
+      </div>
+
       {!settings ? (
         <LoadingState message="Đang tải cài đặt…" />
       ) : (
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
-            gap: 16,
-            alignItems: 'start',
-          }}
-        >
-          {/* 🎯 Mục tiêu hàng ngày */}
-          <SettingsCard title="Mục tiêu hàng ngày" icon={<Target size={16} style={{ color: 'var(--v-primary)' }} />}>
-            <Slider
-              label="Mục tiêu ôn mỗi ngày"
-              value={settings.daily_goal_review}
-              min={10}
-              max={200}
-              step={10}
-              onCommit={(v) => save({ daily_goal_review: v })}
-              suffix="lượt"
-            />
-            <SessionLimitInput
-              label="Số thẻ ôn mỗi phiên"
-              hint="Mặc định cho phiên Học — chỉnh được từng phiên"
-              value={settings.session_review_limit}
-              onCommit={(v) => save({ session_review_limit: v })}
-              disabled={saving}
-            />
-            <SessionLimitInput
-              label="Số thẻ mới mỗi phiên"
-              hint="Số từ mới tối đa trộn vào mỗi phiên Học"
-              value={settings.session_new_limit}
-              onCommit={(v) => save({ session_new_limit: v })}
-              disabled={saving}
-            />
-            <Toggle
-              label="Ẩn từ đã master khỏi ôn tập"
-              hint="Từ ở status 'master' sẽ không hiện trong /review"
-              checked={settings.mastered_hide_from_review}
-              onChange={(v) => save({ mastered_hide_from_review: v })}
-              disabled={saving}
-            />
-          </SettingsCard>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+          {tab === 'study' && (
+            <>
+              <SettingsCard title="Mục tiêu hàng ngày" icon={<Target size={16} style={{ color: 'var(--v-primary)' }} />}>
+                <Slider
+                  label="Mục tiêu ôn mỗi ngày"
+                  value={settings.daily_goal_review}
+                  min={10}
+                  max={200}
+                  step={10}
+                  onCommit={(v) => save({ daily_goal_review: v })}
+                  suffix="lượt"
+                />
+                <SessionLimitInput
+                  label="Số thẻ ôn mỗi phiên"
+                  hint="Mặc định cho phiên Học từ / Học câu — chỉnh được từng phiên"
+                  value={settings.session_review_limit}
+                  onCommit={(v) => save({ session_review_limit: v })}
+                  disabled={saving}
+                />
+                <SessionLimitInput
+                  label="Số thẻ mới mỗi phiên"
+                  hint="Số từ / câu mới tối đa trộn vào mỗi phiên"
+                  value={settings.session_new_limit}
+                  onCommit={(v) => save({ session_new_limit: v })}
+                  disabled={saving}
+                />
+                <Toggle
+                  label="Ẩn từ đã master khỏi ôn tập"
+                  hint="Từ ở status 'master' sẽ không hiện trong phiên ôn"
+                  checked={settings.mastered_hide_from_review}
+                  onChange={(v) => save({ mastered_hide_from_review: v })}
+                  disabled={saving}
+                />
+              </SettingsCard>
+              <SettingsCard title="Câu hỏi dạng nghe" icon={<Headphones size={16} style={{ color: 'var(--v-blue)' }} />}>
+                <Toggle
+                  label="Bật câu hỏi dạng nghe (phiên Học từ)"
+                  hint="Thẻ ôn tập có thể được hỏi bằng loa — nghe rồi gõ lại từ. Thẻ mới luôn hỏi bằng hình + nghĩa Việt"
+                  checked={settings.listening_enabled}
+                  onChange={(v) => save({ listening_enabled: v })}
+                  disabled={saving}
+                />
+                <SliderWithIcon
+                  icon={<Headphones size={14} />}
+                  label="Tỉ lệ câu nghe"
+                  hint="Bao nhiêu % thẻ ôn tập được hỏi dạng nghe, phần còn lại hỏi dạng dịch"
+                  value={settings.listening_ratio}
+                  min={LISTENING_SETTINGS.listening_ratio.min}
+                  max={LISTENING_SETTINGS.listening_ratio.max}
+                  step={LISTENING_SETTINGS.listening_ratio.step}
+                  onCommit={(v) => save({ listening_ratio: v })}
+                  suffix="%"
+                  disabled={!settings.listening_enabled}
+                />
+              </SettingsCard>
+            </>
+          )}
 
-          {/* 🧠 Luyện tập */}
-          <SettingsCard title="Luyện tập" icon={<Mic size={16} style={{ color: 'var(--v-blue)' }} />}>
-            <MaxAttemptsControl
-              value={settings.f1_max_attempts}
-              onCommit={(v) => save({ f1_max_attempts: v })}
-            />
-            <SliderWithIcon
-              icon={<Timer size={14} />}
-              label="Thời gian đặt câu (giây)"
-              hint="Đếm ngược trong chế độ Đặt câu"
-              value={settings.f2_timer_seconds}
-              min={M3_SETTINGS.f2_timer_seconds.min}
-              max={M3_SETTINGS.f2_timer_seconds.max}
-              step={M3_SETTINGS.f2_timer_seconds.step}
-              onCommit={(v) => save({ f2_timer_seconds: v })}
-              suffix="giây"
-            />
-            <SliderWithIcon
-              icon={<BookOpenText size={14} />}
-              label="Số từ tối đa trong 1 bài viết"
-              hint="Pool từ vựng tối đa cho mỗi bài viết"
-              value={settings.f3_max_words_per_composition}
-              min={M3_SETTINGS.f3_max_words_per_composition.min}
-              max={M3_SETTINGS.f3_max_words_per_composition.max}
-              step={M3_SETTINGS.f3_max_words_per_composition.step}
-              onCommit={(v) => save({ f3_max_words_per_composition: v })}
-              suffix="từ"
-            />
-            <SpeedTimerControl
-              value={settings.speed_timer_seconds}
-              onCommit={(v) => save({ speed_timer_seconds: v })}
-            />
-            <SliderWithIcon
-              icon={<Repeat size={14} />}
-              label="Số lần đọc từ (Flashcard nhanh)"
-              hint="Tự đọc từ tiếng Anh khi câu hỏi hiện ra — 0 là tắt"
-              value={settings.speed_read_count}
-              min={0}
-              max={M6_SETTINGS.speed_read_count.max}
-              step={M6_SETTINGS.speed_read_count.step}
-              onCommit={(v) => save({ speed_read_count: v })}
-              suffix="lần"
-            />
-            <SliderWithIcon
-              icon={<ListChecks size={14} />}
-              label="Số câu mặc định mỗi phiên"
-              hint="Được chọn sẵn khi mở Flashcard nhanh / Điền từ / Luyện đọc / Đặt câu"
-              value={settings.default_session_size}
-              min={M6_SETTINGS.default_session_size.min}
-              max={M6_SETTINGS.default_session_size.max}
-              step={M6_SETTINGS.default_session_size.step}
-              onCommit={(v) => save({ default_session_size: v })}
-              suffix="câu"
-            />
-            <Toggle
-              label="Câu hỏi dạng nghe (phiên Học)"
-              hint="Thẻ ôn tập có thể được hỏi bằng loa — nghe rồi gõ lại từ. Thẻ mới luôn hỏi bằng hình + nghĩa Việt"
-              checked={settings.listening_enabled}
-              onChange={(v) => save({ listening_enabled: v })}
-              disabled={saving}
-            />
-            <SliderWithIcon
-              icon={<Headphones size={14} />}
-              label="Tỉ lệ câu nghe"
-              hint="Bao nhiêu % thẻ ôn tập được hỏi dạng nghe, phần còn lại hỏi dạng dịch"
-              value={settings.listening_ratio}
-              min={LISTENING_SETTINGS.listening_ratio.min}
-              max={LISTENING_SETTINGS.listening_ratio.max}
-              step={LISTENING_SETTINGS.listening_ratio.step}
-              onCommit={(v) => save({ listening_ratio: v })}
-              suffix="%"
-              disabled={!settings.listening_enabled}
-            />
-          </SettingsCard>
+          {tab === 'audio' && (
+            <SettingsCard title="Âm thanh & giọng đọc" icon={<Volume2 size={16} style={{ color: 'var(--v-teal)' }} />}>
+              <Toggle
+                label="Tự đọc khi xem đáp án"
+                hint="Khi xem đáp án, Bún tự đọc từ đó cho bạn nghe"
+                checked={settings.autoplay_audio}
+                onChange={(v) => save({ autoplay_audio: v })}
+                disabled={saving}
+              />
+              <SliderWithIcon
+                icon={<Repeat size={14} />}
+                label="Số lần đọc lại từ"
+                hint="Khi xem đáp án Học từ, Bún đọc từ lặp lại bấy nhiêu lần"
+                value={settings.reveal_read_count}
+                min={M6_SETTINGS.reveal_read_count.min}
+                max={M6_SETTINGS.reveal_read_count.max}
+                step={M6_SETTINGS.reveal_read_count.step}
+                onCommit={(v) => save({ reveal_read_count: v })}
+                suffix="lần"
+                disabled={!settings.autoplay_audio}
+              />
+              <SliderWithIcon
+                icon={<NotebookPen size={14} />}
+                label="Số lần đọc câu ví dụ (Học câu)"
+                hint="Khi xem đáp án Học câu, Bún đọc cả câu bấy nhiêu lần — 0 là tắt"
+                value={settings.sentence_read_count}
+                min={SENTENCE_STUDY_SETTINGS.sentence_read_count.min}
+                max={SENTENCE_STUDY_SETTINGS.sentence_read_count.max}
+                step={SENTENCE_STUDY_SETTINGS.sentence_read_count.step}
+                onCommit={(v) => save({ sentence_read_count: v })}
+                suffix="lần"
+              />
+              <SliderWithIcon
+                icon={<Timer size={14} />}
+                label="Khoảng nghỉ giữa các lần đọc"
+                hint="Nghỉ bao lâu giữa hai lần đọc để bạn kịp nhẩm theo"
+                value={settings.reveal_read_gap_ms}
+                min={M6_SETTINGS.reveal_read_gap_ms.min}
+                max={M6_SETTINGS.reveal_read_gap_ms.max}
+                step={M6_SETTINGS.reveal_read_gap_ms.step}
+                onCommit={(v) => save({ reveal_read_gap_ms: v })}
+                suffix="ms"
+                disabled={!settings.autoplay_audio}
+              />
+              <TtsRateControl
+                value={settings.word_tts_rate}
+                onCommit={(v) => save({ word_tts_rate: v })}
+                label="Tốc độ đọc từ"
+                hint="Áp dụng khi Bún đọc một từ đơn (flashcard, quiz, nút loa)"
+                min={M6_SETTINGS.word_tts_rate.min}
+                max={M6_SETTINGS.word_tts_rate.max}
+                step={M6_SETTINGS.word_tts_rate.step}
+                previewText="vocabulary"
+              />
+              <VoicePickerControl
+                value={settings.voice_preference}
+                onChange={(v) => save({ voice_preference: v })}
+                disabled={saving}
+              />
+            </SettingsCard>
+          )}
 
-          {/* 📖 Học theo bài đọc */}
-          <SettingsCard title="Học theo bài đọc" icon={<BookOpenText size={16} style={{ color: 'var(--v-purple)' }} />}>
-            <CefrControl
-              value={settings.user_cefr_level}
-              onChange={(v) => save({ user_cefr_level: v })}
-              disabled={saving}
-            />
-            <TtsRateControl
-              value={settings.passage_tts_rate}
-              onCommit={(v) => save({ passage_tts_rate: v })}
-            />
-            <Toggle
-              label="Tải trước AI feedback"
-              hint="Khi đọc bài, Bún chuẩn bị sẵn feedback các bước sau → đỡ chờ"
-              checked={settings.passage_pre_fetch}
-              onChange={(v) => save({ passage_pre_fetch: v })}
-              disabled={saving}
-            />
-            <SliderWithIcon
-              icon={<Timer size={14} />}
-              label="Khoảng dừng giữa các cụm"
-              hint="Nghỉ giữa các thought-group khi luyện đọc theo cụm"
-              value={settings.chunk_pause_ms}
-              min={M6_SETTINGS.chunk_pause_ms.min}
-              max={M6_SETTINGS.chunk_pause_ms.max}
-              step={M6_SETTINGS.chunk_pause_ms.step}
-              onCommit={(v) => save({ chunk_pause_ms: v })}
-              suffix="ms"
-            />
-          </SettingsCard>
+          {tab === 'practice' && (
+            <SettingsCard title="Luyện tập" icon={<Mic size={16} style={{ color: 'var(--v-blue)' }} />}>
+              <MaxAttemptsControl
+                value={settings.f1_max_attempts}
+                onCommit={(v) => save({ f1_max_attempts: v })}
+              />
+              <SliderWithIcon
+                icon={<Timer size={14} />}
+                label="Thời gian đặt câu (giây)"
+                hint="Đếm ngược trong chế độ Đặt câu"
+                value={settings.f2_timer_seconds}
+                min={M3_SETTINGS.f2_timer_seconds.min}
+                max={M3_SETTINGS.f2_timer_seconds.max}
+                step={M3_SETTINGS.f2_timer_seconds.step}
+                onCommit={(v) => save({ f2_timer_seconds: v })}
+                suffix="giây"
+              />
+              <SliderWithIcon
+                icon={<BookOpenText size={14} />}
+                label="Số từ tối đa trong 1 bài viết"
+                hint="Pool từ vựng tối đa cho mỗi bài viết"
+                value={settings.f3_max_words_per_composition}
+                min={M3_SETTINGS.f3_max_words_per_composition.min}
+                max={M3_SETTINGS.f3_max_words_per_composition.max}
+                step={M3_SETTINGS.f3_max_words_per_composition.step}
+                onCommit={(v) => save({ f3_max_words_per_composition: v })}
+                suffix="từ"
+              />
+              <SpeedTimerControl
+                value={settings.speed_timer_seconds}
+                onCommit={(v) => save({ speed_timer_seconds: v })}
+              />
+              <SliderWithIcon
+                icon={<Repeat size={14} />}
+                label="Số lần đọc từ (Flashcard nhanh)"
+                hint="Tự đọc từ tiếng Anh khi câu hỏi hiện ra — 0 là tắt"
+                value={settings.speed_read_count}
+                min={0}
+                max={M6_SETTINGS.speed_read_count.max}
+                step={M6_SETTINGS.speed_read_count.step}
+                onCommit={(v) => save({ speed_read_count: v })}
+                suffix="lần"
+              />
+              <SliderWithIcon
+                icon={<ListChecks size={14} />}
+                label="Số câu mặc định mỗi phiên"
+                hint="Được chọn sẵn khi mở Flashcard nhanh / Điền từ / Luyện đọc / Đặt câu"
+                value={settings.default_session_size}
+                min={M6_SETTINGS.default_session_size.min}
+                max={M6_SETTINGS.default_session_size.max}
+                step={M6_SETTINGS.default_session_size.step}
+                onCommit={(v) => save({ default_session_size: v })}
+                suffix="câu"
+              />
+            </SettingsCard>
+          )}
 
-          {/* 🔊 Âm thanh */}
-          <SettingsCard title="Âm thanh" icon={<Volume2 size={16} style={{ color: 'var(--v-teal)' }} />}>
-            <Toggle
-              label="Tự đọc khi xem đáp án"
-              hint="Khi xem đáp án, Bún tự đọc từ đó cho bạn nghe"
-              checked={settings.autoplay_audio}
-              onChange={(v) => save({ autoplay_audio: v })}
-              disabled={saving}
-            />
-            <SliderWithIcon
-              icon={<Repeat size={14} />}
-              label="Số lần đọc lại từ"
-              hint="Khi xem đáp án flashcard, Bún đọc từ lặp lại bấy nhiêu lần"
-              value={settings.reveal_read_count}
-              min={M6_SETTINGS.reveal_read_count.min}
-              max={M6_SETTINGS.reveal_read_count.max}
-              step={M6_SETTINGS.reveal_read_count.step}
-              onCommit={(v) => save({ reveal_read_count: v })}
-              suffix="lần"
-              disabled={!settings.autoplay_audio}
-            />
-            <SliderWithIcon
-              icon={<Timer size={14} />}
-              label="Khoảng nghỉ giữa các lần đọc"
-              hint="Nghỉ bao lâu giữa hai lần đọc để bạn kịp nhẩm theo"
-              value={settings.reveal_read_gap_ms}
-              min={M6_SETTINGS.reveal_read_gap_ms.min}
-              max={M6_SETTINGS.reveal_read_gap_ms.max}
-              step={M6_SETTINGS.reveal_read_gap_ms.step}
-              onCommit={(v) => save({ reveal_read_gap_ms: v })}
-              suffix="ms"
-              disabled={!settings.autoplay_audio}
-            />
-            <TtsRateControl
-              value={settings.word_tts_rate}
-              onCommit={(v) => save({ word_tts_rate: v })}
-              label="Tốc độ đọc từ"
-              hint="Áp dụng khi Bún đọc một từ đơn (flashcard, quiz, nút loa)"
-              min={M6_SETTINGS.word_tts_rate.min}
-              max={M6_SETTINGS.word_tts_rate.max}
-              step={M6_SETTINGS.word_tts_rate.step}
-              previewText="vocabulary"
-            />
-            <VoicePickerControl
-              value={settings.voice_preference}
-              onChange={(v) => save({ voice_preference: v })}
-              disabled={saving}
-            />
-          </SettingsCard>
+          {tab === 'reading' && (
+            <SettingsCard title="Học theo bài đọc" icon={<BookOpenText size={16} style={{ color: 'var(--v-purple)' }} />}>
+              <CefrControl
+                value={settings.user_cefr_level}
+                onChange={(v) => save({ user_cefr_level: v })}
+                disabled={saving}
+              />
+              <TtsRateControl
+                value={settings.passage_tts_rate}
+                onCommit={(v) => save({ passage_tts_rate: v })}
+              />
+              <Toggle
+                label="Tải trước AI feedback"
+                hint="Khi đọc bài, Bún chuẩn bị sẵn feedback các bước sau → đỡ chờ"
+                checked={settings.passage_pre_fetch}
+                onChange={(v) => save({ passage_pre_fetch: v })}
+                disabled={saving}
+              />
+              <SliderWithIcon
+                icon={<Timer size={14} />}
+                label="Khoảng dừng giữa các cụm"
+                hint="Nghỉ giữa các thought-group khi luyện đọc theo cụm"
+                value={settings.chunk_pause_ms}
+                min={M6_SETTINGS.chunk_pause_ms.min}
+                max={M6_SETTINGS.chunk_pause_ms.max}
+                step={M6_SETTINGS.chunk_pause_ms.step}
+                onCommit={(v) => save({ chunk_pause_ms: v })}
+                suffix="ms"
+              />
+            </SettingsCard>
+          )}
 
-          {/* 🎨 Giao diện */}
-          <SettingsCard title="Giao diện" icon={<Palette size={16} style={{ color: 'var(--v-pink)' }} />}>
-            <ThemeControl
-              value={settings.theme}
-              onChange={(v) => save({ theme: v })}
-              disabled={saving}
-            />
-          </SettingsCard>
+          {tab === 'ui' && (
+            <SettingsCard title="Giao diện" icon={<Palette size={16} style={{ color: 'var(--v-pink)' }} />}>
+              <ThemeControl
+                value={settings.theme}
+                onChange={(v) => save({ theme: v })}
+                disabled={saving}
+              />
+            </SettingsCard>
+          )}
         </div>
       )}
     </div>
@@ -469,4 +547,3 @@ function applyThemeImmediately(theme: ThemeMode) {
     /* ignore */
   }
 }
-

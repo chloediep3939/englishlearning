@@ -15,7 +15,7 @@ import type {
   TestMode,
   User,
 } from './types';
-import { LISTENING_SETTINGS, M4_SETTINGS, M6_SETTINGS } from './types';
+import { LISTENING_SETTINGS, M4_SETTINGS, M6_SETTINGS, SENTENCE_STUDY_SETTINGS } from './types';
 
 const CEFR_VALUES = M4_SETTINGS.user_cefr_level.values;
 function parseCefr(raw: string | undefined): CefrLevel {
@@ -1369,6 +1369,8 @@ const SETTINGS_KEYS = [
   // Listening question mode
   'listening_enabled',
   'listening_ratio',
+  // "Học câu" sentence study
+  'sentence_read_count',
 ] as const;
 
 const THEME_VALUES: ReadonlyArray<'light' | 'dark' | 'system'> = ['light', 'dark', 'system'];
@@ -1437,6 +1439,8 @@ export const userSettingsDb = {
       // Listening question mode — on by default, 50/50 split.
       listening_enabled: (map.get('listening_enabled') ?? '1') === '1',
       listening_ratio: numOr('listening_ratio', LISTENING_SETTINGS.listening_ratio.default),
+      // "Học câu" reveal auto-read (0 = off).
+      sentence_read_count: numOr('sentence_read_count', SENTENCE_STUDY_SETTINGS.sentence_read_count.default),
     };
   },
 
@@ -1483,6 +1487,7 @@ export const userSettingsDb = {
     if (partial.default_session_size !== undefined)         upsert('default_session_size', String(partial.default_session_size));
     if (partial.listening_enabled !== undefined)            upsert('listening_enabled', partial.listening_enabled ? '1' : '0');
     if (partial.listening_ratio !== undefined)              upsert('listening_ratio', String(partial.listening_ratio));
+    if (partial.sentence_read_count !== undefined)          upsert('sentence_read_count', String(partial.sentence_read_count));
     if (stmts.length === 0) return;
     await db.batch(stmts);
   },

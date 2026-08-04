@@ -291,6 +291,8 @@ export interface FlashcardSettings {
   // ----- Listening question mode (study session) -----
   listening_enabled: boolean;         // review cards may be asked as audio→type instead of VI→EN
   listening_ratio: number;            // % of review-card prompts that are listening (LISTENING_SETTINGS range)
+  // ----- "Học câu" sentence study -----
+  sentence_read_count: number;        // reveal: how many times the example sentence auto-plays; 0 = off
 }
 
 // ===== Unified study session (/study) =====
@@ -636,6 +638,11 @@ export const M6_SETTINGS = {
 // asked as audio→type. The on/off switch is `listening_enabled` (boolean).
 export const LISTENING_SETTINGS = {
   listening_ratio: { default: 50, min: 10, max: 90, step: 10 },
+} as const;
+
+// "Học câu" sentence study — reveal auto-read repetitions (0 = off).
+export const SENTENCE_STUDY_SETTINGS = {
+  sentence_read_count: { default: 2, min: 0, max: 5, step: 1 },
 } as const;
 
 // Stats

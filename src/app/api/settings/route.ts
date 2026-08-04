@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { userSettingsDb } from '@/lib/db';
 import type { FlashcardSettings } from '@/lib/types';
-import { LISTENING_SETTINGS, M4_SETTINGS, M6_SETTINGS } from '@/lib/types';
+import { LISTENING_SETTINGS, M4_SETTINGS, M6_SETTINGS, SENTENCE_STUDY_SETTINGS } from '@/lib/types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -125,6 +125,14 @@ export async function PUT(req: Request) {
     }
     if (typeof body.listening_ratio === 'number' && body.listening_ratio >= LISTENING_SETTINGS.listening_ratio.min && body.listening_ratio <= LISTENING_SETTINGS.listening_ratio.max) {
       partial.listening_ratio = Math.floor(body.listening_ratio);
+    }
+    // ----- "Học câu" sentence study (0 = off) -----
+    if (
+      typeof body.sentence_read_count === 'number' &&
+      body.sentence_read_count >= SENTENCE_STUDY_SETTINGS.sentence_read_count.min &&
+      body.sentence_read_count <= SENTENCE_STUDY_SETTINGS.sentence_read_count.max
+    ) {
+      partial.sentence_read_count = Math.floor(body.sentence_read_count);
     }
 
     await userSettingsDb.updateFlashcardSettings(userId, partial);

@@ -11,6 +11,8 @@ interface Props {
   decks: FlashcardDeckWithCounts[];
   defaultReviewLimit: number;
   defaultNewLimit: number;
+  /** `sentence_read_count` setting — reveal auto-read repetitions, 0 = off. */
+  readCount: number;
 }
 
 type Stage = 'setup' | 'session';
@@ -21,7 +23,7 @@ type Stage = 'setup' | 'session';
  * sentences. The queue is built server-side by GET
  * /api/sentence-drill/session; this client never re-derives it.
  */
-export default function SentenceStudyClient({ decks, defaultReviewLimit, defaultNewLimit }: Props) {
+export default function SentenceStudyClient({ decks, defaultReviewLimit, defaultNewLimit, readCount }: Props) {
   const router = useRouter();
   const [stage, setStage] = useState<Stage>('setup');
   const [items, setItems] = useState<SentenceStudyItem[]>([]);
@@ -61,7 +63,13 @@ export default function SentenceStudyClient({ decks, defaultReviewLimit, default
   }, [router]);
 
   if (stage === 'session') {
-    return <SentenceStudySession items={items} onAnotherSession={handleAnotherSession} />;
+    return (
+      <SentenceStudySession
+        items={items}
+        readCount={readCount}
+        onAnotherSession={handleAnotherSession}
+      />
+    );
   }
 
   return (

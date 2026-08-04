@@ -6,12 +6,14 @@ import SentenceReveal from './SentenceReveal';
 import { sentencesMatch } from './compare';
 import SummaryScreen from '@/components/flashcard-session/SummaryScreen';
 import { RATINGS, REQUEUE_OFFSET, type Phase, type Quality } from '@/components/flashcard-session/types';
-import { speak } from '@/lib/tts';
+import { speakTimes } from '@/lib/tts';
 import type { SentenceStudyItem } from '@/lib/types';
 
 interface Props {
   /** Server-built queue from /api/sentence-drill/session. */
   items: SentenceStudyItem[];
+  /** `sentence_read_count` setting — reveal auto-read repetitions, 0 = off. */
+  readCount: number;
   /** "Học thêm phiên nữa" on the summary — parent re-mounts the setup. */
   onAnotherSession: () => void;
 }
@@ -25,7 +27,7 @@ interface Props {
  *   - keys: 1-4 rate, Enter = smart default (correct → TỐT, wrong → LẠI)
  *   - POST /api/sentence-drill/rate per rating
  */
-export default function SentenceStudySession({ items, onAnotherSession }: Props) {
+export default function SentenceStudySession({ items, readCount, onAnotherSession }: Props) {
   const [initialCount] = useState(items.length);
   const [queue, setQueue] = useState<SentenceStudyItem[]>(items);
   const [mastered, setMastered] = useState<Set<number>>(new Set());
@@ -57,20 +59,22 @@ export default function SentenceStudySession({ items, onAnotherSession }: Props)
     }
   }, [phase, current?.card_id]);
 
-  // Read the sentence aloud once on reveal (browser TTS — sentences never
-  // have stored mp3s). Cancelled when the user advances or unmounts.
+  // Read the sentence aloud `readCount` times on reveal (browser TTS —
+  // sentences never have stored mp3s). 0 = off. Cancelled when the user
+  // advances or unmounts.
   useEffect(() => {
-    if (phase !== 'REVEAL' || !current) return;
-    const t = setTimeout(() => speak(current.example.en), 250);
+    if (phase !== 'REVEAL' || !current || readCount <= 0) return;
+    let cancel: (() => void) | null = null;
+    const t = setTimeout(() => {
+      cancel = speakTimes(current.example.en, readCount);
+    }, 250);
     return () => {
       clearTimeout(t);
-      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-      }
+      cancel?.();
     };
     // card_id (primitive) instead of the item object — stable identity.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, current?.card_id]);
+  }, [phase, current?.card_id, readCount]);
 
   function handleSubmitAnswer(raw: string) {
     setSubmittedGuess(raw);

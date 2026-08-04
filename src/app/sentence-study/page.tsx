@@ -63,6 +63,7 @@ export default async function SentenceStudyPage() {
         decks={decks}
         defaultReviewLimit={settings.session_review_limit}
         defaultNewLimit={settings.session_new_limit}
+        readCount={settings.sentence_read_count}
       />
     </div>
   );
