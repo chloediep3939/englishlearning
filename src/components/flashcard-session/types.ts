@@ -42,6 +42,16 @@ export interface SessionAudioSettings {
   wordRate: number;
 }
 
+/** Listening-question settings (`listening_enabled` / `listening_ratio`),
+ *  resolved server-side from FlashcardSettings. Review cards (status !==
+ *  'new') roll `ratio`% to be asked as audio→type (ListeningStage) instead
+ *  of VI→EN typed recall. New cards and recognition decks never roll. */
+export interface SessionListeningSettings {
+  enabled: boolean;
+  /** Percent 0–100 of eligible prompts asked as listening. */
+  ratio: number;
+}
+
 /**
  * Anki-like reinsert offsets (study-unified A3). After rating with
  * `quality`, the card is popped from the front of the queue and reinserted

@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import FlashcardSession from '@/components/flashcard-session/FlashcardSession';
 import { unifiedConfig } from '@/components/flashcard-session/configs';
 import StudySetup, { type StudyStartOpts } from '@/components/study/StudySetup';
-import type { SessionAudioSettings } from '@/components/flashcard-session/types';
+import type { SessionAudioSettings, SessionListeningSettings } from '@/components/flashcard-session/types';
 import { apiJson } from '@/lib/common/api-json';
 import type { Flashcard, FlashcardDeckWithCounts, StudySessionResponse } from '@/lib/types';
 
@@ -15,6 +15,8 @@ interface Props {
   defaultNewLimit: number;
   /** Reveal-autoplay settings, resolved server-side from FlashcardSettings. */
   audio: SessionAudioSettings;
+  /** Listening-question settings, resolved server-side from FlashcardSettings. */
+  listening: SessionListeningSettings;
 }
 
 type Stage = 'setup' | 'session';
@@ -25,7 +27,7 @@ type Stage = 'setup' | 'session';
  * Anki-loop session. The queue is built server-side by
  * GET /api/study/session; this client never re-derives it.
  */
-export default function StudyClient({ decks, defaultReviewLimit, defaultNewLimit, audio }: Props) {
+export default function StudyClient({ decks, defaultReviewLimit, defaultNewLimit, audio, listening }: Props) {
   const router = useRouter();
   const [stage, setStage] = useState<Stage>('setup');
   const [sessionCards, setSessionCards] = useState<Flashcard[]>([]);
@@ -76,6 +78,7 @@ export default function StudyClient({ decks, defaultReviewLimit, defaultNewLimit
         config={unifiedConfig}
         recognition={recognition}
         audio={audio}
+        listening={listening}
         onAnotherSession={handleAnotherSession}
       />
     );

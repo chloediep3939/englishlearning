@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useLayoutEffect, useRef, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import TypingStage from './TypingStage';
+import ListeningStage from './ListeningStage';
 import FlipStage from './FlipStage';
 import RevealStage from './RevealStage';
 import SummaryScreen from './SummaryScreen';
@@ -15,6 +16,7 @@ import {
   type Quality,
   type SessionAudioSettings,
   type SessionConfig,
+  type SessionListeningSettings,
 } from './types';
 
 interface Props {
@@ -28,6 +30,8 @@ interface Props {
   recognition?: boolean;
   /** Reveal-autoplay settings (autoplay on/off, repeat count, gap, rate). */
   audio: SessionAudioSettings;
+  /** Listening-question settings (enabled + % ratio for review cards). */
+  listening: SessionListeningSettings;
   /** Fired when the user clicks "Học thêm phiên nữa" on the summary —
    *  the parent should re-fetch candidates and re-mount the setup screen. */
   onAnotherSession: () => void;
@@ -55,7 +59,7 @@ interface Props {
  *
  * Reload mid-session: state is in memory only. Acceptable v1 trade-off.
  */
-export default function FlashcardSession({ cards, config, recognition = false, audio, onAnotherSession }: Props) {
+export default function FlashcardSession({ cards, config, recognition = false, audio, listening, onAnotherSession }: Props) {
   const router = useRouter();
 
   // initialCount is captured once at mount so the progress display
@@ -76,6 +80,9 @@ export default function FlashcardSession({ cards, config, recognition = false, a
   const ratedOnceRef = useRef<Set<number>>(new Set());
 
   const [phase, setPhase] = useState<Phase>('TYPING');
+  // Prompt variant for the current card appearance: VI→EN typed recall or
+  // audio→type listening. Rolled per appearance (see the layout effect below).
+  const [promptKind, setPromptKind] = useState<'typing' | 'listening'>('typing');
   const [input, setInput] = useState('');
   const [submittedGuess, setSubmittedGuess] = useState('');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
@@ -97,6 +104,24 @@ export default function FlashcardSession({ cards, config, recognition = false, a
     ? true
     : !!current && input.trim().toLowerCase() === current.english.toLowerCase();
   const progressPct = initialCount > 0 ? (mastered.size / initialCount) * 100 : 0;
+
+  // Roll the prompt kind each time a card enters the prompt phase. Only
+  // review cards (status !== 'new') on non-recognition decks are eligible —
+  // a never-seen word can't be recognized by ear. Math.random is intentional
+  // (per-appearance roll; a LẠI/KHÓ requeue may come back as the other kind).
+  // useLayoutEffect so the swap lands before paint — a plain useEffect would
+  // flash the VI prompt for a frame and leak the hint.
+  useLayoutEffect(() => {
+    if (phase !== 'TYPING') return;
+    const eligible =
+      !recognition && listening.enabled && !!current && current.status !== 'new';
+    setPromptKind(
+      eligible && Math.random() * 100 < listening.ratio ? 'listening' : 'typing'
+    );
+    // current?.id (primitive) instead of the object — same reasoning as the
+    // autoplay effect below.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, current?.id, recognition, listening.enabled, listening.ratio]);
 
   // Autofocus on each new card's typing phase (typed variant only).
   useEffect(() => {
@@ -380,7 +405,18 @@ export default function FlashcardSession({ cards, config, recognition = false, a
         <FlipStage card={current} onReveal={() => handleSubmitAnswer('')} />
       )}
 
-      {phase === 'TYPING' && !recognition && (
+      {phase === 'TYPING' && !recognition && promptKind === 'listening' && (
+        <ListeningStage
+          card={current}
+          input={input}
+          setInput={setInput}
+          inputRef={inputRef}
+          onSubmit={handleSubmitAnswer}
+          wordRate={audio.wordRate}
+        />
+      )}
+
+      {phase === 'TYPING' && !recognition && promptKind === 'typing' && (
         <TypingStage
           card={current}
           input={input}

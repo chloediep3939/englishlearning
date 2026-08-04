@@ -5,6 +5,16 @@ export type SRSQuality = (typeof QUALITY_RATINGS)[keyof typeof QUALITY_RATINGS];
 export type ReviewQuality = SRSQuality;
 
 /**
+ * The only fields the scheduler actually reads. Structural so non-flashcard
+ * entities with the same SRS columns (e.g. sentence_drills rows for
+ * "Học câu") can be scheduled by the same algorithm.
+ */
+export type SRSCardState = Pick<
+  Flashcard,
+  'status' | 'ease_factor' | 'interval_days' | 'repetitions'
+>;
+
+/**
  * Compute the would-be next interval (in days) for each rating without
  * mutating the card. Used by the flashcard-session RevealStage to show
  * "ôn sau X" on the rating buttons so the learner sees what each choice
@@ -13,7 +23,7 @@ export type ReviewQuality = SRSQuality;
  * Quality 0 ("Lại") returns 0 — same-session re-queue, not measured in days.
  */
 export function previewIntervals(
-  card: Flashcard,
+  card: SRSCardState,
   opts: { failedThisSession?: boolean } = {},
 ): Record<SRSQuality, number> {
   return {
@@ -127,7 +137,7 @@ export function calculateFlashcardBoost(
  * (see db.ts step 2.2 + migration 0014).
  */
 export function calculateNextReview(
-  card: Flashcard,
+  card: SRSCardState,
   quality: SRSQuality,
   opts: { failedThisSession?: boolean } = {},
 ): SRSUpdate {

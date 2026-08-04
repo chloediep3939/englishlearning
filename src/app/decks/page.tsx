@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowLeft, Folder } from 'lucide-react';
+import { ArrowLeft, FileDown, Folder } from 'lucide-react';
 import DeckList from '@/components/DeckList';
 import MDecksList from '@/components/app-mobile/screens/MDecksList';
 import DeckImportButton from '@/components/DeckImportButton';
@@ -57,6 +57,30 @@ export default async function DecksPage() {
 
       <div style={{ marginBottom: 20, display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
         <DeckImportButton />
+        {/* Static sample of the import format (served from /public) — each
+            card carries 3 en+vi examples so imports feed "Học câu" too. */}
+        <a
+          href="/deck-sample.json"
+          download="deck-sample.json"
+          title="Tải file JSON mẫu đúng định dạng import (mỗi từ 3 ví dụ en+vi)"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 6,
+            padding: '8px 14px',
+            background: 'var(--v-surface)',
+            color: 'var(--v-ink-soft)',
+            border: '1px solid var(--v-border)',
+            borderRadius: 'var(--v-radius-md)',
+            boxShadow: 'var(--v-shadow-sm)',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 800,
+            fontSize: 'var(--v-text-sm)',
+            textDecoration: 'none',
+          }}
+        >
+          <FileDown size={13} /> JSON mẫu
+        </a>
       </div>
 
       <DeckList />

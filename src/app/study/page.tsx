@@ -50,7 +50,7 @@ export default async function StudyPage() {
           color: 'var(--v-ink)',
         }}
       >
-        <BookOpen size={24} style={{ color: 'var(--v-blue)' }} /> Học
+        <BookOpen size={24} style={{ color: 'var(--v-blue)' }} /> Học từ
       </h1>
       <p
         style={{
@@ -75,6 +75,10 @@ export default async function StudyPage() {
             readCount: settings.reveal_read_count,
             gapMs: settings.reveal_read_gap_ms,
             wordRate: settings.word_tts_rate,
+          }}
+          listening={{
+            enabled: settings.listening_enabled,
+            ratio: settings.listening_ratio,
           }}
         />
       )}

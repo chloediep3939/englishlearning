@@ -11,17 +11,18 @@ import type {
   FlashcardStatus,
   PracticeSentence,
   ReviewSource,
+  SentenceDrill,
   TestMode,
   User,
 } from './types';
-import { M4_SETTINGS, M6_SETTINGS } from './types';
+import { LISTENING_SETTINGS, M4_SETTINGS, M6_SETTINGS } from './types';
 
 const CEFR_VALUES = M4_SETTINGS.user_cefr_level.values;
 function parseCefr(raw: string | undefined): CefrLevel {
   if (raw && (CEFR_VALUES as readonly string[]).includes(raw)) return raw as CefrLevel;
   return M4_SETTINGS.user_cefr_level.default;
 }
-import { calculateFlashcardBoost, calculateNextReview, type SRSQuality } from './flashcards/srs';
+import { calculateFlashcardBoost, calculateNextReview, type SRSCardState, type SRSQuality } from './flashcards/srs';
 
 /**
  * Returns the D1 database binding from the Cloudflare context.
@@ -540,6 +541,27 @@ export const flashcardsDb = {
    * intentional per the study-unified spec ("Học": random sample) — the
    * queue is not meant to be reproducible.
    */
+  /**
+   * Cards in the given decks that have at least one example sentence.
+   * Coarse SQL filter (JSON column) — callers must still check the specific
+   * example index / vi presence after hydrate. Used by the "Học câu" session.
+   */
+  async getWithExamplesInDecks(userId: number, deckIds: number[], limit: number = 2000): Promise<Flashcard[]> {
+    if (deckIds.length === 0) return [];
+    const db = await getDb();
+    const placeholders = deckIds.map(() => '?').join(',');
+    const result = await db
+      .prepare(
+        `SELECT * FROM flashcards
+         WHERE user_id = ? AND deck_id IN (${placeholders})
+           AND examples IS NOT NULL AND examples != '[]' AND examples != ''
+         LIMIT ?`,
+      )
+      .bind(userId, ...deckIds, limit)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+  },
+
   async getNewRandomInDecks(userId: number, deckIds: number[], limit: number): Promise<Flashcard[]> {
     if (deckIds.length === 0) return [];
     const db = await getDb();
@@ -942,15 +964,20 @@ export const flashcardReviewsDb = {
     if (result.results.length === 0) return 0;
     const today = new Date();
     today.setHours(0, 0, 0, 0);
+    const DAY_MS = 24 * 60 * 60 * 1000;
     let streak = 0;
     let cursor = today.getTime();
-    for (const row of result.results) {
-      const date = new Date(row.d);
+    for (let i = 0; i < result.results.length; i++) {
+      const date = new Date(result.results[i].d);
       date.setHours(0, 0, 0, 0);
-      const diff = (cursor - date.getTime()) / (1000 * 60 * 60 * 24);
-      if (Math.abs(diff) < 0.1) {
+      const diff = Math.round((cursor - date.getTime()) / DAY_MS);
+      // A streak is unbroken through YESTERDAY — not reviewing yet today
+      // must not zero it out (the dashboard shows today as "pending").
+      // So the newest review day may be today (diff 0) or yesterday
+      // (diff 1, first row only); every following row must be consecutive.
+      if (diff === 0 || (i === 0 && diff === 1)) {
         streak++;
-        cursor = date.getTime() - 24 * 60 * 60 * 1000;
+        cursor = date.getTime() - DAY_MS;
       } else {
         break;
       }
@@ -1036,6 +1063,129 @@ export const flashcardReviewsDb = {
       .first<{ ok: number; total: number }>();
     if (!row || !row.total) return 0;
     return Number(row.ok) / Number(row.total);
+  },
+};
+
+// ============================================================================
+// Sentence drills ("Học câu") — per-sentence SRS
+// ============================================================================
+
+export const sentenceDrillsDb = {
+  /**
+   * Drill rows for a set of cards at one example index, keyed by
+   * flashcard_id. Cards without a row are "new" sentences.
+   */
+  async getForCards(
+    userId: number,
+    cardIds: number[],
+    exampleIndex: number,
+  ): Promise<Map<number, SentenceDrill>> {
+    if (cardIds.length === 0) return new Map();
+    const db = await getDb();
+    const placeholders = cardIds.map(() => '?').join(',');
+    const result = await db
+      .prepare(
+        `SELECT * FROM sentence_drills
+         WHERE user_id = ? AND example_index = ? AND flashcard_id IN (${placeholders})`
+      )
+      .bind(userId, exampleIndex, ...cardIds)
+      .all<Record<string, unknown>>();
+    const map = new Map<number, SentenceDrill>();
+    for (const row of result.results) {
+      map.set(Number(row.flashcard_id), row as unknown as SentenceDrill);
+    }
+    return map;
+  },
+
+  /**
+   * Apply an SM-2 rating to one sentence (card × example index). The row is
+   * created lazily on first rating (upsert). Mirrors
+   * flashcardReviewsDb.recordRating but mutates sentence_drills, NEVER the
+   * word's SRS state. Every rating also logs a flashcard_reviews row with
+   * source='sentence', srs_applied=0 — pure activity signal for
+   * streak/stats.
+   */
+  async recordRating(
+    userId: number,
+    flashcardId: number,
+    exampleIndex: number,
+    quality: SRSQuality,
+    opts: { failedThisSession?: boolean; srsUpdate?: boolean } = {},
+  ): Promise<{ prev_interval: number; new_interval: number; next_review_at: string; new_status: FlashcardStatus }> {
+    const card = await flashcardsDb.getById(userId, flashcardId);
+    if (!card) throw new CardNotFoundError();
+
+    const db = await getDb();
+    const existing = await db
+      .prepare(
+        `SELECT * FROM sentence_drills
+         WHERE user_id = ? AND flashcard_id = ? AND example_index = ?`
+      )
+      .bind(userId, flashcardId, exampleIndex)
+      .first<Record<string, unknown>>();
+
+    const state: SRSCardState = existing
+      ? {
+          status: existing.status as FlashcardStatus,
+          ease_factor: Number(existing.ease_factor),
+          interval_days: Number(existing.interval_days),
+          repetitions: Number(existing.repetitions),
+        }
+      : { status: 'new', ease_factor: 2.5, interval_days: 0, repetitions: 0 };
+
+    const update = calculateNextReview(state, quality, {
+      failedThisSession: opts.failedThisSession,
+    });
+    // Same first-rating-per-session protocol as the word session: re-ratings
+    // of the same sentence in one session are log-only.
+    const shouldUpdateSRS = opts.srsUpdate !== false;
+
+    await flashcardReviewsDb.create(userId, {
+      flashcard_id: flashcardId,
+      quality,
+      prev_interval: update.prev_interval,
+      new_interval: update.interval_days,
+      source: 'sentence',
+      srs_applied: false,
+    });
+
+    if (shouldUpdateSRS) {
+      const now = new Date().toISOString().replace('T', ' ').slice(0, 19);
+      await db
+        .prepare(
+          `INSERT INTO sentence_drills (
+             user_id, flashcard_id, example_index,
+             status, ease_factor, interval_days, repetitions,
+             next_review_at, last_reviewed_at
+           ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+           ON CONFLICT(user_id, flashcard_id, example_index) DO UPDATE SET
+             status = excluded.status,
+             ease_factor = excluded.ease_factor,
+             interval_days = excluded.interval_days,
+             repetitions = excluded.repetitions,
+             next_review_at = excluded.next_review_at,
+             last_reviewed_at = excluded.last_reviewed_at`
+        )
+        .bind(
+          userId,
+          flashcardId,
+          exampleIndex,
+          update.status,
+          update.ease_factor,
+          update.interval_days,
+          update.repetitions,
+          update.next_review_at,
+          now,
+        )
+        .run();
+    }
+
+    return {
+      prev_interval: update.prev_interval,
+      new_interval: update.interval_days,
+      next_review_at: update.next_review_at,
+      new_status: update.status,
+    };
   },
 };
 
@@ -1216,6 +1366,9 @@ const SETTINGS_KEYS = [
   'speed_read_count',
   'chunk_pause_ms',
   'default_session_size',
+  // Listening question mode
+  'listening_enabled',
+  'listening_ratio',
 ] as const;
 
 const THEME_VALUES: ReadonlyArray<'light' | 'dark' | 'system'> = ['light', 'dark', 'system'];
@@ -1281,6 +1434,9 @@ export const userSettingsDb = {
       speed_read_count: numOr('speed_read_count', M6_SETTINGS.speed_read_count.default),
       chunk_pause_ms: numOr('chunk_pause_ms', M6_SETTINGS.chunk_pause_ms.default),
       default_session_size: numOr('default_session_size', M6_SETTINGS.default_session_size.default),
+      // Listening question mode — on by default, 50/50 split.
+      listening_enabled: (map.get('listening_enabled') ?? '1') === '1',
+      listening_ratio: numOr('listening_ratio', LISTENING_SETTINGS.listening_ratio.default),
     };
   },
 
@@ -1325,6 +1481,8 @@ export const userSettingsDb = {
     if (partial.speed_read_count !== undefined)             upsert('speed_read_count', String(partial.speed_read_count));
     if (partial.chunk_pause_ms !== undefined)               upsert('chunk_pause_ms', String(partial.chunk_pause_ms));
     if (partial.default_session_size !== undefined)         upsert('default_session_size', String(partial.default_session_size));
+    if (partial.listening_enabled !== undefined)            upsert('listening_enabled', partial.listening_enabled ? '1' : '0');
+    if (partial.listening_ratio !== undefined)              upsert('listening_ratio', String(partial.listening_ratio));
     if (stmts.length === 0) return;
     await db.batch(stmts);
   },

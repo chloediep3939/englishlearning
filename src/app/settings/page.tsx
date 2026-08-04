@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   ArrowLeft, Settings as SettingsIcon, Check, Target, Mic, Timer,
-  BookOpenText, Volume2, Palette, Repeat, ListChecks,
+  BookOpenText, Volume2, Palette, Repeat, ListChecks, Headphones,
 } from 'lucide-react';
 import LoadingState from '@/components/common/LoadingState';
 import SettingsCard from '@/components/SettingsCard';
@@ -19,7 +19,7 @@ import VoicePickerControl from '@/components/settings-controls/VoicePickerContro
 import ThemeControl from '@/components/settings-controls/ThemeControl';
 import MSettings from '@/components/app-mobile/screens/MSettings';
 import type { FlashcardSettings, ThemeMode } from '@/lib/types';
-import { M3_SETTINGS, M6_SETTINGS } from '@/lib/types';
+import { LISTENING_SETTINGS, M3_SETTINGS, M6_SETTINGS } from '@/lib/types';
 import { setStoredVoicePreference, setStoredWordTtsRate } from '@/lib/tts';
 import { apiJson } from '@/lib/common/api-json';
 
@@ -248,6 +248,25 @@ export default function SettingsPage() {
               step={M6_SETTINGS.default_session_size.step}
               onCommit={(v) => save({ default_session_size: v })}
               suffix="câu"
+            />
+            <Toggle
+              label="Câu hỏi dạng nghe (phiên Học)"
+              hint="Thẻ ôn tập có thể được hỏi bằng loa — nghe rồi gõ lại từ. Thẻ mới luôn hỏi bằng hình + nghĩa Việt"
+              checked={settings.listening_enabled}
+              onChange={(v) => save({ listening_enabled: v })}
+              disabled={saving}
+            />
+            <SliderWithIcon
+              icon={<Headphones size={14} />}
+              label="Tỉ lệ câu nghe"
+              hint="Bao nhiêu % thẻ ôn tập được hỏi dạng nghe, phần còn lại hỏi dạng dịch"
+              value={settings.listening_ratio}
+              min={LISTENING_SETTINGS.listening_ratio.min}
+              max={LISTENING_SETTINGS.listening_ratio.max}
+              step={LISTENING_SETTINGS.listening_ratio.step}
+              onCommit={(v) => save({ listening_ratio: v })}
+              suffix="%"
+              disabled={!settings.listening_enabled}
             />
           </SettingsCard>
 

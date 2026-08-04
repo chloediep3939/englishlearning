@@ -82,6 +82,9 @@ export interface FlashcardDeckWithCounts extends FlashcardDeck {
 export interface FlashcardExample {
   en: string;
   vi?: string;
+  // Per-sentence Pexels illustration for the "Học câu" drill — filled lazily
+  // in the background when a sentence-study session touches this example.
+  image_url?: string;
 }
 
 export interface FlashcardImageAttribution {
@@ -136,11 +139,12 @@ export interface Flashcard {
   source_context: string | null;
 }
 
-// Where a review row came from: unified study session vs timed Flashcard
-// nhanh play. `srs_applied` marks whether the row mutated SRS state (1) or
-// was log-only activity (0). Both values count as "review activity" for
-// stats/streak purposes.
-export type ReviewSource = 'study' | 'flashcard';
+// Where a review row came from: unified study session, timed Flashcard
+// nhanh play, or the "Học câu" sentence drill. `srs_applied` marks whether
+// the row mutated the WORD's SRS state (1) or was log-only activity (0) —
+// 'sentence' rows are always 0 (sentence SRS lives in sentence_drills).
+// All values count as "review activity" for stats/streak purposes.
+export type ReviewSource = 'study' | 'flashcard' | 'sentence';
 
 export interface FlashcardReview {
   id: number;
@@ -152,6 +156,22 @@ export interface FlashcardReview {
   reviewed_at: string;
   source: ReviewSource;
   srs_applied: 0 | 1;
+}
+
+// "Học câu": per-sentence SRS row — one per (user, card, example index).
+// Mirrors the flashcard SRS columns so calculateNextReview works unchanged.
+export interface SentenceDrill {
+  id: number;
+  user_id: number;
+  flashcard_id: number;
+  example_index: number; // 0-based; UI shows "Câu 1/2/3"
+  status: FlashcardStatus;
+  ease_factor: number;
+  interval_days: number;
+  repetitions: number;
+  next_review_at: string | null;
+  last_reviewed_at: string | null;
+  created_at: string;
 }
 
 export type TestMode = 'speed' | 'cloze' | 'pronunciation' | 'sentence';
@@ -268,6 +288,9 @@ export interface FlashcardSettings {
   speed_read_count: number;           // Flashcard nhanh: prompt auto-reads; 0 = off
   chunk_pause_ms: number;             // chunk practice: pause between thought-groups
   default_session_size: number;       // pre-selected question count in practice pickers (snapped to each picker's chips)
+  // ----- Listening question mode (study session) -----
+  listening_enabled: boolean;         // review cards may be asked as audio→type instead of VI→EN
+  listening_ratio: number;            // % of review-card prompts that are listening (LISTENING_SETTINGS range)
 }
 
 // ===== Unified study session (/study) =====
@@ -282,6 +305,24 @@ export interface StudySessionResponse {
   new_count: number;
   /** Server-built queue. Absent when countsOnly=1. */
   cards?: Flashcard[];
+}
+
+// ===== "Học câu" sentence-study session (/sentence-study) =====
+
+/** One queue entry: a card's example sentence + its per-sentence SRS state. */
+export interface SentenceStudyItem {
+  card_id: number;
+  english: string;
+  example_index: number; // 0-based
+  example: FlashcardExample;
+  drill: Pick<SentenceDrill, 'status' | 'ease_factor' | 'interval_days' | 'repetitions'>;
+}
+
+export interface SentenceStudyResponse {
+  due_count: number;
+  new_count: number;
+  /** Server-built queue. Absent when countsOnly=1. */
+  items?: SentenceStudyItem[];
 }
 
 export type ThemeMode = 'light' | 'dark' | 'system';
@@ -589,6 +630,12 @@ export const M6_SETTINGS = {
   speed_read_count: { default: 3, min: 1, max: 6, step: 1 }, // 0 = off (handled separately)
   chunk_pause_ms: { default: 550, min: 200, max: 2000, step: 50 },
   default_session_size: { default: 10, min: 5, max: 30, step: 5 },
+} as const;
+
+// Listening question mode — slider range for the % of review-card prompts
+// asked as audio→type. The on/off switch is `listening_enabled` (boolean).
+export const LISTENING_SETTINGS = {
+  listening_ratio: { default: 50, min: 10, max: 90, step: 10 },
 } as const;
 
 // Stats

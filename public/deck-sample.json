@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Bộ mẫu — đổi tên tuỳ ý",
+    "description": "File mẫu cho nút Import bộ từ. Mỗi thẻ nên có 3 ví dụ en+vi để dùng được tính năng Học câu.",
+    "color": "#7ac143",
+    "icon": "BookOpen",
+    "subtitle": "sample"
+  },
+  "cards": [
+    {
+      "english": "sustainable",
+      "vietnamese": "bền vững",
+      "ipa": "/səˈsteɪnəbl/",
+      "part_of_speech": "adj",
+      "examples": [
+        { "en": "We need a sustainable solution to the energy crisis.", "vi": "Chúng ta cần một giải pháp bền vững cho khủng hoảng năng lượng." },
+        { "en": "The company promotes sustainable farming practices.", "vi": "Công ty thúc đẩy các phương pháp canh tác bền vững." },
+        { "en": "Sustainable development balances growth and the environment.", "vi": "Phát triển bền vững cân bằng giữa tăng trưởng và môi trường." }
+      ],
+      "collocations": ["sustainable development", "sustainable energy"],
+      "notes": null
+    },
+    {
+      "english": "collaborate",
+      "vietnamese": "hợp tác, cộng tác",
+      "ipa": "/kəˈlæbəreɪt/",
+      "part_of_speech": "verb",
+      "examples": [
+        { "en": "The two teams collaborate on the research project.", "vi": "Hai nhóm hợp tác trong dự án nghiên cứu." },
+        { "en": "Students collaborate to solve complex problems.", "vi": "Sinh viên cộng tác để giải các bài toán phức tạp." },
+        { "en": "We collaborate closely with international partners.", "vi": "Chúng tôi hợp tác chặt chẽ với các đối tác quốc tế." }
+      ],
+      "collocations": ["collaborate closely", "collaborate on a project"],
+      "notes": "Ghi chú cá nhân (tuỳ chọn)."
+    }
+  ]
+}

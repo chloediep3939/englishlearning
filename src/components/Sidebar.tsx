@@ -5,9 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import {
-  LayoutGrid, Plus, BookOpen, Zap, FileText,
+  LayoutGrid, BookOpen, Zap, FileText,
   Library, Folder, BarChart3, Settings, Mic, PenLine, BookOpenText, Newspaper,
-  ScrollText, PanelLeftClose, PanelLeftOpen,
+  ScrollText, NotebookPen, PanelLeftClose, PanelLeftOpen,
 } from 'lucide-react';
 import LogoutButton from './LogoutButton';
 import FeedbackWidget from './feedback/feedback-widget';
@@ -22,9 +22,11 @@ interface NavItem {
 const NAV: NavItem[] = [
   { href: '/dashboard',  label: 'Tổng quan',       icon: LayoutGrid, color: 'var(--v-primary)' },
   { href: '/decks',      label: 'Bộ từ',           icon: Folder,     color: 'var(--v-pink)' },
-  { href: '/add',        label: 'Thêm từ',         icon: Plus,       color: 'var(--v-accent)' },
+  // "Thêm từ" (/add) removed from the nav per user request — the route stays
+  // reachable from deck detail's "+ Thêm từ" button.
   // study-unified: Học + Ôn tập merged into the single /study flow.
-  { href: '/study',      label: 'Học',             icon: BookOpen,   color: 'var(--v-orange)' },
+  { href: '/study',      label: 'Học từ',          icon: BookOpen,   color: 'var(--v-orange)' },
+  { href: '/sentence-study', label: 'Học câu',     icon: NotebookPen, color: 'var(--v-teal)' },
   // Speed tile uses yellow-deep so the white icon stays readable on the pastel
   // yellow used elsewhere; --v-yellow itself is reserved for speed surfaces.
   { href: '/speed',      label: 'Flashcard nhanh', icon: Zap,        color: 'var(--v-yellow-deep)' },
@@ -146,9 +148,11 @@ export default function Sidebar({ userEmail, userName, userPicture, isDemo = fal
       <nav style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
         {NAV.map((item) => {
           const Icon = item.icon;
+          // Segment-boundary prefix match ("/sentence" must NOT light up on
+          // "/sentence-study" — only on "/sentence" and "/sentence/...").
           const active =
             pathname === item.href ||
-            (item.href !== '/' && pathname.startsWith(item.href));
+            (item.href !== '/' && pathname.startsWith(item.href + '/'));
           return (
             <Link
               key={item.href}

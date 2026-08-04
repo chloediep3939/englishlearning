@@ -166,7 +166,7 @@ export default function RevealStage({
             </div>
           </div>
 
-          {card.examples[0] && (
+          {card.examples.length > 0 && (
             <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
               <div style={{ width: 5, alignSelf: 'stretch', background: 'var(--v-blue)', borderRadius: 3, flexShrink: 0 }} />
               <div>
@@ -182,31 +182,35 @@ export default function RevealStage({
                 >
                   Ví dụ
                 </div>
-                <p
-                  style={{
-                    fontFamily: 'var(--v-font-head)',
-                    fontSize: 16,
-                    fontWeight: 800,
-                    color: 'var(--v-ink)',
-                    margin: '4px 0 4px',
-                    lineHeight: 1.35,
-                  }}
-                  dangerouslySetInnerHTML={{ __html: highlightTarget(card.examples[0].en, card.english) }}
-                />
-                {card.examples[0].vi && (
-                  <p
-                    style={{
-                      fontFamily: 'var(--v-font-body)',
-                      fontSize: 12,
-                      fontWeight: 600,
-                      color: 'var(--v-ink-soft)',
-                      margin: 0,
-                      lineHeight: 1.5,
-                    }}
-                  >
-                    {card.examples[0].vi}
-                  </p>
-                )}
+                {card.examples.map((ex, i) => (
+                  <div key={i} style={{ marginBottom: i === card.examples.length - 1 ? 0 : 8 }}>
+                    <p
+                      style={{
+                        fontFamily: 'var(--v-font-head)',
+                        fontSize: 16,
+                        fontWeight: 800,
+                        color: 'var(--v-ink)',
+                        margin: '4px 0 4px',
+                        lineHeight: 1.35,
+                      }}
+                      dangerouslySetInnerHTML={{ __html: highlightTarget(ex.en, card.english) }}
+                    />
+                    {ex.vi && (
+                      <p
+                        style={{
+                          fontFamily: 'var(--v-font-body)',
+                          fontSize: 12,
+                          fontWeight: 600,
+                          color: 'var(--v-ink-soft)',
+                          margin: 0,
+                          lineHeight: 1.5,
+                        }}
+                      >
+                        {ex.vi}
+                      </p>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
           )}

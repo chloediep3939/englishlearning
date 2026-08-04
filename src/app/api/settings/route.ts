@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { userSettingsDb } from '@/lib/db';
 import type { FlashcardSettings } from '@/lib/types';
-import { M4_SETTINGS, M6_SETTINGS } from '@/lib/types';
+import { LISTENING_SETTINGS, M4_SETTINGS, M6_SETTINGS } from '@/lib/types';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -118,6 +118,13 @@ export async function PUT(req: Request) {
     }
     if (typeof body.default_session_size === 'number' && body.default_session_size >= M6_SETTINGS.default_session_size.min && body.default_session_size <= M6_SETTINGS.default_session_size.max) {
       partial.default_session_size = Math.floor(body.default_session_size);
+    }
+    // ----- Listening question mode -----
+    if (typeof body.listening_enabled === 'boolean') {
+      partial.listening_enabled = body.listening_enabled;
+    }
+    if (typeof body.listening_ratio === 'number' && body.listening_ratio >= LISTENING_SETTINGS.listening_ratio.min && body.listening_ratio <= LISTENING_SETTINGS.listening_ratio.max) {
+      partial.listening_ratio = Math.floor(body.listening_ratio);
     }
 
     await userSettingsDb.updateFlashcardSettings(userId, partial);

@@ -90,9 +90,14 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
           const needsPron = isPhrase
             ? !card.ipa
             : !card.ipa || card.audio_us_status !== 'ok';
-          return { card, contentMissing, needsPron };
+          // Example sentences without a per-sentence illustration ("Học câu"
+          // images) — filled by /api/cards/[id]/example-images.
+          const needsExampleImages = card.examples.some(
+            (ex) => ex.en.trim().length > 0 && !ex.image_url,
+          );
+          return { card, contentMissing, needsPron, needsExampleImages };
         })
-        .filter((t) => t.contentMissing.length > 0 || t.needsPron),
+        .filter((t) => t.contentMissing.length > 0 || t.needsPron || t.needsExampleImages),
     [cards],
   );
 
@@ -180,10 +185,11 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
   }
 
   /**
-   * "Sửa từ thiếu info" sweep: walks every fixable card in two steps —
+   * "Sửa từ thiếu info" sweep: walks every fixable card in three steps —
    * content (image / meaning) via /api/cards/[id]/regenerate, then
-   * pronunciation (IPA + Oxford mp3) via /api/cards/[id]/refresh-audio,
-   * the same function the "Cập nhật phát âm" button uses. Worker-pool
+   * pronunciation (IPA + Oxford mp3) via /api/cards/[id]/refresh-audio
+   * (the same function the "Cập nhật phát âm" button uses), then example
+   * illustrations via /api/cards/[id]/example-images. Worker-pool
    * concurrency 3 — high enough to feel snappy, low enough to stay polite
    * with Pexels/dictionary/Oxford upstreams. Per-card failures are logged
    * but never abort the whole sweep.
@@ -200,7 +206,7 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
     async function worker() {
       while (cursor < targets.length) {
         const idx = cursor++;
-        const { card, contentMissing, needsPron } = targets[idx];
+        const { card, contentMissing, needsPron, needsExampleImages } = targets[idx];
         let okAny = false;
 
         if (contentMissing.length > 0) {
@@ -231,6 +237,23 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
             if (data.ok) okAny = true;
           } catch (err) {
             console.error('[bulk regen audio] error:', err);
+          }
+        }
+
+        if (needsExampleImages) {
+          try {
+            const data = await apiJson<{
+              ok: boolean;
+              filled: number;
+              card: Flashcard | null;
+            }>(`/api/cards/${card.id}/example-images`, { method: 'POST' });
+            if (data.card) {
+              const updated = data.card;
+              setCards((prev) => prev.map((c) => (c.id === updated.id ? updated : c)));
+            }
+            if (data.ok) okAny = true;
+          } catch (err) {
+            console.error('[bulk regen example images] error:', err);
           }
         }
 
@@ -349,7 +372,7 @@ export default function DeckDetailClient({ deck, cards: initialCards }: Props) {
               type="button"
               onClick={handleBulkRegen}
               disabled={bulkProgress !== null || fixTargets.length === 0}
-              title="Quét cả bộ, tự bổ sung hình / nghĩa / IPA / phát âm còn thiếu"
+              title="Quét cả bộ, tự bổ sung hình / nghĩa / IPA / phát âm / ảnh ví dụ còn thiếu"
               style={{
                 ...smallBtnStyle(),
                 color: 'var(--v-orange)',
