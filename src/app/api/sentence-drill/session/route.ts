@@ -74,9 +74,11 @@ export async function GET(req: Request) {
 
     // Deck scope — same ownership rule as /api/study/session: intersect the
     // requested ids with the user's own decks; absent param = all decks.
+    // Recognition-only ("Chỉ hiểu nghĩa") decks are always excluded — the
+    // sentence drill runs on full-study decks only.
     const allDecks = await flashcardDecksDb.getAll(userId);
     const deckIdsRaw = url.searchParams.get('deckIds');
-    let scopedIds = allDecks.map((d) => d.id);
+    let scopedIds = allDecks.filter((d) => !d.recognition_only).map((d) => d.id);
     if (deckIdsRaw !== null) {
       const requested = new Set(
         deckIdsRaw

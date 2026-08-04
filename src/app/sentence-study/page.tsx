@@ -14,7 +14,12 @@ import { flashcardDecksDb, userSettingsDb } from '@/lib/db';
 export default async function SentenceStudyPage() {
   const userId = await requireUserId();
   const settings = await userSettingsDb.getFlashcardSettings(userId);
-  const decks = await flashcardDecksDb.getAllWithCounts(userId);
+  // "Học câu" drills full-study decks only — "Chỉ hiểu nghĩa" (recognition)
+  // decks are reference material and stay out of the picker. The session
+  // route enforces the same scope server-side.
+  const decks = (await flashcardDecksDb.getAllWithCounts(userId)).filter(
+    (d) => !d.recognition_only,
+  );
 
   return (
     <div>
