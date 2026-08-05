@@ -32,6 +32,7 @@ export default function StudyClient({ decks, defaultReviewLimit, defaultNewLimit
   const [stage, setStage] = useState<Stage>('setup');
   const [sessionCards, setSessionCards] = useState<Flashcard[]>([]);
   const [recognition, setRecognition] = useState(false);
+  const [durationMin, setDurationMin] = useState<number | null>(null);
   const [starting, setStarting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -54,6 +55,7 @@ export default function StudyClient({ decks, defaultReviewLimit, defaultNewLimit
       }
       setSessionCards(cards);
       setRecognition(opts.group === 'recognition');
+      setDurationMin(opts.durationMin);
       setStage('session');
     } catch {
       setError('Không tải được phiên học — thử lại nha.');
@@ -79,6 +81,7 @@ export default function StudyClient({ decks, defaultReviewLimit, defaultNewLimit
         recognition={recognition}
         audio={audio}
         listening={listening}
+        durationMin={durationMin}
         onAnotherSession={handleAnotherSession}
       />
     );

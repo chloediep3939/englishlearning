@@ -7,6 +7,7 @@ import ListeningStage from './ListeningStage';
 import FlipStage from './FlipStage';
 import RevealStage from './RevealStage';
 import SummaryScreen from './SummaryScreen';
+import { TimerChip, TimeUpOverlay, useSessionTimer } from '@/components/common/SessionTimer';
 import type { Flashcard } from '@/lib/types';
 import { speak, getStoredVoicePreference } from '@/lib/tts';
 import {
@@ -32,6 +33,8 @@ interface Props {
   audio: SessionAudioSettings;
   /** Listening-question settings (enabled + % ratio for review cards). */
   listening: SessionListeningSettings;
+  /** Time-boxed session length in minutes (25/45); null = count-based. */
+  durationMin?: number | null;
   /** Fired when the user clicks "Học thêm phiên nữa" on the summary —
    *  the parent should re-fetch candidates and re-mount the setup screen. */
   onAnotherSession: () => void;
@@ -59,7 +62,7 @@ interface Props {
  *
  * Reload mid-session: state is in memory only. Acceptable v1 trade-off.
  */
-export default function FlashcardSession({ cards, config, recognition = false, audio, listening, onAnotherSession }: Props) {
+export default function FlashcardSession({ cards, config, recognition = false, audio, listening, durationMin = null, onAnotherSession }: Props) {
   const router = useRouter();
 
   // initialCount is captured once at mount so the progress display
@@ -96,8 +99,13 @@ export default function FlashcardSession({ cards, config, recognition = false, a
   // re-queues the card before the user ever sees the reveal panel.
   const revealEnteredAt = useRef<number>(0);
 
+  // Time-boxed mode: countdown + "hết giờ" gate. Stopping ends the session
+  // early (summary shows progress so far); continuing loops the duration.
+  const timer = useSessionTimer(durationMin);
+  const [timeStopped, setTimeStopped] = useState(false);
+
   const current = queue[0];
-  const done = queue.length === 0;
+  const done = queue.length === 0 || timeStopped;
   // Recognition flip has no guess — treat as "correct" so the Enter default
   // on reveal is TỐT (self-grade flow), matching the flip-and-self-grade UX.
   const isCorrect = recognition
@@ -314,7 +322,9 @@ export default function FlashcardSession({ cards, config, recognition = false, a
   // input, so Enter-to-reveal is handled here instead.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (done) return;
+      // Suspended while the time-up overlay is open so Enter can't rate a
+      // card behind the dialog.
+      if (done || (timer.enabled && timer.expired)) return;
       if (e.key === 'Escape') {
         if (window.confirm('Thoát luôn?')) router.push('/dashboard');
         return;
@@ -337,7 +347,7 @@ export default function FlashcardSession({ cards, config, recognition = false, a
     }
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [phase, done, handleRate, handleSubmitAnswer, router, isCorrect, recognition]);
+  }, [phase, done, handleRate, handleSubmitAnswer, router, isCorrect, recognition, timer.enabled, timer.expired]);
 
   if (done) {
     return (
@@ -370,6 +380,7 @@ export default function FlashcardSession({ cards, config, recognition = false, a
           {mastered.size} / {initialCount} từ thuộc
         </span>
         <span style={{ flex: 1 }} />
+        {timer.enabled && <TimerChip secondsLeft={timer.secondsLeft} />}
         <span
           style={{
             fontFamily: 'var(--v-font-body)',
@@ -457,6 +468,14 @@ export default function FlashcardSession({ cards, config, recognition = false, a
         >
           {errorMsg}
         </div>
+      )}
+
+      {timer.enabled && timer.expired && durationMin != null && (
+        <TimeUpOverlay
+          durationMin={durationMin}
+          onContinue={timer.restart}
+          onStop={() => setTimeStopped(true)}
+        />
       )}
     </div>
   );

@@ -27,6 +27,7 @@ export default function SentenceStudyClient({ decks, defaultReviewLimit, default
   const router = useRouter();
   const [stage, setStage] = useState<Stage>('setup');
   const [items, setItems] = useState<SentenceStudyItem[]>([]);
+  const [durationMin, setDurationMin] = useState<number | null>(null);
   const [starting, setStarting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -48,6 +49,7 @@ export default function SentenceStudyClient({ decks, defaultReviewLimit, default
         return;
       }
       setItems(queue);
+      setDurationMin(opts.durationMin);
       setStage('session');
     } catch {
       setError('Không tải được phiên học — thử lại nha.');
@@ -67,6 +69,7 @@ export default function SentenceStudyClient({ decks, defaultReviewLimit, default
       <SentenceStudySession
         items={items}
         readCount={readCount}
+        durationMin={durationMin}
         onAnotherSession={handleAnotherSession}
       />
     );

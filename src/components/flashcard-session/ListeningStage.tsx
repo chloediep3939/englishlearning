@@ -148,6 +148,7 @@ export default function ListeningStage({
       <div style={{ width: '100%', maxWidth: 560, zIndex: 1 }}>
         <input
           ref={inputRef}
+          autoFocus
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}

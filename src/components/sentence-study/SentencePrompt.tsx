@@ -117,6 +117,7 @@ export default function SentencePrompt({ item, input, setInput, inputRef, onSubm
       >
         <input
           ref={inputRef}
+          autoFocus
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}

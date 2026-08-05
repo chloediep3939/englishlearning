@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ChevronDown, Play, RotateCcw, Sparkles } from 'lucide-react';
+import { AlarmClock, ChevronDown, Infinity as InfinityIcon, Play, RotateCcw, Sparkles } from 'lucide-react';
 import { apiJson } from '@/lib/common/api-json';
 import type {
   FlashcardDeckWithCounts,
@@ -17,6 +17,8 @@ export interface SentenceStartOpts {
   deckIds: number[] | null;
   reviewLimit: number;
   newLimit: number;
+  /** Time-boxed session length in minutes (25/45); null = count-based. */
+  durationMin: number | null;
 }
 
 interface Props {
@@ -51,6 +53,8 @@ export default function SentenceStudySetup({
   const [mode, setMode] = useState<StudySessionMode>('mix');
   const [reviewLimitRaw, setReviewLimitRaw] = useState(String(defaultReviewLimit));
   const [newLimitRaw, setNewLimitRaw] = useState(String(defaultNewLimit));
+  // null = học theo số câu (như cũ); 25/45 = học theo thời gian.
+  const [durationMin, setDurationMin] = useState<number | null>(null);
   // null = all decks.
   const [pickedDeckIds, setPickedDeckIds] = useState<Set<number> | null>(null);
   const [deckMenuOpen, setDeckMenuOpen] = useState(false);
@@ -353,6 +357,58 @@ export default function SentenceStudySetup({
         )}
       </div>
 
+      {/* Time-boxed mode — hết giờ thì hỏi học tiếp (loop lại) hay ngưng */}
+      <Label>Thời gian phiên</Label>
+      <div
+        style={{
+          display: 'inline-flex',
+          gap: 4,
+          padding: 4,
+          background: 'var(--v-panel)',
+          border: '1px solid var(--v-border)',
+          borderRadius: 999,
+          marginBottom: 18,
+        }}
+      >
+        {(
+          [
+            { value: null, label: 'Tự do', icon: <InfinityIcon size={14} strokeWidth={2.4} /> },
+            { value: 25, label: '25 phút', icon: <AlarmClock size={14} strokeWidth={2.4} /> },
+            { value: 45, label: '45 phút', icon: <AlarmClock size={14} strokeWidth={2.4} /> },
+          ] as const
+        ).map((opt) => {
+          const active = durationMin === opt.value;
+          return (
+            <button
+              key={opt.label}
+              type="button"
+              role="tab"
+              aria-selected={active}
+              onClick={() => setDurationMin(opt.value)}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 6,
+                padding: '8px 16px',
+                background: active ? 'var(--v-primary-soft)' : 'transparent',
+                color: active ? 'var(--v-primary)' : 'var(--v-ink-soft)',
+                border: 'none',
+                borderRadius: 999,
+                fontFamily: 'var(--v-font-head)',
+                fontWeight: 900,
+                fontSize: 12,
+                letterSpacing: '0.04em',
+                cursor: 'pointer',
+                transition: 'background 150ms var(--v-ease), color 150ms var(--v-ease)',
+              }}
+            >
+              {opt.icon}
+              {opt.label}
+            </button>
+          );
+        })}
+      </div>
+
       <button
         type="button"
         disabled={!canStart}
@@ -363,6 +419,7 @@ export default function SentenceStudySetup({
             deckIds: selectedIds.length === decks.length ? null : selectedIds,
             reviewLimit,
             newLimit,
+            durationMin,
           })
         }
         style={{

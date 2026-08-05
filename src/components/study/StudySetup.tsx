@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ChevronDown, Eye, GraduationCap, Play, RotateCcw, Sparkles } from 'lucide-react';
+import { AlarmClock, ChevronDown, Eye, GraduationCap, Infinity as InfinityIcon, Play, RotateCcw, Sparkles } from 'lucide-react';
 import { apiJson } from '@/lib/common/api-json';
 import type {
   FlashcardDeckWithCounts,
@@ -17,6 +17,8 @@ export interface StudyStartOpts {
   deckIds: number[] | null;
   reviewLimit: number;
   newLimit: number;
+  /** Time-boxed session length in minutes (25/45); null = count-based. */
+  durationMin: number | null;
 }
 
 interface Props {
@@ -53,6 +55,8 @@ export default function StudySetup({
   const [mode, setMode] = useState<StudySessionMode>('mix');
   const [reviewLimitRaw, setReviewLimitRaw] = useState(String(defaultReviewLimit));
   const [newLimitRaw, setNewLimitRaw] = useState(String(defaultNewLimit));
+  // null = học theo số thẻ (như cũ); 25/45 = học theo thời gian.
+  const [durationMin, setDurationMin] = useState<number | null>(null);
   // null = all decks in the active group.
   const [pickedDeckIds, setPickedDeckIds] = useState<Set<number> | null>(null);
   const [deckMenuOpen, setDeckMenuOpen] = useState(false);
@@ -352,6 +356,39 @@ export default function StudySetup({
         )}
       </div>
 
+      {/* Time-boxed mode — hết giờ thì hỏi học tiếp (loop lại) hay ngưng */}
+      <Label>Thời gian phiên</Label>
+      <div
+        style={{
+          display: 'inline-flex',
+          gap: 4,
+          padding: 4,
+          background: 'var(--v-panel)',
+          border: '1px solid var(--v-border)',
+          borderRadius: 999,
+          marginBottom: 18,
+        }}
+      >
+        <SegmentButton
+          active={durationMin === null}
+          onClick={() => setDurationMin(null)}
+          icon={<InfinityIcon size={14} strokeWidth={2.4} />}
+          label="Tự do"
+        />
+        <SegmentButton
+          active={durationMin === 25}
+          onClick={() => setDurationMin(25)}
+          icon={<AlarmClock size={14} strokeWidth={2.4} />}
+          label="25 phút"
+        />
+        <SegmentButton
+          active={durationMin === 45}
+          onClick={() => setDurationMin(45)}
+          icon={<AlarmClock size={14} strokeWidth={2.4} />}
+          label="45 phút"
+        />
+      </div>
+
       <button
         type="button"
         disabled={!canStart}
@@ -362,6 +399,7 @@ export default function StudySetup({
             deckIds: selectedIds.length === groupDecks.length ? null : selectedIds,
             reviewLimit,
             newLimit,
+            durationMin,
           })
         }
         style={{

@@ -6,6 +6,7 @@ import SentenceReveal from './SentenceReveal';
 import { sentencesMatch } from './compare';
 import SummaryScreen from '@/components/flashcard-session/SummaryScreen';
 import { RATINGS, REQUEUE_OFFSET, type Phase, type Quality } from '@/components/flashcard-session/types';
+import { TimerChip, TimeUpOverlay, useSessionTimer } from '@/components/common/SessionTimer';
 import { speakTimes } from '@/lib/tts';
 import type { SentenceStudyItem } from '@/lib/types';
 
@@ -14,6 +15,8 @@ interface Props {
   items: SentenceStudyItem[];
   /** `sentence_read_count` setting — reveal auto-read repetitions, 0 = off. */
   readCount: number;
+  /** Time-boxed session length in minutes (25/45); null = count-based. */
+  durationMin: number | null;
   /** "Học thêm phiên nữa" on the summary — parent re-mounts the setup. */
   onAnotherSession: () => void;
 }
@@ -27,7 +30,7 @@ interface Props {
  *   - keys: 1-4 rate, Enter = smart default (correct → TỐT, wrong → LẠI)
  *   - POST /api/sentence-drill/rate per rating
  */
-export default function SentenceStudySession({ items, readCount, onAnotherSession }: Props) {
+export default function SentenceStudySession({ items, readCount, durationMin, onAnotherSession }: Props) {
   const [initialCount] = useState(items.length);
   const [queue, setQueue] = useState<SentenceStudyItem[]>(items);
   const [mastered, setMastered] = useState<Set<number>>(new Set());
@@ -47,8 +50,13 @@ export default function SentenceStudySession({ items, readCount, onAnotherSessio
   // guard the second keydown rates LẠI before the reveal is even visible.
   const revealEnteredAt = useRef<number>(0);
 
+  // Time-boxed mode: countdown + "hết giờ" gate. Stopping ends the session
+  // early (summary shows progress so far); continuing loops the duration.
+  const timer = useSessionTimer(durationMin);
+  const [timeStopped, setTimeStopped] = useState(false);
+
   const current = queue[0];
-  const done = queue.length === 0;
+  const done = queue.length === 0 || timeStopped;
   const isCorrect = !!current && sentencesMatch(submittedGuess, current.example.en);
   const progressPct = initialCount > 0 ? (mastered.size / initialCount) * 100 : 0;
 
@@ -138,8 +146,10 @@ export default function SentenceStudySession({ items, readCount, onAnotherSessio
   );
 
   // Key bindings — reveal phase only (prompt owns Enter via its form).
+  // Suspended while the time-up overlay is open so Enter can't rate a card
+  // behind the dialog.
   useEffect(() => {
-    if (phase !== 'REVEAL' || done) return;
+    if (phase !== 'REVEAL' || done || (timer.enabled && timer.expired)) return;
     function onKey(e: KeyboardEvent) {
       if (e.key === 'Enter') {
         if (Date.now() - revealEnteredAt.current < 350) return;
@@ -155,7 +165,7 @@ export default function SentenceStudySession({ items, readCount, onAnotherSessio
     }
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [phase, done, handleRate, isCorrect]);
+  }, [phase, done, handleRate, isCorrect, timer.enabled, timer.expired]);
 
   if (done) {
     return (
@@ -186,6 +196,7 @@ export default function SentenceStudySession({ items, readCount, onAnotherSessio
           {mastered.size} / {initialCount} câu thuộc
         </span>
         <span style={{ flex: 1 }} />
+        {timer.enabled && <TimerChip secondsLeft={timer.secondsLeft} />}
         <span
           style={{
             fontFamily: 'var(--v-font-body)',
@@ -251,6 +262,14 @@ export default function SentenceStudySession({ items, readCount, onAnotherSessio
         >
           {errorMsg}
         </div>
+      )}
+
+      {timer.enabled && timer.expired && durationMin && (
+        <TimeUpOverlay
+          durationMin={durationMin}
+          onContinue={timer.restart}
+          onStop={() => setTimeStopped(true)}
+        />
       )}
     </div>
   );
