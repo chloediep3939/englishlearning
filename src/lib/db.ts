@@ -60,6 +60,9 @@ export async function getAudioBucket(): Promise<R2Bucket> {
 // JSON helpers
 // ============================================================================
 
+// D1 caps bound parameters at ~100 per statement — chunk IN(...) id lists.
+const IN_CHUNK = 90;
+
 function safeParse<T>(s: string | null | undefined, fallback: T): T {
   if (!s) return fallback;
   try {
@@ -365,13 +368,18 @@ export const flashcardsDb = {
    */
   async getByIds(userId: number, ids: number[]): Promise<Flashcard[]> {
     if (ids.length === 0) return [];
-    const placeholders = ids.map(() => '?').join(',');
     const db = await getDb();
-    const result = await db
-      .prepare(`SELECT * FROM flashcards WHERE user_id = ? AND id IN (${placeholders})`)
-      .bind(userId, ...ids)
-      .all<Record<string, unknown>>();
-    return (result.results ?? []).map((r) => hydrateCard(r)!).filter(Boolean);
+    const out: Flashcard[] = [];
+    for (let i = 0; i < ids.length; i += IN_CHUNK) {
+      const chunk = ids.slice(i, i + IN_CHUNK);
+      const placeholders = chunk.map(() => '?').join(',');
+      const result = await db
+        .prepare(`SELECT * FROM flashcards WHERE user_id = ? AND id IN (${placeholders})`)
+        .bind(userId, ...chunk)
+        .all<Record<string, unknown>>();
+      out.push(...(result.results ?? []).map((r) => hydrateCard(r)!).filter(Boolean));
+    }
+    return out;
   },
 
   async getByDeck(userId: number, deck_id: number, limit: number = 200): Promise<Flashcard[]> {
@@ -492,21 +500,28 @@ export const flashcardsDb = {
   ): Promise<{ due: number; fresh: number }> {
     if (deckIds.length === 0) return { due: 0, fresh: 0 };
     const db = await getDb();
-    const placeholders = deckIds.map(() => '?').join(',');
     const masteredClause = excludeMastered ? "AND status != 'mastered'" : '';
-    const row = await db
-      .prepare(
-        `SELECT
-           SUM(CASE WHEN status != 'new' AND next_review_at IS NOT NULL
-                     AND next_review_at <= datetime('now') ${masteredClause}
-                    THEN 1 ELSE 0 END) as due,
-           SUM(CASE WHEN status = 'new' THEN 1 ELSE 0 END) as fresh
-         FROM flashcards
-         WHERE user_id = ? AND deck_id IN (${placeholders})`,
-      )
-      .bind(userId, ...deckIds)
-      .first<{ due: number; fresh: number }>();
-    return { due: Number(row?.due) || 0, fresh: Number(row?.fresh) || 0 };
+    let due = 0;
+    let fresh = 0;
+    for (let i = 0; i < deckIds.length; i += IN_CHUNK) {
+      const chunk = deckIds.slice(i, i + IN_CHUNK);
+      const placeholders = chunk.map(() => '?').join(',');
+      const row = await db
+        .prepare(
+          `SELECT
+             SUM(CASE WHEN status != 'new' AND next_review_at IS NOT NULL
+                       AND next_review_at <= datetime('now') ${masteredClause}
+                      THEN 1 ELSE 0 END) as due,
+             SUM(CASE WHEN status = 'new' THEN 1 ELSE 0 END) as fresh
+           FROM flashcards
+           WHERE user_id = ? AND deck_id IN (${placeholders})`,
+        )
+        .bind(userId, ...chunk)
+        .first<{ due: number; fresh: number }>();
+      due += Number(row?.due) || 0;
+      fresh += Number(row?.fresh) || 0;
+    }
+    return { due, fresh };
   },
 
   /** Due cards across a set of decks, most overdue first. */
@@ -518,22 +533,30 @@ export const flashcardsDb = {
   ): Promise<Flashcard[]> {
     if (deckIds.length === 0) return [];
     const db = await getDb();
-    const placeholders = deckIds.map(() => '?').join(',');
     const masteredClause = excludeMastered ? "AND status != 'mastered'" : '';
-    const result = await db
-      .prepare(
-        `SELECT * FROM flashcards
-         WHERE user_id = ? AND deck_id IN (${placeholders})
-           AND status != 'new'
-           AND next_review_at IS NOT NULL
-           AND next_review_at <= datetime('now')
-           ${masteredClause}
-         ORDER BY next_review_at ASC
-         LIMIT ?`,
-      )
-      .bind(userId, ...deckIds, limit)
-      .all<Record<string, unknown>>();
-    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+    // Chunked, then re-sorted + trimmed in JS so "most overdue first" holds
+    // globally across chunks.
+    const rows: Flashcard[] = [];
+    for (let i = 0; i < deckIds.length; i += IN_CHUNK) {
+      const chunk = deckIds.slice(i, i + IN_CHUNK);
+      const placeholders = chunk.map(() => '?').join(',');
+      const result = await db
+        .prepare(
+          `SELECT * FROM flashcards
+           WHERE user_id = ? AND deck_id IN (${placeholders})
+             AND status != 'new'
+             AND next_review_at IS NOT NULL
+             AND next_review_at <= datetime('now')
+             ${masteredClause}
+           ORDER BY next_review_at ASC
+           LIMIT ?`,
+        )
+        .bind(userId, ...chunk, limit)
+        .all<Record<string, unknown>>();
+      rows.push(...result.results.map((r) => hydrateCard(r)!).filter(Boolean));
+    }
+    rows.sort((a, b) => ((a.next_review_at ?? '') < (b.next_review_at ?? '') ? -1 : 1));
+    return rows.slice(0, limit);
   },
 
   /**
@@ -549,34 +572,52 @@ export const flashcardsDb = {
   async getWithExamplesInDecks(userId: number, deckIds: number[], limit: number = 2000): Promise<Flashcard[]> {
     if (deckIds.length === 0) return [];
     const db = await getDb();
-    const placeholders = deckIds.map(() => '?').join(',');
-    const result = await db
-      .prepare(
-        `SELECT * FROM flashcards
-         WHERE user_id = ? AND deck_id IN (${placeholders})
-           AND examples IS NOT NULL AND examples != '[]' AND examples != ''
-         LIMIT ?`,
-      )
-      .bind(userId, ...deckIds, limit)
-      .all<Record<string, unknown>>();
-    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+    // Chunked IN(...) — D1 caps bound parameters at ~100 per statement, and
+    // "all decks" scopes can exceed that.
+    const out: Flashcard[] = [];
+    for (let i = 0; i < deckIds.length && out.length < limit; i += IN_CHUNK) {
+      const chunk = deckIds.slice(i, i + IN_CHUNK);
+      const placeholders = chunk.map(() => '?').join(',');
+      const result = await db
+        .prepare(
+          `SELECT * FROM flashcards
+           WHERE user_id = ? AND deck_id IN (${placeholders})
+             AND examples IS NOT NULL AND examples != '[]' AND examples != ''
+           LIMIT ?`,
+        )
+        .bind(userId, ...chunk, limit - out.length)
+        .all<Record<string, unknown>>();
+      out.push(...result.results.map((r) => hydrateCard(r)!).filter(Boolean));
+    }
+    return out;
   },
 
   async getNewRandomInDecks(userId: number, deckIds: number[], limit: number): Promise<Flashcard[]> {
     if (deckIds.length === 0) return [];
     const db = await getDb();
-    const placeholders = deckIds.map(() => '?').join(',');
-    const result = await db
-      .prepare(
-        `SELECT * FROM flashcards
-         WHERE user_id = ? AND deck_id IN (${placeholders})
-           AND status = 'new'
-         ORDER BY RANDOM()
-         LIMIT ?`,
-      )
-      .bind(userId, ...deckIds, limit)
-      .all<Record<string, unknown>>();
-    return result.results.map((r) => hydrateCard(r)!).filter(Boolean);
+    // Chunked; per-chunk RANDOM() samples are re-shuffled together in JS so
+    // the final pick isn't biased toward the first chunk's decks.
+    const rows: Flashcard[] = [];
+    for (let i = 0; i < deckIds.length; i += IN_CHUNK) {
+      const chunk = deckIds.slice(i, i + IN_CHUNK);
+      const placeholders = chunk.map(() => '?').join(',');
+      const result = await db
+        .prepare(
+          `SELECT * FROM flashcards
+           WHERE user_id = ? AND deck_id IN (${placeholders})
+             AND status = 'new'
+           ORDER BY RANDOM()
+           LIMIT ?`,
+        )
+        .bind(userId, ...chunk, limit)
+        .all<Record<string, unknown>>();
+      rows.push(...result.results.map((r) => hydrateCard(r)!).filter(Boolean));
+    }
+    for (let i = rows.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [rows[i], rows[j]] = [rows[j], rows[i]];
+    }
+    return rows.slice(0, limit);
   },
 
   async search(userId: number, query: string, limit: number = 50): Promise<Flashcard[]> {
@@ -1082,17 +1123,23 @@ export const sentenceDrillsDb = {
   ): Promise<Map<number, SentenceDrill>> {
     if (cardIds.length === 0) return new Map();
     const db = await getDb();
-    const placeholders = cardIds.map(() => '?').join(',');
-    const result = await db
-      .prepare(
-        `SELECT * FROM sentence_drills
-         WHERE user_id = ? AND example_index = ? AND flashcard_id IN (${placeholders})`
-      )
-      .bind(userId, exampleIndex, ...cardIds)
-      .all<Record<string, unknown>>();
     const map = new Map<number, SentenceDrill>();
-    for (const row of result.results) {
-      map.set(Number(row.flashcard_id), row as unknown as SentenceDrill);
+    // Chunked IN(...) — an "all decks" session can pass hundreds of card ids,
+    // which blows past D1's ~100 bound-parameter cap in one statement (the
+    // bug behind the eternal "Đang đếm…" on the Học câu setup).
+    for (let i = 0; i < cardIds.length; i += IN_CHUNK) {
+      const chunk = cardIds.slice(i, i + IN_CHUNK);
+      const placeholders = chunk.map(() => '?').join(',');
+      const result = await db
+        .prepare(
+          `SELECT * FROM sentence_drills
+           WHERE user_id = ? AND example_index = ? AND flashcard_id IN (${placeholders})`
+        )
+        .bind(userId, exampleIndex, ...chunk)
+        .all<Record<string, unknown>>();
+      for (const row of result.results) {
+        map.set(Number(row.flashcard_id), row as unknown as SentenceDrill);
+      }
     }
     return map;
   },

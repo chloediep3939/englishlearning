@@ -191,8 +191,10 @@ export default function SentenceStudySetup({
             color: 'var(--v-ink-soft)',
           }}
         >
-          {countsLoading || !counts ? (
+          {countsLoading ? (
             'Đang đếm…'
+          ) : !counts ? (
+            'Không đếm được — tải lại trang thử nha'
           ) : (
             <>
               <span style={{ color: 'var(--v-stage-review)' }}>{counts.due} câu cần ôn</span>
