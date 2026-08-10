@@ -39,6 +39,11 @@ export default function SentenceStudySession({ items, readCount, durationMin, on
   });
   const failedThisSessionRef = useRef<Set<number>>(new Set());
   const ratedOnceRef = useRef<Set<number>>(new Set());
+  // Per-session cap: a sentence is shown at most twice. Counts LẠI/KHÓ
+  // ratings — after the 2nd one the sentence leaves the queue anyway (its
+  // schedule was already set by the first rating, so it returns next
+  // session) instead of looping forever.
+  const lowRatingsRef = useRef<Map<number, number>>(new Map());
 
   const [phase, setPhase] = useState<Phase>('TYPING');
   const [input, setInput] = useState('');
@@ -128,12 +133,21 @@ export default function SentenceStudySession({ items, readCount, durationMin, on
           setTimeout(() => setErrorMsg(null), 4000);
         });
 
+      // Count this low rating BEFORE the queue update (refs must not be
+      // mutated inside the setState updater).
+      const lowCount =
+        quality < 4 ? (lowRatingsRef.current.get(id) ?? 0) + 1 : 0;
+      if (quality < 4) lowRatingsRef.current.set(id, lowCount);
+
       setQueue((prev) => {
         const rest = prev.slice(1);
         if (quality >= 4) {
           setMastered((m) => new Set(m).add(id));
           return rest;
         }
+        // 2nd LẠI/KHÓ on the same sentence → drop it for this session; the
+        // SRS schedule (set by its first rating) brings it back next time.
+        if (lowCount >= 2) return rest;
         const offset = Math.min(REQUEUE_OFFSET[quality] ?? 2, rest.length);
         return [...rest.slice(0, offset), prev[0], ...rest.slice(offset)];
       });
