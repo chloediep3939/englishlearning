@@ -26,11 +26,14 @@ export function previewIntervals(
   card: SRSCardState,
   opts: { failedThisSession?: boolean } = {},
 ): Record<SRSQuality, number> {
+  // fuzz: false — deterministic labels; the real schedule (computed at
+  // rating time) still applies ±15% fuzz.
+  const o = { ...opts, fuzz: false };
   return {
     0: 0,
-    2: calculateNextReview(card, 2, opts).interval_days,
-    4: calculateNextReview(card, 4, opts).interval_days,
-    5: calculateNextReview(card, 5, opts).interval_days,
+    2: calculateNextReview(card, 2, o).interval_days,
+    4: calculateNextReview(card, 4, o).interval_days,
+    5: calculateNextReview(card, 5, o).interval_days,
   };
 }
 
@@ -139,7 +142,7 @@ export function calculateFlashcardBoost(
 export function calculateNextReview(
   card: SRSCardState,
   quality: SRSQuality,
-  opts: { failedThisSession?: boolean } = {},
+  opts: { failedThisSession?: boolean; fuzz?: boolean } = {},
 ): SRSUpdate {
   const prev_interval = card.interval_days;
   // Ease only ever moves once the card has graduated (2+ successful reps
@@ -186,8 +189,11 @@ export function calculateNextReview(
       // quality === 4 (Tốt): ease unchanged — SM-2 standard
     }
 
-    // Fuzz intervals >= 4 days to prevent clumping
-    if (interval >= 4) interval = applyFuzz(interval);
+    // Fuzz intervals >= 4 days to prevent clumping. Disabled for the
+    // rating-button previews (opts.fuzz === false) so the "ôn sau X ngày"
+    // labels don't wobble 7/8/9 between renders — only the actually
+    // persisted schedule gets the randomization.
+    if (opts.fuzz !== false && interval >= 4) interval = applyFuzz(interval);
   }
 
   // Mastery gate (Anki-style "mature"): both conditions required.
