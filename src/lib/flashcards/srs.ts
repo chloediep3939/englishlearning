@@ -76,8 +76,10 @@ function applyFuzz(interval: number): number {
 }
 
 /** Lapse keeps this share of the old interval (Anki's "new interval %").
- *  A 6-month card that slips once relearns from ~6 weeks, not from zero. */
-const LAPSE_KEEP_RATIO = 0.25;
+ *  Raised 0.25 → 0.5 per user: a correct answer after a lapse jumps back
+ *  near the old mốc (8-day card → sai 1 lần → đúng → hẹn ~4 ngày) instead
+ *  of grinding the 1→3→8 ladder from scratch. */
+const LAPSE_KEEP_RATIO = 0.5;
 
 /**
  * Timed Flashcard-nhanh correct answer on a DUE card: gentle interval growth

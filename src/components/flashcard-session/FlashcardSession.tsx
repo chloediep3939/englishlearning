@@ -42,6 +42,41 @@ interface Props {
 }
 
 /**
+ * 1-typo tolerance: a guess within one edit (insert/delete/replace) of the
+ * answer counts as correct for answers ≥ 5 chars — so a slip like
+ * "atendance" doesn't default Enter to LẠI and reset the card's ladder.
+ * Short words stay exact-match ("cat"/"car" must not blur). The reveal
+ * still renders the char diff so the learner sees the typo.
+ */
+function wordsAlmostEqual(guess: string, answer: string): boolean {
+  const g = guess.trim().toLowerCase();
+  const a = answer.trim().toLowerCase();
+  if (g === a) return true;
+  if (a.length < 5) return false;
+  if (Math.abs(g.length - a.length) > 1) return false;
+  let i = 0;
+  let j = 0;
+  let edits = 0;
+  while (i < g.length && j < a.length) {
+    if (g[i] === a[j]) {
+      i++;
+      j++;
+      continue;
+    }
+    if (++edits > 1) return false;
+    if (g.length === a.length) {
+      i++;
+      j++;
+    } else if (g.length > a.length) {
+      i++;
+    } else {
+      j++;
+    }
+  }
+  return edits + (g.length - i) + (a.length - j) <= 1;
+}
+
+/**
  * Anki-like session orchestrator (study-unified A3). Owns:
  *   - the queue (read from front, mutated immutably)
  *   - the prompt↔reveal phase machine (typed recall, or flip on recognition decks)
@@ -109,9 +144,10 @@ export default function FlashcardSession({ cards, config, recognition = false, a
   const done = queue.length === 0 || timeStopped;
   // Recognition flip has no guess — treat as "correct" so the Enter default
   // on reveal is TỐT (self-grade flow), matching the flip-and-self-grade UX.
+  // Typed variants allow a 1-char typo (see wordsAlmostEqual).
   const isCorrect = recognition
     ? true
-    : !!current && input.trim().toLowerCase() === current.english.toLowerCase();
+    : !!current && wordsAlmostEqual(input, current.english);
   const progressPct = initialCount > 0 ? (mastered.size / initialCount) * 100 : 0;
 
   // Roll the prompt kind each time a card enters the prompt phase. Only
