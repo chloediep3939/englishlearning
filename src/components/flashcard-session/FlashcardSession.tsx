@@ -9,6 +9,7 @@ import RevealStage from './RevealStage';
 import SummaryScreen from './SummaryScreen';
 import { TimerChip, TimeUpOverlay, useSessionTimer } from '@/components/common/SessionTimer';
 import type { Flashcard } from '@/lib/types';
+import { calculateNextReview } from '@/lib/flashcards/srs';
 import { speak, getStoredVoicePreference } from '@/lib/tts';
 import {
   REQUEUE_OFFSET,
@@ -239,10 +240,16 @@ export default function FlashcardSession({ cards, config, recognition = false, a
       }
       const failedThisSession = failedThisSessionRef.current.has(current.id);
 
-      // First-rating-per-session guard: only the first rating of a card in
-      // this session mutates SRS state; every later rating is log-only.
-      const applySrs = !ratedOnceRef.current.has(current.id);
+      // SRS-apply protocol:
+      //   - first rating of a card this session → applied
+      //   - every LẠI → applied (each lapse decays the schedule again)
+      //   - the evicting TỐT/DỄ of a card that lapsed earlier this session
+      //     → applied (relearn graduation: 9 ngày → sai 1 lần → ~2 ngày →
+      //     sai 2 lần → 1 ngày). Everything else is log-only.
+      const isFirstRating = !ratedOnceRef.current.has(current.id);
       ratedOnceRef.current.add(current.id);
+      const applySrs =
+        isFirstRating || quality === 0 || (quality >= 4 && failedThisSession);
 
       // Queue rule (A3): TỐT/DỄ leave the queue, LẠI/KHÓ requeue.
       const shouldMaster = quality >= 4;
@@ -279,11 +286,30 @@ export default function FlashcardSession({ cards, config, recognition = false, a
         // Reinsert at offset 2 (LẠI) or 4 (KHÓ), counted from the head of
         // the post-pop queue. min(offset, rest.length) clamps to "append
         // to end" when the queue is shorter than the offset.
+        // When this rating was SRS-applied, reinsert the card with its NEW
+        // SRS state (mirrors what the server just persisted, minus fuzz) so
+        // the "ôn sau X" button labels on its next appearance reflect the
+        // lapse instead of the stale session-start snapshot.
+        const requeued = applySrs
+          ? (() => {
+              const upd = calculateNextReview(current, quality, {
+                failedThisSession,
+                fuzz: false,
+              });
+              return {
+                ...current,
+                status: upd.status,
+                ease_factor: upd.ease_factor,
+                interval_days: upd.interval_days,
+                repetitions: upd.repetitions,
+              };
+            })()
+          : current;
         const offset = REQUEUE_OFFSET[quality]!;
         setQueue((prev) => {
           const rest = prev.slice(1);
           const insertAt = Math.min(offset, rest.length);
-          return [...rest.slice(0, insertAt), current, ...rest.slice(insertAt)];
+          return [...rest.slice(0, insertAt), requeued, ...rest.slice(insertAt)];
         });
       }
 

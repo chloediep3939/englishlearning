@@ -7,6 +7,7 @@ import { sentencesMatch } from './compare';
 import SummaryScreen from '@/components/flashcard-session/SummaryScreen';
 import { RATINGS, REQUEUE_OFFSET, type Phase, type Quality } from '@/components/flashcard-session/types';
 import { TimerChip, TimeUpOverlay, useSessionTimer } from '@/components/common/SessionTimer';
+import { calculateNextReview } from '@/lib/flashcards/srs';
 import { speakTimes } from '@/lib/tts';
 import type { SentenceStudyItem } from '@/lib/types';
 
@@ -106,10 +107,14 @@ export default function SentenceStudySession({ items, readCount, durationMin, on
       const failedBefore = failedThisSessionRef.current.has(id);
       if (quality === 0) failedThisSessionRef.current.add(id);
 
-      // First rating of a sentence per session mutates its schedule; every
-      // later rating is log-only.
-      const applySrs = !ratedOnceRef.current.has(id);
+      // SRS-apply protocol (same as the word session): first rating applied;
+      // every LẠI applied (each lapse decays the schedule); the evicting
+      // TỐT/DỄ of a sentence that lapsed earlier this session applied
+      // (relearn graduation → shorter mốc). Everything else is log-only.
+      const isFirstRating = !ratedOnceRef.current.has(id);
       ratedOnceRef.current.add(id);
+      const applySrs =
+        isFirstRating || quality === 0 || (quality >= 4 && failedBefore);
 
       void fetch('/api/sentence-drill/rate', {
         method: 'POST',
@@ -139,6 +144,27 @@ export default function SentenceStudySession({ items, readCount, durationMin, on
         quality < 4 ? (lowRatingsRef.current.get(id) ?? 0) + 1 : 0;
       if (quality < 4) lowRatingsRef.current.set(id, lowCount);
 
+      // When this rating was SRS-applied, requeue with the NEW drill state
+      // (mirrors what the server persists, minus fuzz) so the "ôn sau X"
+      // labels on the next appearance reflect the lapse.
+      const requeued = applySrs
+        ? (() => {
+            const upd = calculateNextReview(current.drill, quality, {
+              failedThisSession: failedBefore,
+              fuzz: false,
+            });
+            return {
+              ...current,
+              drill: {
+                status: upd.status,
+                ease_factor: upd.ease_factor,
+                interval_days: upd.interval_days,
+                repetitions: upd.repetitions,
+              },
+            };
+          })()
+        : current;
+
       setQueue((prev) => {
         const rest = prev.slice(1);
         if (quality >= 4) {
@@ -149,7 +175,7 @@ export default function SentenceStudySession({ items, readCount, durationMin, on
         // SRS schedule (set by its first rating) brings it back next time.
         if (lowCount >= 2) return rest;
         const offset = Math.min(REQUEUE_OFFSET[quality] ?? 2, rest.length);
-        return [...rest.slice(0, offset), prev[0], ...rest.slice(offset)];
+        return [...rest.slice(0, offset), requeued, ...rest.slice(offset)];
       });
 
       setInput('');
