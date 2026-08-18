@@ -224,8 +224,6 @@ function WordPopover({
     top: number;
     bottom: number;
     wrapW: number;
-    /** Word's top in VIEWPORT coords — decides whether there's room above. */
-    viewportTop: number;
   } | null>(null);
   const popRef = useRef<HTMLDivElement>(null);
   const sentIdx = k.sel?.sentIdx;
@@ -249,7 +247,6 @@ function WordPopover({
       top: r.top - wr.top,
       bottom: r.bottom - wr.top,
       wrapW: wr.width,
-      viewportTop: r.top,
     });
   }, [sentIdx, tokIdx, wrapRef]);
 
@@ -279,9 +276,6 @@ function WordPopover({
   const width = Math.min(320, Math.max(240, anchor.wrapW - 16));
   const half = width / 2;
   const left = Math.min(Math.max(anchor.cx, half + 4), Math.max(half + 4, anchor.wrapW - half - 4));
-  // Prefer ABOVE the word; only open below when the word sits so close to
-  // the top of the VIEWPORT that the card wouldn't fit on screen.
-  const flipBelow = anchor.viewportTop < 300;
 
   return (
     <div
@@ -289,25 +283,26 @@ function WordPopover({
       style={{
         position: 'absolute',
         left,
-        top: flipBelow ? anchor.bottom + 12 : anchor.top - 12,
-        transform: flipBelow ? 'translateX(-50%)' : 'translate(-50%, -100%)',
+        // Always ABOVE the tapped word (user preference — no flip-below).
+        top: anchor.top - 12,
+        transform: 'translate(-50%, -100%)',
         width,
         zIndex: 60,
       }}
     >
-      {/* Diamond arrow pointing at the word (behind the card). */}
+      {/* Diamond arrow pointing down at the word (behind the card). */}
       <div
         style={{
           position: 'absolute',
           left: Math.max(14, Math.min(width - 14, anchor.cx - (left - half))),
-          [flipBelow ? 'top' : 'bottom']: -5,
+          bottom: -5,
           width: 12,
           height: 12,
           background: 'var(--v-surface)',
           border: `1.5px solid ${BUN_BLUE}55`,
           transform: 'translateX(-50%) rotate(45deg)',
           zIndex: 0,
-        } as React.CSSProperties}
+        }}
       />
       <div style={{ position: 'relative', zIndex: 1 }}>{children}</div>
     </div>
