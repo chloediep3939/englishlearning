@@ -198,7 +198,11 @@ export default function ReadingPassage({
         fontSize,
         fontWeight: 400,
         color: 'var(--v-ink)',
-        lineHeight: 1.85,
+        // Airier text per user preference: taller lines + a touch of letter
+        // and word spacing so tap targets don't feel cramped.
+        lineHeight: 2.1,
+        letterSpacing: '0.012em',
+        wordSpacing: '0.1em',
         // Grid child: allow shrinking below content min-width so the card
         // never pushes the aside off-screen.
         minWidth: 0,
@@ -255,6 +259,8 @@ export default function ReadingPassage({
                       borderRadius: 6,
                       transition: reduce ? 'none' : 'background .25s ease',
                       padding: '1px 0',
+                      // Visible breathing room between sentences.
+                      marginRight: 10,
                     }}
                   >
                     <SentenceTokens s={s} k={k} cp={cp} reduce={reduce} />{' '}
