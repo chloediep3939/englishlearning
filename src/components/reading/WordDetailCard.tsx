@@ -224,9 +224,12 @@ export default function WordDetailCard({
 
       <div
         style={{
-          fontFamily: 'var(--v-font-head)',
-          fontSize: 16,
-          fontWeight: 800,
+          // Regular weight per user preference — the gloss is a sentence to
+          // read, not a headline.
+          fontFamily: 'var(--v-font-body)',
+          fontSize: 15,
+          fontWeight: 400,
+          lineHeight: 1.5,
           color: 'var(--v-ink)',
           marginTop: 8,
           minHeight: 20,
