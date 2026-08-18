@@ -4,6 +4,7 @@ import { wordGlossaryDb } from '@/lib/reading/db';
 import { cleanWord } from '@/lib/reading/tokenizer';
 import { lemmaCandidates } from '@/lib/reading/lemma';
 import { dictionaryLookup, getMsCredentials } from '@/lib/reading/ai/ms-translator';
+import { translateEnToVi } from '@/lib/flashcards/translate';
 import { fetchOxfordPronunciationMeta } from '@/lib/oxford/pronunciation';
 import { lookupUrl } from '@/components/common/LookupPills';
 
@@ -104,14 +105,28 @@ export async function POST(req: Request) {
       }
     }
 
-    const vn = dict?.vn ?? null;
+    let vn = dict?.vn ?? null;
     const pos = dict?.pos ? dict.pos : null;
+
+    // 4. MyMemory fallback when MS produced nothing (dead key, quota, or a
+    // word outside its dictionary). MyMemory sometimes echoes the input
+    // verbatim for unknown words — treat that as a miss.
+    let mmHit = false;
+    if (!vn) {
+      const mm = await translateEnToVi(headword);
+      const t = mm?.trim() ?? '';
+      if (t && t.toLowerCase() !== headword.toLowerCase() && t.toLowerCase() !== word.toLowerCase()) {
+        vn = t;
+        mmHit = true;
+      }
+    }
 
     // source tag. 'err' variants mark "meaning unresolved for infra reasons"
     // — combined with the vn-null fall-through above they self-heal on a
-    // later tap. 'miss' = MS answered and genuinely has no VI entry.
+    // later tap. 'miss' = translators answered and genuinely found nothing.
     let source: string;
     if (dict) source = oxHit ? 'oxford+ms' : 'ms+nox';
+    else if (mmHit) source = oxHit ? 'oxford+mm' : 'mm+nox';
     else if (hadError) source = oxHit ? 'oxford+err' : 'err';
     else source = oxHit ? 'oxford' : 'miss';
 

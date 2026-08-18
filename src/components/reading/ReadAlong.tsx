@@ -224,6 +224,8 @@ function WordPopover({
     top: number;
     bottom: number;
     wrapW: number;
+    /** Word's top in VIEWPORT coords — decides whether there's room above. */
+    viewportTop: number;
   } | null>(null);
   const popRef = useRef<HTMLDivElement>(null);
   const sentIdx = k.sel?.sentIdx;
@@ -247,6 +249,7 @@ function WordPopover({
       top: r.top - wr.top,
       bottom: r.bottom - wr.top,
       wrapW: wr.width,
+      viewportTop: r.top,
     });
   }, [sentIdx, tokIdx, wrapRef]);
 
@@ -276,7 +279,9 @@ function WordPopover({
   const width = Math.min(320, Math.max(240, anchor.wrapW - 16));
   const half = width / 2;
   const left = Math.min(Math.max(anchor.cx, half + 4), Math.max(half + 4, anchor.wrapW - half - 4));
-  const flipBelow = anchor.top < 280; // not enough room above → open under the word
+  // Prefer ABOVE the word; only open below when the word sits so close to
+  // the top of the VIEWPORT that the card wouldn't fit on screen.
+  const flipBelow = anchor.viewportTop < 300;
 
   return (
     <div
