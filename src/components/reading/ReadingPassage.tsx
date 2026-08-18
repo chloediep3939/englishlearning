@@ -203,6 +203,7 @@ export default function ReadingPassage({
         lineHeight: 2.1,
         letterSpacing: '0.012em',
         wordSpacing: '0.1em',
+        textAlign: 'justify',
         // Grid child: allow shrinking below content min-width so the card
         // never pushes the aside off-screen.
         minWidth: 0,
