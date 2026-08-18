@@ -64,10 +64,14 @@ export default function WordDetailCard({
       .finally(() => setLooking(false));
   }
 
-  // On selecting an unknown word, look it up once.
+  // On selecting a word with no meaning yet, look it up once per page load.
+  // A cached glossary row with vn == null does NOT count as "known" — those
+  // are old misses (quota / missing-credential windows) that the server can
+  // now self-heal, so give each one a fresh chance per visit.
   useEffect(() => {
     if (!clean) return;
-    if (k.glossary[clean] || attempted.current.has(clean)) return;
+    const g = k.glossary[clean];
+    if ((g && g.vn != null) || attempted.current.has(clean)) return;
     doLookup(clean);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [clean]);

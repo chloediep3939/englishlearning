@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, BookOpen, Languages, Scissors } from 'lucide-react';
 import LoadingState from '@/components/common/LoadingState';
@@ -11,7 +11,7 @@ import SpeedSelector from '@/components/reading/SpeedSelector';
 import ReadingToggle from '@/components/reading/ReadingToggle';
 import TransportControls from '@/components/reading/TransportControls';
 import SavedWordsTray from '@/components/reading/SavedWordsTray';
-import { useKaraoke } from '@/lib/reading/use-karaoke';
+import { useKaraoke, type KaraokeEngine } from '@/lib/reading/use-karaoke';
 import { useChunkPractice } from '@/lib/reading/use-chunk-practice';
 import ChunkPracticeControls from '@/components/reading/ChunkPracticeControls';
 import { useReducedMotion } from '@/lib/reading/use-reduced-motion';
@@ -203,6 +203,112 @@ function BackLink({ href, onBack }: { href: string; onBack?: () => void }) {
   );
 }
 
+/**
+ * Floating popover anchored to the tapped word: finds the selected token's
+ * span (via its data-tok attribute) inside the passage wrapper, positions
+ * the card centered above it (flips below when too close to the top),
+ * clamps horizontally, and closes on outside click / Escape. The passage
+ * wrapper must be position:relative.
+ */
+function WordPopover({
+  k,
+  wrapRef,
+  children,
+}: {
+  k: KaraokeEngine;
+  wrapRef: React.RefObject<HTMLDivElement | null>;
+  children: React.ReactNode;
+}) {
+  const [anchor, setAnchor] = useState<{
+    cx: number;
+    top: number;
+    bottom: number;
+    wrapW: number;
+  } | null>(null);
+  const popRef = useRef<HTMLDivElement>(null);
+  const sentIdx = k.sel?.sentIdx;
+  const tokIdx = k.sel?.tokIdx;
+
+  useLayoutEffect(() => {
+    const wrap = wrapRef.current;
+    if (!wrap || sentIdx === undefined || tokIdx === undefined) {
+      setAnchor(null);
+      return;
+    }
+    const el = wrap.querySelector(`[data-tok="${sentIdx}:${tokIdx}"]`) as HTMLElement | null;
+    if (!el) {
+      setAnchor(null);
+      return;
+    }
+    const wr = wrap.getBoundingClientRect();
+    const r = el.getBoundingClientRect();
+    setAnchor({
+      cx: r.left - wr.left + r.width / 2,
+      top: r.top - wr.top,
+      bottom: r.bottom - wr.top,
+      wrapW: wr.width,
+    });
+  }, [sentIdx, tokIdx, wrapRef]);
+
+  // Outside click / Escape → deselect (a tap on another word just re-anchors).
+  useEffect(() => {
+    if (sentIdx === undefined) return;
+    function onDown(e: MouseEvent) {
+      const t = e.target as HTMLElement;
+      if (popRef.current?.contains(t)) return;
+      if (t.closest('[data-tok]')) return;
+      k.setSel(null);
+    }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') k.setSel(null);
+    }
+    window.addEventListener('mousedown', onDown);
+    window.addEventListener('keydown', onKey);
+    return () => {
+      window.removeEventListener('mousedown', onDown);
+      window.removeEventListener('keydown', onKey);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sentIdx, tokIdx]);
+
+  if (!k.sel || !anchor) return null;
+
+  const width = Math.min(320, Math.max(240, anchor.wrapW - 16));
+  const half = width / 2;
+  const left = Math.min(Math.max(anchor.cx, half + 4), Math.max(half + 4, anchor.wrapW - half - 4));
+  const flipBelow = anchor.top < 280; // not enough room above → open under the word
+
+  return (
+    <div
+      ref={popRef}
+      style={{
+        position: 'absolute',
+        left,
+        top: flipBelow ? anchor.bottom + 12 : anchor.top - 12,
+        transform: flipBelow ? 'translateX(-50%)' : 'translate(-50%, -100%)',
+        width,
+        zIndex: 60,
+      }}
+    >
+      {/* Diamond arrow pointing at the word (behind the card). */}
+      <div
+        style={{
+          position: 'absolute',
+          left: Math.max(14, Math.min(width - 14, anchor.cx - (left - half))),
+          [flipBelow ? 'top' : 'bottom']: -5,
+          width: 12,
+          height: 12,
+          background: 'var(--v-surface)',
+          border: `1.5px solid ${BUN_BLUE}55`,
+          transform: 'translateX(-50%) rotate(45deg)',
+          zIndex: 0,
+        } as React.CSSProperties}
+      />
+      <div style={{ position: 'relative', zIndex: 1 }}>{children}</div>
+    </div>
+  );
+}
+
 // ── Engine + UI ──
 function ReadAlongInner({
   passage,
@@ -272,6 +378,11 @@ function ReadAlongInner({
       /* no-op */
     }
   };
+
+  // Anchors for the word popover — one wrapper per breakpoint block (both are
+  // in the DOM; the CSS-hidden one renders nothing visible).
+  const passageWrapDesktop = useRef<HTMLDivElement>(null);
+  const passageWrapMobile = useRef<HTMLDivElement>(null);
 
   const metaPill = `${passage.word_count} từ · ~${estimateSeconds(passage.word_count)}s`;
   const wordCard = (
@@ -411,12 +522,14 @@ function ReadAlongInner({
         {unsupportedBanner}
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: 20, alignItems: 'start', marginTop: unsupportedBanner ? 14 : 0 }}>
-          <ReadingPassage k={k} vnMode={k.showVN} fontSize={24} reduce={reduce} cp={cp} />
+          <div ref={passageWrapDesktop} style={{ position: 'relative' }}>
+            <ReadingPassage k={k} vnMode={k.showVN} fontSize={24} reduce={reduce} cp={cp} />
+            <WordPopover k={k} wrapRef={passageWrapDesktop}>{wordCard}</WordPopover>
+          </div>
           <aside style={{ display: 'flex', flexDirection: 'column', gap: 14, position: 'sticky', top: 18 }}>
             {chunkToggle}
             {chunkControls}
             {parallelToggle}
-            {wordCard}
             <SpeedSelector k={k} cols={2} />
             {autoToggle}
             <TransportControls k={k} />
@@ -479,11 +592,13 @@ function ReadAlongInner({
         </div>
 
         {unsupportedBanner}
-        <ReadingPassage k={k} vnMode={k.showVN} fontSize={16} reduce={reduce} cp={cp} />
+        <div ref={passageWrapMobile} style={{ position: 'relative' }}>
+          <ReadingPassage k={k} vnMode={k.showVN} fontSize={16} reduce={reduce} cp={cp} />
+          <WordPopover k={k} wrapRef={passageWrapMobile}>{wordCard}</WordPopover>
+        </div>
         {chunkToggle}
         {chunkControls}
         {parallelToggle}
-        {wordCard}
         <SpeedSelector k={k} cols={4} />
         {autoToggle}
         <TransportControls k={k} />

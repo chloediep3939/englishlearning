@@ -36,11 +36,17 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Từ không hợp lệ.' }, { status: 400 });
     }
 
-    // Cache hit — return as-is, EXCEPT legacy rows that never hit Oxford
-    // (ipa null + source 'ms'): fall through once to self-heal, then re-tag so
-    // they never re-scrape.
+    // Cache hit — return as-is ONLY when it actually carries a meaning.
+    // Rows with vn === null fall through and retry (they may be old quota /
+    // missing-credential misses that were frozen forever); their cached
+    // IPA/audio is reused below so Oxford isn't re-scraped. Legacy rows that
+    // never hit Oxford (ipa null + source 'ms') also fall through once.
     const cached = await wordGlossaryDb.getOne(word);
-    if (cached && !(cached.ipa === null && cached.source === 'ms')) {
+    if (
+      cached &&
+      cached.vn !== null &&
+      !(cached.ipa === null && cached.source === 'ms')
+    ) {
       return NextResponse.json({
         word,
         vn: cached.vn,
@@ -51,55 +57,63 @@ export async function POST(req: Request) {
       });
     }
 
-    // 1–2. Oxford for IPA + mp3 URL: the word, then up to 3 lemma candidates.
-    let ipa: string | null = null;
-    let audioSrc: string | null = null;
+    // 1–2. Oxford for IPA + mp3 URL: cached values first (a vn-null retry
+    // shouldn't re-scrape), else the word, then the lemma candidates.
+    let ipa: string | null = cached?.ipa ?? null;
+    let audioSrc: string | null = cached?.audio_src ?? null;
     let headword = word;
-    let oxHit = false;
+    let oxHit = !!(ipa || audioSrc);
 
-    const ox = await fetchOxfordPronunciationMeta(lookupUrl('Oxford', word));
-    if (ox.ipaUs || ox.mp3SourceUrl) {
-      ipa = ox.ipaUs;
-      audioSrc = ox.mp3SourceUrl;
-      oxHit = true;
-    } else {
-      for (const cand of lemmaCandidates(word)) {
-        const ox2 = await fetchOxfordPronunciationMeta(lookupUrl('Oxford', cand));
-        if (ox2.ipaUs || ox2.mp3SourceUrl) {
-          ipa = ox2.ipaUs;
-          audioSrc = ox2.mp3SourceUrl;
-          headword = cand;
-          oxHit = true;
-          break;
+    if (!oxHit) {
+      const ox = await fetchOxfordPronunciationMeta(lookupUrl('Oxford', word));
+      if (ox.ipaUs || ox.mp3SourceUrl) {
+        ipa = ox.ipaUs;
+        audioSrc = ox.mp3SourceUrl;
+        oxHit = true;
+      } else {
+        for (const cand of lemmaCandidates(word)) {
+          const ox2 = await fetchOxfordPronunciationMeta(lookupUrl('Oxford', cand));
+          if (ox2.ipaUs || ox2.mp3SourceUrl) {
+            ipa = ox2.ipaUs;
+            audioSrc = ox2.mp3SourceUrl;
+            headword = cand;
+            oxHit = true;
+            break;
+          }
         }
       }
     }
 
     // 3. Vietnamese meaning from MS Dictionary on the resolved headword, then
-    //    the remaining lemma candidates.
+    //    the remaining lemma candidates. Track infra failures separately from
+    //    genuine misses — an 'error' must stay retryable, never a frozen miss.
     const creds = await getMsCredentials();
     let dict: { vn: string; pos: string } | null = null;
+    let hadError = !creds; // missing credentials = infra failure, not a miss
     if (creds) {
-      dict = await dictionaryLookup(headword, creds);
-      if (!dict) {
-        const tried = new Set([headword]);
-        for (const cand of [word, ...lemmaCandidates(word)]) {
-          if (tried.has(cand)) continue;
-          tried.add(cand);
-          dict = await dictionaryLookup(cand, creds);
-          if (dict) break;
+      const tried = new Set<string>();
+      for (const cand of [headword, word, ...lemmaCandidates(word)]) {
+        if (tried.has(cand)) continue;
+        tried.add(cand);
+        const r = await dictionaryLookup(cand, creds);
+        if (r.status === 'hit') {
+          dict = { vn: r.vn, pos: r.pos };
+          break;
         }
+        if (r.status === 'error') hadError = true;
       }
     }
 
     const vn = dict?.vn ?? null;
     const pos = dict?.pos ? dict.pos : null;
 
-    // source tag (drives the legacy self-heal predicate above).
+    // source tag. 'err' variants mark "meaning unresolved for infra reasons"
+    // — combined with the vn-null fall-through above they self-heal on a
+    // later tap. 'miss' = MS answered and genuinely has no VI entry.
     let source: string;
-    if (oxHit) source = dict ? 'oxford+ms' : 'oxford';
-    else if (dict) source = 'ms+nox';
-    else source = 'miss';
+    if (dict) source = oxHit ? 'oxford+ms' : 'ms+nox';
+    else if (hadError) source = oxHit ? 'oxford+err' : 'err';
+    else source = oxHit ? 'oxford' : 'miss';
 
     await wordGlossaryDb.upsert(word, { vn, pos, ipa, audioSrc, source });
 

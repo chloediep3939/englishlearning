@@ -40,6 +40,7 @@ function ReadingWord({
     <span
       role="button"
       tabIndex={0}
+      data-tok={`${s.gi}:${ti}`}
       onClick={() => k.speakWord(s.gi, ti)}
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {

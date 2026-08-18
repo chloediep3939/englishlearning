@@ -111,28 +111,35 @@ interface MsDictItem {
   translations: MsDictTranslation[];
 }
 
+export type DictLookupResult =
+  | { status: 'hit'; vn: string; pos: string }
+  | { status: 'miss' } // MS answered fine, entry genuinely has no VI gloss
+  | { status: 'error' }; // non-200 (quota/creds) / timeout — retry later
+
 /**
  * Dictionary lookup for a single word EN→VI. Returns the highest-confidence
- * entry's display form + POS, or null on a miss / error (E4.3, E4.5). Never
- * throws — a null degrades to "Chưa có nghĩa sẵn".
+ * entry's display form + POS. Never throws. 'miss' and 'error' are distinct
+ * so callers can cache a real miss permanently but keep an infra failure
+ * retryable (a quota window must not freeze words as "no meaning" forever).
  */
 export async function dictionaryLookup(
   word: string,
   creds: MsCredentials,
-): Promise<{ vn: string; pos: string } | null> {
+): Promise<DictLookupResult> {
   const url = `${MS_ENDPOINT}/dictionary/lookup?api-version=3.0&from=en&to=vi`;
   try {
     const res = await postJson(url, creds, [{ Text: word }]);
-    if (!res.ok) return null;
+    if (!res.ok) return { status: 'error' };
     const data = (await res.json()) as MsDictItem[];
     const translations = data[0]?.translations ?? [];
-    if (translations.length === 0) return null;
+    if (translations.length === 0) return { status: 'miss' };
     const best = [...translations].sort((a, b) => b.confidence - a.confidence)[0];
     return {
+      status: 'hit',
       vn: best.displayTarget,
       pos: best.posTag ? best.posTag.toLowerCase() : '',
     };
   } catch {
-    return null;
+    return { status: 'error' };
   }
 }
