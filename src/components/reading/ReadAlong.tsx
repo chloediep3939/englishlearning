@@ -250,6 +250,19 @@ function WordPopover({
     });
   }, [sentIdx, tokIdx, wrapRef]);
 
+  // The popover always opens ABOVE the word (user preference) — when the
+  // word sits near the top of the visible area the card would overflow
+  // off-screen, so nudge the scroll container just enough to reveal it.
+  // block:'nearest' scrolls the minimal distance and is a no-op when the
+  // card is already fully visible.
+  useEffect(() => {
+    if (!anchor) return;
+    const id = requestAnimationFrame(() => {
+      popRef.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
+    return () => cancelAnimationFrame(id);
+  }, [anchor]);
+
   // Outside click / Escape → deselect (a tap on another word just re-anchors).
   useEffect(() => {
     if (sentIdx === undefined) return;

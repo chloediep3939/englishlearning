@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { getCloudflareContext } from '@opennextjs/cloudflare';
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { wordGlossaryDb } from '@/lib/reading/db';
 import { cleanWord } from '@/lib/reading/tokenizer';
@@ -59,52 +60,22 @@ export async function POST(req: Request) {
       });
     }
 
-    // 1–2. Oxford for IPA + mp3 URL: cached values first (a vn-null retry
-    // shouldn't re-scrape), else the word, then the lemma candidates.
-    let ipa: string | null = cached?.ipa ?? null;
-    let audioSrc: string | null = cached?.audio_src ?? null;
-    let headword = word;
-    let oxHit = !!(ipa || audioSrc);
-
-    if (!oxHit) {
-      const ox = await fetchOxfordPronunciationMeta(lookupUrl('Oxford', word));
-      if (ox.ipaUs || ox.mp3SourceUrl) {
-        ipa = ox.ipaUs;
-        audioSrc = ox.mp3SourceUrl;
-        oxHit = true;
-      } else {
-        for (const cand of lemmaCandidates(word)) {
-          const ox2 = await fetchOxfordPronunciationMeta(lookupUrl('Oxford', cand));
-          if (ox2.ipaUs || ox2.mp3SourceUrl) {
-            ipa = ox2.ipaUs;
-            audioSrc = ox2.mp3SourceUrl;
-            headword = cand;
-            oxHit = true;
-            break;
-          }
-        }
-      }
-    }
-
-    // 3. Vietnamese meaning. Chain: bundled offline dictionary (free,
-    //    instant, no quota — public/envi-dict.json) → MS Dictionary →
-    //    MyMemory. Infra failures are tracked separately from genuine
-    //    misses so an 'error' stays retryable, never a frozen miss.
+    // 1. Vietnamese meaning FIRST — this is what the learner is waiting on.
+    //    Chain: bundled offline dictionary (instant, no quota —
+    //    public/envi-dict.json) → MS Dictionary → MyMemory. Infra failures
+    //    are tracked separately from genuine misses so an 'error' stays
+    //    retryable, never a frozen miss.
+    const candidates = [word, ...lemmaCandidates(word)];
     let dict: { vn: string; pos: string } | null = null;
     let hadError = false;
     let offlineHit = false;
 
-    {
-      const tried = new Set<string>();
-      for (const cand of [headword, word, ...lemmaCandidates(word)]) {
-        if (tried.has(cand)) continue;
-        tried.add(cand);
-        const hit = await lookupEnVi(cand);
-        if (hit) {
-          dict = { vn: hit.vn, pos: hit.pos ?? '' };
-          offlineHit = true;
-          break;
-        }
+    for (const cand of candidates) {
+      const hit = await lookupEnVi(cand);
+      if (hit) {
+        dict = { vn: hit.vn, pos: hit.pos ?? '' };
+        offlineHit = true;
+        break;
       }
     }
 
@@ -112,10 +83,7 @@ export async function POST(req: Request) {
       const creds = await getMsCredentials();
       hadError = !creds; // missing credentials = infra failure, not a miss
       if (creds) {
-        const tried = new Set<string>();
-        for (const cand of [headword, word, ...lemmaCandidates(word)]) {
-          if (tried.has(cand)) continue;
-          tried.add(cand);
+        for (const cand of candidates) {
           const r = await dictionaryLookup(cand, creds);
           if (r.status === 'hit') {
             dict = { vn: r.vn, pos: r.pos };
@@ -129,32 +97,75 @@ export async function POST(req: Request) {
     let vn = dict?.vn ?? null;
     const pos = dict?.pos ? dict.pos : null;
 
-    // 4. MyMemory fallback when MS produced nothing (dead key, quota, or a
-    // word outside its dictionary). MyMemory sometimes echoes the input
-    // verbatim for unknown words — treat that as a miss.
+    // MyMemory last resort. It sometimes echoes the input verbatim for
+    // unknown words — treat that as a miss.
     let mmHit = false;
     if (!vn) {
-      const mm = await translateEnToVi(headword);
+      const mm = await translateEnToVi(word);
       const t = mm?.trim() ?? '';
-      if (t && t.toLowerCase() !== headword.toLowerCase() && t.toLowerCase() !== word.toLowerCase()) {
+      if (t && t.toLowerCase() !== word.toLowerCase()) {
         vn = t;
         mmHit = true;
       }
     }
 
+    // 2. IPA + mp3 URL: reuse cached values when present. A fresh Oxford
+    //    scrape costs 1-3s+, so it runs AFTER the response (waitUntil) and
+    //    upserts the row for the next tap — the popup gets its meaning
+    //    immediately, the IPA/audio fill in on later visits.
+    const ipa: string | null = cached?.ipa ?? null;
+    const audioSrc: string | null = cached?.audio_src ?? null;
+    const oxHit = !!(ipa || audioSrc);
+
     // source tag. 'err' variants mark "meaning unresolved for infra reasons"
     // — combined with the vn-null fall-through above they self-heal on a
     // later tap. 'miss' = translators answered and genuinely found nothing.
-    let source: string;
-    if (offlineHit) source = oxHit ? 'oxford+dict' : 'dict+nox';
-    else if (dict) source = oxHit ? 'oxford+ms' : 'ms+nox';
-    else if (mmHit) source = oxHit ? 'oxford+mm' : 'mm+nox';
-    else if (hadError) source = oxHit ? 'oxford+err' : 'err';
-    else source = oxHit ? 'oxford' : 'miss';
+    const meaningTag = (withOx: boolean): string => {
+      if (offlineHit) return withOx ? 'oxford+dict' : 'dict+nox';
+      if (dict) return withOx ? 'oxford+ms' : 'ms+nox';
+      if (mmHit) return withOx ? 'oxford+mm' : 'mm+nox';
+      if (hadError) return withOx ? 'oxford+err' : 'err';
+      return withOx ? 'oxford' : 'miss';
+    };
 
-    await wordGlossaryDb.upsert(word, { vn, pos, ipa, audioSrc, source });
+    await wordGlossaryDb.upsert(word, { vn, pos, ipa, audioSrc, source: meaningTag(oxHit) });
 
-    return NextResponse.json({ word, vn, pos, ipa, audioUrl: audioUrlFor(word, audioSrc), source });
+    if (!oxHit) {
+      const oxfordTask = (async () => {
+        try {
+          for (const cand of candidates) {
+            const ox = await fetchOxfordPronunciationMeta(lookupUrl('Oxford', cand));
+            if (ox.ipaUs || ox.mp3SourceUrl) {
+              await wordGlossaryDb.upsert(word, {
+                vn,
+                pos,
+                ipa: ox.ipaUs,
+                audioSrc: ox.mp3SourceUrl,
+                source: meaningTag(true),
+              });
+              return;
+            }
+          }
+        } catch (err) {
+          console.error('[words/lookup bg oxford] error:', err);
+        }
+      })();
+      try {
+        const cf = await getCloudflareContext({ async: true });
+        cf.ctx.waitUntil(oxfordTask);
+      } catch {
+        oxfordTask.catch(() => {});
+      }
+    }
+
+    return NextResponse.json({
+      word,
+      vn,
+      pos,
+      ipa,
+      audioUrl: audioUrlFor(word, audioSrc),
+      source: meaningTag(oxHit),
+    });
   } catch (err) {
     if (err instanceof UnauthorizedError) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });

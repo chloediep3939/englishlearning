@@ -54,26 +54,64 @@ export const passageTranslationsDb = {
   },
 };
 
+// D1 caps bound parameters at ~100 per statement — chunk IN(...) lists and
+// batched writes accordingly.
+const GLOSSARY_CHUNK = 90;
+
 export const wordGlossaryDb = {
   /** Look up many cleaned words at once. Returns a word→entry map (only hits). */
   async getMany(words: string[]): Promise<Record<string, GlossaryEntry>> {
     const out: Record<string, GlossaryEntry> = {};
     if (words.length === 0) return out;
     const db = await getDb();
-    const placeholders = words.map(() => '?').join(',');
-    const result = await db
-      .prepare(`SELECT * FROM word_glossary WHERE word IN (${placeholders})`)
-      .bind(...words)
-      .all<WordGlossaryRow>();
-    for (const row of result.results ?? []) {
-      out[row.word] = {
-        vn: row.vn,
-        pos: row.pos,
-        ipa: row.ipa,
-        audioUrl: row.audio_src ? `/api/words/audio/${encodeURIComponent(row.word)}` : null,
-      };
+    for (let i = 0; i < words.length; i += GLOSSARY_CHUNK) {
+      const chunk = words.slice(i, i + GLOSSARY_CHUNK);
+      const placeholders = chunk.map(() => '?').join(',');
+      const result = await db
+        .prepare(`SELECT * FROM word_glossary WHERE word IN (${placeholders})`)
+        .bind(...chunk)
+        .all<WordGlossaryRow>();
+      for (const row of result.results ?? []) {
+        out[row.word] = {
+          vn: row.vn,
+          pos: row.pos,
+          ipa: row.ipa,
+          audioUrl: row.audio_src ? `/api/words/audio/${encodeURIComponent(row.word)}` : null,
+        };
+      }
     }
     return out;
+  },
+
+  /**
+   * Batched multi-row upsert (glossary warm-up path). Same overwrite
+   * semantics as `upsert`; chunked db.batch keeps statement counts sane.
+   */
+  async upsertMany(
+    rows: Array<{
+      word: string;
+      vn: string | null;
+      pos: string | null;
+      ipa: string | null;
+      source?: string;
+      audioSrc?: string | null;
+    }>,
+  ): Promise<void> {
+    if (rows.length === 0) return;
+    const db = await getDb();
+    const SQL = `INSERT INTO word_glossary (word, vn, pos, ipa, source, audio_src)
+         VALUES (?, ?, ?, ?, ?, ?)
+         ON CONFLICT(word)
+         DO UPDATE SET vn = excluded.vn, pos = excluded.pos, ipa = excluded.ipa,
+                       source = excluded.source, audio_src = excluded.audio_src`;
+    for (let i = 0; i < rows.length; i += 45) {
+      const chunk = rows.slice(i, i + 45);
+      await db.batch(
+        chunk.map((r) =>
+          db.prepare(SQL).bind(r.word, r.vn, r.pos, r.ipa, r.source ?? 'dict', r.audioSrc ?? null),
+        ),
+      );
+    }
   },
 
   /** Single cleaned word. Returns the row or null. */
