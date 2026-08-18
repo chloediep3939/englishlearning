@@ -4,6 +4,7 @@ import { wordGlossaryDb } from '@/lib/reading/db';
 import { cleanWord } from '@/lib/reading/tokenizer';
 import { lemmaCandidates } from '@/lib/reading/lemma';
 import { dictionaryLookup, getMsCredentials } from '@/lib/reading/ai/ms-translator';
+import { lookupEnVi } from '@/lib/reading/envi-dict';
 import { translateEnToVi } from '@/lib/flashcards/translate';
 import { fetchOxfordPronunciationMeta } from '@/lib/oxford/pronunciation';
 import { lookupUrl } from '@/components/common/LookupPills';
@@ -85,23 +86,43 @@ export async function POST(req: Request) {
       }
     }
 
-    // 3. Vietnamese meaning from MS Dictionary on the resolved headword, then
-    //    the remaining lemma candidates. Track infra failures separately from
-    //    genuine misses — an 'error' must stay retryable, never a frozen miss.
-    const creds = await getMsCredentials();
+    // 3. Vietnamese meaning. Chain: bundled offline dictionary (free,
+    //    instant, no quota — public/envi-dict.json) → MS Dictionary →
+    //    MyMemory. Infra failures are tracked separately from genuine
+    //    misses so an 'error' stays retryable, never a frozen miss.
     let dict: { vn: string; pos: string } | null = null;
-    let hadError = !creds; // missing credentials = infra failure, not a miss
-    if (creds) {
+    let hadError = false;
+    let offlineHit = false;
+
+    {
       const tried = new Set<string>();
       for (const cand of [headword, word, ...lemmaCandidates(word)]) {
         if (tried.has(cand)) continue;
         tried.add(cand);
-        const r = await dictionaryLookup(cand, creds);
-        if (r.status === 'hit') {
-          dict = { vn: r.vn, pos: r.pos };
+        const hit = await lookupEnVi(cand);
+        if (hit) {
+          dict = { vn: hit.vn, pos: hit.pos ?? '' };
+          offlineHit = true;
           break;
         }
-        if (r.status === 'error') hadError = true;
+      }
+    }
+
+    if (!dict) {
+      const creds = await getMsCredentials();
+      hadError = !creds; // missing credentials = infra failure, not a miss
+      if (creds) {
+        const tried = new Set<string>();
+        for (const cand of [headword, word, ...lemmaCandidates(word)]) {
+          if (tried.has(cand)) continue;
+          tried.add(cand);
+          const r = await dictionaryLookup(cand, creds);
+          if (r.status === 'hit') {
+            dict = { vn: r.vn, pos: r.pos };
+            break;
+          }
+          if (r.status === 'error') hadError = true;
+        }
       }
     }
 
@@ -125,7 +146,8 @@ export async function POST(req: Request) {
     // — combined with the vn-null fall-through above they self-heal on a
     // later tap. 'miss' = translators answered and genuinely found nothing.
     let source: string;
-    if (dict) source = oxHit ? 'oxford+ms' : 'ms+nox';
+    if (offlineHit) source = oxHit ? 'oxford+dict' : 'dict+nox';
+    else if (dict) source = oxHit ? 'oxford+ms' : 'ms+nox';
     else if (mmHit) source = oxHit ? 'oxford+mm' : 'mm+nox';
     else if (hadError) source = oxHit ? 'oxford+err' : 'err';
     else source = oxHit ? 'oxford' : 'miss';
