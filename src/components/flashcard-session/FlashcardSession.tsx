@@ -117,6 +117,14 @@ export default function FlashcardSession({ cards, config, recognition = false, a
   // First-rating-per-session guard: ids of cards already rated once. Only
   // the first rating mutates SRS state; later ratings are log-only.
   const ratedOnceRef = useRef<Set<number>>(new Set());
+  // Cards that entered THIS session as brand-new. New words must be typed
+  // correctly TWICE in a row to leave the queue (one lucky copy-type is too
+  // easy), and they get no typo tolerance — review cards keep both perks.
+  const newAtStartRef = useRef<Set<number>>(
+    new Set(cards.filter((c) => c.status === 'new').map((c) => c.id)),
+  );
+  // Consecutive correct answers per card this session (reset by LẠI/KHÓ).
+  const correctStreakRef = useRef<Map<number, number>>(new Map());
 
   const [phase, setPhase] = useState<Phase>('TYPING');
   // Prompt variant for the current card appearance: VI→EN typed recall or
@@ -144,10 +152,14 @@ export default function FlashcardSession({ cards, config, recognition = false, a
   const done = queue.length === 0 || timeStopped;
   // Recognition flip has no guess — treat as "correct" so the Enter default
   // on reveal is TỐT (self-grade flow), matching the flip-and-self-grade UX.
-  // Typed variants allow a 1-char typo (see wordsAlmostEqual).
+  // Typed variants: review cards allow a 1-char typo (wordsAlmostEqual);
+  // NEW words must be typed exactly — they're being learned, not recalled.
   const isCorrect = recognition
     ? true
-    : !!current && wordsAlmostEqual(input, current.english);
+    : !!current &&
+      (newAtStartRef.current.has(current.id)
+        ? input.trim().toLowerCase() === current.english.toLowerCase()
+        : wordsAlmostEqual(input, current.english));
   const progressPct = initialCount > 0 ? (mastered.size / initialCount) * 100 : 0;
 
   // Roll the prompt kind each time a card enters the prompt phase. Only
@@ -287,8 +299,17 @@ export default function FlashcardSession({ cards, config, recognition = false, a
       const applySrs =
         isFirstRating || quality === 0 || (quality >= 4 && failedThisSession);
 
-      // Queue rule (A3): TỐT/DỄ leave the queue, LẠI/KHÓ requeue.
-      const shouldMaster = quality >= 4;
+      // Consecutive-correct streak (reset by LẠI/KHÓ).
+      const streak =
+        quality >= 4 ? (correctStreakRef.current.get(current.id) ?? 0) + 1 : 0;
+      correctStreakRef.current.set(current.id, streak);
+
+      // Queue rule: TỐT/DỄ leave the queue — EXCEPT brand-new words, which
+      // must be typed correctly twice in a row (one copy-type right after
+      // seeing the answer is too easy); their first correct re-queues them
+      // for one more pass. Recognition decks have no typing → 1 pass.
+      const isNewWord = !recognition && newAtStartRef.current.has(current.id);
+      const shouldMaster = quality >= 4 && (!isNewWord || streak >= 2);
 
       void fetch(`/api/cards/${current.id}/rate`, {
         method: 'POST',
@@ -341,7 +362,9 @@ export default function FlashcardSession({ cards, config, recognition = false, a
               };
             })()
           : current;
-        const offset = REQUEUE_OFFSET[quality]!;
+        // Correct-but-not-yet new words go a bit deeper (4) than a LẠI (2)
+        // so the 2nd pass isn't an immediate short-term-memory echo.
+        const offset = quality >= 4 ? 4 : REQUEUE_OFFSET[quality]!;
         setQueue((prev) => {
           const rest = prev.slice(1);
           const insertAt = Math.min(offset, rest.length);
