@@ -111,6 +111,16 @@ export async function GET(req: Request) {
     const newCards =
       mode === 'review' ? [] : await flashcardsDb.getNewRandomInDecks(userId, scopedIds, newLimit);
 
+    // Shuffle the due slice AFTER selection: "most overdue first" only
+    // decides WHICH cards enter the session; presentation order is random
+    // so the learner can't predict the next word from deck order (bulk
+    // imports share one next_review_at, which otherwise preserves insertion
+    // order). Fisher–Yates; Math.random is intentional (per-session order).
+    for (let i = dueCards.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [dueCards[i], dueCards[j]] = [dueCards[j], dueCards[i]];
+    }
+
     payload.cards = interleave(dueCards, newCards);
     return NextResponse.json(payload);
   } catch (err) {

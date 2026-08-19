@@ -139,7 +139,15 @@ export async function GET(req: Request) {
     };
     if (countsOnly) return NextResponse.json(payload);
 
-    const dueItems = mode === 'new' ? [] : dueAll.slice(0, reviewLimit).map(toItem);
+    // Slice picks the most-overdue sentences; the shuffle below randomizes
+    // their presentation order so deck order can't be predicted (bulk
+    // imports share one next_review_at).
+    const duePicked = mode === 'new' ? [] : dueAll.slice(0, reviewLimit);
+    for (let i = duePicked.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [duePicked[i], duePicked[j]] = [duePicked[j], duePicked[i]];
+    }
+    const dueItems = duePicked.map(toItem);
     // Fisher–Yates on a copy; Math.random is intentional (fresh-order shuffle,
     // same rationale as getNewRandomInDecks).
     const freshShuffled = [...freshAll];
