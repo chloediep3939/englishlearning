@@ -40,8 +40,11 @@ export default function PronouncePage() {
     setPhase('loading');
     setLoadError(null);
     try {
+      // Over-fetch then shuffle client-side (same idiom as /sentence) so both
+      // WHICH cards get picked and their order are random — `limit=count`
+      // alone always drilled the same newest cards in the same order.
       const q = new URLSearchParams();
-      q.set('limit', String(count));
+      q.set('limit', '200');
       if (deckId !== null) q.set('deck_id', String(deckId));
       const res = await fetch(`/api/cards?${q.toString()}`);
       if (!res.ok) {
@@ -55,7 +58,11 @@ export default function PronouncePage() {
         setPhase('setup');
         return;
       }
-      setCards(fetched);
+      const picked = fetched
+        .slice()
+        .sort(() => Math.random() - 0.5)
+        .slice(0, count);
+      setCards(picked);
       setPhase('session');
     } catch (e) {
       setLoadError(e instanceof Error ? e.message : 'Lỗi không xác định.');
