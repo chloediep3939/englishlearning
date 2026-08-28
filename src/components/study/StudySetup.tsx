@@ -317,6 +317,33 @@ export default function StudySetup({
               overflowY: 'auto',
             }}
           >
+            {/* Chọn hết / bỏ hết cả danh sách bộ từ */}
+            <div
+              style={{
+                display: 'flex',
+                gap: 6,
+                padding: '2px 2px 8px',
+                borderBottom: '1px solid var(--v-border)',
+                marginBottom: 6,
+              }}
+            >
+              <button
+                type="button"
+                onClick={() => setPickedDeckIds(null)}
+                disabled={selectedIds.length === groupDecks.length}
+                style={bulkBtnStyle(selectedIds.length === groupDecks.length)}
+              >
+                Chọn hết
+              </button>
+              <button
+                type="button"
+                onClick={() => setPickedDeckIds(new Set())}
+                disabled={selectedIds.length === 0}
+                style={bulkBtnStyle(selectedIds.length === 0)}
+              >
+                Bỏ hết
+              </button>
+            </div>
             {groupDecks.map((d) => {
               const checked = selectedIds.includes(d.id);
               return (
@@ -512,5 +539,22 @@ function numberInputStyle(): React.CSSProperties {
     color: 'var(--v-ink)',
     outline: 'none',
     boxSizing: 'border-box',
+  };
+}
+
+function bulkBtnStyle(disabled: boolean): React.CSSProperties {
+  return {
+    flex: 1,
+    padding: '6px 10px',
+    background: 'transparent',
+    border: '1px solid var(--v-border)',
+    borderRadius: 999,
+    fontFamily: 'var(--v-font-head)',
+    fontWeight: 900,
+    fontSize: 11,
+    letterSpacing: '0.04em',
+    color: disabled ? 'var(--v-muted)' : 'var(--v-primary)',
+    cursor: disabled ? 'default' : 'pointer',
+    opacity: disabled ? 0.5 : 1,
   };
 }
