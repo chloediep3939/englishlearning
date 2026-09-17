@@ -137,9 +137,9 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
         </button>
       </div>
 
-      <SectionCard title="Video hướng dẫn & khẩu hình" color={meta.color}>
+      <GroupCard title="Video hướng dẫn & khẩu hình" color={meta.color}>
         <SoundVideoPanel sound={sound} />
-      </SectionCard>
+      </GroupCard>
 
       {/* Two columns on wide screens; stacks on narrow.
           Left = reference (examples + pair comparison),
@@ -213,10 +213,12 @@ function GroupCard({ title, color, children }: { title: string; color: string; c
   return (
     <div
       style={{
-        background: 'var(--v-bg)',
+        background: 'var(--v-surface)',
         border: '1px solid var(--v-border)',
         borderRadius: 'var(--v-radius-lg)',
-        padding: 14,
+        boxShadow: 'var(--v-shadow-sm)',
+        padding: 16,
+        marginBottom: 16,
       }}
     >
       <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
