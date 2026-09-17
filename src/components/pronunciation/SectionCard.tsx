@@ -1,9 +1,8 @@
 import type { ReactNode } from 'react';
 
 /**
- * A titled block inside a GroupCard. No own card box — just a hairline divider
- * above + spacing to separate sections cleanly. The first section's divider
- * doubles as a rule under the GroupCard title.
+ * A titled block inside a GroupCard. No card box, no divider — sections are
+ * separated by generous bottom spacing only.
  */
 export default function SectionCard({
   title,
@@ -15,7 +14,7 @@ export default function SectionCard({
   children: ReactNode;
 }) {
   return (
-    <section style={{ marginTop: 16, paddingTop: 16, borderTop: '1px solid var(--v-border)' }}>
+    <section style={{ paddingBottom: 28 }}>
       <h2
         style={{
           display: 'flex',
