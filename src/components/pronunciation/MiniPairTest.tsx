@@ -58,15 +58,14 @@ export default function MiniPairTest({ slug }: { slug: string }) {
 
   return (
     <div>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
+      <div style={{ textAlign: 'center', marginBottom: 16 }}>
         <button
           type="button"
           onClick={replay}
           aria-label="Nghe lại"
           style={{
-            width: 48,
-            height: 48,
-            flexShrink: 0,
+            width: 84,
+            height: 84,
             borderRadius: '50%',
             background: 'var(--v-purple)',
             color: '#fff',
@@ -75,15 +74,15 @@ export default function MiniPairTest({ slug }: { slug: string }) {
             display: 'inline-flex',
             alignItems: 'center',
             justifyContent: 'center',
-            boxShadow: 'var(--v-shadow-sm)',
+            boxShadow: 'var(--v-press), 0 8px 20px rgba(155,120,220,0.35)',
           }}
         >
-          <Volume2 size={20} />
+          <Volume2 size={34} />
         </button>
-        <div style={{ color: 'var(--v-muted)', fontSize: 'var(--v-text-sm)', flex: 1 }}>
+        <div style={{ color: 'var(--v-ink-soft)', fontSize: 'var(--v-text-md)', fontWeight: 700, marginTop: 10 }}>
           Bạn nghe được từ nào?
         </div>
-        <div style={{ fontFamily: 'var(--v-font-head)', fontWeight: 800, fontSize: 'var(--v-text-sm)', color: 'var(--v-ink-soft)' }}>
+        <div style={{ fontFamily: 'var(--v-font-head)', fontWeight: 800, fontSize: 'var(--v-text-sm)', color: 'var(--v-muted)', marginTop: 2 }}>
           đúng {correct}/{total}
         </div>
       </div>
