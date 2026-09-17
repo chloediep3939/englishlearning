@@ -5,6 +5,7 @@ import { Flame, Play, Sparkles, BookOpen, RotateCcw, Trophy, Zap } from 'lucide-
 import Mascot from '@/components/common/Mascot';
 import ClockPill from '@/components/pomodoro/clock-pill';
 import StreakBar from '@/components/dashboard/streak-bar';
+import RoadmapSummaryCard from '@/components/roadmap/RoadmapSummaryCard';
 import MDashboard from '@/components/app-mobile/screens/MDashboard';
 import { requireUserId } from '@/lib/current-user';
 import {
@@ -14,6 +15,7 @@ import {
   userSettingsDb,
   getDb,
 } from '@/lib/db';
+import { roadmapDb } from '@/lib/roadmap/db';
 import { learnedPct, masteredPct } from '@/lib/flashcards/progress';
 
 function daysAgoIso(n: number): string {
@@ -28,7 +30,7 @@ export default async function DashboardPage() {
   const userId = await requireUserId();
   const db = await getDb();
 
-  const [counts, todayCount, streak, longestStreak, dueRow, activity30, decks, settings] =
+  const [counts, todayCount, streak, longestStreak, dueRow, activity30, decks, settings, roadmapSummary] =
     await Promise.all([
       // Learning stats only count "học đầy đủ" decks — "chỉ hiểu nghĩa"
       // (recognition_only) decks are reference material.
@@ -52,6 +54,7 @@ export default async function DashboardPage() {
       flashcardReviewsDb.getActivityLastDays(userId, 30),
       flashcardDecksDb.getAllWithCounts(userId),
       userSettingsDb.getFlashcardSettings(userId),
+      roadmapDb.getSummary(userId),
     ]);
 
   const dueCount = Number(dueRow?.n) || 0;
@@ -310,6 +313,9 @@ export default async function DashboardPage() {
         <StatTile value={counts.review}   label="Đang ôn"   sub="đã chín"      color="var(--v-primary)" icon={<RotateCcw size={15} color="#fff" strokeWidth={2.6} />} />
         <StatTile value={counts.mastered} label="Thuộc rồi" sub={`/ ${total} từ`} color="var(--v-purple)" icon={<Trophy size={15} color="#fff" strokeWidth={2.6} />} />
       </section>
+
+      {/* Lộ trình B2 — đạt / chưa đạt / chưa test theo 4 kỹ năng */}
+      <RoadmapSummaryCard summary={roadmapSummary} />
 
       {/* Activity chart + decks-by-progress */}
       <section style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>

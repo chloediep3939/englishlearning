@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import {
   LayoutGrid, BookOpen, Zap, FileText,
   Library, Folder, BarChart3, Settings, Mic, PenLine, BookOpenText, Newspaper,
-  ScrollText, NotebookPen, PanelLeftClose, PanelLeftOpen,
+  ScrollText, NotebookPen, PanelLeftClose, PanelLeftOpen, Map,
 } from 'lucide-react';
 import LogoutButton from './LogoutButton';
 import FeedbackWidget from './feedback/feedback-widget';
@@ -21,6 +21,7 @@ interface NavItem {
 
 const NAV: NavItem[] = [
   { href: '/dashboard',  label: 'Tổng quan',       icon: LayoutGrid, color: 'var(--v-primary)' },
+  { href: '/roadmap',    label: 'Lộ trình',        icon: Map,        color: 'var(--v-blue)' },
   { href: '/decks',      label: 'Bộ từ',           icon: Folder,     color: 'var(--v-pink)' },
   // "Thêm từ" (/add) removed from the nav per user request — the route stays
   // reachable from deck detail's "+ Thêm từ" button.

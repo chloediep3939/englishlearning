@@ -20,13 +20,15 @@
         },
         {
           "en": "A holistic approach considers both mind and body together.",
-          "vi": "Cách tiếp cận toàn diện xem xét cả tâm trí lẫn cơ thể cùng nhau."
+          "vi": "Cách tiếp cận toàn diện xem xét cả tâm trí lẫn cơ thể cùng nhau.",
+          "image_url": "https://images.pexels.com/photos/8374559/pexels-photo-8374559.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Teachers favor a holistic approach to student development.",
           "vi": "Giáo viên ưa chuộng cách tiếp cận toàn diện cho sự phát triển của học sinh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "homogeneous group",
@@ -46,7 +48,8 @@
           "en": "No society is truly a homogeneous group of people.",
           "vi": "Không có xã hội nào thực sự là một nhóm người đồng nhất."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "huge amount of",
@@ -64,9 +67,11 @@
         },
         {
           "en": "A huge amount of waste ends up in the ocean.",
-          "vi": "Một lượng rác khổng lồ cuối cùng trôi ra đại dương."
+          "vi": "Một lượng rác khổng lồ cuối cùng trôi ra đại dương.",
+          "image_url": "https://images.pexels.com/photos/30953352/pexels-photo-30953352.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "human activity",
@@ -86,7 +91,8 @@
           "en": "Much human activity leaves a lasting mark on nature.",
           "vi": "Nhiều hoạt động của con người để lại dấu ấn lâu dài lên thiên nhiên."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "human behavior",
@@ -106,7 +112,8 @@
           "en": "Culture strongly influences everyday human behavior.",
           "vi": "Văn hóa ảnh hưởng mạnh đến hành vi thường ngày của con người."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "human interaction",
@@ -116,17 +123,28 @@
       "examples": [
         {
           "en": "Technology has changed the nature of human interaction.",
-          "vi": "Công nghệ đã thay đổi bản chất của tương tác giữa người với người."
+          "vi": "Công nghệ đã thay đổi bản chất của tương tác giữa người với người.",
+          "image_url": "https://images.pexels.com/photos/4630678/pexels-photo-4630678.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Face-to-face human interaction supports emotional well-being.",
-          "vi": "Tương tác trực tiếp giữa người với người hỗ trợ sức khỏe tinh thần."
+          "vi": "Tương tác trực tiếp giữa người với người hỗ trợ sức khỏe tinh thần.",
+          "image_url": "https://images.pexels.com/photos/4630678/pexels-photo-4630678.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The study observed human interaction in public spaces.",
-          "vi": "Nghiên cứu quan sát tương tác giữa người với người ở nơi công cộng."
+          "vi": "Nghiên cứu quan sát tương tác giữa người với người ở nơi công cộng.",
+          "image_url": "https://images.pexels.com/photos/4630678/pexels-photo-4630678.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/4630678/pexels-photo-4630678.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "cottonbro studio",
+        "author_url": "https://www.pexels.com/@cottonbro",
+        "source_url": "https://www.pexels.com/photo/photo-of-people-s-left-hands-4630678/"
+      }
     },
     {
       "english": "human society",
@@ -146,7 +164,8 @@
           "en": "Technology continues to transform human society rapidly.",
           "vi": "Công nghệ tiếp tục biến đổi xã hội loài người một cách nhanh chóng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "human species",
@@ -156,7 +175,8 @@
       "examples": [
         {
           "en": "The human species has spread across nearly every continent.",
-          "vi": "Loài người đã lan rộng khắp gần như mọi lục địa."
+          "vi": "Loài người đã lan rộng khắp gần như mọi lục địa.",
+          "image_url": "https://images.pexels.com/photos/32659461/pexels-photo-32659461.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Climate change poses a real threat to the human species.",
@@ -166,7 +186,8 @@
           "en": "The human species evolved over hundreds of thousands of years.",
           "vi": "Loài người tiến hóa qua hàng trăm nghìn năm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "ideally suited",
@@ -186,7 +207,8 @@
           "en": "This tool is ideally suited for analyzing large datasets.",
           "vi": "Công cụ này rất phù hợp lý tưởng để phân tích các tập dữ liệu lớn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "identify factors",
@@ -200,13 +222,15 @@
         },
         {
           "en": "Researchers tried to identify factors behind the decline.",
-          "vi": "Các nhà nghiên cứu cố xác định các yếu tố đằng sau sự suy giảm."
+          "vi": "Các nhà nghiên cứu cố xác định các yếu tố đằng sau sự suy giảm.",
+          "image_url": "https://images.pexels.com/photos/27288569/pexels-photo-27288569.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "It is hard to identify factors that act together.",
           "vi": "Thật khó để xác định các yếu tố cùng tác động với nhau."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "identify features",
@@ -226,7 +250,8 @@
           "en": "We first identify features common to all the samples.",
           "vi": "Trước tiên chúng tôi xác định các đặc điểm chung của mọi mẫu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "identify a problem",
@@ -244,9 +269,11 @@
         },
         {
           "en": "Good researchers identify a problem worth solving.",
-          "vi": "Nhà nghiên cứu giỏi xác định một vấn đề đáng giải quyết."
+          "vi": "Nhà nghiên cứu giỏi xác định một vấn đề đáng giải quyết.",
+          "image_url": "https://images.pexels.com/photos/1888040/pexels-photo-1888040.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "identify a way",
@@ -266,7 +293,8 @@
           "en": "We need to identify a way to engage younger readers.",
           "vi": "Chúng ta cần tìm ra một cách để thu hút độc giả trẻ hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "identify an area",
@@ -286,7 +314,8 @@
           "en": "She tried to identify an area where she could specialize.",
           "vi": "Cô cố xác định một lĩnh vực mà mình có thể chuyên sâu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "identify an issue",
@@ -296,17 +325,28 @@
       "examples": [
         {
           "en": "The audit helped identify an issue with the accounts.",
-          "vi": "Cuộc kiểm toán giúp xác định một vấn đề với các tài khoản."
+          "vi": "Cuộc kiểm toán giúp xác định một vấn đề với các tài khoản.",
+          "image_url": "https://images.pexels.com/photos/1888011/pexels-photo-1888011.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "It is important to identify an issue before it grows.",
-          "vi": "Điều quan trọng là xác định một vấn đề trước khi nó lớn lên."
+          "vi": "Điều quan trọng là xác định một vấn đề trước khi nó lớn lên.",
+          "image_url": "https://images.pexels.com/photos/1888011/pexels-photo-1888011.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Teachers can identify an issue early through regular feedback.",
-          "vi": "Giáo viên có thể xác định một vấn đề sớm qua phản hồi thường xuyên."
+          "vi": "Giáo viên có thể xác định một vấn đề sớm qua phản hồi thường xuyên.",
+          "image_url": "https://images.pexels.com/photos/1888011/pexels-photo-1888011.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/1888011/pexels-photo-1888011.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Ann H",
+        "author_url": "https://www.pexels.com/@ann-h-45017",
+        "source_url": "https://www.pexels.com/photo/yellow-letter-tiles-1888011/"
+      }
     },
     {
       "english": "immediate environment",
@@ -326,7 +366,8 @@
           "en": "We adapt our behavior to the immediate environment.",
           "vi": "Chúng ta điều chỉnh hành vi theo môi trường xung quanh trực tiếp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "immediately apparent",
@@ -336,7 +377,8 @@
       "examples": [
         {
           "en": "The cause of the error was not immediately apparent.",
-          "vi": "Nguyên nhân của lỗi không rõ ràng ngay lập tức."
+          "vi": "Nguyên nhân của lỗi không rõ ràng ngay lập tức.",
+          "image_url": "https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The benefits became immediately apparent after the change.",
@@ -346,7 +388,8 @@
           "en": "It was immediately apparent that the data was flawed.",
           "vi": "Rõ ràng ngay lập tức rằng dữ liệu có sai sót."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "immediately following",
@@ -366,7 +409,8 @@
           "en": "In the period immediately following the war, prices rose.",
           "vi": "Trong giai đoạn ngay sau chiến tranh, giá cả tăng lên."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "immediately obvious",
@@ -380,13 +424,15 @@
         },
         {
           "en": "It is immediately obvious that the two graphs differ.",
-          "vi": "Hiển nhiên ngay lập tức rằng hai đồ thị này khác nhau."
+          "vi": "Hiển nhiên ngay lập tức rằng hai đồ thị này khác nhau.",
+          "image_url": "https://images.pexels.com/photos/5841845/pexels-photo-5841845.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The flaw becomes immediately obvious when tested properly.",
           "vi": "Khiếm khuyết trở nên hiển nhiên ngay khi được kiểm tra đúng cách."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "immediately preceding",
@@ -406,7 +452,8 @@
           "en": "Events immediately preceding the vote shaped the outcome.",
           "vi": "Những sự kiện ngay trước cuộc bỏ phiếu đã định hình kết quả."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "imported goods",
@@ -424,9 +471,11 @@
         },
         {
           "en": "The country relies heavily on imported goods and fuel.",
-          "vi": "Quốc gia này phụ thuộc nhiều vào hàng hóa và nhiên liệu nhập khẩu."
+          "vi": "Quốc gia này phụ thuộc nhiều vào hàng hóa và nhiên liệu nhập khẩu.",
+          "image_url": "https://images.pexels.com/photos/29899416/pexels-photo-29899416.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "imported products",
@@ -446,7 +495,8 @@
           "en": "Demand for imported products grew steadily last year.",
           "vi": "Nhu cầu về sản phẩm nhập khẩu tăng đều đặn trong năm ngoái."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "impose constraints",
@@ -466,7 +516,8 @@
           "en": "Time pressure imposes constraints on what we can achieve.",
           "vi": "Áp lực thời gian áp đặt những ràng buộc lên điều ta có thể đạt được."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "impose limitations",
@@ -476,17 +527,28 @@
       "examples": [
         {
           "en": "The small sample size imposes limitations on the conclusions.",
-          "vi": "Cỡ mẫu nhỏ áp đặt những hạn chế lên các kết luận."
+          "vi": "Cỡ mẫu nhỏ áp đặt những hạn chế lên các kết luận.",
+          "image_url": "https://images.pexels.com/photos/30945295/pexels-photo-30945295.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Budget cuts impose limitations on the program's scope.",
-          "vi": "Việc cắt giảm ngân sách áp đặt những hạn chế lên phạm vi chương trình."
+          "vi": "Việc cắt giảm ngân sách áp đặt những hạn chế lên phạm vi chương trình.",
+          "image_url": "https://images.pexels.com/photos/30945295/pexels-photo-30945295.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Physical laws impose limitations on what engines can do.",
-          "vi": "Các định luật vật lý áp đặt những hạn chế lên khả năng của động cơ."
+          "vi": "Các định luật vật lý áp đặt những hạn chế lên khả năng của động cơ.",
+          "image_url": "https://images.pexels.com/photos/30945295/pexels-photo-30945295.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/30945295/pexels-photo-30945295.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "author_url": "https://www.pexels.com/@markus-winkler-1430818",
+        "source_url": "https://www.pexels.com/photo/scrabble-letter-tiles-spelling-limits-30945295/"
+      }
     },
     {
       "english": "impose restrictions",
@@ -506,7 +568,8 @@
           "en": "Authorities often impose restrictions to protect public health.",
           "vi": "Nhà chức trách thường áp đặt hạn chế để bảo vệ sức khỏe cộng đồng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "improved performance",
@@ -516,17 +579,28 @@
       "examples": [
         {
           "en": "The new training led to improved performance across the team.",
-          "vi": "Việc đào tạo mới giúp hiệu suất của cả đội được cải thiện."
+          "vi": "Việc đào tạo mới giúp hiệu suất của cả đội được cải thiện.",
+          "image_url": "https://images.pexels.com/photos/949127/pexels-photo-949127.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Researchers measured improved performance after the software update.",
-          "vi": "Các nhà nghiên cứu đo được hiệu suất cải thiện sau khi cập nhật phần mềm."
+          "vi": "Các nhà nghiên cứu đo được hiệu suất cải thiện sau khi cập nhật phần mềm.",
+          "image_url": "https://images.pexels.com/photos/949127/pexels-photo-949127.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Students showed improved performance once they studied regularly.",
-          "vi": "Học sinh có hiệu suất cải thiện khi học đều đặn hơn."
+          "vi": "Học sinh có hiệu suất cải thiện khi học đều đặn hơn.",
+          "image_url": "https://images.pexels.com/photos/949127/pexels-photo-949127.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/949127/pexels-photo-949127.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Victor Freitas",
+        "author_url": "https://www.pexels.com/@victorfreitas",
+        "source_url": "https://www.pexels.com/photo/person-in-red-shirt-lifting-a-barbell-949127/"
+      }
     },
     {
       "english": "increase awareness",
@@ -546,7 +620,8 @@
           "en": "Posters were used to increase awareness among local residents.",
           "vi": "Áp phích được dùng để nâng cao nhận thức cho cư dân địa phương."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increase dramatically",
@@ -556,7 +631,8 @@
       "examples": [
         {
           "en": "House prices increase dramatically when demand outpaces supply.",
-          "vi": "Giá nhà tăng đáng kể khi nhu cầu vượt nguồn cung."
+          "vi": "Giá nhà tăng đáng kể khi nhu cầu vượt nguồn cung.",
+          "image_url": "https://images.pexels.com/photos/33305157/pexels-photo-33305157.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Sales tend to increase dramatically during the holiday season.",
@@ -566,7 +642,8 @@
           "en": "Pollution levels can increase dramatically in crowded cities.",
           "vi": "Mức ô nhiễm có thể tăng đáng kể ở các thành phố đông đúc."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increase likelihood",
@@ -586,7 +663,8 @@
           "en": "Poor diet may increase the likelihood of serious illness.",
           "vi": "Chế độ ăn kém có thể làm tăng khả năng mắc bệnh nặng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increased awareness",
@@ -600,13 +678,15 @@
         },
         {
           "en": "The study reports increased awareness of mental health issues.",
-          "vi": "Nghiên cứu cho thấy nhận thức gia tăng về vấn đề sức khỏe tâm thần."
+          "vi": "Nghiên cứu cho thấy nhận thức gia tăng về vấn đề sức khỏe tâm thần.",
+          "image_url": "https://images.pexels.com/photos/3958396/pexels-photo-3958396.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Increased awareness among voters changed the election outcome.",
           "vi": "Nhận thức gia tăng của cử tri đã thay đổi kết quả bầu cử."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increased competition",
@@ -626,7 +706,8 @@
           "en": "Increased competition often drives faster innovation.",
           "vi": "Cạnh tranh gia tăng thường thúc đẩy đổi mới nhanh hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increased demand",
@@ -644,9 +725,11 @@
         },
         {
           "en": "Increased demand for energy strains the national grid.",
-          "vi": "Nhu cầu gia tăng về năng lượng gây áp lực lên lưới điện quốc gia."
+          "vi": "Nhu cầu gia tăng về năng lượng gây áp lực lên lưới điện quốc gia.",
+          "image_url": "https://images.pexels.com/photos/31277038/pexels-photo-31277038.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increased importance",
@@ -666,7 +749,8 @@
           "en": "Climate policy reflects the increased importance of sustainability.",
           "vi": "Chính sách khí hậu phản ánh tầm quan trọng gia tăng của tính bền vững."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increased interest",
@@ -686,7 +770,8 @@
           "en": "Increased interest in healthy food boosted organic sales.",
           "vi": "Sự quan tâm gia tăng đến thực phẩm lành mạnh thúc đẩy doanh số hữu cơ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increased level",
@@ -696,17 +781,28 @@
       "examples": [
         {
           "en": "Doctors observed an increased level of stress among students.",
-          "vi": "Bác sĩ ghi nhận mức độ căng thẳng gia tăng ở học sinh."
+          "vi": "Bác sĩ ghi nhận mức độ căng thẳng gia tăng ở học sinh.",
+          "image_url": "https://images.pexels.com/photos/19813730/pexels-photo-19813730.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "An increased level of activity improves overall fitness.",
-          "vi": "Mức độ vận động gia tăng cải thiện thể lực tổng thể."
+          "vi": "Mức độ vận động gia tăng cải thiện thể lực tổng thể.",
+          "image_url": "https://images.pexels.com/photos/19813730/pexels-photo-19813730.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The report shows an increased level of public spending.",
-          "vi": "Báo cáo cho thấy mức độ chi tiêu công gia tăng."
+          "vi": "Báo cáo cho thấy mức độ chi tiêu công gia tăng.",
+          "image_url": "https://images.pexels.com/photos/19813730/pexels-photo-19813730.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/19813730/pexels-photo-19813730.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "author_url": "https://www.pexels.com/@markus-winkler-1430818",
+        "source_url": "https://www.pexels.com/photo/the-word-inflation-is-spelled-out-in-scrabble-letters-19813730/"
+      }
     },
     {
       "english": "increased number",
@@ -726,7 +822,8 @@
           "en": "An increased number of firms now offer remote work.",
           "vi": "Số lượng công ty cung cấp làm việc từ xa hiện đã gia tăng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increased pressure",
@@ -736,7 +833,8 @@
       "examples": [
         {
           "en": "Increased pressure at work left many employees exhausted.",
-          "vi": "Áp lực gia tăng tại nơi làm việc khiến nhiều nhân viên kiệt sức."
+          "vi": "Áp lực gia tăng tại nơi làm việc khiến nhiều nhân viên kiệt sức.",
+          "image_url": "https://images.pexels.com/photos/8278873/pexels-photo-8278873.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Farmers face increased pressure from changing weather patterns.",
@@ -746,7 +844,8 @@
           "en": "Increased pressure on resources demands smarter planning.",
           "vi": "Áp lực gia tăng lên tài nguyên đòi hỏi lập kế hoạch thông minh hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increased production",
@@ -766,7 +865,8 @@
           "en": "Increased production of solar panels lowered their cost.",
           "vi": "Sản lượng gia tăng của tấm pin mặt trời làm giảm giá thành."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increased productivity",
@@ -780,13 +880,15 @@
         },
         {
           "en": "Better tools resulted in increased productivity for the team.",
-          "vi": "Công cụ tốt hơn mang lại năng suất gia tăng cho cả đội."
+          "vi": "Công cụ tốt hơn mang lại năng suất gia tăng cho cả đội.",
+          "image_url": "https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Training programs are linked to increased productivity overall.",
           "vi": "Các chương trình đào tạo gắn liền với năng suất gia tăng nói chung."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increased risk",
@@ -806,7 +908,8 @@
           "en": "Climate change creates an increased risk of severe floods.",
           "vi": "Biến đổi khí hậu tạo ra nguy cơ gia tăng về lũ lụt nghiêm trọng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasing awareness",
@@ -824,9 +927,11 @@
         },
         {
           "en": "The media plays a role in increasing awareness of disease.",
-          "vi": "Truyền thông góp phần làm nhận thức về bệnh tật ngày càng tăng."
+          "vi": "Truyền thông góp phần làm nhận thức về bệnh tật ngày càng tăng.",
+          "image_url": "https://images.pexels.com/photos/36376215/pexels-photo-36376215.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasing complexity",
@@ -846,7 +951,8 @@
           "en": "Students struggle with the increasing complexity of the syllabus.",
           "vi": "Học sinh vật lộn với sự phức tạp ngày càng tăng của chương trình học."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasing demand",
@@ -866,7 +972,8 @@
           "en": "Increasing demand for clean water threatens scarce supplies.",
           "vi": "Nhu cầu ngày càng tăng về nước sạch đe dọa nguồn cung khan hiếm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasing emphasis",
@@ -876,17 +983,28 @@
       "examples": [
         {
           "en": "There is increasing emphasis on practical skills in schools.",
-          "vi": "Có sự nhấn mạnh ngày càng tăng vào kỹ năng thực hành trong trường học."
+          "vi": "Có sự nhấn mạnh ngày càng tăng vào kỹ năng thực hành trong trường học.",
+          "image_url": "https://images.pexels.com/photos/30711884/pexels-photo-30711884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Companies place increasing emphasis on customer satisfaction.",
-          "vi": "Các công ty ngày càng nhấn mạnh vào sự hài lòng của khách hàng."
+          "vi": "Các công ty ngày càng nhấn mạnh vào sự hài lòng của khách hàng.",
+          "image_url": "https://images.pexels.com/photos/30711884/pexels-photo-30711884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The increasing emphasis on data drives many new policies.",
-          "vi": "Sự nhấn mạnh ngày càng tăng vào dữ liệu thúc đẩy nhiều chính sách mới."
+          "vi": "Sự nhấn mạnh ngày càng tăng vào dữ liệu thúc đẩy nhiều chính sách mới.",
+          "image_url": "https://images.pexels.com/photos/30711884/pexels-photo-30711884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/30711884/pexels-photo-30711884.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Aurelijus U.",
+        "author_url": "https://www.pexels.com/@aurelijus-u-2148621102",
+        "source_url": "https://www.pexels.com/photo/creative-financial-growth-concept-with-coins-30711884/"
+      }
     },
     {
       "english": "increasing importance",
@@ -906,7 +1024,8 @@
           "en": "Reports highlight the increasing importance of renewable energy.",
           "vi": "Các báo cáo nêu bật tầm quan trọng ngày càng tăng của năng lượng tái tạo."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasing interest",
@@ -916,7 +1035,8 @@
       "examples": [
         {
           "en": "There is increasing interest in studying abroad among teenagers.",
-          "vi": "Có sự quan tâm ngày càng tăng đến du học trong giới thanh thiếu niên."
+          "vi": "Có sự quan tâm ngày càng tăng đến du học trong giới thanh thiếu niên.",
+          "image_url": "https://images.pexels.com/photos/8147392/pexels-photo-8147392.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Scientists show increasing interest in deep-sea exploration.",
@@ -926,7 +1046,8 @@
           "en": "Increasing interest in vegan food expanded the menu options.",
           "vi": "Sự quan tâm ngày càng tăng đến đồ ăn thuần chay mở rộng thực đơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasing pressure",
@@ -946,7 +1067,8 @@
           "en": "Athletes work under increasing pressure to break records.",
           "vi": "Vận động viên làm việc dưới áp lực ngày càng tăng để phá kỷ lục."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasing proportion of",
@@ -960,13 +1082,15 @@
         },
         {
           "en": "An increasing proportion of energy comes from renewable sources.",
-          "vi": "Một tỷ lệ ngày càng tăng của năng lượng đến từ nguồn tái tạo."
+          "vi": "Một tỷ lệ ngày càng tăng của năng lượng đến từ nguồn tái tạo.",
+          "image_url": "https://images.pexels.com/photos/12225080/pexels-photo-12225080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "An increasing proportion of students choose science subjects.",
           "vi": "Một tỷ lệ ngày càng tăng của học sinh chọn các môn khoa học."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasing tendency",
@@ -986,7 +1110,8 @@
           "en": "An increasing tendency to delay marriage is widely observed.",
           "vi": "Xu hướng ngày càng tăng là trì hoãn kết hôn được ghi nhận rộng rãi."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasing trend",
@@ -1004,9 +1129,11 @@
         },
         {
           "en": "Analysts highlight an increasing trend in online payments.",
-          "vi": "Các nhà phân tích nêu bật xu thế ngày càng tăng của thanh toán trực tuyến."
+          "vi": "Các nhà phân tích nêu bật xu thế ngày càng tăng của thanh toán trực tuyến.",
+          "image_url": "https://images.pexels.com/photos/12907747/pexels-photo-12907747.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasingly aware",
@@ -1026,7 +1153,8 @@
           "en": "Companies are increasingly aware of their environmental impact.",
           "vi": "Các công ty ngày càng nhận thức rõ về tác động môi trường của họ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasingly common",
@@ -1046,7 +1174,8 @@
           "en": "Online courses are increasingly common at most universities.",
           "vi": "Khóa học trực tuyến ngày càng phổ biến tại hầu hết các trường đại học."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasingly complex",
@@ -1056,17 +1185,28 @@
       "examples": [
         {
           "en": "Modern supply chains have grown increasingly complex worldwide.",
-          "vi": "Chuỗi cung ứng hiện đại đã trở nên ngày càng phức tạp trên toàn cầu."
+          "vi": "Chuỗi cung ứng hiện đại đã trở nên ngày càng phức tạp trên toàn cầu.",
+          "image_url": "https://images.pexels.com/photos/34472014/pexels-photo-34472014.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The legal system can seem increasingly complex to ordinary people.",
-          "vi": "Hệ thống pháp luật có thể trở nên ngày càng phức tạp với người thường."
+          "vi": "Hệ thống pháp luật có thể trở nên ngày càng phức tạp với người thường.",
+          "image_url": "https://images.pexels.com/photos/34472014/pexels-photo-34472014.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Software architecture becomes increasingly complex as it grows.",
-          "vi": "Kiến trúc phần mềm trở nên ngày càng phức tạp khi mở rộng."
+          "vi": "Kiến trúc phần mềm trở nên ngày càng phức tạp khi mở rộng.",
+          "image_url": "https://images.pexels.com/photos/34472014/pexels-photo-34472014.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/34472014/pexels-photo-34472014.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Steve A Johnson",
+        "author_url": "https://www.pexels.com/@steve",
+        "source_url": "https://www.pexels.com/photo/abstract-white-geometric-structure-art-34472014/"
+      }
     },
     {
       "english": "increasingly difficult",
@@ -1086,7 +1226,8 @@
           "en": "Maintaining focus is increasingly difficult with constant notifications.",
           "vi": "Việc giữ tập trung ngày càng khó khăn với thông báo liên tục."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasingly important",
@@ -1096,7 +1237,8 @@
       "examples": [
         {
           "en": "Digital skills are increasingly important in the job market.",
-          "vi": "Kỹ năng số ngày càng quan trọng trong thị trường lao động."
+          "vi": "Kỹ năng số ngày càng quan trọng trong thị trường lao động.",
+          "image_url": "https://images.pexels.com/photos/12955671/pexels-photo-12955671.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Sustainability has become increasingly important to investors.",
@@ -1106,7 +1248,8 @@
           "en": "Teamwork is increasingly important in research projects.",
           "vi": "Làm việc nhóm ngày càng quan trọng trong các dự án nghiên cứu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasingly popular",
@@ -1126,7 +1269,8 @@
           "en": "Podcasts are increasingly popular as a way to learn.",
           "vi": "Podcast ngày càng được ưa chuộng như một cách để học."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasingly sophisticated",
@@ -1140,13 +1284,15 @@
         },
         {
           "en": "Marketing tools have grown increasingly sophisticated recently.",
-          "vi": "Công cụ tiếp thị đã trở nên ngày càng tinh vi gần đây."
+          "vi": "Công cụ tiếp thị đã trở nên ngày càng tinh vi gần đây.",
+          "image_url": "https://images.pexels.com/photos/6120211/pexels-photo-6120211.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Modern robots are increasingly sophisticated and highly precise.",
           "vi": "Robot hiện đại ngày càng tinh vi và rất chính xác."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "independent state",
@@ -1166,7 +1312,8 @@
           "en": "The treaty recognized the region as an independent state.",
           "vi": "Hiệp ước công nhận khu vực là một nhà nước độc lập."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "independent variable",
@@ -1184,9 +1331,11 @@
         },
         {
           "en": "The independent variable here is the amount of sleep.",
-          "vi": "Biến độc lập ở đây là lượng giấc ngủ."
+          "vi": "Biến độc lập ở đây là lượng giấc ngủ.",
+          "image_url": "https://images.pexels.com/photos/9429485/pexels-photo-9429485.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "indigenous people",
@@ -1206,7 +1355,8 @@
           "en": "Many indigenous people protect ancient forests carefully.",
           "vi": "Nhiều người bản địa bảo vệ những khu rừng cổ một cách cẩn thận."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "indigenous population",
@@ -1226,7 +1376,8 @@
           "en": "The indigenous population maintains its own distinct language.",
           "vi": "Dân số bản địa duy trì ngôn ngữ riêng biệt của mình."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual behavior",
@@ -1236,17 +1387,28 @@
       "examples": [
         {
           "en": "Psychologists study how culture shapes individual behavior.",
-          "vi": "Nhà tâm lý học nghiên cứu cách văn hóa định hình hành vi cá nhân."
+          "vi": "Nhà tâm lý học nghiên cứu cách văn hóa định hình hành vi cá nhân.",
+          "image_url": "https://images.pexels.com/photos/38514394/pexels-photo-38514394.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Individual behavior can change dramatically under group pressure.",
-          "vi": "Hành vi cá nhân có thể thay đổi mạnh dưới áp lực nhóm."
+          "vi": "Hành vi cá nhân có thể thay đổi mạnh dưới áp lực nhóm.",
+          "image_url": "https://images.pexels.com/photos/38514394/pexels-photo-38514394.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The survey measured individual behavior toward saving money.",
-          "vi": "Khảo sát đo lường hành vi cá nhân đối với việc tiết kiệm tiền."
+          "vi": "Khảo sát đo lường hành vi cá nhân đối với việc tiết kiệm tiền.",
+          "image_url": "https://images.pexels.com/photos/38514394/pexels-photo-38514394.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/38514394/pexels-photo-38514394.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Ann H",
+        "author_url": "https://www.pexels.com/@ann-h-45017",
+        "source_url": "https://www.pexels.com/photo/wooden-figures-depicting-social-isolation-concept-38514394/"
+      }
     },
     {
       "english": "individual case",
@@ -1266,7 +1428,8 @@
           "en": "Outcomes vary widely from one individual case to another.",
           "vi": "Kết quả thay đổi rất nhiều từ trường hợp riêng lẻ này sang trường hợp khác."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual characteristics",
@@ -1276,7 +1439,8 @@
       "examples": [
         {
           "en": "Teachers should consider the individual characteristics of students.",
-          "vi": "Giáo viên nên xem xét đặc điểm cá nhân của học sinh."
+          "vi": "Giáo viên nên xem xét đặc điểm cá nhân của học sinh.",
+          "image_url": "https://images.pexels.com/photos/5212340/pexels-photo-5212340.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The study compared individual characteristics across two groups.",
@@ -1286,7 +1450,8 @@
           "en": "Individual characteristics influence how people respond to stress.",
           "vi": "Đặc điểm cá nhân ảnh hưởng đến cách người ta phản ứng với căng thẳng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual choice",
@@ -1306,7 +1471,8 @@
           "en": "Diet is ultimately a matter of individual choice.",
           "vi": "Chế độ ăn rốt cuộc là vấn đề của lựa chọn cá nhân."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual component",
@@ -1320,13 +1486,15 @@
         },
         {
           "en": "Every individual component of the engine was replaced.",
-          "vi": "Mỗi thành phần riêng lẻ của động cơ đã được thay thế."
+          "vi": "Mỗi thành phần riêng lẻ của động cơ đã được thay thế.",
+          "image_url": "https://images.pexels.com/photos/29226626/pexels-photo-29226626.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The report breaks the system into each individual component.",
           "vi": "Báo cáo chia hệ thống thành từng thành phần riêng lẻ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual differences",
@@ -1346,7 +1514,8 @@
           "en": "Teachers must respect individual differences among their students.",
           "vi": "Giáo viên phải tôn trọng sự khác biệt cá nhân giữa học sinh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual element",
@@ -1364,9 +1533,11 @@
         },
         {
           "en": "Removing one individual element changed the whole result.",
-          "vi": "Loại bỏ một yếu tố riêng lẻ đã thay đổi toàn bộ kết quả."
+          "vi": "Loại bỏ một yếu tố riêng lẻ đã thay đổi toàn bộ kết quả.",
+          "image_url": "https://images.pexels.com/photos/11521973/pexels-photo-11521973.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual experience",
@@ -1386,7 +1557,8 @@
           "en": "Individual experience strongly shapes how we view the world.",
           "vi": "Trải nghiệm cá nhân định hình mạnh mẽ cách chúng ta nhìn thế giới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual interests",
@@ -1406,7 +1578,8 @@
           "en": "The policy tries to protect individual interests fairly.",
           "vi": "Chính sách cố gắng bảo vệ lợi ích cá nhân một cách công bằng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual item",
@@ -1416,17 +1589,28 @@
       "examples": [
         {
           "en": "The cashier scanned each individual item at the register.",
-          "vi": "Nhân viên thu ngân quét từng món đồ riêng lẻ tại quầy."
+          "vi": "Nhân viên thu ngân quét từng món đồ riêng lẻ tại quầy.",
+          "image_url": "https://images.pexels.com/photos/7230415/pexels-photo-7230415.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Every individual item in the collection was carefully labeled.",
-          "vi": "Mỗi món đồ riêng lẻ trong bộ sưu tập được dán nhãn cẩn thận."
+          "vi": "Mỗi món đồ riêng lẻ trong bộ sưu tập được dán nhãn cẩn thận.",
+          "image_url": "https://images.pexels.com/photos/7230415/pexels-photo-7230415.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The price of each individual item is listed clearly.",
-          "vi": "Giá của từng món đồ riêng lẻ được niêm yết rõ ràng."
+          "vi": "Giá của từng món đồ riêng lẻ được niêm yết rõ ràng.",
+          "image_url": "https://images.pexels.com/photos/7230415/pexels-photo-7230415.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7230415/pexels-photo-7230415.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "MART  PRODUCTION",
+        "author_url": "https://www.pexels.com/@mart-production",
+        "source_url": "https://www.pexels.com/photo/man-in-black-hoodie-jacket-7230415/"
+      }
     },
     {
       "english": "individual needs",
@@ -1446,7 +1630,8 @@
           "en": "Teachers adapt their lessons to meet individual needs.",
           "vi": "Giáo viên điều chỉnh bài giảng để đáp ứng nhu cầu cá nhân."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual response",
@@ -1456,7 +1641,8 @@
       "examples": [
         {
           "en": "The drug's individual response varies from person to person.",
-          "vi": "Phản ứng cá nhân với thuốc thay đổi tùy từng người."
+          "vi": "Phản ứng cá nhân với thuốc thay đổi tùy từng người.",
+          "image_url": "https://images.pexels.com/photos/4047056/pexels-photo-4047056.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Researchers recorded each individual response to the survey.",
@@ -1466,7 +1652,8 @@
           "en": "Individual response to therapy can be hard to predict.",
           "vi": "Phản ứng cá nhân với liệu pháp có thể khó dự đoán."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual responsibility",
@@ -1486,7 +1673,8 @@
           "en": "Safe driving is a matter of individual responsibility.",
           "vi": "Lái xe an toàn là vấn đề của trách nhiệm cá nhân."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual rights",
@@ -1500,13 +1688,15 @@
         },
         {
           "en": "Courts must balance individual rights against public safety.",
-          "vi": "Tòa án phải cân bằng quyền cá nhân với an toàn công cộng."
+          "vi": "Tòa án phải cân bằng quyền cá nhân với an toàn công cộng.",
+          "image_url": "https://images.pexels.com/photos/33332165/pexels-photo-33332165.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Freedom of speech is a fundamental individual right.",
           "vi": "Tự do ngôn luận là một quyền cá nhân cơ bản."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual variable",
@@ -1526,7 +1716,8 @@
           "en": "An individual variable may have little impact on its own.",
           "vi": "Một biến số cá nhân có thể ít tác động khi đứng riêng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "individual variation",
@@ -1544,9 +1735,11 @@
         },
         {
           "en": "The data showed considerable individual variation in scores.",
-          "vi": "Dữ liệu cho thấy sự biến thiên cá nhân đáng kể về điểm số."
+          "vi": "Dữ liệu cho thấy sự biến thiên cá nhân đáng kể về điểm số.",
+          "image_url": "https://images.pexels.com/photos/29485784/pexels-photo-29485784.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "industrial capitalism",
@@ -1566,7 +1759,8 @@
           "en": "Historians debate the social cost of industrial capitalism.",
           "vi": "Các sử gia tranh luận về cái giá xã hội của chủ nghĩa tư bản công nghiệp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "industrial country",
@@ -1586,7 +1780,8 @@
           "en": "An industrial country usually has a large skilled workforce.",
           "vi": "Một quốc gia công nghiệp thường có lực lượng lao động lành nghề lớn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "industrial development",
@@ -1596,17 +1791,28 @@
       "examples": [
         {
           "en": "Industrial development brought new jobs to the rural region.",
-          "vi": "Phát triển công nghiệp mang lại việc làm mới cho vùng nông thôn."
+          "vi": "Phát triển công nghiệp mang lại việc làm mới cho vùng nông thôn.",
+          "image_url": "https://images.pexels.com/photos/16764815/pexels-photo-16764815.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Rapid industrial development can harm the local environment.",
-          "vi": "Phát triển công nghiệp nhanh có thể gây hại cho môi trường địa phương."
+          "vi": "Phát triển công nghiệp nhanh có thể gây hại cho môi trường địa phương.",
+          "image_url": "https://images.pexels.com/photos/16764815/pexels-photo-16764815.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The government invested heavily in industrial development.",
-          "vi": "Chính phủ đầu tư mạnh vào phát triển công nghiệp."
+          "vi": "Chính phủ đầu tư mạnh vào phát triển công nghiệp.",
+          "image_url": "https://images.pexels.com/photos/16764815/pexels-photo-16764815.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/16764815/pexels-photo-16764815.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Mehmet  Aksoy",
+        "author_url": "https://www.pexels.com/@mehmet-aksoy-374584031",
+        "source_url": "https://www.pexels.com/photo/cranes-over-buildings-in-city-16764815/"
+      }
     },
     {
       "english": "industrial production",
@@ -1626,7 +1832,8 @@
           "en": "Automation has greatly increased industrial production efficiency.",
           "vi": "Tự động hóa đã tăng đáng kể hiệu quả sản xuất công nghiệp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "industrial society",
@@ -1636,7 +1843,8 @@
       "examples": [
         {
           "en": "An industrial society depends on machines and steady energy.",
-          "vi": "Một xã hội công nghiệp phụ thuộc vào máy móc và năng lượng ổn định."
+          "vi": "Một xã hội công nghiệp phụ thuộc vào máy móc và năng lượng ổn định.",
+          "image_url": "https://images.pexels.com/photos/27348529/pexels-photo-27348529.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Life in an industrial society changed family structures greatly.",
@@ -1646,7 +1854,8 @@
           "en": "Industrial society created both wealth and new inequalities.",
           "vi": "Xã hội công nghiệp tạo ra cả sự giàu có lẫn bất bình đẳng mới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "industrialized country",
@@ -1666,7 +1875,8 @@
           "en": "An industrialized country generally has advanced infrastructure.",
           "vi": "Một quốc gia công nghiệp hóa nhìn chung có hạ tầng tiên tiến."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "industrialized nation",
@@ -1680,13 +1890,15 @@
         },
         {
           "en": "Industrialized nations contribute heavily to global emissions.",
-          "vi": "Các quốc gia công nghiệp hóa đóng góp lớn vào khí thải toàn cầu."
+          "vi": "Các quốc gia công nghiệp hóa đóng góp lớn vào khí thải toàn cầu.",
+          "image_url": "https://images.pexels.com/photos/36338337/pexels-photo-36338337.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "An industrialized nation usually offers strong public services.",
           "vi": "Một quốc gia công nghiệp hóa thường cung cấp dịch vụ công mạnh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "increasingly linked to",
@@ -1706,7 +1918,8 @@
           "en": "Rising costs are increasingly linked to global supply issues.",
           "vi": "Chi phí tăng ngày càng gắn liền với vấn đề cung ứng toàn cầu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "infinite number",
@@ -1724,9 +1937,11 @@
         },
         {
           "en": "The universe may contain an infinite number of stars.",
-          "vi": "Vũ trụ có thể chứa vô số ngôi sao."
+          "vi": "Vũ trụ có thể chứa vô số ngôi sao.",
+          "image_url": "https://images.pexels.com/photos/39018962/pexels-photo-39018962.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "information flow",
@@ -1746,7 +1961,8 @@
           "en": "Poor information flow often leads to costly mistakes.",
           "vi": "Luồng thông tin kém thường dẫn đến những sai lầm tốn kém."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "information gathering",
@@ -1766,7 +1982,8 @@
           "en": "Reporters spend much of their time on information gathering.",
           "vi": "Phóng viên dành phần lớn thời gian cho việc thu thập thông tin."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "information processing",
@@ -1776,17 +1993,28 @@
       "examples": [
         {
           "en": "The brain is remarkably fast at information processing.",
-          "vi": "Bộ não xử lý thông tin nhanh một cách đáng kinh ngạc."
+          "vi": "Bộ não xử lý thông tin nhanh một cách đáng kinh ngạc.",
+          "image_url": "https://images.pexels.com/photos/6913234/pexels-photo-6913234.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Computers excel at the rapid information processing of numbers.",
-          "vi": "Máy tính giỏi trong việc xử lý thông tin số liệu nhanh chóng."
+          "vi": "Máy tính giỏi trong việc xử lý thông tin số liệu nhanh chóng.",
+          "image_url": "https://images.pexels.com/photos/6913234/pexels-photo-6913234.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Stress can slow down our everyday information processing.",
-          "vi": "Căng thẳng có thể làm chậm việc xử lý thông tin hằng ngày của ta."
+          "vi": "Căng thẳng có thể làm chậm việc xử lý thông tin hằng ngày của ta.",
+          "image_url": "https://images.pexels.com/photos/6913234/pexels-photo-6913234.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/6913234/pexels-photo-6913234.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Tima Miroshnichenko",
+        "author_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "source_url": "https://www.pexels.com/photo/hands-of-a-person-holding-a-tablet-6913234/"
+      }
     },
     {
       "english": "information retrieval",
@@ -1806,7 +2034,8 @@
           "en": "The library system streamlined information retrieval for students.",
           "vi": "Hệ thống thư viện tinh giản việc truy xuất thông tin cho sinh viên."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "information sharing",
@@ -1816,7 +2045,8 @@
       "examples": [
         {
           "en": "Information sharing between agencies improved the emergency response.",
-          "vi": "Việc chia sẻ thông tin giữa các cơ quan cải thiện ứng phó khẩn cấp."
+          "vi": "Việc chia sẻ thông tin giữa các cơ quan cải thiện ứng phó khẩn cấp.",
+          "image_url": "https://images.pexels.com/photos/28223034/pexels-photo-28223034.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Open information sharing builds trust within a team.",
@@ -1826,7 +2056,8 @@
           "en": "Privacy rules can limit information sharing across borders.",
           "vi": "Quy định riêng tư có thể hạn chế việc chia sẻ thông tin xuyên biên giới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "informed consent",
@@ -1846,7 +2077,8 @@
           "en": "Informed consent means the patient understands the risks involved.",
           "vi": "Sự đồng ý có hiểu biết nghĩa là bệnh nhân hiểu các rủi ro liên quan."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "initial period",
@@ -1860,13 +2092,15 @@
         },
         {
           "en": "The initial period of training is the most demanding.",
-          "vi": "Giai đoạn ban đầu của quá trình huấn luyện là khắt khe nhất."
+          "vi": "Giai đoạn ban đầu của quá trình huấn luyện là khắt khe nhất.",
+          "image_url": "https://images.pexels.com/photos/16552799/pexels-photo-16552799.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "After the initial period, the project gained strong momentum.",
           "vi": "Sau giai đoạn ban đầu, dự án có được đà phát triển mạnh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "initial phase",
@@ -1886,7 +2120,8 @@
           "en": "The initial phase of construction took almost six months.",
           "vi": "Pha ban đầu của việc xây dựng mất gần sáu tháng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "initial position",
@@ -1904,9 +2139,11 @@
         },
         {
           "en": "The negotiator softened from his initial position over time.",
-          "vi": "Người đàm phán dần nới lỏng từ vị trí ban đầu của mình."
+          "vi": "Người đàm phán dần nới lỏng từ vị trí ban đầu của mình.",
+          "image_url": "https://images.pexels.com/photos/38515213/pexels-photo-38515213.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "initial research",
@@ -1926,7 +2163,8 @@
           "en": "Initial research often raises more questions than answers.",
           "vi": "Nghiên cứu ban đầu thường đặt ra nhiều câu hỏi hơn là câu trả lời."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "initial stage",
@@ -1946,7 +2184,8 @@
           "en": "Mistakes made in the initial stage are costly to fix.",
           "vi": "Sai lầm ở giai đoạn đầu rất tốn kém để sửa chữa."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "institutional arrangement",
@@ -1956,17 +2195,28 @@
       "examples": [
         {
           "en": "A stable institutional arrangement supports long-term economic growth.",
-          "vi": "Một sự sắp xếp thể chế ổn định hỗ trợ tăng trưởng kinh tế dài hạn."
+          "vi": "Một sự sắp xếp thể chế ổn định hỗ trợ tăng trưởng kinh tế dài hạn.",
+          "image_url": "https://images.pexels.com/photos/32008337/pexels-photo-32008337.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The reform changed the institutional arrangement of local government.",
-          "vi": "Cuộc cải cách thay đổi sự sắp xếp thể chế của chính quyền địa phương."
+          "vi": "Cuộc cải cách thay đổi sự sắp xếp thể chế của chính quyền địa phương.",
+          "image_url": "https://images.pexels.com/photos/32008337/pexels-photo-32008337.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Researchers compared institutional arrangements across several countries.",
-          "vi": "Các nhà nghiên cứu so sánh sự sắp xếp thể chế giữa nhiều quốc gia."
+          "vi": "Các nhà nghiên cứu so sánh sự sắp xếp thể chế giữa nhiều quốc gia.",
+          "image_url": "https://images.pexels.com/photos/32008337/pexels-photo-32008337.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/32008337/pexels-photo-32008337.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Guohua Song",
+        "author_url": "https://www.pexels.com/@railgunbreaker",
+        "source_url": "https://www.pexels.com/photo/elegant-interior-of-legislative-assembly-hall-32008337/"
+      }
     },
     {
       "english": "institutional context",
@@ -1986,7 +2236,8 @@
           "en": "Behavior differs greatly depending on the institutional context.",
           "vi": "Hành vi khác nhau rất nhiều tùy theo bối cảnh thể chế."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "institutional framework",
@@ -1996,7 +2247,8 @@
       "examples": [
         {
           "en": "A strong institutional framework is needed to enforce the new law.",
-          "vi": "Cần một khuôn khổ thể chế vững mạnh để thực thi luật mới."
+          "vi": "Cần một khuôn khổ thể chế vững mạnh để thực thi luật mới.",
+          "image_url": "https://images.pexels.com/photos/34503228/pexels-photo-34503228.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The treaty established an institutional framework for cooperation.",
@@ -2006,7 +2258,8 @@
           "en": "Without a clear institutional framework, reforms often fail.",
           "vi": "Thiếu khuôn khổ thể chế rõ ràng, các cải cách thường thất bại."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "institutional structure",
@@ -2026,7 +2279,8 @@
           "en": "The institutional structure determines how decisions are made.",
           "vi": "Cấu trúc thể chế quyết định cách các quyết định được đưa ra."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "institutional support",
@@ -2040,13 +2294,15 @@
         },
         {
           "en": "Students benefit from institutional support such as scholarships.",
-          "vi": "Sinh viên hưởng lợi từ sự hỗ trợ thể chế như học bổng."
+          "vi": "Sinh viên hưởng lợi từ sự hỗ trợ thể chế như học bổng.",
+          "image_url": "https://images.pexels.com/photos/12949251/pexels-photo-12949251.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Without institutional support, the initiative quickly collapsed.",
           "vi": "Thiếu sự hỗ trợ thể chế, sáng kiến nhanh chóng sụp đổ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "integral part",
@@ -2066,7 +2322,8 @@
           "en": "Trust is an integral part of any successful partnership.",
           "vi": "Niềm tin là một bộ phận không thể thiếu của mọi quan hệ đối tác thành công."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "integrated approach",
@@ -2084,9 +2341,11 @@
         },
         {
           "en": "An integrated approach to teaching links theory with practice.",
-          "vi": "Cách tiếp cận tích hợp trong giảng dạy kết nối lý thuyết với thực hành."
+          "vi": "Cách tiếp cận tích hợp trong giảng dạy kết nối lý thuyết với thực hành.",
+          "image_url": "https://images.pexels.com/photos/8798953/pexels-photo-8798953.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "integrated system",
@@ -2106,7 +2365,8 @@
           "en": "The hospital introduced an integrated system for patient records.",
           "vi": "Bệnh viện giới thiệu một hệ thống tích hợp cho hồ sơ bệnh nhân."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "intellectual property",
@@ -2126,7 +2386,8 @@
           "en": "Universities increasingly value the intellectual property they create.",
           "vi": "Các trường đại học ngày càng coi trọng sở hữu trí tuệ mà họ tạo ra."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "intellectual work",
@@ -2136,17 +2397,28 @@
       "examples": [
         {
           "en": "Writing a thesis demands sustained intellectual work over many months.",
-          "vi": "Viết luận án đòi hỏi công việc trí óc bền bỉ trong nhiều tháng."
+          "vi": "Viết luận án đòi hỏi công việc trí óc bền bỉ trong nhiều tháng.",
+          "image_url": "https://images.pexels.com/photos/9572629/pexels-photo-9572629.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Universities value intellectual work that pushes the boundaries of knowledge.",
-          "vi": "Các trường đại học coi trọng công việc trí óc mở rộng ranh giới tri thức."
+          "vi": "Các trường đại học coi trọng công việc trí óc mở rộng ranh giới tri thức.",
+          "image_url": "https://images.pexels.com/photos/9572629/pexels-photo-9572629.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Good sleep helps the brain handle demanding intellectual work each day.",
-          "vi": "Ngủ đủ giúp não xử lý công việc trí óc nặng nhọc mỗi ngày."
+          "vi": "Ngủ đủ giúp não xử lý công việc trí óc nặng nhọc mỗi ngày.",
+          "image_url": "https://images.pexels.com/photos/9572629/pexels-photo-9572629.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/9572629/pexels-photo-9572629.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Tima Miroshnichenko",
+        "author_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "source_url": "https://www.pexels.com/photo/busy-woman-using-her-laptop-9572629/"
+      }
     },
     {
       "english": "intensive study",
@@ -2166,7 +2438,8 @@
           "en": "Intensive study of the data revealed several unexpected patterns.",
           "vi": "Việc nghiên cứu chuyên sâu dữ liệu đã hé lộ vài mẫu hình bất ngờ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "interested party",
@@ -2176,7 +2449,8 @@
       "examples": [
         {
           "en": "Every interested party was invited to comment on the proposal.",
-          "vi": "Mọi bên liên quan đều được mời góp ý cho đề xuất."
+          "vi": "Mọi bên liên quan đều được mời góp ý cho đề xuất.",
+          "image_url": "https://images.pexels.com/photos/684319/pexels-photo-684319.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The court must consider the views of each interested party.",
@@ -2186,7 +2460,8 @@
           "en": "As an interested party, the company joined the public consultation.",
           "vi": "Là một bên có quyền lợi, công ty đã tham gia buổi tham vấn công khai."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "internal affairs",
@@ -2206,7 +2481,8 @@
           "en": "Critics said the report meddled in the firm's internal affairs.",
           "vi": "Giới phê bình nói báo cáo can thiệp vào công việc nội bộ của hãng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "internal conflict",
@@ -2220,13 +2496,15 @@
         },
         {
           "en": "The novel explores the hero's internal conflict over loyalty.",
-          "vi": "Cuốn tiểu thuyết khám phá xung đột nội tâm của người hùng về lòng trung thành."
+          "vi": "Cuốn tiểu thuyết khám phá xung đột nội tâm của người hùng về lòng trung thành.",
+          "image_url": "https://images.pexels.com/photos/4142267/pexels-photo-4142267.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Internal conflict among managers delayed the important decision.",
           "vi": "Xung đột nội bộ giữa các quản lý đã trì hoãn quyết định quan trọng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "internal control",
@@ -2246,7 +2524,8 @@
           "en": "Weak internal control allowed the errors to go unnoticed for months.",
           "vi": "Kiểm soát nội bộ yếu khiến các lỗi không bị phát hiện trong nhiều tháng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "internal market",
@@ -2264,9 +2543,11 @@
         },
         {
           "en": "A growing internal market gives local firms more room to expand.",
-          "vi": "Thị trường nội địa đang lớn mạnh cho doanh nghiệp địa phương thêm dư địa mở rộng."
+          "vi": "Thị trường nội địa đang lớn mạnh cho doanh nghiệp địa phương thêm dư địa mở rộng.",
+          "image_url": "https://images.pexels.com/photos/38896179/pexels-photo-38896179.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "internal organ",
@@ -2286,7 +2567,8 @@
           "en": "The liver is an internal organ that filters toxins from blood.",
           "vi": "Gan là một cơ quan nội tạng lọc độc tố khỏi máu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "internal structure",
@@ -2306,7 +2588,8 @@
           "en": "Engineers analyzed the internal structure of the damaged bridge.",
           "vi": "Các kỹ sư đã phân tích cấu trúc bên trong của cây cầu hư hỏng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "international agreement",
@@ -2316,17 +2599,28 @@
       "examples": [
         {
           "en": "A new international agreement set limits on carbon emissions.",
-          "vi": "Một thỏa thuận quốc tế mới đặt ra giới hạn cho phát thải carbon."
+          "vi": "Một thỏa thuận quốc tế mới đặt ra giới hạn cho phát thải carbon.",
+          "image_url": "https://images.pexels.com/photos/6950018/pexels-photo-6950018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Several nations signed the international agreement on trade.",
-          "vi": "Nhiều quốc gia đã ký thỏa thuận quốc tế về thương mại."
+          "vi": "Nhiều quốc gia đã ký thỏa thuận quốc tế về thương mại.",
+          "image_url": "https://images.pexels.com/photos/6950018/pexels-photo-6950018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The international agreement took years of careful negotiation.",
-          "vi": "Thỏa thuận quốc tế đó mất nhiều năm đàm phán thận trọng."
+          "vi": "Thỏa thuận quốc tế đó mất nhiều năm đàm phán thận trọng.",
+          "image_url": "https://images.pexels.com/photos/6950018/pexels-photo-6950018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/6950018/pexels-photo-6950018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Werner Pfennig",
+        "author_url": "https://www.pexels.com/@werner-pfennig",
+        "source_url": "https://www.pexels.com/photo/men-sitting-a-table-signing-papers-6950018/"
+      }
     },
     {
       "english": "international body",
@@ -2346,7 +2640,8 @@
           "en": "The international body issued guidelines for member states.",
           "vi": "Tổ chức quốc tế đã ban hành hướng dẫn cho các quốc gia thành viên."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "international community",
@@ -2356,7 +2651,8 @@
       "examples": [
         {
           "en": "The international community condemned the violence in strong terms.",
-          "vi": "Cộng đồng quốc tế đã lên án mạnh mẽ bạo lực."
+          "vi": "Cộng đồng quốc tế đã lên án mạnh mẽ bạo lực.",
+          "image_url": "https://images.pexels.com/photos/12941823/pexels-photo-12941823.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Climate change requires action from the whole international community.",
@@ -2366,7 +2662,8 @@
           "en": "Aid flowed in once the international community recognized the crisis.",
           "vi": "Viện trợ đổ về khi cộng đồng quốc tế thừa nhận cuộc khủng hoảng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "international conference",
@@ -2386,7 +2683,8 @@
           "en": "Leaders met at an international conference to discuss trade policy.",
           "vi": "Các lãnh đạo gặp nhau tại hội nghị quốc tế để bàn về chính sách thương mại."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "international context",
@@ -2396,17 +2694,21 @@
       "examples": [
         {
           "en": "The policy must be understood within a wider international context.",
-          "vi": "Chính sách này phải được hiểu trong một bối cảnh quốc tế rộng hơn."
+          "vi": "Chính sách này phải được hiểu trong một bối cảnh quốc tế rộng hơn.",
+          "image_url": "https://images.pexels.com/photos/26560462/pexels-photo-26560462.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Her study places local events in an international context.",
-          "vi": "Nghiên cứu của cô đặt các sự kiện địa phương vào bối cảnh quốc tế."
+          "vi": "Nghiên cứu của cô đặt các sự kiện địa phương vào bối cảnh quốc tế.",
+          "image_url": "https://images.pexels.com/photos/26560462/pexels-photo-26560462.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "In an international context, these standards vary considerably.",
-          "vi": "Trong bối cảnh quốc tế, các tiêu chuẩn này khác nhau đáng kể."
+          "vi": "Trong bối cảnh quốc tế, các tiêu chuẩn này khác nhau đáng kể.",
+          "image_url": "https://images.pexels.com/photos/26560462/pexels-photo-26560462.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "international journal",
@@ -2426,7 +2728,8 @@
           "en": "The international journal reviews each submission very carefully.",
           "vi": "Tạp chí quốc tế đánh giá rất kỹ từng bài gửi đến."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "international organization",
@@ -2440,13 +2743,15 @@
         },
         {
           "en": "Many countries fund the international organization through annual dues.",
-          "vi": "Nhiều nước tài trợ cho tổ chức quốc tế qua phí thường niên."
+          "vi": "Nhiều nước tài trợ cho tổ chức quốc tế qua phí thường niên.",
+          "image_url": "https://images.pexels.com/photos/3943733/pexels-photo-3943733.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "She works for an international organization focused on human rights.",
           "vi": "Cô làm việc cho một tổ chức quốc tế tập trung vào nhân quyền."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "international treaty",
@@ -2466,7 +2771,8 @@
           "en": "Ratifying the international treaty required approval from parliament.",
           "vi": "Việc phê chuẩn hiệp ước quốc tế cần sự đồng ý của quốc hội."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "internet access",
@@ -2484,9 +2790,11 @@
         },
         {
           "en": "The library provides free internet access to all members.",
-          "vi": "Thư viện cung cấp truy cập internet miễn phí cho mọi thành viên."
+          "vi": "Thư viện cung cấp truy cập internet miễn phí cho mọi thành viên.",
+          "image_url": "https://images.pexels.com/photos/7983553/pexels-photo-7983553.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "interpersonal relationships",
@@ -2506,7 +2814,8 @@
           "en": "Strong interpersonal relationships help teams resolve conflict quickly.",
           "vi": "Các mối quan hệ tốt giữa người với người giúp đội nhóm giải quyết xung đột nhanh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "interpersonal skills",
@@ -2526,7 +2835,8 @@
           "en": "The workshop helps students develop their interpersonal skills.",
           "vi": "Buổi hội thảo giúp sinh viên phát triển kỹ năng giao tiếp ứng xử."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "interpret data",
@@ -2536,17 +2846,28 @@
       "examples": [
         {
           "en": "Researchers must interpret data carefully before drawing conclusions.",
-          "vi": "Nhà nghiên cứu phải diễn giải dữ liệu cẩn thận trước khi kết luận."
+          "vi": "Nhà nghiên cứu phải diễn giải dữ liệu cẩn thận trước khi kết luận.",
+          "image_url": "https://images.pexels.com/photos/7876664/pexels-photo-7876664.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Students learn to interpret data using statistical software.",
-          "vi": "Sinh viên học cách diễn giải dữ liệu bằng phần mềm thống kê."
+          "vi": "Sinh viên học cách diễn giải dữ liệu bằng phần mềm thống kê.",
+          "image_url": "https://images.pexels.com/photos/7876664/pexels-photo-7876664.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "It is easy to interpret data wrongly without proper context.",
-          "vi": "Rất dễ diễn giải sai dữ liệu nếu thiếu bối cảnh phù hợp."
+          "vi": "Rất dễ diễn giải sai dữ liệu nếu thiếu bối cảnh phù hợp.",
+          "image_url": "https://images.pexels.com/photos/7876664/pexels-photo-7876664.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7876664/pexels-photo-7876664.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "https://kaboompics.com/",
+        "author_url": "https://www.pexels.com/@karola-g",
+        "source_url": "https://www.pexels.com/photo/people-looking-at-the-graph-on-the-board-7876664/"
+      }
     },
     {
       "english": "intimate relationship",
@@ -2566,7 +2887,8 @@
           "en": "Stress can place strain on even a strong intimate relationship.",
           "vi": "Căng thẳng có thể gây áp lực ngay cả lên một mối quan hệ thân mật vững chắc."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "intimately connected to",
@@ -2576,7 +2898,8 @@
       "examples": [
         {
           "en": "Language is intimately connected to the culture that produces it.",
-          "vi": "Ngôn ngữ gắn bó chặt chẽ với nền văn hóa đã sản sinh ra nó."
+          "vi": "Ngôn ngữ gắn bó chặt chẽ với nền văn hóa đã sản sinh ra nó.",
+          "image_url": "https://images.pexels.com/photos/19902307/pexels-photo-19902307.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Poverty is intimately connected to poor health outcomes worldwide.",
@@ -2586,7 +2909,8 @@
           "en": "The two theories are intimately connected to one another.",
           "vi": "Hai lý thuyết này gắn bó chặt chẽ với nhau."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "intrinsic value",
@@ -2606,7 +2930,8 @@
           "en": "The artwork's intrinsic value does not depend on its price.",
           "vi": "Giá trị nội tại của tác phẩm nghệ thuật không phụ thuộc vào giá tiền."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "introduce legislation",
@@ -2620,13 +2945,15 @@
         },
         {
           "en": "Lawmakers introduce legislation hoping to curb pollution.",
-          "vi": "Các nhà lập pháp đưa ra dự luật với hy vọng hạn chế ô nhiễm."
+          "vi": "Các nhà lập pháp đưa ra dự luật với hy vọng hạn chế ô nhiễm.",
+          "image_url": "https://images.pexels.com/photos/37594993/pexels-photo-37594993.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "It took years to introduce legislation protecting workers' rights.",
           "vi": "Phải mất nhiều năm để đưa ra dự luật bảo vệ quyền của người lao động."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "introductory chapter",
@@ -2646,7 +2973,8 @@
           "en": "Her introductory chapter sets out the research questions clearly.",
           "vi": "Chương mở đầu của cô trình bày rõ các câu hỏi nghiên cứu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "introductory section",
@@ -2664,9 +2992,11 @@
         },
         {
           "en": "Reviewers often judge a paper from its introductory section.",
-          "vi": "Người phản biện thường đánh giá bài báo qua phần mở đầu."
+          "vi": "Người phản biện thường đánh giá bài báo qua phần mở đầu.",
+          "image_url": "https://images.pexels.com/photos/4160101/pexels-photo-4160101.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "introductory text",
@@ -2686,7 +3016,8 @@
           "en": "The introductory text includes exercises at the end of each chapter.",
           "vi": "Giáo trình nhập môn có bài tập ở cuối mỗi chương."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "keenly aware",
@@ -2706,7 +3037,8 @@
           "en": "We were keenly aware that time was running short.",
           "vi": "Chúng tôi ý thức rõ rệt rằng thời gian sắp hết."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key area",
@@ -2716,17 +3048,28 @@
       "examples": [
         {
           "en": "The report identifies three key areas for future research.",
-          "vi": "Báo cáo xác định ba lĩnh vực then chốt cho nghiên cứu tương lai."
+          "vi": "Báo cáo xác định ba lĩnh vực then chốt cho nghiên cứu tương lai.",
+          "image_url": "https://images.pexels.com/photos/615350/keys-shelf-keychain-lock-615350.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Healthcare is a key area in which reform is urgently needed.",
-          "vi": "Y tế là một lĩnh vực then chốt cần cải cách gấp."
+          "vi": "Y tế là một lĩnh vực then chốt cần cải cách gấp.",
+          "image_url": "https://images.pexels.com/photos/615350/keys-shelf-keychain-lock-615350.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The course covers several key areas of modern linguistics.",
-          "vi": "Khóa học bao quát vài lĩnh vực then chốt của ngôn ngữ học hiện đại."
+          "vi": "Khóa học bao quát vài lĩnh vực then chốt của ngôn ngữ học hiện đại.",
+          "image_url": "https://images.pexels.com/photos/615350/keys-shelf-keychain-lock-615350.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/615350/keys-shelf-keychain-lock-615350.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "ClickerHappy",
+        "author_url": "https://www.pexels.com/@clickerhappy",
+        "source_url": "https://www.pexels.com/photo/antique-close-up-equipment-hanging-615350/"
+      }
     },
     {
       "english": "key aspect",
@@ -2746,7 +3089,8 @@
           "en": "Cost remains a key aspect of any practical solution.",
           "vi": "Chi phí vẫn là một khía cạnh then chốt của bất kỳ giải pháp thực tế nào."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key characteristic",
@@ -2756,7 +3100,8 @@
       "examples": [
         {
           "en": "Flexibility is a key characteristic of a good research design.",
-          "vi": "Tính linh hoạt là một đặc điểm then chốt của thiết kế nghiên cứu tốt."
+          "vi": "Tính linh hoạt là một đặc điểm then chốt của thiết kế nghiên cứu tốt.",
+          "image_url": "https://images.pexels.com/photos/12199413/pexels-photo-12199413.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The author lists the key characteristics of each social group.",
@@ -2766,7 +3111,8 @@
           "en": "Transparency is a key characteristic of trustworthy institutions.",
           "vi": "Minh bạch là một đặc điểm then chốt của các thể chế đáng tin."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key component",
@@ -2786,7 +3132,8 @@
           "en": "Memory is a key component in the model of cognition.",
           "vi": "Trí nhớ là một thành phần then chốt trong mô hình nhận thức."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key concept",
@@ -2800,13 +3147,15 @@
         },
         {
           "en": "Students should master this key concept before moving on.",
-          "vi": "Sinh viên nên nắm vững khái niệm then chốt này trước khi học tiếp."
+          "vi": "Sinh viên nên nắm vững khái niệm then chốt này trước khi học tiếp.",
+          "image_url": "https://images.pexels.com/photos/8730048/pexels-photo-8730048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Identity is a key concept running through the entire course.",
           "vi": "Bản sắc là một khái niệm then chốt xuyên suốt cả khóa học."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key element",
@@ -2826,7 +3175,8 @@
           "en": "Cooperation became a key element in the project's success.",
           "vi": "Sự hợp tác trở thành một yếu tố then chốt cho thành công của dự án."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key factor",
@@ -2844,9 +3194,11 @@
         },
         {
           "en": "Motivation is often the key factor behind student success.",
-          "vi": "Động lực thường là nhân tố then chốt đằng sau thành công của sinh viên."
+          "vi": "Động lực thường là nhân tố then chốt đằng sau thành công của sinh viên.",
+          "image_url": "https://images.pexels.com/photos/35745624/pexels-photo-35745624.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key feature",
@@ -2866,7 +3218,8 @@
           "en": "Repetition is a key feature of the poem's structure.",
           "vi": "Sự lặp lại là một đặc trưng then chốt trong cấu trúc bài thơ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key findings",
@@ -2886,7 +3239,8 @@
           "en": "The key findings challenge several long-held assumptions.",
           "vi": "Những phát hiện then chốt thách thức vài giả định lâu nay."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key issue",
@@ -2896,17 +3250,28 @@
       "examples": [
         {
           "en": "Funding remains the key issue facing the new program.",
-          "vi": "Kinh phí vẫn là vấn đề then chốt mà chương trình mới đối mặt."
+          "vi": "Kinh phí vẫn là vấn đề then chốt mà chương trình mới đối mặt.",
+          "image_url": "https://images.pexels.com/photos/31816627/pexels-photo-31816627.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The debate centered on one key issue: data privacy.",
-          "vi": "Cuộc tranh luận xoay quanh một vấn đề then chốt: quyền riêng tư dữ liệu."
+          "vi": "Cuộc tranh luận xoay quanh một vấn đề then chốt: quyền riêng tư dữ liệu.",
+          "image_url": "https://images.pexels.com/photos/31816627/pexels-photo-31816627.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Fairness is a key issue in any discussion of taxation.",
-          "vi": "Công bằng là một vấn đề then chốt trong mọi cuộc bàn về thuế."
+          "vi": "Công bằng là một vấn đề then chốt trong mọi cuộc bàn về thuế.",
+          "image_url": "https://images.pexels.com/photos/31816627/pexels-photo-31816627.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/31816627/pexels-photo-31816627.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Patrick",
+        "author_url": "https://www.pexels.com/@jaralol",
+        "source_url": "https://www.pexels.com/photo/close-up-of-keys-on-decorative-fabric-surface-31816627/"
+      }
     },
     {
       "english": "key objective",
@@ -2926,7 +3291,8 @@
           "en": "Improving safety remained the project's key objective throughout.",
           "vi": "Cải thiện an toàn vẫn là mục tiêu then chốt của dự án từ đầu đến cuối."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key player",
@@ -2936,7 +3302,8 @@
       "examples": [
         {
           "en": "The company is a key player in the renewable energy market.",
-          "vi": "Công ty là một nhân vật chủ chốt trên thị trường năng lượng tái tạo."
+          "vi": "Công ty là một nhân vật chủ chốt trên thị trường năng lượng tái tạo.",
+          "image_url": "https://images.pexels.com/photos/371917/pexels-photo-371917.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "She became a key player in the negotiations early on.",
@@ -2946,7 +3313,8 @@
           "en": "Several key players left the project before it was finished.",
           "vi": "Vài nhân vật chủ chốt đã rời dự án trước khi nó hoàn thành."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key policy",
@@ -2966,7 +3334,8 @@
           "en": "Critics questioned whether the key policy would actually work.",
           "vi": "Giới phê bình nghi ngờ liệu chính sách then chốt có thực sự hiệu quả."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key principle",
@@ -2980,13 +3349,15 @@
         },
         {
           "en": "The chapter explains the key principles of sustainable design.",
-          "vi": "Chương này giải thích các nguyên tắc then chốt của thiết kế bền vững."
+          "vi": "Chương này giải thích các nguyên tắc then chốt của thiết kế bền vững.",
+          "image_url": "https://images.pexels.com/photos/9454349/pexels-photo-9454349.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Respect for evidence is a key principle of good science.",
           "vi": "Tôn trọng bằng chứng là một nguyên tắc then chốt của khoa học chân chính."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "key role",
@@ -3006,7 +3377,8 @@
           "en": "She played a key role in organizing the conference.",
           "vi": "Cô đóng vai trò then chốt trong việc tổ chức hội nghị."
         }
-      ]
+      ],
+      "audio_src": null
     }
   ]
 }

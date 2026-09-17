@@ -26,7 +26,8 @@
           "en": "The novel is generally considered a masterpiece of the era.",
           "vi": "Cuốn tiểu thuyết thường được xem là một kiệt tác của thời đại."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "generally found",
@@ -46,7 +47,8 @@
           "en": "The pattern is generally found across most age groups.",
           "vi": "Mô hình này thường thấy ở hầu hết các nhóm tuổi."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "generally known as",
@@ -56,17 +58,28 @@
       "examples": [
         {
           "en": "The condition is generally known as the common cold.",
-          "vi": "Tình trạng này thường được gọi là cảm lạnh thông thường."
+          "vi": "Tình trạng này thường được gọi là cảm lạnh thông thường.",
+          "image_url": "https://images.pexels.com/photos/6632961/pexels-photo-6632961.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "This region is generally known as the country's industrial heart.",
-          "vi": "Vùng này thường được gọi là trái tim công nghiệp của đất nước."
+          "vi": "Vùng này thường được gọi là trái tim công nghiệp của đất nước.",
+          "image_url": "https://images.pexels.com/photos/6632961/pexels-photo-6632961.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The process is generally known as natural selection.",
-          "vi": "Quá trình này thường được gọi là chọn lọc tự nhiên."
+          "vi": "Quá trình này thường được gọi là chọn lọc tự nhiên.",
+          "image_url": "https://images.pexels.com/photos/6632961/pexels-photo-6632961.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/6632961/pexels-photo-6632961.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Cup of  Couple",
+        "author_url": "https://www.pexels.com/@cup-of-couple",
+        "source_url": "https://www.pexels.com/photo/a-hand-putting-plastic-alphabet-on-a-letter-board-6632961/"
+      }
     },
     {
       "english": "genetic variation",
@@ -86,7 +99,8 @@
           "en": "Low genetic variation can make a species vulnerable to disease.",
           "vi": "Biến dị di truyền thấp có thể khiến loài dễ tổn thương trước bệnh tật."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "geographic al area",
@@ -96,7 +110,8 @@
       "examples": [
         {
           "en": "The survey covered a wide geographic al area of the country.",
-          "vi": "Cuộc khảo sát bao phủ một khu vực địa lý rộng lớn của đất nước."
+          "vi": "Cuộc khảo sát bao phủ một khu vực địa lý rộng lớn của đất nước.",
+          "image_url": "https://images.pexels.com/photos/8828424/pexels-photo-8828424.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Rainfall varies greatly from one geographic al area to another.",
@@ -106,7 +121,8 @@
           "en": "The disease was limited to a small geographic al area.",
           "vi": "Dịch bệnh chỉ giới hạn trong một khu vực địa lý nhỏ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "geographic al distribution",
@@ -126,7 +142,8 @@
           "en": "The geographic al distribution of wealth remains highly uneven.",
           "vi": "Sự phân bố của cải theo địa lý vẫn rất không đồng đều."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "geographic al location",
@@ -140,13 +157,15 @@
         },
         {
           "en": "Climate depends heavily on a region's geographic al location.",
-          "vi": "Khí hậu phụ thuộc nhiều vào vị trí địa lý của một vùng."
+          "vi": "Khí hậu phụ thuộc nhiều vào vị trí địa lý của một vùng.",
+          "image_url": "https://images.pexels.com/photos/13069721/pexels-photo-13069721.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Its geographic al location gives the port a strategic advantage.",
           "vi": "Vị trí địa lý mang lại cho cảng này một lợi thế chiến lược."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "get involved with",
@@ -166,7 +185,8 @@
           "en": "Volunteers get involved with the program to gain experience.",
           "vi": "Các tình nguyện viên tham gia vào chương trình để có kinh nghiệm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give access to",
@@ -184,9 +204,11 @@
         },
         {
           "en": "The pass gives access to all areas of the conference.",
-          "vi": "Thẻ vào cổng cho phép tiếp cận mọi khu vực của hội nghị."
+          "vi": "Thẻ vào cổng cho phép tiếp cận mọi khu vực của hội nghị.",
+          "image_url": "https://images.pexels.com/photos/12515074/pexels-photo-12515074.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give consent",
@@ -206,7 +228,8 @@
           "en": "Parents must give consent for children to join the study.",
           "vi": "Phụ huynh phải đồng ý để trẻ em tham gia vào nghiên cứu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give consideration",
@@ -226,7 +249,8 @@
           "en": "Researchers must give consideration to ethical issues in their studies.",
           "vi": "Các nhà nghiên cứu phải cân nhắc các vấn đề đạo đức trong nghiên cứu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give emphasis",
@@ -236,17 +260,28 @@
       "examples": [
         {
           "en": "The teacher gives emphasis to grammar in every writing lesson.",
-          "vi": "Giáo viên chú trọng ngữ pháp trong mỗi bài học viết."
+          "vi": "Giáo viên chú trọng ngữ pháp trong mỗi bài học viết.",
+          "image_url": "https://images.pexels.com/photos/12198521/pexels-photo-12198521.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "This report gives emphasis to the long-term economic effects.",
-          "vi": "Báo cáo này nhấn mạnh các tác động kinh tế dài hạn."
+          "vi": "Báo cáo này nhấn mạnh các tác động kinh tế dài hạn.",
+          "image_url": "https://images.pexels.com/photos/12198521/pexels-photo-12198521.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Modern programs give emphasis to practical skills over theory.",
-          "vi": "Các chương trình hiện đại chú trọng kỹ năng thực hành hơn lý thuyết."
+          "vi": "Các chương trình hiện đại chú trọng kỹ năng thực hành hơn lý thuyết.",
+          "image_url": "https://images.pexels.com/photos/12198521/pexels-photo-12198521.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/12198521/pexels-photo-12198521.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "crazy motions",
+        "author_url": "https://www.pexels.com/@crazy-motions-80195021",
+        "source_url": "https://www.pexels.com/photo/black-and-yellow-light-bulbs-12198521/"
+      }
     },
     {
       "english": "give evidence",
@@ -266,7 +301,8 @@
           "en": "Students must give evidence to support each claim they make.",
           "vi": "Sinh viên phải đưa ra bằng chứng cho mỗi luận điểm họ nêu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give feedback",
@@ -276,7 +312,8 @@
       "examples": [
         {
           "en": "The tutor will give feedback on your essay by Friday.",
-          "vi": "Gia sư sẽ đưa ra phản hồi về bài luận của bạn trước thứ Sáu."
+          "vi": "Gia sư sẽ đưa ra phản hồi về bài luận của bạn trước thứ Sáu.",
+          "image_url": "https://images.pexels.com/photos/35745576/pexels-photo-35745576.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Managers should give feedback that is clear and constructive.",
@@ -286,7 +323,8 @@
           "en": "Peers give feedback to each other during the workshop sessions.",
           "vi": "Các bạn học đưa ra nhận xét cho nhau trong các buổi hội thảo."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give priority to",
@@ -306,7 +344,8 @@
           "en": "The policy gives priority to families with low incomes.",
           "vi": "Chính sách ưu tiên cho các gia đình có thu nhập thấp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give guidance",
@@ -320,13 +359,15 @@
         },
         {
           "en": "This handbook gives guidance on writing a research proposal.",
-          "vi": "Sổ tay này đưa ra hướng dẫn về cách viết đề cương nghiên cứu."
+          "vi": "Sổ tay này đưa ra hướng dẫn về cách viết đề cương nghiên cứu.",
+          "image_url": "https://images.pexels.com/photos/6958523/pexels-photo-6958523.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Experienced staff give guidance to new employees every week.",
           "vi": "Nhân viên giàu kinh nghiệm chỉ dẫn cho người mới mỗi tuần."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give information",
@@ -346,7 +387,8 @@
           "en": "The survey gives information on how customers use the product.",
           "vi": "Cuộc khảo sát cung cấp thông tin về cách khách hàng dùng sản phẩm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give insight into",
@@ -364,9 +406,11 @@
         },
         {
           "en": "These results give insight into the causes of the problem.",
-          "vi": "Những kết quả này giúp hiểu sâu về nguyên nhân của vấn đề."
+          "vi": "Những kết quả này giúp hiểu sâu về nguyên nhân của vấn đề.",
+          "image_url": "https://images.pexels.com/photos/9034783/pexels-photo-9034783.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give a presentation",
@@ -386,7 +430,8 @@
           "en": "The manager gave a presentation about the new sales strategy.",
           "vi": "Quản lý đã trình bày về chiến lược bán hàng mới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give an explanation",
@@ -406,7 +451,8 @@
           "en": "The teacher gave an explanation that everyone could understand.",
           "vi": "Giáo viên đưa ra lời giải thích mà ai cũng có thể hiểu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give an indication of",
@@ -416,17 +462,28 @@
       "examples": [
         {
           "en": "The early data gives an indication of future market trends.",
-          "vi": "Dữ liệu ban đầu cho thấy dấu hiệu về xu hướng thị trường tương lai."
+          "vi": "Dữ liệu ban đầu cho thấy dấu hiệu về xu hướng thị trường tương lai.",
+          "image_url": "https://images.pexels.com/photos/16052956/pexels-photo-16052956.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "His tone gave an indication of how serious the matter was.",
-          "vi": "Giọng điệu của anh biểu thị mức độ nghiêm trọng của vấn đề."
+          "vi": "Giọng điệu của anh biểu thị mức độ nghiêm trọng của vấn đề.",
+          "image_url": "https://images.pexels.com/photos/16052956/pexels-photo-16052956.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "These figures give an indication of the company's overall health.",
-          "vi": "Những con số này cho thấy dấu hiệu về tình hình chung của công ty."
+          "vi": "Những con số này cho thấy dấu hiệu về tình hình chung của công ty.",
+          "image_url": "https://images.pexels.com/photos/16052956/pexels-photo-16052956.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/16052956/pexels-photo-16052956.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Jan van der Wolf",
+        "author_url": "https://www.pexels.com/@jan-van-der-wolf-11680885",
+        "source_url": "https://www.pexels.com/photo/a-white-arrow-in-a-red-circle-showing-the-direction-16052956/"
+      }
     },
     {
       "english": "give an overview of",
@@ -446,7 +503,8 @@
           "en": "This article gives an overview of recent climate research.",
           "vi": "Bài viết này đưa ra cái nhìn tổng quan về nghiên cứu khí hậu gần đây."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give somebody an impression",
@@ -456,7 +514,8 @@
       "examples": [
         {
           "en": "The opening scene gives the reader an impression of danger.",
-          "vi": "Cảnh mở đầu tạo cho người đọc ấn tượng về sự nguy hiểm."
+          "vi": "Cảnh mở đầu tạo cho người đọc ấn tượng về sự nguy hiểm.",
+          "image_url": "https://images.pexels.com/photos/6894165/pexels-photo-6894165.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "His confident speech gave us an impression of real expertise.",
@@ -466,7 +525,8 @@
           "en": "The bright office gave visitors an impression of success.",
           "vi": "Văn phòng sáng sủa tạo cho khách tham quan ấn tượng về sự thành công."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "give somebody treatment",
@@ -486,7 +546,8 @@
           "en": "The clinic gives poorer families treatment at no cost.",
           "vi": "Phòng khám điều trị cho các gia đình nghèo hơn miễn phí."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "given information",
@@ -500,13 +561,15 @@
         },
         {
           "en": "The given information was not enough to solve the case.",
-          "vi": "Thông tin sẵn có không đủ để giải quyết vụ việc."
+          "vi": "Thông tin sẵn có không đủ để giải quyết vụ việc.",
+          "image_url": "https://images.pexels.com/photos/8369524/pexels-photo-8369524.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Students must analyze the given information before answering.",
           "vi": "Sinh viên phải phân tích thông tin đã cho trước khi trả lời."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "given period",
@@ -526,7 +589,8 @@
           "en": "We measured rainfall over a given period of six months.",
           "vi": "Chúng tôi đo lượng mưa trong khoảng thời gian sáu tháng nhất định."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global capitalism",
@@ -544,9 +608,11 @@
         },
         {
           "en": "The course examines the rise of global capitalism after 1980.",
-          "vi": "Khóa học xem xét sự trỗi dậy của chủ nghĩa tư bản toàn cầu sau năm 1980."
+          "vi": "Khóa học xem xét sự trỗi dậy của chủ nghĩa tư bản toàn cầu sau năm 1980.",
+          "image_url": "https://images.pexels.com/photos/19857925/pexels-photo-19857925.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global context",
@@ -566,7 +632,8 @@
           "en": "The author places local events in a broader global context.",
           "vi": "Tác giả đặt các sự kiện địa phương vào bối cảnh toàn cầu rộng hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global culture",
@@ -586,7 +653,8 @@
           "en": "Music and films spread global culture across many borders.",
           "vi": "Âm nhạc và phim ảnh lan truyền văn hóa toàn cầu qua nhiều biên giới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global economy",
@@ -596,17 +664,28 @@
       "examples": [
         {
           "en": "Rising oil prices affect the entire global economy quickly.",
-          "vi": "Giá dầu tăng ảnh hưởng nhanh đến toàn bộ nền kinh tế toàn cầu."
+          "vi": "Giá dầu tăng ảnh hưởng nhanh đến toàn bộ nền kinh tế toàn cầu.",
+          "image_url": "https://images.pexels.com/photos/7412098/pexels-photo-7412098.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The global economy slowed during the recent financial crisis.",
-          "vi": "Nền kinh tế toàn cầu chậm lại trong cuộc khủng hoảng tài chính gần đây."
+          "vi": "Nền kinh tế toàn cầu chậm lại trong cuộc khủng hoảng tài chính gần đây.",
+          "image_url": "https://images.pexels.com/photos/7412098/pexels-photo-7412098.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Many countries depend on each other in the global economy.",
-          "vi": "Nhiều quốc gia phụ thuộc lẫn nhau trong nền kinh tế toàn cầu."
+          "vi": "Nhiều quốc gia phụ thuộc lẫn nhau trong nền kinh tế toàn cầu.",
+          "image_url": "https://images.pexels.com/photos/7412098/pexels-photo-7412098.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7412098/pexels-photo-7412098.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Monstera Production",
+        "author_url": "https://www.pexels.com/@gabby-k",
+        "source_url": "https://www.pexels.com/photo/anonymous-person-magnifying-view-of-coins-shaped-in-world-map-7412098/"
+      }
     },
     {
       "english": "global issue",
@@ -626,7 +705,8 @@
           "en": "The conference focused on global issues such as disease and hunger.",
           "vi": "Hội nghị tập trung vào các vấn đề toàn cầu như bệnh tật và nạn đói."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global market",
@@ -636,7 +716,8 @@
       "examples": [
         {
           "en": "The company sells its products in the global market today.",
-          "vi": "Công ty bán sản phẩm của mình trên thị trường toàn cầu hiện nay."
+          "vi": "Công ty bán sản phẩm của mình trên thị trường toàn cầu hiện nay.",
+          "image_url": "https://images.pexels.com/photos/2882650/pexels-photo-2882650.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Competition in the global market keeps prices relatively low.",
@@ -646,7 +727,8 @@
           "en": "Small firms struggle to enter the global market alone.",
           "vi": "Các doanh nghiệp nhỏ khó tự mình thâm nhập thị trường toàn cầu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global marketplace",
@@ -666,7 +748,8 @@
           "en": "Brand reputation matters greatly in the global marketplace.",
           "vi": "Uy tín thương hiệu rất quan trọng trên thương trường toàn cầu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global media",
@@ -680,13 +763,15 @@
         },
         {
           "en": "Global media shapes how people view distant conflicts.",
-          "vi": "Truyền thông toàn cầu định hình cách con người nhìn nhận các xung đột ở xa."
+          "vi": "Truyền thông toàn cầu định hình cách con người nhìn nhận các xung đột ở xa.",
+          "image_url": "https://images.pexels.com/photos/11816424/pexels-photo-11816424.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "A few large firms control much of the global media.",
           "vi": "Vài tập đoàn lớn kiểm soát phần lớn truyền thông toàn cầu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global network",
@@ -706,7 +791,8 @@
           "en": "A global network of volunteers supports the relief effort.",
           "vi": "Một mạng lưới tình nguyện viên toàn cầu hỗ trợ công tác cứu trợ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global perspective",
@@ -724,9 +810,11 @@
         },
         {
           "en": "The book adopts a global perspective on economic development.",
-          "vi": "Cuốn sách áp dụng góc nhìn toàn cầu về phát triển kinh tế."
+          "vi": "Cuốn sách áp dụng góc nhìn toàn cầu về phát triển kinh tế.",
+          "image_url": "https://images.pexels.com/photos/17545208/pexels-photo-17545208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global shift",
@@ -746,7 +834,8 @@
           "en": "A global shift in attitudes has improved environmental awareness.",
           "vi": "Sự dịch chuyển toàn cầu trong thái độ đã nâng cao ý thức môi trường."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global structure",
@@ -766,7 +855,8 @@
           "en": "A clear global structure helps the organization coordinate work.",
           "vi": "Một cấu trúc toàn cầu rõ ràng giúp tổ chức phối hợp công việc."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "global trade",
@@ -776,17 +866,28 @@
       "examples": [
         {
           "en": "Global trade allows countries to exchange goods they lack.",
-          "vi": "Thương mại toàn cầu cho phép các nước trao đổi hàng hóa họ thiếu."
+          "vi": "Thương mại toàn cầu cho phép các nước trao đổi hàng hóa họ thiếu.",
+          "image_url": "https://images.pexels.com/photos/7947853/pexels-photo-7947853.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The crisis caused a sharp fall in global trade.",
-          "vi": "Cuộc khủng hoảng khiến thương mại toàn cầu sụt giảm mạnh."
+          "vi": "Cuộc khủng hoảng khiến thương mại toàn cầu sụt giảm mạnh.",
+          "image_url": "https://images.pexels.com/photos/7947853/pexels-photo-7947853.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "New agreements aim to make global trade fairer for all.",
-          "vi": "Các thỏa thuận mới nhằm làm cho thương mại toàn cầu công bằng hơn."
+          "vi": "Các thỏa thuận mới nhằm làm cho thương mại toàn cầu công bằng hơn.",
+          "image_url": "https://images.pexels.com/photos/7947853/pexels-photo-7947853.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7947853/pexels-photo-7947853.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "RDNE Stock project",
+        "author_url": "https://www.pexels.com/@rdne",
+        "source_url": "https://www.pexels.com/photo/close-up-shot-of-a-paper-with-graph-7947853/"
+      }
     },
     {
       "english": "global village",
@@ -806,7 +907,8 @@
           "en": "The idea of a global village highlights how connected we are.",
           "vi": "Ý tưởng về ngôi làng toàn cầu nhấn mạnh chúng ta kết nối ra sao."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "government control",
@@ -816,7 +918,8 @@
       "examples": [
         {
           "en": "The industry operated under strict government control for years.",
-          "vi": "Ngành công nghiệp này hoạt động dưới sự kiểm soát chặt của chính phủ nhiều năm."
+          "vi": "Ngành công nghiệp này hoạt động dưới sự kiểm soát chặt của chính phủ nhiều năm.",
+          "image_url": "https://images.pexels.com/photos/2995864/pexels-photo-2995864.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Some argue that government control limits business innovation.",
@@ -826,7 +929,8 @@
           "en": "Prices fell after government control of the market ended.",
           "vi": "Giá giảm sau khi sự kiểm soát thị trường của chính phủ chấm dứt."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "government department",
@@ -846,7 +950,8 @@
           "en": "The government department published its annual budget yesterday.",
           "vi": "Cơ quan chính phủ đã công bố ngân sách hàng năm hôm qua."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "government expenditure",
@@ -860,13 +965,15 @@
         },
         {
           "en": "High government expenditure can lead to a large national debt.",
-          "vi": "Chi tiêu cao của chính phủ có thể dẫn đến nợ quốc gia lớn."
+          "vi": "Chi tiêu cao của chính phủ có thể dẫn đến nợ quốc gia lớn.",
+          "image_url": "https://images.pexels.com/photos/128867/coins-currency-investment-insurance-128867.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The report analyzes government expenditure across several countries.",
           "vi": "Báo cáo phân tích chi tiêu của chính phủ ở nhiều quốc gia."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "government intervention",
@@ -886,7 +993,8 @@
           "en": "Without government intervention, the crisis might have worsened.",
           "vi": "Nếu không có sự can thiệp của chính phủ, khủng hoảng có thể tệ hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "government policy",
@@ -904,9 +1012,11 @@
         },
         {
           "en": "Critics say government policy ignores the needs of rural areas.",
-          "vi": "Người chỉ trích nói chính sách của chính phủ bỏ qua nhu cầu vùng nông thôn."
+          "vi": "Người chỉ trích nói chính sách của chính phủ bỏ qua nhu cầu vùng nông thôn.",
+          "image_url": "https://images.pexels.com/photos/32543681/pexels-photo-32543681.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "graphical representation",
@@ -926,7 +1036,8 @@
           "en": "Students created a graphical representation of their results.",
           "vi": "Sinh viên đã tạo một biểu diễn bằng đồ thị cho kết quả của họ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "great accuracy",
@@ -946,7 +1057,8 @@
           "en": "The model predicts rainfall with surprisingly great accuracy.",
           "vi": "Mô hình dự đoán lượng mưa với độ chính xác cao đáng ngạc nhiên."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "great diversity",
@@ -956,17 +1068,28 @@
       "examples": [
         {
           "en": "The region shows great diversity in its plants and animals.",
-          "vi": "Vùng này thể hiện sự đa dạng lớn về thực vật và động vật."
+          "vi": "Vùng này thể hiện sự đa dạng lớn về thực vật và động vật.",
+          "image_url": "https://images.pexels.com/photos/8770952/pexels-photo-8770952.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "There is great diversity of opinion among the experts.",
-          "vi": "Có sự đa dạng lớn về quan điểm giữa các chuyên gia."
+          "vi": "Có sự đa dạng lớn về quan điểm giữa các chuyên gia.",
+          "image_url": "https://images.pexels.com/photos/8770952/pexels-photo-8770952.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The city is known for the great diversity of its people.",
-          "vi": "Thành phố nổi tiếng với sự đa dạng lớn của cư dân."
+          "vi": "Thành phố nổi tiếng với sự đa dạng lớn của cư dân.",
+          "image_url": "https://images.pexels.com/photos/8770952/pexels-photo-8770952.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/8770952/pexels-photo-8770952.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Gustavo Fring",
+        "author_url": "https://www.pexels.com/@gustavo-fring",
+        "source_url": "https://www.pexels.com/photo/people-in-traditional-clothing-smiling-8770952/"
+      }
     },
     {
       "english": "great impact",
@@ -986,7 +1109,8 @@
           "en": "Early childhood experiences have a great impact on later life.",
           "vi": "Những trải nghiệm thời thơ ấu có tác động lớn đến cuộc sống về sau."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "great majority",
@@ -996,7 +1120,8 @@
       "examples": [
         {
           "en": "The great majority of students passed the final exam easily.",
-          "vi": "Đại đa số sinh viên dễ dàng vượt qua kỳ thi cuối kỳ."
+          "vi": "Đại đa số sinh viên dễ dàng vượt qua kỳ thi cuối kỳ.",
+          "image_url": "https://images.pexels.com/photos/4560076/pexels-photo-4560076.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "In the survey, the great majority supported the new plan.",
@@ -1006,7 +1131,8 @@
           "en": "The great majority of accidents happen on busy roads.",
           "vi": "Đại đa số tai nạn xảy ra trên những con đường đông đúc."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "great potential",
@@ -1026,7 +1152,8 @@
           "en": "This region has great potential for tourism and agriculture.",
           "vi": "Vùng này có tiềm năng lớn cho du lịch và nông nghiệp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "great proportion of",
@@ -1040,13 +1167,15 @@
         },
         {
           "en": "A great proportion of the population lives in coastal cities.",
-          "vi": "Một tỷ lệ lớn dân số sống ở các thành phố ven biển."
+          "vi": "Một tỷ lệ lớn dân số sống ở các thành phố ven biển.",
+          "image_url": "https://images.pexels.com/photos/18732725/pexels-photo-18732725.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "A great proportion of the data was lost in the failure.",
           "vi": "Một tỷ lệ lớn dữ liệu đã bị mất trong sự cố."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "great range of",
@@ -1066,7 +1195,8 @@
           "en": "The course covers a great range of topics in biology.",
           "vi": "Khóa học bao quát phạm vi rộng các chủ đề trong sinh học."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "great significance",
@@ -1084,9 +1214,11 @@
         },
         {
           "en": "These findings hold great significance for future research.",
-          "vi": "Những phát hiện này có tầm quan trọng lớn cho nghiên cứu tương lai."
+          "vi": "Những phát hiện này có tầm quan trọng lớn cho nghiên cứu tương lai.",
+          "image_url": "https://images.pexels.com/photos/8944957/pexels-photo-8944957.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "greater autonomy",
@@ -1106,7 +1238,8 @@
           "en": "Greater autonomy can improve both motivation and creativity.",
           "vi": "Quyền tự chủ lớn hơn có thể cải thiện cả động lực và sự sáng tạo."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "greater awareness",
@@ -1126,7 +1259,8 @@
           "en": "Education leads to greater awareness of environmental problems.",
           "vi": "Giáo dục dẫn đến nhận thức cao hơn về các vấn đề môi trường."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "greater emphasis",
@@ -1136,17 +1270,28 @@
       "examples": [
         {
           "en": "Schools now place greater emphasis on critical thinking skills.",
-          "vi": "Các trường giờ đây nhấn mạnh nhiều hơn vào kỹ năng tư duy phản biện."
+          "vi": "Các trường giờ đây nhấn mạnh nhiều hơn vào kỹ năng tư duy phản biện.",
+          "image_url": "https://images.pexels.com/photos/7964047/pexels-photo-7964047.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The company puts greater emphasis on customer satisfaction.",
-          "vi": "Công ty đặt sự nhấn mạnh nhiều hơn vào sự hài lòng của khách hàng."
+          "vi": "Công ty đặt sự nhấn mạnh nhiều hơn vào sự hài lòng của khách hàng.",
+          "image_url": "https://images.pexels.com/photos/7964047/pexels-photo-7964047.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "We need greater emphasis on prevention rather than treatment.",
-          "vi": "Chúng ta cần nhấn mạnh nhiều hơn vào phòng ngừa thay vì điều trị."
+          "vi": "Chúng ta cần nhấn mạnh nhiều hơn vào phòng ngừa thay vì điều trị.",
+          "image_url": "https://images.pexels.com/photos/7964047/pexels-photo-7964047.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7964047/pexels-photo-7964047.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Roxanne Minnish",
+        "author_url": "https://www.pexels.com/@roxanne-minnish-2936023",
+        "source_url": "https://www.pexels.com/photo/back-view-of-woman-writing-notes-on-a-whiteboard-7964047/"
+      }
     },
     {
       "english": "greater equality",
@@ -1166,7 +1311,8 @@
           "en": "Greater equality in education benefits the whole society.",
           "vi": "Sự bình đẳng lớn hơn trong giáo dục mang lại lợi ích cho cả xã hội."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "greater flexibility",
@@ -1176,7 +1322,8 @@
       "examples": [
         {
           "en": "Remote work offers employees greater flexibility in their schedules.",
-          "vi": "Làm việc từ xa mang lại cho nhân viên sự linh hoạt cao hơn về lịch trình."
+          "vi": "Làm việc từ xa mang lại cho nhân viên sự linh hoạt cao hơn về lịch trình.",
+          "image_url": "https://images.pexels.com/photos/18955784/pexels-photo-18955784.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The new system allows greater flexibility in choosing courses.",
@@ -1186,7 +1333,8 @@
           "en": "Greater flexibility helps companies respond to sudden changes.",
           "vi": "Sự linh hoạt cao hơn giúp công ty ứng phó với thay đổi đột ngột."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "greater likelihood",
@@ -1206,7 +1354,8 @@
           "en": "Poor diet is linked to a greater likelihood of disease.",
           "vi": "Chế độ ăn kém liên quan đến khả năng mắc bệnh cao hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "greatly enhance",
@@ -1220,13 +1369,15 @@
         },
         {
           "en": "New software will greatly enhance the team's productivity.",
-          "vi": "Phần mềm mới sẽ nâng cao đáng kể năng suất của nhóm."
+          "vi": "Phần mềm mới sẽ nâng cao đáng kể năng suất của nhóm.",
+          "image_url": "https://images.pexels.com/photos/3688761/pexels-photo-3688761.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Studying abroad can greatly enhance your career prospects.",
           "vi": "Du học có thể nâng cao đáng kể triển vọng nghề nghiệp của bạn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "greatly increase",
@@ -1246,7 +1397,8 @@
           "en": "Advertising can greatly increase sales of a new product.",
           "vi": "Quảng cáo có thể tăng đáng kể doanh số của sản phẩm mới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "greatly influenced by",
@@ -1264,9 +1416,11 @@
         },
         {
           "en": "Modern science was greatly influenced by ancient Greek thinkers.",
-          "vi": "Khoa học hiện đại chịu ảnh hưởng lớn bởi các nhà tư tưởng Hy Lạp cổ."
+          "vi": "Khoa học hiện đại chịu ảnh hưởng lớn bởi các nhà tư tưởng Hy Lạp cổ.",
+          "image_url": "https://images.pexels.com/photos/15189446/pexels-photo-15189446.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "greatly reduced",
@@ -1286,7 +1440,8 @@
           "en": "Travel time was greatly reduced once the bridge opened.",
           "vi": "Thời gian di chuyển giảm đáng kể khi cây cầu được khánh thành."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "grow rapidly",
@@ -1306,7 +1461,8 @@
           "en": "Demand for electric cars continues to grow rapidly worldwide.",
           "vi": "Nhu cầu về ô tô điện tiếp tục phát triển nhanh chóng trên toàn cầu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "growing awareness",
@@ -1316,17 +1472,28 @@
       "examples": [
         {
           "en": "There is growing awareness of the effects of climate change.",
-          "vi": "Có nhận thức ngày càng tăng về các tác động của biến đổi khí hậu."
+          "vi": "Có nhận thức ngày càng tăng về các tác động của biến đổi khí hậu.",
+          "image_url": "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Growing awareness of healthy eating has changed shopping habits.",
-          "vi": "Nhận thức ngày càng tăng về ăn uống lành mạnh đã thay đổi thói quen mua sắm."
+          "vi": "Nhận thức ngày càng tăng về ăn uống lành mạnh đã thay đổi thói quen mua sắm.",
+          "image_url": "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The campaign reflects growing awareness of online safety.",
-          "vi": "Chiến dịch phản ánh nhận thức ngày càng tăng về an toàn trực tuyến."
+          "vi": "Chiến dịch phản ánh nhận thức ngày càng tăng về an toàn trực tuyến.",
+          "image_url": "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Akil  Mazumder",
+        "author_url": "https://www.pexels.com/@akilmazumder",
+        "source_url": "https://www.pexels.com/photo/person-holding-a-green-plant-1072824/"
+      }
     },
     {
       "english": "growing trend",
@@ -1346,7 +1513,8 @@
           "en": "The report identifies a growing trend in renewable energy use.",
           "vi": "Báo cáo chỉ ra một xu hướng ngày càng tăng về dùng năng lượng tái tạo."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "guiding principle",
@@ -1356,7 +1524,8 @@
       "examples": [
         {
           "en": "Honesty is the guiding principle of our entire organization.",
-          "vi": "Trung thực là nguyên tắc chỉ đạo của toàn bộ tổ chức chúng tôi."
+          "vi": "Trung thực là nguyên tắc chỉ đạo của toàn bộ tổ chức chúng tôi.",
+          "image_url": "https://images.pexels.com/photos/6077861/pexels-photo-6077861.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Fairness should be the guiding principle behind every decision.",
@@ -1366,7 +1535,8 @@
           "en": "The guiding principle of the law is to protect citizens.",
           "vi": "Nguyên tắc chỉ đạo của luật là bảo vệ công dân."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "hardly surprising",
@@ -1386,7 +1556,8 @@
           "en": "It is hardly surprising that students prefer shorter lectures.",
           "vi": "Chẳng có gì đáng ngạc nhiên khi sinh viên thích các bài giảng ngắn hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "have access to",
@@ -1400,13 +1571,15 @@
         },
         {
           "en": "Many rural areas still do not have access to clean water.",
-          "vi": "Nhiều vùng nông thôn vẫn chưa được sử dụng nước sạch."
+          "vi": "Nhiều vùng nông thôn vẫn chưa được sử dụng nước sạch.",
+          "image_url": "https://images.pexels.com/photos/28101461/pexels-photo-28101461.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Only managers have access to the confidential files.",
           "vi": "Chỉ quản lý mới có quyền tiếp cận các hồ sơ mật."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "have consequences",
@@ -1426,7 +1599,8 @@
           "en": "Poor planning often has consequences that are hard to fix.",
           "vi": "Lập kế hoạch kém thường gây ra hậu quả khó khắc phục."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "have limitations",
@@ -1444,9 +1618,11 @@
         },
         {
           "en": "Even the best technology has limitations in extreme conditions.",
-          "vi": "Ngay cả công nghệ tốt nhất cũng có hạn chế trong điều kiện khắc nghiệt."
+          "vi": "Ngay cả công nghệ tốt nhất cũng có hạn chế trong điều kiện khắc nghiệt.",
+          "image_url": "https://images.pexels.com/photos/34988603/pexels-photo-34988603.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "have potential",
@@ -1466,7 +1642,8 @@
           "en": "Renewable sources have potential to replace fossil fuels.",
           "vi": "Các nguồn tái tạo có tiềm năng thay thế nhiên liệu hóa thạch."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "have a strategy",
@@ -1486,7 +1663,8 @@
           "en": "The team needs to have a strategy to handle the crisis.",
           "vi": "Nhóm cần có một chiến lược để xử lý khủng hoảng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "have a tendency to",
@@ -1496,17 +1674,28 @@
       "examples": [
         {
           "en": "People have a tendency to remember bad news more easily.",
-          "vi": "Con người có xu hướng nhớ tin xấu dễ dàng hơn."
+          "vi": "Con người có xu hướng nhớ tin xấu dễ dàng hơn.",
+          "image_url": "https://images.pexels.com/photos/16683966/pexels-photo-16683966.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "New drivers have a tendency to brake too suddenly.",
-          "vi": "Tài xế mới có xu hướng phanh quá đột ngột."
+          "vi": "Tài xế mới có xu hướng phanh quá đột ngột.",
+          "image_url": "https://images.pexels.com/photos/16683966/pexels-photo-16683966.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Prices have a tendency to rise during the holiday season.",
-          "vi": "Giá cả có xu hướng tăng trong mùa lễ hội."
+          "vi": "Giá cả có xu hướng tăng trong mùa lễ hội.",
+          "image_url": "https://images.pexels.com/photos/16683966/pexels-photo-16683966.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/16683966/pexels-photo-16683966.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Rodion Kutsaiev",
+        "author_url": "https://www.pexels.com/@frostroomhead",
+        "source_url": "https://www.pexels.com/photo/green-leaves-on-blue-background-16683966/"
+      }
     },
     {
       "english": "have an obligation",
@@ -1526,7 +1715,8 @@
           "en": "Teachers have an obligation to treat every student fairly.",
           "vi": "Giáo viên có nghĩa vụ đối xử công bằng với mọi học sinh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "heated debate",
@@ -1536,7 +1726,8 @@
       "examples": [
         {
           "en": "The new policy sparked a heated debate among the students.",
-          "vi": "Chính sách mới làm dấy lên một cuộc tranh luận gay gắt giữa các sinh viên."
+          "vi": "Chính sách mới làm dấy lên một cuộc tranh luận gay gắt giữa các sinh viên.",
+          "image_url": "https://images.pexels.com/photos/8419241/pexels-photo-8419241.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "There was a heated debate about how to spend the budget.",
@@ -1546,7 +1737,8 @@
           "en": "The topic of immigration often leads to heated debate.",
           "vi": "Chủ đề nhập cư thường dẫn đến tranh luận gay gắt."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "heavily influenced by",
@@ -1566,7 +1758,8 @@
           "en": "Voters were heavily influenced by the candidate's promises.",
           "vi": "Cử tri chịu ảnh hưởng mạnh bởi những lời hứa của ứng viên."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "hierarchical structure",
@@ -1580,13 +1773,15 @@
         },
         {
           "en": "Many traditional companies still use a hierarchical structure.",
-          "vi": "Nhiều công ty truyền thống vẫn dùng cấu trúc thứ bậc."
+          "vi": "Nhiều công ty truyền thống vẫn dùng cấu trúc thứ bậc.",
+          "image_url": "https://images.pexels.com/photos/38514402/pexels-photo-38514402.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "A hierarchical structure can slow down important decisions.",
           "vi": "Cấu trúc thứ bậc có thể làm chậm các quyết định quan trọng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high concentration",
@@ -1606,7 +1801,8 @@
           "en": "A high concentration of salt can damage most plants.",
           "vi": "Nồng độ muối cao có thể gây hại cho hầu hết cây trồng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high correlation",
@@ -1624,9 +1820,11 @@
         },
         {
           "en": "A high correlation does not always prove a direct cause.",
-          "vi": "Mối tương quan cao không phải lúc nào cũng chứng minh nguyên nhân trực tiếp."
+          "vi": "Mối tương quan cao không phải lúc nào cũng chứng minh nguyên nhân trực tiếp.",
+          "image_url": "https://images.pexels.com/photos/5651498/pexels-photo-5651498.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high expectations",
@@ -1646,7 +1844,8 @@
           "en": "High expectations can motivate students to work harder.",
           "vi": "Kỳ vọng cao có thể thúc đẩy sinh viên cố gắng hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high incidence",
@@ -1666,7 +1865,8 @@
           "en": "Poor housing is linked to a high incidence of illness.",
           "vi": "Nhà ở kém liên quan đến tỷ lệ bệnh tật cao."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high intensity",
@@ -1676,17 +1876,28 @@
       "examples": [
         {
           "en": "High intensity exercise can burn calories in a short time.",
-          "vi": "Bài tập cường độ cao có thể đốt calo trong thời gian ngắn."
+          "vi": "Bài tập cường độ cao có thể đốt calo trong thời gian ngắn.",
+          "image_url": "https://images.pexels.com/photos/4720798/pexels-photo-4720798.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The storm hit the coast with surprisingly high intensity.",
-          "vi": "Cơn bão đổ bộ vào bờ biển với cường độ cao đáng ngạc nhiên."
+          "vi": "Cơn bão đổ bộ vào bờ biển với cường độ cao đáng ngạc nhiên.",
+          "image_url": "https://images.pexels.com/photos/4720798/pexels-photo-4720798.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The light's high intensity made it hard to look directly.",
-          "vi": "Cường độ cao của ánh sáng khiến khó nhìn trực tiếp."
+          "vi": "Cường độ cao của ánh sáng khiến khó nhìn trực tiếp.",
+          "image_url": "https://images.pexels.com/photos/4720798/pexels-photo-4720798.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/4720798/pexels-photo-4720798.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Ketut Subiyanto",
+        "author_url": "https://www.pexels.com/@ketut-subiyanto",
+        "source_url": "https://www.pexels.com/photo/man-in-blue-tank-top-and-blue-shorts-doing-battle-rope-workout-4720798/"
+      }
     },
     {
       "english": "high level",
@@ -1706,7 +1917,8 @@
           "en": "Athletes maintain a high level of fitness all year round.",
           "vi": "Các vận động viên duy trì mức độ thể lực cao quanh năm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high order",
@@ -1716,7 +1928,8 @@
       "examples": [
         {
           "en": "The exam tests high order thinking rather than simple memory.",
-          "vi": "Kỳ thi kiểm tra tư duy bậc cao chứ không phải trí nhớ đơn giản."
+          "vi": "Kỳ thi kiểm tra tư duy bậc cao chứ không phải trí nhớ đơn giản.",
+          "image_url": "https://images.pexels.com/photos/7092492/pexels-photo-7092492.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Solving the puzzle requires skills of a high order.",
@@ -1726,7 +1939,8 @@
           "en": "These tasks develop high order reasoning in young learners.",
           "vi": "Những nhiệm vụ này phát triển lập luận bậc cao ở người học nhỏ tuổi."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high percentage",
@@ -1746,7 +1960,8 @@
           "en": "A high percentage of energy is still wasted in old buildings.",
           "vi": "Một tỷ lệ phần trăm cao năng lượng vẫn bị lãng phí trong tòa nhà cũ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high priority",
@@ -1760,13 +1975,15 @@
         },
         {
           "en": "The company gives high priority to customer safety.",
-          "vi": "Công ty dành ưu tiên cao cho sự an toàn của khách hàng."
+          "vi": "Công ty dành ưu tiên cao cho sự an toàn của khách hàng.",
+          "image_url": "https://images.pexels.com/photos/34954625/pexels-photo-34954625.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Clean water should be a high priority in poor regions.",
           "vi": "Nước sạch nên là ưu tiên cao ở các vùng nghèo."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high probability",
@@ -1786,7 +2003,8 @@
           "en": "There is a high probability that the experiment will succeed.",
           "vi": "Có xác suất cao thí nghiệm sẽ thành công."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high profile",
@@ -1804,9 +2022,11 @@
         },
         {
           "en": "A high profile event attracted thousands of curious visitors.",
-          "vi": "Một sự kiện được chú ý nhiều thu hút hàng ngàn khách tò mò."
+          "vi": "Một sự kiện được chú ý nhiều thu hút hàng ngàn khách tò mò.",
+          "image_url": "https://images.pexels.com/photos/31410732/pexels-photo-31410732.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high proportion of",
@@ -1826,7 +2046,8 @@
           "en": "A high proportion of the income comes from foreign tourists.",
           "vi": "Một tỷ lệ cao thu nhập đến từ khách du lịch nước ngoài."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high quality",
@@ -1846,7 +2067,8 @@
           "en": "We use only high quality materials to build these houses.",
           "vi": "Chúng tôi chỉ dùng vật liệu chất lượng cao để xây những ngôi nhà này."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high rate",
@@ -1856,17 +2078,28 @@
       "examples": [
         {
           "en": "The country reports a high rate of youth unemployment.",
-          "vi": "Quốc gia này ghi nhận tỷ lệ thất nghiệp ở giới trẻ cao."
+          "vi": "Quốc gia này ghi nhận tỷ lệ thất nghiệp ở giới trẻ cao.",
+          "image_url": "https://images.pexels.com/photos/27459671/pexels-photo-27459671.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "A high rate of recovery suggests the treatment is working.",
-          "vi": "Tỷ lệ hồi phục cao cho thấy phương pháp điều trị có hiệu quả."
+          "vi": "Tỷ lệ hồi phục cao cho thấy phương pháp điều trị có hiệu quả.",
+          "image_url": "https://images.pexels.com/photos/27459671/pexels-photo-27459671.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Researchers noted a high rate of participation in the survey.",
-          "vi": "Các nhà nghiên cứu ghi nhận tỷ lệ tham gia khảo sát cao."
+          "vi": "Các nhà nghiên cứu ghi nhận tỷ lệ tham gia khảo sát cao.",
+          "image_url": "https://images.pexels.com/photos/27459671/pexels-photo-27459671.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/27459671/pexels-photo-27459671.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Jakub Zerdzicki",
+        "author_url": "https://www.pexels.com/@jakubzerdzicki",
+        "source_url": "https://www.pexels.com/photo/crypto-currency-stock-market-growth-27459671/"
+      }
     },
     {
       "english": "high score",
@@ -1886,7 +2119,8 @@
           "en": "A high score reflects strong understanding of the material.",
           "vi": "Điểm số cao phản ánh sự hiểu biết vững chắc về tài liệu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high standard",
@@ -1896,7 +2130,8 @@
       "examples": [
         {
           "en": "The university maintains a high standard of academic writing.",
-          "vi": "Trường đại học duy trì tiêu chuẩn cao về viết học thuật."
+          "vi": "Trường đại học duy trì tiêu chuẩn cao về viết học thuật.",
+          "image_url": "https://images.pexels.com/photos/29242209/pexels-photo-29242209.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Employers expect a high standard of work from graduates.",
@@ -1906,7 +2141,8 @@
           "en": "Setting a high standard early helps students stay motivated.",
           "vi": "Đặt tiêu chuẩn cao từ sớm giúp học sinh duy trì động lực."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high status",
@@ -1926,7 +2162,8 @@
           "en": "The role carries high status but also heavy responsibility.",
           "vi": "Vai trò này mang địa vị cao nhưng cũng nhiều trách nhiệm nặng nề."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high turnover",
@@ -1940,13 +2177,15 @@
         },
         {
           "en": "High turnover increases the cost of training and recruitment.",
-          "vi": "Tỷ lệ nghỉ việc cao làm tăng chi phí đào tạo và tuyển dụng."
+          "vi": "Tỷ lệ nghỉ việc cao làm tăng chi phí đào tạo và tuyển dụng.",
+          "image_url": "https://images.pexels.com/photos/19867372/pexels-photo-19867372.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Managers investigated why high turnover affected the department.",
           "vi": "Quản lý điều tra lý do tỷ lệ thay nhân sự cao ảnh hưởng đến phòng ban."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high unemployment",
@@ -1966,7 +2205,8 @@
           "en": "Economists linked high unemployment to the falling demand.",
           "vi": "Các nhà kinh tế liên hệ tỷ lệ thất nghiệp cao với nhu cầu giảm sút."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high value",
@@ -1984,9 +2224,11 @@
         },
         {
           "en": "High value goods require careful handling during transport.",
-          "vi": "Hàng hóa giá trị cao cần được xử lý cẩn thận khi vận chuyển."
+          "vi": "Hàng hóa giá trị cao cần được xử lý cẩn thận khi vận chuyển.",
+          "image_url": "https://images.pexels.com/photos/6169864/pexels-photo-6169864.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "high/er frequency",
@@ -2006,7 +2248,8 @@
           "en": "Higher frequency of testing improved long-term retention.",
           "vi": "Tần suất kiểm tra cao hơn giúp cải thiện khả năng ghi nhớ lâu dài."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "higher degree of",
@@ -2026,7 +2269,8 @@
           "en": "Participants showed a higher degree of engagement this year.",
           "vi": "Người tham gia thể hiện mức độ gắn kết cao hơn trong năm nay."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "higher education",
@@ -2036,17 +2280,28 @@
       "examples": [
         {
           "en": "Access to higher education has expanded over recent decades.",
-          "vi": "Cơ hội tiếp cận giáo dục đại học đã mở rộng trong các thập kỷ gần đây."
+          "vi": "Cơ hội tiếp cận giáo dục đại học đã mở rộng trong các thập kỷ gần đây.",
+          "image_url": "https://images.pexels.com/photos/29646491/pexels-photo-29646491.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Higher education prepares students for specialized careers.",
-          "vi": "Giáo dục đại học chuẩn bị cho sinh viên những nghề nghiệp chuyên môn."
+          "vi": "Giáo dục đại học chuẩn bị cho sinh viên những nghề nghiệp chuyên môn.",
+          "image_url": "https://images.pexels.com/photos/29646491/pexels-photo-29646491.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The cost of higher education remains a concern for families.",
-          "vi": "Chi phí giáo dục đại học vẫn là mối lo ngại đối với các gia đình."
+          "vi": "Chi phí giáo dục đại học vẫn là mối lo ngại đối với các gia đình.",
+          "image_url": "https://images.pexels.com/photos/29646491/pexels-photo-29646491.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/29646491/pexels-photo-29646491.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "clmcdk fejcn",
+        "author_url": "https://www.pexels.com/@clmcdk-fejcn-2057437867",
+        "source_url": "https://www.pexels.com/photo/graduation-celebration-with-cap-toss-outdoors-29646491/"
+      }
     },
     {
       "english": "highly charged",
@@ -2066,7 +2321,8 @@
           "en": "The meeting had a highly charged atmosphere from the start.",
           "vi": "Cuộc họp có bầu không khí đầy căng thẳng ngay từ đầu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly competitive",
@@ -2076,7 +2332,8 @@
       "examples": [
         {
           "en": "The job market for graduates is highly competitive today.",
-          "vi": "Thị trường việc làm cho sinh viên tốt nghiệp hiện nay có tính cạnh tranh cao."
+          "vi": "Thị trường việc làm cho sinh viên tốt nghiệp hiện nay có tính cạnh tranh cao.",
+          "image_url": "https://images.pexels.com/photos/9829493/pexels-photo-9829493.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Admission to the program is highly competitive each year.",
@@ -2086,7 +2343,8 @@
           "en": "Firms operate in a highly competitive global environment.",
           "vi": "Các công ty hoạt động trong môi trường toàn cầu cạnh tranh cao."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly complex",
@@ -2106,7 +2364,8 @@
           "en": "The legal case involved a highly complex set of rules.",
           "vi": "Vụ kiện liên quan đến một tập hợp quy tắc rất phức tạp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly controversial",
@@ -2120,13 +2379,15 @@
         },
         {
           "en": "His research reached highly controversial conclusions.",
-          "vi": "Nghiên cứu của ông đưa ra những kết luận gây tranh cãi mạnh mẽ."
+          "vi": "Nghiên cứu của ông đưa ra những kết luận gây tranh cãi mạnh mẽ.",
+          "image_url": "https://images.pexels.com/photos/7723529/pexels-photo-7723529.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The decision remains highly controversial even years later.",
           "vi": "Quyết định này vẫn gây tranh cãi mạnh mẽ ngay cả nhiều năm sau."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly correlated with",
@@ -2146,7 +2407,8 @@
           "en": "These two variables were highly correlated with each other.",
           "vi": "Hai biến số này có tương quan chặt chẽ với nhau."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly critical",
@@ -2164,9 +2426,11 @@
         },
         {
           "en": "She remained highly critical of the plan throughout the meeting.",
-          "vi": "Cô vẫn rất chỉ trích kế hoạch trong suốt cuộc họp."
+          "vi": "Cô vẫn rất chỉ trích kế hoạch trong suốt cuộc họp.",
+          "image_url": "https://images.pexels.com/photos/33642007/pexels-photo-33642007.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly dependent",
@@ -2186,7 +2450,8 @@
           "en": "The outcome is highly dependent on careful planning.",
           "vi": "Kết quả phụ thuộc rất nhiều vào việc lập kế hoạch cẩn thận."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly desirable",
@@ -2206,7 +2471,8 @@
           "en": "Fluency in two languages is highly desirable for the role.",
           "vi": "Thông thạo hai ngôn ngữ rất đáng mong muốn cho vị trí này."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly developed",
@@ -2216,17 +2482,28 @@
       "examples": [
         {
           "en": "The region has a highly developed transport network.",
-          "vi": "Khu vực này có mạng lưới giao thông phát triển cao."
+          "vi": "Khu vực này có mạng lưới giao thông phát triển cao.",
+          "image_url": "https://images.pexels.com/photos/19857929/pexels-photo-19857929.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Dolphins possess a highly developed sense of hearing.",
-          "vi": "Cá heo sở hữu khả năng nghe phát triển cao."
+          "vi": "Cá heo sở hữu khả năng nghe phát triển cao.",
+          "image_url": "https://images.pexels.com/photos/19857929/pexels-photo-19857929.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Highly developed nations invest heavily in research.",
-          "vi": "Các quốc gia phát triển cao đầu tư mạnh vào nghiên cứu."
+          "vi": "Các quốc gia phát triển cao đầu tư mạnh vào nghiên cứu.",
+          "image_url": "https://images.pexels.com/photos/19857929/pexels-photo-19857929.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/19857929/pexels-photo-19857929.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Jimmy Liao",
+        "author_url": "https://www.pexels.com/@jimmy-liao-3615017",
+        "source_url": "https://www.pexels.com/photo/dense-housing-in-taipei-taiwan-19857929/"
+      }
     },
     {
       "english": "highly educated",
@@ -2246,7 +2523,8 @@
           "en": "Her parents were both highly educated professionals.",
           "vi": "Cha mẹ cô đều là những chuyên gia có học vấn cao."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly effective",
@@ -2256,7 +2534,8 @@
       "examples": [
         {
           "en": "The new vaccine proved highly effective in clinical trials.",
-          "vi": "Vắc-xin mới tỏ ra rất hiệu quả trong các thử nghiệm lâm sàng."
+          "vi": "Vắc-xin mới tỏ ra rất hiệu quả trong các thử nghiệm lâm sàng.",
+          "image_url": "https://images.pexels.com/photos/5922104/pexels-photo-5922104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Visual aids are a highly effective teaching tool.",
@@ -2266,7 +2545,8 @@
           "en": "The campaign was highly effective at raising awareness.",
           "vi": "Chiến dịch rất hiệu quả trong việc nâng cao nhận thức."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly efficient",
@@ -2286,7 +2566,8 @@
           "en": "Their highly efficient system reduced waste significantly.",
           "vi": "Hệ thống rất hiệu suất của họ giảm lãng phí đáng kể."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly influential",
@@ -2300,13 +2581,15 @@
         },
         {
           "en": "He was a highly influential figure in the reform movement.",
-          "vi": "Ông là một nhân vật có ảnh hưởng lớn trong phong trào cải cách."
+          "vi": "Ông là một nhân vật có ảnh hưởng lớn trong phong trào cải cách.",
+          "image_url": "https://images.pexels.com/photos/29634871/pexels-photo-29634871.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The theory remains highly influential among economists.",
           "vi": "Lý thuyết này vẫn có ảnh hưởng lớn trong giới kinh tế học."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly likely",
@@ -2326,7 +2609,8 @@
           "en": "A delay is highly likely due to the bad weather.",
           "vi": "Sự chậm trễ rất có khả năng xảy ra do thời tiết xấu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly problematic",
@@ -2344,9 +2628,11 @@
         },
         {
           "en": "The definition is highly problematic and needs clarification.",
-          "vi": "Định nghĩa này rất có vấn đề và cần được làm rõ."
+          "vi": "Định nghĩa này rất có vấn đề và cần được làm rõ.",
+          "image_url": "https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly relevant",
@@ -2366,7 +2652,8 @@
           "en": "His experience is highly relevant to the position offered.",
           "vi": "Kinh nghiệm của anh rất phù hợp với vị trí được chào mời."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly selective",
@@ -2386,7 +2673,8 @@
           "en": "Memory can be highly selective about what it retains.",
           "vi": "Trí nhớ có thể có tính chọn lọc cao về điều nó giữ lại."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly sensitive",
@@ -2396,17 +2684,28 @@
       "examples": [
         {
           "en": "The instrument is highly sensitive to small temperature changes.",
-          "vi": "Thiết bị rất nhạy cảm với những thay đổi nhiệt độ nhỏ."
+          "vi": "Thiết bị rất nhạy cảm với những thay đổi nhiệt độ nhỏ.",
+          "image_url": "https://images.pexels.com/photos/4555301/pexels-photo-4555301.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The negotiations involve highly sensitive political issues.",
-          "vi": "Cuộc đàm phán liên quan đến những vấn đề chính trị rất nhạy cảm."
+          "vi": "Cuộc đàm phán liên quan đến những vấn đề chính trị rất nhạy cảm.",
+          "image_url": "https://images.pexels.com/photos/4555301/pexels-photo-4555301.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Personal data is highly sensitive and must be protected.",
-          "vi": "Dữ liệu cá nhân rất nhạy cảm và phải được bảo vệ."
+          "vi": "Dữ liệu cá nhân rất nhạy cảm và phải được bảo vệ.",
+          "image_url": "https://images.pexels.com/photos/4555301/pexels-photo-4555301.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/4555301/pexels-photo-4555301.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Elina Sazonova",
+        "author_url": "https://www.pexels.com/@elina-sazonova",
+        "source_url": "https://www.pexels.com/photo/calm-woman-with-makeup-holding-feather-on-lips-4555301/"
+      }
     },
     {
       "english": "highly significant",
@@ -2426,7 +2725,8 @@
           "en": "The event marked a highly significant moment in history.",
           "vi": "Sự kiện này đánh dấu một khoảnh khắc rất ý nghĩa trong lịch sử."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly skilled",
@@ -2436,7 +2736,8 @@
       "examples": [
         {
           "en": "The hospital employs highly skilled surgeons and nurses.",
-          "vi": "Bệnh viện thuê những bác sĩ phẫu thuật và y tá có tay nghề cao."
+          "vi": "Bệnh viện thuê những bác sĩ phẫu thuật và y tá có tay nghề cao.",
+          "image_url": "https://images.pexels.com/photos/33916267/pexels-photo-33916267.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Highly skilled workers are in short supply in this sector.",
@@ -2446,7 +2747,8 @@
           "en": "The task demands a highly skilled and patient team.",
           "vi": "Nhiệm vụ này đòi hỏi một đội ngũ có tay nghề cao và kiên nhẫn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly sophisticated",
@@ -2466,7 +2768,8 @@
           "en": "The model relies on highly sophisticated mathematical methods.",
           "vi": "Mô hình dựa trên những phương pháp toán học rất tinh vi."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly structured",
@@ -2480,13 +2783,15 @@
         },
         {
           "en": "Young children often benefit from a highly structured routine.",
-          "vi": "Trẻ nhỏ thường hưởng lợi từ một thói quen có cấu trúc chặt chẽ."
+          "vi": "Trẻ nhỏ thường hưởng lợi từ một thói quen có cấu trúc chặt chẽ.",
+          "image_url": "https://images.pexels.com/photos/7086237/pexels-photo-7086237.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The interview was highly structured with fixed questions.",
           "vi": "Cuộc phỏng vấn có cấu trúc chặt chẽ với những câu hỏi cố định."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly successful",
@@ -2506,7 +2811,8 @@
           "en": "The treatment has been highly successful in trials.",
           "vi": "Phương pháp điều trị đã rất thành công trong các thử nghiệm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly unlikely",
@@ -2524,9 +2830,11 @@
         },
         {
           "en": "A full recovery by tomorrow seems highly unlikely.",
-          "vi": "Việc hồi phục hoàn toàn vào ngày mai có vẻ rất khó xảy ra."
+          "vi": "Việc hồi phục hoàn toàn vào ngày mai có vẻ rất khó xảy ra.",
+          "image_url": "https://images.pexels.com/photos/8850717/pexels-photo-8850717.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly valued",
@@ -2546,7 +2854,8 @@
           "en": "Her opinion is highly valued within the research team.",
           "vi": "Ý kiến của cô được coi trọng cao trong nhóm nghiên cứu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "highly variable",
@@ -2566,7 +2875,8 @@
           "en": "Performance was highly variable depending on the conditions.",
           "vi": "Hiệu suất rất biến thiên tùy thuộc vào điều kiện."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical account",
@@ -2576,17 +2886,28 @@
       "examples": [
         {
           "en": "The book offers a detailed historical account of the war.",
-          "vi": "Cuốn sách cung cấp một ghi chép lịch sử chi tiết về cuộc chiến."
+          "vi": "Cuốn sách cung cấp một ghi chép lịch sử chi tiết về cuộc chiến.",
+          "image_url": "https://images.pexels.com/photos/164686/pexels-photo-164686.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Her historical account drew on rare archival documents.",
-          "vi": "Ghi chép lịch sử của bà dựa trên những tài liệu lưu trữ hiếm."
+          "vi": "Ghi chép lịch sử của bà dựa trên những tài liệu lưu trữ hiếm.",
+          "image_url": "https://images.pexels.com/photos/164686/pexels-photo-164686.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Each historical account reflects the writer's own perspective.",
-          "vi": "Mỗi ghi chép lịch sử phản ánh góc nhìn riêng của người viết."
+          "vi": "Mỗi ghi chép lịch sử phản ánh góc nhìn riêng của người viết.",
+          "image_url": "https://images.pexels.com/photos/164686/pexels-photo-164686.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/164686/pexels-photo-164686.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Pixabay",
+        "author_url": "https://www.pexels.com/@pixabay",
+        "source_url": "https://www.pexels.com/photo/close-up-photo-of-ledger-s-list-164686/"
+      }
     },
     {
       "english": "historical analysis",
@@ -2606,7 +2927,8 @@
           "en": "Historical analysis helps explain present-day social structures.",
           "vi": "Phân tích lịch sử giúp giải thích các cấu trúc xã hội ngày nay."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical background",
@@ -2616,7 +2938,8 @@
       "examples": [
         {
           "en": "The chapter provides the historical background of the conflict.",
-          "vi": "Chương này cung cấp bối cảnh lịch sử của cuộc xung đột."
+          "vi": "Chương này cung cấp bối cảnh lịch sử của cuộc xung đột.",
+          "image_url": "https://images.pexels.com/photos/11816424/pexels-photo-11816424.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Understanding the historical background clarifies the author's view.",
@@ -2626,7 +2949,8 @@
           "en": "She explained the historical background before the main argument.",
           "vi": "Cô giải thích bối cảnh lịch sử trước khi trình bày lập luận chính."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical change",
@@ -2646,7 +2970,8 @@
           "en": "Scholars debate the causes of this historical change.",
           "vi": "Các học giả tranh luận về nguyên nhân của sự thay đổi lịch sử này."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical circumstances",
@@ -2660,13 +2985,15 @@
         },
         {
           "en": "We must judge the decision within its historical circumstances.",
-          "vi": "Chúng ta phải đánh giá quyết định trong hoàn cảnh lịch sử của nó."
+          "vi": "Chúng ta phải đánh giá quyết định trong hoàn cảnh lịch sử của nó.",
+          "image_url": "https://images.pexels.com/photos/37732186/pexels-photo-37732186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Different historical circumstances shaped each nation's path.",
           "vi": "Những hoàn cảnh lịch sử khác nhau định hình con đường của mỗi quốc gia."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical context",
@@ -2686,7 +3013,8 @@
           "en": "Ignoring the historical context can distort our interpretation.",
           "vi": "Bỏ qua ngữ cảnh lịch sử có thể làm sai lệch cách diễn giải của ta."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical data",
@@ -2704,9 +3032,11 @@
         },
         {
           "en": "Reliable historical data is essential for accurate predictions.",
-          "vi": "Dữ liệu lịch sử đáng tin cậy là thiết yếu cho dự đoán chính xác."
+          "vi": "Dữ liệu lịch sử đáng tin cậy là thiết yếu cho dự đoán chính xác.",
+          "image_url": "https://images.pexels.com/photos/30268013/pexels-photo-30268013.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical development",
@@ -2726,7 +3056,8 @@
           "en": "This map shows the historical development of the city.",
           "vi": "Bản đồ này thể hiện sự phát triển lịch sử của thành phố."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical event",
@@ -2746,7 +3077,8 @@
           "en": "The novel weaves fiction around a real historical event.",
           "vi": "Cuốn tiểu thuyết đan xen hư cấu quanh một sự kiện lịch sử có thật."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical evidence",
@@ -2756,17 +3088,28 @@
       "examples": [
         {
           "en": "Strong historical evidence supports the author's main claim.",
-          "vi": "Bằng chứng lịch sử vững chắc ủng hộ luận điểm chính của tác giả."
+          "vi": "Bằng chứng lịch sử vững chắc ủng hộ luận điểm chính của tác giả.",
+          "image_url": "https://images.pexels.com/photos/35770433/pexels-photo-35770433.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "There is little historical evidence for this popular legend.",
-          "vi": "Có rất ít bằng chứng lịch sử cho truyền thuyết phổ biến này."
+          "vi": "Có rất ít bằng chứng lịch sử cho truyền thuyết phổ biến này.",
+          "image_url": "https://images.pexels.com/photos/35770433/pexels-photo-35770433.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Archaeologists gathered historical evidence from the ruins.",
-          "vi": "Các nhà khảo cổ thu thập bằng chứng lịch sử từ tàn tích."
+          "vi": "Các nhà khảo cổ thu thập bằng chứng lịch sử từ tàn tích.",
+          "image_url": "https://images.pexels.com/photos/35770433/pexels-photo-35770433.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/35770433/pexels-photo-35770433.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Ernesto Rosas",
+        "author_url": "https://www.pexels.com/@ernestorosas",
+        "source_url": "https://www.pexels.com/photo/ancient-ruins-in-cayma-arequipa-peru-35770433/"
+      }
     },
     {
       "english": "historical factors",
@@ -2786,7 +3129,8 @@
           "en": "The author weighs historical factors against economic ones.",
           "vi": "Tác giả cân nhắc các yếu tố lịch sử so với yếu tố kinh tế."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical interpretation",
@@ -2796,7 +3140,8 @@
       "examples": [
         {
           "en": "Her historical interpretation challenges the traditional view.",
-          "vi": "Cách diễn giải lịch sử của bà thách thức quan điểm truyền thống."
+          "vi": "Cách diễn giải lịch sử của bà thách thức quan điểm truyền thống.",
+          "image_url": "https://images.pexels.com/photos/7541608/pexels-photo-7541608.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Every historical interpretation reflects certain assumptions.",
@@ -2806,7 +3151,8 @@
           "en": "The debate centers on competing historical interpretations.",
           "vi": "Cuộc tranh luận xoay quanh những cách diễn giải lịch sử trái ngược."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical knowledge",
@@ -2826,7 +3172,8 @@
           "en": "Historical knowledge deepens our understanding of the present.",
           "vi": "Kiến thức lịch sử làm sâu sắc thêm sự hiểu biết của ta về hiện tại."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical period",
@@ -2840,13 +3187,15 @@
         },
         {
           "en": "Art styles vary greatly across each historical period.",
-          "vi": "Phong cách nghệ thuật khác nhau rất nhiều qua mỗi giai đoạn lịch sử."
+          "vi": "Phong cách nghệ thuật khác nhau rất nhiều qua mỗi giai đoạn lịch sử.",
+          "image_url": "https://images.pexels.com/photos/5209693/pexels-photo-5209693.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "She specializes in the historical period after the revolution.",
           "vi": "Bà chuyên về giai đoạn lịch sử sau cuộc cách mạng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical perspective",
@@ -2866,7 +3215,8 @@
           "en": "From a historical perspective, the policy is not new.",
           "vi": "Xét từ góc nhìn lịch sử, chính sách này không hề mới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical reality",
@@ -2884,9 +3234,11 @@
         },
         {
           "en": "Historians try to reconstruct historical reality from sources.",
-          "vi": "Các sử gia cố tái dựng thực tế lịch sử từ các nguồn tư liệu."
+          "vi": "Các sử gia cố tái dựng thực tế lịch sử từ các nguồn tư liệu.",
+          "image_url": "https://images.pexels.com/photos/39474331/pexels-photo-39474331.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical record",
@@ -2906,7 +3258,8 @@
           "en": "This document fills a gap in the historical record.",
           "vi": "Tài liệu này lấp đầy một khoảng trống trong tư liệu lịch sử."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical roots",
@@ -2926,7 +3279,8 @@
           "en": "Understanding its historical roots clarifies the tradition.",
           "vi": "Hiểu nguồn gốc lịch sử giúp làm rõ truyền thống này."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historical study",
@@ -2936,17 +3290,28 @@
       "examples": [
         {
           "en": "Her historical study examines trade in the medieval era.",
-          "vi": "Nghiên cứu lịch sử của bà khảo sát thương mại thời trung cổ."
+          "vi": "Nghiên cứu lịch sử của bà khảo sát thương mại thời trung cổ.",
+          "image_url": "https://images.pexels.com/photos/36306963/pexels-photo-36306963.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "A thorough historical study requires patient archival work.",
-          "vi": "Một nghiên cứu lịch sử kỹ lưỡng đòi hỏi việc lưu trữ kiên nhẫn."
+          "vi": "Một nghiên cứu lịch sử kỹ lưỡng đòi hỏi việc lưu trữ kiên nhẫn.",
+          "image_url": "https://images.pexels.com/photos/36306963/pexels-photo-36306963.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The historical study won an award for original research.",
-          "vi": "Nghiên cứu lịch sử này đã đoạt giải vì tính sáng tạo."
+          "vi": "Nghiên cứu lịch sử này đã đoạt giải vì tính sáng tạo.",
+          "image_url": "https://images.pexels.com/photos/36306963/pexels-photo-36306963.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/36306963/pexels-photo-36306963.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "burcubyzt_85",
+        "author_url": "https://www.pexels.com/@burcubyzt_85-2159554151",
+        "source_url": "https://www.pexels.com/photo/ancient-manuscript-with-arabic-script-displayed-open-36306963/"
+      }
     },
     {
       "english": "historical writing",
@@ -2966,7 +3331,8 @@
           "en": "Her historical writing is admired for its lively prose.",
           "vi": "Trước tác lịch sử của bà được ngưỡng mộ vì văn phong sống động."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "historically specific",
@@ -2976,7 +3342,8 @@
       "examples": [
         {
           "en": "These ideas are historically specific to the modern era.",
-          "vi": "Những ý tưởng này mang tính đặc thù lịch sử của thời hiện đại."
+          "vi": "Những ý tưởng này mang tính đặc thù lịch sử của thời hiện đại.",
+          "image_url": "https://images.pexels.com/photos/36040449/pexels-photo-36040449.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Such practices are historically specific and not universal.",
@@ -2986,7 +3353,8 @@
           "en": "The author treats gender roles as historically specific.",
           "vi": "Tác giả coi vai trò giới như điều mang tính đặc thù lịch sử."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "hold a conference",
@@ -3006,7 +3374,8 @@
           "en": "The institute holds a conference every spring for researchers.",
           "vi": "Viện tổ chức một hội nghị mỗi mùa xuân cho các nhà nghiên cứu."
         }
-      ]
+      ],
+      "audio_src": null
     }
   ]
 }

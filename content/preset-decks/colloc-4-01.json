@@ -24,9 +24,11 @@
         },
         {
           "en": "Museums serve as cultural institutions that educate the public.",
-          "vi": "Bảo tàng đóng vai trò thiết chế văn hóa giáo dục công chúng."
+          "vi": "Bảo tàng đóng vai trò thiết chế văn hóa giáo dục công chúng.",
+          "image_url": "https://images.pexels.com/photos/29608796/pexels-photo-29608796.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "cultural issue",
@@ -46,7 +48,8 @@
           "en": "Language barriers are a common cultural issue for newcomers.",
           "vi": "Rào cản ngôn ngữ là một vấn đề văn hóa phổ biến với người mới đến."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "cultural life",
@@ -66,7 +69,8 @@
           "en": "Students contribute to campus cultural life through clubs.",
           "vi": "Sinh viên đóng góp vào đời sống văn hóa của trường qua các câu lạc bộ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "cultural norm",
@@ -76,17 +80,28 @@
       "examples": [
         {
           "en": "Cultural norms determine how people greet one another.",
-          "vi": "Chuẩn mực văn hóa quyết định cách người ta chào hỏi nhau."
+          "vi": "Chuẩn mực văn hóa quyết định cách người ta chào hỏi nhau.",
+          "image_url": "https://images.pexels.com/photos/7658429/pexels-photo-7658429.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Visitors should learn the local cultural norms before arriving.",
-          "vi": "Khách nên tìm hiểu chuẩn mực văn hóa địa phương trước khi đến."
+          "vi": "Khách nên tìm hiểu chuẩn mực văn hóa địa phương trước khi đến.",
+          "image_url": "https://images.pexels.com/photos/7658429/pexels-photo-7658429.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Breaking a cultural norm can cause unintended offense.",
-          "vi": "Vi phạm một chuẩn mực văn hóa có thể gây xúc phạm ngoài ý muốn."
+          "vi": "Vi phạm một chuẩn mực văn hóa có thể gây xúc phạm ngoài ý muốn.",
+          "image_url": "https://images.pexels.com/photos/7658429/pexels-photo-7658429.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7658429/pexels-photo-7658429.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Pavel Danilyuk",
+        "author_url": "https://www.pexels.com/@pavel-danilyuk",
+        "source_url": "https://www.pexels.com/photo/people-discussing-work-at-call-center-office-7658429/"
+      }
     },
     {
       "english": "cultural perspective",
@@ -106,7 +121,8 @@
           "en": "Adopting a cultural perspective helps explain unusual customs.",
           "vi": "Áp dụng góc nhìn văn hóa giúp giải thích các phong tục khác lạ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "cultural phenomenon",
@@ -116,7 +132,8 @@
       "examples": [
         {
           "en": "The song became a global cultural phenomenon overnight.",
-          "vi": "Bài hát trở thành một hiện tượng văn hóa toàn cầu chỉ sau một đêm."
+          "vi": "Bài hát trở thành một hiện tượng văn hóa toàn cầu chỉ sau một đêm.",
+          "image_url": "https://images.pexels.com/photos/19231383/pexels-photo-19231383.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Social media is a cultural phenomenon worth studying closely.",
@@ -126,7 +143,8 @@
           "en": "Researchers analyzed the cultural phenomenon of viral videos.",
           "vi": "Các nhà nghiên cứu phân tích hiện tượng văn hóa của video lan truyền."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "cultural practice",
@@ -146,7 +164,8 @@
           "en": "The documentary records the cultural practices of the tribe.",
           "vi": "Phim tài liệu ghi lại các tập quán văn hóa của bộ tộc."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "cultural significance",
@@ -160,13 +179,15 @@
         },
         {
           "en": "Scholars debate the cultural significance of the ancient site.",
-          "vi": "Các học giả tranh luận về ý nghĩa văn hóa của di chỉ cổ."
+          "vi": "Các học giả tranh luận về ý nghĩa văn hóa của di chỉ cổ.",
+          "image_url": "https://images.pexels.com/photos/35163023/pexels-photo-35163023.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The painting holds cultural significance beyond its beauty.",
           "vi": "Bức tranh mang ý nghĩa văn hóa vượt xa vẻ đẹp của nó."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "cultural theory",
@@ -186,7 +207,8 @@
           "en": "She drew on cultural theory to interpret the advertisement.",
           "vi": "Cô vận dụng lý thuyết văn hóa để diễn giải mẩu quảng cáo."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "cultural tradition",
@@ -204,9 +226,11 @@
         },
         {
           "en": "Each region celebrates its own unique cultural traditions.",
-          "vi": "Mỗi vùng tôn vinh những truyền thống văn hóa độc đáo riêng."
+          "vi": "Mỗi vùng tôn vinh những truyền thống văn hóa độc đáo riêng.",
+          "image_url": "https://images.pexels.com/photos/38244782/pexels-photo-38244782.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "cultural values",
@@ -226,7 +250,8 @@
           "en": "Advertising often reflects the cultural values of its audience.",
           "vi": "Quảng cáo thường phản ánh giá trị văn hóa của khán giả."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "culturally specific",
@@ -246,7 +271,8 @@
           "en": "These rituals are culturally specific to that small region.",
           "vi": "Những nghi lễ này mang tính đặc thù văn hóa của vùng nhỏ đó."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "current climate",
@@ -256,17 +282,28 @@
       "examples": [
         {
           "en": "In the current climate, many companies are cutting costs.",
-          "vi": "Trong bối cảnh hiện tại, nhiều công ty đang cắt giảm chi phí."
+          "vi": "Trong bối cảnh hiện tại, nhiều công ty đang cắt giảm chi phí.",
+          "image_url": "https://images.pexels.com/photos/30647220/pexels-photo-30647220.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The current economic climate makes investment risky.",
-          "vi": "Bối cảnh kinh tế hiện tại khiến việc đầu tư rủi ro."
+          "vi": "Bối cảnh kinh tế hiện tại khiến việc đầu tư rủi ro.",
+          "image_url": "https://images.pexels.com/photos/30647220/pexels-photo-30647220.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Researchers worry about the current political climate.",
-          "vi": "Các nhà nghiên cứu lo ngại về bối cảnh chính trị hiện tại."
+          "vi": "Các nhà nghiên cứu lo ngại về bối cảnh chính trị hiện tại.",
+          "image_url": "https://images.pexels.com/photos/30647220/pexels-photo-30647220.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/30647220/pexels-photo-30647220.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Khang Ocean",
+        "author_url": "https://www.pexels.com/@khang-ocean-3810070",
+        "source_url": "https://www.pexels.com/photo/vibrant-ocean-waves-on-a-windy-day-30647220/"
+      }
     },
     {
       "english": "current issue",
@@ -286,7 +323,8 @@
           "en": "Climate change is one of the most pressing current issues.",
           "vi": "Biến đổi khí hậu là một trong những vấn đề thời sự cấp bách nhất."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "current policy",
@@ -296,7 +334,8 @@
       "examples": [
         {
           "en": "The report criticizes the current policy on immigration.",
-          "vi": "Báo cáo chỉ trích chính sách hiện hành về nhập cư."
+          "vi": "Báo cáo chỉ trích chính sách hiện hành về nhập cư.",
+          "image_url": "https://images.pexels.com/photos/12004745/pexels-photo-12004745.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Current policy does little to reduce traffic congestion.",
@@ -306,7 +345,8 @@
           "en": "Experts recommend reviewing the current policy soon.",
           "vi": "Các chuyên gia khuyến nghị sớm xem xét lại chính sách hiện hành."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "current research",
@@ -326,7 +366,8 @@
           "en": "Current research focuses on renewable energy technologies.",
           "vi": "Nghiên cứu hiện nay tập trung vào các công nghệ năng lượng tái tạo."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "current status",
@@ -340,13 +381,15 @@
         },
         {
           "en": "Please update me on the current status of the application.",
-          "vi": "Hãy cập nhật cho tôi về tình trạng hiện tại của đơn đăng ký."
+          "vi": "Hãy cập nhật cho tôi về tình trạng hiện tại của đơn đăng ký.",
+          "image_url": "https://images.pexels.com/photos/12210737/pexels-photo-12210737.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Scientists monitor the current status of endangered species.",
           "vi": "Các nhà khoa học theo dõi tình trạng hiện tại của các loài nguy cấp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "current technology",
@@ -366,7 +409,8 @@
           "en": "Current technology cannot yet solve this difficult problem.",
           "vi": "Công nghệ hiện tại vẫn chưa thể giải quyết vấn đề khó này."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "current trend",
@@ -384,9 +428,11 @@
         },
         {
           "en": "The current trend in education favors active learning.",
-          "vi": "Xu hướng hiện nay trong giáo dục ưu tiên học tập chủ động."
+          "vi": "Xu hướng hiện nay trong giáo dục ưu tiên học tập chủ động.",
+          "image_url": "https://images.pexels.com/photos/5212342/pexels-photo-5212342.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "currently available",
@@ -406,7 +452,8 @@
           "en": "Only limited data is currently available on the topic.",
           "vi": "Chỉ có lượng dữ liệu hạn chế hiện đang có sẵn về chủ đề này."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "daily living",
@@ -426,7 +473,8 @@
           "en": "Therapists help patients regain skills for daily living.",
           "vi": "Chuyên viên trị liệu giúp bệnh nhân lấy lại kỹ năng sinh hoạt hằng ngày."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "data gathering",
@@ -436,17 +484,28 @@
       "examples": [
         {
           "en": "Data gathering took several months before analysis began.",
-          "vi": "Việc thu thập dữ liệu mất vài tháng trước khi bắt đầu phân tích."
+          "vi": "Việc thu thập dữ liệu mất vài tháng trước khi bắt đầu phân tích.",
+          "image_url": "https://images.pexels.com/photos/37797428/pexels-photo-37797428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Surveys are a common method of data gathering.",
-          "vi": "Khảo sát là một phương pháp phổ biến để thu thập dữ liệu."
+          "vi": "Khảo sát là một phương pháp phổ biến để thu thập dữ liệu.",
+          "image_url": "https://images.pexels.com/photos/37797428/pexels-photo-37797428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Careful data gathering ensures more reliable results.",
-          "vi": "Việc thu thập dữ liệu cẩn thận đảm bảo kết quả đáng tin cậy hơn."
+          "vi": "Việc thu thập dữ liệu cẩn thận đảm bảo kết quả đáng tin cậy hơn.",
+          "image_url": "https://images.pexels.com/photos/37797428/pexels-photo-37797428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/37797428/pexels-photo-37797428.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "shutter Rwanda",
+        "author_url": "https://www.pexels.com/@shutter-rwanda-2157056879",
+        "source_url": "https://www.pexels.com/photo/outdoor-event-technician-operating-equipment-37797428/"
+      }
     },
     {
       "english": "data set",
@@ -466,7 +525,8 @@
           "en": "Cleaning the data set removed many incomplete records.",
           "vi": "Việc làm sạch tập dữ liệu đã loại bỏ nhiều bản ghi không đầy đủ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "deal with an issue",
@@ -476,7 +536,8 @@
       "examples": [
         {
           "en": "The committee met to deal with an issue about funding.",
-          "vi": "Ủy ban họp để giải quyết một vấn đề về tài trợ."
+          "vi": "Ủy ban họp để giải quyết một vấn đề về tài trợ.",
+          "image_url": "https://images.pexels.com/photos/32266781/pexels-photo-32266781.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Managers must learn to deal with an issue calmly.",
@@ -486,7 +547,8 @@
           "en": "The essay explains how to deal with an issue systematically.",
           "vi": "Bài luận giải thích cách giải quyết một vấn đề một cách có hệ thống."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "deem appropriate",
@@ -506,7 +568,8 @@
           "en": "You may cite any sources you deem appropriate.",
           "vi": "Bạn có thể trích dẫn bất kỳ nguồn nào bạn cho là phù hợp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "deem necessary",
@@ -520,13 +583,15 @@
         },
         {
           "en": "Staff may take steps they deem necessary for safety.",
-          "vi": "Nhân viên có thể thực hiện các bước họ cho là cần thiết vì an toàn."
+          "vi": "Nhân viên có thể thực hiện các bước họ cho là cần thiết vì an toàn.",
+          "image_url": "https://images.pexels.com/photos/12460101/pexels-photo-12460101.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The board approved the spending it deemed necessary.",
           "vi": "Hội đồng đã phê duyệt khoản chi mà họ cho là cần thiết."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "deep understanding of",
@@ -546,7 +611,8 @@
           "en": "Good teaching builds a deep understanding of core concepts.",
           "vi": "Việc dạy tốt xây dựng sự hiểu biết sâu sắc về các khái niệm cốt lõi."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "deeper level",
@@ -564,9 +630,11 @@
         },
         {
           "en": "On a deeper level, the poem questions human freedom.",
-          "vi": "Ở tầng sâu hơn, bài thơ chất vấn về tự do của con người."
+          "vi": "Ở tầng sâu hơn, bài thơ chất vấn về tự do của con người.",
+          "image_url": "https://images.pexels.com/photos/5301462/pexels-photo-5301462.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "deeply embedded",
@@ -586,7 +654,8 @@
           "en": "Such habits become deeply embedded over many years.",
           "vi": "Những thói quen như vậy trở nên ăn sâu qua nhiều năm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "deeply rooted",
@@ -606,7 +675,8 @@
           "en": "Prejudice can be deeply rooted and hard to change.",
           "vi": "Định kiến có thể bắt rễ sâu và khó thay đổi."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "defining characteristic",
@@ -616,17 +686,28 @@
       "examples": [
         {
           "en": "Curiosity is a defining characteristic of good scientists.",
-          "vi": "Tính tò mò là đặc điểm nhận diện của những nhà khoa học giỏi."
+          "vi": "Tính tò mò là đặc điểm nhận diện của những nhà khoa học giỏi.",
+          "image_url": "https://images.pexels.com/photos/19792085/pexels-photo-19792085.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The defining characteristic of mammals is their fur.",
-          "vi": "Đặc điểm nhận diện của động vật có vú là bộ lông của chúng."
+          "vi": "Đặc điểm nhận diện của động vật có vú là bộ lông của chúng.",
+          "image_url": "https://images.pexels.com/photos/19792085/pexels-photo-19792085.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Flexibility became the defining characteristic of the new design.",
-          "vi": "Tính linh hoạt trở thành đặc điểm nhận diện của thiết kế mới."
+          "vi": "Tính linh hoạt trở thành đặc điểm nhận diện của thiết kế mới.",
+          "image_url": "https://images.pexels.com/photos/19792085/pexels-photo-19792085.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/19792085/pexels-photo-19792085.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "author_url": "https://www.pexels.com/@markus-winkler-1430818",
+        "source_url": "https://www.pexels.com/photo/the-word-female-spelled-out-with-scrabble-letters-19792085/"
+      }
     },
     {
       "english": "defining concept",
@@ -646,7 +727,8 @@
           "en": "Sustainability has become a defining concept in design.",
           "vi": "Tính bền vững đã trở thành một khái niệm cốt lõi trong thiết kế."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "defining feature",
@@ -656,7 +738,8 @@
       "examples": [
         {
           "en": "Strong rhythm is a defining feature of this music.",
-          "vi": "Nhịp điệu mạnh mẽ là đặc trưng nổi bật của loại nhạc này."
+          "vi": "Nhịp điệu mạnh mẽ là đặc trưng nổi bật của loại nhạc này.",
+          "image_url": "https://images.pexels.com/photos/4146641/pexels-photo-4146641.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The defining feature of the building is its glass roof.",
@@ -666,7 +749,8 @@
           "en": "Openness is the defining feature of their company culture.",
           "vi": "Sự cởi mở là đặc trưng nổi bật của văn hóa công ty họ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "deliberate attempt",
@@ -686,7 +770,8 @@
           "en": "The redesign was a deliberate attempt to improve safety.",
           "vi": "Việc thiết kế lại là một nỗ lực có chủ đích để cải thiện an toàn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "democratic institution",
@@ -700,13 +785,15 @@
         },
         {
           "en": "Strong democratic institutions protect citizens' rights.",
-          "vi": "Các thiết chế dân chủ vững mạnh bảo vệ quyền của công dân."
+          "vi": "Các thiết chế dân chủ vững mạnh bảo vệ quyền của công dân.",
+          "image_url": "https://images.pexels.com/photos/36806846/pexels-photo-36806846.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The reforms aimed to strengthen democratic institutions.",
           "vi": "Các cải cách nhằm củng cố các thiết chế dân chủ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "democratic process",
@@ -726,7 +813,8 @@
           "en": "A free press supports a healthy democratic process.",
           "vi": "Báo chí tự do hỗ trợ một tiến trình dân chủ lành mạnh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "democratic society",
@@ -744,9 +832,11 @@
         },
         {
           "en": "Education plays a vital role in any democratic society.",
-          "vi": "Giáo dục đóng vai trò sống còn trong bất kỳ xã hội dân chủ nào."
+          "vi": "Giáo dục đóng vai trò sống còn trong bất kỳ xã hội dân chủ nào.",
+          "image_url": "https://images.pexels.com/photos/5926296/pexels-photo-5926296.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "democratic state",
@@ -766,7 +856,8 @@
           "en": "In a democratic state, leaders are chosen by the people.",
           "vi": "Trong một nhà nước dân chủ, lãnh đạo do người dân lựa chọn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "demographic change",
@@ -786,7 +877,8 @@
           "en": "Planners must prepare for rapid demographic change.",
           "vi": "Các nhà hoạch định phải chuẩn bị cho thay đổi nhân khẩu học nhanh chóng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "demographic characteristics",
@@ -796,17 +888,28 @@
       "examples": [
         {
           "en": "The survey recorded the demographic characteristics of each respondent.",
-          "vi": "Cuộc khảo sát ghi lại đặc điểm nhân khẩu học của từng người trả lời."
+          "vi": "Cuộc khảo sát ghi lại đặc điểm nhân khẩu học của từng người trả lời.",
+          "image_url": "https://images.pexels.com/photos/8463138/pexels-photo-8463138.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Demographic characteristics include age, gender, and income.",
-          "vi": "Đặc điểm nhân khẩu học bao gồm tuổi, giới tính và thu nhập."
+          "vi": "Đặc điểm nhân khẩu học bao gồm tuổi, giới tính và thu nhập.",
+          "image_url": "https://images.pexels.com/photos/8463138/pexels-photo-8463138.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Marketers study demographic characteristics to target customers.",
-          "vi": "Người làm tiếp thị nghiên cứu đặc điểm nhân khẩu học để nhắm khách hàng."
+          "vi": "Người làm tiếp thị nghiên cứu đặc điểm nhân khẩu học để nhắm khách hàng.",
+          "image_url": "https://images.pexels.com/photos/8463138/pexels-photo-8463138.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/8463138/pexels-photo-8463138.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Kampus Production",
+        "author_url": "https://www.pexels.com/@kampus",
+        "source_url": "https://www.pexels.com/photo/elegant-man-pointing-at-graph-8463138/"
+      }
     },
     {
       "english": "demographic factor",
@@ -826,7 +929,8 @@
           "en": "Income is a demographic factor linked to health outcomes.",
           "vi": "Thu nhập là một yếu tố nhân khẩu học liên quan đến kết quả sức khỏe."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "demonstrate competence",
@@ -836,7 +940,8 @@
       "examples": [
         {
           "en": "Candidates must demonstrate competence in basic mathematics.",
-          "vi": "Ứng viên phải thể hiện năng lực trong toán học cơ bản."
+          "vi": "Ứng viên phải thể hiện năng lực trong toán học cơ bản.",
+          "image_url": "https://images.pexels.com/photos/167682/pexels-photo-167682.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The exam allows students to demonstrate competence in writing.",
@@ -846,7 +951,8 @@
           "en": "New nurses demonstrate competence before working alone.",
           "vi": "Y tá mới thể hiện năng lực trước khi làm việc độc lập."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "densely populated",
@@ -866,7 +972,8 @@
           "en": "Disease spreads faster in densely populated regions.",
           "vi": "Dịch bệnh lây lan nhanh hơn ở các vùng đông dân cư."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "deny access to",
@@ -880,13 +987,15 @@
         },
         {
           "en": "Officials cannot deny access to public records without cause.",
-          "vi": "Quan chức không thể từ chối quyền tiếp cận hồ sơ công nếu không có lý do."
+          "vi": "Quan chức không thể từ chối quyền tiếp cận hồ sơ công nếu không có lý do.",
+          "image_url": "https://images.pexels.com/photos/7417585/pexels-photo-7417585.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The policy may deny access to certain restricted areas.",
           "vi": "Chính sách có thể từ chối quyền tiếp cận vào một số khu vực hạn chế."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dependent variable",
@@ -906,7 +1015,8 @@
           "en": "The dependent variable changes as the input is adjusted.",
           "vi": "Biến phụ thuộc thay đổi khi đầu vào được điều chỉnh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "describe a method",
@@ -924,9 +1034,11 @@
         },
         {
           "en": "The chapter describes a method for training new staff.",
-          "vi": "Chương này mô tả một phương pháp để đào tạo nhân viên mới."
+          "vi": "Chương này mô tả một phương pháp để đào tạo nhân viên mới.",
+          "image_url": "https://images.pexels.com/photos/38666609/pexels-photo-38666609.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "describe a process",
@@ -946,7 +1058,8 @@
           "en": "The video describes a process for recycling plastic.",
           "vi": "Video mô tả một quá trình tái chế nhựa."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "describe a procedure",
@@ -966,7 +1079,8 @@
           "en": "The paper describes a procedure used to collect the samples.",
           "vi": "Bài báo mô tả quy trình được dùng để thu thập mẫu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "descriptive statistics",
@@ -976,17 +1090,28 @@
       "examples": [
         {
           "en": "We used descriptive statistics to summarize the survey results.",
-          "vi": "Chúng tôi dùng thống kê mô tả để tóm tắt kết quả khảo sát."
+          "vi": "Chúng tôi dùng thống kê mô tả để tóm tắt kết quả khảo sát.",
+          "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Descriptive statistics show the average score for each group.",
-          "vi": "Thống kê mô tả cho thấy điểm trung bình của từng nhóm."
+          "vi": "Thống kê mô tả cho thấy điểm trung bình của từng nhóm.",
+          "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The report begins with descriptive statistics before deeper analysis.",
-          "vi": "Báo cáo bắt đầu bằng thống kê mô tả trước khi phân tích sâu hơn."
+          "vi": "Báo cáo bắt đầu bằng thống kê mô tả trước khi phân tích sâu hơn.",
+          "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Negative Space",
+        "author_url": "https://www.pexels.com/@negativespace",
+        "source_url": "https://www.pexels.com/photo/blue-and-green-pie-chart-97080/"
+      }
     },
     {
       "english": "desired outcome",
@@ -1006,7 +1131,8 @@
           "en": "Teachers adjust their methods to achieve the desired outcome.",
           "vi": "Giáo viên điều chỉnh phương pháp để đạt được kết quả mong muốn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "detailed analysis",
@@ -1016,7 +1142,8 @@
       "examples": [
         {
           "en": "The thesis provides a detailed analysis of consumer behavior.",
-          "vi": "Luận văn đưa ra phân tích chi tiết về hành vi người tiêu dùng."
+          "vi": "Luận văn đưa ra phân tích chi tiết về hành vi người tiêu dùng.",
+          "image_url": "https://images.pexels.com/photos/7947670/pexels-photo-7947670.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "A detailed analysis revealed several errors in the data.",
@@ -1026,7 +1153,8 @@
           "en": "Investors expect a detailed analysis before making decisions.",
           "vi": "Nhà đầu tư cần phân tích chi tiết trước khi ra quyết định."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "detailed examination",
@@ -1046,7 +1174,8 @@
           "en": "The doctor recommended a detailed examination of the samples.",
           "vi": "Bác sĩ đề nghị khảo sát chi tiết các mẫu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "detailed information",
@@ -1060,13 +1189,15 @@
         },
         {
           "en": "Please send detailed information about the conference schedule.",
-          "vi": "Vui lòng gửi thông tin chi tiết về lịch hội nghị."
+          "vi": "Vui lòng gửi thông tin chi tiết về lịch hội nghị.",
+          "image_url": "https://images.pexels.com/photos/7648006/pexels-photo-7648006.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Detailed information on the labels helps shoppers choose wisely.",
           "vi": "Thông tin chi tiết trên nhãn giúp người mua chọn lựa khôn ngoan."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "detailed study",
@@ -1086,7 +1217,8 @@
           "en": "The detailed study confirmed earlier findings about migration.",
           "vi": "Nghiên cứu chi tiết đã xác nhận các phát hiện trước về di cư."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "develop a method",
@@ -1104,9 +1236,11 @@
         },
         {
           "en": "Scientists develop a method before running large experiments.",
-          "vi": "Các nhà khoa học phát triển một phương pháp trước khi làm thí nghiệm lớn."
+          "vi": "Các nhà khoa học phát triển một phương pháp trước khi làm thí nghiệm lớn.",
+          "image_url": "https://images.pexels.com/photos/4033147/pexels-photo-4033147.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "develop a strategy",
@@ -1126,7 +1260,8 @@
           "en": "Managers develop a strategy to reduce costs each year.",
           "vi": "Các quản lý xây dựng một chiến lược cắt giảm chi phí mỗi năm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "develop a technique",
@@ -1146,7 +1281,8 @@
           "en": "They aim to develop a technique cheaper than current ones.",
           "vi": "Họ muốn phát triển một kỹ thuật rẻ hơn các kỹ thuật hiện có."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "develop a theory",
@@ -1156,17 +1292,28 @@
       "examples": [
         {
           "en": "Darwin spent years working to develop a theory of evolution.",
-          "vi": "Darwin mất nhiều năm để xây dựng một lý thuyết về tiến hóa."
+          "vi": "Darwin mất nhiều năm để xây dựng một lý thuyết về tiến hóa.",
+          "image_url": "https://images.pexels.com/photos/8798754/pexels-photo-8798754.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Economists develop a theory to explain how prices change.",
-          "vi": "Các nhà kinh tế xây dựng một lý thuyết giải thích giá cả thay đổi."
+          "vi": "Các nhà kinh tế xây dựng một lý thuyết giải thích giá cả thay đổi.",
+          "image_url": "https://images.pexels.com/photos/8798754/pexels-photo-8798754.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "She used the data to develop a theory about learning.",
-          "vi": "Cô ấy dùng dữ liệu để xây dựng một lý thuyết về việc học."
+          "vi": "Cô ấy dùng dữ liệu để xây dựng một lý thuyết về việc học.",
+          "image_url": "https://images.pexels.com/photos/8798754/pexels-photo-8798754.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/8798754/pexels-photo-8798754.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "RDNE Stock project",
+        "author_url": "https://www.pexels.com/@rdne",
+        "source_url": "https://www.pexels.com/photo/close-up-shot-of-people-playing-piano-8798754/"
+      }
     },
     {
       "english": "develop an approach",
@@ -1186,7 +1333,8 @@
           "en": "Therapists develop an approach tailored to each patient.",
           "vi": "Nhà trị liệu phát triển một cách tiếp cận riêng cho từng bệnh nhân."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "develop an argument",
@@ -1196,7 +1344,8 @@
       "examples": [
         {
           "en": "A good essay should develop an argument step by step.",
-          "vi": "Một bài luận hay nên triển khai một lập luận theo từng bước."
+          "vi": "Một bài luận hay nên triển khai một lập luận theo từng bước.",
+          "image_url": "https://images.pexels.com/photos/122480/pexels-photo-122480.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "She uses evidence to develop an argument for reform.",
@@ -1206,7 +1355,8 @@
           "en": "Lawyers develop an argument carefully before going to court.",
           "vi": "Luật sư triển khai một lập luận cẩn thận trước khi ra tòa."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "developmental process",
@@ -1226,7 +1376,8 @@
           "en": "Stress can interrupt the normal developmental process of cells.",
           "vi": "Căng thẳng có thể làm gián đoạn quá trình phát triển bình thường của tế bào."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "developmental stage",
@@ -1240,13 +1391,15 @@
         },
         {
           "en": "The plant reaches a developmental stage where it flowers.",
-          "vi": "Cây đạt tới giai đoạn phát triển mà nó nở hoa."
+          "vi": "Cây đạt tới giai đoạn phát triển mà nó nở hoa.",
+          "image_url": "https://images.pexels.com/photos/10603480/pexels-photo-10603480.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Teachers adapt lessons to the pupil's developmental stage.",
           "vi": "Giáo viên điều chỉnh bài học theo giai đoạn phát triển của học sinh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "diagnostic test",
@@ -1266,7 +1419,8 @@
           "en": "A simple diagnostic test can detect the problem early.",
           "vi": "Một bài kiểm tra chẩn đoán đơn giản có thể phát hiện sớm vấn đề."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "differ considerably",
@@ -1284,9 +1438,11 @@
         },
         {
           "en": "The results differ considerably from those of earlier studies.",
-          "vi": "Kết quả khác nhau đáng kể so với các nghiên cứu trước."
+          "vi": "Kết quả khác nhau đáng kể so với các nghiên cứu trước.",
+          "image_url": "https://images.pexels.com/photos/7089020/pexels-photo-7089020.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "differ significantly",
@@ -1306,7 +1462,8 @@
           "en": "Male and female responses did not differ significantly.",
           "vi": "Phản hồi của nam và nữ không khác nhau rõ rệt."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "differ widely",
@@ -1326,7 +1483,8 @@
           "en": "Teaching styles differ widely across the schools surveyed.",
           "vi": "Phong cách giảng dạy khác nhau rất nhiều giữa các trường được khảo sát."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "digital information",
@@ -1336,17 +1494,28 @@
       "examples": [
         {
           "en": "Libraries now store vast amounts of digital information.",
-          "vi": "Các thư viện hiện lưu trữ lượng lớn thông tin số."
+          "vi": "Các thư viện hiện lưu trữ lượng lớn thông tin số.",
+          "image_url": "https://images.pexels.com/photos/14313194/pexels-photo-14313194.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Protecting digital information is a key concern for companies.",
-          "vi": "Bảo vệ thông tin số là mối quan tâm chính của các công ty."
+          "vi": "Bảo vệ thông tin số là mối quan tâm chính của các công ty.",
+          "image_url": "https://images.pexels.com/photos/14313194/pexels-photo-14313194.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Digital information can be shared across the world instantly.",
-          "vi": "Thông tin số có thể được chia sẻ khắp thế giới ngay lập tức."
+          "vi": "Thông tin số có thể được chia sẻ khắp thế giới ngay lập tức.",
+          "image_url": "https://images.pexels.com/photos/14313194/pexels-photo-14313194.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/14313194/pexels-photo-14313194.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Sururi Ballıdağ Director",
+        "author_url": "https://www.pexels.com/@drector",
+        "source_url": "https://www.pexels.com/photo/a-woman-touching-the-screen-14313194/"
+      }
     },
     {
       "english": "digital media",
@@ -1366,7 +1535,8 @@
           "en": "The course explores the impact of digital media on society.",
           "vi": "Khóa học tìm hiểu tác động của truyền thông số lên xã hội."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "digital technology",
@@ -1376,7 +1546,8 @@
       "examples": [
         {
           "en": "Digital technology has transformed the way we communicate.",
-          "vi": "Công nghệ số đã thay đổi cách chúng ta giao tiếp."
+          "vi": "Công nghệ số đã thay đổi cách chúng ta giao tiếp.",
+          "image_url": "https://images.pexels.com/photos/9783812/pexels-photo-9783812.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Schools invest in digital technology to support learning.",
@@ -1386,7 +1557,8 @@
           "en": "Many jobs now require basic digital technology skills.",
           "vi": "Nhiều công việc hiện đòi hỏi kỹ năng công nghệ số cơ bản."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "direct access",
@@ -1406,7 +1578,8 @@
           "en": "Patients now have direct access to their medical records.",
           "vi": "Bệnh nhân giờ có quyền truy cập trực tiếp hồ sơ y tế của mình."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "direct communication",
@@ -1420,13 +1593,15 @@
         },
         {
           "en": "The manager values direct communication with her staff.",
-          "vi": "Người quản lý coi trọng giao tiếp trực tiếp với nhân viên."
+          "vi": "Người quản lý coi trọng giao tiếp trực tiếp với nhân viên.",
+          "image_url": "https://images.pexels.com/photos/36714213/pexels-photo-36714213.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Direct communication is often faster than long email chains.",
           "vi": "Giao tiếp trực tiếp thường nhanh hơn những chuỗi email dài."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "direct consequences",
@@ -1446,7 +1621,8 @@
           "en": "Cutting funding had direct consequences for the program.",
           "vi": "Việc cắt kinh phí gây hậu quả trực tiếp cho chương trình."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "direct contact",
@@ -1464,9 +1640,11 @@
         },
         {
           "en": "Avoid direct contact between the chemical and your eyes.",
-          "vi": "Tránh để hóa chất tiếp xúc trực tiếp với mắt bạn."
+          "vi": "Tránh để hóa chất tiếp xúc trực tiếp với mắt bạn.",
+          "image_url": "https://images.pexels.com/photos/12834689/pexels-photo-12834689.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "direct evidence",
@@ -1486,7 +1664,8 @@
           "en": "Without direct evidence, the theory remains unproven.",
           "vi": "Nếu thiếu bằng chứng trực tiếp, lý thuyết vẫn chưa được chứng minh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "direct impact",
@@ -1506,7 +1685,8 @@
           "en": "The drought had a direct impact on local farmers.",
           "vi": "Hạn hán có tác động trực tiếp đến nông dân địa phương."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "direct involvement",
@@ -1516,17 +1696,28 @@
       "examples": [
         {
           "en": "The project succeeded thanks to direct involvement from staff.",
-          "vi": "Dự án thành công nhờ sự tham gia trực tiếp của nhân viên."
+          "vi": "Dự án thành công nhờ sự tham gia trực tiếp của nhân viên.",
+          "image_url": "https://images.pexels.com/photos/9972849/pexels-photo-9972849.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Her direct involvement made the campaign far more effective.",
-          "vi": "Sự tham gia trực tiếp của cô ấy khiến chiến dịch hiệu quả hơn nhiều."
+          "vi": "Sự tham gia trực tiếp của cô ấy khiến chiến dịch hiệu quả hơn nhiều.",
+          "image_url": "https://images.pexels.com/photos/9972849/pexels-photo-9972849.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The report questions the company's direct involvement in the deal.",
-          "vi": "Báo cáo đặt nghi vấn về sự tham gia trực tiếp của công ty vào thương vụ."
+          "vi": "Báo cáo đặt nghi vấn về sự tham gia trực tiếp của công ty vào thương vụ.",
+          "image_url": "https://images.pexels.com/photos/9972849/pexels-photo-9972849.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/9972849/pexels-photo-9972849.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Jan van der Wolf",
+        "author_url": "https://www.pexels.com/@jan-van-der-wolf-11680885",
+        "source_url": "https://www.pexels.com/photo/traffic-arrow-sign-9972849/"
+      }
     },
     {
       "english": "direct link",
@@ -1546,7 +1737,8 @@
           "en": "The data show a direct link between income and education.",
           "vi": "Dữ liệu cho thấy mối liên hệ trực tiếp giữa thu nhập và học vấn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "direct observation",
@@ -1556,17 +1748,28 @@
       "examples": [
         {
           "en": "The findings are based on direct observation of animal behavior.",
-          "vi": "Các phát hiện dựa trên quan sát trực tiếp hành vi động vật."
+          "vi": "Các phát hiện dựa trên quan sát trực tiếp hành vi động vật.",
+          "image_url": "https://images.pexels.com/photos/12037144/pexels-photo-12037144.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Direct observation gives richer data than surveys alone.",
-          "vi": "Quan sát trực tiếp cho dữ liệu phong phú hơn so với chỉ khảo sát."
+          "vi": "Quan sát trực tiếp cho dữ liệu phong phú hơn so với chỉ khảo sát.",
+          "image_url": "https://images.pexels.com/photos/12037144/pexels-photo-12037144.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Through direct observation, she recorded how children played.",
-          "vi": "Qua quan sát trực tiếp, cô ấy ghi lại cách trẻ em chơi."
+          "vi": "Qua quan sát trực tiếp, cô ấy ghi lại cách trẻ em chơi.",
+          "image_url": "https://images.pexels.com/photos/12037144/pexels-photo-12037144.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/12037144/pexels-photo-12037144.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Sonny Sixteen",
+        "author_url": "https://www.pexels.com/@sonny",
+        "source_url": "https://www.pexels.com/photo/high-angle-view-of-woman-on-city-street-12037144/"
+      }
     },
     {
       "english": "direct relationship",
@@ -1586,7 +1789,8 @@
           "en": "Researchers noted a direct relationship between stress and sleep.",
           "vi": "Các nhà nghiên cứu ghi nhận mối quan hệ trực tiếp giữa căng thẳng và giấc ngủ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "direct role",
@@ -1596,7 +1800,8 @@
       "examples": [
         {
           "en": "She played a direct role in shaping the new policy.",
-          "vi": "Cô ấy đóng vai trò trực tiếp trong việc định hình chính sách mới."
+          "vi": "Cô ấy đóng vai trò trực tiếp trong việc định hình chính sách mới.",
+          "image_url": "https://images.pexels.com/photos/36839567/pexels-photo-36839567.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Sunlight plays a direct role in plant growth.",
@@ -1606,7 +1811,8 @@
           "en": "The committee has a direct role in approving the budget.",
           "vi": "Ủy ban có vai trò trực tiếp trong việc phê duyệt ngân sách."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "directly affect",
@@ -1626,7 +1832,8 @@
           "en": "Weather conditions directly affect crop yields each season.",
           "vi": "Điều kiện thời tiết ảnh hưởng trực tiếp đến năng suất mùa màng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "directly affected",
@@ -1640,13 +1847,15 @@
         },
         {
           "en": "Workers directly affected by the closure received support.",
-          "vi": "Những công nhân bị ảnh hưởng trực tiếp bởi việc đóng cửa đã được hỗ trợ."
+          "vi": "Những công nhân bị ảnh hưởng trực tiếp bởi việc đóng cửa đã được hỗ trợ.",
+          "image_url": "https://images.pexels.com/photos/30917761/pexels-photo-30917761.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Families directly affected by the flood need urgent help.",
           "vi": "Các gia đình bị ảnh hưởng trực tiếp bởi lũ lụt cần giúp đỡ khẩn cấp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "directly connected to",
@@ -1666,7 +1875,8 @@
           "en": "These two ideas are directly connected to each other.",
           "vi": "Hai ý tưởng này kết nối trực tiếp với nhau."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "directly involved in",
@@ -1684,9 +1894,11 @@
         },
         {
           "en": "He was directly involved in the negotiations last year.",
-          "vi": "Ông ấy trực tiếp tham gia vào các cuộc đàm phán năm ngoái."
+          "vi": "Ông ấy trực tiếp tham gia vào các cuộc đàm phán năm ngoái.",
+          "image_url": "https://images.pexels.com/photos/5520322/pexels-photo-5520322.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "directly linked to",
@@ -1706,7 +1918,8 @@
           "en": "Their success is directly linked to careful planning.",
           "vi": "Thành công của họ liên hệ trực tiếp với việc lập kế hoạch kỹ lưỡng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "directly proportional to",
@@ -1726,7 +1939,8 @@
           "en": "Profit was directly proportional to the number of sales.",
           "vi": "Lợi nhuận tỷ lệ thuận trực tiếp với số lượng bán ra."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "directly related to",
@@ -1736,17 +1950,28 @@
       "examples": [
         {
           "en": "His complaint was directly related to the new schedule.",
-          "vi": "Khiếu nại của anh ấy liên quan trực tiếp đến lịch trình mới."
+          "vi": "Khiếu nại của anh ấy liên quan trực tiếp đến lịch trình mới.",
+          "image_url": "https://images.pexels.com/photos/8832716/pexels-photo-8832716.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The questions are directly related to the course content.",
-          "vi": "Các câu hỏi liên quan trực tiếp đến nội dung khóa học."
+          "vi": "Các câu hỏi liên quan trực tiếp đến nội dung khóa học.",
+          "image_url": "https://images.pexels.com/photos/8832716/pexels-photo-8832716.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Health problems here are directly related to air pollution.",
-          "vi": "Các vấn đề sức khỏe ở đây liên quan trực tiếp đến ô nhiễm không khí."
+          "vi": "Các vấn đề sức khỏe ở đây liên quan trực tiếp đến ô nhiễm không khí.",
+          "image_url": "https://images.pexels.com/photos/8832716/pexels-photo-8832716.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/8832716/pexels-photo-8832716.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "cottonbro CG studio",
+        "author_url": "https://www.pexels.com/@cottonbro-cg-studio",
+        "source_url": "https://www.pexels.com/photo/an-animation-of-a-handshake-8832716/"
+      }
     },
     {
       "english": "directly relevant to",
@@ -1766,7 +1991,8 @@
           "en": "The training was directly relevant to her daily work.",
           "vi": "Khóa đào tạo liên quan thiết thực đến công việc hằng ngày của cô ấy."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "directly responsible for",
@@ -1776,7 +2002,8 @@
       "examples": [
         {
           "en": "The manager is directly responsible for the team's budget.",
-          "vi": "Người quản lý chịu trách nhiệm trực tiếp về ngân sách của nhóm."
+          "vi": "Người quản lý chịu trách nhiệm trực tiếp về ngân sách của nhóm.",
+          "image_url": "https://images.pexels.com/photos/6289030/pexels-photo-6289030.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Smoking is directly responsible for many early deaths.",
@@ -1786,7 +2013,8 @@
           "en": "She is directly responsible for training new employees.",
           "vi": "Cô ấy chịu trách nhiệm trực tiếp về việc đào tạo nhân viên mới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "disclose information",
@@ -1806,7 +2034,8 @@
           "en": "The report refused to disclose information about its sources.",
           "vi": "Báo cáo từ chối tiết lộ thông tin về nguồn của nó."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "discuss a topic",
@@ -1820,13 +2049,15 @@
         },
         {
           "en": "We meet weekly to discuss a topic from the reading.",
-          "vi": "Chúng tôi gặp nhau hằng tuần để thảo luận một chủ đề trong bài đọc."
+          "vi": "Chúng tôi gặp nhau hằng tuần để thảo luận một chủ đề trong bài đọc.",
+          "image_url": "https://images.pexels.com/photos/1464196/pexels-photo-1464196.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "It is hard to discuss a topic without enough background.",
           "vi": "Thật khó để thảo luận một chủ đề khi thiếu kiến thức nền."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "discuss an issue",
@@ -1846,7 +2077,8 @@
           "en": "Leaders gathered to discuss an issue affecting the whole region.",
           "vi": "Các lãnh đạo tụ họp để thảo luận một vấn đề ảnh hưởng cả khu vực."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "disposable income",
@@ -1864,9 +2096,11 @@
         },
         {
           "en": "Young workers often spend much of their disposable income.",
-          "vi": "Người lao động trẻ thường tiêu phần lớn thu nhập khả dụng của họ."
+          "vi": "Người lao động trẻ thường tiêu phần lớn thu nhập khả dụng của họ.",
+          "image_url": "https://images.pexels.com/photos/34975711/pexels-photo-34975711.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "distinct group",
@@ -1886,7 +2120,8 @@
           "en": "The data revealed a distinct group of frequent users.",
           "vi": "Dữ liệu cho thấy một nhóm riêng biệt gồm người dùng thường xuyên."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "distinct type",
@@ -1906,7 +2141,8 @@
           "en": "The museum displays a distinct type of ancient pottery.",
           "vi": "Bảo tàng trưng bày một loại gốm cổ riêng biệt."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "distinctive feature",
@@ -1916,17 +2152,28 @@
       "examples": [
         {
           "en": "The bright colors are a distinctive feature of this bird.",
-          "vi": "Màu sắc sặc sỡ là đặc điểm nổi bật của loài chim này."
+          "vi": "Màu sắc sặc sỡ là đặc điểm nổi bật của loài chim này.",
+          "image_url": "https://images.pexels.com/photos/39517248/pexels-photo-39517248.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Strong arches are a distinctive feature of the architecture.",
-          "vi": "Các vòm lớn là đặc điểm nổi bật của lối kiến trúc này."
+          "vi": "Các vòm lớn là đặc điểm nổi bật của lối kiến trúc này.",
+          "image_url": "https://images.pexels.com/photos/39517248/pexels-photo-39517248.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Her clear writing style is a distinctive feature of her work.",
-          "vi": "Lối viết rõ ràng là đặc điểm nổi bật trong tác phẩm của cô ấy."
+          "vi": "Lối viết rõ ràng là đặc điểm nổi bật trong tác phẩm của cô ấy.",
+          "image_url": "https://images.pexels.com/photos/39517248/pexels-photo-39517248.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/39517248/pexels-photo-39517248.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "BI ravencrow",
+        "author_url": "https://www.pexels.com/@biravencrow",
+        "source_url": "https://www.pexels.com/photo/vibrant-chinese-temple-roof-with-blue-tiles-39517248/"
+      }
     },
     {
       "english": "distinguishing feature",
@@ -1946,7 +2193,8 @@
           "en": "A distinguishing feature of the report is its clear charts.",
           "vi": "Một đặc điểm phân biệt của báo cáo là các biểu đồ rõ ràng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "diverse background",
@@ -1956,7 +2204,8 @@
       "examples": [
         {
           "en": "The students come from a diverse background of cultures.",
-          "vi": "Các sinh viên đến từ nhiều nền văn hóa với xuất thân đa dạng."
+          "vi": "Các sinh viên đến từ nhiều nền văn hóa với xuất thân đa dạng.",
+          "image_url": "https://images.pexels.com/photos/18870202/pexels-photo-18870202.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Her diverse background helps her understand many viewpoints.",
@@ -1966,7 +2215,8 @@
           "en": "Employers value staff with a diverse background and skills.",
           "vi": "Nhà tuyển dụng coi trọng nhân viên có xuất thân và kỹ năng đa dạng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "diverse group",
@@ -1986,7 +2236,8 @@
           "en": "The panel included a diverse group of experts and citizens.",
           "vi": "Hội đồng gồm một nhóm đa dạng các chuyên gia và người dân."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "diverse range of",
@@ -2000,13 +2251,15 @@
         },
         {
           "en": "The course covers a diverse range of historical topics.",
-          "vi": "Khóa học bao quát một loạt đa dạng các chủ đề lịch sử."
+          "vi": "Khóa học bao quát một loạt đa dạng các chủ đề lịch sử.",
+          "image_url": "https://images.pexels.com/photos/36806712/pexels-photo-36806712.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Volunteers came from a diverse range of professions.",
           "vi": "Các tình nguyện viên đến từ một loạt đa dạng các nghề nghiệp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dividing line",
@@ -2026,7 +2279,8 @@
           "en": "Age is not a clear dividing line for these opinions.",
           "vi": "Tuổi tác không phải ranh giới phân chia rõ ràng cho những quan điểm này."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "documentary evidence",
@@ -2044,9 +2298,11 @@
         },
         {
           "en": "Without documentary evidence, the story is hard to verify.",
-          "vi": "Nếu thiếu bằng chứng tài liệu, câu chuyện rất khó kiểm chứng."
+          "vi": "Nếu thiếu bằng chứng tài liệu, câu chuyện rất khó kiểm chứng.",
+          "image_url": "https://images.pexels.com/photos/8382045/pexels-photo-8382045.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "domestic market",
@@ -2066,7 +2322,8 @@
           "en": "Strong demand in the domestic market boosted local jobs.",
           "vi": "Nhu cầu mạnh ở thị trường nội địa thúc đẩy việc làm địa phương."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "domestic sphere",
@@ -2086,7 +2343,8 @@
           "en": "Modern roles blur the line around the domestic sphere.",
           "vi": "Các vai trò hiện đại làm mờ ranh giới của phạm vi gia đình."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "domestic violence",
@@ -2096,17 +2354,28 @@
       "examples": [
         {
           "en": "The charity helps victims of domestic violence find safety.",
-          "vi": "Tổ chức từ thiện giúp nạn nhân bạo lực gia đình tìm nơi an toàn."
+          "vi": "Tổ chức từ thiện giúp nạn nhân bạo lực gia đình tìm nơi an toàn.",
+          "image_url": "https://images.pexels.com/photos/7699487/pexels-photo-7699487.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "New laws aim to reduce cases of domestic violence.",
-          "vi": "Các luật mới nhằm giảm số vụ bạo lực gia đình."
+          "vi": "Các luật mới nhằm giảm số vụ bạo lực gia đình.",
+          "image_url": "https://images.pexels.com/photos/7699487/pexels-photo-7699487.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Domestic violence often goes unreported for many years.",
-          "vi": "Bạo lực gia đình thường không được báo cáo trong nhiều năm."
+          "vi": "Bạo lực gia đình thường không được báo cáo trong nhiều năm.",
+          "image_url": "https://images.pexels.com/photos/7699487/pexels-photo-7699487.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7699487/pexels-photo-7699487.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "MART  PRODUCTION",
+        "author_url": "https://www.pexels.com/@mart-production",
+        "source_url": "https://www.pexels.com/photo/wounds-on-the-persons-knuckles-7699487/"
+      }
     },
     {
       "english": "dominant culture",
@@ -2126,7 +2395,8 @@
           "en": "Smaller traditions can be lost within a dominant culture.",
           "vi": "Các truyền thống nhỏ có thể bị mai một trong một văn hóa chủ đạo."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dominant discourse",
@@ -2136,7 +2406,8 @@
       "examples": [
         {
           "en": "The essay challenges the dominant discourse on poverty.",
-          "vi": "Bài luận thách thức diễn ngôn chủ đạo về đói nghèo."
+          "vi": "Bài luận thách thức diễn ngôn chủ đạo về đói nghèo.",
+          "image_url": "https://images.pexels.com/photos/9532274/pexels-photo-9532274.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Media often reinforce the dominant discourse of a society.",
@@ -2146,7 +2417,8 @@
           "en": "Scholars question the dominant discourse around success.",
           "vi": "Các học giả đặt nghi vấn về diễn ngôn chủ đạo quanh sự thành công."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dominant form",
@@ -2166,7 +2438,8 @@
           "en": "Cash is no longer the dominant form of payment here.",
           "vi": "Tiền mặt không còn là hình thức thanh toán chủ đạo ở đây."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dominant group",
@@ -2180,13 +2453,15 @@
         },
         {
           "en": "Policies sometimes favor the dominant group in society.",
-          "vi": "Các chính sách đôi khi ưu ái nhóm thống trị trong xã hội."
+          "vi": "Các chính sách đôi khi ưu ái nhóm thống trị trong xã hội.",
+          "image_url": "https://images.pexels.com/photos/12804138/pexels-photo-12804138.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Members of the dominant group rarely notice their advantages.",
           "vi": "Các thành viên của nhóm thống trị hiếm khi nhận ra lợi thế của mình."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dominant ideology",
@@ -2206,7 +2481,8 @@
           "en": "Artists sometimes resist the dominant ideology of their time.",
           "vi": "Nghệ sĩ đôi khi chống lại hệ tư tưởng chủ đạo của thời đại mình."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dominant paradigm",
@@ -2224,9 +2500,11 @@
         },
         {
           "en": "A new dominant paradigm can take decades to take hold.",
-          "vi": "Một mô hình chủ đạo mới có thể mất hàng thập kỷ để được chấp nhận."
+          "vi": "Một mô hình chủ đạo mới có thể mất hàng thập kỷ để được chấp nhận.",
+          "image_url": "https://images.pexels.com/photos/30917895/pexels-photo-30917895.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dominant position",
@@ -2246,7 +2524,8 @@
           "en": "A dominant position in trade gave the city great wealth.",
           "vi": "Vị thế thống trị trong thương mại mang lại cho thành phố sự giàu có lớn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dominant role",
@@ -2266,7 +2545,8 @@
           "en": "Technology now has a dominant role in modern education.",
           "vi": "Công nghệ giờ đây đóng vai trò chủ đạo trong giáo dục hiện đại."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dramatic change",
@@ -2276,17 +2556,28 @@
       "examples": [
         {
           "en": "The city has seen a dramatic change over the past decade.",
-          "vi": "Thành phố đã chứng kiến sự thay đổi mạnh mẽ trong thập kỷ qua."
+          "vi": "Thành phố đã chứng kiến sự thay đổi mạnh mẽ trong thập kỷ qua.",
+          "image_url": "https://images.pexels.com/photos/34151378/pexels-photo-34151378.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "New technology brought a dramatic change to farming.",
-          "vi": "Công nghệ mới mang lại sự thay đổi mạnh mẽ cho ngành nông nghiệp."
+          "vi": "Công nghệ mới mang lại sự thay đổi mạnh mẽ cho ngành nông nghiệp.",
+          "image_url": "https://images.pexels.com/photos/34151378/pexels-photo-34151378.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "There was a dramatic change in attitudes after the campaign.",
-          "vi": "Đã có một sự thay đổi mạnh mẽ trong thái độ sau chiến dịch."
+          "vi": "Đã có một sự thay đổi mạnh mẽ trong thái độ sau chiến dịch.",
+          "image_url": "https://images.pexels.com/photos/34151378/pexels-photo-34151378.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/34151378/pexels-photo-34151378.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Nathan Tran",
+        "author_url": "https://www.pexels.com/@nathan-tran-292691073",
+        "source_url": "https://www.pexels.com/photo/dramatic-close-up-of-moody-storm-clouds-34151378/"
+      }
     },
     {
       "english": "dramatic effect",
@@ -2306,7 +2597,8 @@
           "en": "Exercise had a dramatic effect on her overall health.",
           "vi": "Tập thể dục có tác động mạnh mẽ đến sức khỏe tổng thể của cô ấy."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dramatic increase",
@@ -2316,7 +2608,8 @@
       "examples": [
         {
           "en": "There was a dramatic increase in online sales last year.",
-          "vi": "Đã có sự gia tăng mạnh mẽ về doanh số trực tuyến năm ngoái."
+          "vi": "Đã có sự gia tăng mạnh mẽ về doanh số trực tuyến năm ngoái.",
+          "image_url": "https://images.pexels.com/photos/7947757/pexels-photo-7947757.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The report shows a dramatic increase in energy prices.",
@@ -2326,7 +2619,8 @@
           "en": "A dramatic increase in users strained the company's servers.",
           "vi": "Sự gia tăng mạnh mẽ về người dùng gây áp lực lên máy chủ của công ty."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "draw attention to",
@@ -2346,7 +2640,8 @@
           "en": "The author wants to draw attention to a forgotten issue.",
           "vi": "Tác giả muốn thu hút sự chú ý đến một vấn đề bị lãng quên."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "draw a conclusion",
@@ -2360,13 +2655,15 @@
         },
         {
           "en": "Readers can draw a conclusion based on the evidence given.",
-          "vi": "Người đọc có thể rút ra một kết luận dựa trên bằng chứng đã nêu."
+          "vi": "Người đọc có thể rút ra một kết luận dựa trên bằng chứng đã nêu.",
+          "image_url": "https://images.pexels.com/photos/17428587/pexels-photo-17428587.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Scientists draw a conclusion only after repeated testing.",
           "vi": "Các nhà khoa học chỉ rút ra một kết luận sau nhiều lần kiểm tra."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "draw a distinction",
@@ -2386,7 +2683,8 @@
           "en": "It helps to draw a distinction between needs and wants.",
           "vi": "Việc phân biệt rõ ràng giữa nhu cầu và mong muốn rất hữu ích."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "draw a line",
@@ -2404,9 +2702,11 @@
         },
         {
           "en": "The law draws a line between free speech and harm.",
-          "vi": "Luật pháp vạch ra ranh giới giữa tự do ngôn luận và gây hại."
+          "vi": "Luật pháp vạch ra ranh giới giữa tự do ngôn luận và gây hại.",
+          "image_url": "https://images.pexels.com/photos/29339600/pexels-photo-29339600.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "driving force",
@@ -2426,7 +2726,8 @@
           "en": "Trade became the driving force of the region's growth.",
           "vi": "Thương mại trở thành động lực chính cho sự tăng trưởng của khu vực."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "due process",
@@ -2446,7 +2747,8 @@
           "en": "Skipping due process can make a decision unlawful.",
           "vi": "Bỏ qua trình tự pháp lý đúng đắn có thể khiến quyết định trái luật."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dynamic equilibrium",
@@ -2456,17 +2758,28 @@
       "examples": [
         {
           "en": "The reaction reaches a dynamic equilibrium after a few minutes.",
-          "vi": "Phản ứng đạt tới trạng thái cân bằng động sau vài phút."
+          "vi": "Phản ứng đạt tới trạng thái cân bằng động sau vài phút.",
+          "image_url": "https://images.pexels.com/photos/9785613/pexels-photo-9785613.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "In dynamic equilibrium, forward and reverse rates are equal.",
-          "vi": "Trong cân bằng động, tốc độ thuận và nghịch bằng nhau."
+          "vi": "Trong cân bằng động, tốc độ thuận và nghịch bằng nhau.",
+          "image_url": "https://images.pexels.com/photos/9785613/pexels-photo-9785613.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Ecosystems often exist in a fragile dynamic equilibrium.",
-          "vi": "Các hệ sinh thái thường tồn tại trong một cân bằng động mong manh."
+          "vi": "Các hệ sinh thái thường tồn tại trong một cân bằng động mong manh.",
+          "image_url": "https://images.pexels.com/photos/9785613/pexels-photo-9785613.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/9785613/pexels-photo-9785613.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Ron Lach",
+        "author_url": "https://www.pexels.com/@ron-lach",
+        "source_url": "https://www.pexels.com/photo/newton-s-cradle-on-a-table-seen-from-low-angle-view-9785613/"
+      }
     },
     {
       "english": "dynamic nature",
@@ -2486,7 +2799,8 @@
           "en": "The dynamic nature of the field demands constant learning.",
           "vi": "Bản chất năng động của lĩnh vực này đòi hỏi việc học liên tục."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dynamic process",
@@ -2496,7 +2810,8 @@
       "examples": [
         {
           "en": "Learning is a dynamic process that continues throughout life.",
-          "vi": "Học tập là một quá trình năng động kéo dài suốt đời."
+          "vi": "Học tập là một quá trình năng động kéo dài suốt đời.",
+          "image_url": "https://images.pexels.com/photos/18485536/pexels-photo-18485536.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Cell growth is a dynamic process influenced by many factors.",
@@ -2506,7 +2821,8 @@
           "en": "Culture is a dynamic process, always shifting over time.",
           "vi": "Văn hóa là một quá trình năng động, luôn thay đổi theo thời gian."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "dynamic system",
@@ -2526,7 +2842,8 @@
           "en": "A market is a dynamic system shaped by countless decisions.",
           "vi": "Thị trường là một hệ thống động được định hình bởi vô số quyết định."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "earlier discussion",
@@ -2540,13 +2857,15 @@
         },
         {
           "en": "This section builds on the earlier discussion of causes.",
-          "vi": "Phần này dựa trên phần thảo luận trước đó về các nguyên nhân."
+          "vi": "Phần này dựa trên phần thảo luận trước đó về các nguyên nhân.",
+          "image_url": "https://images.pexels.com/photos/8428381/pexels-photo-8428381.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The earlier discussion raised several unanswered questions.",
           "vi": "Phần thảo luận trước đó đã nêu ra nhiều câu hỏi chưa được giải đáp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "earlier period",
@@ -2566,7 +2885,8 @@
           "en": "Art from the earlier period shows simpler designs.",
           "vi": "Nghệ thuật từ thời kỳ trước đó cho thấy những thiết kế đơn giản hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "earlier research",
@@ -2584,9 +2904,11 @@
         },
         {
           "en": "Her study builds directly on earlier research in the field.",
-          "vi": "Nghiên cứu của cô ấy dựa trực tiếp vào nghiên cứu trước đó trong lĩnh vực này."
+          "vi": "Nghiên cứu của cô ấy dựa trực tiếp vào nghiên cứu trước đó trong lĩnh vực này.",
+          "image_url": "https://images.pexels.com/photos/8851610/pexels-photo-8851610.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "earlier stage",
@@ -2606,7 +2928,8 @@
           "en": "Doctors aim to detect the disease at an earlier stage.",
           "vi": "Bác sĩ hướng tới phát hiện bệnh ở một giai đoạn trước đó."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "earlier study",
@@ -2626,7 +2949,8 @@
           "en": "The earlier study used a much smaller sample size.",
           "vi": "Nghiên cứu trước đó dùng cỡ mẫu nhỏ hơn nhiều."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "earlier times",
@@ -2636,17 +2960,28 @@
       "examples": [
         {
           "en": "In earlier times, most people lived in rural villages.",
-          "vi": "Vào thời kỳ trước đây, hầu hết mọi người sống ở làng quê."
+          "vi": "Vào thời kỳ trước đây, hầu hết mọi người sống ở làng quê.",
+          "image_url": "https://images.pexels.com/photos/7059613/pexels-photo-7059613.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Trade was much slower in earlier times than today.",
-          "vi": "Việc buôn bán chậm hơn nhiều vào thời kỳ trước đây so với ngày nay."
+          "vi": "Việc buôn bán chậm hơn nhiều vào thời kỳ trước đây so với ngày nay.",
+          "image_url": "https://images.pexels.com/photos/7059613/pexels-photo-7059613.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "These traditions date back to much earlier times.",
-          "vi": "Những truyền thống này có từ những thời kỳ trước đây rất lâu."
+          "vi": "Những truyền thống này có từ những thời kỳ trước đây rất lâu.",
+          "image_url": "https://images.pexels.com/photos/7059613/pexels-photo-7059613.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7059613/pexels-photo-7059613.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Nothing Ahead",
+        "author_url": "https://www.pexels.com/@ian-panelo",
+        "source_url": "https://www.pexels.com/photo/standard-world-times-title-in-diary-with-illustration-7059613/"
+      }
     },
     {
       "english": "earlier version",
@@ -2666,7 +3001,8 @@
           "en": "Reviewers had read an earlier version of the paper.",
           "vi": "Người bình duyệt đã đọc một phiên bản trước đó của bài báo."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "earlier work",
@@ -2676,7 +3012,8 @@
       "examples": [
         {
           "en": "Her earlier work focused mainly on childhood language development.",
-          "vi": "Công trình trước đó của bà tập trung chủ yếu vào sự phát triển ngôn ngữ ở trẻ em."
+          "vi": "Công trình trước đó của bà tập trung chủ yếu vào sự phát triển ngôn ngữ ở trẻ em.",
+          "image_url": "https://images.pexels.com/photos/8087867/pexels-photo-8087867.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "This paper builds directly on the author's earlier work.",
@@ -2686,7 +3023,8 @@
           "en": "Earlier work in this field had largely been ignored.",
           "vi": "Các công trình trước đó trong lĩnh vực này phần lớn bị bỏ qua."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "early decades",
@@ -2706,7 +3044,8 @@
           "en": "In the early decades, the company employed only ten workers.",
           "vi": "Trong những thập niên đầu, công ty chỉ thuê mười nhân công."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "early study",
@@ -2720,13 +3059,15 @@
         },
         {
           "en": "Each early study relied on rather limited data.",
-          "vi": "Mỗi nghiên cứu ban đầu đều dựa trên dữ liệu khá hạn chế."
+          "vi": "Mỗi nghiên cứu ban đầu đều dựa trên dữ liệu khá hạn chế.",
+          "image_url": "https://images.pexels.com/photos/5527522/pexels-photo-5527522.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The early study laid the groundwork for later research.",
           "vi": "Nghiên cứu ban đầu đã đặt nền móng cho các nghiên cứu về sau."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "easily accessible",
@@ -2746,7 +3087,8 @@
           "en": "Online resources are easily accessible from any device.",
           "vi": "Tài nguyên trực tuyến dễ tiếp cận từ bất kỳ thiết bị nào."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "easily identified",
@@ -2764,9 +3106,11 @@
         },
         {
           "en": "Affected plants can be easily identified by their spots.",
-          "vi": "Cây bị ảnh hưởng có thể dễ dàng được nhận ra qua các đốm."
+          "vi": "Cây bị ảnh hưởng có thể dễ dàng được nhận ra qua các đốm.",
+          "image_url": "https://images.pexels.com/photos/7133427/pexels-photo-7133427.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "easily understood",
@@ -2786,7 +3130,8 @@
           "en": "The concept is easily understood once examples are given.",
           "vi": "Khái niệm này dễ hiểu khi đã có ví dụ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "easy access",
@@ -2806,7 +3151,8 @@
           "en": "Easy access to clean water improves community health.",
           "vi": "Sự tiếp cận dễ dàng với nước sạch cải thiện sức khỏe cộng đồng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "economic activity",
@@ -2816,17 +3162,28 @@
       "examples": [
         {
           "en": "The pandemic sharply reduced economic activity across the region.",
-          "vi": "Đại dịch đã làm giảm mạnh hoạt động kinh tế trên toàn khu vực."
+          "vi": "Đại dịch đã làm giảm mạnh hoạt động kinh tế trên toàn khu vực.",
+          "image_url": "https://images.pexels.com/photos/7688986/pexels-photo-7688986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Tourism remains the main economic activity on the island.",
-          "vi": "Du lịch vẫn là hoạt động kinh tế chính trên đảo."
+          "vi": "Du lịch vẫn là hoạt động kinh tế chính trên đảo.",
+          "image_url": "https://images.pexels.com/photos/7688986/pexels-photo-7688986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Lower interest rates can boost economic activity quickly.",
-          "vi": "Lãi suất thấp hơn có thể thúc đẩy hoạt động kinh tế nhanh chóng."
+          "vi": "Lãi suất thấp hơn có thể thúc đẩy hoạt động kinh tế nhanh chóng.",
+          "image_url": "https://images.pexels.com/photos/7688986/pexels-photo-7688986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7688986/pexels-photo-7688986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Kindel Media",
+        "author_url": "https://www.pexels.com/@kindelmedia",
+        "source_url": "https://www.pexels.com/photo/person-holding-white-printer-paper-7688986/"
+      }
     },
     {
       "english": "economic affairs",
@@ -2846,7 +3203,8 @@
           "en": "Newspapers devote whole sections to economic affairs.",
           "vi": "Báo chí dành cả những chuyên mục cho các vấn đề kinh tế."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "economic analysis",
@@ -2856,7 +3214,8 @@
       "examples": [
         {
           "en": "A careful economic analysis showed the project was unprofitable.",
-          "vi": "Một phân tích kinh tế cẩn thận cho thấy dự án không có lãi."
+          "vi": "Một phân tích kinh tế cẩn thận cho thấy dự án không có lãi.",
+          "image_url": "https://images.pexels.com/photos/7567307/pexels-photo-7567307.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The report includes a detailed economic analysis of costs.",
@@ -2866,7 +3225,8 @@
           "en": "Economic analysis helps governments plan future budgets.",
           "vi": "Phân tích kinh tế giúp các chính phủ lập kế hoạch ngân sách tương lai."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "economic benefits",
@@ -2886,7 +3246,8 @@
           "en": "Renewable energy offers long-term economic benefits.",
           "vi": "Năng lượng tái tạo mang lại lợi ích kinh tế lâu dài."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "economic change",
@@ -2900,13 +3261,15 @@
         },
         {
           "en": "The study tracks economic change over three decades.",
-          "vi": "Nghiên cứu theo dõi sự thay đổi kinh tế trong ba thập kỷ."
+          "vi": "Nghiên cứu theo dõi sự thay đổi kinh tế trong ba thập kỷ.",
+          "image_url": "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Technology often drives deep economic change in society.",
           "vi": "Công nghệ thường thúc đẩy sự thay đổi kinh tế sâu sắc trong xã hội."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "economic conditions",
@@ -2926,7 +3289,8 @@
           "en": "Economic conditions improved steadily after the reforms.",
           "vi": "Điều kiện kinh tế cải thiện đều đặn sau các cải cách."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "economic consequences",
@@ -2944,9 +3308,11 @@
         },
         {
           "en": "Climate change carries far-reaching economic consequences.",
-          "vi": "Biến đổi khí hậu mang lại những hậu quả kinh tế sâu rộng."
+          "vi": "Biến đổi khí hậu mang lại những hậu quả kinh tế sâu rộng.",
+          "image_url": "https://images.pexels.com/photos/38521776/pexels-photo-38521776.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "economic context",
@@ -2966,7 +3332,8 @@
           "en": "Decisions made sense within the economic context of the time.",
           "vi": "Các quyết định trở nên hợp lý trong bối cảnh kinh tế thời bấy giờ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "economic crisis",
@@ -2986,7 +3353,8 @@
           "en": "The 2008 economic crisis reshaped global financial regulation.",
           "vi": "Cuộc khủng hoảng kinh tế năm 2008 đã định hình lại quy định tài chính toàn cầu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "economic exploitation",
@@ -2996,17 +3364,28 @@
       "examples": [
         {
           "en": "The book examines the economic exploitation of colonial workers.",
-          "vi": "Cuốn sách xem xét sự bóc lột kinh tế đối với công nhân thuộc địa."
+          "vi": "Cuốn sách xem xét sự bóc lột kinh tế đối với công nhân thuộc địa.",
+          "image_url": "https://images.pexels.com/photos/17839772/pexels-photo-17839772.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Weak laws allowed widespread economic exploitation of migrants.",
-          "vi": "Luật lệ yếu kém cho phép sự bóc lột kinh tế tràn lan đối với người di cư."
+          "vi": "Luật lệ yếu kém cho phép sự bóc lột kinh tế tràn lan đối với người di cư.",
+          "image_url": "https://images.pexels.com/photos/17839772/pexels-photo-17839772.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Activists campaigned against the economic exploitation of children.",
-          "vi": "Các nhà hoạt động vận động chống lại sự bóc lột kinh tế đối với trẻ em."
+          "vi": "Các nhà hoạt động vận động chống lại sự bóc lột kinh tế đối với trẻ em.",
+          "image_url": "https://images.pexels.com/photos/17839772/pexels-photo-17839772.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/17839772/pexels-photo-17839772.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Neneqo Fotógrafo",
+        "author_url": "https://www.pexels.com/@neneqo-fotografo-574087123",
+        "source_url": "https://www.pexels.com/photo/woman-searching-through-the-stones-discarded-from-a-mine-in-search-of-gold-17839772/"
+      }
     }
   ]
 }

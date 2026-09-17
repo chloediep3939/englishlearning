@@ -26,7 +26,8 @@
           "en": "A simple majority cannot amend the country's constitution.",
           "vi": "Đa số quá bán không thể sửa đổi hiến pháp của quốc gia."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "simplified version",
@@ -46,7 +47,8 @@
           "en": "The app offers a simplified version for new users.",
           "vi": "Ứng dụng cung cấp một phiên bản đơn giản hóa cho người dùng mới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "single currency",
@@ -56,17 +58,28 @@
       "examples": [
         {
           "en": "Member states adopted a single currency to ease trade.",
-          "vi": "Các nước thành viên áp dụng đồng tiền chung để thuận lợi thương mại."
+          "vi": "Các nước thành viên áp dụng đồng tiền chung để thuận lợi thương mại.",
+          "image_url": "https://images.pexels.com/photos/10149620/pexels-photo-10149620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "A single currency removed the need for constant exchange.",
-          "vi": "Đồng tiền chung loại bỏ nhu cầu đổi tiền liên tục."
+          "vi": "Đồng tiền chung loại bỏ nhu cầu đổi tiền liên tục.",
+          "image_url": "https://images.pexels.com/photos/10149620/pexels-photo-10149620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Critics debated whether a single currency suited every economy.",
-          "vi": "Các nhà phê bình tranh luận liệu đồng tiền chung có hợp với mọi nền kinh tế."
+          "vi": "Các nhà phê bình tranh luận liệu đồng tiền chung có hợp với mọi nền kinh tế.",
+          "image_url": "https://images.pexels.com/photos/10149620/pexels-photo-10149620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/10149620/pexels-photo-10149620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Engin Akyurt",
+        "author_url": "https://www.pexels.com/@enginakyurt",
+        "source_url": "https://www.pexels.com/photo/a-piece-of-a-round-coin-on-a-white-surface-10149620/"
+      }
     },
     {
       "english": "single element",
@@ -86,7 +99,8 @@
           "en": "The diagram highlights each single element of the process.",
           "vi": "Sơ đồ làm nổi bật từng yếu tố đơn lẻ của quá trình."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "single entity",
@@ -96,7 +110,8 @@
       "examples": [
         {
           "en": "The merger combined both firms into a single entity.",
-          "vi": "Vụ sáp nhập gộp cả hai công ty thành một thực thể đơn nhất."
+          "vi": "Vụ sáp nhập gộp cả hai công ty thành một thực thể đơn nhất.",
+          "image_url": "https://images.pexels.com/photos/7953418/pexels-photo-7953418.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The law treats the group as a single entity legally.",
@@ -106,7 +121,8 @@
           "en": "Several departments now operate as a single entity.",
           "vi": "Nhiều phòng ban giờ hoạt động như một thực thể đơn nhất."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "single individual",
@@ -126,7 +142,8 @@
           "en": "The decision rested on a single individual's judgment.",
           "vi": "Quyết định dựa vào phán đoán của một cá nhân đơn lẻ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "single issue",
@@ -140,13 +157,15 @@
         },
         {
           "en": "Voters rarely choose based on a single issue alone.",
-          "vi": "Cử tri hiếm khi chọn dựa trên một vấn đề đơn lẻ."
+          "vi": "Cử tri hiếm khi chọn dựa trên một vấn đề đơn lẻ.",
+          "image_url": "https://images.pexels.com/photos/4669113/pexels-photo-4669113.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The debate narrowed down to a single issue eventually.",
           "vi": "Cuộc tranh luận cuối cùng thu hẹp về một vấn đề đơn lẻ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "single source",
@@ -166,7 +185,8 @@
           "en": "A single source of income made the family vulnerable.",
           "vi": "Một nguồn thu nhập duy nhất khiến gia đình dễ tổn thương."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "single variable",
@@ -184,9 +204,11 @@
         },
         {
           "en": "A single variable cannot explain such a complex result.",
-          "vi": "Một biến số đơn lẻ không thể giải thích kết quả phức tạp như vậy."
+          "vi": "Một biến số đơn lẻ không thể giải thích kết quả phức tạp như vậy.",
+          "image_url": "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "skilled worker",
@@ -206,7 +228,8 @@
           "en": "The country relies on skilled workers from abroad.",
           "vi": "Đất nước phụ thuộc vào lao động có tay nghề từ nước ngoài."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "slightly different",
@@ -226,7 +249,8 @@
           "en": "Her conclusion was slightly different from the others.",
           "vi": "Kết luận của cô hơi khác một chút so với những người khác."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "slightly higher",
@@ -236,17 +260,28 @@
       "examples": [
         {
           "en": "Temperatures were slightly higher than the seasonal average.",
-          "vi": "Nhiệt độ cao hơn một chút so với mức trung bình mùa."
+          "vi": "Nhiệt độ cao hơn một chút so với mức trung bình mùa.",
+          "image_url": "https://images.pexels.com/photos/11347388/pexels-photo-11347388.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Prices this year are slightly higher than last year.",
-          "vi": "Giá năm nay cao hơn một chút so với năm ngoái."
+          "vi": "Giá năm nay cao hơn một chút so với năm ngoái.",
+          "image_url": "https://images.pexels.com/photos/11347388/pexels-photo-11347388.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The treated group showed a slightly higher recovery rate.",
-          "vi": "Nhóm được điều trị có tỷ lệ hồi phục cao hơn một chút."
+          "vi": "Nhóm được điều trị có tỷ lệ hồi phục cao hơn một chút.",
+          "image_url": "https://images.pexels.com/photos/11347388/pexels-photo-11347388.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/11347388/pexels-photo-11347388.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Patrick Nizan",
+        "author_url": "https://www.pexels.com/@patrick-nizan-115343504",
+        "source_url": "https://www.pexels.com/photo/low-angle-shot-of-red-hot-air-balloon-under-blue-sky-11347388/"
+      }
     },
     {
       "english": "slow process",
@@ -266,7 +301,8 @@
           "en": "Coral reefs recover through a slow process over decades.",
           "vi": "Rạn san hô phục hồi qua một quá trình chậm chạp suốt nhiều thập kỷ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "small fraction",
@@ -276,7 +312,8 @@
       "examples": [
         {
           "en": "Only a small fraction of applicants were finally accepted.",
-          "vi": "Chỉ một phần nhỏ ứng viên cuối cùng được nhận."
+          "vi": "Chỉ một phần nhỏ ứng viên cuối cùng được nhận.",
+          "image_url": "https://images.pexels.com/photos/7821472/pexels-photo-7821472.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "A small fraction of the budget covers maintenance costs.",
@@ -286,7 +323,8 @@
           "en": "Wind power supplies only a small fraction of the energy.",
           "vi": "Điện gió chỉ cung cấp một phần nhỏ năng lượng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "small minority",
@@ -306,7 +344,8 @@
           "en": "The survey showed a small minority remained undecided.",
           "vi": "Khảo sát cho thấy một thiểu số nhỏ vẫn chưa quyết định."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "small percentage",
@@ -320,13 +359,15 @@
         },
         {
           "en": "A small percentage of patients experienced minor side effects.",
-          "vi": "Một tỷ lệ phần trăm nhỏ bệnh nhân gặp tác dụng phụ nhẹ."
+          "vi": "Một tỷ lệ phần trăm nhỏ bệnh nhân gặp tác dụng phụ nhẹ.",
+          "image_url": "https://images.pexels.com/photos/8376195/pexels-photo-8376195.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Only a small percentage of voters turned out yesterday.",
           "vi": "Chỉ một tỷ lệ phần trăm nhỏ cử tri đi bầu hôm qua."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "small portion",
@@ -346,7 +387,8 @@
           "en": "A small portion of the report focused on safety.",
           "vi": "Một phần nhỏ của báo cáo tập trung vào an toàn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "small proportion of",
@@ -364,9 +406,11 @@
         },
         {
           "en": "A small proportion of cases required hospital treatment.",
-          "vi": "Một tỷ lệ nhỏ ca bệnh cần điều trị tại bệnh viện."
+          "vi": "Một tỷ lệ nhỏ ca bệnh cần điều trị tại bệnh viện.",
+          "image_url": "https://images.pexels.com/photos/6129152/pexels-photo-6129152.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "small quantities of",
@@ -386,7 +430,8 @@
           "en": "Plants absorb small quantities of nutrients through their roots.",
           "vi": "Cây hấp thụ một lượng nhỏ chất dinh dưỡng qua rễ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social activity",
@@ -406,7 +451,8 @@
           "en": "Many students value social activity as much as study.",
           "vi": "Nhiều sinh viên coi trọng hoạt động xã hội ngang với học tập."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social aspect",
@@ -416,17 +462,28 @@
       "examples": [
         {
           "en": "The study explored the social aspect of online gaming.",
-          "vi": "Nghiên cứu khám phá khía cạnh xã hội của trò chơi trực tuyến."
+          "vi": "Nghiên cứu khám phá khía cạnh xã hội của trò chơi trực tuyến.",
+          "image_url": "https://images.pexels.com/photos/15595050/pexels-photo-15595050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Teachers often overlook the social aspect of learning.",
-          "vi": "Giáo viên thường bỏ qua khía cạnh xã hội của việc học."
+          "vi": "Giáo viên thường bỏ qua khía cạnh xã hội của việc học.",
+          "image_url": "https://images.pexels.com/photos/15595050/pexels-photo-15595050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The social aspect of the festival attracts many visitors.",
-          "vi": "Khía cạnh xã hội của lễ hội thu hút nhiều du khách."
+          "vi": "Khía cạnh xã hội của lễ hội thu hút nhiều du khách.",
+          "image_url": "https://images.pexels.com/photos/15595050/pexels-photo-15595050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/15595050/pexels-photo-15595050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Walls.io",
+        "author_url": "https://www.pexels.com/@walls-io-440716388",
+        "source_url": "https://www.pexels.com/photo/a-keyboard-light-box-with-letters-document-and-pen-lying-on-a-desk-15595050/"
+      }
     },
     {
       "english": "social attitudes",
@@ -446,7 +503,8 @@
           "en": "The survey measured social attitudes across different age groups.",
           "vi": "Cuộc khảo sát đo lường thái độ xã hội ở các nhóm tuổi khác nhau."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social background",
@@ -456,7 +514,8 @@
       "examples": [
         {
           "en": "Students come from very different social backgrounds here.",
-          "vi": "Học sinh ở đây đến từ những hoàn cảnh xã hội rất khác nhau."
+          "vi": "Học sinh ở đây đến từ những hoàn cảnh xã hội rất khác nhau.",
+          "image_url": "https://images.pexels.com/photos/8199173/pexels-photo-8199173.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Social background can strongly influence a child's opportunities.",
@@ -466,7 +525,8 @@
           "en": "The program supports students regardless of social background.",
           "vi": "Chương trình hỗ trợ học sinh bất kể hoàn cảnh xã hội."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social behavior",
@@ -486,7 +546,8 @@
           "en": "The experiment measured changes in social behavior over months.",
           "vi": "Thí nghiệm đo lường thay đổi trong hành vi xã hội qua nhiều tháng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social circumstances",
@@ -500,13 +561,15 @@
         },
         {
           "en": "Health outcomes often depend on a person's social circumstances.",
-          "vi": "Kết quả sức khỏe thường phụ thuộc vào hoàn cảnh xã hội của một người."
+          "vi": "Kết quả sức khỏe thường phụ thuộc vào hoàn cảnh xã hội của một người.",
+          "image_url": "https://images.pexels.com/photos/29372730/pexels-photo-29372730.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Policies should account for the social circumstances of families.",
           "vi": "Chính sách nên tính đến hoàn cảnh xã hội của các gia đình."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social conflict",
@@ -526,7 +589,8 @@
           "en": "Dialogue between groups helped reduce the social conflict.",
           "vi": "Đối thoại giữa các nhóm đã giúp giảm xung đột xã hội."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social consequences",
@@ -544,9 +608,11 @@
         },
         {
           "en": "New technology often brings unexpected social consequences.",
-          "vi": "Công nghệ mới thường mang lại hệ quả xã hội bất ngờ."
+          "vi": "Công nghệ mới thường mang lại hệ quả xã hội bất ngờ.",
+          "image_url": "https://images.pexels.com/photos/30693449/pexels-photo-30693449.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social construct",
@@ -566,7 +632,8 @@
           "en": "The idea of beauty is partly a social construct.",
           "vi": "Quan niệm về cái đẹp một phần là kiến tạo xã hội."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social contact",
@@ -586,7 +653,8 @@
           "en": "Children develop language skills through frequent social contact.",
           "vi": "Trẻ phát triển kỹ năng ngôn ngữ qua tiếp xúc xã hội thường xuyên."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social context",
@@ -596,17 +664,28 @@
       "examples": [
         {
           "en": "Language always carries meaning within its social context.",
-          "vi": "Ngôn ngữ luôn mang ý nghĩa trong bối cảnh xã hội của nó."
+          "vi": "Ngôn ngữ luôn mang ý nghĩa trong bối cảnh xã hội của nó.",
+          "image_url": "https://images.pexels.com/photos/34792887/pexels-photo-34792887.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "We must understand the social context of the historical event.",
-          "vi": "Chúng ta phải hiểu bối cảnh xã hội của sự kiện lịch sử."
+          "vi": "Chúng ta phải hiểu bối cảnh xã hội của sự kiện lịch sử.",
+          "image_url": "https://images.pexels.com/photos/34792887/pexels-photo-34792887.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Behavior changes depending on the surrounding social context.",
-          "vi": "Hành vi thay đổi tùy theo bối cảnh xã hội xung quanh."
+          "vi": "Hành vi thay đổi tùy theo bối cảnh xã hội xung quanh.",
+          "image_url": "https://images.pexels.com/photos/34792887/pexels-photo-34792887.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/34792887/pexels-photo-34792887.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Tanha Tamanna  Syed",
+        "author_url": "https://www.pexels.com/@tanhatamannasyed",
+        "source_url": "https://www.pexels.com/photo/group-of-men-gathering-in-a-dhaka-street-34792887/"
+      }
     },
     {
       "english": "social democracy",
@@ -626,7 +705,8 @@
           "en": "The party promoted social democracy throughout its long campaign.",
           "vi": "Đảng cổ vũ dân chủ xã hội trong suốt chiến dịch dài của mình."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social dimension",
@@ -636,7 +716,8 @@
       "examples": [
         {
           "en": "The project considered the social dimension of urban planning.",
-          "vi": "Dự án xem xét chiều kích xã hội của quy hoạch đô thị."
+          "vi": "Dự án xem xét chiều kích xã hội của quy hoạch đô thị.",
+          "image_url": "https://images.pexels.com/photos/34360419/pexels-photo-34360419.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Economists sometimes ignore the social dimension of their policies.",
@@ -646,7 +727,8 @@
           "en": "Health care has an important social dimension beyond medicine.",
           "vi": "Chăm sóc sức khỏe có chiều kích xã hội quan trọng ngoài y học."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social environment",
@@ -666,7 +748,8 @@
           "en": "Habits are shaped strongly by the surrounding social environment.",
           "vi": "Thói quen được định hình mạnh bởi môi trường xã hội xung quanh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social equality",
@@ -680,13 +763,15 @@
         },
         {
           "en": "Education is often seen as a path to social equality.",
-          "vi": "Giáo dục thường được coi là con đường đến bình đẳng xã hội."
+          "vi": "Giáo dục thường được coi là con đường đến bình đẳng xã hội.",
+          "image_url": "https://images.pexels.com/photos/6185434/pexels-photo-6185434.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "True social equality requires fair access to opportunity.",
           "vi": "Bình đẳng xã hội thực sự đòi hỏi tiếp cận cơ hội công bằng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social exclusion",
@@ -706,7 +791,8 @@
           "en": "Language barriers can cause lasting social exclusion.",
           "vi": "Rào cản ngôn ngữ có thể gây ra sự loại trừ xã hội dai dẳng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social expectations",
@@ -724,9 +810,11 @@
         },
         {
           "en": "She struggled to meet her family's social expectations.",
-          "vi": "Cô vất vả để đáp ứng kỳ vọng xã hội của gia đình."
+          "vi": "Cô vất vả để đáp ứng kỳ vọng xã hội của gia đình.",
+          "image_url": "https://images.pexels.com/photos/29539916/pexels-photo-29539916.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social factors",
@@ -746,7 +834,8 @@
           "en": "Health depends on biological and social factors together.",
           "vi": "Sức khỏe phụ thuộc vào cả yếu tố sinh học và xã hội."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social function",
@@ -766,7 +855,8 @@
           "en": "The museum also fulfills a valuable social function locally.",
           "vi": "Bảo tàng cũng thực hiện một chức năng xã hội quý giá tại địa phương."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social identity",
@@ -776,17 +866,28 @@
       "examples": [
         {
           "en": "Language plays a key role in shaping social identity.",
-          "vi": "Ngôn ngữ đóng vai trò then chốt trong việc hình thành bản sắc xã hội."
+          "vi": "Ngôn ngữ đóng vai trò then chốt trong việc hình thành bản sắc xã hội.",
+          "image_url": "https://images.pexels.com/photos/5721133/pexels-photo-5721133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Teenagers often explore their social identity through friendships.",
-          "vi": "Thanh thiếu niên thường khám phá bản sắc xã hội qua tình bạn."
+          "vi": "Thanh thiếu niên thường khám phá bản sắc xã hội qua tình bạn.",
+          "image_url": "https://images.pexels.com/photos/5721133/pexels-photo-5721133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Migration can deeply affect a person's social identity.",
-          "vi": "Di cư có thể ảnh hưởng sâu sắc đến bản sắc xã hội của một người."
+          "vi": "Di cư có thể ảnh hưởng sâu sắc đến bản sắc xã hội của một người.",
+          "image_url": "https://images.pexels.com/photos/5721133/pexels-photo-5721133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/5721133/pexels-photo-5721133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Anete Lusina",
+        "author_url": "https://www.pexels.com/@anete-lusina",
+        "source_url": "https://www.pexels.com/photo/man-in-denim-jacket-wearing-a-guy-fawkes-mask-5721133/"
+      }
     },
     {
       "english": "social implications",
@@ -806,7 +907,8 @@
           "en": "The policy has wide social implications for low-income families.",
           "vi": "Chính sách có hàm ý xã hội sâu rộng đối với các gia đình thu nhập thấp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social inequality",
@@ -816,7 +918,8 @@
       "examples": [
         {
           "en": "Rising social inequality often leads to political tension in many countries.",
-          "vi": "Bất bình đẳng xã hội gia tăng thường dẫn đến căng thẳng chính trị ở nhiều quốc gia."
+          "vi": "Bất bình đẳng xã hội gia tăng thường dẫn đến căng thẳng chính trị ở nhiều quốc gia.",
+          "image_url": "https://images.pexels.com/photos/9643247/pexels-photo-9643247.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The report examines how education can reduce social inequality over time.",
@@ -826,7 +929,8 @@
           "en": "Economists debate the main causes of widening social inequality today.",
           "vi": "Các nhà kinh tế tranh luận về những nguyên nhân chính của bất bình đẳng xã hội ngày càng lớn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social institution",
@@ -846,7 +950,8 @@
           "en": "Religious social institutions have influenced laws throughout human history.",
           "vi": "Các thiết chế xã hội tôn giáo đã ảnh hưởng đến luật pháp suốt lịch sử nhân loại."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social integration",
@@ -860,13 +965,15 @@
         },
         {
           "en": "The program supports the social integration of refugees into local communities.",
-          "vi": "Chương trình hỗ trợ sự hòa nhập xã hội của người tị nạn vào cộng đồng địa phương."
+          "vi": "Chương trình hỗ trợ sự hòa nhập xã hội của người tị nạn vào cộng đồng địa phương.",
+          "image_url": "https://images.pexels.com/photos/19264366/pexels-photo-19264366.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Sports teams can encourage social integration across different cultural groups.",
           "vi": "Các đội thể thao có thể khuyến khích sự hòa nhập xã hội giữa các nhóm văn hóa khác nhau."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social interaction",
@@ -886,7 +993,8 @@
           "en": "Researchers observed social interaction patterns within the small group.",
           "vi": "Các nhà nghiên cứu quan sát các mô hình tương tác xã hội trong nhóm nhỏ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social isolation",
@@ -904,9 +1012,11 @@
         },
         {
           "en": "Community centers help reduce social isolation in rural areas.",
-          "vi": "Các trung tâm cộng đồng giúp giảm sự cô lập xã hội ở vùng nông thôn."
+          "vi": "Các trung tâm cộng đồng giúp giảm sự cô lập xã hội ở vùng nông thôn.",
+          "image_url": "https://images.pexels.com/photos/36884506/pexels-photo-36884506.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social mobility",
@@ -926,7 +1036,8 @@
           "en": "Limited social mobility keeps many people trapped in poverty.",
           "vi": "Sự dịch chuyển xã hội hạn chế khiến nhiều người mắc kẹt trong nghèo đói."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social movement",
@@ -946,7 +1057,8 @@
           "en": "Historians study how each social movement shaped public opinion.",
           "vi": "Các nhà sử học nghiên cứu cách mỗi phong trào xã hội định hình dư luận."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social norm",
@@ -956,17 +1068,28 @@
       "examples": [
         {
           "en": "Greeting strangers politely is a common social norm in many cultures.",
-          "vi": "Chào hỏi người lạ một cách lịch sự là chuẩn mực xã hội phổ biến ở nhiều nền văn hóa."
+          "vi": "Chào hỏi người lạ một cách lịch sự là chuẩn mực xã hội phổ biến ở nhiều nền văn hóa.",
+          "image_url": "https://images.pexels.com/photos/5961185/pexels-photo-5961185.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Breaking a social norm can lead to disapproval from the community.",
-          "vi": "Vi phạm một chuẩn mực xã hội có thể dẫn đến sự phản đối từ cộng đồng."
+          "vi": "Vi phạm một chuẩn mực xã hội có thể dẫn đến sự phản đối từ cộng đồng.",
+          "image_url": "https://images.pexels.com/photos/5961185/pexels-photo-5961185.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Social norms often change slowly as generations grow up.",
-          "vi": "Các chuẩn mực xã hội thường thay đổi chậm khi các thế hệ trưởng thành."
+          "vi": "Các chuẩn mực xã hội thường thay đổi chậm khi các thế hệ trưởng thành.",
+          "image_url": "https://images.pexels.com/photos/5961185/pexels-photo-5961185.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/5961185/pexels-photo-5961185.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Thirdman",
+        "author_url": "https://www.pexels.com/@thirdman",
+        "source_url": "https://www.pexels.com/photo/friends-standing-on-the-street-5961185/"
+      }
     },
     {
       "english": "social organization",
@@ -986,7 +1109,8 @@
           "en": "The book compares social organization in farming and hunting societies.",
           "vi": "Cuốn sách so sánh tổ chức xã hội ở các xã hội nông nghiệp và săn bắt."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social phenomenon",
@@ -996,7 +1120,8 @@
       "examples": [
         {
           "en": "The rapid spread of memes is an interesting social phenomenon online.",
-          "vi": "Sự lan truyền nhanh chóng của meme là một hiện tượng xã hội thú vị trên mạng."
+          "vi": "Sự lan truyền nhanh chóng của meme là một hiện tượng xã hội thú vị trên mạng.",
+          "image_url": "https://images.pexels.com/photos/6633068/pexels-photo-6633068.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Sociologists try to explain this complex social phenomenon scientifically.",
@@ -1006,7 +1131,8 @@
           "en": "Urban migration is a global social phenomenon affecting many nations.",
           "vi": "Di cư đô thị là một hiện tượng xã hội toàn cầu ảnh hưởng đến nhiều quốc gia."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social policy",
@@ -1026,7 +1152,8 @@
           "en": "The lecture compared social policy in several European countries.",
           "vi": "Bài giảng so sánh chính sách xã hội ở một số quốc gia châu Âu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social reform",
@@ -1040,13 +1167,15 @@
         },
         {
           "en": "Major social reform often requires support from a broad coalition.",
-          "vi": "Cải cách xã hội lớn thường cần sự ủng hộ từ một liên minh rộng rãi."
+          "vi": "Cải cách xã hội lớn thường cần sự ủng hộ từ một liên minh rộng rãi.",
+          "image_url": "https://images.pexels.com/photos/30786020/pexels-photo-30786020.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Nineteenth-century social reform led to better factory conditions.",
           "vi": "Cải cách xã hội thế kỷ mười chín đã mang lại điều kiện nhà máy tốt hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social relationship",
@@ -1066,7 +1195,8 @@
           "en": "The study explores how technology reshapes our social relationships.",
           "vi": "Nghiên cứu khám phá cách công nghệ định hình lại các mối quan hệ xã hội của chúng ta."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social responsibility",
@@ -1084,9 +1214,11 @@
         },
         {
           "en": "Corporate social responsibility includes protecting the environment.",
-          "vi": "Trách nhiệm xã hội của doanh nghiệp bao gồm việc bảo vệ môi trường."
+          "vi": "Trách nhiệm xã hội của doanh nghiệp bao gồm việc bảo vệ môi trường.",
+          "image_url": "https://images.pexels.com/photos/9543398/pexels-photo-9543398.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social setting",
@@ -1106,7 +1238,8 @@
           "en": "Language use varies greatly across formal and informal social settings.",
           "vi": "Cách dùng ngôn ngữ thay đổi nhiều giữa các bối cảnh xã hội trang trọng và thân mật."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social significance",
@@ -1126,7 +1259,8 @@
           "en": "The painting is admired for both its beauty and social significance.",
           "vi": "Bức tranh được ngưỡng mộ vì cả vẻ đẹp lẫn ý nghĩa xã hội của nó."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social status",
@@ -1136,17 +1270,28 @@
       "examples": [
         {
           "en": "In some cultures, clothing clearly signals a person's social status.",
-          "vi": "Ở một số nền văn hóa, trang phục thể hiện rõ địa vị xã hội của một người."
+          "vi": "Ở một số nền văn hóa, trang phục thể hiện rõ địa vị xã hội của một người.",
+          "image_url": "https://images.pexels.com/photos/15446900/pexels-photo-15446900.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Education can raise the social status of an entire family.",
-          "vi": "Giáo dục có thể nâng cao địa vị xã hội của cả một gia đình."
+          "vi": "Giáo dục có thể nâng cao địa vị xã hội của cả một gia đình.",
+          "image_url": "https://images.pexels.com/photos/15446900/pexels-photo-15446900.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The novel describes how marriage affected a woman's social status.",
-          "vi": "Cuốn tiểu thuyết mô tả cách hôn nhân ảnh hưởng đến địa vị xã hội của người phụ nữ."
+          "vi": "Cuốn tiểu thuyết mô tả cách hôn nhân ảnh hưởng đến địa vị xã hội của người phụ nữ.",
+          "image_url": "https://images.pexels.com/photos/15446900/pexels-photo-15446900.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/15446900/pexels-photo-15446900.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Luis Quintero",
+        "author_url": "https://www.pexels.com/@jibarofoto",
+        "source_url": "https://www.pexels.com/photo/photo-of-young-people-smiling-and-posing-in-front-of-entrance-door-to-a-building-15446900/"
+      }
     },
     {
       "english": "social structure",
@@ -1166,7 +1311,8 @@
           "en": "Sociologists analyze the social structure of modern urban communities.",
           "vi": "Các nhà xã hội học phân tích cấu trúc xã hội của các cộng đồng đô thị hiện đại."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social theory",
@@ -1176,7 +1322,8 @@
       "examples": [
         {
           "en": "The course introduces classic social theory from the nineteenth century.",
-          "vi": "Khóa học giới thiệu lý thuyết xã hội kinh điển từ thế kỷ mười chín."
+          "vi": "Khóa học giới thiệu lý thuyết xã hội kinh điển từ thế kỷ mười chín.",
+          "image_url": "https://images.pexels.com/photos/1887609/pexels-photo-1887609.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Modern social theory tries to explain inequality and power relations.",
@@ -1186,7 +1333,8 @@
           "en": "She applied social theory to understand the recent protests.",
           "vi": "Cô áp dụng lý thuyết xã hội để hiểu các cuộc biểu tình gần đây."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social transformation",
@@ -1206,7 +1354,8 @@
           "en": "The revolution led to a profound social transformation of the nation.",
           "vi": "Cuộc cách mạng dẫn đến một sự chuyển biến xã hội sâu sắc của quốc gia."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social trend",
@@ -1220,13 +1369,15 @@
         },
         {
           "en": "A clear social trend toward remote work emerged after the pandemic.",
-          "vi": "Một xu hướng xã hội rõ rệt hướng tới làm việc từ xa xuất hiện sau đại dịch."
+          "vi": "Một xu hướng xã hội rõ rệt hướng tới làm việc từ xa xuất hiện sau đại dịch.",
+          "image_url": "https://images.pexels.com/photos/6127967/pexels-photo-6127967.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The article identifies several social trends shaping family life today.",
           "vi": "Bài báo xác định một số xu hướng xã hội đang định hình đời sống gia đình ngày nay."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "social welfare",
@@ -1246,7 +1397,8 @@
           "en": "Debates about social welfare spending often divide political parties.",
           "vi": "Các tranh luận về chi tiêu phúc lợi xã hội thường chia rẽ các đảng phái chính trị."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "socially acceptable",
@@ -1264,9 +1416,11 @@
         },
         {
           "en": "The advertisement was considered no longer socially acceptable today.",
-          "vi": "Quảng cáo đó bị coi là không còn được xã hội chấp nhận ngày nay."
+          "vi": "Quảng cáo đó bị coi là không còn được xã hội chấp nhận ngày nay.",
+          "image_url": "https://images.pexels.com/photos/7563660/pexels-photo-7563660.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "socially constructed",
@@ -1286,7 +1440,8 @@
           "en": "This theory claims that race is a socially constructed category.",
           "vi": "Lý thuyết này cho rằng chủng tộc là một phạm trù được kiến tạo về mặt xã hội."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "socially desirable",
@@ -1306,7 +1461,8 @@
           "en": "People may exaggerate socially desirable behaviors in interviews.",
           "vi": "Người ta có thể phóng đại các hành vi được xã hội coi trọng trong các cuộc phỏng vấn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "socially responsible",
@@ -1316,17 +1472,28 @@
       "examples": [
         {
           "en": "Socially responsible businesses consider their impact on local communities.",
-          "vi": "Các doanh nghiệp có trách nhiệm với xã hội cân nhắc tác động đến cộng đồng địa phương."
+          "vi": "Các doanh nghiệp có trách nhiệm với xã hội cân nhắc tác động đến cộng đồng địa phương.",
+          "image_url": "https://images.pexels.com/photos/8542571/pexels-photo-8542571.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Investors increasingly prefer socially responsible companies and funds.",
-          "vi": "Các nhà đầu tư ngày càng ưa chuộng những công ty và quỹ có trách nhiệm với xã hội."
+          "vi": "Các nhà đầu tư ngày càng ưa chuộng những công ty và quỹ có trách nhiệm với xã hội.",
+          "image_url": "https://images.pexels.com/photos/8542571/pexels-photo-8542571.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The school encourages students to become socially responsible adults.",
-          "vi": "Nhà trường khuyến khích học sinh trở thành người lớn có trách nhiệm với xã hội."
+          "vi": "Nhà trường khuyến khích học sinh trở thành người lớn có trách nhiệm với xã hội.",
+          "image_url": "https://images.pexels.com/photos/8542571/pexels-photo-8542571.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/8542571/pexels-photo-8542571.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Mikhail Nilov",
+        "author_url": "https://www.pexels.com/@mikhail-nilov",
+        "source_url": "https://www.pexels.com/photo/a-man-holding-a-globe-8542571/"
+      }
     },
     {
       "english": "socioeconomic status",
@@ -1346,7 +1513,8 @@
           "en": "Higher socioeconomic status is linked with better health outcomes.",
           "vi": "Tình trạng kinh tế - xã hội cao hơn gắn liền với kết quả sức khỏe tốt hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "solar energy",
@@ -1356,7 +1524,8 @@
       "examples": [
         {
           "en": "Solar energy is a clean and renewable source of electricity.",
-          "vi": "Năng lượng mặt trời là nguồn điện sạch và có thể tái tạo."
+          "vi": "Năng lượng mặt trời là nguồn điện sạch và có thể tái tạo.",
+          "image_url": "https://images.pexels.com/photos/17762230/pexels-photo-17762230.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Many homes now use solar energy to reduce their power bills.",
@@ -1366,7 +1535,8 @@
           "en": "Governments are investing in solar energy to fight climate change.",
           "vi": "Các chính phủ đang đầu tư vào năng lượng mặt trời để chống biến đổi khí hậu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "solar panel",
@@ -1386,7 +1556,8 @@
           "en": "The cost of each solar panel has dropped sharply in recent years.",
           "vi": "Chi phí của mỗi tấm pin mặt trời đã giảm mạnh trong những năm gần đây."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "solar power",
@@ -1400,13 +1571,15 @@
         },
         {
           "en": "Solar power has become much cheaper over the last decade.",
-          "vi": "Điện mặt trời đã trở nên rẻ hơn nhiều trong thập kỷ qua."
+          "vi": "Điện mặt trời đã trở nên rẻ hơn nhiều trong thập kỷ qua.",
+          "image_url": "https://images.pexels.com/photos/27873610/pexels-photo-27873610.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Engineers are improving how solar power is stored at night.",
           "vi": "Các kỹ sư đang cải tiến cách lưu trữ điện mặt trời vào ban đêm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "solar system",
@@ -1426,7 +1599,8 @@
           "en": "The lecture explained how the solar system formed billions of years ago.",
           "vi": "Bài giảng giải thích hệ mặt trời hình thành hàng tỷ năm trước như thế nào."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "source material",
@@ -1444,9 +1618,11 @@
         },
         {
           "en": "The documentary draws on rare source material from the war.",
-          "vi": "Bộ phim tài liệu dựa trên tư liệu gốc hiếm có từ thời chiến."
+          "vi": "Bộ phim tài liệu dựa trên tư liệu gốc hiếm có từ thời chiến.",
+          "image_url": "https://images.pexels.com/photos/36306963/pexels-photo-36306963.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "sovereign state",
@@ -1466,7 +1642,8 @@
           "en": "International law recognizes the borders of every sovereign state.",
           "vi": "Luật quốc tế công nhận biên giới của mọi quốc gia có chủ quyền."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "sparsely populated",
@@ -1486,7 +1663,8 @@
           "en": "Much of the desert remains sparsely populated even today.",
           "vi": "Phần lớn sa mạc vẫn thưa dân cho đến ngày nay."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "special circumstances",
@@ -1496,17 +1674,28 @@
       "examples": [
         {
           "en": "Extensions are granted only under special circumstances such as illness.",
-          "vi": "Gia hạn chỉ được cấp trong những hoàn cảnh đặc biệt như ốm đau."
+          "vi": "Gia hạn chỉ được cấp trong những hoàn cảnh đặc biệt như ốm đau.",
+          "image_url": "https://images.pexels.com/photos/7942490/pexels-photo-7942490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The rule may be waived if special circumstances clearly apply.",
-          "vi": "Quy tắc có thể được miễn nếu rõ ràng có hoàn cảnh đặc biệt."
+          "vi": "Quy tắc có thể được miễn nếu rõ ràng có hoàn cảnh đặc biệt.",
+          "image_url": "https://images.pexels.com/photos/7942490/pexels-photo-7942490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Please explain any special circumstances affecting your application.",
-          "vi": "Vui lòng giải thích bất kỳ hoàn cảnh đặc biệt nào ảnh hưởng đến đơn của bạn."
+          "vi": "Vui lòng giải thích bất kỳ hoàn cảnh đặc biệt nào ảnh hưởng đến đơn của bạn.",
+          "image_url": "https://images.pexels.com/photos/7942490/pexels-photo-7942490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7942490/pexels-photo-7942490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Pavel Danilyuk",
+        "author_url": "https://www.pexels.com/@pavel-danilyuk",
+        "source_url": "https://www.pexels.com/photo/photo-of-people-in-black-academic-gown-7942490/"
+      }
     },
     {
       "english": "special emphasis",
@@ -1526,7 +1715,8 @@
           "en": "The report puts special emphasis on the needs of rural communities.",
           "vi": "Báo cáo đặc biệt nhấn mạnh đến nhu cầu của các cộng đồng nông thôn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "special issue",
@@ -1536,7 +1726,8 @@
       "examples": [
         {
           "en": "The journal published a special issue on climate science this year.",
-          "vi": "Tạp chí đã xuất bản một số chuyên đề về khoa học khí hậu năm nay."
+          "vi": "Tạp chí đã xuất bản một số chuyên đề về khoa học khí hậu năm nay.",
+          "image_url": "https://images.pexels.com/photos/158651/news-newsletter-newspaper-information-158651.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Her article appeared in a special issue devoted to education.",
@@ -1546,7 +1737,8 @@
           "en": "The magazine's special issue sold out within a single week.",
           "vi": "Số chuyên đề của tạp chí đã bán hết chỉ trong một tuần."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "special relationship",
@@ -1566,7 +1758,8 @@
           "en": "The book describes the special relationship between the king and his advisor.",
           "vi": "Cuốn sách mô tả mối quan hệ đặc biệt giữa nhà vua và cố vấn của ông."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "special status",
@@ -1576,17 +1769,21 @@
       "examples": [
         {
           "en": "The historic city was granted special status to protect its buildings.",
-          "vi": "Thành phố lịch sử được trao quy chế đặc biệt để bảo vệ các tòa nhà của nó."
+          "vi": "Thành phố lịch sử được trao quy chế đặc biệt để bảo vệ các tòa nhà của nó.",
+          "image_url": "https://images.pexels.com/photos/35980530/pexels-photo-35980530.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Refugees may be given special status under international law.",
-          "vi": "Người tị nạn có thể được trao quy chế đặc biệt theo luật quốc tế."
+          "vi": "Người tị nạn có thể được trao quy chế đặc biệt theo luật quốc tế.",
+          "image_url": "https://images.pexels.com/photos/35980530/pexels-photo-35980530.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The region enjoys special status that allows greater self-government.",
-          "vi": "Khu vực này có quy chế đặc biệt cho phép quyền tự quản lớn hơn."
+          "vi": "Khu vực này có quy chế đặc biệt cho phép quyền tự quản lớn hơn.",
+          "image_url": "https://images.pexels.com/photos/35980530/pexels-photo-35980530.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific area",
@@ -1606,7 +1803,8 @@
           "en": "Please describe the specific area where you need more support.",
           "vi": "Vui lòng mô tả lĩnh vực cụ thể mà bạn cần thêm hỗ trợ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific aspect",
@@ -1620,13 +1818,15 @@
         },
         {
           "en": "The interview focused on one specific aspect of her career.",
-          "vi": "Cuộc phỏng vấn tập trung vào một khía cạnh cụ thể trong sự nghiệp của cô."
+          "vi": "Cuộc phỏng vấn tập trung vào một khía cạnh cụ thể trong sự nghiệp của cô.",
+          "image_url": "https://images.pexels.com/photos/7859553/pexels-photo-7859553.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Let us now consider a more specific aspect of the theory.",
           "vi": "Bây giờ chúng ta hãy xem xét một khía cạnh cụ thể hơn của lý thuyết."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific case",
@@ -1646,7 +1846,8 @@
           "en": "The textbook analyzes a specific case in great detail.",
           "vi": "Sách giáo khoa phân tích một trường hợp cụ thể rất chi tiết."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific characteristic",
@@ -1664,9 +1865,11 @@
         },
         {
           "en": "This material is chosen for one specific characteristic: its strength.",
-          "vi": "Vật liệu này được chọn vì một đặc điểm cụ thể: độ bền của nó."
+          "vi": "Vật liệu này được chọn vì một đặc điểm cụ thể: độ bền của nó.",
+          "image_url": "https://images.pexels.com/photos/35598611/pexels-photo-35598611.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific context",
@@ -1686,7 +1889,8 @@
           "en": "Researchers must describe the specific context of their experiment.",
           "vi": "Các nhà nghiên cứu phải mô tả ngữ cảnh cụ thể của thí nghiệm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific example",
@@ -1706,7 +1910,8 @@
           "en": "Each claim in the essay is backed by a specific example.",
           "vi": "Mỗi luận điểm trong bài luận đều được hỗ trợ bằng một ví dụ cụ thể."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific factor",
@@ -1716,17 +1921,28 @@
       "examples": [
         {
           "en": "The study isolated one specific factor causing the rise in sales.",
-          "vi": "Nghiên cứu tách riêng một yếu tố cụ thể gây ra sự tăng doanh số."
+          "vi": "Nghiên cứu tách riêng một yếu tố cụ thể gây ra sự tăng doanh số.",
+          "image_url": "https://images.pexels.com/photos/38795663/pexels-photo-38795663.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Several specific factors influenced the outcome of the experiment.",
-          "vi": "Một số yếu tố cụ thể đã ảnh hưởng đến kết quả của thí nghiệm."
+          "vi": "Một số yếu tố cụ thể đã ảnh hưởng đến kết quả của thí nghiệm.",
+          "image_url": "https://images.pexels.com/photos/38795663/pexels-photo-38795663.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "It is hard to identify the specific factor behind the failure.",
-          "vi": "Thật khó để xác định yếu tố cụ thể đằng sau sự thất bại."
+          "vi": "Thật khó để xác định yếu tố cụ thể đằng sau sự thất bại.",
+          "image_url": "https://images.pexels.com/photos/38795663/pexels-photo-38795663.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/38795663/pexels-photo-38795663.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Travel with  Lenses",
+        "author_url": "https://www.pexels.com/@travel-with-lenses-734723610",
+        "source_url": "https://www.pexels.com/photo/cyclists-racing-in-copenhagen-city-event-38795663/"
+      }
     },
     {
       "english": "specific feature",
@@ -1746,7 +1962,8 @@
           "en": "Each model offers a specific feature that the others lack.",
           "vi": "Mỗi mẫu cung cấp một tính năng cụ thể mà các mẫu khác không có."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific focus",
@@ -1756,7 +1973,8 @@
       "examples": [
         {
           "en": "The seminar has a specific focus on renewable energy this term.",
-          "vi": "Hội thảo có một trọng tâm cụ thể về năng lượng tái tạo trong học kỳ này."
+          "vi": "Hội thảo có một trọng tâm cụ thể về năng lượng tái tạo trong học kỳ này.",
+          "image_url": "https://images.pexels.com/photos/30316446/pexels-photo-30316446.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Her thesis maintains a specific focus throughout every chapter.",
@@ -1766,7 +1984,8 @@
           "en": "The committee asked the team to choose a more specific focus.",
           "vi": "Ủy ban yêu cầu nhóm chọn một trọng tâm cụ thể hơn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific form",
@@ -1786,7 +2005,8 @@
           "en": "Each language expresses politeness through a specific form of address.",
           "vi": "Mỗi ngôn ngữ thể hiện sự lịch sự qua một hình thức xưng hô cụ thể."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific function",
@@ -1800,13 +2020,15 @@
         },
         {
           "en": "The tool was designed for one specific function in the factory.",
-          "vi": "Công cụ này được thiết kế cho một chức năng cụ thể trong nhà máy."
+          "vi": "Công cụ này được thiết kế cho một chức năng cụ thể trong nhà máy.",
+          "image_url": "https://images.pexels.com/photos/46973/taps-thread-drill-milling-46973.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Every department in the company has its own specific function.",
           "vi": "Mỗi phòng ban trong công ty có chức năng cụ thể riêng của mình."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific information",
@@ -1826,7 +2048,8 @@
           "en": "The report lacks the specific information needed for a decision.",
           "vi": "Báo cáo thiếu thông tin cụ thể cần thiết để đưa ra quyết định."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific issue",
@@ -1844,9 +2067,11 @@
         },
         {
           "en": "The committee will address each specific issue in turn.",
-          "vi": "Ủy ban sẽ giải quyết từng vấn đề cụ thể một cách lần lượt."
+          "vi": "Ủy ban sẽ giải quyết từng vấn đề cụ thể một cách lần lượt.",
+          "image_url": "https://images.pexels.com/photos/34672722/pexels-photo-34672722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific knowledge",
@@ -1866,7 +2091,8 @@
           "en": "Without specific knowledge of the region, the plan could fail.",
           "vi": "Nếu không có kiến thức cụ thể về khu vực, kế hoạch có thể thất bại."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific meaning",
@@ -1886,7 +2112,8 @@
           "en": "The author explains the specific meaning of the technical term.",
           "vi": "Tác giả giải thích ý nghĩa cụ thể của thuật ngữ kỹ thuật."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific needs",
@@ -1896,17 +2123,28 @@
       "examples": [
         {
           "en": "The program is tailored to the specific needs of each student.",
-          "vi": "Chương trình được điều chỉnh theo nhu cầu cụ thể của mỗi học sinh."
+          "vi": "Chương trình được điều chỉnh theo nhu cầu cụ thể của mỗi học sinh.",
+          "image_url": "https://images.pexels.com/photos/9830110/pexels-photo-9830110.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Older patients often have specific needs that require special care.",
-          "vi": "Bệnh nhân lớn tuổi thường có nhu cầu cụ thể đòi hỏi chăm sóc đặc biệt."
+          "vi": "Bệnh nhân lớn tuổi thường có nhu cầu cụ thể đòi hỏi chăm sóc đặc biệt.",
+          "image_url": "https://images.pexels.com/photos/9830110/pexels-photo-9830110.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The company surveys customers to understand their specific needs.",
-          "vi": "Công ty khảo sát khách hàng để hiểu nhu cầu cụ thể của họ."
+          "vi": "Công ty khảo sát khách hàng để hiểu nhu cầu cụ thể của họ.",
+          "image_url": "https://images.pexels.com/photos/9830110/pexels-photo-9830110.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/9830110/pexels-photo-9830110.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Ron Lach",
+        "author_url": "https://www.pexels.com/@ron-lach",
+        "source_url": "https://www.pexels.com/photo/homeless-man-holding-cardboard-in-hands-9830110/"
+      }
     },
     {
       "english": "specific problem",
@@ -1926,7 +2164,8 @@
           "en": "Each section of the report addresses a specific problem.",
           "vi": "Mỗi phần của báo cáo giải quyết một vấn đề cụ thể."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific purpose",
@@ -1936,7 +2175,8 @@
       "examples": [
         {
           "en": "The fund was created for one specific purpose: student scholarships.",
-          "vi": "Quỹ được lập ra cho một mục đích cụ thể: học bổng cho sinh viên."
+          "vi": "Quỹ được lập ra cho một mục đích cụ thể: học bổng cho sinh viên.",
+          "image_url": "https://images.pexels.com/photos/19501079/pexels-photo-19501079.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Each tool in the kit serves a specific purpose.",
@@ -1946,7 +2186,8 @@
           "en": "The course teaches English for the specific purpose of business.",
           "vi": "Khóa học dạy tiếng Anh cho mục đích cụ thể là kinh doanh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific question",
@@ -1966,7 +2207,8 @@
           "en": "Students should prepare a specific question for the guest speaker.",
           "vi": "Sinh viên nên chuẩn bị một câu hỏi cụ thể cho diễn giả khách mời."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific reference",
@@ -1980,13 +2222,15 @@
         },
         {
           "en": "His speech contained a specific reference to last year's report.",
-          "vi": "Bài phát biểu của ông có sự đề cập cụ thể đến báo cáo năm ngoái."
+          "vi": "Bài phát biểu của ông có sự đề cập cụ thể đến báo cáo năm ngoái.",
+          "image_url": "https://images.pexels.com/photos/16136352/pexels-photo-16136352.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Please add a specific reference to support each claim.",
           "vi": "Vui lòng thêm một sự đề cập cụ thể để hỗ trợ mỗi luận điểm."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific sense",
@@ -2006,7 +2250,8 @@
           "en": "The author defines the term in its specific sense early on.",
           "vi": "Tác giả định nghĩa thuật ngữ theo nghĩa cụ thể của nó từ đầu."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specific type",
@@ -2024,9 +2269,11 @@
         },
         {
           "en": "Researchers studied a specific type of cell under the microscope.",
-          "vi": "Các nhà nghiên cứu nghiên cứu một loại tế bào cụ thể dưới kính hiển vi."
+          "vi": "Các nhà nghiên cứu nghiên cứu một loại tế bào cụ thể dưới kính hiển vi.",
+          "image_url": "https://images.pexels.com/photos/8697464/pexels-photo-8697464.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "specifically designed to",
@@ -2046,7 +2293,8 @@
           "en": "The program is specifically designed to train young athletes.",
           "vi": "Chương trình được thiết kế riêng để huấn luyện các vận động viên trẻ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "standard approach",
@@ -2066,7 +2314,8 @@
           "en": "Researchers compared a new method with the standard approach.",
           "vi": "Các nhà nghiên cứu so sánh phương pháp mới với cách tiếp cận tiêu chuẩn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "standard error",
@@ -2076,17 +2325,28 @@
       "examples": [
         {
           "en": "The table reports the mean along with its standard error.",
-          "vi": "Bảng báo cáo giá trị trung bình cùng với sai số chuẩn của nó."
+          "vi": "Bảng báo cáo giá trị trung bình cùng với sai số chuẩn của nó.",
+          "image_url": "https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "A smaller standard error suggests a more precise estimate.",
-          "vi": "Sai số chuẩn nhỏ hơn cho thấy một ước lượng chính xác hơn."
+          "vi": "Sai số chuẩn nhỏ hơn cho thấy một ước lượng chính xác hơn.",
+          "image_url": "https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Students learned how to calculate the standard error of the mean.",
-          "vi": "Sinh viên học cách tính sai số chuẩn của giá trị trung bình."
+          "vi": "Sinh viên học cách tính sai số chuẩn của giá trị trung bình.",
+          "image_url": "https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Vie Studio",
+        "author_url": "https://www.pexels.com/@vie-studio",
+        "source_url": "https://www.pexels.com/photo/word-error-on-white-surface-4439425/"
+      }
     },
     {
       "english": "standard format",
@@ -2106,7 +2366,8 @@
           "en": "The template provides a standard format for every assignment.",
           "vi": "Mẫu cung cấp một định dạng tiêu chuẩn cho mọi bài tập."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "standard method",
@@ -2116,7 +2377,8 @@
       "examples": [
         {
           "en": "Scientists used the standard method to measure water quality.",
-          "vi": "Các nhà khoa học dùng phương pháp tiêu chuẩn để đo chất lượng nước."
+          "vi": "Các nhà khoa học dùng phương pháp tiêu chuẩn để đo chất lượng nước.",
+          "image_url": "https://images.pexels.com/photos/8770247/pexels-photo-8770247.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The new technique is faster than the standard method.",
@@ -2126,7 +2388,8 @@
           "en": "Following a standard method makes the results easy to compare.",
           "vi": "Tuân theo một phương pháp tiêu chuẩn giúp kết quả dễ so sánh."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "stark contrast",
@@ -2146,7 +2409,8 @@
           "en": "The data shows a stark contrast between the two regions.",
           "vi": "Dữ liệu cho thấy sự tương phản rõ rệt giữa hai khu vực."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "start a process",
@@ -2160,13 +2424,15 @@
         },
         {
           "en": "Click the button to start a process that cannot be undone.",
-          "vi": "Nhấn nút để bắt đầu một quy trình không thể hoàn tác."
+          "vi": "Nhấn nút để bắt đầu một quy trình không thể hoàn tác.",
+          "image_url": "https://images.pexels.com/photos/21562934/pexels-photo-21562934.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Their meeting helped start a process of reconciliation between rivals.",
           "vi": "Cuộc gặp của họ giúp bắt đầu một quy trình hòa giải giữa các đối thủ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "state explicitly",
@@ -2186,7 +2452,8 @@
           "en": "Please state explicitly which option you prefer.",
           "vi": "Vui lòng nêu rõ ràng bạn thích phương án nào."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "state sector",
@@ -2204,9 +2471,11 @@
         },
         {
           "en": "The reform reduced the size of the state sector significantly.",
-          "vi": "Cuộc cải cách đã giảm đáng kể quy mô của khu vực nhà nước."
+          "vi": "Cuộc cải cách đã giảm đáng kể quy mô của khu vực nhà nước.",
+          "image_url": "https://images.pexels.com/photos/6795499/pexels-photo-6795499.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "statistical analysis",
@@ -2226,7 +2495,8 @@
           "en": "She used software to speed up the statistical analysis.",
           "vi": "Cô dùng phần mềm để tăng tốc độ phân tích thống kê."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "statistical data",
@@ -2246,7 +2516,8 @@
           "en": "The report presents statistical data in clear, simple charts.",
           "vi": "Báo cáo trình bày dữ liệu thống kê bằng các biểu đồ rõ ràng, đơn giản."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "statistical information",
@@ -2256,17 +2527,28 @@
       "examples": [
         {
           "en": "The website offers detailed statistical information about population growth.",
-          "vi": "Trang web cung cấp thông tin thống kê chi tiết về tăng trưởng dân số."
+          "vi": "Trang web cung cấp thông tin thống kê chi tiết về tăng trưởng dân số.",
+          "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Journalists rely on statistical information to support their stories.",
-          "vi": "Các nhà báo dựa vào thông tin thống kê để hỗ trợ các bài viết của họ."
+          "vi": "Các nhà báo dựa vào thông tin thống kê để hỗ trợ các bài viết của họ.",
+          "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The agency publishes statistical information once every year.",
-          "vi": "Cơ quan này công bố thông tin thống kê mỗi năm một lần."
+          "vi": "Cơ quan này công bố thông tin thống kê mỗi năm một lần.",
+          "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Negative Space",
+        "author_url": "https://www.pexels.com/@negativespace",
+        "source_url": "https://www.pexels.com/photo/blue-and-green-pie-chart-97080/"
+      }
     },
     {
       "english": "statistical method",
@@ -2286,7 +2568,8 @@
           "en": "The course teaches each statistical method with practical examples.",
           "vi": "Khóa học dạy từng phương pháp thống kê kèm các ví dụ thực tế."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "statistical significance",
@@ -2296,7 +2579,8 @@
       "examples": [
         {
           "en": "The results reached statistical significance at the chosen level.",
-          "vi": "Kết quả đạt ý nghĩa thống kê ở mức đã chọn."
+          "vi": "Kết quả đạt ý nghĩa thống kê ở mức đã chọn.",
+          "image_url": "https://images.pexels.com/photos/7947634/pexels-photo-7947634.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Without statistical significance, the findings cannot be trusted fully.",
@@ -2306,7 +2590,8 @@
           "en": "The professor explained how to test for statistical significance.",
           "vi": "Giáo sư giải thích cách kiểm tra ý nghĩa thống kê."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "statistical technique",
@@ -2326,7 +2611,8 @@
           "en": "The workshop introduced several useful statistical techniques.",
           "vi": "Hội thảo giới thiệu một số kỹ thuật thống kê hữu ích."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "statistical test",
@@ -2340,13 +2626,15 @@
         },
         {
           "en": "Choosing an appropriate statistical test is a crucial step.",
-          "vi": "Chọn một kiểm định thống kê phù hợp là một bước quan trọng."
+          "vi": "Chọn một kiểm định thống kê phù hợp là một bước quan trọng.",
+          "image_url": "https://images.pexels.com/photos/8850706/pexels-photo-8850706.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The statistical test confirmed that the difference was real.",
           "vi": "Kiểm định thống kê xác nhận rằng sự khác biệt là thật."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "statistically significant",
@@ -2366,7 +2654,8 @@
           "en": "The trend was clear but not statistically significant.",
           "vi": "Xu hướng rất rõ nhưng không có ý nghĩa thống kê."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "store data",
@@ -2384,9 +2673,11 @@
         },
         {
           "en": "Researchers store data in the cloud so it never gets lost.",
-          "vi": "Các nhà nghiên cứu lưu trữ dữ liệu trên đám mây để không bao giờ bị mất."
+          "vi": "Các nhà nghiên cứu lưu trữ dữ liệu trên đám mây để không bao giờ bị mất.",
+          "image_url": "https://images.pexels.com/photos/19825057/pexels-photo-19825057.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "store information",
@@ -2406,7 +2697,8 @@
           "en": "Libraries store information in both printed and digital forms.",
           "vi": "Các thư viện lưu trữ thông tin ở cả dạng in và dạng kỹ thuật số."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strategic decision",
@@ -2426,7 +2718,8 @@
           "en": "Closing the old factory was a difficult strategic decision.",
           "vi": "Đóng cửa nhà máy cũ là một quyết định chiến lược khó khăn."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strategic importance",
@@ -2436,17 +2729,28 @@
       "examples": [
         {
           "en": "The port has great strategic importance for international trade.",
-          "vi": "Cảng có tầm quan trọng chiến lược lớn đối với thương mại quốc tế."
+          "vi": "Cảng có tầm quan trọng chiến lược lớn đối với thương mại quốc tế.",
+          "image_url": "https://images.pexels.com/photos/37210633/pexels-photo-37210633.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Both nations recognized the strategic importance of the region.",
-          "vi": "Cả hai quốc gia đều nhận ra tầm quan trọng chiến lược của khu vực."
+          "vi": "Cả hai quốc gia đều nhận ra tầm quan trọng chiến lược của khu vực.",
+          "image_url": "https://images.pexels.com/photos/37210633/pexels-photo-37210633.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The bridge holds strategic importance during times of conflict.",
-          "vi": "Cây cầu có tầm quan trọng chiến lược trong thời kỳ xung đột."
+          "vi": "Cây cầu có tầm quan trọng chiến lược trong thời kỳ xung đột.",
+          "image_url": "https://images.pexels.com/photos/37210633/pexels-photo-37210633.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/37210633/pexels-photo-37210633.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Diana ✨",
+        "author_url": "https://www.pexels.com/@didsss",
+        "source_url": "https://www.pexels.com/photo/elegant-black-chess-pieces-on-wooden-board-37210633/"
+      }
     },
     {
       "english": "strategic management",
@@ -2466,7 +2770,8 @@
           "en": "Her thesis examines strategic management in small technology startups.",
           "vi": "Luận văn của cô nghiên cứu quản trị chiến lược tại các startup công nghệ nhỏ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strategic objective",
@@ -2476,7 +2781,8 @@
       "examples": [
         {
           "en": "The board defined three strategic objectives for the coming year.",
-          "vi": "Hội đồng quản trị xác định ba mục tiêu chiến lược cho năm tới."
+          "vi": "Hội đồng quản trị xác định ba mục tiêu chiến lược cho năm tới.",
+          "image_url": "https://images.pexels.com/photos/38285051/pexels-photo-38285051.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Every department must align its work with the strategic objectives.",
@@ -2486,7 +2792,8 @@
           "en": "Achieving the strategic objective required significant investment and planning.",
           "vi": "Đạt được mục tiêu chiến lược đòi hỏi đầu tư và lập kế hoạch đáng kể."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strategic planning",
@@ -2506,7 +2813,8 @@
           "en": "Strategic planning involves setting goals and allocating resources wisely.",
           "vi": "Lập kế hoạch chiến lược bao gồm đặt mục tiêu và phân bổ nguồn lực hợp lý."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "stress level",
@@ -2520,13 +2828,15 @@
         },
         {
           "en": "Regular exercise can significantly reduce daily stress levels.",
-          "vi": "Tập thể dục đều đặn có thể giảm đáng kể mức độ căng thẳng hằng ngày."
+          "vi": "Tập thể dục đều đặn có thể giảm đáng kể mức độ căng thẳng hằng ngày.",
+          "image_url": "https://images.pexels.com/photos/36715612/pexels-photo-36715612.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The survey measured stress levels among full-time hospital nurses.",
           "vi": "Khảo sát đo lường mức độ căng thẳng ở các y tá bệnh viện làm toàn thời gian."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "striking contrast",
@@ -2546,7 +2856,8 @@
           "en": "Her bright painting offered a striking contrast to the gray walls.",
           "vi": "Bức tranh tươi sáng của cô tương phản rõ rệt với những bức tường xám."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "striking example",
@@ -2566,7 +2877,8 @@
           "en": "The bridge remains a striking example of modern engineering.",
           "vi": "Cây cầu vẫn là một ví dụ nổi bật về kỹ thuật hiện đại."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "striking feature",
@@ -2586,7 +2898,8 @@
           "en": "The building's curved roof is its most striking feature.",
           "vi": "Mái cong của tòa nhà là đặc điểm nổi bật nhất của nó."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strong bond",
@@ -2604,9 +2917,11 @@
         },
         {
           "en": "A strong bond between parents and children supports healthy development.",
-          "vi": "Mối liên kết bền chặt giữa cha mẹ và con cái hỗ trợ sự phát triển lành mạnh."
+          "vi": "Mối liên kết bền chặt giữa cha mẹ và con cái hỗ trợ sự phát triển lành mạnh.",
+          "image_url": "https://images.pexels.com/photos/5370340/pexels-photo-5370340.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strong correlation",
@@ -2626,7 +2941,8 @@
           "en": "Researchers reported a strong correlation between sleep and memory.",
           "vi": "Các nhà nghiên cứu báo cáo mối tương quan chặt chẽ giữa giấc ngủ và trí nhớ."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strong emphasis",
@@ -2646,7 +2962,8 @@
           "en": "The school has a strong emphasis on teamwork and respect.",
           "vi": "Trường học nhấn mạnh mạnh mẽ vào tinh thần đồng đội và sự tôn trọng."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strong evidence",
@@ -2656,17 +2973,28 @@
       "examples": [
         {
           "en": "The data provide strong evidence for the new theory.",
-          "vi": "Dữ liệu cung cấp bằng chứng thuyết phục cho lý thuyết mới."
+          "vi": "Dữ liệu cung cấp bằng chứng thuyết phục cho lý thuyết mới.",
+          "image_url": "https://images.pexels.com/photos/8369208/pexels-photo-8369208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "There is strong evidence linking smoking to several diseases.",
-          "vi": "Có bằng chứng thuyết phục liên hệ hút thuốc với một số bệnh."
+          "vi": "Có bằng chứng thuyết phục liên hệ hút thuốc với một số bệnh.",
+          "image_url": "https://images.pexels.com/photos/8369208/pexels-photo-8369208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Scientists need strong evidence before accepting any bold claim.",
-          "vi": "Các nhà khoa học cần bằng chứng thuyết phục trước khi chấp nhận một tuyên bố táo bạo."
+          "vi": "Các nhà khoa học cần bằng chứng thuyết phục trước khi chấp nhận một tuyên bố táo bạo.",
+          "image_url": "https://images.pexels.com/photos/8369208/pexels-photo-8369208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/8369208/pexels-photo-8369208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "cottonbro studio",
+        "author_url": "https://www.pexels.com/@cottonbro",
+        "source_url": "https://www.pexels.com/photo/man-in-black-suit-jacket-reading-documents-8369208/"
+      }
     },
     {
       "english": "strong link",
@@ -2686,7 +3014,8 @@
           "en": "The report highlights a strong link between stress and illness.",
           "vi": "Báo cáo nêu bật mối liên hệ chặt chẽ giữa căng thẳng và bệnh tật."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strong reaction",
@@ -2696,7 +3025,8 @@
       "examples": [
         {
           "en": "The new policy provoked a strong reaction from local residents.",
-          "vi": "Chính sách mới gây ra phản ứng mạnh mẽ từ người dân địa phương."
+          "vi": "Chính sách mới gây ra phản ứng mạnh mẽ từ người dân địa phương.",
+          "image_url": "https://images.pexels.com/photos/7910587/pexels-photo-7910587.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Her speech triggered a strong reaction among the students.",
@@ -2706,7 +3036,8 @@
           "en": "The film received a strong reaction from both critics and audiences.",
           "vi": "Bộ phim nhận được phản ứng mạnh mẽ từ cả giới phê bình lẫn khán giả."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strong relationship",
@@ -2726,7 +3057,8 @@
           "en": "There is a strong relationship between trust and effective teamwork.",
           "vi": "Có mối quan hệ bền chặt giữa sự tin tưởng và làm việc nhóm hiệu quả."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strong tendency",
@@ -2740,13 +3072,15 @@
         },
         {
           "en": "The data show a strong tendency toward urban migration.",
-          "vi": "Dữ liệu cho thấy xu hướng rõ rệt về di cư ra thành thị."
+          "vi": "Dữ liệu cho thấy xu hướng rõ rệt về di cư ra thành thị.",
+          "image_url": "https://images.pexels.com/photos/34981310/pexels-photo-34981310.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Young people show a strong tendency to adopt new technologies.",
           "vi": "Người trẻ thể hiện xu hướng rõ rệt trong việc tiếp nhận công nghệ mới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strongly agree",
@@ -2766,7 +3100,8 @@
           "en": "Many teachers strongly agree that smaller classes improve learning.",
           "vi": "Nhiều giáo viên hoàn toàn đồng ý rằng lớp nhỏ giúp cải thiện việc học."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strongly associated with",
@@ -2784,9 +3119,11 @@
         },
         {
           "en": "These symptoms are strongly associated with prolonged stress.",
-          "vi": "Những triệu chứng này có liên hệ chặt chẽ với căng thẳng kéo dài."
+          "vi": "Những triệu chứng này có liên hệ chặt chẽ với căng thẳng kéo dài.",
+          "image_url": "https://images.pexels.com/photos/34014555/pexels-photo-34014555.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strongly correlated with",
@@ -2806,7 +3143,8 @@
           "en": "Air pollution is strongly correlated with respiratory problems.",
           "vi": "Ô nhiễm không khí tương quan chặt chẽ với các vấn đề hô hấp."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strongly disagree",
@@ -2826,7 +3164,8 @@
           "en": "Many residents strongly disagree about building the new highway.",
           "vi": "Nhiều cư dân hoàn toàn không đồng ý về việc xây đường cao tốc mới."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strongly influenced by",
@@ -2836,17 +3175,28 @@
       "examples": [
         {
           "en": "Her early work was strongly influenced by classical philosophy.",
-          "vi": "Tác phẩm đầu tay của cô chịu ảnh hưởng mạnh mẽ bởi triết học cổ điển."
+          "vi": "Tác phẩm đầu tay của cô chịu ảnh hưởng mạnh mẽ bởi triết học cổ điển.",
+          "image_url": "https://images.pexels.com/photos/2847368/pexels-photo-2847368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Consumer choices are strongly influenced by online reviews.",
-          "vi": "Lựa chọn của người tiêu dùng chịu ảnh hưởng mạnh mẽ bởi đánh giá trực tuyến."
+          "vi": "Lựa chọn của người tiêu dùng chịu ảnh hưởng mạnh mẽ bởi đánh giá trực tuyến.",
+          "image_url": "https://images.pexels.com/photos/2847368/pexels-photo-2847368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "His theory was strongly influenced by recent neuroscience research.",
-          "vi": "Lý thuyết của ông chịu ảnh hưởng mạnh mẽ bởi nghiên cứu thần kinh học gần đây."
+          "vi": "Lý thuyết của ông chịu ảnh hưởng mạnh mẽ bởi nghiên cứu thần kinh học gần đây.",
+          "image_url": "https://images.pexels.com/photos/2847368/pexels-photo-2847368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/2847368/pexels-photo-2847368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Alex Haraus",
+        "author_url": "https://www.pexels.com/@alex-haraus-1478288",
+        "source_url": "https://www.pexels.com/photo/man-smoking-cigarette-2847368/"
+      }
     },
     {
       "english": "strongly linked",
@@ -2866,7 +3216,8 @@
           "en": "Sleep quality is strongly linked to overall mental health.",
           "vi": "Chất lượng giấc ngủ gắn liền chặt chẽ với sức khỏe tinh thần."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strongly opposed",
@@ -2876,7 +3227,8 @@
       "examples": [
         {
           "en": "Local farmers were strongly opposed to the new land tax.",
-          "vi": "Nông dân địa phương phản đối mạnh mẽ loại thuế đất mới."
+          "vi": "Nông dân địa phương phản đối mạnh mẽ loại thuế đất mới.",
+          "image_url": "https://images.pexels.com/photos/35309373/pexels-photo-35309373.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Many scientists are strongly opposed to cutting research funding.",
@@ -2886,7 +3238,8 @@
           "en": "The union remained strongly opposed to the wage freeze.",
           "vi": "Công đoàn vẫn phản đối mạnh mẽ việc đóng băng tiền lương."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strongly related to",
@@ -2906,7 +3259,8 @@
           "en": "Diet is strongly related to long-term cardiovascular health.",
           "vi": "Chế độ ăn liên quan chặt chẽ tới sức khỏe tim mạch lâu dài."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "strongly suggest",
@@ -2920,13 +3274,15 @@
         },
         {
           "en": "These findings strongly suggest a need for further research.",
-          "vi": "Những phát hiện này cho thấy rõ ràng cần nghiên cứu thêm."
+          "vi": "Những phát hiện này cho thấy rõ ràng cần nghiên cứu thêm.",
+          "image_url": "https://images.pexels.com/photos/7723596/pexels-photo-7723596.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The evidence strongly suggests a link between the two events.",
           "vi": "Bằng chứng cho thấy rõ ràng có mối liên hệ giữa hai sự kiện."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "structural adjustment",
@@ -2946,7 +3302,8 @@
           "en": "The bank required structural adjustment before approving the loan.",
           "vi": "Ngân hàng yêu cầu điều chỉnh cơ cấu trước khi phê duyệt khoản vay."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "structural change",
@@ -2964,9 +3321,11 @@
         },
         {
           "en": "The reform aimed at deep structural change within the organization.",
-          "vi": "Cuộc cải cách nhắm tới sự thay đổi cơ cấu sâu sắc trong tổ chức."
+          "vi": "Cuộc cải cách nhắm tới sự thay đổi cơ cấu sâu sắc trong tổ chức.",
+          "image_url": "https://images.pexels.com/photos/38918750/pexels-photo-38918750.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "structural element",
@@ -2986,7 +3345,8 @@
           "en": "The essay analyzes the structural elements of the novel.",
           "vi": "Bài luận phân tích các yếu tố cấu trúc của cuốn tiểu thuyết."
         }
-      ]
+      ],
+      "audio_src": null
     },
     {
       "english": "structural feature",
@@ -3006,7 +3366,8 @@
           "en": "The architect preserved the building's original structural features.",
           "vi": "Kiến trúc sư bảo tồn các đặc điểm cấu trúc nguyên bản của tòa nhà."
         }
-      ]
+      ],
+      "audio_src": null
     }
   ]
 }

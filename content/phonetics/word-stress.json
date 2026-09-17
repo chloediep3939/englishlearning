@@ -1,0 +1,2402 @@
+[
+  {
+    "word": "ability",
+    "ipa": "/əˈbɪləˌtiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "absolute",
+    "ipa": "/ˈæbsəˌluːt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "accident",
+    "ipa": "/ˈæksədənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "according",
+    "ipa": "/əˈkɔrdɪŋ/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "accurate",
+    "ipa": "/ˈækjərət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "acknowledge",
+    "ipa": "/æˈknɑlɪdʒ/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "actually",
+    "ipa": "/ˈæˌktʃuːəliː/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "adequate",
+    "ipa": "/ˈædəkwət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "adventure",
+    "ipa": "/æˈdvɛntʃər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "afternoon",
+    "ipa": "/ˌæftərˈnuːn/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "agency",
+    "ipa": "/ˈeɪdʒənsiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "agreement",
+    "ipa": "/əˈɡriːmənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "alcohol",
+    "ipa": "/ˈælkəˌhɑl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "alligator",
+    "ipa": "/ˈæləˌɡeɪtər/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "alphabet",
+    "ipa": "/ˈælfəˌbɛt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "ambulance",
+    "ipa": "/ˈæmbjələns/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "analysis",
+    "ipa": "/əˈnæləsəs/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "animal",
+    "ipa": "/ˈænəməl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "announcement",
+    "ipa": "/əˈnaʊnsmənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "anyone",
+    "ipa": "/ˈɛniːˌwʌn/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "anywhere",
+    "ipa": "/ˈɛniːˌwɛr/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "apologize",
+    "ipa": "/əˈpɑləˌdʒaɪz/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "appearance",
+    "ipa": "/əˈpɪrəns/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "applicant",
+    "ipa": "/ˈæplɪkənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "appointment",
+    "ipa": "/əˈpɔɪntmənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "approval",
+    "ipa": "/əˈpruːvəl/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "argument",
+    "ipa": "/ˈɑrɡjəmənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "arrival",
+    "ipa": "/ərˈaɪvəl/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "artificial",
+    "ipa": "/ˌɑrtəˈfɪʃəl/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "assistant",
+    "ipa": "/əˈsɪstənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "assumption",
+    "ipa": "/əˈsʌmpʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "attention",
+    "ipa": "/əˈtɛnʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "attractive",
+    "ipa": "/əˈtræktɪv/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "authority",
+    "ipa": "/əˈθɔrətiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "available",
+    "ipa": "/əˈveɪləbəl/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "aviation",
+    "ipa": "/ˌeɪviːˈeɪʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "bachelor",
+    "ipa": "/ˈbætʃələr/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "balcony",
+    "ipa": "/ˈbælkəniː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "bankruptcy",
+    "ipa": "/ˈbæŋkrəpsiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "basically",
+    "ipa": "/ˈbeɪsɪkliː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "beautiful",
+    "ipa": "/ˈbjuːtəfəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "beginning",
+    "ipa": "/bɪˈɡɪnɪŋ/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "benefit",
+    "ipa": "/ˈbɛnəfɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "biology",
+    "ipa": "/baɪˈɑlədʒiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "buffalo",
+    "ipa": "/ˈbʌfəˌloʊ/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "businessman",
+    "ipa": "/ˈbɪznəˌsmæn/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "cabinet",
+    "ipa": "/ˈkæbənət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "calendar",
+    "ipa": "/ˈkæləndər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "candidate",
+    "ipa": "/ˈkændədeɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "capital",
+    "ipa": "/ˈkæpətəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "carpenter",
+    "ipa": "/ˈkɑrpəntər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "celebrate",
+    "ipa": "/ˈsɛləˌbreɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "century",
+    "ipa": "/ˈsɛntʃəriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "certainly",
+    "ipa": "/ˈsɜrtənliː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "champion",
+    "ipa": "/ˈtʃæmpiːən/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "charity",
+    "ipa": "/ˈtʃɛrɪtiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "chemistry",
+    "ipa": "/ˈkɛməstriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "circumstance",
+    "ipa": "/ˈsɜrkəˌmstæns/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "civilian",
+    "ipa": "/səˈvɪljən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "colony",
+    "ipa": "/ˈkɑləniː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "comfortable",
+    "ipa": "/ˈkʌmfərtəbəl/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "commercial",
+    "ipa": "/kəˈmɜrʃəl/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "communicate",
+    "ipa": "/kəˈmjuːnəˌkeɪt/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "companion",
+    "ipa": "/kəˈmpænjən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "comparison",
+    "ipa": "/kəˈmpɛrəsən/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "complicated",
+    "ipa": "/ˈkɑmpləˌkeɪtəd/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "component",
+    "ipa": "/kəˈmpoʊnənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "computer",
+    "ipa": "/kəˈmpjuːtər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "condition",
+    "ipa": "/kəˈndɪʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "confidence",
+    "ipa": "/ˈkɑnfədəns/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "connection",
+    "ipa": "/kəˈnɛkʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "conservative",
+    "ipa": "/kəˈnsɜrvətɪv/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "construction",
+    "ipa": "/kəˈnstrʌkʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "consumer",
+    "ipa": "/kəˈnsuːmər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "continent",
+    "ipa": "/ˈkɑntənənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "contribute",
+    "ipa": "/kəˈntrɪbjuːt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "conversation",
+    "ipa": "/ˌkɑnvərˈseɪʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "corporate",
+    "ipa": "/ˈkɔrpərət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "countryside",
+    "ipa": "/ˈkʌntriːˌsaɪd/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "creativity",
+    "ipa": "/ˌkriːeɪˈtɪvətiː/",
+    "syllables": 5,
+    "stress_index": 2
+  },
+  {
+    "word": "criteria",
+    "ipa": "/kraɪˈtɪriːə/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "criticize",
+    "ipa": "/ˈkrɪtɪˌsaɪz/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "cultural",
+    "ipa": "/ˈkʌltʃərəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "currency",
+    "ipa": "/ˈkɜrənsiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "customer",
+    "ipa": "/ˈkʌstəmər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "dangerous",
+    "ipa": "/ˈdeɪndʒərəs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "decimal",
+    "ipa": "/ˈdɛsəməl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "decorate",
+    "ipa": "/ˈdɛkərˌeɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "defendant",
+    "ipa": "/dɪˈfɛndənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "definite",
+    "ipa": "/ˈdɛfənət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "delicate",
+    "ipa": "/ˈdɛləkət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "deliver",
+    "ipa": "/dɪˈlɪvər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "demonstrate",
+    "ipa": "/ˈdɛməˌnstreɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "dependent",
+    "ipa": "/dɪˈpɛndənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "description",
+    "ipa": "/dɪˈskrɪpʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "destination",
+    "ipa": "/ˌdɛstəˈneɪʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "develop",
+    "ipa": "/dɪˈvɛləp/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "diagram",
+    "ipa": "/ˈdaɪəˌɡræm/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "diameter",
+    "ipa": "/daɪˈæmətər/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "difference",
+    "ipa": "/ˈdɪfərəns/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "difficult",
+    "ipa": "/ˈdɪfəkəlt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "dinosaur",
+    "ipa": "/ˈdaɪnəˌsɔr/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "direction",
+    "ipa": "/dərˈɛkʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "director",
+    "ipa": "/dərˈɛktər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "disappear",
+    "ipa": "/ˌdɪsəˈpɪr/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "discipline",
+    "ipa": "/ˈdɪsəplən/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "discussion",
+    "ipa": "/dɪˈskʌʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "distribute",
+    "ipa": "/dɪˈstrɪbjuːt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "division",
+    "ipa": "/dɪˈvɪʒən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "domestic",
+    "ipa": "/dəˈmɛstɪk/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "donation",
+    "ipa": "/doʊˈneɪʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "ecology",
+    "ipa": "/ɪˈkɑlədʒiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "economy",
+    "ipa": "/ɪˈkɑnəmiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "educate",
+    "ipa": "/ˈɛdʒəˌkeɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "effective",
+    "ipa": "/ɪˈfɛktɪv/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "election",
+    "ipa": "/ɪˈlɛkʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "electricity",
+    "ipa": "/ɪˌlɛˈktrɪsətiː/",
+    "syllables": 5,
+    "stress_index": 2
+  },
+  {
+    "word": "elephant",
+    "ipa": "/ˈɛləfənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "eliminate",
+    "ipa": "/ɪˈlɪməˌneɪt/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "emergency",
+    "ipa": "/ɪˈmɜrdʒənsiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "emphasis",
+    "ipa": "/ˈɛmfəsəs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "employer",
+    "ipa": "/ɛˈmplɔɪər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "encourage",
+    "ipa": "/ɛˈnkɜrɪdʒ/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "engagement",
+    "ipa": "/ɛˈnɡeɪdʒmənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "entertain",
+    "ipa": "/ˌɛntərˈteɪn/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "envelope",
+    "ipa": "/ˈɛnvəˌloʊp/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "episode",
+    "ipa": "/ˈɛpəˌsoʊd/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "equivalent",
+    "ipa": "/ɪˈkwɪvələnt/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "establish",
+    "ipa": "/ɪˈstæblɪʃ/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "evaluate",
+    "ipa": "/ɪˈvæljuːˌeɪt/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "evidence",
+    "ipa": "/ˈɛvədəns/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "examine",
+    "ipa": "/ɪˈɡzæmɪn/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "excellent",
+    "ipa": "/ˈɛksələnt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "excited",
+    "ipa": "/ɪˈksaɪtəd/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "executive",
+    "ipa": "/ɪˈɡzɛkjətɪv/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "exhibit",
+    "ipa": "/ɪˈɡzɪbɪt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "expansion",
+    "ipa": "/ɪˈkspænʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "experience",
+    "ipa": "/ɪˈkspɪriːəns/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "expertise",
+    "ipa": "/ˌɛkspərˈtiːz/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "explosion",
+    "ipa": "/ɪˈksploʊʒən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "extensive",
+    "ipa": "/ɪˈkstɛnsɪv/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "facility",
+    "ipa": "/fəˈsɪlɪtiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "familiar",
+    "ipa": "/fəˈmɪljər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "fantastic",
+    "ipa": "/fæˈntæstɪk/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "favorite",
+    "ipa": "/ˈfeɪvərɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "finally",
+    "ipa": "/ˈfaɪnəliː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "flexible",
+    "ipa": "/ˈflɛksəbəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "foreigner",
+    "ipa": "/ˈfɔrənər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "forgotten",
+    "ipa": "/fərˈɡɑtən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "fortunate",
+    "ipa": "/ˈfɔrtʃənət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "frequency",
+    "ipa": "/ˈfriːkwənsiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "frustration",
+    "ipa": "/frəˈstreɪʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "fundamental",
+    "ipa": "/ˌfʌndəˈmɛntəl/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "furthermore",
+    "ipa": "/ˈfɜrðərˌmɔr/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "gasoline",
+    "ipa": "/ˈɡæsəˌliːn/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "generate",
+    "ipa": "/ˈdʒɛnərˌeɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "generous",
+    "ipa": "/ˈdʒɛnərəs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "geography",
+    "ipa": "/dʒiːˈɑɡrəfiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "glorious",
+    "ipa": "/ˈɡlɔriːəs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "government",
+    "ipa": "/ˈɡʌvərmənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "graduate",
+    "ipa": "/ˈɡrædʒəwət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "grandmother",
+    "ipa": "/ˈɡræˌndmʌðər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "gravity",
+    "ipa": "/ˈɡrævətiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "guarantee",
+    "ipa": "/ˌɡɛrəˈntiː/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "hamburger",
+    "ipa": "/ˈhæmbərɡər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "happiness",
+    "ipa": "/ˈhæpiːnəs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "headquarters",
+    "ipa": "/ˈhɛˌdkwɔrtərz/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "heritage",
+    "ipa": "/ˈhɛrətədʒ/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "hilarious",
+    "ipa": "/hɪˈlɛriːəs/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "history",
+    "ipa": "/ˈhɪstəriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "honesty",
+    "ipa": "/ˈɑnəstiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "horrible",
+    "ipa": "/ˈhɔrəbəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "however",
+    "ipa": "/ˌhaʊˈɛvər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "hurricane",
+    "ipa": "/ˈhɜrəˌkeɪn/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "identical",
+    "ipa": "/aɪˈdɛntɪkəl/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "identity",
+    "ipa": "/aɪˈdɛntɪˌtiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "illustrate",
+    "ipa": "/ˈɪləˌstreɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "imitate",
+    "ipa": "/ˈɪməˌteɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "immigrant",
+    "ipa": "/ˈɪməɡrənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "implement",
+    "ipa": "/ˈɪmpləmənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "important",
+    "ipa": "/ˌɪˈmpɔrtənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "impressive",
+    "ipa": "/ˌɪˈmprɛsɪv/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "incident",
+    "ipa": "/ˈɪnsədənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "increasing",
+    "ipa": "/ˌɪˈnkriːsɪŋ/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "independent",
+    "ipa": "/ˌɪndɪˈpɛndənt/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "individual",
+    "ipa": "/ˌɪndəˈvɪdʒəwəl/",
+    "syllables": 5,
+    "stress_index": 2
+  },
+  {
+    "word": "inevitable",
+    "ipa": "/ˌɪˈnɛvətəbəl/",
+    "syllables": 5,
+    "stress_index": 1
+  },
+  {
+    "word": "inflation",
+    "ipa": "/ˌɪˈnfleɪʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "informal",
+    "ipa": "/ˌɪˈnfɔrməl/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "ingredient",
+    "ipa": "/ˌɪˈnɡriːdiːənt/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "initiative",
+    "ipa": "/ˌɪˈnɪʃətɪv/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "innocent",
+    "ipa": "/ˈɪnəsənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "instructor",
+    "ipa": "/ˌɪˈnstrʌktər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "insurance",
+    "ipa": "/ˌɪˈnʃʊrəns/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "intention",
+    "ipa": "/ˌɪˈntɛntʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "interesting",
+    "ipa": "/ˈɪntrəstɪŋ/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "interior",
+    "ipa": "/ˌɪˈntɪriːər/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "international",
+    "ipa": "/ˌɪntərˈnæʃənəl/",
+    "syllables": 5,
+    "stress_index": 2
+  },
+  {
+    "word": "interview",
+    "ipa": "/ˈɪntərˌvjuː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "invasion",
+    "ipa": "/ˌɪˈnveɪʒən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "investment",
+    "ipa": "/ˌɪˈnvɛstmənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "invitation",
+    "ipa": "/ˌɪnvɪˈteɪʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "isolate",
+    "ipa": "/ˈaɪsəˌleɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "jealousy",
+    "ipa": "/ˈdʒɛləsiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "justify",
+    "ipa": "/ˈdʒʌstəˌfaɪ/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "kilogram",
+    "ipa": "/ˈkɪləˌɡræm/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "laboratory",
+    "ipa": "/ˈlæbrəˌtɔriː/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "leadership",
+    "ipa": "/ˈliːdərˌʃɪp/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "liberal",
+    "ipa": "/ˈlɪˌbɜrəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "library",
+    "ipa": "/ˈlaɪbrɛˌriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "limitation",
+    "ipa": "/ˌlɪmɪˈteɪʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "literature",
+    "ipa": "/ˈlɪtərətʃər/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "location",
+    "ipa": "/loʊˈkeɪʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "luxury",
+    "ipa": "/ˈlʌɡʒəriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "magazine",
+    "ipa": "/ˈmæɡəˌziːn/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "maintenance",
+    "ipa": "/ˈmeɪntənəns/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "management",
+    "ipa": "/ˈmænədʒmənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "manufacture",
+    "ipa": "/ˌmænjəˈfæktʃər/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "material",
+    "ipa": "/məˈtɪriːəl/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "maximum",
+    "ipa": "/ˈmæksəməm/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "measurement",
+    "ipa": "/ˈmɛʒərmənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "medical",
+    "ipa": "/ˈmɛdəkəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "medium",
+    "ipa": "/ˈmiːdiːəm/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "memory",
+    "ipa": "/ˈmɛməriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "metaphor",
+    "ipa": "/ˈmɛtəfɔr/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "microscope",
+    "ipa": "/ˈmaɪkrəˌskoʊp/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "mineral",
+    "ipa": "/ˈmɪnərəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "minister",
+    "ipa": "/ˈmɪnəstər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "miracle",
+    "ipa": "/ˈmɪrəkəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "missionary",
+    "ipa": "/ˈmɪʃəˌnɛriː/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "misunderstand",
+    "ipa": "/ˌmɪsəndərˈstænd/",
+    "syllables": 4,
+    "stress_index": 3
+  },
+  {
+    "word": "modify",
+    "ipa": "/ˈmɑdəˌfaɪ/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "monitor",
+    "ipa": "/ˈmɑnətər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "monument",
+    "ipa": "/ˈmɑnjuːmənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "motorcycle",
+    "ipa": "/ˈmoʊtərˌsaɪkəl/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "municipal",
+    "ipa": "/mjuːˈnɪsəpəl/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "musical",
+    "ipa": "/ˈmjuːzɪkəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "mystery",
+    "ipa": "/ˈmɪstəriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "national",
+    "ipa": "/ˈnæʃənəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "necessary",
+    "ipa": "/ˈnɛsəˌsɛriː/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "negotiate",
+    "ipa": "/nəˈɡoʊʃiːˌeɪt/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "newspaper",
+    "ipa": "/ˈnuːˌzpeɪpər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "nominate",
+    "ipa": "/ˈnɑmənət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "noticeable",
+    "ipa": "/ˈnoʊtəsəbəl/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "nowadays",
+    "ipa": "/ˈnaʊəˌdeɪz/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "numerous",
+    "ipa": "/ˈnuːmərəs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "obedient",
+    "ipa": "/oʊˈbiːdiːənt/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "obligation",
+    "ipa": "/ˌɑbləˈɡeɪʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "obvious",
+    "ipa": "/ˈɑbviːəs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "occupy",
+    "ipa": "/ˈɑkjəˌpaɪ/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "october",
+    "ipa": "/ɑˈktoʊbər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "official",
+    "ipa": "/əˈfɪʃəl/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "operation",
+    "ipa": "/ˌɑpərˈeɪʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "opponent",
+    "ipa": "/əˈpoʊnənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "opposite",
+    "ipa": "/ˈɑpəzət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "orchestra",
+    "ipa": "/ˈɔrkəstrə/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "organize",
+    "ipa": "/ˈɔrɡəˌnaɪz/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "original",
+    "ipa": "/ərˈɪdʒənəl/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "orphanage",
+    "ipa": "/ˈɔrfənədʒ/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "outstanding",
+    "ipa": "/ˌaʊˈtstændɪŋ/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "oxygen",
+    "ipa": "/ˈɑksədʒən/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "parallel",
+    "ipa": "/ˈpɛrəˌlɛl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "participate",
+    "ipa": "/pɑˈrtɪsəˌpeɪt/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "passenger",
+    "ipa": "/ˈpæsəndʒər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "pedestrian",
+    "ipa": "/pəˈdɛstriːən/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "percentage",
+    "ipa": "/pərˈsɛntədʒ/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "period",
+    "ipa": "/ˈpɪriːəd/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "permission",
+    "ipa": "/pərˈmɪʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "personnel",
+    "ipa": "/ˌpɜrsəˈnɛl/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "pharmacy",
+    "ipa": "/ˈfɑrməsiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "philosophy",
+    "ipa": "/fəˈlɑsəfiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "photographer",
+    "ipa": "/fəˈtɑɡrəfər/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "physician",
+    "ipa": "/fəˈzɪʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "pioneer",
+    "ipa": "/ˌpaɪəˈnɪr/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "poetry",
+    "ipa": "/ˈpoʊətriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "political",
+    "ipa": "/pəˈlɪtəkəl/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "politics",
+    "ipa": "/ˈpɑləˌtɪks/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "popular",
+    "ipa": "/ˈpɑpjələr/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "portable",
+    "ipa": "/ˈpɔrtəbəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "possible",
+    "ipa": "/ˈpɑsəbəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "potential",
+    "ipa": "/pəˈtɛnʃəl/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "powerful",
+    "ipa": "/ˈpaʊərfəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "precision",
+    "ipa": "/priːˈsɪʒən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "pregnancy",
+    "ipa": "/ˈprɛɡnənsiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "preparation",
+    "ipa": "/ˌprɛpərˈeɪʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "prevention",
+    "ipa": "/priːˈvɛnʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "primary",
+    "ipa": "/ˈpraɪˌmɛriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "principle",
+    "ipa": "/ˈprɪnsəpəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "prisoner",
+    "ipa": "/ˈprɪzənər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "probably",
+    "ipa": "/ˈprɑbəˌbliː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "production",
+    "ipa": "/prəˈdʌkʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "profitable",
+    "ipa": "/ˈprɑfətəbəl/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "prohibit",
+    "ipa": "/proʊˈhɪbət/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "property",
+    "ipa": "/ˈprɑpərtiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "prosperous",
+    "ipa": "/ˈprɑspərəs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "protective",
+    "ipa": "/prəˈtɛktɪv/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "psychology",
+    "ipa": "/saɪˈkɑlədʒiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "punishment",
+    "ipa": "/ˈpʌnɪʃmənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "qualify",
+    "ipa": "/ˈkwɑləˌfaɪ/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "quantity",
+    "ipa": "/ˈkwɑntətiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "quietly",
+    "ipa": "/ˈkwaɪətliː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "radical",
+    "ipa": "/ˈrædəkəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "reaction",
+    "ipa": "/riːˈækʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "reality",
+    "ipa": "/ˌriːˈæləˌtiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "reception",
+    "ipa": "/rɪˈsɛpʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "recognize",
+    "ipa": "/ˈrɛkəˌɡnaɪz/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "recover",
+    "ipa": "/rɪˈkʌvər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "reduction",
+    "ipa": "/rəˈdʌkʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "reference",
+    "ipa": "/ˈrɛfərəns/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "refugee",
+    "ipa": "/ˈrɛfjuːdʒiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "register",
+    "ipa": "/ˈrɛdʒɪstər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "regulate",
+    "ipa": "/ˈrɛɡjəˌleɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "relative",
+    "ipa": "/ˈrɛlətɪv/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "reliable",
+    "ipa": "/rɪˈlaɪəbəl/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "religious",
+    "ipa": "/rɪˈlɪdʒəs/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "remainder",
+    "ipa": "/rɪˈmeɪndər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "reminder",
+    "ipa": "/riːˈmaɪndər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "renewal",
+    "ipa": "/rɪˈnuːəl/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "replacement",
+    "ipa": "/rɪˈpleɪsmənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "representative",
+    "ipa": "/ˌrɛprəˈzɛntətɪv/",
+    "syllables": 5,
+    "stress_index": 2
+  },
+  {
+    "word": "requirement",
+    "ipa": "/rɪˈkwaɪrmənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "resident",
+    "ipa": "/ˈrɛzɪdənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "resolution",
+    "ipa": "/ˌrɛzəˈluːʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "responsible",
+    "ipa": "/riːˈspɑnsəbəl/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "restriction",
+    "ipa": "/riːˈstrɪkʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "revenue",
+    "ipa": "/ˈrɛvəˌnuː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "revolution",
+    "ipa": "/ˌrɛvəˈluːʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "romantic",
+    "ipa": "/roʊˈmæntɪk/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "salary",
+    "ipa": "/ˈsæləriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "satisfy",
+    "ipa": "/ˈsætəˌsfaɪ/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "scenario",
+    "ipa": "/sɪˈnɛriːoʊ/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "scientist",
+    "ipa": "/ˈsaɪəntɪst/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "secondary",
+    "ipa": "/ˈsɛkəˌndɛriː/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "security",
+    "ipa": "/sɪˈkjʊrətiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "semester",
+    "ipa": "/səˈmɛstər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "sensible",
+    "ipa": "/ˈsɛnsəbəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "sentiment",
+    "ipa": "/ˈsɛntəmənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "serious",
+    "ipa": "/ˈsɪriːəs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "seventy",
+    "ipa": "/ˈsɛvəntiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "significant",
+    "ipa": "/səˈɡnɪfɪkənt/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "simplify",
+    "ipa": "/ˈsɪmpləˌfaɪ/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "situation",
+    "ipa": "/ˌsɪtʃuːˈeɪʃən/",
+    "syllables": 4,
+    "stress_index": 2
+  },
+  {
+    "word": "society",
+    "ipa": "/səˈsaɪətiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "somebody",
+    "ipa": "/ˈsʌˌmbɑdiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "specialist",
+    "ipa": "/ˈspɛʃələst/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "spectacular",
+    "ipa": "/spɛˈktækjələr/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "stationery",
+    "ipa": "/ˈsteɪʃəˌnɛriː/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "strategy",
+    "ipa": "/ˈstrætədʒiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "structural",
+    "ipa": "/ˈstrʌktʃərəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "submarine",
+    "ipa": "/ˈsʌbmərˌiːn/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "subsequent",
+    "ipa": "/ˈsʌbsəkwənt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "suburban",
+    "ipa": "/səˈbɜrbən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "sufficient",
+    "ipa": "/səˈfɪʃənt/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "suitable",
+    "ipa": "/ˈsuːtəbəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "superior",
+    "ipa": "/suːˈpɪriːər/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "supplier",
+    "ipa": "/səˈplaɪər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "surgery",
+    "ipa": "/ˈsɜrdʒəriː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "surrender",
+    "ipa": "/sərˈɛndər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "survivor",
+    "ipa": "/sərˈvaɪvər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "sympathy",
+    "ipa": "/ˈsɪmpəθiː/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "syllable",
+    "ipa": "/ˈsɪləbəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "technical",
+    "ipa": "/ˈtɛknɪkəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "telephone",
+    "ipa": "/ˈtɛləˌfoʊn/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "television",
+    "ipa": "/ˈtɛləˌvɪʒən/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "temporary",
+    "ipa": "/ˈtɛmpərˌɛriː/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "terrible",
+    "ipa": "/ˈtɛrəbəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "territory",
+    "ipa": "/ˈtɛrɪˌtɔriː/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "testimony",
+    "ipa": "/ˈtɛstəˌmoʊniː/",
+    "syllables": 4,
+    "stress_index": 0
+  },
+  {
+    "word": "thermometer",
+    "ipa": "/θərˈmɑmətər/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "tobacco",
+    "ipa": "/təˈbæˌkoʊ/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "tolerate",
+    "ipa": "/ˈtɑlərˌeɪt/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "tomorrow",
+    "ipa": "/təˈmɑˌroʊ/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "traditional",
+    "ipa": "/trəˈdɪʃənəl/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "transaction",
+    "ipa": "/træˈnzækʃən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "tremendous",
+    "ipa": "/trəˈmɛndəs/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "tropical",
+    "ipa": "/ˈtrɑpɪkəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "ultimate",
+    "ipa": "/ˈʌltəmət/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "unable",
+    "ipa": "/əˈneɪbəl/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "uncertain",
+    "ipa": "/əˈnsɜrtən/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "unconscious",
+    "ipa": "/ˌʌˈnkɑnʃəs/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "understand",
+    "ipa": "/ˌʌndərˈstænd/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "unemployed",
+    "ipa": "/ˌʌnɛˈmplɔɪd/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "unfortunate",
+    "ipa": "/əˈnfɔrtʃənət/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "uniform",
+    "ipa": "/ˈjuːnəˌfɔrm/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "universe",
+    "ipa": "/ˈjuːnəˌvɜrs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "unlikely",
+    "ipa": "/əˈnlaɪkliː/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "usual",
+    "ipa": "/ˈjuːʒəwəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "utility",
+    "ipa": "/juːˈtɪlətiː/",
+    "syllables": 4,
+    "stress_index": 1
+  },
+  {
+    "word": "valuable",
+    "ipa": "/ˈvæljəbəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "various",
+    "ipa": "/ˈvɛriːəs/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "vehicle",
+    "ipa": "/ˈviːhɪkəl/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "veteran",
+    "ipa": "/ˈvɛtərən/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "violence",
+    "ipa": "/ˈvaɪələns/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "violin",
+    "ipa": "/vaɪəˈlɪn/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "visitor",
+    "ipa": "/ˈvɪzɪtər/",
+    "syllables": 3,
+    "stress_index": 0
+  },
+  {
+    "word": "vocabulary",
+    "ipa": "/voʊˈkæbjəˌlɛriː/",
+    "syllables": 5,
+    "stress_index": 1
+  },
+  {
+    "word": "volunteer",
+    "ipa": "/ˌvɑləˈntɪr/",
+    "syllables": 3,
+    "stress_index": 2
+  },
+  {
+    "word": "whatever",
+    "ipa": "/ˌwʌˈtɛvər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "wherever",
+    "ipa": "/wɛˈrɛvər/",
+    "syllables": 3,
+    "stress_index": 1
+  },
+  {
+    "word": "wonderful",
+    "ipa": "/ˈwʌndərfəl/",
+    "syllables": 3,
+    "stress_index": 0
+  }
+]

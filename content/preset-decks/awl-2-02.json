@@ -15,7 +15,8 @@
       "examples": [
         {
           "en": "She works as a researcher at a national institute of health.",
-          "vi": "Cô ấy làm nhà nghiên cứu tại một viện y tế quốc gia."
+          "vi": "Cô ấy làm nhà nghiên cứu tại một viện y tế quốc gia.",
+          "image_url": "https://images.pexels.com/photos/8976432/pexels-photo-8976432.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The institute publishes a report on air quality every year.",
@@ -74,7 +75,8 @@
         },
         {
           "en": "The first item on the agenda is the new budget.",
-          "vi": "Mục đầu tiên trong chương trình họp là ngân sách mới."
+          "vi": "Mục đầu tiên trong chương trình họp là ngân sách mới.",
+          "image_url": "https://images.pexels.com/photos/19797336/pexels-photo-19797336.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Food prices rose sharply, especially for basic items like rice and oil.",
@@ -133,7 +135,8 @@
         },
         {
           "en": "He has always maintained that he did nothing wrong.",
-          "vi": "Anh ấy luôn khẳng định rằng mình không làm gì sai."
+          "vi": "Anh ấy luôn khẳng định rằng mình không làm gì sai.",
+          "image_url": "https://images.pexels.com/photos/7114346/pexels-photo-7114346.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
       ],
       "collocations": [
@@ -207,15 +210,18 @@
       "examples": [
         {
           "en": "More than five hundred students participated in the survey.",
-          "vi": "Hơn năm trăm sinh viên đã tham gia cuộc khảo sát."
+          "vi": "Hơn năm trăm sinh viên đã tham gia cuộc khảo sát.",
+          "image_url": "https://images.pexels.com/photos/25682484/pexels-photo-25682484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Employees are encouraged to participate actively in team meetings.",
-          "vi": "Nhân viên được khuyến khích tích cực tham gia các cuộc họp nhóm."
+          "vi": "Nhân viên được khuyến khích tích cực tham gia các cuộc họp nhóm.",
+          "image_url": "https://images.pexels.com/photos/25682484/pexels-photo-25682484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Would you like to participate in our research project?",
-          "vi": "Bạn có muốn tham gia dự án nghiên cứu của chúng tôi không?"
+          "vi": "Bạn có muốn tham gia dự án nghiên cứu của chúng tôi không?",
+          "image_url": "https://images.pexels.com/photos/25682484/pexels-photo-25682484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
       ],
       "collocations": [
@@ -225,7 +231,14 @@
       ],
       "notes": "participate in + danh từ / V-ing",
       "ipa": "/pɑːrˈtɪsɪpeɪt/",
-      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/parti/participate__us_1.mp3"
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/parti/participate__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/25682484/pexels-photo-25682484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Raúl Castaños",
+        "author_url": "https://www.pexels.com/@raul-castanos-1351706155",
+        "source_url": "https://www.pexels.com/photo/close-up-of-people-with-their-hands-painted-with-variety-of-colors-25682484/"
+      }
     },
     {
       "english": "perceive",
@@ -261,7 +274,8 @@
       "examples": [
         {
           "en": "The new policy has had a positive effect on staff morale.",
-          "vi": "Chính sách mới đã có tác động tích cực đến tinh thần nhân viên."
+          "vi": "Chính sách mới đã có tác động tích cực đến tinh thần nhân viên.",
+          "image_url": "https://images.pexels.com/photos/5456822/pexels-photo-5456822.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Early results from the trial look very positive.",
@@ -320,7 +334,8 @@
         },
         {
           "en": "Unlike previous studies, this research focused on older adults.",
-          "vi": "Khác với các nghiên cứu trước đây, nghiên cứu này tập trung vào người cao tuổi."
+          "vi": "Khác với các nghiên cứu trước đây, nghiên cứu này tập trung vào người cao tuổi.",
+          "image_url": "https://images.pexels.com/photos/7983553/pexels-photo-7983553.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Applicants should have previous experience in customer service.",
@@ -379,7 +394,8 @@
         },
         {
           "en": "Many young people cannot afford to purchase a home.",
-          "vi": "Nhiều người trẻ không đủ khả năng mua nhà."
+          "vi": "Nhiều người trẻ không đủ khả năng mua nhà.",
+          "image_url": "https://images.pexels.com/photos/7579046/pexels-photo-7579046.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
       ],
       "collocations": [
@@ -452,15 +468,18 @@
       "examples": [
         {
           "en": "The government regulates the prices of electricity and water.",
-          "vi": "Chính phủ điều tiết giá điện và nước."
+          "vi": "Chính phủ điều tiết giá điện và nước.",
+          "image_url": "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "New laws will regulate how companies use personal data.",
-          "vi": "Các luật mới sẽ quy định cách các công ty sử dụng dữ liệu cá nhân."
+          "vi": "Các luật mới sẽ quy định cách các công ty sử dụng dữ liệu cá nhân.",
+          "image_url": "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Sweating helps the body regulate its temperature.",
-          "vi": "Đổ mồ hôi giúp cơ thể điều chỉnh nhiệt độ."
+          "vi": "Đổ mồ hôi giúp cơ thể điều chỉnh nhiệt độ.",
+          "image_url": "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
       ],
       "collocations": [
@@ -470,7 +489,14 @@
       ],
       "notes": null,
       "ipa": "/ˈreɡjuleɪt/",
-      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regul/regulate__us_1.mp3"
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regul/regulate__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "author_url": "https://www.pexels.com/@markus-winkler-1430818",
+        "source_url": "https://www.pexels.com/photo/scrabble-letters-spelling-the-word-regulation-19813733/"
+      }
     },
     {
       "english": "relevant",
@@ -507,7 +533,8 @@
       "examples": [
         {
           "en": "Most of the survey participants reside in urban areas.",
-          "vi": "Phần lớn người tham gia khảo sát cư trú ở khu vực thành thị."
+          "vi": "Phần lớn người tham gia khảo sát cư trú ở khu vực thành thị.",
+          "image_url": "https://images.pexels.com/photos/6497226/pexels-photo-6497226.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Foreign students residing in the country must register with local authorities.",
@@ -566,7 +593,8 @@
         },
         {
           "en": "Access to the laboratory is restricted to authorized staff.",
-          "vi": "Quyền vào phòng thí nghiệm chỉ giới hạn cho nhân viên được cấp phép."
+          "vi": "Quyền vào phòng thí nghiệm chỉ giới hạn cho nhân viên được cấp phép.",
+          "image_url": "https://images.pexels.com/photos/12196618/pexels-photo-12196618.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Doctors advised him to restrict the amount of salt he eats.",
@@ -624,7 +652,8 @@
         },
         {
           "en": "The study sought to explain why some students drop out.",
-          "vi": "Nghiên cứu này tìm cách lý giải vì sao một số sinh viên bỏ học."
+          "vi": "Nghiên cứu này tìm cách lý giải vì sao một số sinh viên bỏ học.",
+          "image_url": "https://images.pexels.com/photos/8199164/pexels-photo-8199164.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
       ],
       "collocations": [
@@ -698,15 +727,18 @@
       "examples": [
         {
           "en": "The company needs a clear strategy to compete in foreign markets.",
-          "vi": "Công ty cần một chiến lược rõ ràng để cạnh tranh ở thị trường nước ngoài."
+          "vi": "Công ty cần một chiến lược rõ ràng để cạnh tranh ở thị trường nước ngoài.",
+          "image_url": "https://images.pexels.com/photos/39494584/pexels-photo-39494584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Teachers used different strategies to help weaker students.",
-          "vi": "Giáo viên đã áp dụng nhiều chiến lược khác nhau để giúp đỡ học sinh yếu."
+          "vi": "Giáo viên đã áp dụng nhiều chiến lược khác nhau để giúp đỡ học sinh yếu.",
+          "image_url": "https://images.pexels.com/photos/39494584/pexels-photo-39494584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The government has developed a national strategy for reducing waste.",
-          "vi": "Chính phủ đã xây dựng một chiến lược quốc gia nhằm giảm rác thải."
+          "vi": "Chính phủ đã xây dựng một chiến lược quốc gia nhằm giảm rác thải.",
+          "image_url": "https://images.pexels.com/photos/39494584/pexels-photo-39494584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
       ],
       "collocations": [
@@ -717,7 +749,14 @@
       ],
       "notes": null,
       "ipa": "/ˈstrætədʒi/",
-      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/strat/strategy__us_1.mp3"
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/strat/strategy__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/39494584/pexels-photo-39494584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Rafael Minguet Delgado",
+        "author_url": "https://www.pexels.com/@thales13",
+        "source_url": "https://www.pexels.com/photo/dynamic-cryptocurrency-market-graph-analysis-39494584/"
+      }
     },
     {
       "english": "survey",
@@ -753,7 +792,8 @@
       "examples": [
         {
           "en": "The full text of the agreement is available online.",
-          "vi": "Toàn bộ văn bản thỏa thuận được đăng tải trực tuyến."
+          "vi": "Toàn bộ văn bản thỏa thuận được đăng tải trực tuyến.",
+          "image_url": "https://images.pexels.com/photos/7821937/pexels-photo-7821937.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Students should read the text carefully before answering the questions.",
@@ -812,7 +852,8 @@
         },
         {
           "en": "After two years, she was transferred to the company's overseas office.",
-          "vi": "Sau hai năm, cô ấy được điều chuyển sang văn phòng ở nước ngoài của công ty."
+          "vi": "Sau hai năm, cô ấy được điều chuyển sang văn phòng ở nước ngoài của công ty.",
+          "image_url": "https://images.pexels.com/photos/22719281/pexels-photo-22719281.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "The project aims to transfer new farming technology to rural communities.",

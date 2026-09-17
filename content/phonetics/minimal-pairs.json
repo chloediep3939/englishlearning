@@ -1,0 +1,2131 @@
+[
+  {
+    "contrast": "ɪ_iː",
+    "label": "/ɪ/ – /iː/",
+    "kind": "vowel",
+    "example": "ship – sheep",
+    "ipa_symbols": [
+      "ɪ",
+      "iː"
+    ],
+    "pairs": [
+      {
+        "a": "ship",
+        "b": "sheep",
+        "ipa_a": "/ˈʃɪp/",
+        "ipa_b": "/ˈʃiːp/"
+      },
+      {
+        "a": "bit",
+        "b": "beat",
+        "ipa_a": "/ˈbɪt/",
+        "ipa_b": "/ˈbiːt/"
+      },
+      {
+        "a": "sit",
+        "b": "seat",
+        "ipa_a": "/ˈsɪt/",
+        "ipa_b": "/ˈsiːt/"
+      },
+      {
+        "a": "fit",
+        "b": "feet",
+        "ipa_a": "/ˈfɪt/",
+        "ipa_b": "/ˈfiːt/"
+      },
+      {
+        "a": "fill",
+        "b": "feel",
+        "ipa_a": "/ˈfɪl/",
+        "ipa_b": "/ˈfiːl/"
+      },
+      {
+        "a": "hill",
+        "b": "heel",
+        "ipa_a": "/ˈhɪl/",
+        "ipa_b": "/ˈhiːl/"
+      },
+      {
+        "a": "still",
+        "b": "steel",
+        "ipa_a": "/ˈstɪl/",
+        "ipa_b": "/ˈstiːl/"
+      },
+      {
+        "a": "list",
+        "b": "least",
+        "ipa_a": "/ˈlɪst/",
+        "ipa_b": "/ˈliːst/"
+      },
+      {
+        "a": "itch",
+        "b": "each",
+        "ipa_a": "/ˈɪtʃ/",
+        "ipa_b": "/ˈiːtʃ/"
+      },
+      {
+        "a": "chip",
+        "b": "cheap",
+        "ipa_a": "/ˈtʃɪp/",
+        "ipa_b": "/ˈtʃiːp/"
+      },
+      {
+        "a": "dip",
+        "b": "deep",
+        "ipa_a": "/ˈdɪp/",
+        "ipa_b": "/ˈdiːp/"
+      },
+      {
+        "a": "slip",
+        "b": "sleep",
+        "ipa_a": "/ˈslɪp/",
+        "ipa_b": "/ˈsliːp/"
+      },
+      {
+        "a": "lip",
+        "b": "leap",
+        "ipa_a": "/ˈlɪp/",
+        "ipa_b": "/ˈliːp/"
+      },
+      {
+        "a": "grin",
+        "b": "green",
+        "ipa_a": "/ˈɡrɪn/",
+        "ipa_b": "/ˈɡriːn/"
+      },
+      {
+        "a": "bin",
+        "b": "bean",
+        "ipa_a": "/ˈbɪn/",
+        "ipa_b": "/ˈbiːn/"
+      },
+      {
+        "a": "tin",
+        "b": "teen",
+        "ipa_a": "/ˈtɪn/",
+        "ipa_b": "/ˈtiːn/"
+      },
+      {
+        "a": "hit",
+        "b": "heat",
+        "ipa_a": "/ˈhɪt/",
+        "ipa_b": "/ˈhiːt/"
+      },
+      {
+        "a": "knit",
+        "b": "neat",
+        "ipa_a": "/ˈnɪt/",
+        "ipa_b": "/ˈniːt/"
+      },
+      {
+        "a": "pitch",
+        "b": "peach",
+        "ipa_a": "/ˈpɪtʃ/",
+        "ipa_b": "/ˈpiːtʃ/"
+      },
+      {
+        "a": "rich",
+        "b": "reach",
+        "ipa_a": "/ˈrɪtʃ/",
+        "ipa_b": "/ˈriːtʃ/"
+      },
+      {
+        "a": "bid",
+        "b": "bead",
+        "ipa_a": "/ˈbɪd/",
+        "ipa_b": "/ˈbiːd/"
+      },
+      {
+        "a": "hid",
+        "b": "heed",
+        "ipa_a": "/ˈhɪd/",
+        "ipa_b": "/ˈhiːd/"
+      },
+      {
+        "a": "is",
+        "b": "ease",
+        "ipa_a": "/ˈɪz/",
+        "ipa_b": "/ˈiːz/"
+      },
+      {
+        "a": "it",
+        "b": "eat",
+        "ipa_a": "/ˈɪt/",
+        "ipa_b": "/ˈiːt/"
+      },
+      {
+        "a": "ill",
+        "b": "eel",
+        "ipa_a": "/ˈɪl/",
+        "ipa_b": "/ˈiːl/"
+      },
+      {
+        "a": "fist",
+        "b": "feast",
+        "ipa_a": "/ˈfɪst/",
+        "ipa_b": "/ˈfiːst/"
+      },
+      {
+        "a": "pick",
+        "b": "peak",
+        "ipa_a": "/ˈpɪk/",
+        "ipa_b": "/ˈpiːk/"
+      },
+      {
+        "a": "lick",
+        "b": "leak",
+        "ipa_a": "/ˈlɪk/",
+        "ipa_b": "/ˈliːk/"
+      },
+      {
+        "a": "sick",
+        "b": "seek",
+        "ipa_a": "/ˈsɪk/",
+        "ipa_b": "/ˈsiːk/"
+      },
+      {
+        "a": "pill",
+        "b": "peel",
+        "ipa_a": "/ˈpɪl/",
+        "ipa_b": "/ˈpiːl/"
+      },
+      {
+        "a": "mill",
+        "b": "meal",
+        "ipa_a": "/ˈmɪl/",
+        "ipa_b": "/ˈmiːl/"
+      },
+      {
+        "a": "chick",
+        "b": "cheek",
+        "ipa_a": "/ˈtʃɪk/",
+        "ipa_b": "/ˈtʃiːk/"
+      },
+      {
+        "a": "din",
+        "b": "dean",
+        "ipa_a": "/ˈdɪn/",
+        "ipa_b": "/ˈdiːn/"
+      },
+      {
+        "a": "will",
+        "b": "wheel",
+        "ipa_a": "/ˈwɪl/",
+        "ipa_b": "/ˈwiːl/"
+      },
+      {
+        "a": "bitten",
+        "b": "beaten",
+        "ipa_a": "/ˈbɪtən/",
+        "ipa_b": "/ˈbiːtən/"
+      },
+      {
+        "a": "dim",
+        "b": "deem",
+        "ipa_a": "/ˈdɪm/",
+        "ipa_b": "/ˈdiːm/"
+      },
+      {
+        "a": "sin",
+        "b": "scene",
+        "ipa_a": "/ˈsɪn/",
+        "ipa_b": "/ˈsiːn/"
+      },
+      {
+        "a": "slit",
+        "b": "sleet",
+        "ipa_a": "/ˈslɪt/",
+        "ipa_b": "/ˈsliːt/"
+      },
+      {
+        "a": "whip",
+        "b": "weep",
+        "ipa_a": "/ˈwɪp/",
+        "ipa_b": "/ˈwiːp/"
+      }
+    ]
+  },
+  {
+    "contrast": "æ_e",
+    "label": "/æ/ – /e/",
+    "kind": "vowel",
+    "example": "bad – bed",
+    "ipa_symbols": [
+      "æ",
+      "ɛ"
+    ],
+    "pairs": [
+      {
+        "a": "bad",
+        "b": "bed",
+        "ipa_a": "/ˈbæd/",
+        "ipa_b": "/ˈbɛd/"
+      },
+      {
+        "a": "bat",
+        "b": "bet",
+        "ipa_a": "/ˈbæt/",
+        "ipa_b": "/ˈbɛt/"
+      },
+      {
+        "a": "sad",
+        "b": "said",
+        "ipa_a": "/ˈsæd/",
+        "ipa_b": "/ˈsɛd/"
+      },
+      {
+        "a": "man",
+        "b": "men",
+        "ipa_a": "/ˈmæn/",
+        "ipa_b": "/ˈmɛn/"
+      },
+      {
+        "a": "pan",
+        "b": "pen",
+        "ipa_a": "/ˈpæn/",
+        "ipa_b": "/ˈpɛn/"
+      },
+      {
+        "a": "had",
+        "b": "head",
+        "ipa_a": "/ˈhæd/",
+        "ipa_b": "/ˈhɛd/"
+      },
+      {
+        "a": "mat",
+        "b": "met",
+        "ipa_a": "/ˈmæt/",
+        "ipa_b": "/ˈmɛt/"
+      },
+      {
+        "a": "sat",
+        "b": "set",
+        "ipa_a": "/ˈsæt/",
+        "ipa_b": "/ˈsɛt/"
+      },
+      {
+        "a": "land",
+        "b": "lend",
+        "ipa_a": "/ˈlænd/",
+        "ipa_b": "/ˈlɛnd/"
+      },
+      {
+        "a": "band",
+        "b": "bend",
+        "ipa_a": "/ˈbænd/",
+        "ipa_b": "/ˈbɛnd/"
+      },
+      {
+        "a": "sand",
+        "b": "send",
+        "ipa_a": "/ˈsænd/",
+        "ipa_b": "/ˈsɛnd/"
+      },
+      {
+        "a": "gas",
+        "b": "guess",
+        "ipa_a": "/ˈɡæs/",
+        "ipa_b": "/ˈɡɛs/"
+      },
+      {
+        "a": "dad",
+        "b": "dead",
+        "ipa_a": "/ˈdæd/",
+        "ipa_b": "/ˈdɛd/"
+      },
+      {
+        "a": "tan",
+        "b": "ten",
+        "ipa_a": "/ˈtæn/",
+        "ipa_b": "/ˈtɛn/"
+      },
+      {
+        "a": "pat",
+        "b": "pet",
+        "ipa_a": "/ˈpæt/",
+        "ipa_b": "/ˈpɛt/"
+      },
+      {
+        "a": "bag",
+        "b": "beg",
+        "ipa_a": "/ˈbæɡ/",
+        "ipa_b": "/ˈbɛɡ/"
+      },
+      {
+        "a": "flash",
+        "b": "flesh",
+        "ipa_a": "/ˈflæʃ/",
+        "ipa_b": "/ˈflɛʃ/"
+      },
+      {
+        "a": "jam",
+        "b": "gem",
+        "ipa_a": "/ˈdʒæm/",
+        "ipa_b": "/ˈdʒɛm/"
+      },
+      {
+        "a": "lag",
+        "b": "leg",
+        "ipa_a": "/ˈlæɡ/",
+        "ipa_b": "/ˈlɛɡ/"
+      },
+      {
+        "a": "mass",
+        "b": "mess",
+        "ipa_a": "/ˈmæs/",
+        "ipa_b": "/ˈmɛs/"
+      },
+      {
+        "a": "past",
+        "b": "pest",
+        "ipa_a": "/ˈpæst/",
+        "ipa_b": "/ˈpɛst/"
+      },
+      {
+        "a": "rack",
+        "b": "wreck",
+        "ipa_a": "/ˈræk/",
+        "ipa_b": "/ˈrɛk/"
+      },
+      {
+        "a": "track",
+        "b": "trek",
+        "ipa_a": "/ˈtræk/",
+        "ipa_b": "/ˈtrɛk/"
+      },
+      {
+        "a": "pack",
+        "b": "peck",
+        "ipa_a": "/ˈpæk/",
+        "ipa_b": "/ˈpɛk/"
+      },
+      {
+        "a": "bland",
+        "b": "blend",
+        "ipa_a": "/ˈblænd/",
+        "ipa_b": "/ˈblɛnd/"
+      },
+      {
+        "a": "batter",
+        "b": "better",
+        "ipa_a": "/ˈbætər/",
+        "ipa_b": "/ˈbɛtər/"
+      },
+      {
+        "a": "latter",
+        "b": "letter",
+        "ipa_a": "/ˈlætər/",
+        "ipa_b": "/ˈlɛtər/"
+      },
+      {
+        "a": "cattle",
+        "b": "kettle",
+        "ipa_a": "/ˈkætəl/",
+        "ipa_b": "/ˈkɛtəl/"
+      },
+      {
+        "a": "vat",
+        "b": "vet",
+        "ipa_a": "/ˈvæt/",
+        "ipa_b": "/ˈvɛt/"
+      },
+      {
+        "a": "than",
+        "b": "then",
+        "ipa_a": "/ˈðæn/",
+        "ipa_b": "/ˈðɛn/"
+      },
+      {
+        "a": "sax",
+        "b": "sex",
+        "ipa_a": "/ˈsæks/",
+        "ipa_b": "/ˈsɛks/"
+      },
+      {
+        "a": "shall",
+        "b": "shell",
+        "ipa_a": "/ˈʃæl/",
+        "ipa_b": "/ˈʃɛl/"
+      },
+      {
+        "a": "paddle",
+        "b": "peddle",
+        "ipa_a": "/ˈpædəl/",
+        "ipa_b": "/ˈpɛdəl/"
+      },
+      {
+        "a": "salary",
+        "b": "celery",
+        "ipa_a": "/ˈsæləriː/",
+        "ipa_b": "/ˈsɛləriː/"
+      },
+      {
+        "a": "ham",
+        "b": "hem",
+        "ipa_a": "/ˈhæm/",
+        "ipa_b": "/ˈhɛm/"
+      }
+    ]
+  },
+  {
+    "contrast": "æ_ʌ",
+    "label": "/æ/ – /ʌ/",
+    "kind": "vowel",
+    "example": "cat – cut",
+    "ipa_symbols": [
+      "æ",
+      "ʌ"
+    ],
+    "pairs": [
+      {
+        "a": "cat",
+        "b": "cut",
+        "ipa_a": "/ˈkæt/",
+        "ipa_b": "/ˈkʌt/"
+      },
+      {
+        "a": "bat",
+        "b": "but",
+        "ipa_a": "/ˈbæt/",
+        "ipa_b": "/ˈbʌt/"
+      },
+      {
+        "a": "hat",
+        "b": "hut",
+        "ipa_a": "/ˈhæt/",
+        "ipa_b": "/ˈhʌt/"
+      },
+      {
+        "a": "cap",
+        "b": "cup",
+        "ipa_a": "/ˈkæp/",
+        "ipa_b": "/ˈkʌp/"
+      },
+      {
+        "a": "bag",
+        "b": "bug",
+        "ipa_a": "/ˈbæɡ/",
+        "ipa_b": "/ˈbʌɡ/"
+      },
+      {
+        "a": "ran",
+        "b": "run",
+        "ipa_a": "/ˈræn/",
+        "ipa_b": "/ˈrʌn/"
+      },
+      {
+        "a": "ankle",
+        "b": "uncle",
+        "ipa_a": "/ˈæŋkəl/",
+        "ipa_b": "/ˈʌŋkəl/"
+      },
+      {
+        "a": "match",
+        "b": "much",
+        "ipa_a": "/ˈmætʃ/",
+        "ipa_b": "/ˈmʌtʃ/"
+      },
+      {
+        "a": "mad",
+        "b": "mud",
+        "ipa_a": "/ˈmæd/",
+        "ipa_b": "/ˈmʌd/"
+      },
+      {
+        "a": "bad",
+        "b": "bud",
+        "ipa_a": "/ˈbæd/",
+        "ipa_b": "/ˈbʌd/"
+      },
+      {
+        "a": "ban",
+        "b": "bun",
+        "ipa_a": "/ˈbæn/",
+        "ipa_b": "/ˈbʌn/"
+      },
+      {
+        "a": "fan",
+        "b": "fun",
+        "ipa_a": "/ˈfæn/",
+        "ipa_b": "/ˈfʌn/"
+      },
+      {
+        "a": "sank",
+        "b": "sunk",
+        "ipa_a": "/ˈsæŋk/",
+        "ipa_b": "/ˈsʌŋk/"
+      },
+      {
+        "a": "rang",
+        "b": "rung",
+        "ipa_a": "/ˈræŋ/",
+        "ipa_b": "/ˈrʌŋ/"
+      },
+      {
+        "a": "sang",
+        "b": "sung",
+        "ipa_a": "/ˈsæŋ/",
+        "ipa_b": "/ˈsʌŋ/"
+      },
+      {
+        "a": "drank",
+        "b": "drunk",
+        "ipa_a": "/ˈdræŋk/",
+        "ipa_b": "/ˈdrʌŋk/"
+      },
+      {
+        "a": "stack",
+        "b": "stuck",
+        "ipa_a": "/ˈstæk/",
+        "ipa_b": "/ˈstʌk/"
+      },
+      {
+        "a": "track",
+        "b": "truck",
+        "ipa_a": "/ˈtræk/",
+        "ipa_b": "/ˈtrʌk/"
+      },
+      {
+        "a": "lack",
+        "b": "luck",
+        "ipa_a": "/ˈlæk/",
+        "ipa_b": "/ˈlʌk/"
+      },
+      {
+        "a": "back",
+        "b": "buck",
+        "ipa_a": "/ˈbæk/",
+        "ipa_b": "/ˈbʌk/"
+      },
+      {
+        "a": "hang",
+        "b": "hung",
+        "ipa_a": "/ˈhæŋ/",
+        "ipa_b": "/ˈhʌŋ/"
+      },
+      {
+        "a": "ham",
+        "b": "hum",
+        "ipa_a": "/ˈhæm/",
+        "ipa_b": "/ˈhʌm/"
+      },
+      {
+        "a": "pat",
+        "b": "putt",
+        "ipa_a": "/ˈpæt/",
+        "ipa_b": "/ˈpʌt/"
+      },
+      {
+        "a": "rat",
+        "b": "rut",
+        "ipa_a": "/ˈræt/",
+        "ipa_b": "/ˈrʌt/"
+      },
+      {
+        "a": "cab",
+        "b": "cub",
+        "ipa_a": "/ˈkæb/",
+        "ipa_b": "/ˈkʌb/"
+      },
+      {
+        "a": "crash",
+        "b": "crush",
+        "ipa_a": "/ˈkræʃ/",
+        "ipa_b": "/ˈkrʌʃ/"
+      },
+      {
+        "a": "brash",
+        "b": "brush",
+        "ipa_a": "/ˈbræʃ/",
+        "ipa_b": "/ˈbrʌʃ/"
+      },
+      {
+        "a": "flash",
+        "b": "flush",
+        "ipa_a": "/ˈflæʃ/",
+        "ipa_b": "/ˈflʌʃ/"
+      },
+      {
+        "a": "slash",
+        "b": "slush",
+        "ipa_a": "/ˈslæʃ/",
+        "ipa_b": "/ˈslʌʃ/"
+      },
+      {
+        "a": "pan",
+        "b": "pun",
+        "ipa_a": "/ˈpæn/",
+        "ipa_b": "/ˈpʌn/"
+      },
+      {
+        "a": "lamp",
+        "b": "lump",
+        "ipa_a": "/ˈlæmp/",
+        "ipa_b": "/ˈlʌmp/"
+      },
+      {
+        "a": "damp",
+        "b": "dump",
+        "ipa_a": "/ˈdæmp/",
+        "ipa_b": "/ˈdʌmp/"
+      },
+      {
+        "a": "stamp",
+        "b": "stump",
+        "ipa_a": "/ˈstæmp/",
+        "ipa_b": "/ˈstʌmp/"
+      },
+      {
+        "a": "tan",
+        "b": "ton",
+        "ipa_a": "/ˈtæn/",
+        "ipa_b": "/ˈtʌn/"
+      },
+      {
+        "a": "swam",
+        "b": "swum",
+        "ipa_a": "/ˈswæm/",
+        "ipa_b": "/ˈswʌm/"
+      },
+      {
+        "a": "sack",
+        "b": "suck",
+        "ipa_a": "/ˈsæk/",
+        "ipa_b": "/ˈsʌk/"
+      },
+      {
+        "a": "dabble",
+        "b": "double",
+        "ipa_a": "/ˈdæbəl/",
+        "ipa_b": "/ˈdʌbəl/"
+      },
+      {
+        "a": "badge",
+        "b": "budge",
+        "ipa_a": "/ˈbædʒ/",
+        "ipa_b": "/ˈbʌdʒ/"
+      },
+      {
+        "a": "batter",
+        "b": "butter",
+        "ipa_a": "/ˈbætər/",
+        "ipa_b": "/ˈbʌtər/"
+      },
+      {
+        "a": "mash",
+        "b": "mush",
+        "ipa_a": "/ˈmæʃ/",
+        "ipa_b": "/ˈmʌʃ/"
+      }
+    ]
+  },
+  {
+    "contrast": "e_ʌ",
+    "label": "/e/ – /ʌ/",
+    "kind": "vowel",
+    "example": "bed – bud",
+    "ipa_symbols": [
+      "ɛ",
+      "ʌ"
+    ],
+    "pairs": [
+      {
+        "a": "bed",
+        "b": "bud",
+        "ipa_a": "/ˈbɛd/",
+        "ipa_b": "/ˈbʌd/"
+      },
+      {
+        "a": "beg",
+        "b": "bug",
+        "ipa_a": "/ˈbɛɡ/",
+        "ipa_b": "/ˈbʌɡ/"
+      },
+      {
+        "a": "ten",
+        "b": "ton",
+        "ipa_a": "/ˈtɛn/",
+        "ipa_b": "/ˈtʌn/"
+      },
+      {
+        "a": "net",
+        "b": "nut",
+        "ipa_a": "/ˈnɛt/",
+        "ipa_b": "/ˈnʌt/"
+      },
+      {
+        "a": "bet",
+        "b": "but",
+        "ipa_a": "/ˈbɛt/",
+        "ipa_b": "/ˈbʌt/"
+      },
+      {
+        "a": "get",
+        "b": "gut",
+        "ipa_a": "/ˈɡɛt/",
+        "ipa_b": "/ˈɡʌt/"
+      },
+      {
+        "a": "met",
+        "b": "mutt",
+        "ipa_a": "/ˈmɛt/",
+        "ipa_b": "/ˈmʌt/"
+      },
+      {
+        "a": "pet",
+        "b": "putt",
+        "ipa_a": "/ˈpɛt/",
+        "ipa_b": "/ˈpʌt/"
+      },
+      {
+        "a": "hem",
+        "b": "hum",
+        "ipa_a": "/ˈhɛm/",
+        "ipa_b": "/ˈhʌm/"
+      },
+      {
+        "a": "best",
+        "b": "bust",
+        "ipa_a": "/ˈbɛst/",
+        "ipa_b": "/ˈbʌst/"
+      },
+      {
+        "a": "rest",
+        "b": "rust",
+        "ipa_a": "/ˈrɛst/",
+        "ipa_b": "/ˈrʌst/"
+      },
+      {
+        "a": "dead",
+        "b": "dud",
+        "ipa_a": "/ˈdɛd/",
+        "ipa_b": "/ˈdʌd/"
+      },
+      {
+        "a": "check",
+        "b": "chuck",
+        "ipa_a": "/ˈtʃɛk/",
+        "ipa_b": "/ˈtʃʌk/"
+      },
+      {
+        "a": "deck",
+        "b": "duck",
+        "ipa_a": "/ˈdɛk/",
+        "ipa_b": "/ˈdʌk/"
+      },
+      {
+        "a": "peck",
+        "b": "puck",
+        "ipa_a": "/ˈpɛk/",
+        "ipa_b": "/ˈpʌk/"
+      },
+      {
+        "a": "trek",
+        "b": "truck",
+        "ipa_a": "/ˈtrɛk/",
+        "ipa_b": "/ˈtrʌk/"
+      },
+      {
+        "a": "hell",
+        "b": "hull",
+        "ipa_a": "/ˈhɛl/",
+        "ipa_b": "/ˈhʌl/"
+      },
+      {
+        "a": "bench",
+        "b": "bunch",
+        "ipa_a": "/ˈbɛntʃ/",
+        "ipa_b": "/ˈbʌntʃ/"
+      },
+      {
+        "a": "fend",
+        "b": "fund",
+        "ipa_a": "/ˈfɛnd/",
+        "ipa_b": "/ˈfʌnd/"
+      },
+      {
+        "a": "den",
+        "b": "done",
+        "ipa_a": "/ˈdɛn/",
+        "ipa_b": "/ˈdʌn/"
+      },
+      {
+        "a": "pen",
+        "b": "pun",
+        "ipa_a": "/ˈpɛn/",
+        "ipa_b": "/ˈpʌn/"
+      },
+      {
+        "a": "wren",
+        "b": "run",
+        "ipa_a": "/ˈrɛn/",
+        "ipa_b": "/ˈrʌn/"
+      },
+      {
+        "a": "jet",
+        "b": "jut",
+        "ipa_a": "/ˈdʒɛt/",
+        "ipa_b": "/ˈdʒʌt/"
+      },
+      {
+        "a": "bled",
+        "b": "blood",
+        "ipa_a": "/ˈblɛd/",
+        "ipa_b": "/ˈblʌd/"
+      },
+      {
+        "a": "fled",
+        "b": "flood",
+        "ipa_a": "/ˈflɛd/",
+        "ipa_b": "/ˈflʌd/"
+      },
+      {
+        "a": "sped",
+        "b": "spud",
+        "ipa_a": "/ˈspɛd/",
+        "ipa_b": "/ˈspʌd/"
+      }
+    ]
+  },
+  {
+    "contrast": "ɒ_ɔː",
+    "label": "/ɒ/ – /ɔː/",
+    "kind": "vowel",
+    "example": "cot – caught",
+    "ipa_symbols": [
+      "ɑ",
+      "ɔ"
+    ],
+    "pairs": [
+      {
+        "a": "don",
+        "b": "dawn",
+        "ipa_a": "/ˈdɑn/",
+        "ipa_b": "/ˈdɔn/"
+      },
+      {
+        "a": "hock",
+        "b": "hawk",
+        "ipa_a": "/ˈhɑk/",
+        "ipa_b": "/ˈhɔk/"
+      },
+      {
+        "a": "stock",
+        "b": "stalk",
+        "ipa_a": "/ˈstɑk/",
+        "ipa_b": "/ˈstɔk/"
+      },
+      {
+        "a": "tot",
+        "b": "taught",
+        "ipa_a": "/ˈtɑt/",
+        "ipa_b": "/ˈtɔt/"
+      },
+      {
+        "a": "not",
+        "b": "naught",
+        "ipa_a": "/ˈnɑt/",
+        "ipa_b": "/ˈnɔt/"
+      },
+      {
+        "a": "knotty",
+        "b": "naughty",
+        "ipa_a": "/ˈnɑtiː/",
+        "ipa_b": "/ˈnɔtiː/"
+      },
+      {
+        "a": "odd",
+        "b": "awed",
+        "ipa_a": "/ˈɑd/",
+        "ipa_b": "/ˈɔd/"
+      },
+      {
+        "a": "nod",
+        "b": "gnawed",
+        "ipa_a": "/ˈnɑd/",
+        "ipa_b": "/ˈnɔd/"
+      },
+      {
+        "a": "pod",
+        "b": "pawed",
+        "ipa_a": "/ˈpɑd/",
+        "ipa_b": "/ˈpɔd/"
+      },
+      {
+        "a": "collar",
+        "b": "caller",
+        "ipa_a": "/ˈkɑlər/",
+        "ipa_b": "/ˈkɔlər/"
+      },
+      {
+        "a": "wok",
+        "b": "walk",
+        "ipa_a": "/ˈwɑk/",
+        "ipa_b": "/ˈwɔk/"
+      },
+      {
+        "a": "pond",
+        "b": "pawned",
+        "ipa_a": "/ˈpɑnd/",
+        "ipa_b": "/ˈpɔnd/"
+      }
+    ],
+    "note": "Smallest group. The source dictionary is inconsistent for GenAm LOT vs THOUGHT, so classic pairs such as cot/caught and chock/chalk come back as homophones and are dropped. Treat this group as lower-confidence than the others."
+  },
+  {
+    "contrast": "ʊ_uː",
+    "label": "/ʊ/ – /uː/",
+    "kind": "vowel",
+    "example": "full – fool",
+    "ipa_symbols": [
+      "ʊ",
+      "uː"
+    ],
+    "pairs": [
+      {
+        "a": "full",
+        "b": "fool",
+        "ipa_a": "/ˈfʊl/",
+        "ipa_b": "/ˈfuːl/"
+      },
+      {
+        "a": "pull",
+        "b": "pool",
+        "ipa_a": "/ˈpʊl/",
+        "ipa_b": "/ˈpuːl/"
+      },
+      {
+        "a": "look",
+        "b": "luke",
+        "ipa_a": "/ˈlʊk/",
+        "ipa_b": "/ˈluːk/"
+      },
+      {
+        "a": "cook",
+        "b": "kook",
+        "ipa_a": "/ˈkʊk/",
+        "ipa_b": "/ˈkuːk/"
+      },
+      {
+        "a": "nook",
+        "b": "nuke",
+        "ipa_a": "/ˈnʊk/",
+        "ipa_b": "/ˈnuːk/"
+      },
+      {
+        "a": "could",
+        "b": "cooed",
+        "ipa_a": "/ˈkʊd/",
+        "ipa_b": "/ˈkuːd/"
+      },
+      {
+        "a": "would",
+        "b": "wooed",
+        "ipa_a": "/ˈwʊd/",
+        "ipa_b": "/ˈwuːd/"
+      },
+      {
+        "a": "should",
+        "b": "shooed",
+        "ipa_a": "/ˈʃʊd/",
+        "ipa_b": "/ˈʃuːd/"
+      },
+      {
+        "a": "stood",
+        "b": "stewed",
+        "ipa_a": "/ˈstʊd/",
+        "ipa_b": "/ˈstuːd/"
+      },
+      {
+        "a": "hood",
+        "b": "who'd",
+        "ipa_a": "/ˈhʊd/",
+        "ipa_b": "/ˈhuːd/"
+      },
+      {
+        "a": "soot",
+        "b": "suit",
+        "ipa_a": "/ˈsʊt/",
+        "ipa_b": "/ˈsuːt/"
+      },
+      {
+        "a": "wood",
+        "b": "wooed",
+        "ipa_a": "/ˈwʊd/",
+        "ipa_b": "/ˈwuːd/"
+      },
+      {
+        "a": "pulling",
+        "b": "pooling",
+        "ipa_a": "/ˈpʊlɪŋ/",
+        "ipa_b": "/ˈpuːlɪŋ/"
+      }
+    ],
+    "note": "English has few /ʊ/ words, so this group cannot reach 20 real pairs. Mining the full dictionary yields only surnames. Reuse pairs across rounds rather than padding."
+  },
+  {
+    "contrast": "θ_s",
+    "label": "/θ/ – /s/",
+    "kind": "consonant",
+    "example": "think – sink",
+    "ipa_symbols": [
+      "θ",
+      "s"
+    ],
+    "pairs": [
+      {
+        "a": "think",
+        "b": "sink",
+        "ipa_a": "/ˈθɪŋk/",
+        "ipa_b": "/ˈsɪŋk/"
+      },
+      {
+        "a": "thick",
+        "b": "sick",
+        "ipa_a": "/ˈθɪk/",
+        "ipa_b": "/ˈsɪk/"
+      },
+      {
+        "a": "thin",
+        "b": "sin",
+        "ipa_a": "/ˈθɪn/",
+        "ipa_b": "/ˈsɪn/"
+      },
+      {
+        "a": "thing",
+        "b": "sing",
+        "ipa_a": "/ˈθɪŋ/",
+        "ipa_b": "/ˈsɪŋ/"
+      },
+      {
+        "a": "thumb",
+        "b": "sum",
+        "ipa_a": "/ˈθʌm/",
+        "ipa_b": "/ˈsʌm/"
+      },
+      {
+        "a": "theme",
+        "b": "seem",
+        "ipa_a": "/ˈθiːm/",
+        "ipa_b": "/ˈsiːm/"
+      },
+      {
+        "a": "thought",
+        "b": "sought",
+        "ipa_a": "/ˈθɔt/",
+        "ipa_b": "/ˈsɔt/"
+      },
+      {
+        "a": "path",
+        "b": "pass",
+        "ipa_a": "/ˈpæθ/",
+        "ipa_b": "/ˈpæs/"
+      },
+      {
+        "a": "bath",
+        "b": "bass",
+        "ipa_a": "/ˈbæθ/",
+        "ipa_b": "/ˈbæs/"
+      },
+      {
+        "a": "math",
+        "b": "mass",
+        "ipa_a": "/ˈmæθ/",
+        "ipa_b": "/ˈmæs/"
+      },
+      {
+        "a": "mouth",
+        "b": "mouse",
+        "ipa_a": "/ˈmaʊθ/",
+        "ipa_b": "/ˈmaʊs/"
+      },
+      {
+        "a": "tenth",
+        "b": "tense",
+        "ipa_a": "/ˈtɛnθ/",
+        "ipa_b": "/ˈtɛns/"
+      },
+      {
+        "a": "worth",
+        "b": "worse",
+        "ipa_a": "/ˈwɜrθ/",
+        "ipa_b": "/ˈwɜrs/"
+      },
+      {
+        "a": "faith",
+        "b": "face",
+        "ipa_a": "/ˈfeɪθ/",
+        "ipa_b": "/ˈfeɪs/"
+      },
+      {
+        "a": "truth",
+        "b": "truce",
+        "ipa_a": "/ˈtruːθ/",
+        "ipa_b": "/ˈtruːs/"
+      },
+      {
+        "a": "myth",
+        "b": "miss",
+        "ipa_a": "/ˈmɪθ/",
+        "ipa_b": "/ˈmɪs/"
+      },
+      {
+        "a": "moth",
+        "b": "moss",
+        "ipa_a": "/ˈmɔθ/",
+        "ipa_b": "/ˈmɔs/"
+      },
+      {
+        "a": "fourth",
+        "b": "force",
+        "ipa_a": "/ˈfɔrθ/",
+        "ipa_b": "/ˈfɔrs/"
+      },
+      {
+        "a": "youth",
+        "b": "use",
+        "ipa_a": "/ˈjuːθ/",
+        "ipa_b": "/ˈjuːs/"
+      },
+      {
+        "a": "growth",
+        "b": "gross",
+        "ipa_a": "/ˈɡroʊθ/",
+        "ipa_b": "/ˈɡroʊs/"
+      },
+      {
+        "a": "thank",
+        "b": "sank",
+        "ipa_a": "/ˈθæŋk/",
+        "ipa_b": "/ˈsæŋk/"
+      },
+      {
+        "a": "thigh",
+        "b": "sigh",
+        "ipa_a": "/ˈθaɪ/",
+        "ipa_b": "/ˈsaɪ/"
+      },
+      {
+        "a": "thaw",
+        "b": "saw",
+        "ipa_a": "/ˈθɔ/",
+        "ipa_b": "/ˈsɔ/"
+      },
+      {
+        "a": "thong",
+        "b": "song",
+        "ipa_a": "/ˈθɔŋ/",
+        "ipa_b": "/ˈsɔŋ/"
+      },
+      {
+        "a": "thinking",
+        "b": "sinking",
+        "ipa_a": "/ˈθɪŋkɪŋ/",
+        "ipa_b": "/ˈsɪŋkɪŋ/"
+      },
+      {
+        "a": "thumbs",
+        "b": "sums",
+        "ipa_a": "/ˈθʌmz/",
+        "ipa_b": "/ˈsʌmz/"
+      },
+      {
+        "a": "thinks",
+        "b": "sinks",
+        "ipa_a": "/ˈθɪŋks/",
+        "ipa_b": "/ˈsɪŋks/"
+      }
+    ]
+  },
+  {
+    "contrast": "ð_d",
+    "label": "/ð/ – /d/",
+    "kind": "consonant",
+    "example": "they – day",
+    "ipa_symbols": [
+      "ð",
+      "d"
+    ],
+    "pairs": [
+      {
+        "a": "they",
+        "b": "day",
+        "ipa_a": "/ˈðeɪ/",
+        "ipa_b": "/ˈdeɪ/"
+      },
+      {
+        "a": "then",
+        "b": "den",
+        "ipa_a": "/ˈðɛn/",
+        "ipa_b": "/ˈdɛn/"
+      },
+      {
+        "a": "there",
+        "b": "dare",
+        "ipa_a": "/ˈðɛr/",
+        "ipa_b": "/ˈdɛr/"
+      },
+      {
+        "a": "those",
+        "b": "doze",
+        "ipa_a": "/ˈðoʊz/",
+        "ipa_b": "/ˈdoʊz/"
+      },
+      {
+        "a": "though",
+        "b": "dough",
+        "ipa_a": "/ˈðoʊ/",
+        "ipa_b": "/ˈdoʊ/"
+      },
+      {
+        "a": "thy",
+        "b": "die",
+        "ipa_a": "/ˈðaɪ/",
+        "ipa_b": "/ˈdaɪ/"
+      },
+      {
+        "a": "breathe",
+        "b": "breed",
+        "ipa_a": "/ˈbriːð/",
+        "ipa_b": "/ˈbriːd/"
+      },
+      {
+        "a": "bathe",
+        "b": "bade",
+        "ipa_a": "/ˈbeɪð/",
+        "ipa_b": "/ˈbeɪd/"
+      },
+      {
+        "a": "lather",
+        "b": "ladder",
+        "ipa_a": "/ˈlæðər/",
+        "ipa_b": "/ˈlædər/"
+      },
+      {
+        "a": "father",
+        "b": "fodder",
+        "ipa_a": "/ˈfɑðər/",
+        "ipa_b": "/ˈfɑdər/"
+      },
+      {
+        "a": "loathe",
+        "b": "load",
+        "ipa_a": "/ˈloʊð/",
+        "ipa_b": "/ˈloʊd/"
+      },
+      {
+        "a": "lathe",
+        "b": "laid",
+        "ipa_a": "/ˈleɪð/",
+        "ipa_b": "/ˈleɪd/"
+      },
+      {
+        "a": "seethe",
+        "b": "seed",
+        "ipa_a": "/ˈsiːð/",
+        "ipa_b": "/ˈsiːd/"
+      },
+      {
+        "a": "soothe",
+        "b": "sued",
+        "ipa_a": "/ˈsuːð/",
+        "ipa_b": "/ˈsuːd/"
+      },
+      {
+        "a": "worthy",
+        "b": "wordy",
+        "ipa_a": "/ˈwɜrðiː/",
+        "ipa_b": "/ˈwɜrdiː/"
+      },
+      {
+        "a": "tithe",
+        "b": "tide",
+        "ipa_a": "/ˈtaɪð/",
+        "ipa_b": "/ˈtaɪd/"
+      },
+      {
+        "a": "heather",
+        "b": "header",
+        "ipa_a": "/ˈhɛðər/",
+        "ipa_b": "/ˈhɛdər/"
+      }
+    ],
+    "note": "Under 20. /ð/ is confined to a closed set of function words plus a few verbs, and several of the remaining textbook pairs (writhe/ride, scythe/side) are mis-transcribed in the source dictionary and are dropped."
+  },
+  {
+    "contrast": "v_w",
+    "label": "/v/ – /w/",
+    "kind": "consonant",
+    "example": "vest – west",
+    "ipa_symbols": [
+      "v",
+      "w"
+    ],
+    "pairs": [
+      {
+        "a": "vest",
+        "b": "west",
+        "ipa_a": "/ˈvɛst/",
+        "ipa_b": "/ˈwɛst/"
+      },
+      {
+        "a": "vet",
+        "b": "wet",
+        "ipa_a": "/ˈvɛt/",
+        "ipa_b": "/ˈwɛt/"
+      },
+      {
+        "a": "vine",
+        "b": "wine",
+        "ipa_a": "/ˈvaɪn/",
+        "ipa_b": "/ˈwaɪn/"
+      },
+      {
+        "a": "vine",
+        "b": "whine",
+        "ipa_a": "/ˈvaɪn/",
+        "ipa_b": "/ˈwaɪn/"
+      },
+      {
+        "a": "veil",
+        "b": "whale",
+        "ipa_a": "/ˈveɪl/",
+        "ipa_b": "/ˈweɪl/"
+      },
+      {
+        "a": "vary",
+        "b": "wary",
+        "ipa_a": "/ˈvɛriː/",
+        "ipa_b": "/ˈwɛriː/"
+      },
+      {
+        "a": "verse",
+        "b": "worse",
+        "ipa_a": "/ˈvɜrs/",
+        "ipa_b": "/ˈwɜrs/"
+      },
+      {
+        "a": "vow",
+        "b": "wow",
+        "ipa_a": "/ˈvaʊ/",
+        "ipa_b": "/ˈwaʊ/"
+      },
+      {
+        "a": "veal",
+        "b": "wheel",
+        "ipa_a": "/ˈviːl/",
+        "ipa_b": "/ˈwiːl/"
+      },
+      {
+        "a": "vent",
+        "b": "went",
+        "ipa_a": "/ˈvɛnt/",
+        "ipa_b": "/ˈwɛnt/"
+      },
+      {
+        "a": "viper",
+        "b": "wiper",
+        "ipa_a": "/ˈvaɪpər/",
+        "ipa_b": "/ˈwaɪpər/"
+      },
+      {
+        "a": "vile",
+        "b": "while",
+        "ipa_a": "/ˈvaɪl/",
+        "ipa_b": "/ˈwaɪl/"
+      },
+      {
+        "a": "vain",
+        "b": "wane",
+        "ipa_a": "/ˈveɪn/",
+        "ipa_b": "/ˈweɪn/"
+      },
+      {
+        "a": "very",
+        "b": "wary",
+        "ipa_a": "/ˈvɛriː/",
+        "ipa_b": "/ˈwɛriː/"
+      },
+      {
+        "a": "visor",
+        "b": "wiser",
+        "ipa_a": "/ˈvaɪzər/",
+        "ipa_b": "/ˈwaɪzər/"
+      },
+      {
+        "a": "vowed",
+        "b": "wowed",
+        "ipa_a": "/ˈvaʊd/",
+        "ipa_b": "/ˈwaʊd/"
+      },
+      {
+        "a": "vicar",
+        "b": "wicker",
+        "ipa_a": "/ˈvɪkər/",
+        "ipa_b": "/ˈwɪkər/"
+      }
+    ],
+    "note": "Just under 20. Word-initial /v/–/w/ pairs are a short, well-known list; the rest of the dictionary offers only surnames (vaal/wahl, vang/wang)."
+  },
+  {
+    "contrast": "ʃ_s",
+    "label": "/ʃ/ – /s/",
+    "kind": "consonant",
+    "example": "she – see",
+    "ipa_symbols": [
+      "ʃ",
+      "s"
+    ],
+    "pairs": [
+      {
+        "a": "she",
+        "b": "see",
+        "ipa_a": "/ˈʃiː/",
+        "ipa_b": "/ˈsiː/"
+      },
+      {
+        "a": "ship",
+        "b": "sip",
+        "ipa_a": "/ˈʃɪp/",
+        "ipa_b": "/ˈsɪp/"
+      },
+      {
+        "a": "shy",
+        "b": "sigh",
+        "ipa_a": "/ˈʃaɪ/",
+        "ipa_b": "/ˈsaɪ/"
+      },
+      {
+        "a": "sheet",
+        "b": "seat",
+        "ipa_a": "/ˈʃiːt/",
+        "ipa_b": "/ˈsiːt/"
+      },
+      {
+        "a": "sheep",
+        "b": "seep",
+        "ipa_a": "/ˈʃiːp/",
+        "ipa_b": "/ˈsiːp/"
+      },
+      {
+        "a": "shell",
+        "b": "sell",
+        "ipa_a": "/ˈʃɛl/",
+        "ipa_b": "/ˈsɛl/"
+      },
+      {
+        "a": "shore",
+        "b": "sore",
+        "ipa_a": "/ˈʃɔr/",
+        "ipa_b": "/ˈsɔr/"
+      },
+      {
+        "a": "shine",
+        "b": "sign",
+        "ipa_a": "/ˈʃaɪn/",
+        "ipa_b": "/ˈsaɪn/"
+      },
+      {
+        "a": "shoe",
+        "b": "sue",
+        "ipa_a": "/ˈʃuː/",
+        "ipa_b": "/ˈsuː/"
+      },
+      {
+        "a": "show",
+        "b": "sew",
+        "ipa_a": "/ˈʃoʊ/",
+        "ipa_b": "/ˈsoʊ/"
+      },
+      {
+        "a": "shock",
+        "b": "sock",
+        "ipa_a": "/ˈʃɑk/",
+        "ipa_b": "/ˈsɑk/"
+      },
+      {
+        "a": "shave",
+        "b": "save",
+        "ipa_a": "/ˈʃeɪv/",
+        "ipa_b": "/ˈseɪv/"
+      },
+      {
+        "a": "shame",
+        "b": "same",
+        "ipa_a": "/ˈʃeɪm/",
+        "ipa_b": "/ˈseɪm/"
+      },
+      {
+        "a": "shed",
+        "b": "said",
+        "ipa_a": "/ˈʃɛd/",
+        "ipa_b": "/ˈsɛd/"
+      },
+      {
+        "a": "shack",
+        "b": "sack",
+        "ipa_a": "/ˈʃæk/",
+        "ipa_b": "/ˈsæk/"
+      },
+      {
+        "a": "shift",
+        "b": "sift",
+        "ipa_a": "/ˈʃɪft/",
+        "ipa_b": "/ˈsɪft/"
+      },
+      {
+        "a": "shun",
+        "b": "sun",
+        "ipa_a": "/ˈʃʌn/",
+        "ipa_b": "/ˈsʌn/"
+      },
+      {
+        "a": "mesh",
+        "b": "mess",
+        "ipa_a": "/ˈmɛʃ/",
+        "ipa_b": "/ˈmɛs/"
+      },
+      {
+        "a": "lash",
+        "b": "lass",
+        "ipa_a": "/ˈlæʃ/",
+        "ipa_b": "/ˈlæs/"
+      },
+      {
+        "a": "gash",
+        "b": "gas",
+        "ipa_a": "/ˈɡæʃ/",
+        "ipa_b": "/ˈɡæs/"
+      },
+      {
+        "a": "mash",
+        "b": "mass",
+        "ipa_a": "/ˈmæʃ/",
+        "ipa_b": "/ˈmæs/"
+      },
+      {
+        "a": "bash",
+        "b": "bass",
+        "ipa_a": "/ˈbæʃ/",
+        "ipa_b": "/ˈbæs/"
+      },
+      {
+        "a": "leash",
+        "b": "lease",
+        "ipa_a": "/ˈliːʃ/",
+        "ipa_b": "/ˈliːs/"
+      },
+      {
+        "a": "plush",
+        "b": "plus",
+        "ipa_a": "/ˈplʌʃ/",
+        "ipa_b": "/ˈplʌs/"
+      },
+      {
+        "a": "shoot",
+        "b": "suit",
+        "ipa_a": "/ˈʃuːt/",
+        "ipa_b": "/ˈsuːt/"
+      },
+      {
+        "a": "short",
+        "b": "sort",
+        "ipa_a": "/ˈʃɔrt/",
+        "ipa_b": "/ˈsɔrt/"
+      },
+      {
+        "a": "shin",
+        "b": "sin",
+        "ipa_a": "/ˈʃɪn/",
+        "ipa_b": "/ˈsɪn/"
+      },
+      {
+        "a": "shingle",
+        "b": "single",
+        "ipa_a": "/ˈʃɪŋɡəl/",
+        "ipa_b": "/ˈsɪŋɡəl/"
+      },
+      {
+        "a": "shake",
+        "b": "sake",
+        "ipa_a": "/ˈʃeɪk/",
+        "ipa_b": "/ˈseɪk/"
+      },
+      {
+        "a": "shale",
+        "b": "sale",
+        "ipa_a": "/ˈʃeɪl/",
+        "ipa_b": "/ˈseɪl/"
+      },
+      {
+        "a": "shorts",
+        "b": "sorts",
+        "ipa_a": "/ˈʃɔrts/",
+        "ipa_b": "/ˈsɔrts/"
+      }
+    ]
+  },
+  {
+    "contrast": "tʃ_dʒ",
+    "label": "/tʃ/ – /dʒ/",
+    "kind": "consonant",
+    "example": "cheap – jeep",
+    "ipa_symbols": [
+      "tʃ",
+      "dʒ"
+    ],
+    "pairs": [
+      {
+        "a": "chin",
+        "b": "gin",
+        "ipa_a": "/ˈtʃɪn/",
+        "ipa_b": "/ˈdʒɪn/"
+      },
+      {
+        "a": "cheap",
+        "b": "jeep",
+        "ipa_a": "/ˈtʃiːp/",
+        "ipa_b": "/ˈdʒiːp/"
+      },
+      {
+        "a": "choke",
+        "b": "joke",
+        "ipa_a": "/ˈtʃoʊk/",
+        "ipa_b": "/ˈdʒoʊk/"
+      },
+      {
+        "a": "chest",
+        "b": "jest",
+        "ipa_a": "/ˈtʃɛst/",
+        "ipa_b": "/ˈdʒɛst/"
+      },
+      {
+        "a": "chunk",
+        "b": "junk",
+        "ipa_a": "/ˈtʃʌŋk/",
+        "ipa_b": "/ˈdʒʌŋk/"
+      },
+      {
+        "a": "cheer",
+        "b": "jeer",
+        "ipa_a": "/ˈtʃɪr/",
+        "ipa_b": "/ˈdʒɪr/"
+      },
+      {
+        "a": "char",
+        "b": "jar",
+        "ipa_a": "/ˈtʃɑr/",
+        "ipa_b": "/ˈdʒɑr/"
+      },
+      {
+        "a": "chug",
+        "b": "jug",
+        "ipa_a": "/ˈtʃʌɡ/",
+        "ipa_b": "/ˈdʒʌɡ/"
+      },
+      {
+        "a": "batch",
+        "b": "badge",
+        "ipa_a": "/ˈbætʃ/",
+        "ipa_b": "/ˈbædʒ/"
+      },
+      {
+        "a": "rich",
+        "b": "ridge",
+        "ipa_a": "/ˈrɪtʃ/",
+        "ipa_b": "/ˈrɪdʒ/"
+      },
+      {
+        "a": "lunch",
+        "b": "lunge",
+        "ipa_a": "/ˈlʌntʃ/",
+        "ipa_b": "/ˈlʌndʒ/"
+      },
+      {
+        "a": "search",
+        "b": "surge",
+        "ipa_a": "/ˈsɜrtʃ/",
+        "ipa_b": "/ˈsɜrdʒ/"
+      },
+      {
+        "a": "perch",
+        "b": "purge",
+        "ipa_a": "/ˈpɜrtʃ/",
+        "ipa_b": "/ˈpɜrdʒ/"
+      },
+      {
+        "a": "larch",
+        "b": "large",
+        "ipa_a": "/ˈlɑrtʃ/",
+        "ipa_b": "/ˈlɑrdʒ/"
+      },
+      {
+        "a": "etch",
+        "b": "edge",
+        "ipa_a": "/ˈɛtʃ/",
+        "ipa_b": "/ˈɛdʒ/"
+      },
+      {
+        "a": "riches",
+        "b": "ridges",
+        "ipa_a": "/ˈrɪtʃəz/",
+        "ipa_b": "/ˈrɪdʒəz/"
+      },
+      {
+        "a": "cinch",
+        "b": "singe",
+        "ipa_a": "/ˈsɪntʃ/",
+        "ipa_b": "/ˈsɪndʒ/"
+      },
+      {
+        "a": "chump",
+        "b": "jump",
+        "ipa_a": "/ˈtʃʌmp/",
+        "ipa_b": "/ˈdʒʌmp/"
+      },
+      {
+        "a": "chock",
+        "b": "jock",
+        "ipa_a": "/ˈtʃɑk/",
+        "ipa_b": "/ˈdʒɑk/"
+      }
+    ],
+    "note": "Just under 20. Most remaining candidates are given names (Jane, Jerry, Jill, Madge) or transliterated surnames, which would test spelling knowledge rather than hearing."
+  },
+  {
+    "contrast": "r_l",
+    "label": "/r/ – /l/",
+    "kind": "consonant",
+    "example": "right – light",
+    "ipa_symbols": [
+      "r",
+      "l"
+    ],
+    "pairs": [
+      {
+        "a": "right",
+        "b": "light",
+        "ipa_a": "/ˈraɪt/",
+        "ipa_b": "/ˈlaɪt/"
+      },
+      {
+        "a": "road",
+        "b": "load",
+        "ipa_a": "/ˈroʊd/",
+        "ipa_b": "/ˈloʊd/"
+      },
+      {
+        "a": "rock",
+        "b": "lock",
+        "ipa_a": "/ˈrɑk/",
+        "ipa_b": "/ˈlɑk/"
+      },
+      {
+        "a": "red",
+        "b": "led",
+        "ipa_a": "/ˈrɛd/",
+        "ipa_b": "/ˈlɛd/"
+      },
+      {
+        "a": "rice",
+        "b": "lice",
+        "ipa_a": "/ˈraɪs/",
+        "ipa_b": "/ˈlaɪs/"
+      },
+      {
+        "a": "rip",
+        "b": "lip",
+        "ipa_a": "/ˈrɪp/",
+        "ipa_b": "/ˈlɪp/"
+      },
+      {
+        "a": "race",
+        "b": "lace",
+        "ipa_a": "/ˈreɪs/",
+        "ipa_b": "/ˈleɪs/"
+      },
+      {
+        "a": "rate",
+        "b": "late",
+        "ipa_a": "/ˈreɪt/",
+        "ipa_b": "/ˈleɪt/"
+      },
+      {
+        "a": "rain",
+        "b": "lane",
+        "ipa_a": "/ˈreɪn/",
+        "ipa_b": "/ˈleɪn/"
+      },
+      {
+        "a": "row",
+        "b": "low",
+        "ipa_a": "/ˈroʊ/",
+        "ipa_b": "/ˈloʊ/"
+      },
+      {
+        "a": "rush",
+        "b": "lush",
+        "ipa_a": "/ˈrʌʃ/",
+        "ipa_b": "/ˈlʌʃ/"
+      },
+      {
+        "a": "ram",
+        "b": "lamb",
+        "ipa_a": "/ˈræm/",
+        "ipa_b": "/ˈlæm/"
+      },
+      {
+        "a": "rack",
+        "b": "lack",
+        "ipa_a": "/ˈræk/",
+        "ipa_b": "/ˈlæk/"
+      },
+      {
+        "a": "rap",
+        "b": "lap",
+        "ipa_a": "/ˈræp/",
+        "ipa_b": "/ˈlæp/"
+      },
+      {
+        "a": "rag",
+        "b": "lag",
+        "ipa_a": "/ˈræɡ/",
+        "ipa_b": "/ˈlæɡ/"
+      },
+      {
+        "a": "rid",
+        "b": "lid",
+        "ipa_a": "/ˈrɪd/",
+        "ipa_b": "/ˈlɪd/"
+      },
+      {
+        "a": "rift",
+        "b": "lift",
+        "ipa_a": "/ˈrɪft/",
+        "ipa_b": "/ˈlɪft/"
+      },
+      {
+        "a": "room",
+        "b": "loom",
+        "ipa_a": "/ˈruːm/",
+        "ipa_b": "/ˈluːm/"
+      },
+      {
+        "a": "root",
+        "b": "loot",
+        "ipa_a": "/ˈruːt/",
+        "ipa_b": "/ˈluːt/"
+      },
+      {
+        "a": "rust",
+        "b": "lust",
+        "ipa_a": "/ˈrʌst/",
+        "ipa_b": "/ˈlʌst/"
+      },
+      {
+        "a": "wrong",
+        "b": "long",
+        "ipa_a": "/ˈrɔŋ/",
+        "ipa_b": "/ˈlɔŋ/"
+      },
+      {
+        "a": "reef",
+        "b": "leaf",
+        "ipa_a": "/ˈriːf/",
+        "ipa_b": "/ˈliːf/"
+      },
+      {
+        "a": "reap",
+        "b": "leap",
+        "ipa_a": "/ˈriːp/",
+        "ipa_b": "/ˈliːp/"
+      },
+      {
+        "a": "ride",
+        "b": "lied",
+        "ipa_a": "/ˈraɪd/",
+        "ipa_b": "/ˈlaɪd/"
+      },
+      {
+        "a": "rye",
+        "b": "lie",
+        "ipa_a": "/ˈraɪ/",
+        "ipa_b": "/ˈlaɪ/"
+      },
+      {
+        "a": "rest",
+        "b": "lest",
+        "ipa_a": "/ˈrɛst/",
+        "ipa_b": "/ˈlɛst/"
+      },
+      {
+        "a": "rung",
+        "b": "lung",
+        "ipa_a": "/ˈrʌŋ/",
+        "ipa_b": "/ˈlʌŋ/"
+      },
+      {
+        "a": "rob",
+        "b": "lob",
+        "ipa_a": "/ˈrɑb/",
+        "ipa_b": "/ˈlɑb/"
+      },
+      {
+        "a": "rot",
+        "b": "lot",
+        "ipa_a": "/ˈrɑt/",
+        "ipa_b": "/ˈlɑt/"
+      },
+      {
+        "a": "raid",
+        "b": "laid",
+        "ipa_a": "/ˈreɪd/",
+        "ipa_b": "/ˈleɪd/"
+      },
+      {
+        "a": "rake",
+        "b": "lake",
+        "ipa_a": "/ˈreɪk/",
+        "ipa_b": "/ˈleɪk/"
+      },
+      {
+        "a": "ramp",
+        "b": "lamp",
+        "ipa_a": "/ˈræmp/",
+        "ipa_b": "/ˈlæmp/"
+      },
+      {
+        "a": "rash",
+        "b": "lash",
+        "ipa_a": "/ˈræʃ/",
+        "ipa_b": "/ˈlæʃ/"
+      },
+      {
+        "a": "pray",
+        "b": "play",
+        "ipa_a": "/ˈpreɪ/",
+        "ipa_b": "/ˈpleɪ/"
+      },
+      {
+        "a": "crowd",
+        "b": "cloud",
+        "ipa_a": "/ˈkraʊd/",
+        "ipa_b": "/ˈklaʊd/"
+      },
+      {
+        "a": "crash",
+        "b": "clash",
+        "ipa_a": "/ˈkræʃ/",
+        "ipa_b": "/ˈklæʃ/"
+      },
+      {
+        "a": "grass",
+        "b": "glass",
+        "ipa_a": "/ˈɡræs/",
+        "ipa_b": "/ˈɡlæs/"
+      },
+      {
+        "a": "brush",
+        "b": "blush",
+        "ipa_a": "/ˈbrʌʃ/",
+        "ipa_b": "/ˈblʌʃ/"
+      },
+      {
+        "a": "crown",
+        "b": "clown",
+        "ipa_a": "/ˈkraʊn/",
+        "ipa_b": "/ˈklaʊn/"
+      },
+      {
+        "a": "fry",
+        "b": "fly",
+        "ipa_a": "/ˈfraɪ/",
+        "ipa_b": "/ˈflaɪ/"
+      },
+      {
+        "a": "free",
+        "b": "flee",
+        "ipa_a": "/ˈfriː/",
+        "ipa_b": "/ˈfliː/"
+      },
+      {
+        "a": "frame",
+        "b": "flame",
+        "ipa_a": "/ˈfreɪm/",
+        "ipa_b": "/ˈfleɪm/"
+      },
+      {
+        "a": "grow",
+        "b": "glow",
+        "ipa_a": "/ˈɡroʊ/",
+        "ipa_b": "/ˈɡloʊ/"
+      },
+      {
+        "a": "bread",
+        "b": "bled",
+        "ipa_a": "/ˈbrɛd/",
+        "ipa_b": "/ˈblɛd/"
+      },
+      {
+        "a": "crime",
+        "b": "climb",
+        "ipa_a": "/ˈkraɪm/",
+        "ipa_b": "/ˈklaɪm/"
+      },
+      {
+        "a": "fresh",
+        "b": "flesh",
+        "ipa_a": "/ˈfrɛʃ/",
+        "ipa_b": "/ˈflɛʃ/"
+      },
+      {
+        "a": "fright",
+        "b": "flight",
+        "ipa_a": "/ˈfraɪt/",
+        "ipa_b": "/ˈflaɪt/"
+      },
+      {
+        "a": "broom",
+        "b": "bloom",
+        "ipa_a": "/ˈbruːm/",
+        "ipa_b": "/ˈbluːm/"
+      },
+      {
+        "a": "brand",
+        "b": "bland",
+        "ipa_a": "/ˈbrænd/",
+        "ipa_b": "/ˈblænd/"
+      },
+      {
+        "a": "brew",
+        "b": "blue",
+        "ipa_a": "/ˈbruː/",
+        "ipa_b": "/ˈbluː/"
+      },
+      {
+        "a": "cram",
+        "b": "clam",
+        "ipa_a": "/ˈkræm/",
+        "ipa_b": "/ˈklæm/"
+      },
+      {
+        "a": "berry",
+        "b": "belly",
+        "ipa_a": "/ˈbɛriː/",
+        "ipa_b": "/ˈbɛliː/"
+      },
+      {
+        "a": "grammar",
+        "b": "glamour",
+        "ipa_a": "/ˈɡræmər/",
+        "ipa_b": "/ˈɡlæmər/"
+      },
+      {
+        "a": "pirate",
+        "b": "pilot",
+        "ipa_a": "/ˈpaɪrət/",
+        "ipa_b": "/ˈpaɪlət/"
+      }
+    ]
+  }
+]

@@ -42,7 +42,8 @@
       "examples": [
         {
           "en": "What is your current address?",
-          "vi": "Địa chỉ hiện tại của bạn là gì?"
+          "vi": "Địa chỉ hiện tại của bạn là gì?",
+          "image_url": "https://images.pexels.com/photos/7755384/pexels-photo-7755384.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "I'm happy with my current job, so I'm not looking for another.",
@@ -102,7 +103,8 @@
         },
         {
           "en": "The police found new evidence in the house.",
-          "vi": "Cảnh sát đã tìm thấy chứng cứ mới trong ngôi nhà."
+          "vi": "Cảnh sát đã tìm thấy chứng cứ mới trong ngôi nhà.",
+          "image_url": "https://images.pexels.com/photos/10464436/pexels-photo-10464436.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Can you give any evidence to support your idea?",
@@ -161,7 +163,8 @@
         },
         {
           "en": "We had a similar problem at work last year.",
-          "vi": "Năm ngoái ở chỗ làm chúng tôi cũng gặp một vấn đề tương tự."
+          "vi": "Năm ngoái ở chỗ làm chúng tôi cũng gặp một vấn đề tương tự.",
+          "image_url": "https://images.pexels.com/photos/7640830/pexels-photo-7640830.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
       ],
       "collocations": [
@@ -256,7 +259,14 @@
       ],
       "notes": null,
       "ipa": "/faɪn/",
-      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fin/fine_/fine__us_1.mp3"
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fin/fine_/fine__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/36343662/pexels-photo-36343662.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Jonathan Borba",
+        "author_url": "https://www.pexels.com/@jonathanborba",
+        "source_url": "https://www.pexels.com/photo/close-up-of-fresh-ground-coffee-texture-36343662/"
+      }
     },
     {
       "english": "street",
@@ -293,7 +303,8 @@
       "examples": [
         {
           "en": "I ran into my former teacher at the supermarket.",
-          "vi": "Tôi tình cờ gặp thầy giáo cũ ở siêu thị."
+          "vi": "Tôi tình cờ gặp thầy giáo cũ ở siêu thị.",
+          "image_url": "https://images.pexels.com/photos/35358813/pexels-photo-35358813.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Her former boss wrote her a great reference letter.",
@@ -353,7 +364,8 @@
         },
         {
           "en": "The roads are particularly busy on Friday evenings.",
-          "vi": "Đường sá đặc biệt đông vào các tối thứ Sáu."
+          "vi": "Đường sá đặc biệt đông vào các tối thứ Sáu.",
+          "image_url": "https://images.pexels.com/photos/30503670/pexels-photo-30503670.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "I'm not particularly hungry, so I'll just have tea.",
@@ -411,7 +423,8 @@
         },
         {
           "en": "My brother is good at team sports like basketball.",
-          "vi": "Anh tôi giỏi các môn thể thao đồng đội như bóng rổ."
+          "vi": "Anh tôi giỏi các môn thể thao đồng đội như bóng rổ.",
+          "image_url": "https://images.pexels.com/photos/10397633/pexels-photo-10397633.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
       ],
       "collocations": [
@@ -505,7 +518,14 @@
       ],
       "notes": "in response to: để đáp lại",
       "ipa": "/rɪˈspɑːns/",
-      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/respo/response__us_4.mp3"
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/respo/response__us_4.mp3",
+      "image_url": "https://images.pexels.com/photos/19835562/pexels-photo-19835562.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "author_url": "https://www.pexels.com/@markus-winkler-1430818",
+        "source_url": "https://www.pexels.com/photo/the-word-tone-policing-on-wooden-blocks-19835562/"
+      }
     },
     {
       "english": "voice",
@@ -542,7 +562,8 @@
       "examples": [
         {
           "en": "Can I have another piece of cake, please?",
-          "vi": "Cho tôi thêm một miếng bánh nữa được không?"
+          "vi": "Cho tôi thêm một miếng bánh nữa được không?",
+          "image_url": "https://images.pexels.com/photos/38473403/pexels-photo-38473403.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "Write your name on a piece of paper.",
@@ -602,7 +623,8 @@
         },
         {
           "en": "Suppose you won a lot of money, what would you buy?",
-          "vi": "Giả sử bạn trúng được nhiều tiền, bạn sẽ mua gì?"
+          "vi": "Giả sử bạn trúng được nhiều tiền, bạn sẽ mua gì?",
+          "image_url": "https://images.pexels.com/photos/36764844/pexels-photo-36764844.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "You're supposed to wear a helmet on a motorbike.",
@@ -657,7 +679,8 @@
         },
         {
           "en": "The company president gave a speech at the party.",
-          "vi": "Chủ tịch công ty đã phát biểu tại bữa tiệc."
+          "vi": "Chủ tịch công ty đã phát biểu tại bữa tiệc.",
+          "image_url": "https://images.pexels.com/photos/6172597/pexels-photo-6172597.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         },
         {
           "en": "In some countries, the president lives in a large official house.",
@@ -716,7 +739,8 @@
         },
         {
           "en": "Compared to last year, this winter has been quite warm.",
-          "vi": "So với năm ngoái, mùa đông năm nay khá ấm."
+          "vi": "So với năm ngoái, mùa đông năm nay khá ấm.",
+          "image_url": "https://images.pexels.com/photos/19664683/pexels-photo-19664683.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
         }
       ],
       "collocations": [
@@ -811,7 +835,14 @@
       ],
       "notes": "Mỹ: store · Anh: shop",
       "ipa": "/stɔːr/",
-      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sto/store/store__us_1.mp3"
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sto/store/store__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/13203129/pexels-photo-13203129.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Roman I Terron Flores",
+        "author_url": "https://www.pexels.com/@roman-i-terron-flores-291936532",
+        "source_url": "https://www.pexels.com/photo/elderly-couple-inside-a-mall-13203129/"
+      }
     }
   ]
 }

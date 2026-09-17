@@ -1,0 +1,112 @@
+-- Ngân hàng câu cho bài nghe chép chính tả (nghe-06, nghe-07) và bấm từ được
+-- nhấn (nghe-08). Soạn bởi agent theo src/doc/roadmap-question-authoring.md,
+-- kiểm mù bởi 2 phiên khác model (Sonnet, Fable): 90 câu x 2 phiên, 0 chỗ lệch
+-- đáp án. Câu nội dung mơ hồ đã bị bỏ (dropped trong file nguồn).
+--
+-- key_json theo mode: targets = chỉ số từ chức năng · links = cặp chỉ số chỗ
+-- nối · stress = chỉ số từ được nhấn. Chỉ số tính trên text.split(/\s+/) đã
+-- bỏ dấu câu đầu cuối.
+--
+-- Sinh bởi scripts/gen-dictation-seed.mjs. Nội dung dùng chung, không user_id.
+
+CREATE TABLE IF NOT EXISTS dictation_sentences (
+  id TEXT PRIMARY KEY,
+  item_key TEXT NOT NULL,
+  batch INTEGER NOT NULL DEFAULT 1,
+  text TEXT NOT NULL,
+  key_json TEXT NOT NULL,
+  note_vi TEXT
+);
+
+CREATE INDEX IF NOT EXISTS idx_dictation_sentences_item ON dictation_sentences(item_key);
+
+INSERT INTO dictation_sentences (id, item_key, batch, text, key_json, note_vi) VALUES
+  ('nghe-06-001', 'nghe-06', 1, 'My sister has been waiting for the bus since early morning.', '[2,3,5,6]', 'has been nối thành /əz bɪn/, for the đọc lướt thành /fə ðə/ nên rất dễ bị nuốt mất.'),
+  ('nghe-06-002', 'nghe-06', 1, 'A cup of tea and a piece of cake, please.', '[0,2,4,5,7]', 'of chỉ còn /ə/ dính vào từ trước, and a nối thành /ən ə/ nghe như một âm.'),
+  ('nghe-06-003', 'nghe-06', 1, 'Our family has lived in this town for a long time.', '[2,7,8]', 'has trợ động từ chỉ còn /əz/, for a nối thành /fərə/ nghe như một tiếng.'),
+  ('nghe-06-004', 'nghe-06', 1, 'He was tired after the long journey from the coast.', '[1,4,7,8]', 'was đọc yếu thành /wəz/, from the lướt thành /frəm ðə/ gần như không nghe rõ nguyên âm.'),
+  ('nghe-06-005', 'nghe-06', 1, 'The price of fruit has gone up a lot this year.', '[0,2,4,7]', 'of fruit chỉ còn /əv/, has gone thành /əz/, up a nối liền thành /ʌpə/.'),
+  ('nghe-06-006', 'nghe-06', 1, 'I would like to buy some bread and a bottle of milk.', '[3,5,7,8,10]', 'to /tə/, some /səm/, and a /ən ə/ và of /əv/ đều đọc yếu nên câu nghe như chỉ có các từ nội dung.'),
+  ('nghe-06-007', 'nghe-06', 1, 'My brother is taller than most of the boys in his class.', '[4,6,7]', 'than đọc yếu thành /ðən/, of the nối thành /əv ðə/ rất nhanh.'),
+  ('nghe-06-008', 'nghe-06', 1, 'They told me that the class had been moved to another room.', '[3,4,6,7,9]', 'that the lướt thành /ðət ðə/, had been chỉ còn /əd bɪn/, to another nối liền.'),
+  ('nghe-06-009', 'nghe-06', 1, 'You can find the keys at the back of the drawer.', '[1,3,5,6,8,9]', 'can đọc yếu /kən/, at the và of the đều lướt thành /ət ðə/, /əv ðə/.'),
+  ('nghe-06-010', 'nghe-06', 1, 'The children were playing in the garden for an hour.', '[0,2,5,7,8]', 'were đọc yếu /wə/, for an nối thành /fərən/ nghe như một từ.'),
+  ('nghe-06-011', 'nghe-06', 1, 'It is important to drink a glass of water after exercise.', '[3,5,7]', 'to /tə/ và a /ə/ bị nuốt giữa các từ nội dung, of water lướt thành /ə ˈwɔːtə/.'),
+  ('nghe-06-012', 'nghe-06', 1, 'Some of the students have already finished the test.', '[1,2,4,7]', 'of the lướt thành /əv ðə/, have already nối thành /əv ɔːlˈredi/; Some ở đây đọc mạnh nên không tính.'),
+  ('nghe-06-013', 'nghe-06', 1, 'The shop was closed, so we went to the market instead.', '[0,2,7,8]', 'was đọc yếu /wəz/, went to the nối liền thành /wentə ðə/.'),
+  ('nghe-06-014', 'nghe-06', 1, 'This phone was cheaper than the one at the other shop.', '[2,4,5,7,8]', 'than the lướt thành /ðən ðə/, at the other nối thành /ət ði ʌðə/.'),
+  ('nghe-06-015', 'nghe-06', 1, 'My father has been to the dentist twice this month.', '[2,3,4,5]', 'has been to the đọc liền thành /əz bɪn tə ðə/, bốn từ gần như dính thành một cụm.'),
+  ('nghe-06-016', 'nghe-06', 1, 'The kids were hoping for a sunny day at the beach.', '[0,2,4,5,8,9]', 'were /wə/, for a /fərə/, at the /ət ðə/ đều đọc yếu và nối vào từ bên cạnh.'),
+  ('nghe-06-017', 'nghe-06', 1, 'The number of people who work from home has increased.', '[0,2,6,8]', 'of people chỉ còn /ə/, from đọc yếu /frəm/, has increased nối thành /əz ɪnˈkriːst/.'),
+  ('nghe-06-019', 'nghe-06', 1, 'I have to finish this report by the end of the week.', '[2,7,9,10]', 'to đọc yếu /tə/, the end of the nối thành /ði end əv ðə/ rất nhanh.'),
+  ('nghe-06-020', 'nghe-06', 1, 'A friend of mine can speak several languages.', '[0,2,4]', 'A đầu câu chỉ còn /ə/, of mine lướt thành /əv/, can trước động từ đọc yếu /kən/.'),
+  ('nghe-06-022', 'nghe-06', 1, 'Could you pass me the salt and a glass of water?', '[4,6,7,9]', 'and a nối thành /ən ə/, of water chỉ còn /ə/ nên dễ nghe thành glass water.'),
+  ('nghe-06-023', 'nghe-06', 1, 'There were a few problems with the new computer system.', '[1,2,6]', 'were a nối thành /wərə/ nghe như một tiếng, the đọc lướt /ðə/.'),
+  ('nghe-06-024', 'nghe-06', 1, 'Students need to hand in their essays at the start of class.', '[2,7,8,10]', 'need to nối thành /niːtə/, at the /ət ðə/ và of /əv/ đọc rất nhẹ.'),
+  ('nghe-06-026', 'nghe-06', 1, 'I bought some flowers for my mother at the market.', '[2,4,7,8]', 'some trước danh từ đọc yếu /səm/, for /fə/ và at the /ət ðə/ lướt rất nhanh.'),
+  ('nghe-06-027', 'nghe-06', 1, 'The library has been closed for repairs since the summer.', '[0,2,3,5,8]', 'has been chỉ còn /əz bɪn/, for repairs lướt thành /fə rɪˈpeəz/.'),
+  ('nghe-06-028', 'nghe-06', 1, 'A lot of workers were sent home because of the rain.', '[0,2,4,8,9]', 'A lot of nối thành /ə lɒtə/, were đọc yếu /wə/, because of the lướt thành /əv ðə/.'),
+  ('nghe-06-030', 'nghe-06', 1, 'Her parents had saved some money for a trip to the mountains.', '[2,4,6,7,9,10]', 'had sau parents chỉ còn /əd/, some /səm/, for a /fərə/, to the /tə ðə/ đều bị nuốt.'),
+  ('nghe-07-001', 'nghe-07', 1, 'Can you pick it up for me?', '[[2,3],[3,4]]', 'pick it up nghe liền thành /pɪkɪtʌp/'),
+  ('nghe-07-002', 'nghe-07', 1, 'She put on an old coat.', '[[1,2],[2,3],[3,4]]', 'put on an old nối liền: /pʊtɒnənoʊld/'),
+  ('nghe-07-004', 'nghe-07', 1, 'Look at it and tell me what you think.', '[[0,1],[1,2],[2,3]]', 'look at it and nối liền: /lʊkətɪtən/, ''and'' thường đọc nhẹ'),
+  ('nghe-07-005', 'nghe-07', 1, 'I am not at all tired this evening.', '[[2,3],[3,4],[6,7]]', 'not at all nghe thành /nɒtətɔːl/; this evening nối /s/ sang /iː/'),
+  ('nghe-07-006', 'nghe-07', 1, 'He gets up early every morning.', '[[1,2],[2,3]]', 'gets up early nghe liền: /ɡetsʌpɜːli/'),
+  ('nghe-07-007', 'nghe-07', 1, 'Fill in all of these forms, please.', '[[0,1],[1,2],[2,3]]', 'fill in all of nối liền: /fɪlɪnɔːləv/'),
+  ('nghe-07-008', 'nghe-07', 1, 'Take off your shoes and come in.', '[[0,1],[3,4],[5,6]]', 'take off, shoes and, come in đều nối phụ âm cuối sang nguyên âm'),
+  ('nghe-07-009', 'nghe-07', 1, 'My son asked us for a glass of water.', '[[2,3],[6,7]]', 'asked us nghe như /ɑːsktəs/; glass of nghe như /ɡlɑːsəv/'),
+  ('nghe-07-010', 'nghe-07', 1, 'Can I have a look at your phone?', '[[0,1],[2,3],[4,5]]', 'can I, have a, look at: /kənaɪ/, /hævə/, /lʊkət/'),
+  ('nghe-07-011', 'nghe-07', 1, 'They cleaned up and went out again.', '[[1,2],[2,3],[4,5],[5,6]]', 'cleaned up and went out again nối thành chuỗi: /kliːndʌpən wentaʊtəɡen/'),
+  ('nghe-07-012', 'nghe-07', 1, 'Is anyone at home this afternoon?', '[[0,1],[1,2],[4,5]]', 'is anyone at nối liền: /ɪzeniwʌnət/; this afternoon nối /s/ sang /ɑː/'),
+  ('nghe-07-013', 'nghe-07', 1, 'Keep an eye on my bag, please.', '[[0,1],[1,2]]', 'keep an eye nghe như /kiːpənaɪ/ — dễ nghe nhầm thành ''keep a nigh'''),
+  ('nghe-07-014', 'nghe-07', 1, 'I think this plan is a good idea.', '[[3,4],[4,5],[6,7]]', 'plan is a nối: /plænɪzə/; good idea nối /d/ sang /aɪ/'),
+  ('nghe-07-015', 'nghe-07', 1, 'We ran out of milk again.', '[[1,2],[2,3],[4,5]]', 'ran out of nghe liền: /rænaʊtəv/; milk again nối /k/ sang /ə/'),
+  ('nghe-07-016', 'nghe-07', 1, 'Hold on a second, I need my keys.', '[[0,1],[1,2]]', 'hold on a nghe liền: /hoʊldɒnə/'),
+  ('nghe-07-017', 'nghe-07', 1, 'Stand up and open your books.', '[[0,1],[1,2],[2,3]]', 'stand up and open nối liền: /stændʌpənoʊpən/'),
+  ('nghe-07-018', 'nghe-07', 1, 'Could you help us move this old sofa?', '[[2,3],[5,6]]', 'help us nối /p/ sang /ʌ/; this old nối /s/ sang /oʊ/'),
+  ('nghe-07-019', 'nghe-07', 1, 'She dropped it on the kitchen floor.', '[[1,2],[2,3]]', 'dropped it on nghe liền: /drɒptɪtɒn/'),
+  ('nghe-07-020', 'nghe-07', 1, 'Put all of your things in a box.', '[[0,1],[1,2],[4,5],[5,6]]', 'put all of nối: /pʊtɔːləv/; things in a nối: /θɪŋzɪnə/'),
+  ('nghe-07-021', 'nghe-07', 1, 'We had eggs and bread for breakfast.', '[[1,2],[2,3]]', 'had eggs and nghe liền: /hædeɡzən/'),
+  ('nghe-07-022', 'nghe-07', 1, 'Turn left at the end of the road.', '[[1,2],[4,5]]', 'left at nối /t/ sang /ə/; end of nghe như /endəv/'),
+  ('nghe-07-023', 'nghe-07', 1, 'My friend lives in a small apartment.', '[[2,3],[3,4],[5,6]]', 'lives in a nối: /lɪvzɪnə/; small apartment nối /l/ sang /ə/'),
+  ('nghe-07-024', 'nghe-07', 1, 'Think about it before you answer.', '[[0,1],[1,2]]', 'think about it nghe liền: /θɪŋkəbaʊtɪt/'),
+  ('nghe-07-025', 'nghe-07', 1, 'The bus came on time as usual.', '[[2,3],[4,5]]', 'came on nối /m/ sang /ɒ/; time as nối /m/ sang /ə/'),
+  ('nghe-07-026', 'nghe-07', 1, 'Wash your hands and sit at the table.', '[[2,3],[4,5]]', 'hands and nối /z/ sang /ə/; sit at nghe như /sɪtət/'),
+  ('nghe-07-027', 'nghe-07', 1, 'Watch out, the big dog is angry.', '[[0,1],[4,5],[5,6]]', 'watch out nối /tʃ/ sang /aʊ/; dog is angry nối: /dɒɡɪzæŋɡri/'),
+  ('nghe-07-028', 'nghe-07', 1, 'Hang up your coat and come inside.', '[[0,1],[3,4],[5,6]]', 'hang up nối /ŋ/ sang /ʌ/; coat and, come inside cũng nối liền'),
+  ('nghe-07-029', 'nghe-07', 1, 'Most of us walk to work every day.', '[[0,1],[1,2],[5,6]]', 'most of us nghe liền: /moʊstəvʌs/; work every nối /k/ sang /e/'),
+  ('nghe-07-030', 'nghe-07', 1, 'Leave it in the fridge until tomorrow.', '[[0,1],[1,2],[4,5]]', 'leave it in nối: /liːvɪtɪn/; fridge until nối /dʒ/ sang /ə/'),
+  ('nghe-08-001', 'nghe-08', 1, 'My sister cooked a delicious dinner yesterday.', '[1,2,4,5,6]', 'Danh từ, động từ, tính từ, trạng từ thời gian (sister, cooked, delicious, dinner, yesterday) được nhấn; my và a lướt.'),
+  ('nghe-08-002', 'nghe-08', 1, 'The children played in the park.', '[1,2,5]', 'Chỉ children, played, park được nhấn; the và giới từ in đọc nhẹ.'),
+  ('nghe-08-003', 'nghe-08', 1, 'Where did you leave your keys?', '[0,3,5]', 'Từ để hỏi where, động từ chính leave và danh từ keys được nhấn; trợ động từ did, đại từ you, your lướt.'),
+  ('nghe-08-004', 'nghe-08', 1, 'He drinks a glass of cold milk.', '[1,3,5,6]', 'drinks, glass, cold, milk được nhấn; he, a, of đọc nhẹ.'),
+  ('nghe-08-005', 'nghe-08', 1, 'We walked slowly to the old bridge.', '[1,2,5,6]', 'Động từ walked, trạng từ slowly, tính từ old, danh từ bridge được nhấn; we, to, the lướt.'),
+  ('nghe-08-006', 'nghe-08', 1, 'Why did the teacher close the window?', '[0,3,4,6]', 'why, teacher, close, window được nhấn; did và hai mạo từ the đọc nhẹ.'),
+  ('nghe-08-007', 'nghe-08', 1, 'They sold their house and moved to the city.', '[1,3,5,8]', 'sold, house, moved, city được nhấn; they, their, and, to, the lướt.'),
+  ('nghe-08-008', 'nghe-08', 1, 'The doctor gave my mother useful advice.', '[1,2,4,5,6]', 'doctor, gave, mother, useful, advice được nhấn; the và my đọc nhẹ.'),
+  ('nghe-08-009', 'nghe-08', 1, 'When does the new library open?', '[0,3,4,5]', 'when, new, library, open được nhấn; trợ động từ does và the lướt.'),
+  ('nghe-08-010', 'nghe-08', 1, 'The waiter brought us two cups of tea.', '[1,2,4,5,7]', 'waiter, brought, số two, cups, tea được nhấn; the, us, of đọc nhẹ.'),
+  ('nghe-08-011', 'nghe-08', 1, 'She wrote a long letter to her grandmother.', '[1,3,4,7]', 'wrote, long, letter, grandmother được nhấn; she, a, to, her lướt.'),
+  ('nghe-08-012', 'nghe-08', 1, 'My brother works at a small hospital.', '[1,2,5,6]', 'brother, works, small, hospital được nhấn; my, at, a đọc nhẹ.'),
+  ('nghe-08-013', 'nghe-08', 1, 'How did your grandfather learn to swim?', '[0,3,4,6]', 'how, grandfather, learn, swim được nhấn; did, your, to lướt.'),
+  ('nghe-08-014', 'nghe-08', 1, 'The weather was cold and windy.', '[1,3,5]', 'weather, cold, windy được nhấn; was (động từ nối), the và and đọc nhẹ.'),
+  ('nghe-08-015', 'nghe-08', 1, 'He lost his wallet on the crowded train.', '[1,3,6,7]', 'lost, wallet, crowded, train được nhấn; he, his, on, the lướt.'),
+  ('nghe-08-016', 'nghe-08', 1, 'Who painted the beautiful picture in the hall?', '[0,1,3,4,7]', 'who, painted, beautiful, picture, hall được nhấn; the và in đọc nhẹ.'),
+  ('nghe-08-017', 'nghe-08', 1, 'We are planning a trip to the mountains.', '[2,4,7]', 'planning, trip, mountains được nhấn; we, trợ động từ are, a, to, the lướt.'),
+  ('nghe-08-018', 'nghe-08', 1, 'The students finished their project early.', '[1,2,4,5]', 'students, finished, project, early được nhấn; the và their đọc nhẹ.'),
+  ('nghe-08-020', 'nghe-08', 1, 'What did your friend cook for dinner?', '[0,3,4,6]', 'what, friend, cook, dinner được nhấn; did, your, for lướt.'),
+  ('nghe-08-021', 'nghe-08', 1, 'The young boy fell and hurt his knee.', '[1,2,3,5,7]', 'young, boy, fell, hurt, knee được nhấn; the, and, his đọc nhẹ.'),
+  ('nghe-08-022', 'nghe-08', 1, 'My aunt sings beautifully in the evening.', '[1,2,3,6]', 'aunt, sings, beautifully, evening được nhấn; my, in, the lướt.'),
+  ('nghe-08-023', 'nghe-08', 1, 'They waited for the bus in the rain.', '[1,4,7]', 'Chỉ waited, bus, rain được nhấn; they, for, in và hai the đọc nhẹ.'),
+  ('nghe-08-024', 'nghe-08', 1, 'The bakery closes early in winter.', '[1,2,3,5]', 'bakery, closes, early, winter được nhấn; the và in lướt.'),
+  ('nghe-08-025', 'nghe-08', 1, 'I found an interesting book at the library.', '[1,3,4,7]', 'found, interesting, book, library được nhấn; I, an, at, the đọc nhẹ.'),
+  ('nghe-08-026', 'nghe-08', 1, 'Where can we buy fresh vegetables?', '[0,3,4,5]', 'where, buy, fresh, vegetables được nhấn; động từ khuyết thiếu can và we lướt.'),
+  ('nghe-08-027', 'nghe-08', 1, 'The nurse washed her hands carefully.', '[1,2,4,5]', 'nurse, washed, hands, carefully được nhấn; the và her đọc nhẹ.'),
+  ('nghe-08-028', 'nghe-08', 1, 'My cousin repaired the broken chair yesterday.', '[1,2,4,5,6]', 'cousin, repaired, broken, chair, yesterday được nhấn; my và the lướt.'),
+  ('nghe-08-029', 'nghe-08', 1, 'My father never drinks coffee at night.', '[1,2,3,4,6]', 'Từ phủ định never được nhấn cùng father, drinks, coffee, night; my và at đọc nhẹ.'),
+  ('nghe-08-030', 'nghe-08', 1, 'Who washed the dirty plates yesterday?', '[0,1,3,4,5]', 'who, washed, dirty, plates, yesterday được nhấn; chỉ the đọc nhẹ.');
+
+INSERT INTO roadmap_item_tests (item_key, tool, list_code, config_json) VALUES
+  ('nghe-06', 'T3', NULL, '{"mode":"targets","sample":10}'),
+  ('nghe-07', 'T3', NULL, '{"mode":"links","sample":10}'),
+  ('nghe-08', 'T3S', NULL, '{"mode":"stress","sample":10}');
