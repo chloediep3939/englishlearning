@@ -75,7 +75,7 @@ export default function SoundMinimalPairs({ slug }: { slug: string }) {
           textDecoration: 'none',
         }}
       >
-        Luyện nghe phân biệt (nghe & chọn) <ArrowRight size={14} />
+        Luyện các cặp âm khác <ArrowRight size={14} />
       </Link>
     </div>
   );

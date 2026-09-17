@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useState } from 'react';
+import { useCallback, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Check, Mic } from 'lucide-react';
 import type { Sound } from '@/lib/pronunciation/catalog-meta';
@@ -152,8 +152,8 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
           alignItems: 'start',
         }}
       >
-        {/* LEFT — reference */}
-        <div>
+        {/* LEFT — Học tập */}
+        <GroupCard title="Học tập" color="var(--v-orange)">
           <SectionCard title={`Ví dụ (${sound.examples.length} từ)`} color="var(--v-blue)">
             <ExampleWordList examples={sound.examples} />
           </SectionCard>
@@ -163,10 +163,10 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
               <SoundMinimalPairs slug={sound.slug} />
             </SectionCard>
           )}
-        </div>
+        </GroupCard>
 
-        {/* RIGHT — practice */}
-        <div>
+        {/* RIGHT — Luyện tập */}
+        <GroupCard title="Luyện tập" color="var(--v-primary)">
           <SectionCard title="Đọc & nghe lại giọng mình" color="var(--v-primary)">
             <ReadScorePanel sound={sound} />
           </SectionCard>
@@ -180,7 +180,7 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
           <SectionCard title="Nghe người bản xứ (YouGlish)" color="var(--v-pink)">
             <YouglishWidget initialQuery={sound.examples[0]?.word ?? ''} examples={sound.examples} />
           </SectionCard>
-        </div>
+        </GroupCard>
       </div>
 
       <div style={{ textAlign: 'center', margin: '18px 0 8px' }}>
@@ -204,6 +204,36 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
           <Mic size={15} style={{ color: 'var(--v-red)' }} /> Luyện phát âm từ flashcards của bạn →
         </Link>
       </div>
+    </div>
+  );
+}
+
+/** A big titled container that groups the section cards of one column. */
+function GroupCard({ title, color, children }: { title: string; color: string; children: ReactNode }) {
+  return (
+    <div
+      style={{
+        background: 'var(--v-bg)',
+        border: '1px solid var(--v-border)',
+        borderRadius: 'var(--v-radius-lg)',
+        padding: 14,
+      }}
+    >
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+        <span style={{ width: 12, height: 12, borderRadius: 4, background: color, display: 'inline-block' }} />
+        <h2
+          style={{
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 900,
+            fontSize: 'var(--v-text-lg)',
+            color: 'var(--v-ink)',
+            margin: 0,
+          }}
+        >
+          {title}
+        </h2>
+      </div>
+      {children}
     </div>
   );
 }
