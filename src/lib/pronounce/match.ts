@@ -58,3 +58,42 @@ export function isMatch(transcripts: string[], target: string): boolean {
     return targetWords.every((tw) => altWords.some((aw) => wordMatches(aw, tw)));
   });
 }
+
+/**
+ * Normalized similarity in [0, 1] between two strings (1 = identical after
+ * `normalize`). Built on the same Levenshtein distance used for matching, so
+ * the read-aloud score stays consistent with `isMatch`.
+ */
+export function similarity(a: string, b: string): number {
+  const x = normalize(a);
+  const y = normalize(b);
+  if (!x && !y) return 1;
+  const maxLen = Math.max(x.length, y.length);
+  if (maxLen === 0) return 0;
+  return 1 - levenshtein(x, y) / maxLen;
+}
+
+/**
+ * Honest 0..100 "match score" for a read-aloud attempt.
+ *
+ * IMPORTANT: this is NOT a phoneme / native-accent accuracy score. The Web
+ * Speech API only returns a transcript plus a coarse confidence, so we score
+ * how closely what the recognizer HEARD matches the target word, blended with
+ * the recognizer's own confidence. The UI must label it as a recognition/match
+ * score, never as "chuẩn giọng bản xứ".
+ *
+ *   score = round( 100 * (0.7 * bestSim + 0.3 * conf) )
+ *     bestSim = max similarity(target, alt) across the (up to 3) alternatives
+ *     conf    = confidence when it's a usable (> 0) number, else bestSim —
+ *               many browsers report confidence as 0, so we fall back there.
+ */
+export function scoreReading(
+  transcripts: string[],
+  confidence: number | undefined,
+  target: string,
+): number {
+  const sims = transcripts.map((t) => similarity(t, target));
+  const bestSim = sims.length > 0 ? Math.max(0, ...sims) : 0;
+  const conf = typeof confidence === 'number' && confidence > 0 ? confidence : bestSim;
+  return Math.round(100 * (0.7 * bestSim + 0.3 * conf));
+}

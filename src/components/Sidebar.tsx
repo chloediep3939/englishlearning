@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import {
   LayoutGrid, BookOpen, Zap, FileText,
   Library, Folder, BarChart3, Settings, Mic, PenLine, BookOpenText, Newspaper,
-  ScrollText, NotebookPen, PanelLeftClose, PanelLeftOpen, Map,
+  ScrollText, NotebookPen, PanelLeftClose, PanelLeftOpen, Map, AudioLines,
 } from 'lucide-react';
 import LogoutButton from './LogoutButton';
 import FeedbackWidget from './feedback/feedback-widget';
@@ -33,6 +33,7 @@ const NAV: NavItem[] = [
   { href: '/speed',      label: 'Flashcard nhanh', icon: Zap,        color: 'var(--v-yellow-deep)' },
   { href: '/cloze',      label: 'Điền chỗ trống',  icon: FileText,   color: 'var(--v-teal)' },
   { href: '/pronounce',  label: 'Luyện đọc',       icon: Mic,        color: 'var(--v-red)' },
+  { href: '/pronunciation', label: 'Phát âm',      icon: AudioLines, color: 'var(--v-purple)' },
   { href: '/sentence',   label: 'Đặt câu',         icon: PenLine,    color: 'var(--v-orange)' },
   { href: '/compose',    label: 'Viết bài',        icon: BookOpenText, color: 'var(--v-blue)' },
   { href: '/passage',    label: 'Bài đọc',         icon: Newspaper,  color: 'var(--v-teal)' },

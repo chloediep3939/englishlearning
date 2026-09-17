@@ -1593,3 +1593,98 @@ export const feedbackDb = {
     }));
   },
 };
+
+// ============================================================================
+// Pronunciation progress ("Phát âm" module)
+// ============================================================================
+// Per-user progress over the STATIC 44-sound catalog in src/lib/pronunciation/.
+// The catalog (sounds, words, tips, videos) is not in D1 — only progress is.
+// Rows are created lazily on first interaction (upsert), same as sentence_drills.
+
+export interface PronunciationProgressRow {
+  sound_slug: string;
+  completed: boolean;
+  best_score: number | null;
+  attempts: number;
+}
+
+function hydratePronunciationProgress(
+  row: Record<string, unknown>,
+): PronunciationProgressRow {
+  return {
+    sound_slug: row.sound_slug as string,
+    completed: Number(row.completed) === 1,
+    best_score: row.best_score == null ? null : Number(row.best_score),
+    attempts: Number(row.attempts),
+  };
+}
+
+export const pronunciationProgressDb = {
+  /** All progress rows for a user, keyed by nothing — caller builds its own map. */
+  async getAll(userId: number): Promise<PronunciationProgressRow[]> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `SELECT sound_slug, completed, best_score, attempts
+         FROM pronunciation_progress WHERE user_id = ?`,
+      )
+      .bind(userId)
+      .all<Record<string, unknown>>();
+    return result.results.map(hydratePronunciationProgress);
+  },
+
+  async getBySlug(
+    userId: number,
+    slug: string,
+  ): Promise<PronunciationProgressRow | null> {
+    const db = await getDb();
+    const row = await db
+      .prepare(
+        `SELECT sound_slug, completed, best_score, attempts
+         FROM pronunciation_progress WHERE user_id = ? AND sound_slug = ?`,
+      )
+      .bind(userId, slug)
+      .first<Record<string, unknown>>();
+    return row ? hydratePronunciationProgress(row) : null;
+  },
+
+  /** Toggle "đã học xong" for one sound (lazy upsert). */
+  async markCompleted(
+    userId: number,
+    slug: string,
+    completed: boolean,
+  ): Promise<void> {
+    const db = await getDb();
+    const now = new Date().toISOString().replace('T', ' ').slice(0, 19);
+    await db
+      .prepare(
+        `INSERT INTO pronunciation_progress
+           (user_id, sound_slug, completed, completed_at, updated_at)
+         VALUES (?, ?, ?, ?, ?)
+         ON CONFLICT(user_id, sound_slug) DO UPDATE SET
+           completed = excluded.completed,
+           completed_at = excluded.completed_at,
+           updated_at = excluded.updated_at`,
+      )
+      .bind(userId, slug, completed ? 1 : 0, completed ? now : null, now)
+      .run();
+  },
+
+  /** Record one scored read: keep the best score, bump the attempt count. */
+  async recordScore(userId: number, slug: string, score: number): Promise<void> {
+    const db = await getDb();
+    const now = new Date().toISOString().replace('T', ' ').slice(0, 19);
+    await db
+      .prepare(
+        `INSERT INTO pronunciation_progress
+           (user_id, sound_slug, best_score, attempts, updated_at)
+         VALUES (?, ?, ?, 1, ?)
+         ON CONFLICT(user_id, sound_slug) DO UPDATE SET
+           best_score = MAX(COALESCE(pronunciation_progress.best_score, 0), excluded.best_score),
+           attempts = pronunciation_progress.attempts + 1,
+           updated_at = excluded.updated_at`,
+      )
+      .bind(userId, slug, score, now)
+      .run();
+  },
+};
