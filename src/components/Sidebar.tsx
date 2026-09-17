@@ -8,6 +8,7 @@ import {
   LayoutGrid, BookOpen, Zap, FileText,
   Library, Folder, BarChart3, Settings, Mic, PenLine, BookOpenText, Newspaper,
   ScrollText, NotebookPen, PanelLeftClose, PanelLeftOpen, Map, AudioLines,
+  ChevronDown, ChevronRight,
 } from 'lucide-react';
 import LogoutButton from './LogoutButton';
 import FeedbackWidget from './feedback/feedback-widget';
@@ -72,6 +73,7 @@ interface Props {
 }
 
 const STORAGE_KEY = 'sidebar_collapsed';
+const GROUPS_STORAGE_KEY = 'sidebar_closed_groups';
 
 export default function Sidebar({ userEmail, userName, userPicture, isDemo = false }: Props) {
   const pathname = usePathname();
@@ -79,16 +81,32 @@ export default function Sidebar({ userEmail, userName, userPicture, isDemo = fal
   // Defer rendering of the avatar/name block until we've read localStorage
   // so SSR + initial paint match — no flash of the wrong width.
   const [hydrated, setHydrated] = useState(false);
+  // Which titled nav groups are collapsed. Absent = open (default).
+  const [closedGroups, setClosedGroups] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw === '1') setCollapsed(true);
+      const g = localStorage.getItem(GROUPS_STORAGE_KEY);
+      if (g) setClosedGroups(JSON.parse(g) as Record<string, boolean>);
     } catch {
       /* ignore */
     }
     setHydrated(true);
   }, []);
+
+  function toggleGroup(title: string) {
+    setClosedGroups((prev) => {
+      const next = { ...prev, [title]: !prev[title] };
+      try {
+        localStorage.setItem(GROUPS_STORAGE_KEY, JSON.stringify(next));
+      } catch {
+        /* ignore */
+      }
+      return next;
+    });
+  }
 
   function toggle() {
     const next = !collapsed;
@@ -155,26 +173,35 @@ export default function Sidebar({ userEmail, userName, userPicture, isDemo = fal
       <nav style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
         {NAV_GROUPS.map((group, gi) => (
           <div key={group.title ?? `group-${gi}`} style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-            {group.title && (
-              !collapsed ? (
-                <div
-                  style={{
-                    padding: gi === 0 ? '0 10px 6px' : '12px 10px 6px',
-                    fontFamily: 'var(--v-font-body)',
-                    fontSize: 10,
-                    fontWeight: 800,
-                    letterSpacing: 'var(--v-tracking-wider)',
-                    textTransform: 'uppercase',
-                    color: 'var(--v-muted)',
-                  }}
-                >
-                  {group.title}
-                </div>
-              ) : (
-                <div style={{ height: 1, background: 'var(--v-border)', margin: '6px 10px' }} />
-              )
+            {group.title && !collapsed && (
+              <button
+                type="button"
+                onClick={() => toggleGroup(group.title!)}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  width: '100%',
+                  padding: gi === 0 ? '0 10px 6px' : '12px 10px 6px',
+                  background: 'transparent',
+                  border: 'none',
+                  cursor: 'pointer',
+                  fontFamily: 'var(--v-font-body)',
+                  fontSize: 10,
+                  fontWeight: 800,
+                  letterSpacing: 'var(--v-tracking-wider)',
+                  textTransform: 'uppercase',
+                  color: 'var(--v-muted)',
+                }}
+              >
+                <span>{group.title}</span>
+                {closedGroups[group.title] ? <ChevronRight size={12} /> : <ChevronDown size={12} />}
+              </button>
             )}
-            {group.items.map((item) => {
+            {group.title && collapsed && (
+              <div style={{ height: 1, background: 'var(--v-border)', margin: '6px 10px' }} />
+            )}
+            {(collapsed || !group.title || !closedGroups[group.title]) && group.items.map((item) => {
               const Icon = item.icon;
               // Segment-boundary prefix match ("/sentence" must NOT light up on
               // "/sentence-study" — only on "/sentence" and "/sentence/...").

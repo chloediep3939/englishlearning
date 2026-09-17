@@ -9,9 +9,9 @@ import type { ExampleWord } from '@/lib/pronunciation/catalog-meta';
  *
  * Behaviour: the widget does NOT load or play on mount — it only loads the
  * script, builds the player and fetches AFTER the user clicks "Tìm" (or a chip).
- * `components: 29` = search(1) + title(4) + caption(8) + controls/speed(16) so
- * the full control bar (prev / next / speed) shows. Per YouGlish ToS the
- * "Powered by YouGlish" branding must stay visible.
+ * `components: 93` = search(1) + title(4) + caption(8) + speed(16) + control
+ * buttons(64) so the full control bar (play / prev / next / speed) shows. Per
+ * YouGlish ToS the "Powered by YouGlish" branding must stay visible.
  */
 const SCRIPT_ID = 'yg-widget-script';
 const SCRIPT_SRC = 'https://youglish.com/public/emb/widget.js';
@@ -46,7 +46,7 @@ export default function YouglishWidget({
           try {
             widgetRef.current = new window.YG.Widget(widgetId, {
               width: 640,
-              components: 29,
+              components: 93,
               events: {
                 onFetchDone: () => setStatus('ready'),
                 onError: () => setStatus('error'),

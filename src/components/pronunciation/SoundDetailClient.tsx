@@ -138,21 +138,36 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
         <SoundVideoPanel sound={sound} />
       </SectionCard>
 
-      <SectionCard title="Mẹo đọc & so với tiếng Việt" color="var(--v-orange)">
-        <TipsPanel sound={sound} />
-      </SectionCard>
+      {/* Two columns on wide screens; stacks on narrow. Left = practice
+          (read/record + YouGlish), right = reference (tips + examples). */}
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
+          gap: 16,
+          alignItems: 'start',
+        }}
+      >
+        <div>
+          <SectionCard title="Đọc & nghe lại giọng mình" color="var(--v-primary)">
+            <ReadScorePanel sound={sound} />
+          </SectionCard>
 
-      <SectionCard title={`Ví dụ (${sound.examples.length} từ)`} color="var(--v-blue)">
-        <ExampleWordList examples={sound.examples} />
-      </SectionCard>
+          <SectionCard title="Nghe người bản xứ (YouGlish)" color="var(--v-pink)">
+            <YouglishWidget initialQuery={sound.examples[0]?.word ?? ''} examples={sound.examples} />
+          </SectionCard>
+        </div>
 
-      <SectionCard title="Đọc & nghe lại giọng mình" color="var(--v-primary)">
-        <ReadScorePanel sound={sound} />
-      </SectionCard>
+        <div>
+          <SectionCard title="Mẹo đọc & so với tiếng Việt" color="var(--v-orange)">
+            <TipsPanel sound={sound} />
+          </SectionCard>
 
-      <SectionCard title="Nghe người bản xứ (YouGlish)" color="var(--v-pink)">
-        <YouglishWidget initialQuery={sound.examples[0]?.word ?? ''} examples={sound.examples} />
-      </SectionCard>
+          <SectionCard title={`Ví dụ (${sound.examples.length} từ)`} color="var(--v-blue)">
+            <ExampleWordList examples={sound.examples} />
+          </SectionCard>
+        </div>
+      </div>
 
       <div style={{ textAlign: 'center', margin: '18px 0 8px' }}>
         <Link

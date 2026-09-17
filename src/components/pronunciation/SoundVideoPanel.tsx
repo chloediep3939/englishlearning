@@ -22,7 +22,7 @@ export default function SoundVideoPanel({ sound }: { sound: Sound }) {
         {mouthError ? (
           <div
             style={{
-              aspectRatio: '4 / 3',
+              aspectRatio: '16 / 9',
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
@@ -51,7 +51,7 @@ export default function SoundVideoPanel({ sound }: { sound: Sound }) {
             onError={() => setMouthError(true)}
             style={{
               width: '100%',
-              aspectRatio: '4 / 3',
+              aspectRatio: '16 / 9',
               objectFit: 'cover',
               background: '#000',
               borderRadius: 'var(--v-radius-md)',
