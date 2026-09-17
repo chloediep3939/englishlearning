@@ -1,27 +1,22 @@
 'use client';
 
 import { useCallback, useEffect, useId, useRef, useState } from 'react';
-import { Search, ExternalLink } from 'lucide-react';
+import { Search, ExternalLink, Headphones } from 'lucide-react';
 import type { ExampleWord } from '@/lib/pronunciation/catalog-meta';
 
 /**
- * Embeds the official YouGlish widget (JS API) so the learner can hear native
- * speakers say a word / phrase in real videos, inside our app.
+ * Embeds the official YouGlish widget (JS API). Docs: /api/doc/js-api.
  *
- * Integration per https://youglish.com/api/doc/js-api :
- *   1. Inject <script async src="https://youglish.com/public/emb/widget.js">.
- *   2. Define the GLOBAL window.onYouglishAPIReady — the script calls it once
- *      window.YG is available.
- *   3. `new YG.Widget(<container id STRING>, { width, components, events })`,
- *      then `widget.fetch(query, 'english')`.
- *
- * The constructor takes the container's id STRING (not the DOM element). Per
- * YouGlish ToS the widget's "Powered by YouGlish" branding must stay visible.
+ * Behaviour: the widget does NOT load or play on mount — it only loads the
+ * script, builds the player and fetches AFTER the user clicks "Tìm" (or a chip).
+ * `components: 29` = search(1) + title(4) + caption(8) + controls/speed(16) so
+ * the full control bar (prev / next / speed) shows. Per YouGlish ToS the
+ * "Powered by YouGlish" branding must stay visible.
  */
 const SCRIPT_ID = 'yg-widget-script';
 const SCRIPT_SRC = 'https://youglish.com/public/emb/widget.js';
 
-type Status = 'loading' | 'ready' | 'error';
+type Status = 'idle' | 'loading' | 'ready' | 'error';
 
 export default function YouglishWidget({
   initialQuery,
@@ -33,78 +28,88 @@ export default function YouglishWidget({
   const rawId = useId();
   const widgetId = `yg-${rawId.replace(/[^a-zA-Z0-9]/g, '')}`;
 
-  const [query, setQuery] = useState(initialQuery);
+  const [query, setQuery] = useState('');
   const [input, setInput] = useState(initialQuery);
-  const [status, setStatus] = useState<Status>('loading');
+  const [status, setStatus] = useState<Status>('idle'); // idle until first search
 
   const widgetRef = useRef<YouglishWidgetInstance | null>(null);
-  const queryRef = useRef(initialQuery);
-  useEffect(() => { queryRef.current = query; }, [query]);
+  const queryRef = useRef('');
 
   const chips = examples.slice(0, 6);
 
-  useEffect(() => {
-    let cancelled = false;
+  // Lazy-build the widget on first search, then run `cb` (the fetch).
+  const ensureWidget = useCallback(
+    (cb: () => void) => {
+      const build = () => {
+        if (!window.YG || !document.getElementById(widgetId)) return;
+        if (!widgetRef.current) {
+          try {
+            widgetRef.current = new window.YG.Widget(widgetId, {
+              width: 640,
+              components: 29,
+              events: {
+                onFetchDone: () => setStatus('ready'),
+                onError: () => setStatus('error'),
+              },
+            });
+          } catch {
+            setStatus('error');
+            return;
+          }
+        }
+        cb();
+      };
 
-    const construct = () => {
-      if (cancelled || widgetRef.current || !window.YG) return;
-      try {
-        widgetRef.current = new window.YG.Widget(widgetId, {
-          width: 640,
-          components: 9, // search box + caption; keeps the default branding
-          events: {
-            onFetchDone: () => { if (!cancelled) setStatus('ready'); },
-            onError: () => { if (!cancelled) setStatus('error'); },
-          },
-        });
-        widgetRef.current.fetch(queryRef.current || 'hello', 'english');
-        // The player renders synchronously; don't wait only on onFetchDone.
-        if (!cancelled) setStatus((s) => (s === 'loading' ? 'ready' : s));
-      } catch {
-        if (!cancelled) setStatus('error');
+      if (window.YG) {
+        build();
+        return;
       }
-    };
+      const prev = window.onYouglishAPIReady;
+      window.onYouglishAPIReady = () => {
+        prev?.();
+        build();
+      };
+      if (!document.getElementById(SCRIPT_ID)) {
+        const s = document.createElement('script');
+        s.id = SCRIPT_ID;
+        s.src = SCRIPT_SRC;
+        s.async = true;
+        s.onerror = () => setStatus('error');
+        document.body.appendChild(s);
+      }
+    },
+    [widgetId],
+  );
 
-    // Chain the global callback so we don't clobber another widget's handler.
-    const prev = window.onYouglishAPIReady;
-    window.onYouglishAPIReady = () => {
-      prev?.();
-      construct();
-    };
-
-    if (window.YG) {
-      construct();
-    } else if (!document.getElementById(SCRIPT_ID)) {
-      const s = document.createElement('script');
-      s.id = SCRIPT_ID;
-      s.src = SCRIPT_SRC;
-      s.async = true;
-      s.onerror = () => { if (!cancelled) setStatus('error'); };
-      document.body.appendChild(s);
-    }
-
-    // Safety net: if nothing loaded after 8s, show the fallback link.
+  // Safety net once a search is in flight: fall back to a link if it stalls.
+  useEffect(() => {
+    if (status !== 'loading') return;
     const t = setTimeout(() => {
-      if (!cancelled && !widgetRef.current) setStatus('error');
-    }, 8000);
+      setStatus((s) => (s === 'loading' && !widgetRef.current ? 'error' : s));
+    }, 9000);
+    return () => clearTimeout(t);
+  }, [status]);
 
-    return () => {
-      cancelled = true;
-      window.onYouglishAPIReady = prev;
-      clearTimeout(t);
-    };
-  }, [widgetId]);
+  const doFetch = useCallback(
+    (q: string) => {
+      const text = q.trim();
+      if (!text) return;
+      setQuery(text);
+      setInput(text);
+      queryRef.current = text;
+      setStatus('loading');
+      ensureWidget(() => {
+        try {
+          widgetRef.current?.fetch(text, 'english');
+        } catch {
+          setStatus('error');
+        }
+      });
+    },
+    [ensureWidget],
+  );
 
-  const doFetch = useCallback((q: string) => {
-    const text = q.trim();
-    if (!text) return;
-    setQuery(text);
-    setInput(text);
-    queryRef.current = text;
-    if (widgetRef.current) {
-      try { widgetRef.current.fetch(text, 'english'); } catch {/* noop */}
-    }
-  }, []);
+  const started = status !== 'idle';
 
   return (
     <div>
@@ -171,8 +176,40 @@ export default function YouglishWidget({
         ))}
       </div>
 
-      {/* YouGlish injects its player iframe into this container (by id string). */}
-      <div id={widgetId} style={{ minHeight: 200, borderRadius: 'var(--v-radius-md)', overflow: 'hidden' }} />
+      {/* Placeholder before the first search — nothing loads/plays until then. */}
+      {!started && (
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 8,
+            minHeight: 160,
+            background: 'var(--v-panel)',
+            border: '1px dashed var(--v-border)',
+            borderRadius: 'var(--v-radius-md)',
+            color: 'var(--v-muted)',
+            textAlign: 'center',
+            padding: 16,
+            fontSize: 'var(--v-text-sm)',
+          }}
+        >
+          <Headphones size={22} />
+          Nhập từ/câu rồi bấm <b style={{ color: 'var(--v-pink)' }}>Tìm</b> để nghe người bản xứ đọc.
+        </div>
+      )}
+
+      {/* YouGlish injects its player iframe here (by id string). Kept mounted so
+          the container exists when we build the widget on first search. */}
+      <div
+        id={widgetId}
+        style={{
+          minHeight: started ? 200 : 0,
+          borderRadius: 'var(--v-radius-md)',
+          overflow: 'hidden',
+        }}
+      />
 
       {status === 'loading' && (
         <p style={{ margin: '8px 0 0', color: 'var(--v-muted)', fontSize: 'var(--v-text-sm)' }}>

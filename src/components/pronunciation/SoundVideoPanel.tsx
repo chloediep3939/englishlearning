@@ -1,37 +1,24 @@
 'use client';
 
 import { useState } from 'react';
-import { Play, ExternalLink, Film } from 'lucide-react';
+import { ExternalLink, Film } from 'lucide-react';
 import type { Sound } from '@/lib/pronunciation/catalog-meta';
 import { PLAYLIST_URL } from '@/lib/pronunciation/catalog-meta';
 
 export default function SoundVideoPanel({ sound }: { sound: Sound }) {
-  const [showVideo, setShowVideo] = useState(false);
   const [mouthError, setMouthError] = useState(false);
 
   return (
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
         gap: 14,
       }}
     >
-      {/* Mouth-shape clip */}
+      {/* Mouth-shape clip — paused on entry (no autoplay); user presses play. */}
       <div>
-        <div
-          style={{
-            fontFamily: 'var(--v-font-head)',
-            fontSize: 'var(--v-text-xs)',
-            fontWeight: 800,
-            color: 'var(--v-muted)',
-            textTransform: 'uppercase',
-            letterSpacing: 'var(--v-tracking-wide)',
-            marginBottom: 6,
-          }}
-        >
-          Khẩu hình
-        </div>
+        <div style={labelStyle}>Khẩu hình</div>
         {mouthError ? (
           <div
             style={{
@@ -59,8 +46,8 @@ export default function SoundVideoPanel({ sound }: { sound: Sound }) {
             muted
             loop
             playsInline
-            autoPlay
             controls
+            preload="metadata"
             onError={() => setMouthError(true)}
             style={{
               width: '100%',
@@ -74,27 +61,14 @@ export default function SoundVideoPanel({ sound }: { sound: Sound }) {
         )}
       </div>
 
-      {/* BBC YouTube lesson */}
+      {/* BBC YouTube lesson — embedded by default, PAUSED (no autoplay). */}
       <div>
-        <div
-          style={{
-            fontFamily: 'var(--v-font-head)',
-            fontSize: 'var(--v-text-xs)',
-            fontWeight: 800,
-            color: 'var(--v-muted)',
-            textTransform: 'uppercase',
-            letterSpacing: 'var(--v-tracking-wide)',
-            marginBottom: 6,
-          }}
-        >
-          Video BBC
-        </div>
-
-        {sound.youtubeId && showVideo ? (
+        <div style={labelStyle}>Video BBC</div>
+        {sound.youtubeId ? (
           <iframe
-            src={`https://www.youtube-nocookie.com/embed/${sound.youtubeId}?autoplay=1&rel=0`}
+            src={`https://www.youtube-nocookie.com/embed/${sound.youtubeId}?rel=0`}
             title={`BBC — âm /${sound.ipa}/`}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             style={{
               width: '100%',
@@ -103,44 +77,6 @@ export default function SoundVideoPanel({ sound }: { sound: Sound }) {
               borderRadius: 'var(--v-radius-md)',
             }}
           />
-        ) : sound.youtubeId ? (
-          <button
-            type="button"
-            onClick={() => setShowVideo(true)}
-            style={{
-              width: '100%',
-              aspectRatio: '16 / 9',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: 8,
-              background: 'var(--v-panel)',
-              border: '1px solid var(--v-border)',
-              borderRadius: 'var(--v-radius-md)',
-              cursor: 'pointer',
-              color: 'var(--v-ink-soft)',
-              fontFamily: 'var(--v-font-head)',
-              fontWeight: 800,
-              fontSize: 'var(--v-text-sm)',
-            }}
-          >
-            <span
-              style={{
-                width: 48,
-                height: 48,
-                borderRadius: '50%',
-                background: 'var(--v-red)',
-                color: '#fff',
-                display: 'inline-flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <Play size={22} fill="#fff" />
-            </span>
-            Xem video BBC
-          </button>
         ) : (
           <a
             href={PLAYLIST_URL}
@@ -167,10 +103,20 @@ export default function SoundVideoPanel({ sound }: { sound: Sound }) {
             }}
           >
             <ExternalLink size={22} />
-            Mở playlist BBC "Sounds of English"
+            Mở playlist BBC &quot;Sounds of English&quot;
           </a>
         )}
       </div>
     </div>
   );
 }
+
+const labelStyle: React.CSSProperties = {
+  fontFamily: 'var(--v-font-head)',
+  fontSize: 'var(--v-text-xs)',
+  fontWeight: 800,
+  color: 'var(--v-muted)',
+  textTransform: 'uppercase',
+  letterSpacing: 'var(--v-tracking-wide)',
+  marginBottom: 6,
+};

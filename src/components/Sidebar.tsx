@@ -19,28 +19,49 @@ interface NavItem {
   color: string;
 }
 
-const NAV: NavItem[] = [
-  { href: '/dashboard',  label: 'Tổng quan',       icon: LayoutGrid, color: 'var(--v-primary)' },
-  { href: '/roadmap',    label: 'Lộ trình',        icon: Map,        color: 'var(--v-blue)' },
-  { href: '/decks',      label: 'Bộ từ',           icon: Folder,     color: 'var(--v-pink)' },
-  // "Thêm từ" (/add) removed from the nav per user request — the route stays
-  // reachable from deck detail's "+ Thêm từ" button.
-  // study-unified: Học + Ôn tập merged into the single /study flow.
-  { href: '/study',      label: 'Học từ',          icon: BookOpen,   color: 'var(--v-orange)' },
-  { href: '/sentence-study', label: 'Học câu',     icon: NotebookPen, color: 'var(--v-teal)' },
-  // Speed tile uses yellow-deep so the white icon stays readable on the pastel
-  // yellow used elsewhere; --v-yellow itself is reserved for speed surfaces.
-  { href: '/speed',      label: 'Flashcard nhanh', icon: Zap,        color: 'var(--v-yellow-deep)' },
-  { href: '/cloze',      label: 'Điền chỗ trống',  icon: FileText,   color: 'var(--v-teal)' },
-  { href: '/pronounce',  label: 'Luyện đọc',       icon: Mic,        color: 'var(--v-red)' },
-  { href: '/pronunciation', label: 'Phát âm',      icon: AudioLines, color: 'var(--v-purple)' },
-  { href: '/sentence',   label: 'Đặt câu',         icon: PenLine,    color: 'var(--v-orange)' },
-  { href: '/compose',    label: 'Viết bài',        icon: BookOpenText, color: 'var(--v-blue)' },
-  { href: '/passage',    label: 'Bài đọc',         icon: Newspaper,  color: 'var(--v-teal)' },
-  { href: '/templates',  label: 'Template PTE',    icon: ScrollText, color: 'var(--v-purple)' },
-  { href: '/dictionary', label: 'Từ điển',         icon: Library,    color: 'var(--v-purple)' },
-  { href: '/stats',      label: 'Thống kê',        icon: BarChart3,  color: 'var(--v-teal)' },
-  { href: '/settings',   label: 'Cài đặt',         icon: Settings,   color: 'var(--v-muted)' },
+interface NavGroup {
+  title?: string;
+  items: NavItem[];
+}
+
+// Grouped nav: "Học" (input / study) vs "Luyện tập" (practice / drills), with
+// overview + utility groups top and bottom.
+const NAV_GROUPS: NavGroup[] = [
+  {
+    items: [
+      { href: '/dashboard', label: 'Tổng quan', icon: LayoutGrid, color: 'var(--v-primary)' },
+      { href: '/roadmap',   label: 'Lộ trình',  icon: Map,        color: 'var(--v-blue)' },
+    ],
+  },
+  {
+    title: 'Học',
+    items: [
+      { href: '/decks',         label: 'Bộ từ',   icon: Folder,     color: 'var(--v-pink)' },
+      { href: '/study',         label: 'Học từ',  icon: BookOpen,   color: 'var(--v-orange)' },
+      { href: '/sentence-study', label: 'Học câu', icon: NotebookPen, color: 'var(--v-teal)' },
+      { href: '/pronunciation', label: 'Phát âm', icon: AudioLines, color: 'var(--v-purple)' },
+      { href: '/passage',       label: 'Bài đọc', icon: Newspaper,  color: 'var(--v-teal)' },
+      { href: '/dictionary',    label: 'Từ điển', icon: Library,    color: 'var(--v-purple)' },
+    ],
+  },
+  {
+    title: 'Luyện tập',
+    items: [
+      { href: '/speed',     label: 'Flashcard nhanh', icon: Zap,          color: 'var(--v-yellow-deep)' },
+      { href: '/cloze',     label: 'Điền chỗ trống',  icon: FileText,     color: 'var(--v-teal)' },
+      { href: '/pronounce', label: 'Luyện đọc',       icon: Mic,          color: 'var(--v-red)' },
+      { href: '/sentence',  label: 'Đặt câu',         icon: PenLine,      color: 'var(--v-orange)' },
+      { href: '/compose',   label: 'Viết bài',        icon: BookOpenText, color: 'var(--v-blue)' },
+      { href: '/templates', label: 'Template PTE',    icon: ScrollText,   color: 'var(--v-purple)' },
+    ],
+  },
+  {
+    title: 'Khác',
+    items: [
+      { href: '/stats',    label: 'Thống kê', icon: BarChart3, color: 'var(--v-teal)' },
+      { href: '/settings', label: 'Cài đặt',  icon: Settings,  color: 'var(--v-muted)' },
+    ],
+  },
 ];
 
 interface Props {
@@ -131,71 +152,78 @@ export default function Sidebar({ userEmail, userName, userPicture, isDemo = fal
         </button>
       </div>
 
-      {!collapsed && (
-        <div
-          style={{
-            padding: '0 10px 8px',
-            fontFamily: 'var(--v-font-body)',
-            fontSize: 10,
-            fontWeight: 800,
-            letterSpacing: 'var(--v-tracking-wider)',
-            textTransform: 'uppercase',
-            color: 'var(--v-muted)',
-          }}
-        >
-          Module
-        </div>
-      )}
-
       <nav style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-        {NAV.map((item) => {
-          const Icon = item.icon;
-          // Segment-boundary prefix match ("/sentence" must NOT light up on
-          // "/sentence-study" — only on "/sentence" and "/sentence/...").
-          const active =
-            pathname === item.href ||
-            (item.href !== '/' && pathname.startsWith(item.href + '/'));
-          return (
-            <Link
-              key={item.href}
-              href={item.href}
-              title={collapsed ? item.label : undefined}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: collapsed ? 0 : 10,
-                justifyContent: collapsed ? 'center' : 'flex-start',
-                padding: collapsed ? '8px 0' : '8px 10px',
-                borderRadius: 11,
-                background: active ? 'var(--v-surface)' : 'transparent',
-                boxShadow: active ? 'var(--v-shadow-sm)' : 'none',
-                color: 'var(--v-ink)',
-                fontFamily: 'var(--v-font-body)',
-                fontWeight: active ? 800 : 700,
-                fontSize: 13,
-                transition: 'background 120ms var(--v-ease)',
-                textDecoration: 'none',
-              }}
-            >
-              <div
-                style={{
-                  width: 26,
-                  height: 26,
-                  borderRadius: 8,
-                  background: item.color,
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  boxShadow: '0 1px 2px rgba(40,30,15,0.1)',
-                  flexShrink: 0,
-                }}
-              >
-                <Icon size={13} color="#fff" strokeWidth={2.4} />
-              </div>
-              {!collapsed && item.label}
-            </Link>
-          );
-        })}
+        {NAV_GROUPS.map((group, gi) => (
+          <div key={group.title ?? `group-${gi}`} style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+            {group.title && (
+              !collapsed ? (
+                <div
+                  style={{
+                    padding: gi === 0 ? '0 10px 6px' : '12px 10px 6px',
+                    fontFamily: 'var(--v-font-body)',
+                    fontSize: 10,
+                    fontWeight: 800,
+                    letterSpacing: 'var(--v-tracking-wider)',
+                    textTransform: 'uppercase',
+                    color: 'var(--v-muted)',
+                  }}
+                >
+                  {group.title}
+                </div>
+              ) : (
+                <div style={{ height: 1, background: 'var(--v-border)', margin: '6px 10px' }} />
+              )
+            )}
+            {group.items.map((item) => {
+              const Icon = item.icon;
+              // Segment-boundary prefix match ("/sentence" must NOT light up on
+              // "/sentence-study" — only on "/sentence" and "/sentence/...").
+              const active =
+                pathname === item.href ||
+                (item.href !== '/' && pathname.startsWith(item.href + '/'));
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  title={collapsed ? item.label : undefined}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: collapsed ? 0 : 10,
+                    justifyContent: collapsed ? 'center' : 'flex-start',
+                    padding: collapsed ? '8px 0' : '8px 10px',
+                    borderRadius: 11,
+                    background: active ? 'var(--v-surface)' : 'transparent',
+                    boxShadow: active ? 'var(--v-shadow-sm)' : 'none',
+                    color: 'var(--v-ink)',
+                    fontFamily: 'var(--v-font-body)',
+                    fontWeight: active ? 800 : 700,
+                    fontSize: 13,
+                    transition: 'background 120ms var(--v-ease)',
+                    textDecoration: 'none',
+                  }}
+                >
+                  <div
+                    style={{
+                      width: 26,
+                      height: 26,
+                      borderRadius: 8,
+                      background: item.color,
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      boxShadow: '0 1px 2px rgba(40,30,15,0.1)',
+                      flexShrink: 0,
+                    }}
+                  >
+                    <Icon size={13} color="#fff" strokeWidth={2.4} />
+                  </div>
+                  {!collapsed && item.label}
+                </Link>
+              );
+            })}
+          </div>
+        ))}
       </nav>
 
       {/* Feedback widget — sits between the module nav and the bottom-anchored

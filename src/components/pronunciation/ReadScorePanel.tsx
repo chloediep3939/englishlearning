@@ -1,128 +1,48 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Mic, Volume2, RefreshCw, Ear } from 'lucide-react';
-import Mascot from '@/components/common/Mascot';
+import { Volume2, Circle, Square, Play, RefreshCw } from 'lucide-react';
 import type { Sound } from '@/lib/pronunciation/catalog-meta';
-import { scoreReading } from '@/lib/pronounce/match';
 import { speakWord, getStoredVoicePreference, getStoredWordTtsRate } from '@/lib/tts';
 
-type Phase = 'ready' | 'listening' | 'result';
-
-interface ScoreResult {
-  score: number;
-  transcripts: string[];
-}
-
-function band(score: number): { label: string; color: string; pose: 'happy' | 'idle' } {
-  if (score >= 85) return { label: 'Tuyệt vời!', color: 'var(--v-primary)', pose: 'happy' };
-  if (score >= 70) return { label: 'Tốt!', color: 'var(--v-blue)', pose: 'happy' };
-  if (score >= 50) return { label: 'Ổn — thử lại cho khớp hơn nhé', color: 'var(--v-orange)', pose: 'idle' };
-  return { label: 'Chưa khớp — nghe mẫu rồi thử lại', color: 'var(--v-red)', pose: 'idle' };
-}
-
-export default function ReadScorePanel({
-  sound,
-  onScored,
-}: {
-  sound: Sound;
-  onScored: (score: number) => void;
-}) {
+/**
+ * Read a word, record your own voice, and play it back A/B against the model
+ * TTS. Recording stays in memory (blob URL, revoked on re-record / unmount) —
+ * NOTHING is uploaded or saved.
+ */
+export default function ReadScorePanel({ sound }: { sound: Sound }) {
   const [targetIdx, setTargetIdx] = useState(0);
-  const [phase, setPhase] = useState<Phase>('ready');
-  const [result, setResult] = useState<ScoreResult | null>(null);
+  const [recording, setRecording] = useState(false);
+  const [audioUrl, setAudioUrl] = useState<string | null>(null);
   const [unsupported, setUnsupported] = useState(false);
-  const [permissionDenied, setPermissionDenied] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const recorderRef = useRef<MediaRecorder | null>(null);
+  const chunksRef = useRef<Blob[]>([]);
+  const streamRef = useRef<MediaStream | null>(null);
+  const urlRef = useRef<string | null>(null);
+  const audioElRef = useRef<HTMLAudioElement | null>(null);
 
   const target = sound.examples[targetIdx] ?? sound.examples[0];
 
-  const recognitionRef = useRef<SpeechRecognition | null>(null);
-  const listenSafetyRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const targetRef = useRef(target?.word ?? '');
-  const onScoredRef = useRef(onScored);
-  useEffect(() => { targetRef.current = target?.word ?? ''; }, [target]);
-  useEffect(() => { onScoredRef.current = onScored; }, [onScored]);
-
-  // Init SpeechRecognition once (mirrors PronounceSession).
   useEffect(() => {
-    const Ctor =
-      (typeof window !== 'undefined' && (window.SpeechRecognition ?? window.webkitSpeechRecognition)) || null;
-    if (!Ctor) {
+    if (typeof window === 'undefined') return;
+    if (typeof MediaRecorder === 'undefined' || !navigator.mediaDevices?.getUserMedia) {
       setUnsupported(true);
-      return;
     }
-    const r = new Ctor();
-    r.lang = 'en-US';
-    r.interimResults = false;
-    r.maxAlternatives = 3;
-    r.continuous = false;
-
-    r.onresult = (event) => {
-      if (listenSafetyRef.current) {
-        clearTimeout(listenSafetyRef.current);
-        listenSafetyRef.current = null;
-      }
-      const res = event.results[0];
-      const alts: string[] = [];
-      for (let i = 0; i < res.length && i < 3; i++) alts.push(res[i].transcript);
-      const confidence = res[0]?.confidence;
-      const score = scoreReading(alts, confidence, targetRef.current);
-      setResult({ score, transcripts: alts });
-      setPhase('result');
-      onScoredRef.current(score);
-    };
-
-    r.onerror = (event) => {
-      if (event.error === 'not-allowed' || event.error === 'service-not-allowed') {
-        setPermissionDenied(true);
-      }
-      setPhase('ready');
-    };
-
-    r.onend = () => {
-      setPhase((p) => (p === 'listening' ? 'ready' : p));
-    };
-
-    recognitionRef.current = r;
-    return () => {
-      try { r.abort(); } catch {/* noop */}
-    };
   }, []);
 
-  // Listening safety timeout — if nothing fires within 5s, return to ready.
+  const cleanupStream = useCallback(() => {
+    streamRef.current?.getTracks().forEach((t) => t.stop());
+    streamRef.current = null;
+  }, []);
+
   useEffect(() => {
-    if (phase !== 'listening') return;
-    listenSafetyRef.current = setTimeout(() => {
-      try { recognitionRef.current?.abort(); } catch {/* noop */}
-      setPhase('ready');
-    }, 5000);
     return () => {
-      if (listenSafetyRef.current) {
-        clearTimeout(listenSafetyRef.current);
-        listenSafetyRef.current = null;
-      }
+      if (urlRef.current) URL.revokeObjectURL(urlRef.current);
+      cleanupStream();
     };
-  }, [phase]);
-
-  const startListening = useCallback(() => {
-    const r = recognitionRef.current;
-    if (!r) return;
-    setResult(null);
-    setPhase('listening');
-    try {
-      r.start();
-    } catch (err) {
-      const name = err instanceof DOMException ? err.name : '';
-      if (name === 'InvalidStateError') {
-        try { r.abort(); } catch {/* noop */}
-        window.setTimeout(() => {
-          try { r.start(); } catch { setPhase('ready'); }
-        }, 100);
-      } else {
-        setPhase('ready');
-      }
-    }
-  }, []);
+  }, [cleanupStream]);
 
   const playModel = useCallback(() => {
     void speakWord(target?.word ?? '', {
@@ -132,31 +52,51 @@ export default function ReadScorePanel({
     });
   }, [target]);
 
+  const startRecording = useCallback(async () => {
+    setError(null);
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      streamRef.current = stream;
+      chunksRef.current = [];
+      const rec = new MediaRecorder(stream);
+      rec.ondataavailable = (e) => { if (e.data.size > 0) chunksRef.current.push(e.data); };
+      rec.onstop = () => {
+        const blob = new Blob(chunksRef.current, { type: rec.mimeType || 'audio/webm' });
+        if (urlRef.current) URL.revokeObjectURL(urlRef.current);
+        const url = URL.createObjectURL(blob);
+        urlRef.current = url;
+        setAudioUrl(url);
+        cleanupStream();
+      };
+      recorderRef.current = rec;
+      rec.start();
+      setRecording(true);
+    } catch (err) {
+      const name = err instanceof DOMException ? err.name : '';
+      setError(
+        name === 'NotAllowedError'
+          ? 'Mình cần quyền micro. Hãy bật quyền trong trình duyệt rồi thử lại.'
+          : 'Không truy cập được micro. Thử lại nhé.',
+      );
+      cleanupStream();
+    }
+  }, [cleanupStream]);
+
+  const stopRecording = useCallback(() => {
+    try { recorderRef.current?.stop(); } catch {/* noop */}
+    setRecording(false);
+  }, []);
+
+  const playMine = useCallback(() => {
+    audioElRef.current?.play().catch(() => {});
+  }, []);
+
   const nextWord = useCallback(() => {
-    setResult(null);
-    setPhase('ready');
     setTargetIdx((i) => (i + 1) % Math.max(1, sound.examples.length));
   }, [sound.examples.length]);
 
-  if (unsupported) {
-    return (
-      <Banner>
-        Trình duyệt này chưa hỗ trợ chấm phát âm bằng micro. Hãy dùng Chrome, Edge hoặc Safari mới
-        nhất. Các phần khác (video, ví dụ, nghe mẫu) vẫn dùng bình thường nhé.
-      </Banner>
-    );
-  }
-
-  const b = result ? band(result.score) : null;
-
   return (
     <div>
-      {permissionDenied && (
-        <Banner>
-          Mình cần quyền micro để chấm. Hãy bật quyền micro trong trình duyệt rồi bấm lại.
-        </Banner>
-      )}
-
       {/* Target word */}
       <div style={{ textAlign: 'center', marginBottom: 12 }}>
         <div
@@ -174,113 +114,67 @@ export default function ReadScorePanel({
         </div>
       </div>
 
-      <div style={{ display: 'flex', gap: 8, justifyContent: 'center', flexWrap: 'wrap', marginBottom: 14 }}>
+      <p style={{ margin: '0 0 12px', color: 'var(--v-muted)', fontSize: 'var(--v-text-sm)', textAlign: 'center' }}>
+        Nghe mẫu → ghi âm giọng bạn → nghe lại để tự so. Ghi âm chỉ ở trên máy bạn, mình không lưu.
+      </p>
+
+      {error && (
+        <div
+          style={{
+            padding: '8px 12px',
+            background: 'rgba(255,87,87,0.08)',
+            border: '1px solid rgba(255,87,87,0.25)',
+            borderRadius: 'var(--v-radius-md)',
+            color: 'var(--v-red)',
+            fontSize: 'var(--v-text-sm)',
+            marginBottom: 10,
+          }}
+        >
+          {error}
+        </div>
+      )}
+
+      {unsupported && (
+        <div
+          style={{
+            padding: '8px 12px',
+            background: 'var(--v-panel)',
+            border: '1px solid var(--v-border)',
+            borderRadius: 'var(--v-radius-md)',
+            color: 'var(--v-muted)',
+            fontSize: 'var(--v-text-sm)',
+            marginBottom: 10,
+          }}
+        >
+          Trình duyệt này chưa hỗ trợ ghi âm. Bạn vẫn nghe mẫu được bình thường.
+        </div>
+      )}
+
+      <div style={{ display: 'flex', gap: 8, justifyContent: 'center', flexWrap: 'wrap' }}>
         <button type="button" onClick={playModel} style={btn('var(--v-blue)')}>
           <Volume2 size={16} /> Nghe mẫu
         </button>
-        <button
-          type="button"
-          onClick={startListening}
-          disabled={phase === 'listening'}
-          style={btn(phase === 'listening' ? 'var(--v-red)' : 'var(--v-primary)')}
-        >
-          <Mic size={16} /> {phase === 'listening' ? 'Đang nghe…' : 'Chấm điểm'}
+
+        {!recording ? (
+          <button type="button" onClick={startRecording} disabled={unsupported} style={{ ...btn('var(--v-red)'), opacity: unsupported ? 0.5 : 1 }}>
+            <Circle size={14} fill="#fff" /> Ghi âm
+          </button>
+        ) : (
+          <button type="button" onClick={stopRecording} style={btn('var(--v-ink)')}>
+            <Square size={14} fill="#fff" /> Dừng
+          </button>
+        )}
+
+        <button type="button" onClick={playMine} disabled={!audioUrl} style={{ ...btn('var(--v-teal)'), opacity: audioUrl ? 1 : 0.5 }}>
+          <Play size={15} /> Nghe lại
         </button>
+
         <button type="button" onClick={nextWord} style={btn('var(--v-surface)', true)}>
           <RefreshCw size={16} /> Từ khác
         </button>
       </div>
 
-      {/* Result */}
-      {phase === 'result' && result && b && (
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 16,
-            padding: 16,
-            background: 'var(--v-panel)',
-            border: `1px solid var(--v-border)`,
-            borderLeft: `4px solid ${b.color}`,
-            borderRadius: 'var(--v-radius-md)',
-          }}
-        >
-          <Mascot pose={b.pose} size={72} bob={b.pose === 'happy'} />
-          <div style={{ flex: 1 }}>
-            <div
-              style={{
-                fontFamily: 'var(--v-font-body)',
-                fontSize: 'var(--v-text-xs)',
-                fontWeight: 800,
-                color: 'var(--v-muted)',
-                textTransform: 'uppercase',
-                letterSpacing: 'var(--v-tracking-wider)',
-              }}
-            >
-              Điểm khớp
-            </div>
-            <div
-              style={{
-                fontFamily: 'var(--v-font-head)',
-                fontWeight: 900,
-                fontSize: 'var(--v-text-3xl)',
-                color: b.color,
-                lineHeight: 1.1,
-              }}
-            >
-              {result.score}
-              <span style={{ fontSize: 'var(--v-text-lg)', color: 'var(--v-muted)' }}>/100</span>
-            </div>
-            <div style={{ fontFamily: 'var(--v-font-head)', fontWeight: 800, color: 'var(--v-ink)' }}>
-              {b.label}
-            </div>
-            <div
-              style={{
-                marginTop: 6,
-                display: 'flex',
-                alignItems: 'center',
-                gap: 6,
-                color: 'var(--v-ink-soft)',
-                fontSize: 'var(--v-text-sm)',
-              }}
-            >
-              <Ear size={14} /> Máy nghe bạn nói ra:{' '}
-              <b style={{ color: 'var(--v-ink)' }}>“{result.transcripts[0] ?? '…'}”</b>
-            </div>
-          </div>
-        </div>
-      )}
-
-      <p
-        style={{
-          margin: '12px 0 0',
-          fontSize: 'var(--v-text-xs)',
-          color: 'var(--v-muted)',
-          lineHeight: 1.5,
-        }}
-      >
-        Đây là điểm máy nhận ra bạn nói giống từ mẫu tới đâu — <b>không phải</b> điểm giọng chuẩn bản
-        xứ. Web Speech API chỉ nghe được bạn nói từ nào, chưa chấm được từng âm.
-      </p>
-    </div>
-  );
-}
-
-function Banner({ children }: { children: React.ReactNode }) {
-  return (
-    <div
-      style={{
-        padding: '10px 14px',
-        background: 'rgba(255,87,87,0.08)',
-        border: '1px solid rgba(255,87,87,0.25)',
-        borderRadius: 'var(--v-radius-md)',
-        color: 'var(--v-red)',
-        fontSize: 'var(--v-text-sm)',
-        marginBottom: 12,
-        lineHeight: 1.5,
-      }}
-    >
-      {children}
+      <audio ref={audioElRef} src={audioUrl ?? undefined} preload="auto" />
     </div>
   );
 }

@@ -10,7 +10,6 @@ import SoundVideoPanel from './SoundVideoPanel';
 import TipsPanel from './TipsPanel';
 import ExampleWordList from './ExampleWordList';
 import ReadScorePanel from './ReadScorePanel';
-import ABPlayback from './ABPlayback';
 import YouglishWidget from './YouglishWidget';
 import SectionCard from './SectionCard';
 
@@ -51,16 +50,8 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
     }
   }, [completed, post, sound.slug]);
 
-  // Called by ReadScorePanel after each scored read; best score is kept server-side.
-  const handleScored = useCallback(
-    (score: number) => {
-      void post({ slug: sound.slug, action: 'score', score }).catch(() => {});
-    },
-    [post, sound.slug],
-  );
-
   return (
-    <div style={{ maxWidth: 720, margin: '0 auto' }}>
+    <div style={{ width: '100%' }}>
       <Link
         href="/pronunciation"
         style={{
@@ -115,9 +106,6 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
           </div>
           <div style={{ color: 'var(--v-muted)', fontSize: 'var(--v-text-sm)' }}>
             {meta.label} · {meta.sub}
-            {progress?.best_score != null && (
-              <> · điểm cao nhất {progress.best_score}/100</>
-            )}
           </div>
         </div>
         <button
@@ -158,41 +146,8 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
         <ExampleWordList examples={sound.examples} />
       </SectionCard>
 
-      <SectionCard title="Đọc, chấm điểm & nghe lại giọng mình" color="var(--v-primary)">
-        <ReadScorePanel sound={sound} onScored={handleScored} />
-        <div
-          style={{
-            height: 1,
-            background: 'var(--v-border)',
-            margin: '18px 0 16px',
-          }}
-        />
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 8,
-            fontFamily: 'var(--v-font-head)',
-            fontWeight: 800,
-            fontSize: 'var(--v-text-sm)',
-            color: 'var(--v-teal)',
-            textTransform: 'uppercase',
-            letterSpacing: 'var(--v-tracking-wide)',
-            marginBottom: 10,
-          }}
-        >
-          <span
-            style={{
-              width: 8,
-              height: 8,
-              borderRadius: 2,
-              background: 'var(--v-teal)',
-              display: 'inline-block',
-            }}
-          />
-          Ghi âm & nghe lại giọng mình
-        </div>
-        <ABPlayback sound={sound} />
+      <SectionCard title="Đọc & nghe lại giọng mình" color="var(--v-primary)">
+        <ReadScorePanel sound={sound} />
       </SectionCard>
 
       <SectionCard title="Nghe người bản xứ (YouGlish)" color="var(--v-pink)">

@@ -6,7 +6,7 @@ import MinimalPairClient from '@/components/pronunciation/MinimalPairClient';
 
 export default function MinimalPairsPage() {
   return (
-    <div style={{ maxWidth: 720, margin: '0 auto' }}>
+    <div style={{ width: '100%' }}>
       <Link
         href="/pronunciation"
         style={{

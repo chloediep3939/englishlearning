@@ -16,7 +16,7 @@ export default async function PronunciationOverviewPage() {
   const groups = getGroups();
 
   return (
-    <div style={{ maxWidth: 920, margin: '0 auto' }}>
+    <div style={{ width: '100%' }}>
       <Link
         href="/dashboard"
         style={{
