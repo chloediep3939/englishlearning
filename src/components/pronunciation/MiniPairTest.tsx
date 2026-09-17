@@ -1,7 +1,7 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
-import { Volume2, Check, X, ArrowRight } from 'lucide-react';
+import { useCallback, useMemo, useState } from 'react';
+import { Volume2, Check, X, ArrowRight, Play } from 'lucide-react';
 import { getMinimalPairSetsForSlug } from '@/lib/pronunciation/minimal-pairs';
 import { speak, getStoredVoicePreference } from '@/lib/tts';
 import type { MinimalPair } from '@/lib/pronunciation/minimal-pairs';
@@ -24,6 +24,7 @@ export default function MiniPairTest({ slug }: { slug: string }) {
   const [picked, setPicked] = useState<Side | null>(null);
   const [correct, setCorrect] = useState(0);
   const [total, setTotal] = useState(0);
+  const [started, setStarted] = useState(false);
 
   const play = useCallback(
     (w: string) => speak(w, { lang: 'en-US', rate: 0.9, voice_preference: getStoredVoicePreference() }),
@@ -40,12 +41,40 @@ export default function MiniPairTest({ slug }: { slug: string }) {
     setTimeout(() => play(t === 'a' ? p.a : p.b), 200);
   }, [pool, play]);
 
-  useEffect(() => {
-    nextQ();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  if (pool.length === 0) return null;
 
-  if (pool.length === 0 || !pair) return null;
+  if (!started) {
+    return (
+      <div style={{ textAlign: 'center', padding: '6px 0' }}>
+        <button
+          type="button"
+          onClick={() => {
+            setStarted(true);
+            nextQ();
+          }}
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 8,
+            padding: '11px 22px',
+            background: 'var(--v-teal)',
+            color: '#fff',
+            border: 'none',
+            borderRadius: 'var(--v-radius-md)',
+            fontFamily: 'var(--v-font-head)',
+            fontWeight: 900,
+            fontSize: 'var(--v-text-base)',
+            cursor: 'pointer',
+            boxShadow: 'var(--v-shadow-sm)',
+          }}
+        >
+          <Play size={16} fill="#fff" /> Bắt đầu
+        </button>
+      </div>
+    );
+  }
+
+  if (!pair) return null;
 
   const choose = (side: Side) => {
     if (picked) return;
