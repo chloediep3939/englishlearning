@@ -11,7 +11,9 @@ import TipsPanel from './TipsPanel';
 import ExampleWordList from './ExampleWordList';
 import ReadScorePanel from './ReadScorePanel';
 import YouglishWidget from './YouglishWidget';
+import SoundMinimalPairs from './SoundMinimalPairs';
 import SectionCard from './SectionCard';
+import { getMinimalPairSetsForSlug } from '@/lib/pronunciation/minimal-pairs';
 
 interface Props {
   sound: Sound;
@@ -23,6 +25,7 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
   const [saving, setSaving] = useState(false);
   const meta = GROUP_META[sound.group];
   const completed = progress?.completed ?? false;
+  const hasPairs = getMinimalPairSetsForSlug(sound.slug).length > 0;
 
   const post = useCallback(
     async (body: Record<string, unknown>) => {
@@ -168,6 +171,12 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
           </SectionCard>
         </div>
       </div>
+
+      {hasPairs && (
+        <SectionCard title={`So sánh cặp từ có âm /${sound.ipa}/`} color="var(--v-purple)">
+          <SoundMinimalPairs slug={sound.slug} />
+        </SectionCard>
+      )}
 
       <div style={{ textAlign: 'center', margin: '18px 0 8px' }}>
         <Link
