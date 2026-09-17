@@ -1,0 +1,826 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.501–2.000 · Bộ 11",
+    "description": "New General Service List, thứ hạng 1.501–2.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-4-11"
+  },
+  "cards": [
+    {
+      "english": "vast",
+      "vietnamese": "rộng lớn, bao la; rất nhiều, khổng lồ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "From the plane, we could see the vast ocean below us.",
+          "vi": "Từ trên máy bay, chúng tôi có thể nhìn thấy đại dương bao la bên dưới."
+        },
+        {
+          "en": "The vast majority of students passed the final exam.",
+          "vi": "Phần lớn sinh viên đã vượt qua kỳ thi cuối kỳ."
+        },
+        {
+          "en": "She spent a vast amount of money on her new house.",
+          "vi": "Cô ấy đã tiêu một số tiền khổng lồ cho ngôi nhà mới."
+        }
+      ],
+      "collocations": [
+        "vast majority",
+        "vast amount",
+        "vast area"
+      ],
+      "notes": null,
+      "ipa": "/væst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vas/vast_/vast__us_1.mp3"
+    },
+    {
+      "english": "exhibition",
+      "vietnamese": "cuộc triển lãm; sự trưng bày",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We went to a photo exhibition at the city museum.",
+          "vi": "Chúng tôi đã đi xem một cuộc triển lãm ảnh ở bảo tàng thành phố."
+        },
+        {
+          "en": "The gallery is holding an exhibition of work by local artists.",
+          "vi": "Phòng tranh đang tổ chức một cuộc triển lãm tác phẩm của các nghệ sĩ địa phương."
+        },
+        {
+          "en": "Did you see the science exhibition at school last week?",
+          "vi": "Bạn có xem triển lãm khoa học ở trường tuần trước không?"
+        }
+      ],
+      "collocations": [
+        "art exhibition",
+        "hold an exhibition",
+        "exhibition of"
+      ],
+      "notes": null,
+      "ipa": "/ˌeksɪˈbɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exh/exhib/exhibition__us_2.mp3"
+    },
+    {
+      "english": "producer",
+      "vietnamese": "nhà sản xuất (phim, nhạc); nơi sản xuất",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My uncle works as a TV producer in the capital.",
+          "vi": "Chú tôi làm nhà sản xuất chương trình truyền hình ở thủ đô."
+        },
+        {
+          "en": "The film's producer wanted a happier ending.",
+          "vi": "Nhà sản xuất của bộ phim muốn một cái kết vui hơn."
+        },
+        {
+          "en": "This region is a major producer of rice and fruit.",
+          "vi": "Vùng này là nơi sản xuất lúa gạo và trái cây lớn."
+        }
+      ],
+      "collocations": [
+        "film producer",
+        "record producer",
+        "major producer"
+      ],
+      "notes": null,
+      "ipa": "/prəˈduːsər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/produ/producer__us_1.mp3"
+    },
+    {
+      "english": "regional",
+      "vietnamese": "(thuộc) vùng, khu vực",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She works in the company's regional office in the north.",
+          "vi": "Cô ấy làm việc ở văn phòng khu vực phía bắc của công ty."
+        },
+        {
+          "en": "Our team won the regional championship last year.",
+          "vi": "Đội chúng tôi đã vô địch giải khu vực năm ngoái."
+        },
+        {
+          "en": "Each regional dish has its own special flavor.",
+          "vi": "Mỗi món ăn vùng miền đều có hương vị đặc trưng riêng."
+        }
+      ],
+      "collocations": [
+        "regional office",
+        "regional news",
+        "regional development"
+      ],
+      "notes": null,
+      "ipa": "/ˈriːdʒənl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regio/regional__us_3.mp3"
+    },
+    {
+      "english": "immediate",
+      "vietnamese": "ngay lập tức; trước mắt; gần nhất, trực tiếp",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The new medicine had an immediate effect on her pain.",
+          "vi": "Thuốc mới có tác dụng giảm đau cho cô ấy ngay lập tức."
+        },
+        {
+          "en": "We need an immediate answer, so please call us today.",
+          "vi": "Chúng tôi cần câu trả lời ngay, vì vậy vui lòng gọi cho chúng tôi hôm nay."
+        },
+        {
+          "en": "Only my immediate family came to the small wedding.",
+          "vi": "Chỉ có gia đình ruột thịt của tôi đến dự đám cưới nhỏ."
+        }
+      ],
+      "collocations": [
+        "immediate effect",
+        "immediate action",
+        "immediate family",
+        "immediate future"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈmiːdiət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/imm/immed/immediate__us_1.mp3"
+    },
+    {
+      "english": "incident",
+      "vietnamese": "vụ việc; sự cố",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Police are investigating an incident at the train station.",
+          "vi": "Cảnh sát đang điều tra một vụ việc ở nhà ga."
+        },
+        {
+          "en": "Nobody was hurt in the incident, but the car was badly damaged.",
+          "vi": "Không ai bị thương trong vụ việc, nhưng chiếc xe bị hư hỏng nặng."
+        },
+        {
+          "en": "Please report any serious incident to your manager right away.",
+          "vi": "Vui lòng báo ngay cho quản lý về bất kỳ sự cố nghiêm trọng nào."
+        }
+      ],
+      "collocations": [
+        "serious incident",
+        "report an incident",
+        "without incident"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪnsɪdənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inc/incid/incident__us_1.mp3"
+    },
+    {
+      "english": "childhood",
+      "vietnamese": "thời thơ ấu, tuổi thơ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I spent most of my childhood in a small village.",
+          "vi": "Tôi đã trải qua phần lớn tuổi thơ ở một ngôi làng nhỏ."
+        },
+        {
+          "en": "She has been my best friend since childhood.",
+          "vi": "Cô ấy là bạn thân nhất của tôi từ thuở nhỏ."
+        },
+        {
+          "en": "These old songs bring back happy childhood memories.",
+          "vi": "Những bài hát cũ này gợi lại những kỷ niệm tuổi thơ vui vẻ."
+        }
+      ],
+      "collocations": [
+        "happy childhood",
+        "early childhood",
+        "childhood memories",
+        "since childhood"
+      ],
+      "notes": null,
+      "ipa": "/ˈtʃaɪldhʊd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/chi/child/childhood__us_3.mp3"
+    },
+    {
+      "english": "draft",
+      "vietnamese": "bản nháp; bản thảo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please send me the first draft of your report by Friday.",
+          "vi": "Vui lòng gửi cho tôi bản nháp đầu tiên của báo cáo trước thứ Sáu."
+        },
+        {
+          "en": "I wrote three drafts before I was happy with the letter.",
+          "vi": "Tôi đã viết ba bản nháp rồi mới hài lòng với lá thư."
+        },
+        {
+          "en": "The final draft looks much better than the earlier one.",
+          "vi": "Bản thảo cuối cùng trông tốt hơn nhiều so với bản trước."
+        }
+      ],
+      "collocations": [
+        "first draft",
+        "final draft",
+        "rough draft"
+      ],
+      "notes": null,
+      "ipa": "/dræft/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dra/draft/draft__us_1.mp3"
+    },
+    {
+      "english": "slip",
+      "vietnamese": "trượt, trượt chân; lẻn, lặng lẽ đi",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Be careful not to slip on the wet floor.",
+          "vi": "Cẩn thận kẻo trượt chân trên sàn ướt."
+        },
+        {
+          "en": "She slipped on the ice and hurt her knee.",
+          "vi": "Cô ấy trượt chân trên băng và bị đau đầu gối."
+        },
+        {
+          "en": "He slipped out of the meeting to answer a phone call.",
+          "vi": "Anh ấy lặng lẽ rời cuộc họp để nghe điện thoại."
+        }
+      ],
+      "collocations": [
+        "slip on",
+        "slip and fall",
+        "slip out",
+        "slip away"
+      ],
+      "notes": "slip – slipped – slipped",
+      "ipa": "/slɪp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sli/slip_/slip__us_1.mp3"
+    },
+    {
+      "english": "accompany",
+      "vietnamese": "đi cùng, đi kèm; đệm nhạc",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Children under 12 must be accompanied by an adult.",
+          "vi": "Trẻ em dưới 12 tuổi phải có người lớn đi cùng."
+        },
+        {
+          "en": "My mother accompanied me to the hospital yesterday.",
+          "vi": "Hôm qua mẹ tôi đã đi cùng tôi đến bệnh viện."
+        },
+        {
+          "en": "She sang while her brother accompanied her on the piano.",
+          "vi": "Cô ấy hát trong khi anh trai đệm đàn piano cho cô."
+        }
+      ],
+      "collocations": [
+        "be accompanied by",
+        "accompany someone to"
+      ],
+      "notes": "accompany – accompanied – accompanied",
+      "ipa": "/əˈkʌmpəni/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/accom/accompany__us_2.mp3"
+    },
+    {
+      "english": "politician",
+      "vietnamese": "chính trị gia, chính khách",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Her father was a local politician for many years.",
+          "vi": "Bố cô ấy là một chính trị gia địa phương trong nhiều năm."
+        },
+        {
+          "en": "The politician gave a short speech at the school opening.",
+          "vi": "Vị chính khách đã có bài phát biểu ngắn tại lễ khai trương trường."
+        },
+        {
+          "en": "He wants to become a politician when he grows up.",
+          "vi": "Cậu ấy muốn trở thành chính trị gia khi lớn lên."
+        }
+      ],
+      "collocations": [
+        "local politician",
+        "senior politician",
+        "leading politician"
+      ],
+      "notes": null,
+      "ipa": "/ˌpɑːləˈtɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pol/polit/politician__us_1.mp3"
+    },
+    {
+      "english": "angry",
+      "vietnamese": "tức giận, giận dữ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My mom gets angry when I come home late.",
+          "vi": "Mẹ tôi nổi giận khi tôi về nhà muộn."
+        },
+        {
+          "en": "Why are you so angry with me about this?",
+          "vi": "Sao bạn lại giận tôi vì chuyện này đến vậy?"
+        },
+        {
+          "en": "Customers were angry about the long delay at the airport.",
+          "vi": "Khách hàng tức giận vì sự chậm trễ kéo dài ở sân bay."
+        }
+      ],
+      "collocations": [
+        "get angry",
+        "angry with",
+        "angry about"
+      ],
+      "notes": "angry with + người · angry about + sự việc",
+      "ipa": "/ˈæŋɡri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ang/angry/angry__us_1.mp3"
+    },
+    {
+      "english": "knock",
+      "vietnamese": "gõ (cửa); đụng, làm đổ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please knock before you come into my room.",
+          "vi": "Làm ơn gõ cửa trước khi vào phòng tôi."
+        },
+        {
+          "en": "Can you see who is knocking at the door?",
+          "vi": "Bạn xem ai đang gõ cửa được không?"
+        },
+        {
+          "en": "The dog knocked over my cup of coffee this morning.",
+          "vi": "Sáng nay con chó làm đổ cốc cà phê của tôi."
+        }
+      ],
+      "collocations": [
+        "knock on the door",
+        "knock at the door",
+        "knock over"
+      ],
+      "notes": null,
+      "ipa": "/nɑːk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/k/kno/knock/knock__us_1.mp3"
+    },
+    {
+      "english": "seed",
+      "vietnamese": "hạt giống; hạt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We planted tomato seeds in the garden this spring.",
+          "vi": "Mùa xuân này chúng tôi đã gieo hạt cà chua trong vườn."
+        },
+        {
+          "en": "These seeds need plenty of water and sunlight to grow.",
+          "vi": "Những hạt giống này cần nhiều nước và ánh nắng để phát triển."
+        },
+        {
+          "en": "This watermelon has almost no seeds, so the kids love it.",
+          "vi": "Quả dưa hấu này gần như không có hạt nên bọn trẻ rất thích."
+        }
+      ],
+      "collocations": [
+        "plant seeds",
+        "sow seeds",
+        "sunflower seeds"
+      ],
+      "notes": null,
+      "ipa": "/siːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/see/seed_/seed__us_1.mp3"
+    },
+    {
+      "english": "salary",
+      "vietnamese": "lương, tiền lương",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She earns a good salary as a nurse.",
+          "vi": "Cô ấy nhận mức lương khá khi làm y tá."
+        },
+        {
+          "en": "Our salaries are paid at the end of each month.",
+          "vi": "Lương của chúng tôi được trả vào cuối mỗi tháng."
+        },
+        {
+          "en": "He asked for a higher salary after working there for two years.",
+          "vi": "Anh ấy đề nghị tăng lương sau khi làm việc ở đó hai năm."
+        }
+      ],
+      "collocations": [
+        "good salary",
+        "annual salary",
+        "earn a salary",
+        "salary increase"
+      ],
+      "notes": null,
+      "ipa": "/ˈsæləri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sal/salar/salary__us_1.mp3"
+    },
+    {
+      "english": "illustrate",
+      "vietnamese": "minh họa; làm rõ, cho thấy",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The teacher used a simple story to illustrate her point.",
+          "vi": "Cô giáo dùng một câu chuyện đơn giản để minh họa cho ý của mình."
+        },
+        {
+          "en": "This chart illustrates how prices have changed over time.",
+          "vi": "Biểu đồ này cho thấy giá cả đã thay đổi thế nào theo thời gian."
+        },
+        {
+          "en": "She illustrates children's books for a living.",
+          "vi": "Cô ấy kiếm sống bằng nghề vẽ minh họa sách thiếu nhi."
+        }
+      ],
+      "collocations": [
+        "illustrate a point",
+        "clearly illustrate",
+        "illustrated book"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪləstreɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ill/illus/illustrate__us_1.mp3"
+    },
+    {
+      "english": "imply",
+      "vietnamese": "ngụ ý, hàm ý",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Are you implying that I made a mistake?",
+          "vi": "Bạn đang ngụ ý rằng tôi đã mắc lỗi à?"
+        },
+        {
+          "en": "His silence implied that he did not agree with us.",
+          "vi": "Sự im lặng của anh ấy hàm ý rằng anh ấy không đồng ý với chúng tôi."
+        },
+        {
+          "en": "The report implies that the company is losing money.",
+          "vi": "Bản báo cáo ngụ ý rằng công ty đang lỗ."
+        }
+      ],
+      "collocations": [
+        "imply that",
+        "clearly imply",
+        "strongly imply"
+      ],
+      "notes": "imply (người nói ngụ ý) ≠ infer (người nghe suy ra)",
+      "ipa": "/ɪmˈplaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/imp/imply/imply__us_1.mp3"
+    },
+    {
+      "english": "breakfast",
+      "vietnamese": "bữa sáng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I usually have breakfast at seven before I go to work.",
+          "vi": "Tôi thường ăn sáng lúc bảy giờ trước khi đi làm."
+        },
+        {
+          "en": "What did you eat for breakfast this morning?",
+          "vi": "Sáng nay bạn ăn gì vào bữa sáng?"
+        },
+        {
+          "en": "She never skips breakfast, even when she is busy.",
+          "vi": "Cô ấy không bao giờ bỏ bữa sáng, kể cả khi bận rộn."
+        }
+      ],
+      "collocations": [
+        "have breakfast",
+        "for breakfast",
+        "skip breakfast"
+      ],
+      "notes": null,
+      "ipa": "/ˈbrekfəst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bre/break/breakfast__us_1.mp3"
+    },
+    {
+      "english": "temporary",
+      "vietnamese": "tạm thời",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "He found a temporary job during his summer vacation.",
+          "vi": "Anh ấy tìm được một công việc tạm thời trong kỳ nghỉ hè."
+        },
+        {
+          "en": "The road is closed, but the problem is only temporary.",
+          "vi": "Con đường đang bị chặn, nhưng vấn đề này chỉ là tạm thời."
+        },
+        {
+          "en": "We are living in a temporary apartment until our house is ready.",
+          "vi": "Chúng tôi đang ở một căn hộ tạm cho đến khi nhà xây xong."
+        }
+      ],
+      "collocations": [
+        "temporary job",
+        "temporary solution",
+        "temporary work"
+      ],
+      "notes": null,
+      "ipa": "/ˈtempəreri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tem/tempo/temporary__us_1.mp3"
+    },
+    {
+      "english": "liberal",
+      "vietnamese": "cởi mở, phóng khoáng; hào phóng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My grandparents are surprisingly liberal about many modern ideas.",
+          "vi": "Ông bà tôi cởi mở một cách đáng ngạc nhiên với nhiều quan niệm hiện đại."
+        },
+        {
+          "en": "The school has a fairly liberal attitude toward uniforms.",
+          "vi": "Nhà trường có thái độ khá thoải mái về chuyện đồng phục."
+        },
+        {
+          "en": "She was always liberal with her praise for her students.",
+          "vi": "Cô ấy luôn hào phóng lời khen dành cho học trò."
+        }
+      ],
+      "collocations": [
+        "liberal attitude",
+        "liberal views",
+        "liberal arts"
+      ],
+      "notes": null,
+      "ipa": "/ˈlɪbərəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lib/liber/liberal__us_1_rr.mp3"
+    },
+    {
+      "english": "lake",
+      "vietnamese": "hồ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We went swimming in the lake last summer.",
+          "vi": "Mùa hè năm ngoái chúng tôi đã đi bơi ở hồ."
+        },
+        {
+          "en": "There is a small lake behind our village.",
+          "vi": "Có một cái hồ nhỏ phía sau làng chúng tôi."
+        },
+        {
+          "en": "Our hotel room had a beautiful view of the lake.",
+          "vi": "Phòng khách sạn của chúng tôi có tầm nhìn đẹp ra hồ."
+        }
+      ],
+      "collocations": [
+        "swim in the lake",
+        "by the lake",
+        "frozen lake"
+      ],
+      "notes": null,
+      "ipa": "/leɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lak/lake_/lake__us_1.mp3"
+    },
+    {
+      "english": "qualify",
+      "vietnamese": "đủ điều kiện; có đủ bằng cấp (hành nghề); giành quyền vào (vòng sau)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "You may qualify for a discount if you are a student.",
+          "vi": "Nếu là sinh viên, bạn có thể đủ điều kiện được giảm giá."
+        },
+        {
+          "en": "She qualified as a doctor after seven years of study.",
+          "vi": "Cô ấy có đủ bằng cấp hành nghề bác sĩ sau bảy năm học."
+        },
+        {
+          "en": "Our team qualified for the final after winning today's match.",
+          "vi": "Đội chúng tôi giành quyền vào chung kết sau khi thắng trận hôm nay."
+        }
+      ],
+      "collocations": [
+        "qualify for",
+        "qualify as",
+        "fully qualified"
+      ],
+      "notes": "qualify for + cái gì · qualify as + nghề",
+      "ipa": "/ˈkwɑːlɪfaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/q/qua/quali/qualify__us_1.mp3"
+    },
+    {
+      "english": "competitive",
+      "vietnamese": "cạnh tranh; thích ganh đua",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The job market is very competitive for new graduates.",
+          "vi": "Thị trường việc làm rất cạnh tranh đối với sinh viên mới tốt nghiệp."
+        },
+        {
+          "en": "This shop offers competitive prices on all its products.",
+          "vi": "Cửa hàng này có giá cả cạnh tranh cho mọi sản phẩm."
+        },
+        {
+          "en": "My brother is so competitive that he hates losing at cards.",
+          "vi": "Anh tôi thích ganh đua đến mức rất ghét thua khi chơi bài."
+        }
+      ],
+      "collocations": [
+        "competitive prices",
+        "highly competitive",
+        "competitive market"
+      ],
+      "notes": null,
+      "ipa": "/kəmˈpetətɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compe/competitive__us_3.mp3"
+    },
+    {
+      "english": "truly",
+      "vietnamese": "thật sự; thực lòng",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I am truly sorry for what I said yesterday.",
+          "vi": "Tôi thực lòng xin lỗi vì những gì mình nói hôm qua."
+        },
+        {
+          "en": "It was a truly beautiful day at the beach.",
+          "vi": "Đó thật sự là một ngày đẹp trời ở bãi biển."
+        },
+        {
+          "en": "Do you truly believe that he is telling the truth?",
+          "vi": "Bạn có thật sự tin rằng anh ta đang nói thật không?"
+        }
+      ],
+      "collocations": [
+        "truly sorry",
+        "truly believe",
+        "truly amazing"
+      ],
+      "notes": null,
+      "ipa": "/ˈtruːli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tru/truly/truly__us_1.mp3"
+    },
+    {
+      "english": "hi",
+      "vietnamese": "chào, xin chào",
+      "part_of_speech": "exclamation",
+      "examples": [
+        {
+          "en": "Hi, I'm your new neighbor from next door.",
+          "vi": "Chào bạn, tôi là hàng xóm mới ở nhà bên cạnh."
+        },
+        {
+          "en": "Please say hi to your parents for me.",
+          "vi": "Cho tôi gửi lời chào đến bố mẹ bạn nhé."
+        },
+        {
+          "en": "She smiled and said hi as she walked past.",
+          "vi": "Cô ấy mỉm cười và chào khi đi ngang qua."
+        }
+      ],
+      "collocations": [
+        "say hi",
+        "say hi to",
+        "hi there"
+      ],
+      "notes": "thân mật, dùng trong giao tiếp hằng ngày",
+      "ipa": "/haɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hi_/hi__u/hi__us_1.mp3"
+    },
+    {
+      "english": "yellow",
+      "vietnamese": "(màu) vàng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She wore a bright yellow dress to the party.",
+          "vi": "Cô ấy mặc một chiếc váy màu vàng tươi đến bữa tiệc."
+        },
+        {
+          "en": "The leaves turn yellow before they fall from the trees.",
+          "vi": "Lá chuyển sang màu vàng trước khi rụng khỏi cây."
+        },
+        {
+          "en": "Slow down when the traffic light turns yellow.",
+          "vi": "Hãy giảm tốc độ khi đèn giao thông chuyển sang vàng."
+        }
+      ],
+      "collocations": [
+        "bright yellow",
+        "pale yellow",
+        "turn yellow"
+      ],
+      "notes": null,
+      "ipa": "/ˈjeləʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/y/yel/yello/yellow__us_3.mp3"
+    },
+    {
+      "english": "habit",
+      "vietnamese": "thói quen",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Smoking is a bad habit that is hard to break.",
+          "vi": "Hút thuốc là một thói quen xấu khó bỏ."
+        },
+        {
+          "en": "I'm trying to get into the habit of reading every night.",
+          "vi": "Tôi đang cố tạo thói quen đọc sách mỗi tối."
+        },
+        {
+          "en": "He has a habit of biting his nails when he is nervous.",
+          "vi": "Anh ấy có thói quen cắn móng tay khi lo lắng."
+        }
+      ],
+      "collocations": [
+        "bad habit",
+        "break a habit",
+        "habit of",
+        "eating habits"
+      ],
+      "notes": null,
+      "ipa": "/ˈhæbɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hab/habit/habit__us_1.mp3"
+    },
+    {
+      "english": "disk",
+      "vietnamese": "đĩa, ổ đĩa (máy tính); vật hình đĩa",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My computer is slow because the hard disk is almost full.",
+          "vi": "Máy tính của tôi chạy chậm vì ổ cứng gần đầy."
+        },
+        {
+          "en": "The game came on a disk, but now you can download it.",
+          "vi": "Trò chơi này từng được bán trên đĩa, nhưng giờ bạn có thể tải về."
+        },
+        {
+          "en": "The moon looked like a silver disk in the night sky.",
+          "vi": "Mặt trăng trông như một chiếc đĩa bạc trên bầu trời đêm."
+        }
+      ],
+      "collocations": [
+        "hard disk",
+        "disk space",
+        "disk drive"
+      ],
+      "notes": "Mỹ: disk · Anh: disc (máy tính thường viết disk)",
+      "ipa": "/dɪsk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/disk_/disk__us_1.mp3"
+    },
+    {
+      "english": "core",
+      "vietnamese": "cốt lõi, trọng tâm; lõi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Honesty is at the core of a good friendship.",
+          "vi": "Sự trung thực là cốt lõi của một tình bạn đẹp."
+        },
+        {
+          "en": "The core of the problem is a lack of money.",
+          "vi": "Mấu chốt của vấn đề là thiếu tiền."
+        },
+        {
+          "en": "Please throw the apple core in the trash.",
+          "vi": "Làm ơn vứt lõi táo vào thùng rác."
+        }
+      ],
+      "collocations": [
+        "at the core of",
+        "the core of the problem",
+        "apple core"
+      ],
+      "notes": null,
+      "ipa": "/kɔːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cor/core_/core__us_1.mp3"
+    },
+    {
+      "english": "emotional",
+      "vietnamese": "(thuộc) cảm xúc, tình cảm; xúc động",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She became very emotional when she said goodbye to her class.",
+          "vi": "Cô ấy rất xúc động khi chia tay lớp học của mình."
+        },
+        {
+          "en": "Children need emotional support as well as good food.",
+          "vi": "Trẻ em cần sự hỗ trợ về mặt tình cảm cũng như thức ăn tốt."
+        },
+        {
+          "en": "The movie has a very emotional ending.",
+          "vi": "Bộ phim có một cái kết rất xúc động."
+        }
+      ],
+      "collocations": [
+        "emotional support",
+        "emotional health",
+        "get emotional"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈməʊʃənl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/emo/emoti/emotional__us_1.mp3"
+    }
+  ]
+}

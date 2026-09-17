@@ -1,0 +1,864 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 9 · Bộ 2",
+    "description": "Academic Word List, sublist 9",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-9-02"
+  },
+  "cards": [
+    {
+      "english": "mature",
+      "vietnamese": "trưởng thành; chín chắn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Students in the program tend to be more mature than typical undergraduates.",
+          "vi": "Sinh viên trong chương trình này thường chín chắn hơn sinh viên đại học thông thường."
+        },
+        {
+          "en": "These fish take about three years to become fully mature.",
+          "vi": "Loài cá này mất khoảng ba năm để trưởng thành hoàn toàn.",
+          "image_url": "https://images.pexels.com/photos/36731970/pexels-photo-36731970.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She handled the difficult situation in a calm and mature way.",
+          "vi": "Cô ấy xử lý tình huống khó khăn một cách bình tĩnh và chín chắn."
+        }
+      ],
+      "collocations": [
+        "fully mature",
+        "mature adult",
+        "mature market"
+      ],
+      "notes": null,
+      "ipa": "/məˈtʃʊr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mat/matur/mature__us_1_rr.mp3"
+    },
+    {
+      "english": "mediate",
+      "vietnamese": "hòa giải; làm trung gian",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "A neutral expert was brought in to mediate between the two companies.",
+          "vi": "Một chuyên gia trung lập đã được mời đến để làm trung gian giữa hai công ty."
+        },
+        {
+          "en": "The union asked an outside group to mediate the dispute over wages.",
+          "vi": "Công đoàn đề nghị một tổ chức bên ngoài hòa giải tranh chấp về tiền lương."
+        },
+        {
+          "en": "Managers are often expected to mediate conflicts within their teams.",
+          "vi": "Các nhà quản lý thường được kỳ vọng sẽ hòa giải xung đột trong nhóm của mình."
+        }
+      ],
+      "collocations": [
+        "mediate a dispute",
+        "mediate between",
+        "mediate conflicts"
+      ],
+      "notes": null,
+      "ipa": "/ˈmiːdieɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/med/media/mediate__us_1.mp3"
+    },
+    {
+      "english": "medium",
+      "vietnamese": "phương tiện (truyền tải); môi trường (nuôi cấy)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Television remains a powerful medium for reaching older audiences.",
+          "vi": "Truyền hình vẫn là một phương tiện mạnh mẽ để tiếp cận khán giả lớn tuổi."
+        },
+        {
+          "en": "English is the main medium of instruction at the university.",
+          "vi": "Tiếng Anh là ngôn ngữ giảng dạy chính tại trường đại học."
+        },
+        {
+          "en": "The bacteria were grown in a liquid medium for 48 hours.",
+          "vi": "Vi khuẩn được nuôi cấy trong môi trường lỏng suốt 48 giờ.",
+          "image_url": "https://images.pexels.com/photos/8539946/pexels-photo-8539946.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "medium of instruction",
+        "medium of communication",
+        "growth medium"
+      ],
+      "notes": "Số nhiều: media (phương tiện) hoặc mediums",
+      "ipa": "/ˈmiːdiəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/med/mediu/medium__us_1.mp3"
+    },
+    {
+      "english": "military",
+      "vietnamese": "(thuộc) quân sự; quân đội",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The old military base has been turned into a public park.",
+          "vi": "Căn cứ quân sự cũ đã được chuyển đổi thành một công viên công cộng."
+        },
+        {
+          "en": "Satellite navigation was first developed for military purposes.",
+          "vi": "Hệ thống định vị vệ tinh ban đầu được phát triển cho mục đích quân sự."
+        },
+        {
+          "en": "After finishing school, he spent four years in military service.",
+          "vi": "Sau khi học xong, anh ấy đã phục vụ bốn năm trong quân đội."
+        }
+      ],
+      "collocations": [
+        "military base",
+        "military service",
+        "military purposes"
+      ],
+      "notes": null,
+      "ipa": "/ˈmɪləteri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mil/milit/military__us_2.mp3"
+    },
+    {
+      "english": "minimal",
+      "vietnamese": "tối thiểu; rất ít",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The new software requires minimal training for most staff.",
+          "vi": "Phần mềm mới chỉ cần đào tạo tối thiểu đối với hầu hết nhân viên."
+        },
+        {
+          "en": "Damage to the building was minimal after the storm.",
+          "vi": "Sau cơn bão, tòa nhà chỉ bị thiệt hại rất ít."
+        },
+        {
+          "en": "We aim to complete the project at minimal cost.",
+          "vi": "Chúng tôi đặt mục tiêu hoàn thành dự án với chi phí tối thiểu."
+        }
+      ],
+      "collocations": [
+        "minimal cost",
+        "minimal effort",
+        "minimal impact"
+      ],
+      "notes": null,
+      "ipa": "/ˈmɪnɪml/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/min/minim/minimal__us_1.mp3"
+    },
+    {
+      "english": "mutual",
+      "vietnamese": "lẫn nhau; chung",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Good working relationships are built on mutual respect.",
+          "vi": "Các mối quan hệ công việc tốt được xây dựng trên sự tôn trọng lẫn nhau.",
+          "image_url": "https://images.pexels.com/photos/6598770/pexels-photo-6598770.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The agreement is of mutual benefit to both universities.",
+          "vi": "Thỏa thuận này mang lại lợi ích chung cho cả hai trường đại học.",
+          "image_url": "https://images.pexels.com/photos/6598770/pexels-photo-6598770.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "They were introduced by a mutual friend at a conference.",
+          "vi": "Họ được một người bạn chung giới thiệu tại một hội nghị.",
+          "image_url": "https://images.pexels.com/photos/6598770/pexels-photo-6598770.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "mutual respect",
+        "mutual benefit",
+        "mutual friend",
+        "mutual understanding"
+      ],
+      "notes": null,
+      "ipa": "/ˈmjuːtʃuəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mut/mutua/mutual__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/6598770/pexels-photo-6598770.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Tima Miroshnichenko",
+        "author_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "source_url": "https://www.pexels.com/photo/close-up-shot-of-a-handshake-6598770/"
+      }
+    },
+    {
+      "english": "norm",
+      "vietnamese": "chuẩn mực; điều bình thường, phổ biến",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Working from home has become the norm in many industries.",
+          "vi": "Làm việc tại nhà đã trở thành điều bình thường trong nhiều ngành."
+        },
+        {
+          "en": "Social norms influence how people behave in public spaces.",
+          "vi": "Các chuẩn mực xã hội ảnh hưởng đến cách mọi người cư xử ở nơi công cộng."
+        },
+        {
+          "en": "In this region, small family farms are still the norm.",
+          "vi": "Ở khu vực này, trang trại gia đình nhỏ vẫn là điều phổ biến."
+        }
+      ],
+      "collocations": [
+        "social norms",
+        "become the norm",
+        "cultural norms"
+      ],
+      "notes": null,
+      "ipa": "/nɔːrm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nor/norm_/norm__us_1.mp3"
+    },
+    {
+      "english": "overlap",
+      "vietnamese": "chồng chéo; trùng nhau (một phần)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The two research projects overlap in several important areas.",
+          "vi": "Hai dự án nghiên cứu này chồng chéo nhau ở một số lĩnh vực quan trọng.",
+          "image_url": "https://images.pexels.com/photos/7722791/pexels-photo-7722791.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "My meeting overlaps with the training session, so I cannot attend both.",
+          "vi": "Cuộc họp của tôi trùng giờ với buổi đào tạo nên tôi không thể tham dự cả hai."
+        },
+        {
+          "en": "The responsibilities of the two departments overlapped, which caused confusion.",
+          "vi": "Trách nhiệm của hai phòng ban bị chồng chéo, gây ra sự nhầm lẫn."
+        }
+      ],
+      "collocations": [
+        "overlap with",
+        "overlap considerably",
+        "partially overlap"
+      ],
+      "notes": null,
+      "ipa": "/ˌəʊvərˈlæp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ove/overl/overlap__us_1.mp3"
+    },
+    {
+      "english": "passive",
+      "vietnamese": "thụ động; (ngữ pháp) bị động",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Students learn less when they remain passive during lectures.",
+          "vi": "Sinh viên học được ít hơn khi họ thụ động trong các giờ giảng."
+        },
+        {
+          "en": "Scientific reports often use the passive voice.",
+          "vi": "Các báo cáo khoa học thường dùng thể bị động."
+        },
+        {
+          "en": "Instead of taking a passive role, she questioned every decision.",
+          "vi": "Thay vì đóng vai trò thụ động, cô ấy đặt câu hỏi về mọi quyết định."
+        }
+      ],
+      "collocations": [
+        "passive voice",
+        "passive role",
+        "passive learning"
+      ],
+      "notes": null,
+      "ipa": "/ˈpæsɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pas/passi/passive__us_1.mp3"
+    },
+    {
+      "english": "portion",
+      "vietnamese": "phần; khẩu phần",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A large portion of the budget is spent on salaries.",
+          "vi": "Một phần lớn ngân sách được chi cho tiền lương."
+        },
+        {
+          "en": "Only a small portion of the population owns a car.",
+          "vi": "Chỉ một phần nhỏ dân số sở hữu ô tô.",
+          "image_url": "https://images.pexels.com/photos/37860883/pexels-photo-37860883.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Restaurants have been criticized for serving very large portions.",
+          "vi": "Các nhà hàng bị chỉ trích vì phục vụ những khẩu phần quá lớn."
+        }
+      ],
+      "collocations": [
+        "a large portion of",
+        "a small portion of",
+        "portion size"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɔːrʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/por/porti/portion__us_1.mp3"
+    },
+    {
+      "english": "preliminary",
+      "vietnamese": "sơ bộ; ban đầu",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Preliminary results suggest that the new drug is safe.",
+          "vi": "Kết quả sơ bộ cho thấy loại thuốc mới là an toàn."
+        },
+        {
+          "en": "The committee held a preliminary meeting to discuss the plan.",
+          "vi": "Ủy ban đã tổ chức một cuộc họp sơ bộ để thảo luận kế hoạch."
+        },
+        {
+          "en": "These findings are only preliminary and need further testing.",
+          "vi": "Những phát hiện này chỉ mang tính sơ bộ và cần được kiểm chứng thêm."
+        }
+      ],
+      "collocations": [
+        "preliminary results",
+        "preliminary findings",
+        "preliminary study"
+      ],
+      "notes": null,
+      "ipa": "/prɪˈlɪmɪneri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/preli/preliminary__us_1.mp3"
+    },
+    {
+      "english": "protocol",
+      "vietnamese": "quy trình; giao thức",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "All staff must follow the safety protocol when handling chemicals.",
+          "vi": "Mọi nhân viên phải tuân theo quy trình an toàn khi xử lý hóa chất."
+        },
+        {
+          "en": "The study protocol was approved by the ethics committee.",
+          "vi": "Quy trình nghiên cứu đã được hội đồng đạo đức phê duyệt."
+        },
+        {
+          "en": "Computers use a common protocol to exchange data over the internet.",
+          "vi": "Các máy tính sử dụng một giao thức chung để trao đổi dữ liệu qua internet.",
+          "image_url": "https://images.pexels.com/photos/1591059/pexels-photo-1591059.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "follow protocol",
+        "safety protocol",
+        "study protocol"
+      ],
+      "notes": null,
+      "ipa": "/ˈprəʊtəkɑːl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/proto/protocol__us_2_rr.mp3"
+    },
+    {
+      "english": "qualitative",
+      "vietnamese": "định tính",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The researchers used qualitative methods such as interviews and group discussions.",
+          "vi": "Các nhà nghiên cứu sử dụng phương pháp định tính như phỏng vấn và thảo luận nhóm."
+        },
+        {
+          "en": "Qualitative data can explain why customers made certain choices.",
+          "vi": "Dữ liệu định tính có thể giải thích vì sao khách hàng đưa ra những lựa chọn nhất định."
+        },
+        {
+          "en": "Her thesis combines qualitative and quantitative research.",
+          "vi": "Luận văn của cô ấy kết hợp nghiên cứu định tính và định lượng."
+        }
+      ],
+      "collocations": [
+        "qualitative research",
+        "qualitative data",
+        "qualitative analysis"
+      ],
+      "notes": "qualitative (định tính) ≠ quantitative (định lượng)",
+      "ipa": "/ˈkwɑːlɪteɪtɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/q/qua/quali/qualitative__us_1.mp3"
+    },
+    {
+      "english": "refine",
+      "vietnamese": "tinh chỉnh; cải tiến; tinh chế",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We further refined the survey questions after the first trial.",
+          "vi": "Chúng tôi đã tinh chỉnh thêm các câu hỏi khảo sát sau lần thử nghiệm đầu tiên."
+        },
+        {
+          "en": "The company continues to refine its manufacturing process.",
+          "vi": "Công ty tiếp tục cải tiến quy trình sản xuất của mình."
+        },
+        {
+          "en": "Crude oil must be refined before it can be used as fuel.",
+          "vi": "Dầu thô phải được tinh chế trước khi có thể dùng làm nhiên liệu."
+        }
+      ],
+      "collocations": [
+        "further refine",
+        "refine a process",
+        "refine a technique"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈfaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ref/refin/refine__us_1.mp3"
+    },
+    {
+      "english": "relax",
+      "vietnamese": "nới lỏng (quy định); thư giãn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The city relaxed the rules on parking during the holiday season.",
+          "vi": "Thành phố đã nới lỏng quy định về đỗ xe trong mùa lễ.",
+          "image_url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Many employees find it hard to relax after work.",
+          "vi": "Nhiều nhân viên cảm thấy khó thư giãn sau giờ làm việc.",
+          "image_url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Banks relaxed lending standards before the financial crisis.",
+          "vi": "Các ngân hàng đã nới lỏng tiêu chuẩn cho vay trước cuộc khủng hoảng tài chính.",
+          "image_url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "relax the rules",
+        "relax restrictions",
+        "relax standards"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈlæks/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rel/relax/relax__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/3757942/pexels-photo-3757942.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Andrea Piacquadio",
+        "author_url": "https://www.pexels.com/@olly",
+        "source_url": "https://www.pexels.com/photo/woman-in-wrapped-in-white-towel-lying-on-bed-with-eyes-closed-3757942/"
+      }
+    },
+    {
+      "english": "restrain",
+      "vietnamese": "kiềm chế; hạn chế",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The central bank raised interest rates to restrain inflation.",
+          "vi": "Ngân hàng trung ương đã tăng lãi suất để kiềm chế lạm phát."
+        },
+        {
+          "en": "She had to restrain herself from interrupting the speaker.",
+          "vi": "Cô ấy phải kiềm chế bản thân để không ngắt lời người phát biểu."
+        },
+        {
+          "en": "New rules aim to restrain the growth of public spending.",
+          "vi": "Các quy định mới nhằm hạn chế sự gia tăng chi tiêu công."
+        }
+      ],
+      "collocations": [
+        "restrain inflation",
+        "restrain yourself",
+        "restrain spending"
+      ],
+      "notes": "restrain sb from doing sth",
+      "ipa": "/rɪˈstreɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/restr/restrain__us_1.mp3"
+    },
+    {
+      "english": "revolution",
+      "vietnamese": "cuộc cách mạng; vòng quay",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The Industrial Revolution changed the way goods were produced.",
+          "vi": "Cuộc Cách mạng Công nghiệp đã thay đổi cách thức sản xuất hàng hóa.",
+          "image_url": "https://images.pexels.com/photos/682078/pexels-photo-682078.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Smartphones started a revolution in how people access information.",
+          "vi": "Điện thoại thông minh đã khởi đầu một cuộc cách mạng trong cách con người tiếp cận thông tin."
+        },
+        {
+          "en": "The wheel makes one complete revolution every two seconds.",
+          "vi": "Bánh xe quay trọn một vòng sau mỗi hai giây."
+        }
+      ],
+      "collocations": [
+        "industrial revolution",
+        "digital revolution",
+        "technological revolution"
+      ],
+      "notes": null,
+      "ipa": "/ˌrevəˈluːʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rev/revol/revolution__us_2.mp3"
+    },
+    {
+      "english": "rigid",
+      "vietnamese": "cứng nhắc; cứng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The company's rigid rules left little room for new ideas.",
+          "vi": "Những quy định cứng nhắc của công ty hầu như không chừa chỗ cho ý tưởng mới."
+        },
+        {
+          "en": "Critics say the school system is too rigid for creative students.",
+          "vi": "Những người phê bình cho rằng hệ thống trường học quá cứng nhắc đối với học sinh sáng tạo."
+        },
+        {
+          "en": "The box is made of rigid plastic to protect the equipment.",
+          "vi": "Chiếc hộp được làm bằng nhựa cứng để bảo vệ thiết bị."
+        }
+      ],
+      "collocations": [
+        "rigid rules",
+        "rigid structure",
+        "rigid plastic"
+      ],
+      "notes": null,
+      "ipa": "/ˈrɪdʒɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rig/rigid/rigid__us_1.mp3"
+    },
+    {
+      "english": "route",
+      "vietnamese": "tuyến đường; con đường (để đạt được điều gì)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new bus route connects the airport with the city center.",
+          "vi": "Tuyến xe buýt mới nối sân bay với trung tâm thành phố."
+        },
+        {
+          "en": "Shipping companies are looking for cheaper routes to Europe.",
+          "vi": "Các công ty vận tải biển đang tìm các tuyến đường rẻ hơn đến châu Âu.",
+          "image_url": "https://images.pexels.com/photos/35593985/pexels-photo-35593985.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "For many young people, education is the main route to a better job.",
+          "vi": "Với nhiều người trẻ, giáo dục là con đường chính để có công việc tốt hơn."
+        }
+      ],
+      "collocations": [
+        "bus route",
+        "trade route",
+        "route to"
+      ],
+      "notes": null,
+      "ipa": "/ruːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rou/route/route__us_1_rr.mp3"
+    },
+    {
+      "english": "scenario",
+      "vietnamese": "kịch bản; tình huống (giả định)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "In the worst-case scenario, the project could be delayed by a year.",
+          "vi": "Trong kịch bản xấu nhất, dự án có thể bị chậm một năm."
+        },
+        {
+          "en": "Economists modeled several scenarios for future energy prices.",
+          "vi": "Các nhà kinh tế đã xây dựng mô hình cho một số kịch bản về giá năng lượng trong tương lai."
+        },
+        {
+          "en": "Trainees practice responding to emergency scenarios in a safe setting.",
+          "vi": "Học viên thực hành xử lý các tình huống khẩn cấp trong một môi trường an toàn."
+        }
+      ],
+      "collocations": [
+        "worst-case scenario",
+        "likely scenario",
+        "possible scenario"
+      ],
+      "notes": null,
+      "ipa": "/səˈnæriəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sce/scena/scenario__us_1.mp3"
+    },
+    {
+      "english": "sphere",
+      "vietnamese": "lĩnh vực; phạm vi; hình cầu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Cooperation between the two countries now extends to the sphere of education.",
+          "vi": "Sự hợp tác giữa hai nước nay đã mở rộng sang lĩnh vực giáo dục."
+        },
+        {
+          "en": "Each manager has a clear sphere of responsibility within the firm.",
+          "vi": "Mỗi quản lý có một phạm vi trách nhiệm rõ ràng trong công ty."
+        },
+        {
+          "en": "The Earth is not a perfect sphere but is slightly flattened at the poles.",
+          "vi": "Trái Đất không phải là một hình cầu hoàn hảo mà hơi dẹt ở hai cực.",
+          "image_url": "https://images.pexels.com/photos/8828641/pexels-photo-8828641.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "public sphere",
+        "sphere of influence",
+        "perfect sphere"
+      ],
+      "notes": null,
+      "ipa": "/sfɪr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sph/spher/sphere__us_1.mp3"
+    },
+    {
+      "english": "subordinate",
+      "vietnamese": "cấp dưới; thuộc cấp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A good manager listens carefully to the concerns of subordinates.",
+          "vi": "Một nhà quản lý giỏi lắng nghe kỹ những lo ngại của cấp dưới."
+        },
+        {
+          "en": "She was criticized for blaming her subordinates for the mistake.",
+          "vi": "Cô ấy bị chỉ trích vì đổ lỗi cho cấp dưới về sai sót đó."
+        },
+        {
+          "en": "The survey asked employees how they communicate with superiors and subordinates.",
+          "vi": "Cuộc khảo sát hỏi nhân viên về cách họ giao tiếp với cấp trên và cấp dưới."
+        }
+      ],
+      "collocations": [
+        "superiors and subordinates",
+        "immediate subordinate"
+      ],
+      "notes": "Cũng là tính từ: thứ yếu, phụ thuộc (subordinate to)",
+      "ipa": "/səˈbɔːrdɪnət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sub/subor/subordinate__us_1.mp3"
+    },
+    {
+      "english": "supplement",
+      "vietnamese": "phần bổ sung; thực phẩm bổ sung",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Doctors may recommend a vitamin D supplement during the winter.",
+          "vi": "Bác sĩ có thể khuyên dùng thực phẩm bổ sung vitamin D vào mùa đông."
+        },
+        {
+          "en": "The online course is a supplement to classroom teaching, not a replacement.",
+          "vi": "Khóa học trực tuyến là phần bổ sung cho việc giảng dạy trên lớp, chứ không thay thế nó."
+        },
+        {
+          "en": "Many older adults take dietary supplements without asking a doctor.",
+          "vi": "Nhiều người lớn tuổi dùng thực phẩm bổ sung mà không hỏi ý kiến bác sĩ."
+        }
+      ],
+      "collocations": [
+        "dietary supplement",
+        "vitamin supplement",
+        "supplement to"
+      ],
+      "notes": null,
+      "ipa": "/ˈsʌplɪmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sup/suppl/supplement__us_1.mp3"
+    },
+    {
+      "english": "suspend",
+      "vietnamese": "tạm ngừng; đình chỉ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The factory suspended production for a week after the fire.",
+          "vi": "Nhà máy đã tạm ngừng sản xuất một tuần sau vụ hỏa hoạn.",
+          "image_url": "https://images.pexels.com/photos/1366838/pexels-photo-1366838.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Two players were suspended for breaking team rules.",
+          "vi": "Hai cầu thủ bị đình chỉ vì vi phạm nội quy của đội.",
+          "image_url": "https://images.pexels.com/photos/1366838/pexels-photo-1366838.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The airline has suspended all flights to the region until further notice.",
+          "vi": "Hãng hàng không đã tạm ngừng mọi chuyến bay đến khu vực này cho đến khi có thông báo mới.",
+          "image_url": "https://images.pexels.com/photos/1366838/pexels-photo-1366838.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "suspend production",
+        "suspend flights",
+        "temporarily suspend"
+      ],
+      "notes": null,
+      "ipa": "/səˈspend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sus/suspe/suspend__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/1366838/pexels-photo-1366838.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Joshua Köller",
+        "author_url": "https://www.pexels.com/@joshuaklr",
+        "source_url": "https://www.pexels.com/photo/person-at-a-trapeze-1366838/"
+      }
+    },
+    {
+      "english": "team",
+      "vietnamese": "nhóm; đội",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our research team includes experts from five different countries.",
+          "vi": "Nhóm nghiên cứu của chúng tôi gồm các chuyên gia đến từ năm quốc gia khác nhau."
+        },
+        {
+          "en": "She was asked to lead a small team of software engineers.",
+          "vi": "Cô ấy được giao dẫn dắt một nhóm nhỏ các kỹ sư phần mềm."
+        },
+        {
+          "en": "The national team trained hard for the tournament.",
+          "vi": "Đội tuyển quốc gia đã tập luyện chăm chỉ cho giải đấu."
+        }
+      ],
+      "collocations": [
+        "research team",
+        "lead a team",
+        "team member",
+        "national team"
+      ],
+      "notes": null,
+      "ipa": "/tiːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tea/team_/team__us_1.mp3"
+    },
+    {
+      "english": "temporary",
+      "vietnamese": "tạm thời",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The company hired temporary staff during the busy season.",
+          "vi": "Công ty đã thuê nhân viên tạm thời trong mùa cao điểm.",
+          "image_url": "https://images.pexels.com/photos/39106311/pexels-photo-39106311.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Classes will be held in a temporary building until repairs are finished.",
+          "vi": "Các lớp học sẽ được tổ chức trong một tòa nhà tạm cho đến khi sửa chữa xong."
+        },
+        {
+          "en": "Experts believe the drop in prices is only temporary.",
+          "vi": "Các chuyên gia cho rằng việc giá giảm chỉ là tạm thời."
+        }
+      ],
+      "collocations": [
+        "temporary staff",
+        "temporary job",
+        "temporary solution"
+      ],
+      "notes": null,
+      "ipa": "/ˈtempəreri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tem/tempo/temporary__us_1.mp3"
+    },
+    {
+      "english": "trigger",
+      "vietnamese": "gây ra; kích hoạt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The announcement triggered a sharp fall in share prices.",
+          "vi": "Thông báo đó đã gây ra sự sụt giảm mạnh của giá cổ phiếu."
+        },
+        {
+          "en": "Certain foods can trigger allergic reactions in children.",
+          "vi": "Một số loại thực phẩm có thể gây ra phản ứng dị ứng ở trẻ em."
+        },
+        {
+          "en": "Opening the door without a code will trigger an alarm.",
+          "vi": "Mở cửa mà không nhập mã sẽ kích hoạt chuông báo động."
+        }
+      ],
+      "collocations": [
+        "trigger a reaction",
+        "trigger an alarm",
+        "trigger a debate"
+      ],
+      "notes": null,
+      "ipa": "/ˈtrɪɡər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tri/trigg/trigger__us_1.mp3"
+    },
+    {
+      "english": "unify",
+      "vietnamese": "thống nhất; hợp nhất",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The new system unifies customer records from all branches.",
+          "vi": "Hệ thống mới hợp nhất hồ sơ khách hàng từ tất cả các chi nhánh."
+        },
+        {
+          "en": "The coach's main task was to unify a divided team.",
+          "vi": "Nhiệm vụ chính của huấn luyện viên là thống nhất lại một đội đang chia rẽ.",
+          "image_url": "https://images.pexels.com/photos/9501967/pexels-photo-9501967.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Scientists have long attempted to unify these two theories.",
+          "vi": "Các nhà khoa học từ lâu đã cố gắng thống nhất hai lý thuyết này."
+        }
+      ],
+      "collocations": [
+        "attempt to unify",
+        "unify the country",
+        "help unify"
+      ],
+      "notes": null,
+      "ipa": "/ˈjuːnɪfaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/uni/unify/unify__us_1.mp3"
+    },
+    {
+      "english": "violate",
+      "vietnamese": "vi phạm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company was fined for violating environmental laws.",
+          "vi": "Công ty bị phạt vì vi phạm luật môi trường."
+        },
+        {
+          "en": "Sharing patient records without consent violates privacy rules.",
+          "vi": "Chia sẻ hồ sơ bệnh nhân khi chưa được đồng ý là vi phạm quy định về quyền riêng tư."
+        },
+        {
+          "en": "Researchers must not violate the terms of their agreement.",
+          "vi": "Các nhà nghiên cứu không được vi phạm các điều khoản trong thỏa thuận của họ."
+        }
+      ],
+      "collocations": [
+        "violate the law",
+        "violate the terms",
+        "violate rules"
+      ],
+      "notes": null,
+      "ipa": "/ˈvaɪəleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vio/viola/violate__us_1.mp3"
+    },
+    {
+      "english": "vision",
+      "vietnamese": "tầm nhìn; thị lực",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new director has a clear vision for the university's future.",
+          "vi": "Giám đốc mới có tầm nhìn rõ ràng cho tương lai của trường đại học."
+        },
+        {
+          "en": "Regular eye tests can detect problems with vision early.",
+          "vi": "Khám mắt định kỳ có thể phát hiện sớm các vấn đề về thị lực."
+        },
+        {
+          "en": "The company's vision is to make clean energy affordable for everyone.",
+          "vi": "Tầm nhìn của công ty là giúp mọi người đều có thể chi trả cho năng lượng sạch.",
+          "image_url": "https://images.pexels.com/photos/36423787/pexels-photo-36423787.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "clear vision",
+        "vision for the future",
+        "poor vision"
+      ],
+      "notes": null,
+      "ipa": "/ˈvɪʒn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vis/visio/vision__us_1.mp3"
+    }
+  ]
+}

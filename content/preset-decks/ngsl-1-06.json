@@ -1,0 +1,875 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1–500 · Bộ 6",
+    "description": "New General Service List, thứ hạng 1–500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-1-06"
+  },
+  "cards": [
+    {
+      "english": "increase",
+      "vietnamese": "tăng; làm tăng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The café increased its prices last month.",
+          "vi": "Quán cà phê đã tăng giá vào tháng trước."
+        },
+        {
+          "en": "Her salary increased by ten percent this year.",
+          "vi": "Lương của cô ấy đã tăng mười phần trăm trong năm nay."
+        },
+        {
+          "en": "The number of students in my class has increased to forty.",
+          "vi": "Số học sinh trong lớp tôi đã tăng lên bốn mươi.",
+          "image_url": "https://images.pexels.com/photos/5905470/pexels-photo-5905470.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "increase by",
+        "increase sharply",
+        "increase prices",
+        "increase the number of"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈkriːs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inc/incre/increase__us_1_rr.mp3"
+    },
+    {
+      "english": "job",
+      "vietnamese": "công việc; việc làm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My brother just got a new job at a hospital.",
+          "vi": "Anh trai tôi vừa có công việc mới ở một bệnh viện."
+        },
+        {
+          "en": "She is looking for a part-time job near her school.",
+          "vi": "Cô ấy đang tìm một công việc bán thời gian gần trường."
+        },
+        {
+          "en": "He lost his job when the factory closed.",
+          "vi": "Anh ấy mất việc khi nhà máy đóng cửa."
+        }
+      ],
+      "collocations": [
+        "get a job",
+        "lose your job",
+        "part-time job",
+        "look for a job"
+      ],
+      "notes": null,
+      "ipa": "/dʒɑːb/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/j/job/job__/job__us_2.mp3"
+    },
+    {
+      "english": "plan",
+      "vietnamese": "kế hoạch; dự định",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Do you have any plans for the weekend?",
+          "vi": "Bạn có kế hoạch gì cho cuối tuần không?"
+        },
+        {
+          "en": "Our plan is to leave early and avoid the traffic.",
+          "vi": "Kế hoạch của chúng tôi là đi sớm để tránh kẹt xe."
+        },
+        {
+          "en": "Everything at the wedding went according to plan.",
+          "vi": "Mọi việc trong đám cưới đều diễn ra đúng kế hoạch."
+        }
+      ],
+      "collocations": [
+        "make plans",
+        "have plans",
+        "according to plan",
+        "change of plan"
+      ],
+      "notes": null,
+      "ipa": "/plæn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pla/plan_/plan__us_1.mp3"
+    },
+    {
+      "english": "result",
+      "vietnamese": "kết quả",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We are still waiting for the results of the blood test.",
+          "vi": "Chúng tôi vẫn đang chờ kết quả xét nghiệm máu."
+        },
+        {
+          "en": "As a result of the storm, all flights were canceled.",
+          "vi": "Do cơn bão, tất cả các chuyến bay đều bị hủy."
+        },
+        {
+          "en": "She studied hard and got excellent results in her exams.",
+          "vi": "Cô ấy học chăm chỉ và đạt kết quả xuất sắc trong các kỳ thi."
+        }
+      ],
+      "collocations": [
+        "as a result",
+        "exam results",
+        "get results",
+        "final result"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈzʌlt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/resul/result__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/7580844/pexels-photo-7580844.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "RDNE Stock project",
+        "author_url": "https://www.pexels.com/@rdne",
+        "source_url": "https://www.pexels.com/photo/black-marker-on-white-paper-7580844/"
+      }
+    },
+    {
+      "english": "away",
+      "vietnamese": "xa; đi khỏi; vắng nhà",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The nearest supermarket is about two kilometers away from here.",
+          "vi": "Siêu thị gần nhất cách đây khoảng hai cây số."
+        },
+        {
+          "en": "The dog ran away when it heard the loud noise.",
+          "vi": "Con chó bỏ chạy khi nghe thấy tiếng động lớn."
+        },
+        {
+          "en": "My parents are away on vacation until next Friday.",
+          "vi": "Bố mẹ tôi đi nghỉ vắng nhà cho đến thứ Sáu tuần sau."
+        }
+      ],
+      "collocations": [
+        "far away",
+        "go away",
+        "run away",
+        "put away"
+      ],
+      "notes": null,
+      "ipa": "/əˈweɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/awa/away_/away__us_1.mp3"
+    },
+    {
+      "english": "example",
+      "vietnamese": "ví dụ; tấm gương",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Can you give me an example of how to use this word?",
+          "vi": "Bạn có thể cho tôi một ví dụ về cách dùng từ này không?",
+          "image_url": "https://images.pexels.com/photos/15251147/pexels-photo-15251147.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Many fruits, for example apples and oranges, are rich in vitamin C.",
+          "vi": "Nhiều loại trái cây, ví dụ như táo và cam, rất giàu vitamin C."
+        },
+        {
+          "en": "Parents should set a good example for their children.",
+          "vi": "Cha mẹ nên làm gương tốt cho con cái."
+        }
+      ],
+      "collocations": [
+        "for example",
+        "give an example",
+        "set an example",
+        "good example"
+      ],
+      "notes": null,
+      "ipa": "/ɪɡˈzæmpl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exa/examp/example__us_5.mp3"
+    },
+    {
+      "english": "happen",
+      "vietnamese": "xảy ra; tình cờ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Tell me exactly what happened at the party.",
+          "vi": "Kể cho tôi nghe chính xác chuyện gì đã xảy ra ở bữa tiệc."
+        },
+        {
+          "en": "Accidents often happen when drivers are tired.",
+          "vi": "Tai nạn thường xảy ra khi tài xế mệt mỏi."
+        },
+        {
+          "en": "I happened to meet my old teacher at the market.",
+          "vi": "Tôi tình cờ gặp lại thầy giáo cũ ở chợ."
+        }
+      ],
+      "collocations": [
+        "what happened",
+        "happen again",
+        "happen to"
+      ],
+      "notes": null,
+      "ipa": "/ˈhæpən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hap/happe/happen__us_1.mp3"
+    },
+    {
+      "english": "offer",
+      "vietnamese": "đề nghị; mời; cung cấp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My neighbor offered to help me move the sofa.",
+          "vi": "Người hàng xóm đề nghị giúp tôi chuyển chiếc ghế sofa."
+        },
+        {
+          "en": "She offered me a cup of tea when I arrived.",
+          "vi": "Cô ấy mời tôi một tách trà khi tôi đến.",
+          "image_url": "https://images.pexels.com/photos/6980695/pexels-photo-6980695.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The hotel offers free breakfast to all its guests.",
+          "vi": "Khách sạn cung cấp bữa sáng miễn phí cho tất cả khách lưu trú."
+        }
+      ],
+      "collocations": [
+        "offer to help",
+        "offer advice",
+        "offer a job"
+      ],
+      "notes": "offer to do something: đề nghị làm gì",
+      "ipa": "/ˈɔːfər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/off/offer/offer__us_1_rr.mp3"
+    },
+    {
+      "english": "young",
+      "vietnamese": "trẻ; nhỏ tuổi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My grandmother was a teacher when she was young.",
+          "vi": "Bà tôi từng là giáo viên khi bà còn trẻ."
+        },
+        {
+          "en": "The park is full of young families on Sundays.",
+          "vi": "Vào Chủ nhật, công viên có rất nhiều gia đình trẻ."
+        },
+        {
+          "en": "He is still too young to drive a car.",
+          "vi": "Cậu bé vẫn còn quá nhỏ để lái ô tô."
+        }
+      ],
+      "collocations": [
+        "young people",
+        "young children",
+        "young family",
+        "too young"
+      ],
+      "notes": null,
+      "ipa": "/jʌŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/y/you/young/young__us_1.mp3"
+    },
+    {
+      "english": "close",
+      "vietnamese": "đóng; đóng cửa; nhắm (mắt)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Could you close the window because it's getting cold?",
+          "vi": "Bạn đóng cửa sổ lại được không, vì trời đang trở lạnh?"
+        },
+        {
+          "en": "The bank closes at four o'clock on Fridays.",
+          "vi": "Ngân hàng đóng cửa lúc bốn giờ vào các ngày thứ Sáu."
+        },
+        {
+          "en": "Close your eyes and try to relax for a minute.",
+          "vi": "Hãy nhắm mắt lại và cố gắng thư giãn một chút.",
+          "image_url": "https://images.pexels.com/photos/5905576/pexels-photo-5905576.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "close the door",
+        "close the window",
+        "close your eyes"
+      ],
+      "notes": "Tính từ close (đọc /kləʊs/) nghĩa là \"gần\"",
+      "ipa": "/kləʊz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/clo/close/close__us_1.mp3"
+    },
+    {
+      "english": "program",
+      "vietnamese": "chương trình",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My favorite TV program starts at eight tonight.",
+          "vi": "Chương trình truyền hình yêu thích của tôi bắt đầu lúc tám giờ tối nay."
+        },
+        {
+          "en": "She joined an exchange program in Japan last year.",
+          "vi": "Năm ngoái cô ấy tham gia một chương trình trao đổi ở Nhật Bản."
+        },
+        {
+          "en": "You need to install this program on your computer first.",
+          "vi": "Trước tiên bạn cần cài đặt chương trình này trên máy tính."
+        }
+      ],
+      "collocations": [
+        "TV program",
+        "exchange program",
+        "training program",
+        "computer program"
+      ],
+      "notes": "Anh: programme · Mỹ: program",
+      "ipa": "/ˈprəʊɡræm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/progr/program__us_1.mp3"
+    },
+    {
+      "english": "lead",
+      "vietnamese": "dẫn; dẫn đến; lãnh đạo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "This path leads directly to the beach.",
+          "vi": "Con đường này dẫn thẳng ra bãi biển."
+        },
+        {
+          "en": "Eating too much sugar can lead to health problems.",
+          "vi": "Ăn quá nhiều đường có thể dẫn đến các vấn đề sức khỏe."
+        },
+        {
+          "en": "She led a team of ten engineers on the project.",
+          "vi": "Cô ấy lãnh đạo một nhóm gồm mười kỹ sư trong dự án đó."
+        }
+      ],
+      "collocations": [
+        "lead to",
+        "lead a team",
+        "lead the way"
+      ],
+      "notes": "lead – led – led",
+      "ipa": "/liːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lea/lead_/lead__us_1.mp3"
+    },
+    {
+      "english": "buy",
+      "vietnamese": "mua",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I bought a new pair of shoes for the party.",
+          "vi": "Tôi đã mua một đôi giày mới để đi dự tiệc."
+        },
+        {
+          "en": "Where can I buy tickets for the concert?",
+          "vi": "Tôi có thể mua vé buổi hòa nhạc ở đâu?"
+        },
+        {
+          "en": "They are saving money to buy a house next year.",
+          "vi": "Họ đang tiết kiệm tiền để mua nhà vào năm sau."
+        }
+      ],
+      "collocations": [
+        "buy tickets",
+        "buy a house",
+        "buy a present"
+      ],
+      "notes": "buy – bought – bought",
+      "ipa": "/baɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/buy/buy__/buy__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/6214472/pexels-photo-6214472.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Nataliya Vaitkevich",
+        "author_url": "https://www.pexels.com/@n-voitkevich",
+        "source_url": "https://www.pexels.com/photo/a-miniature-shopping-cart-on-macbook-laptop-6214472/"
+      }
+    },
+    {
+      "english": "understand",
+      "vietnamese": "hiểu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Sorry, I don't understand what you mean.",
+          "vi": "Xin lỗi, tôi không hiểu ý bạn."
+        },
+        {
+          "en": "My parents always understand how I feel.",
+          "vi": "Bố mẹ tôi luôn hiểu cảm giác của tôi."
+        },
+        {
+          "en": "She understood the lesson after the teacher gave another example.",
+          "vi": "Cô ấy đã hiểu bài sau khi giáo viên đưa thêm một ví dụ nữa."
+        }
+      ],
+      "collocations": [
+        "fully understand",
+        "easy to understand",
+        "understand what you mean"
+      ],
+      "notes": "understand – understood – understood",
+      "ipa": "/ˌʌndərˈstænd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/und/under/understand__us_2.mp3"
+    },
+    {
+      "english": "thank",
+      "vietnamese": "cảm ơn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I want to thank you for all your help.",
+          "vi": "Tôi muốn cảm ơn bạn vì mọi sự giúp đỡ."
+        },
+        {
+          "en": "She thanked the driver and got off the bus.",
+          "vi": "Cô ấy cảm ơn tài xế rồi xuống xe buýt."
+        },
+        {
+          "en": "Don't forget to thank your grandmother for the gift.",
+          "vi": "Đừng quên cảm ơn bà về món quà nhé."
+        }
+      ],
+      "collocations": [
+        "thank you",
+        "thank you for",
+        "thank you very much"
+      ],
+      "notes": "thank somebody for something",
+      "ipa": "/θæŋk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tha/thank/thank__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/791024/pexels-photo-791024.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Řaj Vaishnaw",
+        "author_url": "https://www.pexels.com/@raj-vaishnaw-258653",
+        "source_url": "https://www.pexels.com/photo/thank-you-heart-text-791024/"
+      }
+    },
+    {
+      "english": "far",
+      "vietnamese": "xa",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "How far is the airport from the city center?",
+          "vi": "Sân bay cách trung tâm thành phố bao xa?"
+        },
+        {
+          "en": "We didn't walk very far because it started to rain.",
+          "vi": "Chúng tôi không đi bộ xa lắm vì trời bắt đầu mưa."
+        },
+        {
+          "en": "My school isn't far from my house.",
+          "vi": "Trường của tôi cách nhà không xa."
+        }
+      ],
+      "collocations": [
+        "how far",
+        "far away",
+        "far from",
+        "so far"
+      ],
+      "notes": "far – farther/further – farthest/furthest",
+      "ipa": "/fɑːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/far/far__/far__us_1.mp3"
+    },
+    {
+      "english": "today",
+      "vietnamese": "hôm nay; ngày nay",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I'll call you back later today, after my meeting.",
+          "vi": "Hôm nay tôi sẽ gọi lại cho bạn sau khi họp xong.",
+          "image_url": "https://images.pexels.com/photos/6415026/pexels-photo-6415026.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "What are you doing today after work?",
+          "vi": "Hôm nay tan làm bạn định làm gì?"
+        },
+        {
+          "en": "Young people today spend a lot of time on their phones.",
+          "vi": "Giới trẻ ngày nay dành nhiều thời gian cho điện thoại."
+        }
+      ],
+      "collocations": [
+        "later today",
+        "earlier today",
+        "from today"
+      ],
+      "notes": null,
+      "ipa": "/təˈdeɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tod/today/today__us_1.mp3"
+    },
+    {
+      "english": "hour",
+      "vietnamese": "giờ; tiếng đồng hồ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The flight to Hanoi takes about two hours.",
+          "vi": "Chuyến bay đến Hà Nội mất khoảng hai tiếng."
+        },
+        {
+          "en": "I usually work eight hours a day.",
+          "vi": "Tôi thường làm việc tám tiếng mỗi ngày."
+        },
+        {
+          "en": "The store's opening hours are from nine to five.",
+          "vi": "Giờ mở cửa của cửa hàng là từ chín giờ đến năm giờ."
+        }
+      ],
+      "collocations": [
+        "half an hour",
+        "opening hours",
+        "working hours",
+        "an hour ago"
+      ],
+      "notes": "h câm, nên nói \"an hour\"",
+      "ipa": "/ˈaʊər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hou/hour_/hour__us_2.mp3"
+    },
+    {
+      "english": "student",
+      "vietnamese": "học sinh; sinh viên",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There are thirty students in my English class.",
+          "vi": "Lớp tiếng Anh của tôi có ba mươi học sinh."
+        },
+        {
+          "en": "My sister is a medical student in her third year.",
+          "vi": "Chị tôi là sinh viên y năm thứ ba.",
+          "image_url": "https://images.pexels.com/photos/29500566/pexels-photo-29500566.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Students get a discount at this museum on weekdays.",
+          "vi": "Học sinh, sinh viên được giảm giá ở bảo tàng này vào các ngày trong tuần."
+        }
+      ],
+      "collocations": [
+        "medical student",
+        "university student",
+        "student discount",
+        "exchange student"
+      ],
+      "notes": null,
+      "ipa": "/ˈstuːdnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/stu/stude/student__us_1.mp3"
+    },
+    {
+      "english": "face",
+      "vietnamese": "mặt; khuôn mặt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Go and wash your face before breakfast.",
+          "vi": "Con đi rửa mặt trước khi ăn sáng đi."
+        },
+        {
+          "en": "She had a big smile on her face all day.",
+          "vi": "Cả ngày trên mặt cô ấy luôn nở một nụ cười thật tươi."
+        },
+        {
+          "en": "I'll never forget the look on his face.",
+          "vi": "Tôi sẽ không bao giờ quên vẻ mặt của anh ấy lúc đó."
+        }
+      ],
+      "collocations": [
+        "wash your face",
+        "face to face",
+        "smile on your face"
+      ],
+      "notes": "Động từ face: đối mặt (face a problem)",
+      "ipa": "/feɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fac/face_/face__us_1.mp3"
+    },
+    {
+      "english": "hope",
+      "vietnamese": "hy vọng; mong",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I really hope you feel better soon.",
+          "vi": "Tôi thật lòng mong bạn sớm khỏe lại."
+        },
+        {
+          "en": "We're hoping to visit our grandparents this summer.",
+          "vi": "Chúng tôi hy vọng được về thăm ông bà vào mùa hè này."
+        },
+        {
+          "en": "She hopes to become a doctor one day.",
+          "vi": "Cô ấy hy vọng một ngày nào đó sẽ trở thành bác sĩ.",
+          "image_url": "https://images.pexels.com/photos/18252411/pexels-photo-18252411.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "I hope so",
+        "hope for the best",
+        "really hope"
+      ],
+      "notes": "hope to do something; hope (that) ...",
+      "ipa": "/həʊp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hop/hope_/hope__us_1.mp3"
+    },
+    {
+      "english": "idea",
+      "vietnamese": "ý tưởng; ý kiến",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "That's a great idea for a birthday present.",
+          "vi": "Đó là một ý tưởng tuyệt vời cho món quà sinh nhật."
+        },
+        {
+          "en": "It was her idea to go camping this weekend.",
+          "vi": "Đi cắm trại cuối tuần này là ý của cô ấy."
+        },
+        {
+          "en": "Do you think it's a good idea to buy a car now?",
+          "vi": "Bạn có nghĩ bây giờ mua ô tô là ý hay không?"
+        }
+      ],
+      "collocations": [
+        "good idea",
+        "great idea",
+        "have no idea",
+        "come up with an idea"
+      ],
+      "notes": null,
+      "ipa": "/aɪˈdiːə/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ide/idea_/idea__us_2.mp3"
+    },
+    {
+      "english": "cost",
+      "vietnamese": "có giá; tốn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "How much did your new laptop cost?",
+          "vi": "Chiếc laptop mới của bạn giá bao nhiêu?"
+        },
+        {
+          "en": "The trip cost us more than we expected.",
+          "vi": "Chuyến đi khiến chúng tôi tốn nhiều tiền hơn dự kiến."
+        },
+        {
+          "en": "Fixing the roof will cost about five hundred dollars.",
+          "vi": "Sửa mái nhà sẽ tốn khoảng năm trăm đô la."
+        }
+      ],
+      "collocations": [
+        "cost a lot",
+        "cost money",
+        "cost a fortune"
+      ],
+      "notes": "cost – cost – cost",
+      "ipa": "/kɔːst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cos/cost_/cost__us_1.mp3"
+    },
+    {
+      "english": "less",
+      "vietnamese": "ít hơn",
+      "part_of_speech": "determiner",
+      "examples": [
+        {
+          "en": "You should eat less sugar and more vegetables.",
+          "vi": "Bạn nên ăn ít đường hơn và ăn nhiều rau hơn."
+        },
+        {
+          "en": "I spend less time on my phone than I used to.",
+          "vi": "Bây giờ tôi dành ít thời gian cho điện thoại hơn trước."
+        },
+        {
+          "en": "It took less than ten minutes to get there.",
+          "vi": "Mất chưa đầy mười phút để đến đó."
+        }
+      ],
+      "collocations": [
+        "less than",
+        "less time",
+        "less money",
+        "more or less"
+      ],
+      "notes": "Dùng với danh từ không đếm được; danh từ đếm được dùng fewer",
+      "ipa": "/les/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/les/less_/less__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/9129539/pexels-photo-9129539.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Jorge Urosa",
+        "author_url": "https://www.pexels.com/@jorgeural",
+        "source_url": "https://www.pexels.com/photo/a-white-and-black-text-board-9129539/"
+      }
+    },
+    {
+      "english": "room",
+      "vietnamese": "phòng; chỗ trống",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My room is on the second floor.",
+          "vi": "Phòng của tôi ở tầng hai."
+        },
+        {
+          "en": "We booked a double room at a small hotel by the beach.",
+          "vi": "Chúng tôi đã đặt một phòng đôi ở một khách sạn nhỏ gần biển."
+        },
+        {
+          "en": "Is there enough room in the car for one more person?",
+          "vi": "Trong xe còn đủ chỗ cho thêm một người nữa không?"
+        }
+      ],
+      "collocations": [
+        "living room",
+        "double room",
+        "book a room",
+        "make room for"
+      ],
+      "notes": "Nghĩa \"chỗ trống\" không đếm được",
+      "ipa": "/ruːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/roo/room_/room__us_1_rr.mp3"
+    },
+    {
+      "english": "until",
+      "vietnamese": "đến; cho đến khi",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "The library is open until nine o'clock tonight.",
+          "vi": "Thư viện mở cửa đến chín giờ tối nay.",
+          "image_url": "https://images.pexels.com/photos/30073743/pexels-photo-30073743.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I lived with my parents until I was twenty-five.",
+          "vi": "Tôi sống cùng bố mẹ cho đến năm hai mươi lăm tuổi."
+        },
+        {
+          "en": "Please wait here until the doctor calls your name.",
+          "vi": "Vui lòng chờ ở đây cho đến khi bác sĩ gọi tên bạn."
+        }
+      ],
+      "collocations": [
+        "until now",
+        "until then",
+        "wait until"
+      ],
+      "notes": "not ... until: mãi đến ... mới",
+      "ipa": "/ənˈtɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/unt/until/until__us_1_rr.mp3"
+    },
+    {
+      "english": "reason",
+      "vietnamese": "lý do",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "What was the reason for the delay?",
+          "vi": "Lý do của việc chậm trễ là gì?"
+        },
+        {
+          "en": "She left the job for personal reasons.",
+          "vi": "Cô ấy nghỉ việc vì lý do cá nhân."
+        },
+        {
+          "en": "There is no reason to worry about the exam.",
+          "vi": "Không có lý do gì phải lo lắng về kỳ thi."
+        }
+      ],
+      "collocations": [
+        "reason for",
+        "for some reason",
+        "personal reasons",
+        "good reason"
+      ],
+      "notes": "reason for something",
+      "ipa": "/ˈriːzn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rea/reaso/reason__us_4.mp3"
+    },
+    {
+      "english": "form",
+      "vietnamese": "mẫu đơn; hình thức; dạng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please fill out this form and give it to the receptionist.",
+          "vi": "Vui lòng điền vào mẫu đơn này và nộp cho lễ tân."
+        },
+        {
+          "en": "Cycling is a cheap and healthy form of transportation.",
+          "vi": "Đi xe đạp là một hình thức đi lại rẻ và tốt cho sức khỏe.",
+          "image_url": "https://images.pexels.com/photos/9728622/pexels-photo-9728622.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Write the correct form of the verb in each blank.",
+          "vi": "Hãy viết dạng đúng của động từ vào mỗi chỗ trống."
+        }
+      ],
+      "collocations": [
+        "fill out a form",
+        "application form",
+        "a form of"
+      ],
+      "notes": null,
+      "ipa": "/fɔːrm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/for/form_/form__us_1.mp3"
+    },
+    {
+      "english": "spend",
+      "vietnamese": "tiêu; dành; trải qua",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She spends too much money on clothes.",
+          "vi": "Cô ấy tiêu quá nhiều tiền vào quần áo."
+        },
+        {
+          "en": "We spent the whole weekend at my uncle's farm.",
+          "vi": "Chúng tôi đã ở trang trại của chú tôi suốt cả cuối tuần."
+        },
+        {
+          "en": "How much time do you spend on homework every day?",
+          "vi": "Mỗi ngày bạn dành bao nhiêu thời gian làm bài tập về nhà?"
+        }
+      ],
+      "collocations": [
+        "spend money",
+        "spend time",
+        "spend the weekend"
+      ],
+      "notes": "spend – spent – spent; spend time/money on something",
+      "ipa": "/spend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spe/spend/spend__us_1.mp3"
+    },
+    {
+      "english": "head",
+      "vietnamese": "đầu; người đứng đầu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He hit his head on the door.",
+          "vi": "Anh ấy bị đập đầu vào cửa."
+        },
+        {
+          "en": "My head hurts because I didn't sleep well.",
+          "vi": "Tôi đau đầu vì ngủ không ngon."
+        },
+        {
+          "en": "My aunt is the head of a small primary school.",
+          "vi": "Dì tôi là hiệu trưởng một trường tiểu học nhỏ.",
+          "image_url": "https://images.pexels.com/photos/26761508/pexels-photo-26761508.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "shake your head",
+        "hit your head",
+        "head of"
+      ],
+      "notes": null,
+      "ipa": "/hed/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hea/head_/head__us_1.mp3"
+    }
+  ]
+}

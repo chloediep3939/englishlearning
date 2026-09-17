@@ -1,0 +1,815 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.501–2.809 · Bộ 4",
+    "description": "New General Service List, thứ hạng 2.501–2.809",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-6-04"
+  },
+  "cards": [
+    {
+      "english": "destruction",
+      "vietnamese": "sự phá hủy; sự tàn phá",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The storm caused terrible destruction along the coast last year.",
+          "vi": "Cơn bão năm ngoái đã gây ra sự tàn phá khủng khiếp dọc bờ biển."
+        },
+        {
+          "en": "Many animals are losing their homes because of the destruction of forests.",
+          "vi": "Nhiều loài động vật đang mất nơi sống vì rừng bị phá hủy."
+        },
+        {
+          "en": "We watched a film about the destruction of an ancient city.",
+          "vi": "Chúng tôi đã xem một bộ phim về sự hủy diệt của một thành phố cổ."
+        }
+      ],
+      "collocations": [
+        "cause destruction",
+        "the destruction of",
+        "widespread destruction",
+        "environmental destruction"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/dɪˈstrʌkʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/des/destr/destruction__us_1.mp3"
+    },
+    {
+      "english": "guitar",
+      "vietnamese": "đàn ghi-ta",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My brother taught himself to play the guitar last summer.",
+          "vi": "Anh trai tôi đã tự học chơi ghi-ta vào mùa hè năm ngoái."
+        },
+        {
+          "en": "She sat by the fire and played her guitar for us.",
+          "vi": "Cô ấy ngồi cạnh đống lửa và chơi ghi-ta cho chúng tôi nghe."
+        },
+        {
+          "en": "Do you know where I can buy a cheap guitar?",
+          "vi": "Bạn có biết chỗ nào mua được đàn ghi-ta rẻ không?"
+        }
+      ],
+      "collocations": [
+        "play the guitar",
+        "electric guitar",
+        "acoustic guitar",
+        "guitar lesson"
+      ],
+      "notes": null,
+      "ipa": "/ɡɪˈtɑːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gui/guita/guitar__us_2.mp3"
+    },
+    {
+      "english": "flag",
+      "vietnamese": "lá cờ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The children waved small flags as the runners went past.",
+          "vi": "Bọn trẻ vẫy những lá cờ nhỏ khi các vận động viên chạy ngang qua."
+        },
+        {
+          "en": "A red flag on the beach means it is not safe to swim.",
+          "vi": "Cờ đỏ trên bãi biển nghĩa là bơi không an toàn."
+        },
+        {
+          "en": "Every morning they raise the flag in front of the school.",
+          "vi": "Mỗi sáng họ kéo cờ trước cổng trường."
+        }
+      ],
+      "collocations": [
+        "national flag",
+        "wave a flag",
+        "raise a flag",
+        "red flag"
+      ],
+      "notes": null,
+      "ipa": "/flæɡ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fla/flag_/flag__us_1.mp3"
+    },
+    {
+      "english": "piano",
+      "vietnamese": "đàn piano; dương cầm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My daughter has been learning to play the piano for three years.",
+          "vi": "Con gái tôi đã học chơi piano được ba năm."
+        },
+        {
+          "en": "There is an old piano in the corner of the living room.",
+          "vi": "Có một cây đàn piano cũ ở góc phòng khách."
+        },
+        {
+          "en": "He practices the piano for an hour every evening after dinner.",
+          "vi": "Mỗi tối sau bữa ăn, anh ấy tập đàn piano một tiếng."
+        }
+      ],
+      "collocations": [
+        "play the piano",
+        "piano lesson",
+        "piano teacher",
+        "grand piano"
+      ],
+      "notes": null,
+      "ipa": "/piˈænəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pia/piano/piano__us_1.mp3"
+    },
+    {
+      "english": "magic",
+      "vietnamese": "phép thuật; ảo thuật; sự kỳ diệu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "In the story, the old woman uses magic to turn him into a frog.",
+          "vi": "Trong câu chuyện, bà lão dùng phép thuật biến anh ta thành một con ếch."
+        },
+        {
+          "en": "My uncle did a few magic tricks at the birthday party.",
+          "vi": "Chú tôi đã biểu diễn vài trò ảo thuật ở bữa tiệc sinh nhật."
+        },
+        {
+          "en": "Nobody can forget the magic of seeing snow for the first time.",
+          "vi": "Không ai quên được sự kỳ diệu của lần đầu tiên nhìn thấy tuyết."
+        }
+      ],
+      "collocations": [
+        "magic trick",
+        "black magic",
+        "like magic",
+        "the magic of"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈmædʒɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mag/magic/magic__us_1.mp3"
+    },
+    {
+      "english": "mystery",
+      "vietnamese": "điều bí ẩn; truyện trinh thám",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Where my keys went is still a complete mystery to me.",
+          "vi": "Chìa khóa của tôi biến đi đâu vẫn là một điều hoàn toàn bí ẩn với tôi."
+        },
+        {
+          "en": "Scientists are trying to solve the mystery of how the lake formed.",
+          "vi": "Các nhà khoa học đang cố giải đáp bí ẩn về việc hồ này hình thành như thế nào."
+        },
+        {
+          "en": "She likes to read a good mystery before going to bed.",
+          "vi": "Cô ấy thích đọc một cuốn truyện trinh thám hay trước khi đi ngủ."
+        }
+      ],
+      "collocations": [
+        "solve a mystery",
+        "remain a mystery",
+        "complete mystery",
+        "mystery novel"
+      ],
+      "notes": null,
+      "ipa": "/ˈmɪstəri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mys/myste/mystery__us_2.mp3"
+    },
+    {
+      "english": "ski",
+      "vietnamese": "trượt tuyết",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We go skiing in the mountains every winter with our cousins.",
+          "vi": "Mùa đông nào chúng tôi cũng đi trượt tuyết trên núi cùng anh em họ."
+        },
+        {
+          "en": "I learned to ski when I was about ten years old.",
+          "vi": "Tôi học trượt tuyết khi khoảng mười tuổi."
+        },
+        {
+          "en": "She skied down the hill much faster than the rest of us.",
+          "vi": "Cô ấy trượt tuyết xuống đồi nhanh hơn hẳn những người còn lại."
+        }
+      ],
+      "collocations": [
+        "go skiing",
+        "learn to ski",
+        "ski resort",
+        "ski slope"
+      ],
+      "notes": null,
+      "ipa": "/skiː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ski/ski__/ski__us_1.mp3"
+    },
+    {
+      "english": "whisper",
+      "vietnamese": "thì thầm; nói nhỏ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She leaned over and whispered something in my ear.",
+          "vi": "Cô ấy nghiêng người sang và thì thầm điều gì đó vào tai tôi."
+        },
+        {
+          "en": "Please whisper if you need to talk during the movie.",
+          "vi": "Nếu cần nói chuyện trong lúc xem phim thì làm ơn nói nhỏ thôi."
+        },
+        {
+          "en": "The two girls were whispering and laughing at the back of the class.",
+          "vi": "Hai cô bé đang thì thầm và cười khúc khích ở cuối lớp."
+        }
+      ],
+      "collocations": [
+        "whisper in someone's ear",
+        "whisper softly",
+        "whisper to someone"
+      ],
+      "notes": null,
+      "ipa": "/ˈwɪspər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/whi/whisp/whisper__us_1.mp3"
+    },
+    {
+      "english": "rear",
+      "vietnamese": "phía sau; đằng sau",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Passengers should leave the bus through the door at the rear.",
+          "vi": "Hành khách nên xuống xe buýt bằng cửa phía sau."
+        },
+        {
+          "en": "There is a small garden at the rear of the house.",
+          "vi": "Có một khu vườn nhỏ ở phía sau ngôi nhà."
+        },
+        {
+          "en": "Someone hit the rear of my car while I was parked.",
+          "vi": "Có người đã tông vào đuôi xe tôi khi tôi đang đỗ xe."
+        }
+      ],
+      "collocations": [
+        "at the rear",
+        "the rear of",
+        "rear window",
+        "rear seat"
+      ],
+      "notes": "Cũng là tính từ: rear door (cửa sau)",
+      "ipa": "/rɪr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rea/rear_/rear__us_1.mp3"
+    },
+    {
+      "english": "menu",
+      "vietnamese": "thực đơn; menu (máy tính)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Could we have a look at the menu, please?",
+          "vi": "Cho chúng tôi xem thực đơn được không ạ?"
+        },
+        {
+          "en": "There are several vegetarian dishes on the menu tonight.",
+          "vi": "Tối nay trong thực đơn có vài món chay."
+        },
+        {
+          "en": "Click the menu at the top of the screen to save your file.",
+          "vi": "Nhấp vào menu ở đầu màn hình để lưu tệp của bạn."
+        }
+      ],
+      "collocations": [
+        "on the menu",
+        "look at the menu",
+        "set menu",
+        "main menu"
+      ],
+      "notes": null,
+      "ipa": "/ˈmenjuː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/men/menu_/menu__us_1.mp3"
+    },
+    {
+      "english": "species",
+      "vietnamese": "loài",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Many species of birds live in this part of the forest.",
+          "vi": "Nhiều loài chim sống ở khu vực này của khu rừng."
+        },
+        {
+          "en": "Scientists have discovered a new species of frog in the mountains.",
+          "vi": "Các nhà khoa học đã phát hiện một loài ếch mới trên núi."
+        },
+        {
+          "en": "Some plant species are disappearing because the climate is changing.",
+          "vi": "Một số loài thực vật đang biến mất vì khí hậu đang thay đổi."
+        }
+      ],
+      "collocations": [
+        "endangered species",
+        "species of",
+        "animal species",
+        "new species"
+      ],
+      "notes": "Số ít và số nhiều giống nhau: species",
+      "ipa": "/ˈspiːʃiːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spe/speci/species__us_1_rr.mp3"
+    },
+    {
+      "english": "moon",
+      "vietnamese": "mặt trăng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The moon was so bright that we could see the path clearly.",
+          "vi": "Mặt trăng sáng đến mức chúng tôi nhìn rõ con đường."
+        },
+        {
+          "en": "Tonight there will be a full moon over the city.",
+          "vi": "Tối nay sẽ có trăng tròn trên bầu trời thành phố."
+        },
+        {
+          "en": "Do you remember when people first walked on the moon?",
+          "vi": "Bạn có nhớ lần đầu tiên con người đặt chân lên mặt trăng không?"
+        }
+      ],
+      "collocations": [
+        "full moon",
+        "new moon",
+        "the moon rises",
+        "on the moon"
+      ],
+      "notes": null,
+      "ipa": "/muːn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/moo/moon_/moon__us_1.mp3"
+    },
+    {
+      "english": "presumably",
+      "vietnamese": "có lẽ; chắc là",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The office is dark, so presumably everyone has already gone home.",
+          "vi": "Văn phòng tối om, nên chắc là mọi người đã về nhà cả rồi."
+        },
+        {
+          "en": "Presumably the train is late because of the heavy snow.",
+          "vi": "Có lẽ tàu bị trễ vì tuyết rơi dày."
+        },
+        {
+          "en": "He didn't answer, presumably because he was still asleep.",
+          "vi": "Anh ấy không trả lời, có lẽ vì vẫn còn đang ngủ."
+        }
+      ],
+      "collocations": [
+        "presumably because",
+        "presumably not"
+      ],
+      "notes": null,
+      "ipa": "/prɪˈzuːməbli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/presu/presumably__us_1.mp3"
+    },
+    {
+      "english": "bless",
+      "vietnamese": "ban phước; phù hộ; may mắn có (be blessed with)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "\"Bless you!\" she said when I sneezed for the third time.",
+          "vi": "Khi tôi hắt xì lần thứ ba, cô ấy nói: \"Bless you!\" (chúc sức khỏe)."
+        },
+        {
+          "en": "We feel truly blessed to have such kind and helpful neighbors.",
+          "vi": "Chúng tôi cảm thấy thật may mắn khi có những người hàng xóm tốt bụng và hay giúp đỡ như vậy."
+        },
+        {
+          "en": "My grandfather was blessed with good health until his nineties.",
+          "vi": "Ông tôi may mắn có sức khỏe tốt cho đến tận tuổi chín mươi."
+        }
+      ],
+      "collocations": [
+        "bless you",
+        "be blessed with",
+        "feel blessed"
+      ],
+      "notes": "Nói \"Bless you!\" khi ai đó hắt xì",
+      "ipa": "/bles/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/ble/bless/bless__us_1.mp3"
+    },
+    {
+      "english": "airline",
+      "vietnamese": "hãng hàng không",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Which airline are you flying with to Singapore next week?",
+          "vi": "Tuần sau bạn bay đi Singapore bằng hãng hàng không nào?"
+        },
+        {
+          "en": "The airline lost my suitcase, so I had no clean clothes.",
+          "vi": "Hãng hàng không làm thất lạc vali của tôi nên tôi không có quần áo sạch."
+        },
+        {
+          "en": "My sister works as a pilot for a small airline.",
+          "vi": "Chị gái tôi làm phi công cho một hãng hàng không nhỏ."
+        }
+      ],
+      "collocations": [
+        "airline ticket",
+        "budget airline",
+        "airline industry",
+        "airline passenger"
+      ],
+      "notes": null,
+      "ipa": "/ˈerlaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/air/airli/airline__us_1.mp3"
+    },
+    {
+      "english": "amendment",
+      "vietnamese": "sự sửa đổi; bản sửa đổi (luật, văn bản)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The committee made a small amendment to the contract before signing it.",
+          "vi": "Ủy ban đã sửa đổi nhỏ bản hợp đồng trước khi ký."
+        },
+        {
+          "en": "Parliament voted to pass the amendment after a long debate.",
+          "vi": "Quốc hội đã bỏ phiếu thông qua bản sửa đổi sau một cuộc tranh luận dài."
+        },
+        {
+          "en": "Please send any amendments to the report by Friday.",
+          "vi": "Vui lòng gửi mọi chỉnh sửa cho bản báo cáo trước thứ Sáu."
+        }
+      ],
+      "collocations": [
+        "make an amendment",
+        "pass an amendment",
+        "propose an amendment",
+        "amendment to"
+      ],
+      "notes": null,
+      "ipa": "/əˈmendmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ame/amend/amendment__us_1.mp3"
+    },
+    {
+      "english": "grandmother",
+      "vietnamese": "bà (nội, ngoại)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandmother taught me how to cook this soup.",
+          "vi": "Bà tôi đã dạy tôi cách nấu món canh này."
+        },
+        {
+          "en": "We visit our grandmother in the countryside every summer.",
+          "vi": "Mùa hè nào chúng tôi cũng về quê thăm bà."
+        },
+        {
+          "en": "Her grandmother is ninety but still walks to the market every day.",
+          "vi": "Bà của cô ấy đã chín mươi tuổi nhưng ngày nào cũng vẫn đi bộ ra chợ."
+        }
+      ],
+      "collocations": [
+        "visit your grandmother",
+        "great-grandmother",
+        "grandmother's house"
+      ],
+      "notes": null,
+      "ipa": "/ˈɡrænmʌðər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gra/grand/grandmother__us_1.mp3"
+    },
+    {
+      "english": "jury",
+      "vietnamese": "bồi thẩm đoàn; ban giám khảo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "After two days, the jury found the man not guilty.",
+          "vi": "Sau hai ngày, bồi thẩm đoàn tuyên bố người đàn ông vô tội."
+        },
+        {
+          "en": "The jury took several hours to reach a decision.",
+          "vi": "Bồi thẩm đoàn mất vài tiếng để đưa ra quyết định."
+        },
+        {
+          "en": "A jury of famous chefs chose the best dish in the competition.",
+          "vi": "Một ban giám khảo gồm các đầu bếp nổi tiếng đã chọn ra món ăn ngon nhất cuộc thi."
+        }
+      ],
+      "collocations": [
+        "jury trial",
+        "serve on a jury",
+        "the jury found",
+        "jury member"
+      ],
+      "notes": null,
+      "ipa": "/ˈdʒʊri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/j/jur/jury_/jury__us_1.mp3"
+    },
+    {
+      "english": "cooperation",
+      "vietnamese": "sự hợp tác",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Thank you for your cooperation during the building repairs.",
+          "vi": "Cảm ơn sự hợp tác của quý vị trong thời gian sửa chữa tòa nhà."
+        },
+        {
+          "en": "The project was a success thanks to close cooperation between the two teams.",
+          "vi": "Dự án thành công nhờ sự hợp tác chặt chẽ giữa hai nhóm."
+        },
+        {
+          "en": "Both countries have agreed to increase cooperation on trade.",
+          "vi": "Hai nước đã đồng ý tăng cường hợp tác về thương mại."
+        }
+      ],
+      "collocations": [
+        "close cooperation",
+        "cooperation between",
+        "in cooperation with",
+        "international cooperation"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/kəʊˌɑːpəˈreɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/coo/coope/cooperation__us_1.mp3"
+    },
+    {
+      "english": "civilian",
+      "vietnamese": "thường dân; dân thường",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new sports center is open to both soldiers and civilians.",
+          "vi": "Trung tâm thể thao mới mở cửa cho cả quân nhân lẫn dân thường."
+        },
+        {
+          "en": "My father was a soldier, but he became a civilian again at forty.",
+          "vi": "Bố tôi từng là quân nhân, nhưng ông trở lại làm dân thường ở tuổi bốn mươi."
+        },
+        {
+          "en": "Civilians are not allowed to enter the military base without a pass.",
+          "vi": "Dân thường không được vào căn cứ quân sự nếu không có giấy phép."
+        }
+      ],
+      "collocations": [
+        "civilian life",
+        "civilian population",
+        "protect civilians"
+      ],
+      "notes": null,
+      "ipa": "/səˈvɪliən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/civ/civil/civilian__us_1.mp3"
+    },
+    {
+      "english": "composition",
+      "vietnamese": "thành phần; bản nhạc, sáng tác; bài luận",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The composition of the team has changed a lot this year.",
+          "vi": "Thành phần của đội đã thay đổi nhiều trong năm nay."
+        },
+        {
+          "en": "She played one of her own compositions at the concert.",
+          "vi": "Cô ấy đã chơi một trong những sáng tác của chính mình tại buổi hòa nhạc."
+        },
+        {
+          "en": "Our teacher asked us to write a short composition about our summer.",
+          "vi": "Cô giáo yêu cầu chúng tôi viết một bài luận ngắn về mùa hè của mình."
+        }
+      ],
+      "collocations": [
+        "the composition of",
+        "musical composition",
+        "chemical composition",
+        "write a composition"
+      ],
+      "notes": null,
+      "ipa": "/ˌkɑːmpəˈzɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compo/composition__us_1.mp3"
+    },
+    {
+      "english": "coin",
+      "vietnamese": "đồng xu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I need some coins for the parking machine.",
+          "vi": "Tôi cần vài đồng xu để trả tiền ở máy đỗ xe."
+        },
+        {
+          "en": "Let's toss a coin to decide who goes first.",
+          "vi": "Mình tung đồng xu để quyết định ai đi trước nhé."
+        },
+        {
+          "en": "My grandfather has collected old coins for most of his life.",
+          "vi": "Ông tôi đã sưu tầm tiền xu cổ gần như cả đời."
+        }
+      ],
+      "collocations": [
+        "toss a coin",
+        "gold coin",
+        "collect coins",
+        "coin collection"
+      ],
+      "notes": null,
+      "ipa": "/kɔɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/coi/coin_/coin__us_1.mp3"
+    },
+    {
+      "english": "regardless",
+      "vietnamese": "bất kể; dù sao đi nữa",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Everyone can join the club regardless of age.",
+          "vi": "Ai cũng có thể tham gia câu lạc bộ, bất kể tuổi tác."
+        },
+        {
+          "en": "It was raining hard, but we went for our walk regardless.",
+          "vi": "Trời mưa to nhưng dù sao chúng tôi vẫn đi dạo."
+        },
+        {
+          "en": "Regardless of what happens, I will always support you.",
+          "vi": "Dù có chuyện gì xảy ra, tôi vẫn luôn ủng hộ bạn."
+        }
+      ],
+      "collocations": [
+        "regardless of",
+        "regardless of age",
+        "regardless of cost"
+      ],
+      "notes": "Thường đi với giới từ: regardless of + danh từ",
+      "ipa": "/rɪˈɡɑːrdləs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regar/regardless__us_1.mp3"
+    },
+    {
+      "english": "scan",
+      "vietnamese": "quét (máy); đọc lướt; nhìn kỹ khắp lượt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Could you scan these documents and email them to me?",
+          "vi": "Bạn có thể scan những tài liệu này rồi gửi email cho tôi không?"
+        },
+        {
+          "en": "I quickly scanned the newspaper for news about the match.",
+          "vi": "Tôi đọc lướt nhanh tờ báo để tìm tin về trận đấu."
+        },
+        {
+          "en": "She scanned the crowd, looking for her friend's face.",
+          "vi": "Cô ấy đưa mắt nhìn khắp đám đông, tìm khuôn mặt của người bạn."
+        }
+      ],
+      "collocations": [
+        "scan a document",
+        "scan the horizon",
+        "scan the crowd",
+        "quickly scan"
+      ],
+      "notes": "scan – scanned – scanned",
+      "ipa": "/skæn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sca/scan_/scan__us_1.mp3"
+    },
+    {
+      "english": "bunch",
+      "vietnamese": "chùm; bó; nhóm (người)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He bought a bunch of flowers for his wife's birthday.",
+          "vi": "Anh ấy mua một bó hoa nhân sinh nhật vợ."
+        },
+        {
+          "en": "Could you get a bunch of bananas on your way home?",
+          "vi": "Trên đường về bạn mua giúp một nải chuối được không?"
+        },
+        {
+          "en": "My new classmates are a really friendly bunch.",
+          "vi": "Các bạn cùng lớp mới của tôi là một nhóm người rất thân thiện."
+        }
+      ],
+      "collocations": [
+        "a bunch of flowers",
+        "a bunch of keys",
+        "a bunch of grapes",
+        "a whole bunch of"
+      ],
+      "notes": "Văn nói: a bunch of = nhiều",
+      "ipa": "/bʌntʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bun/bunch/bunch__us_1.mp3"
+    },
+    {
+      "english": "racial",
+      "vietnamese": "(thuộc) chủng tộc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The school welcomes students from many different racial backgrounds.",
+          "vi": "Trường chào đón học sinh đến từ nhiều nguồn gốc chủng tộc khác nhau."
+        },
+        {
+          "en": "Racial discrimination at work is against the law in many countries.",
+          "vi": "Ở nhiều nước, phân biệt chủng tộc nơi làm việc là vi phạm pháp luật."
+        },
+        {
+          "en": "The company wants to improve racial equality in its hiring.",
+          "vi": "Công ty muốn cải thiện sự bình đẳng chủng tộc trong việc tuyển dụng."
+        }
+      ],
+      "collocations": [
+        "racial discrimination",
+        "racial equality",
+        "racial background",
+        "racial groups"
+      ],
+      "notes": null,
+      "ipa": "/ˈreɪʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rac/racia/racial__us_1.mp3"
+    },
+    {
+      "english": "greet",
+      "vietnamese": "chào; đón chào",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The hotel manager greeted us warmly at the front door.",
+          "vi": "Quản lý khách sạn đã niềm nở chào đón chúng tôi ở cửa chính."
+        },
+        {
+          "en": "Our dog always greets me when I get home from work.",
+          "vi": "Con chó nhà tôi lúc nào cũng ra chào khi tôi đi làm về."
+        },
+        {
+          "en": "In some countries, people greet each other with a kiss on the cheek.",
+          "vi": "Ở một số nước, mọi người chào nhau bằng một nụ hôn lên má."
+        }
+      ],
+      "collocations": [
+        "greet someone warmly",
+        "greet each other",
+        "greet guests",
+        "be greeted with"
+      ],
+      "notes": null,
+      "ipa": "/ɡriːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gre/greet/greet__us_1.mp3"
+    },
+    {
+      "english": "hopefully",
+      "vietnamese": "hy vọng là; mong là",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Hopefully the weather will be better tomorrow.",
+          "vi": "Hy vọng là ngày mai thời tiết sẽ đẹp hơn."
+        },
+        {
+          "en": "I'm leaving now, so hopefully I'll be there by six.",
+          "vi": "Tôi đi bây giờ đây, nên mong là sẽ tới đó trước sáu giờ."
+        },
+        {
+          "en": "We've fixed the problem, and hopefully it won't happen again.",
+          "vi": "Chúng tôi đã khắc phục sự cố, và hy vọng là nó sẽ không xảy ra nữa."
+        }
+      ],
+      "collocations": [
+        "hopefully not",
+        "hopefully soon"
+      ],
+      "notes": null,
+      "ipa": "/ˈhəʊpfəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hop/hopef/hopefully__us_1.mp3"
+    },
+    {
+      "english": "sanction",
+      "vietnamese": "lệnh trừng phạt; sự cho phép",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Several countries have placed economic sanctions on the government.",
+          "vi": "Một số quốc gia đã áp đặt các lệnh trừng phạt kinh tế lên chính phủ này."
+        },
+        {
+          "en": "The sanctions will be lifted if both sides reach an agreement.",
+          "vi": "Các lệnh trừng phạt sẽ được dỡ bỏ nếu hai bên đạt được thỏa thuận."
+        },
+        {
+          "en": "Nobody may use the hall without the official sanction of the school.",
+          "vi": "Không ai được sử dụng hội trường khi chưa có sự cho phép chính thức của nhà trường."
+        }
+      ],
+      "collocations": [
+        "impose sanctions",
+        "economic sanctions",
+        "lift sanctions",
+        "trade sanctions"
+      ],
+      "notes": "Nghĩa \"trừng phạt\" thường dùng số nhiều: sanctions",
+      "ipa": "/ˈsæŋkʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/san/sanct/sanction__us_1.mp3"
+    }
+  ]
+}

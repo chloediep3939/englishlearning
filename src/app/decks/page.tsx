@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowLeft, FileDown, Folder } from 'lucide-react';
+import { ArrowLeft, FileDown, Folder, Library } from 'lucide-react';
 import DeckList from '@/components/DeckList';
 import MDecksList from '@/components/app-mobile/screens/MDecksList';
 import DeckImportButton from '@/components/DeckImportButton';
@@ -56,6 +56,27 @@ export default async function DecksPage() {
           <Folder size={24} style={{ color: 'var(--v-primary)' }} /> Bộ từ
         </h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
+          <Link
+            href="/decks/library"
+            title="Bộ từ soạn sẵn theo level (từ thông dụng, từ học thuật)"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 6,
+              padding: '8px 14px',
+              background: 'var(--v-surface)',
+              color: 'var(--v-primary)',
+              border: '1px solid var(--v-primary)',
+              borderRadius: 'var(--v-radius-md)',
+              boxShadow: 'var(--v-shadow-sm)',
+              fontFamily: 'var(--v-font-head)',
+              fontWeight: 800,
+              fontSize: 'var(--v-text-sm)',
+              textDecoration: 'none',
+            }}
+          >
+            <Library size={13} /> Thư viện
+          </Link>
           <DeckCreateButton />
           <DeckImportButton />
           {/* Static sample of the import format (served from /public) — each

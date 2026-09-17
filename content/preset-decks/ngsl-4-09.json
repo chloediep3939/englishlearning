@@ -1,0 +1,822 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.501–2.000 · Bộ 9",
+    "description": "New General Service List, thứ hạng 1.501–2.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-4-09"
+  },
+  "cards": [
+    {
+      "english": "attach",
+      "vietnamese": "gắn; đính kèm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please attach a recent photo to your application form.",
+          "vi": "Vui lòng đính kèm một ảnh gần đây vào đơn đăng ký."
+        },
+        {
+          "en": "I forgot to attach the file to my email.",
+          "vi": "Tôi quên đính kèm tệp vào email."
+        },
+        {
+          "en": "The shelf is attached to the wall with four screws.",
+          "vi": "Cái kệ được gắn vào tường bằng bốn con vít."
+        }
+      ],
+      "collocations": [
+        "attach a file",
+        "attach a photo",
+        "attach importance to"
+      ],
+      "notes": "attach sth to sth",
+      "ipa": "/əˈtætʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/att/attac/attach__us_1.mp3"
+    },
+    {
+      "english": "hell",
+      "vietnamese": "địa ngục; cực hình",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Driving in rush hour traffic is pure hell.",
+          "vi": "Lái xe vào giờ cao điểm đúng là cực hình."
+        },
+        {
+          "en": "She went through hell when her company closed down.",
+          "vi": "Cô ấy đã trải qua một thời gian cực khổ khi công ty đóng cửa."
+        },
+        {
+          "en": "We had a hell of a time finding a parking space.",
+          "vi": "Chúng tôi đã rất vất vả mới tìm được chỗ đậu xe."
+        }
+      ],
+      "collocations": [
+        "pure hell",
+        "go through hell",
+        "a hell of a"
+      ],
+      "notes": "Khẩu ngữ, chỉ dùng trong tình huống thân mật",
+      "ipa": "/hel/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hel/hell_/hell__us_1.mp3"
+    },
+    {
+      "english": "everywhere",
+      "vietnamese": "khắp nơi; ở mọi nơi",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I've looked everywhere, but I can't find my keys.",
+          "vi": "Tôi đã tìm khắp nơi mà không thấy chìa khóa đâu."
+        },
+        {
+          "en": "There were people everywhere at the night market.",
+          "vi": "Ở chợ đêm, đâu đâu cũng có người."
+        },
+        {
+          "en": "You can buy this kind of phone charger almost everywhere.",
+          "vi": "Bạn có thể mua loại sạc điện thoại này ở hầu như mọi nơi."
+        }
+      ],
+      "collocations": [
+        "look everywhere",
+        "almost everywhere",
+        "everywhere else"
+      ],
+      "notes": null,
+      "ipa": "/ˈevriwer/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eve/every/everywhere__us_1.mp3"
+    },
+    {
+      "english": "advise",
+      "vietnamese": "khuyên; tư vấn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The doctor advised me to get more sleep.",
+          "vi": "Bác sĩ khuyên tôi nên ngủ nhiều hơn."
+        },
+        {
+          "en": "I would advise you not to drive in this weather.",
+          "vi": "Tôi khuyên bạn không nên lái xe trong thời tiết thế này."
+        },
+        {
+          "en": "Our teacher advises students on which courses to take.",
+          "vi": "Thầy giáo tư vấn cho sinh viên nên chọn học những môn nào."
+        }
+      ],
+      "collocations": [
+        "advise sb to do sth",
+        "strongly advise",
+        "advise on"
+      ],
+      "notes": "advise (v) ≠ advice (n)",
+      "ipa": "/ədˈvaɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adv/advis/advise__us_1.mp3"
+    },
+    {
+      "english": "household",
+      "vietnamese": "hộ gia đình; gia đình",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Almost every household in the village has a motorbike.",
+          "vi": "Hầu như hộ gia đình nào trong làng cũng có xe máy."
+        },
+        {
+          "en": "Who does the cooking in your household?",
+          "vi": "Trong gia đình bạn, ai là người nấu ăn?"
+        },
+        {
+          "en": "The average household income in the city has risen this year.",
+          "vi": "Thu nhập trung bình của các hộ gia đình trong thành phố đã tăng trong năm nay."
+        }
+      ],
+      "collocations": [
+        "household income",
+        "household chores",
+        "head of the household"
+      ],
+      "notes": null,
+      "ipa": "/ˈhaʊshəʊld/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hou/house/household__us_1_rr.mp3"
+    },
+    {
+      "english": "acknowledge",
+      "vietnamese": "thừa nhận; xác nhận",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "He finally acknowledged that he had made a mistake.",
+          "vi": "Cuối cùng anh ấy cũng thừa nhận mình đã mắc lỗi."
+        },
+        {
+          "en": "The company acknowledged the problem and apologized to its customers.",
+          "vi": "Công ty đã thừa nhận vấn đề và xin lỗi khách hàng."
+        },
+        {
+          "en": "Please acknowledge receipt of this email as soon as possible.",
+          "vi": "Vui lòng xác nhận đã nhận được email này càng sớm càng tốt."
+        }
+      ],
+      "collocations": [
+        "acknowledge receipt of",
+        "acknowledge the problem",
+        "publicly acknowledge"
+      ],
+      "notes": null,
+      "ipa": "/əkˈnɑːlɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ack/ackno/acknowledge__us_1.mp3"
+    },
+    {
+      "english": "reward",
+      "vietnamese": "phần thưởng; tiền thưởng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The children got ice cream as a reward for being good.",
+          "vi": "Bọn trẻ được ăn kem như một phần thưởng vì đã ngoan."
+        },
+        {
+          "en": "The owner is offering a reward for finding her lost dog.",
+          "vi": "Cô chủ đang treo thưởng cho ai tìm thấy chú chó bị lạc của mình."
+        },
+        {
+          "en": "Seeing my students succeed is the greatest reward of teaching.",
+          "vi": "Thấy học trò thành công là phần thưởng lớn nhất của nghề dạy học."
+        }
+      ],
+      "collocations": [
+        "as a reward",
+        "offer a reward",
+        "reward for"
+      ],
+      "notes": "Cũng là động từ: reward sb for sth (thưởng)",
+      "ipa": "/rɪˈwɔːrd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rew/rewar/reward__us_1.mp3"
+    },
+    {
+      "english": "east",
+      "vietnamese": "phía đông; hướng đông",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The sun rises in the east and sets in the west.",
+          "vi": "Mặt trời mọc ở phía đông và lặn ở phía tây."
+        },
+        {
+          "en": "Their farm is about ten kilometers to the east of town.",
+          "vi": "Trang trại của họ cách thị trấn khoảng mười cây số về phía đông."
+        },
+        {
+          "en": "A cold wind is blowing from the east today.",
+          "vi": "Hôm nay có gió lạnh thổi từ hướng đông."
+        }
+      ],
+      "collocations": [
+        "in the east",
+        "to the east of",
+        "from the east"
+      ],
+      "notes": null,
+      "ipa": "/iːst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eas/east_/east__us_1.mp3"
+    },
+    {
+      "english": "hat",
+      "vietnamese": "mũ; nón",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Don't forget to wear a hat in the sun.",
+          "vi": "Đừng quên đội mũ khi ra nắng."
+        },
+        {
+          "en": "He took off his hat when he walked into the room.",
+          "vi": "Anh ấy bỏ mũ ra khi bước vào phòng."
+        },
+        {
+          "en": "My grandmother bought me a warm wool hat for winter.",
+          "vi": "Bà mua cho tôi một chiếc mũ len ấm để đội vào mùa đông."
+        }
+      ],
+      "collocations": [
+        "wear a hat",
+        "take off your hat",
+        "wool hat",
+        "straw hat"
+      ],
+      "notes": null,
+      "ipa": "/hæt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hat/hat__/hat__us_1.mp3"
+    },
+    {
+      "english": "academic",
+      "vietnamese": "(thuộc) học thuật; (thuộc) học tập",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She has always had excellent academic results.",
+          "vi": "Cô ấy luôn có kết quả học tập xuất sắc."
+        },
+        {
+          "en": "The new academic year starts in early September.",
+          "vi": "Năm học mới bắt đầu vào đầu tháng Chín."
+        },
+        {
+          "en": "Writing an academic paper takes a lot of time and research.",
+          "vi": "Viết một bài báo học thuật cần nhiều thời gian và nghiên cứu."
+        }
+      ],
+      "collocations": [
+        "academic year",
+        "academic performance",
+        "academic writing"
+      ],
+      "notes": null,
+      "ipa": "/ˌækəˈdemɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aca/acade/academic__us_2.mp3"
+    },
+    {
+      "english": "voter",
+      "vietnamese": "cử tri; người bỏ phiếu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Every voter must show an ID card at the polling station.",
+          "vi": "Mỗi cử tri phải xuất trình thẻ căn cước tại điểm bỏ phiếu."
+        },
+        {
+          "en": "More young voters took part in the election this year.",
+          "vi": "Năm nay có nhiều cử tri trẻ tham gia bầu cử hơn."
+        },
+        {
+          "en": "The team captain was chosen by a small group of voters.",
+          "vi": "Đội trưởng được một nhóm nhỏ người bỏ phiếu lựa chọn."
+        }
+      ],
+      "collocations": [
+        "young voters",
+        "first-time voters",
+        "voter turnout"
+      ],
+      "notes": null,
+      "ipa": "/ˈvəʊtər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vot/voter/voter__us_1.mp3"
+    },
+    {
+      "english": "meanwhile",
+      "vietnamese": "trong khi đó; trong lúc chờ đợi",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Dinner will be ready soon; meanwhile, you can set the table.",
+          "vi": "Bữa tối sắp xong rồi; trong lúc chờ, bạn dọn bàn ăn nhé."
+        },
+        {
+          "en": "I cooked dinner, and meanwhile my husband gave the kids a bath.",
+          "vi": "Tôi nấu bữa tối, còn trong khi đó chồng tôi tắm cho bọn trẻ."
+        },
+        {
+          "en": "Prices keep rising; meanwhile, wages have stayed the same.",
+          "vi": "Giá cả liên tục tăng; trong khi đó, lương vẫn giữ nguyên."
+        }
+      ],
+      "collocations": [
+        "in the meanwhile",
+        "and meanwhile"
+      ],
+      "notes": null,
+      "ipa": "/ˈmiːnwaɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mea/meanw/meanwhile__us_1.mp3"
+    },
+    {
+      "english": "furthermore",
+      "vietnamese": "hơn nữa; ngoài ra",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The hotel is cheap; furthermore, it is close to the beach.",
+          "vi": "Khách sạn này rẻ; hơn nữa, nó lại gần biển."
+        },
+        {
+          "en": "Furthermore, the new system will save staff a lot of time.",
+          "vi": "Hơn nữa, hệ thống mới sẽ giúp nhân viên tiết kiệm nhiều thời gian."
+        },
+        {
+          "en": "The course is free, and furthermore, you get a certificate at the end.",
+          "vi": "Khóa học miễn phí, và ngoài ra bạn còn được nhận chứng chỉ khi kết thúc."
+        }
+      ],
+      "collocations": [
+        "and furthermore",
+        "furthermore, it is"
+      ],
+      "notes": "Trang trọng, thường dùng trong văn viết",
+      "ipa": "/ˌfɜːrðərˈmɔːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fur/furth/furthermore__us_4.mp3"
+    },
+    {
+      "english": "accuse",
+      "vietnamese": "buộc tội; cáo buộc",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She accused me of reading her diary.",
+          "vi": "Cô ấy buộc tội tôi đã đọc nhật ký của cô ấy."
+        },
+        {
+          "en": "Are you accusing me of lying to you about the money?",
+          "vi": "Bạn đang buộc tội tôi nói dối bạn về chuyện tiền bạc à?"
+        },
+        {
+          "en": "The company was accused of paying its workers too little.",
+          "vi": "Công ty bị cáo buộc trả lương quá thấp cho công nhân."
+        }
+      ],
+      "collocations": [
+        "accuse sb of",
+        "be accused of",
+        "falsely accuse"
+      ],
+      "notes": "accuse sb of (doing) sth",
+      "ipa": "/əˈkjuːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/accus/accuse__us_2.mp3"
+    },
+    {
+      "english": "scientific",
+      "vietnamese": "(thuộc) khoa học; có tính khoa học",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "There is no scientific evidence that this tea helps you lose weight.",
+          "vi": "Không có bằng chứng khoa học nào cho thấy loại trà này giúp giảm cân."
+        },
+        {
+          "en": "Scientific research often takes many years and a lot of money.",
+          "vi": "Nghiên cứu khoa học thường mất nhiều năm và tốn nhiều tiền."
+        },
+        {
+          "en": "We need a more scientific approach to solving this problem.",
+          "vi": "Chúng ta cần một cách tiếp cận khoa học hơn để giải quyết vấn đề này."
+        }
+      ],
+      "collocations": [
+        "scientific evidence",
+        "scientific research",
+        "scientific approach"
+      ],
+      "notes": null,
+      "ipa": "/ˌsaɪənˈtɪfɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sci/scien/scientific__us_1.mp3"
+    },
+    {
+      "english": "wage",
+      "vietnamese": "tiền lương; tiền công",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The minimum wage will go up again next year.",
+          "vi": "Mức lương tối thiểu sẽ lại tăng vào năm sau."
+        },
+        {
+          "en": "Workers at the factory are asking for higher wages.",
+          "vi": "Công nhân ở nhà máy đang đòi được trả lương cao hơn."
+        },
+        {
+          "en": "He earns a good wage working in a hotel kitchen.",
+          "vi": "Anh ấy kiếm được mức lương khá khi làm trong bếp của một khách sạn."
+        }
+      ],
+      "collocations": [
+        "minimum wage",
+        "higher wages",
+        "earn a wage"
+      ],
+      "notes": "wage: lương theo giờ/tuần ≠ salary: lương tháng/năm",
+      "ipa": "/weɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wag/wage_/wage__us_1.mp3"
+    },
+    {
+      "english": "absence",
+      "vietnamese": "sự vắng mặt; sự thiếu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Nobody noticed his absence from the meeting.",
+          "vi": "Không ai để ý anh ấy vắng mặt trong cuộc họp."
+        },
+        {
+          "en": "My neighbor fed my cat during my absence.",
+          "vi": "Hàng xóm cho mèo của tôi ăn trong thời gian tôi vắng nhà."
+        },
+        {
+          "en": "The absence of clear rules caused a lot of confusion.",
+          "vi": "Việc thiếu quy định rõ ràng đã gây ra nhiều nhầm lẫn."
+        }
+      ],
+      "collocations": [
+        "absence from",
+        "in the absence of",
+        "long absence"
+      ],
+      "notes": null,
+      "ipa": "/ˈæbsəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/abs/absen/absence__us_1.mp3"
+    },
+    {
+      "english": "construct",
+      "vietnamese": "xây dựng; tạo dựng; đặt (câu)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The bridge was constructed more than a hundred years ago.",
+          "vi": "Cây cầu được xây dựng cách đây hơn một trăm năm."
+        },
+        {
+          "en": "The city plans to construct a new hospital near the river.",
+          "vi": "Thành phố dự định xây một bệnh viện mới gần sông."
+        },
+        {
+          "en": "Can you construct a sentence using this new word?",
+          "vi": "Bạn có thể đặt một câu với từ mới này không?"
+        }
+      ],
+      "collocations": [
+        "construct a building",
+        "construct a bridge",
+        "construct a sentence"
+      ],
+      "notes": null,
+      "ipa": "/kənˈstrʌkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconstruct__us_1.mp3"
+    },
+    {
+      "english": "remark",
+      "vietnamese": "lời nhận xét; lời bình luận",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "His rude remark about her cooking really upset her.",
+          "vi": "Lời nhận xét khiếm nhã của anh ấy về tài nấu ăn của cô ấy khiến cô rất buồn."
+        },
+        {
+          "en": "She made a few remarks about the weather and then left.",
+          "vi": "Cô ấy bình luận vài câu về thời tiết rồi rời đi."
+        },
+        {
+          "en": "Don't take his remark seriously; he was only joking.",
+          "vi": "Đừng để bụng lời nhận xét của anh ấy; anh ấy chỉ đùa thôi."
+        }
+      ],
+      "collocations": [
+        "make a remark",
+        "rude remark",
+        "passing remark"
+      ],
+      "notes": "Cũng là động từ: remark on sth (nhận xét về)",
+      "ipa": "/rɪˈmɑːrk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rem/remar/remark__us_1.mp3"
+    },
+    {
+      "english": "medicine",
+      "vietnamese": "thuốc; y học",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Take this medicine three times a day after meals.",
+          "vi": "Uống thuốc này ba lần một ngày sau bữa ăn."
+        },
+        {
+          "en": "Keep all medicine out of the reach of small children.",
+          "vi": "Hãy để tất cả thuốc xa tầm tay trẻ nhỏ."
+        },
+        {
+          "en": "My sister is studying medicine at university.",
+          "vi": "Chị tôi đang học ngành y ở đại học."
+        }
+      ],
+      "collocations": [
+        "take medicine",
+        "study medicine",
+        "modern medicine"
+      ],
+      "notes": "take medicine = uống thuốc",
+      "ipa": "/ˈmedɪsn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/med/medic/medicine__us_2.mp3"
+    },
+    {
+      "english": "professor",
+      "vietnamese": "giáo sư; giảng viên đại học",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My professor gave me some useful advice about my thesis.",
+          "vi": "Giáo sư của tôi đã cho tôi vài lời khuyên hữu ích về luận văn."
+        },
+        {
+          "en": "She became a professor of chemistry at the age of forty.",
+          "vi": "Bà ấy trở thành giáo sư hóa học ở tuổi bốn mươi."
+        },
+        {
+          "en": "Our history professor always tells funny stories in class.",
+          "vi": "Giảng viên môn lịch sử của chúng tôi luôn kể chuyện vui trong giờ học."
+        }
+      ],
+      "collocations": [
+        "professor of",
+        "university professor",
+        "history professor"
+      ],
+      "notes": "Ở Mỹ, professor thường dùng chung cho giảng viên đại học",
+      "ipa": "/prəˈfesər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/profe/professor__us_4.mp3"
+    },
+    {
+      "english": "rare",
+      "vietnamese": "hiếm; hiếm có; (thịt) tái",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "This plant is very rare and only grows in the mountains.",
+          "vi": "Loài cây này rất hiếm và chỉ mọc trên núi."
+        },
+        {
+          "en": "It is rare for him to be late for work.",
+          "vi": "Hiếm khi anh ấy đi làm muộn."
+        },
+        {
+          "en": "Could I have my steak rare, please?",
+          "vi": "Cho tôi món bít tết tái nhé."
+        }
+      ],
+      "collocations": [
+        "extremely rare",
+        "rare species",
+        "it is rare for"
+      ],
+      "notes": null,
+      "ipa": "/rer/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rar/rare_/rare__us_1.mp3"
+    },
+    {
+      "english": "intention",
+      "vietnamese": "ý định; dự định",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I have no intention of leaving my job right now.",
+          "vi": "Tôi không có ý định nghỉ việc lúc này."
+        },
+        {
+          "en": "Her intention was to help, not to cause trouble.",
+          "vi": "Ý định của cô ấy là giúp đỡ, chứ không phải gây rắc rối."
+        },
+        {
+          "en": "He announced his intention to study abroad next year.",
+          "vi": "Anh ấy thông báo dự định đi du học vào năm sau."
+        }
+      ],
+      "collocations": [
+        "have no intention of",
+        "announce your intention",
+        "good intentions"
+      ],
+      "notes": "intention of doing / intention to do",
+      "ipa": "/ɪnˈtenʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/inten/intention__us_2.mp3"
+    },
+    {
+      "english": "dozen",
+      "vietnamese": "tá (mười hai); hàng chục",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I bought a dozen eggs at the market this morning.",
+          "vi": "Sáng nay tôi mua một tá trứng ở chợ."
+        },
+        {
+          "en": "There were dozens of people waiting outside the shop.",
+          "vi": "Có hàng chục người đang đợi bên ngoài cửa hàng."
+        },
+        {
+          "en": "I've told you a dozen times to close the door.",
+          "vi": "Tôi đã bảo bạn cả chục lần là phải đóng cửa rồi."
+        }
+      ],
+      "collocations": [
+        "a dozen eggs",
+        "dozens of",
+        "half a dozen"
+      ],
+      "notes": "a dozen eggs (không có 'of') · dozens of people",
+      "ipa": "/ˈdʌzn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/doz/dozen/dozen__us_3.mp3"
+    },
+    {
+      "english": "settlement",
+      "vietnamese": "sự thỏa thuận; sự dàn xếp; khu định cư",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The two companies finally reached a settlement after months of talks.",
+          "vi": "Hai công ty cuối cùng đã đạt được thỏa thuận sau nhiều tháng đàm phán."
+        },
+        {
+          "en": "People built a small settlement beside the river long ago.",
+          "vi": "Từ rất lâu, người ta đã lập một khu định cư nhỏ bên sông."
+        },
+        {
+          "en": "The fishing settlement slowly grew into a busy port town.",
+          "vi": "Khu định cư của dân chài dần phát triển thành một thị trấn cảng nhộn nhịp."
+        }
+      ],
+      "collocations": [
+        "reach a settlement",
+        "out-of-court settlement",
+        "small settlement"
+      ],
+      "notes": null,
+      "ipa": "/ˈsetlmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/set/settl/settlement__us_1.mp3"
+    },
+    {
+      "english": "gap",
+      "vietnamese": "khe hở; khoảng trống; khoảng cách",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The cat got out through a gap in the fence.",
+          "vi": "Con mèo chui ra ngoài qua một khe hở ở hàng rào."
+        },
+        {
+          "en": "There is a big age gap between me and my brother.",
+          "vi": "Giữa tôi và anh trai có khoảng cách tuổi tác lớn."
+        },
+        {
+          "en": "The gap between rich and poor is getting wider.",
+          "vi": "Khoảng cách giàu nghèo đang ngày càng lớn."
+        }
+      ],
+      "collocations": [
+        "a gap in",
+        "age gap",
+        "gap between",
+        "fill the gap"
+      ],
+      "notes": null,
+      "ipa": "/ɡæp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gap/gap__/gap__us_1.mp3"
+    },
+    {
+      "english": "widely",
+      "vietnamese": "rộng rãi; nhiều",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "English is widely spoken in this part of the city.",
+          "vi": "Tiếng Anh được sử dụng rộng rãi ở khu vực này của thành phố."
+        },
+        {
+          "en": "This book is widely read by high school students.",
+          "vi": "Cuốn sách này được rất nhiều học sinh cấp ba đọc."
+        },
+        {
+          "en": "Prices vary widely from one shop to another.",
+          "vi": "Giá cả chênh lệch nhiều giữa các cửa hàng."
+        }
+      ],
+      "collocations": [
+        "widely used",
+        "widely available",
+        "vary widely"
+      ],
+      "notes": null,
+      "ipa": "/ˈwaɪdli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wid/widel/widely__us_1.mp3"
+    },
+    {
+      "english": "minimum",
+      "vietnamese": "mức tối thiểu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "You need a minimum of three people to play this game.",
+          "vi": "Cần tối thiểu ba người để chơi trò này."
+        },
+        {
+          "en": "Please keep the noise to a minimum; the baby is sleeping.",
+          "vi": "Hãy giữ tiếng ồn ở mức tối thiểu nhé; em bé đang ngủ."
+        },
+        {
+          "en": "The course takes a minimum of two years to finish.",
+          "vi": "Khóa học cần tối thiểu hai năm để hoàn thành."
+        }
+      ],
+      "collocations": [
+        "a minimum of",
+        "keep to a minimum",
+        "bare minimum"
+      ],
+      "notes": "minimum ≠ maximum (mức tối đa)",
+      "ipa": "/ˈmɪnɪməm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/min/minim/minimum__us_2.mp3"
+    },
+    {
+      "english": "northern",
+      "vietnamese": "(thuộc) phía bắc; miền Bắc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "They live in a small town in northern Vietnam.",
+          "vi": "Họ sống ở một thị trấn nhỏ ở miền Bắc Việt Nam."
+        },
+        {
+          "en": "Winters in the northern part of the country are very cold.",
+          "vi": "Mùa đông ở phía bắc đất nước rất lạnh."
+        },
+        {
+          "en": "We stayed at a hotel on the northern edge of the lake.",
+          "vi": "Chúng tôi ở một khách sạn nằm ở rìa phía bắc của hồ."
+        }
+      ],
+      "collocations": [
+        "northern part",
+        "northern edge",
+        "northern border"
+      ],
+      "notes": null,
+      "ipa": "/ˈnɔːrðərn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nor/north/northern__us_1.mp3"
+    },
+    {
+      "english": "estate",
+      "vietnamese": "bất động sản; điền trang; tài sản",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My uncle works in real estate in the city center.",
+          "vi": "Chú tôi làm trong ngành bất động sản ở trung tâm thành phố."
+        },
+        {
+          "en": "The family owns a large tea estate in the hills.",
+          "vi": "Gia đình ấy sở hữu một đồn điền chè lớn trên đồi."
+        },
+        {
+          "en": "Her grandfather left his whole estate to the local school.",
+          "vi": "Ông của cô ấy để lại toàn bộ tài sản cho trường học địa phương."
+        }
+      ],
+      "collocations": [
+        "real estate",
+        "real estate agent",
+        "country estate"
+      ],
+      "notes": "real estate (Mỹ) = property (Anh): bất động sản",
+      "ipa": "/ɪˈsteɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/est/estat/estate__us_2.mp3"
+    }
+  ]
+}

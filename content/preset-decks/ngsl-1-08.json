@@ -1,0 +1,857 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1–500 · Bộ 8",
+    "description": "New General Service List, thứ hạng 1–500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-1-08"
+  },
+  "cards": [
+    {
+      "english": "possible",
+      "vietnamese": "có thể; khả thi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Could you please send me the report as soon as possible?",
+          "vi": "Bạn có thể gửi cho tôi bản báo cáo sớm nhất có thể không?"
+        },
+        {
+          "en": "Is it possible to change my flight to Friday?",
+          "vi": "Có thể đổi chuyến bay của tôi sang thứ Sáu không?"
+        },
+        {
+          "en": "Without your help, this project would not have been possible.",
+          "vi": "Nếu không có sự giúp đỡ của bạn, dự án này đã không thể thực hiện được."
+        }
+      ],
+      "collocations": [
+        "as soon as possible",
+        "if possible",
+        "possible solution"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɑːsəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pos/possi/possible__us_1.mp3"
+    },
+    {
+      "english": "actually",
+      "vietnamese": "thật ra; thực sự",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I thought the test would be hard, but it was actually easy.",
+          "vi": "Tôi tưởng bài kiểm tra sẽ khó, nhưng thật ra nó lại dễ.",
+          "image_url": "https://images.pexels.com/photos/760724/pexels-photo-760724.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Nobody knows what actually happened at the party last night.",
+          "vi": "Không ai biết thực sự đã xảy ra chuyện gì ở bữa tiệc tối qua."
+        },
+        {
+          "en": "Actually, I don't think we have met before.",
+          "vi": "Thật ra, tôi không nghĩ là chúng ta đã gặp nhau trước đây."
+        }
+      ],
+      "collocations": [
+        "what actually happened",
+        "actually happen"
+      ],
+      "notes": "actually = thật ra, KHÔNG có nghĩa là \"hiện nay\" (currently)",
+      "ipa": "/ˈæktʃuəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/act/actua/actually__us_1_rr.mp3"
+    },
+    {
+      "english": "rather",
+      "vietnamese": "khá; thà (… còn hơn); thay vì",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I'd rather stay home tonight than go out in the rain.",
+          "vi": "Tối nay tôi thà ở nhà còn hơn ra ngoài dưới trời mưa."
+        },
+        {
+          "en": "The hotel room was rather small, but it was clean.",
+          "vi": "Phòng khách sạn khá nhỏ, nhưng sạch sẽ."
+        },
+        {
+          "en": "Let's take the train rather than drive into the city.",
+          "vi": "Chúng ta hãy đi tàu thay vì lái xe vào thành phố."
+        }
+      ],
+      "collocations": [
+        "would rather",
+        "rather than",
+        "rather difficult"
+      ],
+      "notes": "would rather + V nguyên mẫu; rather than = thay vì",
+      "ipa": "/ˈræðər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rat/rathe/rather__us_1.mp3"
+    },
+    {
+      "english": "view",
+      "vietnamese": "quan điểm; quang cảnh, tầm nhìn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our room had a beautiful view of the sea.",
+          "vi": "Phòng của chúng tôi có tầm nhìn ra biển rất đẹp."
+        },
+        {
+          "en": "In my view, children should spend less time on their phones.",
+          "vi": "Theo quan điểm của tôi, trẻ em nên dành ít thời gian cho điện thoại hơn.",
+          "image_url": "https://images.pexels.com/photos/5905947/pexels-photo-5905947.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "We have different views on how to raise our kids.",
+          "vi": "Chúng tôi có quan điểm khác nhau về cách nuôi dạy con cái."
+        }
+      ],
+      "collocations": [
+        "point of view",
+        "in my view",
+        "beautiful view"
+      ],
+      "notes": null,
+      "ipa": "/vjuː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vie/view_/view__us_1.mp3"
+    },
+    {
+      "english": "together",
+      "vietnamese": "cùng nhau; với nhau",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "My sister and I work together at the same hospital.",
+          "vi": "Tôi và chị gái cùng làm việc ở một bệnh viện."
+        },
+        {
+          "en": "Why don't we have dinner together this weekend?",
+          "vi": "Sao chúng ta không cùng nhau ăn tối vào cuối tuần này nhỉ?"
+        },
+        {
+          "en": "Mix the flour and sugar together in a large bowl.",
+          "vi": "Trộn bột mì và đường với nhau trong một cái bát lớn."
+        }
+      ],
+      "collocations": [
+        "work together",
+        "get together",
+        "live together"
+      ],
+      "notes": null,
+      "ipa": "/təˈɡeðər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tog/toget/together__us_1.mp3"
+    },
+    {
+      "english": "consider",
+      "vietnamese": "cân nhắc, xem xét; coi là",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We are considering moving to a bigger apartment.",
+          "vi": "Chúng tôi đang cân nhắc chuyển đến một căn hộ lớn hơn."
+        },
+        {
+          "en": "Please consider all the options before you make a decision.",
+          "vi": "Hãy xem xét tất cả các lựa chọn trước khi đưa ra quyết định."
+        },
+        {
+          "en": "Many people consider him the best teacher in our school.",
+          "vi": "Nhiều người coi thầy ấy là giáo viên giỏi nhất trường chúng tôi.",
+          "image_url": "https://images.pexels.com/photos/11682269/pexels-photo-11682269.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "consider the options",
+        "seriously consider",
+        "consider carefully"
+      ],
+      "notes": "consider + V-ing (consider moving)",
+      "ipa": "/kənˈsɪdər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsider__us_1.mp3"
+    },
+    {
+      "english": "price",
+      "vietnamese": "giá, giá cả",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The price of fresh vegetables has gone up this month.",
+          "vi": "Giá rau tươi đã tăng trong tháng này."
+        },
+        {
+          "en": "Excuse me, what is the price of this jacket?",
+          "vi": "Xin lỗi, chiếc áo khoác này giá bao nhiêu?"
+        },
+        {
+          "en": "They sell good food at very reasonable prices.",
+          "vi": "Họ bán đồ ăn ngon với giá rất phải chăng."
+        }
+      ],
+      "collocations": [
+        "reasonable price",
+        "high price",
+        "full price"
+      ],
+      "notes": null,
+      "ipa": "/praɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/price/price__us_1.mp3"
+    },
+    {
+      "english": "parent",
+      "vietnamese": "cha hoặc mẹ; bố mẹ; phụ huynh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My parents live in a small village near the coast.",
+          "vi": "Bố mẹ tôi sống ở một ngôi làng nhỏ gần bờ biển."
+        },
+        {
+          "en": "She raised three children as a single parent.",
+          "vi": "Cô ấy là mẹ đơn thân nuôi ba đứa con."
+        },
+        {
+          "en": "The teacher called a meeting with parents after school.",
+          "vi": "Giáo viên đã mời phụ huynh đến họp sau giờ học."
+        }
+      ],
+      "collocations": [
+        "single parent",
+        "working parents",
+        "new parents"
+      ],
+      "notes": null,
+      "ipa": "/ˈperənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/paren/parent__us_1.mp3"
+    },
+    {
+      "english": "hard",
+      "vietnamese": "khó; cứng; vất vả, khó khăn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "It's hard to believe that summer is almost over.",
+          "vi": "Thật khó tin là mùa hè sắp hết rồi."
+        },
+        {
+          "en": "This mattress is too hard for me to sleep on.",
+          "vi": "Tấm nệm này cứng quá, tôi nằm ngủ không được."
+        },
+        {
+          "en": "It has been a hard year for our family.",
+          "vi": "Đây là một năm khó khăn đối với gia đình chúng tôi."
+        }
+      ],
+      "collocations": [
+        "hard to believe",
+        "hard time",
+        "hard work"
+      ],
+      "notes": "work hard (chăm chỉ) ≠ hardly (hầu như không)",
+      "ipa": "/hɑːrd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/har/hard_/hard__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/29083058/pexels-photo-29083058.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Mario Spencer",
+        "author_url": "https://www.pexels.com/@spencphoto",
+        "source_url": "https://www.pexels.com/photo/construction-workers-in-action-san-jose-29083058/"
+      }
+    },
+    {
+      "english": "party",
+      "vietnamese": "bữa tiệc, buổi tiệc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We're having a birthday party for my son on Saturday.",
+          "vi": "Chúng tôi sẽ tổ chức tiệc sinh nhật cho con trai vào thứ Bảy."
+        },
+        {
+          "en": "Are you going to the party after work tonight?",
+          "vi": "Tối nay bạn có đi dự tiệc sau giờ làm không?"
+        },
+        {
+          "en": "Everyone had a great time at the party.",
+          "vi": "Mọi người đã rất vui ở bữa tiệc."
+        }
+      ],
+      "collocations": [
+        "birthday party",
+        "have a party",
+        "throw a party"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɑːrti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/party/party__us_1.mp3"
+    },
+    {
+      "english": "local",
+      "vietnamese": "(thuộc) địa phương; gần nhà",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We buy our vegetables from the local market every morning.",
+          "vi": "Chúng tôi mua rau ở chợ gần nhà mỗi sáng.",
+          "image_url": "https://images.pexels.com/photos/35462412/pexels-photo-35462412.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Many local people work in the hotels near the beach.",
+          "vi": "Nhiều người dân địa phương làm việc ở các khách sạn gần bãi biển."
+        },
+        {
+          "en": "The accident was reported in the local newspaper.",
+          "vi": "Vụ tai nạn đã được đưa tin trên báo địa phương."
+        }
+      ],
+      "collocations": [
+        "local people",
+        "local market",
+        "local newspaper",
+        "local time"
+      ],
+      "notes": null,
+      "ipa": "/ˈləʊkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/loc/local/local__us_2.mp3"
+    },
+    {
+      "english": "control",
+      "vietnamese": "kiểm soát; điều khiển; kiềm chế",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She couldn't control her anger and started shouting.",
+          "vi": "Cô ấy không kiềm chế được cơn giận và bắt đầu la hét."
+        },
+        {
+          "en": "You can control the lights in the house with your phone.",
+          "vi": "Bạn có thể điều khiển đèn trong nhà bằng điện thoại."
+        },
+        {
+          "en": "Regular exercise can help you control your weight.",
+          "vi": "Tập thể dục đều đặn có thể giúp bạn kiểm soát cân nặng."
+        }
+      ],
+      "collocations": [
+        "control the situation",
+        "control costs",
+        "control your weight"
+      ],
+      "notes": "control – controlled – controlled (gấp đôi chữ l)",
+      "ipa": "/kənˈtrəʊl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontrol__us_3.mp3"
+    },
+    {
+      "english": "already",
+      "vietnamese": "đã … rồi; rồi",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I've already eaten, but thanks for asking.",
+          "vi": "Tôi ăn rồi, nhưng cảm ơn bạn đã hỏi."
+        },
+        {
+          "en": "By the time we arrived, the movie had already started.",
+          "vi": "Lúc chúng tôi đến thì phim đã bắt đầu rồi.",
+          "image_url": "https://images.pexels.com/photos/8263367/pexels-photo-8263367.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "It's only March, but it already feels like summer.",
+          "vi": "Mới tháng Ba mà trời đã như mùa hè rồi."
+        }
+      ],
+      "collocations": [
+        "already know",
+        "already started",
+        "already done"
+      ],
+      "notes": "already thường dùng trong câu khẳng định; câu phủ định dùng yet",
+      "ipa": "/ɔːlˈredi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/alr/alrea/already__us_3.mp3"
+    },
+    {
+      "english": "concern",
+      "vietnamese": "mối lo ngại, sự lo lắng; mối quan tâm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Safety is our main concern when choosing a car.",
+          "vi": "An toàn là mối quan tâm hàng đầu của chúng tôi khi chọn xe."
+        },
+        {
+          "en": "Parents have raised concerns about the new school rules.",
+          "vi": "Phụ huynh đã bày tỏ lo ngại về nội quy mới của trường."
+        },
+        {
+          "en": "There is growing concern about air pollution in big cities.",
+          "vi": "Mối lo ngại về ô nhiễm không khí ở các thành phố lớn ngày càng tăng."
+        }
+      ],
+      "collocations": [
+        "main concern",
+        "raise concerns",
+        "growing concern",
+        "cause for concern"
+      ],
+      "notes": null,
+      "ipa": "/kənˈsɜːrn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconc/xconcern__us_3.mp3"
+    },
+    {
+      "english": "product",
+      "vietnamese": "sản phẩm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "This shop sells only natural beauty products.",
+          "vi": "Cửa hàng này chỉ bán các sản phẩm làm đẹp tự nhiên."
+        },
+        {
+          "en": "Our company is launching a new product next month.",
+          "vi": "Công ty chúng tôi sẽ ra mắt một sản phẩm mới vào tháng sau."
+        },
+        {
+          "en": "If you're not happy with the product, you can return it.",
+          "vi": "Nếu không hài lòng với sản phẩm, bạn có thể trả lại.",
+          "image_url": "https://images.pexels.com/photos/7309949/pexels-photo-7309949.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "new product",
+        "launch a product",
+        "beauty products"
+      ],
+      "notes": null,
+      "ipa": "/ˈprɑːdʌkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/produ/product__us_1.mp3"
+    },
+    {
+      "english": "lose",
+      "vietnamese": "mất, làm mất; thua; giảm (cân)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I lost my keys somewhere on the way home.",
+          "vi": "Tôi đã làm mất chìa khóa ở đâu đó trên đường về nhà."
+        },
+        {
+          "en": "Our team lost the match by two goals.",
+          "vi": "Đội chúng tôi đã thua trận với cách biệt hai bàn."
+        },
+        {
+          "en": "He wants to lose weight before summer.",
+          "vi": "Anh ấy muốn giảm cân trước mùa hè."
+        }
+      ],
+      "collocations": [
+        "lose weight",
+        "lose a game",
+        "lose your job"
+      ],
+      "notes": "lose – lost – lost; lose (v) ≠ loose (adj: lỏng)",
+      "ipa": "/luːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/los/lose_/lose__us_1.mp3"
+    },
+    {
+      "english": "story",
+      "vietnamese": "câu chuyện; truyện",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandmother used to tell me stories before bed.",
+          "vi": "Bà tôi thường kể chuyện cho tôi nghe trước khi đi ngủ."
+        },
+        {
+          "en": "It's a long story, so I'll tell you later.",
+          "vi": "Chuyện dài lắm, để sau tôi kể cho bạn nghe."
+        },
+        {
+          "en": "She has written several short stories for children.",
+          "vi": "Cô ấy đã viết một vài truyện ngắn cho trẻ em."
+        }
+      ],
+      "collocations": [
+        "tell a story",
+        "short story",
+        "long story",
+        "true story"
+      ],
+      "notes": null,
+      "ipa": "/ˈstɔːri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sto/story/story__us_1.mp3"
+    },
+    {
+      "english": "almost",
+      "vietnamese": "gần như, hầu như; suýt",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Dinner is almost ready, so please wash your hands.",
+          "vi": "Bữa tối gần xong rồi, mọi người đi rửa tay nhé."
+        },
+        {
+          "en": "I almost missed the bus this morning.",
+          "vi": "Sáng nay tôi suýt lỡ chuyến xe buýt."
+        },
+        {
+          "en": "Almost everyone in my class has a smartphone.",
+          "vi": "Hầu như ai trong lớp tôi cũng có điện thoại thông minh."
+        }
+      ],
+      "collocations": [
+        "almost always",
+        "almost everyone",
+        "almost ready"
+      ],
+      "notes": null,
+      "ipa": "/ˈɔːlməʊst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/alm/almos/almost__us_1_rr.mp3",
+      "image_url": "https://images.pexels.com/photos/7330802/pexels-photo-7330802.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Bellava G",
+        "author_url": "https://www.pexels.com/@bellava-g-3760364",
+        "source_url": "https://www.pexels.com/photo/woman-in-gray-long-sleeve-shirt-covering-her-face-with-skateboard-7330802/"
+      }
+    },
+    {
+      "english": "continue",
+      "vietnamese": "tiếp tục",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "After a short break, we continued our walk.",
+          "vi": "Sau khi nghỉ một lát, chúng tôi tiếp tục đi bộ."
+        },
+        {
+          "en": "House prices in the city continue to rise every year.",
+          "vi": "Giá nhà ở thành phố tiếp tục tăng mỗi năm."
+        },
+        {
+          "en": "If the rain continues, the game will be canceled.",
+          "vi": "Nếu trời tiếp tục mưa, trận đấu sẽ bị hủy."
+        }
+      ],
+      "collocations": [
+        "continue to rise",
+        "continue working",
+        "continue your studies"
+      ],
+      "notes": "continue + to V / V-ing",
+      "ipa": "/kənˈtɪnjuː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontinue__us_1.mp3"
+    },
+    {
+      "english": "stand",
+      "vietnamese": "đứng; chịu đựng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We had to stand in line for an hour to buy tickets.",
+          "vi": "Chúng tôi phải đứng xếp hàng một tiếng để mua vé.",
+          "image_url": "https://images.pexels.com/photos/3848898/pexels-photo-3848898.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Please stand up when the teacher comes in.",
+          "vi": "Hãy đứng dậy khi giáo viên bước vào."
+        },
+        {
+          "en": "I can't stand the noise from the construction site next door.",
+          "vi": "Tôi không chịu nổi tiếng ồn từ công trường bên cạnh."
+        }
+      ],
+      "collocations": [
+        "stand up",
+        "stand in line",
+        "can't stand"
+      ],
+      "notes": "stand – stood – stood",
+      "ipa": "/stænd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sta/stand/stand__us_1.mp3"
+    },
+    {
+      "english": "whole",
+      "vietnamese": "toàn bộ, cả",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "I spent the whole day cleaning the house.",
+          "vi": "Tôi dành cả ngày để dọn dẹp nhà cửa."
+        },
+        {
+          "en": "The whole family went to the beach for the weekend.",
+          "vi": "Cả gia đình đã đi biển vào cuối tuần."
+        },
+        {
+          "en": "He ate the whole pizza by himself.",
+          "vi": "Anh ấy ăn hết cả cái bánh pizza một mình."
+        }
+      ],
+      "collocations": [
+        "the whole day",
+        "the whole family",
+        "the whole world",
+        "the whole time"
+      ],
+      "notes": "whole ≠ hole (cái lỗ), phát âm giống nhau",
+      "ipa": "/həʊl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/who/whole/whole__us_1.mp3"
+    },
+    {
+      "english": "yet",
+      "vietnamese": "chưa; vẫn chưa; tuy nhiên",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Have you finished your homework yet, or do you need more time?",
+          "vi": "Con đã làm xong bài tập chưa, hay cần thêm thời gian?"
+        },
+        {
+          "en": "I haven't heard back from the company yet.",
+          "vi": "Tôi vẫn chưa nhận được phản hồi từ công ty.",
+          "image_url": "https://images.pexels.com/photos/10813069/pexels-photo-10813069.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The hotel was cheap, yet it was clean and comfortable.",
+          "vi": "Khách sạn rẻ, tuy vậy lại sạch sẽ và thoải mái."
+        }
+      ],
+      "collocations": [
+        "not yet",
+        "yet another",
+        "have yet to"
+      ],
+      "notes": "yet (chưa) thường dùng trong câu hỏi và câu phủ định",
+      "ipa": "/jet/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/y/yet/yet__/yet__us_1.mp3"
+    },
+    {
+      "english": "rate",
+      "vietnamese": "tỷ lệ; tốc độ; mức giá",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The birth rate has fallen in many countries.",
+          "vi": "Tỷ lệ sinh đã giảm ở nhiều quốc gia."
+        },
+        {
+          "en": "The city is growing at a fast rate.",
+          "vi": "Thành phố đang phát triển với tốc độ nhanh."
+        },
+        {
+          "en": "The hotel offers special rates for students.",
+          "vi": "Khách sạn có mức giá ưu đãi cho sinh viên."
+        }
+      ],
+      "collocations": [
+        "birth rate",
+        "interest rate",
+        "exchange rate",
+        "heart rate"
+      ],
+      "notes": null,
+      "ipa": "/reɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rat/rate_/rate__us_1.mp3"
+    },
+    {
+      "english": "care",
+      "vietnamese": "quan tâm; chăm sóc",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I don't care what other people think of me.",
+          "vi": "Tôi không quan tâm người khác nghĩ gì về mình."
+        },
+        {
+          "en": "She really cares about protecting the environment.",
+          "vi": "Cô ấy thực sự quan tâm đến việc bảo vệ môi trường."
+        },
+        {
+          "en": "Nurses care for patients day and night.",
+          "vi": "Các y tá chăm sóc bệnh nhân cả ngày lẫn đêm.",
+          "image_url": "https://images.pexels.com/photos/6129242/pexels-photo-6129242.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "care about",
+        "care for",
+        "don't care"
+      ],
+      "notes": "care about (quan tâm) · care for (chăm sóc)",
+      "ipa": "/ker/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/car/care_/care__us_1.mp3"
+    },
+    {
+      "english": "expect",
+      "vietnamese": "mong đợi; dự kiến; chờ (ai đến)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We expect the package to arrive by Friday.",
+          "vi": "Chúng tôi dự kiến gói hàng sẽ đến trước thứ Sáu."
+        },
+        {
+          "en": "The trip cost much more than expected.",
+          "vi": "Chuyến đi tốn kém hơn nhiều so với dự kiến."
+        },
+        {
+          "en": "Are you expecting any visitors this afternoon?",
+          "vi": "Chiều nay bạn có đang chờ khách nào không?"
+        }
+      ],
+      "collocations": [
+        "than expected",
+        "as expected",
+        "expect a baby"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈspekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/expec/expect__us_1.mp3"
+    },
+    {
+      "english": "effect",
+      "vietnamese": "ảnh hưởng, tác động; tác dụng; hiệu lực",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Too much sugar has a bad effect on your teeth.",
+          "vi": "Quá nhiều đường có ảnh hưởng xấu đến răng của bạn."
+        },
+        {
+          "en": "This medicine may have some side effects.",
+          "vi": "Thuốc này có thể có một số tác dụng phụ."
+        },
+        {
+          "en": "The new rules will take effect next month.",
+          "vi": "Các quy định mới sẽ có hiệu lực từ tháng sau."
+        }
+      ],
+      "collocations": [
+        "side effect",
+        "have an effect on",
+        "take effect"
+      ],
+      "notes": "effect (n) ≠ affect (v)",
+      "ipa": "/ɪˈfekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eff/effec/effect__us_1.mp3"
+    },
+    {
+      "english": "sort",
+      "vietnamese": "loại, kiểu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "What sort of music do you like?",
+          "vi": "Bạn thích loại nhạc nào?"
+        },
+        {
+          "en": "This is the sort of place I'd love to live in.",
+          "vi": "Đây chính là kiểu nơi tôi rất muốn được sống."
+        },
+        {
+          "en": "The shop sells all sorts of things for the kitchen.",
+          "vi": "Cửa hàng bán đủ loại đồ dùng cho nhà bếp."
+        }
+      ],
+      "collocations": [
+        "what sort of",
+        "all sorts of",
+        "sort of"
+      ],
+      "notes": "sort of (thân mật) = hơi, kiểu như",
+      "ipa": "/sɔːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sor/sort_/sort__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/7918324/pexels-photo-7918324.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "ROMBO",
+        "author_url": "https://www.pexels.com/@rombo-1510555",
+        "source_url": "https://www.pexels.com/photo/top-view-of-folded-papers-in-a-container-with-separators-7918324/"
+      }
+    },
+    {
+      "english": "ever",
+      "vietnamese": "từng, đã bao giờ; mãi mãi",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Have you ever been abroad on your own?",
+          "vi": "Bạn đã bao giờ tự đi nước ngoài một mình chưa?"
+        },
+        {
+          "en": "This is the best coffee I've ever had.",
+          "vi": "Đây là ly cà phê ngon nhất tôi từng uống."
+        },
+        {
+          "en": "They got married and lived happily ever after.",
+          "vi": "Họ kết hôn và sống hạnh phúc mãi mãi về sau."
+        }
+      ],
+      "collocations": [
+        "have you ever",
+        "ever since",
+        "than ever"
+      ],
+      "notes": null,
+      "ipa": "/ˈevər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eve/ever_/ever__us_2.mp3"
+    },
+    {
+      "english": "anything",
+      "vietnamese": "bất cứ thứ gì; (câu hỏi, phủ định) gì",
+      "part_of_speech": "pronoun",
+      "examples": [
+        {
+          "en": "Is there anything else I can help you with?",
+          "vi": "Còn gì khác tôi có thể giúp bạn không?",
+          "image_url": "https://images.pexels.com/photos/6980694/pexels-photo-6980694.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I didn't eat anything for breakfast this morning.",
+          "vi": "Sáng nay tôi không ăn sáng gì cả."
+        },
+        {
+          "en": "You can order anything you like from the menu.",
+          "vi": "Bạn có thể gọi bất cứ món gì bạn thích trong thực đơn."
+        }
+      ],
+      "collocations": [
+        "anything else",
+        "do anything",
+        "anything at all"
+      ],
+      "notes": "câu hỏi/phủ định: gì; câu khẳng định: bất cứ thứ gì",
+      "ipa": "/ˈeniθɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/any/anyth/anything__us_1.mp3"
+    },
+    {
+      "english": "cause",
+      "vietnamese": "gây ra, làm cho",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Heavy rain caused flooding in several parts of the city.",
+          "vi": "Mưa lớn đã gây ngập lụt ở nhiều khu vực trong thành phố."
+        },
+        {
+          "en": "I'm sorry for causing so much trouble.",
+          "vi": "Tôi xin lỗi vì đã gây ra nhiều rắc rối như vậy."
+        },
+        {
+          "en": "Smoking can cause serious health problems later in life.",
+          "vi": "Hút thuốc có thể gây ra các vấn đề sức khỏe nghiêm trọng về sau."
+        }
+      ],
+      "collocations": [
+        "cause problems",
+        "cause damage",
+        "cause trouble"
+      ],
+      "notes": null,
+      "ipa": "/kɔːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cau/cause/cause__us_1.mp3"
+    }
+  ]
+}

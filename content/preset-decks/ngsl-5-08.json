@@ -1,0 +1,837 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.001–2.500 · Bộ 8",
+    "description": "New General Service List, thứ hạng 2.001–2.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-5-08"
+  },
+  "cards": [
+    {
+      "english": "poem",
+      "vietnamese": "bài thơ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My daughter wrote a short poem about her grandmother.",
+          "vi": "Con gái tôi đã viết một bài thơ ngắn về bà của cháu."
+        },
+        {
+          "en": "Can you read the poem aloud to the class?",
+          "vi": "Em có thể đọc to bài thơ cho cả lớp nghe không?"
+        },
+        {
+          "en": "We had to learn three poems by heart for the exam.",
+          "vi": "Chúng tôi phải học thuộc lòng ba bài thơ cho kỳ thi."
+        }
+      ],
+      "collocations": [
+        "write a poem",
+        "read a poem",
+        "love poem",
+        "short poem"
+      ],
+      "notes": null,
+      "ipa": "/ˈpəʊəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/poe/poem_/poem__us_1.mp3"
+    },
+    {
+      "english": "agricultural",
+      "vietnamese": "(thuộc) nông nghiệp",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Most of the land around our village is used for agricultural purposes.",
+          "vi": "Phần lớn đất quanh làng tôi được dùng vào mục đích nông nghiệp."
+        },
+        {
+          "en": "Rice is the country's most important agricultural product.",
+          "vi": "Lúa gạo là nông sản quan trọng nhất của đất nước."
+        },
+        {
+          "en": "He studied agricultural science before returning to run the family farm.",
+          "vi": "Anh ấy học ngành khoa học nông nghiệp trước khi về quản lý trang trại của gia đình."
+        }
+      ],
+      "collocations": [
+        "agricultural land",
+        "agricultural products",
+        "agricultural production",
+        "agricultural sector"
+      ],
+      "notes": null,
+      "ipa": "/ˌæɡrɪˈkʌltʃərəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/agr/agric/agricultural__us_1.mp3"
+    },
+    {
+      "english": "competitor",
+      "vietnamese": "đối thủ cạnh tranh; đấu thủ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our prices are lower than those of our main competitors.",
+          "vi": "Giá của chúng tôi thấp hơn giá của các đối thủ cạnh tranh chính."
+        },
+        {
+          "en": "The company lost many customers to a new competitor last year.",
+          "vi": "Năm ngoái công ty đã mất nhiều khách hàng vào tay một đối thủ mới."
+        },
+        {
+          "en": "More than two hundred competitors took part in the race.",
+          "vi": "Hơn hai trăm đấu thủ đã tham gia cuộc đua."
+        }
+      ],
+      "collocations": [
+        "main competitor",
+        "major competitor",
+        "direct competitor"
+      ],
+      "notes": null,
+      "ipa": "/kəmˈpetɪtər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compe/competitor__us_3.mp3"
+    },
+    {
+      "english": "alcohol",
+      "vietnamese": "rượu bia; cồn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My father stopped drinking alcohol after his heart problems.",
+          "vi": "Bố tôi đã bỏ rượu bia sau khi bị bệnh tim."
+        },
+        {
+          "en": "You shouldn't drive if you have had any alcohol.",
+          "vi": "Bạn không nên lái xe nếu đã uống chút rượu bia nào."
+        },
+        {
+          "en": "Clean the cut with a little alcohol before putting on a bandage.",
+          "vi": "Hãy lau vết cắt bằng một chút cồn trước khi băng lại."
+        }
+      ],
+      "collocations": [
+        "drink alcohol",
+        "alcohol consumption",
+        "alcohol-free"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈælkəhɔːl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/alc/alcoh/alcohol__us_1_rr.mp3"
+    },
+    {
+      "english": "festival",
+      "vietnamese": "lễ hội; liên hoan",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Thousands of people come to the town for the summer music festival.",
+          "vi": "Hàng nghìn người đến thị trấn dự lễ hội âm nhạc mùa hè."
+        },
+        {
+          "en": "Children carry colorful lanterns during the Mid-Autumn Festival.",
+          "vi": "Trẻ em rước những chiếc đèn lồng đầy màu sắc trong dịp Tết Trung thu."
+        },
+        {
+          "en": "Her short film won a prize at an international film festival.",
+          "vi": "Phim ngắn của cô ấy đã đoạt giải tại một liên hoan phim quốc tế."
+        }
+      ],
+      "collocations": [
+        "music festival",
+        "film festival",
+        "hold a festival"
+      ],
+      "notes": null,
+      "ipa": "/ˈfestɪvl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fes/festi/festival__us_2.mp3"
+    },
+    {
+      "english": "vegetable",
+      "vietnamese": "rau; rau củ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Try to eat more fresh fruit and vegetables every day.",
+          "vi": "Hãy cố gắng ăn nhiều trái cây và rau tươi hơn mỗi ngày."
+        },
+        {
+          "en": "My grandmother grows vegetables in a small garden behind her house.",
+          "vi": "Bà tôi trồng rau trong một mảnh vườn nhỏ sau nhà."
+        },
+        {
+          "en": "Is this soup made with any meat, or only vegetables?",
+          "vi": "Món súp này có nấu với thịt không, hay chỉ có rau củ?"
+        }
+      ],
+      "collocations": [
+        "fresh vegetables",
+        "grow vegetables",
+        "fruit and vegetables",
+        "vegetable soup"
+      ],
+      "notes": null,
+      "ipa": "/ˈvedʒtəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/veg/veget/vegetable__us_1.mp3"
+    },
+    {
+      "english": "van",
+      "vietnamese": "xe tải nhỏ; xe van",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We rented a van to move our furniture to the new apartment.",
+          "vi": "Chúng tôi đã thuê một chiếc xe tải nhỏ để chuyển đồ đạc sang căn hộ mới."
+        },
+        {
+          "en": "A delivery van is parked in front of the building.",
+          "vi": "Một chiếc xe giao hàng đang đậu trước tòa nhà."
+        },
+        {
+          "en": "He drives a van for a small bakery in town.",
+          "vi": "Anh ấy lái xe van cho một tiệm bánh nhỏ trong thị trấn."
+        }
+      ],
+      "collocations": [
+        "delivery van",
+        "drive a van",
+        "police van"
+      ],
+      "notes": null,
+      "ipa": "/væn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/van/van__/van__us_1.mp3"
+    },
+    {
+      "english": "confident",
+      "vietnamese": "tự tin; tin chắc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She felt much more confident after practicing her speech several times.",
+          "vi": "Cô ấy cảm thấy tự tin hơn nhiều sau khi tập bài phát biểu vài lần."
+        },
+        {
+          "en": "I'm confident that we will finish the project on time.",
+          "vi": "Tôi tin chắc rằng chúng ta sẽ hoàn thành dự án đúng hạn."
+        },
+        {
+          "en": "Are you confident enough to speak English with foreign customers?",
+          "vi": "Bạn có đủ tự tin để nói tiếng Anh với khách nước ngoài không?"
+        }
+      ],
+      "collocations": [
+        "feel confident",
+        "confident that",
+        "confident about"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːnfɪdənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconf/xconfident__us_1.mp3"
+    },
+    {
+      "english": "planet",
+      "vietnamese": "hành tinh; Trái Đất",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Mars is the fourth planet from the sun.",
+          "vi": "Sao Hỏa là hành tinh thứ tư tính từ Mặt Trời."
+        },
+        {
+          "en": "We all need to do more to protect the planet.",
+          "vi": "Tất cả chúng ta cần làm nhiều hơn để bảo vệ Trái Đất."
+        },
+        {
+          "en": "Scientists have discovered a new planet far outside our solar system.",
+          "vi": "Các nhà khoa học đã phát hiện một hành tinh mới ở rất xa ngoài hệ Mặt Trời."
+        }
+      ],
+      "collocations": [
+        "save the planet",
+        "protect the planet",
+        "distant planet"
+      ],
+      "notes": null,
+      "ipa": "/ˈplænɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pla/plane/planet__us_1.mp3"
+    },
+    {
+      "english": "curve",
+      "vietnamese": "đường cong; khúc cua",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The river makes a wide curve around the old town.",
+          "vi": "Dòng sông uốn một đường cong rộng quanh khu phố cổ."
+        },
+        {
+          "en": "Slow down, there's a sharp curve in the road ahead.",
+          "vi": "Chậm lại đi, phía trước có một khúc cua gấp."
+        },
+        {
+          "en": "The bus took the curve too fast and almost left the road.",
+          "vi": "Chiếc xe buýt vào cua quá nhanh và suýt lao ra khỏi đường."
+        }
+      ],
+      "collocations": [
+        "sharp curve",
+        "gentle curve",
+        "learning curve"
+      ],
+      "notes": null,
+      "ipa": "/kɜːrv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cur/curve/curve__us_1.mp3"
+    },
+    {
+      "english": "knee",
+      "vietnamese": "đầu gối",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He hurt his knee while playing football on Saturday.",
+          "vi": "Anh ấy bị đau đầu gối khi chơi bóng đá hôm thứ Bảy."
+        },
+        {
+          "en": "The little boy sat on his father's knee and listened to the story.",
+          "vi": "Cậu bé ngồi trên đầu gối bố và nghe kể chuyện."
+        },
+        {
+          "en": "My knees start to ache when I walk up too many stairs.",
+          "vi": "Đầu gối tôi bắt đầu đau nhức khi leo quá nhiều bậc thang."
+        }
+      ],
+      "collocations": [
+        "knee injury",
+        "bend your knees",
+        "on your knees"
+      ],
+      "notes": null,
+      "ipa": "/niː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/k/kne/knee_/knee__us_1.mp3"
+    },
+    {
+      "english": "overcome",
+      "vietnamese": "vượt qua; khắc phục",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She worked hard to overcome her fear of speaking in public.",
+          "vi": "Cô ấy đã rất cố gắng để vượt qua nỗi sợ nói trước đám đông."
+        },
+        {
+          "en": "Together we can overcome any difficulties that come our way.",
+          "vi": "Cùng nhau, chúng ta có thể vượt qua mọi khó khăn gặp phải."
+        },
+        {
+          "en": "The team overcame several technical problems to launch the app on time.",
+          "vi": "Nhóm đã khắc phục một số sự cố kỹ thuật để ra mắt ứng dụng đúng hạn."
+        }
+      ],
+      "collocations": [
+        "overcome a problem",
+        "overcome difficulties",
+        "overcome fear",
+        "overcome obstacles"
+      ],
+      "notes": "overcome – overcame – overcome",
+      "ipa": "/ˌəʊvərˈkʌm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ove/overc/overcome__us_1.mp3"
+    },
+    {
+      "english": "web",
+      "vietnamese": "mạng (Internet); mạng nhện",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "You can find the train timetable on the web.",
+          "vi": "Bạn có thể tìm lịch tàu chạy trên mạng."
+        },
+        {
+          "en": "My brother designs web pages for small businesses.",
+          "vi": "Anh tôi thiết kế trang web cho các doanh nghiệp nhỏ."
+        },
+        {
+          "en": "A large spider had built a web in the corner of the window.",
+          "vi": "Một con nhện lớn đã giăng mạng ở góc cửa sổ."
+        }
+      ],
+      "collocations": [
+        "on the web",
+        "web page",
+        "web browser",
+        "spider's web"
+      ],
+      "notes": null,
+      "ipa": "/web/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/web/web__/web__us_1.mp3"
+    },
+    {
+      "english": "depth",
+      "vietnamese": "độ sâu; chiều sâu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The lake reaches a depth of about thirty meters in the middle.",
+          "vi": "Ở giữa, hồ có độ sâu khoảng ba mươi mét."
+        },
+        {
+          "en": "Measure the height, width and depth of the box before you order it.",
+          "vi": "Hãy đo chiều cao, chiều rộng và chiều sâu của chiếc hộp trước khi đặt mua."
+        },
+        {
+          "en": "We need to discuss this issue in more depth at the next meeting.",
+          "vi": "Chúng ta cần thảo luận vấn đề này sâu hơn trong buổi họp tới."
+        }
+      ],
+      "collocations": [
+        "in depth",
+        "a depth of",
+        "depth of knowledge"
+      ],
+      "notes": null,
+      "ipa": "/depθ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dep/depth/depth__us_1.mp3"
+    },
+    {
+      "english": "entrance",
+      "vietnamese": "lối vào; sự vào, sự nhập học",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I'll wait for you at the main entrance of the hospital.",
+          "vi": "Mình sẽ đợi bạn ở lối vào chính của bệnh viện."
+        },
+        {
+          "en": "The entrance to the museum is on the other side of the street.",
+          "vi": "Lối vào bảo tàng ở phía bên kia đường."
+        },
+        {
+          "en": "He studied very hard to pass the university entrance exam.",
+          "vi": "Cậu ấy đã học rất chăm để thi đỗ kỳ thi tuyển sinh đại học."
+        }
+      ],
+      "collocations": [
+        "main entrance",
+        "front entrance",
+        "entrance to",
+        "entrance exam"
+      ],
+      "notes": null,
+      "ipa": "/ˈɛntrəns/",
+      "audio_src": null
+    },
+    {
+      "english": "log",
+      "vietnamese": "khúc gỗ; nhật ký (ghi chép)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We sat on a log and warmed our hands by the fire.",
+          "vi": "Chúng tôi ngồi trên một khúc gỗ và hơ tay bên đống lửa."
+        },
+        {
+          "en": "He put another log on the fire before going to bed.",
+          "vi": "Anh ấy cho thêm một khúc gỗ vào lửa trước khi đi ngủ."
+        },
+        {
+          "en": "Drivers must keep a log of every trip they make.",
+          "vi": "Tài xế phải ghi nhật ký mọi chuyến đi của mình."
+        }
+      ],
+      "collocations": [
+        "keep a log",
+        "log fire",
+        "fallen log"
+      ],
+      "notes": "cụm động từ: log in / log out (đăng nhập / đăng xuất)",
+      "ipa": "/lɔːɡ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/log/log__/log__us_1.mp3"
+    },
+    {
+      "english": "giant",
+      "vietnamese": "khổng lồ; to lớn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "A giant screen showed the football match in the town square.",
+          "vi": "Một màn hình khổng lồ chiếu trận bóng đá ở quảng trường thị trấn."
+        },
+        {
+          "en": "The kids were amazed by the giant turtles at the zoo.",
+          "vi": "Bọn trẻ thích thú với những con rùa khổng lồ ở sở thú."
+        },
+        {
+          "en": "Moving to another country was a giant step for our family.",
+          "vi": "Chuyển sang nước khác sống là một bước tiến lớn đối với gia đình tôi."
+        }
+      ],
+      "collocations": [
+        "giant screen",
+        "giant step",
+        "giant panda"
+      ],
+      "notes": "cũng là danh từ: người khổng lồ; tập đoàn lớn (tech giant)",
+      "ipa": "/ˈdʒaɪənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gia/giant/giant__us_1.mp3"
+    },
+    {
+      "english": "god",
+      "vietnamese": "thần; vị thần",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "In the old story, the god of the sea was very angry.",
+          "vi": "Trong câu chuyện xưa, thần biển đã rất tức giận."
+        },
+        {
+          "en": "The ancient Greeks believed that many gods lived on a high mountain.",
+          "vi": "Người Hy Lạp cổ đại tin rằng nhiều vị thần sống trên một ngọn núi cao."
+        },
+        {
+          "en": "The children read a book of myths about gods and heroes.",
+          "vi": "Bọn trẻ đọc một cuốn sách thần thoại về các vị thần và anh hùng."
+        }
+      ],
+      "collocations": [
+        "the god of",
+        "ancient gods",
+        "gods and goddesses"
+      ],
+      "notes": "God (viết hoa) = Chúa, Thượng đế",
+      "ipa": "/ɡɑːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/god/god__/god__us_1.mp3"
+    },
+    {
+      "english": "portion",
+      "vietnamese": "phần; suất (ăn)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The portions at that restaurant are big enough for two people.",
+          "vi": "Suất ăn ở nhà hàng đó đủ lớn cho hai người."
+        },
+        {
+          "en": "A large portion of my salary goes on rent.",
+          "vi": "Một phần lớn tiền lương của tôi dùng để trả tiền nhà."
+        },
+        {
+          "en": "Only a small portion of the road was damaged by the storm.",
+          "vi": "Chỉ một phần nhỏ con đường bị bão làm hư hại."
+        }
+      ],
+      "collocations": [
+        "large portion",
+        "small portion",
+        "portion of",
+        "portion size"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɔːrʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/por/porti/portion__us_1.mp3"
+    },
+    {
+      "english": "substance",
+      "vietnamese": "chất; thực chất, nội dung",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Keep dangerous substances out of the reach of children.",
+          "vi": "Hãy để các chất nguy hiểm xa tầm tay trẻ em."
+        },
+        {
+          "en": "The scientists found a strange white substance on the rocks.",
+          "vi": "Các nhà khoa học tìm thấy một chất màu trắng lạ trên những tảng đá."
+        },
+        {
+          "en": "His speech sounded good but had very little substance.",
+          "vi": "Bài phát biểu của anh ta nghe hay nhưng có rất ít nội dung thực chất."
+        }
+      ],
+      "collocations": [
+        "dangerous substance",
+        "chemical substance",
+        "harmful substances"
+      ],
+      "notes": null,
+      "ipa": "/ˈsʌbstəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sub/subst/substance__us_2.mp3"
+    },
+    {
+      "english": "extensive",
+      "vietnamese": "rộng lớn; sâu rộng, nhiều",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The hotel has extensive gardens with a pool and tennis courts.",
+          "vi": "Khách sạn có khu vườn rộng lớn với hồ bơi và sân quần vợt."
+        },
+        {
+          "en": "She has extensive experience in teaching young children.",
+          "vi": "Cô ấy có nhiều kinh nghiệm dạy trẻ nhỏ."
+        },
+        {
+          "en": "The storm caused extensive damage to houses along the coast.",
+          "vi": "Cơn bão đã gây thiệt hại trên diện rộng cho nhà cửa dọc bờ biển."
+        }
+      ],
+      "collocations": [
+        "extensive experience",
+        "extensive damage",
+        "extensive research",
+        "extensive knowledge"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈstensɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ext/exten/extensive__us_1.mp3"
+    },
+    {
+      "english": "interpret",
+      "vietnamese": "hiểu, giải thích; phiên dịch",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I really didn't know how to interpret his silence.",
+          "vi": "Tôi thật sự không biết phải hiểu sự im lặng của anh ấy thế nào."
+        },
+        {
+          "en": "Doctors are trained to interpret the results of blood tests.",
+          "vi": "Bác sĩ được đào tạo để giải thích kết quả xét nghiệm máu."
+        },
+        {
+          "en": "My cousin interpreted for us when we went shopping in Japan.",
+          "vi": "Anh họ tôi phiên dịch giúp chúng tôi khi đi mua sắm ở Nhật."
+        }
+      ],
+      "collocations": [
+        "interpret data",
+        "interpret the results",
+        "interpret as"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈtɜːrprət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/inter/interpret__us_1.mp3"
+    },
+    {
+      "english": "independence",
+      "vietnamese": "sự độc lập; sự tự lập",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Getting my first job gave me a real sense of independence.",
+          "vi": "Có công việc đầu tiên mang lại cho tôi cảm giác tự lập thực sự."
+        },
+        {
+          "en": "Many teenagers want more independence from their parents.",
+          "vi": "Nhiều thanh thiếu niên muốn được độc lập hơn với bố mẹ."
+        },
+        {
+          "en": "Moving out helped her gain financial independence at a young age.",
+          "vi": "Ra ở riêng đã giúp cô ấy độc lập về tài chính từ khi còn trẻ."
+        }
+      ],
+      "collocations": [
+        "financial independence",
+        "sense of independence",
+        "gain independence",
+        "independence from"
+      ],
+      "notes": null,
+      "ipa": "/ˌɪndɪˈpendəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ind/indep/independence__us_1.mp3"
+    },
+    {
+      "english": "sugar",
+      "vietnamese": "đường",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Do you take sugar in your coffee or tea?",
+          "vi": "Bạn có cho đường vào cà phê hay trà không?"
+        },
+        {
+          "en": "Mix the butter and sugar together until the mixture is soft.",
+          "vi": "Trộn bơ với đường cho đến khi hỗn hợp mềm."
+        },
+        {
+          "en": "The doctor told me to cut down on sugar and salt.",
+          "vi": "Bác sĩ bảo tôi nên ăn bớt đường và muối."
+        }
+      ],
+      "collocations": [
+        "brown sugar",
+        "add sugar",
+        "cut down on sugar"
+      ],
+      "notes": "không đếm được (a spoonful of sugar)",
+      "ipa": "/ˈʃʊɡər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sug/sugar/sugar__us_2.mp3"
+    },
+    {
+      "english": "inner",
+      "vietnamese": "bên trong; nội tâm",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Put your wallet in the inner pocket of your jacket.",
+          "vi": "Hãy cất ví vào túi trong của áo khoác."
+        },
+        {
+          "en": "The inner walls of the old house were painted white.",
+          "vi": "Các bức tường bên trong ngôi nhà cũ được sơn màu trắng."
+        },
+        {
+          "en": "Yoga helps me find inner peace after a busy day.",
+          "vi": "Yoga giúp tôi tìm lại sự bình yên trong tâm hồn sau một ngày bận rộn."
+        }
+      ],
+      "collocations": [
+        "inner city",
+        "inner peace",
+        "inner pocket",
+        "inner circle"
+      ],
+      "notes": "inner ≠ outer (bên ngoài)",
+      "ipa": "/ˈɪnər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inn/inner/inner__us_1.mp3"
+    },
+    {
+      "english": "harm",
+      "vietnamese": "sự tổn hại; điều có hại",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A little extra rest won't do you any harm.",
+          "vi": "Nghỉ ngơi thêm một chút cũng chẳng hại gì cho bạn."
+        },
+        {
+          "en": "Too much sun can cause serious harm to your skin.",
+          "vi": "Phơi nắng quá nhiều có thể gây hại nghiêm trọng cho da."
+        },
+        {
+          "en": "Don't worry, the dog is friendly and means no harm.",
+          "vi": "Đừng lo, con chó thân thiện và không có ý làm hại ai đâu."
+        }
+      ],
+      "collocations": [
+        "do harm",
+        "cause harm",
+        "no harm done",
+        "mean no harm"
+      ],
+      "notes": "cũng là động từ: harm (làm hại)",
+      "ipa": "/hɑːrm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/har/harm_/harm__us_1.mp3"
+    },
+    {
+      "english": "consult",
+      "vietnamese": "hỏi ý kiến; tra cứu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "You should consult a doctor if the pain doesn't go away.",
+          "vi": "Bạn nên hỏi ý kiến bác sĩ nếu cơn đau không hết."
+        },
+        {
+          "en": "My boss made the decision without consulting anyone on the team.",
+          "vi": "Sếp tôi đã quyết định mà không hỏi ý kiến ai trong nhóm."
+        },
+        {
+          "en": "She consulted the map to find the quickest way home.",
+          "vi": "Cô ấy tra bản đồ để tìm đường về nhà nhanh nhất."
+        }
+      ],
+      "collocations": [
+        "consult a doctor",
+        "consult a lawyer",
+        "consult with",
+        "consult a dictionary"
+      ],
+      "notes": null,
+      "ipa": "/kənˈsʌlt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsult__us_1.mp3"
+    },
+    {
+      "english": "pink",
+      "vietnamese": "(màu) hồng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My little sister wants to paint her bedroom walls pink.",
+          "vi": "Em gái tôi muốn sơn tường phòng ngủ màu hồng."
+        },
+        {
+          "en": "She wore a pale pink dress to her friend's wedding.",
+          "vi": "Cô ấy mặc một chiếc váy hồng nhạt đến đám cưới bạn."
+        },
+        {
+          "en": "The sky turned pink as the sun went down.",
+          "vi": "Bầu trời chuyển sang màu hồng khi mặt trời lặn."
+        }
+      ],
+      "collocations": [
+        "pale pink",
+        "bright pink",
+        "turn pink",
+        "light pink"
+      ],
+      "notes": null,
+      "ipa": "/pɪŋk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pin/pink_/pink__us_1.mp3"
+    },
+    {
+      "english": "shadow",
+      "vietnamese": "bóng; bóng tối",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "In the late afternoon, the trees cast long shadows across the grass.",
+          "vi": "Vào cuối chiều, cây cối đổ những chiếc bóng dài trên bãi cỏ."
+        },
+        {
+          "en": "The cat was hiding in the shadows under the car.",
+          "vi": "Con mèo đang nấp trong bóng tối dưới gầm xe."
+        },
+        {
+          "en": "My son is scared of his own shadow on the wall at night.",
+          "vi": "Con trai tôi sợ chính cái bóng của mình trên tường vào ban đêm."
+        }
+      ],
+      "collocations": [
+        "cast a shadow",
+        "long shadows",
+        "in the shadows",
+        "dark shadow"
+      ],
+      "notes": null,
+      "ipa": "/ˈʃædəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sha/shado/shadow__us_1.mp3"
+    },
+    {
+      "english": "strip",
+      "vietnamese": "dải; mảnh dài",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Cut the chicken into thin strips before you fry it.",
+          "vi": "Thái thịt gà thành từng dải mỏng trước khi chiên."
+        },
+        {
+          "en": "There is a narrow strip of sand between the hotel and the sea.",
+          "vi": "Có một dải cát hẹp giữa khách sạn và biển."
+        },
+        {
+          "en": "He tied the top of the bag with a strip of cloth.",
+          "vi": "Anh ấy buộc miệng túi bằng một mảnh vải dài."
+        }
+      ],
+      "collocations": [
+        "thin strip",
+        "narrow strip",
+        "strip of land",
+        "strip of paper"
+      ],
+      "notes": "cũng là động từ: strip (lột, cởi bỏ)",
+      "ipa": "/strɪp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/strip/strip__us_1.mp3"
+    }
+  ]
+}

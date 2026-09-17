@@ -1,0 +1,835 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 501–1.000 · Bộ 16",
+    "description": "New General Service List, thứ hạng 501–1.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-2-16"
+  },
+  "cards": [
+    {
+      "english": "object",
+      "vietnamese": "đồ vật, vật thể; mục đích",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She picked up a small metal object from the floor.",
+          "vi": "Cô ấy nhặt một vật nhỏ bằng kim loại lên từ sàn nhà."
+        },
+        {
+          "en": "Nobody could identify the strange object in the sky.",
+          "vi": "Không ai có thể xác định được vật thể lạ trên bầu trời."
+        },
+        {
+          "en": "The object of the game is to collect as many points as possible.",
+          "vi": "Mục đích của trò chơi là thu được càng nhiều điểm càng tốt.",
+          "image_url": "https://images.pexels.com/photos/37063414/pexels-photo-37063414.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "small object",
+        "everyday objects",
+        "object of the game"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːbdʒɪkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/obj/objec/object__us_2_rr.mp3"
+    },
+    {
+      "english": "maintain",
+      "vietnamese": "duy trì, giữ; bảo dưỡng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "It is hard to maintain a healthy weight when you work long hours.",
+          "vi": "Thật khó duy trì cân nặng hợp lý khi bạn làm việc nhiều giờ."
+        },
+        {
+          "en": "We try to maintain good relations with all our neighbors.",
+          "vi": "Chúng tôi cố gắng giữ quan hệ tốt với tất cả hàng xóm."
+        },
+        {
+          "en": "The city spends a lot of money maintaining its roads.",
+          "vi": "Thành phố chi rất nhiều tiền để bảo dưỡng đường sá."
+        }
+      ],
+      "collocations": [
+        "maintain good relations",
+        "maintain a healthy weight",
+        "well maintained"
+      ],
+      "notes": null,
+      "ipa": "/meɪnˈteɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mai/maint/maintain__us_2.mp3"
+    },
+    {
+      "english": "credit",
+      "vietnamese": "tín dụng; sự ghi nhận công lao; tín chỉ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Can I pay by credit card, or do you only take cash?",
+          "vi": "Tôi có thể trả bằng thẻ tín dụng không, hay bạn chỉ nhận tiền mặt?"
+        },
+        {
+          "en": "She deserves credit for all the hard work she put in.",
+          "vi": "Cô ấy xứng đáng được ghi nhận vì tất cả công sức đã bỏ ra."
+        },
+        {
+          "en": "You need 120 credits to graduate from this program.",
+          "vi": "Bạn cần 120 tín chỉ để tốt nghiệp chương trình này."
+        }
+      ],
+      "collocations": [
+        "credit card",
+        "deserve credit",
+        "take credit for"
+      ],
+      "notes": null,
+      "ipa": "/ˈkredɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cre/credi/credit__us_1.mp3"
+    },
+    {
+      "english": "ring",
+      "vietnamese": "reo, rung (chuông); gọi điện thoại",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The phone rang just as I was getting into the shower.",
+          "vi": "Điện thoại reo đúng lúc tôi vừa bước vào tắm."
+        },
+        {
+          "en": "Please ring the bell if you need any help.",
+          "vi": "Vui lòng bấm chuông nếu bạn cần giúp đỡ."
+        },
+        {
+          "en": "I'll ring you tomorrow morning to confirm the time.",
+          "vi": "Sáng mai tôi sẽ gọi điện cho bạn để xác nhận giờ giấc."
+        }
+      ],
+      "collocations": [
+        "phone rings",
+        "ring the bell",
+        "ring the doorbell"
+      ],
+      "notes": "ring – rang – rung",
+      "ipa": "/rɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rin/ring_/ring__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/17232934/pexels-photo-17232934.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Valeriia Miller",
+        "author_url": "https://www.pexels.com/@valeriiamiller",
+        "source_url": "https://www.pexels.com/photo/rings-on-woman-hand-17232934/"
+      }
+    },
+    {
+      "english": "discover",
+      "vietnamese": "khám phá; phát hiện",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Scientists have discovered a new kind of fish in the river.",
+          "vi": "Các nhà khoa học đã phát hiện một loài cá mới ở con sông."
+        },
+        {
+          "en": "We discovered a lovely little café near our hotel.",
+          "vi": "Chúng tôi đã khám phá ra một quán cà phê nhỏ xinh gần khách sạn."
+        },
+        {
+          "en": "It took years for him to discover the truth about his family.",
+          "vi": "Anh ấy mất nhiều năm mới phát hiện ra sự thật về gia đình mình."
+        }
+      ],
+      "collocations": [
+        "discover the truth",
+        "newly discovered",
+        "discover that"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈskʌvər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/disco/discover__us_1.mp3"
+    },
+    {
+      "english": "dead",
+      "vietnamese": "chết; hết pin, không hoạt động",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Remove the dead leaves so the plant can grow better.",
+          "vi": "Hãy bỏ những chiếc lá chết đi để cây phát triển tốt hơn.",
+          "image_url": "https://images.pexels.com/photos/36729239/pexels-photo-36729239.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The car won't start because of a dead battery.",
+          "vi": "Xe không khởi động được vì bình ắc quy hết điện."
+        },
+        {
+          "en": "My phone is dead, so I can't call a taxi.",
+          "vi": "Điện thoại tôi hết pin nên tôi không gọi taxi được."
+        }
+      ],
+      "collocations": [
+        "dead leaves",
+        "dead battery",
+        "dead end"
+      ],
+      "notes": null,
+      "ipa": "/ded/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dea/dead_/dead__us_1.mp3"
+    },
+    {
+      "english": "afternoon",
+      "vietnamese": "buổi chiều",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I usually take a short nap in the afternoon.",
+          "vi": "Tôi thường chợp mắt một lát vào buổi chiều."
+        },
+        {
+          "en": "Are you free on Friday afternoon for a quick meeting?",
+          "vi": "Chiều thứ Sáu bạn có rảnh để họp nhanh không?"
+        },
+        {
+          "en": "We spent the whole afternoon walking around the old town.",
+          "vi": "Chúng tôi dành cả buổi chiều đi dạo quanh khu phố cổ."
+        }
+      ],
+      "collocations": [
+        "in the afternoon",
+        "this afternoon",
+        "Friday afternoon",
+        "late afternoon"
+      ],
+      "notes": null,
+      "ipa": "/ˌæftərˈnuːn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aft/after/afternoon__us_2.mp3"
+    },
+    {
+      "english": "prefer",
+      "vietnamese": "thích hơn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I prefer tea to coffee in the morning.",
+          "vi": "Buổi sáng tôi thích uống trà hơn cà phê."
+        },
+        {
+          "en": "I would prefer to stay home tonight, if you don't mind.",
+          "vi": "Tối nay tôi muốn ở nhà hơn, nếu bạn không phiền.",
+          "image_url": "https://images.pexels.com/photos/1217243/pexels-photo-1217243.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Most of our customers prefer paying by card.",
+          "vi": "Phần lớn khách hàng của chúng tôi thích trả bằng thẻ hơn."
+        }
+      ],
+      "collocations": [
+        "would prefer",
+        "much prefer",
+        "prefer tea to coffee"
+      ],
+      "notes": "prefer A to B · preferred (gấp đôi r)",
+      "ipa": "/prɪˈfɜːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/prefe/prefer__us_3.mp3"
+    },
+    {
+      "english": "extend",
+      "vietnamese": "kéo dài; gia hạn; mở rộng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We decided to extend our stay in the city by three days.",
+          "vi": "Chúng tôi quyết định kéo dài thời gian ở lại thành phố thêm ba ngày."
+        },
+        {
+          "en": "The teacher agreed to extend the deadline by one week.",
+          "vi": "Giáo viên đồng ý gia hạn thời hạn nộp bài thêm một tuần."
+        },
+        {
+          "en": "The school plans to extend the library next year.",
+          "vi": "Nhà trường dự định mở rộng thư viện vào năm sau."
+        }
+      ],
+      "collocations": [
+        "extend the deadline",
+        "extend your stay",
+        "extend a contract"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈstend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ext/exten/extend__us_3.mp3"
+    },
+    {
+      "english": "possibility",
+      "vietnamese": "khả năng; sự có thể",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There is a possibility that it will rain this afternoon.",
+          "vi": "Có khả năng chiều nay trời sẽ mưa."
+        },
+        {
+          "en": "Have you considered the possibility of studying abroad?",
+          "vi": "Bạn đã tính đến khả năng đi du học chưa?"
+        },
+        {
+          "en": "We can't rule out the possibility of delays.",
+          "vi": "Chúng ta không thể loại trừ khả năng bị chậm trễ.",
+          "image_url": "https://images.pexels.com/photos/7447880/pexels-photo-7447880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "real possibility",
+        "strong possibility",
+        "rule out the possibility",
+        "consider the possibility"
+      ],
+      "notes": null,
+      "ipa": "/ˌpɑːsəˈbɪləti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pos/possi/possibility__us_4.mp3"
+    },
+    {
+      "english": "direction",
+      "vietnamese": "hướng; sự chỉ dẫn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Excuse me, which direction is the train station?",
+          "vi": "Xin lỗi, ga tàu ở hướng nào vậy?"
+        },
+        {
+          "en": "We were walking in the wrong direction for twenty minutes.",
+          "vi": "Chúng tôi đã đi sai hướng suốt hai mươi phút."
+        },
+        {
+          "en": "Follow the directions on the box carefully.",
+          "vi": "Hãy làm theo kỹ các chỉ dẫn trên hộp."
+        }
+      ],
+      "collocations": [
+        "opposite direction",
+        "wrong direction",
+        "ask for directions"
+      ],
+      "notes": "directions (số nhiều) = lời chỉ đường, hướng dẫn",
+      "ipa": "/dəˈrekʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dir/direc/direction__us_1_rr.mp3"
+    },
+    {
+      "english": "facility",
+      "vietnamese": "cơ sở vật chất; tiện nghi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The hotel has excellent sports facilities, including a pool.",
+          "vi": "Khách sạn có cơ sở vật chất thể thao rất tốt, gồm cả hồ bơi."
+        },
+        {
+          "en": "Our school recently opened a new research facility.",
+          "vi": "Trường chúng tôi vừa mở một cơ sở nghiên cứu mới."
+        },
+        {
+          "en": "Are there any parking facilities near the hospital?",
+          "vi": "Gần bệnh viện có bãi đỗ xe nào không?"
+        }
+      ],
+      "collocations": [
+        "sports facilities",
+        "research facility",
+        "parking facilities",
+        "medical facilities"
+      ],
+      "notes": "thường dùng số nhiều: facilities",
+      "ipa": "/fəˈsɪləti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fac/facil/facility__us_4.mp3"
+    },
+    {
+      "english": "variety",
+      "vietnamese": "sự đa dạng; loại, giống",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The market sells a wide variety of fresh fruit.",
+          "vi": "Chợ bán rất nhiều loại trái cây tươi."
+        },
+        {
+          "en": "I like my job because it offers plenty of variety.",
+          "vi": "Tôi thích công việc của mình vì nó rất đa dạng."
+        },
+        {
+          "en": "This variety of apple is sweet and very crunchy.",
+          "vi": "Giống táo này ngọt và rất giòn."
+        }
+      ],
+      "collocations": [
+        "a wide variety of",
+        "a variety of",
+        "great variety"
+      ],
+      "notes": null,
+      "ipa": "/vəˈraɪəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/var/varie/variety__us_3.mp3",
+      "image_url": "https://images.pexels.com/photos/13548953/pexels-photo-13548953.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "José Barbosa",
+        "author_url": "https://www.pexels.com/@jose-barbosa-3642975",
+        "source_url": "https://www.pexels.com/photo/close-up-shot-of-chili-peppers-13548953/"
+      }
+    },
+    {
+      "english": "daily",
+      "vietnamese": "hằng ngày",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Exercise has become part of my daily routine.",
+          "vi": "Tập thể dục đã trở thành một phần thói quen hằng ngày của tôi."
+        },
+        {
+          "en": "She writes about her daily life on a small blog.",
+          "vi": "Cô ấy viết về cuộc sống hằng ngày của mình trên một blog nhỏ."
+        },
+        {
+          "en": "We check the equipment on a daily basis.",
+          "vi": "Chúng tôi kiểm tra thiết bị hằng ngày."
+        }
+      ],
+      "collocations": [
+        "daily routine",
+        "daily life",
+        "on a daily basis",
+        "daily newspaper"
+      ],
+      "notes": null,
+      "ipa": "/ˈdeɪli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dai/daily/daily__us_1.mp3"
+    },
+    {
+      "english": "clothes",
+      "vietnamese": "quần áo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I need to buy some new clothes for work.",
+          "vi": "Tôi cần mua vài bộ quần áo mới để đi làm.",
+          "image_url": "https://images.pexels.com/photos/5699296/pexels-photo-5699296.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Take off your wet clothes before you catch a cold.",
+          "vi": "Cởi quần áo ướt ra kẻo bạn bị cảm lạnh."
+        },
+        {
+          "en": "She always wears comfortable clothes when she travels.",
+          "vi": "Cô ấy luôn mặc quần áo thoải mái khi đi du lịch."
+        }
+      ],
+      "collocations": [
+        "new clothes",
+        "wet clothes",
+        "change clothes",
+        "casual clothes"
+      ],
+      "notes": "luôn ở dạng số nhiều",
+      "ipa": "/kləʊðz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/clo/cloth/clothes__us_2_rr.mp3"
+    },
+    {
+      "english": "screen",
+      "vietnamese": "màn hình",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My phone screen cracked when I dropped it.",
+          "vi": "Màn hình điện thoại của tôi bị nứt khi tôi làm rơi nó."
+        },
+        {
+          "en": "Doctors say children should have less screen time each day.",
+          "vi": "Bác sĩ khuyên trẻ em nên dành ít thời gian nhìn màn hình hơn mỗi ngày."
+        },
+        {
+          "en": "Can you share your screen so we can all see the slides?",
+          "vi": "Bạn chia sẻ màn hình để mọi người cùng xem slide được không?"
+        }
+      ],
+      "collocations": [
+        "computer screen",
+        "touch screen",
+        "screen time",
+        "share your screen"
+      ],
+      "notes": null,
+      "ipa": "/skriːn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/scr/scree/screen__us_1.mp3"
+    },
+    {
+      "english": "track",
+      "vietnamese": "đường mòn; đường chạy; bài hát (trong album)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We followed a narrow track through the forest.",
+          "vi": "Chúng tôi đi theo một con đường mòn hẹp xuyên qua khu rừng."
+        },
+        {
+          "en": "The athletes ran four laps around the running track.",
+          "vi": "Các vận động viên chạy bốn vòng quanh đường chạy.",
+          "image_url": "https://images.pexels.com/photos/8533632/pexels-photo-8533632.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "This is my favorite track on the whole album.",
+          "vi": "Đây là bài hát tôi thích nhất trong cả album."
+        }
+      ],
+      "collocations": [
+        "running track",
+        "dirt track",
+        "keep track of"
+      ],
+      "notes": null,
+      "ipa": "/træk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/track/track__us_1.mp3"
+    },
+    {
+      "english": "dance",
+      "vietnamese": "nhảy, khiêu vũ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My grandparents still love to dance together at parties.",
+          "vi": "Ông bà tôi vẫn thích nhảy cùng nhau trong các bữa tiệc."
+        },
+        {
+          "en": "We danced all night at my cousin's wedding.",
+          "vi": "Chúng tôi đã nhảy suốt đêm ở đám cưới của anh họ tôi."
+        },
+        {
+          "en": "Can you teach me how to dance the salsa?",
+          "vi": "Bạn có thể dạy tôi nhảy salsa không?"
+        }
+      ],
+      "collocations": [
+        "dance together",
+        "dance to the music",
+        "learn to dance"
+      ],
+      "notes": null,
+      "ipa": "/dæns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dan/dance/dance__us_1.mp3"
+    },
+    {
+      "english": "completely",
+      "vietnamese": "hoàn toàn",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I completely forgot about our meeting this morning.",
+          "vi": "Tôi hoàn toàn quên mất cuộc họp của chúng ta sáng nay."
+        },
+        {
+          "en": "The new building is completely different from the old one.",
+          "vi": "Tòa nhà mới hoàn toàn khác với tòa nhà cũ."
+        },
+        {
+          "en": "Make sure the paint is completely dry before you touch it.",
+          "vi": "Hãy đảm bảo sơn đã khô hoàn toàn trước khi bạn chạm vào.",
+          "image_url": "https://images.pexels.com/photos/6764265/pexels-photo-6764265.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "completely different",
+        "completely forget",
+        "completely wrong"
+      ],
+      "notes": null,
+      "ipa": "/kəmˈpliːtli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compl/completely__us_2.mp3"
+    },
+    {
+      "english": "female",
+      "vietnamese": "nữ; (giống) cái",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Most of the students in my class are female.",
+          "vi": "Phần lớn học sinh trong lớp tôi là nữ."
+        },
+        {
+          "en": "The female bird sits on the eggs to keep them warm.",
+          "vi": "Chim mái nằm ấp trứng để giữ ấm cho trứng."
+        },
+        {
+          "en": "The company wants to hire more female engineers.",
+          "vi": "Công ty muốn tuyển thêm nhiều kỹ sư nữ."
+        }
+      ],
+      "collocations": [
+        "female students",
+        "female employees",
+        "female voice"
+      ],
+      "notes": null,
+      "ipa": "/ˈfiːmeɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fem/femal/female__us_2.mp3"
+    },
+    {
+      "english": "responsibility",
+      "vietnamese": "trách nhiệm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Taking care of the dog is my brother's responsibility.",
+          "vi": "Chăm sóc con chó là trách nhiệm của anh trai tôi."
+        },
+        {
+          "en": "Parents have a responsibility to keep their children safe.",
+          "vi": "Cha mẹ có trách nhiệm giữ cho con cái được an toàn."
+        },
+        {
+          "en": "She took full responsibility for the mistake.",
+          "vi": "Cô ấy nhận toàn bộ trách nhiệm về sai lầm đó."
+        }
+      ],
+      "collocations": [
+        "take responsibility for",
+        "full responsibility",
+        "a sense of responsibility"
+      ],
+      "notes": "responsibility for sth",
+      "ipa": "/rɪˌspɑːnsəˈbɪləti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/respo/responsibility__us_5.mp3"
+    },
+    {
+      "english": "original",
+      "vietnamese": "ban đầu, gốc; độc đáo",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The original plan was to leave on Monday.",
+          "vi": "Kế hoạch ban đầu là khởi hành vào thứ Hai."
+        },
+        {
+          "en": "Please keep the original receipt in case you need a refund.",
+          "vi": "Vui lòng giữ hóa đơn gốc phòng khi bạn cần hoàn tiền."
+        },
+        {
+          "en": "Her ideas are always fresh and original.",
+          "vi": "Ý tưởng của cô ấy luôn mới mẻ và độc đáo."
+        }
+      ],
+      "collocations": [
+        "original plan",
+        "original version",
+        "original idea"
+      ],
+      "notes": null,
+      "ipa": "/əˈrɪdʒənl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ori/origi/original__us_3.mp3",
+      "image_url": "https://images.pexels.com/photos/17281182/pexels-photo-17281182.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Roger Ce",
+        "author_url": "https://www.pexels.com/@roger-ce-311041755",
+        "source_url": "https://www.pexels.com/photo/a-woman-in-a-mask-holding-a-bass-guitar-17281182/"
+      }
+    },
+    {
+      "english": "sister",
+      "vietnamese": "chị gái; em gái",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My older sister lives in another city with her husband.",
+          "vi": "Chị gái tôi sống ở một thành phố khác cùng chồng."
+        },
+        {
+          "en": "I share a bedroom with my little sister.",
+          "vi": "Tôi ở chung phòng ngủ với em gái."
+        },
+        {
+          "en": "Do you have any brothers or sisters?",
+          "vi": "Bạn có anh chị em nào không?"
+        }
+      ],
+      "collocations": [
+        "older sister",
+        "younger sister",
+        "little sister",
+        "big sister"
+      ],
+      "notes": "older sister = chị gái · younger sister = em gái",
+      "ipa": "/ˈsɪstər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sis/siste/sister__us_1.mp3"
+    },
+    {
+      "english": "rock",
+      "vietnamese": "đá, tảng đá; nhạc rock",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We sat on a large rock and watched the sunset.",
+          "vi": "Chúng tôi ngồi trên một tảng đá lớn ngắm hoàng hôn.",
+          "image_url": "https://images.pexels.com/photos/4097971/pexels-photo-4097971.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Be careful, the rocks near the water are slippery.",
+          "vi": "Cẩn thận nhé, mấy tảng đá gần mép nước trơn lắm."
+        },
+        {
+          "en": "My dad listens to rock music while he cooks.",
+          "vi": "Bố tôi nghe nhạc rock trong lúc nấu ăn."
+        }
+      ],
+      "collocations": [
+        "rock music",
+        "rock band",
+        "large rock"
+      ],
+      "notes": null,
+      "ipa": "/rɑːk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/roc/rock_/rock__us_1.mp3"
+    },
+    {
+      "english": "dream",
+      "vietnamese": "giấc mơ; ước mơ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I had a strange dream about flying last night.",
+          "vi": "Đêm qua tôi có một giấc mơ kỳ lạ về việc bay."
+        },
+        {
+          "en": "Her dream is to open a small bakery one day.",
+          "vi": "Ước mơ của cô ấy là một ngày nào đó mở một tiệm bánh nhỏ."
+        },
+        {
+          "en": "Working abroad was a dream come true for him.",
+          "vi": "Được làm việc ở nước ngoài là giấc mơ thành hiện thực của anh ấy."
+        }
+      ],
+      "collocations": [
+        "have a dream",
+        "bad dream",
+        "dream come true",
+        "dream job"
+      ],
+      "notes": null,
+      "ipa": "/driːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dre/dream/dream__us_1.mp3"
+    },
+    {
+      "english": "nor",
+      "vietnamese": "cũng không",
+      "part_of_speech": "conjunction",
+      "examples": [
+        {
+          "en": "Neither my brother nor I can swim very well.",
+          "vi": "Cả anh trai tôi và tôi đều không bơi giỏi lắm."
+        },
+        {
+          "en": "He doesn't eat meat, nor does he drink milk.",
+          "vi": "Anh ấy không ăn thịt, cũng không uống sữa.",
+          "image_url": "https://images.pexels.com/photos/4127405/pexels-photo-4127405.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The hotel was neither cheap nor very comfortable.",
+          "vi": "Khách sạn không rẻ mà cũng chẳng thoải mái lắm."
+        }
+      ],
+      "collocations": [
+        "neither ... nor",
+        "nor do I"
+      ],
+      "notes": "neither A nor B · nor đứng đầu mệnh đề thì đảo trợ động từ",
+      "ipa": "/nɔːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nor/nor__/nor__us_1.mp3"
+    },
+    {
+      "english": "university",
+      "vietnamese": "trường đại học",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My cousin studies medicine at a large university.",
+          "vi": "Anh họ tôi học y ở một trường đại học lớn."
+        },
+        {
+          "en": "She was the first in her family to go to university.",
+          "vi": "Cô ấy là người đầu tiên trong gia đình được học đại học."
+        },
+        {
+          "en": "The university library stays open until midnight during exams.",
+          "vi": "Thư viện trường đại học mở cửa đến nửa đêm trong mùa thi."
+        }
+      ],
+      "collocations": [
+        "go to university",
+        "university student",
+        "university degree",
+        "university library"
+      ],
+      "notes": null,
+      "ipa": "/ˌjuːnɪˈvɜːrsəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/uni/unive/university__us_1.mp3"
+    },
+    {
+      "english": "easily",
+      "vietnamese": "dễ dàng",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "He gets angry very easily when he is tired.",
+          "vi": "Anh ấy rất dễ nổi nóng khi mệt."
+        },
+        {
+          "en": "She passed the exam easily and got the highest score.",
+          "vi": "Cô ấy dễ dàng vượt qua kỳ thi và đạt điểm cao nhất."
+        },
+        {
+          "en": "You can easily make this dish at home in twenty minutes.",
+          "vi": "Bạn có thể dễ dàng làm món này ở nhà trong hai mươi phút.",
+          "image_url": "https://images.pexels.com/photos/7363964/pexels-photo-7363964.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "can easily",
+        "very easily",
+        "easily accessible"
+      ],
+      "notes": null,
+      "ipa": "/ˈiːzəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eas/easil/easily__us_1.mp3"
+    },
+    {
+      "english": "agency",
+      "vietnamese": "đại lý; cơ quan",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We booked our trip through a travel agency.",
+          "vi": "Chúng tôi đặt chuyến đi qua một đại lý du lịch."
+        },
+        {
+          "en": "She works for an advertising agency in the city center.",
+          "vi": "Cô ấy làm việc cho một công ty quảng cáo ở trung tâm thành phố."
+        },
+        {
+          "en": "A government agency is checking the safety of the water.",
+          "vi": "Một cơ quan chính phủ đang kiểm tra độ an toàn của nguồn nước."
+        }
+      ],
+      "collocations": [
+        "travel agency",
+        "advertising agency",
+        "government agency",
+        "employment agency"
+      ],
+      "notes": null,
+      "ipa": "/ˈeɪdʒənsi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/age/agenc/agency__us_2.mp3"
+    }
+  ]
+}

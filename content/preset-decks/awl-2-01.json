@@ -1,0 +1,884 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 2 · Bộ 1",
+    "description": "Academic Word List, sublist 2",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-2-01"
+  },
+  "cards": [
+    {
+      "english": "achieve",
+      "vietnamese": "đạt được; giành được",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Few new businesses achieve success in their first year.",
+          "vi": "Rất ít doanh nghiệp mới đạt được thành công ngay trong năm đầu tiên."
+        },
+        {
+          "en": "The company failed to achieve its sales targets this year.",
+          "vi": "Năm nay công ty đã không đạt được các chỉ tiêu doanh số."
+        },
+        {
+          "en": "Students who set clear goals usually achieve better results.",
+          "vi": "Những sinh viên đặt ra mục tiêu rõ ràng thường đạt được kết quả tốt hơn."
+        }
+      ],
+      "collocations": [
+        "achieve success",
+        "achieve a goal",
+        "achieve results",
+        "achieve a target"
+      ],
+      "notes": null,
+      "ipa": "/əˈtʃiːv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ach/achie/achieve__us_2.mp3"
+    },
+    {
+      "english": "acquire",
+      "vietnamese": "tiếp thu; có được; mua lại",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Children acquire language skills very quickly in their early years.",
+          "vi": "Trẻ em tiếp thu các kỹ năng ngôn ngữ rất nhanh trong những năm đầu đời.",
+          "image_url": "https://images.pexels.com/photos/7108417/pexels-photo-7108417.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Workers can acquire new skills through short training courses.",
+          "vi": "Người lao động có thể có được kỹ năng mới qua các khóa đào tạo ngắn hạn.",
+          "image_url": "https://images.pexels.com/photos/7108417/pexels-photo-7108417.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Last year the firm acquired a smaller rival for two million dollars.",
+          "vi": "Năm ngoái, công ty đã mua lại một đối thủ nhỏ hơn với giá hai triệu đô la.",
+          "image_url": "https://images.pexels.com/photos/7108417/pexels-photo-7108417.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "acquire skills",
+        "acquire knowledge",
+        "acquire a company"
+      ],
+      "notes": null,
+      "ipa": "/əˈkwaɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acq/acqui/acquire__us_2.mp3",
+      "image_url": "https://images.pexels.com/photos/7108417/pexels-photo-7108417.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Pavel Danilyuk",
+        "author_url": "https://www.pexels.com/@pavel-danilyuk",
+        "source_url": "https://www.pexels.com/photo/buttons-on-medical-ultrasound-device-7108417/"
+      }
+    },
+    {
+      "english": "administrate",
+      "vietnamese": "quản lý; điều hành",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "A small team administrates the scholarship program for the university.",
+          "vi": "Một nhóm nhỏ quản lý chương trình học bổng của trường đại học."
+        },
+        {
+          "en": "She was hired to administrate the new research center.",
+          "vi": "Cô ấy được tuyển dụng để điều hành trung tâm nghiên cứu mới."
+        },
+        {
+          "en": "Local councils administrate most public services in the region.",
+          "vi": "Chính quyền địa phương quản lý hầu hết các dịch vụ công trong khu vực."
+        }
+      ],
+      "collocations": [
+        "administrate a program",
+        "administrate funds"
+      ],
+      "notes": "Thường dùng administer; danh từ: administration",
+      "ipa": "/æˈdmɪnɪˌstreɪt/",
+      "audio_src": null
+    },
+    {
+      "english": "affect",
+      "vietnamese": "ảnh hưởng đến; tác động đến",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Rising prices affect low-income families more than anyone else.",
+          "vi": "Giá cả tăng ảnh hưởng đến các gia đình thu nhập thấp nhiều hơn ai hết.",
+          "image_url": "https://images.pexels.com/photos/33305255/pexels-photo-33305255.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The storm seriously affected transport across the northern region.",
+          "vi": "Cơn bão đã ảnh hưởng nghiêm trọng đến giao thông khắp khu vực phía bắc."
+        },
+        {
+          "en": "Lack of sleep can affect your ability to concentrate.",
+          "vi": "Thiếu ngủ có thể ảnh hưởng đến khả năng tập trung của bạn."
+        }
+      ],
+      "collocations": [
+        "seriously affect",
+        "directly affect",
+        "adversely affect"
+      ],
+      "notes": "affect (v) ≠ effect (n)",
+      "ipa": "/əˈfekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aff/affec/affect__us_1.mp3"
+    },
+    {
+      "english": "appropriate",
+      "vietnamese": "phù hợp; thích hợp",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Please wear clothing appropriate for a formal business meeting.",
+          "vi": "Vui lòng mặc trang phục phù hợp với một cuộc họp công việc trang trọng."
+        },
+        {
+          "en": "The committee will take appropriate action once the review is complete.",
+          "vi": "Ủy ban sẽ có biện pháp thích hợp sau khi việc xem xét hoàn tất."
+        },
+        {
+          "en": "Is this textbook appropriate for first-year students?",
+          "vi": "Cuốn giáo trình này có phù hợp với sinh viên năm nhất không?"
+        }
+      ],
+      "collocations": [
+        "appropriate action",
+        "appropriate for",
+        "entirely appropriate",
+        "appropriate measures"
+      ],
+      "notes": "appropriate for + danh từ",
+      "ipa": "/əˈprəʊpriət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/app/appro/appropriate__us_1.mp3"
+    },
+    {
+      "english": "aspect",
+      "vietnamese": "khía cạnh; mặt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Cost is only one aspect of the problem we need to consider.",
+          "vi": "Chi phí chỉ là một khía cạnh của vấn đề mà chúng ta cần xem xét."
+        },
+        {
+          "en": "The course covers all aspects of running a small business.",
+          "vi": "Khóa học bao quát mọi khía cạnh của việc điều hành một doanh nghiệp nhỏ.",
+          "image_url": "https://images.pexels.com/photos/37672010/pexels-photo-37672010.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Researchers studied the social aspects of online learning.",
+          "vi": "Các nhà nghiên cứu đã tìm hiểu các khía cạnh xã hội của việc học trực tuyến."
+        }
+      ],
+      "collocations": [
+        "aspect of",
+        "all aspects",
+        "important aspect",
+        "social aspects"
+      ],
+      "notes": null,
+      "ipa": "/ˈæspekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/asp/aspec/aspect__us_1.mp3"
+    },
+    {
+      "english": "assist",
+      "vietnamese": "hỗ trợ; giúp đỡ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Two graduate students assisted the professor with the experiment.",
+          "vi": "Hai học viên cao học đã hỗ trợ giáo sư thực hiện thí nghiệm."
+        },
+        {
+          "en": "Our staff members are available to assist customers with their questions.",
+          "vi": "Nhân viên của chúng tôi luôn sẵn sàng giúp đỡ khách hàng giải đáp thắc mắc."
+        },
+        {
+          "en": "The new software will assist doctors in making faster diagnoses.",
+          "vi": "Phần mềm mới sẽ hỗ trợ các bác sĩ chẩn đoán nhanh hơn."
+        }
+      ],
+      "collocations": [
+        "assist with",
+        "assist in",
+        "assist customers"
+      ],
+      "notes": "assist sb with sth / in doing sth",
+      "ipa": "/əˈsɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/assis/assist__us_1.mp3"
+    },
+    {
+      "english": "category",
+      "vietnamese": "loại; hạng mục; nhóm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The products are divided into three main categories.",
+          "vi": "Các sản phẩm được chia thành ba loại chính."
+        },
+        {
+          "en": "She won an award in the best new writer category.",
+          "vi": "Cô ấy đã giành giải ở hạng mục nhà văn mới xuất sắc nhất."
+        },
+        {
+          "en": "Most of the patients in the study fall into this category.",
+          "vi": "Phần lớn bệnh nhân trong nghiên cứu thuộc nhóm này.",
+          "image_url": "https://images.pexels.com/photos/8376319/pexels-photo-8376319.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "fall into a category",
+        "main category",
+        "broad category"
+      ],
+      "notes": null,
+      "ipa": "/ˈkætəɡɔːri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cat/categ/category__us_1.mp3"
+    },
+    {
+      "english": "chapter",
+      "vietnamese": "chương (sách); giai đoạn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please read the first two chapters before next week's seminar.",
+          "vi": "Vui lòng đọc hai chương đầu tiên trước buổi thảo luận tuần sau."
+        },
+        {
+          "en": "Chapter three discusses the causes of the economic crisis.",
+          "vi": "Chương ba bàn về nguyên nhân của cuộc khủng hoảng kinh tế."
+        },
+        {
+          "en": "Moving abroad opened a new chapter in her career.",
+          "vi": "Việc ra nước ngoài đã mở ra một giai đoạn mới trong sự nghiệp của cô ấy."
+        }
+      ],
+      "collocations": [
+        "the first chapter",
+        "the final chapter",
+        "a new chapter"
+      ],
+      "notes": null,
+      "ipa": "/ˈtʃæptər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chapt/chapter__us_2.mp3"
+    },
+    {
+      "english": "commission",
+      "vietnamese": "ủy ban; tiền hoa hồng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The government set up a commission to investigate the accident.",
+          "vi": "Chính phủ đã thành lập một ủy ban để điều tra vụ tai nạn."
+        },
+        {
+          "en": "Sales staff earn a commission on every car they sell.",
+          "vi": "Nhân viên bán hàng được hưởng tiền hoa hồng trên mỗi chiếc xe họ bán."
+        },
+        {
+          "en": "The commission will publish its final report next spring.",
+          "vi": "Ủy ban sẽ công bố báo cáo cuối cùng vào mùa xuân năm sau."
+        }
+      ],
+      "collocations": [
+        "set up a commission",
+        "independent commission",
+        "earn commission",
+        "commission on"
+      ],
+      "notes": null,
+      "ipa": "/kəˈmɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/commi/commission__us_2.mp3"
+    },
+    {
+      "english": "community",
+      "vietnamese": "cộng đồng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new library will serve the whole local community.",
+          "vi": "Thư viện mới sẽ phục vụ toàn thể cộng đồng địa phương.",
+          "image_url": "https://images.pexels.com/photos/37495850/pexels-photo-37495850.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Members of the scientific community welcomed the new findings.",
+          "vi": "Các thành viên trong cộng đồng khoa học đã hoan nghênh những phát hiện mới.",
+          "image_url": "https://images.pexels.com/photos/37495850/pexels-photo-37495850.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Volunteers organized a community event to clean up the park.",
+          "vi": "Các tình nguyện viên đã tổ chức một sự kiện cộng đồng để dọn dẹp công viên.",
+          "image_url": "https://images.pexels.com/photos/37495850/pexels-photo-37495850.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "local community",
+        "scientific community",
+        "business community",
+        "community service"
+      ],
+      "notes": null,
+      "ipa": "/kəˈmjuːnəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/commu/community__us_2.mp3",
+      "image_url": "https://images.pexels.com/photos/37495850/pexels-photo-37495850.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Mr.Rabindra Bagh",
+        "author_url": "https://www.pexels.com/@mr-rabindra-bagh-3609059",
+        "source_url": "https://www.pexels.com/photo/diverse-community-gathering-under-a-tree-37495850/"
+      }
+    },
+    {
+      "english": "complex",
+      "vietnamese": "phức tạp",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Climate change is a complex problem with no simple solution.",
+          "vi": "Biến đổi khí hậu là một vấn đề phức tạp, không có giải pháp đơn giản."
+        },
+        {
+          "en": "The brain is the most complex organ in the human body.",
+          "vi": "Não là cơ quan phức tạp nhất trong cơ thể con người."
+        },
+        {
+          "en": "The application rules were too complex for most people to follow.",
+          "vi": "Các quy định nộp đơn quá phức tạp khiến hầu hết mọi người khó làm theo."
+        }
+      ],
+      "collocations": [
+        "complex problem",
+        "complex issue",
+        "highly complex",
+        "complex system"
+      ],
+      "notes": null,
+      "ipa": "/kəmˈpleks/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compl/complex__us_1_rr.mp3"
+    },
+    {
+      "english": "compute",
+      "vietnamese": "tính toán",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The program computes the average score for each class.",
+          "vi": "Chương trình tính điểm trung bình cho từng lớp.",
+          "image_url": "https://images.pexels.com/photos/31343632/pexels-photo-31343632.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Researchers computed the total cost of the project.",
+          "vi": "Các nhà nghiên cứu đã tính toán tổng chi phí của dự án."
+        },
+        {
+          "en": "It is difficult to compute the exact risk of an earthquake.",
+          "vi": "Rất khó để tính toán chính xác nguy cơ xảy ra động đất."
+        }
+      ],
+      "collocations": [
+        "compute the average",
+        "compute the total",
+        "compute the cost"
+      ],
+      "notes": null,
+      "ipa": "/kəmˈpjuːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compu/compute__us_1.mp3"
+    },
+    {
+      "english": "conclude",
+      "vietnamese": "kết luận; kết thúc",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The study concluded that exercise improves memory in older adults.",
+          "vi": "Nghiên cứu kết luận rằng tập thể dục giúp cải thiện trí nhớ ở người lớn tuổi."
+        },
+        {
+          "en": "From the evidence, we can conclude that the plan has failed.",
+          "vi": "Từ các bằng chứng, chúng ta có thể kết luận rằng kế hoạch đã thất bại."
+        },
+        {
+          "en": "The conference concluded with a short speech from the director.",
+          "vi": "Hội nghị kết thúc bằng một bài phát biểu ngắn của giám đốc."
+        }
+      ],
+      "collocations": [
+        "conclude that",
+        "conclude with",
+        "the report concludes"
+      ],
+      "notes": "conclude that + mệnh đề",
+      "ipa": "/kənˈkluːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconc/xconclude__us_2.mp3"
+    },
+    {
+      "english": "conduct",
+      "vietnamese": "tiến hành; thực hiện",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The team conducted a survey of five hundred local businesses.",
+          "vi": "Nhóm đã tiến hành khảo sát năm trăm doanh nghiệp địa phương."
+        },
+        {
+          "en": "Scientists are conducting experiments to test the new vaccine.",
+          "vi": "Các nhà khoa học đang tiến hành thí nghiệm để kiểm tra vắc-xin mới.",
+          "image_url": "https://images.pexels.com/photos/9243745/pexels-photo-9243745.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "All interviews were conducted in English by trained staff.",
+          "vi": "Tất cả các cuộc phỏng vấn đều được nhân viên đã qua đào tạo thực hiện bằng tiếng Anh."
+        }
+      ],
+      "collocations": [
+        "conduct research",
+        "conduct a survey",
+        "conduct an experiment",
+        "conduct an interview"
+      ],
+      "notes": null,
+      "ipa": "/kənˈdʌkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcond/xconduct__us_1.mp3"
+    },
+    {
+      "english": "consequent",
+      "vietnamese": "là hệ quả; kéo theo",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The factory closed, with a consequent loss of two hundred jobs.",
+          "vi": "Nhà máy đóng cửa, kéo theo việc mất đi hai trăm việc làm."
+        },
+        {
+          "en": "Heavy rain and the consequent flooding damaged many homes.",
+          "vi": "Mưa lớn cùng trận lũ lụt do nó gây ra đã làm hư hại nhiều ngôi nhà."
+        },
+        {
+          "en": "Rising fuel prices and the consequent increase in costs worried farmers.",
+          "vi": "Giá nhiên liệu tăng và chi phí tăng theo đã khiến nông dân lo lắng."
+        }
+      ],
+      "collocations": [
+        "consequent loss",
+        "consequent increase",
+        "consequent upon"
+      ],
+      "notes": "Trạng từ: consequently (do đó)",
+      "ipa": "/ˈkɑːnsɪkwent/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsequent__us_1_rr.mp3"
+    },
+    {
+      "english": "construct",
+      "vietnamese": "xây dựng; dựng nên",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The bridge was constructed in less than two years.",
+          "vi": "Cây cầu được xây dựng trong vòng chưa đầy hai năm."
+        },
+        {
+          "en": "The city plans to construct a new hospital near the station.",
+          "vi": "Thành phố dự định xây dựng một bệnh viện mới gần nhà ga."
+        },
+        {
+          "en": "Students must construct a clear argument supported by evidence.",
+          "vi": "Sinh viên phải xây dựng một lập luận rõ ràng có bằng chứng hỗ trợ.",
+          "image_url": "https://images.pexels.com/photos/5905492/pexels-photo-5905492.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "construct an argument",
+        "construct a model",
+        "newly constructed"
+      ],
+      "notes": null,
+      "ipa": "/kənˈstrʌkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconstruct__us_1.mp3"
+    },
+    {
+      "english": "consume",
+      "vietnamese": "tiêu thụ; tiêu tốn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Older cars consume much more fuel than modern ones.",
+          "vi": "Xe ô tô đời cũ tiêu thụ nhiều nhiên liệu hơn hẳn so với xe hiện đại."
+        },
+        {
+          "en": "People in cities consume more energy than those in rural areas.",
+          "vi": "Người dân thành thị tiêu thụ nhiều năng lượng hơn người dân nông thôn."
+        },
+        {
+          "en": "Writing the final report consumed most of our time.",
+          "vi": "Việc viết báo cáo cuối cùng đã tiêu tốn phần lớn thời gian của chúng tôi."
+        }
+      ],
+      "collocations": [
+        "consume energy",
+        "consume fuel",
+        "consume resources"
+      ],
+      "notes": null,
+      "ipa": "/kənˈsuːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsume__us_2.mp3"
+    },
+    {
+      "english": "credit",
+      "vietnamese": "tín dụng; tín chỉ; sự ghi nhận công lao",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Many small businesses find it hard to get credit from banks.",
+          "vi": "Nhiều doanh nghiệp nhỏ gặp khó khăn khi vay tín dụng từ ngân hàng."
+        },
+        {
+          "en": "Students must earn thirty credits to finish the program.",
+          "vi": "Sinh viên phải tích lũy ba mươi tín chỉ để hoàn thành chương trình."
+        },
+        {
+          "en": "She deserves credit for the success of the project.",
+          "vi": "Cô ấy xứng đáng được ghi nhận công lao trong thành công của dự án."
+        }
+      ],
+      "collocations": [
+        "deserve credit",
+        "take credit for",
+        "earn credits",
+        "credit card"
+      ],
+      "notes": null,
+      "ipa": "/ˈkredɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cre/credi/credit__us_1.mp3"
+    },
+    {
+      "english": "culture",
+      "vietnamese": "văn hóa",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Learning a language helps you understand a different culture.",
+          "vi": "Học một ngôn ngữ giúp bạn hiểu một nền văn hóa khác.",
+          "image_url": "https://images.pexels.com/photos/34735511/pexels-photo-34735511.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The company has a strong culture of teamwork.",
+          "vi": "Công ty có văn hóa làm việc nhóm rất mạnh.",
+          "image_url": "https://images.pexels.com/photos/34735511/pexels-photo-34735511.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Young people are strongly shaped by popular culture and social media.",
+          "vi": "Giới trẻ chịu ảnh hưởng mạnh mẽ của văn hóa đại chúng và mạng xã hội.",
+          "image_url": "https://images.pexels.com/photos/34735511/pexels-photo-34735511.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "popular culture",
+        "corporate culture",
+        "local culture",
+        "culture of"
+      ],
+      "notes": null,
+      "ipa": "/ˈkʌltʃər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cul/cultu/culture__us_2.mp3",
+      "image_url": "https://images.pexels.com/photos/34735511/pexels-photo-34735511.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Skylight Views",
+        "author_url": "https://www.pexels.com/@skylight-views-2151863365",
+        "source_url": "https://www.pexels.com/photo/vibrant-african-cultural-dance-performance-outdoors-34735511/"
+      }
+    },
+    {
+      "english": "design",
+      "vietnamese": "thiết kế",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The building was designed to use as little energy as possible.",
+          "vi": "Tòa nhà được thiết kế để sử dụng ít năng lượng nhất có thể."
+        },
+        {
+          "en": "Engineers are designing a cheaper battery for electric cars.",
+          "vi": "Các kỹ sư đang thiết kế một loại pin rẻ hơn cho xe điện."
+        },
+        {
+          "en": "We designed the survey to be completed in ten minutes.",
+          "vi": "Chúng tôi thiết kế bản khảo sát để có thể hoàn thành trong mười phút."
+        }
+      ],
+      "collocations": [
+        "be designed to",
+        "specially designed",
+        "well designed",
+        "design a system"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈzaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/des/desig/design__us_3.mp3"
+    },
+    {
+      "english": "distinct",
+      "vietnamese": "riêng biệt; khác biệt; rõ rệt",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The study identified three distinct groups of customers.",
+          "vi": "Nghiên cứu đã xác định ba nhóm khách hàng riêng biệt.",
+          "image_url": "https://images.pexels.com/photos/5486161/pexels-photo-5486161.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Weather is distinct from climate, although people often confuse them.",
+          "vi": "Thời tiết khác biệt với khí hậu, dù mọi người thường nhầm lẫn hai khái niệm này."
+        },
+        {
+          "en": "Speaking two languages gives job seekers a distinct advantage.",
+          "vi": "Việc nói được hai thứ tiếng mang lại cho người tìm việc một lợi thế rõ rệt."
+        }
+      ],
+      "collocations": [
+        "distinct from",
+        "clearly distinct",
+        "distinct advantage"
+      ],
+      "notes": "distinct from: khác với",
+      "ipa": "/dɪˈstɪŋkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/disti/distinct__us_1.mp3"
+    },
+    {
+      "english": "element",
+      "vietnamese": "yếu tố; thành phần; nguyên tố",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Trust is a key element of any successful team.",
+          "vi": "Sự tin tưởng là yếu tố then chốt của bất kỳ đội nhóm thành công nào."
+        },
+        {
+          "en": "The plan contains several elements that need further discussion.",
+          "vi": "Kế hoạch có một số thành phần cần được thảo luận thêm."
+        },
+        {
+          "en": "Oxygen is the most common element in Earth's crust.",
+          "vi": "Ôxy là nguyên tố phổ biến nhất trong vỏ Trái Đất."
+        }
+      ],
+      "collocations": [
+        "key element",
+        "important element",
+        "element of",
+        "chemical element"
+      ],
+      "notes": null,
+      "ipa": "/ˈelɪmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ele/eleme/element__us_1.mp3"
+    },
+    {
+      "english": "equate",
+      "vietnamese": "đánh đồng; tương đương với",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many people equate success with making a lot of money.",
+          "vi": "Nhiều người đánh đồng thành công với việc kiếm được nhiều tiền."
+        },
+        {
+          "en": "We should not equate good grades with real understanding.",
+          "vi": "Chúng ta không nên đánh đồng điểm cao với sự hiểu biết thực sự.",
+          "image_url": "https://images.pexels.com/photos/5212328/pexels-photo-5212328.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The pay rise equates to about fifty dollars a month.",
+          "vi": "Khoản tăng lương này tương đương khoảng năm mươi đô la mỗi tháng."
+        }
+      ],
+      "collocations": [
+        "equate with",
+        "equate to"
+      ],
+      "notes": "equate A with B: đánh đồng A với B",
+      "ipa": "/ɪˈkweɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/equ/equat/equate__us_2.mp3"
+    },
+    {
+      "english": "evaluate",
+      "vietnamese": "đánh giá",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Teachers evaluate students' progress at the end of each term.",
+          "vi": "Giáo viên đánh giá sự tiến bộ của học sinh vào cuối mỗi học kỳ."
+        },
+        {
+          "en": "The study aimed to evaluate how well the new drug works.",
+          "vi": "Nghiên cứu nhằm đánh giá mức độ hiệu quả của loại thuốc mới."
+        },
+        {
+          "en": "An outside expert was hired to evaluate the project.",
+          "vi": "Một chuyên gia bên ngoài đã được thuê để đánh giá dự án."
+        }
+      ],
+      "collocations": [
+        "evaluate the effectiveness",
+        "evaluate performance",
+        "evaluate progress",
+        "carefully evaluate"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈvæljueɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eva/evalu/evaluate__us_1.mp3"
+    },
+    {
+      "english": "feature",
+      "vietnamese": "đặc điểm; tính năng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The latest version of the app includes several new features.",
+          "vi": "Phiên bản mới nhất của ứng dụng có thêm một số tính năng mới."
+        },
+        {
+          "en": "A key feature of the course is its focus on practical skills.",
+          "vi": "Một đặc điểm chính của khóa học là chú trọng vào kỹ năng thực hành."
+        },
+        {
+          "en": "High mountains are a common feature of the region's landscape.",
+          "vi": "Núi cao là một đặc điểm phổ biến của cảnh quan vùng này.",
+          "image_url": "https://images.pexels.com/photos/39468503/pexels-photo-39468503.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "key feature",
+        "main feature",
+        "new features",
+        "common feature"
+      ],
+      "notes": null,
+      "ipa": "/ˈfiːtʃər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fea/featu/feature__us_2.mp3"
+    },
+    {
+      "english": "final",
+      "vietnamese": "cuối cùng; chung cuộc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The final decision will be made by the board next month.",
+          "vi": "Quyết định cuối cùng sẽ được hội đồng quản trị đưa ra vào tháng sau."
+        },
+        {
+          "en": "Students must submit their final reports by Friday.",
+          "vi": "Sinh viên phải nộp báo cáo cuối cùng trước thứ Sáu."
+        },
+        {
+          "en": "The project is now in its final stage.",
+          "vi": "Dự án hiện đang ở giai đoạn cuối cùng."
+        }
+      ],
+      "collocations": [
+        "final decision",
+        "final stage",
+        "final result",
+        "final report"
+      ],
+      "notes": null,
+      "ipa": "/ˈfaɪnl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fin/final/final__us_2.mp3"
+    },
+    {
+      "english": "focus",
+      "vietnamese": "tập trung",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "This paper focuses on the effects of social media on teenagers.",
+          "vi": "Bài báo này tập trung vào tác động của mạng xã hội đối với thanh thiếu niên."
+        },
+        {
+          "en": "Our company will focus on growth in Asian markets next year.",
+          "vi": "Năm tới, công ty chúng tôi sẽ tập trung vào tăng trưởng ở các thị trường châu Á."
+        },
+        {
+          "en": "It is hard to focus when the office is so noisy.",
+          "vi": "Thật khó tập trung khi văn phòng quá ồn ào."
+        }
+      ],
+      "collocations": [
+        "focus on",
+        "focus attention on",
+        "mainly focus"
+      ],
+      "notes": "focus on + danh từ / V-ing",
+      "ipa": "/ˈfəʊkəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/foc/focus/focus__us_1.mp3"
+    },
+    {
+      "english": "impact",
+      "vietnamese": "tác động; ảnh hưởng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new policy had a major impact on small businesses.",
+          "vi": "Chính sách mới đã có tác động lớn đến các doanh nghiệp nhỏ.",
+          "image_url": "https://images.pexels.com/photos/10231104/pexels-photo-10231104.png?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Scientists are studying the impact of climate change on farming.",
+          "vi": "Các nhà khoa học đang nghiên cứu tác động của biến đổi khí hậu đối với nông nghiệp.",
+          "image_url": "https://images.pexels.com/photos/10231104/pexels-photo-10231104.png?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Online shopping has had a negative impact on local stores.",
+          "vi": "Mua sắm trực tuyến đã gây ảnh hưởng tiêu cực đến các cửa hàng địa phương.",
+          "image_url": "https://images.pexels.com/photos/10231104/pexels-photo-10231104.png?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "have an impact on",
+        "major impact",
+        "negative impact",
+        "environmental impact"
+      ],
+      "notes": "impact on + danh từ",
+      "ipa": "/ˈɪmpækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/imp/impac/impact__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/10231104/pexels-photo-10231104.png?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "omar william david williams",
+        "author_url": "https://www.pexels.com/@odavidarts",
+        "source_url": "https://www.pexels.com/photo/light-bulb-shattering-10231104/"
+      }
+    },
+    {
+      "english": "injure",
+      "vietnamese": "làm bị thương; gây chấn thương",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Three workers were seriously injured in an accident at the factory.",
+          "vi": "Ba công nhân đã bị thương nặng trong một vụ tai nạn tại nhà máy."
+        },
+        {
+          "en": "Players who train too hard are more likely to injure themselves.",
+          "vi": "Những cầu thủ tập luyện quá sức dễ tự gây chấn thương cho bản thân hơn."
+        },
+        {
+          "en": "She injured her back while lifting heavy boxes at work.",
+          "vi": "Cô ấy bị chấn thương lưng khi nâng những thùng hàng nặng ở chỗ làm."
+        }
+      ],
+      "collocations": [
+        "seriously injured",
+        "badly injured",
+        "injure yourself"
+      ],
+      "notes": "Danh từ: injury (chấn thương)",
+      "ipa": "/ˈɪndʒər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inj/injur/injure__us_1.mp3"
+    }
+  ]
+}

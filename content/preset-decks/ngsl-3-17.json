@@ -1,0 +1,578 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.001–1.500 · Bộ 17",
+    "description": "New General Service List, thứ hạng 1.001–1.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-3-17"
+  },
+  "cards": [
+    {
+      "english": "regulation",
+      "vietnamese": "quy định; điều lệ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Safety regulations require all workers to wear helmets on site.",
+          "vi": "Các quy định an toàn yêu cầu mọi công nhân phải đội mũ bảo hộ tại công trường."
+        },
+        {
+          "en": "The company broke several regulations and had to pay a fine.",
+          "vi": "Công ty đã vi phạm một số quy định và phải nộp phạt."
+        },
+        {
+          "en": "New regulations on smoking in public places start next month.",
+          "vi": "Các quy định mới về hút thuốc ở nơi công cộng sẽ bắt đầu áp dụng từ tháng sau.",
+          "image_url": "https://images.pexels.com/photos/5142370/pexels-photo-5142370.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "safety regulations",
+        "new regulations",
+        "follow regulations",
+        "strict regulations"
+      ],
+      "notes": null,
+      "ipa": "/ˌreɡjuˈleɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regul/regulation__us_2.mp3"
+    },
+    {
+      "english": "escape",
+      "vietnamese": "thoát khỏi; trốn thoát",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The bird escaped from its cage when I opened the door.",
+          "vi": "Con chim đã thoát khỏi lồng khi tôi mở cửa."
+        },
+        {
+          "en": "Two prisoners escaped from the prison last night.",
+          "vi": "Hai tù nhân đã trốn khỏi nhà tù tối qua."
+        },
+        {
+          "en": "We went to the countryside to escape the noise of the city.",
+          "vi": "Chúng tôi về vùng quê để thoát khỏi sự ồn ào của thành phố."
+        }
+      ],
+      "collocations": [
+        "escape from prison",
+        "try to escape",
+        "narrowly escape"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈskeɪp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/esc/escap/escape__us_2.mp3"
+    },
+    {
+      "english": "studio",
+      "vietnamese": "phòng thu; xưởng vẽ; căn hộ một phòng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The band spent three months recording the album in a studio.",
+          "vi": "Ban nhạc đã dành ba tháng thu âm album trong phòng thu."
+        },
+        {
+          "en": "My aunt paints in a small studio behind her house.",
+          "vi": "Dì tôi vẽ tranh trong một xưởng vẽ nhỏ phía sau nhà."
+        },
+        {
+          "en": "He rents a studio apartment near the university.",
+          "vi": "Anh ấy thuê một căn hộ một phòng gần trường đại học."
+        }
+      ],
+      "collocations": [
+        "recording studio",
+        "television studio",
+        "studio apartment"
+      ],
+      "notes": null,
+      "ipa": "/ˈstuːdiəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/stu/studi/studio__us_2.mp3"
+    },
+    {
+      "english": "proper",
+      "vietnamese": "đúng; thích hợp; tử tế, ra hồn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Please put the books back in their proper place.",
+          "vi": "Vui lòng để sách lại đúng chỗ của chúng."
+        },
+        {
+          "en": "You need proper shoes for walking in the mountains.",
+          "vi": "Bạn cần giày thích hợp để đi bộ trên núi."
+        },
+        {
+          "en": "I haven't had a proper meal all day.",
+          "vi": "Cả ngày nay tôi chưa được ăn một bữa ra hồn."
+        }
+      ],
+      "collocations": [
+        "proper place",
+        "proper training",
+        "proper meal",
+        "the proper way"
+      ],
+      "notes": null,
+      "ipa": "/ˈprɑːpər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/prope/proper__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/375895/pexels-photo-375895.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Clem Onojeghuo",
+        "author_url": "https://www.pexels.com/@conojeghuo",
+        "source_url": "https://www.pexels.com/photo/proper-hamburgers-375895/"
+      }
+    },
+    {
+      "english": "relax",
+      "vietnamese": "thư giãn; thả lỏng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I like to relax with a good book after work.",
+          "vi": "Tôi thích thư giãn với một cuốn sách hay sau giờ làm."
+        },
+        {
+          "en": "Just relax and take a deep breath before you start.",
+          "vi": "Cứ thả lỏng và hít một hơi thật sâu trước khi bắt đầu."
+        },
+        {
+          "en": "We relaxed on the beach for the whole afternoon.",
+          "vi": "Chúng tôi thư giãn trên bãi biển suốt cả buổi chiều."
+        }
+      ],
+      "collocations": [
+        "try to relax",
+        "relax at home",
+        "relax your muscles"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈlæks/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rel/relax/relax__us_1.mp3"
+    },
+    {
+      "english": "tourist",
+      "vietnamese": "khách du lịch, du khách",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The old town is full of tourists in the summer.",
+          "vi": "Vào mùa hè, phố cổ đông nghịt khách du lịch.",
+          "image_url": "https://images.pexels.com/photos/6177178/pexels-photo-6177178.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "A tourist asked me for directions to the train station.",
+          "vi": "Một du khách hỏi tôi đường đến ga tàu."
+        },
+        {
+          "en": "The waterfall has become a popular tourist attraction.",
+          "vi": "Thác nước đã trở thành một điểm du lịch được nhiều người yêu thích."
+        }
+      ],
+      "collocations": [
+        "tourist attraction",
+        "foreign tourists",
+        "tourist information"
+      ],
+      "notes": null,
+      "ipa": "/ˈtʊrɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tou/touri/tourist__us_1.mp3"
+    },
+    {
+      "english": "component",
+      "vietnamese": "thành phần; linh kiện, bộ phận",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The factory makes components for cars and trucks.",
+          "vi": "Nhà máy sản xuất linh kiện cho ô tô và xe tải."
+        },
+        {
+          "en": "Trust is an important component of any relationship.",
+          "vi": "Sự tin tưởng là một thành phần quan trọng của mọi mối quan hệ."
+        },
+        {
+          "en": "One broken component can stop the whole machine from working.",
+          "vi": "Chỉ một bộ phận bị hỏng cũng có thể khiến cả cỗ máy ngừng hoạt động."
+        }
+      ],
+      "collocations": [
+        "key component",
+        "important component",
+        "electronic components"
+      ],
+      "notes": null,
+      "ipa": "/kəmˈpəʊnənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compo/component__us_1.mp3"
+    },
+    {
+      "english": "afford",
+      "vietnamese": "có đủ tiền (mua, trả); đủ sức (làm gì)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We can't afford a new car this year.",
+          "vi": "Năm nay chúng tôi không có đủ tiền mua xe mới."
+        },
+        {
+          "en": "She couldn't afford to lose her job right now.",
+          "vi": "Lúc này cô ấy không thể để mất việc được.",
+          "image_url": "https://images.pexels.com/photos/10376001/pexels-photo-10376001.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Many young people can hardly afford the rent in big cities.",
+          "vi": "Nhiều người trẻ khó mà trả nổi tiền thuê nhà ở các thành phố lớn."
+        }
+      ],
+      "collocations": [
+        "can't afford",
+        "afford to pay",
+        "afford to lose"
+      ],
+      "notes": "thường đi với can/could: can’t afford (to do) sth",
+      "ipa": "/əˈfɔːrd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aff/affor/afford__us_1.mp3"
+    },
+    {
+      "english": "lawyer",
+      "vietnamese": "luật sư",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "You should talk to a lawyer before signing the contract.",
+          "vi": "Bạn nên nói chuyện với luật sư trước khi ký hợp đồng."
+        },
+        {
+          "en": "Her father has worked as a lawyer for twenty years.",
+          "vi": "Bố cô ấy đã làm luật sư được hai mươi năm."
+        },
+        {
+          "en": "My lawyer said we had a good chance of winning.",
+          "vi": "Luật sư của tôi nói chúng tôi có nhiều khả năng thắng."
+        }
+      ],
+      "collocations": [
+        "hire a lawyer",
+        "consult a lawyer",
+        "defense lawyer"
+      ],
+      "notes": null,
+      "ipa": "/ˈlɔɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/law/lawye/lawyer__us_1_rr.mp3"
+    },
+    {
+      "english": "suspect",
+      "vietnamese": "nghi ngờ; ngờ rằng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I suspect he forgot about our meeting again.",
+          "vi": "Tôi ngờ là anh ấy lại quên cuộc họp của chúng ta rồi."
+        },
+        {
+          "en": "Police suspect that the fire was started on purpose.",
+          "vi": "Cảnh sát nghi ngờ vụ cháy là do có người cố ý gây ra."
+        },
+        {
+          "en": "Nobody suspected the quiet neighbor of stealing the money.",
+          "vi": "Không ai nghi ngờ người hàng xóm ít nói đã lấy trộm tiền.",
+          "image_url": "https://images.pexels.com/photos/6266302/pexels-photo-6266302.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "strongly suspect",
+        "suspect somebody of something"
+      ],
+      "notes": "suspect sb of sth: nghi ai làm gì · (n) suspect: nghi phạm",
+      "ipa": "/səˈspekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sus/suspe/suspect__us_1.mp3"
+    },
+    {
+      "english": "cup",
+      "vietnamese": "tách, cốc; cúp (giải thưởng)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Would you like a cup of tea before we start?",
+          "vi": "Bạn có muốn uống một tách trà trước khi chúng ta bắt đầu không?"
+        },
+        {
+          "en": "She drinks two cups of coffee every morning.",
+          "vi": "Sáng nào cô ấy cũng uống hai tách cà phê."
+        },
+        {
+          "en": "Our school team won the cup for the first time.",
+          "vi": "Đội của trường chúng tôi lần đầu tiên giành được cúp."
+        }
+      ],
+      "collocations": [
+        "cup of tea",
+        "cup of coffee",
+        "paper cup",
+        "win the cup"
+      ],
+      "notes": null,
+      "ipa": "/kʌp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cup/cup__/cup__us_1.mp3"
+    },
+    {
+      "english": "description",
+      "vietnamese": "sự mô tả; bản mô tả",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Can you give me a description of the man you saw?",
+          "vi": "Bạn có thể mô tả cho tôi người đàn ông mà bạn đã thấy không?"
+        },
+        {
+          "en": "The job description says you need two years of experience.",
+          "vi": "Bản mô tả công việc ghi rằng bạn cần có hai năm kinh nghiệm."
+        },
+        {
+          "en": "The hotel looked exactly like the description on the website.",
+          "vi": "Khách sạn trông đúng y như phần mô tả trên trang web.",
+          "image_url": "https://images.pexels.com/photos/204570/pexels-photo-204570.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "give a description",
+        "job description",
+        "detailed description",
+        "brief description"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈskrɪpʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/des/descr/description__us_1.mp3"
+    },
+    {
+      "english": "confidence",
+      "vietnamese": "sự tự tin; sự tin tưởng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Speaking in front of the class helped her build confidence.",
+          "vi": "Việc phát biểu trước lớp đã giúp cô ấy rèn luyện sự tự tin."
+        },
+        {
+          "en": "He answered every question in the interview with confidence.",
+          "vi": "Anh ấy tự tin trả lời mọi câu hỏi trong buổi phỏng vấn."
+        },
+        {
+          "en": "I have complete confidence in my team.",
+          "vi": "Tôi hoàn toàn tin tưởng vào đội của mình."
+        }
+      ],
+      "collocations": [
+        "build confidence",
+        "lack of confidence",
+        "have confidence in",
+        "lose confidence"
+      ],
+      "notes": "confidence in sb/sth: tin tưởng vào ai/cái gì",
+      "ipa": "/ˈkɑːnfɪdəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconf/xconfidence__us_2.mp3"
+    },
+    {
+      "english": "industrial",
+      "vietnamese": "(thuộc) công nghiệp",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "There is a large industrial area just outside the town.",
+          "vi": "Có một khu công nghiệp lớn ngay bên ngoài thị trấn."
+        },
+        {
+          "en": "Industrial waste has polluted the river for many years.",
+          "vi": "Chất thải công nghiệp đã làm ô nhiễm dòng sông trong nhiều năm."
+        },
+        {
+          "en": "They turned an old industrial building into a coffee shop.",
+          "vi": "Họ đã biến một nhà xưởng cũ thành quán cà phê."
+        }
+      ],
+      "collocations": [
+        "industrial area",
+        "industrial waste",
+        "industrial production"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈdʌstriəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ind/indus/industrial__us_1.mp3"
+    },
+    {
+      "english": "complain",
+      "vietnamese": "phàn nàn, than phiền; khiếu nại",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My neighbors complained about the noise from our party.",
+          "vi": "Hàng xóm đã phàn nàn về tiếng ồn từ bữa tiệc của chúng tôi."
+        },
+        {
+          "en": "He's always complaining that he has too much work.",
+          "vi": "Anh ấy lúc nào cũng than phiền rằng mình có quá nhiều việc."
+        },
+        {
+          "en": "If the food is cold, you should complain to the manager.",
+          "vi": "Nếu đồ ăn bị nguội, bạn nên khiếu nại với quản lý."
+        }
+      ],
+      "collocations": [
+        "complain about",
+        "complain to somebody",
+        "constantly complain"
+      ],
+      "notes": "complain about sth / to sb",
+      "ipa": "/kəmˈpleɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compl/complain__us_2.mp3",
+      "image_url": "https://images.pexels.com/photos/6382699/pexels-photo-6382699.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Liza Summer",
+        "author_url": "https://www.pexels.com/@liza-summer",
+        "source_url": "https://www.pexels.com/photo/mad-black-woman-shouting-at-sad-female-6382699/"
+      }
+    },
+    {
+      "english": "perspective",
+      "vietnamese": "góc nhìn; quan điểm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Living abroad gave me a new perspective on my own culture.",
+          "vi": "Sống ở nước ngoài đã cho tôi một góc nhìn mới về văn hóa của chính mình."
+        },
+        {
+          "en": "Try to see the problem from your customer's perspective.",
+          "vi": "Hãy thử nhìn vấn đề từ góc nhìn của khách hàng."
+        },
+        {
+          "en": "Talking to friends helped me put my worries into perspective.",
+          "vi": "Nói chuyện với bạn bè giúp tôi nhìn nhận những lo lắng của mình một cách đúng mức hơn."
+        }
+      ],
+      "collocations": [
+        "new perspective",
+        "from a different perspective",
+        "put things into perspective"
+      ],
+      "notes": null,
+      "ipa": "/pərˈspektɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/per/persp/perspective__us_2.mp3"
+    },
+    {
+      "english": "error",
+      "vietnamese": "lỗi; sai sót",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There are a few spelling errors in your report.",
+          "vi": "Có vài lỗi chính tả trong bản báo cáo của bạn.",
+          "image_url": "https://images.pexels.com/photos/6700369/pexels-photo-6700369.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The accident was caused by human error.",
+          "vi": "Vụ tai nạn là do lỗi của con người."
+        },
+        {
+          "en": "I made an error when I added up the bill.",
+          "vi": "Tôi đã mắc sai sót khi cộng tiền hóa đơn."
+        }
+      ],
+      "collocations": [
+        "make an error",
+        "human error",
+        "spelling error",
+        "error message"
+      ],
+      "notes": null,
+      "ipa": "/ˈerər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/err/error/error__us_2.mp3"
+    },
+    {
+      "english": "arrest",
+      "vietnamese": "bắt giữ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Police arrested two men outside the bank last night.",
+          "vi": "Tối qua cảnh sát đã bắt giữ hai người đàn ông bên ngoài ngân hàng."
+        },
+        {
+          "en": "He was arrested for driving without a license.",
+          "vi": "Anh ta bị bắt vì lái xe không có bằng."
+        },
+        {
+          "en": "The thief was arrested a few hours after the robbery.",
+          "vi": "Tên trộm đã bị bắt vài giờ sau vụ cướp."
+        }
+      ],
+      "collocations": [
+        "arrest a suspect",
+        "be arrested for",
+        "under arrest"
+      ],
+      "notes": "arrest sb for sth · (n) under arrest: bị bắt giữ",
+      "ipa": "/əˈrest/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/arr/arres/arrest__us_1.mp3"
+    },
+    {
+      "english": "assess",
+      "vietnamese": "đánh giá",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Teachers assess students' progress at the end of each term.",
+          "vi": "Giáo viên đánh giá sự tiến bộ của học sinh vào cuối mỗi học kỳ."
+        },
+        {
+          "en": "Doctors need to assess how serious the injury is.",
+          "vi": "Các bác sĩ cần đánh giá mức độ nghiêm trọng của vết thương.",
+          "image_url": "https://images.pexels.com/photos/8943097/pexels-photo-8943097.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "It's hard to assess the damage until the water goes down.",
+          "vi": "Khó mà đánh giá được thiệt hại cho đến khi nước rút."
+        }
+      ],
+      "collocations": [
+        "assess the damage",
+        "assess the situation",
+        "carefully assess"
+      ],
+      "notes": null,
+      "ipa": "/əˈses/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/asses/assess__us_2.mp3"
+    },
+    {
+      "english": "register",
+      "vietnamese": "đăng ký",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "You need to register online before the course begins.",
+          "vi": "Bạn cần đăng ký trực tuyến trước khi khóa học bắt đầu."
+        },
+        {
+          "en": "Have you registered your new car yet?",
+          "vi": "Bạn đã đăng ký chiếc xe mới của mình chưa?"
+        },
+        {
+          "en": "More than two hundred people registered for the conference.",
+          "vi": "Hơn hai trăm người đã đăng ký tham dự hội nghị."
+        }
+      ],
+      "collocations": [
+        "register for a course",
+        "register online",
+        "register a birth"
+      ],
+      "notes": null,
+      "ipa": "/ˈredʒɪstər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regis/register__us_1.mp3"
+    }
+  ]
+}

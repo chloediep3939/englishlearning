@@ -1,0 +1,858 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.001–1.500 · Bộ 14",
+    "description": "New General Service List, thứ hạng 1.001–1.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-3-14"
+  },
+  "cards": [
+    {
+      "english": "swim",
+      "vietnamese": "bơi",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My little brother learned to swim when he was five.",
+          "vi": "Em trai tôi học bơi khi lên năm tuổi."
+        },
+        {
+          "en": "We swam in the lake every morning during our vacation.",
+          "vi": "Chúng tôi bơi ở hồ mỗi sáng trong kỳ nghỉ."
+        },
+        {
+          "en": "Do you want to go swimming after work today?",
+          "vi": "Hôm nay tan làm bạn có muốn đi bơi không?",
+          "image_url": "https://images.pexels.com/photos/6539749/pexels-photo-6539749.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "learn to swim",
+        "go swimming",
+        "swim in the sea"
+      ],
+      "notes": "swim – swam – swum",
+      "ipa": "/swɪm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/swi/swim_/swim__us_1.mp3"
+    },
+    {
+      "english": "manufacture",
+      "vietnamese": "sản xuất; chế tạo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "This factory manufactures parts for cars and trucks.",
+          "vi": "Nhà máy này sản xuất phụ tùng cho ô tô và xe tải."
+        },
+        {
+          "en": "Most of our phones are manufactured in Asia.",
+          "vi": "Phần lớn điện thoại của chúng tôi được sản xuất ở châu Á."
+        },
+        {
+          "en": "The company started to manufacture its own furniture last year.",
+          "vi": "Năm ngoái công ty bắt đầu tự sản xuất đồ nội thất."
+        }
+      ],
+      "collocations": [
+        "manufacture goods",
+        "manufacture products",
+        "locally manufactured"
+      ],
+      "notes": null,
+      "ipa": "/ˌmænjuˈfæktʃər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/man/manuf/manufacture__us_1.mp3"
+    },
+    {
+      "english": "theater",
+      "vietnamese": "nhà hát; rạp chiếu phim",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We saw a wonderful play at the theater last night.",
+          "vi": "Tối qua chúng tôi xem một vở kịch tuyệt vời ở nhà hát."
+        },
+        {
+          "en": "The new movie opens in theaters next Friday.",
+          "vi": "Bộ phim mới sẽ ra rạp vào thứ Sáu tới."
+        },
+        {
+          "en": "Please turn off your phone before you enter the theater.",
+          "vi": "Vui lòng tắt điện thoại trước khi vào rạp."
+        }
+      ],
+      "collocations": [
+        "go to the theater",
+        "movie theater",
+        "theater tickets"
+      ],
+      "notes": "Mỹ: theater · Anh: theatre",
+      "ipa": "/ˈθiːətər/",
+      "audio_src": null
+    },
+    {
+      "english": "cycle",
+      "vietnamese": "chu kỳ; chu trình; vòng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The washing machine takes about an hour to finish one cycle.",
+          "vi": "Máy giặt mất khoảng một tiếng để chạy xong một chu trình."
+        },
+        {
+          "en": "Children learn about the life cycle of a butterfly at school.",
+          "vi": "Trẻ em học về vòng đời của loài bướm ở trường."
+        },
+        {
+          "en": "It's hard to break the cycle of staying up late.",
+          "vi": "Thật khó để thoát khỏi vòng lặp thức khuya."
+        }
+      ],
+      "collocations": [
+        "life cycle",
+        "break the cycle",
+        "vicious cycle"
+      ],
+      "notes": null,
+      "ipa": "/ˈsaɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cyc/cycle/cycle__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/34646/pexels-photo.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Negative Space",
+        "author_url": "https://www.pexels.com/@negativespace",
+        "source_url": "https://www.pexels.com/photo/silver-metal-equipment-34646/"
+      }
+    },
+    {
+      "english": "coffee",
+      "vietnamese": "cà phê",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I always have a cup of coffee before I start work.",
+          "vi": "Tôi luôn uống một tách cà phê trước khi bắt đầu làm việc."
+        },
+        {
+          "en": "Would you like to get coffee with me this afternoon?",
+          "vi": "Chiều nay bạn có muốn đi uống cà phê với tôi không?"
+        },
+        {
+          "en": "She drinks her coffee black, without any sugar or milk.",
+          "vi": "Cô ấy uống cà phê đen, không đường cũng không sữa."
+        }
+      ],
+      "collocations": [
+        "a cup of coffee",
+        "black coffee",
+        "make coffee",
+        "coffee shop"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɔːfi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cof/coffe/coffee__us_1_rr.mp3"
+    },
+    {
+      "english": "totally",
+      "vietnamese": "hoàn toàn",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I totally forgot about our meeting this morning.",
+          "vi": "Tôi quên hẳn cuộc họp của chúng ta sáng nay.",
+          "image_url": "https://images.pexels.com/photos/4103432/pexels-photo-4103432.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The town looks totally different from ten years ago.",
+          "vi": "Thị trấn trông hoàn toàn khác so với mười năm trước."
+        },
+        {
+          "en": "You're totally right, we should leave a bit earlier.",
+          "vi": "Bạn hoàn toàn đúng, chúng ta nên đi sớm hơn một chút."
+        }
+      ],
+      "collocations": [
+        "totally different",
+        "totally agree",
+        "totally forget"
+      ],
+      "notes": null,
+      "ipa": "/ˈtəʊtəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tot/total/totally__us_1.mp3"
+    },
+    {
+      "english": "museum",
+      "vietnamese": "bảo tàng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We spent the whole afternoon at the art museum.",
+          "vi": "Chúng tôi dành cả buổi chiều ở bảo tàng nghệ thuật."
+        },
+        {
+          "en": "The museum is free for students on Sundays.",
+          "vi": "Bảo tàng miễn phí cho sinh viên vào Chủ nhật."
+        },
+        {
+          "en": "Have you ever visited the history museum in the city center?",
+          "vi": "Bạn đã bao giờ tham quan bảo tàng lịch sử ở trung tâm thành phố chưa?"
+        }
+      ],
+      "collocations": [
+        "visit a museum",
+        "art museum",
+        "history museum"
+      ],
+      "notes": null,
+      "ipa": "/mjuˈziːəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mus/museu/museum__us_2.mp3"
+    },
+    {
+      "english": "visitor",
+      "vietnamese": "khách; du khách",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The park gets thousands of visitors every summer.",
+          "vi": "Công viên đón hàng nghìn du khách mỗi mùa hè."
+        },
+        {
+          "en": "We don't have many visitors since we moved to the country.",
+          "vi": "Từ khi chuyển về quê, chúng tôi không có nhiều khách đến chơi.",
+          "image_url": "https://images.pexels.com/photos/4707127/pexels-photo-4707127.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "All visitors must sign in at the front desk.",
+          "vi": "Tất cả khách phải đăng ký ở quầy lễ tân."
+        }
+      ],
+      "collocations": [
+        "foreign visitors",
+        "attract visitors",
+        "regular visitor"
+      ],
+      "notes": null,
+      "ipa": "/ˈvɪzɪtər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vis/visit/visitor__us_1.mp3"
+    },
+    {
+      "english": "freedom",
+      "vietnamese": "sự tự do",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Working from home gives me more freedom to plan my day.",
+          "vi": "Làm việc tại nhà cho tôi nhiều tự do hơn để sắp xếp ngày của mình."
+        },
+        {
+          "en": "Teenagers often want more freedom from their parents.",
+          "vi": "Thanh thiếu niên thường muốn được bố mẹ cho tự do hơn."
+        },
+        {
+          "en": "After leaving home, she finally enjoyed her freedom.",
+          "vi": "Sau khi rời nhà, cuối cùng cô ấy đã được tận hưởng sự tự do."
+        }
+      ],
+      "collocations": [
+        "freedom to do something",
+        "enjoy freedom",
+        "personal freedom"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈfriːdəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fre/freed/freedom__us_2.mp3"
+    },
+    {
+      "english": "construction",
+      "vietnamese": "sự xây dựng; ngành xây dựng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new bridge is still under construction.",
+          "vi": "Cây cầu mới vẫn đang được xây dựng."
+        },
+        {
+          "en": "My uncle has worked in construction for twenty years.",
+          "vi": "Chú tôi đã làm trong ngành xây dựng hai mươi năm."
+        },
+        {
+          "en": "Construction of the hospital will begin next spring.",
+          "vi": "Việc xây dựng bệnh viện sẽ bắt đầu vào mùa xuân năm sau.",
+          "image_url": "https://images.pexels.com/photos/37143587/pexels-photo-37143587.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "under construction",
+        "construction work",
+        "construction site"
+      ],
+      "notes": null,
+      "ipa": "/kənˈstrʌkʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconstruction__us_1.mp3"
+    },
+    {
+      "english": "dear",
+      "vietnamese": "thân mến; thân yêu; quý giá",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She started the letter with \"Dear Grandma.\"",
+          "vi": "Cô ấy mở đầu lá thư bằng \"Bà thân yêu\"."
+        },
+        {
+          "en": "He has been a dear friend of mine since high school.",
+          "vi": "Anh ấy là bạn thân yêu của tôi từ hồi cấp ba."
+        },
+        {
+          "en": "This old photo is very dear to me.",
+          "vi": "Bức ảnh cũ này rất quý giá với tôi."
+        }
+      ],
+      "collocations": [
+        "dear friend",
+        "Dear Sir or Madam",
+        "dear to someone"
+      ],
+      "notes": null,
+      "ipa": "/dɪr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dea/dear_/dear__us_1.mp3"
+    },
+    {
+      "english": "objective",
+      "vietnamese": "mục tiêu; khách quan",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our main objective this year is to find more customers.",
+          "vi": "Mục tiêu chính của chúng tôi năm nay là tìm thêm khách hàng."
+        },
+        {
+          "en": "The teacher explained the objectives of the course on the first day.",
+          "vi": "Thầy giáo giải thích các mục tiêu của khóa học vào ngày đầu tiên."
+        },
+        {
+          "en": "It's hard to stay objective when your family is involved.",
+          "vi": "Thật khó giữ khách quan khi chuyện liên quan đến gia đình mình."
+        }
+      ],
+      "collocations": [
+        "main objective",
+        "achieve an objective",
+        "set objectives"
+      ],
+      "notes": null,
+      "ipa": "/əbˈdʒektɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/obj/objec/objective__us_1.mp3"
+    },
+    {
+      "english": "moreover",
+      "vietnamese": "hơn nữa; ngoài ra",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The hotel was cheap and, moreover, it was very close to the beach.",
+          "vi": "Khách sạn rẻ và hơn nữa còn rất gần bãi biển."
+        },
+        {
+          "en": "The plan is too expensive; moreover, it would take years to finish.",
+          "vi": "Kế hoạch này quá tốn kém; ngoài ra, phải mất nhiều năm mới hoàn thành."
+        },
+        {
+          "en": "Moreover, the new system will save us a lot of time.",
+          "vi": "Hơn nữa, hệ thống mới sẽ giúp chúng ta tiết kiệm rất nhiều thời gian."
+        }
+      ],
+      "collocations": [
+        "and moreover",
+        "moreover, it"
+      ],
+      "notes": "Thường dùng trong văn viết trang trọng",
+      "ipa": "/mɔːrˈəʊvər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mor/moreo/moreover__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/6185234/pexels-photo-6185234.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Polina ⠀",
+        "author_url": "https://www.pexels.com/@polina-kovaleva",
+        "source_url": "https://www.pexels.com/photo/paper-cutouts-on-beige-surface-6185234/"
+      }
+    },
+    {
+      "english": "onto",
+      "vietnamese": "lên trên; lên",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "The cat jumped onto the kitchen table.",
+          "vi": "Con mèo nhảy lên bàn bếp."
+        },
+        {
+          "en": "Be careful when you step onto the train.",
+          "vi": "Hãy cẩn thận khi bước lên tàu."
+        },
+        {
+          "en": "He poured some water onto the plants in the garden.",
+          "vi": "Anh ấy tưới một ít nước lên cây trong vườn."
+        }
+      ],
+      "collocations": [
+        "jump onto",
+        "step onto",
+        "climb onto",
+        "hold onto"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːntə/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ont/onto_/onto__us_1_rr.mp3"
+    },
+    {
+      "english": "historical",
+      "vietnamese": "(thuộc) lịch sử",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My father loves reading historical novels in the evening.",
+          "vi": "Bố tôi rất thích đọc tiểu thuyết lịch sử vào buổi tối.",
+          "image_url": "https://images.pexels.com/photos/7640985/pexels-photo-7640985.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The old town has many important historical buildings.",
+          "vi": "Khu phố cổ có nhiều công trình lịch sử quan trọng."
+        },
+        {
+          "en": "The film is based on real historical events.",
+          "vi": "Bộ phim dựa trên các sự kiện lịch sử có thật."
+        }
+      ],
+      "collocations": [
+        "historical events",
+        "historical buildings",
+        "historical novel",
+        "historical site"
+      ],
+      "notes": "historical (liên quan đến lịch sử) ≠ historic (có ý nghĩa lịch sử)",
+      "ipa": "/hɪˈstɔːrɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/his/histo/historical__us_1_rr.mp3"
+    },
+    {
+      "english": "oppose",
+      "vietnamese": "phản đối; chống lại",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many parents oppose the plan to close the school.",
+          "vi": "Nhiều phụ huynh phản đối kế hoạch đóng cửa trường."
+        },
+        {
+          "en": "I'm strongly opposed to building a road through the park.",
+          "vi": "Tôi kịch liệt phản đối việc làm đường xuyên qua công viên."
+        },
+        {
+          "en": "Local people opposed the new factory from the start.",
+          "vi": "Người dân địa phương đã phản đối nhà máy mới ngay từ đầu."
+        }
+      ],
+      "collocations": [
+        "strongly oppose",
+        "oppose a plan",
+        "be opposed to"
+      ],
+      "notes": "be opposed to + V-ing",
+      "ipa": "/əˈpəʊz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/opp/oppos/oppose__us_2.mp3"
+    },
+    {
+      "english": "branch",
+      "vietnamese": "cành cây; chi nhánh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A small bird was sitting on a branch outside my window.",
+          "vi": "Một chú chim nhỏ đang đậu trên cành cây ngoài cửa sổ của tôi."
+        },
+        {
+          "en": "The bank has a branch near our office.",
+          "vi": "Ngân hàng có một chi nhánh gần văn phòng chúng tôi.",
+          "image_url": "https://images.pexels.com/photos/13674041/pexels-photo-13674041.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She works at the company's branch in Singapore.",
+          "vi": "Cô ấy làm việc tại chi nhánh của công ty ở Singapore."
+        }
+      ],
+      "collocations": [
+        "tree branch",
+        "local branch",
+        "branch office",
+        "open a branch"
+      ],
+      "notes": null,
+      "ipa": "/bræntʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bra/branc/branch__us_1.mp3"
+    },
+    {
+      "english": "vehicle",
+      "vietnamese": "xe cộ; phương tiện",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please don't leave your vehicle in front of the gate.",
+          "vi": "Vui lòng không để xe trước cổng."
+        },
+        {
+          "en": "More people are buying electric vehicles these days.",
+          "vi": "Ngày nay ngày càng nhiều người mua xe điện."
+        },
+        {
+          "en": "The road is closed to all vehicles on Sunday mornings.",
+          "vi": "Con đường cấm tất cả xe cộ vào sáng Chủ nhật."
+        }
+      ],
+      "collocations": [
+        "electric vehicle",
+        "motor vehicle",
+        "drive a vehicle"
+      ],
+      "notes": null,
+      "ipa": "/ˈviːəkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/veh/vehic/vehicle__us_5.mp3"
+    },
+    {
+      "english": "scientist",
+      "vietnamese": "nhà khoa học",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My daughter wants to be a scientist when she grows up.",
+          "vi": "Con gái tôi muốn trở thành nhà khoa học khi lớn lên."
+        },
+        {
+          "en": "Scientists have found a new kind of fish in the river.",
+          "vi": "Các nhà khoa học đã phát hiện một loài cá mới trên sông."
+        },
+        {
+          "en": "A team of scientists is studying the effects of the hot weather.",
+          "vi": "Một nhóm nhà khoa học đang nghiên cứu ảnh hưởng của thời tiết nóng.",
+          "image_url": "https://images.pexels.com/photos/8533025/pexels-photo-8533025.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "team of scientists",
+        "scientists believe",
+        "research scientist"
+      ],
+      "notes": null,
+      "ipa": "/ˈsaɪəntɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sci/scien/scientist__us_1.mp3"
+    },
+    {
+      "english": "route",
+      "vietnamese": "tuyến đường; lộ trình",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "What's the fastest route to the airport from here?",
+          "vi": "Từ đây đến sân bay đi đường nào nhanh nhất?"
+        },
+        {
+          "en": "This bus route goes past the university.",
+          "vi": "Tuyến xe buýt này đi ngang qua trường đại học."
+        },
+        {
+          "en": "We took a different route home to avoid the traffic.",
+          "vi": "Chúng tôi đi đường khác về nhà để tránh kẹt xe."
+        }
+      ],
+      "collocations": [
+        "bus route",
+        "take a route",
+        "the fastest route"
+      ],
+      "notes": null,
+      "ipa": "/ruːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rou/route/route__us_1_rr.mp3"
+    },
+    {
+      "english": "bind",
+      "vietnamese": "buộc; ràng buộc; đóng (sách)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She bound the old letters together with a piece of string.",
+          "vi": "Cô ấy buộc những lá thư cũ lại với nhau bằng một sợi dây."
+        },
+        {
+          "en": "Both sides are bound by the terms of the contract.",
+          "vi": "Cả hai bên đều bị ràng buộc bởi các điều khoản của hợp đồng."
+        },
+        {
+          "en": "The old book was bound in brown leather.",
+          "vi": "Cuốn sách cũ được đóng bìa bằng da màu nâu."
+        }
+      ],
+      "collocations": [
+        "bind together",
+        "be bound by",
+        "legally binding"
+      ],
+      "notes": "bind – bound – bound",
+      "ipa": "/baɪnd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bin/bind_/bind__us_1.mp3"
+    },
+    {
+      "english": "belong",
+      "vietnamese": "thuộc về; đúng chỗ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Excuse me, does this umbrella belong to you?",
+          "vi": "Xin lỗi, cái ô này có phải của bạn không?"
+        },
+        {
+          "en": "These books belong on the top shelf.",
+          "vi": "Mấy cuốn sách này phải để ở kệ trên cùng."
+        },
+        {
+          "en": "After a few months, I really felt that I belonged here.",
+          "vi": "Sau vài tháng, tôi thật sự cảm thấy mình thuộc về nơi này."
+        }
+      ],
+      "collocations": [
+        "belong to",
+        "a sense of belonging",
+        "belong together"
+      ],
+      "notes": "belong to + người/nhóm",
+      "ipa": "/bɪˈlɔːŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bel/belon/belong__us_6.mp3",
+      "image_url": "https://images.pexels.com/photos/36117935/pexels-photo-36117935.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Matthew Hernandez",
+        "author_url": "https://www.pexels.com/@mhaltiery",
+        "source_url": "https://www.pexels.com/photo/vibrant-worship-night-with-raised-hands-in-concert-36117935/"
+      }
+    },
+    {
+      "english": "taste",
+      "vietnamese": "vị; khẩu vị; gu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I don't like the taste of this medicine.",
+          "vi": "Tôi không thích vị của thuốc này."
+        },
+        {
+          "en": "The soup has a slightly sweet taste.",
+          "vi": "Món súp có vị hơi ngọt."
+        },
+        {
+          "en": "My sister has great taste in clothes.",
+          "vi": "Chị tôi rất có gu ăn mặc."
+        }
+      ],
+      "collocations": [
+        "sweet taste",
+        "good taste",
+        "taste in music"
+      ],
+      "notes": null,
+      "ipa": "/teɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tas/taste/taste__us_1.mp3"
+    },
+    {
+      "english": "tonight",
+      "vietnamese": "tối nay; đêm nay",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "What do you want to have for dinner tonight?",
+          "vi": "Tối nay bạn muốn ăn gì?",
+          "image_url": "https://images.pexels.com/photos/23428077/pexels-photo-23428077.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I'm too tired to go out tonight.",
+          "vi": "Tối nay tôi mệt quá, không muốn ra ngoài."
+        },
+        {
+          "en": "It's going to be very cold tonight, so take a jacket.",
+          "vi": "Đêm nay trời sẽ rất lạnh, nên mang theo áo khoác nhé."
+        }
+      ],
+      "collocations": [
+        "see you tonight",
+        "later tonight",
+        "go out tonight"
+      ],
+      "notes": null,
+      "ipa": "/təˈnaɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/ton/tonig/tonight__us_1.mp3"
+    },
+    {
+      "english": "fashion",
+      "vietnamese": "thời trang; mốt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She is very interested in fashion and design.",
+          "vi": "Cô ấy rất quan tâm đến thời trang và thiết kế."
+        },
+        {
+          "en": "Long skirts are back in fashion this year.",
+          "vi": "Váy dài lại trở thành mốt trong năm nay."
+        },
+        {
+          "en": "My brother never cares about the latest fashions.",
+          "vi": "Anh tôi chẳng bao giờ quan tâm đến mốt mới nhất."
+        }
+      ],
+      "collocations": [
+        "in fashion",
+        "out of fashion",
+        "fashion show",
+        "latest fashion"
+      ],
+      "notes": null,
+      "ipa": "/ˈfæʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fas/fashi/fashion__us_2.mp3"
+    },
+    {
+      "english": "danger",
+      "vietnamese": "sự nguy hiểm; mối nguy; nguy cơ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The doctors say he is now out of danger.",
+          "vi": "Các bác sĩ nói anh ấy giờ đã qua cơn nguy hiểm."
+        },
+        {
+          "en": "Children don't always understand the dangers of busy roads.",
+          "vi": "Trẻ em không phải lúc nào cũng hiểu mối nguy hiểm của những con đường đông xe.",
+          "image_url": "https://images.pexels.com/photos/9212407/pexels-photo-9212407.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "There is a danger that the river will flood this week.",
+          "vi": "Tuần này có nguy cơ sông sẽ bị lũ."
+        }
+      ],
+      "collocations": [
+        "in danger",
+        "out of danger",
+        "danger of",
+        "serious danger"
+      ],
+      "notes": null,
+      "ipa": "/ˈdeɪndʒər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dan/dange/danger__us_1.mp3"
+    },
+    {
+      "english": "bomb",
+      "vietnamese": "quả bom",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Workers found an old bomb while digging near the river.",
+          "vi": "Công nhân tìm thấy một quả bom cũ khi đang đào gần bờ sông."
+        },
+        {
+          "en": "The police closed the street after a bomb warning.",
+          "vi": "Cảnh sát đã phong tỏa con phố sau một cảnh báo có bom."
+        },
+        {
+          "en": "Experts safely removed the bomb from the building site.",
+          "vi": "Các chuyên gia đã di dời quả bom khỏi công trường một cách an toàn."
+        }
+      ],
+      "collocations": [
+        "bomb warning",
+        "bomb squad",
+        "drop a bomb"
+      ],
+      "notes": null,
+      "ipa": "/bɑːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bom/bomb_/bomb__us_1.mp3"
+    },
+    {
+      "english": "army",
+      "vietnamese": "quân đội",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandfather joined the army when he was eighteen.",
+          "vi": "Ông tôi nhập ngũ khi mười tám tuổi."
+        },
+        {
+          "en": "The army helped people leave the flooded villages.",
+          "vi": "Quân đội đã giúp người dân rời khỏi những ngôi làng bị ngập lụt."
+        },
+        {
+          "en": "Her brother is an officer in the army.",
+          "vi": "Anh trai cô ấy là sĩ quan trong quân đội.",
+          "image_url": "https://images.pexels.com/photos/21070599/pexels-photo-21070599.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "join the army",
+        "in the army",
+        "army officer"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːrmi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/arm/army_/army__us_2.mp3"
+    },
+    {
+      "english": "dangerous",
+      "vietnamese": "nguy hiểm",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "It's dangerous to use your phone while driving.",
+          "vi": "Dùng điện thoại khi lái xe rất nguy hiểm."
+        },
+        {
+          "en": "Some of the snakes in this area are very dangerous.",
+          "vi": "Một số loài rắn ở khu vực này rất nguy hiểm."
+        },
+        {
+          "en": "The ice on the lake is thin and dangerous to walk on.",
+          "vi": "Băng trên hồ mỏng và đi lên rất nguy hiểm."
+        }
+      ],
+      "collocations": [
+        "extremely dangerous",
+        "dangerous situation",
+        "dangerous to do something"
+      ],
+      "notes": null,
+      "ipa": "/ˈdeɪndʒərəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dan/dange/dangerous__us_1.mp3"
+    },
+    {
+      "english": "decrease",
+      "vietnamese": "giảm; giảm bớt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The number of students in the village school has decreased.",
+          "vi": "Số học sinh ở trường làng đã giảm."
+        },
+        {
+          "en": "Regular exercise can decrease your risk of heart disease.",
+          "vi": "Tập thể dục đều đặn có thể giảm nguy cơ mắc bệnh tim."
+        },
+        {
+          "en": "Sales decreased by ten percent last month.",
+          "vi": "Doanh số đã giảm mười phần trăm vào tháng trước."
+        }
+      ],
+      "collocations": [
+        "decrease by",
+        "decrease the risk",
+        "sharply decrease"
+      ],
+      "notes": "decrease ≠ increase (tăng)",
+      "ipa": "/dɪˈkriːs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dec/decre/decrease__us_4_rr.mp3"
+    }
+  ]
+}

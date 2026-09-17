@@ -1,0 +1,888 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 8 · Bộ 2",
+    "description": "Academic Word List, sublist 8",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-8-02"
+  },
+  "cards": [
+    {
+      "english": "induce",
+      "vietnamese": "gây ra; khiến, thúc đẩy (ai làm gì)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Some medicines induce sleep and should not be taken before driving.",
+          "vi": "Một số loại thuốc gây buồn ngủ và không nên dùng trước khi lái xe.",
+          "image_url": "https://images.pexels.com/photos/672186/pexels-photo-672186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Higher wages may induce more workers to move to the city.",
+          "vi": "Mức lương cao hơn có thể khiến nhiều lao động chuyển đến thành phố hơn.",
+          "image_url": "https://images.pexels.com/photos/672186/pexels-photo-672186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Long-term stress can induce changes in the immune system.",
+          "vi": "Căng thẳng kéo dài có thể gây ra những thay đổi trong hệ miễn dịch.",
+          "image_url": "https://images.pexels.com/photos/672186/pexels-photo-672186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "induce sleep",
+        "induce somebody to do something",
+        "stress-induced"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈduːs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ind/induc/induce__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/672186/pexels-photo-672186.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Arunodhai V",
+        "author_url": "https://www.pexels.com/@arunodhai",
+        "source_url": "https://www.pexels.com/photo/turned-on-table-lamp-at-night-672186/"
+      }
+    },
+    {
+      "english": "inevitable",
+      "vietnamese": "không thể tránh khỏi; tất yếu",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Some job losses are inevitable when factories introduce new technology.",
+          "vi": "Khi các nhà máy áp dụng công nghệ mới, việc mất một số việc làm là không thể tránh khỏi."
+        },
+        {
+          "en": "It was inevitable that prices would rise after the fuel shortage.",
+          "vi": "Giá cả tăng lên sau đợt thiếu hụt nhiên liệu là điều tất yếu."
+        },
+        {
+          "en": "Delays are almost inevitable in a project of this size.",
+          "vi": "Chậm trễ gần như là không thể tránh khỏi trong một dự án quy mô như thế này."
+        }
+      ],
+      "collocations": [
+        "almost inevitable",
+        "inevitable consequence",
+        "it is inevitable that"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈevɪtəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ine/inevi/inevitable__us_1.mp3"
+    },
+    {
+      "english": "infrastructure",
+      "vietnamese": "cơ sở hạ tầng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The government plans to invest heavily in transport infrastructure.",
+          "vi": "Chính phủ dự định đầu tư mạnh vào cơ sở hạ tầng giao thông.",
+          "image_url": "https://images.pexels.com/photos/37830225/pexels-photo-37830225.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Many rural areas still lack basic infrastructure such as clean water.",
+          "vi": "Nhiều vùng nông thôn vẫn thiếu cơ sở hạ tầng cơ bản như nước sạch."
+        },
+        {
+          "en": "Poor infrastructure makes it difficult for companies to move goods quickly.",
+          "vi": "Cơ sở hạ tầng yếu kém khiến các công ty khó vận chuyển hàng hóa nhanh chóng."
+        }
+      ],
+      "collocations": [
+        "transport infrastructure",
+        "basic infrastructure",
+        "invest in infrastructure"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪnfrəstrʌktʃər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inf/infra/infrastructure__us_1.mp3"
+    },
+    {
+      "english": "inspect",
+      "vietnamese": "kiểm tra; thanh tra",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Officials inspect the factory every six months for safety problems.",
+          "vi": "Cán bộ thanh tra kiểm tra nhà máy sáu tháng một lần để phát hiện các vấn đề an toàn."
+        },
+        {
+          "en": "The engineer carefully inspected the bridge for signs of damage.",
+          "vi": "Kỹ sư đã kiểm tra kỹ cây cầu để tìm dấu hiệu hư hỏng."
+        },
+        {
+          "en": "All food products must be inspected before they leave the warehouse.",
+          "vi": "Tất cả sản phẩm thực phẩm phải được kiểm tra trước khi rời kho."
+        }
+      ],
+      "collocations": [
+        "carefully inspect",
+        "inspect for damage",
+        "inspect the premises"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈspekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/inspe/inspect__us_1.mp3"
+    },
+    {
+      "english": "intense",
+      "vietnamese": "mạnh mẽ, dữ dội; gay gắt, căng thẳng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The company faces intense competition from cheaper foreign producers.",
+          "vi": "Công ty phải đối mặt với sự cạnh tranh gay gắt từ các nhà sản xuất nước ngoài có giá rẻ hơn."
+        },
+        {
+          "en": "Kitchen staff must cope with intense heat throughout the day.",
+          "vi": "Nhân viên bếp phải chịu đựng cái nóng dữ dội suốt cả ngày.",
+          "image_url": "https://images.pexels.com/photos/13971183/pexels-photo-13971183.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The proposal led to an intense debate among committee members.",
+          "vi": "Đề xuất này đã dẫn đến một cuộc tranh luận gay gắt giữa các thành viên hội đồng."
+        }
+      ],
+      "collocations": [
+        "intense competition",
+        "intense pressure",
+        "intense debate",
+        "intense heat"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈtens/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/inten/intense__us_3.mp3"
+    },
+    {
+      "english": "manipulate",
+      "vietnamese": "thao túng; xử lý, điều khiển (khéo léo)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Some advertisements try to manipulate people into buying things they don’t need.",
+          "vi": "Một số quảng cáo tìm cách thao túng mọi người để họ mua những thứ không cần thiết."
+        },
+        {
+          "en": "Researchers must never manipulate data to support their own theory.",
+          "vi": "Các nhà nghiên cứu không bao giờ được thao túng dữ liệu để củng cố lý thuyết của mình."
+        },
+        {
+          "en": "Students learn how to manipulate images using computer software.",
+          "vi": "Sinh viên học cách xử lý hình ảnh bằng phần mềm máy tính."
+        }
+      ],
+      "collocations": [
+        "manipulate data",
+        "manipulate public opinion",
+        "manipulate somebody into"
+      ],
+      "notes": null,
+      "ipa": "/məˈnɪpjuleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/man/manip/manipulate__us_1.mp3"
+    },
+    {
+      "english": "minimise",
+      "vietnamese": "giảm thiểu; giảm đến mức thấp nhất",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We must take steps to minimise the risk of infection.",
+          "vi": "Chúng ta phải có biện pháp để giảm thiểu nguy cơ lây nhiễm."
+        },
+        {
+          "en": "The new design minimises energy use without reducing performance.",
+          "vi": "Thiết kế mới giảm thiểu mức tiêu thụ năng lượng mà không làm giảm hiệu suất."
+        },
+        {
+          "en": "Careful planning helped minimise disruption to local residents during construction.",
+          "vi": "Việc lên kế hoạch cẩn thận đã giúp giảm thiểu sự xáo trộn đối với cư dân địa phương trong quá trình xây dựng.",
+          "image_url": "https://images.pexels.com/photos/38524594/pexels-photo-38524594.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "minimise the risk",
+        "minimise costs",
+        "minimise the impact",
+        "minimise disruption"
+      ],
+      "notes": "Anh: minimise · Mỹ: minimize",
+      "ipa": null,
+      "audio_src": null
+    },
+    {
+      "english": "nuclear",
+      "vietnamese": "(thuộc) hạt nhân",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The country produces about a third of its electricity from nuclear power.",
+          "vi": "Quốc gia này sản xuất khoảng một phần ba lượng điện từ năng lượng hạt nhân."
+        },
+        {
+          "en": "Engineers regularly check the safety systems at the nuclear power station.",
+          "vi": "Các kỹ sư thường xuyên kiểm tra hệ thống an toàn tại nhà máy điện hạt nhân."
+        },
+        {
+          "en": "The storage of nuclear waste remains a serious environmental problem.",
+          "vi": "Việc lưu trữ chất thải hạt nhân vẫn là một vấn đề môi trường nghiêm trọng."
+        }
+      ],
+      "collocations": [
+        "nuclear power",
+        "nuclear energy",
+        "nuclear waste",
+        "nuclear power station"
+      ],
+      "notes": null,
+      "ipa": "/ˈnuːkliər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nuc/nucle/nuclear__us_1.mp3"
+    },
+    {
+      "english": "offset",
+      "vietnamese": "bù đắp; bù trừ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Strong sales in Asia helped offset losses in the European market.",
+          "vi": "Doanh số cao ở châu Á đã giúp bù đắp khoản lỗ tại thị trường châu Âu."
+        },
+        {
+          "en": "The rise in costs was partly offset by lower taxes.",
+          "vi": "Việc chi phí tăng đã được bù đắp một phần nhờ thuế thấp hơn."
+        },
+        {
+          "en": "Some companies plant trees to offset their carbon emissions.",
+          "vi": "Một số công ty trồng cây để bù đắp lượng khí thải carbon của họ."
+        }
+      ],
+      "collocations": [
+        "offset the cost",
+        "partly offset",
+        "offset losses",
+        "offset carbon emissions"
+      ],
+      "notes": "offset – offset – offset",
+      "ipa": "/ˈɔːfset/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/off/offse/offset__us_1_rr.mp3"
+    },
+    {
+      "english": "paragraph",
+      "vietnamese": "đoạn văn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Each paragraph in your essay should focus on one main idea.",
+          "vi": "Mỗi đoạn văn trong bài luận của bạn nên tập trung vào một ý chính.",
+          "image_url": "https://images.pexels.com/photos/9572524/pexels-photo-9572524.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The author explains her method in the second paragraph of the introduction.",
+          "vi": "Tác giả giải thích phương pháp của mình ở đoạn thứ hai của phần mở đầu.",
+          "image_url": "https://images.pexels.com/photos/9572524/pexels-photo-9572524.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Please add a short paragraph summarizing the main findings.",
+          "vi": "Vui lòng thêm một đoạn văn ngắn tóm tắt các phát hiện chính.",
+          "image_url": "https://images.pexels.com/photos/9572524/pexels-photo-9572524.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "opening paragraph",
+        "final paragraph",
+        "a short paragraph",
+        "previous paragraph"
+      ],
+      "notes": null,
+      "ipa": "/ˈpærəɡræf/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/parag/paragraph__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/9572524/pexels-photo-9572524.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Tima Miroshnichenko",
+        "author_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "source_url": "https://www.pexels.com/photo/close-up-photography-of-a-book-page-9572524/"
+      }
+    },
+    {
+      "english": "plus",
+      "vietnamese": "cộng; cộng thêm, cùng với",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "The ticket costs forty dollars, plus a small booking fee.",
+          "vi": "Vé có giá bốn mươi đô la, cộng thêm một khoản phí đặt chỗ nhỏ."
+        },
+        {
+          "en": "Applicants need a degree plus two years of relevant work experience.",
+          "vi": "Ứng viên cần có bằng đại học cùng với hai năm kinh nghiệm làm việc liên quan."
+        },
+        {
+          "en": "You will have to repay the loan plus interest within five years.",
+          "vi": "Bạn sẽ phải trả khoản vay cộng tiền lãi trong vòng năm năm."
+        }
+      ],
+      "collocations": [
+        "plus tax",
+        "plus interest",
+        "plus or minus"
+      ],
+      "notes": null,
+      "ipa": "/ˈplʌs/",
+      "audio_src": null
+    },
+    {
+      "english": "practitioner",
+      "vietnamese": "người hành nghề (y, luật…); người làm thực tiễn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Medical practitioners must renew their licenses every five years.",
+          "vi": "Người hành nghề y phải gia hạn giấy phép năm năm một lần.",
+          "image_url": "https://images.pexels.com/photos/6627838/pexels-photo-6627838.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The workshop brings together researchers and practitioners from across the industry.",
+          "vi": "Hội thảo quy tụ các nhà nghiên cứu và những người làm thực tiễn từ khắp ngành."
+        },
+        {
+          "en": "Patients should see a general practitioner before visiting a specialist.",
+          "vi": "Bệnh nhân nên khám bác sĩ đa khoa trước khi đến gặp bác sĩ chuyên khoa."
+        }
+      ],
+      "collocations": [
+        "medical practitioner",
+        "general practitioner",
+        "legal practitioner",
+        "health practitioner"
+      ],
+      "notes": null,
+      "ipa": "/prækˈtɪʃənər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pra/pract/practitioner__us_1.mp3"
+    },
+    {
+      "english": "predominant",
+      "vietnamese": "chiếm ưu thế; chủ yếu",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "English is the predominant language of international scientific journals.",
+          "vi": "Tiếng Anh là ngôn ngữ chiếm ưu thế trong các tạp chí khoa học quốc tế."
+        },
+        {
+          "en": "Farming remains the predominant source of income in the region.",
+          "vi": "Nông nghiệp vẫn là nguồn thu nhập chủ yếu trong khu vực."
+        },
+        {
+          "en": "Anxiety was the predominant feeling among staff after the merger was announced.",
+          "vi": "Lo lắng là tâm trạng chủ yếu của nhân viên sau khi việc sáp nhập được công bố."
+        }
+      ],
+      "collocations": [
+        "predominant role",
+        "predominant feature",
+        "predominant language"
+      ],
+      "notes": null,
+      "ipa": "/prɪˈdɑːmɪnənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/predo/predominant__us_1.mp3"
+    },
+    {
+      "english": "prospect",
+      "vietnamese": "triển vọng; khả năng (xảy ra)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Graduates with engineering degrees have excellent job prospects.",
+          "vi": "Sinh viên tốt nghiệp ngành kỹ thuật có triển vọng việc làm rất tốt."
+        },
+        {
+          "en": "There is little prospect of an agreement before the end of the year.",
+          "vi": "Có rất ít khả năng đạt được thỏa thuận trước cuối năm.",
+          "image_url": "https://images.pexels.com/photos/6354023/pexels-photo-6354023.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The prospect of higher interest rates worries many small business owners.",
+          "vi": "Khả năng lãi suất tăng khiến nhiều chủ doanh nghiệp nhỏ lo lắng."
+        }
+      ],
+      "collocations": [
+        "job prospects",
+        "career prospects",
+        "long-term prospects",
+        "little prospect of"
+      ],
+      "notes": null,
+      "ipa": "/ˈprɑːspekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/prosp/prospect__us_1.mp3"
+    },
+    {
+      "english": "radical",
+      "vietnamese": "căn bản, triệt để; cấp tiến",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The industry needs radical changes to reduce its carbon emissions.",
+          "vi": "Ngành công nghiệp này cần những thay đổi căn bản để giảm lượng khí thải carbon."
+        },
+        {
+          "en": "The report proposes a radical reform of the tax system.",
+          "vi": "Báo cáo đề xuất một cuộc cải cách triệt để hệ thống thuế."
+        },
+        {
+          "en": "At the time, his ideas about education were considered radical.",
+          "vi": "Vào thời điểm đó, những ý tưởng của ông về giáo dục bị coi là cấp tiến."
+        }
+      ],
+      "collocations": [
+        "radical change",
+        "radical reform",
+        "radical ideas",
+        "radical approach"
+      ],
+      "notes": null,
+      "ipa": "/ˈrædɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rad/radic/radical__us_1.mp3"
+    },
+    {
+      "english": "random",
+      "vietnamese": "ngẫu nhiên",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The researchers selected a random sample of 500 households.",
+          "vi": "Các nhà nghiên cứu đã chọn một mẫu ngẫu nhiên gồm 500 hộ gia đình."
+        },
+        {
+          "en": "Security staff carry out random checks on bags at the entrance.",
+          "vi": "Nhân viên an ninh tiến hành kiểm tra túi xách ngẫu nhiên tại lối vào."
+        },
+        {
+          "en": "The winners will be chosen at random from all the entries.",
+          "vi": "Người thắng cuộc sẽ được chọn ngẫu nhiên từ tất cả các bài dự thi.",
+          "image_url": "https://images.pexels.com/photos/6120403/pexels-photo-6120403.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "random sample",
+        "at random",
+        "random checks",
+        "random selection"
+      ],
+      "notes": null,
+      "ipa": "/ˈrændəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ran/rando/random__us_1.mp3"
+    },
+    {
+      "english": "reinforce",
+      "vietnamese": "củng cố, tăng cường; gia cố",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The study’s findings reinforce the idea that early education matters.",
+          "vi": "Những phát hiện của nghiên cứu củng cố quan điểm rằng giáo dục sớm rất quan trọng."
+        },
+        {
+          "en": "Regular practice helps reinforce what students have learned in class.",
+          "vi": "Luyện tập thường xuyên giúp củng cố những gì học sinh đã học trên lớp."
+        },
+        {
+          "en": "Engineers reinforced the walls with steel to protect against earthquakes.",
+          "vi": "Các kỹ sư đã gia cố tường bằng thép để chống động đất."
+        }
+      ],
+      "collocations": [
+        "reinforce the idea",
+        "reinforce the message",
+        "reinforced concrete"
+      ],
+      "notes": null,
+      "ipa": "/ˌriːɪnˈfɔːrs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rei/reinf/reinforce__us_1.mp3"
+    },
+    {
+      "english": "restore",
+      "vietnamese": "khôi phục; phục hồi, trùng tu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Engineers worked through the night to restore power to the city.",
+          "vi": "Các kỹ sư đã làm việc suốt đêm để khôi phục điện cho thành phố."
+        },
+        {
+          "en": "The old theater has been carefully restored to its original condition.",
+          "vi": "Nhà hát cũ đã được trùng tu cẩn thận, trở lại nguyên trạng ban đầu."
+        },
+        {
+          "en": "The new management team hopes to restore confidence among investors.",
+          "vi": "Ban quản lý mới hy vọng khôi phục niềm tin của các nhà đầu tư."
+        }
+      ],
+      "collocations": [
+        "restore confidence",
+        "restore order",
+        "restore power",
+        "fully restored"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈstɔːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/resto/restore__us_1.mp3"
+    },
+    {
+      "english": "revise",
+      "vietnamese": "sửa đổi; điều chỉnh",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The bank has revised its growth forecast for next year.",
+          "vi": "Ngân hàng đã điều chỉnh dự báo tăng trưởng cho năm tới.",
+          "image_url": "https://images.pexels.com/photos/7596911/pexels-photo-7596911.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Please revise your essay and send the revised version by Friday.",
+          "vi": "Vui lòng sửa lại bài luận và gửi bản chỉnh sửa trước thứ Sáu.",
+          "image_url": "https://images.pexels.com/photos/7596911/pexels-photo-7596911.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The company revised its safety rules after the accident.",
+          "vi": "Công ty đã sửa đổi các quy định an toàn sau vụ tai nạn.",
+          "image_url": "https://images.pexels.com/photos/7596911/pexels-photo-7596911.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "revise a forecast",
+        "revise estimates",
+        "revised version"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈvaɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rev/revis/revise__us_3.mp3",
+      "image_url": "https://images.pexels.com/photos/7596911/pexels-photo-7596911.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "cottonbro studio",
+        "author_url": "https://www.pexels.com/@cottonbro",
+        "source_url": "https://www.pexels.com/photo/a-person-in-black-long-sleeve-shirt-writing-on-white-paper-7596911/"
+      }
+    },
+    {
+      "english": "schedule",
+      "vietnamese": "lịch trình, thời gian biểu; kế hoạch (tiến độ)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The project is running two weeks behind schedule.",
+          "vi": "Dự án đang chậm hai tuần so với kế hoạch."
+        },
+        {
+          "en": "Check the train schedule before you leave the office.",
+          "vi": "Hãy xem lịch tàu chạy trước khi bạn rời văn phòng."
+        },
+        {
+          "en": "Doctors often work a demanding schedule with very long shifts.",
+          "vi": "Các bác sĩ thường làm việc theo lịch trình khắt khe với những ca trực rất dài."
+        }
+      ],
+      "collocations": [
+        "behind schedule",
+        "on schedule",
+        "busy schedule",
+        "tight schedule"
+      ],
+      "notes": null,
+      "ipa": "/ˈskedʒuːl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sch/sched/schedule__us_1_rr.mp3"
+    },
+    {
+      "english": "tense",
+      "vietnamese": "căng thẳng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Relations between management and the union have been tense for months.",
+          "vi": "Quan hệ giữa ban quản lý và công đoàn đã căng thẳng suốt nhiều tháng.",
+          "image_url": "https://images.pexels.com/photos/10142678/pexels-photo-10142678.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The meeting was tense because nobody could agree on the budget.",
+          "vi": "Cuộc họp diễn ra căng thẳng vì không ai thống nhất được về ngân sách."
+        },
+        {
+          "en": "Many students feel tense before important exams.",
+          "vi": "Nhiều sinh viên cảm thấy căng thẳng trước những kỳ thi quan trọng."
+        }
+      ],
+      "collocations": [
+        "tense atmosphere",
+        "tense situation",
+        "feel tense"
+      ],
+      "notes": "tense (n): thì (ngữ pháp)",
+      "ipa": "/tens/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/ten/tense/tense__us_1.mp3"
+    },
+    {
+      "english": "terminate",
+      "vietnamese": "chấm dứt; kết thúc",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company can terminate employment if safety rules are broken.",
+          "vi": "Công ty có thể chấm dứt hợp đồng lao động nếu quy định an toàn bị vi phạm."
+        },
+        {
+          "en": "Either party may terminate the agreement with thirty days’ notice.",
+          "vi": "Bất kỳ bên nào cũng có thể chấm dứt thỏa thuận nếu báo trước ba mươi ngày."
+        },
+        {
+          "en": "This train terminates at the central station.",
+          "vi": "Chuyến tàu này kết thúc hành trình tại ga trung tâm."
+        }
+      ],
+      "collocations": [
+        "terminate a contract",
+        "terminate an agreement",
+        "terminate employment"
+      ],
+      "notes": null,
+      "ipa": "/ˈtɜːrmɪneɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/ter/termi/terminate__us_1.mp3"
+    },
+    {
+      "english": "theme",
+      "vietnamese": "chủ đề",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Climate change was the main theme of this year’s conference.",
+          "vi": "Biến đổi khí hậu là chủ đề chính của hội nghị năm nay."
+        },
+        {
+          "en": "Several common themes emerged from the interviews with teachers.",
+          "vi": "Một số chủ đề chung đã nổi lên từ các cuộc phỏng vấn giáo viên.",
+          "image_url": "https://images.pexels.com/photos/18870246/pexels-photo-18870246.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The novel explores themes of loss and identity.",
+          "vi": "Cuốn tiểu thuyết khai thác các chủ đề về mất mát và bản sắc."
+        }
+      ],
+      "collocations": [
+        "main theme",
+        "central theme",
+        "common theme",
+        "recurring theme"
+      ],
+      "notes": null,
+      "ipa": "/θiːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/theme/theme__us_1.mp3"
+    },
+    {
+      "english": "thereby",
+      "vietnamese": "do đó, nhờ đó; bằng cách đó",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The company cut its prices, thereby attracting many new customers.",
+          "vi": "Công ty đã giảm giá, nhờ đó thu hút được nhiều khách hàng mới."
+        },
+        {
+          "en": "Trees absorb carbon dioxide, thereby reducing the effects of climate change.",
+          "vi": "Cây xanh hấp thụ khí carbon dioxide, qua đó làm giảm tác động của biến đổi khí hậu."
+        },
+        {
+          "en": "The new system saves time and thereby lowers operating costs.",
+          "vi": "Hệ thống mới tiết kiệm thời gian và do đó giảm chi phí vận hành."
+        }
+      ],
+      "collocations": [
+        "thereby reducing",
+        "thereby increasing",
+        "thereby allowing"
+      ],
+      "notes": null,
+      "ipa": "/ˌðerˈbaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/there/thereby__us_1_rr.mp3"
+    },
+    {
+      "english": "uniform",
+      "vietnamese": "đồng nhất, đồng đều; thống nhất",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The rules should be applied in a uniform way across all departments.",
+          "vi": "Các quy định cần được áp dụng một cách thống nhất ở tất cả các phòng ban."
+        },
+        {
+          "en": "The samples were heated to a uniform temperature of 80 degrees.",
+          "vi": "Các mẫu được nung nóng đồng đều ở nhiệt độ 80 độ."
+        },
+        {
+          "en": "Economic growth has not been uniform across the country.",
+          "vi": "Tăng trưởng kinh tế không đồng đều trên cả nước.",
+          "image_url": "https://images.pexels.com/photos/32311980/pexels-photo-32311980.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "uniform standards",
+        "uniform rate",
+        "uniform temperature",
+        "uniform distribution"
+      ],
+      "notes": "uniform (n): đồng phục",
+      "ipa": "/ˈjuːnɪfɔːrm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/uni/unifo/uniform__us_1.mp3"
+    },
+    {
+      "english": "vehicle",
+      "vietnamese": "xe, phương tiện (giao thông); phương tiện (truyền tải)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Electric vehicles are becoming cheaper and more popular.",
+          "vi": "Xe điện ngày càng rẻ hơn và phổ biến hơn."
+        },
+        {
+          "en": "Police stopped several vehicles on the main road this morning.",
+          "vi": "Sáng nay cảnh sát đã dừng một số phương tiện trên đường chính."
+        },
+        {
+          "en": "Social media has become a powerful vehicle for marketing new products.",
+          "vi": "Mạng xã hội đã trở thành một phương tiện hữu hiệu để quảng bá sản phẩm mới."
+        }
+      ],
+      "collocations": [
+        "electric vehicle",
+        "motor vehicle",
+        "commercial vehicle",
+        "vehicle for"
+      ],
+      "notes": null,
+      "ipa": "/ˈviːəkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/veh/vehic/vehicle__us_5.mp3"
+    },
+    {
+      "english": "via",
+      "vietnamese": "qua, thông qua; đi qua (nơi nào)",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "Participants can complete the survey via email or by phone.",
+          "vi": "Người tham gia có thể hoàn thành khảo sát qua email hoặc qua điện thoại."
+        },
+        {
+          "en": "The goods are shipped to Europe via a port in the south.",
+          "vi": "Hàng hóa được vận chuyển sang châu Âu qua một cảng ở phía nam."
+        },
+        {
+          "en": "The lecture will be broadcast live via the university website.",
+          "vi": "Bài giảng sẽ được phát trực tiếp qua trang web của trường đại học."
+        }
+      ],
+      "collocations": [
+        "via email",
+        "via the internet",
+        "via satellite"
+      ],
+      "notes": null,
+      "ipa": "/ˈvaɪə/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/via/via__/via__us_1_rr.mp3"
+    },
+    {
+      "english": "virtual",
+      "vietnamese": "ảo, trực tuyến; gần như, hầu như",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Many companies now hold virtual meetings instead of sending staff abroad.",
+          "vi": "Nhiều công ty hiện tổ chức các cuộc họp trực tuyến thay vì cử nhân viên ra nước ngoài.",
+          "image_url": "https://images.pexels.com/photos/36812934/pexels-photo-36812934.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Students can explore the museum through a virtual tour.",
+          "vi": "Học sinh có thể khám phá bảo tàng qua một chuyến tham quan ảo.",
+          "image_url": "https://images.pexels.com/photos/36812934/pexels-photo-36812934.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The strike brought the city’s transport system to a virtual standstill.",
+          "vi": "Cuộc đình công đã khiến hệ thống giao thông của thành phố gần như tê liệt.",
+          "image_url": "https://images.pexels.com/photos/36812934/pexels-photo-36812934.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "virtual reality",
+        "virtual meeting",
+        "virtual tour",
+        "virtual standstill"
+      ],
+      "notes": null,
+      "ipa": "/ˈvɜːrtʃuəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vir/virtu/virtual__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/36812934/pexels-photo-36812934.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Vitaly Gariev",
+        "author_url": "https://www.pexels.com/@silverkblack",
+        "source_url": "https://www.pexels.com/photo/young-woman-experiencing-virtual-reality-indoors-36812934/"
+      }
+    },
+    {
+      "english": "visual",
+      "vietnamese": "(thuộc) thị giác; trực quan, bằng hình ảnh",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Charts and other visual aids make presentations easier to follow.",
+          "vi": "Biểu đồ và các phương tiện trực quan khác giúp bài thuyết trình dễ theo dõi hơn."
+        },
+        {
+          "en": "The study measured changes in patients’ visual memory over time.",
+          "vi": "Nghiên cứu đã đo những thay đổi về trí nhớ thị giác của bệnh nhân theo thời gian."
+        },
+        {
+          "en": "The website’s visual design was updated to attract younger users.",
+          "vi": "Thiết kế hình ảnh của trang web đã được cập nhật để thu hút người dùng trẻ hơn."
+        }
+      ],
+      "collocations": [
+        "visual aids",
+        "visual arts",
+        "visual effects",
+        "visual impairment"
+      ],
+      "notes": null,
+      "ipa": "/ˈvɪʒuəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vis/visua/visual__us_1.mp3"
+    },
+    {
+      "english": "widespread",
+      "vietnamese": "phổ biến, lan rộng; trên diện rộng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Smartphone use is now widespread among older adults.",
+          "vi": "Việc sử dụng điện thoại thông minh hiện đã phổ biến ở người lớn tuổi.",
+          "image_url": "https://images.pexels.com/photos/28559059/pexels-photo-28559059.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Heavy rain caused widespread flooding across the region.",
+          "vi": "Mưa lớn đã gây ngập lụt trên diện rộng khắp khu vực."
+        },
+        {
+          "en": "The new policy has received widespread support from teachers.",
+          "vi": "Chính sách mới đã nhận được sự ủng hộ rộng rãi từ giáo viên."
+        }
+      ],
+      "collocations": [
+        "widespread support",
+        "widespread use",
+        "widespread concern"
+      ],
+      "notes": null,
+      "ipa": "/ˈwaɪdspred/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wid/wides/widespread__us_1_rr.mp3"
+    }
+  ]
+}

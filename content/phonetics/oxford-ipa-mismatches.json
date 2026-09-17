@@ -1,0 +1,74 @@
+[
+  {
+    "word": "had",
+    "pair": "had/head",
+    "contrast": "æ_e",
+    "ipa_pair": "/ˈhæd/",
+    "ipa_oxford": "/həd/",
+    "note": "Oxford has /ə/ where the pair expects /æ/"
+  },
+  {
+    "word": "than",
+    "pair": "than/then",
+    "contrast": "æ_e",
+    "ipa_pair": "/ˈðæn/",
+    "ipa_oxford": "/ðən/",
+    "note": "Oxford has /ə/ where the pair expects /æ/ [row already in production, not refetched]"
+  },
+  {
+    "word": "shall",
+    "pair": "shall/shell",
+    "contrast": "æ_e",
+    "ipa_pair": "/ˈʃæl/",
+    "ipa_oxford": "/ʃəl/",
+    "note": "Oxford has /ə/ where the pair expects /æ/ [row already in production, not refetched]"
+  },
+  {
+    "word": "but",
+    "pair": "bat/but",
+    "contrast": "æ_ʌ",
+    "ipa_pair": "/ˈbʌt/",
+    "ipa_oxford": "/bət/",
+    "note": "Oxford has /ə/ where the pair expects /ʌ/ [row already in production, not refetched]"
+  },
+  {
+    "word": "but",
+    "pair": "bet/but",
+    "contrast": "e_ʌ",
+    "ipa_pair": "/ˈbʌt/",
+    "ipa_oxford": "/bət/",
+    "note": "Oxford has /ə/ where the pair expects /ʌ/ [row already in production, not refetched]"
+  },
+  {
+    "word": "could",
+    "pair": "could/cooed",
+    "contrast": "ʊ_uː",
+    "ipa_pair": "/ˈkʊd/",
+    "ipa_oxford": "/kəd/",
+    "note": "Oxford has /ə/ where the pair expects /ʊ/ [row already in production, not refetched]"
+  },
+  {
+    "word": "should",
+    "pair": "should/shooed",
+    "contrast": "ʊ_uː",
+    "ipa_pair": "/ˈʃʊd/",
+    "ipa_oxford": "/ʃəd/",
+    "note": "Oxford has /ə/ where the pair expects /ʊ/ [row already in production, not refetched]"
+  },
+  {
+    "word": "use",
+    "pair": "youth/use",
+    "contrast": "θ_s",
+    "ipa_pair": "/ˈjuːs/",
+    "ipa_oxford": "/juːz/",
+    "note": "Oxford has /z/ where the pair expects /s/ [row already in production, not refetched]"
+  },
+  {
+    "word": "learned",
+    "pair": "learn/learned",
+    "contrast": "ending_ed",
+    "ipa_pair": "/ˈlɜrnd/",
+    "ipa_oxford": "/ˈlɜːrnɪd/",
+    "note": "Oxford has /ɪ/ before the ending /d/, the stem ends in /n/ (different form or extra syllable)"
+  }
+]

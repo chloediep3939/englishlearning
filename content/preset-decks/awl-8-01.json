@@ -1,0 +1,866 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 8 · Bộ 1",
+    "description": "Academic Word List, sublist 8",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-8-01"
+  },
+  "cards": [
+    {
+      "english": "abandon",
+      "vietnamese": "từ bỏ; bỏ rơi; bỏ lại",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company abandoned the project after costs rose sharply.",
+          "vi": "Công ty đã từ bỏ dự án sau khi chi phí tăng mạnh."
+        },
+        {
+          "en": "Many farmers were forced to abandon their land during the drought.",
+          "vi": "Nhiều nông dân buộc phải bỏ lại đất đai của mình trong đợt hạn hán."
+        },
+        {
+          "en": "Researchers should not abandon a theory simply because one test failed.",
+          "vi": "Các nhà nghiên cứu không nên từ bỏ một lý thuyết chỉ vì một thử nghiệm thất bại.",
+          "image_url": "https://images.pexels.com/photos/8539435/pexels-photo-8539435.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "abandon a plan",
+        "abandon a project",
+        "abandon an attempt"
+      ],
+      "notes": null,
+      "ipa": "/əˈbændən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aba/aband/abandon__us_2.mp3"
+    },
+    {
+      "english": "accompany",
+      "vietnamese": "đi kèm; đi cùng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Children under twelve must be accompanied by an adult.",
+          "vi": "Trẻ em dưới mười hai tuổi phải có người lớn đi cùng."
+        },
+        {
+          "en": "Each chart is accompanied by a short explanation of the data.",
+          "vi": "Mỗi biểu đồ đều đi kèm một lời giải thích ngắn về dữ liệu."
+        },
+        {
+          "en": "Rapid economic growth is often accompanied by rising prices.",
+          "vi": "Tăng trưởng kinh tế nhanh thường đi kèm với giá cả tăng."
+        }
+      ],
+      "collocations": [
+        "be accompanied by",
+        "accompanying text",
+        "accompanied by an adult"
+      ],
+      "notes": "thường dùng bị động: be accompanied by",
+      "ipa": "/əˈkʌmpəni/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/accom/accompany__us_2.mp3"
+    },
+    {
+      "english": "accumulate",
+      "vietnamese": "tích lũy; tích tụ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Over ten years, the family accumulated enough savings to buy a house.",
+          "vi": "Trong mười năm, gia đình đó đã tích lũy đủ tiền tiết kiệm để mua nhà."
+        },
+        {
+          "en": "Dust and dirt accumulate quickly inside the machine.",
+          "vi": "Bụi bẩn tích tụ rất nhanh bên trong máy."
+        },
+        {
+          "en": "Scientists have accumulated strong evidence that the climate is changing.",
+          "vi": "Các nhà khoa học đã tích lũy được bằng chứng rõ ràng rằng khí hậu đang thay đổi."
+        }
+      ],
+      "collocations": [
+        "accumulate wealth",
+        "accumulate evidence",
+        "accumulate data"
+      ],
+      "notes": null,
+      "ipa": "/əˈkjuːmjəleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/accum/accumulate__us_1.mp3"
+    },
+    {
+      "english": "ambiguous",
+      "vietnamese": "mơ hồ; không rõ ràng; nước đôi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The wording of the contract is ambiguous and needs to be revised.",
+          "vi": "Cách diễn đạt trong hợp đồng không rõ ràng và cần được sửa lại.",
+          "image_url": "https://images.pexels.com/photos/30945288/pexels-photo-30945288.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Some survey questions were ambiguous, so participants interpreted them differently.",
+          "vi": "Một số câu hỏi khảo sát mơ hồ nên người tham gia hiểu chúng theo những cách khác nhau.",
+          "image_url": "https://images.pexels.com/photos/30945288/pexels-photo-30945288.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The results of the study remain ambiguous.",
+          "vi": "Kết quả của nghiên cứu vẫn còn chưa rõ ràng.",
+          "image_url": "https://images.pexels.com/photos/30945288/pexels-photo-30945288.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "ambiguous language",
+        "highly ambiguous",
+        "ambiguous results"
+      ],
+      "notes": null,
+      "ipa": "/æmˈbɪɡjuəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/amb/ambig/ambiguous__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/30945288/pexels-photo-30945288.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "author_url": "https://www.pexels.com/@markus-winkler-1430818",
+        "source_url": "https://www.pexels.com/photo/wooden-scrabble-tiles-spelling-doubt-30945288/"
+      }
+    },
+    {
+      "english": "append",
+      "vietnamese": "thêm vào cuối; đính kèm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "A full list of references is appended to the report.",
+          "vi": "Danh sách đầy đủ tài liệu tham khảo được đính kèm ở cuối báo cáo."
+        },
+        {
+          "en": "A short summary is appended at the end of each chapter.",
+          "vi": "Một bản tóm tắt ngắn được thêm vào cuối mỗi chương."
+        },
+        {
+          "en": "The program appends new data to the end of the file.",
+          "vi": "Chương trình thêm dữ liệu mới vào cuối tệp."
+        }
+      ],
+      "collocations": [
+        "append to",
+        "append a note"
+      ],
+      "notes": "append something to something",
+      "ipa": "/əˈpend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/app/appen/append__us_1.mp3"
+    },
+    {
+      "english": "appreciate",
+      "vietnamese": "đánh giá cao; cảm kích; hiểu rõ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We really appreciate your help with the conference.",
+          "vi": "Chúng tôi thực sự cảm kích sự giúp đỡ của bạn cho hội nghị.",
+          "image_url": "https://images.pexels.com/photos/7563652/pexels-photo-7563652.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Managers failed to appreciate how serious the problem was.",
+          "vi": "Các nhà quản lý đã không hiểu rõ vấn đề nghiêm trọng đến mức nào."
+        },
+        {
+          "en": "Her colleagues greatly appreciated her careful approach to research.",
+          "vi": "Các đồng nghiệp đánh giá rất cao cách làm nghiên cứu cẩn thận của cô ấy."
+        }
+      ],
+      "collocations": [
+        "greatly appreciate",
+        "really appreciate",
+        "fully appreciate"
+      ],
+      "notes": null,
+      "ipa": "/əˈpriːʃieɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/app/appre/appreciate__us_1.mp3"
+    },
+    {
+      "english": "arbitrary",
+      "vietnamese": "tùy tiện; tùy ý; độc đoán",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The choice of sample size seemed arbitrary to the reviewers.",
+          "vi": "Việc chọn cỡ mẫu có vẻ tùy tiện đối với những người phản biện."
+        },
+        {
+          "en": "Workers complained about arbitrary decisions made by their managers.",
+          "vi": "Công nhân phàn nàn về những quyết định độc đoán của quản lý."
+        },
+        {
+          "en": "The boundary between the two categories is somewhat arbitrary.",
+          "vi": "Ranh giới giữa hai nhóm này phần nào mang tính tùy ý."
+        }
+      ],
+      "collocations": [
+        "arbitrary decision",
+        "arbitrary rules",
+        "somewhat arbitrary"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːrbɪtreri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/arb/arbit/arbitrary__us_1.mp3"
+    },
+    {
+      "english": "automate",
+      "vietnamese": "tự động hóa",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The bank has automated most of its customer services.",
+          "vi": "Ngân hàng đã tự động hóa phần lớn các dịch vụ khách hàng."
+        },
+        {
+          "en": "Many factory jobs could be automated within the next decade.",
+          "vi": "Nhiều công việc trong nhà máy có thể được tự động hóa trong thập kỷ tới.",
+          "image_url": "https://images.pexels.com/photos/32845661/pexels-photo-32845661.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "We use software to automate the process of checking invoices.",
+          "vi": "Chúng tôi dùng phần mềm để tự động hóa quy trình kiểm tra hóa đơn."
+        }
+      ],
+      "collocations": [
+        "automate a process",
+        "automate tasks",
+        "fully automated"
+      ],
+      "notes": null,
+      "ipa": "/ˈɔːtəmeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aut/autom/automate__us_1.mp3"
+    },
+    {
+      "english": "bias",
+      "vietnamese": "thành kiến; thiên vị; sai lệch",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The study was criticized for its bias toward urban schools.",
+          "vi": "Nghiên cứu bị chỉ trích vì thiên vị các trường học ở thành thị."
+        },
+        {
+          "en": "Researchers took steps to reduce bias in the sample.",
+          "vi": "Các nhà nghiên cứu đã thực hiện các bước để giảm sai lệch trong mẫu."
+        },
+        {
+          "en": "Employers must avoid gender bias when hiring new staff.",
+          "vi": "Nhà tuyển dụng phải tránh thành kiến giới tính khi tuyển nhân viên mới."
+        }
+      ],
+      "collocations": [
+        "gender bias",
+        "bias against",
+        "reduce bias",
+        "political bias"
+      ],
+      "notes": "bias against/toward(s) somebody",
+      "ipa": "/ˈbaɪəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bia/bias_/bias__us_1.mp3"
+    },
+    {
+      "english": "chart",
+      "vietnamese": "biểu đồ; bảng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The chart shows how prices changed over the past five years.",
+          "vi": "Biểu đồ cho thấy giá cả đã thay đổi như thế nào trong năm năm qua."
+        },
+        {
+          "en": "Students were asked to present their results in a bar chart.",
+          "vi": "Sinh viên được yêu cầu trình bày kết quả dưới dạng biểu đồ cột."
+        },
+        {
+          "en": "Nurses record each patient's temperature on a chart.",
+          "vi": "Y tá ghi nhiệt độ của từng bệnh nhân vào một bảng theo dõi.",
+          "image_url": "https://images.pexels.com/photos/5722160/pexels-photo-5722160.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "bar chart",
+        "pie chart",
+        "the chart shows"
+      ],
+      "notes": null,
+      "ipa": "/tʃɑːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chart/chart__us_1.mp3"
+    },
+    {
+      "english": "clarify",
+      "vietnamese": "làm rõ; giải thích rõ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Could you clarify what you mean by that term?",
+          "vi": "Bạn có thể làm rõ ý bạn muốn nói với thuật ngữ đó không?"
+        },
+        {
+          "en": "The new guidelines clarify the rules for working from home.",
+          "vi": "Hướng dẫn mới làm rõ các quy định về làm việc tại nhà."
+        },
+        {
+          "en": "The manager called a meeting to clarify the team's responsibilities.",
+          "vi": "Người quản lý đã triệu tập một cuộc họp để làm rõ trách nhiệm của nhóm."
+        }
+      ],
+      "collocations": [
+        "clarify the situation",
+        "clarify the meaning",
+        "help clarify",
+        "further clarify"
+      ],
+      "notes": null,
+      "ipa": "/ˈklærəfaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cla/clari/clarify__us_1.mp3"
+    },
+    {
+      "english": "commodity",
+      "vietnamese": "hàng hóa; mặt hàng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Oil is one of the most traded commodities in the world.",
+          "vi": "Dầu mỏ là một trong những mặt hàng được giao dịch nhiều nhất thế giới."
+        },
+        {
+          "en": "Commodity prices fell sharply during the global recession.",
+          "vi": "Giá hàng hóa giảm mạnh trong thời kỳ suy thoái toàn cầu."
+        },
+        {
+          "en": "In many cities, clean water has become a valuable commodity.",
+          "vi": "Ở nhiều thành phố, nước sạch đã trở thành một thứ hàng hóa quý giá."
+        }
+      ],
+      "collocations": [
+        "commodity prices",
+        "valuable commodity",
+        "commodity markets"
+      ],
+      "notes": null,
+      "ipa": "/kəˈmɑːdəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/commo/commodity__us_1.mp3"
+    },
+    {
+      "english": "complement",
+      "vietnamese": "bổ sung; làm hoàn thiện",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Online lessons are designed to complement classroom teaching.",
+          "vi": "Các bài học trực tuyến được thiết kế để bổ sung cho việc dạy trên lớp.",
+          "image_url": "https://images.pexels.com/photos/11570375/pexels-photo-11570375.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The two studies complement each other well.",
+          "vi": "Hai nghiên cứu này bổ sung cho nhau rất tốt.",
+          "image_url": "https://images.pexels.com/photos/11570375/pexels-photo-11570375.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Her technical skills complement his experience in management.",
+          "vi": "Kỹ năng chuyên môn của cô ấy bổ sung cho kinh nghiệm quản lý của anh ấy.",
+          "image_url": "https://images.pexels.com/photos/11570375/pexels-photo-11570375.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "complement each other",
+        "perfectly complement"
+      ],
+      "notes": "complement (bổ sung) ≠ compliment (khen ngợi)",
+      "ipa": "/ˈkɑːmplɪment/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compl/complement__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/11570375/pexels-photo-11570375.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Francesco Ungaro",
+        "author_url": "https://www.pexels.com/@francesco-ungaro",
+        "source_url": "https://www.pexels.com/photo/trees-casting-shadow-at-the-facade-11570375/"
+      }
+    },
+    {
+      "english": "conform",
+      "vietnamese": "tuân theo; phù hợp với",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "All products must conform to national safety standards.",
+          "vi": "Mọi sản phẩm phải tuân theo tiêu chuẩn an toàn quốc gia."
+        },
+        {
+          "en": "Teenagers often feel pressure to conform to their friends' behavior.",
+          "vi": "Thanh thiếu niên thường cảm thấy áp lực phải làm theo hành vi của bạn bè."
+        },
+        {
+          "en": "The results did not conform to our original expectations.",
+          "vi": "Kết quả không phù hợp với kỳ vọng ban đầu của chúng tôi."
+        }
+      ],
+      "collocations": [
+        "conform to standards",
+        "conform to rules",
+        "pressure to conform"
+      ],
+      "notes": "conform to/with something",
+      "ipa": "/kənˈfɔːrm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconf/xconform__us_1.mp3"
+    },
+    {
+      "english": "contemporary",
+      "vietnamese": "đương đại; hiện đại; cùng thời",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The museum has a large collection of contemporary art.",
+          "vi": "Bảo tàng có một bộ sưu tập lớn về nghệ thuật đương đại.",
+          "image_url": "https://images.pexels.com/photos/35399265/pexels-photo-35399265.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The course examines key issues in contemporary society.",
+          "vi": "Khóa học xem xét những vấn đề then chốt trong xã hội hiện đại."
+        },
+        {
+          "en": "Contemporary reports describe the flood as the worst in a century.",
+          "vi": "Các bản tường thuật cùng thời mô tả trận lụt là tồi tệ nhất trong một thế kỷ."
+        }
+      ],
+      "collocations": [
+        "contemporary art",
+        "contemporary society",
+        "contemporary music"
+      ],
+      "notes": null,
+      "ipa": "/kənˈtempəreri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontemporary__us_1.mp3"
+    },
+    {
+      "english": "contradict",
+      "vietnamese": "mâu thuẫn với; phủ nhận; cãi lại",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "These findings contradict the results of earlier studies.",
+          "vi": "Những phát hiện này mâu thuẫn với kết quả của các nghiên cứu trước đó."
+        },
+        {
+          "en": "His statement to the police contradicted what he had told reporters.",
+          "vi": "Lời khai của anh ta với cảnh sát mâu thuẫn với những gì anh ta đã nói với phóng viên."
+        },
+        {
+          "en": "She felt uncomfortable contradicting her manager in front of clients.",
+          "vi": "Cô ấy cảm thấy không thoải mái khi cãi lại quản lý trước mặt khách hàng."
+        }
+      ],
+      "collocations": [
+        "contradict the evidence",
+        "contradict each other",
+        "directly contradict"
+      ],
+      "notes": null,
+      "ipa": "/ˌkɑːntrəˈdɪkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontradict__us_1.mp3"
+    },
+    {
+      "english": "crucial",
+      "vietnamese": "cốt yếu; then chốt; quyết định",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Early diagnosis is crucial for successful treatment.",
+          "vi": "Chẩn đoán sớm là yếu tố then chốt để điều trị thành công."
+        },
+        {
+          "en": "Teachers play a crucial role in shaping students' attitudes.",
+          "vi": "Giáo viên đóng vai trò quyết định trong việc hình thành thái độ của học sinh.",
+          "image_url": "https://images.pexels.com/photos/22616347/pexels-photo-22616347.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "It is crucial that everyone follows the safety procedures.",
+          "vi": "Điều cốt yếu là mọi người phải tuân thủ quy trình an toàn."
+        }
+      ],
+      "collocations": [
+        "crucial role",
+        "absolutely crucial",
+        "crucial for",
+        "crucial factor"
+      ],
+      "notes": null,
+      "ipa": "/ˈkruːʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cru/cruci/crucial__us_1.mp3"
+    },
+    {
+      "english": "currency",
+      "vietnamese": "tiền tệ; đơn vị tiền tệ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Tourists can exchange foreign currency at the airport.",
+          "vi": "Khách du lịch có thể đổi ngoại tệ tại sân bay."
+        },
+        {
+          "en": "The country's currency lost a third of its value last year.",
+          "vi": "Đồng tiền của quốc gia này đã mất một phần ba giá trị vào năm ngoái."
+        },
+        {
+          "en": "Several countries in the region share a single currency.",
+          "vi": "Một số quốc gia trong khu vực dùng chung một đơn vị tiền tệ."
+        }
+      ],
+      "collocations": [
+        "foreign currency",
+        "single currency",
+        "currency exchange",
+        "local currency"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɜːrənsi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cur/curre/currency__us_1.mp3"
+    },
+    {
+      "english": "denote",
+      "vietnamese": "biểu thị; chỉ; ký hiệu cho",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "In the table, an asterisk denotes a significant result.",
+          "vi": "Trong bảng, dấu sao biểu thị một kết quả có ý nghĩa thống kê."
+        },
+        {
+          "en": "The letter x is often used to denote an unknown number.",
+          "vi": "Chữ x thường được dùng để ký hiệu cho một số chưa biết."
+        },
+        {
+          "en": "Red areas on the map denote regions with heavy rainfall.",
+          "vi": "Các vùng màu đỏ trên bản đồ chỉ những khu vực có lượng mưa lớn.",
+          "image_url": "https://images.pexels.com/photos/38348527/pexels-photo-38348527.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "used to denote",
+        "denoted by"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈnəʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/den/denot/denote__us_1.mp3"
+    },
+    {
+      "english": "detect",
+      "vietnamese": "phát hiện; dò ra",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The test can detect the disease at a very early stage.",
+          "vi": "Xét nghiệm này có thể phát hiện bệnh ở giai đoạn rất sớm."
+        },
+        {
+          "en": "Sensors detected small amounts of gas in the building.",
+          "vi": "Cảm biến đã phát hiện một lượng nhỏ khí ga trong tòa nhà."
+        },
+        {
+          "en": "The software is designed to detect errors in financial records.",
+          "vi": "Phần mềm được thiết kế để phát hiện lỗi trong hồ sơ tài chính."
+        }
+      ],
+      "collocations": [
+        "detect changes",
+        "detect errors",
+        "difficult to detect",
+        "easily detected"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈtekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/det/detec/detect__us_1.mp3"
+    },
+    {
+      "english": "deviate",
+      "vietnamese": "lệch khỏi; đi chệch",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The pilot had to deviate from the planned route because of a storm.",
+          "vi": "Phi công phải bay lệch khỏi lộ trình dự kiến vì có bão."
+        },
+        {
+          "en": "Staff should not deviate from the agreed procedures without permission.",
+          "vi": "Nhân viên không được làm khác quy trình đã thống nhất khi chưa được phép."
+        },
+        {
+          "en": "The actual costs deviated significantly from the original estimate.",
+          "vi": "Chi phí thực tế chênh lệch đáng kể so với ước tính ban đầu."
+        }
+      ],
+      "collocations": [
+        "deviate from",
+        "deviate significantly",
+        "deviate from the plan"
+      ],
+      "notes": "deviate from something",
+      "ipa": "/ˈdiːvieɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dev/devia/deviate__us_1.mp3"
+    },
+    {
+      "english": "displace",
+      "vietnamese": "buộc phải rời bỏ nơi ở; thay thế; chiếm chỗ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The floods displaced thousands of families in the region.",
+          "vi": "Lũ lụt đã khiến hàng nghìn gia đình trong vùng phải rời bỏ nơi ở.",
+          "image_url": "https://images.pexels.com/photos/803951/pexels-photo-803951.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "In many offices, email has displaced traditional letters.",
+          "vi": "Ở nhiều văn phòng, email đã thay thế thư từ truyền thống.",
+          "image_url": "https://images.pexels.com/photos/803951/pexels-photo-803951.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Some workers fear that new technology will displace them.",
+          "vi": "Một số công nhân lo sợ rằng công nghệ mới sẽ thay thế họ.",
+          "image_url": "https://images.pexels.com/photos/803951/pexels-photo-803951.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "displaced people",
+        "displaced persons",
+        "be displaced by"
+      ],
+      "notes": null,
+      "ipa": "/dɪsˈpleɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/displ/displace__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/803951/pexels-photo-803951.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Eneida Nieves",
+        "author_url": "https://www.pexels.com/@fariphotography",
+        "source_url": "https://www.pexels.com/photo/grayscale-of-woman-in-black-flat-sandals-walking-803951/"
+      }
+    },
+    {
+      "english": "drama",
+      "vietnamese": "kịch; phim truyền hình; sự kịch tính",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She studied drama at university before becoming a teacher.",
+          "vi": "Cô ấy học kịch ở trường đại học trước khi trở thành giáo viên."
+        },
+        {
+          "en": "The new television drama follows the lives of hospital staff.",
+          "vi": "Bộ phim truyền hình mới kể về cuộc sống của các nhân viên bệnh viện."
+        },
+        {
+          "en": "The rescue was full of drama and lasted several hours.",
+          "vi": "Cuộc giải cứu đầy kịch tính và kéo dài nhiều giờ."
+        }
+      ],
+      "collocations": [
+        "television drama",
+        "historical drama",
+        "drama school"
+      ],
+      "notes": null,
+      "ipa": "/ˈdrɑːmə/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dra/drama/drama__us_1.mp3"
+    },
+    {
+      "english": "eventual",
+      "vietnamese": "cuối cùng; sau cùng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Poor management led to the eventual collapse of the company.",
+          "vi": "Việc quản lý kém đã dẫn đến sự sụp đổ cuối cùng của công ty.",
+          "image_url": "https://images.pexels.com/photos/38285023/pexels-photo-38285023.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Nobody could have predicted the eventual outcome of the election.",
+          "vi": "Không ai có thể đoán trước kết quả cuối cùng của cuộc bầu cử."
+        },
+        {
+          "en": "The eventual winner of the competition was a small local firm.",
+          "vi": "Người thắng cuộc sau cùng của cuộc thi là một công ty nhỏ ở địa phương."
+        }
+      ],
+      "collocations": [
+        "eventual outcome",
+        "eventual winner",
+        "eventual success"
+      ],
+      "notes": "trạng từ: eventually (cuối cùng)",
+      "ipa": "/ɪˈventʃuəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eve/event/eventual__us_1.mp3"
+    },
+    {
+      "english": "exhibit",
+      "vietnamese": "trưng bày; thể hiện; biểu hiện",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Her paintings will be exhibited at the city gallery next month.",
+          "vi": "Các bức tranh của cô ấy sẽ được trưng bày tại phòng tranh thành phố vào tháng tới."
+        },
+        {
+          "en": "Patients exhibited clear signs of improvement after two weeks.",
+          "vi": "Bệnh nhân có những dấu hiệu cải thiện rõ rệt sau hai tuần."
+        },
+        {
+          "en": "Some children exhibit behavior problems when they start school.",
+          "vi": "Một số trẻ có biểu hiện các vấn đề về hành vi khi bắt đầu đi học."
+        }
+      ],
+      "collocations": [
+        "exhibit signs",
+        "exhibit symptoms",
+        "exhibit behavior"
+      ],
+      "notes": null,
+      "ipa": "/ɪɡˈzɪbɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exh/exhib/exhibit__us_1.mp3"
+    },
+    {
+      "english": "exploit",
+      "vietnamese": "khai thác; tận dụng; bóc lột",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The country has not yet fully exploited its natural resources.",
+          "vi": "Đất nước này chưa khai thác hết tài nguyên thiên nhiên của mình."
+        },
+        {
+          "en": "Small businesses can exploit new technology to reach more customers.",
+          "vi": "Các doanh nghiệp nhỏ có thể tận dụng công nghệ mới để tiếp cận nhiều khách hàng hơn.",
+          "image_url": "https://images.pexels.com/photos/6205511/pexels-photo-6205511.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Some employers exploit workers by paying them very low wages.",
+          "vi": "Một số chủ lao động bóc lột công nhân bằng cách trả lương rất thấp."
+        }
+      ],
+      "collocations": [
+        "exploit resources",
+        "fully exploit",
+        "exploit workers",
+        "exploit an opportunity"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈsplɔɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/explo/exploit__us_1.mp3"
+    },
+    {
+      "english": "fluctuate",
+      "vietnamese": "dao động; biến động; lên xuống thất thường",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Oil prices fluctuated widely throughout the year.",
+          "vi": "Giá dầu biến động mạnh trong suốt cả năm."
+        },
+        {
+          "en": "Temperatures in the desert fluctuate between day and night.",
+          "vi": "Nhiệt độ ở sa mạc dao động giữa ban ngày và ban đêm."
+        },
+        {
+          "en": "The number of students tends to fluctuate from one term to the next.",
+          "vi": "Số lượng sinh viên thường lên xuống thất thường giữa các học kỳ."
+        }
+      ],
+      "collocations": [
+        "fluctuate widely",
+        "prices fluctuate",
+        "fluctuate between"
+      ],
+      "notes": null,
+      "ipa": "/ˈflʌktʃueɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/flu/fluct/fluctuate__us_1.mp3"
+    },
+    {
+      "english": "guideline",
+      "vietnamese": "hướng dẫn; nguyên tắc chỉ đạo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The government has issued new guidelines on food safety.",
+          "vi": "Chính phủ đã ban hành hướng dẫn mới về an toàn thực phẩm."
+        },
+        {
+          "en": "Authors must follow the journal's guidelines when submitting articles.",
+          "vi": "Tác giả phải tuân theo hướng dẫn của tạp chí khi gửi bài."
+        },
+        {
+          "en": "These guidelines apply to all staff working with patient data.",
+          "vi": "Các nguyên tắc này áp dụng cho mọi nhân viên làm việc với dữ liệu bệnh nhân.",
+          "image_url": "https://images.pexels.com/photos/6285379/pexels-photo-6285379.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "follow guidelines",
+        "issue guidelines",
+        "clear guidelines",
+        "guidelines on"
+      ],
+      "notes": "thường dùng số nhiều: guidelines",
+      "ipa": "/ˈɡaɪdlaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gui/guide/guideline__us_1.mp3"
+    },
+    {
+      "english": "highlight",
+      "vietnamese": "nhấn mạnh; làm nổi bật",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The report highlights the need for better public transport.",
+          "vi": "Báo cáo nhấn mạnh sự cần thiết của giao thông công cộng tốt hơn."
+        },
+        {
+          "en": "This case highlights the risks of storing data online.",
+          "vi": "Trường hợp này làm nổi bật những rủi ro của việc lưu trữ dữ liệu trực tuyến."
+        },
+        {
+          "en": "At the conference, speakers highlighted the importance of early education.",
+          "vi": "Tại hội nghị, các diễn giả đã nhấn mạnh tầm quan trọng của giáo dục sớm."
+        }
+      ],
+      "collocations": [
+        "highlight the need",
+        "highlight the importance",
+        "highlight the problem"
+      ],
+      "notes": null,
+      "ipa": "/ˈhaɪlaɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hig/highl/highlight__us_1.mp3"
+    },
+    {
+      "english": "implicit",
+      "vietnamese": "ngầm; ẩn ý; tuyệt đối",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "There was an implicit agreement that nobody would discuss the matter.",
+          "vi": "Có một thỏa thuận ngầm rằng không ai được bàn về vấn đề này."
+        },
+        {
+          "en": "The criticism was implicit in her comments about the report.",
+          "vi": "Lời phê bình ẩn chứa trong nhận xét của cô ấy về bản báo cáo."
+        },
+        {
+          "en": "Patients usually have implicit trust in their doctors.",
+          "vi": "Bệnh nhân thường tin tưởng tuyệt đối vào bác sĩ của mình."
+        }
+      ],
+      "collocations": [
+        "implicit assumption",
+        "implicit in",
+        "implicit trust"
+      ],
+      "notes": "implicit (ngầm) ≠ explicit (rõ ràng)",
+      "ipa": "/ɪmˈplɪsɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/imp/impli/implicit__us_1.mp3"
+    }
+  ]
+}

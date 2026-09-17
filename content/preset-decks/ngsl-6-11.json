@@ -1,0 +1,536 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.501–2.809 · Bộ 11",
+    "description": "New General Service List, thứ hạng 2.501–2.809",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-6-11"
+  },
+  "cards": [
+    {
+      "english": "faithfully",
+      "vietnamese": "trung thành; tận tụy; sát, chính xác",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Our dog waited faithfully by the door until we came home.",
+          "vi": "Chú chó của chúng tôi trung thành chờ bên cửa cho đến khi chúng tôi về nhà."
+        },
+        {
+          "en": "He faithfully visited his grandmother every Sunday for ten years.",
+          "vi": "Suốt mười năm, anh ấy tận tụy đến thăm bà vào mỗi Chủ nhật."
+        },
+        {
+          "en": "The movie faithfully follows the story in the original book.",
+          "vi": "Bộ phim bám sát câu chuyện trong cuốn sách gốc."
+        }
+      ],
+      "collocations": [
+        "Yours faithfully",
+        "serve faithfully",
+        "faithfully follow"
+      ],
+      "notes": "Yours faithfully: câu kết thư trang trọng khi không biết tên người nhận",
+      "ipa": "/ˈfeɪθfəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fai/faith/faithfully__us_1.mp3"
+    },
+    {
+      "english": "autumn",
+      "vietnamese": "mùa thu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The leaves on these trees turn red in autumn.",
+          "vi": "Lá của những cây này chuyển sang màu đỏ vào mùa thu."
+        },
+        {
+          "en": "We are planning a trip to the mountains next autumn.",
+          "vi": "Chúng tôi đang lên kế hoạch đi núi vào mùa thu năm sau."
+        },
+        {
+          "en": "Autumn is my favorite season because the weather is cool.",
+          "vi": "Mùa thu là mùa tôi thích nhất vì thời tiết mát mẻ."
+        }
+      ],
+      "collocations": [
+        "in autumn",
+        "next autumn",
+        "last autumn",
+        "autumn leaves"
+      ],
+      "notes": "Anh: autumn · Mỹ: fall",
+      "ipa": "/ˈɔːtəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aut/autum/autumn__us_3.mp3"
+    },
+    {
+      "english": "cheek",
+      "vietnamese": "má",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She kissed her grandson on the cheek and said goodbye.",
+          "vi": "Bà hôn lên má cháu trai rồi chào tạm biệt."
+        },
+        {
+          "en": "Tears were running down his cheeks as he read the letter.",
+          "vi": "Nước mắt chảy dài trên má anh ấy khi anh đọc bức thư."
+        },
+        {
+          "en": "The baby has round, pink cheeks and a big smile.",
+          "vi": "Em bé có đôi má tròn, hồng hào và nụ cười thật tươi."
+        }
+      ],
+      "collocations": [
+        "on the cheek",
+        "rosy cheeks",
+        "down his cheeks"
+      ],
+      "notes": null,
+      "ipa": "/tʃiːk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/che/cheek/cheek__us_1.mp3"
+    },
+    {
+      "english": "attachment",
+      "vietnamese": "tệp đính kèm; sự gắn bó",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I sent you the report as an attachment this morning.",
+          "vi": "Sáng nay tôi đã gửi cho bạn bản báo cáo dưới dạng tệp đính kèm."
+        },
+        {
+          "en": "Please don't open email attachments from people you don't know.",
+          "vi": "Vui lòng đừng mở tệp đính kèm trong email từ những người bạn không quen biết."
+        },
+        {
+          "en": "Children often form a strong attachment to their first teacher.",
+          "vi": "Trẻ em thường rất gắn bó với giáo viên đầu tiên của mình."
+        }
+      ],
+      "collocations": [
+        "email attachment",
+        "send an attachment",
+        "strong attachment",
+        "attachment to"
+      ],
+      "notes": null,
+      "ipa": "/əˈtætʃmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/att/attac/attachment__us_1.mp3"
+    },
+    {
+      "english": "holder",
+      "vietnamese": "người giữ, người sở hữu; giá đỡ, đồ đựng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Only ticket holders can enter the stadium after six o'clock.",
+          "vi": "Sau sáu giờ, chỉ những người có vé mới được vào sân vận động."
+        },
+        {
+          "en": "She is the current holder of the national swimming record.",
+          "vi": "Cô ấy là người đang giữ kỷ lục bơi lội quốc gia."
+        },
+        {
+          "en": "I use a phone holder in the car so I can see the map.",
+          "vi": "Tôi dùng giá đỡ điện thoại trên xe để có thể xem bản đồ."
+        }
+      ],
+      "collocations": [
+        "ticket holder",
+        "record holder",
+        "card holder",
+        "phone holder"
+      ],
+      "notes": null,
+      "ipa": "/ˈhəʊldər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hol/holde/holder__us_1.mp3"
+    },
+    {
+      "english": "solar",
+      "vietnamese": "(thuộc) mặt trời",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We put solar panels on our roof to save money.",
+          "vi": "Chúng tôi lắp tấm pin mặt trời trên mái nhà để tiết kiệm tiền."
+        },
+        {
+          "en": "Solar energy is becoming cheaper and more popular every year.",
+          "vi": "Năng lượng mặt trời ngày càng rẻ hơn và phổ biến hơn mỗi năm."
+        },
+        {
+          "en": "Our class made a model of the solar system for the science fair.",
+          "vi": "Lớp chúng tôi đã làm mô hình hệ Mặt Trời cho hội chợ khoa học."
+        }
+      ],
+      "collocations": [
+        "solar energy",
+        "solar power",
+        "solar panel",
+        "solar system"
+      ],
+      "notes": null,
+      "ipa": "/ˈsəʊlər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sol/solar/solar__us_2.mp3"
+    },
+    {
+      "english": "grin",
+      "vietnamese": "cười toe toét, cười nhe răng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "He grinned when he saw his exam results.",
+          "vi": "Cậu ấy cười toe toét khi thấy kết quả thi."
+        },
+        {
+          "en": "The children were grinning from ear to ear at the party.",
+          "vi": "Bọn trẻ cười ngoác cả miệng ở bữa tiệc."
+        },
+        {
+          "en": "Why are you grinning at me like that?",
+          "vi": "Sao bạn cứ nhe răng cười với tôi như thế?"
+        }
+      ],
+      "collocations": [
+        "grin from ear to ear",
+        "grin at",
+        "grin broadly"
+      ],
+      "notes": "grin – grinned – grinned",
+      "ipa": "/ɡrɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gri/grin_/grin__us_1.mp3"
+    },
+    {
+      "english": "rose",
+      "vietnamese": "hoa hồng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He gave his wife a dozen red roses on her birthday.",
+          "vi": "Anh ấy tặng vợ mười hai bông hồng đỏ vào ngày sinh nhật cô ấy."
+        },
+        {
+          "en": "My grandmother grows beautiful roses in her small garden.",
+          "vi": "Bà tôi trồng những bông hồng rất đẹp trong khu vườn nhỏ của bà."
+        },
+        {
+          "en": "A single white rose stood in a glass vase on the table.",
+          "vi": "Một bông hồng trắng được cắm trong chiếc bình thủy tinh trên bàn."
+        }
+      ],
+      "collocations": [
+        "red roses",
+        "grow roses",
+        "a bunch of roses",
+        "rose garden"
+      ],
+      "notes": "rose cũng là quá khứ của rise (rise – rose – risen)",
+      "ipa": "/rəʊz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ros/rose_/rose__us_2.mp3"
+    },
+    {
+      "english": "noun",
+      "vietnamese": "danh từ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "In English, we usually add s to a noun to make it plural.",
+          "vi": "Trong tiếng Anh, chúng ta thường thêm s vào danh từ để tạo dạng số nhiều."
+        },
+        {
+          "en": "Can you find all the nouns in this sentence?",
+          "vi": "Bạn có thể tìm tất cả các danh từ trong câu này không?"
+        },
+        {
+          "en": "Information is an uncountable noun, so it has no plural form.",
+          "vi": "Information là danh từ không đếm được nên không có dạng số nhiều."
+        }
+      ],
+      "collocations": [
+        "countable noun",
+        "uncountable noun",
+        "plural noun",
+        "proper noun"
+      ],
+      "notes": null,
+      "ipa": "/naʊn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nou/noun_/noun__us_1.mp3"
+    },
+    {
+      "english": "fortunate",
+      "vietnamese": "may mắn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We were fortunate to find a hotel room so late at night.",
+          "vi": "Chúng tôi may mắn tìm được phòng khách sạn vào lúc đêm muộn như vậy."
+        },
+        {
+          "en": "I feel very fortunate to have such kind friends.",
+          "vi": "Tôi cảm thấy rất may mắn khi có những người bạn tốt bụng như vậy."
+        },
+        {
+          "en": "It was fortunate that nobody was hurt in the accident.",
+          "vi": "Thật may là không ai bị thương trong vụ tai nạn."
+        }
+      ],
+      "collocations": [
+        "fortunate to",
+        "fortunate enough",
+        "feel fortunate",
+        "less fortunate"
+      ],
+      "notes": null,
+      "ipa": "/ˈfɔːrtʃənət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/for/fortu/fortunate__us_1.mp3"
+    },
+    {
+      "english": "alright",
+      "vietnamese": "ổn, không sao; được rồi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "You look pale. Are you feeling alright?",
+          "vi": "Trông bạn xanh xao quá. Bạn thấy ổn chứ?"
+        },
+        {
+          "en": "Don't worry, everything will be alright in the end.",
+          "vi": "Đừng lo, cuối cùng mọi chuyện sẽ ổn thôi."
+        },
+        {
+          "en": "Alright, let's take a short break and meet back here at three.",
+          "vi": "Được rồi, chúng ta nghỉ một chút rồi gặp lại ở đây lúc ba giờ."
+        }
+      ],
+      "collocations": [
+        "feel alright",
+        "be alright",
+        "it's alright"
+      ],
+      "notes": "= all right (all right trang trọng hơn)",
+      "ipa": "/ɔːlˈraɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/all/all_r/all_right_1_us_3.mp3"
+    },
+    {
+      "english": "lazy",
+      "vietnamese": "lười biếng; thong thả, nhàn nhã",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My brother is too lazy to clean his own room.",
+          "vi": "Em trai tôi lười đến mức không chịu tự dọn phòng của mình."
+        },
+        {
+          "en": "Don't be lazy; finish your homework before dinner.",
+          "vi": "Đừng lười biếng, hãy làm xong bài tập trước bữa tối."
+        },
+        {
+          "en": "We spent a lazy Sunday afternoon reading in the garden.",
+          "vi": "Chúng tôi đã có một buổi chiều Chủ nhật thong thả đọc sách trong vườn."
+        }
+      ],
+      "collocations": [
+        "too lazy to",
+        "lazy afternoon",
+        "lazy day",
+        "feel lazy"
+      ],
+      "notes": null,
+      "ipa": "/ˈleɪzi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/laz/lazy_/lazy__us_1.mp3"
+    },
+    {
+      "english": "hello",
+      "vietnamese": "xin chào; a lô",
+      "part_of_speech": "exclamation",
+      "examples": [
+        {
+          "en": "Hello, I'm your new neighbor from the apartment upstairs.",
+          "vi": "Xin chào, tôi là hàng xóm mới ở căn hộ tầng trên."
+        },
+        {
+          "en": "When I answered the phone and said hello, nobody replied.",
+          "vi": "Khi tôi nhấc máy và nói a lô, không ai trả lời cả."
+        },
+        {
+          "en": "Please say hello to your parents for me.",
+          "vi": "Cho tôi gửi lời chào đến bố mẹ bạn nhé."
+        }
+      ],
+      "collocations": [
+        "say hello",
+        "say hello to",
+        "hello again"
+      ],
+      "notes": null,
+      "ipa": "/həˈləʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hel/hello/hello__us_1_rr.mp3"
+    },
+    {
+      "english": "hunger",
+      "vietnamese": "cơn đói, sự đói; sự khao khát",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "After the long hike, we were all weak with hunger.",
+          "vi": "Sau chuyến đi bộ dài, tất cả chúng tôi đều lả đi vì đói."
+        },
+        {
+          "en": "Drinking water can help you control your hunger between meals.",
+          "vi": "Uống nước có thể giúp bạn kiềm chế cơn đói giữa các bữa ăn."
+        },
+        {
+          "en": "She has a real hunger for knowledge and reads every day.",
+          "vi": "Cô ấy thực sự khao khát tri thức và đọc sách mỗi ngày."
+        }
+      ],
+      "collocations": [
+        "weak with hunger",
+        "hunger for knowledge",
+        "hunger pangs"
+      ],
+      "notes": null,
+      "ipa": "/ˈhʌŋɡər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hun/hunge/hunger__us_1.mp3"
+    },
+    {
+      "english": "insure",
+      "vietnamese": "bảo hiểm, mua bảo hiểm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "You should insure your car before driving it on the road.",
+          "vi": "Bạn nên mua bảo hiểm cho xe trước khi lái nó ra đường."
+        },
+        {
+          "en": "Our house is insured against fire and flood damage.",
+          "vi": "Ngôi nhà của chúng tôi được bảo hiểm chống hỏa hoạn và thiệt hại do lũ lụt."
+        },
+        {
+          "en": "The company refused to insure him because of his health problems.",
+          "vi": "Công ty đã từ chối bảo hiểm cho anh ấy vì các vấn đề sức khỏe."
+        }
+      ],
+      "collocations": [
+        "insure against",
+        "fully insured",
+        "insure your car"
+      ],
+      "notes": "insure (bảo hiểm) ≠ ensure (đảm bảo)",
+      "ipa": "/ɪnˈʃʊr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/insur/insure__us_1.mp3"
+    },
+    {
+      "english": "ashamed",
+      "vietnamese": "xấu hổ, hổ thẹn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "I was ashamed of the way I spoke to my mother.",
+          "vi": "Tôi thấy xấu hổ vì cách mình đã nói chuyện với mẹ."
+        },
+        {
+          "en": "You have nothing to be ashamed of.",
+          "vi": "Bạn không có gì phải xấu hổ cả."
+        },
+        {
+          "en": "He felt too ashamed to tell anyone about his mistake.",
+          "vi": "Anh ấy xấu hổ đến mức không dám kể với ai về sai lầm của mình."
+        }
+      ],
+      "collocations": [
+        "ashamed of",
+        "feel ashamed",
+        "deeply ashamed",
+        "ashamed to admit"
+      ],
+      "notes": "đi với giới từ of: be ashamed of something",
+      "ipa": "/əˈʃeɪmd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ash/asham/ashamed__us_2.mp3"
+    },
+    {
+      "english": "found",
+      "vietnamese": "thành lập, sáng lập",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My grandfather founded this small bakery fifty years ago.",
+          "vi": "Ông tôi đã thành lập tiệm bánh nhỏ này cách đây năm mươi năm."
+        },
+        {
+          "en": "The school was founded in 1920 by a group of teachers.",
+          "vi": "Ngôi trường do một nhóm giáo viên thành lập vào năm 1920."
+        },
+        {
+          "en": "They plan to found a charity to help children in poor areas.",
+          "vi": "Họ dự định thành lập một tổ chức từ thiện để giúp đỡ trẻ em ở vùng nghèo."
+        }
+      ],
+      "collocations": [
+        "found a company",
+        "found a charity",
+        "founded in",
+        "newly founded"
+      ],
+      "notes": "found – founded – founded; khác với found (quá khứ của find)",
+      "ipa": "/faʊnd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fou/found/found__us_2.mp3"
+    },
+    {
+      "english": "blog",
+      "vietnamese": "blog, nhật ký trên mạng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She writes a travel blog about her trips around Asia.",
+          "vi": "Cô ấy viết blog du lịch về những chuyến đi vòng quanh châu Á."
+        },
+        {
+          "en": "I read an interesting blog post about healthy cooking today.",
+          "vi": "Hôm nay tôi đọc một bài blog thú vị về nấu ăn lành mạnh."
+        },
+        {
+          "en": "He started a blog to share tips for new parents.",
+          "vi": "Anh ấy lập một blog để chia sẻ mẹo cho những người mới làm cha mẹ."
+        }
+      ],
+      "collocations": [
+        "blog post",
+        "start a blog",
+        "write a blog",
+        "travel blog"
+      ],
+      "notes": null,
+      "ipa": "/blɑːɡ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/blo/blog_/blog__us_1_rr.mp3"
+    },
+    {
+      "english": "thirst",
+      "vietnamese": "cơn khát, sự khát; sự khao khát",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We were dying of thirst after playing football all afternoon.",
+          "vi": "Chúng tôi khát khô cả cổ sau khi đá bóng suốt buổi chiều."
+        },
+        {
+          "en": "On hot days, people often mistake thirst for hunger.",
+          "vi": "Vào những ngày nóng, người ta thường nhầm cơn khát thành cơn đói."
+        },
+        {
+          "en": "Many young people have a strong thirst for adventure.",
+          "vi": "Nhiều người trẻ có niềm khao khát phiêu lưu mãnh liệt."
+        }
+      ],
+      "collocations": [
+        "quench your thirst",
+        "dying of thirst",
+        "thirst for adventure"
+      ],
+      "notes": null,
+      "ipa": "/θɜːrst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/thi/thirs/thirst__us_1.mp3"
+    }
+  ]
+}

@@ -121,6 +121,9 @@ export async function synthesizeEdgeTts(
   const trimmed = text.trim();
   if (!trimmed) return null;
   const voice = opts.voice ?? DEFAULT_VOICE;
+  // Thẻ ngôn ngữ SSML lấy theo mã giọng (en-GB-SoniaNeural → en-GB). Giọng mặc
+  // định vẫn ra en-US như trước — không đổi hành vi của trình đọc bài.
+  const voiceLang = /^[a-z]{2}-[A-Z]{2}-/.test(voice) ? voice.slice(0, 5) : 'en-US';
 
   try {
     const qs = new URLSearchParams({
@@ -223,7 +226,7 @@ export async function synthesizeEdgeTts(
       ws.send(
         `X-RequestId:${crypto.randomUUID().replace(/-/g, '')}\r\nContent-Type:application/ssml+xml\r\n` +
           `X-Timestamp:${ts}\r\nPath:ssml\r\n\r\n` +
-          `<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'>` +
+          `<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='${voiceLang}'>` +
           `<voice name='${voice}'><prosody pitch='+0Hz' rate='+0%' volume='+0%'>` +
           `${escapeXml(trimmed)}</prosody></voice></speak>`,
       );

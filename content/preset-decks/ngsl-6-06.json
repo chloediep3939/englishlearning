@@ -1,0 +1,822 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.501–2.809 · Bộ 6",
+    "description": "New General Service List, thứ hạng 2.501–2.809",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-6-06"
+  },
+  "cards": [
+    {
+      "english": "surprisingly",
+      "vietnamese": "một cách đáng ngạc nhiên; bất ngờ thay",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The test was surprisingly easy, so everyone finished early.",
+          "vi": "Bài kiểm tra dễ một cách đáng ngạc nhiên, nên ai cũng làm xong sớm."
+        },
+        {
+          "en": "Not surprisingly, the kids were tired after the long trip.",
+          "vi": "Chẳng có gì ngạc nhiên khi bọn trẻ mệt sau chuyến đi dài."
+        },
+        {
+          "en": "Surprisingly, nobody in the office noticed that the lights were off.",
+          "vi": "Bất ngờ thay, không ai trong văn phòng để ý rằng đèn đã tắt."
+        }
+      ],
+      "collocations": [
+        "not surprisingly",
+        "surprisingly good",
+        "surprisingly easy",
+        "surprisingly few"
+      ],
+      "notes": null,
+      "ipa": "/sərˈpraɪzɪŋli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sur/surpr/surprisingly__us_1.mp3"
+    },
+    {
+      "english": "extract",
+      "vietnamese": "chiết xuất; lấy ra; nhổ (răng)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The oil is extracted from the seeds of the plant.",
+          "vi": "Dầu được chiết xuất từ hạt của loại cây này."
+        },
+        {
+          "en": "The app can extract text from a photo in seconds.",
+          "vi": "Ứng dụng có thể lấy chữ ra từ một bức ảnh chỉ trong vài giây."
+        },
+        {
+          "en": "The dentist had to extract two of my teeth last month.",
+          "vi": "Tháng trước nha sĩ phải nhổ hai cái răng của tôi."
+        }
+      ],
+      "collocations": [
+        "extract information",
+        "extract data",
+        "extract oil",
+        "extract a tooth"
+      ],
+      "notes": "extract sth from sth",
+      "ipa": "/ˈekstrækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ext/extra/extract__us_1.mp3"
+    },
+    {
+      "english": "implementation",
+      "vietnamese": "sự thực hiện; sự triển khai",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The implementation of the new rules will begin next month.",
+          "vi": "Việc thực hiện các quy định mới sẽ bắt đầu vào tháng sau."
+        },
+        {
+          "en": "We need more staff for the implementation of this project.",
+          "vi": "Chúng tôi cần thêm nhân viên để triển khai dự án này."
+        },
+        {
+          "en": "Good ideas often fail because of poor implementation.",
+          "vi": "Ý tưởng hay thường thất bại vì triển khai kém."
+        }
+      ],
+      "collocations": [
+        "implementation of",
+        "full implementation",
+        "successful implementation",
+        "policy implementation"
+      ],
+      "notes": null,
+      "ipa": "/ˌɪmplɪmenˈteɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/imp/imple/implementation__us_1.mp3"
+    },
+    {
+      "english": "bias",
+      "vietnamese": "sự thiên vị; thành kiến",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The teacher tried hard to grade every student without bias.",
+          "vi": "Giáo viên đã cố gắng chấm điểm mọi học sinh mà không thiên vị."
+        },
+        {
+          "en": "Many people have a bias against workers who are older.",
+          "vi": "Nhiều người có thành kiến với những người lao động lớn tuổi hơn."
+        },
+        {
+          "en": "Does this news report show a clear bias?",
+          "vi": "Bản tin này có thể hiện sự thiên vị rõ ràng không?"
+        }
+      ],
+      "collocations": [
+        "bias against",
+        "bias toward",
+        "political bias",
+        "without bias"
+      ],
+      "notes": null,
+      "ipa": "/ˈbaɪəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bia/bias_/bias__us_1.mp3"
+    },
+    {
+      "english": "differently",
+      "vietnamese": "khác; theo cách khác",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "My brother and I see things very differently.",
+          "vi": "Anh trai tôi và tôi nhìn nhận mọi việc rất khác nhau."
+        },
+        {
+          "en": "If I could start again, I would do it differently.",
+          "vi": "Nếu được bắt đầu lại, tôi sẽ làm theo cách khác."
+        },
+        {
+          "en": "Children often behave differently when their parents are not around.",
+          "vi": "Trẻ con thường cư xử khác đi khi bố mẹ không ở bên cạnh."
+        }
+      ],
+      "collocations": [
+        "think differently",
+        "do things differently",
+        "treat differently",
+        "see things differently"
+      ],
+      "notes": null,
+      "ipa": "/ˈdɪfrəntli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dif/diffe/differently__us_3.mp3"
+    },
+    {
+      "english": "catalog",
+      "vietnamese": "danh mục; catalô (sách giới thiệu sản phẩm)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I found this lamp in an online catalog last week.",
+          "vi": "Tôi tìm thấy cái đèn này trong một danh mục trực tuyến tuần trước."
+        },
+        {
+          "en": "The store sends us a new catalog every spring.",
+          "vi": "Cửa hàng gửi cho chúng tôi một cuốn catalô mới vào mỗi mùa xuân."
+        },
+        {
+          "en": "You can search the library catalog to see if the book is available.",
+          "vi": "Bạn có thể tra danh mục thư viện để xem cuốn sách có sẵn không."
+        }
+      ],
+      "collocations": [
+        "online catalog",
+        "library catalog",
+        "product catalog",
+        "mail-order catalog"
+      ],
+      "notes": "Mỹ: catalog · Anh: catalogue",
+      "ipa": "/ˈkætəlɔɡ/",
+      "audio_src": null
+    },
+    {
+      "english": "continuous",
+      "vietnamese": "liên tục; không ngừng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The baby needs continuous care during the first few weeks.",
+          "vi": "Em bé cần được chăm sóc liên tục trong vài tuần đầu."
+        },
+        {
+          "en": "We had three days of continuous rain last week.",
+          "vi": "Tuần trước trời mưa liên tục ba ngày."
+        },
+        {
+          "en": "The factory runs a continuous process, day and night.",
+          "vi": "Nhà máy vận hành một quy trình liên tục, cả ngày lẫn đêm."
+        }
+      ],
+      "collocations": [
+        "continuous process",
+        "continuous improvement",
+        "continuous flow",
+        "continuous use"
+      ],
+      "notes": "continuous (liên tục không gián đoạn) ≠ continual (lặp đi lặp lại)",
+      "ipa": "/kənˈtɪnjuəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontinuous__us_1.mp3"
+    },
+    {
+      "english": "golden",
+      "vietnamese": "(màu) vàng óng; bằng vàng; quý giá",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Bake the bread until the top is golden brown.",
+          "vi": "Nướng bánh mì cho đến khi mặt trên có màu vàng nâu."
+        },
+        {
+          "en": "She wore a small golden ring on her left hand.",
+          "vi": "Cô ấy đeo một chiếc nhẫn vàng nhỏ ở tay trái."
+        },
+        {
+          "en": "This job offer is a golden opportunity, so don't miss it.",
+          "vi": "Lời mời làm việc này là một cơ hội vàng, đừng bỏ lỡ nhé."
+        }
+      ],
+      "collocations": [
+        "golden brown",
+        "golden opportunity",
+        "golden hair",
+        "golden rule"
+      ],
+      "notes": null,
+      "ipa": "/ˈɡəʊldən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gol/golde/golden__us_1.mp3"
+    },
+    {
+      "english": "stamp",
+      "vietnamese": "tem (thư); con dấu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Don't forget to put a stamp on the letter.",
+          "vi": "Đừng quên dán tem lên lá thư nhé."
+        },
+        {
+          "en": "My grandfather has collected stamps from many countries.",
+          "vi": "Ông tôi đã sưu tầm tem của nhiều nước."
+        },
+        {
+          "en": "The officer put a stamp in my passport at the airport.",
+          "vi": "Nhân viên đóng dấu vào hộ chiếu của tôi ở sân bay."
+        }
+      ],
+      "collocations": [
+        "postage stamp",
+        "stamp collection",
+        "put a stamp on",
+        "rubber stamp"
+      ],
+      "notes": null,
+      "ipa": "/stæmp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sta/stamp/stamp__us_1.mp3"
+    },
+    {
+      "english": "guideline",
+      "vietnamese": "hướng dẫn; nguyên tắc chỉ đạo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please read the safety guidelines before using the machine.",
+          "vi": "Vui lòng đọc hướng dẫn an toàn trước khi sử dụng máy."
+        },
+        {
+          "en": "The school has published new guidelines for online classes.",
+          "vi": "Nhà trường đã ban hành hướng dẫn mới cho các lớp học trực tuyến."
+        },
+        {
+          "en": "All staff must follow these guidelines when talking to customers.",
+          "vi": "Mọi nhân viên phải tuân theo các nguyên tắc này khi nói chuyện với khách hàng."
+        }
+      ],
+      "collocations": [
+        "follow guidelines",
+        "safety guidelines",
+        "clear guidelines",
+        "issue guidelines"
+      ],
+      "notes": "Thường dùng ở số nhiều: guidelines",
+      "ipa": "/ˈɡaɪdlaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gui/guide/guideline__us_1.mp3"
+    },
+    {
+      "english": "envelope",
+      "vietnamese": "phong bì",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She put the card in an envelope and sealed it.",
+          "vi": "Cô ấy bỏ tấm thiếp vào phong bì rồi dán lại."
+        },
+        {
+          "en": "Write your address clearly on the front of the envelope.",
+          "vi": "Hãy viết rõ địa chỉ của bạn ở mặt trước phong bì."
+        },
+        {
+          "en": "My grandmother gave each of us an envelope with some money inside.",
+          "vi": "Bà tôi cho mỗi đứa chúng tôi một phong bì có ít tiền bên trong."
+        }
+      ],
+      "collocations": [
+        "open an envelope",
+        "seal an envelope",
+        "brown envelope",
+        "stamped envelope"
+      ],
+      "notes": null,
+      "ipa": "/ˈenvələʊp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/env/envel/envelope__us_1_rr.mp3"
+    },
+    {
+      "english": "knife",
+      "vietnamese": "con dao",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Be careful, that knife is very sharp.",
+          "vi": "Cẩn thận nhé, con dao đó rất sắc."
+        },
+        {
+          "en": "He cut the cake into eight pieces with a large knife.",
+          "vi": "Anh ấy dùng một con dao lớn cắt bánh thành tám miếng."
+        },
+        {
+          "en": "Could you pass me a knife and fork, please?",
+          "vi": "Bạn đưa giúp tôi một bộ dao nĩa được không?"
+        }
+      ],
+      "collocations": [
+        "sharp knife",
+        "kitchen knife",
+        "knife and fork",
+        "bread knife"
+      ],
+      "notes": "Số nhiều: knives",
+      "ipa": "/naɪf/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/k/kni/knife/knife__us_1.mp3"
+    },
+    {
+      "english": "biological",
+      "vietnamese": "(thuộc) sinh học; ruột thịt (cha mẹ)",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Sleep is a basic biological need for all humans.",
+          "vi": "Ngủ là một nhu cầu sinh học cơ bản của mọi người."
+        },
+        {
+          "en": "The scientists are studying the biological effects of the new drug.",
+          "vi": "Các nhà khoa học đang nghiên cứu tác động sinh học của loại thuốc mới."
+        },
+        {
+          "en": "He was adopted and never met his biological parents.",
+          "vi": "Anh ấy là con nuôi và chưa bao giờ gặp cha mẹ ruột của mình."
+        }
+      ],
+      "collocations": [
+        "biological parents",
+        "biological process",
+        "biological clock",
+        "biological need"
+      ],
+      "notes": null,
+      "ipa": "/ˌbaɪəˈlɑːdʒɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bio/biolo/biological__us_1.mp3"
+    },
+    {
+      "english": "consume",
+      "vietnamese": "tiêu thụ; tiêu tốn; ăn, uống",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Old fridges consume a lot more electricity than new ones.",
+          "vi": "Tủ lạnh cũ tiêu thụ nhiều điện hơn hẳn tủ lạnh mới."
+        },
+        {
+          "en": "This task consumed most of my time last week.",
+          "vi": "Công việc này đã tiêu tốn phần lớn thời gian của tôi tuần trước."
+        },
+        {
+          "en": "Most people consume too much sugar without realizing it.",
+          "vi": "Hầu hết mọi người ăn quá nhiều đường mà không nhận ra."
+        }
+      ],
+      "collocations": [
+        "consume energy",
+        "consume food",
+        "consume alcohol",
+        "consume calories"
+      ],
+      "notes": null,
+      "ipa": "/kənˈsuːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsume__us_2.mp3"
+    },
+    {
+      "english": "luxury",
+      "vietnamese": "sự xa xỉ; đồ xa xỉ; sang trọng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "They stayed in a luxury hotel for their honeymoon.",
+          "vi": "Họ ở một khách sạn sang trọng trong tuần trăng mật."
+        },
+        {
+          "en": "For many students, eating out is a luxury.",
+          "vi": "Với nhiều sinh viên, ăn ngoài là một thứ xa xỉ."
+        },
+        {
+          "en": "After the war, they could not afford any luxuries.",
+          "vi": "Sau chiến tranh, họ không thể mua nổi bất kỳ món đồ xa xỉ nào."
+        }
+      ],
+      "collocations": [
+        "luxury hotel",
+        "luxury goods",
+        "a life of luxury",
+        "afford the luxury of"
+      ],
+      "notes": null,
+      "ipa": "/ˈlʌkʃəri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lux/luxur/luxury__us_1_rr.mp3"
+    },
+    {
+      "english": "weekly",
+      "vietnamese": "hằng tuần",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Our team has a weekly meeting every Monday morning.",
+          "vi": "Nhóm chúng tôi có buổi họp hằng tuần vào mỗi sáng thứ Hai."
+        },
+        {
+          "en": "I do the weekly shopping at the market on Saturdays.",
+          "vi": "Tôi đi chợ mua đồ cho cả tuần vào các ngày thứ Bảy."
+        },
+        {
+          "en": "The magazine is published weekly and costs three dollars.",
+          "vi": "Tạp chí này ra hằng tuần và có giá ba đô la."
+        }
+      ],
+      "collocations": [
+        "weekly meeting",
+        "weekly basis",
+        "weekly shopping",
+        "twice weekly"
+      ],
+      "notes": null,
+      "ipa": "/ˈwiːkli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wee/weekl/weekly__us_1.mp3"
+    },
+    {
+      "english": "wherever",
+      "vietnamese": "bất cứ nơi đâu; ở đâu cũng",
+      "part_of_speech": "conjunction",
+      "examples": [
+        {
+          "en": "You can sit wherever you like in the classroom.",
+          "vi": "Em có thể ngồi bất cứ chỗ nào em thích trong lớp."
+        },
+        {
+          "en": "My dog follows me wherever I go.",
+          "vi": "Con chó của tôi theo tôi đi bất cứ nơi đâu."
+        },
+        {
+          "en": "Wherever you are in the city, you can see the tower.",
+          "vi": "Dù bạn ở đâu trong thành phố, bạn cũng có thể nhìn thấy ngọn tháp."
+        }
+      ],
+      "collocations": [
+        "wherever you go",
+        "wherever possible",
+        "wherever you like",
+        "wherever you are"
+      ],
+      "notes": null,
+      "ipa": "/werˈevər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/whe/where/wherever__us_1_rr.mp3"
+    },
+    {
+      "english": "bite",
+      "vietnamese": "cắn; (côn trùng) đốt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Don't worry, our dog has never bitten anyone.",
+          "vi": "Đừng lo, con chó nhà tôi chưa bao giờ cắn ai cả."
+        },
+        {
+          "en": "I got bitten by mosquitoes all night at the campsite.",
+          "vi": "Tôi bị muỗi đốt suốt đêm ở khu cắm trại."
+        },
+        {
+          "en": "Try not to bite your nails when you feel nervous.",
+          "vi": "Cố gắng đừng cắn móng tay khi bạn thấy lo lắng."
+        }
+      ],
+      "collocations": [
+        "bite your nails",
+        "bite into",
+        "bite your lip",
+        "get bitten"
+      ],
+      "notes": "bite – bit – bitten",
+      "ipa": "/baɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bit/bite_/bite__us_1.mp3"
+    },
+    {
+      "english": "printer",
+      "vietnamese": "máy in",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The printer in our office has run out of paper again.",
+          "vi": "Máy in ở văn phòng chúng tôi lại hết giấy rồi."
+        },
+        {
+          "en": "Can I use your printer to print my plane ticket?",
+          "vi": "Tôi dùng máy in của bạn để in vé máy bay được không?"
+        },
+        {
+          "en": "We bought a cheap printer, but the ink is really expensive.",
+          "vi": "Chúng tôi mua một cái máy in rẻ, nhưng mực thì đắt thật."
+        }
+      ],
+      "collocations": [
+        "laser printer",
+        "printer ink",
+        "color printer",
+        "printer paper"
+      ],
+      "notes": null,
+      "ipa": "/ˈprɪntər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/print/printer__us_2.mp3"
+    },
+    {
+      "english": "firstly",
+      "vietnamese": "thứ nhất; trước hết",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Firstly, I would like to thank everyone for coming today.",
+          "vi": "Trước hết, tôi xin cảm ơn mọi người đã đến hôm nay."
+        },
+        {
+          "en": "I can't go, firstly because I'm busy and secondly because it's expensive.",
+          "vi": "Tôi không đi được, thứ nhất vì tôi bận và thứ hai vì nó đắt."
+        },
+        {
+          "en": "Firstly, turn off the power before you clean the machine.",
+          "vi": "Trước hết, hãy tắt nguồn trước khi lau chùi máy."
+        }
+      ],
+      "collocations": [
+        "firstly, secondly",
+        "firstly because"
+      ],
+      "notes": "Dùng để liệt kê ý: firstly, secondly, finally",
+      "ipa": "/ˈfɜːrstli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fir/first/firstly__us_1.mp3"
+    },
+    {
+      "english": "anxious",
+      "vietnamese": "lo lắng; nóng lòng, mong muốn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She always feels anxious before a big exam.",
+          "vi": "Cô ấy luôn cảm thấy lo lắng trước một kỳ thi quan trọng."
+        },
+        {
+          "en": "My parents were anxious about my long trip alone.",
+          "vi": "Bố mẹ tôi lo lắng về chuyến đi dài một mình của tôi."
+        },
+        {
+          "en": "We are anxious to hear your answer as soon as possible.",
+          "vi": "Chúng tôi nóng lòng muốn nghe câu trả lời của bạn càng sớm càng tốt."
+        }
+      ],
+      "collocations": [
+        "anxious about",
+        "feel anxious",
+        "anxious to do",
+        "increasingly anxious"
+      ],
+      "notes": "anxious about sth · anxious to do sth",
+      "ipa": "/ˈæŋkʃəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/anx/anxio/anxious__us_1.mp3"
+    },
+    {
+      "english": "adventure",
+      "vietnamese": "cuộc phiêu lưu; sự mạo hiểm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our trip through the mountains was a real adventure.",
+          "vi": "Chuyến đi xuyên qua núi của chúng tôi là một cuộc phiêu lưu thực sự."
+        },
+        {
+          "en": "The children love reading adventure stories before bed.",
+          "vi": "Bọn trẻ thích đọc truyện phiêu lưu trước khi đi ngủ."
+        },
+        {
+          "en": "He quit his job because he wanted more adventure in his life.",
+          "vi": "Anh ấy bỏ việc vì muốn cuộc sống có thêm nhiều trải nghiệm mạo hiểm."
+        }
+      ],
+      "collocations": [
+        "a real adventure",
+        "adventure story",
+        "sense of adventure",
+        "adventure travel"
+      ],
+      "notes": null,
+      "ipa": "/ədˈventʃər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adv/adven/adventure__us_3.mp3"
+    },
+    {
+      "english": "fence",
+      "vietnamese": "hàng rào",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We built a wooden fence around the garden.",
+          "vi": "Chúng tôi dựng một hàng rào gỗ quanh khu vườn."
+        },
+        {
+          "en": "The cat jumped over the fence and ran away.",
+          "vi": "Con mèo nhảy qua hàng rào rồi chạy mất."
+        },
+        {
+          "en": "There is a tall fence between our house and the road.",
+          "vi": "Có một hàng rào cao giữa nhà chúng tôi và con đường."
+        }
+      ],
+      "collocations": [
+        "wooden fence",
+        "build a fence",
+        "over the fence",
+        "electric fence"
+      ],
+      "notes": null,
+      "ipa": "/fens/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fen/fence/fence__us_1.mp3"
+    },
+    {
+      "english": "exhaust",
+      "vietnamese": "làm kiệt sức; dùng cạn; khí thải",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The long walk in the heat completely exhausted me.",
+          "vi": "Chuyến đi bộ dài dưới trời nóng khiến tôi hoàn toàn kiệt sức."
+        },
+        {
+          "en": "We have exhausted all our options, so we need a new plan.",
+          "vi": "Chúng ta đã dùng hết mọi phương án, nên cần một kế hoạch mới."
+        },
+        {
+          "en": "The city is trying to reduce exhaust from cars and buses.",
+          "vi": "Thành phố đang cố gắng giảm khí thải từ ô tô và xe buýt."
+        }
+      ],
+      "collocations": [
+        "exhaust fumes",
+        "exhaust pipe",
+        "exhaust all options",
+        "exhaust resources"
+      ],
+      "notes": "Tính từ: exhausted (kiệt sức), exhausting (gây mệt mỏi)",
+      "ipa": "/ɪɡˈzɔːst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exh/exhau/exhaust__us_1.mp3"
+    },
+    {
+      "english": "attraction",
+      "vietnamese": "điểm tham quan; sự thu hút; sức hấp dẫn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The old bridge is the main tourist attraction in our town.",
+          "vi": "Cây cầu cổ là điểm tham quan chính của thị trấn chúng tôi."
+        },
+        {
+          "en": "The beach is the biggest attraction of this hotel.",
+          "vi": "Bãi biển là điểm thu hút lớn nhất của khách sạn này."
+        },
+        {
+          "en": "I don't understand the attraction of watching TV all day.",
+          "vi": "Tôi không hiểu việc xem TV cả ngày có gì hấp dẫn."
+        }
+      ],
+      "collocations": [
+        "tourist attraction",
+        "main attraction",
+        "major attraction",
+        "attraction of"
+      ],
+      "notes": null,
+      "ipa": "/əˈtrækʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/att/attra/attraction__us_1.mp3"
+    },
+    {
+      "english": "ocean",
+      "vietnamese": "đại dương; biển",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We rented a small house with a view of the ocean.",
+          "vi": "Chúng tôi thuê một căn nhà nhỏ nhìn ra biển."
+        },
+        {
+          "en": "Plastic waste is a serious problem for the world's oceans.",
+          "vi": "Rác thải nhựa là một vấn đề nghiêm trọng đối với các đại dương trên thế giới."
+        },
+        {
+          "en": "Have you ever swum in the ocean at night?",
+          "vi": "Bạn đã bao giờ bơi ở biển vào ban đêm chưa?"
+        }
+      ],
+      "collocations": [
+        "Pacific Ocean",
+        "ocean floor",
+        "across the ocean",
+        "ocean view"
+      ],
+      "notes": null,
+      "ipa": "/ˈəʊʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/oce/ocean/ocean__us_1.mp3"
+    },
+    {
+      "english": "quietly",
+      "vietnamese": "một cách lặng lẽ; khẽ, nhỏ nhẹ",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Please talk quietly because the baby is asleep.",
+          "vi": "Làm ơn nói nhỏ thôi vì em bé đang ngủ."
+        },
+        {
+          "en": "He quietly closed the door and left the room.",
+          "vi": "Anh ấy lặng lẽ đóng cửa và rời khỏi phòng."
+        },
+        {
+          "en": "The students sat quietly and waited for the test to begin.",
+          "vi": "Học sinh ngồi yên lặng và chờ bài kiểm tra bắt đầu."
+        }
+      ],
+      "collocations": [
+        "speak quietly",
+        "sit quietly",
+        "work quietly",
+        "quietly confident"
+      ],
+      "notes": null,
+      "ipa": "/ˈkwaɪətli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/q/qui/quiet/quietly__us_3.mp3"
+    },
+    {
+      "english": "castle",
+      "vietnamese": "lâu đài",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We visited an old castle on a hill near the river.",
+          "vi": "Chúng tôi đã tham quan một lâu đài cổ trên đồi gần con sông."
+        },
+        {
+          "en": "The kids spent the afternoon building sand castles on the beach.",
+          "vi": "Bọn trẻ dành cả buổi chiều xây lâu đài cát trên bãi biển."
+        },
+        {
+          "en": "This castle was built more than seven hundred years ago.",
+          "vi": "Lâu đài này được xây dựng cách đây hơn bảy trăm năm."
+        }
+      ],
+      "collocations": [
+        "old castle",
+        "sand castle",
+        "castle walls",
+        "medieval castle"
+      ],
+      "notes": null,
+      "ipa": "/ˈkæsl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cas/castl/castle__us_2.mp3"
+    },
+    {
+      "english": "veteran",
+      "vietnamese": "cựu chiến binh; người kỳ cựu, lão luyện",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandfather is a veteran and often talks about his army days.",
+          "vi": "Ông tôi là cựu chiến binh và thường kể về những ngày trong quân đội."
+        },
+        {
+          "en": "The town held a special lunch for local veterans.",
+          "vi": "Thị trấn tổ chức một bữa trưa đặc biệt dành cho các cựu chiến binh địa phương."
+        },
+        {
+          "en": "She is a veteran of the hotel business with thirty years of experience.",
+          "vi": "Bà ấy là người kỳ cựu trong ngành khách sạn với ba mươi năm kinh nghiệm."
+        }
+      ],
+      "collocations": [
+        "war veteran",
+        "army veteran",
+        "veteran of",
+        "veteran player"
+      ],
+      "notes": null,
+      "ipa": "/ˈvetərən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vet/veter/veteran__us_1.mp3"
+    }
+  ]
+}

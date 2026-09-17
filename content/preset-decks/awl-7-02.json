@@ -1,0 +1,869 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 7 · Bộ 2",
+    "description": "Academic Word List, sublist 7",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-7-02"
+  },
+  "cards": [
+    {
+      "english": "identical",
+      "vietnamese": "giống hệt; y hệt",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The two samples were identical in size and chemical composition.",
+          "vi": "Hai mẫu giống hệt nhau về kích thước và thành phần hóa học."
+        },
+        {
+          "en": "Both groups received identical instructions before the test began.",
+          "vi": "Cả hai nhóm đều nhận được hướng dẫn giống hệt nhau trước khi bài kiểm tra bắt đầu."
+        },
+        {
+          "en": "Her results were almost identical to those of the earlier study.",
+          "vi": "Kết quả của cô ấy gần như giống hệt kết quả của nghiên cứu trước đó."
+        }
+      ],
+      "collocations": [
+        "almost identical",
+        "identical to",
+        "virtually identical",
+        "identical twins"
+      ],
+      "notes": "identical to sth",
+      "ipa": "/aɪˈdentɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ide/ident/identical__us_1.mp3"
+    },
+    {
+      "english": "ideology",
+      "vietnamese": "hệ tư tưởng; ý thức hệ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The book examines how ideology shapes the way people see the world.",
+          "vi": "Cuốn sách xem xét cách hệ tư tưởng định hình cách con người nhìn nhận thế giới."
+        },
+        {
+          "en": "Researchers should not let personal ideology influence their findings.",
+          "vi": "Các nhà nghiên cứu không nên để hệ tư tưởng cá nhân chi phối kết quả nghiên cứu.",
+          "image_url": "https://images.pexels.com/photos/8944957/pexels-photo-8944957.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Every society has a dominant ideology that few people openly question.",
+          "vi": "Mỗi xã hội đều có một hệ tư tưởng chủ đạo mà ít người công khai đặt câu hỏi."
+        }
+      ],
+      "collocations": [
+        "dominant ideology",
+        "political ideology",
+        "ideology of"
+      ],
+      "notes": null,
+      "ipa": "/ˌaɪdiˈɑːlədʒi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ide/ideol/ideology__us_1_rr.mp3"
+    },
+    {
+      "english": "infer",
+      "vietnamese": "suy ra; suy luận",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "From these results, we can infer that the drug is safe for adults.",
+          "vi": "Từ những kết quả này, chúng ta có thể suy ra rằng thuốc an toàn cho người lớn."
+        },
+        {
+          "en": "Readers must infer the writer's opinion from the tone of the article.",
+          "vi": "Người đọc phải suy ra quan điểm của tác giả từ giọng điệu của bài báo."
+        },
+        {
+          "en": "Scientists inferred the age of the rocks from the fossils found inside.",
+          "vi": "Các nhà khoa học đã suy ra tuổi của những tảng đá từ các hóa thạch tìm thấy bên trong."
+        }
+      ],
+      "collocations": [
+        "infer from",
+        "infer that",
+        "reasonably infer"
+      ],
+      "notes": "infer sth from sth · infer – inferred – inferred",
+      "ipa": "/ɪnˈfɜːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inf/infer/infer__us_1.mp3"
+    },
+    {
+      "english": "innovate",
+      "vietnamese": "đổi mới; cải tiến",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Companies that fail to innovate often lose customers to their competitors.",
+          "vi": "Những công ty không đổi mới thường mất khách hàng vào tay đối thủ cạnh tranh."
+        },
+        {
+          "en": "Small firms can often innovate faster than large organizations.",
+          "vi": "Các công ty nhỏ thường có thể đổi mới nhanh hơn các tổ chức lớn."
+        },
+        {
+          "en": "Farmers in the region are innovating to cope with less rainfall.",
+          "vi": "Nông dân trong vùng đang đổi mới cách làm để thích ứng với lượng mưa ít hơn.",
+          "image_url": "https://images.pexels.com/photos/36937772/pexels-photo-36937772.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "fail to innovate",
+        "ability to innovate",
+        "continue to innovate"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪnəveɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inn/innov/innovate__us_1.mp3"
+    },
+    {
+      "english": "insert",
+      "vietnamese": "chèn; đưa vào, cho vào",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please insert a short summary at the beginning of the report.",
+          "vi": "Vui lòng chèn một bản tóm tắt ngắn vào đầu báo cáo."
+        },
+        {
+          "en": "Insert your card into the machine and enter your code.",
+          "vi": "Hãy cho thẻ của bạn vào máy và nhập mã."
+        },
+        {
+          "en": "The doctor carefully inserted a thin tube into the patient's arm.",
+          "vi": "Bác sĩ cẩn thận đưa một ống nhỏ vào cánh tay bệnh nhân."
+        }
+      ],
+      "collocations": [
+        "insert into",
+        "insert a card",
+        "insert a clause"
+      ],
+      "notes": "insert sth into sth",
+      "ipa": "/ɪnˈsɜːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/inser/insert__us_1.mp3"
+    },
+    {
+      "english": "intervene",
+      "vietnamese": "can thiệp; xen vào",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The central bank intervened to stop the currency from falling further.",
+          "vi": "Ngân hàng trung ương đã can thiệp để ngăn đồng tiền tiếp tục mất giá."
+        },
+        {
+          "en": "Teachers should intervene early when a child is having trouble reading.",
+          "vi": "Giáo viên nên can thiệp sớm khi một đứa trẻ gặp khó khăn trong việc đọc."
+        },
+        {
+          "en": "The manager had to intervene in a dispute between two staff members.",
+          "vi": "Người quản lý đã phải can thiệp vào một cuộc tranh chấp giữa hai nhân viên."
+        }
+      ],
+      "collocations": [
+        "intervene in",
+        "intervene early",
+        "decide to intervene"
+      ],
+      "notes": "intervene in sth",
+      "ipa": "/ˌɪntərˈviːn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/inter/intervene__us_1.mp3"
+    },
+    {
+      "english": "isolate",
+      "vietnamese": "cô lập; cách ly; tách riêng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Patients with the virus were isolated from others in the hospital.",
+          "vi": "Những bệnh nhân nhiễm virus đã được cách ly khỏi những người khác trong bệnh viện.",
+          "image_url": "https://images.pexels.com/photos/29885472/pexels-photo-29885472.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Scientists managed to isolate the gene responsible for the disease.",
+          "vi": "Các nhà khoa học đã tách được gen gây ra căn bệnh này.",
+          "image_url": "https://images.pexels.com/photos/29885472/pexels-photo-29885472.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Working from home can isolate employees from their colleagues.",
+          "vi": "Làm việc tại nhà có thể khiến nhân viên bị cô lập khỏi đồng nghiệp.",
+          "image_url": "https://images.pexels.com/photos/29885472/pexels-photo-29885472.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "isolate from",
+        "isolate a gene",
+        "become isolated"
+      ],
+      "notes": "isolate sb/sth from sb/sth",
+      "ipa": "/ˈaɪsəleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/iso/isola/isolate__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/29885472/pexels-photo-29885472.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Raul Ling",
+        "author_url": "https://www.pexels.com/@raulling",
+        "source_url": "https://www.pexels.com/photo/lonely-iceberg-floating-in-blue-ocean-29885472/"
+      }
+    },
+    {
+      "english": "media",
+      "vietnamese": "truyền thông; phương tiện truyền thông",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The study received a lot of attention in the media.",
+          "vi": "Nghiên cứu này nhận được nhiều sự chú ý trên truyền thông."
+        },
+        {
+          "en": "Social media has changed the way young people get news.",
+          "vi": "Mạng xã hội đã thay đổi cách giới trẻ tiếp nhận tin tức."
+        },
+        {
+          "en": "The company refused to comment when contacted by the media.",
+          "vi": "Công ty đã từ chối bình luận khi được giới truyền thông liên hệ."
+        }
+      ],
+      "collocations": [
+        "social media",
+        "mass media",
+        "media coverage",
+        "news media"
+      ],
+      "notes": "số nhiều của medium; thường đi với động từ số ít",
+      "ipa": "/ˈmiːdiə/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/med/media/media__us_1.mp3"
+    },
+    {
+      "english": "mode",
+      "vietnamese": "phương thức; chế độ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Buses remain the most common mode of transport in the city.",
+          "vi": "Xe buýt vẫn là phương thức di chuyển phổ biến nhất trong thành phố.",
+          "image_url": "https://images.pexels.com/photos/11487626/pexels-photo-11487626.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Switch the camera to night mode before taking the photo.",
+          "vi": "Hãy chuyển máy ảnh sang chế độ ban đêm trước khi chụp ảnh."
+        },
+        {
+          "en": "Many universities moved to an online mode of teaching during the crisis.",
+          "vi": "Nhiều trường đại học đã chuyển sang phương thức giảng dạy trực tuyến trong thời kỳ khủng hoảng."
+        }
+      ],
+      "collocations": [
+        "mode of transport",
+        "mode of communication",
+        "mode of delivery"
+      ],
+      "notes": null,
+      "ipa": "/məʊd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mod/mode_/mode__us_1.mp3"
+    },
+    {
+      "english": "paradigm",
+      "vietnamese": "mô hình; hệ hình",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The discovery led to a paradigm shift in modern physics.",
+          "vi": "Phát hiện này đã dẫn đến một sự chuyển đổi mô hình trong vật lý hiện đại."
+        },
+        {
+          "en": "The new theory challenged the dominant paradigm in economics.",
+          "vi": "Lý thuyết mới đã thách thức hệ hình thống trị trong kinh tế học."
+        },
+        {
+          "en": "Online learning is not simply a new tool but a new paradigm.",
+          "vi": "Học trực tuyến không chỉ đơn giản là một công cụ mới mà là một mô hình mới."
+        }
+      ],
+      "collocations": [
+        "paradigm shift",
+        "dominant paradigm",
+        "new paradigm"
+      ],
+      "notes": null,
+      "ipa": "/ˈpærədaɪm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/parad/paradigm__us_1.mp3"
+    },
+    {
+      "english": "phenomenon",
+      "vietnamese": "hiện tượng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Global warming is a phenomenon that affects every part of the planet.",
+          "vi": "Nóng lên toàn cầu là một hiện tượng ảnh hưởng đến mọi nơi trên hành tinh."
+        },
+        {
+          "en": "Scientists still cannot fully explain this natural phenomenon.",
+          "vi": "Các nhà khoa học vẫn chưa thể giải thích đầy đủ hiện tượng tự nhiên này.",
+          "image_url": "https://images.pexels.com/photos/4321043/pexels-photo-4321043.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Similar phenomena have been observed in several other large cities.",
+          "vi": "Những hiện tượng tương tự đã được ghi nhận ở một số thành phố lớn khác."
+        }
+      ],
+      "collocations": [
+        "natural phenomenon",
+        "social phenomenon",
+        "explain a phenomenon"
+      ],
+      "notes": "số nhiều: phenomena",
+      "ipa": "/fəˈnɑːmɪnən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/phe/pheno/phenomenon__us_1_rr.mp3"
+    },
+    {
+      "english": "priority",
+      "vietnamese": "sự ưu tiên; điều ưu tiên",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Patient safety must always be our top priority.",
+          "vi": "An toàn của bệnh nhân phải luôn là ưu tiên hàng đầu của chúng ta."
+        },
+        {
+          "en": "The government has made education reform a priority this year.",
+          "vi": "Chính phủ đã đặt cải cách giáo dục làm ưu tiên trong năm nay."
+        },
+        {
+          "en": "Families with young children are given priority for housing.",
+          "vi": "Các gia đình có con nhỏ được ưu tiên về nhà ở."
+        }
+      ],
+      "collocations": [
+        "top priority",
+        "high priority",
+        "give priority to",
+        "set priorities"
+      ],
+      "notes": null,
+      "ipa": "/praɪˈɔːrəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/prior/priority__us_1_rr.mp3"
+    },
+    {
+      "english": "prohibit",
+      "vietnamese": "cấm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The law prohibits companies from selling personal data without consent.",
+          "vi": "Luật cấm các công ty bán dữ liệu cá nhân khi không có sự đồng ý."
+        },
+        {
+          "en": "Smoking is strictly prohibited inside the building.",
+          "vi": "Hút thuốc bị nghiêm cấm bên trong tòa nhà."
+        },
+        {
+          "en": "Many schools now prohibit the use of phones during lessons.",
+          "vi": "Nhiều trường học hiện nay cấm sử dụng điện thoại trong giờ học.",
+          "image_url": "https://images.pexels.com/photos/6936137/pexels-photo-6936137.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "strictly prohibited",
+        "prohibit the use of",
+        "prohibit sb from doing sth"
+      ],
+      "notes": "prohibit sb from doing sth",
+      "ipa": "/prəˈhɪbɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/prohi/prohibit__us_1_rr.mp3"
+    },
+    {
+      "english": "publication",
+      "vietnamese": "sự xuất bản, công bố; ấn phẩm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The article was accepted for publication in a leading medical journal.",
+          "vi": "Bài báo đã được chấp nhận để đăng trên một tạp chí y khoa hàng đầu."
+        },
+        {
+          "en": "The report has been delayed, and publication is now expected next month.",
+          "vi": "Báo cáo đã bị hoãn, và việc công bố hiện được dự kiến vào tháng tới."
+        },
+        {
+          "en": "The library keeps copies of all the university's official publications.",
+          "vi": "Thư viện lưu giữ bản sao của tất cả các ấn phẩm chính thức của trường đại học."
+        }
+      ],
+      "collocations": [
+        "accepted for publication",
+        "publication date",
+        "scientific publication"
+      ],
+      "notes": null,
+      "ipa": "/ˌpʌblɪˈkeɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pub/publi/publication__us_2.mp3"
+    },
+    {
+      "english": "quote",
+      "vietnamese": "trích dẫn; báo giá",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The author quotes several experts to support her main argument.",
+          "vi": "Tác giả trích dẫn một số chuyên gia để củng cố lập luận chính của mình."
+        },
+        {
+          "en": "Students must use quotation marks when they quote directly from a source.",
+          "vi": "Sinh viên phải dùng dấu ngoặc kép khi trích dẫn trực tiếp từ một nguồn."
+        },
+        {
+          "en": "The builder quoted us a price of two thousand dollars for the repairs.",
+          "vi": "Người thợ xây đã báo giá cho chúng tôi hai nghìn đô la cho việc sửa chữa."
+        }
+      ],
+      "collocations": [
+        "quote from",
+        "quote directly",
+        "quote a price",
+        "widely quoted"
+      ],
+      "notes": null,
+      "ipa": "/kwəʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/q/quo/quote/quote__us_1.mp3"
+    },
+    {
+      "english": "release",
+      "vietnamese": "công bố, phát hành; giải phóng, thả ra",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The ministry will release the full report next week.",
+          "vi": "Bộ sẽ công bố toàn bộ báo cáo vào tuần tới.",
+          "image_url": "https://images.pexels.com/photos/247851/pexels-photo-247851.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The company released a new version of its software on Monday.",
+          "vi": "Công ty đã phát hành phiên bản mới của phần mềm vào thứ Hai.",
+          "image_url": "https://images.pexels.com/photos/247851/pexels-photo-247851.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Burning coal releases large amounts of carbon dioxide into the air.",
+          "vi": "Việc đốt than giải phóng một lượng lớn khí carbon dioxide vào không khí.",
+          "image_url": "https://images.pexels.com/photos/247851/pexels-photo-247851.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "release a report",
+        "release figures",
+        "release energy"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈliːs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rel/relea/release__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/247851/pexels-photo-247851.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Pixabay",
+        "author_url": "https://www.pexels.com/@pixabay",
+        "source_url": "https://www.pexels.com/photo/low-section-of-man-against-sky-247851/"
+      }
+    },
+    {
+      "english": "reverse",
+      "vietnamese": "đảo ngược; lật ngược",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The court reversed the earlier decision after reviewing new evidence.",
+          "vi": "Tòa án đã lật ngược quyết định trước đó sau khi xem xét bằng chứng mới."
+        },
+        {
+          "en": "It may take decades to reverse the damage to the forest.",
+          "vi": "Có thể phải mất hàng chục năm mới đảo ngược được những tổn hại đối với khu rừng."
+        },
+        {
+          "en": "If we reverse the order of the questions, do the answers change?",
+          "vi": "Nếu chúng ta đảo ngược thứ tự các câu hỏi, câu trả lời có thay đổi không?"
+        }
+      ],
+      "collocations": [
+        "reverse a decision",
+        "reverse the trend",
+        "reverse the order"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈvɜːrs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rev/rever/reverse__us_1.mp3"
+    },
+    {
+      "english": "simulate",
+      "vietnamese": "mô phỏng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The software simulates how the virus spreads through a population.",
+          "vi": "Phần mềm mô phỏng cách virus lây lan trong cộng đồng dân cư.",
+          "image_url": "https://images.pexels.com/photos/5841757/pexels-photo-5841757.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Pilots train in machines that simulate real flight conditions.",
+          "vi": "Phi công được huấn luyện trong các thiết bị mô phỏng điều kiện bay thực tế."
+        },
+        {
+          "en": "We simulated a power failure to test the backup system.",
+          "vi": "Chúng tôi đã mô phỏng một sự cố mất điện để kiểm tra hệ thống dự phòng."
+        }
+      ],
+      "collocations": [
+        "simulate conditions",
+        "simulate the effects of"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɪmjuleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sim/simul/simulate__us_1.mp3"
+    },
+    {
+      "english": "sole",
+      "vietnamese": "duy nhất; độc quyền",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Tourism is the sole source of income for many families on the island.",
+          "vi": "Du lịch là nguồn thu nhập duy nhất của nhiều gia đình trên đảo."
+        },
+        {
+          "en": "The publisher has sole rights to the book in Asia.",
+          "vi": "Nhà xuất bản nắm độc quyền đối với cuốn sách tại châu Á."
+        },
+        {
+          "en": "The sole purpose of the meeting was to agree on a budget.",
+          "vi": "Mục đích duy nhất của cuộc họp là thống nhất ngân sách."
+        }
+      ],
+      "collocations": [
+        "sole purpose",
+        "sole source",
+        "sole responsibility",
+        "sole owner"
+      ],
+      "notes": null,
+      "ipa": "/səʊl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sol/sole_/sole__us_1.mp3"
+    },
+    {
+      "english": "somewhat",
+      "vietnamese": "hơi; phần nào",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The results were somewhat different from what we had expected.",
+          "vi": "Kết quả hơi khác so với những gì chúng tôi đã dự đoán."
+        },
+        {
+          "en": "Prices have fallen somewhat since the start of the year.",
+          "vi": "Giá cả đã giảm phần nào kể từ đầu năm.",
+          "image_url": "https://images.pexels.com/photos/7986986/pexels-photo-7986986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I found the second half of the lecture somewhat confusing.",
+          "vi": "Tôi thấy nửa sau của bài giảng hơi khó hiểu."
+        }
+      ],
+      "collocations": [
+        "somewhat different",
+        "somewhat surprising",
+        "somewhat similar"
+      ],
+      "notes": null,
+      "ipa": "/ˈsʌmwʌt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/som/somew/somewhat__us_1.mp3"
+    },
+    {
+      "english": "submit",
+      "vietnamese": "nộp; đệ trình",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "All assignments must be submitted online by Friday at noon.",
+          "vi": "Tất cả bài tập phải được nộp trực tuyến trước trưa thứ Sáu."
+        },
+        {
+          "en": "The committee submitted its final report to the board last month.",
+          "vi": "Ủy ban đã đệ trình báo cáo cuối cùng lên hội đồng quản trị vào tháng trước."
+        },
+        {
+          "en": "Have you submitted your application for the scholarship yet?",
+          "vi": "Bạn đã nộp hồ sơ xin học bổng chưa?"
+        }
+      ],
+      "collocations": [
+        "submit an application",
+        "submit a report",
+        "submit to"
+      ],
+      "notes": "submit – submitted – submitted",
+      "ipa": "/səbˈmɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sub/submi/submit__us_1.mp3"
+    },
+    {
+      "english": "successor",
+      "vietnamese": "người kế nhiệm; người/vật kế tiếp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The director will retire next year, but no successor has been chosen.",
+          "vi": "Giám đốc sẽ nghỉ hưu vào năm sau, nhưng vẫn chưa chọn được người kế nhiệm."
+        },
+        {
+          "en": "The board appointed her as successor to the chief executive.",
+          "vi": "Hội đồng quản trị đã bổ nhiệm bà ấy làm người kế nhiệm tổng giám đốc."
+        },
+        {
+          "en": "The new phone is a worthy successor to last year's model.",
+          "vi": "Chiếc điện thoại mới là sản phẩm kế tiếp xứng đáng của mẫu năm ngoái.",
+          "image_url": "https://images.pexels.com/photos/33444564/pexels-photo-33444564.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "successor to",
+        "worthy successor",
+        "natural successor",
+        "name a successor"
+      ],
+      "notes": "successor to sb/sth",
+      "ipa": "/səkˈsesər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/suc/succe/successor__us_1.mp3"
+    },
+    {
+      "english": "survive",
+      "vietnamese": "sống sót; tồn tại",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Only a few small businesses survived the economic crisis.",
+          "vi": "Chỉ một vài doanh nghiệp nhỏ tồn tại được qua cuộc khủng hoảng kinh tế."
+        },
+        {
+          "en": "These plants can survive for months without much water.",
+          "vi": "Những loài cây này có thể sống sót hàng tháng mà không cần nhiều nước."
+        },
+        {
+          "en": "Very few documents from that period have survived.",
+          "vi": "Rất ít tài liệu từ thời kỳ đó còn tồn tại đến nay."
+        }
+      ],
+      "collocations": [
+        "survive a crisis",
+        "manage to survive",
+        "struggle to survive"
+      ],
+      "notes": null,
+      "ipa": "/sərˈvaɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sur/survi/survive__us_1.mp3"
+    },
+    {
+      "english": "thesis",
+      "vietnamese": "luận văn, luận án; luận điểm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She is writing her master's thesis on climate policy.",
+          "vi": "Cô ấy đang viết luận văn thạc sĩ về chính sách khí hậu."
+        },
+        {
+          "en": "He spent four years working on his doctoral thesis.",
+          "vi": "Anh ấy đã dành bốn năm để thực hiện luận án tiến sĩ của mình."
+        },
+        {
+          "en": "The central thesis of the book is that cities drive economic growth.",
+          "vi": "Luận điểm trung tâm của cuốn sách là các thành phố thúc đẩy tăng trưởng kinh tế."
+        }
+      ],
+      "collocations": [
+        "master's thesis",
+        "doctoral thesis",
+        "central thesis"
+      ],
+      "notes": "số nhiều: theses",
+      "ipa": "/ˈθiːsɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/thesi/thesis__us_1.mp3"
+    },
+    {
+      "english": "topic",
+      "vietnamese": "chủ đề; đề tài",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Climate change is a popular topic for student research projects.",
+          "vi": "Biến đổi khí hậu là một đề tài phổ biến cho các dự án nghiên cứu của sinh viên.",
+          "image_url": "https://images.pexels.com/photos/6633072/pexels-photo-6633072.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Let's move on to the next topic on the agenda.",
+          "vi": "Chúng ta hãy chuyển sang chủ đề tiếp theo trong chương trình họp.",
+          "image_url": "https://images.pexels.com/photos/6633072/pexels-photo-6633072.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Mental health has become a major topic of discussion in schools.",
+          "vi": "Sức khỏe tinh thần đã trở thành một chủ đề thảo luận lớn trong các trường học.",
+          "image_url": "https://images.pexels.com/photos/6633072/pexels-photo-6633072.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "topic of discussion",
+        "main topic",
+        "choose a topic",
+        "research topic"
+      ],
+      "notes": null,
+      "ipa": "/ˈtɑːpɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/top/topic/topic__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/6633072/pexels-photo-6633072.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Cup of  Couple",
+        "author_url": "https://www.pexels.com/@cup-of-couple",
+        "source_url": "https://www.pexels.com/photo/individual-letters-printed-on-paper-and-put-together-to-make-a-sign-saying-break-the-internet-6633072/"
+      }
+    },
+    {
+      "english": "transmit",
+      "vietnamese": "truyền; lây truyền",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Satellites transmit signals back to stations on Earth.",
+          "vi": "Các vệ tinh truyền tín hiệu trở lại các trạm trên Trái Đất."
+        },
+        {
+          "en": "The virus is transmitted mainly through close contact with infected people.",
+          "vi": "Virus lây truyền chủ yếu qua tiếp xúc gần với người bị nhiễm."
+        },
+        {
+          "en": "Parents often transmit their values to their children without realizing it.",
+          "vi": "Cha mẹ thường truyền lại các giá trị của mình cho con cái mà không nhận ra."
+        }
+      ],
+      "collocations": [
+        "transmit a signal",
+        "transmit data",
+        "transmit a disease"
+      ],
+      "notes": "transmit – transmitted – transmitted",
+      "ipa": "/trænzˈmɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/trans/transmit__us_2_rr.mp3"
+    },
+    {
+      "english": "ultimate",
+      "vietnamese": "cuối cùng; cơ bản, sâu xa",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Our ultimate goal is to make the service free for all students.",
+          "vi": "Mục tiêu cuối cùng của chúng tôi là cung cấp dịch vụ miễn phí cho tất cả sinh viên.",
+          "image_url": "https://images.pexels.com/photos/20853652/pexels-photo-20853652.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The ultimate decision rests with the board of directors.",
+          "vi": "Quyết định cuối cùng thuộc về hội đồng quản trị."
+        },
+        {
+          "en": "The ultimate cause of the problem was poor communication between teams.",
+          "vi": "Nguyên nhân sâu xa của vấn đề là sự giao tiếp kém giữa các nhóm."
+        }
+      ],
+      "collocations": [
+        "ultimate goal",
+        "ultimate aim",
+        "ultimate responsibility"
+      ],
+      "notes": null,
+      "ipa": "/ˈʌltɪmət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/ult/ultim/ultimate__us_1.mp3"
+    },
+    {
+      "english": "unique",
+      "vietnamese": "duy nhất, riêng biệt; độc đáo",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Each participant was given a unique identification number.",
+          "vi": "Mỗi người tham gia được cấp một mã số nhận dạng riêng."
+        },
+        {
+          "en": "The island is home to many plants that are unique to the region.",
+          "vi": "Hòn đảo là nơi sinh sống của nhiều loài thực vật chỉ có ở khu vực này."
+        },
+        {
+          "en": "The museum offers visitors a unique opportunity to see ancient writing.",
+          "vi": "Bảo tàng mang đến cho du khách một cơ hội có một không hai để xem chữ viết cổ."
+        }
+      ],
+      "collocations": [
+        "unique to",
+        "unique opportunity",
+        "unique feature"
+      ],
+      "notes": "unique to sth",
+      "ipa": "/juˈniːk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/uni/uniqu/unique__us_1.mp3"
+    },
+    {
+      "english": "visible",
+      "vietnamese": "có thể nhìn thấy; rõ ràng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The mountains are clearly visible from the roof of the building.",
+          "vi": "Có thể nhìn thấy rõ những ngọn núi từ nóc tòa nhà."
+        },
+        {
+          "en": "Some stars are not visible to the naked eye.",
+          "vi": "Một số ngôi sao không thể nhìn thấy bằng mắt thường.",
+          "image_url": "https://images.pexels.com/photos/8618702/pexels-photo-8618702.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The effects of the new policy are already visible in the data.",
+          "vi": "Tác động của chính sách mới đã thể hiện rõ trong số liệu."
+        }
+      ],
+      "collocations": [
+        "clearly visible",
+        "visible to the naked eye",
+        "highly visible",
+        "visible from"
+      ],
+      "notes": null,
+      "ipa": "/ˈvɪzəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vis/visib/visible__us_1.mp3"
+    },
+    {
+      "english": "voluntary",
+      "vietnamese": "tự nguyện; tình nguyện",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Taking part in the survey is completely voluntary.",
+          "vi": "Việc tham gia khảo sát là hoàn toàn tự nguyện."
+        },
+        {
+          "en": "She does voluntary work at a local hospital on weekends.",
+          "vi": "Cô ấy làm công việc tình nguyện tại một bệnh viện địa phương vào cuối tuần."
+        },
+        {
+          "en": "Many firms have signed a voluntary agreement to cut plastic waste.",
+          "vi": "Nhiều công ty đã ký một thỏa thuận tự nguyện nhằm cắt giảm rác thải nhựa."
+        }
+      ],
+      "collocations": [
+        "voluntary work",
+        "on a voluntary basis",
+        "completely voluntary"
+      ],
+      "notes": null,
+      "ipa": "/ˈvɑːlənteri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vol/volun/voluntary__us_1.mp3"
+    }
+  ]
+}

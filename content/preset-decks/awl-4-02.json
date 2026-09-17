@@ -1,0 +1,896 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 4 · Bộ 2",
+    "description": "Academic Word List, sublist 4",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-4-02"
+  },
+  "cards": [
+    {
+      "english": "internal",
+      "vietnamese": "nội bộ; bên trong",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The company launched an internal investigation into the missing funds.",
+          "vi": "Công ty đã mở một cuộc điều tra nội bộ về khoản tiền bị thất thoát.",
+          "image_url": "https://images.pexels.com/photos/19599849/pexels-photo-19599849.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Staff can find the new policy on the internal website.",
+          "vi": "Nhân viên có thể xem chính sách mới trên trang web nội bộ.",
+          "image_url": "https://images.pexels.com/photos/19599849/pexels-photo-19599849.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The internal structure of the cell can be seen under a microscope.",
+          "vi": "Có thể quan sát cấu trúc bên trong của tế bào dưới kính hiển vi.",
+          "image_url": "https://images.pexels.com/photos/19599849/pexels-photo-19599849.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "internal investigation",
+        "internal structure",
+        "internal communication"
+      ],
+      "notes": "trái nghĩa: external (bên ngoài)",
+      "ipa": "/ɪnˈtɜːrnl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/inter/internal__us_3.mp3",
+      "image_url": "https://images.pexels.com/photos/19599849/pexels-photo-19599849.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "William Warby",
+        "author_url": "https://www.pexels.com/@wwarby",
+        "source_url": "https://www.pexels.com/photo/silver-recorder-device-19599849/"
+      }
+    },
+    {
+      "english": "investigate",
+      "vietnamese": "điều tra; nghiên cứu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Officials are still investigating the cause of the fire.",
+          "vi": "Các quan chức vẫn đang điều tra nguyên nhân vụ cháy."
+        },
+        {
+          "en": "This study investigates the effects of sleep on memory.",
+          "vi": "Nghiên cứu này tìm hiểu tác động của giấc ngủ đối với trí nhớ."
+        },
+        {
+          "en": "The manager promised to investigate every complaint from customers.",
+          "vi": "Người quản lý hứa sẽ điều tra mọi khiếu nại của khách hàng."
+        }
+      ],
+      "collocations": [
+        "investigate the cause",
+        "investigate the effects of",
+        "fully investigate",
+        "investigate a complaint"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈvestɪɡeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inv/inves/investigate__us_1.mp3"
+    },
+    {
+      "english": "job",
+      "vietnamese": "công việc; việc làm; nhiệm vụ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She got a job at a research institute after graduating.",
+          "vi": "Cô ấy có được việc làm tại một viện nghiên cứu sau khi tốt nghiệp.",
+          "image_url": "https://images.pexels.com/photos/7688435/pexels-photo-7688435.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Thousands of jobs were lost when the factory closed.",
+          "vi": "Hàng nghìn việc làm đã mất đi khi nhà máy đóng cửa.",
+          "image_url": "https://images.pexels.com/photos/7688435/pexels-photo-7688435.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "It is the manager's job to make sure deadlines are met.",
+          "vi": "Nhiệm vụ của người quản lý là đảm bảo các thời hạn được đáp ứng.",
+          "image_url": "https://images.pexels.com/photos/7688435/pexels-photo-7688435.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "get a job",
+        "lose a job",
+        "full-time job",
+        "job market"
+      ],
+      "notes": null,
+      "ipa": "/dʒɑːb/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/j/job/job__/job__us_2.mp3"
+    },
+    {
+      "english": "label",
+      "vietnamese": "nhãn; nhãn mác",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Always read the label before taking any medicine.",
+          "vi": "Hãy luôn đọc nhãn trước khi uống bất kỳ loại thuốc nào."
+        },
+        {
+          "en": "Food labels must list all the ingredients in the product.",
+          "vi": "Nhãn thực phẩm phải liệt kê tất cả các thành phần trong sản phẩm."
+        },
+        {
+          "en": "Each sample was stored in a tube with a clear label.",
+          "vi": "Mỗi mẫu được bảo quản trong một ống nghiệm có dán nhãn rõ ràng."
+        }
+      ],
+      "collocations": [
+        "read the label",
+        "food label",
+        "warning label"
+      ],
+      "notes": "động từ: label = dán nhãn; gán cho cái mác",
+      "ipa": "/ˈleɪbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lab/label/label__us_4.mp3"
+    },
+    {
+      "english": "mechanism",
+      "vietnamese": "cơ chế; bộ máy",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Scientists still do not fully understand the mechanism behind the disease.",
+          "vi": "Các nhà khoa học vẫn chưa hiểu đầy đủ cơ chế gây ra căn bệnh này."
+        },
+        {
+          "en": "The city needs a better mechanism for handling public complaints.",
+          "vi": "Thành phố cần một cơ chế tốt hơn để xử lý khiếu nại của người dân.",
+          "image_url": "https://images.pexels.com/photos/39006612/pexels-photo-39006612.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Sweating is the body's natural mechanism for cooling down.",
+          "vi": "Đổ mồ hôi là cơ chế tự nhiên giúp cơ thể hạ nhiệt."
+        }
+      ],
+      "collocations": [
+        "mechanism for",
+        "underlying mechanism",
+        "control mechanism"
+      ],
+      "notes": null,
+      "ipa": "/ˈmekənɪzəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mec/mecha/mechanism__us_1.mp3"
+    },
+    {
+      "english": "obvious",
+      "vietnamese": "rõ ràng; hiển nhiên",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The most obvious solution is not always the best one.",
+          "vi": "Giải pháp rõ ràng nhất không phải lúc nào cũng là giải pháp tốt nhất."
+        },
+        {
+          "en": "It was obvious that the plan would need more funding.",
+          "vi": "Rõ ràng là kế hoạch này sẽ cần thêm kinh phí."
+        },
+        {
+          "en": "For obvious reasons, the results cannot be shared yet.",
+          "vi": "Vì những lý do hiển nhiên, kết quả chưa thể được công bố."
+        }
+      ],
+      "collocations": [
+        "obvious reason",
+        "obvious choice",
+        "it is obvious that",
+        "fairly obvious"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːbviəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/obv/obvio/obvious__us_1.mp3"
+    },
+    {
+      "english": "occupy",
+      "vietnamese": "chiếm; sử dụng (nơi chốn); giữ (vị trí)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Forests occupy nearly a third of the country's land area.",
+          "vi": "Rừng chiếm gần một phần ba diện tích đất của cả nước."
+        },
+        {
+          "en": "The building is currently occupied by two small companies.",
+          "vi": "Tòa nhà hiện đang được hai công ty nhỏ sử dụng.",
+          "image_url": "https://images.pexels.com/photos/31503681/pexels-photo-31503681.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Women still occupy few senior positions in the industry.",
+          "vi": "Phụ nữ vẫn giữ rất ít vị trí cấp cao trong ngành này.",
+          "image_url": "https://images.pexels.com/photos/31503681/pexels-photo-31503681.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "occupy a position",
+        "occupy space",
+        "be occupied by"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːkjupaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/occ/occup/occupy__us_1.mp3"
+    },
+    {
+      "english": "option",
+      "vietnamese": "lựa chọn; phương án",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Renting is often the only option for young workers in big cities.",
+          "vi": "Thuê nhà thường là lựa chọn duy nhất của người lao động trẻ ở các thành phố lớn."
+        },
+        {
+          "en": "The committee discussed several options for reducing costs.",
+          "vi": "Ủy ban đã thảo luận một số phương án nhằm cắt giảm chi phí."
+        },
+        {
+          "en": "Students have the option of taking the course online.",
+          "vi": "Sinh viên có thể lựa chọn học khóa này trực tuyến."
+        }
+      ],
+      "collocations": [
+        "the only option",
+        "have the option of",
+        "consider the options",
+        "option for"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːpʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/opt/optio/option__us_2.mp3"
+    },
+    {
+      "english": "output",
+      "vietnamese": "sản lượng; đầu ra",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Industrial output rose by three percent last year.",
+          "vi": "Sản lượng công nghiệp đã tăng ba phần trăm vào năm ngoái."
+        },
+        {
+          "en": "The factory managed to double its output within two years.",
+          "vi": "Nhà máy đã tăng gấp đôi sản lượng trong vòng hai năm."
+        },
+        {
+          "en": "The program displays the output as a simple table.",
+          "vi": "Chương trình hiển thị dữ liệu đầu ra dưới dạng một bảng đơn giản.",
+          "image_url": "https://images.pexels.com/photos/25626442/pexels-photo-25626442.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "industrial output",
+        "increase output",
+        "total output",
+        "economic output"
+      ],
+      "notes": "thường không đếm được; trái nghĩa: input (đầu vào)",
+      "ipa": "/ˈaʊtpʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/out/outpu/output__us_1.mp3"
+    },
+    {
+      "english": "overall",
+      "vietnamese": "tổng thể; chung; toàn bộ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The overall cost of the project was lower than expected.",
+          "vi": "Tổng chi phí của dự án thấp hơn dự kiến."
+        },
+        {
+          "en": "Our overall impression of the new system was positive.",
+          "vi": "Ấn tượng chung của chúng tôi về hệ thống mới là tích cực."
+        },
+        {
+          "en": "Her overall performance this year has been excellent.",
+          "vi": "Kết quả làm việc tổng thể của cô ấy trong năm nay rất xuất sắc."
+        }
+      ],
+      "collocations": [
+        "overall cost",
+        "overall performance",
+        "overall impression",
+        "overall effect"
+      ],
+      "notes": "trạng từ: overall = nhìn chung",
+      "ipa": "/ˌəʊvərˈɔːl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ove/overa/overall__us_2.mp3"
+    },
+    {
+      "english": "parallel",
+      "vietnamese": "song song; tương đồng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The new road runs parallel to the river for several kilometers.",
+          "vi": "Con đường mới chạy song song với dòng sông suốt vài ki-lô-mét."
+        },
+        {
+          "en": "Parallel studies were carried out in three different countries.",
+          "vi": "Các nghiên cứu song song đã được tiến hành tại ba quốc gia khác nhau."
+        },
+        {
+          "en": "The two countries followed parallel paths of economic development.",
+          "vi": "Hai quốc gia đã đi theo những con đường phát triển kinh tế tương đồng."
+        }
+      ],
+      "collocations": [
+        "parallel to",
+        "run parallel",
+        "parallel lines"
+      ],
+      "notes": "parallel to + danh từ",
+      "ipa": "/ˈpærəlel/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/paral/parallel__us_1.mp3"
+    },
+    {
+      "english": "parameter",
+      "vietnamese": "tham số; giới hạn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The research must stay within the parameters set by the ethics committee.",
+          "vi": "Nghiên cứu phải nằm trong các giới hạn do hội đồng đạo đức đặt ra.",
+          "image_url": "https://images.pexels.com/photos/27141313/pexels-photo-27141313.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "You can change the parameters of the model to test different scenarios.",
+          "vi": "Bạn có thể thay đổi các tham số của mô hình để thử nghiệm những tình huống khác nhau.",
+          "image_url": "https://images.pexels.com/photos/27141313/pexels-photo-27141313.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Temperature is an important parameter in this experiment.",
+          "vi": "Nhiệt độ là một tham số quan trọng trong thí nghiệm này.",
+          "image_url": "https://images.pexels.com/photos/27141313/pexels-photo-27141313.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "within the parameters",
+        "set parameters",
+        "key parameter"
+      ],
+      "notes": "thường dùng ở số nhiều: parameters",
+      "ipa": "/pəˈræmɪtər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/param/parameter__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/27141313/pexels-photo-27141313.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Egor Komarov",
+        "author_url": "https://www.pexels.com/@egorkomarov",
+        "source_url": "https://www.pexels.com/photo/options-on-modern-device-touchscreen-27141313/"
+      }
+    },
+    {
+      "english": "phase",
+      "vietnamese": "giai đoạn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The first phase of the project will be finished in March.",
+          "vi": "Giai đoạn đầu của dự án sẽ hoàn thành vào tháng Ba."
+        },
+        {
+          "en": "The new drug is now in the final phase of testing.",
+          "vi": "Loại thuốc mới hiện đang ở giai đoạn thử nghiệm cuối cùng."
+        },
+        {
+          "en": "Relations between the two firms have entered a new phase.",
+          "vi": "Quan hệ giữa hai công ty đã bước sang một giai đoạn mới."
+        }
+      ],
+      "collocations": [
+        "first phase",
+        "final phase",
+        "enter a new phase",
+        "phase of"
+      ],
+      "notes": null,
+      "ipa": "/feɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pha/phase/phase__us_1.mp3"
+    },
+    {
+      "english": "predict",
+      "vietnamese": "dự đoán; dự báo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Experts predict that prices will rise again next year.",
+          "vi": "Các chuyên gia dự đoán giá cả sẽ lại tăng vào năm tới.",
+          "image_url": "https://images.pexels.com/photos/30268013/pexels-photo-30268013.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "It is difficult to predict how customers will react.",
+          "vi": "Thật khó để dự đoán khách hàng sẽ phản ứng thế nào."
+        },
+        {
+          "en": "The model accurately predicted the amount of rainfall last month.",
+          "vi": "Mô hình đã dự báo chính xác lượng mưa trong tháng trước."
+        }
+      ],
+      "collocations": [
+        "accurately predict",
+        "difficult to predict",
+        "predict the future",
+        "predict that"
+      ],
+      "notes": null,
+      "ipa": "/prɪˈdɪkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/predi/predict__us_1.mp3"
+    },
+    {
+      "english": "principal",
+      "vietnamese": "chính; chủ yếu",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The principal aim of this study is to measure stress levels.",
+          "vi": "Mục tiêu chính của nghiên cứu này là đo mức độ căng thẳng."
+        },
+        {
+          "en": "Tourism is the principal source of income for the island.",
+          "vi": "Du lịch là nguồn thu nhập chủ yếu của hòn đảo."
+        },
+        {
+          "en": "Rising costs were the principal reason for the delay.",
+          "vi": "Chi phí tăng là lý do chính dẫn đến sự chậm trễ."
+        }
+      ],
+      "collocations": [
+        "principal aim",
+        "principal source",
+        "principal reason"
+      ],
+      "notes": "principal (chính) ≠ principle (nguyên tắc); danh từ: hiệu trưởng",
+      "ipa": "/ˈprɪnsəpl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/princ/principal__us_1.mp3"
+    },
+    {
+      "english": "prior",
+      "vietnamese": "trước; có từ trước",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "No prior experience is required for this position.",
+          "vi": "Vị trí này không yêu cầu kinh nghiệm từ trước."
+        },
+        {
+          "en": "Participants signed a consent form prior to the interview.",
+          "vi": "Những người tham gia đã ký giấy đồng ý trước buổi phỏng vấn.",
+          "image_url": "https://images.pexels.com/photos/30268249/pexels-photo-30268249.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Please give us prior notice if you plan to cancel.",
+          "vi": "Vui lòng báo trước cho chúng tôi nếu bạn định hủy."
+        }
+      ],
+      "collocations": [
+        "prior experience",
+        "prior knowledge",
+        "prior notice",
+        "prior to"
+      ],
+      "notes": "prior to = before (trang trọng)",
+      "ipa": "/ˈpraɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/prior/prior__us_1.mp3"
+    },
+    {
+      "english": "professional",
+      "vietnamese": "chuyên nghiệp; (thuộc) nghề nghiệp",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "You should get professional advice before signing the contract.",
+          "vi": "Bạn nên nhờ chuyên gia tư vấn trước khi ký hợp đồng."
+        },
+        {
+          "en": "The course supports teachers in their professional development.",
+          "vi": "Khóa học hỗ trợ giáo viên trong việc phát triển nghề nghiệp."
+        },
+        {
+          "en": "The hotel staff were friendly and very professional.",
+          "vi": "Nhân viên khách sạn thân thiện và rất chuyên nghiệp."
+        }
+      ],
+      "collocations": [
+        "professional advice",
+        "professional development",
+        "highly professional",
+        "professional training"
+      ],
+      "notes": "danh từ: professional = người chuyên nghiệp",
+      "ipa": "/prəˈfeʃənl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/profe/professional__us_4.mp3"
+    },
+    {
+      "english": "project",
+      "vietnamese": "dự án; đề án",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The research project is funded by the university.",
+          "vi": "Dự án nghiên cứu này được trường đại học tài trợ."
+        },
+        {
+          "en": "She is managing a large construction project in the city center.",
+          "vi": "Cô ấy đang quản lý một dự án xây dựng lớn ở trung tâm thành phố."
+        },
+        {
+          "en": "Students must complete a group project by the end of term.",
+          "vi": "Sinh viên phải hoàn thành một đề án nhóm trước cuối học kỳ.",
+          "image_url": "https://images.pexels.com/photos/39192311/pexels-photo-39192311.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "research project",
+        "manage a project",
+        "group project",
+        "project manager"
+      ],
+      "notes": "động từ project /prəˈdʒekt/ = dự kiến, chiếu",
+      "ipa": "/ˈprɑːdʒekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/proje/project__us_1_rr.mp3"
+    },
+    {
+      "english": "promote",
+      "vietnamese": "thúc đẩy; quảng bá; thăng chức",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Lower interest rates can help promote economic growth.",
+          "vi": "Lãi suất thấp hơn có thể giúp thúc đẩy tăng trưởng kinh tế."
+        },
+        {
+          "en": "The company hired an agency to promote its new product.",
+          "vi": "Công ty đã thuê một đơn vị để quảng bá sản phẩm mới."
+        },
+        {
+          "en": "He was promoted to senior manager after three years.",
+          "vi": "Anh ấy được thăng chức lên quản lý cấp cao sau ba năm."
+        }
+      ],
+      "collocations": [
+        "promote growth",
+        "promote a product",
+        "be promoted to",
+        "actively promote"
+      ],
+      "notes": null,
+      "ipa": "/prəˈməʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/promo/promote__us_1.mp3"
+    },
+    {
+      "english": "regime",
+      "vietnamese": "chế độ; cơ chế quản lý",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The country introduced a stricter tax regime last year.",
+          "vi": "Quốc gia này đã áp dụng một chế độ thuế chặt chẽ hơn vào năm ngoái."
+        },
+        {
+          "en": "Athletes follow a strict training regime before major competitions.",
+          "vi": "Các vận động viên tuân theo chế độ luyện tập nghiêm ngặt trước các giải đấu lớn."
+        },
+        {
+          "en": "The new regulatory regime will affect thousands of small banks.",
+          "vi": "Cơ chế quản lý mới sẽ ảnh hưởng đến hàng nghìn ngân hàng nhỏ."
+        }
+      ],
+      "collocations": [
+        "tax regime",
+        "training regime",
+        "regulatory regime",
+        "strict regime"
+      ],
+      "notes": "cũng chỉ chính quyền, thường mang nghĩa tiêu cực",
+      "ipa": "/reɪˈʒiːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regim/regime__us_2_rr.mp3"
+    },
+    {
+      "english": "resolve",
+      "vietnamese": "giải quyết; quyết định",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The two companies resolved their dispute without going to court.",
+          "vi": "Hai công ty đã giải quyết tranh chấp mà không cần ra tòa.",
+          "image_url": "https://images.pexels.com/photos/36444162/pexels-photo-36444162.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "We are working hard to resolve the problem as quickly as possible.",
+          "vi": "Chúng tôi đang nỗ lực giải quyết vấn đề nhanh nhất có thể.",
+          "image_url": "https://images.pexels.com/photos/36444162/pexels-photo-36444162.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The committee resolved to review the policy next year.",
+          "vi": "Ủy ban đã quyết định xem xét lại chính sách vào năm sau.",
+          "image_url": "https://images.pexels.com/photos/36444162/pexels-photo-36444162.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "resolve a dispute",
+        "resolve a problem",
+        "resolve an issue",
+        "resolve to do"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈzɑːlv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/resol/resolve__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/36444162/pexels-photo-36444162.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Houssam benamara",
+        "author_url": "https://www.pexels.com/@exeroniq",
+        "source_url": "https://www.pexels.com/photo/editing-video-footage-on-a-laptop-screen-36444162/"
+      }
+    },
+    {
+      "english": "retain",
+      "vietnamese": "giữ lại; duy trì",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company offers higher pay to retain skilled workers.",
+          "vi": "Công ty trả lương cao hơn để giữ chân lao động có tay nghề."
+        },
+        {
+          "en": "The old town has retained much of its original character.",
+          "vi": "Khu phố cổ vẫn giữ được phần lớn nét đặc trưng ban đầu."
+        },
+        {
+          "en": "Some students retain information better when they study in short sessions.",
+          "vi": "Một số sinh viên ghi nhớ thông tin tốt hơn khi học theo từng buổi ngắn."
+        }
+      ],
+      "collocations": [
+        "retain staff",
+        "retain information",
+        "retain control",
+        "retain customers"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈteɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ret/retai/retain__us_3.mp3"
+    },
+    {
+      "english": "series",
+      "vietnamese": "loạt; chuỗi; bộ (phim)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The researchers conducted a series of experiments on young mice.",
+          "vi": "Các nhà nghiên cứu đã tiến hành một loạt thí nghiệm trên chuột non.",
+          "image_url": "https://images.pexels.com/photos/8533143/pexels-photo-8533143.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "A series of meetings will be held to discuss the proposal.",
+          "vi": "Một chuỗi cuộc họp sẽ được tổ chức để thảo luận về đề xuất."
+        },
+        {
+          "en": "The television series explores the history of modern science.",
+          "vi": "Bộ phim truyền hình này tìm hiểu lịch sử của khoa học hiện đại."
+        }
+      ],
+      "collocations": [
+        "a series of",
+        "series of experiments",
+        "television series",
+        "time series"
+      ],
+      "notes": "số ít và số nhiều đều là series",
+      "ipa": "/ˈsɪriːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ser/serie/series__us_2.mp3"
+    },
+    {
+      "english": "statistic",
+      "vietnamese": "số liệu thống kê",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Official statistics show that unemployment fell last month.",
+          "vi": "Số liệu thống kê chính thức cho thấy tỷ lệ thất nghiệp đã giảm trong tháng trước."
+        },
+        {
+          "en": "One worrying statistic is that few students finish the course.",
+          "vi": "Một số liệu đáng lo ngại là rất ít sinh viên hoàn thành khóa học."
+        },
+        {
+          "en": "The report includes statistics on housing costs in major cities.",
+          "vi": "Báo cáo có kèm số liệu thống kê về chi phí nhà ở tại các thành phố lớn."
+        }
+      ],
+      "collocations": [
+        "official statistics",
+        "statistics show",
+        "latest statistics"
+      ],
+      "notes": "statistics (không đếm được) = môn thống kê học",
+      "ipa": "/stəˈtɪstɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sta/stati/statistic__us_2.mp3"
+    },
+    {
+      "english": "status",
+      "vietnamese": "địa vị; tình trạng; vị thế",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Doctors enjoy high social status in many countries.",
+          "vi": "Ở nhiều quốc gia, bác sĩ có địa vị xã hội cao."
+        },
+        {
+          "en": "You can check the status of your application online.",
+          "vi": "Bạn có thể kiểm tra tình trạng hồ sơ của mình trực tuyến.",
+          "image_url": "https://images.pexels.com/photos/39219382/pexels-photo-39219382.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The city's status as a financial center attracts foreign investors.",
+          "vi": "Vị thế trung tâm tài chính của thành phố thu hút các nhà đầu tư nước ngoài."
+        }
+      ],
+      "collocations": [
+        "social status",
+        "legal status",
+        "status as",
+        "check the status"
+      ],
+      "notes": null,
+      "ipa": "/ˈsteɪtəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sta/statu/status__us_2_rr.mp3"
+    },
+    {
+      "english": "stress",
+      "vietnamese": "căng thẳng; áp lực; sự nhấn mạnh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Long working hours can lead to high levels of stress.",
+          "vi": "Làm việc nhiều giờ có thể dẫn đến mức độ căng thẳng cao."
+        },
+        {
+          "en": "Many students suffer from stress during exam periods.",
+          "vi": "Nhiều sinh viên bị áp lực trong mùa thi."
+        },
+        {
+          "en": "The report places great stress on the need for training.",
+          "vi": "Báo cáo đặc biệt nhấn mạnh sự cần thiết của việc đào tạo."
+        }
+      ],
+      "collocations": [
+        "suffer from stress",
+        "levels of stress",
+        "under stress",
+        "place stress on"
+      ],
+      "notes": "động từ: stress = nhấn mạnh; không đếm được (nghĩa căng thẳng)",
+      "ipa": "/stres/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/stres/stress__us_1.mp3"
+    },
+    {
+      "english": "subsequent",
+      "vietnamese": "tiếp theo; sau đó",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Subsequent research has confirmed the findings of the original study.",
+          "vi": "Các nghiên cứu sau đó đã xác nhận kết quả của nghiên cứu ban đầu."
+        },
+        {
+          "en": "The first meeting went well, but subsequent talks were less successful.",
+          "vi": "Cuộc họp đầu tiên diễn ra tốt đẹp, nhưng các cuộc đàm phán tiếp theo kém thành công hơn."
+        },
+        {
+          "en": "Prices rose sharply in the months subsequent to the announcement.",
+          "vi": "Giá cả tăng mạnh trong những tháng sau thông báo.",
+          "image_url": "https://images.pexels.com/photos/33008583/pexels-photo-33008583.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "subsequent research",
+        "in subsequent years",
+        "subsequent to"
+      ],
+      "notes": "subsequent to = after (trang trọng)",
+      "ipa": "/ˈsʌbsɪkwənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sub/subse/subsequent__us_1.mp3"
+    },
+    {
+      "english": "sum",
+      "vietnamese": "khoản tiền; tổng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The government spent a huge sum of money on new roads.",
+          "vi": "Chính phủ đã chi một khoản tiền khổng lồ cho các con đường mới."
+        },
+        {
+          "en": "The company agreed to pay a large sum to settle the case.",
+          "vi": "Công ty đồng ý trả một khoản tiền lớn để dàn xếp vụ kiện."
+        },
+        {
+          "en": "The sum of the angles in a triangle is always 180 degrees.",
+          "vi": "Tổng các góc trong một tam giác luôn bằng 180 độ."
+        }
+      ],
+      "collocations": [
+        "sum of money",
+        "large sum",
+        "lump sum",
+        "the sum of"
+      ],
+      "notes": null,
+      "ipa": "/sʌm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sum/sum__/sum__us_1.mp3"
+    },
+    {
+      "english": "summary",
+      "vietnamese": "bản tóm tắt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please write a brief summary of the article.",
+          "vi": "Hãy viết một bản tóm tắt ngắn gọn về bài báo."
+        },
+        {
+          "en": "The report begins with a summary of the main findings.",
+          "vi": "Báo cáo mở đầu bằng phần tóm tắt các kết quả chính."
+        },
+        {
+          "en": "In summary, the new policy has produced mixed results.",
+          "vi": "Tóm lại, chính sách mới đã mang lại kết quả trái chiều."
+        }
+      ],
+      "collocations": [
+        "brief summary",
+        "summary of",
+        "in summary",
+        "executive summary"
+      ],
+      "notes": null,
+      "ipa": "/ˈsʌməri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sum/summa/summary__us_2.mp3"
+    },
+    {
+      "english": "undertake",
+      "vietnamese": "tiến hành; đảm nhận; cam kết",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The university undertook a major study of student health.",
+          "vi": "Trường đại học đã tiến hành một nghiên cứu lớn về sức khỏe sinh viên.",
+          "image_url": "https://images.pexels.com/photos/12020678/pexels-photo-12020678.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She agreed to undertake the role of project leader.",
+          "vi": "Cô ấy đồng ý đảm nhận vai trò trưởng dự án.",
+          "image_url": "https://images.pexels.com/photos/12020678/pexels-photo-12020678.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The contractor undertook to finish the work by June.",
+          "vi": "Nhà thầu cam kết hoàn thành công việc trước tháng Sáu.",
+          "image_url": "https://images.pexels.com/photos/12020678/pexels-photo-12020678.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "undertake research",
+        "undertake a study",
+        "undertake a task",
+        "undertake to do"
+      ],
+      "notes": "undertake – undertook – undertaken",
+      "ipa": "/ˌʌndərˈteɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/und/under/undertake__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/12020678/pexels-photo-12020678.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Darya Sannikova",
+        "author_url": "https://www.pexels.com/@myatezhny39",
+        "source_url": "https://www.pexels.com/photo/view-of-a-ship-12020678/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,880 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 9 · Bộ 1",
+    "description": "Academic Word List, sublist 9",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-9-01"
+  },
+  "cards": [
+    {
+      "english": "accommodate",
+      "vietnamese": "chứa được; đáp ứng; bố trí chỗ ở",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The new lecture hall can accommodate up to five hundred students.",
+          "vi": "Giảng đường mới có thể chứa tới năm trăm sinh viên."
+        },
+        {
+          "en": "We try to accommodate the needs of students with disabilities.",
+          "vi": "Chúng tôi cố gắng đáp ứng nhu cầu của sinh viên khuyết tật."
+        },
+        {
+          "en": "Visiting researchers are accommodated in apartments near the campus.",
+          "vi": "Các nhà nghiên cứu thỉnh giảng được bố trí ở trong các căn hộ gần trường."
+        }
+      ],
+      "collocations": [
+        "accommodate the needs of",
+        "accommodate changes",
+        "easily accommodate"
+      ],
+      "notes": null,
+      "ipa": "/əˈkɑːmədeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/accom/accommodate__us_1.mp3"
+    },
+    {
+      "english": "analogy",
+      "vietnamese": "sự so sánh tương đồng; phép loại suy",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The teacher used a simple analogy to explain how the heart works.",
+          "vi": "Giáo viên dùng một phép so sánh đơn giản để giải thích cách tim hoạt động."
+        },
+        {
+          "en": "Some economists draw an analogy between the two financial crises.",
+          "vi": "Một số nhà kinh tế học so sánh tương đồng giữa hai cuộc khủng hoảng tài chính.",
+          "image_url": "https://images.pexels.com/photos/12008048/pexels-photo-12008048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "By analogy, a computer's memory is often compared to a library.",
+          "vi": "Theo phép loại suy, bộ nhớ máy tính thường được ví như một thư viện."
+        }
+      ],
+      "collocations": [
+        "draw an analogy",
+        "a useful analogy",
+        "by analogy",
+        "analogy between"
+      ],
+      "notes": "draw an analogy between A and B: so sánh A với B",
+      "ipa": "/əˈnælədʒi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ana/analo/analogy__us_1.mp3"
+    },
+    {
+      "english": "anticipate",
+      "vietnamese": "dự đoán; lường trước",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Few experts anticipated such a sharp rise in energy prices.",
+          "vi": "Rất ít chuyên gia dự đoán được giá năng lượng sẽ tăng mạnh như vậy."
+        },
+        {
+          "en": "Good managers anticipate problems before they become serious.",
+          "vi": "Những nhà quản lý giỏi lường trước vấn đề trước khi chúng trở nên nghiêm trọng."
+        },
+        {
+          "en": "The project took much longer than we had anticipated.",
+          "vi": "Dự án mất nhiều thời gian hơn nhiều so với chúng tôi đã dự tính."
+        }
+      ],
+      "collocations": [
+        "anticipate problems",
+        "anticipate demand",
+        "than anticipated",
+        "widely anticipated"
+      ],
+      "notes": "anticipate + V-ing (không dùng to V)",
+      "ipa": "/ænˈtɪsɪpeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ant/antic/anticipate__us_1.mp3"
+    },
+    {
+      "english": "assure",
+      "vietnamese": "cam đoan; đảm bảo với ai; trấn an",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The manager assured staff that no jobs would be lost.",
+          "vi": "Người quản lý cam đoan với nhân viên rằng sẽ không ai bị mất việc."
+        },
+        {
+          "en": "I can assure you that your data will be kept private.",
+          "vi": "Tôi có thể đảm bảo với bạn rằng dữ liệu của bạn sẽ được giữ bí mật."
+        },
+        {
+          "en": "Officials assured residents that the tap water was safe to drink.",
+          "vi": "Giới chức trấn an người dân rằng nước máy an toàn để uống.",
+          "image_url": "https://images.pexels.com/photos/3030316/pexels-photo-3030316.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "assure somebody that",
+        "I can assure you",
+        "rest assured"
+      ],
+      "notes": "assure (cam đoan với ai) ≠ ensure (đảm bảo điều gì xảy ra)",
+      "ipa": "/əˈʃʊr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/assur/assure__us_1.mp3"
+    },
+    {
+      "english": "attain",
+      "vietnamese": "đạt được; giành được",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Only a third of the students attained the required grade.",
+          "vi": "Chỉ một phần ba số sinh viên đạt được điểm yêu cầu."
+        },
+        {
+          "en": "The company has attained its goal of cutting emissions by half.",
+          "vi": "Công ty đã đạt được mục tiêu cắt giảm một nửa lượng khí thải."
+        },
+        {
+          "en": "Women in the region are now attaining higher levels of education.",
+          "vi": "Phụ nữ trong khu vực hiện đang đạt tới trình độ học vấn cao hơn."
+        }
+      ],
+      "collocations": [
+        "attain a goal",
+        "attain a level",
+        "attain a standard"
+      ],
+      "notes": null,
+      "ipa": "/əˈteɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/att/attai/attain__us_1.mp3"
+    },
+    {
+      "english": "behalf",
+      "vietnamese": "thay mặt; nhân danh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She accepted the award on behalf of the whole research team.",
+          "vi": "Cô ấy thay mặt cả nhóm nghiên cứu nhận giải thưởng."
+        },
+        {
+          "en": "Lawyers acting on behalf of the workers have filed a complaint.",
+          "vi": "Các luật sư đại diện cho người lao động đã nộp đơn khiếu nại."
+        },
+        {
+          "en": "I would like to thank you all on behalf of the university.",
+          "vi": "Tôi xin thay mặt nhà trường cảm ơn tất cả các bạn.",
+          "image_url": "https://images.pexels.com/photos/7582104/pexels-photo-7582104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "on behalf of",
+        "act on behalf of",
+        "on somebody's behalf"
+      ],
+      "notes": "Hầu như chỉ dùng trong cụm on behalf of / on somebody's behalf",
+      "ipa": "/bɪˈhæf/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/beh/behal/behalf__us_1.mp3"
+    },
+    {
+      "english": "bulk",
+      "vietnamese": "phần lớn; khối lượng lớn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The bulk of the funding comes from government grants.",
+          "vi": "Phần lớn kinh phí đến từ các khoản tài trợ của chính phủ."
+        },
+        {
+          "en": "Students spend the bulk of their time on independent study.",
+          "vi": "Sinh viên dành phần lớn thời gian cho việc tự học."
+        },
+        {
+          "en": "Restaurants usually save money by buying rice and oil in bulk.",
+          "vi": "Các nhà hàng thường tiết kiệm tiền bằng cách mua gạo và dầu với số lượng lớn."
+        }
+      ],
+      "collocations": [
+        "the bulk of",
+        "buy in bulk",
+        "bulk purchase"
+      ],
+      "notes": "the bulk of + danh từ: phần lớn của…",
+      "ipa": "/bʌlk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bul/bulk_/bulk__us_1.mp3"
+    },
+    {
+      "english": "cease",
+      "vietnamese": "ngừng; chấm dứt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The factory ceased production after the company went bankrupt.",
+          "vi": "Nhà máy ngừng sản xuất sau khi công ty phá sản."
+        },
+        {
+          "en": "Fighting in the border area ceased early this morning.",
+          "vi": "Giao tranh ở khu vực biên giới đã chấm dứt vào sáng sớm nay."
+        },
+        {
+          "en": "The progress of modern medicine never ceases to amaze me.",
+          "vi": "Sự tiến bộ của y học hiện đại không bao giờ thôi khiến tôi kinh ngạc."
+        }
+      ],
+      "collocations": [
+        "cease production",
+        "cease operations",
+        "cease to exist",
+        "never cease to amaze"
+      ],
+      "notes": "Trang trọng hơn stop; cease to V hoặc cease + V-ing",
+      "ipa": "/siːs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cea/cease/cease__us_1.mp3"
+    },
+    {
+      "english": "coherent",
+      "vietnamese": "mạch lạc; chặt chẽ; nhất quán",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "A good essay presents a clear and coherent argument.",
+          "vi": "Một bài luận hay trình bày lập luận rõ ràng và chặt chẽ.",
+          "image_url": "https://images.pexels.com/photos/34665264/pexels-photo-34665264.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The government still lacks a coherent strategy for reducing poverty.",
+          "vi": "Chính phủ vẫn thiếu một chiến lược nhất quán để giảm nghèo.",
+          "image_url": "https://images.pexels.com/photos/34665264/pexels-photo-34665264.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "After the accident, he was too confused to give a coherent answer.",
+          "vi": "Sau tai nạn, anh ấy quá bối rối nên không thể trả lời mạch lạc.",
+          "image_url": "https://images.pexels.com/photos/34665264/pexels-photo-34665264.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "coherent argument",
+        "coherent strategy",
+        "coherent policy",
+        "coherent whole"
+      ],
+      "notes": null,
+      "ipa": "/kəʊˈhɪrənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/coh/coher/coherent__us_1_rr.mp3",
+      "image_url": "https://images.pexels.com/photos/34665264/pexels-photo-34665264.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Regan Dsouza",
+        "author_url": "https://www.pexels.com/@regan-dsouza-1315522347",
+        "source_url": "https://www.pexels.com/photo/close-up-of-a-lion-tailed-macaque-in-natural-habitat-34665264/"
+      }
+    },
+    {
+      "english": "coincide",
+      "vietnamese": "xảy ra cùng lúc; trùng với; trùng khớp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The book's release was timed to coincide with the conference.",
+          "vi": "Việc phát hành cuốn sách được sắp xếp trùng với thời điểm diễn ra hội nghị."
+        },
+        {
+          "en": "The rise in crime coincided with a sharp increase in unemployment.",
+          "vi": "Tình trạng tội phạm gia tăng xảy ra cùng lúc với tỷ lệ thất nghiệp tăng mạnh."
+        },
+        {
+          "en": "Their views on the issue do not always coincide.",
+          "vi": "Quan điểm của họ về vấn đề này không phải lúc nào cũng trùng khớp."
+        }
+      ],
+      "collocations": [
+        "coincide with",
+        "timed to coincide with",
+        "views coincide"
+      ],
+      "notes": "coincide with something",
+      "ipa": "/ˌkəʊɪnˈsaɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/coi/coinc/coincide__us_1.mp3"
+    },
+    {
+      "english": "commence",
+      "vietnamese": "bắt đầu; khởi công",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Construction of the new hospital will commence next spring.",
+          "vi": "Việc xây dựng bệnh viện mới sẽ khởi công vào mùa xuân tới.",
+          "image_url": "https://images.pexels.com/photos/35854242/pexels-photo-35854242.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The trial commenced two weeks after the investigation ended.",
+          "vi": "Phiên tòa bắt đầu hai tuần sau khi cuộc điều tra kết thúc."
+        },
+        {
+          "en": "Students must register before classes commence in September.",
+          "vi": "Sinh viên phải đăng ký trước khi các lớp học bắt đầu vào tháng Chín."
+        }
+      ],
+      "collocations": [
+        "commence work",
+        "commence operations",
+        "commence construction"
+      ],
+      "notes": "Trang trọng hơn begin / start",
+      "ipa": "/kəˈmens/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/comme/commence__us_1.mp3"
+    },
+    {
+      "english": "compatible",
+      "vietnamese": "tương thích; phù hợp; hợp nhau",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Make sure the software is compatible with your operating system.",
+          "vi": "Hãy đảm bảo phần mềm tương thích với hệ điều hành của bạn."
+        },
+        {
+          "en": "Economic growth must be compatible with protecting the environment.",
+          "vi": "Tăng trưởng kinh tế phải phù hợp với việc bảo vệ môi trường."
+        },
+        {
+          "en": "The two colleagues were never really compatible as a team.",
+          "vi": "Hai đồng nghiệp đó chưa bao giờ thực sự hợp nhau khi làm việc nhóm."
+        }
+      ],
+      "collocations": [
+        "compatible with",
+        "fully compatible",
+        "compatible software"
+      ],
+      "notes": "compatible with; trái nghĩa: incompatible",
+      "ipa": "/kəmˈpætəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compa/compatible__us_1.mp3"
+    },
+    {
+      "english": "concurrent",
+      "vietnamese": "đồng thời; diễn ra cùng lúc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The conference offers several concurrent sessions each afternoon.",
+          "vi": "Hội nghị tổ chức nhiều phiên họp diễn ra đồng thời vào mỗi buổi chiều."
+        },
+        {
+          "en": "Patients with concurrent illnesses often need more complex treatment.",
+          "vi": "Bệnh nhân mắc nhiều bệnh cùng lúc thường cần điều trị phức tạp hơn.",
+          "image_url": "https://images.pexels.com/photos/6129152/pexels-photo-6129152.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The study was concurrent with a wider survey of local schools.",
+          "vi": "Nghiên cứu này diễn ra đồng thời với một khảo sát rộng hơn ở các trường địa phương."
+        }
+      ],
+      "collocations": [
+        "concurrent sessions",
+        "concurrent with",
+        "concurrent use"
+      ],
+      "notes": "Trạng từ concurrently: một cách đồng thời",
+      "ipa": "/kənˈkɜːrənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconc/xconcurrent__us_1.mp3"
+    },
+    {
+      "english": "confine",
+      "vietnamese": "giới hạn; hạn chế; nhốt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please confine your comments to the topic under discussion.",
+          "vi": "Vui lòng giới hạn ý kiến của bạn trong chủ đề đang thảo luận."
+        },
+        {
+          "en": "The problem is by no means confined to large cities.",
+          "vi": "Vấn đề này hoàn toàn không chỉ giới hạn ở các thành phố lớn."
+        },
+        {
+          "en": "The animals were confined in small cages for most of the day.",
+          "vi": "Những con vật bị nhốt trong các lồng nhỏ gần như cả ngày."
+        }
+      ],
+      "collocations": [
+        "confine something to",
+        "be confined to",
+        "confined space"
+      ],
+      "notes": "confine something to something; be confined to",
+      "ipa": "/kənˈfaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconf/xconfine__us_1.mp3"
+    },
+    {
+      "english": "controversy",
+      "vietnamese": "cuộc tranh cãi; sự tranh luận",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new tax caused a great deal of controversy among business owners.",
+          "vi": "Loại thuế mới gây ra rất nhiều tranh cãi trong giới chủ doanh nghiệp."
+        },
+        {
+          "en": "There is still controversy over the safety of the drug.",
+          "vi": "Vẫn còn tranh cãi về mức độ an toàn của loại thuốc này."
+        },
+        {
+          "en": "The study sparked a controversy that lasted for several years.",
+          "vi": "Nghiên cứu đó đã làm dấy lên một cuộc tranh cãi kéo dài nhiều năm.",
+          "image_url": "https://images.pexels.com/photos/30885779/pexels-photo-30885779.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "cause controversy",
+        "spark controversy",
+        "controversy over",
+        "considerable controversy"
+      ],
+      "notes": "controversy over / about something",
+      "ipa": "/ˈkɑːntrəvɜːrsi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontroversy__us_1.mp3"
+    },
+    {
+      "english": "converse",
+      "vietnamese": "điều ngược lại",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Wealthy people tend to live longer, but the converse is also true.",
+          "vi": "Người giàu thường sống lâu hơn, nhưng điều ngược lại cũng đúng."
+        },
+        {
+          "en": "Some students work better alone; for others the converse applies.",
+          "vi": "Một số sinh viên làm việc một mình tốt hơn; với những người khác thì ngược lại."
+        },
+        {
+          "en": "The data supported neither his claim nor the converse of it.",
+          "vi": "Dữ liệu không ủng hộ nhận định của ông ấy, cũng không ủng hộ điều ngược lại."
+        }
+      ],
+      "collocations": [
+        "the converse is true",
+        "the converse applies",
+        "the converse of"
+      ],
+      "notes": "Thường dùng: the converse; converse (v) còn nghĩa là trò chuyện",
+      "ipa": "/kənˈvɜːrs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconv/xconverse__us_1.mp3"
+    },
+    {
+      "english": "device",
+      "vietnamese": "thiết bị; dụng cụ; biện pháp, thủ pháp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please switch off all electronic devices during the exam.",
+          "vi": "Vui lòng tắt tất cả thiết bị điện tử trong khi làm bài thi."
+        },
+        {
+          "en": "The hospital uses a new device to monitor patients' heart rates.",
+          "vi": "Bệnh viện sử dụng một thiết bị mới để theo dõi nhịp tim của bệnh nhân."
+        },
+        {
+          "en": "Repetition is a common device in political speeches.",
+          "vi": "Sự lặp lại là một thủ pháp thường gặp trong các bài diễn văn chính trị."
+        }
+      ],
+      "collocations": [
+        "electronic device",
+        "mobile device",
+        "medical device",
+        "literary device"
+      ],
+      "notes": "device (n) ≠ devise (v: nghĩ ra, sáng chế)",
+      "ipa": "/dɪˈvaɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dev/devic/device__us_1.mp3"
+    },
+    {
+      "english": "devote",
+      "vietnamese": "dành (thời gian, công sức); cống hiến",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She has devoted her career to studying climate change.",
+          "vi": "Cô ấy đã cống hiến cả sự nghiệp cho việc nghiên cứu biến đổi khí hậu.",
+          "image_url": "https://images.pexels.com/photos/6811204/pexels-photo-6811204.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The report devotes an entire chapter to health care costs.",
+          "vi": "Báo cáo dành trọn một chương cho chi phí chăm sóc sức khỏe.",
+          "image_url": "https://images.pexels.com/photos/6811204/pexels-photo-6811204.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Teachers should devote more time to helping weaker students.",
+          "vi": "Giáo viên nên dành nhiều thời gian hơn để giúp đỡ các học sinh yếu.",
+          "image_url": "https://images.pexels.com/photos/6811204/pexels-photo-6811204.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "devote time to",
+        "devote attention to",
+        "devote resources to",
+        "devote yourself to"
+      ],
+      "notes": "devote something to + danh từ / V-ing",
+      "ipa": "/dɪˈvəʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dev/devot/devote__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/6811204/pexels-photo-6811204.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Robert  Stokoe",
+        "author_url": "https://www.pexels.com/@robert-stokoe-105922",
+        "source_url": "https://www.pexels.com/photo/eccentric-man-on-street-at-city-festival-6811204/"
+      }
+    },
+    {
+      "english": "diminish",
+      "vietnamese": "giảm bớt; suy giảm; làm giảm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The risk of infection diminishes as the patient's immune system recovers.",
+          "vi": "Nguy cơ nhiễm trùng giảm dần khi hệ miễn dịch của bệnh nhân hồi phục."
+        },
+        {
+          "en": "Rising prices have diminished the value of their savings.",
+          "vi": "Giá cả tăng cao đã làm giảm giá trị khoản tiết kiệm của họ."
+        },
+        {
+          "en": "Public interest in the story diminished after a few weeks.",
+          "vi": "Sự quan tâm của công chúng đối với câu chuyện giảm đi sau vài tuần."
+        }
+      ],
+      "collocations": [
+        "diminish the value",
+        "diminish over time",
+        "greatly diminish",
+        "diminishing returns"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈmɪnɪʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dim/dimin/diminish__us_1.mp3"
+    },
+    {
+      "english": "distort",
+      "vietnamese": "bóp méo; xuyên tạc; làm biến dạng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The newspaper was accused of distorting the facts.",
+          "vi": "Tờ báo bị cáo buộc xuyên tạc sự thật.",
+          "image_url": "https://images.pexels.com/photos/7870693/pexels-photo-7870693.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "A few extreme values can distort the results of a small study.",
+          "vi": "Một vài giá trị cực đoan có thể làm sai lệch kết quả của một nghiên cứu nhỏ."
+        },
+        {
+          "en": "Heat rising from the road distorted the image of the cars ahead.",
+          "vi": "Hơi nóng bốc lên từ mặt đường làm biến dạng hình ảnh những chiếc xe phía trước."
+        }
+      ],
+      "collocations": [
+        "distort the truth",
+        "distort the facts",
+        "distort the results",
+        "seriously distort"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈstɔːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/disto/distort__us_1.mp3"
+    },
+    {
+      "english": "duration",
+      "vietnamese": "thời lượng; khoảng thời gian kéo dài",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The average duration of the treatment is six months.",
+          "vi": "Thời gian điều trị trung bình là sáu tháng."
+        },
+        {
+          "en": "Phones must stay switched off for the duration of the exam.",
+          "vi": "Điện thoại phải tắt trong suốt thời gian làm bài thi."
+        },
+        {
+          "en": "Researchers recorded the duration of each conversation in minutes.",
+          "vi": "Các nhà nghiên cứu ghi lại thời lượng của mỗi cuộc trò chuyện tính bằng phút."
+        }
+      ],
+      "collocations": [
+        "for the duration of",
+        "average duration",
+        "short duration",
+        "duration of the course"
+      ],
+      "notes": null,
+      "ipa": "/duˈreɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dur/durat/duration__us_1.mp3"
+    },
+    {
+      "english": "erode",
+      "vietnamese": "xói mòn; làm suy giảm dần",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Strong waves have eroded large parts of the coastline.",
+          "vi": "Những con sóng mạnh đã làm xói mòn nhiều đoạn bờ biển."
+        },
+        {
+          "en": "High inflation is steadily eroding people's purchasing power.",
+          "vi": "Lạm phát cao đang dần làm suy giảm sức mua của người dân.",
+          "image_url": "https://images.pexels.com/photos/31078522/pexels-photo-31078522.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Repeated scandals have eroded public trust in the banking system.",
+          "vi": "Những vụ bê bối liên tiếp đã làm xói mòn lòng tin của công chúng vào hệ thống ngân hàng."
+        }
+      ],
+      "collocations": [
+        "erode confidence",
+        "erode trust",
+        "gradually erode",
+        "erode the coastline"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈrəʊd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ero/erode/erode__us_1.mp3"
+    },
+    {
+      "english": "ethic",
+      "vietnamese": "đạo đức; nguyên tắc đạo đức",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Employers value graduates with a strong work ethic.",
+          "vi": "Nhà tuyển dụng đánh giá cao những sinh viên tốt nghiệp có tinh thần làm việc nghiêm túc."
+        },
+        {
+          "en": "All researchers here must follow a strict code of ethics.",
+          "vi": "Tất cả các nhà nghiên cứu ở đây phải tuân theo một bộ quy tắc đạo đức nghiêm ngặt."
+        },
+        {
+          "en": "The course examines the ethics of using animals in medical research.",
+          "vi": "Khóa học xem xét vấn đề đạo đức của việc dùng động vật trong nghiên cứu y học."
+        }
+      ],
+      "collocations": [
+        "work ethic",
+        "code of ethics",
+        "professional ethics",
+        "medical ethics"
+      ],
+      "notes": "Thường dùng số nhiều: ethics (đạo đức học; quy tắc đạo đức)",
+      "ipa": "/ˈeθɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eth/ethic/ethic__us_1.mp3"
+    },
+    {
+      "english": "format",
+      "vietnamese": "định dạng; hình thức trình bày",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please submit your assignment in PDF format.",
+          "vi": "Vui lòng nộp bài tập ở định dạng PDF."
+        },
+        {
+          "en": "The exam will follow the same format as last year.",
+          "vi": "Bài thi sẽ theo hình thức giống như năm ngoái."
+        },
+        {
+          "en": "Many journals now publish articles in both print and digital formats.",
+          "vi": "Nhiều tạp chí hiện nay xuất bản bài báo ở cả dạng in và dạng số.",
+          "image_url": "https://images.pexels.com/photos/5505718/pexels-photo-5505718.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "file format",
+        "digital format",
+        "in a format",
+        "change the format"
+      ],
+      "notes": null,
+      "ipa": "/ˈfɔːrmæt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/for/forma/format__us_1.mp3"
+    },
+    {
+      "english": "found",
+      "vietnamese": "thành lập; sáng lập; dựa trên",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The university was founded in 1850 by a group of doctors.",
+          "vi": "Trường đại học được một nhóm bác sĩ thành lập vào năm 1850."
+        },
+        {
+          "en": "She left her job to found a small software company.",
+          "vi": "Cô ấy nghỉ việc để sáng lập một công ty phần mềm nhỏ."
+        },
+        {
+          "en": "Their theory is founded on decades of careful observation.",
+          "vi": "Lý thuyết của họ dựa trên hàng chục năm quan sát cẩn thận."
+        }
+      ],
+      "collocations": [
+        "found a company",
+        "founded in",
+        "be founded on",
+        "newly founded"
+      ],
+      "notes": "found – founded – founded (khác find – found – found)",
+      "ipa": "/faʊnd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fou/found/found__us_2.mp3"
+    },
+    {
+      "english": "inherent",
+      "vietnamese": "vốn có; cố hữu; bẩm sinh",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Every investment in the stock market carries some inherent risk.",
+          "vi": "Mọi khoản đầu tư vào thị trường chứng khoán đều mang rủi ro vốn có."
+        },
+        {
+          "en": "The study discusses problems inherent in using online surveys.",
+          "vi": "Nghiên cứu bàn về những vấn đề cố hữu khi sử dụng khảo sát trực tuyến."
+        },
+        {
+          "en": "Some psychologists argue that the ability to learn language is inherent.",
+          "vi": "Một số nhà tâm lý học cho rằng khả năng học ngôn ngữ là bẩm sinh."
+        }
+      ],
+      "collocations": [
+        "inherent risk",
+        "inherent in",
+        "inherent weakness",
+        "inherent problem"
+      ],
+      "notes": "inherent in something",
+      "ipa": "/ɪnˈherənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inh/inher/inherent__us_2_rr.mp3"
+    },
+    {
+      "english": "insight",
+      "vietnamese": "sự hiểu biết sâu sắc; cái nhìn sâu sắc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The interviews gave us valuable insight into how customers make decisions.",
+          "vi": "Các cuộc phỏng vấn cho chúng tôi hiểu biết sâu sắc về cách khách hàng ra quyết định.",
+          "image_url": "https://images.pexels.com/photos/33137131/pexels-photo-33137131.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Her book offers new insights into the causes of poverty.",
+          "vi": "Cuốn sách của cô ấy đưa ra những góc nhìn sâu sắc mới về nguyên nhân của nghèo đói.",
+          "image_url": "https://images.pexels.com/photos/33137131/pexels-photo-33137131.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Working abroad gave him real insight into other cultures.",
+          "vi": "Làm việc ở nước ngoài giúp anh ấy thực sự hiểu sâu về các nền văn hóa khác.",
+          "image_url": "https://images.pexels.com/photos/33137131/pexels-photo-33137131.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "insight into",
+        "gain insight",
+        "provide insight",
+        "valuable insight"
+      ],
+      "notes": "insight into something",
+      "ipa": "/ˈɪnsaɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/insig/insight__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/33137131/pexels-photo-33137131.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Ann H",
+        "author_url": "https://www.pexels.com/@ann-h-45017",
+        "source_url": "https://www.pexels.com/photo/pink-watercolor-background-with-insight-text-33137131/"
+      }
+    },
+    {
+      "english": "integral",
+      "vietnamese": "không thể thiếu; thiết yếu; gắn liền",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Practical training is an integral part of the nursing course.",
+          "vi": "Thực hành là một phần không thể thiếu của khóa học điều dưỡng."
+        },
+        {
+          "en": "Local farmers played an integral role in the success of the project.",
+          "vi": "Nông dân địa phương đóng vai trò thiết yếu trong thành công của dự án."
+        },
+        {
+          "en": "Music has always been integral to the country's culture.",
+          "vi": "Âm nhạc luôn gắn liền với văn hóa của đất nước này."
+        }
+      ],
+      "collocations": [
+        "integral part",
+        "integral role",
+        "integral to",
+        "integral component"
+      ],
+      "notes": "integral to something",
+      "ipa": "/ˈɪntɪɡrəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/integ/integral__us_1_rr.mp3"
+    },
+    {
+      "english": "intermediate",
+      "vietnamese": "trung cấp; trung gian",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "This course is designed for students at an intermediate level.",
+          "vi": "Khóa học này được thiết kế cho học viên ở trình độ trung cấp.",
+          "image_url": "https://images.pexels.com/photos/8199151/pexels-photo-8199151.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The chemical passes through several intermediate stages before it becomes stable.",
+          "vi": "Hóa chất này trải qua nhiều giai đoạn trung gian trước khi trở nên ổn định."
+        },
+        {
+          "en": "Many small factories produce intermediate goods for larger manufacturers.",
+          "vi": "Nhiều nhà máy nhỏ sản xuất hàng hóa trung gian cho các nhà sản xuất lớn hơn."
+        }
+      ],
+      "collocations": [
+        "intermediate level",
+        "intermediate stage",
+        "intermediate goods"
+      ],
+      "notes": null,
+      "ipa": "/ˌɪntərˈmiːdiət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/inter/intermediate__us_1.mp3"
+    },
+    {
+      "english": "manual",
+      "vietnamese": "sách hướng dẫn; sổ tay hướng dẫn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Read the user manual carefully before using the new equipment.",
+          "vi": "Hãy đọc kỹ sách hướng dẫn sử dụng trước khi dùng thiết bị mới."
+        },
+        {
+          "en": "The company gives every new employee a training manual.",
+          "vi": "Công ty phát cho mỗi nhân viên mới một cuốn sổ tay hướng dẫn đào tạo."
+        },
+        {
+          "en": "The manual explains step by step how to install the software.",
+          "vi": "Sách hướng dẫn giải thích từng bước cách cài đặt phần mềm."
+        }
+      ],
+      "collocations": [
+        "user manual",
+        "training manual",
+        "instruction manual",
+        "consult the manual"
+      ],
+      "notes": "manual (adj): thủ công, chân tay — manual labour",
+      "ipa": "/ˈmænjuəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/man/manua/manual__us_1.mp3"
+    }
+  ]
+}

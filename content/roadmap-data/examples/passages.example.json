@@ -1,0 +1,192 @@
+{
+  "_comment": "VÍ DỤ ĐỊNH DẠNG — không phải dữ liệu thật, không nạp vào DB. Xem src/doc/roadmap-data-format.md",
+  "kind": "passages",
+  "batch": 1,
+  "authored_by": "<tên model> + <ngày>",
+  "verified_by": [
+    "<phiên kiểm 1>",
+    "<phiên kiểm 2>"
+  ],
+  "passages": [
+    {
+      "id": "p1-001",
+      "title": "Trees that cool city streets",
+      "topic": "environment",
+      "level": "B2",
+      "text": "Many cities around the world are now planting trees along their streets. Scientists have found that trees can lower the temperature of a street by several degrees during hot summer days. This happens because leaves give shade and also release water into the air. Cooler streets mean that people use less electricity for air conditioning, which reduces costs for families. Trees also improve air quality, since they take in some of the pollution produced by cars. However, planting trees in a busy city is not simple. Roots can damage pipes under the road, and young trees need regular water for several years. Some cities have solved this problem by choosing species that grow deep roots and need little care. Local residents are often asked to help by watering the trees near their homes. Experts believe that these programs will become more important as summers grow hotter. For many urban planners, a street full of trees is no longer just attractive but necessary for public health.",
+      "annotations": {
+        "main_ideas": [
+          "Cities plant street trees because trees lower street temperatures.",
+          "Cooler streets save electricity and trees also clean the air.",
+          "Planting trees in cities has practical problems, such as roots damaging pipes.",
+          "Cities solve these problems with suitable species and help from residents."
+        ],
+        "keywords": [
+          "planting trees",
+          "temperature",
+          "shade",
+          "electricity",
+          "air quality",
+          "pollution",
+          "roots",
+          "pipes",
+          "species",
+          "public health"
+        ],
+        "hiw": {
+          "replacements": [
+            {
+              "index": 18,
+              "original": "lower",
+              "replacement": "raise"
+            },
+            {
+              "index": 36,
+              "original": "shade",
+              "replacement": "shape"
+            },
+            {
+              "index": 51,
+              "original": "electricity",
+              "replacement": "energy"
+            },
+            {
+              "index": 72,
+              "original": "pollution",
+              "replacement": "smoke"
+            },
+            {
+              "index": 89,
+              "original": "pipes",
+              "replacement": "roads"
+            },
+            {
+              "index": 120,
+              "original": "residents",
+              "replacement": "students"
+            }
+          ]
+        },
+        "smw": {
+          "cut_index": 162,
+          "options": [
+            "for public health",
+            "for local business",
+            "for tourism",
+            "for the weather"
+          ],
+          "answer": 0
+        },
+        "hcs": {
+          "options": [
+            "Street trees keep cities cooler, save energy and clean the air, and although they bring practical problems, cities are finding ways to manage them.",
+            "Street trees are too difficult for cities to manage because their roots damage pipes and they need water for years.",
+            "Scientists want families to buy air conditioners because summers in cities are becoming hotter every year."
+          ],
+          "answer": 0,
+          "explain_vi": "Bản 2 chỉ nói mặt khó khăn, bỏ lợi ích và giải pháp. Bản 3 sai ý: bài không khuyên mua điều hoà."
+        },
+        "skim": {
+          "question": "What is the passage mainly about?",
+          "options": [
+            "Why cities plant street trees and the challenges involved",
+            "How to build air conditioning systems",
+            "The history of urban planning",
+            "Why young trees need water"
+          ],
+          "answer": 0
+        },
+        "scan": [
+          {
+            "question": "By how much can trees lower street temperature?",
+            "options": [
+              "Several degrees",
+              "Half a degree",
+              "Ten percent",
+              "It does not say"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What can roots damage?",
+            "options": [
+              "Pipes under the road",
+              "Car engines",
+              "House roofs",
+              "Street lights"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "How long do young trees need regular water?",
+            "options": [
+              "For several years",
+              "For a few weeks",
+              "Only in summer",
+              "They do not need water"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "Who is asked to water trees near their homes?",
+            "options": [
+              "Local residents",
+              "City scientists",
+              "Urban planners",
+              "School children"
+            ],
+            "answer": 0
+          },
+          {
+            "question": "What do trees take in from cars?",
+            "options": [
+              "Some pollution",
+              "Heat from engines",
+              "Noise",
+              "Rain water"
+            ],
+            "answer": 0
+          }
+        ],
+        "context_words": [
+          {
+            "index": 120,
+            "word": "residents",
+            "options": [
+              "cư dân",
+              "khách du lịch",
+              "công nhân",
+              "nhà khoa học"
+            ],
+            "answer": 0
+          }
+        ],
+        "mc_single": {
+          "question": "Why do cooler streets reduce costs for families?",
+          "options": [
+            "People use less electricity for air conditioning",
+            "Trees produce free food",
+            "Families pay lower taxes",
+            "Cars use less fuel"
+          ],
+          "answer": 0
+        },
+        "mc_multiple": {
+          "question": "Which benefits of street trees are mentioned?",
+          "options": [
+            "Lower temperatures",
+            "Better air quality",
+            "Less traffic",
+            "Cheaper housing",
+            "Fewer floods"
+          ],
+          "answers": [
+            0,
+            1
+          ]
+        },
+        "topic_sentence_index": 0
+      }
+    }
+  ]
+}

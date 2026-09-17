@@ -658,3 +658,145 @@ export interface FlashcardStats {
   cards_per_day_last_30: Array<{ date: string; new: number; review: number }>;
   retention_rate_7d: number;
 }
+
+// ============================================================================
+// Roadmap — checklist 4 kỹ năng (nội dung dùng chung) + tiến độ per-user.
+// Nguồn nội dung: src/doc/prompts/roadmap-checklist.md → migration 0021.
+// ============================================================================
+
+// 'untested' không có row trong roadmap_progress — nó là trạng thái mặc định
+// suy ra ở tầng app, DB chỉ lưu 'pass' / 'fail'.
+export type RoadmapStatus = 'untested' | 'pass' | 'fail';
+
+// Mục đã 'pass' quá ngần này ngày thì hiện badge "cần test lại"
+// (theo dòng cuối của checklist gốc: "test lại sau 4 tuần").
+export const ROADMAP_RETEST_DAYS = 28;
+
+export interface RoadmapSkill {
+  code: string;            // 'nghe' | 'doc' | 'viet' | 'noi'
+  label: string;
+  note: string | null;     // ghi chú chung cho cả kỹ năng (Viết / Nói có)
+  position: number;
+}
+
+// Hướng so ngưỡng: 'gte' = càng nhiều càng tốt (≥ 47/50),
+// 'lte' = càng ít càng tốt (đếm lỗi: ≤ 3 từ/bài, 0 lỗi chính tả).
+export type RoadmapPassDir = 'gte' | 'lte';
+
+export interface RoadmapItem {
+  item_key: string;        // khoá bền, vd 'nghe-01' — không đánh số lại
+  skill_code: string;
+  group_name: string;
+  label: string;
+  how_to_test: string;
+  pass_when: string;       // nguyên văn tiếng Việt, luôn hiện cho user đọc
+  position: number;
+  // Ngưỡng đã tách thành số (migration 0024). NULL ở 4 mục có ngưỡng thuần chữ
+  // — những mục đó chỉ đánh dấu tay được, không tự chấm.
+  pass_dir: RoadmapPassDir | null;
+  pass_value: number | null;
+  pass_total: number | null;      // NULL khi ngưỡng không có mẫu số ("≥ 6 keyword/bài")
+  pass_unit: 'count' | 'percent' | null;
+}
+
+export interface RoadmapItemWithProgress extends RoadmapItem {
+  status: RoadmapStatus;
+  note: string | null;     // ghi chú của user: điểm thật, chỗ sai…
+  tested_at: string | null;
+  needs_retest: boolean;   // pass nhưng đã quá ROADMAP_RETEST_DAYS ngày
+}
+
+export interface RoadmapSkillSummary {
+  code: string;
+  label: string;
+  note: string | null;
+  position: number;
+  total: number;
+  pass: number;
+  fail: number;
+  untested: number;
+  needs_retest: number;
+}
+
+// Một lần tự kiểm tra. 'manual' = user tự nhập điểm sau khi test ở ngoài
+// (APEUni, giấy…). Các công cụ trong app sau này dùng mã riêng 'T1', 'T2', …
+// 'T8S' = biến thể trọng âm từ của T8 (nghe chọn âm tiết được nhấn).
+// 'T3S' = biến thể của T3: bấm chọn từ được nhấn trong câu thay vì gõ lại.
+export type RoadmapTestSource = 'manual' | 'T1' | 'T2' | 'T3' | 'T3S' | 'T4' | 'T5' | 'T6' | 'T7' | 'T8' | 'T8S';
+
+export interface RoadmapTestRun {
+  id: number;
+  user_id: number;
+  item_key: string;
+  source: RoadmapTestSource;
+  score: number;
+  total: number | null;
+  passed: boolean;
+  /** false = lưu khi đang làm dở; không được chấm Đạt/Chưa đạt. */
+  completed: boolean;
+  note: string | null;
+  created_at: string;
+}
+
+/** Tóm tắt lần tự kiểm gần nhất — đủ để hiện "✓ 48/50" trên một hàng. */
+export interface RoadmapLatestRun {
+  score: number;
+  total: number | null;
+  passed: boolean;
+  created_at: string;
+}
+
+export interface RoadmapTool {
+  task: string;
+  tool: string;
+  note: string | null;
+}
+
+// ============================================================================
+// Thư viện bộ từ có sẵn (preset decks) — nội dung dùng chung, không user_id.
+// Lấy bộ về = chép các từ đã chọn thành flashcards của user.
+// Nguồn: content/preset-decks/ → migration 0033.
+// ============================================================================
+
+// preset_decks (các khối ≤ 30 từ) chỉ là đơn vị soạn nội dung; user nhìn và
+// lấy từ theo LEVEL, tự chọn số từ mỗi bộ khi lấy về.
+
+export interface PresetLevel {
+  code: string;            // 'ngsl-1', 'awl-3'
+  list_code: string;       // 'ngsl' | 'awl'
+  label: string;
+  description: string | null;
+  position: number;
+  /** Màu/icon (hex, tên lucide) gán cho bộ user tạo ra; null khi level chưa có bộ nào. */
+  color: string | null;
+  icon: string | null;
+  card_count: number;
+  /** Số từ của level đã có trong bất kỳ bộ nào của user (không phân biệt hoa thường). */
+  owned_count: number;
+}
+
+export interface PresetCard {
+  english: string;
+  vietnamese: string;
+  part_of_speech: string | null;
+  /** Oxford US (CMU khi Oxford không có). */
+  ipa: string | null;
+  /** URL mp3 Oxford US; null → đọc bằng giọng trình duyệt. */
+  audio_src: string | null;
+  image_url: string | null;
+  image_attribution: FlashcardImageAttribution | null;
+  examples: FlashcardExample[];
+  collocations: FlashcardCollocation[];
+  notes: string | null;
+  /** Thứ hạng tần suất trong NGSL (1 = thông dụng nhất); null = ngoài ~2.800 từ NGSL. */
+  ngsl_rank: number | null;
+}
+
+export interface PresetCardWithOwnership extends PresetCard {
+  /** Bộ của user đang chứa từ này (nếu có). */
+  owned_in: { deck_id: number; deck_name: string } | null;
+}
+
+export interface PresetLevelDetail extends Omit<PresetLevel, 'card_count' | 'owned_count'> {
+  cards: PresetCardWithOwnership[];
+}

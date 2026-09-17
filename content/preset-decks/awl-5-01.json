@@ -1,0 +1,879 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 5 · Bộ 1",
+    "description": "Academic Word List, sublist 5",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-5-01"
+  },
+  "cards": [
+    {
+      "english": "academy",
+      "vietnamese": "học viện; viện hàn lâm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She trained as a pilot at a military academy for four years.",
+          "vi": "Cô ấy được đào tạo làm phi công tại một học viện quân sự trong bốn năm."
+        },
+        {
+          "en": "He was accepted into the police academy after finishing college.",
+          "vi": "Anh ấy được nhận vào học viện cảnh sát sau khi học xong đại học."
+        },
+        {
+          "en": "The country's science academy has published a new report on water safety.",
+          "vi": "Viện hàn lâm khoa học của nước này vừa công bố một báo cáo mới về an toàn nguồn nước."
+        }
+      ],
+      "collocations": [
+        "military academy",
+        "police academy",
+        "academy of sciences"
+      ],
+      "notes": null,
+      "ipa": "/əˈkædəmi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aca/acade/academy__us_1.mp3"
+    },
+    {
+      "english": "adjust",
+      "vietnamese": "điều chỉnh; thích nghi",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company adjusted its prices to reflect higher fuel costs.",
+          "vi": "Công ty đã điều chỉnh giá để phản ánh chi phí nhiên liệu tăng cao.",
+          "image_url": "https://images.pexels.com/photos/8266747/pexels-photo-8266747.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "It took the new students several weeks to adjust to university life.",
+          "vi": "Các sinh viên mới phải mất vài tuần để thích nghi với cuộc sống đại học."
+        },
+        {
+          "en": "All figures have been adjusted for inflation to allow fair comparisons.",
+          "vi": "Tất cả số liệu đã được điều chỉnh theo lạm phát để có thể so sánh công bằng."
+        }
+      ],
+      "collocations": [
+        "adjust to",
+        "adjust for inflation",
+        "adjust accordingly"
+      ],
+      "notes": "adjust to + danh từ / V-ing: thích nghi với",
+      "ipa": "/əˈdʒʌst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adj/adjus/adjust__us_1.mp3"
+    },
+    {
+      "english": "alter",
+      "vietnamese": "thay đổi; sửa đổi",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The new evidence does not alter our main conclusions.",
+          "vi": "Bằng chứng mới không làm thay đổi các kết luận chính của chúng tôi."
+        },
+        {
+          "en": "Rising temperatures could significantly alter the habitats of many species.",
+          "vi": "Nhiệt độ tăng có thể làm thay đổi đáng kể môi trường sống của nhiều loài."
+        },
+        {
+          "en": "The plans were altered after residents raised concerns about traffic.",
+          "vi": "Kế hoạch đã được sửa đổi sau khi người dân bày tỏ lo ngại về giao thông."
+        }
+      ],
+      "collocations": [
+        "significantly alter",
+        "radically alter",
+        "alter the situation"
+      ],
+      "notes": null,
+      "ipa": "/ˈɔːltər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/alt/alter/alter__us_4.mp3"
+    },
+    {
+      "english": "amend",
+      "vietnamese": "sửa đổi; bổ sung",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please amend the contract before sending it to the client.",
+          "vi": "Vui lòng sửa đổi hợp đồng trước khi gửi cho khách hàng."
+        },
+        {
+          "en": "Lawmakers voted to amend the law on data protection.",
+          "vi": "Các nhà lập pháp đã bỏ phiếu sửa đổi luật về bảo vệ dữ liệu.",
+          "image_url": "https://images.pexels.com/photos/38668890/pexels-photo-38668890.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The company rules were amended to allow staff to work from home.",
+          "vi": "Nội quy công ty đã được sửa đổi để cho phép nhân viên làm việc tại nhà."
+        }
+      ],
+      "collocations": [
+        "amend the law",
+        "amend the contract",
+        "amended version"
+      ],
+      "notes": null,
+      "ipa": "/əˈmend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ame/amend/amend__us_1.mp3"
+    },
+    {
+      "english": "aware",
+      "vietnamese": "nhận thức được; biết",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Many patients are not aware of the risks of the treatment.",
+          "vi": "Nhiều bệnh nhân không nhận thức được những rủi ro của phương pháp điều trị."
+        },
+        {
+          "en": "We only became aware of the problem after customers complained.",
+          "vi": "Chúng tôi chỉ biết đến vấn đề sau khi khách hàng phàn nàn."
+        },
+        {
+          "en": "Staff should be aware that the building will close early on Friday.",
+          "vi": "Nhân viên cần biết rằng tòa nhà sẽ đóng cửa sớm vào thứ Sáu."
+        }
+      ],
+      "collocations": [
+        "aware of",
+        "become aware",
+        "fully aware",
+        "well aware"
+      ],
+      "notes": "aware of + danh từ / aware that + mệnh đề",
+      "ipa": "/əˈwer/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/awa/aware/aware__us_1.mp3"
+    },
+    {
+      "english": "capacity",
+      "vietnamese": "sức chứa; công suất; năng lực",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The stadium has a capacity of about forty thousand people.",
+          "vi": "Sân vận động có sức chứa khoảng bốn mươi nghìn người."
+        },
+        {
+          "en": "The factory is now running at full capacity.",
+          "vi": "Nhà máy hiện đang hoạt động hết công suất."
+        },
+        {
+          "en": "Some children have a greater capacity for learning languages than others.",
+          "vi": "Một số trẻ có năng lực học ngôn ngữ lớn hơn những trẻ khác.",
+          "image_url": "https://images.pexels.com/photos/5088184/pexels-photo-5088184.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "full capacity",
+        "production capacity",
+        "seating capacity",
+        "capacity for"
+      ],
+      "notes": null,
+      "ipa": "/kəˈpæsəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cap/capac/capacity__us_3.mp3"
+    },
+    {
+      "english": "challenge",
+      "vietnamese": "thách thức; thử thách",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Climate change is one of the biggest challenges facing the world today.",
+          "vi": "Biến đổi khí hậu là một trong những thách thức lớn nhất mà thế giới đang đối mặt hiện nay."
+        },
+        {
+          "en": "The new manager faces the challenge of reducing costs without cutting jobs.",
+          "vi": "Người quản lý mới phải đối mặt với thách thức giảm chi phí mà không cắt giảm việc làm."
+        },
+        {
+          "en": "Learning to write academic essays was a real challenge for her.",
+          "vi": "Học viết bài luận học thuật là một thử thách thực sự đối với cô ấy."
+        }
+      ],
+      "collocations": [
+        "face a challenge",
+        "major challenge",
+        "meet the challenge",
+        "pose a challenge"
+      ],
+      "notes": null,
+      "ipa": "/ˈtʃælɪndʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chall/challenge__us_1.mp3"
+    },
+    {
+      "english": "clause",
+      "vietnamese": "điều khoản; mệnh đề",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The contract includes a clause that protects the company from losses.",
+          "vi": "Hợp đồng có một điều khoản bảo vệ công ty khỏi thua lỗ."
+        },
+        {
+          "en": "Both sides agreed to remove the disputed clause from the agreement.",
+          "vi": "Cả hai bên đồng ý loại bỏ điều khoản đang tranh chấp khỏi thỏa thuận."
+        },
+        {
+          "en": "In this sentence, the second clause explains the reason for the delay.",
+          "vi": "Trong câu này, mệnh đề thứ hai giải thích lý do của sự chậm trễ."
+        }
+      ],
+      "collocations": [
+        "clause in the contract",
+        "include a clause",
+        "relative clause"
+      ],
+      "notes": null,
+      "ipa": "/klɔːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cla/claus/clause__us_1.mp3"
+    },
+    {
+      "english": "compound",
+      "vietnamese": "hợp chất; từ ghép",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Researchers found several harmful compounds in the drinking water.",
+          "vi": "Các nhà nghiên cứu đã phát hiện một số hợp chất độc hại trong nước uống.",
+          "image_url": "https://images.pexels.com/photos/6655560/pexels-photo-6655560.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Water is a compound of hydrogen and oxygen.",
+          "vi": "Nước là hợp chất của hydro và oxy.",
+          "image_url": "https://images.pexels.com/photos/6655560/pexels-photo-6655560.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "In English, many compounds are formed by joining two shorter words.",
+          "vi": "Trong tiếng Anh, nhiều từ ghép được tạo thành bằng cách ghép hai từ ngắn hơn.",
+          "image_url": "https://images.pexels.com/photos/6655560/pexels-photo-6655560.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "chemical compound",
+        "organic compound",
+        "compound of"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːmpaʊnd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compo/compound__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/6655560/pexels-photo-6655560.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "RDNE Stock project",
+        "author_url": "https://www.pexels.com/@rdne",
+        "source_url": "https://www.pexels.com/photo/a-person-holding-an-archery-bow-6655560/"
+      }
+    },
+    {
+      "english": "conflict",
+      "vietnamese": "xung đột; mâu thuẫn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Managers need clear strategies for resolving conflicts between team members.",
+          "vi": "Các nhà quản lý cần có chiến lược rõ ràng để giải quyết xung đột giữa các thành viên trong nhóm."
+        },
+        {
+          "en": "There is a clear conflict between the two sets of results.",
+          "vi": "Có sự mâu thuẫn rõ ràng giữa hai bộ kết quả."
+        },
+        {
+          "en": "Board members must declare any conflict of interest before the vote.",
+          "vi": "Các thành viên hội đồng quản trị phải khai báo mọi xung đột lợi ích trước khi bỏ phiếu."
+        }
+      ],
+      "collocations": [
+        "resolve a conflict",
+        "conflict of interest",
+        "conflict between",
+        "in conflict with"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːnflɪkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconf/xconflict__us_1.mp3"
+    },
+    {
+      "english": "consult",
+      "vietnamese": "hỏi ý kiến; tham khảo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "You should consult a doctor before starting any new exercise program.",
+          "vi": "Bạn nên hỏi ý kiến bác sĩ trước khi bắt đầu bất kỳ chương trình tập luyện mới nào.",
+          "image_url": "https://images.pexels.com/photos/8413162/pexels-photo-8413162.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The city council consulted local residents before approving the new park.",
+          "vi": "Hội đồng thành phố đã hỏi ý kiến người dân địa phương trước khi phê duyệt công viên mới."
+        },
+        {
+          "en": "Students are encouraged to consult a range of sources for their essays.",
+          "vi": "Sinh viên được khuyến khích tham khảo nhiều nguồn tài liệu khác nhau cho bài luận."
+        }
+      ],
+      "collocations": [
+        "consult a doctor",
+        "consult a lawyer",
+        "consult with"
+      ],
+      "notes": "consult + người: hỏi ý kiến · consult + tài liệu: tra cứu, tham khảo",
+      "ipa": "/kənˈsʌlt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsult__us_1.mp3"
+    },
+    {
+      "english": "contact",
+      "vietnamese": "sự liên lạc; sự tiếp xúc; người quen",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The research team stays in regular contact with local hospitals.",
+          "vi": "Nhóm nghiên cứu thường xuyên giữ liên lạc với các bệnh viện địa phương."
+        },
+        {
+          "en": "The virus spreads through close contact with infected animals.",
+          "vi": "Vi-rút lây lan qua tiếp xúc gần với động vật bị nhiễm bệnh."
+        },
+        {
+          "en": "She has many useful contacts in the publishing industry.",
+          "vi": "Cô ấy có nhiều người quen hữu ích trong ngành xuất bản."
+        }
+      ],
+      "collocations": [
+        "in contact with",
+        "close contact",
+        "make contact",
+        "business contacts"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːntækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontact__us_1.mp3"
+    },
+    {
+      "english": "decline",
+      "vietnamese": "giảm sút; từ chối",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The number of students taking foreign languages has declined sharply.",
+          "vi": "Số lượng sinh viên học ngoại ngữ đã giảm mạnh."
+        },
+        {
+          "en": "Sales continued to decline during the second half of the year.",
+          "vi": "Doanh số tiếp tục giảm trong nửa cuối năm.",
+          "image_url": "https://images.pexels.com/photos/7986986/pexels-photo-7986986.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The company declined to comment on reports of job cuts.",
+          "vi": "Công ty từ chối bình luận về các thông tin cắt giảm việc làm."
+        }
+      ],
+      "collocations": [
+        "decline sharply",
+        "decline steadily",
+        "decline to comment"
+      ],
+      "notes": "decline to + V: từ chối làm gì (lịch sự, trang trọng)",
+      "ipa": "/dɪˈklaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dec/decli/decline__us_2.mp3"
+    },
+    {
+      "english": "discrete",
+      "vietnamese": "riêng biệt; rời rạc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The course is divided into six discrete units.",
+          "vi": "Khóa học được chia thành sáu học phần riêng biệt."
+        },
+        {
+          "en": "The project can be broken down into several discrete tasks.",
+          "vi": "Dự án có thể được chia nhỏ thành nhiều nhiệm vụ riêng biệt."
+        },
+        {
+          "en": "Unlike height, the number of children in a family is a discrete variable.",
+          "vi": "Khác với chiều cao, số con trong một gia đình là biến rời rạc."
+        }
+      ],
+      "collocations": [
+        "discrete units",
+        "discrete categories",
+        "discrete variable"
+      ],
+      "notes": "discrete (riêng biệt) ≠ discreet (kín đáo)",
+      "ipa": "/dɪˈskriːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/discr/discrete__us_1.mp3"
+    },
+    {
+      "english": "draft",
+      "vietnamese": "bản nháp; bản dự thảo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I sent my supervisor the first draft of my thesis yesterday.",
+          "vi": "Hôm qua tôi đã gửi bản nháp đầu tiên của luận văn cho người hướng dẫn."
+        },
+        {
+          "en": "A draft of the new policy will be shared with staff next week.",
+          "vi": "Bản dự thảo chính sách mới sẽ được gửi cho nhân viên vào tuần tới."
+        },
+        {
+          "en": "The final draft included several changes suggested by the reviewers.",
+          "vi": "Bản thảo cuối cùng có một số thay đổi do những người phản biện đề xuất.",
+          "image_url": "https://images.pexels.com/photos/7968061/pexels-photo-7968061.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "first draft",
+        "final draft",
+        "rough draft",
+        "draft of"
+      ],
+      "notes": null,
+      "ipa": "/dræft/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dra/draft/draft__us_1.mp3"
+    },
+    {
+      "english": "enable",
+      "vietnamese": "cho phép; giúp có thể",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The new software enables researchers to process data much faster.",
+          "vi": "Phần mềm mới giúp các nhà nghiên cứu xử lý dữ liệu nhanh hơn nhiều."
+        },
+        {
+          "en": "Online courses enable people to study while working full-time.",
+          "vi": "Các khóa học trực tuyến cho phép mọi người vừa học vừa làm việc toàn thời gian."
+        },
+        {
+          "en": "The grant will enable the school to build a new science lab.",
+          "vi": "Khoản tài trợ sẽ giúp nhà trường có thể xây một phòng thí nghiệm khoa học mới."
+        }
+      ],
+      "collocations": [
+        "enable people to",
+        "enable users to",
+        "enable someone to do something"
+      ],
+      "notes": "enable + tân ngữ + to V",
+      "ipa": "/ɪˈneɪbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ena/enabl/enable__us_3.mp3"
+    },
+    {
+      "english": "energy",
+      "vietnamese": "năng lượng; sức lực",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Many countries are investing heavily in renewable energy.",
+          "vi": "Nhiều quốc gia đang đầu tư mạnh vào năng lượng tái tạo."
+        },
+        {
+          "en": "New buildings must meet strict standards for energy efficiency.",
+          "vi": "Các tòa nhà mới phải đáp ứng tiêu chuẩn nghiêm ngặt về hiệu quả năng lượng."
+        },
+        {
+          "en": "After a long day of meetings, I had no energy left.",
+          "vi": "Sau một ngày dài họp hành, tôi không còn chút sức lực nào."
+        }
+      ],
+      "collocations": [
+        "renewable energy",
+        "energy efficiency",
+        "energy consumption",
+        "solar energy"
+      ],
+      "notes": null,
+      "ipa": "/ˈenərdʒi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ene/energ/energy__us_2.mp3"
+    },
+    {
+      "english": "enforce",
+      "vietnamese": "thực thi; buộc tuân theo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Police officers are responsible for enforcing the law.",
+          "vi": "Cảnh sát chịu trách nhiệm thực thi pháp luật.",
+          "image_url": "https://images.pexels.com/photos/7714983/pexels-photo-7714983.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The school strictly enforces its rules on mobile phone use.",
+          "vi": "Nhà trường thực thi nghiêm ngặt các quy định về việc sử dụng điện thoại di động.",
+          "image_url": "https://images.pexels.com/photos/7714983/pexels-photo-7714983.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The new safety regulations will be enforced from next January.",
+          "vi": "Các quy định an toàn mới sẽ được áp dụng bắt buộc từ tháng Một năm sau.",
+          "image_url": "https://images.pexels.com/photos/7714983/pexels-photo-7714983.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "enforce the law",
+        "strictly enforce",
+        "enforce rules",
+        "enforce regulations"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈfɔːrs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/enf/enfor/enforce__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/7714983/pexels-photo-7714983.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Kindel Media",
+        "author_url": "https://www.pexels.com/@kindelmedia",
+        "source_url": "https://www.pexels.com/photo/police-officer-looking-sideways-7714983/"
+      }
+    },
+    {
+      "english": "entity",
+      "vietnamese": "thực thể; pháp nhân",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The two companies will continue to operate as separate legal entities.",
+          "vi": "Hai công ty sẽ tiếp tục hoạt động như những pháp nhân riêng biệt."
+        },
+        {
+          "en": "In the database, each customer is stored as a separate entity.",
+          "vi": "Trong cơ sở dữ liệu, mỗi khách hàng được lưu dưới dạng một thực thể riêng."
+        },
+        {
+          "en": "The university and its research institute are now a single entity.",
+          "vi": "Trường đại học và viện nghiên cứu của trường nay đã trở thành một thực thể duy nhất."
+        }
+      ],
+      "collocations": [
+        "legal entity",
+        "separate entity",
+        "single entity",
+        "business entity"
+      ],
+      "notes": null,
+      "ipa": "/ˈentəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ent/entit/entity__us_1.mp3"
+    },
+    {
+      "english": "equivalent",
+      "vietnamese": "tương đương; vật tương đương",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Applicants need a bachelor's degree or an equivalent qualification.",
+          "vi": "Ứng viên cần có bằng cử nhân hoặc bằng cấp tương đương.",
+          "image_url": "https://images.pexels.com/photos/32197560/pexels-photo-32197560.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The fine is equivalent to three months' salary.",
+          "vi": "Khoản tiền phạt tương đương với ba tháng lương."
+        },
+        {
+          "en": "There is no exact equivalent of this word in Vietnamese.",
+          "vi": "Từ này không có từ tương đương chính xác trong tiếng Việt."
+        }
+      ],
+      "collocations": [
+        "equivalent to",
+        "roughly equivalent",
+        "exact equivalent"
+      ],
+      "notes": "equivalent to (tính từ) · equivalent of (danh từ)",
+      "ipa": "/ɪˈkwɪvələnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/equ/equiv/equivalent__us_1.mp3"
+    },
+    {
+      "english": "evolve",
+      "vietnamese": "tiến hóa; phát triển dần",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Scientists believe that birds evolved from small dinosaurs.",
+          "vi": "Các nhà khoa học tin rằng chim đã tiến hóa từ những loài khủng long nhỏ."
+        },
+        {
+          "en": "The company has evolved from a small shop into a global business.",
+          "vi": "Công ty đã phát triển từ một cửa hàng nhỏ thành một doanh nghiệp toàn cầu."
+        },
+        {
+          "en": "Teaching methods continue to evolve as technology changes.",
+          "vi": "Các phương pháp giảng dạy tiếp tục phát triển khi công nghệ thay đổi."
+        }
+      ],
+      "collocations": [
+        "evolve from",
+        "evolve into",
+        "continue to evolve",
+        "rapidly evolving"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈvɑːlv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/evo/evolv/evolve__us_5.mp3"
+    },
+    {
+      "english": "expand",
+      "vietnamese": "mở rộng; giãn nở",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company plans to expand into Asian markets next year.",
+          "vi": "Công ty dự định mở rộng sang các thị trường châu Á vào năm tới."
+        },
+        {
+          "en": "The university has expanded its online programs to reach more students.",
+          "vi": "Trường đại học đã mở rộng các chương trình trực tuyến để tiếp cận nhiều sinh viên hơn.",
+          "image_url": "https://images.pexels.com/photos/9158772/pexels-photo-9158772.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Most metals expand slightly when they are heated.",
+          "vi": "Hầu hết kim loại giãn nở nhẹ khi bị nung nóng."
+        }
+      ],
+      "collocations": [
+        "expand into",
+        "expand rapidly",
+        "expand services"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈspænd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/expan/expand__us_1.mp3"
+    },
+    {
+      "english": "expose",
+      "vietnamese": "cho tiếp xúc; phơi bày",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Studying abroad exposes students to new ideas and cultures.",
+          "vi": "Du học giúp sinh viên tiếp xúc với những ý tưởng và nền văn hóa mới."
+        },
+        {
+          "en": "Workers who are exposed to loud noise may suffer hearing loss.",
+          "vi": "Những công nhân tiếp xúc với tiếng ồn lớn có thể bị suy giảm thính lực."
+        },
+        {
+          "en": "The investigation exposed serious weaknesses in the company's safety system.",
+          "vi": "Cuộc điều tra đã phơi bày những điểm yếu nghiêm trọng trong hệ thống an toàn của công ty."
+        }
+      ],
+      "collocations": [
+        "exposed to",
+        "expose the truth",
+        "expose weaknesses"
+      ],
+      "notes": "expose sb/sth to sth: để ai/cái gì tiếp xúc với",
+      "ipa": "/ɪkˈspəʊz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/expos/expose__us_1.mp3"
+    },
+    {
+      "english": "external",
+      "vietnamese": "bên ngoài",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The report was reviewed by two external experts.",
+          "vi": "Báo cáo đã được hai chuyên gia bên ngoài thẩm định."
+        },
+        {
+          "en": "Small businesses are often hit hardest by external factors like rising costs.",
+          "vi": "Các doanh nghiệp nhỏ thường bị ảnh hưởng nặng nề nhất bởi các yếu tố bên ngoài như chi phí tăng."
+        },
+        {
+          "en": "This cream is for external use only.",
+          "vi": "Loại kem này chỉ dùng ngoài da.",
+          "image_url": "https://images.pexels.com/photos/7941454/pexels-photo-7941454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "external factors",
+        "external examiner",
+        "external use",
+        "external pressure"
+      ],
+      "notes": "external ≠ internal (bên trong)",
+      "ipa": "/ɪkˈstɜːrnl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ext/exter/external__us_1.mp3"
+    },
+    {
+      "english": "facilitate",
+      "vietnamese": "tạo điều kiện thuận lợi; điều phối",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Good lighting and quiet spaces can facilitate learning.",
+          "vi": "Ánh sáng tốt và không gian yên tĩnh có thể tạo điều kiện thuận lợi cho việc học."
+        },
+        {
+          "en": "The new bridge will facilitate trade between the two regions.",
+          "vi": "Cây cầu mới sẽ tạo thuận lợi cho giao thương giữa hai vùng."
+        },
+        {
+          "en": "An experienced teacher facilitated the group discussion.",
+          "vi": "Một giáo viên giàu kinh nghiệm đã điều phối buổi thảo luận nhóm."
+        }
+      ],
+      "collocations": [
+        "facilitate learning",
+        "facilitate communication",
+        "facilitate trade",
+        "facilitate a discussion"
+      ],
+      "notes": null,
+      "ipa": "/fəˈsɪlɪteɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fac/facil/facilitate__us_1.mp3"
+    },
+    {
+      "english": "fundamental",
+      "vietnamese": "cơ bản; căn bản",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "There is a fundamental difference between these two approaches.",
+          "vi": "Có một sự khác biệt cơ bản giữa hai cách tiếp cận này."
+        },
+        {
+          "en": "Access to clean water is a fundamental human right.",
+          "vi": "Được tiếp cận nước sạch là một quyền cơ bản của con người."
+        },
+        {
+          "en": "The company needs to make fundamental changes to the way it operates.",
+          "vi": "Công ty cần thực hiện những thay đổi căn bản trong cách vận hành."
+        }
+      ],
+      "collocations": [
+        "fundamental difference",
+        "fundamental change",
+        "fundamental right",
+        "fundamental principle"
+      ],
+      "notes": null,
+      "ipa": "/ˌfʌndəˈmentl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fun/funda/fundamental__us_3.mp3"
+    },
+    {
+      "english": "generate",
+      "vietnamese": "tạo ra; sản sinh",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Tourism generates about a third of the region's income.",
+          "vi": "Du lịch tạo ra khoảng một phần ba thu nhập của khu vực.",
+          "image_url": "https://images.pexels.com/photos/10143477/pexels-photo-10143477.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Wind turbines generate electricity without producing harmful emissions.",
+          "vi": "Tua-bin gió sản sinh điện năng mà không thải ra khí độc hại.",
+          "image_url": "https://images.pexels.com/photos/10143477/pexels-photo-10143477.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The proposal has generated a lot of interest among investors.",
+          "vi": "Đề xuất này đã tạo ra nhiều sự quan tâm trong giới đầu tư.",
+          "image_url": "https://images.pexels.com/photos/10143477/pexels-photo-10143477.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "generate income",
+        "generate electricity",
+        "generate interest",
+        "generate revenue"
+      ],
+      "notes": null,
+      "ipa": "/ˈdʒenəreɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gen/gener/generate__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/10143477/pexels-photo-10143477.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Rommel Ortiz",
+        "author_url": "https://www.pexels.com/@rommel-ortiz-126770872",
+        "source_url": "https://www.pexels.com/photo/interior-of-factory-10143477/"
+      }
+    },
+    {
+      "english": "generation",
+      "vietnamese": "thế hệ; sự sản xuất",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Young people of this generation spend much of their time online.",
+          "vi": "Người trẻ thuộc thế hệ này dành phần lớn thời gian trên mạng."
+        },
+        {
+          "en": "The family business has been passed down through three generations.",
+          "vi": "Công việc kinh doanh của gia đình đã được truyền qua ba thế hệ."
+        },
+        {
+          "en": "Coal is still widely used for electricity generation in many countries.",
+          "vi": "Than vẫn được sử dụng rộng rãi để sản xuất điện ở nhiều quốc gia."
+        }
+      ],
+      "collocations": [
+        "younger generation",
+        "future generations",
+        "next generation",
+        "electricity generation"
+      ],
+      "notes": null,
+      "ipa": "/ˌdʒenəˈreɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gen/gener/generation__us_1.mp3"
+    },
+    {
+      "english": "image",
+      "vietnamese": "hình ảnh; hình tượng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The company is trying to improve its public image after a difficult year.",
+          "vi": "Công ty đang cố gắng cải thiện hình ảnh trước công chúng sau một năm khó khăn.",
+          "image_url": "https://images.pexels.com/photos/267399/pexels-photo-267399.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Satellite images show that the forest has shrunk significantly.",
+          "vi": "Ảnh vệ tinh cho thấy khu rừng đã bị thu hẹp đáng kể."
+        },
+        {
+          "en": "Advertising often presents an unrealistic image of family life.",
+          "vi": "Quảng cáo thường đưa ra một hình ảnh thiếu thực tế về cuộc sống gia đình."
+        }
+      ],
+      "collocations": [
+        "public image",
+        "satellite image",
+        "positive image",
+        "image of"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪmɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ima/image/image__us_1.mp3"
+    },
+    {
+      "english": "liberal",
+      "vietnamese": "cởi mở; phóng khoáng; rộng rãi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She has fairly liberal views on how children should be raised.",
+          "vi": "Bà ấy có quan điểm khá cởi mở về cách nuôi dạy con cái."
+        },
+        {
+          "en": "The company has a liberal policy on working from home.",
+          "vi": "Công ty có chính sách cởi mở về việc làm việc tại nhà."
+        },
+        {
+          "en": "Students are encouraged to make liberal use of the library's resources.",
+          "vi": "Sinh viên được khuyến khích sử dụng rộng rãi các tài nguyên của thư viện."
+        }
+      ],
+      "collocations": [
+        "liberal views",
+        "liberal attitude",
+        "liberal use of",
+        "liberal arts"
+      ],
+      "notes": null,
+      "ipa": "/ˈlɪbərəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lib/liber/liberal__us_1_rr.mp3"
+    }
+  ]
+}

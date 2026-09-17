@@ -1,0 +1,874 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 2 · Bộ 2",
+    "description": "Academic Word List, sublist 2",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-2-02"
+  },
+  "cards": [
+    {
+      "english": "institute",
+      "vietnamese": "viện; học viện",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She works as a researcher at a national institute of health.",
+          "vi": "Cô ấy làm nhà nghiên cứu tại một viện y tế quốc gia.",
+          "image_url": "https://images.pexels.com/photos/8976432/pexels-photo-8976432.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The institute publishes a report on air quality every year.",
+          "vi": "Viện này công bố báo cáo về chất lượng không khí hằng năm."
+        },
+        {
+          "en": "He studied computer science at an institute of technology in the capital.",
+          "vi": "Anh ấy học khoa học máy tính tại một học viện công nghệ ở thủ đô."
+        }
+      ],
+      "collocations": [
+        "research institute",
+        "institute of technology",
+        "national institute"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪnstɪtuːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/insti/institute__us_2.mp3"
+    },
+    {
+      "english": "invest",
+      "vietnamese": "đầu tư",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The government plans to invest heavily in renewable energy.",
+          "vi": "Chính phủ dự định đầu tư mạnh vào năng lượng tái tạo."
+        },
+        {
+          "en": "Many companies invested billions in new technology last year.",
+          "vi": "Năm ngoái, nhiều công ty đã đầu tư hàng tỷ vào công nghệ mới."
+        },
+        {
+          "en": "Schools should invest more time in training their teachers.",
+          "vi": "Các trường học nên đầu tư nhiều thời gian hơn vào việc đào tạo giáo viên."
+        }
+      ],
+      "collocations": [
+        "invest in",
+        "invest heavily",
+        "invest money",
+        "invest time"
+      ],
+      "notes": "invest in + danh từ / V-ing",
+      "ipa": "/ɪnˈvest/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inv/inves/invest__us_1.mp3"
+    },
+    {
+      "english": "item",
+      "vietnamese": "món; mặt hàng; mục",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Customers can return any item within thirty days of purchase.",
+          "vi": "Khách hàng có thể trả lại bất kỳ món hàng nào trong vòng ba mươi ngày kể từ khi mua."
+        },
+        {
+          "en": "The first item on the agenda is the new budget.",
+          "vi": "Mục đầu tiên trong chương trình họp là ngân sách mới.",
+          "image_url": "https://images.pexels.com/photos/19797336/pexels-photo-19797336.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Food prices rose sharply, especially for basic items like rice and oil.",
+          "vi": "Giá thực phẩm tăng mạnh, đặc biệt là các mặt hàng thiết yếu như gạo và dầu ăn."
+        }
+      ],
+      "collocations": [
+        "item on the agenda",
+        "household items",
+        "individual items"
+      ],
+      "notes": null,
+      "ipa": "/ˈaɪtəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ite/item_/item__us_1.mp3"
+    },
+    {
+      "english": "journal",
+      "vietnamese": "tạp chí chuyên ngành; nhật ký",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The study was published in a leading medical journal.",
+          "vi": "Nghiên cứu này được đăng trên một tạp chí y khoa hàng đầu."
+        },
+        {
+          "en": "Most researchers try to publish their work in peer-reviewed journals.",
+          "vi": "Hầu hết các nhà nghiên cứu cố gắng đăng công trình của mình trên các tạp chí có phản biện."
+        },
+        {
+          "en": "Students keep a journal to record what they learn each week.",
+          "vi": "Sinh viên viết nhật ký để ghi lại những gì họ học được mỗi tuần."
+        }
+      ],
+      "collocations": [
+        "academic journal",
+        "medical journal",
+        "publish in a journal",
+        "keep a journal"
+      ],
+      "notes": null,
+      "ipa": "/ˈdʒɜːrnl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/j/jou/journ/journal__us_1.mp3"
+    },
+    {
+      "english": "maintain",
+      "vietnamese": "duy trì; bảo dưỡng; khẳng định",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company has maintained high standards of quality for decades.",
+          "vi": "Công ty đã duy trì tiêu chuẩn chất lượng cao trong nhiều thập kỷ."
+        },
+        {
+          "en": "The city spends millions each year to maintain its roads.",
+          "vi": "Thành phố chi hàng triệu mỗi năm để bảo dưỡng đường sá."
+        },
+        {
+          "en": "He has always maintained that he did nothing wrong.",
+          "vi": "Anh ấy luôn khẳng định rằng mình không làm gì sai.",
+          "image_url": "https://images.pexels.com/photos/7114346/pexels-photo-7114346.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "maintain standards",
+        "maintain a balance",
+        "maintain contact"
+      ],
+      "notes": null,
+      "ipa": "/meɪnˈteɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mai/maint/maintain__us_2.mp3"
+    },
+    {
+      "english": "normal",
+      "vietnamese": "bình thường",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Test results showed that her blood pressure was normal.",
+          "vi": "Kết quả xét nghiệm cho thấy huyết áp của cô ấy bình thường."
+        },
+        {
+          "en": "Under normal conditions, the process takes about two weeks.",
+          "vi": "Trong điều kiện bình thường, quy trình này mất khoảng hai tuần."
+        },
+        {
+          "en": "It is perfectly normal to feel nervous before a job interview.",
+          "vi": "Cảm thấy lo lắng trước buổi phỏng vấn xin việc là hoàn toàn bình thường."
+        }
+      ],
+      "collocations": [
+        "normal conditions",
+        "perfectly normal",
+        "return to normal"
+      ],
+      "notes": null,
+      "ipa": "/ˈnɔːrml/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nor/norma/normal__us_1.mp3"
+    },
+    {
+      "english": "obtain",
+      "vietnamese": "có được; thu được; xin được",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Researchers obtained the data from hospital records.",
+          "vi": "Các nhà nghiên cứu thu được dữ liệu từ hồ sơ bệnh viện."
+        },
+        {
+          "en": "Foreign workers must obtain a work permit before starting their jobs.",
+          "vi": "Lao động nước ngoài phải xin được giấy phép lao động trước khi bắt đầu làm việc."
+        },
+        {
+          "en": "Similar results were obtained in both experiments.",
+          "vi": "Cả hai thí nghiệm đều thu được kết quả tương tự."
+        }
+      ],
+      "collocations": [
+        "obtain data",
+        "obtain information",
+        "obtain permission",
+        "obtain a permit"
+      ],
+      "notes": "trang trọng hơn get",
+      "ipa": "/əbˈteɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/obt/obtai/obtain__us_1.mp3"
+    },
+    {
+      "english": "participate",
+      "vietnamese": "tham gia",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "More than five hundred students participated in the survey.",
+          "vi": "Hơn năm trăm sinh viên đã tham gia cuộc khảo sát.",
+          "image_url": "https://images.pexels.com/photos/25682484/pexels-photo-25682484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Employees are encouraged to participate actively in team meetings.",
+          "vi": "Nhân viên được khuyến khích tích cực tham gia các cuộc họp nhóm.",
+          "image_url": "https://images.pexels.com/photos/25682484/pexels-photo-25682484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Would you like to participate in our research project?",
+          "vi": "Bạn có muốn tham gia dự án nghiên cứu của chúng tôi không?",
+          "image_url": "https://images.pexels.com/photos/25682484/pexels-photo-25682484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "participate in",
+        "participate actively",
+        "participate fully"
+      ],
+      "notes": "participate in + danh từ / V-ing",
+      "ipa": "/pɑːrˈtɪsɪpeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/parti/participate__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/25682484/pexels-photo-25682484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Raúl Castaños",
+        "author_url": "https://www.pexels.com/@raul-castanos-1351706155",
+        "source_url": "https://www.pexels.com/photo/close-up-of-people-with-their-hands-painted-with-variety-of-colors-25682484/"
+      }
+    },
+    {
+      "english": "perceive",
+      "vietnamese": "nhận thấy; coi là; nhìn nhận",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many people perceive science as a difficult subject.",
+          "vi": "Nhiều người coi khoa học là một môn học khó."
+        },
+        {
+          "en": "The company is widely perceived as a good place to work.",
+          "vi": "Công ty này được nhiều người nhìn nhận là một nơi làm việc tốt."
+        },
+        {
+          "en": "Patients often perceive changes in their symptoms before doctors do.",
+          "vi": "Bệnh nhân thường nhận thấy những thay đổi trong triệu chứng của mình trước cả bác sĩ."
+        }
+      ],
+      "collocations": [
+        "perceive as",
+        "widely perceived",
+        "perceived risk"
+      ],
+      "notes": "perceive A as B: coi A là B",
+      "ipa": "/pərˈsiːv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/per/perce/perceive__us_1.mp3"
+    },
+    {
+      "english": "positive",
+      "vietnamese": "tích cực; khả quan; dương tính",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The new policy has had a positive effect on staff morale.",
+          "vi": "Chính sách mới đã có tác động tích cực đến tinh thần nhân viên.",
+          "image_url": "https://images.pexels.com/photos/5456822/pexels-photo-5456822.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Early results from the trial look very positive.",
+          "vi": "Kết quả ban đầu của cuộc thử nghiệm trông rất khả quan."
+        },
+        {
+          "en": "Three members of the team tested positive for flu last week.",
+          "vi": "Tuần trước, ba thành viên trong nhóm có kết quả xét nghiệm dương tính với cúm."
+        }
+      ],
+      "collocations": [
+        "positive effect",
+        "positive attitude",
+        "positive feedback",
+        "test positive"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɑːzətɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pos/posit/positive__us_2.mp3"
+    },
+    {
+      "english": "potential",
+      "vietnamese": "tiềm năng; tiềm tàng; có thể xảy ra",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The company is trying to attract potential customers through social media.",
+          "vi": "Công ty đang cố gắng thu hút khách hàng tiềm năng qua mạng xã hội."
+        },
+        {
+          "en": "Scientists warned about the potential risks of the new drug.",
+          "vi": "Các nhà khoa học đã cảnh báo về những rủi ro tiềm tàng của loại thuốc mới."
+        },
+        {
+          "en": "We need to identify potential problems before the project begins.",
+          "vi": "Chúng ta cần xác định những vấn đề có thể xảy ra trước khi dự án bắt đầu."
+        }
+      ],
+      "collocations": [
+        "potential customers",
+        "potential risks",
+        "potential benefits"
+      ],
+      "notes": "cũng là danh từ: tiềm năng (have potential)",
+      "ipa": "/pəˈtenʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pot/poten/potential__us_3.mp3"
+    },
+    {
+      "english": "previous",
+      "vietnamese": "trước; trước đây; trước đó",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Sales this year were higher than in the previous year.",
+          "vi": "Doanh số năm nay cao hơn so với năm trước."
+        },
+        {
+          "en": "Unlike previous studies, this research focused on older adults.",
+          "vi": "Khác với các nghiên cứu trước đây, nghiên cứu này tập trung vào người cao tuổi.",
+          "image_url": "https://images.pexels.com/photos/7983553/pexels-photo-7983553.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Applicants should have previous experience in customer service.",
+          "vi": "Ứng viên cần có kinh nghiệm trước đó trong lĩnh vực chăm sóc khách hàng."
+        }
+      ],
+      "collocations": [
+        "previous year",
+        "previous studies",
+        "previous experience"
+      ],
+      "notes": null,
+      "ipa": "/ˈpriːviəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/previ/previous__us_1.mp3"
+    },
+    {
+      "english": "primary",
+      "vietnamese": "chính; chủ yếu; tiểu học",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The primary goal of the program is to reduce poverty.",
+          "vi": "Mục tiêu chính của chương trình là giảm nghèo."
+        },
+        {
+          "en": "Poor diet is a primary cause of heart disease.",
+          "vi": "Chế độ ăn uống kém là một nguyên nhân chủ yếu gây bệnh tim."
+        },
+        {
+          "en": "Most children in the country attend primary school until age eleven.",
+          "vi": "Hầu hết trẻ em ở nước này học tiểu học cho đến mười một tuổi."
+        }
+      ],
+      "collocations": [
+        "primary goal",
+        "primary cause",
+        "primary school",
+        "primary source"
+      ],
+      "notes": null,
+      "ipa": "/ˈpraɪmeri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/prima/primary__us_1_rr.mp3"
+    },
+    {
+      "english": "purchase",
+      "vietnamese": "mua; mua sắm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Tickets can be purchased online or at the station.",
+          "vi": "Vé có thể được mua trực tuyến hoặc tại nhà ga."
+        },
+        {
+          "en": "The university purchased new equipment for its science laboratories.",
+          "vi": "Trường đại học đã mua thiết bị mới cho các phòng thí nghiệm khoa học."
+        },
+        {
+          "en": "Many young people cannot afford to purchase a home.",
+          "vi": "Nhiều người trẻ không đủ khả năng mua nhà.",
+          "image_url": "https://images.pexels.com/photos/7579046/pexels-photo-7579046.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "purchase goods",
+        "purchase equipment",
+        "purchase online"
+      ],
+      "notes": "trang trọng hơn buy; cũng là danh từ: sự mua",
+      "ipa": "/ˈpɜːrtʃəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pur/purch/purchase__us_1.mp3"
+    },
+    {
+      "english": "range",
+      "vietnamese": "loạt; phạm vi; khoảng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The store offers a wide range of products at low prices.",
+          "vi": "Cửa hàng cung cấp rất nhiều loại sản phẩm với giá thấp."
+        },
+        {
+          "en": "The report covers a range of topics, from health to education.",
+          "vi": "Báo cáo đề cập đến một loạt chủ đề, từ y tế đến giáo dục."
+        },
+        {
+          "en": "Unfortunately, that hotel is outside our price range.",
+          "vi": "Tiếc là khách sạn đó nằm ngoài khoảng giá của chúng tôi."
+        }
+      ],
+      "collocations": [
+        "wide range",
+        "price range",
+        "age range"
+      ],
+      "notes": "a range of + danh từ số nhiều",
+      "ipa": "/reɪndʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ran/range/range__us_1.mp3"
+    },
+    {
+      "english": "region",
+      "vietnamese": "vùng; khu vực",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Coffee is grown mainly in the mountainous regions of the country.",
+          "vi": "Cà phê được trồng chủ yếu ở các vùng núi của đất nước."
+        },
+        {
+          "en": "The storm caused serious damage across the whole region.",
+          "vi": "Cơn bão gây thiệt hại nghiêm trọng trên toàn khu vực."
+        },
+        {
+          "en": "Which region has the highest rate of unemployment?",
+          "vi": "Khu vực nào có tỷ lệ thất nghiệp cao nhất?"
+        }
+      ],
+      "collocations": [
+        "mountainous region",
+        "coastal region",
+        "border region"
+      ],
+      "notes": null,
+      "ipa": "/ˈriːdʒən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regio/region__us_1.mp3"
+    },
+    {
+      "english": "regulate",
+      "vietnamese": "điều tiết; quy định; điều chỉnh",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The government regulates the prices of electricity and water.",
+          "vi": "Chính phủ điều tiết giá điện và nước.",
+          "image_url": "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "New laws will regulate how companies use personal data.",
+          "vi": "Các luật mới sẽ quy định cách các công ty sử dụng dữ liệu cá nhân.",
+          "image_url": "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Sweating helps the body regulate its temperature.",
+          "vi": "Đổ mồ hôi giúp cơ thể điều chỉnh nhiệt độ.",
+          "image_url": "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "regulate prices",
+        "regulate temperature",
+        "strictly regulated"
+      ],
+      "notes": null,
+      "ipa": "/ˈreɡjuleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regul/regulate__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/19813733/pexels-photo-19813733.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Markus Winkler",
+        "author_url": "https://www.pexels.com/@markus-winkler-1430818",
+        "source_url": "https://www.pexels.com/photo/scrabble-letters-spelling-the-word-regulation-19813733/"
+      }
+    },
+    {
+      "english": "relevant",
+      "vietnamese": "liên quan; phù hợp",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Please include only information that is relevant to the question.",
+          "vi": "Vui lòng chỉ đưa vào những thông tin liên quan đến câu hỏi."
+        },
+        {
+          "en": "Candidates should have a degree in a relevant field.",
+          "vi": "Ứng viên cần có bằng cấp thuộc lĩnh vực liên quan."
+        },
+        {
+          "en": "Are these old theories still relevant today?",
+          "vi": "Ngày nay, những lý thuyết cũ này có còn phù hợp không?"
+        }
+      ],
+      "collocations": [
+        "relevant to",
+        "relevant information",
+        "highly relevant",
+        "relevant experience"
+      ],
+      "notes": "relevant to + danh từ",
+      "ipa": "/ˈreləvənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rel/relev/relevant__us_1.mp3"
+    },
+    {
+      "english": "reside",
+      "vietnamese": "cư trú; sinh sống",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Most of the survey participants reside in urban areas.",
+          "vi": "Phần lớn người tham gia khảo sát cư trú ở khu vực thành thị.",
+          "image_url": "https://images.pexels.com/photos/6497226/pexels-photo-6497226.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Foreign students residing in the country must register with local authorities.",
+          "vi": "Sinh viên nước ngoài cư trú tại quốc gia này phải đăng ký với chính quyền địa phương."
+        },
+        {
+          "en": "She has resided abroad for more than ten years.",
+          "vi": "Cô ấy đã sinh sống ở nước ngoài hơn mười năm."
+        }
+      ],
+      "collocations": [
+        "reside in",
+        "reside abroad",
+        "currently reside"
+      ],
+      "notes": "trang trọng hơn live; reside in + nơi chốn",
+      "ipa": "/rɪˈzaɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/resid/reside__us_1.mp3"
+    },
+    {
+      "english": "resource",
+      "vietnamese": "tài nguyên; nguồn lực",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The country is rich in natural resources such as oil and gas.",
+          "vi": "Đất nước này giàu tài nguyên thiên nhiên như dầu mỏ và khí đốt."
+        },
+        {
+          "en": "Small schools often lack the resources to support every student.",
+          "vi": "Các trường nhỏ thường thiếu nguồn lực để hỗ trợ mọi học sinh."
+        },
+        {
+          "en": "We should use our limited resources more efficiently.",
+          "vi": "Chúng ta nên sử dụng nguồn lực hạn chế của mình hiệu quả hơn."
+        }
+      ],
+      "collocations": [
+        "natural resources",
+        "limited resources",
+        "human resources",
+        "allocate resources"
+      ],
+      "notes": null,
+      "ipa": "/ˈriːsɔːrs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/resou/resource__us_1_rr.mp3"
+    },
+    {
+      "english": "restrict",
+      "vietnamese": "hạn chế; giới hạn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The new law restricts the sale of alcohol near schools.",
+          "vi": "Luật mới hạn chế việc bán rượu bia gần trường học."
+        },
+        {
+          "en": "Access to the laboratory is restricted to authorized staff.",
+          "vi": "Quyền vào phòng thí nghiệm chỉ giới hạn cho nhân viên được cấp phép.",
+          "image_url": "https://images.pexels.com/photos/12196618/pexels-photo-12196618.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Doctors advised him to restrict the amount of salt he eats.",
+          "vi": "Bác sĩ khuyên anh ấy hạn chế lượng muối ăn vào."
+        }
+      ],
+      "collocations": [
+        "restrict access",
+        "severely restrict",
+        "restricted to"
+      ],
+      "notes": "restrict something to: giới hạn trong phạm vi",
+      "ipa": "/rɪˈstrɪkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/restr/restrict__us_1.mp3"
+    },
+    {
+      "english": "secure",
+      "vietnamese": "an toàn; bảo mật; ổn định",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Customers want to know that their personal data is secure.",
+          "vi": "Khách hàng muốn biết rằng dữ liệu cá nhân của họ được bảo mật."
+        },
+        {
+          "en": "Many young graduates struggle to find secure employment.",
+          "vi": "Nhiều sinh viên mới tốt nghiệp chật vật để tìm được việc làm ổn định."
+        },
+        {
+          "en": "Keep your passwords in a secure place.",
+          "vi": "Hãy cất giữ mật khẩu của bạn ở một nơi an toàn."
+        }
+      ],
+      "collocations": [
+        "secure place",
+        "secure employment",
+        "financially secure"
+      ],
+      "notes": "cũng là động từ: giành được (secure funding)",
+      "ipa": "/sɪˈkjʊr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sec/secur/secure__us_2.mp3"
+    },
+    {
+      "english": "seek",
+      "vietnamese": "tìm kiếm; tìm cách",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many graduates seek jobs abroad after finishing their studies.",
+          "vi": "Nhiều sinh viên tốt nghiệp tìm việc làm ở nước ngoài sau khi học xong."
+        },
+        {
+          "en": "You should seek advice from a lawyer before signing the contract.",
+          "vi": "Bạn nên tìm lời khuyên từ luật sư trước khi ký hợp đồng."
+        },
+        {
+          "en": "The study sought to explain why some students drop out.",
+          "vi": "Nghiên cứu này tìm cách lý giải vì sao một số sinh viên bỏ học.",
+          "image_url": "https://images.pexels.com/photos/8199164/pexels-photo-8199164.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "seek advice",
+        "seek help",
+        "seek to",
+        "seek employment"
+      ],
+      "notes": "seek – sought – sought",
+      "ipa": "/siːk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/see/seek_/seek__us_1.mp3"
+    },
+    {
+      "english": "select",
+      "vietnamese": "chọn; lựa chọn; tuyển chọn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Participants were selected at random from the local population.",
+          "vi": "Những người tham gia được chọn ngẫu nhiên từ dân cư địa phương."
+        },
+        {
+          "en": "Only ten students were selected for the scholarship program.",
+          "vi": "Chỉ có mười sinh viên được tuyển chọn vào chương trình học bổng."
+        },
+        {
+          "en": "Please select your preferred language from the list below.",
+          "vi": "Vui lòng chọn ngôn ngữ bạn muốn từ danh sách bên dưới."
+        }
+      ],
+      "collocations": [
+        "selected at random",
+        "carefully selected",
+        "select from"
+      ],
+      "notes": null,
+      "ipa": "/sɪˈlekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sel/selec/select__us_1.mp3"
+    },
+    {
+      "english": "site",
+      "vietnamese": "địa điểm; công trường; trang web",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Workers must wear helmets at all times on the construction site.",
+          "vi": "Công nhân phải luôn đội mũ bảo hộ tại công trường xây dựng."
+        },
+        {
+          "en": "The city has chosen a site for the new hospital.",
+          "vi": "Thành phố đã chọn được địa điểm cho bệnh viện mới."
+        },
+        {
+          "en": "You can download the full report from our site.",
+          "vi": "Bạn có thể tải toàn bộ báo cáo từ trang web của chúng tôi."
+        }
+      ],
+      "collocations": [
+        "construction site",
+        "historic site",
+        "on site"
+      ],
+      "notes": "site ≠ sight (cảnh, tầm nhìn)",
+      "ipa": "/saɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sit/site_/site__us_1.mp3"
+    },
+    {
+      "english": "strategy",
+      "vietnamese": "chiến lược",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The company needs a clear strategy to compete in foreign markets.",
+          "vi": "Công ty cần một chiến lược rõ ràng để cạnh tranh ở thị trường nước ngoài.",
+          "image_url": "https://images.pexels.com/photos/39494584/pexels-photo-39494584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Teachers used different strategies to help weaker students.",
+          "vi": "Giáo viên đã áp dụng nhiều chiến lược khác nhau để giúp đỡ học sinh yếu.",
+          "image_url": "https://images.pexels.com/photos/39494584/pexels-photo-39494584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The government has developed a national strategy for reducing waste.",
+          "vi": "Chính phủ đã xây dựng một chiến lược quốc gia nhằm giảm rác thải.",
+          "image_url": "https://images.pexels.com/photos/39494584/pexels-photo-39494584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "develop a strategy",
+        "clear strategy",
+        "marketing strategy",
+        "long-term strategy"
+      ],
+      "notes": null,
+      "ipa": "/ˈstrætədʒi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/strat/strategy__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/39494584/pexels-photo-39494584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Rafael Minguet Delgado",
+        "author_url": "https://www.pexels.com/@thales13",
+        "source_url": "https://www.pexels.com/photo/dynamic-cryptocurrency-market-graph-analysis-39494584/"
+      }
+    },
+    {
+      "english": "survey",
+      "vietnamese": "cuộc khảo sát; cuộc điều tra",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A recent survey found that most employees prefer flexible hours.",
+          "vi": "Một cuộc khảo sát gần đây cho thấy phần lớn nhân viên thích giờ làm việc linh hoạt."
+        },
+        {
+          "en": "We conducted a survey of two thousand households.",
+          "vi": "Chúng tôi đã tiến hành khảo sát hai nghìn hộ gia đình."
+        },
+        {
+          "en": "Please take a few minutes to complete this short survey.",
+          "vi": "Vui lòng dành vài phút để hoàn thành bản khảo sát ngắn này."
+        }
+      ],
+      "collocations": [
+        "conduct a survey",
+        "recent survey",
+        "complete a survey"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɜːrveɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sur/surve/survey__us_1.mp3"
+    },
+    {
+      "english": "text",
+      "vietnamese": "văn bản; bài đọc; tin nhắn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The full text of the agreement is available online.",
+          "vi": "Toàn bộ văn bản thỏa thuận được đăng tải trực tuyến.",
+          "image_url": "https://images.pexels.com/photos/7821937/pexels-photo-7821937.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Students should read the text carefully before answering the questions.",
+          "vi": "Học sinh nên đọc kỹ bài đọc trước khi trả lời câu hỏi."
+        },
+        {
+          "en": "I sent her a text to say I would be late.",
+          "vi": "Tôi đã nhắn tin cho cô ấy để báo rằng tôi sẽ đến muộn."
+        }
+      ],
+      "collocations": [
+        "full text",
+        "send a text",
+        "text message"
+      ],
+      "notes": null,
+      "ipa": "/tekst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tex/text_/text__us_1.mp3"
+    },
+    {
+      "english": "tradition",
+      "vietnamese": "truyền thống",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The festival is an important tradition in many Asian countries.",
+          "vi": "Lễ hội này là một truyền thống quan trọng ở nhiều nước châu Á."
+        },
+        {
+          "en": "The university has a long tradition of academic excellence.",
+          "vi": "Trường đại học này có truyền thống lâu đời về thành tích học thuật xuất sắc."
+        },
+        {
+          "en": "By tradition, the whole family gathers for a big meal at New Year.",
+          "vi": "Theo truyền thống, cả gia đình quây quần bên bữa cơm lớn vào dịp năm mới."
+        }
+      ],
+      "collocations": [
+        "long tradition",
+        "cultural tradition",
+        "by tradition",
+        "follow a tradition"
+      ],
+      "notes": null,
+      "ipa": "/trəˈdɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/tradi/tradition__us_1.mp3"
+    },
+    {
+      "english": "transfer",
+      "vietnamese": "chuyển; chuyển giao; điều chuyển",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Money can be transferred between accounts in a few seconds.",
+          "vi": "Tiền có thể được chuyển giữa các tài khoản chỉ trong vài giây."
+        },
+        {
+          "en": "After two years, she was transferred to the company's overseas office.",
+          "vi": "Sau hai năm, cô ấy được điều chuyển sang văn phòng ở nước ngoài của công ty.",
+          "image_url": "https://images.pexels.com/photos/22719281/pexels-photo-22719281.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The project aims to transfer new farming technology to rural communities.",
+          "vi": "Dự án nhằm chuyển giao công nghệ canh tác mới cho các cộng đồng nông thôn."
+        }
+      ],
+      "collocations": [
+        "transfer money",
+        "transfer data",
+        "transfer technology",
+        "transfer to"
+      ],
+      "notes": "transfer – transferred (gấp đôi r)",
+      "ipa": "/trænsˈfɜːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/trans/transfer__us_1_rr.mp3"
+    }
+  ]
+}

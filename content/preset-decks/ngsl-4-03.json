@@ -1,0 +1,865 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.501–2.000 · Bộ 3",
+    "description": "New General Service List, thứ hạng 1.501–2.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-4-03"
+  },
+  "cards": [
+    {
+      "english": "predict",
+      "vietnamese": "dự đoán",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Nobody can predict exactly what the weather will do next week.",
+          "vi": "Không ai có thể dự đoán chính xác thời tiết tuần sau sẽ thế nào."
+        },
+        {
+          "en": "Experts predict that house prices will rise again this year.",
+          "vi": "Các chuyên gia dự đoán giá nhà sẽ lại tăng trong năm nay."
+        },
+        {
+          "en": "The ending of the movie was easy to predict.",
+          "vi": "Cái kết của bộ phim rất dễ đoán."
+        }
+      ],
+      "collocations": [
+        "predict the future",
+        "accurately predict",
+        "difficult to predict"
+      ],
+      "notes": null,
+      "ipa": "/prɪˈdɪkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/predi/predict__us_1.mp3"
+    },
+    {
+      "english": "previously",
+      "vietnamese": "trước đây; trước đó",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I had previously worked as a teacher in a small town.",
+          "vi": "Trước đây tôi từng làm giáo viên ở một thị trấn nhỏ."
+        },
+        {
+          "en": "The shop was previously a bakery, but now it sells clothes.",
+          "vi": "Cửa hàng này trước đây là tiệm bánh, nhưng giờ bán quần áo."
+        },
+        {
+          "en": "As I mentioned previously, the meeting starts at nine.",
+          "vi": "Như tôi đã nói trước đó, cuộc họp bắt đầu lúc chín giờ."
+        }
+      ],
+      "collocations": [
+        "previously mentioned",
+        "as previously stated",
+        "previously unknown"
+      ],
+      "notes": null,
+      "ipa": "/ˈpriːviəsli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/previ/previously__us_2.mp3",
+      "image_url": "https://images.pexels.com/photos/8127308/pexels-photo-8127308.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "olia danilevich",
+        "author_url": "https://www.pexels.com/@olia-danilevich",
+        "source_url": "https://www.pexels.com/photo/confetti-on-a-piece-of-paper-8127308/"
+      }
+    },
+    {
+      "english": "protection",
+      "vietnamese": "sự bảo vệ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Wear sunglasses for protection against the strong summer sun.",
+          "vi": "Hãy đeo kính râm để bảo vệ mắt khỏi nắng hè gay gắt."
+        },
+        {
+          "en": "These gloves offer good protection from the cold.",
+          "vi": "Đôi găng tay này giúp bảo vệ tốt khỏi cái lạnh."
+        },
+        {
+          "en": "The new law gives better protection to workers.",
+          "vi": "Luật mới bảo vệ người lao động tốt hơn."
+        }
+      ],
+      "collocations": [
+        "protection against",
+        "protection from",
+        "provide protection",
+        "environmental protection"
+      ],
+      "notes": "protection against/from sth",
+      "ipa": "/prəˈtekʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/prote/protection__us_2.mp3"
+    },
+    {
+      "english": "largely",
+      "vietnamese": "phần lớn; chủ yếu",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The success of the town is largely due to tourism.",
+          "vi": "Sự thành công của thị trấn chủ yếu là nhờ du lịch.",
+          "image_url": "https://images.pexels.com/photos/16354023/pexels-photo-16354023.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "These days her work is largely done from home.",
+          "vi": "Dạo này công việc của cô ấy phần lớn được làm ở nhà."
+        },
+        {
+          "en": "My advice was largely ignored by the rest of the team.",
+          "vi": "Lời khuyên của tôi phần lớn bị những người còn lại trong nhóm phớt lờ."
+        }
+      ],
+      "collocations": [
+        "largely due to",
+        "largely because",
+        "largely ignored"
+      ],
+      "notes": null,
+      "ipa": "/ˈlɑːrdʒli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lar/large/largely__us_1.mp3"
+    },
+    {
+      "english": "wed",
+      "vietnamese": "kết hôn; cưới",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "They wed in a small garden ceremony last spring.",
+          "vi": "Họ kết hôn trong một buổi lễ nhỏ ngoài vườn vào mùa xuân năm ngoái."
+        },
+        {
+          "en": "My sister and her boyfriend plan to get wed next year.",
+          "vi": "Chị tôi và bạn trai dự định cưới nhau vào năm sau."
+        },
+        {
+          "en": "The couple were wed on a beach near their hometown.",
+          "vi": "Cặp đôi đã cưới nhau trên một bãi biển gần quê nhà."
+        }
+      ],
+      "collocations": [
+        "get wed",
+        "newly wed"
+      ],
+      "notes": "wed – wed/wedded – wed/wedded; hay dùng trong báo chí",
+      "ipa": "/wed/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wed/wed__/wed__us_1.mp3"
+    },
+    {
+      "english": "rent",
+      "vietnamese": "thuê; cho thuê",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We rented a small car for our trip to the coast.",
+          "vi": "Chúng tôi đã thuê một chiếc xe nhỏ cho chuyến đi biển."
+        },
+        {
+          "en": "They rent a two-bedroom apartment near the city center.",
+          "vi": "Họ thuê một căn hộ hai phòng ngủ gần trung tâm thành phố.",
+          "image_url": "https://images.pexels.com/photos/7786784/pexels-photo-7786784.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "My uncle rents his old house to students.",
+          "vi": "Chú tôi cho sinh viên thuê căn nhà cũ của chú."
+        }
+      ],
+      "collocations": [
+        "rent an apartment",
+        "rent a car",
+        "rent out"
+      ],
+      "notes": "danh từ: tiền thuê (pay the rent)",
+      "ipa": "/rent/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ren/rent_/rent__us_2.mp3"
+    },
+    {
+      "english": "shot",
+      "vietnamese": "cú sút; bức ảnh; mũi tiêm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "His shot hit the post in the last minute of the game.",
+          "vi": "Cú sút của anh ấy trúng cột dọc ở phút cuối trận."
+        },
+        {
+          "en": "She took a beautiful shot of the sunset from the balcony.",
+          "vi": "Cô ấy chụp được một bức ảnh hoàng hôn rất đẹp từ ban công."
+        },
+        {
+          "en": "The nurse said the flu shot would not hurt much.",
+          "vi": "Y tá nói mũi tiêm phòng cúm sẽ không đau lắm."
+        }
+      ],
+      "collocations": [
+        "take a shot",
+        "flu shot",
+        "good shot"
+      ],
+      "notes": null,
+      "ipa": "/ʃɑːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sho/shot_/shot__us_2.mp3"
+    },
+    {
+      "english": "appearance",
+      "vietnamese": "vẻ bề ngoài; sự xuất hiện",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He cares a lot about his appearance.",
+          "vi": "Anh ấy rất quan tâm đến vẻ bề ngoài của mình."
+        },
+        {
+          "en": "She changed her appearance completely by cutting her hair short.",
+          "vi": "Cô ấy thay đổi hoàn toàn vẻ ngoài bằng cách cắt tóc ngắn."
+        },
+        {
+          "en": "The singer made a short appearance at the end of the show.",
+          "vi": "Ca sĩ xuất hiện chớp nhoáng vào cuối chương trình.",
+          "image_url": "https://images.pexels.com/photos/20769328/pexels-photo-20769328.png?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "physical appearance",
+        "make an appearance",
+        "sudden appearance"
+      ],
+      "notes": null,
+      "ipa": "/əˈpɪrəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/app/appea/appearance__us_1.mp3"
+    },
+    {
+      "english": "reasonable",
+      "vietnamese": "hợp lý; phải chăng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The hotel was clean and the prices were very reasonable.",
+          "vi": "Khách sạn sạch sẽ và giá cả rất phải chăng."
+        },
+        {
+          "en": "That sounds like a reasonable plan to me.",
+          "vi": "Tôi thấy đó có vẻ là một kế hoạch hợp lý."
+        },
+        {
+          "en": "We need a reasonable amount of time to finish the job.",
+          "vi": "Chúng tôi cần một khoảng thời gian hợp lý để hoàn thành công việc."
+        }
+      ],
+      "collocations": [
+        "reasonable price",
+        "reasonable explanation",
+        "perfectly reasonable"
+      ],
+      "notes": null,
+      "ipa": "/ˈriːznəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rea/reaso/reasonable__us_2_rr.mp3"
+    },
+    {
+      "english": "guarantee",
+      "vietnamese": "đảm bảo; cam kết",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Hard work does not guarantee success, but it certainly helps.",
+          "vi": "Làm việc chăm chỉ không đảm bảo thành công, nhưng chắc chắn là có ích."
+        },
+        {
+          "en": "We guarantee delivery within three working days.",
+          "vi": "Chúng tôi cam kết giao hàng trong vòng ba ngày làm việc."
+        },
+        {
+          "en": "I cannot guarantee that the train will be on time.",
+          "vi": "Tôi không thể đảm bảo tàu sẽ đến đúng giờ."
+        }
+      ],
+      "collocations": [
+        "guarantee success",
+        "cannot guarantee",
+        "money-back guarantee"
+      ],
+      "notes": "danh từ: sự bảo đảm; giấy bảo hành",
+      "ipa": "/ˌɡærənˈtiː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gua/guara/guarantee__us_1.mp3"
+    },
+    {
+      "english": "till",
+      "vietnamese": "cho đến; đến tận",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "I worked till midnight to finish my report.",
+          "vi": "Tôi làm việc đến tận nửa đêm để hoàn thành báo cáo."
+        },
+        {
+          "en": "We stayed at the beach till sunset.",
+          "vi": "Chúng tôi ở lại bãi biển cho đến lúc hoàng hôn."
+        },
+        {
+          "en": "The store is open till ten o'clock tonight.",
+          "vi": "Cửa hàng mở cửa đến mười giờ tối nay."
+        }
+      ],
+      "collocations": [
+        "till now",
+        "till then",
+        "from morning till night"
+      ],
+      "notes": "thân mật, nghĩa như until",
+      "ipa": "/tɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/til/till_/till__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/13387076/pexels-photo-13387076.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Austin Sullivan",
+        "author_url": "https://www.pexels.com/@austin-sullivan-48171954",
+        "source_url": "https://www.pexels.com/photo/green-tractor-on-green-grass-field-under-white-clouds-13387076/"
+      }
+    },
+    {
+      "english": "theme",
+      "vietnamese": "chủ đề",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The main theme of the book is friendship.",
+          "vi": "Chủ đề chính của cuốn sách là tình bạn."
+        },
+        {
+          "en": "Love and loss are common themes in her songs.",
+          "vi": "Tình yêu và mất mát là những chủ đề thường gặp trong các bài hát của cô ấy."
+        },
+        {
+          "en": "Our party had a movie theme, so everyone dressed up.",
+          "vi": "Bữa tiệc của chúng tôi có chủ đề phim ảnh, nên ai cũng hóa trang."
+        }
+      ],
+      "collocations": [
+        "main theme",
+        "common theme",
+        "central theme",
+        "theme park"
+      ],
+      "notes": null,
+      "ipa": "/θiːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/theme/theme__us_1.mp3"
+    },
+    {
+      "english": "judgment",
+      "vietnamese": "sự phán đoán; óc suy xét",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I trust your judgment on this matter.",
+          "vi": "Tôi tin vào sự phán đoán của bạn trong chuyện này.",
+          "image_url": "https://images.pexels.com/photos/6077861/pexels-photo-6077861.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Try not to make quick judgments about people you have just met.",
+          "vi": "Cố đừng vội đánh giá những người bạn mới gặp."
+        },
+        {
+          "en": "Being very tired can affect your judgment when you drive.",
+          "vi": "Quá mệt có thể ảnh hưởng đến khả năng phán đoán khi bạn lái xe."
+        }
+      ],
+      "collocations": [
+        "good judgment",
+        "poor judgment",
+        "make a judgment",
+        "trust your judgment"
+      ],
+      "notes": "Mỹ: judgment · Anh: judgement",
+      "ipa": "/ˈdʒʌdʒmənt/",
+      "audio_src": null
+    },
+    {
+      "english": "odd",
+      "vietnamese": "kỳ lạ; lẻ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "It is odd that he has not called me back yet.",
+          "vi": "Thật lạ là anh ấy vẫn chưa gọi lại cho tôi."
+        },
+        {
+          "en": "My new neighbor seems a bit odd, but he is friendly.",
+          "vi": "Người hàng xóm mới của tôi có vẻ hơi kỳ lạ, nhưng anh ấy thân thiện."
+        },
+        {
+          "en": "Three, five and seven are all odd numbers.",
+          "vi": "Ba, năm và bảy đều là số lẻ."
+        }
+      ],
+      "collocations": [
+        "odd number",
+        "a bit odd",
+        "seem odd"
+      ],
+      "notes": null,
+      "ipa": "/ɑːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/odd/odd__/odd__us_1.mp3"
+    },
+    {
+      "english": "approve",
+      "vietnamese": "chấp thuận; tán thành",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The manager approved my request for a week off.",
+          "vi": "Quản lý đã chấp thuận đơn xin nghỉ một tuần của tôi."
+        },
+        {
+          "en": "My parents did not approve of my decision to quit my job.",
+          "vi": "Bố mẹ tôi không tán thành quyết định nghỉ việc của tôi.",
+          "image_url": "https://images.pexels.com/photos/9797981/pexels-photo-9797981.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The city has approved plans for a new park.",
+          "vi": "Thành phố đã chấp thuận kế hoạch xây một công viên mới."
+        }
+      ],
+      "collocations": [
+        "approve of",
+        "approve a plan",
+        "approve a request"
+      ],
+      "notes": "approve of sth: tán thành điều gì",
+      "ipa": "/əˈpruːv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/app/appro/approve__us_2.mp3"
+    },
+    {
+      "english": "loan",
+      "vietnamese": "khoản vay; sự cho vay",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She took out a loan to buy her first car.",
+          "vi": "Cô ấy đã vay tiền để mua chiếc ô tô đầu tiên."
+        },
+        {
+          "en": "The bank refused to give him a loan.",
+          "vi": "Ngân hàng từ chối cho anh ấy vay tiền."
+        },
+        {
+          "en": "It will take us ten years to pay back the loan.",
+          "vi": "Chúng tôi sẽ mất mười năm để trả hết khoản vay."
+        }
+      ],
+      "collocations": [
+        "take out a loan",
+        "bank loan",
+        "student loan",
+        "pay back a loan"
+      ],
+      "notes": null,
+      "ipa": "/ləʊn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/loa/loan_/loan__us_1.mp3"
+    },
+    {
+      "english": "definition",
+      "vietnamese": "định nghĩa",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Look up the definition of this word in your dictionary.",
+          "vi": "Hãy tra định nghĩa của từ này trong từ điển của bạn."
+        },
+        {
+          "en": "Everyone has their own definition of success.",
+          "vi": "Mỗi người có một định nghĩa riêng về thành công."
+        },
+        {
+          "en": "Can you give me a clear definition of the term?",
+          "vi": "Bạn có thể cho tôi một định nghĩa rõ ràng về thuật ngữ này không?",
+          "image_url": "https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "clear definition",
+        "by definition",
+        "dictionary definition"
+      ],
+      "notes": null,
+      "ipa": "/ˌdefɪˈnɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/def/defin/definition__us_1.mp3"
+    },
+    {
+      "english": "elect",
+      "vietnamese": "bầu; bầu chọn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The students elected a new class president this morning.",
+          "vi": "Sáng nay học sinh đã bầu lớp trưởng mới."
+        },
+        {
+          "en": "Club members elect a new chairman every year.",
+          "vi": "Các thành viên câu lạc bộ bầu chủ tịch mới mỗi năm."
+        },
+        {
+          "en": "He was elected captain of the football team.",
+          "vi": "Anh ấy được bầu làm đội trưởng đội bóng đá."
+        }
+      ],
+      "collocations": [
+        "be elected",
+        "newly elected",
+        "elect a leader"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈlekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ele/elect/elect__us_1.mp3"
+    },
+    {
+      "english": "atmosphere",
+      "vietnamese": "bầu không khí; khí quyển",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The restaurant has a warm and friendly atmosphere.",
+          "vi": "Nhà hàng có bầu không khí ấm cúng và thân thiện."
+        },
+        {
+          "en": "There was a tense atmosphere in the office after the meeting.",
+          "vi": "Không khí trong văn phòng rất căng thẳng sau cuộc họp."
+        },
+        {
+          "en": "Cars release harmful gases into the atmosphere every day.",
+          "vi": "Ô tô thải khí độc hại vào khí quyển mỗi ngày."
+        }
+      ],
+      "collocations": [
+        "friendly atmosphere",
+        "relaxed atmosphere",
+        "the earth's atmosphere"
+      ],
+      "notes": null,
+      "ipa": "/ˈætməsfɪr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/atm/atmos/atmosphere__us_2.mp3"
+    },
+    {
+      "english": "farmer",
+      "vietnamese": "nông dân",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The farmer gets up at five to feed his cows.",
+          "vi": "Người nông dân dậy lúc năm giờ để cho bò ăn."
+        },
+        {
+          "en": "Many farmers grow rice and vegetables in this area.",
+          "vi": "Nhiều nông dân trồng lúa và rau ở vùng này."
+        },
+        {
+          "en": "We buy fresh eggs from a local farmer every week.",
+          "vi": "Chúng tôi mua trứng tươi của một bác nông dân địa phương mỗi tuần."
+        }
+      ],
+      "collocations": [
+        "local farmer",
+        "rice farmer",
+        "dairy farmer"
+      ],
+      "notes": null,
+      "ipa": "/ˈfɑːrmər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/far/farme/farmer__us_2.mp3",
+      "image_url": "https://images.pexels.com/photos/9368704/pexels-photo-9368704.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Fariborz MP",
+        "author_url": "https://www.pexels.com/@fariborzart",
+        "source_url": "https://www.pexels.com/photo/a-man-wearing-a-straw-hat-riding-a-tractor-9368704/"
+      }
+    },
+    {
+      "english": "comparison",
+      "vietnamese": "sự so sánh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Sales this year are low in comparison with last year.",
+          "vi": "Doanh số năm nay thấp so với năm ngoái."
+        },
+        {
+          "en": "It is hard to make a comparison between the two cities.",
+          "vi": "Thật khó để so sánh hai thành phố này."
+        },
+        {
+          "en": "My new laptop is fast, and my old one seems slow by comparison.",
+          "vi": "Máy tính mới của tôi rất nhanh, so ra thì máy cũ có vẻ chậm."
+        }
+      ],
+      "collocations": [
+        "in comparison with",
+        "make a comparison",
+        "by comparison"
+      ],
+      "notes": null,
+      "ipa": "/kəmˈpærɪsn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compa/comparison__us_2.mp3"
+    },
+    {
+      "english": "characteristic",
+      "vietnamese": "đặc điểm; đặc trưng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Patience is an important characteristic of a good teacher.",
+          "vi": "Kiên nhẫn là một đặc điểm quan trọng của một giáo viên giỏi.",
+          "image_url": "https://images.pexels.com/photos/35745583/pexels-photo-35745583.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The two cats share many physical characteristics.",
+          "vi": "Hai con mèo có nhiều đặc điểm ngoại hình giống nhau."
+        },
+        {
+          "en": "What are the main characteristics of this style of painting?",
+          "vi": "Những đặc trưng chính của phong cách hội họa này là gì?"
+        }
+      ],
+      "collocations": [
+        "physical characteristics",
+        "main characteristic",
+        "common characteristic"
+      ],
+      "notes": "cũng là tính từ: đặc trưng, tiêu biểu",
+      "ipa": "/ˌkærəktəˈrɪstɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chara/characteristic__us_1.mp3"
+    },
+    {
+      "english": "license",
+      "vietnamese": "giấy phép; bằng lái",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "You need a license to open a restaurant here.",
+          "vi": "Bạn cần có giấy phép để mở nhà hàng ở đây."
+        },
+        {
+          "en": "He finally got his driver's license at the age of twenty.",
+          "vi": "Cuối cùng anh ấy cũng lấy được bằng lái xe năm hai mươi tuổi."
+        },
+        {
+          "en": "The police officer asked to see my license.",
+          "vi": "Viên cảnh sát yêu cầu xem bằng lái của tôi."
+        }
+      ],
+      "collocations": [
+        "driver's license",
+        "get a license",
+        "business license"
+      ],
+      "notes": "Mỹ: license · Anh: licence (danh từ)",
+      "ipa": "/ˈlaɪsns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lic/licen/license__us_1.mp3"
+    },
+    {
+      "english": "rely",
+      "vietnamese": "dựa vào; tin cậy",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many students rely on their parents for money.",
+          "vi": "Nhiều sinh viên dựa vào bố mẹ về tiền bạc."
+        },
+        {
+          "en": "You can always rely on her to tell the truth.",
+          "vi": "Bạn luôn có thể tin cô ấy sẽ nói thật.",
+          "image_url": "https://images.pexels.com/photos/30746002/pexels-photo-30746002.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "We should not rely too much on our phones.",
+          "vi": "Chúng ta không nên dựa dẫm quá nhiều vào điện thoại."
+        }
+      ],
+      "collocations": [
+        "rely on",
+        "rely heavily on",
+        "can rely on"
+      ],
+      "notes": "rely on/upon sb/sth",
+      "ipa": "/rɪˈlaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rel/rely_/rely__us_1.mp3"
+    },
+    {
+      "english": "narrow",
+      "vietnamese": "hẹp; sít sao",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The streets in the old town are very narrow.",
+          "vi": "Đường phố ở khu phố cổ rất hẹp."
+        },
+        {
+          "en": "We walked along a narrow path by the river.",
+          "vi": "Chúng tôi đi bộ dọc theo một con đường hẹp bên sông."
+        },
+        {
+          "en": "Our team won a narrow victory in the final game.",
+          "vi": "Đội chúng tôi giành chiến thắng sít sao trong trận cuối cùng."
+        }
+      ],
+      "collocations": [
+        "narrow street",
+        "narrow path",
+        "narrow victory",
+        "narrow escape"
+      ],
+      "notes": null,
+      "ipa": "/ˈnærəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nar/narro/narrow__us_2.mp3"
+    },
+    {
+      "english": "succeed",
+      "vietnamese": "thành công",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "If you keep working hard, you will succeed.",
+          "vi": "Nếu bạn tiếp tục chăm chỉ, bạn sẽ thành công."
+        },
+        {
+          "en": "She succeeded in passing the exam on her first try.",
+          "vi": "Cô ấy đã thành công vượt qua kỳ thi ngay lần đầu."
+        },
+        {
+          "en": "After many months, our plan to save money finally succeeded.",
+          "vi": "Sau nhiều tháng, kế hoạch tiết kiệm tiền của chúng tôi cuối cùng đã thành công.",
+          "image_url": "https://images.pexels.com/photos/34383953/pexels-photo-34383953.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "succeed in",
+        "finally succeed",
+        "succeed in business"
+      ],
+      "notes": "succeed in doing sth",
+      "ipa": "/səkˈsiːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/suc/succe/succeed__us_2.mp3"
+    },
+    {
+      "english": "identity",
+      "vietnamese": "danh tính; bản sắc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please bring a document that proves your identity.",
+          "vi": "Vui lòng mang theo giấy tờ chứng minh danh tính của bạn."
+        },
+        {
+          "en": "The identity of the winner will be announced tomorrow.",
+          "vi": "Danh tính người chiến thắng sẽ được công bố vào ngày mai."
+        },
+        {
+          "en": "Language is an important part of a country's cultural identity.",
+          "vi": "Ngôn ngữ là một phần quan trọng trong bản sắc văn hóa của một quốc gia."
+        }
+      ],
+      "collocations": [
+        "identity card",
+        "cultural identity",
+        "national identity",
+        "prove your identity"
+      ],
+      "notes": null,
+      "ipa": "/aɪˈdentəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ide/ident/identity__us_1.mp3"
+    },
+    {
+      "english": "desk",
+      "vietnamese": "bàn làm việc; bàn học; quầy",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I keep a small plant on my desk at work.",
+          "vi": "Tôi để một chậu cây nhỏ trên bàn làm việc ở công ty."
+        },
+        {
+          "en": "Please leave your key at the front desk.",
+          "vi": "Vui lòng để lại chìa khóa ở quầy lễ tân."
+        },
+        {
+          "en": "The kids did their homework at the desk in their room.",
+          "vi": "Bọn trẻ làm bài tập ở bàn học trong phòng."
+        }
+      ],
+      "collocations": [
+        "front desk",
+        "office desk",
+        "desk job",
+        "sit at a desk"
+      ],
+      "notes": null,
+      "ipa": "/desk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/des/desk_/desk__us_1.mp3"
+    },
+    {
+      "english": "permit",
+      "vietnamese": "cho phép",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Smoking is not permitted inside the building.",
+          "vi": "Không được phép hút thuốc bên trong tòa nhà."
+        },
+        {
+          "en": "The library rules permit each student to borrow five books.",
+          "vi": "Nội quy thư viện cho phép mỗi học sinh mượn năm cuốn sách."
+        },
+        {
+          "en": "We will have a picnic tomorrow, weather permitting.",
+          "vi": "Nếu thời tiết cho phép, ngày mai chúng tôi sẽ đi dã ngoại."
+        }
+      ],
+      "collocations": [
+        "weather permitting",
+        "be permitted to",
+        "permit someone to"
+      ],
+      "notes": "permit – permitted – permitted; danh từ: giấy phép",
+      "ipa": "/pərˈmɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/per/permi/permit__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/19736895/pexels-photo-19736895.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Jan van der Wolf",
+        "author_url": "https://www.pexels.com/@jan-van-der-wolf-11680885",
+        "source_url": "https://www.pexels.com/photo/parking-road-signs-on-the-background-of-a-wall-19736895/"
+      }
+    },
+    {
+      "english": "seriously",
+      "vietnamese": "nghiêm túc; nghiêm trọng",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "You should take your health more seriously.",
+          "vi": "Bạn nên coi trọng sức khỏe của mình hơn."
+        },
+        {
+          "en": "The old house was seriously damaged by the storm.",
+          "vi": "Ngôi nhà cũ bị cơn bão làm hư hại nghiêm trọng."
+        },
+        {
+          "en": "Are you seriously thinking about moving abroad?",
+          "vi": "Bạn đang nghiêm túc tính chuyện ra nước ngoài sống à?"
+        }
+      ],
+      "collocations": [
+        "take seriously",
+        "seriously damaged",
+        "seriously consider"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɪriəsli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ser/serio/seriously__us_2.mp3"
+    }
+  ]
+}

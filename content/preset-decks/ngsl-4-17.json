@@ -1,0 +1,533 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.501–2.000 · Bộ 17",
+    "description": "New General Service List, thứ hạng 1.501–2.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-4-17"
+  },
+  "cards": [
+    {
+      "english": "derive",
+      "vietnamese": "bắt nguồn từ; có được, lấy được (từ)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many English words are derived from Latin or Greek.",
+          "vi": "Nhiều từ tiếng Anh bắt nguồn từ tiếng Latin hoặc tiếng Hy Lạp."
+        },
+        {
+          "en": "She derives great pleasure from working in her garden.",
+          "vi": "Cô ấy có được niềm vui lớn từ việc làm vườn."
+        },
+        {
+          "en": "This medicine is derived from a plant that grows in the rainforest.",
+          "vi": "Loại thuốc này được chiết xuất từ một loài cây mọc trong rừng mưa nhiệt đới."
+        }
+      ],
+      "collocations": [
+        "derive from",
+        "be derived from",
+        "derive pleasure from"
+      ],
+      "notes": "derive from: bắt nguồn từ",
+      "ipa": "/dɪˈraɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/der/deriv/derive__us_1.mp3"
+    },
+    {
+      "english": "crucial",
+      "vietnamese": "rất quan trọng; then chốt",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Getting enough sleep is crucial for your health.",
+          "vi": "Ngủ đủ giấc rất quan trọng đối với sức khỏe của bạn."
+        },
+        {
+          "en": "The next few days will be crucial for the team.",
+          "vi": "Vài ngày tới sẽ mang tính then chốt đối với đội."
+        },
+        {
+          "en": "She played a crucial role in the success of the project.",
+          "vi": "Cô ấy đóng vai trò then chốt trong thành công của dự án."
+        }
+      ],
+      "collocations": [
+        "crucial role",
+        "crucial for",
+        "absolutely crucial"
+      ],
+      "notes": null,
+      "ipa": "/ˈkruːʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cru/cruci/crucial__us_1.mp3"
+    },
+    {
+      "english": "unemployment",
+      "vietnamese": "sự thất nghiệp; tình trạng thất nghiệp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The unemployment rate has risen sharply in the past year.",
+          "vi": "Tỷ lệ thất nghiệp đã tăng mạnh trong năm qua."
+        },
+        {
+          "en": "Many young people in the town struggle with unemployment.",
+          "vi": "Nhiều người trẻ trong thị trấn phải vật lộn với cảnh thất nghiệp."
+        },
+        {
+          "en": "After losing his job, he received unemployment benefits for six months.",
+          "vi": "Sau khi mất việc, anh ấy nhận trợ cấp thất nghiệp trong sáu tháng."
+        }
+      ],
+      "collocations": [
+        "unemployment rate",
+        "high unemployment",
+        "unemployment benefits",
+        "youth unemployment"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˌʌnɪmˈplɔɪmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/une/unemp/unemployment__us_1.mp3"
+    },
+    {
+      "english": "wheel",
+      "vietnamese": "bánh xe; vô lăng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Can you help me put the front wheel back on my bike?",
+          "vi": "Bạn giúp tôi lắp lại bánh trước vào xe đạp được không?"
+        },
+        {
+          "en": "One of the wheels on my suitcase broke at the airport.",
+          "vi": "Vali của tôi bị gãy một bánh xe ở sân bay."
+        },
+        {
+          "en": "Keep both hands on the wheel when you drive.",
+          "vi": "Hãy giữ cả hai tay trên vô lăng khi lái xe."
+        }
+      ],
+      "collocations": [
+        "front wheel",
+        "back wheel",
+        "steering wheel",
+        "behind the wheel"
+      ],
+      "notes": null,
+      "ipa": "/wiːl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/whe/wheel/wheel__us_1.mp3"
+    },
+    {
+      "english": "crop",
+      "vietnamese": "cây trồng; vụ mùa",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Rice is the main crop in this part of the country.",
+          "vi": "Lúa là cây trồng chính ở vùng này của đất nước."
+        },
+        {
+          "en": "Farmers are worried that the dry weather will damage their crops.",
+          "vi": "Nông dân lo rằng thời tiết khô hạn sẽ gây hại cho cây trồng của họ."
+        },
+        {
+          "en": "We had a good crop of apples this year.",
+          "vi": "Năm nay chúng tôi được mùa táo."
+        }
+      ],
+      "collocations": [
+        "grow crops",
+        "main crop",
+        "good crop",
+        "crop failure"
+      ],
+      "notes": null,
+      "ipa": "/krɑːp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cro/crop_/crop__us_1.mp3"
+    },
+    {
+      "english": "minority",
+      "vietnamese": "thiểu số; nhóm thiểu số",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Only a minority of students chose to study abroad.",
+          "vi": "Chỉ một số ít sinh viên chọn đi du học."
+        },
+        {
+          "en": "People who cycle to work are still in the minority here.",
+          "vi": "Ở đây, những người đạp xe đi làm vẫn là thiểu số."
+        },
+        {
+          "en": "The school offers extra support for children from ethnic minorities.",
+          "vi": "Trường có hỗ trợ thêm cho trẻ em thuộc các dân tộc thiểu số."
+        }
+      ],
+      "collocations": [
+        "a minority of",
+        "in the minority",
+        "ethnic minority",
+        "small minority"
+      ],
+      "notes": null,
+      "ipa": "/maɪˈnɔːrəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/min/minor/minority__us_1_rr.mp3"
+    },
+    {
+      "english": "origin",
+      "vietnamese": "nguồn gốc; xuất xứ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Nobody knows the true origin of this old song.",
+          "vi": "Không ai biết nguồn gốc thật sự của bài hát cổ này."
+        },
+        {
+          "en": "The country of origin is printed on the label.",
+          "vi": "Nước xuất xứ được in trên nhãn."
+        },
+        {
+          "en": "The festival has its origins in an ancient farming tradition.",
+          "vi": "Lễ hội này có nguồn gốc từ một truyền thống nông nghiệp cổ xưa."
+        }
+      ],
+      "collocations": [
+        "country of origin",
+        "have its origins in",
+        "the origin of"
+      ],
+      "notes": null,
+      "ipa": "/ˈɔːrɪdʒɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ori/origi/origin__us_4.mp3"
+    },
+    {
+      "english": "interpretation",
+      "vietnamese": "cách hiểu, sự giải thích; cách thể hiện",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Each student gave a different interpretation of the poem.",
+          "vi": "Mỗi học sinh đưa ra một cách hiểu khác nhau về bài thơ."
+        },
+        {
+          "en": "The rules are clear and leave little room for interpretation.",
+          "vi": "Các quy định rất rõ ràng và hầu như không có chỗ cho cách hiểu khác."
+        },
+        {
+          "en": "I loved her fresh interpretation of this famous piano piece.",
+          "vi": "Tôi rất thích cách thể hiện mới mẻ của cô ấy với bản nhạc piano nổi tiếng này."
+        }
+      ],
+      "collocations": [
+        "interpretation of",
+        "different interpretation",
+        "open to interpretation",
+        "room for interpretation"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˌtɜːrprəˈteɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/inter/interpretation__us_1.mp3"
+    },
+    {
+      "english": "gentleman",
+      "vietnamese": "quý ông; người đàn ông lịch thiệp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Could you show this gentleman to his table, please?",
+          "vi": "Bạn vui lòng dẫn quý ông này đến bàn của ông ấy nhé?"
+        },
+        {
+          "en": "Good evening, ladies and gentlemen, and welcome to the show.",
+          "vi": "Xin chào quý vị, chào mừng quý vị đến với chương trình."
+        },
+        {
+          "en": "My grandfather was a true gentleman who was kind to everyone.",
+          "vi": "Ông tôi là một quý ông thực thụ, luôn tử tế với mọi người."
+        }
+      ],
+      "collocations": [
+        "ladies and gentlemen",
+        "true gentleman",
+        "old gentleman"
+      ],
+      "notes": "số nhiều: gentlemen",
+      "ipa": "/ˈdʒentlmən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gen/gentl/gentleman__us_3.mp3"
+    },
+    {
+      "english": "drama",
+      "vietnamese": "kịch, sân khấu; phim truyền hình; chuyện lùm xùm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She studied drama at college and now works in theater.",
+          "vi": "Cô ấy học ngành kịch ở đại học và giờ làm việc trong lĩnh vực sân khấu."
+        },
+        {
+          "en": "We watched a new crime drama on TV last night.",
+          "vi": "Tối qua chúng tôi xem một bộ phim truyền hình hình sự mới."
+        },
+        {
+          "en": "I just want a quiet weekend without any family drama.",
+          "vi": "Tôi chỉ muốn một cuối tuần yên tĩnh, không có chuyện lùm xùm gì trong gia đình."
+        }
+      ],
+      "collocations": [
+        "study drama",
+        "TV drama",
+        "crime drama",
+        "drama school"
+      ],
+      "notes": null,
+      "ipa": "/ˈdrɑːmə/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dra/drama/drama__us_1.mp3"
+    },
+    {
+      "english": "landscape",
+      "vietnamese": "phong cảnh; cảnh quan",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The landscape around the lake is beautiful in autumn.",
+          "vi": "Phong cảnh quanh hồ rất đẹp vào mùa thu."
+        },
+        {
+          "en": "We drove for hours through a flat, empty landscape.",
+          "vi": "Chúng tôi lái xe hàng giờ qua một vùng cảnh quan bằng phẳng và trống trải."
+        },
+        {
+          "en": "He loves painting landscapes more than people.",
+          "vi": "Anh ấy thích vẽ phong cảnh hơn là vẽ người."
+        }
+      ],
+      "collocations": [
+        "beautiful landscape",
+        "rural landscape",
+        "landscape painting"
+      ],
+      "notes": null,
+      "ipa": "/ˈlændskeɪp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lan/lands/landscape__us_1.mp3"
+    },
+    {
+      "english": "educate",
+      "vietnamese": "giáo dục; cho đi học; nâng cao hiểu biết",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Both of their children were educated at local schools.",
+          "vi": "Cả hai người con của họ đều được học ở các trường địa phương."
+        },
+        {
+          "en": "The campaign aims to educate people about healthy eating.",
+          "vi": "Chiến dịch nhằm nâng cao hiểu biết của mọi người về ăn uống lành mạnh."
+        },
+        {
+          "en": "Parents play a big part in educating their children.",
+          "vi": "Cha mẹ đóng vai trò lớn trong việc giáo dục con cái."
+        }
+      ],
+      "collocations": [
+        "educate people about",
+        "educate the public",
+        "well educated"
+      ],
+      "notes": null,
+      "ipa": "/ˈedʒukeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/edu/educa/educate__us_1.mp3"
+    },
+    {
+      "english": "toy",
+      "vietnamese": "đồ chơi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please put your toys away before dinner.",
+          "vi": "Con hãy cất đồ chơi đi trước bữa tối nhé."
+        },
+        {
+          "en": "He bought his son a toy car for his birthday.",
+          "vi": "Anh ấy mua cho con trai một chiếc ô tô đồ chơi nhân dịp sinh nhật."
+        },
+        {
+          "en": "The dog loves chewing on its old rubber toy.",
+          "vi": "Con chó thích gặm món đồ chơi cao su cũ của nó."
+        }
+      ],
+      "collocations": [
+        "toy car",
+        "play with toys",
+        "toy store"
+      ],
+      "notes": null,
+      "ipa": "/tɔɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/toy/toy__/toy__us_1.mp3"
+    },
+    {
+      "english": "fault",
+      "vietnamese": "lỗi (trách nhiệm); khuyết điểm; chỗ hỏng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "It's not your fault that the train was late.",
+          "vi": "Tàu đến muộn đâu phải lỗi của bạn."
+        },
+        {
+          "en": "He has his faults, but he's a loyal friend.",
+          "vi": "Anh ấy có những khuyết điểm, nhưng là một người bạn trung thành."
+        },
+        {
+          "en": "The engineers found a fault in the electrical system.",
+          "vi": "Các kỹ sư đã phát hiện một chỗ hỏng trong hệ thống điện."
+        }
+      ],
+      "collocations": [
+        "your fault",
+        "at fault",
+        "find fault with"
+      ],
+      "notes": null,
+      "ipa": "/fɔːlt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fau/fault/fault__us_4.mp3"
+    },
+    {
+      "english": "exhibit",
+      "vietnamese": "trưng bày, triển lãm; thể hiện",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Her paintings are being exhibited at a gallery downtown.",
+          "vi": "Các bức tranh của cô ấy đang được trưng bày tại một phòng tranh ở trung tâm thành phố."
+        },
+        {
+          "en": "The museum will exhibit old photos of the city next month.",
+          "vi": "Tháng tới, bảo tàng sẽ trưng bày những bức ảnh cũ về thành phố."
+        },
+        {
+          "en": "The young player exhibited great confidence throughout the match.",
+          "vi": "Cầu thủ trẻ đã thể hiện sự tự tin tuyệt vời trong suốt trận đấu."
+        }
+      ],
+      "collocations": [
+        "exhibit work",
+        "exhibit paintings",
+        "exhibit signs of"
+      ],
+      "notes": null,
+      "ipa": "/ɪɡˈzɪbɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exh/exhib/exhibit__us_1.mp3"
+    },
+    {
+      "english": "minor",
+      "vietnamese": "nhỏ, không quan trọng; nhẹ (không nghiêm trọng)",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We made a few minor changes to the plan.",
+          "vi": "Chúng tôi đã thực hiện vài thay đổi nhỏ trong kế hoạch."
+        },
+        {
+          "en": "Luckily, she only had minor injuries after falling off her bike.",
+          "vi": "May mắn là cô ấy chỉ bị thương nhẹ sau khi ngã xe đạp."
+        },
+        {
+          "en": "Don't worry about it; it's only a minor problem.",
+          "vi": "Đừng lo, đó chỉ là một vấn đề nhỏ thôi."
+        }
+      ],
+      "collocations": [
+        "minor changes",
+        "minor injuries",
+        "minor problem",
+        "minor role"
+      ],
+      "notes": null,
+      "ipa": "/ˈmaɪnər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/min/minor/minor__us_2.mp3"
+    },
+    {
+      "english": "hunt",
+      "vietnamese": "săn, săn bắt; lùng tìm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Owls usually hunt for mice and other small animals at night.",
+          "vi": "Cú thường săn chuột và các loài vật nhỏ khác vào ban đêm."
+        },
+        {
+          "en": "I hunted everywhere for my keys but couldn't find them.",
+          "vi": "Tôi đã lục tìm chìa khóa khắp nơi nhưng không thấy."
+        },
+        {
+          "en": "They are hunting for a cheap apartment near the university.",
+          "vi": "Họ đang lùng tìm một căn hộ giá rẻ gần trường đại học."
+        }
+      ],
+      "collocations": [
+        "hunt for",
+        "go hunting",
+        "hunt down"
+      ],
+      "notes": null,
+      "ipa": "/hʌnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hun/hunt_/hunt__us_1.mp3"
+    },
+    {
+      "english": "storm",
+      "vietnamese": "cơn bão; giông bão",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The storm knocked down several trees on our street.",
+          "vi": "Cơn bão đã quật đổ nhiều cây trên phố chúng tôi."
+        },
+        {
+          "en": "All flights were canceled because of the storm.",
+          "vi": "Tất cả các chuyến bay đều bị hủy vì bão."
+        },
+        {
+          "en": "It looks like a storm is coming, so let's go inside.",
+          "vi": "Có vẻ sắp có bão, chúng ta vào trong thôi."
+        }
+      ],
+      "collocations": [
+        "severe storm",
+        "tropical storm",
+        "a storm is coming"
+      ],
+      "notes": null,
+      "ipa": "/stɔːrm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sto/storm/storm__us_1.mp3"
+    },
+    {
+      "english": "thick",
+      "vietnamese": "dày; đặc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She wore a thick sweater because it was cold outside.",
+          "vi": "Cô ấy mặc một chiếc áo len dày vì ngoài trời lạnh."
+        },
+        {
+          "en": "Stir the soup until it becomes thick and smooth.",
+          "vi": "Khuấy súp cho đến khi súp sánh đặc và mịn."
+        },
+        {
+          "en": "It was hard to see the road through the thick fog.",
+          "vi": "Rất khó nhìn thấy đường qua lớp sương mù dày đặc."
+        }
+      ],
+      "collocations": [
+        "thick fog",
+        "thick hair",
+        "thick layer",
+        "thick smoke"
+      ],
+      "notes": null,
+      "ipa": "/θɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/thi/thick/thick__us_1.mp3"
+    }
+  ]
+}

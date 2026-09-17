@@ -1,0 +1,3373 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Cụm học thuật · Nhóm 15",
+    "description": "Academic Collocation List (Pearson/PTE)",
+    "color": "#5fd4c8",
+    "icon": "BookOpen",
+    "subtitle": "colloc-15-01"
+  },
+  "cards": [
+    {
+      "english": "simple majority",
+      "vietnamese": "đa số quá bán",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsɪmpəl məˈdʒɔːrəti/",
+      "examples": [
+        {
+          "en": "The motion passed with a simple majority of votes.",
+          "vi": "Kiến nghị được thông qua với đa số quá bán phiếu."
+        },
+        {
+          "en": "Only a simple majority is needed to approve the budget.",
+          "vi": "Chỉ cần đa số quá bán để thông qua ngân sách."
+        },
+        {
+          "en": "A simple majority cannot amend the country's constitution.",
+          "vi": "Đa số quá bán không thể sửa đổi hiến pháp của quốc gia."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "simplified version",
+      "vietnamese": "phiên bản đơn giản hóa",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsɪmpləfaɪd ˈvɜːrʒən/",
+      "examples": [
+        {
+          "en": "The textbook presents a simplified version of the theory.",
+          "vi": "Sách giáo khoa trình bày một phiên bản đơn giản hóa của lý thuyết."
+        },
+        {
+          "en": "Teachers gave students a simplified version of the rules.",
+          "vi": "Giáo viên đưa cho học sinh một phiên bản đơn giản hóa của các quy tắc."
+        },
+        {
+          "en": "The app offers a simplified version for new users.",
+          "vi": "Ứng dụng cung cấp một phiên bản đơn giản hóa cho người dùng mới."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "single currency",
+      "vietnamese": "đồng tiền chung",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsɪŋɡəl ˈkɜːrənsi/",
+      "examples": [
+        {
+          "en": "Member states adopted a single currency to ease trade.",
+          "vi": "Các nước thành viên áp dụng đồng tiền chung để thuận lợi thương mại.",
+          "image_url": "https://images.pexels.com/photos/10149620/pexels-photo-10149620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "A single currency removed the need for constant exchange.",
+          "vi": "Đồng tiền chung loại bỏ nhu cầu đổi tiền liên tục.",
+          "image_url": "https://images.pexels.com/photos/10149620/pexels-photo-10149620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Critics debated whether a single currency suited every economy.",
+          "vi": "Các nhà phê bình tranh luận liệu đồng tiền chung có hợp với mọi nền kinh tế.",
+          "image_url": "https://images.pexels.com/photos/10149620/pexels-photo-10149620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/10149620/pexels-photo-10149620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Engin Akyurt",
+        "author_url": "https://www.pexels.com/@enginakyurt",
+        "source_url": "https://www.pexels.com/photo/a-piece-of-a-round-coin-on-a-white-surface-10149620/"
+      }
+    },
+    {
+      "english": "single element",
+      "vietnamese": "một yếu tố đơn lẻ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsɪŋɡəl ˈeləmənt/",
+      "examples": [
+        {
+          "en": "No single element alone explains the experiment's complex outcome.",
+          "vi": "Không một yếu tố đơn lẻ nào giải thích được kết quả phức tạp của thí nghiệm."
+        },
+        {
+          "en": "Changing a single element can alter the whole design.",
+          "vi": "Thay đổi một yếu tố đơn lẻ có thể làm thay đổi toàn bộ thiết kế."
+        },
+        {
+          "en": "The diagram highlights each single element of the process.",
+          "vi": "Sơ đồ làm nổi bật từng yếu tố đơn lẻ của quá trình."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "single entity",
+      "vietnamese": "một thực thể đơn nhất",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsɪŋɡəl ˈentəti/",
+      "examples": [
+        {
+          "en": "The merger combined both firms into a single entity.",
+          "vi": "Vụ sáp nhập gộp cả hai công ty thành một thực thể đơn nhất.",
+          "image_url": "https://images.pexels.com/photos/7953418/pexels-photo-7953418.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The law treats the group as a single entity legally.",
+          "vi": "Luật pháp coi nhóm này như một thực thể đơn nhất về mặt pháp lý."
+        },
+        {
+          "en": "Several departments now operate as a single entity.",
+          "vi": "Nhiều phòng ban giờ hoạt động như một thực thể đơn nhất."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "single individual",
+      "vietnamese": "một cá nhân đơn lẻ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsɪŋɡəl ˌɪndɪˈvɪdʒuəl/",
+      "examples": [
+        {
+          "en": "No single individual can solve this problem alone.",
+          "vi": "Không một cá nhân đơn lẻ nào có thể tự giải quyết vấn đề này."
+        },
+        {
+          "en": "A single individual cannot represent the entire community fairly.",
+          "vi": "Một cá nhân đơn lẻ không thể đại diện công bằng cho cả cộng đồng."
+        },
+        {
+          "en": "The decision rested on a single individual's judgment.",
+          "vi": "Quyết định dựa vào phán đoán của một cá nhân đơn lẻ."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "single issue",
+      "vietnamese": "một vấn đề đơn lẻ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsɪŋɡəl ˈɪʃuː/",
+      "examples": [
+        {
+          "en": "The campaign focused on a single issue throughout the year.",
+          "vi": "Chiến dịch tập trung vào một vấn đề đơn lẻ trong suốt năm."
+        },
+        {
+          "en": "Voters rarely choose based on a single issue alone.",
+          "vi": "Cử tri hiếm khi chọn dựa trên một vấn đề đơn lẻ.",
+          "image_url": "https://images.pexels.com/photos/4669113/pexels-photo-4669113.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The debate narrowed down to a single issue eventually.",
+          "vi": "Cuộc tranh luận cuối cùng thu hẹp về một vấn đề đơn lẻ."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "single source",
+      "vietnamese": "một nguồn duy nhất",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsɪŋɡəl sɔːrs/",
+      "examples": [
+        {
+          "en": "Relying on a single source weakens any research argument.",
+          "vi": "Dựa vào một nguồn duy nhất làm yếu đi mọi lập luận nghiên cứu."
+        },
+        {
+          "en": "The report drew its data from a single source.",
+          "vi": "Báo cáo lấy dữ liệu từ một nguồn duy nhất."
+        },
+        {
+          "en": "A single source of income made the family vulnerable.",
+          "vi": "Một nguồn thu nhập duy nhất khiến gia đình dễ tổn thương."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "single variable",
+      "vietnamese": "một biến số đơn lẻ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsɪŋɡəl ˈveriəbəl/",
+      "examples": [
+        {
+          "en": "The experiment changed only a single variable at a time.",
+          "vi": "Thí nghiệm chỉ thay đổi một biến số đơn lẻ mỗi lần."
+        },
+        {
+          "en": "Isolating a single variable helps clarify the true cause.",
+          "vi": "Tách riêng một biến số đơn lẻ giúp làm rõ nguyên nhân thực sự."
+        },
+        {
+          "en": "A single variable cannot explain such a complex result.",
+          "vi": "Một biến số đơn lẻ không thể giải thích kết quả phức tạp như vậy.",
+          "image_url": "https://images.pexels.com/photos/6325936/pexels-photo-6325936.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "skilled worker",
+      "vietnamese": "lao động có tay nghề",
+      "part_of_speech": "adj + n",
+      "ipa": "/skɪld ˈwɜːrkər/",
+      "examples": [
+        {
+          "en": "The factory struggled to recruit enough skilled workers.",
+          "vi": "Nhà máy gặp khó khăn trong việc tuyển đủ lao động có tay nghề."
+        },
+        {
+          "en": "A skilled worker can complete the task far more quickly.",
+          "vi": "Một lao động có tay nghề có thể hoàn thành công việc nhanh hơn nhiều."
+        },
+        {
+          "en": "The country relies on skilled workers from abroad.",
+          "vi": "Đất nước phụ thuộc vào lao động có tay nghề từ nước ngoài."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "slightly different",
+      "vietnamese": "hơi khác một chút",
+      "part_of_speech": "adv + adj",
+      "ipa": "/ˈslaɪtli ˈdɪfərənt/",
+      "examples": [
+        {
+          "en": "Each sample produced a slightly different result in testing.",
+          "vi": "Mỗi mẫu cho ra một kết quả hơi khác một chút khi thử nghiệm."
+        },
+        {
+          "en": "The new edition uses a slightly different layout.",
+          "vi": "Phiên bản mới dùng bố cục hơi khác một chút."
+        },
+        {
+          "en": "Her conclusion was slightly different from the others.",
+          "vi": "Kết luận của cô hơi khác một chút so với những người khác."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "slightly higher",
+      "vietnamese": "cao hơn một chút",
+      "part_of_speech": "adv + adj",
+      "ipa": "/ˈslaɪtli ˈhaɪər/",
+      "examples": [
+        {
+          "en": "Temperatures were slightly higher than the seasonal average.",
+          "vi": "Nhiệt độ cao hơn một chút so với mức trung bình mùa.",
+          "image_url": "https://images.pexels.com/photos/11347388/pexels-photo-11347388.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Prices this year are slightly higher than last year.",
+          "vi": "Giá năm nay cao hơn một chút so với năm ngoái.",
+          "image_url": "https://images.pexels.com/photos/11347388/pexels-photo-11347388.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The treated group showed a slightly higher recovery rate.",
+          "vi": "Nhóm được điều trị có tỷ lệ hồi phục cao hơn một chút.",
+          "image_url": "https://images.pexels.com/photos/11347388/pexels-photo-11347388.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/11347388/pexels-photo-11347388.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Patrick Nizan",
+        "author_url": "https://www.pexels.com/@patrick-nizan-115343504",
+        "source_url": "https://www.pexels.com/photo/low-angle-shot-of-red-hot-air-balloon-under-blue-sky-11347388/"
+      }
+    },
+    {
+      "english": "slow process",
+      "vietnamese": "quá trình chậm chạp",
+      "part_of_speech": "adj + n",
+      "ipa": "/sloʊ ˈprɑːses/",
+      "examples": [
+        {
+          "en": "Learning a new language is often a slow process.",
+          "vi": "Học một ngôn ngữ mới thường là một quá trình chậm chạp."
+        },
+        {
+          "en": "Rebuilding trust after the scandal was a slow process.",
+          "vi": "Xây dựng lại niềm tin sau vụ bê bối là một quá trình chậm chạp."
+        },
+        {
+          "en": "Coral reefs recover through a slow process over decades.",
+          "vi": "Rạn san hô phục hồi qua một quá trình chậm chạp suốt nhiều thập kỷ."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "small fraction",
+      "vietnamese": "một phần nhỏ",
+      "part_of_speech": "adj + n",
+      "ipa": "/smɔːl ˈfrækʃən/",
+      "examples": [
+        {
+          "en": "Only a small fraction of applicants were finally accepted.",
+          "vi": "Chỉ một phần nhỏ ứng viên cuối cùng được nhận.",
+          "image_url": "https://images.pexels.com/photos/7821472/pexels-photo-7821472.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "A small fraction of the budget covers maintenance costs.",
+          "vi": "Một phần nhỏ ngân sách dùng cho chi phí bảo trì."
+        },
+        {
+          "en": "Wind power supplies only a small fraction of the energy.",
+          "vi": "Điện gió chỉ cung cấp một phần nhỏ năng lượng."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "small minority",
+      "vietnamese": "một thiểu số nhỏ",
+      "part_of_speech": "adj + n",
+      "ipa": "/smɔːl maɪˈnɔːrəti/",
+      "examples": [
+        {
+          "en": "Only a small minority opposed the proposed changes.",
+          "vi": "Chỉ một thiểu số nhỏ phản đối những thay đổi được đề xuất."
+        },
+        {
+          "en": "A small minority of students prefer online classes entirely.",
+          "vi": "Một thiểu số nhỏ sinh viên hoàn toàn thích học trực tuyến."
+        },
+        {
+          "en": "The survey showed a small minority remained undecided.",
+          "vi": "Khảo sát cho thấy một thiểu số nhỏ vẫn chưa quyết định."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "small percentage",
+      "vietnamese": "một tỷ lệ phần trăm nhỏ",
+      "part_of_speech": "adj + n",
+      "ipa": "/smɔːl pərˈsentɪdʒ/",
+      "examples": [
+        {
+          "en": "Only a small percentage of waste is actually recycled.",
+          "vi": "Chỉ một tỷ lệ phần trăm nhỏ rác thải thực sự được tái chế."
+        },
+        {
+          "en": "A small percentage of patients experienced minor side effects.",
+          "vi": "Một tỷ lệ phần trăm nhỏ bệnh nhân gặp tác dụng phụ nhẹ.",
+          "image_url": "https://images.pexels.com/photos/8376195/pexels-photo-8376195.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Only a small percentage of voters turned out yesterday.",
+          "vi": "Chỉ một tỷ lệ phần trăm nhỏ cử tri đi bầu hôm qua."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "small portion",
+      "vietnamese": "một phần nhỏ",
+      "part_of_speech": "adj + n",
+      "ipa": "/smɔːl ˈpɔːrʃən/",
+      "examples": [
+        {
+          "en": "Only a small portion of the land is suitable for farming.",
+          "vi": "Chỉ một phần nhỏ đất đai phù hợp cho canh tác."
+        },
+        {
+          "en": "She saved a small portion of her salary each month.",
+          "vi": "Cô tiết kiệm một phần nhỏ lương mỗi tháng."
+        },
+        {
+          "en": "A small portion of the report focused on safety.",
+          "vi": "Một phần nhỏ của báo cáo tập trung vào an toàn."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "small proportion of",
+      "vietnamese": "một tỷ lệ nhỏ",
+      "part_of_speech": "adj + n",
+      "ipa": "/smɔːl prəˈpɔːrʃən əv/",
+      "examples": [
+        {
+          "en": "A small proportion of households still lack internet access.",
+          "vi": "Một tỷ lệ nhỏ hộ gia đình vẫn chưa có internet."
+        },
+        {
+          "en": "Only a small proportion of income goes toward savings.",
+          "vi": "Chỉ một tỷ lệ nhỏ thu nhập được dùng để tiết kiệm."
+        },
+        {
+          "en": "A small proportion of cases required hospital treatment.",
+          "vi": "Một tỷ lệ nhỏ ca bệnh cần điều trị tại bệnh viện.",
+          "image_url": "https://images.pexels.com/photos/6129152/pexels-photo-6129152.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "small quantities of",
+      "vietnamese": "một lượng nhỏ",
+      "part_of_speech": "adj + n",
+      "ipa": "/smɔːl ˈkwɑːntətiz əv/",
+      "examples": [
+        {
+          "en": "The recipe uses only small quantities of salt.",
+          "vi": "Công thức chỉ dùng một lượng nhỏ muối."
+        },
+        {
+          "en": "Small quantities of the chemical were found in the water.",
+          "vi": "Một lượng nhỏ hóa chất được tìm thấy trong nước."
+        },
+        {
+          "en": "Plants absorb small quantities of nutrients through their roots.",
+          "vi": "Cây hấp thụ một lượng nhỏ chất dinh dưỡng qua rễ."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social activity",
+      "vietnamese": "hoạt động xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ækˈtɪvəti/",
+      "examples": [
+        {
+          "en": "The club organizes a social activity every weekend.",
+          "vi": "Câu lạc bộ tổ chức một hoạt động xã hội mỗi cuối tuần."
+        },
+        {
+          "en": "Social activity helps older adults stay mentally healthy.",
+          "vi": "Hoạt động xã hội giúp người lớn tuổi giữ sức khỏe tinh thần."
+        },
+        {
+          "en": "Many students value social activity as much as study.",
+          "vi": "Nhiều sinh viên coi trọng hoạt động xã hội ngang với học tập."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social aspect",
+      "vietnamese": "khía cạnh xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈæspekt/",
+      "examples": [
+        {
+          "en": "The study explored the social aspect of online gaming.",
+          "vi": "Nghiên cứu khám phá khía cạnh xã hội của trò chơi trực tuyến.",
+          "image_url": "https://images.pexels.com/photos/15595050/pexels-photo-15595050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Teachers often overlook the social aspect of learning.",
+          "vi": "Giáo viên thường bỏ qua khía cạnh xã hội của việc học.",
+          "image_url": "https://images.pexels.com/photos/15595050/pexels-photo-15595050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The social aspect of the festival attracts many visitors.",
+          "vi": "Khía cạnh xã hội của lễ hội thu hút nhiều du khách.",
+          "image_url": "https://images.pexels.com/photos/15595050/pexels-photo-15595050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/15595050/pexels-photo-15595050.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Walls.io",
+        "author_url": "https://www.pexels.com/@walls-io-440716388",
+        "source_url": "https://www.pexels.com/photo/a-keyboard-light-box-with-letters-document-and-pen-lying-on-a-desk-15595050/"
+      }
+    },
+    {
+      "english": "social attitudes",
+      "vietnamese": "thái độ xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈætətuːdz/",
+      "examples": [
+        {
+          "en": "Social attitudes toward marriage have changed considerably over time.",
+          "vi": "Thái độ xã hội đối với hôn nhân đã thay đổi đáng kể theo thời gian."
+        },
+        {
+          "en": "Education can gradually reshape social attitudes about disability.",
+          "vi": "Giáo dục có thể dần định hình lại thái độ xã hội về khuyết tật."
+        },
+        {
+          "en": "The survey measured social attitudes across different age groups.",
+          "vi": "Cuộc khảo sát đo lường thái độ xã hội ở các nhóm tuổi khác nhau."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social background",
+      "vietnamese": "hoàn cảnh xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈbækɡraʊnd/",
+      "examples": [
+        {
+          "en": "Students come from very different social backgrounds here.",
+          "vi": "Học sinh ở đây đến từ những hoàn cảnh xã hội rất khác nhau.",
+          "image_url": "https://images.pexels.com/photos/8199173/pexels-photo-8199173.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Social background can strongly influence a child's opportunities.",
+          "vi": "Hoàn cảnh xã hội có thể ảnh hưởng mạnh đến cơ hội của trẻ."
+        },
+        {
+          "en": "The program supports students regardless of social background.",
+          "vi": "Chương trình hỗ trợ học sinh bất kể hoàn cảnh xã hội."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social behavior",
+      "vietnamese": "hành vi xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl bɪˈheɪvjər/",
+      "examples": [
+        {
+          "en": "Researchers study how culture shapes social behavior in children.",
+          "vi": "Các nhà nghiên cứu tìm hiểu cách văn hóa định hình hành vi xã hội ở trẻ."
+        },
+        {
+          "en": "Social behavior often differs greatly between rural and urban areas.",
+          "vi": "Hành vi xã hội thường khác nhau nhiều giữa nông thôn và thành thị."
+        },
+        {
+          "en": "The experiment measured changes in social behavior over months.",
+          "vi": "Thí nghiệm đo lường thay đổi trong hành vi xã hội qua nhiều tháng."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social circumstances",
+      "vietnamese": "hoàn cảnh xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈsɜːrkəmstænsɪz/",
+      "examples": [
+        {
+          "en": "Their social circumstances limited access to higher education.",
+          "vi": "Hoàn cảnh xã hội của họ hạn chế việc tiếp cận giáo dục đại học."
+        },
+        {
+          "en": "Health outcomes often depend on a person's social circumstances.",
+          "vi": "Kết quả sức khỏe thường phụ thuộc vào hoàn cảnh xã hội của một người.",
+          "image_url": "https://images.pexels.com/photos/29372730/pexels-photo-29372730.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Policies should account for the social circumstances of families.",
+          "vi": "Chính sách nên tính đến hoàn cảnh xã hội của các gia đình."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social conflict",
+      "vietnamese": "xung đột xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈkɑːnflɪkt/",
+      "examples": [
+        {
+          "en": "Rising inequality can fuel serious social conflict over time.",
+          "vi": "Bất bình đẳng gia tăng có thể gây ra xung đột xã hội nghiêm trọng."
+        },
+        {
+          "en": "The region has a long history of social conflict.",
+          "vi": "Khu vực này có lịch sử xung đột xã hội lâu dài."
+        },
+        {
+          "en": "Dialogue between groups helped reduce the social conflict.",
+          "vi": "Đối thoại giữa các nhóm đã giúp giảm xung đột xã hội."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social consequences",
+      "vietnamese": "hệ quả xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈkɑːnsəkwensɪz/",
+      "examples": [
+        {
+          "en": "Unemployment carries serious social consequences for whole communities.",
+          "vi": "Thất nghiệp mang lại hệ quả xã hội nghiêm trọng cho cả cộng đồng."
+        },
+        {
+          "en": "The policy ignored the long-term social consequences of poverty.",
+          "vi": "Chính sách đã bỏ qua hệ quả xã hội lâu dài của nghèo đói."
+        },
+        {
+          "en": "New technology often brings unexpected social consequences.",
+          "vi": "Công nghệ mới thường mang lại hệ quả xã hội bất ngờ.",
+          "image_url": "https://images.pexels.com/photos/30693449/pexels-photo-30693449.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social construct",
+      "vietnamese": "kiến tạo xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈkɑːnstrʌkt/",
+      "examples": [
+        {
+          "en": "Many scholars argue that race is a social construct.",
+          "vi": "Nhiều học giả cho rằng chủng tộc là một kiến tạo xã hội."
+        },
+        {
+          "en": "Gender roles are often described as a social construct.",
+          "vi": "Vai trò giới thường được mô tả như một kiến tạo xã hội."
+        },
+        {
+          "en": "The idea of beauty is partly a social construct.",
+          "vi": "Quan niệm về cái đẹp một phần là kiến tạo xã hội."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social contact",
+      "vietnamese": "tiếp xúc xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈkɑːntækt/",
+      "examples": [
+        {
+          "en": "Regular social contact improves mental health in elderly people.",
+          "vi": "Tiếp xúc xã hội thường xuyên cải thiện sức khỏe tinh thần người già."
+        },
+        {
+          "en": "The lockdown reduced everyday social contact for many people.",
+          "vi": "Đợt phong tỏa làm giảm tiếp xúc xã hội hằng ngày của nhiều người."
+        },
+        {
+          "en": "Children develop language skills through frequent social contact.",
+          "vi": "Trẻ phát triển kỹ năng ngôn ngữ qua tiếp xúc xã hội thường xuyên."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social context",
+      "vietnamese": "bối cảnh xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈkɑːntekst/",
+      "examples": [
+        {
+          "en": "Language always carries meaning within its social context.",
+          "vi": "Ngôn ngữ luôn mang ý nghĩa trong bối cảnh xã hội của nó.",
+          "image_url": "https://images.pexels.com/photos/34792887/pexels-photo-34792887.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "We must understand the social context of the historical event.",
+          "vi": "Chúng ta phải hiểu bối cảnh xã hội của sự kiện lịch sử.",
+          "image_url": "https://images.pexels.com/photos/34792887/pexels-photo-34792887.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Behavior changes depending on the surrounding social context.",
+          "vi": "Hành vi thay đổi tùy theo bối cảnh xã hội xung quanh.",
+          "image_url": "https://images.pexels.com/photos/34792887/pexels-photo-34792887.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/34792887/pexels-photo-34792887.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Tanha Tamanna  Syed",
+        "author_url": "https://www.pexels.com/@tanhatamannasyed",
+        "source_url": "https://www.pexels.com/photo/group-of-men-gathering-in-a-dhaka-street-34792887/"
+      }
+    },
+    {
+      "english": "social democracy",
+      "vietnamese": "dân chủ xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl dɪˈmɑːkrəsi/",
+      "examples": [
+        {
+          "en": "Many Nordic countries are seen as models of social democracy.",
+          "vi": "Nhiều nước Bắc Âu được xem là hình mẫu của dân chủ xã hội."
+        },
+        {
+          "en": "Social democracy combines free markets with strong welfare systems.",
+          "vi": "Dân chủ xã hội kết hợp thị trường tự do với hệ thống phúc lợi mạnh."
+        },
+        {
+          "en": "The party promoted social democracy throughout its long campaign.",
+          "vi": "Đảng cổ vũ dân chủ xã hội trong suốt chiến dịch dài của mình."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social dimension",
+      "vietnamese": "chiều kích xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl dɪˈmenʃən/",
+      "examples": [
+        {
+          "en": "The project considered the social dimension of urban planning.",
+          "vi": "Dự án xem xét chiều kích xã hội của quy hoạch đô thị.",
+          "image_url": "https://images.pexels.com/photos/34360419/pexels-photo-34360419.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Economists sometimes ignore the social dimension of their policies.",
+          "vi": "Các nhà kinh tế đôi khi bỏ qua chiều kích xã hội trong chính sách."
+        },
+        {
+          "en": "Health care has an important social dimension beyond medicine.",
+          "vi": "Chăm sóc sức khỏe có chiều kích xã hội quan trọng ngoài y học."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social environment",
+      "vietnamese": "môi trường xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ɪnˈvaɪrənmənt/",
+      "examples": [
+        {
+          "en": "A supportive social environment helps children thrive at school.",
+          "vi": "Một môi trường xã hội hỗ trợ giúp trẻ phát triển ở trường."
+        },
+        {
+          "en": "The social environment of a workplace affects employee morale.",
+          "vi": "Môi trường xã hội nơi làm việc ảnh hưởng đến tinh thần nhân viên."
+        },
+        {
+          "en": "Habits are shaped strongly by the surrounding social environment.",
+          "vi": "Thói quen được định hình mạnh bởi môi trường xã hội xung quanh."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social equality",
+      "vietnamese": "bình đẳng xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ɪˈkwɑːləti/",
+      "examples": [
+        {
+          "en": "The movement fought for greater social equality among citizens.",
+          "vi": "Phong trào đấu tranh cho sự bình đẳng xã hội lớn hơn giữa các công dân."
+        },
+        {
+          "en": "Education is often seen as a path to social equality.",
+          "vi": "Giáo dục thường được coi là con đường đến bình đẳng xã hội.",
+          "image_url": "https://images.pexels.com/photos/6185434/pexels-photo-6185434.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "True social equality requires fair access to opportunity.",
+          "vi": "Bình đẳng xã hội thực sự đòi hỏi tiếp cận cơ hội công bằng."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social exclusion",
+      "vietnamese": "sự loại trừ xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ɪkˈskluːʒən/",
+      "examples": [
+        {
+          "en": "Poverty often leads to social exclusion for many families.",
+          "vi": "Nghèo đói thường dẫn đến sự loại trừ xã hội đối với nhiều gia đình."
+        },
+        {
+          "en": "The charity works to reduce social exclusion among migrants.",
+          "vi": "Tổ chức từ thiện hoạt động nhằm giảm sự loại trừ xã hội ở người di cư."
+        },
+        {
+          "en": "Language barriers can cause lasting social exclusion.",
+          "vi": "Rào cản ngôn ngữ có thể gây ra sự loại trừ xã hội dai dẳng."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social expectations",
+      "vietnamese": "kỳ vọng xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˌekspekˈteɪʃənz/",
+      "examples": [
+        {
+          "en": "Young people often feel pressured by social expectations.",
+          "vi": "Người trẻ thường cảm thấy áp lực bởi kỳ vọng xã hội."
+        },
+        {
+          "en": "Social expectations about careers differ across cultures.",
+          "vi": "Kỳ vọng xã hội về sự nghiệp khác nhau giữa các nền văn hóa."
+        },
+        {
+          "en": "She struggled to meet her family's social expectations.",
+          "vi": "Cô vất vả để đáp ứng kỳ vọng xã hội của gia đình.",
+          "image_url": "https://images.pexels.com/photos/29539916/pexels-photo-29539916.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social factors",
+      "vietnamese": "các yếu tố xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈfæktərz/",
+      "examples": [
+        {
+          "en": "Social factors strongly influence a child's educational outcomes.",
+          "vi": "Các yếu tố xã hội ảnh hưởng mạnh đến kết quả học tập của trẻ."
+        },
+        {
+          "en": "Researchers examined the social factors behind rising obesity.",
+          "vi": "Các nhà nghiên cứu xem xét các yếu tố xã hội đằng sau béo phì gia tăng."
+        },
+        {
+          "en": "Health depends on biological and social factors together.",
+          "vi": "Sức khỏe phụ thuộc vào cả yếu tố sinh học và xã hội."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social function",
+      "vietnamese": "chức năng xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈfʌŋkʃən/",
+      "examples": [
+        {
+          "en": "Festivals serve an important social function in many communities.",
+          "vi": "Lễ hội phục vụ một chức năng xã hội quan trọng ở nhiều cộng đồng."
+        },
+        {
+          "en": "Language has a clear social function beyond simple communication.",
+          "vi": "Ngôn ngữ có chức năng xã hội rõ ràng ngoài việc giao tiếp đơn thuần."
+        },
+        {
+          "en": "The museum also fulfills a valuable social function locally.",
+          "vi": "Bảo tàng cũng thực hiện một chức năng xã hội quý giá tại địa phương."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social identity",
+      "vietnamese": "bản sắc xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl aɪˈdentəti/",
+      "examples": [
+        {
+          "en": "Language plays a key role in shaping social identity.",
+          "vi": "Ngôn ngữ đóng vai trò then chốt trong việc hình thành bản sắc xã hội.",
+          "image_url": "https://images.pexels.com/photos/5721133/pexels-photo-5721133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Teenagers often explore their social identity through friendships.",
+          "vi": "Thanh thiếu niên thường khám phá bản sắc xã hội qua tình bạn.",
+          "image_url": "https://images.pexels.com/photos/5721133/pexels-photo-5721133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Migration can deeply affect a person's social identity.",
+          "vi": "Di cư có thể ảnh hưởng sâu sắc đến bản sắc xã hội của một người.",
+          "image_url": "https://images.pexels.com/photos/5721133/pexels-photo-5721133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/5721133/pexels-photo-5721133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Anete Lusina",
+        "author_url": "https://www.pexels.com/@anete-lusina",
+        "source_url": "https://www.pexels.com/photo/man-in-denim-jacket-wearing-a-guy-fawkes-mask-5721133/"
+      }
+    },
+    {
+      "english": "social implications",
+      "vietnamese": "hàm ý xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˌɪmplɪˈkeɪʃənz/",
+      "examples": [
+        {
+          "en": "The new technology raises serious social implications for privacy.",
+          "vi": "Công nghệ mới đặt ra những hàm ý xã hội nghiêm trọng về quyền riêng tư."
+        },
+        {
+          "en": "Scientists discussed the social implications of their discovery.",
+          "vi": "Các nhà khoa học thảo luận về hàm ý xã hội của phát hiện của họ."
+        },
+        {
+          "en": "The policy has wide social implications for low-income families.",
+          "vi": "Chính sách có hàm ý xã hội sâu rộng đối với các gia đình thu nhập thấp."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social inequality",
+      "vietnamese": "sự bất bình đẳng xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˌɪnɪˈkwɑːləti/",
+      "examples": [
+        {
+          "en": "Rising social inequality often leads to political tension in many countries.",
+          "vi": "Bất bình đẳng xã hội gia tăng thường dẫn đến căng thẳng chính trị ở nhiều quốc gia.",
+          "image_url": "https://images.pexels.com/photos/9643247/pexels-photo-9643247.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The report examines how education can reduce social inequality over time.",
+          "vi": "Báo cáo xem xét giáo dục có thể giảm bất bình đẳng xã hội theo thời gian như thế nào."
+        },
+        {
+          "en": "Economists debate the main causes of widening social inequality today.",
+          "vi": "Các nhà kinh tế tranh luận về những nguyên nhân chính của bất bình đẳng xã hội ngày càng lớn."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social institution",
+      "vietnamese": "thiết chế xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˌɪnstɪˈtuːʃən/",
+      "examples": [
+        {
+          "en": "The family is often described as the most basic social institution.",
+          "vi": "Gia đình thường được mô tả là thiết chế xã hội cơ bản nhất."
+        },
+        {
+          "en": "Schools function as a social institution that shapes young people's values.",
+          "vi": "Trường học hoạt động như một thiết chế xã hội định hình giá trị của giới trẻ."
+        },
+        {
+          "en": "Religious social institutions have influenced laws throughout human history.",
+          "vi": "Các thiết chế xã hội tôn giáo đã ảnh hưởng đến luật pháp suốt lịch sử nhân loại."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social integration",
+      "vietnamese": "sự hòa nhập xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˌɪntɪˈɡreɪʃən/",
+      "examples": [
+        {
+          "en": "Language classes promote social integration among newly arrived immigrants.",
+          "vi": "Các lớp học ngôn ngữ thúc đẩy sự hòa nhập xã hội của người nhập cư mới đến."
+        },
+        {
+          "en": "The program supports the social integration of refugees into local communities.",
+          "vi": "Chương trình hỗ trợ sự hòa nhập xã hội của người tị nạn vào cộng đồng địa phương.",
+          "image_url": "https://images.pexels.com/photos/19264366/pexels-photo-19264366.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Sports teams can encourage social integration across different cultural groups.",
+          "vi": "Các đội thể thao có thể khuyến khích sự hòa nhập xã hội giữa các nhóm văn hóa khác nhau."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social interaction",
+      "vietnamese": "sự tương tác xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˌɪntərˈækʃən/",
+      "examples": [
+        {
+          "en": "Daily social interaction is essential for a child's emotional development.",
+          "vi": "Tương tác xã hội hằng ngày rất cần thiết cho sự phát triển cảm xúc của trẻ."
+        },
+        {
+          "en": "Online platforms have changed the way social interaction takes place.",
+          "vi": "Các nền tảng trực tuyến đã thay đổi cách thức diễn ra tương tác xã hội."
+        },
+        {
+          "en": "Researchers observed social interaction patterns within the small group.",
+          "vi": "Các nhà nghiên cứu quan sát các mô hình tương tác xã hội trong nhóm nhỏ."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social isolation",
+      "vietnamese": "sự cô lập xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˌaɪsəˈleɪʃən/",
+      "examples": [
+        {
+          "en": "Long-term social isolation can seriously affect a person's mental health.",
+          "vi": "Cô lập xã hội kéo dài có thể ảnh hưởng nghiêm trọng đến sức khỏe tinh thần."
+        },
+        {
+          "en": "The pandemic increased social isolation among elderly people living alone.",
+          "vi": "Đại dịch làm gia tăng sự cô lập xã hội ở người già sống một mình."
+        },
+        {
+          "en": "Community centers help reduce social isolation in rural areas.",
+          "vi": "Các trung tâm cộng đồng giúp giảm sự cô lập xã hội ở vùng nông thôn.",
+          "image_url": "https://images.pexels.com/photos/36884506/pexels-photo-36884506.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social mobility",
+      "vietnamese": "sự dịch chuyển tầng lớp xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl moʊˈbɪləti/",
+      "examples": [
+        {
+          "en": "Good education can improve social mobility for children from poor families.",
+          "vi": "Giáo dục tốt có thể cải thiện sự dịch chuyển xã hội cho trẻ em nhà nghèo."
+        },
+        {
+          "en": "The study measures social mobility across three different generations.",
+          "vi": "Nghiên cứu đo lường sự dịch chuyển xã hội qua ba thế hệ khác nhau."
+        },
+        {
+          "en": "Limited social mobility keeps many people trapped in poverty.",
+          "vi": "Sự dịch chuyển xã hội hạn chế khiến nhiều người mắc kẹt trong nghèo đói."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social movement",
+      "vietnamese": "phong trào xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈmuːvmənt/",
+      "examples": [
+        {
+          "en": "The civil rights social movement transformed laws across the country.",
+          "vi": "Phong trào xã hội về dân quyền đã thay đổi luật pháp trên cả nước."
+        },
+        {
+          "en": "A new social movement emerged to demand stronger climate action.",
+          "vi": "Một phong trào xã hội mới nổi lên đòi hỏi hành động khí hậu mạnh mẽ hơn."
+        },
+        {
+          "en": "Historians study how each social movement shaped public opinion.",
+          "vi": "Các nhà sử học nghiên cứu cách mỗi phong trào xã hội định hình dư luận."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social norm",
+      "vietnamese": "chuẩn mực xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl nɔːrm/",
+      "examples": [
+        {
+          "en": "Greeting strangers politely is a common social norm in many cultures.",
+          "vi": "Chào hỏi người lạ một cách lịch sự là chuẩn mực xã hội phổ biến ở nhiều nền văn hóa.",
+          "image_url": "https://images.pexels.com/photos/5961185/pexels-photo-5961185.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Breaking a social norm can lead to disapproval from the community.",
+          "vi": "Vi phạm một chuẩn mực xã hội có thể dẫn đến sự phản đối từ cộng đồng.",
+          "image_url": "https://images.pexels.com/photos/5961185/pexels-photo-5961185.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Social norms often change slowly as generations grow up.",
+          "vi": "Các chuẩn mực xã hội thường thay đổi chậm khi các thế hệ trưởng thành.",
+          "image_url": "https://images.pexels.com/photos/5961185/pexels-photo-5961185.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/5961185/pexels-photo-5961185.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Thirdman",
+        "author_url": "https://www.pexels.com/@thirdman",
+        "source_url": "https://www.pexels.com/photo/friends-standing-on-the-street-5961185/"
+      }
+    },
+    {
+      "english": "social organization",
+      "vietnamese": "tổ chức xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˌɔːrɡənəˈzeɪʃən/",
+      "examples": [
+        {
+          "en": "Anthropologists study the social organization of small tribal groups.",
+          "vi": "Các nhà nhân học nghiên cứu tổ chức xã hội của các nhóm bộ lạc nhỏ."
+        },
+        {
+          "en": "Complex social organization allowed early cities to grow rapidly.",
+          "vi": "Tổ chức xã hội phức tạp đã giúp các thành phố cổ phát triển nhanh chóng."
+        },
+        {
+          "en": "The book compares social organization in farming and hunting societies.",
+          "vi": "Cuốn sách so sánh tổ chức xã hội ở các xã hội nông nghiệp và săn bắt."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social phenomenon",
+      "vietnamese": "hiện tượng xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl fəˈnɑːmɪnən/",
+      "examples": [
+        {
+          "en": "The rapid spread of memes is an interesting social phenomenon online.",
+          "vi": "Sự lan truyền nhanh chóng của meme là một hiện tượng xã hội thú vị trên mạng.",
+          "image_url": "https://images.pexels.com/photos/6633068/pexels-photo-6633068.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Sociologists try to explain this complex social phenomenon scientifically.",
+          "vi": "Các nhà xã hội học cố gắng giải thích hiện tượng xã hội phức tạp này một cách khoa học."
+        },
+        {
+          "en": "Urban migration is a global social phenomenon affecting many nations.",
+          "vi": "Di cư đô thị là một hiện tượng xã hội toàn cầu ảnh hưởng đến nhiều quốc gia."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social policy",
+      "vietnamese": "chính sách xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈpɑːləsi/",
+      "examples": [
+        {
+          "en": "The government introduced a new social policy to support working families.",
+          "vi": "Chính phủ đưa ra một chính sách xã hội mới để hỗ trợ các gia đình lao động."
+        },
+        {
+          "en": "Effective social policy can reduce poverty and improve public health.",
+          "vi": "Chính sách xã hội hiệu quả có thể giảm nghèo và cải thiện sức khỏe cộng đồng."
+        },
+        {
+          "en": "The lecture compared social policy in several European countries.",
+          "vi": "Bài giảng so sánh chính sách xã hội ở một số quốc gia châu Âu."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social reform",
+      "vietnamese": "cải cách xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl rɪˈfɔːrm/",
+      "examples": [
+        {
+          "en": "The activists campaigned for social reform to improve workers' rights.",
+          "vi": "Các nhà hoạt động vận động cho cải cách xã hội nhằm cải thiện quyền của người lao động."
+        },
+        {
+          "en": "Major social reform often requires support from a broad coalition.",
+          "vi": "Cải cách xã hội lớn thường cần sự ủng hộ từ một liên minh rộng rãi.",
+          "image_url": "https://images.pexels.com/photos/30786020/pexels-photo-30786020.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Nineteenth-century social reform led to better factory conditions.",
+          "vi": "Cải cách xã hội thế kỷ mười chín đã mang lại điều kiện nhà máy tốt hơn."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social relationship",
+      "vietnamese": "mối quan hệ xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl rɪˈleɪʃənʃɪp/",
+      "examples": [
+        {
+          "en": "Strong social relationships are linked to greater happiness and longer life.",
+          "vi": "Các mối quan hệ xã hội bền chặt gắn liền với hạnh phúc và tuổi thọ cao hơn."
+        },
+        {
+          "en": "Moving to a new city can disrupt established social relationships.",
+          "vi": "Chuyển đến thành phố mới có thể làm gián đoạn các mối quan hệ xã hội đã có."
+        },
+        {
+          "en": "The study explores how technology reshapes our social relationships.",
+          "vi": "Nghiên cứu khám phá cách công nghệ định hình lại các mối quan hệ xã hội của chúng ta."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social responsibility",
+      "vietnamese": "trách nhiệm xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl rɪˌspɑːnsəˈbɪləti/",
+      "examples": [
+        {
+          "en": "Many companies now take social responsibility seriously in their decisions.",
+          "vi": "Nhiều công ty hiện coi trọng trách nhiệm xã hội trong các quyết định của họ."
+        },
+        {
+          "en": "Teaching social responsibility helps students become engaged citizens.",
+          "vi": "Dạy trách nhiệm xã hội giúp học sinh trở thành công dân tích cực."
+        },
+        {
+          "en": "Corporate social responsibility includes protecting the environment.",
+          "vi": "Trách nhiệm xã hội của doanh nghiệp bao gồm việc bảo vệ môi trường.",
+          "image_url": "https://images.pexels.com/photos/9543398/pexels-photo-9543398.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social setting",
+      "vietnamese": "bối cảnh xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈsetɪŋ/",
+      "examples": [
+        {
+          "en": "People often behave differently depending on the social setting around them.",
+          "vi": "Người ta thường cư xử khác nhau tùy thuộc vào bối cảnh xã hội xung quanh."
+        },
+        {
+          "en": "The experiment was repeated in a more relaxed social setting.",
+          "vi": "Thí nghiệm được lặp lại trong một bối cảnh xã hội thoải mái hơn."
+        },
+        {
+          "en": "Language use varies greatly across formal and informal social settings.",
+          "vi": "Cách dùng ngôn ngữ thay đổi nhiều giữa các bối cảnh xã hội trang trọng và thân mật."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social significance",
+      "vietnamese": "ý nghĩa xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl sɪɡˈnɪfɪkəns/",
+      "examples": [
+        {
+          "en": "The festival has deep social significance for the local community.",
+          "vi": "Lễ hội mang ý nghĩa xã hội sâu sắc đối với cộng đồng địa phương."
+        },
+        {
+          "en": "Historians often debate the social significance of this old ritual.",
+          "vi": "Các nhà sử học thường tranh luận về ý nghĩa xã hội của nghi lễ cổ này."
+        },
+        {
+          "en": "The painting is admired for both its beauty and social significance.",
+          "vi": "Bức tranh được ngưỡng mộ vì cả vẻ đẹp lẫn ý nghĩa xã hội của nó."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social status",
+      "vietnamese": "địa vị xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈsteɪtəs/",
+      "examples": [
+        {
+          "en": "In some cultures, clothing clearly signals a person's social status.",
+          "vi": "Ở một số nền văn hóa, trang phục thể hiện rõ địa vị xã hội của một người.",
+          "image_url": "https://images.pexels.com/photos/15446900/pexels-photo-15446900.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Education can raise the social status of an entire family.",
+          "vi": "Giáo dục có thể nâng cao địa vị xã hội của cả một gia đình.",
+          "image_url": "https://images.pexels.com/photos/15446900/pexels-photo-15446900.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The novel describes how marriage affected a woman's social status.",
+          "vi": "Cuốn tiểu thuyết mô tả cách hôn nhân ảnh hưởng đến địa vị xã hội của người phụ nữ.",
+          "image_url": "https://images.pexels.com/photos/15446900/pexels-photo-15446900.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/15446900/pexels-photo-15446900.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Luis Quintero",
+        "author_url": "https://www.pexels.com/@jibarofoto",
+        "source_url": "https://www.pexels.com/photo/photo-of-young-people-smiling-and-posing-in-front-of-entrance-door-to-a-building-15446900/"
+      }
+    },
+    {
+      "english": "social structure",
+      "vietnamese": "cấu trúc xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈstrʌktʃər/",
+      "examples": [
+        {
+          "en": "The rigid social structure made it hard for people to advance.",
+          "vi": "Cấu trúc xã hội cứng nhắc khiến người ta khó thăng tiến."
+        },
+        {
+          "en": "Industrialization gradually changed the social structure of the country.",
+          "vi": "Công nghiệp hóa dần thay đổi cấu trúc xã hội của đất nước."
+        },
+        {
+          "en": "Sociologists analyze the social structure of modern urban communities.",
+          "vi": "Các nhà xã hội học phân tích cấu trúc xã hội của các cộng đồng đô thị hiện đại."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social theory",
+      "vietnamese": "lý thuyết xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈθɪri/",
+      "examples": [
+        {
+          "en": "The course introduces classic social theory from the nineteenth century.",
+          "vi": "Khóa học giới thiệu lý thuyết xã hội kinh điển từ thế kỷ mười chín.",
+          "image_url": "https://images.pexels.com/photos/1887609/pexels-photo-1887609.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Modern social theory tries to explain inequality and power relations.",
+          "vi": "Lý thuyết xã hội hiện đại cố gắng giải thích bất bình đẳng và quan hệ quyền lực."
+        },
+        {
+          "en": "She applied social theory to understand the recent protests.",
+          "vi": "Cô áp dụng lý thuyết xã hội để hiểu các cuộc biểu tình gần đây."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social transformation",
+      "vietnamese": "sự chuyển biến xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˌtrænsfərˈmeɪʃən/",
+      "examples": [
+        {
+          "en": "The internet triggered a rapid social transformation worldwide.",
+          "vi": "Internet đã tạo ra một sự chuyển biến xã hội nhanh chóng trên toàn thế giới."
+        },
+        {
+          "en": "Deep social transformation usually takes several decades to complete.",
+          "vi": "Sự chuyển biến xã hội sâu sắc thường mất vài thập kỷ để hoàn thành."
+        },
+        {
+          "en": "The revolution led to a profound social transformation of the nation.",
+          "vi": "Cuộc cách mạng dẫn đến một sự chuyển biến xã hội sâu sắc của quốc gia."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social trend",
+      "vietnamese": "xu hướng xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl trend/",
+      "examples": [
+        {
+          "en": "Marketers study current social trends to predict consumer behavior.",
+          "vi": "Các nhà tiếp thị nghiên cứu xu hướng xã hội hiện tại để dự đoán hành vi người tiêu dùng."
+        },
+        {
+          "en": "A clear social trend toward remote work emerged after the pandemic.",
+          "vi": "Một xu hướng xã hội rõ rệt hướng tới làm việc từ xa xuất hiện sau đại dịch.",
+          "image_url": "https://images.pexels.com/photos/6127967/pexels-photo-6127967.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The article identifies several social trends shaping family life today.",
+          "vi": "Bài báo xác định một số xu hướng xã hội đang định hình đời sống gia đình ngày nay."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "social welfare",
+      "vietnamese": "phúc lợi xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊʃəl ˈwelfer/",
+      "examples": [
+        {
+          "en": "The country invests heavily in social welfare for its citizens.",
+          "vi": "Quốc gia này đầu tư mạnh vào phúc lợi xã hội cho người dân."
+        },
+        {
+          "en": "Social welfare programs provide support to unemployed and disabled people.",
+          "vi": "Các chương trình phúc lợi xã hội hỗ trợ người thất nghiệp và người khuyết tật."
+        },
+        {
+          "en": "Debates about social welfare spending often divide political parties.",
+          "vi": "Các tranh luận về chi tiêu phúc lợi xã hội thường chia rẽ các đảng phái chính trị."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "socially acceptable",
+      "vietnamese": "được xã hội chấp nhận",
+      "part_of_speech": "adv + adj",
+      "ipa": "/ˈsoʊʃəli əkˈseptəbəl/",
+      "examples": [
+        {
+          "en": "What is socially acceptable in one country may offend another.",
+          "vi": "Điều được xã hội chấp nhận ở nước này có thể xúc phạm ở nước khác."
+        },
+        {
+          "en": "Over time, attitudes about what is socially acceptable change.",
+          "vi": "Theo thời gian, quan niệm về điều được xã hội chấp nhận thay đổi."
+        },
+        {
+          "en": "The advertisement was considered no longer socially acceptable today.",
+          "vi": "Quảng cáo đó bị coi là không còn được xã hội chấp nhận ngày nay.",
+          "image_url": "https://images.pexels.com/photos/7563660/pexels-photo-7563660.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "socially constructed",
+      "vietnamese": "được kiến tạo về mặt xã hội",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/ˈsoʊʃəli kənˈstrʌktɪd/",
+      "examples": [
+        {
+          "en": "Many scholars argue that gender roles are socially constructed.",
+          "vi": "Nhiều học giả cho rằng vai trò giới được kiến tạo về mặt xã hội."
+        },
+        {
+          "en": "The idea of beauty is largely socially constructed and changes over time.",
+          "vi": "Quan niệm về cái đẹp phần lớn được kiến tạo về mặt xã hội và thay đổi theo thời gian."
+        },
+        {
+          "en": "This theory claims that race is a socially constructed category.",
+          "vi": "Lý thuyết này cho rằng chủng tộc là một phạm trù được kiến tạo về mặt xã hội."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "socially desirable",
+      "vietnamese": "được xã hội coi trọng",
+      "part_of_speech": "adv + adj",
+      "ipa": "/ˈsoʊʃəli dɪˈzaɪərəbəl/",
+      "examples": [
+        {
+          "en": "Survey respondents often give socially desirable rather than honest answers.",
+          "vi": "Người trả lời khảo sát thường đưa ra câu trả lời được xã hội coi trọng thay vì trung thực."
+        },
+        {
+          "en": "Generosity is generally seen as a socially desirable trait.",
+          "vi": "Sự hào phóng thường được xem là một phẩm chất được xã hội coi trọng."
+        },
+        {
+          "en": "People may exaggerate socially desirable behaviors in interviews.",
+          "vi": "Người ta có thể phóng đại các hành vi được xã hội coi trọng trong các cuộc phỏng vấn."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "socially responsible",
+      "vietnamese": "có trách nhiệm với xã hội",
+      "part_of_speech": "adv + adj",
+      "ipa": "/ˈsoʊʃəli rɪˈspɑːnsəbəl/",
+      "examples": [
+        {
+          "en": "Socially responsible businesses consider their impact on local communities.",
+          "vi": "Các doanh nghiệp có trách nhiệm với xã hội cân nhắc tác động đến cộng đồng địa phương.",
+          "image_url": "https://images.pexels.com/photos/8542571/pexels-photo-8542571.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Investors increasingly prefer socially responsible companies and funds.",
+          "vi": "Các nhà đầu tư ngày càng ưa chuộng những công ty và quỹ có trách nhiệm với xã hội.",
+          "image_url": "https://images.pexels.com/photos/8542571/pexels-photo-8542571.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The school encourages students to become socially responsible adults.",
+          "vi": "Nhà trường khuyến khích học sinh trở thành người lớn có trách nhiệm với xã hội.",
+          "image_url": "https://images.pexels.com/photos/8542571/pexels-photo-8542571.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/8542571/pexels-photo-8542571.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Mikhail Nilov",
+        "author_url": "https://www.pexels.com/@mikhail-nilov",
+        "source_url": "https://www.pexels.com/photo/a-man-holding-a-globe-8542571/"
+      }
+    },
+    {
+      "english": "socioeconomic status",
+      "vietnamese": "tình trạng kinh tế - xã hội",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌsoʊsioʊˌekəˈnɑːmɪk ˈsteɪtəs/",
+      "examples": [
+        {
+          "en": "Children's socioeconomic status often affects their access to good schools.",
+          "vi": "Tình trạng kinh tế - xã hội của trẻ thường ảnh hưởng đến việc tiếp cận trường tốt."
+        },
+        {
+          "en": "The study controlled for socioeconomic status when comparing the groups.",
+          "vi": "Nghiên cứu đã kiểm soát tình trạng kinh tế - xã hội khi so sánh các nhóm."
+        },
+        {
+          "en": "Higher socioeconomic status is linked with better health outcomes.",
+          "vi": "Tình trạng kinh tế - xã hội cao hơn gắn liền với kết quả sức khỏe tốt hơn."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "solar energy",
+      "vietnamese": "năng lượng mặt trời",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊlər ˈenərdʒi/",
+      "examples": [
+        {
+          "en": "Solar energy is a clean and renewable source of electricity.",
+          "vi": "Năng lượng mặt trời là nguồn điện sạch và có thể tái tạo.",
+          "image_url": "https://images.pexels.com/photos/17762230/pexels-photo-17762230.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Many homes now use solar energy to reduce their power bills.",
+          "vi": "Nhiều ngôi nhà hiện dùng năng lượng mặt trời để giảm hóa đơn tiền điện."
+        },
+        {
+          "en": "Governments are investing in solar energy to fight climate change.",
+          "vi": "Các chính phủ đang đầu tư vào năng lượng mặt trời để chống biến đổi khí hậu."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "solar panel",
+      "vietnamese": "tấm pin mặt trời",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊlər ˈpænəl/",
+      "examples": [
+        {
+          "en": "They installed solar panels on the roof to generate electricity.",
+          "vi": "Họ lắp đặt các tấm pin mặt trời trên mái nhà để tạo ra điện."
+        },
+        {
+          "en": "A single solar panel can power several household appliances.",
+          "vi": "Một tấm pin mặt trời có thể cung cấp điện cho vài thiết bị gia dụng."
+        },
+        {
+          "en": "The cost of each solar panel has dropped sharply in recent years.",
+          "vi": "Chi phí của mỗi tấm pin mặt trời đã giảm mạnh trong những năm gần đây."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "solar power",
+      "vietnamese": "điện mặt trời",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊlər ˈpaʊər/",
+      "examples": [
+        {
+          "en": "The remote village relies entirely on solar power for its electricity.",
+          "vi": "Ngôi làng hẻo lánh hoàn toàn dựa vào điện mặt trời để có điện."
+        },
+        {
+          "en": "Solar power has become much cheaper over the last decade.",
+          "vi": "Điện mặt trời đã trở nên rẻ hơn nhiều trong thập kỷ qua.",
+          "image_url": "https://images.pexels.com/photos/27873610/pexels-photo-27873610.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Engineers are improving how solar power is stored at night.",
+          "vi": "Các kỹ sư đang cải tiến cách lưu trữ điện mặt trời vào ban đêm."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "solar system",
+      "vietnamese": "hệ mặt trời",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsoʊlər ˈsɪstəm/",
+      "examples": [
+        {
+          "en": "Our solar system contains eight planets orbiting the sun.",
+          "vi": "Hệ mặt trời của chúng ta có tám hành tinh quay quanh mặt trời."
+        },
+        {
+          "en": "Astronomers are searching for life elsewhere in the solar system.",
+          "vi": "Các nhà thiên văn đang tìm kiếm sự sống ở nơi khác trong hệ mặt trời."
+        },
+        {
+          "en": "The lecture explained how the solar system formed billions of years ago.",
+          "vi": "Bài giảng giải thích hệ mặt trời hình thành hàng tỷ năm trước như thế nào."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "source material",
+      "vietnamese": "tư liệu gốc",
+      "part_of_speech": "n + n",
+      "ipa": "/ˈsɔːrs məˈtɪriəl/",
+      "examples": [
+        {
+          "en": "The historian gathered source material from several national archives.",
+          "vi": "Nhà sử học thu thập tư liệu gốc từ nhiều kho lưu trữ quốc gia."
+        },
+        {
+          "en": "Students must cite all source material used in their essays.",
+          "vi": "Sinh viên phải trích dẫn mọi tư liệu gốc được dùng trong bài luận."
+        },
+        {
+          "en": "The documentary draws on rare source material from the war.",
+          "vi": "Bộ phim tài liệu dựa trên tư liệu gốc hiếm có từ thời chiến.",
+          "image_url": "https://images.pexels.com/photos/36306963/pexels-photo-36306963.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "sovereign state",
+      "vietnamese": "quốc gia có chủ quyền",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsɑːvrɪn steɪt/",
+      "examples": [
+        {
+          "en": "Each sovereign state has the right to make its own laws.",
+          "vi": "Mỗi quốc gia có chủ quyền đều có quyền tự đặt ra luật pháp của mình."
+        },
+        {
+          "en": "The treaty was signed between two independent sovereign states.",
+          "vi": "Hiệp ước được ký kết giữa hai quốc gia có chủ quyền độc lập."
+        },
+        {
+          "en": "International law recognizes the borders of every sovereign state.",
+          "vi": "Luật quốc tế công nhận biên giới của mọi quốc gia có chủ quyền."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "sparsely populated",
+      "vietnamese": "thưa dân",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/ˈspɑːrsli ˈpɑːpjəleɪtɪd/",
+      "examples": [
+        {
+          "en": "The northern region is sparsely populated and mostly covered by forest.",
+          "vi": "Vùng phía bắc thưa dân và phần lớn được rừng bao phủ."
+        },
+        {
+          "en": "Sparsely populated areas often lack good roads and hospitals.",
+          "vi": "Các khu vực thưa dân thường thiếu đường tốt và bệnh viện."
+        },
+        {
+          "en": "Much of the desert remains sparsely populated even today.",
+          "vi": "Phần lớn sa mạc vẫn thưa dân cho đến ngày nay."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "special circumstances",
+      "vietnamese": "hoàn cảnh đặc biệt",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈspeʃəl ˈsɜːrkəmstænsɪz/",
+      "examples": [
+        {
+          "en": "Extensions are granted only under special circumstances such as illness.",
+          "vi": "Gia hạn chỉ được cấp trong những hoàn cảnh đặc biệt như ốm đau.",
+          "image_url": "https://images.pexels.com/photos/7942490/pexels-photo-7942490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The rule may be waived if special circumstances clearly apply.",
+          "vi": "Quy tắc có thể được miễn nếu rõ ràng có hoàn cảnh đặc biệt.",
+          "image_url": "https://images.pexels.com/photos/7942490/pexels-photo-7942490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Please explain any special circumstances affecting your application.",
+          "vi": "Vui lòng giải thích bất kỳ hoàn cảnh đặc biệt nào ảnh hưởng đến đơn của bạn.",
+          "image_url": "https://images.pexels.com/photos/7942490/pexels-photo-7942490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/7942490/pexels-photo-7942490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Pavel Danilyuk",
+        "author_url": "https://www.pexels.com/@pavel-danilyuk",
+        "source_url": "https://www.pexels.com/photo/photo-of-people-in-black-academic-gown-7942490/"
+      }
+    },
+    {
+      "english": "special emphasis",
+      "vietnamese": "sự nhấn mạnh đặc biệt",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈspeʃəl ˈemfəsɪs/",
+      "examples": [
+        {
+          "en": "The course places special emphasis on practical writing skills.",
+          "vi": "Khóa học đặt sự nhấn mạnh đặc biệt vào kỹ năng viết thực hành."
+        },
+        {
+          "en": "She gave special emphasis to safety throughout the training session.",
+          "vi": "Cô đặc biệt nhấn mạnh vào an toàn trong suốt buổi huấn luyện."
+        },
+        {
+          "en": "The report puts special emphasis on the needs of rural communities.",
+          "vi": "Báo cáo đặc biệt nhấn mạnh đến nhu cầu của các cộng đồng nông thôn."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "special issue",
+      "vietnamese": "số chuyên đề",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈspeʃəl ˈɪʃuː/",
+      "examples": [
+        {
+          "en": "The journal published a special issue on climate science this year.",
+          "vi": "Tạp chí đã xuất bản một số chuyên đề về khoa học khí hậu năm nay.",
+          "image_url": "https://images.pexels.com/photos/158651/news-newsletter-newspaper-information-158651.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Her article appeared in a special issue devoted to education.",
+          "vi": "Bài viết của cô xuất hiện trong một số chuyên đề dành cho giáo dục."
+        },
+        {
+          "en": "The magazine's special issue sold out within a single week.",
+          "vi": "Số chuyên đề của tạp chí đã bán hết chỉ trong một tuần."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "special relationship",
+      "vietnamese": "mối quan hệ đặc biệt",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈspeʃəl rɪˈleɪʃənʃɪp/",
+      "examples": [
+        {
+          "en": "The two countries have maintained a special relationship for decades.",
+          "vi": "Hai quốc gia đã duy trì một mối quan hệ đặc biệt trong nhiều thập kỷ."
+        },
+        {
+          "en": "Teachers can build a special relationship with their youngest students.",
+          "vi": "Giáo viên có thể xây dựng một mối quan hệ đặc biệt với những học sinh nhỏ tuổi nhất."
+        },
+        {
+          "en": "The book describes the special relationship between the king and his advisor.",
+          "vi": "Cuốn sách mô tả mối quan hệ đặc biệt giữa nhà vua và cố vấn của ông."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "special status",
+      "vietnamese": "quy chế đặc biệt",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈspeʃəl ˈsteɪtəs/",
+      "examples": [
+        {
+          "en": "The historic city was granted special status to protect its buildings.",
+          "vi": "Thành phố lịch sử được trao quy chế đặc biệt để bảo vệ các tòa nhà của nó.",
+          "image_url": "https://images.pexels.com/photos/35980530/pexels-photo-35980530.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Refugees may be given special status under international law.",
+          "vi": "Người tị nạn có thể được trao quy chế đặc biệt theo luật quốc tế.",
+          "image_url": "https://images.pexels.com/photos/35980530/pexels-photo-35980530.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The region enjoys special status that allows greater self-government.",
+          "vi": "Khu vực này có quy chế đặc biệt cho phép quyền tự quản lớn hơn.",
+          "image_url": "https://images.pexels.com/photos/35980530/pexels-photo-35980530.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific area",
+      "vietnamese": "lĩnh vực cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈeriə/",
+      "examples": [
+        {
+          "en": "The training focuses on one specific area of clinical practice.",
+          "vi": "Khóa đào tạo tập trung vào một lĩnh vực cụ thể của thực hành lâm sàng."
+        },
+        {
+          "en": "Researchers often specialize in a narrow specific area of study.",
+          "vi": "Các nhà nghiên cứu thường chuyên sâu vào một lĩnh vực cụ thể hẹp."
+        },
+        {
+          "en": "Please describe the specific area where you need more support.",
+          "vi": "Vui lòng mô tả lĩnh vực cụ thể mà bạn cần thêm hỗ trợ."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific aspect",
+      "vietnamese": "khía cạnh cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈæspekt/",
+      "examples": [
+        {
+          "en": "Each chapter examines a different specific aspect of the problem.",
+          "vi": "Mỗi chương xem xét một khía cạnh cụ thể khác nhau của vấn đề."
+        },
+        {
+          "en": "The interview focused on one specific aspect of her career.",
+          "vi": "Cuộc phỏng vấn tập trung vào một khía cạnh cụ thể trong sự nghiệp của cô.",
+          "image_url": "https://images.pexels.com/photos/7859553/pexels-photo-7859553.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Let us now consider a more specific aspect of the theory.",
+          "vi": "Bây giờ chúng ta hãy xem xét một khía cạnh cụ thể hơn của lý thuyết."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific case",
+      "vietnamese": "trường hợp cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk keɪs/",
+      "examples": [
+        {
+          "en": "The lawyer used a specific case to illustrate the legal principle.",
+          "vi": "Luật sư dùng một trường hợp cụ thể để minh họa nguyên tắc pháp lý."
+        },
+        {
+          "en": "In this specific case, the usual rules do not apply.",
+          "vi": "Trong trường hợp cụ thể này, các quy tắc thông thường không áp dụng."
+        },
+        {
+          "en": "The textbook analyzes a specific case in great detail.",
+          "vi": "Sách giáo khoa phân tích một trường hợp cụ thể rất chi tiết."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific characteristic",
+      "vietnamese": "đặc điểm cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˌkærəktəˈrɪstɪk/",
+      "examples": [
+        {
+          "en": "Each species has a specific characteristic that helps it survive.",
+          "vi": "Mỗi loài có một đặc điểm cụ thể giúp nó tồn tại."
+        },
+        {
+          "en": "The scientist measured one specific characteristic of every sample.",
+          "vi": "Nhà khoa học đo một đặc điểm cụ thể của mỗi mẫu vật."
+        },
+        {
+          "en": "This material is chosen for one specific characteristic: its strength.",
+          "vi": "Vật liệu này được chọn vì một đặc điểm cụ thể: độ bền của nó.",
+          "image_url": "https://images.pexels.com/photos/35598611/pexels-photo-35598611.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific context",
+      "vietnamese": "ngữ cảnh cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈkɑːntekst/",
+      "examples": [
+        {
+          "en": "The meaning of a word depends on its specific context.",
+          "vi": "Nghĩa của một từ phụ thuộc vào ngữ cảnh cụ thể của nó."
+        },
+        {
+          "en": "These findings apply only within a specific context like this one.",
+          "vi": "Những phát hiện này chỉ áp dụng trong một ngữ cảnh cụ thể như thế này."
+        },
+        {
+          "en": "Researchers must describe the specific context of their experiment.",
+          "vi": "Các nhà nghiên cứu phải mô tả ngữ cảnh cụ thể của thí nghiệm."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific example",
+      "vietnamese": "ví dụ cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ɪɡˈzæmpəl/",
+      "examples": [
+        {
+          "en": "The teacher gave a specific example to make the idea clearer.",
+          "vi": "Giáo viên đưa ra một ví dụ cụ thể để làm rõ ý tưởng hơn."
+        },
+        {
+          "en": "Can you provide a specific example to support your argument?",
+          "vi": "Bạn có thể đưa ra một ví dụ cụ thể để hỗ trợ lập luận của mình không?"
+        },
+        {
+          "en": "Each claim in the essay is backed by a specific example.",
+          "vi": "Mỗi luận điểm trong bài luận đều được hỗ trợ bằng một ví dụ cụ thể."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific factor",
+      "vietnamese": "yếu tố cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈfæktər/",
+      "examples": [
+        {
+          "en": "The study isolated one specific factor causing the rise in sales.",
+          "vi": "Nghiên cứu tách riêng một yếu tố cụ thể gây ra sự tăng doanh số.",
+          "image_url": "https://images.pexels.com/photos/38795663/pexels-photo-38795663.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Several specific factors influenced the outcome of the experiment.",
+          "vi": "Một số yếu tố cụ thể đã ảnh hưởng đến kết quả của thí nghiệm.",
+          "image_url": "https://images.pexels.com/photos/38795663/pexels-photo-38795663.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "It is hard to identify the specific factor behind the failure.",
+          "vi": "Thật khó để xác định yếu tố cụ thể đằng sau sự thất bại.",
+          "image_url": "https://images.pexels.com/photos/38795663/pexels-photo-38795663.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/38795663/pexels-photo-38795663.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Travel with  Lenses",
+        "author_url": "https://www.pexels.com/@travel-with-lenses-734723610",
+        "source_url": "https://www.pexels.com/photo/cyclists-racing-in-copenhagen-city-event-38795663/"
+      }
+    },
+    {
+      "english": "specific feature",
+      "vietnamese": "tính năng cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈfiːtʃər/",
+      "examples": [
+        {
+          "en": "Users praised one specific feature of the new mobile application.",
+          "vi": "Người dùng khen ngợi một tính năng cụ thể của ứng dụng di động mới."
+        },
+        {
+          "en": "The design includes a specific feature to help disabled customers.",
+          "vi": "Thiết kế bao gồm một tính năng cụ thể để hỗ trợ khách hàng khuyết tật."
+        },
+        {
+          "en": "Each model offers a specific feature that the others lack.",
+          "vi": "Mỗi mẫu cung cấp một tính năng cụ thể mà các mẫu khác không có."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific focus",
+      "vietnamese": "trọng tâm cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈfoʊkəs/",
+      "examples": [
+        {
+          "en": "The seminar has a specific focus on renewable energy this term.",
+          "vi": "Hội thảo có một trọng tâm cụ thể về năng lượng tái tạo trong học kỳ này.",
+          "image_url": "https://images.pexels.com/photos/30316446/pexels-photo-30316446.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Her thesis maintains a specific focus throughout every chapter.",
+          "vi": "Luận văn của cô duy trì một trọng tâm cụ thể xuyên suốt mọi chương."
+        },
+        {
+          "en": "The committee asked the team to choose a more specific focus.",
+          "vi": "Ủy ban yêu cầu nhóm chọn một trọng tâm cụ thể hơn."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific form",
+      "vietnamese": "hình thức cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk fɔːrm/",
+      "examples": [
+        {
+          "en": "The disease appears in a specific form among older patients.",
+          "vi": "Căn bệnh xuất hiện dưới một hình thức cụ thể ở bệnh nhân lớn tuổi."
+        },
+        {
+          "en": "This specific form of art developed in the seventeenth century.",
+          "vi": "Hình thức nghệ thuật cụ thể này phát triển vào thế kỷ mười bảy."
+        },
+        {
+          "en": "Each language expresses politeness through a specific form of address.",
+          "vi": "Mỗi ngôn ngữ thể hiện sự lịch sự qua một hình thức xưng hô cụ thể."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific function",
+      "vietnamese": "chức năng cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈfʌŋkʃən/",
+      "examples": [
+        {
+          "en": "Each part of the cell performs a specific function in the body.",
+          "vi": "Mỗi bộ phận của tế bào thực hiện một chức năng cụ thể trong cơ thể."
+        },
+        {
+          "en": "The tool was designed for one specific function in the factory.",
+          "vi": "Công cụ này được thiết kế cho một chức năng cụ thể trong nhà máy.",
+          "image_url": "https://images.pexels.com/photos/46973/taps-thread-drill-milling-46973.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Every department in the company has its own specific function.",
+          "vi": "Mỗi phòng ban trong công ty có chức năng cụ thể riêng của mình."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific information",
+      "vietnamese": "thông tin cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˌɪnfərˈmeɪʃən/",
+      "examples": [
+        {
+          "en": "The form asks for specific information about your work history.",
+          "vi": "Mẫu đơn yêu cầu thông tin cụ thể về lịch sử làm việc của bạn."
+        },
+        {
+          "en": "Readers can search the website for specific information quickly.",
+          "vi": "Người đọc có thể tìm thông tin cụ thể trên trang web một cách nhanh chóng."
+        },
+        {
+          "en": "The report lacks the specific information needed for a decision.",
+          "vi": "Báo cáo thiếu thông tin cụ thể cần thiết để đưa ra quyết định."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific issue",
+      "vietnamese": "vấn đề cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈɪʃuː/",
+      "examples": [
+        {
+          "en": "The meeting was called to discuss one specific issue only.",
+          "vi": "Cuộc họp được tổ chức để thảo luận chỉ một vấn đề cụ thể."
+        },
+        {
+          "en": "She raised a specific issue about safety at the construction site.",
+          "vi": "Cô nêu ra một vấn đề cụ thể về an toàn tại công trường xây dựng."
+        },
+        {
+          "en": "The committee will address each specific issue in turn.",
+          "vi": "Ủy ban sẽ giải quyết từng vấn đề cụ thể một cách lần lượt.",
+          "image_url": "https://images.pexels.com/photos/34672722/pexels-photo-34672722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific knowledge",
+      "vietnamese": "kiến thức cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈnɑːlɪdʒ/",
+      "examples": [
+        {
+          "en": "The job requires specific knowledge of computer programming languages.",
+          "vi": "Công việc đòi hỏi kiến thức cụ thể về các ngôn ngữ lập trình máy tính."
+        },
+        {
+          "en": "Doctors need specific knowledge about each medicine they prescribe.",
+          "vi": "Bác sĩ cần kiến thức cụ thể về từng loại thuốc họ kê đơn."
+        },
+        {
+          "en": "Without specific knowledge of the region, the plan could fail.",
+          "vi": "Nếu không có kiến thức cụ thể về khu vực, kế hoạch có thể thất bại."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific meaning",
+      "vietnamese": "ý nghĩa cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈmiːnɪŋ/",
+      "examples": [
+        {
+          "en": "In law, this word carries a very specific meaning.",
+          "vi": "Trong luật, từ này mang một ý nghĩa rất cụ thể."
+        },
+        {
+          "en": "Each symbol in the diagram has a specific meaning.",
+          "vi": "Mỗi ký hiệu trong sơ đồ đều có một ý nghĩa cụ thể."
+        },
+        {
+          "en": "The author explains the specific meaning of the technical term.",
+          "vi": "Tác giả giải thích ý nghĩa cụ thể của thuật ngữ kỹ thuật."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific needs",
+      "vietnamese": "nhu cầu cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk niːdz/",
+      "examples": [
+        {
+          "en": "The program is tailored to the specific needs of each student.",
+          "vi": "Chương trình được điều chỉnh theo nhu cầu cụ thể của mỗi học sinh.",
+          "image_url": "https://images.pexels.com/photos/9830110/pexels-photo-9830110.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Older patients often have specific needs that require special care.",
+          "vi": "Bệnh nhân lớn tuổi thường có nhu cầu cụ thể đòi hỏi chăm sóc đặc biệt.",
+          "image_url": "https://images.pexels.com/photos/9830110/pexels-photo-9830110.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The company surveys customers to understand their specific needs.",
+          "vi": "Công ty khảo sát khách hàng để hiểu nhu cầu cụ thể của họ.",
+          "image_url": "https://images.pexels.com/photos/9830110/pexels-photo-9830110.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/9830110/pexels-photo-9830110.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Ron Lach",
+        "author_url": "https://www.pexels.com/@ron-lach",
+        "source_url": "https://www.pexels.com/photo/homeless-man-holding-cardboard-in-hands-9830110/"
+      }
+    },
+    {
+      "english": "specific problem",
+      "vietnamese": "vấn đề cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈprɑːbləm/",
+      "examples": [
+        {
+          "en": "The research was designed to solve one specific problem.",
+          "vi": "Nghiên cứu được thiết kế để giải quyết một vấn đề cụ thể."
+        },
+        {
+          "en": "Please describe the specific problem you encountered with the software.",
+          "vi": "Vui lòng mô tả vấn đề cụ thể bạn gặp phải với phần mềm."
+        },
+        {
+          "en": "Each section of the report addresses a specific problem.",
+          "vi": "Mỗi phần của báo cáo giải quyết một vấn đề cụ thể."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific purpose",
+      "vietnamese": "mục đích cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈpɜːrpəs/",
+      "examples": [
+        {
+          "en": "The fund was created for one specific purpose: student scholarships.",
+          "vi": "Quỹ được lập ra cho một mục đích cụ thể: học bổng cho sinh viên.",
+          "image_url": "https://images.pexels.com/photos/19501079/pexels-photo-19501079.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Each tool in the kit serves a specific purpose.",
+          "vi": "Mỗi dụng cụ trong bộ đều phục vụ một mục đích cụ thể."
+        },
+        {
+          "en": "The course teaches English for the specific purpose of business.",
+          "vi": "Khóa học dạy tiếng Anh cho mục đích cụ thể là kinh doanh."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific question",
+      "vietnamese": "câu hỏi cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈkwestʃən/",
+      "examples": [
+        {
+          "en": "The interviewer asked a very specific question about my experience.",
+          "vi": "Người phỏng vấn hỏi một câu hỏi rất cụ thể về kinh nghiệm của tôi."
+        },
+        {
+          "en": "Each specific question on the survey targets one behavior.",
+          "vi": "Mỗi câu hỏi cụ thể trong khảo sát nhắm vào một hành vi."
+        },
+        {
+          "en": "Students should prepare a specific question for the guest speaker.",
+          "vi": "Sinh viên nên chuẩn bị một câu hỏi cụ thể cho diễn giả khách mời."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific reference",
+      "vietnamese": "sự đề cập cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk ˈrefərəns/",
+      "examples": [
+        {
+          "en": "The essay makes specific reference to two recent studies.",
+          "vi": "Bài luận đề cập cụ thể đến hai nghiên cứu gần đây."
+        },
+        {
+          "en": "His speech contained a specific reference to last year's report.",
+          "vi": "Bài phát biểu của ông có sự đề cập cụ thể đến báo cáo năm ngoái.",
+          "image_url": "https://images.pexels.com/photos/16136352/pexels-photo-16136352.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Please add a specific reference to support each claim.",
+          "vi": "Vui lòng thêm một sự đề cập cụ thể để hỗ trợ mỗi luận điểm."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific sense",
+      "vietnamese": "nghĩa cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk sens/",
+      "examples": [
+        {
+          "en": "The word is used here in a very specific sense.",
+          "vi": "Từ này được dùng ở đây theo một nghĩa cụ thể rất rõ ràng."
+        },
+        {
+          "en": "In a specific sense, freedom means the absence of restriction.",
+          "vi": "Theo một nghĩa cụ thể, tự do nghĩa là không có sự ràng buộc."
+        },
+        {
+          "en": "The author defines the term in its specific sense early on.",
+          "vi": "Tác giả định nghĩa thuật ngữ theo nghĩa cụ thể của nó từ đầu."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specific type",
+      "vietnamese": "loại cụ thể",
+      "part_of_speech": "adj + n",
+      "ipa": "/spəˈsɪfɪk taɪp/",
+      "examples": [
+        {
+          "en": "This medicine treats one specific type of infection.",
+          "vi": "Loại thuốc này điều trị một loại nhiễm trùng cụ thể."
+        },
+        {
+          "en": "The factory produces a specific type of steel for bridges.",
+          "vi": "Nhà máy sản xuất một loại thép cụ thể dùng cho cầu."
+        },
+        {
+          "en": "Researchers studied a specific type of cell under the microscope.",
+          "vi": "Các nhà nghiên cứu nghiên cứu một loại tế bào cụ thể dưới kính hiển vi.",
+          "image_url": "https://images.pexels.com/photos/8697464/pexels-photo-8697464.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "specifically designed to",
+      "vietnamese": "được thiết kế riêng để",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/spəˈsɪfɪkli dɪˈzaɪnd tə/",
+      "examples": [
+        {
+          "en": "The software was specifically designed to help blind users read.",
+          "vi": "Phần mềm được thiết kế riêng để giúp người khiếm thị đọc."
+        },
+        {
+          "en": "This chair is specifically designed to support the lower back.",
+          "vi": "Chiếc ghế này được thiết kế riêng để hỗ trợ phần lưng dưới."
+        },
+        {
+          "en": "The program is specifically designed to train young athletes.",
+          "vi": "Chương trình được thiết kế riêng để huấn luyện các vận động viên trẻ."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "standard approach",
+      "vietnamese": "cách tiếp cận tiêu chuẩn",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstændərd əˈproʊtʃ/",
+      "examples": [
+        {
+          "en": "Doctors followed the standard approach to treating the infection.",
+          "vi": "Các bác sĩ tuân theo cách tiếp cận tiêu chuẩn để điều trị nhiễm trùng."
+        },
+        {
+          "en": "The standard approach to this problem may not always work.",
+          "vi": "Cách tiếp cận tiêu chuẩn cho vấn đề này không phải lúc nào cũng hiệu quả."
+        },
+        {
+          "en": "Researchers compared a new method with the standard approach.",
+          "vi": "Các nhà nghiên cứu so sánh phương pháp mới với cách tiếp cận tiêu chuẩn."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "standard error",
+      "vietnamese": "sai số chuẩn",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstændərd ˈerər/",
+      "examples": [
+        {
+          "en": "The table reports the mean along with its standard error.",
+          "vi": "Bảng báo cáo giá trị trung bình cùng với sai số chuẩn của nó.",
+          "image_url": "https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "A smaller standard error suggests a more precise estimate.",
+          "vi": "Sai số chuẩn nhỏ hơn cho thấy một ước lượng chính xác hơn.",
+          "image_url": "https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Students learned how to calculate the standard error of the mean.",
+          "vi": "Sinh viên học cách tính sai số chuẩn của giá trị trung bình.",
+          "image_url": "https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Vie Studio",
+        "author_url": "https://www.pexels.com/@vie-studio",
+        "source_url": "https://www.pexels.com/photo/word-error-on-white-surface-4439425/"
+      }
+    },
+    {
+      "english": "standard format",
+      "vietnamese": "định dạng tiêu chuẩn",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstændərd ˈfɔːrmæt/",
+      "examples": [
+        {
+          "en": "All reports must follow the standard format set by the journal.",
+          "vi": "Tất cả báo cáo phải tuân theo định dạng tiêu chuẩn do tạp chí đặt ra."
+        },
+        {
+          "en": "Saving the file in a standard format makes sharing easier.",
+          "vi": "Lưu tệp ở định dạng tiêu chuẩn giúp việc chia sẻ dễ dàng hơn."
+        },
+        {
+          "en": "The template provides a standard format for every assignment.",
+          "vi": "Mẫu cung cấp một định dạng tiêu chuẩn cho mọi bài tập."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "standard method",
+      "vietnamese": "phương pháp tiêu chuẩn",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstændərd ˈmeθəd/",
+      "examples": [
+        {
+          "en": "Scientists used the standard method to measure water quality.",
+          "vi": "Các nhà khoa học dùng phương pháp tiêu chuẩn để đo chất lượng nước.",
+          "image_url": "https://images.pexels.com/photos/8770247/pexels-photo-8770247.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The new technique is faster than the standard method.",
+          "vi": "Kỹ thuật mới nhanh hơn phương pháp tiêu chuẩn."
+        },
+        {
+          "en": "Following a standard method makes the results easy to compare.",
+          "vi": "Tuân theo một phương pháp tiêu chuẩn giúp kết quả dễ so sánh."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "stark contrast",
+      "vietnamese": "sự tương phản rõ rệt",
+      "part_of_speech": "adj + n",
+      "ipa": "/stɑːrk ˈkɑːntræst/",
+      "examples": [
+        {
+          "en": "The rich neighborhood stood in stark contrast to the nearby slums.",
+          "vi": "Khu phố giàu có tương phản rõ rệt với khu ổ chuột gần đó."
+        },
+        {
+          "en": "Her calm reply was in stark contrast to his angry shouting.",
+          "vi": "Câu trả lời bình tĩnh của cô tương phản rõ rệt với tiếng la hét giận dữ của anh."
+        },
+        {
+          "en": "The data shows a stark contrast between the two regions.",
+          "vi": "Dữ liệu cho thấy sự tương phản rõ rệt giữa hai khu vực."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "start a process",
+      "vietnamese": "bắt đầu một quy trình",
+      "part_of_speech": "v + n",
+      "ipa": "/stɑːrt ə ˈprɑːses/",
+      "examples": [
+        {
+          "en": "The new law will start a process of major political change.",
+          "vi": "Luật mới sẽ bắt đầu một quy trình thay đổi chính trị lớn."
+        },
+        {
+          "en": "Click the button to start a process that cannot be undone.",
+          "vi": "Nhấn nút để bắt đầu một quy trình không thể hoàn tác.",
+          "image_url": "https://images.pexels.com/photos/21562934/pexels-photo-21562934.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Their meeting helped start a process of reconciliation between rivals.",
+          "vi": "Cuộc gặp của họ giúp bắt đầu một quy trình hòa giải giữa các đối thủ."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "state explicitly",
+      "vietnamese": "nêu rõ ràng",
+      "part_of_speech": "v + adv",
+      "ipa": "/steɪt ɪkˈsplɪsɪtli/",
+      "examples": [
+        {
+          "en": "The contract does not state explicitly who pays for repairs.",
+          "vi": "Hợp đồng không nêu rõ ràng ai sẽ trả tiền sửa chữa."
+        },
+        {
+          "en": "The author fails to state explicitly the goal of the study.",
+          "vi": "Tác giả không nêu rõ ràng mục tiêu của nghiên cứu."
+        },
+        {
+          "en": "Please state explicitly which option you prefer.",
+          "vi": "Vui lòng nêu rõ ràng bạn thích phương án nào."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "state sector",
+      "vietnamese": "khu vực nhà nước",
+      "part_of_speech": "n + n",
+      "ipa": "/steɪt ˈsektər/",
+      "examples": [
+        {
+          "en": "Many graduates choose careers in the state sector for job security.",
+          "vi": "Nhiều sinh viên tốt nghiệp chọn nghề trong khu vực nhà nước vì sự ổn định."
+        },
+        {
+          "en": "Wages in the state sector are often lower than private firms.",
+          "vi": "Tiền lương ở khu vực nhà nước thường thấp hơn các công ty tư nhân."
+        },
+        {
+          "en": "The reform reduced the size of the state sector significantly.",
+          "vi": "Cuộc cải cách đã giảm đáng kể quy mô của khu vực nhà nước.",
+          "image_url": "https://images.pexels.com/photos/6795499/pexels-photo-6795499.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "statistical analysis",
+      "vietnamese": "phân tích thống kê",
+      "part_of_speech": "adj + n",
+      "ipa": "/stəˈtɪstɪkəl əˈnæləsɪs/",
+      "examples": [
+        {
+          "en": "The researchers performed a statistical analysis of the survey results.",
+          "vi": "Các nhà nghiên cứu thực hiện phân tích thống kê các kết quả khảo sát."
+        },
+        {
+          "en": "Statistical analysis revealed a strong link between the two variables.",
+          "vi": "Phân tích thống kê cho thấy mối liên hệ chặt chẽ giữa hai biến số."
+        },
+        {
+          "en": "She used software to speed up the statistical analysis.",
+          "vi": "Cô dùng phần mềm để tăng tốc độ phân tích thống kê."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "statistical data",
+      "vietnamese": "dữ liệu thống kê",
+      "part_of_speech": "adj + n",
+      "ipa": "/stəˈtɪstɪkəl ˈdætə/",
+      "examples": [
+        {
+          "en": "The government collects statistical data on employment every month.",
+          "vi": "Chính phủ thu thập dữ liệu thống kê về việc làm hằng tháng."
+        },
+        {
+          "en": "Reliable statistical data is essential for good policy decisions.",
+          "vi": "Dữ liệu thống kê đáng tin cậy rất cần thiết cho các quyết định chính sách tốt."
+        },
+        {
+          "en": "The report presents statistical data in clear, simple charts.",
+          "vi": "Báo cáo trình bày dữ liệu thống kê bằng các biểu đồ rõ ràng, đơn giản."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "statistical information",
+      "vietnamese": "thông tin thống kê",
+      "part_of_speech": "adj + n",
+      "ipa": "/stəˈtɪstɪkəl ˌɪnfərˈmeɪʃən/",
+      "examples": [
+        {
+          "en": "The website offers detailed statistical information about population growth.",
+          "vi": "Trang web cung cấp thông tin thống kê chi tiết về tăng trưởng dân số.",
+          "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Journalists rely on statistical information to support their stories.",
+          "vi": "Các nhà báo dựa vào thông tin thống kê để hỗ trợ các bài viết của họ.",
+          "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The agency publishes statistical information once every year.",
+          "vi": "Cơ quan này công bố thông tin thống kê mỗi năm một lần.",
+          "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Negative Space",
+        "author_url": "https://www.pexels.com/@negativespace",
+        "source_url": "https://www.pexels.com/photo/blue-and-green-pie-chart-97080/"
+      }
+    },
+    {
+      "english": "statistical method",
+      "vietnamese": "phương pháp thống kê",
+      "part_of_speech": "adj + n",
+      "ipa": "/stəˈtɪstɪkəl ˈmeθəd/",
+      "examples": [
+        {
+          "en": "The team applied a modern statistical method to the dataset.",
+          "vi": "Nhóm đã áp dụng một phương pháp thống kê hiện đại cho tập dữ liệu."
+        },
+        {
+          "en": "Choosing the right statistical method depends on your research question.",
+          "vi": "Việc chọn phương pháp thống kê phù hợp phụ thuộc vào câu hỏi nghiên cứu của bạn."
+        },
+        {
+          "en": "The course teaches each statistical method with practical examples.",
+          "vi": "Khóa học dạy từng phương pháp thống kê kèm các ví dụ thực tế."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "statistical significance",
+      "vietnamese": "ý nghĩa thống kê",
+      "part_of_speech": "adj + n",
+      "ipa": "/stəˈtɪstɪkəl sɪɡˈnɪfɪkəns/",
+      "examples": [
+        {
+          "en": "The results reached statistical significance at the chosen level.",
+          "vi": "Kết quả đạt ý nghĩa thống kê ở mức đã chọn.",
+          "image_url": "https://images.pexels.com/photos/7947634/pexels-photo-7947634.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Without statistical significance, the findings cannot be trusted fully.",
+          "vi": "Nếu không có ý nghĩa thống kê, các phát hiện không thể được tin tưởng hoàn toàn."
+        },
+        {
+          "en": "The professor explained how to test for statistical significance.",
+          "vi": "Giáo sư giải thích cách kiểm tra ý nghĩa thống kê."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "statistical technique",
+      "vietnamese": "kỹ thuật thống kê",
+      "part_of_speech": "adj + n",
+      "ipa": "/stəˈtɪstɪkəl tekˈniːk/",
+      "examples": [
+        {
+          "en": "Analysts used an advanced statistical technique to detect the pattern.",
+          "vi": "Các nhà phân tích dùng một kỹ thuật thống kê nâng cao để phát hiện mẫu hình."
+        },
+        {
+          "en": "This statistical technique works best with very large samples.",
+          "vi": "Kỹ thuật thống kê này hoạt động tốt nhất với các mẫu rất lớn."
+        },
+        {
+          "en": "The workshop introduced several useful statistical techniques.",
+          "vi": "Hội thảo giới thiệu một số kỹ thuật thống kê hữu ích."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "statistical test",
+      "vietnamese": "kiểm định thống kê",
+      "part_of_speech": "adj + n",
+      "ipa": "/stəˈtɪstɪkəl test/",
+      "examples": [
+        {
+          "en": "They ran a statistical test to compare the two groups.",
+          "vi": "Họ chạy một kiểm định thống kê để so sánh hai nhóm."
+        },
+        {
+          "en": "Choosing an appropriate statistical test is a crucial step.",
+          "vi": "Chọn một kiểm định thống kê phù hợp là một bước quan trọng.",
+          "image_url": "https://images.pexels.com/photos/8850706/pexels-photo-8850706.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The statistical test confirmed that the difference was real.",
+          "vi": "Kiểm định thống kê xác nhận rằng sự khác biệt là thật."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "statistically significant",
+      "vietnamese": "có ý nghĩa thống kê",
+      "part_of_speech": "adv + adj",
+      "ipa": "/stəˈtɪstɪkli sɪɡˈnɪfɪkənt/",
+      "examples": [
+        {
+          "en": "The difference between the groups was statistically significant.",
+          "vi": "Sự khác biệt giữa các nhóm là có ý nghĩa thống kê."
+        },
+        {
+          "en": "A statistically significant result still needs careful interpretation.",
+          "vi": "Một kết quả có ý nghĩa thống kê vẫn cần được diễn giải cẩn thận."
+        },
+        {
+          "en": "The trend was clear but not statistically significant.",
+          "vi": "Xu hướng rất rõ nhưng không có ý nghĩa thống kê."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "store data",
+      "vietnamese": "lưu trữ dữ liệu",
+      "part_of_speech": "v + n",
+      "ipa": "/stɔːr ˈdætə/",
+      "examples": [
+        {
+          "en": "Companies must store data securely to protect their customers.",
+          "vi": "Các công ty phải lưu trữ dữ liệu an toàn để bảo vệ khách hàng."
+        },
+        {
+          "en": "The hospital uses servers to store data about every patient.",
+          "vi": "Bệnh viện dùng máy chủ để lưu trữ dữ liệu về mỗi bệnh nhân."
+        },
+        {
+          "en": "Researchers store data in the cloud so it never gets lost.",
+          "vi": "Các nhà nghiên cứu lưu trữ dữ liệu trên đám mây để không bao giờ bị mất.",
+          "image_url": "https://images.pexels.com/photos/19825057/pexels-photo-19825057.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "store information",
+      "vietnamese": "lưu trữ thông tin",
+      "part_of_speech": "v + n",
+      "ipa": "/stɔːr ˌɪnfərˈmeɪʃən/",
+      "examples": [
+        {
+          "en": "The brain can store information for many years.",
+          "vi": "Bộ não có thể lưu trữ thông tin trong nhiều năm."
+        },
+        {
+          "en": "We use a database to store information about all our members.",
+          "vi": "Chúng tôi dùng cơ sở dữ liệu để lưu trữ thông tin về tất cả thành viên."
+        },
+        {
+          "en": "Libraries store information in both printed and digital forms.",
+          "vi": "Các thư viện lưu trữ thông tin ở cả dạng in và dạng kỹ thuật số."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strategic decision",
+      "vietnamese": "quyết định chiến lược",
+      "part_of_speech": "adj + n",
+      "ipa": "/strəˈtiːdʒɪk dɪˈsɪʒən/",
+      "examples": [
+        {
+          "en": "The board made a strategic decision to enter the Asian market.",
+          "vi": "Hội đồng quản trị đưa ra một quyết định chiến lược để gia nhập thị trường châu Á."
+        },
+        {
+          "en": "Every strategic decision should be based on careful analysis.",
+          "vi": "Mỗi quyết định chiến lược nên dựa trên phân tích cẩn thận."
+        },
+        {
+          "en": "Closing the old factory was a difficult strategic decision.",
+          "vi": "Đóng cửa nhà máy cũ là một quyết định chiến lược khó khăn."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strategic importance",
+      "vietnamese": "tầm quan trọng chiến lược",
+      "part_of_speech": "adj + n",
+      "ipa": "/strəˈtiːdʒɪk ɪmˈpɔːrtəns/",
+      "examples": [
+        {
+          "en": "The port has great strategic importance for international trade.",
+          "vi": "Cảng có tầm quan trọng chiến lược lớn đối với thương mại quốc tế.",
+          "image_url": "https://images.pexels.com/photos/37210633/pexels-photo-37210633.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Both nations recognized the strategic importance of the region.",
+          "vi": "Cả hai quốc gia đều nhận ra tầm quan trọng chiến lược của khu vực.",
+          "image_url": "https://images.pexels.com/photos/37210633/pexels-photo-37210633.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The bridge holds strategic importance during times of conflict.",
+          "vi": "Cây cầu có tầm quan trọng chiến lược trong thời kỳ xung đột.",
+          "image_url": "https://images.pexels.com/photos/37210633/pexels-photo-37210633.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/37210633/pexels-photo-37210633.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Diana ✨",
+        "author_url": "https://www.pexels.com/@didsss",
+        "source_url": "https://www.pexels.com/photo/elegant-black-chess-pieces-on-wooden-board-37210633/"
+      }
+    },
+    {
+      "english": "strategic management",
+      "vietnamese": "quản trị chiến lược",
+      "part_of_speech": "adj + n",
+      "ipa": "/strəˈtiːdʒɪk ˈmænɪdʒmənt/",
+      "examples": [
+        {
+          "en": "The company hired consultants to improve its strategic management practices.",
+          "vi": "Công ty thuê tư vấn để cải thiện hoạt động quản trị chiến lược."
+        },
+        {
+          "en": "Good strategic management helps firms adapt to changing markets quickly.",
+          "vi": "Quản trị chiến lược tốt giúp doanh nghiệp thích ứng nhanh với thị trường."
+        },
+        {
+          "en": "Her thesis examines strategic management in small technology startups.",
+          "vi": "Luận văn của cô nghiên cứu quản trị chiến lược tại các startup công nghệ nhỏ."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strategic objective",
+      "vietnamese": "mục tiêu chiến lược",
+      "part_of_speech": "adj + n",
+      "ipa": "/strəˈtiːdʒɪk əbˈdʒektɪv/",
+      "examples": [
+        {
+          "en": "The board defined three strategic objectives for the coming year.",
+          "vi": "Hội đồng quản trị xác định ba mục tiêu chiến lược cho năm tới.",
+          "image_url": "https://images.pexels.com/photos/38285051/pexels-photo-38285051.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Every department must align its work with the strategic objectives.",
+          "vi": "Mỗi phòng ban phải gắn công việc của mình với các mục tiêu chiến lược."
+        },
+        {
+          "en": "Achieving the strategic objective required significant investment and planning.",
+          "vi": "Đạt được mục tiêu chiến lược đòi hỏi đầu tư và lập kế hoạch đáng kể."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strategic planning",
+      "vietnamese": "lập kế hoạch chiến lược",
+      "part_of_speech": "adj + n",
+      "ipa": "/strəˈtiːdʒɪk ˈplænɪŋ/",
+      "examples": [
+        {
+          "en": "Effective strategic planning prepares organizations for future challenges.",
+          "vi": "Lập kế hoạch chiến lược hiệu quả giúp tổ chức sẵn sàng cho thách thức tương lai."
+        },
+        {
+          "en": "The team spent two days on strategic planning for the project.",
+          "vi": "Nhóm đã dành hai ngày để lập kế hoạch chiến lược cho dự án."
+        },
+        {
+          "en": "Strategic planning involves setting goals and allocating resources wisely.",
+          "vi": "Lập kế hoạch chiến lược bao gồm đặt mục tiêu và phân bổ nguồn lực hợp lý."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "stress level",
+      "vietnamese": "mức độ căng thẳng",
+      "part_of_speech": "n + n",
+      "ipa": "/ˈstres ˈlevəl/",
+      "examples": [
+        {
+          "en": "Students reported higher stress levels during the exam period.",
+          "vi": "Sinh viên cho biết mức độ căng thẳng cao hơn trong kỳ thi."
+        },
+        {
+          "en": "Regular exercise can significantly reduce daily stress levels.",
+          "vi": "Tập thể dục đều đặn có thể giảm đáng kể mức độ căng thẳng hằng ngày.",
+          "image_url": "https://images.pexels.com/photos/36715612/pexels-photo-36715612.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The survey measured stress levels among full-time hospital nurses.",
+          "vi": "Khảo sát đo lường mức độ căng thẳng ở các y tá bệnh viện làm toàn thời gian."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "striking contrast",
+      "vietnamese": "sự tương phản rõ rệt",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstraɪkɪŋ ˈkɑːntræst/",
+      "examples": [
+        {
+          "en": "There is a striking contrast between the two cities' economies.",
+          "vi": "Có sự tương phản rõ rệt giữa nền kinh tế của hai thành phố."
+        },
+        {
+          "en": "The results stand in striking contrast to earlier findings.",
+          "vi": "Kết quả tương phản rõ rệt với những phát hiện trước đây."
+        },
+        {
+          "en": "Her bright painting offered a striking contrast to the gray walls.",
+          "vi": "Bức tranh tươi sáng của cô tương phản rõ rệt với những bức tường xám."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "striking example",
+      "vietnamese": "ví dụ điển hình nổi bật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstraɪkɪŋ ɪɡˈzæmpəl/",
+      "examples": [
+        {
+          "en": "This case is a striking example of successful urban planning.",
+          "vi": "Trường hợp này là một ví dụ nổi bật về quy hoạch đô thị thành công."
+        },
+        {
+          "en": "The author gives a striking example to illustrate her point.",
+          "vi": "Tác giả đưa ra một ví dụ nổi bật để minh họa luận điểm của mình."
+        },
+        {
+          "en": "The bridge remains a striking example of modern engineering.",
+          "vi": "Cây cầu vẫn là một ví dụ nổi bật về kỹ thuật hiện đại."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "striking feature",
+      "vietnamese": "đặc điểm nổi bật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstraɪkɪŋ ˈfiːtʃər/",
+      "examples": [
+        {
+          "en": "The most striking feature of the design is its simplicity.",
+          "vi": "Đặc điểm nổi bật nhất của thiết kế là sự đơn giản của nó."
+        },
+        {
+          "en": "A striking feature of this region is its rich biodiversity.",
+          "vi": "Một đặc điểm nổi bật của vùng này là sự đa dạng sinh học phong phú."
+        },
+        {
+          "en": "The building's curved roof is its most striking feature.",
+          "vi": "Mái cong của tòa nhà là đặc điểm nổi bật nhất của nó."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strong bond",
+      "vietnamese": "mối liên kết bền chặt",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrɔːŋ ˈbɑːnd/",
+      "examples": [
+        {
+          "en": "Shared experiences create a strong bond between team members.",
+          "vi": "Trải nghiệm chung tạo nên mối liên kết bền chặt giữa các thành viên."
+        },
+        {
+          "en": "The children formed a strong bond with their new teacher.",
+          "vi": "Những đứa trẻ hình thành mối liên kết bền chặt với giáo viên mới."
+        },
+        {
+          "en": "A strong bond between parents and children supports healthy development.",
+          "vi": "Mối liên kết bền chặt giữa cha mẹ và con cái hỗ trợ sự phát triển lành mạnh.",
+          "image_url": "https://images.pexels.com/photos/5370340/pexels-photo-5370340.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strong correlation",
+      "vietnamese": "mối tương quan chặt chẽ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrɔːŋ ˌkɔːrəˈleɪʃən/",
+      "examples": [
+        {
+          "en": "The study found a strong correlation between exercise and mood.",
+          "vi": "Nghiên cứu tìm thấy mối tương quan chặt chẽ giữa vận động và tâm trạng."
+        },
+        {
+          "en": "There is a strong correlation between education and income levels.",
+          "vi": "Có mối tương quan chặt chẽ giữa trình độ học vấn và mức thu nhập."
+        },
+        {
+          "en": "Researchers reported a strong correlation between sleep and memory.",
+          "vi": "Các nhà nghiên cứu báo cáo mối tương quan chặt chẽ giữa giấc ngủ và trí nhớ."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strong emphasis",
+      "vietnamese": "sự nhấn mạnh mạnh mẽ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrɔːŋ ˈemfəsɪs/",
+      "examples": [
+        {
+          "en": "The program places strong emphasis on practical, hands-on learning.",
+          "vi": "Chương trình đặt sự nhấn mạnh mạnh mẽ vào học tập thực hành."
+        },
+        {
+          "en": "Her lecture put strong emphasis on the importance of evidence.",
+          "vi": "Bài giảng của cô nhấn mạnh mạnh mẽ tầm quan trọng của bằng chứng."
+        },
+        {
+          "en": "The school has a strong emphasis on teamwork and respect.",
+          "vi": "Trường học nhấn mạnh mạnh mẽ vào tinh thần đồng đội và sự tôn trọng."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strong evidence",
+      "vietnamese": "bằng chứng thuyết phục",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrɔːŋ ˈevɪdəns/",
+      "examples": [
+        {
+          "en": "The data provide strong evidence for the new theory.",
+          "vi": "Dữ liệu cung cấp bằng chứng thuyết phục cho lý thuyết mới.",
+          "image_url": "https://images.pexels.com/photos/8369208/pexels-photo-8369208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "There is strong evidence linking smoking to several diseases.",
+          "vi": "Có bằng chứng thuyết phục liên hệ hút thuốc với một số bệnh.",
+          "image_url": "https://images.pexels.com/photos/8369208/pexels-photo-8369208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Scientists need strong evidence before accepting any bold claim.",
+          "vi": "Các nhà khoa học cần bằng chứng thuyết phục trước khi chấp nhận một tuyên bố táo bạo.",
+          "image_url": "https://images.pexels.com/photos/8369208/pexels-photo-8369208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/8369208/pexels-photo-8369208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "cottonbro studio",
+        "author_url": "https://www.pexels.com/@cottonbro",
+        "source_url": "https://www.pexels.com/photo/man-in-black-suit-jacket-reading-documents-8369208/"
+      }
+    },
+    {
+      "english": "strong link",
+      "vietnamese": "mối liên hệ chặt chẽ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrɔːŋ ˈlɪŋk/",
+      "examples": [
+        {
+          "en": "Research shows a strong link between diet and overall health.",
+          "vi": "Nghiên cứu cho thấy mối liên hệ chặt chẽ giữa chế độ ăn và sức khỏe."
+        },
+        {
+          "en": "There is a strong link between poverty and poor education.",
+          "vi": "Có mối liên hệ chặt chẽ giữa nghèo đói và giáo dục kém."
+        },
+        {
+          "en": "The report highlights a strong link between stress and illness.",
+          "vi": "Báo cáo nêu bật mối liên hệ chặt chẽ giữa căng thẳng và bệnh tật."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strong reaction",
+      "vietnamese": "phản ứng mạnh mẽ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrɔːŋ riˈækʃən/",
+      "examples": [
+        {
+          "en": "The new policy provoked a strong reaction from local residents.",
+          "vi": "Chính sách mới gây ra phản ứng mạnh mẽ từ người dân địa phương.",
+          "image_url": "https://images.pexels.com/photos/7910587/pexels-photo-7910587.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Her speech triggered a strong reaction among the students.",
+          "vi": "Bài phát biểu của cô khơi dậy phản ứng mạnh mẽ trong sinh viên."
+        },
+        {
+          "en": "The film received a strong reaction from both critics and audiences.",
+          "vi": "Bộ phim nhận được phản ứng mạnh mẽ từ cả giới phê bình lẫn khán giả."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strong relationship",
+      "vietnamese": "mối quan hệ bền chặt",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrɔːŋ rɪˈleɪʃənʃɪp/",
+      "examples": [
+        {
+          "en": "The company built a strong relationship with its loyal customers.",
+          "vi": "Công ty xây dựng mối quan hệ bền chặt với khách hàng trung thành."
+        },
+        {
+          "en": "A strong relationship with mentors helps young researchers grow.",
+          "vi": "Mối quan hệ bền chặt với người hướng dẫn giúp nhà nghiên cứu trẻ phát triển."
+        },
+        {
+          "en": "There is a strong relationship between trust and effective teamwork.",
+          "vi": "Có mối quan hệ bền chặt giữa sự tin tưởng và làm việc nhóm hiệu quả."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strong tendency",
+      "vietnamese": "xu hướng rõ rệt",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrɔːŋ ˈtendənsi/",
+      "examples": [
+        {
+          "en": "There is a strong tendency for prices to rise in winter.",
+          "vi": "Có một xu hướng rõ rệt là giá cả tăng vào mùa đông."
+        },
+        {
+          "en": "The data show a strong tendency toward urban migration.",
+          "vi": "Dữ liệu cho thấy xu hướng rõ rệt về di cư ra thành thị.",
+          "image_url": "https://images.pexels.com/photos/34981310/pexels-photo-34981310.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Young people show a strong tendency to adopt new technologies.",
+          "vi": "Người trẻ thể hiện xu hướng rõ rệt trong việc tiếp nhận công nghệ mới."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strongly agree",
+      "vietnamese": "hoàn toàn đồng ý",
+      "part_of_speech": "adv + v",
+      "ipa": "/ˈstrɔːŋli əˈɡriː/",
+      "examples": [
+        {
+          "en": "Most participants strongly agree that the new rule is fair.",
+          "vi": "Phần lớn người tham gia hoàn toàn đồng ý rằng quy định mới là công bằng."
+        },
+        {
+          "en": "I strongly agree with the author's main argument here.",
+          "vi": "Tôi hoàn toàn đồng ý với luận điểm chính của tác giả ở đây."
+        },
+        {
+          "en": "Many teachers strongly agree that smaller classes improve learning.",
+          "vi": "Nhiều giáo viên hoàn toàn đồng ý rằng lớp nhỏ giúp cải thiện việc học."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strongly associated with",
+      "vietnamese": "có liên hệ chặt chẽ với",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/ˈstrɔːŋli əˈsoʊsieɪtɪd wɪð/",
+      "examples": [
+        {
+          "en": "High blood pressure is strongly associated with heart disease.",
+          "vi": "Huyết áp cao có liên hệ chặt chẽ với bệnh tim."
+        },
+        {
+          "en": "Poverty is strongly associated with limited access to education.",
+          "vi": "Nghèo đói có liên hệ chặt chẽ với việc tiếp cận giáo dục hạn chế."
+        },
+        {
+          "en": "These symptoms are strongly associated with prolonged stress.",
+          "vi": "Những triệu chứng này có liên hệ chặt chẽ với căng thẳng kéo dài.",
+          "image_url": "https://images.pexels.com/photos/34014555/pexels-photo-34014555.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strongly correlated with",
+      "vietnamese": "tương quan chặt chẽ với",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/ˈstrɔːŋli ˈkɔːrəleɪtɪd wɪð/",
+      "examples": [
+        {
+          "en": "Income is strongly correlated with access to quality healthcare.",
+          "vi": "Thu nhập tương quan chặt chẽ với việc tiếp cận chăm sóc y tế chất lượng."
+        },
+        {
+          "en": "Study time is strongly correlated with exam performance.",
+          "vi": "Thời gian học tương quan chặt chẽ với kết quả thi."
+        },
+        {
+          "en": "Air pollution is strongly correlated with respiratory problems.",
+          "vi": "Ô nhiễm không khí tương quan chặt chẽ với các vấn đề hô hấp."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strongly disagree",
+      "vietnamese": "hoàn toàn không đồng ý",
+      "part_of_speech": "adv + v",
+      "ipa": "/ˈstrɔːŋli ˌdɪsəˈɡriː/",
+      "examples": [
+        {
+          "en": "Several experts strongly disagree with the proposed reform.",
+          "vi": "Một số chuyên gia hoàn toàn không đồng ý với cải cách được đề xuất."
+        },
+        {
+          "en": "I strongly disagree with the conclusion of this report.",
+          "vi": "Tôi hoàn toàn không đồng ý với kết luận của báo cáo này."
+        },
+        {
+          "en": "Many residents strongly disagree about building the new highway.",
+          "vi": "Nhiều cư dân hoàn toàn không đồng ý về việc xây đường cao tốc mới."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strongly influenced by",
+      "vietnamese": "chịu ảnh hưởng mạnh mẽ bởi",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/ˈstrɔːŋli ˈɪnfluənst baɪ/",
+      "examples": [
+        {
+          "en": "Her early work was strongly influenced by classical philosophy.",
+          "vi": "Tác phẩm đầu tay của cô chịu ảnh hưởng mạnh mẽ bởi triết học cổ điển.",
+          "image_url": "https://images.pexels.com/photos/2847368/pexels-photo-2847368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Consumer choices are strongly influenced by online reviews.",
+          "vi": "Lựa chọn của người tiêu dùng chịu ảnh hưởng mạnh mẽ bởi đánh giá trực tuyến.",
+          "image_url": "https://images.pexels.com/photos/2847368/pexels-photo-2847368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "His theory was strongly influenced by recent neuroscience research.",
+          "vi": "Lý thuyết của ông chịu ảnh hưởng mạnh mẽ bởi nghiên cứu thần kinh học gần đây.",
+          "image_url": "https://images.pexels.com/photos/2847368/pexels-photo-2847368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null,
+      "image_url": "https://images.pexels.com/photos/2847368/pexels-photo-2847368.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Alex Haraus",
+        "author_url": "https://www.pexels.com/@alex-haraus-1478288",
+        "source_url": "https://www.pexels.com/photo/man-smoking-cigarette-2847368/"
+      }
+    },
+    {
+      "english": "strongly linked",
+      "vietnamese": "gắn liền chặt chẽ",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/ˈstrɔːŋli ˈlɪŋkt/",
+      "examples": [
+        {
+          "en": "Obesity is strongly linked to several chronic health conditions.",
+          "vi": "Béo phì gắn liền chặt chẽ với một số bệnh mãn tính."
+        },
+        {
+          "en": "Economic growth is strongly linked to political stability.",
+          "vi": "Tăng trưởng kinh tế gắn liền chặt chẽ với ổn định chính trị."
+        },
+        {
+          "en": "Sleep quality is strongly linked to overall mental health.",
+          "vi": "Chất lượng giấc ngủ gắn liền chặt chẽ với sức khỏe tinh thần."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strongly opposed",
+      "vietnamese": "phản đối mạnh mẽ",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/ˈstrɔːŋli əˈpoʊzd/",
+      "examples": [
+        {
+          "en": "Local farmers were strongly opposed to the new land tax.",
+          "vi": "Nông dân địa phương phản đối mạnh mẽ loại thuế đất mới.",
+          "image_url": "https://images.pexels.com/photos/35309373/pexels-photo-35309373.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Many scientists are strongly opposed to cutting research funding.",
+          "vi": "Nhiều nhà khoa học phản đối mạnh mẽ việc cắt giảm ngân sách nghiên cứu."
+        },
+        {
+          "en": "The union remained strongly opposed to the wage freeze.",
+          "vi": "Công đoàn vẫn phản đối mạnh mẽ việc đóng băng tiền lương."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strongly related to",
+      "vietnamese": "liên quan chặt chẽ tới",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/ˈstrɔːŋli rɪˈleɪtɪd tə/",
+      "examples": [
+        {
+          "en": "Job satisfaction is strongly related to employee productivity.",
+          "vi": "Sự hài lòng trong công việc liên quan chặt chẽ tới năng suất nhân viên."
+        },
+        {
+          "en": "Reading habits are strongly related to vocabulary growth.",
+          "vi": "Thói quen đọc liên quan chặt chẽ tới sự phát triển vốn từ vựng."
+        },
+        {
+          "en": "Diet is strongly related to long-term cardiovascular health.",
+          "vi": "Chế độ ăn liên quan chặt chẽ tới sức khỏe tim mạch lâu dài."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "strongly suggest",
+      "vietnamese": "cho thấy rõ ràng",
+      "part_of_speech": "adv + v",
+      "ipa": "/ˈstrɔːŋli səˈdʒest/",
+      "examples": [
+        {
+          "en": "The results strongly suggest that the treatment is effective.",
+          "vi": "Kết quả cho thấy rõ ràng rằng phương pháp điều trị có hiệu quả."
+        },
+        {
+          "en": "These findings strongly suggest a need for further research.",
+          "vi": "Những phát hiện này cho thấy rõ ràng cần nghiên cứu thêm.",
+          "image_url": "https://images.pexels.com/photos/7723596/pexels-photo-7723596.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The evidence strongly suggests a link between the two events.",
+          "vi": "Bằng chứng cho thấy rõ ràng có mối liên hệ giữa hai sự kiện."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "structural adjustment",
+      "vietnamese": "điều chỉnh cơ cấu",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrʌktʃərəl əˈdʒʌstmənt/",
+      "examples": [
+        {
+          "en": "The government introduced structural adjustment to stabilize the economy.",
+          "vi": "Chính phủ tiến hành điều chỉnh cơ cấu để ổn định nền kinh tế."
+        },
+        {
+          "en": "Structural adjustment programs often affect public spending heavily.",
+          "vi": "Các chương trình điều chỉnh cơ cấu thường ảnh hưởng mạnh đến chi tiêu công."
+        },
+        {
+          "en": "The bank required structural adjustment before approving the loan.",
+          "vi": "Ngân hàng yêu cầu điều chỉnh cơ cấu trước khi phê duyệt khoản vay."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "structural change",
+      "vietnamese": "thay đổi cơ cấu",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrʌktʃərəl ˈtʃeɪndʒ/",
+      "examples": [
+        {
+          "en": "The industry underwent major structural change over the decade.",
+          "vi": "Ngành đã trải qua sự thay đổi cơ cấu lớn trong thập kỷ qua."
+        },
+        {
+          "en": "Structural change in the economy created new types of jobs.",
+          "vi": "Sự thay đổi cơ cấu trong nền kinh tế tạo ra nhiều loại việc làm mới."
+        },
+        {
+          "en": "The reform aimed at deep structural change within the organization.",
+          "vi": "Cuộc cải cách nhắm tới sự thay đổi cơ cấu sâu sắc trong tổ chức.",
+          "image_url": "https://images.pexels.com/photos/38918750/pexels-photo-38918750.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "structural element",
+      "vietnamese": "yếu tố cấu trúc",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrʌktʃərəl ˈelɪmənt/",
+      "examples": [
+        {
+          "en": "Engineers checked every structural element of the old bridge.",
+          "vi": "Các kỹ sư kiểm tra từng yếu tố cấu trúc của cây cầu cũ."
+        },
+        {
+          "en": "Each structural element must support the building's total weight.",
+          "vi": "Mỗi yếu tố cấu trúc phải chịu được toàn bộ trọng lượng của tòa nhà."
+        },
+        {
+          "en": "The essay analyzes the structural elements of the novel.",
+          "vi": "Bài luận phân tích các yếu tố cấu trúc của cuốn tiểu thuyết."
+        }
+      ],
+      "audio_src": null
+    },
+    {
+      "english": "structural feature",
+      "vietnamese": "đặc điểm cấu trúc",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrʌktʃərəl ˈfiːtʃər/",
+      "examples": [
+        {
+          "en": "The study compares structural features of several languages.",
+          "vi": "Nghiên cứu so sánh các đặc điểm cấu trúc của một số ngôn ngữ."
+        },
+        {
+          "en": "A key structural feature of the cell is its membrane.",
+          "vi": "Một đặc điểm cấu trúc quan trọng của tế bào là màng của nó."
+        },
+        {
+          "en": "The architect preserved the building's original structural features.",
+          "vi": "Kiến trúc sư bảo tồn các đặc điểm cấu trúc nguyên bản của tòa nhà."
+        }
+      ],
+      "audio_src": null
+    }
+  ]
+}

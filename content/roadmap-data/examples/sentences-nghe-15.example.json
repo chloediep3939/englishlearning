@@ -1,0 +1,63 @@
+{
+  "_comment": "VÍ DỤ ĐỊNH DẠNG — không phải dữ liệu thật, không nạp vào DB. Xem src/doc/roadmap-data-format.md",
+  "kind": "sentences",
+  "item_key": "nghe-15",
+  "batch": 1,
+  "authored_by": "<tên model> + <ngày>",
+  "verified_by": [
+    "<phiên kiểm 1: tên model + ngày>",
+    "<phiên kiểm 2: tên model + ngày>"
+  ],
+  "sentences": [
+    {
+      "id": "nghe-15-001",
+      "text": "The bus was late again this morning.",
+      "note_vi": "<1 câu tiếng Việt: chỗ khó nhớ/khó nghe>"
+    },
+    {
+      "id": "nghe-15-002",
+      "text": "My sister works at a small bakery.",
+      "note_vi": "<1 câu tiếng Việt: chỗ khó nhớ/khó nghe>"
+    },
+    {
+      "id": "nghe-15-003",
+      "text": "We watched a long film last night.",
+      "note_vi": "<1 câu tiếng Việt: chỗ khó nhớ/khó nghe>"
+    },
+    {
+      "id": "nghe-15-004",
+      "text": "He forgot his keys on the table.",
+      "note_vi": "<1 câu tiếng Việt: chỗ khó nhớ/khó nghe>"
+    },
+    {
+      "id": "nghe-15-005",
+      "text": "The children played in the park today.",
+      "note_vi": "<1 câu tiếng Việt: chỗ khó nhớ/khó nghe>"
+    },
+    {
+      "id": "nghe-15-006",
+      "text": "She drinks coffee before every meeting.",
+      "note_vi": "<1 câu tiếng Việt: chỗ khó nhớ/khó nghe>"
+    },
+    {
+      "id": "nghe-15-007",
+      "text": "Our teacher gave us extra homework.",
+      "note_vi": "<1 câu tiếng Việt: chỗ khó nhớ/khó nghe>"
+    },
+    {
+      "id": "nghe-15-008",
+      "text": "They moved to a bigger flat recently.",
+      "note_vi": "<1 câu tiếng Việt: chỗ khó nhớ/khó nghe>"
+    },
+    {
+      "id": "nghe-15-009",
+      "text": "I cooked rice and fish for dinner.",
+      "note_vi": "<1 câu tiếng Việt: chỗ khó nhớ/khó nghe>"
+    },
+    {
+      "id": "nghe-15-010",
+      "text": "The shop closes early on Sundays.",
+      "note_vi": "<1 câu tiếng Việt: chỗ khó nhớ/khó nghe>"
+    }
+  ]
+}
