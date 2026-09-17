@@ -800,3 +800,78 @@ export interface PresetCardWithOwnership extends PresetCard {
 export interface PresetLevelDetail extends Omit<PresetLevel, 'card_count' | 'owned_count'> {
   cards: PresetCardWithOwnership[];
 }
+
+// ============================================================================
+// Shadowing (nhại theo giọng thật) — schema nền S1–S3.
+// Kế hoạch: src/doc/prompts/shadowing-deployment-plan.md. Migration 0056.
+// ============================================================================
+
+export type ShadowingSource = 'voa' | 'youtube';
+
+// Mốc thời gian một từ trong audio bài (words_json của shadowing_sentences).
+export interface ShadowingWordMark {
+  word: string;
+  start_ms: number;
+  end_ms: number;
+}
+
+// Kho bài: một clip giọng thật. Nội dung dùng chung mọi user (không scope user).
+export interface ShadowingLesson {
+  id: number;
+  source: ShadowingSource;
+  source_url: string | null;
+  title: string;
+  program: string | null;
+  level: number;             // 0..5
+  audio_key: string;         // object key trên R2 (AUDIO_BUCKET)
+  duration_ms: number | null;
+  word_count: number | null;
+  wpm: number | null;
+  created_at: string;
+}
+
+export interface ShadowingSentence {
+  id: number;
+  lesson_id: number;
+  idx: number;               // 0-based thứ tự trong bài
+  text: string;
+  translation_vi: string | null;
+  start_ms: number | null;
+  end_ms: number | null;
+  words_json: ShadowingWordMark[];             // hydrated từ TEXT JSON; [] nếu chưa có mốc
+  // Bản đồ đọc (trọng âm / nối âm / âm cuối / ngắt cụm). Được S4 định hình chính
+  // xác; giữ mở ở đây vì lúc nhập (S1) cột này null. Hydrate từ TEXT JSON.
+  marks_json: Record<string, unknown> | null;
+}
+
+// Một phiên luyện của user trên một bài, ở một bậc.
+export interface ShadowingSession {
+  id: number;
+  user_id: number;
+  lesson_id: number;
+  level: number;
+  started_at: string;
+  ended_at: string | null;
+  sentence_count: number;
+  avg_score: number | null;  // 0..100
+  speaking_seconds: number;
+}
+
+// Một lần nhại một câu. scored=false nghĩa là chưa gọi Azure.
+export interface ShadowingAttempt {
+  id: number;
+  session_id: number;
+  sentence_id: number;
+  user_id: number;
+  stt_text: string | null;
+  stt_match_pct: number | null;      // 0..100 khớp lời máy nghe vs text câu
+  scored: boolean;                    // hydrated từ 0|1
+  pron_score: number | null;
+  accuracy: number | null;
+  fluency: number | null;
+  completeness: number | null;
+  prosody: number | null;             // chỉ có với tiếng Anh Mỹ
+  // Kết quả từng từ + âm vị của Azure. Shape do lib assess (S2) định hình.
+  words_json: Record<string, unknown> | null;
+  created_at: string;
+}

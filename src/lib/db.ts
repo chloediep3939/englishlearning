@@ -12,6 +12,9 @@ import type {
   PracticeSentence,
   ReviewSource,
   SentenceDrill,
+  ShadowingLesson,
+  ShadowingSentence,
+  ShadowingWordMark,
   TestMode,
   User,
 } from './types';
@@ -1686,5 +1689,146 @@ export const pronunciationProgressDb = {
       )
       .bind(userId, slug, score, now)
       .run();
+  },
+};
+
+// ============================================================================
+// Shadowing — kho bài (S1). lessons + sentences là nội dung dùng chung, KHÔNG
+// scope theo user (giống preset decks). sessions/attempts (theo user) sẽ có
+// wrapper riêng khi tới S2/S3. Migration 0056. Types: @/lib/types.
+// ============================================================================
+
+function hydrateShadowingLesson(row: Record<string, unknown> | null): ShadowingLesson | null {
+  if (!row) return null;
+  return {
+    ...(row as unknown as ShadowingLesson),
+    source: (row.source as ShadowingLesson['source']),
+  };
+}
+
+function hydrateShadowingSentence(row: Record<string, unknown> | null): ShadowingSentence | null {
+  if (!row) return null;
+  return {
+    ...(row as unknown as ShadowingSentence),
+    words_json: safeParse<ShadowingWordMark[]>(row.words_json as string | null, []),
+    marks_json: safeParse<Record<string, unknown> | null>(row.marks_json as string | null, null),
+  };
+}
+
+export const shadowingLessonsDb = {
+  async list(opts: { level?: number } = {}): Promise<ShadowingLesson[]> {
+    const db = await getDb();
+    const result =
+      opts.level === undefined
+        ? await db
+            .prepare('SELECT * FROM shadowing_lessons ORDER BY level ASC, id ASC')
+            .all<Record<string, unknown>>()
+        : await db
+            .prepare('SELECT * FROM shadowing_lessons WHERE level = ? ORDER BY id ASC')
+            .bind(opts.level)
+            .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateShadowingLesson(r)!).filter(Boolean);
+  },
+
+  async getById(id: number): Promise<ShadowingLesson | null> {
+    const db = await getDb();
+    const row = await db
+      .prepare('SELECT * FROM shadowing_lessons WHERE id = ?')
+      .bind(id)
+      .first<Record<string, unknown>>();
+    return hydrateShadowingLesson(row);
+  },
+
+  /** Idempotency cho ingest: bài đã nhập theo source_url chưa? */
+  async getBySourceUrl(sourceUrl: string): Promise<ShadowingLesson | null> {
+    const db = await getDb();
+    const row = await db
+      .prepare('SELECT * FROM shadowing_lessons WHERE source_url = ? LIMIT 1')
+      .bind(sourceUrl)
+      .first<Record<string, unknown>>();
+    return hydrateShadowingLesson(row);
+  },
+
+  /** Dùng bởi script nhập VOA (S1). Trả về id bài mới. */
+  async create(input: {
+    source: ShadowingLesson['source'];
+    source_url?: string | null;
+    title: string;
+    program?: string | null;
+    level: number;
+    audio_key: string;
+    duration_ms?: number | null;
+    word_count?: number | null;
+    wpm?: number | null;
+  }): Promise<number> {
+    const db = await getDb();
+    const result = await db
+      .prepare(
+        `INSERT INTO shadowing_lessons
+           (source, source_url, title, program, level, audio_key, duration_ms, word_count, wpm)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`
+      )
+      .bind(
+        input.source,
+        input.source_url ?? null,
+        input.title,
+        input.program ?? null,
+        input.level,
+        input.audio_key,
+        input.duration_ms ?? null,
+        input.word_count ?? null,
+        input.wpm ?? null,
+      )
+      .run();
+    return Number(result.meta.last_row_id);
+  },
+};
+
+export const shadowingSentencesDb = {
+  async listByLesson(lessonId: number): Promise<ShadowingSentence[]> {
+    const db = await getDb();
+    const result = await db
+      .prepare('SELECT * FROM shadowing_sentences WHERE lesson_id = ? ORDER BY idx ASC')
+      .bind(lessonId)
+      .all<Record<string, unknown>>();
+    return result.results.map((r) => hydrateShadowingSentence(r)!).filter(Boolean);
+  },
+
+  /**
+   * Chèn nhiều câu cho một bài (script nhập). `idx` lấy đúng thứ tự mảng.
+   * words_json/marks_json được JSON.stringify tại đây, không ở call site.
+   */
+  async createMany(
+    lessonId: number,
+    sentences: Array<{
+      text: string;
+      translation_vi?: string | null;
+      start_ms?: number | null;
+      end_ms?: number | null;
+      words?: ShadowingWordMark[] | null;
+      marks?: Record<string, unknown> | null;
+    }>
+  ): Promise<void> {
+    if (sentences.length === 0) return;
+    const db = await getDb();
+    const stmts = sentences.map((s, idx) =>
+      db
+        .prepare(
+          `INSERT INTO shadowing_sentences
+             (lesson_id, idx, text, translation_vi, start_ms, end_ms, words_json, marks_json)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
+        )
+        .bind(
+          lessonId,
+          idx,
+          s.text,
+          s.translation_vi ?? null,
+          s.start_ms ?? null,
+          s.end_ms ?? null,
+          s.words == null ? null : JSON.stringify(s.words),
+          s.marks == null ? null : JSON.stringify(s.marks),
+        )
+    );
+    await db.batch(stmts);
   },
 };

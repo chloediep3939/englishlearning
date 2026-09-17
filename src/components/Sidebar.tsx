@@ -8,7 +8,7 @@ import {
   LayoutGrid, BookOpen, Zap, FileText,
   Library, Folder, BarChart3, Settings, Mic, PenLine, BookOpenText, Newspaper,
   ScrollText, NotebookPen, PanelLeftClose, PanelLeftOpen, Map, AudioLines,
-  ChevronDown, ChevronRight,
+  ChevronDown, ChevronRight, Repeat2,
 } from 'lucide-react';
 import LogoutButton from './LogoutButton';
 import FeedbackWidget from './feedback/feedback-widget';
@@ -41,6 +41,7 @@ const NAV_GROUPS: NavGroup[] = [
       { href: '/study',         label: 'Học từ',  icon: BookOpen,   color: 'var(--v-orange)' },
       { href: '/sentence-study', label: 'Học câu', icon: NotebookPen, color: 'var(--v-teal)' },
       { href: '/pronunciation', label: 'Phát âm', icon: AudioLines, color: 'var(--v-purple)' },
+      { href: '/shadowing',     label: 'Nhại theo', icon: Repeat2,  color: 'var(--v-blue)' },
       { href: '/passage',       label: 'Bài đọc', icon: Newspaper,  color: 'var(--v-teal)' },
       { href: '/dictionary',    label: 'Từ điển', icon: Library,    color: 'var(--v-purple)' },
     ],
