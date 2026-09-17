@@ -7,11 +7,11 @@ import type { Sound } from '@/lib/pronunciation/catalog-meta';
 import { GROUP_META } from '@/lib/pronunciation/catalog-meta';
 import type { PronunciationProgressRow } from '@/lib/db';
 import SoundVideoPanel from './SoundVideoPanel';
-import TipsPanel from './TipsPanel';
 import ExampleWordList from './ExampleWordList';
 import ReadScorePanel from './ReadScorePanel';
 import YouglishWidget from './YouglishWidget';
 import SoundMinimalPairs from './SoundMinimalPairs';
+import MiniPairTest from './MiniPairTest';
 import SectionCard from './SectionCard';
 import { getMinimalPairSetsForSlug } from '@/lib/pronunciation/minimal-pairs';
 
@@ -141,8 +141,9 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
         <SoundVideoPanel sound={sound} />
       </SectionCard>
 
-      {/* Two columns on wide screens; stacks on narrow. Left = practice
-          (read/record + YouGlish), right = reference (tips + examples). */}
+      {/* Two columns on wide screens; stacks on narrow.
+          Left = reference (examples + pair comparison),
+          right = practice (read/record + quick test + YouGlish). */}
       <div
         style={{
           display: 'grid',
@@ -151,32 +152,36 @@ export default function SoundDetailClient({ sound, initialProgress }: Props) {
           alignItems: 'start',
         }}
       >
+        {/* LEFT — reference */}
+        <div>
+          <SectionCard title={`Ví dụ (${sound.examples.length} từ)`} color="var(--v-blue)">
+            <ExampleWordList examples={sound.examples} />
+          </SectionCard>
+
+          {hasPairs && (
+            <SectionCard title={`So sánh cặp từ có âm /${sound.ipa}/`} color="var(--v-purple)">
+              <SoundMinimalPairs slug={sound.slug} />
+            </SectionCard>
+          )}
+        </div>
+
+        {/* RIGHT — practice */}
         <div>
           <SectionCard title="Đọc & nghe lại giọng mình" color="var(--v-primary)">
             <ReadScorePanel sound={sound} />
           </SectionCard>
 
+          {hasPairs && (
+            <SectionCard title="Luyện nhanh: nghe & chọn" color="var(--v-teal)">
+              <MiniPairTest slug={sound.slug} />
+            </SectionCard>
+          )}
+
           <SectionCard title="Nghe người bản xứ (YouGlish)" color="var(--v-pink)">
             <YouglishWidget initialQuery={sound.examples[0]?.word ?? ''} examples={sound.examples} />
           </SectionCard>
         </div>
-
-        <div>
-          <SectionCard title="Mẹo đọc & so với tiếng Việt" color="var(--v-orange)">
-            <TipsPanel sound={sound} />
-          </SectionCard>
-
-          <SectionCard title={`Ví dụ (${sound.examples.length} từ)`} color="var(--v-blue)">
-            <ExampleWordList examples={sound.examples} />
-          </SectionCard>
-        </div>
       </div>
-
-      {hasPairs && (
-        <SectionCard title={`So sánh cặp từ có âm /${sound.ipa}/`} color="var(--v-purple)">
-          <SoundMinimalPairs slug={sound.slug} />
-        </SectionCard>
-      )}
 
       <div style={{ textAlign: 'center', margin: '18px 0 8px' }}>
         <Link
