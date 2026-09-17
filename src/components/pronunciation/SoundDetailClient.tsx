@@ -217,7 +217,7 @@ function GroupCard({ title, color, children }: { title: string; color: string; c
         border: '1px solid var(--v-border)',
         borderRadius: 'var(--v-radius-lg)',
         boxShadow: 'var(--v-shadow-sm)',
-        padding: 16,
+        padding: '16px 16px 24px',
         marginBottom: 16,
       }}
     >
