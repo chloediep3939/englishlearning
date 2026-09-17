@@ -1,0 +1,830 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1–500 · Bộ 5",
+    "description": "New General Service List, thứ hạng 1–500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-1-05"
+  },
+  "cards": [
+    {
+      "english": "state",
+      "vietnamese": "tình trạng; bang; nhà nước",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The old house was in a terrible state when we bought it.",
+          "vi": "Căn nhà cũ ở trong tình trạng tồi tệ khi chúng tôi mua nó."
+        },
+        {
+          "en": "She moved to another state to start a new job.",
+          "vi": "Cô ấy chuyển đến một bang khác để bắt đầu công việc mới."
+        },
+        {
+          "en": "Most hospitals here are run by the state.",
+          "vi": "Hầu hết bệnh viện ở đây do nhà nước điều hành."
+        }
+      ],
+      "collocations": [
+        "in a terrible state",
+        "state of mind",
+        "state school"
+      ],
+      "notes": null,
+      "ipa": "/steɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sta/state/state__us_1.mp3"
+    },
+    {
+      "english": "move",
+      "vietnamese": "di chuyển; chuyển nhà",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Could you move your bag? I want to sit down.",
+          "vi": "Bạn có thể dời cái túi đi được không? Tôi muốn ngồi xuống."
+        },
+        {
+          "en": "We moved to a bigger apartment last year.",
+          "vi": "Năm ngoái chúng tôi đã chuyển đến một căn hộ rộng hơn."
+        },
+        {
+          "en": "The table is too heavy for one person to move.",
+          "vi": "Cái bàn quá nặng, một người không thể di chuyển được."
+        }
+      ],
+      "collocations": [
+        "move to",
+        "move house",
+        "move in"
+      ],
+      "notes": null,
+      "ipa": "/muːv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mov/move_/move__us_1.mp3"
+    },
+    {
+      "english": "money",
+      "vietnamese": "tiền",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I'm trying to save money for a new laptop.",
+          "vi": "Tôi đang cố gắng tiết kiệm tiền để mua máy tính xách tay mới."
+        },
+        {
+          "en": "How much money did you spend on the trip?",
+          "vi": "Bạn đã tiêu bao nhiêu tiền cho chuyến đi?"
+        },
+        {
+          "en": "He doesn't earn much money, but he loves his job.",
+          "vi": "Anh ấy không kiếm được nhiều tiền nhưng rất yêu công việc của mình."
+        }
+      ],
+      "collocations": [
+        "save money",
+        "spend money",
+        "earn money",
+        "make money"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈmʌni/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mon/money/money__us_1.mp3"
+    },
+    {
+      "english": "fact",
+      "vietnamese": "sự thật; thực tế",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "It's a fact that exercise is good for your health.",
+          "vi": "Tập thể dục tốt cho sức khỏe là một sự thật."
+        },
+        {
+          "en": "In fact, I've never been on a plane before.",
+          "vi": "Thực ra, tôi chưa bao giờ đi máy bay."
+        },
+        {
+          "en": "I like the fact that my office is close to home.",
+          "vi": "Tôi thích việc văn phòng của mình ở gần nhà."
+        }
+      ],
+      "collocations": [
+        "in fact",
+        "the fact that",
+        "an interesting fact"
+      ],
+      "notes": null,
+      "ipa": "/fækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fac/fact_/fact__us_1.mp3"
+    },
+    {
+      "english": "however",
+      "vietnamese": "tuy nhiên; dù thế nào",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The hotel was expensive; however, the rooms were very clean.",
+          "vi": "Khách sạn khá đắt; tuy nhiên, phòng rất sạch sẽ."
+        },
+        {
+          "en": "The food, however, was not as good as we expected.",
+          "vi": "Tuy nhiên, đồ ăn không ngon như chúng tôi mong đợi."
+        },
+        {
+          "en": "However hard I try, I can't wake up early.",
+          "vi": "Dù cố gắng thế nào, tôi cũng không thể dậy sớm."
+        }
+      ],
+      "collocations": [
+        "however hard",
+        "however much",
+        "however long"
+      ],
+      "notes": null,
+      "ipa": "/haʊˈevər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/how/howev/however__us_2.mp3"
+    },
+    {
+      "english": "area",
+      "vietnamese": "khu vực; lĩnh vực",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There are a lot of good restaurants in this area.",
+          "vi": "Có rất nhiều nhà hàng ngon ở khu vực này."
+        },
+        {
+          "en": "They live in a quiet area outside the city.",
+          "vi": "Họ sống ở một khu vực yên tĩnh ngoài thành phố."
+        },
+        {
+          "en": "Customer service is an area where we need to improve.",
+          "vi": "Dịch vụ khách hàng là lĩnh vực mà chúng tôi cần cải thiện."
+        }
+      ],
+      "collocations": [
+        "in the area",
+        "local area",
+        "quiet area"
+      ],
+      "notes": null,
+      "ipa": "/ˈeriə/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/are/area_/area__us_2.mp3"
+    },
+    {
+      "english": "provide",
+      "vietnamese": "cung cấp; chu cấp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The hotel provides free breakfast for all guests.",
+          "vi": "Khách sạn cung cấp bữa sáng miễn phí cho tất cả khách."
+        },
+        {
+          "en": "Can you provide more information about the job?",
+          "vi": "Bạn có thể cung cấp thêm thông tin về công việc không?"
+        },
+        {
+          "en": "Parents provide their children with food, clothes and love.",
+          "vi": "Cha mẹ chu cấp cho con cái thức ăn, quần áo và tình yêu thương."
+        }
+      ],
+      "collocations": [
+        "provide information",
+        "provide a service",
+        "provide somebody with something"
+      ],
+      "notes": "provide sb with sth = provide sth for sb",
+      "ipa": "/prəˈvaɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/provi/provide__us_1.mp3"
+    },
+    {
+      "english": "name",
+      "vietnamese": "tên",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "What's the name of that song you were singing?",
+          "vi": "Bài hát bạn vừa hát tên là gì vậy?"
+        },
+        {
+          "en": "Please write your full name at the top of the page.",
+          "vi": "Vui lòng viết họ tên đầy đủ ở đầu trang."
+        },
+        {
+          "en": "We haven't chosen a name for the baby yet.",
+          "vi": "Chúng tôi vẫn chưa chọn được tên cho em bé."
+        }
+      ],
+      "collocations": [
+        "full name",
+        "first name",
+        "last name",
+        "choose a name"
+      ],
+      "notes": null,
+      "ipa": "/neɪm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nam/name_/name__us_1.mp3"
+    },
+    {
+      "english": "read",
+      "vietnamese": "đọc",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I usually read a book before I go to sleep.",
+          "vi": "Tôi thường đọc sách trước khi đi ngủ."
+        },
+        {
+          "en": "Have you read the email from your manager?",
+          "vi": "Bạn đã đọc email của quản lý chưa?"
+        },
+        {
+          "en": "My son learned to read when he was five.",
+          "vi": "Con trai tôi biết đọc khi lên năm tuổi."
+        }
+      ],
+      "collocations": [
+        "read a book",
+        "read the news",
+        "read aloud",
+        "read carefully"
+      ],
+      "notes": "read – read – read (quá khứ đọc là /red/)",
+      "ipa": "/riːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rea/read_/read__us_1.mp3"
+    },
+    {
+      "english": "friend",
+      "vietnamese": "bạn; bạn bè",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I'm meeting a friend for coffee this afternoon.",
+          "vi": "Chiều nay tôi đi uống cà phê với một người bạn."
+        },
+        {
+          "en": "She made a lot of new friends at university.",
+          "vi": "Cô ấy đã kết được nhiều bạn mới ở trường đại học."
+        },
+        {
+          "en": "My best friend and I have known each other for years.",
+          "vi": "Tôi và bạn thân đã quen nhau nhiều năm rồi."
+        }
+      ],
+      "collocations": [
+        "best friend",
+        "make friends",
+        "close friend",
+        "old friend"
+      ],
+      "notes": null,
+      "ipa": "/frend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fri/frien/friend__us_1.mp3"
+    },
+    {
+      "english": "month",
+      "vietnamese": "tháng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We're going on vacation to the beach next month.",
+          "vi": "Tháng sau chúng tôi sẽ đi nghỉ ở biển."
+        },
+        {
+          "en": "I pay my phone bill at the end of every month.",
+          "vi": "Tôi trả tiền điện thoại vào cuối mỗi tháng."
+        },
+        {
+          "en": "She has been learning English for six months.",
+          "vi": "Cô ấy đã học tiếng Anh được sáu tháng."
+        }
+      ],
+      "collocations": [
+        "next month",
+        "last month",
+        "every month",
+        "the end of the month"
+      ],
+      "notes": null,
+      "ipa": "/mʌnθ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mon/month/month__us_1.mp3"
+    },
+    {
+      "english": "large",
+      "vietnamese": "lớn; rộng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "They live in a large house near the park.",
+          "vi": "Họ sống trong một ngôi nhà lớn gần công viên."
+        },
+        {
+          "en": "Would you like a small or large coffee?",
+          "vi": "Bạn muốn cà phê cỡ nhỏ hay cỡ lớn?"
+        },
+        {
+          "en": "A large number of students took the exam this year.",
+          "vi": "Năm nay có một số lượng lớn học sinh tham gia kỳ thi."
+        }
+      ],
+      "collocations": [
+        "a large number of",
+        "a large amount of",
+        "large family"
+      ],
+      "notes": null,
+      "ipa": "/lɑːrdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lar/large/large__us_1.mp3"
+    },
+    {
+      "english": "business",
+      "vietnamese": "kinh doanh; doanh nghiệp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My parents run a small business selling flowers.",
+          "vi": "Bố mẹ tôi có một doanh nghiệp nhỏ chuyên bán hoa."
+        },
+        {
+          "en": "He often travels to other countries on business.",
+          "vi": "Anh ấy thường đi công tác nước ngoài."
+        },
+        {
+          "en": "She wants to study business at university.",
+          "vi": "Cô ấy muốn học ngành kinh doanh ở đại học."
+        }
+      ],
+      "collocations": [
+        "run a business",
+        "small business",
+        "on business",
+        "business trip"
+      ],
+      "notes": null,
+      "ipa": "/ˈbɪznəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bus/busin/business__us_4.mp3"
+    },
+    {
+      "english": "without",
+      "vietnamese": "không có; mà không",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "I never drink coffee without milk and sugar.",
+          "vi": "Tôi không bao giờ uống cà phê mà không cho sữa và đường."
+        },
+        {
+          "en": "She left the room without saying a word.",
+          "vi": "Cô ấy rời khỏi phòng mà không nói một lời."
+        },
+        {
+          "en": "We couldn't have finished the project without your help.",
+          "vi": "Nếu không có sự giúp đỡ của bạn, chúng tôi đã không thể hoàn thành dự án."
+        }
+      ],
+      "collocations": [
+        "without saying a word",
+        "without a doubt",
+        "without warning"
+      ],
+      "notes": null,
+      "ipa": "/wɪˈðaʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wit/witho/without__us_1_rr.mp3"
+    },
+    {
+      "english": "information",
+      "vietnamese": "thông tin",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "You can find more information on our website.",
+          "vi": "Bạn có thể tìm thêm thông tin trên trang web của chúng tôi."
+        },
+        {
+          "en": "Thanks for the useful information about the bus schedule.",
+          "vi": "Cảm ơn bạn vì thông tin hữu ích về lịch xe buýt."
+        },
+        {
+          "en": "Please don't share your personal information with strangers online.",
+          "vi": "Vui lòng không chia sẻ thông tin cá nhân với người lạ trên mạng."
+        }
+      ],
+      "collocations": [
+        "more information",
+        "personal information",
+        "useful information",
+        "information about"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˌɪnfərˈmeɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inf/infor/information__us_1.mp3"
+    },
+    {
+      "english": "open",
+      "vietnamese": "mở; mở cửa",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Could you open the window? It's hot in here.",
+          "vi": "Bạn mở cửa sổ giúp tôi được không? Trong này nóng quá."
+        },
+        {
+          "en": "The new library will open to the public next Monday.",
+          "vi": "Thư viện mới sẽ mở cửa đón mọi người vào thứ Hai tới."
+        },
+        {
+          "en": "What time does the bank open on Saturdays?",
+          "vi": "Ngân hàng mở cửa lúc mấy giờ vào thứ Bảy?"
+        }
+      ],
+      "collocations": [
+        "open the window",
+        "open the door",
+        "open an account"
+      ],
+      "notes": null,
+      "ipa": "/ˈəʊpən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ope/open_/open__us_1.mp3"
+    },
+    {
+      "english": "order",
+      "vietnamese": "thứ tự; đơn hàng; mệnh lệnh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Put the photos in order from oldest to newest.",
+          "vi": "Hãy sắp xếp ảnh theo thứ tự từ cũ nhất đến mới nhất."
+        },
+        {
+          "en": "Your order will arrive in three to five days.",
+          "vi": "Đơn hàng của bạn sẽ được giao trong ba đến năm ngày."
+        },
+        {
+          "en": "The manager gave orders to close the store early.",
+          "vi": "Quản lý đã ra lệnh đóng cửa hàng sớm."
+        }
+      ],
+      "collocations": [
+        "in order",
+        "place an order",
+        "give orders"
+      ],
+      "notes": null,
+      "ipa": "/ˈɔːrdər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ord/order/order__us_2.mp3"
+    },
+    {
+      "english": "government",
+      "vietnamese": "chính phủ; chính quyền",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The government is building a new hospital in our town.",
+          "vi": "Chính phủ đang xây một bệnh viện mới ở thị trấn của chúng tôi."
+        },
+        {
+          "en": "She works for the local government as an engineer.",
+          "vi": "Cô ấy làm kỹ sư cho chính quyền địa phương."
+        },
+        {
+          "en": "The government gives free school meals to young children.",
+          "vi": "Chính phủ cấp bữa ăn miễn phí ở trường cho trẻ nhỏ."
+        }
+      ],
+      "collocations": [
+        "local government",
+        "central government",
+        "work for the government"
+      ],
+      "notes": null,
+      "ipa": "/ˈɡʌvərnmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gov/gover/government__us_1_rr.mp3"
+    },
+    {
+      "english": "word",
+      "vietnamese": "từ; lời",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I don't know what this word means in English.",
+          "vi": "Tôi không biết từ này trong tiếng Anh nghĩa là gì."
+        },
+        {
+          "en": "Can I have a word with you after class?",
+          "vi": "Sau giờ học tôi nói chuyện với bạn một chút được không?"
+        },
+        {
+          "en": "He promised to help, and he kept his word.",
+          "vi": "Anh ấy hứa sẽ giúp và anh ấy đã giữ lời."
+        }
+      ],
+      "collocations": [
+        "in other words",
+        "have a word with",
+        "keep your word"
+      ],
+      "notes": null,
+      "ipa": "/wɜːrd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wor/word_/word__us_1.mp3"
+    },
+    {
+      "english": "issue",
+      "vietnamese": "vấn đề; số báo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Money is a big issue for many students.",
+          "vi": "Tiền bạc là một vấn đề lớn với nhiều sinh viên."
+        },
+        {
+          "en": "If you have any issues with the app, please contact us.",
+          "vi": "Nếu bạn gặp vấn đề gì với ứng dụng, vui lòng liên hệ với chúng tôi."
+        },
+        {
+          "en": "Did you read the latest issue of the magazine?",
+          "vi": "Bạn đã đọc số mới nhất của tạp chí chưa?"
+        }
+      ],
+      "collocations": [
+        "a big issue",
+        "deal with an issue",
+        "the latest issue"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪʃuː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/iss/issue/issue__us_2.mp3"
+    },
+    {
+      "english": "market",
+      "vietnamese": "chợ; thị trường",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandmother buys fresh vegetables at the market every morning.",
+          "vi": "Bà tôi mua rau tươi ở chợ mỗi sáng."
+        },
+        {
+          "en": "There's a night market near our hotel.",
+          "vi": "Gần khách sạn của chúng tôi có một chợ đêm."
+        },
+        {
+          "en": "The job market is very difficult for young people right now.",
+          "vi": "Hiện nay thị trường việc làm rất khó khăn với người trẻ."
+        }
+      ],
+      "collocations": [
+        "go to the market",
+        "night market",
+        "job market"
+      ],
+      "notes": null,
+      "ipa": "/ˈmɑːrkɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mar/marke/market__us_1.mp3"
+    },
+    {
+      "english": "pay",
+      "vietnamese": "trả tiền; thanh toán",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Can I pay by credit card, or only in cash?",
+          "vi": "Tôi có thể thanh toán bằng thẻ tín dụng không, hay chỉ bằng tiền mặt?"
+        },
+        {
+          "en": "I paid twenty dollars for this shirt.",
+          "vi": "Tôi đã trả hai mươi đô la cho chiếc áo này."
+        },
+        {
+          "en": "Let me pay for dinner tonight, since you paid last time.",
+          "vi": "Tối nay để tôi trả tiền bữa tối nhé, vì lần trước bạn trả rồi."
+        }
+      ],
+      "collocations": [
+        "pay for",
+        "pay by card",
+        "pay in cash",
+        "pay the bill"
+      ],
+      "notes": "pay – paid – paid",
+      "ipa": "/peɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pay/pay__/pay__us_1.mp3"
+    },
+    {
+      "english": "build",
+      "vietnamese": "xây; xây dựng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My father built this house thirty years ago.",
+          "vi": "Bố tôi đã xây ngôi nhà này ba mươi năm trước."
+        },
+        {
+          "en": "They're building a new bridge across the river.",
+          "vi": "Họ đang xây một cây cầu mới bắc qua sông."
+        },
+        {
+          "en": "It takes time to build trust with new customers.",
+          "vi": "Cần có thời gian để xây dựng lòng tin với khách hàng mới."
+        }
+      ],
+      "collocations": [
+        "build a house",
+        "build a bridge",
+        "build trust"
+      ],
+      "notes": "build – built – built",
+      "ipa": "/bɪld/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bui/build/build__us_1.mp3"
+    },
+    {
+      "english": "hold",
+      "vietnamese": "cầm; nắm; tổ chức",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Can you hold my bag for a minute?",
+          "vi": "Bạn cầm giúp tôi cái túi một lát được không?"
+        },
+        {
+          "en": "The little girl held her mother's hand tightly.",
+          "vi": "Cô bé nắm chặt tay mẹ."
+        },
+        {
+          "en": "The school will hold a meeting for parents on Friday.",
+          "vi": "Nhà trường sẽ tổ chức một buổi họp phụ huynh vào thứ Sáu."
+        }
+      ],
+      "collocations": [
+        "hold a meeting",
+        "hold somebody's hand",
+        "hold the door"
+      ],
+      "notes": "hold – held – held",
+      "ipa": "/həʊld/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hol/hold_/hold__us_1.mp3"
+    },
+    {
+      "english": "service",
+      "vietnamese": "dịch vụ; sự phục vụ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The food was good, but the service was very slow.",
+          "vi": "Đồ ăn ngon nhưng phục vụ rất chậm."
+        },
+        {
+          "en": "There is no bus service on public holidays.",
+          "vi": "Không có dịch vụ xe buýt vào các ngày lễ."
+        },
+        {
+          "en": "Please call customer service if you have any problems.",
+          "vi": "Vui lòng gọi bộ phận chăm sóc khách hàng nếu bạn gặp bất kỳ vấn đề nào."
+        }
+      ],
+      "collocations": [
+        "customer service",
+        "good service",
+        "bus service",
+        "provide a service"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɜːrvɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ser/servi/service__us_3.mp3"
+    },
+    {
+      "english": "against",
+      "vietnamese": "phản đối; đấu với; dựa vào",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "We're playing against a very strong team on Saturday.",
+          "vi": "Thứ Bảy này chúng tôi sẽ đấu với một đội rất mạnh."
+        },
+        {
+          "en": "He leaned his bike against the wall.",
+          "vi": "Anh ấy dựa xe đạp vào tường."
+        },
+        {
+          "en": "My parents were against the idea of me moving abroad.",
+          "vi": "Bố mẹ tôi phản đối việc tôi chuyển ra nước ngoài."
+        }
+      ],
+      "collocations": [
+        "against the law",
+        "against the wall",
+        "play against"
+      ],
+      "notes": null,
+      "ipa": "/əˈɡenst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aga/again/against__us_1.mp3"
+    },
+    {
+      "english": "believe",
+      "vietnamese": "tin; tin rằng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I can't believe we've been living here for ten years.",
+          "vi": "Tôi không thể tin là chúng tôi đã sống ở đây mười năm rồi."
+        },
+        {
+          "en": "Do you believe everything you read online?",
+          "vi": "Bạn có tin mọi thứ bạn đọc trên mạng không?"
+        },
+        {
+          "en": "She believes that anyone can learn a new language.",
+          "vi": "Cô ấy tin rằng ai cũng có thể học một ngôn ngữ mới."
+        }
+      ],
+      "collocations": [
+        "can't believe",
+        "believe in",
+        "strongly believe"
+      ],
+      "notes": null,
+      "ipa": "/bɪˈliːv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bel/belie/believe__us_1.mp3"
+    },
+    {
+      "english": "second",
+      "vietnamese": "thứ hai; giây",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "I'm visiting this city for the second time.",
+          "vi": "Đây là lần thứ hai tôi đến thăm thành phố này."
+        },
+        {
+          "en": "She came second in the school running race.",
+          "vi": "Cô ấy về nhì trong cuộc thi chạy của trường."
+        },
+        {
+          "en": "It only takes thirty seconds to heat the milk.",
+          "vi": "Chỉ mất ba mươi giây để hâm nóng sữa."
+        }
+      ],
+      "collocations": [
+        "for the second time",
+        "a few seconds",
+        "wait a second"
+      ],
+      "notes": null,
+      "ipa": "/ˈsekənd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sec/secon/second__us_3.mp3"
+    },
+    {
+      "english": "though",
+      "vietnamese": "mặc dù; tuy vậy",
+      "part_of_speech": "conjunction",
+      "examples": [
+        {
+          "en": "Though it was raining, we still went for a walk.",
+          "vi": "Mặc dù trời mưa, chúng tôi vẫn đi dạo."
+        },
+        {
+          "en": "She kept working even though she felt sick.",
+          "vi": "Cô ấy vẫn tiếp tục làm việc dù đang bị ốm."
+        },
+        {
+          "en": "The room was small; it was very clean, though.",
+          "vi": "Căn phòng nhỏ, tuy vậy lại rất sạch sẽ."
+        }
+      ],
+      "collocations": [
+        "even though",
+        "as though"
+      ],
+      "notes": null,
+      "ipa": "/ðəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tho/thoug/though__us_1.mp3"
+    },
+    {
+      "english": "love",
+      "vietnamese": "yêu; rất thích",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She loves her family more than anything.",
+          "vi": "Cô ấy yêu gia đình mình hơn bất cứ điều gì."
+        },
+        {
+          "en": "My kids love playing in the snow.",
+          "vi": "Các con tôi rất thích chơi đùa trong tuyết."
+        },
+        {
+          "en": "I'd love to come to your party on Saturday.",
+          "vi": "Tôi rất muốn đến dự bữa tiệc của bạn vào thứ Bảy."
+        }
+      ],
+      "collocations": [
+        "would love to",
+        "love doing something",
+        "fall in love"
+      ],
+      "notes": null,
+      "ipa": "/lʌv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lov/love_/love__us_1.mp3"
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 3 · Bộ 1",
+    "description": "Academic Word List, sublist 3",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-3-01"
+  },
+  "cards": [
+    {
+      "english": "alternative",
+      "vietnamese": "lựa chọn khác; phương án thay thế",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Solar power offers a cleaner alternative to coal.",
+          "vi": "Năng lượng mặt trời mang lại một lựa chọn sạch hơn thay cho than đá."
+        },
+        {
+          "en": "If the plan fails, we will need an alternative.",
+          "vi": "Nếu kế hoạch thất bại, chúng ta sẽ cần một phương án khác."
+        },
+        {
+          "en": "The committee rejected both alternatives proposed by the consultants.",
+          "vi": "Ủy ban đã bác bỏ cả hai phương án do các chuyên gia tư vấn đề xuất."
+        }
+      ],
+      "collocations": [
+        "alternative to",
+        "viable alternative",
+        "offer an alternative"
+      ],
+      "notes": null,
+      "ipa": "/ɔːlˈtɜːrnətɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/alt/alter/alternative__us_1.mp3"
+    },
+    {
+      "english": "circumstance",
+      "vietnamese": "hoàn cảnh; tình huống",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Under no circumstances should staff share their passwords.",
+          "vi": "Trong bất kỳ hoàn cảnh nào, nhân viên cũng không được chia sẻ mật khẩu."
+        },
+        {
+          "en": "The meeting was postponed due to unforeseen circumstances.",
+          "vi": "Cuộc họp bị hoãn do những tình huống không lường trước được."
+        },
+        {
+          "en": "Students in difficult financial circumstances can apply for extra support.",
+          "vi": "Sinh viên có hoàn cảnh tài chính khó khăn có thể nộp đơn xin hỗ trợ thêm."
+        }
+      ],
+      "collocations": [
+        "under no circumstances",
+        "unforeseen circumstances",
+        "financial circumstances"
+      ],
+      "notes": "thường dùng ở số nhiều: circumstances",
+      "ipa": "/ˈsɜːrkəmstæns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cir/circu/circumstance__us_3.mp3"
+    },
+    {
+      "english": "comment",
+      "vietnamese": "lời bình luận; nhận xét",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Thank you for your helpful comments on my draft.",
+          "vi": "Cảm ơn những nhận xét hữu ích của bạn về bản nháp của tôi."
+        },
+        {
+          "en": "The company made no comment on reports of job cuts.",
+          "vi": "Công ty không đưa ra bình luận nào về các tin tức cắt giảm việc làm."
+        },
+        {
+          "en": "Several readers left comments below the online article.",
+          "vi": "Một số độc giả đã để lại bình luận bên dưới bài báo trực tuyến."
+        }
+      ],
+      "collocations": [
+        "make a comment",
+        "comment on",
+        "no comment",
+        "leave a comment"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːment/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/comme/comment__us_1.mp3"
+    },
+    {
+      "english": "compensate",
+      "vietnamese": "bồi thường; bù đắp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The airline agreed to compensate passengers for the delay.",
+          "vi": "Hãng hàng không đồng ý bồi thường cho hành khách vì chuyến bay bị trễ."
+        },
+        {
+          "en": "Workers must be compensated for any injuries suffered on the job.",
+          "vi": "Người lao động phải được bồi thường cho mọi chấn thương gặp phải khi làm việc."
+        },
+        {
+          "en": "Strong exports helped compensate for weak domestic demand.",
+          "vi": "Xuất khẩu mạnh đã giúp bù đắp cho nhu cầu trong nước yếu."
+        }
+      ],
+      "collocations": [
+        "compensate for",
+        "fully compensate",
+        "compensate victims"
+      ],
+      "notes": "compensate (sb) for sth",
+      "ipa": "/ˈkɑːmpenseɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compe/compensate__us_1.mp3"
+    },
+    {
+      "english": "component",
+      "vietnamese": "thành phần; bộ phận; linh kiện",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Trust is a key component of any successful team.",
+          "vi": "Sự tin tưởng là một thành phần then chốt của bất kỳ nhóm thành công nào."
+        },
+        {
+          "en": "The factory produces electronic components for mobile phones.",
+          "vi": "Nhà máy sản xuất linh kiện điện tử cho điện thoại di động."
+        },
+        {
+          "en": "The course has three components: lectures, seminars and a final project.",
+          "vi": "Khóa học có ba thành phần: bài giảng, buổi thảo luận và một dự án cuối kỳ."
+        }
+      ],
+      "collocations": [
+        "key component",
+        "essential component",
+        "electronic components"
+      ],
+      "notes": null,
+      "ipa": "/kəmˈpəʊnənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compo/component__us_1.mp3"
+    },
+    {
+      "english": "consent",
+      "vietnamese": "sự đồng ý; sự cho phép",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Researchers must obtain written consent from all participants.",
+          "vi": "Các nhà nghiên cứu phải có được sự đồng ý bằng văn bản của tất cả người tham gia."
+        },
+        {
+          "en": "Your data will not be shared without your consent.",
+          "vi": "Dữ liệu của bạn sẽ không được chia sẻ khi chưa có sự đồng ý của bạn."
+        },
+        {
+          "en": "Parents must give consent before their children join the study.",
+          "vi": "Phụ huynh phải cho phép trước khi con em họ tham gia nghiên cứu."
+        }
+      ],
+      "collocations": [
+        "give consent",
+        "written consent",
+        "informed consent",
+        "without consent"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/kənˈsent/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsent__us_1.mp3"
+    },
+    {
+      "english": "considerable",
+      "vietnamese": "đáng kể; lớn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The project has attracted considerable interest from investors.",
+          "vi": "Dự án đã thu hút sự quan tâm đáng kể từ các nhà đầu tư."
+        },
+        {
+          "en": "Building the new bridge will take a considerable amount of time.",
+          "vi": "Việc xây cây cầu mới sẽ mất một khoảng thời gian đáng kể."
+        },
+        {
+          "en": "There is considerable evidence that exercise improves memory.",
+          "vi": "Có khá nhiều bằng chứng cho thấy tập thể dục giúp cải thiện trí nhớ."
+        }
+      ],
+      "collocations": [
+        "considerable amount",
+        "considerable interest",
+        "considerable evidence",
+        "to a considerable extent"
+      ],
+      "notes": "considerable (đáng kể) ≠ considerate (chu đáo)",
+      "ipa": "/kənˈsɪdərəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsiderable__us_1.mp3"
+    },
+    {
+      "english": "constant",
+      "vietnamese": "liên tục; không đổi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The samples must be stored at a constant temperature.",
+          "vi": "Các mẫu phải được bảo quản ở nhiệt độ không đổi."
+        },
+        {
+          "en": "Small businesses face constant pressure to cut costs.",
+          "vi": "Các doanh nghiệp nhỏ liên tục chịu áp lực phải cắt giảm chi phí."
+        },
+        {
+          "en": "Prices remained constant throughout the first half of the year.",
+          "vi": "Giá cả giữ nguyên không đổi trong suốt nửa đầu năm."
+        }
+      ],
+      "collocations": [
+        "constant temperature",
+        "constant pressure",
+        "remain constant",
+        "constant change"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːnstənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconstant__us_1.mp3"
+    },
+    {
+      "english": "constrain",
+      "vietnamese": "hạn chế; kìm hãm; ràng buộc",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Growth has been constrained by a shortage of skilled workers.",
+          "vi": "Tăng trưởng đã bị kìm hãm do thiếu lao động có tay nghề."
+        },
+        {
+          "en": "A small budget constrains what the research team can achieve.",
+          "vi": "Ngân sách ít ỏi hạn chế những gì nhóm nghiên cứu có thể đạt được."
+        },
+        {
+          "en": "Many farmers feel constrained by strict environmental rules.",
+          "vi": "Nhiều nông dân cảm thấy bị ràng buộc bởi các quy định môi trường nghiêm ngặt."
+        }
+      ],
+      "collocations": [
+        "constrain growth",
+        "be constrained by",
+        "severely constrain"
+      ],
+      "notes": null,
+      "ipa": "/kənˈstreɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconstrain__us_1.mp3"
+    },
+    {
+      "english": "contribute",
+      "vietnamese": "đóng góp; góp phần",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Everyone is encouraged to contribute ideas during the meeting.",
+          "vi": "Mọi người được khuyến khích đóng góp ý kiến trong cuộc họp."
+        },
+        {
+          "en": "Poor diet can contribute to heart disease.",
+          "vi": "Chế độ ăn uống kém có thể góp phần gây ra bệnh tim."
+        },
+        {
+          "en": "Several local companies contributed funds to the new library.",
+          "vi": "Một số công ty địa phương đã đóng góp kinh phí cho thư viện mới."
+        }
+      ],
+      "collocations": [
+        "contribute to",
+        "contribute significantly",
+        "contribute funds"
+      ],
+      "notes": "contribute to sth",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontribute__us_1.mp3"
+    },
+    {
+      "english": "convene",
+      "vietnamese": "triệu tập; nhóm họp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The director plans to convene a meeting with all department heads.",
+          "vi": "Giám đốc dự định triệu tập một cuộc họp với tất cả các trưởng phòng."
+        },
+        {
+          "en": "The board will convene next week to discuss the budget.",
+          "vi": "Hội đồng quản trị sẽ nhóm họp vào tuần tới để thảo luận về ngân sách."
+        },
+        {
+          "en": "An emergency meeting was convened after the data breach.",
+          "vi": "Một cuộc họp khẩn cấp đã được triệu tập sau vụ rò rỉ dữ liệu."
+        }
+      ],
+      "collocations": [
+        "convene a meeting",
+        "convene a conference",
+        "convene a panel"
+      ],
+      "notes": null,
+      "ipa": "/kənˈviːn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconv/xconvene__us_1.mp3"
+    },
+    {
+      "english": "coordinate",
+      "vietnamese": "điều phối; phối hợp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She coordinates volunteer programs across three hospitals.",
+          "vi": "Cô ấy điều phối các chương trình tình nguyện tại ba bệnh viện."
+        },
+        {
+          "en": "Emergency services must coordinate their efforts during a flood.",
+          "vi": "Các lực lượng cứu hộ phải phối hợp nỗ lực trong lúc xảy ra lũ lụt."
+        },
+        {
+          "en": "Our team will coordinate with the sales department on the launch.",
+          "vi": "Nhóm chúng tôi sẽ phối hợp với phòng kinh doanh trong đợt ra mắt sản phẩm."
+        }
+      ],
+      "collocations": [
+        "coordinate efforts",
+        "coordinate with",
+        "coordinate activities"
+      ],
+      "notes": null,
+      "ipa": "/kəʊˈɔːrdɪneɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/coo/coord/coordinate__us_1.mp3"
+    },
+    {
+      "english": "core",
+      "vietnamese": "cốt lõi; chủ chốt; chính",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Honesty is one of the company's core values.",
+          "vi": "Trung thực là một trong những giá trị cốt lõi của công ty."
+        },
+        {
+          "en": "Math and English are core subjects in most schools.",
+          "vi": "Toán và tiếng Anh là các môn học chính ở hầu hết các trường."
+        },
+        {
+          "en": "The firm decided to focus on its core business.",
+          "vi": "Công ty quyết định tập trung vào mảng kinh doanh cốt lõi của mình."
+        }
+      ],
+      "collocations": [
+        "core values",
+        "core business",
+        "core subjects"
+      ],
+      "notes": null,
+      "ipa": "/kɔːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cor/core_/core__us_1.mp3"
+    },
+    {
+      "english": "corporate",
+      "vietnamese": "thuộc doanh nghiệp; của công ty",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "More companies now publish reports on corporate social responsibility.",
+          "vi": "Ngày càng nhiều công ty công bố báo cáo về trách nhiệm xã hội của doanh nghiệp."
+        },
+        {
+          "en": "The firm has moved its corporate headquarters to the city center.",
+          "vi": "Công ty đã chuyển trụ sở chính về trung tâm thành phố."
+        },
+        {
+          "en": "The government lowered the corporate tax rate to attract foreign investment.",
+          "vi": "Chính phủ đã hạ mức thuế doanh nghiệp để thu hút đầu tư nước ngoài."
+        }
+      ],
+      "collocations": [
+        "corporate headquarters",
+        "corporate culture",
+        "corporate social responsibility",
+        "corporate tax"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɔːrpərət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cor/corpo/corporate__us_1_rr.mp3"
+    },
+    {
+      "english": "correspond",
+      "vietnamese": "tương ứng; phù hợp; trao đổi thư từ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The numbers on the map correspond to the photos below.",
+          "vi": "Các con số trên bản đồ tương ứng với các bức ảnh bên dưới."
+        },
+        {
+          "en": "His account of events does not correspond with the evidence.",
+          "vi": "Lời kể của anh ta về sự việc không phù hợp với bằng chứng."
+        },
+        {
+          "en": "The two researchers corresponded by email for several years.",
+          "vi": "Hai nhà nghiên cứu đã trao đổi thư từ qua email trong nhiều năm."
+        }
+      ],
+      "collocations": [
+        "correspond to",
+        "correspond with",
+        "correspond closely"
+      ],
+      "notes": null,
+      "ipa": "/ˌkɔːrəˈspɑːnd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cor/corre/correspond__us_1_rr.mp3"
+    },
+    {
+      "english": "criteria",
+      "vietnamese": "tiêu chí; tiêu chuẩn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Applicants must meet all the criteria listed below.",
+          "vi": "Ứng viên phải đáp ứng tất cả các tiêu chí được liệt kê dưới đây."
+        },
+        {
+          "en": "What criteria did the judges use to choose the winner?",
+          "vi": "Ban giám khảo đã dùng những tiêu chí nào để chọn người chiến thắng?"
+        },
+        {
+          "en": "The study used strict criteria for selecting participants.",
+          "vi": "Nghiên cứu đã áp dụng các tiêu chí nghiêm ngặt để chọn người tham gia."
+        }
+      ],
+      "collocations": [
+        "meet the criteria",
+        "strict criteria",
+        "selection criteria"
+      ],
+      "notes": "số nhiều của criterion",
+      "ipa": "/kraɪˈtɪriːə/",
+      "audio_src": null
+    },
+    {
+      "english": "deduce",
+      "vietnamese": "suy ra; suy luận",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "From the data, we can deduce that sales peak in December.",
+          "vi": "Từ dữ liệu, chúng ta có thể suy ra rằng doanh số đạt đỉnh vào tháng Mười Hai."
+        },
+        {
+          "en": "Doctors deduced the cause of the illness from the patient's symptoms.",
+          "vi": "Các bác sĩ đã suy ra nguyên nhân gây bệnh từ các triệu chứng của bệnh nhân."
+        },
+        {
+          "en": "It is difficult to deduce much from such a small sample.",
+          "vi": "Thật khó suy ra được nhiều điều từ một mẫu nhỏ như vậy."
+        }
+      ],
+      "collocations": [
+        "deduce from",
+        "deduce that"
+      ],
+      "notes": "deduce sth from sth",
+      "ipa": "/dɪˈduːs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/ded/deduc/deduce__us_1.mp3"
+    },
+    {
+      "english": "demonstrate",
+      "vietnamese": "chứng minh; cho thấy; trình diễn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The study demonstrates a clear link between sleep and memory.",
+          "vi": "Nghiên cứu cho thấy mối liên hệ rõ ràng giữa giấc ngủ và trí nhớ."
+        },
+        {
+          "en": "The trainer demonstrated how to use the new software.",
+          "vi": "Người hướng dẫn đã trình diễn cách sử dụng phần mềm mới."
+        },
+        {
+          "en": "Candidates must demonstrate strong communication skills during the interview.",
+          "vi": "Ứng viên phải chứng minh được kỹ năng giao tiếp tốt trong buổi phỏng vấn."
+        }
+      ],
+      "collocations": [
+        "clearly demonstrate",
+        "demonstrate how",
+        "demonstrate skills"
+      ],
+      "notes": null,
+      "ipa": "/ˈdemənstreɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dem/demon/demonstrate__us_1.mp3"
+    },
+    {
+      "english": "document",
+      "vietnamese": "tài liệu; văn bản; giấy tờ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please bring all the necessary documents to the interview.",
+          "vi": "Vui lòng mang theo tất cả giấy tờ cần thiết đến buổi phỏng vấn."
+        },
+        {
+          "en": "She saved the document before closing her laptop.",
+          "vi": "Cô ấy đã lưu tài liệu trước khi đóng máy tính xách tay."
+        },
+        {
+          "en": "This official document describes the new safety procedures.",
+          "vi": "Văn bản chính thức này mô tả các quy trình an toàn mới."
+        }
+      ],
+      "collocations": [
+        "official document",
+        "legal document",
+        "sign a document"
+      ],
+      "notes": null,
+      "ipa": "/ˈdɑːkjumənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/doc/docum/document__us_1.mp3"
+    },
+    {
+      "english": "dominate",
+      "vietnamese": "thống trị; chiếm ưu thế; chi phối",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "A few large firms dominate the global smartphone market.",
+          "vi": "Một vài công ty lớn thống trị thị trường điện thoại thông minh toàn cầu."
+        },
+        {
+          "en": "Climate change dominated discussions at this year's conference.",
+          "vi": "Biến đổi khí hậu chi phối các cuộc thảo luận tại hội nghị năm nay."
+        },
+        {
+          "en": "Service industries now dominate the economy of most developed countries.",
+          "vi": "Ngành dịch vụ hiện chiếm ưu thế trong nền kinh tế của hầu hết các nước phát triển."
+        }
+      ],
+      "collocations": [
+        "dominate the market",
+        "dominate the economy",
+        "dominate the debate"
+      ],
+      "notes": null,
+      "ipa": "/ˈdɑːmɪneɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dom/domin/dominate__us_1.mp3"
+    },
+    {
+      "english": "emphasis",
+      "vietnamese": "sự nhấn mạnh; sự chú trọng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new curriculum places greater emphasis on practical skills.",
+          "vi": "Chương trình học mới chú trọng hơn vào các kỹ năng thực hành."
+        },
+        {
+          "en": "Many teachers feel there is too much emphasis on exam results.",
+          "vi": "Nhiều giáo viên cảm thấy việc chú trọng vào kết quả thi cử là quá mức."
+        },
+        {
+          "en": "The speaker repeated her final point for emphasis.",
+          "vi": "Diễn giả đã nhắc lại ý cuối cùng để nhấn mạnh."
+        }
+      ],
+      "collocations": [
+        "place emphasis on",
+        "strong emphasis",
+        "for emphasis"
+      ],
+      "notes": "emphasis on sth · động từ: emphasize",
+      "ipa": "/ˈemfəsɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/emp/empha/emphasis__us_1.mp3"
+    },
+    {
+      "english": "ensure",
+      "vietnamese": "đảm bảo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please ensure that all doors are locked before leaving.",
+          "vi": "Vui lòng đảm bảo rằng tất cả các cửa đã được khóa trước khi rời đi."
+        },
+        {
+          "en": "Regular testing ensures the quality of the final product.",
+          "vi": "Việc kiểm tra thường xuyên đảm bảo chất lượng của sản phẩm cuối cùng."
+        },
+        {
+          "en": "The new law aims to ensure equal pay for all workers.",
+          "vi": "Luật mới nhằm đảm bảo trả lương bình đẳng cho mọi người lao động."
+        }
+      ],
+      "collocations": [
+        "ensure that",
+        "ensure quality",
+        "ensure safety"
+      ],
+      "notes": "ensure (đảm bảo) ≠ insure (bảo hiểm)",
+      "ipa": "/ɪnˈʃʊr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ens/ensur/ensure__us_1.mp3"
+    },
+    {
+      "english": "exclude",
+      "vietnamese": "loại trừ; không bao gồm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Patients over 65 were excluded from the study.",
+          "vi": "Bệnh nhân trên 65 tuổi đã bị loại khỏi nghiên cứu."
+        },
+        {
+          "en": "The price excludes tax and delivery charges.",
+          "vi": "Giá này chưa bao gồm thuế và phí giao hàng."
+        },
+        {
+          "en": "We cannot exclude the possibility of further delays.",
+          "vi": "Chúng tôi không thể loại trừ khả năng sẽ còn chậm trễ thêm."
+        }
+      ],
+      "collocations": [
+        "exclude from",
+        "exclude the possibility"
+      ],
+      "notes": "exclude sb/sth from sth",
+      "ipa": "/ɪkˈskluːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exc/exclu/exclude__us_1.mp3"
+    },
+    {
+      "english": "framework",
+      "vietnamese": "khuôn khổ; khung",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The report provides a framework for future research.",
+          "vi": "Báo cáo đưa ra một khuôn khổ cho các nghiên cứu trong tương lai."
+        },
+        {
+          "en": "Countries agreed on a legal framework to protect ocean life.",
+          "vi": "Các quốc gia đã thống nhất một khung pháp lý để bảo vệ sinh vật biển."
+        },
+        {
+          "en": "Students can use this framework to organize their essays.",
+          "vi": "Sinh viên có thể dùng khung này để sắp xếp bố cục bài luận."
+        }
+      ],
+      "collocations": [
+        "legal framework",
+        "theoretical framework",
+        "provide a framework",
+        "framework for"
+      ],
+      "notes": null,
+      "ipa": "/ˈfreɪmwɜːrk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fra/frame/framework__us_1.mp3"
+    },
+    {
+      "english": "fund",
+      "vietnamese": "quỹ; kinh phí",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The school set up a fund to help students buy books.",
+          "vi": "Nhà trường đã lập một quỹ để giúp học sinh mua sách."
+        },
+        {
+          "en": "The project was canceled because of a lack of funds.",
+          "vi": "Dự án đã bị hủy do thiếu kinh phí."
+        },
+        {
+          "en": "The charity is raising funds for a new children's hospital.",
+          "vi": "Tổ chức từ thiện đang gây quỹ cho một bệnh viện nhi mới."
+        }
+      ],
+      "collocations": [
+        "raise funds",
+        "set up a fund",
+        "lack of funds",
+        "public funds"
+      ],
+      "notes": "cũng là động từ: fund (tài trợ)",
+      "ipa": "/fʌnd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fun/fund_/fund__us_1.mp3"
+    },
+    {
+      "english": "illustrate",
+      "vietnamese": "minh họa; làm rõ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The chart illustrates how prices have changed since 2010.",
+          "vi": "Biểu đồ minh họa giá cả đã thay đổi như thế nào kể từ năm 2010."
+        },
+        {
+          "en": "Let me give an example to illustrate this point.",
+          "vi": "Để tôi đưa ra một ví dụ để làm rõ điểm này."
+        },
+        {
+          "en": "The book is illustrated with photos taken by local students.",
+          "vi": "Cuốn sách được minh họa bằng những bức ảnh do học sinh địa phương chụp."
+        }
+      ],
+      "collocations": [
+        "illustrate the point",
+        "clearly illustrate",
+        "illustrate how"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪləstreɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ill/illus/illustrate__us_1.mp3"
+    },
+    {
+      "english": "immigrate",
+      "vietnamese": "nhập cư",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Her grandparents immigrated to Canada in the 1960s.",
+          "vi": "Ông bà của cô ấy đã nhập cư vào Canada trong những năm 1960."
+        },
+        {
+          "en": "Many skilled workers immigrate to find better job opportunities.",
+          "vi": "Nhiều lao động có tay nghề nhập cư để tìm kiếm cơ hội việc làm tốt hơn."
+        },
+        {
+          "en": "Families who immigrate often face challenges with language and housing.",
+          "vi": "Những gia đình nhập cư thường gặp khó khăn về ngôn ngữ và nhà ở."
+        }
+      ],
+      "collocations": [
+        "immigrate to",
+        "immigrate from"
+      ],
+      "notes": "immigrate (nhập cư vào) ≠ emigrate (di cư khỏi)",
+      "ipa": "/ˈɪmɪɡreɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/imm/immig/immigrate__us_1.mp3"
+    },
+    {
+      "english": "imply",
+      "vietnamese": "ngụ ý; hàm ý",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The results imply that the treatment is less effective in older patients.",
+          "vi": "Kết quả hàm ý rằng phương pháp điều trị kém hiệu quả hơn ở bệnh nhân lớn tuổi."
+        },
+        {
+          "en": "Are you implying that I made a mistake?",
+          "vi": "Có phải bạn đang ngụ ý rằng tôi đã mắc lỗi không?"
+        },
+        {
+          "en": "A rise in prices does not necessarily imply higher profits.",
+          "vi": "Giá tăng không nhất thiết hàm ý lợi nhuận cao hơn."
+        }
+      ],
+      "collocations": [
+        "imply that",
+        "strongly imply",
+        "necessarily imply"
+      ],
+      "notes": "imply (ngụ ý) ≠ infer (suy ra)",
+      "ipa": "/ɪmˈplaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/imp/imply/imply__us_1.mp3"
+    },
+    {
+      "english": "initial",
+      "vietnamese": "ban đầu; đầu tiên",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Initial results from the trial look very promising.",
+          "vi": "Kết quả ban đầu của cuộc thử nghiệm trông rất khả quan."
+        },
+        {
+          "en": "My initial reaction was surprise, but I soon agreed.",
+          "vi": "Phản ứng đầu tiên của tôi là ngạc nhiên, nhưng tôi đã sớm đồng ý."
+        },
+        {
+          "en": "The initial cost is high, but the system saves money later.",
+          "vi": "Chi phí ban đầu cao, nhưng về sau hệ thống sẽ giúp tiết kiệm tiền."
+        }
+      ],
+      "collocations": [
+        "initial results",
+        "initial stage",
+        "initial reaction",
+        "initial cost"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈnɪʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ini/initi/initial__us_1.mp3"
+    },
+    {
+      "english": "instance",
+      "vietnamese": "trường hợp; ví dụ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Many jobs now require coding skills, for instance in banking and finance.",
+          "vi": "Nhiều công việc hiện nay đòi hỏi kỹ năng lập trình, chẳng hạn trong ngành ngân hàng và tài chính."
+        },
+        {
+          "en": "There have been several instances of fraud this year.",
+          "vi": "Năm nay đã có một vài trường hợp gian lận."
+        },
+        {
+          "en": "In this instance, the company agreed to refund the full amount.",
+          "vi": "Trong trường hợp này, công ty đã đồng ý hoàn lại toàn bộ số tiền."
+        }
+      ],
+      "collocations": [
+        "for instance",
+        "in this instance",
+        "instances of"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪnstəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/insta/instance__us_2.mp3"
+    }
+  ]
+}

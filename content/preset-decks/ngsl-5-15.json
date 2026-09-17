@@ -1,0 +1,835 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.001–2.500 · Bộ 15",
+    "description": "New General Service List, thứ hạng 2.001–2.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-5-15"
+  },
+  "cards": [
+    {
+      "english": "impressive",
+      "vietnamese": "ấn tượng; gây ấn tượng mạnh",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Your English has improved a lot; it's really impressive.",
+          "vi": "Tiếng Anh của bạn tiến bộ nhiều lắm, thật sự rất ấn tượng."
+        },
+        {
+          "en": "The hotel had an impressive view of the old city.",
+          "vi": "Khách sạn có tầm nhìn ấn tượng ra khu phố cổ."
+        },
+        {
+          "en": "She gave an impressive performance at her first concert.",
+          "vi": "Cô ấy đã có một màn trình diễn ấn tượng trong buổi hòa nhạc đầu tiên."
+        }
+      ],
+      "collocations": [
+        "very impressive",
+        "impressive performance",
+        "impressive results",
+        "impressive view"
+      ],
+      "notes": null,
+      "ipa": "/ɪmˈpresɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/imp/impre/impressive__us_1.mp3"
+    },
+    {
+      "english": "evolution",
+      "vietnamese": "sự tiến hóa; sự phát triển",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our teacher explained the theory of evolution in a simple way.",
+          "vi": "Thầy giáo giải thích thuyết tiến hóa một cách đơn giản."
+        },
+        {
+          "en": "Scientists study the evolution of birds from small dinosaurs.",
+          "vi": "Các nhà khoa học nghiên cứu sự tiến hóa của loài chim từ những con khủng long nhỏ."
+        },
+        {
+          "en": "The museum shows the evolution of the telephone over a hundred years.",
+          "vi": "Bảo tàng giới thiệu sự phát triển của chiếc điện thoại qua một trăm năm."
+        }
+      ],
+      "collocations": [
+        "theory of evolution",
+        "human evolution",
+        "evolution of"
+      ],
+      "notes": null,
+      "ipa": "/ˌevəˈluːʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/evo/evolu/evolution__us_2.mp3"
+    },
+    {
+      "english": "awareness",
+      "vietnamese": "nhận thức; sự hiểu biết",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The campaign aims to raise awareness of the dangers of smoking.",
+          "vi": "Chiến dịch nhằm nâng cao nhận thức về tác hại của việc hút thuốc."
+        },
+        {
+          "en": "There is growing awareness that sleep is important for health.",
+          "vi": "Ngày càng có nhiều người nhận thức rằng giấc ngủ quan trọng đối với sức khỏe."
+        },
+        {
+          "en": "Children need more awareness of road safety when they walk to school.",
+          "vi": "Trẻ em cần hiểu biết hơn về an toàn giao thông khi đi bộ đến trường."
+        }
+      ],
+      "collocations": [
+        "raise awareness",
+        "public awareness",
+        "growing awareness",
+        "awareness of"
+      ],
+      "notes": "awareness of sth",
+      "ipa": "/əˈwernəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/awa/aware/awareness__us_1.mp3"
+    },
+    {
+      "english": "violent",
+      "vietnamese": "bạo lực; dữ dội",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Parents worry that some video games are too violent for kids.",
+          "vi": "Cha mẹ lo rằng một số trò chơi điện tử quá bạo lực đối với trẻ em."
+        },
+        {
+          "en": "A violent storm knocked down trees across the town last night.",
+          "vi": "Tối qua một cơn bão dữ dội đã quật đổ cây cối khắp thị trấn."
+        },
+        {
+          "en": "I don't like watching violent movies before I go to bed.",
+          "vi": "Tôi không thích xem phim bạo lực trước khi đi ngủ."
+        }
+      ],
+      "collocations": [
+        "violent storm",
+        "violent crime",
+        "violent behavior"
+      ],
+      "notes": null,
+      "ipa": "/ˈvaɪələnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vio/viole/violent__us_1.mp3"
+    },
+    {
+      "english": "slave",
+      "vietnamese": "nô lệ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The old house was built by slaves more than two hundred years ago.",
+          "vi": "Ngôi nhà cổ này được những người nô lệ xây dựng cách đây hơn hai trăm năm."
+        },
+        {
+          "en": "In the story, the young slave finally wins his freedom.",
+          "vi": "Trong câu chuyện, người nô lệ trẻ cuối cùng cũng giành được tự do."
+        },
+        {
+          "en": "Don't become a slave to your phone; put it away sometimes.",
+          "vi": "Đừng trở thành nô lệ của điện thoại; thỉnh thoảng hãy cất nó đi."
+        }
+      ],
+      "collocations": [
+        "slave trade",
+        "former slave",
+        "slave to"
+      ],
+      "notes": null,
+      "ipa": "/sleɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sla/slave/slave__us_1.mp3"
+    },
+    {
+      "english": "wealthy",
+      "vietnamese": "giàu có",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Her grandparents were wealthy farmers who owned a lot of land.",
+          "vi": "Ông bà cô ấy là những nông dân giàu có sở hữu rất nhiều đất."
+        },
+        {
+          "en": "Only wealthy families could send their children to study abroad back then.",
+          "vi": "Hồi đó chỉ những gia đình giàu có mới có thể cho con đi du học."
+        },
+        {
+          "en": "He became wealthy after selling his small company.",
+          "vi": "Ông ấy trở nên giàu có sau khi bán công ty nhỏ của mình."
+        }
+      ],
+      "collocations": [
+        "wealthy family",
+        "wealthy people",
+        "become wealthy"
+      ],
+      "notes": null,
+      "ipa": "/ˈwelθi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wea/wealt/wealthy__us_2.mp3"
+    },
+    {
+      "english": "architecture",
+      "vietnamese": "kiến trúc; ngành kiến trúc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We walked around the old town admiring the beautiful architecture.",
+          "vi": "Chúng tôi đi dạo quanh phố cổ, ngắm nhìn kiến trúc tuyệt đẹp."
+        },
+        {
+          "en": "My sister is studying architecture at university.",
+          "vi": "Chị tôi đang học ngành kiến trúc ở trường đại học."
+        },
+        {
+          "en": "The city is famous for its modern architecture and wide streets.",
+          "vi": "Thành phố nổi tiếng với kiến trúc hiện đại và những con phố rộng."
+        }
+      ],
+      "collocations": [
+        "modern architecture",
+        "study architecture",
+        "school of architecture"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈɑːrkɪtektʃər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/arc/archi/architecture__us_1.mp3"
+    },
+    {
+      "english": "acceptable",
+      "vietnamese": "chấp nhận được; tạm được",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Is it acceptable to wear jeans to the office?",
+          "vi": "Mặc quần jean đến văn phòng có được chấp nhận không?"
+        },
+        {
+          "en": "The food was acceptable, but nothing special.",
+          "vi": "Đồ ăn tạm được, nhưng không có gì đặc biệt."
+        },
+        {
+          "en": "Shouting at your coworkers is not acceptable behavior.",
+          "vi": "La hét với đồng nghiệp là hành vi không thể chấp nhận được."
+        }
+      ],
+      "collocations": [
+        "perfectly acceptable",
+        "socially acceptable",
+        "acceptable behavior",
+        "acceptable to"
+      ],
+      "notes": null,
+      "ipa": "/əkˈseptəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/accep/acceptable__us_3.mp3"
+    },
+    {
+      "english": "journal",
+      "vietnamese": "tạp chí (chuyên ngành); nhật ký",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Her research was published in a medical journal last year.",
+          "vi": "Nghiên cứu của cô ấy được đăng trên một tạp chí y khoa vào năm ngoái."
+        },
+        {
+          "en": "I keep a journal and write in it every night.",
+          "vi": "Tôi có một cuốn nhật ký và viết vào đó mỗi tối."
+        },
+        {
+          "en": "The professor asked us to read two articles from a science journal.",
+          "vi": "Giáo sư yêu cầu chúng tôi đọc hai bài báo trên một tạp chí khoa học."
+        }
+      ],
+      "collocations": [
+        "keep a journal",
+        "medical journal",
+        "academic journal"
+      ],
+      "notes": null,
+      "ipa": "/ˈdʒɜːrnl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/j/jou/journ/journal__us_1.mp3"
+    },
+    {
+      "english": "coal",
+      "vietnamese": "than đá",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The town grew rich from its coal mines.",
+          "vi": "Thị trấn trở nên giàu có nhờ các mỏ than."
+        },
+        {
+          "en": "Many power plants still burn coal to make electricity.",
+          "vi": "Nhiều nhà máy điện vẫn đốt than để sản xuất điện."
+        },
+        {
+          "en": "My grandfather used to cook on a small coal stove.",
+          "vi": "Ngày xưa ông tôi từng nấu ăn bằng một cái bếp than nhỏ."
+        }
+      ],
+      "collocations": [
+        "coal mine",
+        "burn coal",
+        "coal miner",
+        "coal industry"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/kəʊl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/coa/coal_/coal__us_1.mp3"
+    },
+    {
+      "english": "measurement",
+      "vietnamese": "sự đo lường; số đo; kích thước",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The tailor took my measurements for the new suit.",
+          "vi": "Người thợ may lấy số đo của tôi để may bộ vest mới."
+        },
+        {
+          "en": "Accurate measurement is very important in science experiments.",
+          "vi": "Việc đo lường chính xác rất quan trọng trong các thí nghiệm khoa học."
+        },
+        {
+          "en": "Check the measurements of the room before you buy a sofa.",
+          "vi": "Hãy kiểm tra kích thước căn phòng trước khi mua ghế sofa."
+        }
+      ],
+      "collocations": [
+        "take measurements",
+        "accurate measurement",
+        "unit of measurement"
+      ],
+      "notes": null,
+      "ipa": "/ˈmeʒərmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mea/measu/measurement__us_1.mp3"
+    },
+    {
+      "english": "random",
+      "vietnamese": "ngẫu nhiên; tùy tiện",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The computer picks a random number between one and ten.",
+          "vi": "Máy tính chọn một số ngẫu nhiên từ một đến mười."
+        },
+        {
+          "en": "We asked random people on the street about their favorite food.",
+          "vi": "Chúng tôi hỏi ngẫu nhiên những người trên phố về món ăn yêu thích của họ."
+        },
+        {
+          "en": "The winners will be chosen at random next Friday.",
+          "vi": "Người thắng cuộc sẽ được chọn ngẫu nhiên vào thứ Sáu tới."
+        }
+      ],
+      "collocations": [
+        "at random",
+        "random number",
+        "random sample",
+        "completely random"
+      ],
+      "notes": null,
+      "ipa": "/ˈrændəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ran/rando/random__us_1.mp3"
+    },
+    {
+      "english": "successfully",
+      "vietnamese": "thành công; một cách thành công",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "She successfully passed her driving test on the first try.",
+          "vi": "Cô ấy đã vượt qua kỳ thi lái xe thành công ngay lần đầu tiên."
+        },
+        {
+          "en": "The doctors successfully completed the operation in three hours.",
+          "vi": "Các bác sĩ đã hoàn thành ca phẫu thuật thành công trong ba giờ."
+        },
+        {
+          "en": "Our team successfully launched the new website last month.",
+          "vi": "Nhóm chúng tôi đã ra mắt trang web mới thành công vào tháng trước."
+        }
+      ],
+      "collocations": [
+        "successfully complete",
+        "successfully launch",
+        "successfully pass"
+      ],
+      "notes": null,
+      "ipa": "/səkˈsesfəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/suc/succe/successfully__us_3.mp3"
+    },
+    {
+      "english": "depress",
+      "vietnamese": "làm chán nản; làm buồn; làm giảm (giá, lương)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Rainy weather in the winter always depresses me.",
+          "vi": "Thời tiết mưa vào mùa đông luôn làm tôi thấy chán nản."
+        },
+        {
+          "en": "It depresses me to see so much trash on the beach.",
+          "vi": "Tôi thấy buồn khi nhìn thấy quá nhiều rác trên bãi biển."
+        },
+        {
+          "en": "Rising unemployment can depress wages across the whole country.",
+          "vi": "Tỷ lệ thất nghiệp tăng có thể làm giảm tiền lương trên cả nước."
+        }
+      ],
+      "collocations": [
+        "depress prices",
+        "depress wages",
+        "depress demand"
+      ],
+      "notes": "hay gặp: depressed (buồn chán), depressing (gây buồn chán)",
+      "ipa": "/dɪˈpres/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dep/depre/depress__us_1.mp3"
+    },
+    {
+      "english": "illustration",
+      "vietnamese": "hình minh họa; ví dụ minh họa",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The children's book has colorful illustrations on every page.",
+          "vi": "Cuốn sách thiếu nhi có hình minh họa đầy màu sắc trên mỗi trang."
+        },
+        {
+          "en": "Let me give you a simple illustration of how this works.",
+          "vi": "Để tôi đưa ra một ví dụ minh họa đơn giản về cách việc này hoạt động."
+        },
+        {
+          "en": "She earns money by drawing illustrations for magazines.",
+          "vi": "Cô ấy kiếm tiền bằng cách vẽ tranh minh họa cho các tạp chí."
+        }
+      ],
+      "collocations": [
+        "colorful illustrations",
+        "clear illustration",
+        "illustration of"
+      ],
+      "notes": null,
+      "ipa": "/ˌɪləˈstreɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ill/illus/illustration__us_2.mp3"
+    },
+    {
+      "english": "burst",
+      "vietnamese": "vỡ; nổ; bật (khóc, cười)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The balloon burst when my little brother sat on it.",
+          "vi": "Quả bóng bay nổ khi em trai tôi ngồi lên nó."
+        },
+        {
+          "en": "A water pipe burst in our kitchen last night.",
+          "vi": "Tối qua một ống nước trong bếp nhà tôi bị vỡ."
+        },
+        {
+          "en": "She burst into tears when she heard the good news.",
+          "vi": "Cô ấy bật khóc khi nghe tin vui."
+        }
+      ],
+      "collocations": [
+        "burst into tears",
+        "burst out laughing",
+        "burst pipe"
+      ],
+      "notes": "burst – burst – burst",
+      "ipa": "/bɜːrst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bur/burst/burst__us_1.mp3"
+    },
+    {
+      "english": "privilege",
+      "vietnamese": "đặc quyền; quyền lợi đặc biệt; vinh dự",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "It was a privilege to work with such talented people.",
+          "vi": "Được làm việc với những người tài năng như vậy là một vinh dự."
+        },
+        {
+          "en": "Senior staff enjoy special privileges like free parking.",
+          "vi": "Nhân viên cấp cao được hưởng những quyền lợi đặc biệt như đỗ xe miễn phí."
+        },
+        {
+          "en": "Education should be a right, not a privilege.",
+          "vi": "Giáo dục nên là một quyền, không phải một đặc quyền."
+        }
+      ],
+      "collocations": [
+        "great privilege",
+        "special privileges",
+        "have the privilege of"
+      ],
+      "notes": null,
+      "ipa": "/ˈprɪvəlɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/privi/privilege__us_1_rr.mp3"
+    },
+    {
+      "english": "buyer",
+      "vietnamese": "người mua",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We finally found a buyer for our old car.",
+          "vi": "Cuối cùng chúng tôi cũng tìm được người mua chiếc xe cũ."
+        },
+        {
+          "en": "First-time home buyers often need help from their parents.",
+          "vi": "Những người lần đầu mua nhà thường cần bố mẹ giúp đỡ."
+        },
+        {
+          "en": "The buyer asked for a lower price before signing.",
+          "vi": "Người mua đề nghị giảm giá trước khi ký."
+        }
+      ],
+      "collocations": [
+        "find a buyer",
+        "first-time buyer",
+        "potential buyer",
+        "home buyer"
+      ],
+      "notes": null,
+      "ipa": "/ˈbaɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/buy/buyer/buyer__us_1.mp3"
+    },
+    {
+      "english": "mutual",
+      "vietnamese": "lẫn nhau; chung",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We met through a mutual friend at a party.",
+          "vi": "Chúng tôi quen nhau qua một người bạn chung trong một bữa tiệc."
+        },
+        {
+          "en": "A good marriage is built on mutual respect.",
+          "vi": "Một cuộc hôn nhân tốt đẹp được xây dựng trên sự tôn trọng lẫn nhau."
+        },
+        {
+          "en": "The decision to end the partnership was mutual.",
+          "vi": "Việc chấm dứt hợp tác là quyết định chung của cả hai bên."
+        }
+      ],
+      "collocations": [
+        "mutual friend",
+        "mutual respect",
+        "mutual understanding",
+        "mutual benefit"
+      ],
+      "notes": null,
+      "ipa": "/ˈmjuːtʃuəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mut/mutua/mutual__us_1.mp3"
+    },
+    {
+      "english": "rail",
+      "vietnamese": "đường sắt; tay vịn; thanh ray",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Traveling by rail is cheaper than flying in this country.",
+          "vi": "Ở nước này, đi bằng tàu hỏa rẻ hơn đi máy bay."
+        },
+        {
+          "en": "Hold on to the rail when you go down the stairs.",
+          "vi": "Hãy bám vào tay vịn khi đi xuống cầu thang."
+        },
+        {
+          "en": "The city plans to build a new rail line to the airport.",
+          "vi": "Thành phố dự định xây một tuyến đường sắt mới đến sân bay."
+        }
+      ],
+      "collocations": [
+        "by rail",
+        "rail line",
+        "rail network",
+        "rail travel"
+      ],
+      "notes": null,
+      "ipa": "/reɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rai/rail_/rail__us_1.mp3"
+    },
+    {
+      "english": "motivate",
+      "vietnamese": "thúc đẩy; tạo động lực",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "A good teacher knows how to motivate students.",
+          "vi": "Một giáo viên giỏi biết cách tạo động lực cho học sinh."
+        },
+        {
+          "en": "What motivated you to start learning English?",
+          "vi": "Điều gì đã thúc đẩy bạn bắt đầu học tiếng Anh?"
+        },
+        {
+          "en": "She is highly motivated to finish her degree this year.",
+          "vi": "Cô ấy rất có động lực để hoàn thành chương trình học trong năm nay."
+        }
+      ],
+      "collocations": [
+        "motivate students",
+        "motivate employees",
+        "highly motivated"
+      ],
+      "notes": null,
+      "ipa": "/ˈməʊtɪveɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mot/motiv/motivate__us_1.mp3"
+    },
+    {
+      "english": "laboratory",
+      "vietnamese": "phòng thí nghiệm; phòng xét nghiệm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The samples were sent to a laboratory for testing.",
+          "vi": "Các mẫu được gửi đến phòng thí nghiệm để xét nghiệm."
+        },
+        {
+          "en": "Students must wear safety glasses in the chemistry laboratory.",
+          "vi": "Học sinh phải đeo kính bảo hộ trong phòng thí nghiệm hóa học."
+        },
+        {
+          "en": "My mother works in a hospital laboratory.",
+          "vi": "Mẹ tôi làm việc trong phòng xét nghiệm của một bệnh viện."
+        }
+      ],
+      "collocations": [
+        "research laboratory",
+        "science laboratory",
+        "laboratory test"
+      ],
+      "notes": "viết tắt: lab",
+      "ipa": "/ˈlæbrətɔːri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lab/labor/laboratory__us_2.mp3"
+    },
+    {
+      "english": "mortgage",
+      "vietnamese": "khoản vay thế chấp (mua nhà)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "They took out a mortgage to buy their first home.",
+          "vi": "Họ vay thế chấp để mua ngôi nhà đầu tiên."
+        },
+        {
+          "en": "We pay our mortgage on the first day of each month.",
+          "vi": "Chúng tôi trả tiền vay mua nhà vào ngày đầu tiên của mỗi tháng."
+        },
+        {
+          "en": "It will take us twenty years to pay off the mortgage.",
+          "vi": "Chúng tôi sẽ mất hai mươi năm để trả hết khoản vay thế chấp."
+        }
+      ],
+      "collocations": [
+        "take out a mortgage",
+        "pay off a mortgage",
+        "mortgage payment",
+        "mortgage rate"
+      ],
+      "notes": null,
+      "ipa": "/ˈmɔːrɡɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mor/mortg/mortgage__us_1.mp3"
+    },
+    {
+      "english": "promotion",
+      "vietnamese": "sự thăng chức; khuyến mãi; sự quảng bá",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He got a promotion after working here for three years.",
+          "vi": "Anh ấy được thăng chức sau ba năm làm việc ở đây."
+        },
+        {
+          "en": "The store is running a special promotion on summer clothes.",
+          "vi": "Cửa hàng đang có chương trình khuyến mãi đặc biệt cho quần áo mùa hè."
+        },
+        {
+          "en": "Social media is useful for the promotion of small businesses.",
+          "vi": "Mạng xã hội rất hữu ích cho việc quảng bá các doanh nghiệp nhỏ."
+        }
+      ],
+      "collocations": [
+        "get a promotion",
+        "sales promotion",
+        "special promotion"
+      ],
+      "notes": null,
+      "ipa": "/prəˈməʊʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/promo/promotion__us_1.mp3"
+    },
+    {
+      "english": "passion",
+      "vietnamese": "niềm đam mê; tình cảm mãnh liệt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Cooking has been my passion since I was a child.",
+          "vi": "Nấu ăn là niềm đam mê của tôi từ khi còn nhỏ."
+        },
+        {
+          "en": "He talks about music with real passion.",
+          "vi": "Anh ấy nói về âm nhạc với niềm đam mê thật sự."
+        },
+        {
+          "en": "She has a passion for helping animals in need.",
+          "vi": "Cô ấy có niềm đam mê giúp đỡ những con vật gặp khó khăn."
+        }
+      ],
+      "collocations": [
+        "passion for",
+        "real passion",
+        "follow your passion",
+        "share a passion"
+      ],
+      "notes": "passion for sth",
+      "ipa": "/ˈpæʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pas/passi/passion__us_1.mp3"
+    },
+    {
+      "english": "champion",
+      "vietnamese": "nhà vô địch; người đấu tranh (cho điều gì)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our school team became the national champion last year.",
+          "vi": "Năm ngoái đội trường chúng tôi đã trở thành nhà vô địch quốc gia."
+        },
+        {
+          "en": "The world champion will defend her title next month.",
+          "vi": "Nhà vô địch thế giới sẽ bảo vệ danh hiệu của mình vào tháng tới."
+        },
+        {
+          "en": "She has long been a champion of children's education.",
+          "vi": "Bà ấy từ lâu đã là người đấu tranh cho giáo dục trẻ em."
+        }
+      ],
+      "collocations": [
+        "world champion",
+        "national champion",
+        "defending champion",
+        "champion of"
+      ],
+      "notes": null,
+      "ipa": "/ˈtʃæmpiən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/champ/champion__us_2.mp3"
+    },
+    {
+      "english": "fulfill",
+      "vietnamese": "thực hiện (ước mơ, lời hứa); đáp ứng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "He finally fulfilled his dream of visiting Japan.",
+          "vi": "Cuối cùng anh ấy đã thực hiện được ước mơ đến thăm Nhật Bản."
+        },
+        {
+          "en": "Always fulfill your promises, even the small ones.",
+          "vi": "Hãy luôn thực hiện lời hứa của mình, kể cả những lời hứa nhỏ."
+        },
+        {
+          "en": "The new building does not fulfill the safety requirements.",
+          "vi": "Tòa nhà mới không đáp ứng các yêu cầu về an toàn."
+        }
+      ],
+      "collocations": [
+        "fulfill a dream",
+        "fulfill a promise",
+        "fulfill requirements",
+        "fulfill a need"
+      ],
+      "notes": "Mỹ: fulfill · Anh: fulfil",
+      "ipa": "/fʊˈlfɪl/",
+      "audio_src": null
+    },
+    {
+      "english": "dust",
+      "vietnamese": "bụi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The old books on the shelf were covered in dust.",
+          "vi": "Những cuốn sách cũ trên kệ phủ đầy bụi."
+        },
+        {
+          "en": "I'm allergic to dust, so I clean my room often.",
+          "vi": "Tôi bị dị ứng với bụi nên thường xuyên dọn phòng."
+        },
+        {
+          "en": "A cloud of dust rose behind the truck on the dirt road.",
+          "vi": "Một đám bụi bốc lên phía sau chiếc xe tải trên con đường đất."
+        }
+      ],
+      "collocations": [
+        "covered in dust",
+        "cloud of dust",
+        "dust allergy"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/dʌst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dus/dust_/dust__us_1.mp3"
+    },
+    {
+      "english": "dedicate",
+      "vietnamese": "cống hiến; dành (cho); đề tặng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She dedicated her life to helping poor children.",
+          "vi": "Bà ấy đã cống hiến cả cuộc đời để giúp đỡ trẻ em nghèo."
+        },
+        {
+          "en": "The company dedicates one day a month to staff training.",
+          "vi": "Công ty dành một ngày mỗi tháng cho việc đào tạo nhân viên."
+        },
+        {
+          "en": "I would like to dedicate this song to my mother.",
+          "vi": "Tôi xin dành tặng bài hát này cho mẹ tôi."
+        }
+      ],
+      "collocations": [
+        "dedicate your life to",
+        "dedicate time to",
+        "dedicate a song to"
+      ],
+      "notes": "dedicate sth to sb/sth",
+      "ipa": "/ˈdedɪkeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/ded/dedic/dedicate__us_1.mp3"
+    },
+    {
+      "english": "roughly",
+      "vietnamese": "khoảng, xấp xỉ; thô bạo, mạnh tay",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The trip takes roughly two hours by car.",
+          "vi": "Chuyến đi mất khoảng hai tiếng bằng ô tô."
+        },
+        {
+          "en": "Roughly half of the students live on campus.",
+          "vi": "Khoảng một nửa số sinh viên sống trong khuôn viên trường."
+        },
+        {
+          "en": "Please don't handle the boxes roughly; there are glasses inside.",
+          "vi": "Xin đừng mạnh tay với các thùng hàng; bên trong có ly thủy tinh."
+        }
+      ],
+      "collocations": [
+        "roughly speaking",
+        "roughly half",
+        "roughly the same",
+        "treat someone roughly"
+      ],
+      "notes": null,
+      "ipa": "/ˈrʌfli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rou/rough/roughly__us_1.mp3"
+    }
+  ]
+}

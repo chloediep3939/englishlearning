@@ -1,0 +1,843 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.001–2.500 · Bộ 2",
+    "description": "New General Service List, thứ hạng 2.001–2.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-5-02"
+  },
+  "cards": [
+    {
+      "english": "emphasis",
+      "vietnamese": "sự nhấn mạnh; sự chú trọng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our school puts a strong emphasis on reading every day.",
+          "vi": "Trường chúng tôi rất chú trọng việc đọc sách mỗi ngày."
+        },
+        {
+          "en": "The new manager places more emphasis on teamwork than before.",
+          "vi": "Quản lý mới coi trọng tinh thần làm việc nhóm hơn trước."
+        },
+        {
+          "en": "She said the last word with extra emphasis.",
+          "vi": "Cô ấy nhấn mạnh hơn ở từ cuối cùng."
+        }
+      ],
+      "collocations": [
+        "put emphasis on",
+        "place emphasis on",
+        "strong emphasis",
+        "special emphasis"
+      ],
+      "notes": "emphasis on sth; số nhiều: emphases",
+      "ipa": "/ˈemfəsɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/emp/empha/emphasis__us_1.mp3"
+    },
+    {
+      "english": "edition",
+      "vietnamese": "ấn bản; số (báo)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I bought the latest edition of the travel guide before my trip.",
+          "vi": "Tôi đã mua ấn bản mới nhất của cuốn sách hướng dẫn du lịch trước chuyến đi."
+        },
+        {
+          "en": "This book is a first edition, so it is worth a lot.",
+          "vi": "Cuốn sách này là ấn bản đầu tiên nên rất có giá trị."
+        },
+        {
+          "en": "The story appeared in the Sunday edition of the local newspaper.",
+          "vi": "Câu chuyện được đăng trên số Chủ nhật của tờ báo địa phương."
+        }
+      ],
+      "collocations": [
+        "new edition",
+        "latest edition",
+        "first edition",
+        "limited edition"
+      ],
+      "notes": "edition (ấn bản) ≠ addition (sự thêm vào)",
+      "ipa": "/ɪˈdɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/edi/editi/edition__us_2.mp3"
+    },
+    {
+      "english": "silver",
+      "vietnamese": "bạc; màu bạc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandmother gave me a small ring made of silver.",
+          "vi": "Bà tặng tôi một chiếc nhẫn nhỏ làm bằng bạc."
+        },
+        {
+          "en": "He won a silver medal in the swimming race.",
+          "vi": "Anh ấy giành huy chương bạc ở cuộc thi bơi."
+        },
+        {
+          "en": "She painted the old door silver to make it look modern.",
+          "vi": "Cô ấy sơn cánh cửa cũ màu bạc cho trông hiện đại."
+        }
+      ],
+      "collocations": [
+        "silver medal",
+        "silver ring",
+        "solid silver"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɪlvər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sil/silve/silver__us_1.mp3"
+    },
+    {
+      "english": "entertainment",
+      "vietnamese": "sự giải trí; chương trình giải trí",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There isn't much entertainment for young people in this small town.",
+          "vi": "Ở thị trấn nhỏ này không có nhiều hoạt động giải trí cho giới trẻ."
+        },
+        {
+          "en": "The hotel offers live entertainment every Friday and Saturday night.",
+          "vi": "Khách sạn có chương trình biểu diễn trực tiếp vào mỗi tối thứ Sáu và thứ Bảy."
+        },
+        {
+          "en": "We watched a few old movies for entertainment during the long flight.",
+          "vi": "Chúng tôi xem vài bộ phim cũ để giải trí trong chuyến bay dài."
+        }
+      ],
+      "collocations": [
+        "live entertainment",
+        "entertainment industry",
+        "for entertainment"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˌentərˈteɪnmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ent/enter/entertainment__us_1.mp3"
+    },
+    {
+      "english": "honest",
+      "vietnamese": "trung thực; thẳng thắn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Please be honest with me and tell me what you really think.",
+          "vi": "Hãy thẳng thắn với tôi và cho tôi biết bạn thực sự nghĩ gì."
+        },
+        {
+          "en": "He is an honest man who always pays his debts on time.",
+          "vi": "Anh ấy là người trung thực, luôn trả nợ đúng hạn."
+        },
+        {
+          "en": "To be honest, I didn't enjoy the movie very much.",
+          "vi": "Thành thật mà nói, tôi không thích bộ phim đó lắm."
+        }
+      ],
+      "collocations": [
+        "be honest with",
+        "to be honest",
+        "honest answer",
+        "honest opinion"
+      ],
+      "notes": "chữ h câm: an honest man",
+      "ipa": "/ˈɑːnɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hon/hones/honest__us_1.mp3"
+    },
+    {
+      "english": "undertake",
+      "vietnamese": "đảm nhận; tiến hành",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The city plans to undertake major repairs on the old bridge next year.",
+          "vi": "Thành phố dự định tiến hành sửa chữa lớn cây cầu cũ vào năm tới."
+        },
+        {
+          "en": "She undertook the task of organizing the whole event by herself.",
+          "vi": "Cô ấy đã tự mình đảm nhận việc tổ chức toàn bộ sự kiện."
+        },
+        {
+          "en": "Few students are willing to undertake such a difficult research project.",
+          "vi": "Rất ít sinh viên sẵn sàng thực hiện một dự án nghiên cứu khó như vậy."
+        }
+      ],
+      "collocations": [
+        "undertake a task",
+        "undertake research",
+        "undertake a project",
+        "undertake a study"
+      ],
+      "notes": "undertake – undertook – undertaken",
+      "ipa": "/ˌʌndərˈteɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/und/under/undertake__us_1.mp3"
+    },
+    {
+      "english": "retail",
+      "vietnamese": "bán lẻ; ngành bán lẻ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My sister has worked in retail for almost ten years.",
+          "vi": "Chị tôi đã làm trong ngành bán lẻ gần mười năm."
+        },
+        {
+          "en": "Online shopping has changed the way retail works in small towns.",
+          "vi": "Mua sắm trực tuyến đã thay đổi cách ngành bán lẻ vận hành ở các thị trấn nhỏ."
+        },
+        {
+          "en": "The shop sells these jackets at half the normal retail price.",
+          "vi": "Cửa hàng bán những chiếc áo khoác này với giá bằng một nửa giá bán lẻ thông thường."
+        }
+      ],
+      "collocations": [
+        "retail price",
+        "retail store",
+        "work in retail",
+        "retail sales"
+      ],
+      "notes": "retail (bán lẻ) ≠ wholesale (bán buôn)",
+      "ipa": "/ˈriːteɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ret/retai/retail__us_1.mp3"
+    },
+    {
+      "english": "wire",
+      "vietnamese": "dây điện; dây kim loại",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Be careful not to touch that loose wire behind the TV.",
+          "vi": "Cẩn thận đừng chạm vào sợi dây điện bị lỏng phía sau tivi."
+        },
+        {
+          "en": "He fixed the broken fence with a piece of wire.",
+          "vi": "Anh ấy sửa hàng rào bị hỏng bằng một đoạn dây thép."
+        },
+        {
+          "en": "The electrician replaced all the old wires in our kitchen.",
+          "vi": "Thợ điện đã thay toàn bộ dây điện cũ trong bếp nhà tôi."
+        }
+      ],
+      "collocations": [
+        "electrical wire",
+        "copper wire",
+        "barbed wire",
+        "loose wire"
+      ],
+      "notes": null,
+      "ipa": "/ˈwaɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wir/wire_/wire__us_1.mp3"
+    },
+    {
+      "english": "unlikely",
+      "vietnamese": "khó xảy ra; không chắc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "It is unlikely to rain today, so leave your umbrella at home.",
+          "vi": "Hôm nay khó có mưa, nên cứ để ô ở nhà."
+        },
+        {
+          "en": "She is unlikely to finish the report before Friday.",
+          "vi": "Cô ấy khó có thể hoàn thành bản báo cáo trước thứ Sáu."
+        },
+        {
+          "en": "In the unlikely event of a fire, please use the stairs.",
+          "vi": "Trong trường hợp hiếm hoi xảy ra hỏa hoạn, vui lòng đi cầu thang bộ."
+        }
+      ],
+      "collocations": [
+        "highly unlikely",
+        "very unlikely",
+        "unlikely to happen",
+        "in the unlikely event"
+      ],
+      "notes": "be unlikely to + V",
+      "ipa": "/ʌnˈlaɪkli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/unl/unlik/unlikely__us_1.mp3"
+    },
+    {
+      "english": "gay",
+      "vietnamese": "đồng tính; đồng tính nam",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My brother told our parents that he is gay.",
+          "vi": "Anh trai tôi đã nói với bố mẹ rằng anh ấy là người đồng tính."
+        },
+        {
+          "en": "My two uncles are a gay couple who have been together for years.",
+          "vi": "Hai chú của tôi là một cặp đồng tính đã bên nhau nhiều năm."
+        },
+        {
+          "en": "Many gay and lesbian students feel welcome at this university.",
+          "vi": "Nhiều sinh viên đồng tính nam và nữ cảm thấy được chào đón ở trường đại học này."
+        }
+      ],
+      "collocations": [
+        "gay couple",
+        "gay man",
+        "gay community"
+      ],
+      "notes": "Nghĩa cũ 'vui vẻ' nay rất ít dùng",
+      "ipa": "/ɡeɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gay/gay__/gay__us_1.mp3"
+    },
+    {
+      "english": "publication",
+      "vietnamese": "sự xuất bản; ấn phẩm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Her first novel will be ready for publication next spring.",
+          "vi": "Cuốn tiểu thuyết đầu tay của cô ấy sẽ sẵn sàng xuất bản vào mùa xuân tới."
+        },
+        {
+          "en": "The date of publication is printed on the first page.",
+          "vi": "Ngày xuất bản được in ở trang đầu tiên."
+        },
+        {
+          "en": "Our company produces a monthly publication for its customers.",
+          "vi": "Công ty chúng tôi phát hành một ấn phẩm hằng tháng cho khách hàng."
+        }
+      ],
+      "collocations": [
+        "date of publication",
+        "publication date",
+        "monthly publication",
+        "ready for publication"
+      ],
+      "notes": null,
+      "ipa": "/ˌpʌblɪˈkeɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pub/publi/publication__us_2.mp3"
+    },
+    {
+      "english": "slight",
+      "vietnamese": "nhẹ; nhỏ, không đáng kể",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "I have a slight headache, but I can still go to work.",
+          "vi": "Tôi hơi đau đầu, nhưng vẫn đi làm được."
+        },
+        {
+          "en": "There has been a slight change in the plan.",
+          "vi": "Kế hoạch có một chút thay đổi."
+        },
+        {
+          "en": "She speaks English with a slight French accent.",
+          "vi": "Cô ấy nói tiếng Anh hơi pha giọng Pháp."
+        }
+      ],
+      "collocations": [
+        "slight change",
+        "slight increase",
+        "slight problem",
+        "slight accent"
+      ],
+      "notes": "not the slightest idea: hoàn toàn không biết",
+      "ipa": "/slaɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sli/sligh/slight__us_1.mp3"
+    },
+    {
+      "english": "unknown",
+      "vietnamese": "không rõ; không được biết đến",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The cause of the fire is still unknown.",
+          "vi": "Nguyên nhân vụ cháy vẫn chưa rõ."
+        },
+        {
+          "en": "The band was completely unknown until their song went viral online.",
+          "vi": "Ban nhạc hoàn toàn vô danh cho đến khi bài hát của họ gây sốt trên mạng."
+        },
+        {
+          "en": "For unknown reasons, the train stopped in the middle of nowhere.",
+          "vi": "Không rõ vì lý do gì, đoàn tàu dừng lại giữa nơi đồng không mông quạnh."
+        }
+      ],
+      "collocations": [
+        "for unknown reasons",
+        "completely unknown",
+        "relatively unknown",
+        "still unknown"
+      ],
+      "notes": null,
+      "ipa": "/ˌʌnˈnəʊn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/unk/unkno/unknown__us_1.mp3"
+    },
+    {
+      "english": "framework",
+      "vietnamese": "khuôn khổ; bộ khung",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The report gives us a clear framework for making decisions.",
+          "vi": "Bản báo cáo cho chúng tôi một khuôn khổ rõ ràng để đưa ra quyết định."
+        },
+        {
+          "en": "The workers built a wooden framework before adding the walls.",
+          "vi": "Các công nhân dựng một bộ khung gỗ trước khi làm tường."
+        },
+        {
+          "en": "All new rules must work within the existing legal framework.",
+          "vi": "Mọi quy định mới phải nằm trong khuôn khổ pháp lý hiện hành."
+        }
+      ],
+      "collocations": [
+        "legal framework",
+        "within the framework of",
+        "provide a framework",
+        "basic framework"
+      ],
+      "notes": null,
+      "ipa": "/ˈfreɪmwɜːrk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fra/frame/framework__us_1.mp3"
+    },
+    {
+      "english": "zone",
+      "vietnamese": "khu vực; vùng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "You can't park here because it's a no-parking zone.",
+          "vi": "Bạn không được đỗ xe ở đây vì đây là khu vực cấm đỗ."
+        },
+        {
+          "en": "My parents live in a different time zone, so calling is hard.",
+          "vi": "Bố mẹ tôi sống ở múi giờ khác nên gọi điện khá khó khăn."
+        },
+        {
+          "en": "Drivers must slow down in school zones.",
+          "vi": "Tài xế phải giảm tốc độ ở khu vực trường học."
+        }
+      ],
+      "collocations": [
+        "time zone",
+        "school zone",
+        "no-parking zone",
+        "comfort zone"
+      ],
+      "notes": "time zone: múi giờ",
+      "ipa": "/zəʊn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/z/zon/zone_/zone__us_1.mp3"
+    },
+    {
+      "english": "restrict",
+      "vietnamese": "hạn chế; giới hạn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The doctor told him to restrict the amount of salt he eats.",
+          "vi": "Bác sĩ bảo anh ấy hạn chế lượng muối ăn vào."
+        },
+        {
+          "en": "Parking in this area is restricted to residents only.",
+          "vi": "Việc đỗ xe ở khu vực này chỉ giới hạn cho cư dân."
+        },
+        {
+          "en": "Many parents restrict how much time their children spend online.",
+          "vi": "Nhiều bố mẹ giới hạn thời gian con cái dùng mạng."
+        }
+      ],
+      "collocations": [
+        "restrict access to",
+        "restrict the use of",
+        "be restricted to"
+      ],
+      "notes": "restrict sth to sth",
+      "ipa": "/rɪˈstrɪkt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/restr/restrict__us_1.mp3"
+    },
+    {
+      "english": "trace",
+      "vietnamese": "dấu vết; một chút",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We searched the whole house, but there was no trace of my keys.",
+          "vi": "Chúng tôi lục khắp nhà nhưng không thấy tăm hơi chùm chìa khóa của tôi đâu."
+        },
+        {
+          "en": "There were traces of mud on his shoes.",
+          "vi": "Có dấu vết bùn trên giày của anh ấy."
+        },
+        {
+          "en": "I could hear a trace of sadness in her voice.",
+          "vi": "Tôi nghe thấy một chút buồn bã trong giọng nói của cô ấy."
+        }
+      ],
+      "collocations": [
+        "without a trace",
+        "no trace of",
+        "leave a trace"
+      ],
+      "notes": "Động từ trace: lần theo, truy tìm",
+      "ipa": "/treɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/trace/trace__us_1.mp3"
+    },
+    {
+      "english": "inch",
+      "vietnamese": "inch (2,54 cm); một khoảng rất nhỏ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My son has grown two inches since last summer.",
+          "vi": "Con trai tôi đã cao thêm hai inch kể từ mùa hè năm ngoái."
+        },
+        {
+          "en": "Cut the cake into small squares, about two inches wide.",
+          "vi": "Cắt bánh thành những miếng vuông nhỏ, rộng khoảng hai inch."
+        },
+        {
+          "en": "The car stopped just inches from the little dog.",
+          "vi": "Chiếc xe dừng lại chỉ cách chú chó nhỏ trong gang tấc."
+        }
+      ],
+      "collocations": [
+        "inch by inch",
+        "every inch of",
+        "inches away"
+      ],
+      "notes": "1 inch = 2,54 cm",
+      "ipa": "/ɪntʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inc/inch_/inch__us_1.mp3"
+    },
+    {
+      "english": "equivalent",
+      "vietnamese": "tương đương",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "One cup is roughly equivalent to 240 milliliters.",
+          "vi": "Một cốc tương đương khoảng 240 mi-li-lít."
+        },
+        {
+          "en": "Her weekly pay is equivalent to what I earn in a month.",
+          "vi": "Tiền lương một tuần của cô ấy tương đương số tiền tôi kiếm được trong một tháng."
+        },
+        {
+          "en": "Is there an equivalent word for this in Vietnamese?",
+          "vi": "Trong tiếng Việt có từ nào tương đương với từ này không?"
+        }
+      ],
+      "collocations": [
+        "equivalent to",
+        "roughly equivalent",
+        "the equivalent of"
+      ],
+      "notes": "be equivalent to sth",
+      "ipa": "/ɪˈkwɪvələnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/equ/equiv/equivalent__us_1.mp3"
+    },
+    {
+      "english": "solid",
+      "vietnamese": "rắn, đặc; chắc chắn, vững chắc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Water becomes solid when the temperature drops below zero.",
+          "vi": "Nước trở thành thể rắn khi nhiệt độ xuống dưới không độ."
+        },
+        {
+          "en": "This table is made of solid wood, so it will last.",
+          "vi": "Chiếc bàn này làm bằng gỗ nguyên khối nên sẽ bền."
+        },
+        {
+          "en": "You need solid evidence before you accuse anyone of lying.",
+          "vi": "Bạn cần bằng chứng xác đáng trước khi buộc tội ai đó nói dối."
+        }
+      ],
+      "collocations": [
+        "solid wood",
+        "solid food",
+        "solid evidence",
+        "solid foundation"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɑːlɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sol/solid/solid__us_1.mp3"
+    },
+    {
+      "english": "enterprise",
+      "vietnamese": "doanh nghiệp; công việc kinh doanh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The government offers loans to help small enterprises grow.",
+          "vi": "Chính phủ cho vay vốn để giúp các doanh nghiệp nhỏ phát triển."
+        },
+        {
+          "en": "Her family runs a successful farming enterprise in the countryside.",
+          "vi": "Gia đình cô ấy điều hành một doanh nghiệp nông nghiệp thành công ở nông thôn."
+        },
+        {
+          "en": "Starting a new enterprise always involves some risk.",
+          "vi": "Khởi sự một công việc kinh doanh mới luôn có rủi ro nhất định."
+        }
+      ],
+      "collocations": [
+        "small enterprise",
+        "private enterprise",
+        "state enterprise"
+      ],
+      "notes": null,
+      "ipa": "/ˈentərpraɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ent/enter/enterprise__us_1.mp3"
+    },
+    {
+      "english": "elderly",
+      "vietnamese": "cao tuổi, lớn tuổi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "He helps his elderly neighbor carry her shopping upstairs.",
+          "vi": "Anh ấy giúp bà hàng xóm lớn tuổi mang đồ đi chợ lên lầu."
+        },
+        {
+          "en": "Please give your seat to elderly passengers on the bus.",
+          "vi": "Hãy nhường ghế cho hành khách cao tuổi trên xe buýt."
+        },
+        {
+          "en": "The center provides free meals for the elderly in the area.",
+          "vi": "Trung tâm cung cấp bữa ăn miễn phí cho người cao tuổi trong khu vực."
+        }
+      ],
+      "collocations": [
+        "elderly people",
+        "elderly parents",
+        "the elderly",
+        "elderly relatives"
+      ],
+      "notes": "the elderly: người cao tuổi; lịch sự hơn old",
+      "ipa": "/ˈeldərli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eld/elder/elderly__us_1.mp3"
+    },
+    {
+      "english": "owe",
+      "vietnamese": "nợ; có được là nhờ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I still owe my brother fifty dollars from last month.",
+          "vi": "Tôi vẫn còn nợ anh trai năm mươi đô la từ tháng trước."
+        },
+        {
+          "en": "How much do I owe you for the coffee?",
+          "vi": "Tôi phải trả bạn bao nhiêu tiền cà phê?"
+        },
+        {
+          "en": "She owes her success to her parents' support.",
+          "vi": "Cô ấy có được thành công là nhờ sự ủng hộ của bố mẹ."
+        }
+      ],
+      "collocations": [
+        "owe money",
+        "owe somebody a favor",
+        "owe an apology",
+        "owe something to"
+      ],
+      "notes": "owe sb sth / owe sth to sb",
+      "ipa": "/əʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/owe/owe__/owe__us_1.mp3"
+    },
+    {
+      "english": "governor",
+      "vietnamese": "thống đốc; tỉnh trưởng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The governor opened the new hospital on Monday morning.",
+          "vi": "Thống đốc đã khánh thành bệnh viện mới vào sáng thứ Hai."
+        },
+        {
+          "en": "The central bank governor announced that interest rates would stay the same.",
+          "vi": "Thống đốc ngân hàng trung ương thông báo lãi suất sẽ giữ nguyên."
+        },
+        {
+          "en": "He was elected governor of the state last year.",
+          "vi": "Ông ấy được bầu làm thống đốc bang vào năm ngoái."
+        }
+      ],
+      "collocations": [
+        "state governor",
+        "central bank governor",
+        "provincial governor"
+      ],
+      "notes": null,
+      "ipa": "/ˈɡʌvərnər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gov/gover/governor__us_1_rr.mp3"
+    },
+    {
+      "english": "uniform",
+      "vietnamese": "đồng phục",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "All students must wear a uniform to school.",
+          "vi": "Tất cả học sinh phải mặc đồng phục đến trường."
+        },
+        {
+          "en": "The nurses changed out of their uniforms after work.",
+          "vi": "Các y tá thay đồng phục ra sau giờ làm."
+        },
+        {
+          "en": "He looked very smart in his new police uniform.",
+          "vi": "Anh ấy trông rất bảnh bao trong bộ đồng phục cảnh sát mới."
+        }
+      ],
+      "collocations": [
+        "school uniform",
+        "wear a uniform",
+        "police uniform",
+        "in uniform"
+      ],
+      "notes": null,
+      "ipa": "/ˈjuːnɪfɔːrm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/uni/unifo/uniform__us_1.mp3"
+    },
+    {
+      "english": "port",
+      "vietnamese": "cảng; thành phố cảng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The ship will arrive at the port early tomorrow morning.",
+          "vi": "Con tàu sẽ cập cảng vào sáng sớm mai."
+        },
+        {
+          "en": "Hai Phong is a busy port in northern Vietnam.",
+          "vi": "Hải Phòng là một thành phố cảng sầm uất ở miền Bắc Việt Nam."
+        },
+        {
+          "en": "Our cruise stopped at three small ports along the coast.",
+          "vi": "Chuyến du thuyền của chúng tôi dừng ở ba cảng nhỏ dọc bờ biển."
+        }
+      ],
+      "collocations": [
+        "busy port",
+        "fishing port",
+        "port city",
+        "arrive in port"
+      ],
+      "notes": "Cũng có nghĩa: cổng kết nối (USB port)",
+      "ipa": "/pɔːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/por/port_/port__us_1.mp3"
+    },
+    {
+      "english": "pitch",
+      "vietnamese": "sân (thi đấu); độ cao (âm thanh); lời chào hàng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The players walked onto the pitch as the crowd cheered.",
+          "vi": "Các cầu thủ bước ra sân trong tiếng reo hò của khán giả."
+        },
+        {
+          "en": "Her voice rises to a higher pitch when she gets excited.",
+          "vi": "Giọng cô ấy cao vút lên mỗi khi phấn khích."
+        },
+        {
+          "en": "He gave a short sales pitch to every customer who walked in.",
+          "vi": "Anh ấy chào hàng ngắn gọn với mọi vị khách bước vào."
+        }
+      ],
+      "collocations": [
+        "football pitch",
+        "sales pitch",
+        "high pitch",
+        "on the pitch"
+      ],
+      "notes": "pitch (sân) chủ yếu dùng ở Anh; Mỹ: field",
+      "ipa": "/pɪtʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pit/pitch/pitch__us_1.mp3"
+    },
+    {
+      "english": "arrival",
+      "vietnamese": "sự đến; người/vật mới đến",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please check in at the front desk on arrival.",
+          "vi": "Vui lòng làm thủ tục ở quầy lễ tân khi đến nơi."
+        },
+        {
+          "en": "The flight's arrival was delayed by two hours because of fog.",
+          "vi": "Chuyến bay đến muộn hai tiếng vì sương mù."
+        },
+        {
+          "en": "The whole family was excited about the arrival of the new baby.",
+          "vi": "Cả gia đình háo hức chờ đón em bé mới chào đời."
+        }
+      ],
+      "collocations": [
+        "on arrival",
+        "arrival time",
+        "new arrival",
+        "arrival of"
+      ],
+      "notes": "arrive (v) → arrival (n)",
+      "ipa": "/əˈraɪvl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/arr/arriv/arrival__us_3.mp3"
+    },
+    {
+      "english": "contemporary",
+      "vietnamese": "đương đại, hiện đại; cùng thời",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The museum has a large collection of contemporary art.",
+          "vi": "Bảo tàng có một bộ sưu tập lớn về nghệ thuật đương đại."
+        },
+        {
+          "en": "I prefer contemporary furniture to old-fashioned styles.",
+          "vi": "Tôi thích đồ nội thất hiện đại hơn đồ kiểu cổ."
+        },
+        {
+          "en": "The writer's letters give us a contemporary account of life in the 1800s.",
+          "vi": "Những lá thư của nhà văn cho chúng ta lời kể của người cùng thời về cuộc sống thế kỷ 19."
+        }
+      ],
+      "collocations": [
+        "contemporary art",
+        "contemporary music",
+        "contemporary literature",
+        "contemporary design"
+      ],
+      "notes": null,
+      "ipa": "/kənˈtempəreri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontemporary__us_1.mp3"
+    },
+    {
+      "english": "gate",
+      "vietnamese": "cổng; cửa ra máy bay",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please close the gate so the dog doesn't run out.",
+          "vi": "Làm ơn đóng cổng lại để con chó không chạy ra ngoài."
+        },
+        {
+          "en": "Passengers for the flight to Tokyo should go to gate 12.",
+          "vi": "Hành khách đi Tokyo vui lòng đến cửa số 12."
+        },
+        {
+          "en": "The children waited for their parents at the school gate.",
+          "vi": "Bọn trẻ đợi bố mẹ ở cổng trường."
+        }
+      ],
+      "collocations": [
+        "front gate",
+        "school gate",
+        "garden gate",
+        "boarding gate"
+      ],
+      "notes": null,
+      "ipa": "/ɡeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gat/gate_/gate__us_1.mp3"
+    }
+  ]
+}

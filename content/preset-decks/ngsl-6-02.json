@@ -1,0 +1,796 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.501–2.809 · Bộ 2",
+    "description": "New General Service List, thứ hạng 2.501–2.809",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-6-02"
+  },
+  "cards": [
+    {
+      "english": "penalty",
+      "vietnamese": "hình phạt; tiền phạt; quả phạt đền",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "You will have to pay a penalty if you return the book late.",
+          "vi": "Bạn sẽ phải nộp tiền phạt nếu trả sách muộn."
+        },
+        {
+          "en": "The penalty for cheating on the exam is very serious.",
+          "vi": "Hình phạt cho việc gian lận trong kỳ thi rất nặng."
+        },
+        {
+          "en": "He scored from a penalty in the last minute of the game.",
+          "vi": "Anh ấy ghi bàn từ quả phạt đền ở phút cuối trận đấu."
+        }
+      ],
+      "collocations": [
+        "pay a penalty",
+        "heavy penalty",
+        "penalty kick"
+      ],
+      "notes": null,
+      "ipa": "/ˈpenəlti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pen/penal/penalty__us_1.mp3"
+    },
+    {
+      "english": "chamber",
+      "vietnamese": "phòng; buồng; khoang",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The meeting was held in the council chamber downstairs.",
+          "vi": "Cuộc họp được tổ chức ở phòng họp hội đồng dưới tầng."
+        },
+        {
+          "en": "The heart has four chambers that pump blood around the body.",
+          "vi": "Tim có bốn buồng bơm máu đi khắp cơ thể."
+        },
+        {
+          "en": "Tourists can visit the old burial chamber inside the pyramid.",
+          "vi": "Du khách có thể tham quan phòng mộ cổ bên trong kim tự tháp."
+        }
+      ],
+      "collocations": [
+        "council chamber",
+        "burial chamber",
+        "chamber of commerce"
+      ],
+      "notes": null,
+      "ipa": "/ˈtʃeɪmbər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chamb/chamber__us_1.mp3"
+    },
+    {
+      "english": "fancy",
+      "vietnamese": "sang trọng; cầu kỳ, kiểu cách",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We went to a fancy restaurant for our wedding anniversary.",
+          "vi": "Chúng tôi đi ăn ở một nhà hàng sang trọng nhân dịp kỷ niệm ngày cưới."
+        },
+        {
+          "en": "I don't need a fancy phone, just one that works well.",
+          "vi": "Tôi không cần một chiếc điện thoại xịn, chỉ cần nó dùng tốt."
+        },
+        {
+          "en": "Her dress was too fancy for a simple picnic in the park.",
+          "vi": "Chiếc váy của cô ấy quá cầu kỳ cho một buổi dã ngoại đơn giản trong công viên."
+        }
+      ],
+      "collocations": [
+        "fancy restaurant",
+        "fancy hotel",
+        "nothing fancy"
+      ],
+      "notes": "Anh-Anh còn dùng làm động từ: fancy = thích, muốn",
+      "ipa": "/ˈfænsi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fan/fancy/fancy__us_2.mp3"
+    },
+    {
+      "english": "poetry",
+      "vietnamese": "thơ; thơ ca",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She has been writing poetry since she was a teenager.",
+          "vi": "Cô ấy đã làm thơ từ khi còn là thiếu niên."
+        },
+        {
+          "en": "We read some Vietnamese poetry in class today.",
+          "vi": "Hôm nay chúng tôi đọc một số bài thơ Việt Nam trên lớp."
+        },
+        {
+          "en": "His poetry is simple but full of feeling.",
+          "vi": "Thơ của anh ấy giản dị nhưng giàu cảm xúc."
+        }
+      ],
+      "collocations": [
+        "write poetry",
+        "read poetry",
+        "love poetry",
+        "modern poetry"
+      ],
+      "notes": "không đếm được; một bài thơ = a poem",
+      "ipa": "/ˈpəʊətri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/poe/poetr/poetry__us_1.mp3"
+    },
+    {
+      "english": "chat",
+      "vietnamese": "trò chuyện; nhắn tin trò chuyện (trên mạng)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We chatted for hours about our school days.",
+          "vi": "Chúng tôi trò chuyện hàng giờ liền về thời đi học."
+        },
+        {
+          "en": "I often chat online with my cousins in the evening.",
+          "vi": "Buổi tối tôi thường nhắn tin trò chuyện với anh chị em họ trên mạng."
+        },
+        {
+          "en": "Can we chat after the meeting instead of right now?",
+          "vi": "Chúng ta nói chuyện sau cuộc họp thay vì bây giờ được không?"
+        }
+      ],
+      "collocations": [
+        "chat with friends",
+        "chat online",
+        "have a chat"
+      ],
+      "notes": null,
+      "ipa": "/tʃæt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chat_/chat__us_1.mp3"
+    },
+    {
+      "english": "clothing",
+      "vietnamese": "quần áo; trang phục",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please bring warm clothing because it gets cold at night.",
+          "vi": "Hãy mang theo quần áo ấm vì ban đêm trời trở lạnh."
+        },
+        {
+          "en": "This store sells clothing for children and teenagers.",
+          "vi": "Cửa hàng này bán quần áo cho trẻ em và thanh thiếu niên."
+        },
+        {
+          "en": "Workers must wear protective clothing in the factory.",
+          "vi": "Công nhân phải mặc đồ bảo hộ trong nhà máy."
+        }
+      ],
+      "collocations": [
+        "warm clothing",
+        "protective clothing",
+        "piece of clothing",
+        "clothing store"
+      ],
+      "notes": "không đếm được; một món đồ = a piece of clothing",
+      "ipa": "/ˈkləʊðɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/clo/cloth/clothing__us_1.mp3"
+    },
+    {
+      "english": "evolve",
+      "vietnamese": "tiến hóa; phát triển dần",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Scientists believe that birds evolved from small dinosaurs.",
+          "vi": "Các nhà khoa học tin rằng chim tiến hóa từ những loài khủng long nhỏ."
+        },
+        {
+          "en": "The small shop has slowly evolved into a large company.",
+          "vi": "Cửa hàng nhỏ ấy đã dần phát triển thành một công ty lớn."
+        },
+        {
+          "en": "Language is always evolving as people find new ways to speak.",
+          "vi": "Ngôn ngữ luôn phát triển khi con người tìm ra những cách nói mới."
+        }
+      ],
+      "collocations": [
+        "evolve from",
+        "evolve into",
+        "evolve over time"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈvɑːlv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/evo/evolv/evolve__us_5.mp3"
+    },
+    {
+      "english": "sake",
+      "vietnamese": "vì (lợi ích của ai/cái gì)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She gave up sugar for the sake of her health.",
+          "vi": "Cô ấy bỏ đường vì sức khỏe của mình."
+        },
+        {
+          "en": "Please be quiet for the baby's sake; she's finally asleep.",
+          "vi": "Làm ơn giữ yên lặng vì em bé, cuối cùng bé cũng ngủ rồi."
+        },
+        {
+          "en": "Don't change your plans just for my sake.",
+          "vi": "Đừng thay đổi kế hoạch chỉ vì tôi."
+        }
+      ],
+      "collocations": [
+        "for the sake of",
+        "for your own sake",
+        "for safety's sake"
+      ],
+      "notes": "thường dùng trong cụm for the sake of / for someone's sake",
+      "ipa": "/ˈseɪk/",
+      "audio_src": null
+    },
+    {
+      "english": "shelf",
+      "vietnamese": "kệ; giá (để đồ)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Put the books back on the shelf when you finish.",
+          "vi": "Hãy đặt sách lại lên kệ khi bạn đọc xong."
+        },
+        {
+          "en": "The top shelf is too high for me to reach.",
+          "vi": "Kệ trên cùng cao quá, tôi với không tới."
+        },
+        {
+          "en": "The store's shelves were empty before the big storm.",
+          "vi": "Các kệ hàng của cửa hàng trống trơn trước cơn bão lớn."
+        }
+      ],
+      "collocations": [
+        "top shelf",
+        "on the shelf",
+        "bottom shelf"
+      ],
+      "notes": "số nhiều: shelves",
+      "ipa": "/ʃelf/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/she/shelf/shelf__us_1.mp3"
+    },
+    {
+      "english": "boost",
+      "vietnamese": "thúc đẩy; làm tăng, nâng cao",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "A short walk can boost your energy in the afternoon.",
+          "vi": "Đi bộ một chút có thể giúp bạn tăng năng lượng vào buổi chiều."
+        },
+        {
+          "en": "The new park has boosted tourism in our town.",
+          "vi": "Công viên mới đã thúc đẩy du lịch ở thị trấn chúng tôi."
+        },
+        {
+          "en": "Winning the prize really boosted her confidence.",
+          "vi": "Việc giành giải thực sự đã nâng cao sự tự tin của cô ấy."
+        }
+      ],
+      "collocations": [
+        "boost confidence",
+        "boost sales",
+        "boost the economy"
+      ],
+      "notes": null,
+      "ipa": "/buːst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/boo/boost/boost__us_1.mp3"
+    },
+    {
+      "english": "tail",
+      "vietnamese": "đuôi; phần đuôi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The dog wagged its tail when we came home.",
+          "vi": "Con chó vẫy đuôi khi chúng tôi về nhà."
+        },
+        {
+          "en": "Monkeys use their long tails to hold on to branches.",
+          "vi": "Khỉ dùng chiếc đuôi dài để bám vào cành cây."
+        },
+        {
+          "en": "The tail of the plane was painted bright red.",
+          "vi": "Phần đuôi máy bay được sơn màu đỏ tươi."
+        }
+      ],
+      "collocations": [
+        "wag its tail",
+        "long tail",
+        "heads or tails"
+      ],
+      "notes": null,
+      "ipa": "/teɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tai/tail_/tail__us_1.mp3"
+    },
+    {
+      "english": "possession",
+      "vietnamese": "đồ đạc, tài sản; sự sở hữu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She packed all her possessions into two small bags.",
+          "vi": "Cô ấy xếp toàn bộ đồ đạc của mình vào hai chiếc túi nhỏ."
+        },
+        {
+          "en": "This old watch is my most treasured possession.",
+          "vi": "Chiếc đồng hồ cũ này là món đồ quý giá nhất của tôi."
+        },
+        {
+          "en": "Visitors must have their passports in their possession at all times.",
+          "vi": "Du khách phải luôn mang theo hộ chiếu bên mình."
+        }
+      ],
+      "collocations": [
+        "personal possessions",
+        "prized possession",
+        "in possession of"
+      ],
+      "notes": null,
+      "ipa": "/pəˈzeʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pos/posse/possession__us_2.mp3"
+    },
+    {
+      "english": "abortion",
+      "vietnamese": "sự phá thai",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The doctor explained the risks of abortion to the patient.",
+          "vi": "Bác sĩ giải thích cho bệnh nhân những rủi ro của việc phá thai."
+        },
+        {
+          "en": "Abortion laws are different from one country to another.",
+          "vi": "Luật về phá thai khác nhau giữa các quốc gia."
+        },
+        {
+          "en": "Many hospitals give advice to women who are considering an abortion.",
+          "vi": "Nhiều bệnh viện tư vấn cho những phụ nữ đang cân nhắc việc phá thai."
+        }
+      ],
+      "collocations": [
+        "have an abortion",
+        "abortion law"
+      ],
+      "notes": null,
+      "ipa": "/əˈbɔːrʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/abo/abort/abortion__us_1.mp3"
+    },
+    {
+      "english": "curious",
+      "vietnamese": "tò mò; lạ, kỳ lạ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Children are naturally curious about the world around them.",
+          "vi": "Trẻ em vốn tò mò về thế giới xung quanh."
+        },
+        {
+          "en": "I'm curious to know what happened at the party.",
+          "vi": "Tôi tò mò muốn biết chuyện gì đã xảy ra ở bữa tiệc."
+        },
+        {
+          "en": "There was a curious smell coming from the kitchen.",
+          "vi": "Có một mùi lạ bốc ra từ nhà bếp."
+        }
+      ],
+      "collocations": [
+        "curious about",
+        "curious to know",
+        "naturally curious"
+      ],
+      "notes": null,
+      "ipa": "/ˈkjʊriəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cur/curio/curious__us_1.mp3"
+    },
+    {
+      "english": "wooden",
+      "vietnamese": "bằng gỗ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We sat on a wooden bench near the lake.",
+          "vi": "Chúng tôi ngồi trên một chiếc ghế dài bằng gỗ gần hồ."
+        },
+        {
+          "en": "My grandfather made this wooden box by hand.",
+          "vi": "Ông tôi đã tự tay làm chiếc hộp gỗ này."
+        },
+        {
+          "en": "The children played with wooden toys in the garden.",
+          "vi": "Bọn trẻ chơi đồ chơi bằng gỗ trong vườn."
+        }
+      ],
+      "collocations": [
+        "wooden table",
+        "wooden floor",
+        "wooden box",
+        "wooden spoon"
+      ],
+      "notes": null,
+      "ipa": "/ˈwʊdn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/woo/woode/wooden__us_2.mp3"
+    },
+    {
+      "english": "boom",
+      "vietnamese": "sự bùng nổ, phát triển nhanh; tiếng nổ ầm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The town grew quickly during the tourism boom.",
+          "vi": "Thị trấn phát triển nhanh trong thời kỳ bùng nổ du lịch."
+        },
+        {
+          "en": "There has been a boom in online shopping recently.",
+          "vi": "Gần đây mua sắm trực tuyến đã bùng nổ."
+        },
+        {
+          "en": "A loud boom of thunder woke the baby up.",
+          "vi": "Một tiếng sấm nổ ầm làm em bé thức giấc."
+        }
+      ],
+      "collocations": [
+        "economic boom",
+        "baby boom",
+        "loud boom"
+      ],
+      "notes": null,
+      "ipa": "/buːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/boo/boom_/boom__us_1.mp3"
+    },
+    {
+      "english": "tale",
+      "vietnamese": "câu chuyện; truyện kể",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandmother used to tell us tales about her childhood.",
+          "vi": "Bà tôi thường kể cho chúng tôi nghe những câu chuyện về thời thơ ấu của bà."
+        },
+        {
+          "en": "Every child in the village knows this old fairy tale.",
+          "vi": "Mọi đứa trẻ trong làng đều biết câu chuyện cổ tích xưa này."
+        },
+        {
+          "en": "He came back from his trip with exciting tales of adventure.",
+          "vi": "Anh ấy trở về sau chuyến đi với những câu chuyện phiêu lưu thú vị."
+        }
+      ],
+      "collocations": [
+        "fairy tale",
+        "folk tale",
+        "tell a tale"
+      ],
+      "notes": null,
+      "ipa": "/teɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tal/tale_/tale__us_1.mp3"
+    },
+    {
+      "english": "democratic",
+      "vietnamese": "dân chủ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The club makes all its decisions in a democratic way.",
+          "vi": "Câu lạc bộ đưa ra mọi quyết định một cách dân chủ."
+        },
+        {
+          "en": "Our class chose its leader through a democratic vote.",
+          "vi": "Lớp chúng tôi chọn lớp trưởng qua một cuộc bỏ phiếu dân chủ."
+        },
+        {
+          "en": "Free elections are an important part of a democratic society.",
+          "vi": "Bầu cử tự do là một phần quan trọng của xã hội dân chủ."
+        }
+      ],
+      "collocations": [
+        "democratic society",
+        "democratic process",
+        "democratic country"
+      ],
+      "notes": null,
+      "ipa": "/ˌdeməˈkrætɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dem/democ/democratic__us_1.mp3"
+    },
+    {
+      "english": "maintenance",
+      "vietnamese": "sự bảo trì; sự bảo dưỡng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The elevator is closed for maintenance until Friday.",
+          "vi": "Thang máy tạm ngừng hoạt động để bảo trì đến thứ Sáu."
+        },
+        {
+          "en": "Old cars usually need more maintenance than new ones.",
+          "vi": "Xe cũ thường cần bảo dưỡng nhiều hơn xe mới."
+        },
+        {
+          "en": "The maintenance team fixes any problems in the building.",
+          "vi": "Đội bảo trì sửa mọi sự cố trong tòa nhà."
+        }
+      ],
+      "collocations": [
+        "regular maintenance",
+        "routine maintenance",
+        "maintenance costs"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈmeɪntənəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mai/maint/maintenance__us_1.mp3"
+    },
+    {
+      "english": "consequently",
+      "vietnamese": "do đó; vì vậy",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "He missed the bus and consequently arrived late for work.",
+          "vi": "Anh ấy lỡ chuyến xe buýt và vì vậy đến chỗ làm muộn."
+        },
+        {
+          "en": "She studied hard and consequently passed all her exams.",
+          "vi": "Cô ấy học chăm chỉ và do đó đã đỗ tất cả các kỳ thi."
+        },
+        {
+          "en": "Prices went up; consequently, fewer people bought new cars.",
+          "vi": "Giá cả tăng lên, do đó ít người mua ô tô mới hơn."
+        }
+      ],
+      "collocations": [
+        "and consequently",
+        "is consequently"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːnsɪkwentli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsequently__us_1_rr.mp3"
+    },
+    {
+      "english": "pot",
+      "vietnamese": "nồi; chậu (cây); bình (trà, cà phê)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She cooked a big pot of soup for the whole family.",
+          "vi": "Cô ấy nấu một nồi súp lớn cho cả nhà."
+        },
+        {
+          "en": "I planted some tomatoes in a pot on the balcony.",
+          "vi": "Tôi trồng vài cây cà chua trong chậu ngoài ban công."
+        },
+        {
+          "en": "Let me make a fresh pot of coffee for our guests.",
+          "vi": "Để tôi pha một bình cà phê mới cho khách."
+        }
+      ],
+      "collocations": [
+        "pot of coffee",
+        "flower pot",
+        "cooking pot"
+      ],
+      "notes": null,
+      "ipa": "/pɑːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pot/pot__/pot__us_1.mp3"
+    },
+    {
+      "english": "cow",
+      "vietnamese": "con bò (cái)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The farmer milks his cows early every morning.",
+          "vi": "Người nông dân vắt sữa bò vào sáng sớm mỗi ngày."
+        },
+        {
+          "en": "We saw cows eating grass beside the road.",
+          "vi": "Chúng tôi thấy những con bò đang gặm cỏ bên đường."
+        },
+        {
+          "en": "This cheese is made from cow's milk.",
+          "vi": "Loại phô mai này được làm từ sữa bò."
+        }
+      ],
+      "collocations": [
+        "milk a cow",
+        "dairy cow",
+        "cow's milk"
+      ],
+      "notes": null,
+      "ipa": "/kaʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cow/cow__/cow__us_1.mp3"
+    },
+    {
+      "english": "strengthen",
+      "vietnamese": "làm mạnh thêm; củng cố, tăng cường",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Swimming is a great way to strengthen your back muscles.",
+          "vi": "Bơi lội là cách tuyệt vời để làm khỏe cơ lưng."
+        },
+        {
+          "en": "The trip helped strengthen the friendship between our two families.",
+          "vi": "Chuyến đi đã giúp củng cố tình bạn giữa hai gia đình chúng tôi."
+        },
+        {
+          "en": "Workers strengthened the old bridge before the rainy season.",
+          "vi": "Công nhân đã gia cố cây cầu cũ trước mùa mưa."
+        }
+      ],
+      "collocations": [
+        "strengthen muscles",
+        "strengthen relationships",
+        "strengthen ties"
+      ],
+      "notes": null,
+      "ipa": "/ˈstreŋkθn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/stren/strengthen__us_1_rr.mp3"
+    },
+    {
+      "english": "whilst",
+      "vietnamese": "trong khi; trong khi đó (đối lập)",
+      "part_of_speech": "conjunction",
+      "examples": [
+        {
+          "en": "Please wait here whilst I go and get the car.",
+          "vi": "Vui lòng đợi ở đây trong khi tôi đi lấy xe."
+        },
+        {
+          "en": "She listened to music whilst doing her homework.",
+          "vi": "Cô ấy nghe nhạc trong khi làm bài tập về nhà."
+        },
+        {
+          "en": "Some students prefer to study alone, whilst others like working in groups.",
+          "vi": "Một số sinh viên thích học một mình, trong khi những người khác thích học nhóm."
+        }
+      ],
+      "collocations": [
+        "whilst others",
+        "whilst waiting"
+      ],
+      "notes": "Anh-Anh, trang trọng hơn; Mỹ thường dùng while",
+      "ipa": "/waɪlst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/whi/whils/whilst__us_1.mp3"
+    },
+    {
+      "english": "constraint",
+      "vietnamese": "sự hạn chế; sự ràng buộc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Because of time constraints, we can only answer three questions.",
+          "vi": "Vì hạn chế về thời gian, chúng tôi chỉ có thể trả lời ba câu hỏi."
+        },
+        {
+          "en": "Budget constraints forced the school to cancel the trip.",
+          "vi": "Hạn chế về ngân sách buộc nhà trường phải hủy chuyến đi."
+        },
+        {
+          "en": "Artists should be free to work without constraints.",
+          "vi": "Nghệ sĩ nên được tự do sáng tác mà không bị ràng buộc."
+        }
+      ],
+      "collocations": [
+        "time constraints",
+        "budget constraints",
+        "financial constraints"
+      ],
+      "notes": null,
+      "ipa": "/kənˈstreɪnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconstraint__us_1.mp3"
+    },
+    {
+      "english": "fold",
+      "vietnamese": "gấp, gập; khoanh (tay)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please fold the towels and put them in the drawer.",
+          "vi": "Làm ơn gấp khăn rồi cất vào ngăn kéo."
+        },
+        {
+          "en": "She folded the letter carefully and put it in an envelope.",
+          "vi": "Cô ấy cẩn thận gấp lá thư lại rồi cho vào phong bì."
+        },
+        {
+          "en": "He stood by the door with his arms folded.",
+          "vi": "Anh ấy khoanh tay đứng cạnh cửa."
+        }
+      ],
+      "collocations": [
+        "fold clothes",
+        "fold your arms",
+        "fold in half"
+      ],
+      "notes": null,
+      "ipa": "/fəʊld/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fol/fold_/fold__us_1.mp3"
+    },
+    {
+      "english": "bin",
+      "vietnamese": "thùng rác; thùng (đựng đồ)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please throw your empty bottles in the recycling bin.",
+          "vi": "Vui lòng bỏ chai rỗng vào thùng rác tái chế."
+        },
+        {
+          "en": "I forgot to take the bins out last night.",
+          "vi": "Tối qua tôi quên mang thùng rác ra ngoài."
+        },
+        {
+          "en": "We keep rice in a large plastic bin in the kitchen.",
+          "vi": "Chúng tôi đựng gạo trong một cái thùng nhựa lớn ở bếp."
+        }
+      ],
+      "collocations": [
+        "recycling bin",
+        "rubbish bin",
+        "take the bins out"
+      ],
+      "notes": "Mỹ thường dùng trash can cho thùng rác",
+      "ipa": "/bɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bin/bin__/bin__us_1.mp3"
+    },
+    {
+      "english": "undergo",
+      "vietnamese": "trải qua (thay đổi, phẫu thuật, kiểm tra)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My father underwent surgery on his knee last month.",
+          "vi": "Tháng trước bố tôi đã trải qua ca phẫu thuật đầu gối."
+        },
+        {
+          "en": "The city center is undergoing major changes this year.",
+          "vi": "Trung tâm thành phố đang trải qua những thay đổi lớn trong năm nay."
+        },
+        {
+          "en": "All new cars must undergo strict safety tests.",
+          "vi": "Mọi ô tô mới đều phải trải qua các cuộc kiểm tra an toàn nghiêm ngặt."
+        }
+      ],
+      "collocations": [
+        "undergo surgery",
+        "undergo changes",
+        "undergo tests",
+        "undergo training"
+      ],
+      "notes": "undergo – underwent – undergone",
+      "ipa": "/ˌʌndərˈɡəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/und/under/undergo__us_1.mp3"
+    },
+    {
+      "english": "potentially",
+      "vietnamese": "có khả năng; có tiềm năng",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "This new medicine could potentially help millions of people.",
+          "vi": "Loại thuốc mới này có khả năng giúp được hàng triệu người."
+        },
+        {
+          "en": "Driving in this weather is potentially dangerous.",
+          "vi": "Lái xe trong thời tiết này có thể gây nguy hiểm."
+        },
+        {
+          "en": "The problem is small now but is potentially very serious.",
+          "vi": "Vấn đề hiện còn nhỏ nhưng có khả năng trở nên rất nghiêm trọng."
+        }
+      ],
+      "collocations": [
+        "potentially dangerous",
+        "potentially serious",
+        "potentially useful"
+      ],
+      "notes": null,
+      "ipa": "/pəˈtenʃəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pot/poten/potentially__us_1.mp3"
+    }
+  ]
+}

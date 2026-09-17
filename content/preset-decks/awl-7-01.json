@@ -1,0 +1,823 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 7 · Bộ 1",
+    "description": "Academic Word List, sublist 7",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-7-01"
+  },
+  "cards": [
+    {
+      "english": "adapt",
+      "vietnamese": "thích nghi; điều chỉnh cho phù hợp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many species have adapted to life in extremely cold climates.",
+          "vi": "Nhiều loài đã thích nghi với cuộc sống ở vùng khí hậu cực lạnh."
+        },
+        {
+          "en": "Teachers often adapt their lessons for students with different needs.",
+          "vi": "Giáo viên thường điều chỉnh bài giảng cho phù hợp với học sinh có nhu cầu khác nhau."
+        },
+        {
+          "en": "It took the new staff several weeks to adapt to the system.",
+          "vi": "Nhân viên mới mất vài tuần để thích nghi với hệ thống."
+        }
+      ],
+      "collocations": [
+        "adapt to",
+        "adapt quickly",
+        "adapt to change"
+      ],
+      "notes": "adapt to sth · adapt (thích nghi) ≠ adopt (áp dụng; nhận nuôi)",
+      "ipa": "/əˈdæpt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ada/adapt/adapt__us_1.mp3"
+    },
+    {
+      "english": "adult",
+      "vietnamese": "người lớn; người trưởng thành",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The course is designed for adults who want to return to education.",
+          "vi": "Khóa học được thiết kế cho những người lớn muốn quay lại việc học."
+        },
+        {
+          "en": "Children under twelve must be accompanied by an adult.",
+          "vi": "Trẻ em dưới mười hai tuổi phải có người lớn đi kèm."
+        },
+        {
+          "en": "The study followed a group of young adults for ten years.",
+          "vi": "Nghiên cứu đã theo dõi một nhóm thanh niên trong mười năm."
+        }
+      ],
+      "collocations": [
+        "young adult",
+        "adult education",
+        "adult population"
+      ],
+      "notes": null,
+      "ipa": "/əˈdʌlt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adu/adult/adult__us_2_rr.mp3"
+    },
+    {
+      "english": "advocate",
+      "vietnamese": "ủng hộ; chủ trương; vận động cho",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many doctors advocate regular exercise as a way to reduce stress.",
+          "vi": "Nhiều bác sĩ ủng hộ việc tập thể dục thường xuyên như một cách giảm căng thẳng."
+        },
+        {
+          "en": "The report advocates stronger rules on air pollution.",
+          "vi": "Bản báo cáo chủ trương siết chặt các quy định về ô nhiễm không khí."
+        },
+        {
+          "en": "She has advocated for equal pay throughout her career.",
+          "vi": "Bà ấy đã vận động cho việc trả lương bình đẳng trong suốt sự nghiệp."
+        }
+      ],
+      "collocations": [
+        "strongly advocate",
+        "advocate for",
+        "advocate the use of"
+      ],
+      "notes": "Cũng là danh từ: người ủng hộ; luật sư biện hộ",
+      "ipa": "/ˈædvəkət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adv/advoc/advocate__us_2.mp3"
+    },
+    {
+      "english": "aid",
+      "vietnamese": "viện trợ; sự trợ giúp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The country receives millions of dollars in foreign aid each year.",
+          "vi": "Quốc gia này nhận hàng triệu đô la viện trợ nước ngoài mỗi năm."
+        },
+        {
+          "en": "Students from low-income families can apply for financial aid.",
+          "vi": "Sinh viên từ các gia đình thu nhập thấp có thể xin hỗ trợ tài chính."
+        },
+        {
+          "en": "She learned the new language with the aid of an online course.",
+          "vi": "Cô ấy học ngôn ngữ mới với sự trợ giúp của một khóa học trực tuyến."
+        }
+      ],
+      "collocations": [
+        "foreign aid",
+        "financial aid",
+        "with the aid of",
+        "first aid"
+      ],
+      "notes": null,
+      "ipa": "/eɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aid/aid__/aid__us_1.mp3"
+    },
+    {
+      "english": "channel",
+      "vietnamese": "kênh; kênh truyền hình",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Customers can contact the company through several channels, including email and live chat.",
+          "vi": "Khách hàng có thể liên hệ với công ty qua nhiều kênh, bao gồm email và trò chuyện trực tuyến."
+        },
+        {
+          "en": "Complaints should be made through the proper channels.",
+          "vi": "Các khiếu nại cần được gửi qua đúng kênh quy định."
+        },
+        {
+          "en": "The documentary will be shown on a public television channel next month.",
+          "vi": "Bộ phim tài liệu sẽ được chiếu trên một kênh truyền hình công cộng vào tháng tới."
+        }
+      ],
+      "collocations": [
+        "channels of communication",
+        "through the proper channels",
+        "television channel"
+      ],
+      "notes": null,
+      "ipa": "/ˈtʃænl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chann/channel__us_1.mp3"
+    },
+    {
+      "english": "chemical",
+      "vietnamese": "hóa chất",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The factory was fined for releasing chemicals into the river.",
+          "vi": "Nhà máy bị phạt vì xả hóa chất ra sông."
+        },
+        {
+          "en": "Farmers are using fewer harmful chemicals to protect their crops.",
+          "vi": "Nông dân đang sử dụng ít hóa chất độc hại hơn để bảo vệ cây trồng."
+        },
+        {
+          "en": "Always store household chemicals out of the reach of children.",
+          "vi": "Luôn cất giữ các hóa chất gia dụng ngoài tầm với của trẻ em."
+        }
+      ],
+      "collocations": [
+        "toxic chemicals",
+        "harmful chemicals",
+        "household chemicals"
+      ],
+      "notes": "Tính từ chemical: (thuộc) hóa học, vd chemical reaction",
+      "ipa": "/ˈkemɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/che/chemi/chemical__us_2.mp3"
+    },
+    {
+      "english": "classic",
+      "vietnamese": "kinh điển; điển hình",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "This is a classic example of how markets respond to fear.",
+          "vi": "Đây là một ví dụ điển hình về cách thị trường phản ứng trước nỗi sợ hãi."
+        },
+        {
+          "en": "The book remains a classic study of urban poverty.",
+          "vi": "Cuốn sách vẫn là một nghiên cứu kinh điển về tình trạng nghèo đói ở đô thị."
+        },
+        {
+          "en": "Headaches and tiredness are classic symptoms of dehydration.",
+          "vi": "Đau đầu và mệt mỏi là những triệu chứng điển hình của tình trạng mất nước."
+        }
+      ],
+      "collocations": [
+        "classic example",
+        "classic case",
+        "classic symptoms"
+      ],
+      "notes": "classic (kinh điển, điển hình) ≠ classical (cổ điển)",
+      "ipa": "/ˈklæsɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cla/class/classic__us_2.mp3"
+    },
+    {
+      "english": "comprehensive",
+      "vietnamese": "toàn diện; bao quát; đầy đủ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The authors provide a comprehensive review of research on sleep.",
+          "vi": "Các tác giả đưa ra một bài tổng quan toàn diện các nghiên cứu về giấc ngủ."
+        },
+        {
+          "en": "All new employees receive comprehensive training during their first month.",
+          "vi": "Tất cả nhân viên mới đều được đào tạo đầy đủ trong tháng đầu tiên."
+        },
+        {
+          "en": "We still lack a comprehensive plan for dealing with climate change.",
+          "vi": "Chúng ta vẫn chưa có một kế hoạch toàn diện để ứng phó với biến đổi khí hậu."
+        }
+      ],
+      "collocations": [
+        "comprehensive review",
+        "comprehensive study",
+        "comprehensive plan"
+      ],
+      "notes": "comprehensive (toàn diện) ≠ comprehensible (dễ hiểu)",
+      "ipa": "/ˌkɑːmprɪˈhensɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compr/comprehensive__us_1.mp3"
+    },
+    {
+      "english": "comprise",
+      "vietnamese": "bao gồm; chiếm, cấu thành",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The committee comprises twelve members from different departments.",
+          "vi": "Ủy ban gồm mười hai thành viên đến từ các phòng ban khác nhau."
+        },
+        {
+          "en": "Women now comprise the majority of university students in many countries.",
+          "vi": "Ở nhiều nước, nữ giới hiện chiếm đa số sinh viên đại học."
+        },
+        {
+          "en": "The survey comprised thirty questions about working conditions.",
+          "vi": "Bản khảo sát gồm ba mươi câu hỏi về điều kiện làm việc."
+        }
+      ],
+      "collocations": [
+        "comprise the majority of",
+        "be comprised of"
+      ],
+      "notes": "comprise + tân ngữ (không nói 'comprise of'); bị động: be comprised of",
+      "ipa": "/kəmˈpraɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compr/comprise__us_1.mp3"
+    },
+    {
+      "english": "confirm",
+      "vietnamese": "xác nhận; khẳng định",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please confirm your attendance at the meeting by Friday afternoon.",
+          "vi": "Vui lòng xác nhận việc bạn tham dự cuộc họp trước chiều thứ Sáu."
+        },
+        {
+          "en": "The results confirm that the new drug is safe for adults.",
+          "vi": "Kết quả khẳng định rằng loại thuốc mới an toàn cho người lớn."
+        },
+        {
+          "en": "Officials have not yet confirmed how many jobs will be cut.",
+          "vi": "Các quan chức vẫn chưa xác nhận sẽ có bao nhiêu việc làm bị cắt giảm."
+        }
+      ],
+      "collocations": [
+        "confirm that",
+        "officially confirm",
+        "confirm a booking"
+      ],
+      "notes": null,
+      "ipa": "/kənˈfɜːrm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconf/xconfirm__us_2.mp3"
+    },
+    {
+      "english": "contrary",
+      "vietnamese": "trái ngược; ngược lại",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Contrary to popular belief, most bats are not blind.",
+          "vi": "Trái với niềm tin phổ biến, phần lớn loài dơi không bị mù."
+        },
+        {
+          "en": "The evidence was contrary to what the researchers had expected.",
+          "vi": "Bằng chứng trái ngược với những gì các nhà nghiên cứu đã dự đoán."
+        },
+        {
+          "en": "The policy did not reduce costs; on the contrary, it increased them.",
+          "vi": "Chính sách này không giảm được chi phí; ngược lại, nó còn làm chi phí tăng lên."
+        }
+      ],
+      "collocations": [
+        "contrary to popular belief",
+        "on the contrary",
+        "contrary to expectations"
+      ],
+      "notes": "contrary to + N: trái với · on the contrary: ngược lại",
+      "ipa": "/ˈkɑːntreri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontrary__us_1.mp3"
+    },
+    {
+      "english": "convert",
+      "vietnamese": "chuyển đổi; biến đổi; cải tạo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Plants convert energy from sunlight into sugar that they can store.",
+          "vi": "Thực vật biến đổi năng lượng từ ánh sáng mặt trời thành đường để dự trữ."
+        },
+        {
+          "en": "The old factory has been converted into student apartments.",
+          "vi": "Nhà máy cũ đã được cải tạo thành căn hộ cho sinh viên."
+        },
+        {
+          "en": "You can easily convert the file to a PDF before sending it.",
+          "vi": "Bạn có thể dễ dàng chuyển tệp sang định dạng PDF trước khi gửi."
+        }
+      ],
+      "collocations": [
+        "convert into",
+        "convert energy",
+        "convert currency"
+      ],
+      "notes": "convert A into/to B",
+      "ipa": "/kənˈvɜːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconv/xconvert__us_1.mp3"
+    },
+    {
+      "english": "couple",
+      "vietnamese": "cặp vợ chồng; cặp đôi; một vài",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The study followed two hundred married couples over five years.",
+          "vi": "Nghiên cứu đã theo dõi hai trăm cặp vợ chồng trong năm năm."
+        },
+        {
+          "en": "More young couples are choosing to delay having children.",
+          "vi": "Ngày càng nhiều cặp đôi trẻ chọn trì hoãn việc sinh con."
+        },
+        {
+          "en": "The results should be available in a couple of weeks.",
+          "vi": "Kết quả sẽ có sau vài tuần nữa."
+        }
+      ],
+      "collocations": [
+        "married couple",
+        "young couple",
+        "a couple of"
+      ],
+      "notes": null,
+      "ipa": "/ˈkʌpl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cou/coupl/couple__us_2.mp3"
+    },
+    {
+      "english": "decade",
+      "vietnamese": "thập kỷ; mười năm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Global temperatures have risen steadily over the past three decades.",
+          "vi": "Nhiệt độ toàn cầu đã tăng đều đặn trong ba thập kỷ qua."
+        },
+        {
+          "en": "The company has grown rapidly over the last decade.",
+          "vi": "Công ty đã phát triển nhanh chóng trong thập kỷ vừa qua."
+        },
+        {
+          "en": "It may take decades to repair the damage to the forest.",
+          "vi": "Có thể phải mất hàng chục năm để khắc phục thiệt hại đối với khu rừng."
+        }
+      ],
+      "collocations": [
+        "past decade",
+        "over the last decade",
+        "for decades"
+      ],
+      "notes": null,
+      "ipa": "/ˈdekeɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dec/decad/decade__us_4.mp3"
+    },
+    {
+      "english": "definite",
+      "vietnamese": "rõ ràng, rõ rệt; chắc chắn, dứt khoát",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We need a definite answer before we can sign the contract.",
+          "vi": "Chúng tôi cần một câu trả lời dứt khoát trước khi có thể ký hợp đồng."
+        },
+        {
+          "en": "There has been a definite improvement in the students' writing this term.",
+          "vi": "Kỹ năng viết của học sinh đã tiến bộ rõ rệt trong học kỳ này."
+        },
+        {
+          "en": "Nothing is definite yet, but the meeting will probably be on Monday.",
+          "vi": "Vẫn chưa có gì chắc chắn, nhưng cuộc họp có lẽ sẽ diễn ra vào thứ Hai."
+        }
+      ],
+      "collocations": [
+        "definite answer",
+        "definite improvement",
+        "definite plans"
+      ],
+      "notes": "definite (rõ ràng) ≠ definitive (cuối cùng, có tính quyết định)",
+      "ipa": "/ˈdefɪnət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/def/defin/definite__us_1.mp3"
+    },
+    {
+      "english": "deny",
+      "vietnamese": "phủ nhận; từ chối, không cho",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company denied that its products were unsafe.",
+          "vi": "Công ty phủ nhận việc sản phẩm của họ không an toàn."
+        },
+        {
+          "en": "The manager strongly denied the claims made in the report.",
+          "vi": "Người quản lý kiên quyết phủ nhận những cáo buộc trong bản báo cáo."
+        },
+        {
+          "en": "Students without an ID card were denied access to the library.",
+          "vi": "Sinh viên không có thẻ đã bị từ chối cho vào thư viện."
+        }
+      ],
+      "collocations": [
+        "strongly deny",
+        "deny access to",
+        "deny a claim"
+      ],
+      "notes": "deny + V-ing / that … · deny – denied – denied",
+      "ipa": "/dɪˈnaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/den/deny_/deny__us_1.mp3"
+    },
+    {
+      "english": "differentiate",
+      "vietnamese": "phân biệt; tạo sự khác biệt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Young children cannot always differentiate between fact and fiction.",
+          "vi": "Trẻ nhỏ không phải lúc nào cũng phân biệt được giữa sự thật và hư cấu."
+        },
+        {
+          "en": "The test helps doctors differentiate one type of infection from another.",
+          "vi": "Xét nghiệm giúp bác sĩ phân biệt loại nhiễm trùng này với loại khác."
+        },
+        {
+          "en": "Small firms need clear ways to differentiate themselves from larger competitors.",
+          "vi": "Các công ty nhỏ cần có cách rõ ràng để tạo sự khác biệt so với các đối thủ lớn hơn."
+        }
+      ],
+      "collocations": [
+        "differentiate between",
+        "differentiate from",
+        "clearly differentiate"
+      ],
+      "notes": "differentiate between A and B / A from B",
+      "ipa": "/ˌdɪfəˈrenʃieɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dif/diffe/differentiate__us_1.mp3"
+    },
+    {
+      "english": "dispose",
+      "vietnamese": "vứt bỏ; xử lý",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Hospitals must safely dispose of used needles.",
+          "vi": "Bệnh viện phải xử lý an toàn kim tiêm đã qua sử dụng."
+        },
+        {
+          "en": "The city is running out of places to dispose of waste.",
+          "vi": "Thành phố đang cạn dần nơi để xử lý rác thải."
+        },
+        {
+          "en": "Please dispose of old batteries at a recycling center.",
+          "vi": "Vui lòng bỏ pin cũ tại trung tâm tái chế."
+        }
+      ],
+      "collocations": [
+        "dispose of waste",
+        "safely dispose of"
+      ],
+      "notes": "Luôn dùng dispose of + N",
+      "ipa": "/dɪˈspəʊz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/dispo/dispose__us_1.mp3"
+    },
+    {
+      "english": "dynamic",
+      "vietnamese": "năng động; luôn vận động, biến đổi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She is a dynamic leader who inspires her team.",
+          "vi": "Cô ấy là một nhà lãnh đạo năng động, truyền cảm hứng cho cả nhóm."
+        },
+        {
+          "en": "The city has one of the most dynamic economies in the region.",
+          "vi": "Thành phố này có một trong những nền kinh tế năng động nhất khu vực."
+        },
+        {
+          "en": "Learning a language is a dynamic process that continues throughout life.",
+          "vi": "Học ngôn ngữ là một quá trình luôn vận động và kéo dài suốt đời."
+        }
+      ],
+      "collocations": [
+        "dynamic leader",
+        "dynamic economy",
+        "dynamic process"
+      ],
+      "notes": "dynamics (n): sự tương tác, động lực, vd group dynamics",
+      "ipa": "/daɪˈnæmɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dyn/dynam/dynamic__us_1.mp3"
+    },
+    {
+      "english": "eliminate",
+      "vietnamese": "loại bỏ; loại trừ; loại khỏi cuộc thi",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The new system will eliminate the need for paper forms.",
+          "vi": "Hệ thống mới sẽ loại bỏ nhu cầu sử dụng biểu mẫu giấy."
+        },
+        {
+          "en": "Doctors were able to eliminate several possible causes of the pain.",
+          "vi": "Các bác sĩ đã loại trừ được một số nguyên nhân có thể gây ra cơn đau."
+        },
+        {
+          "en": "Our team was eliminated in the first round of the competition.",
+          "vi": "Đội chúng tôi đã bị loại ngay từ vòng đầu của cuộc thi."
+        }
+      ],
+      "collocations": [
+        "eliminate the need for",
+        "completely eliminate",
+        "eliminate poverty"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈlɪmɪneɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eli/elimi/eliminate__us_1.mp3"
+    },
+    {
+      "english": "empirical",
+      "vietnamese": "thực nghiệm; dựa trên quan sát",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "There is little empirical evidence to support this theory.",
+          "vi": "Có rất ít bằng chứng thực nghiệm ủng hộ lý thuyết này."
+        },
+        {
+          "en": "The paper combines theory with a detailed empirical study of local markets.",
+          "vi": "Bài báo kết hợp lý thuyết với một nghiên cứu thực nghiệm chi tiết về các thị trường địa phương."
+        },
+        {
+          "en": "Their conclusions are based on empirical data collected over ten years.",
+          "vi": "Kết luận của họ dựa trên dữ liệu thực nghiệm được thu thập trong mười năm."
+        }
+      ],
+      "collocations": [
+        "empirical evidence",
+        "empirical study",
+        "empirical data",
+        "empirical research"
+      ],
+      "notes": null,
+      "ipa": "/ɪmˈpɪrɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/emp/empir/empirical__us_1.mp3"
+    },
+    {
+      "english": "equip",
+      "vietnamese": "trang bị",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "All classrooms are equipped with projectors and fast internet.",
+          "vi": "Tất cả phòng học đều được trang bị máy chiếu và internet tốc độ cao."
+        },
+        {
+          "en": "The course aims to equip students with practical research skills.",
+          "vi": "Khóa học nhằm trang bị cho sinh viên các kỹ năng nghiên cứu thực tế."
+        },
+        {
+          "en": "It will cost a lot of money to fully equip the new hospital.",
+          "vi": "Sẽ tốn rất nhiều tiền để trang bị đầy đủ cho bệnh viện mới."
+        }
+      ],
+      "collocations": [
+        "equipped with",
+        "equip students with",
+        "fully equip",
+        "well equipped"
+      ],
+      "notes": "equip – equipped – equipped · equip sb/sth with sth",
+      "ipa": "/ɪˈkwɪp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/equ/equip/equip__us_1.mp3"
+    },
+    {
+      "english": "extract",
+      "vietnamese": "chiết xuất; trích xuất; khai thác",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Oil is extracted from the seeds and used in cooking.",
+          "vi": "Dầu được chiết xuất từ hạt và dùng để nấu ăn."
+        },
+        {
+          "en": "The software can extract information from thousands of scanned documents.",
+          "vi": "Phần mềm có thể trích xuất thông tin từ hàng nghìn tài liệu đã quét."
+        },
+        {
+          "en": "Mining companies extract large amounts of copper from the region every year.",
+          "vi": "Các công ty khai khoáng khai thác một lượng lớn đồng từ khu vực này mỗi năm."
+        }
+      ],
+      "collocations": [
+        "extract information",
+        "extract oil",
+        "extract data"
+      ],
+      "notes": "Danh từ extract: đoạn trích; tinh chất",
+      "ipa": "/ˈekstrækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ext/extra/extract__us_1.mp3"
+    },
+    {
+      "english": "file",
+      "vietnamese": "tệp; hồ sơ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Save the file before you close the program.",
+          "vi": "Hãy lưu tệp trước khi đóng chương trình."
+        },
+        {
+          "en": "Doctors keep a file on every patient they treat.",
+          "vi": "Bác sĩ lưu hồ sơ về mỗi bệnh nhân mà họ điều trị."
+        },
+        {
+          "en": "Please attach the file to your email and send it to the manager.",
+          "vi": "Vui lòng đính kèm tệp vào email và gửi cho người quản lý."
+        }
+      ],
+      "collocations": [
+        "save the file",
+        "attach the file",
+        "keep a file on"
+      ],
+      "notes": "Động từ file: nộp (đơn), lưu trữ, vd file a complaint",
+      "ipa": "/faɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fil/file_/file__us_1.mp3"
+    },
+    {
+      "english": "finite",
+      "vietnamese": "hữu hạn; có giới hạn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Earth has a finite supply of oil and gas.",
+          "vi": "Trái Đất có nguồn cung dầu mỏ và khí đốt hữu hạn."
+        },
+        {
+          "en": "We have finite resources, so we must choose our priorities carefully.",
+          "vi": "Chúng ta có nguồn lực hữu hạn, vì vậy phải lựa chọn ưu tiên một cách cẩn thận."
+        },
+        {
+          "en": "There is only a finite number of places on the course.",
+          "vi": "Khóa học chỉ có một số lượng chỗ có hạn."
+        }
+      ],
+      "collocations": [
+        "finite resources",
+        "finite number",
+        "finite supply"
+      ],
+      "notes": "Trái nghĩa: infinite (vô hạn)",
+      "ipa": "/ˈfaɪnaɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fin/finit/finite__us_1.mp3"
+    },
+    {
+      "english": "foundation",
+      "vietnamese": "nền tảng; cơ sở; quỹ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Good communication is the foundation of a successful team.",
+          "vi": "Giao tiếp tốt là nền tảng của một đội nhóm thành công."
+        },
+        {
+          "en": "The first year provides a solid foundation in mathematics and statistics.",
+          "vi": "Năm đầu tiên cung cấp nền tảng vững chắc về toán học và thống kê."
+        },
+        {
+          "en": "A local foundation offers scholarships to students from poor families.",
+          "vi": "Một quỹ địa phương cấp học bổng cho sinh viên từ các gia đình nghèo."
+        }
+      ],
+      "collocations": [
+        "solid foundation",
+        "lay the foundation for",
+        "charitable foundation"
+      ],
+      "notes": null,
+      "ipa": "/faʊnˈdeɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fou/found/foundation__us_1.mp3"
+    },
+    {
+      "english": "globe",
+      "vietnamese": "địa cầu; thế giới; quả địa cầu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The company has offices in over forty countries across the globe.",
+          "vi": "Công ty có văn phòng tại hơn bốn mươi quốc gia trên khắp thế giới."
+        },
+        {
+          "en": "Scientists from around the globe shared their findings at the conference.",
+          "vi": "Các nhà khoa học từ khắp nơi trên thế giới đã chia sẻ phát hiện của họ tại hội nghị."
+        },
+        {
+          "en": "The teacher used a globe to show where each country is.",
+          "vi": "Giáo viên dùng quả địa cầu để chỉ vị trí của từng quốc gia."
+        }
+      ],
+      "collocations": [
+        "across the globe",
+        "around the globe",
+        "all over the globe"
+      ],
+      "notes": "Tính từ global: toàn cầu",
+      "ipa": "/ɡləʊb/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/glo/globe/globe__us_1.mp3"
+    },
+    {
+      "english": "grade",
+      "vietnamese": "điểm số; lớp; loại, cấp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She got the highest grade in the class on the final exam.",
+          "vi": "Cô ấy đạt điểm cao nhất lớp trong kỳ thi cuối kỳ."
+        },
+        {
+          "en": "My son is in the fifth grade at a local school.",
+          "vi": "Con trai tôi đang học lớp năm ở một trường gần nhà."
+        },
+        {
+          "en": "The factory only uses high-grade steel in its products.",
+          "vi": "Nhà máy chỉ sử dụng thép chất lượng cao cho sản phẩm của mình."
+        }
+      ],
+      "collocations": [
+        "good grades",
+        "in the fifth grade",
+        "high-grade"
+      ],
+      "notes": "Mỹ: grade = lớp (fifth grade) · Anh: year",
+      "ipa": "/ɡreɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gra/grade/grade__us_1.mp3"
+    },
+    {
+      "english": "guarantee",
+      "vietnamese": "đảm bảo; bảo hành",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "A university degree no longer guarantees a well-paid job.",
+          "vi": "Bằng đại học không còn đảm bảo một công việc lương cao."
+        },
+        {
+          "en": "We cannot guarantee that the results will be the same next year.",
+          "vi": "Chúng tôi không thể đảm bảo rằng kết quả năm sau sẽ giống như vậy."
+        },
+        {
+          "en": "All our laptops are guaranteed for two years.",
+          "vi": "Tất cả máy tính xách tay của chúng tôi đều được bảo hành hai năm."
+        }
+      ],
+      "collocations": [
+        "guarantee success",
+        "cannot guarantee",
+        "guaranteed for"
+      ],
+      "notes": "Cũng là danh từ: sự bảo đảm; giấy bảo hành",
+      "ipa": "/ˌɡærənˈtiː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gua/guara/guarantee__us_1.mp3"
+    },
+    {
+      "english": "hierarchy",
+      "vietnamese": "hệ thống cấp bậc; thứ bậc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She quickly rose through the corporate hierarchy.",
+          "vi": "Cô ấy nhanh chóng thăng tiến trong hệ thống cấp bậc của công ty."
+        },
+        {
+          "en": "Many traditional organizations have a strict hierarchy of managers and workers.",
+          "vi": "Nhiều tổ chức truyền thống có hệ thống cấp bậc chặt chẽ giữa quản lý và nhân viên."
+        },
+        {
+          "en": "The model places basic needs such as food at the bottom of the hierarchy.",
+          "vi": "Mô hình này đặt các nhu cầu cơ bản như thức ăn ở tầng thấp nhất của hệ thống thứ bậc."
+        }
+      ],
+      "collocations": [
+        "strict hierarchy",
+        "social hierarchy",
+        "corporate hierarchy"
+      ],
+      "notes": null,
+      "ipa": "/ˈhaɪərɑːrki/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hie/hiera/hierarchy__us_1.mp3"
+    }
+  ]
+}

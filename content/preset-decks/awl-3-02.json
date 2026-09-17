@@ -1,0 +1,842 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 3 · Bộ 2",
+    "description": "Academic Word List, sublist 3",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-3-02"
+  },
+  "cards": [
+    {
+      "english": "interact",
+      "vietnamese": "tương tác; giao tiếp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Children learn social skills by interacting with other children.",
+          "vi": "Trẻ em học các kỹ năng xã hội thông qua việc giao tiếp với những đứa trẻ khác."
+        },
+        {
+          "en": "Scientists studied how the two drugs interact in the body.",
+          "vi": "Các nhà khoa học đã nghiên cứu cách hai loại thuốc tương tác với nhau trong cơ thể."
+        },
+        {
+          "en": "Online courses give students fewer chances to interact with their teachers.",
+          "vi": "Các khóa học trực tuyến mang lại cho sinh viên ít cơ hội giao tiếp với giáo viên hơn."
+        }
+      ],
+      "collocations": [
+        "interact with",
+        "interact socially",
+        "interact closely"
+      ],
+      "notes": "interact with + người/vật",
+      "ipa": "/ˌɪntərˈækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/inter/interact__us_1.mp3"
+    },
+    {
+      "english": "justify",
+      "vietnamese": "biện minh; chứng minh là đúng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Managers must justify any increase in spending to the board.",
+          "vi": "Các nhà quản lý phải giải trình mọi khoản chi tiêu tăng thêm trước hội đồng quản trị."
+        },
+        {
+          "en": "The results do not justify such a high level of investment.",
+          "vi": "Kết quả này không đủ để chứng minh mức đầu tư cao như vậy là hợp lý."
+        },
+        {
+          "en": "How can the company justify closing a factory that still makes a profit?",
+          "vi": "Làm sao công ty có thể biện minh cho việc đóng cửa một nhà máy vẫn đang có lãi?"
+        }
+      ],
+      "collocations": [
+        "justify a decision",
+        "justify the cost",
+        "difficult to justify"
+      ],
+      "notes": "justify + V-ing / danh từ",
+      "ipa": "/ˈdʒʌstɪfaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/j/jus/justi/justify__us_2.mp3"
+    },
+    {
+      "english": "layer",
+      "vietnamese": "lớp; tầng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A thin layer of dust covered the old documents.",
+          "vi": "Một lớp bụi mỏng phủ lên những tài liệu cũ."
+        },
+        {
+          "en": "The ozone layer protects the earth from harmful radiation.",
+          "vi": "Tầng ô-dôn bảo vệ trái đất khỏi bức xạ có hại."
+        },
+        {
+          "en": "Each new layer of management made decisions slower.",
+          "vi": "Mỗi tầng quản lý mới lại khiến việc ra quyết định chậm hơn."
+        }
+      ],
+      "collocations": [
+        "a thin layer",
+        "the ozone layer",
+        "layer of",
+        "outer layer"
+      ],
+      "notes": null,
+      "ipa": "/ˈleɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lay/layer/layer__us_4.mp3"
+    },
+    {
+      "english": "link",
+      "vietnamese": "liên kết; mối liên hệ; đường dẫn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Researchers found a strong link between smoking and heart disease.",
+          "vi": "Các nhà nghiên cứu đã tìm thấy mối liên hệ chặt chẽ giữa hút thuốc và bệnh tim."
+        },
+        {
+          "en": "The new railway provides a direct link between the two cities.",
+          "vi": "Tuyến đường sắt mới tạo ra một tuyến kết nối trực tiếp giữa hai thành phố."
+        },
+        {
+          "en": "Please click the link in the email to complete your registration.",
+          "vi": "Vui lòng nhấp vào đường dẫn trong email để hoàn tất việc đăng ký."
+        }
+      ],
+      "collocations": [
+        "link between",
+        "a strong link",
+        "a direct link",
+        "click the link"
+      ],
+      "notes": "link between A and B",
+      "ipa": "/lɪŋk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lin/link_/link__us_1.mp3"
+    },
+    {
+      "english": "locate",
+      "vietnamese": "xác định vị trí; đặt ở (vị trí)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Engineers were unable to locate the source of the problem.",
+          "vi": "Các kỹ sư không thể xác định được nguồn gốc của vấn đề."
+        },
+        {
+          "en": "The company's head office is located in the city center.",
+          "vi": "Trụ sở chính của công ty nằm ở trung tâm thành phố."
+        },
+        {
+          "en": "Many firms choose to locate near universities to attract skilled workers.",
+          "vi": "Nhiều công ty chọn đặt trụ sở gần các trường đại học để thu hút lao động có tay nghề."
+        }
+      ],
+      "collocations": [
+        "be located in",
+        "locate the source",
+        "conveniently located"
+      ],
+      "notes": "be located in/at/near = nằm ở",
+      "ipa": "/ˈləʊkeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/loc/locat/locate__us_1.mp3"
+    },
+    {
+      "english": "maximise",
+      "vietnamese": "tối đa hóa; tận dụng tối đa",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Most businesses aim to maximise profits while keeping costs low.",
+          "vi": "Hầu hết các doanh nghiệp đều hướng tới tối đa hóa lợi nhuận trong khi giữ chi phí thấp."
+        },
+        {
+          "en": "The office was redesigned to maximise the use of natural light.",
+          "vi": "Văn phòng được thiết kế lại để tận dụng tối đa ánh sáng tự nhiên."
+        },
+        {
+          "en": "Farmers are testing new methods to maximise crop yields.",
+          "vi": "Nông dân đang thử nghiệm các phương pháp mới để tối đa hóa năng suất cây trồng."
+        }
+      ],
+      "collocations": [
+        "maximise profits",
+        "maximise the use of",
+        "maximise efficiency"
+      ],
+      "notes": "Anh: maximise · Mỹ: maximize",
+      "ipa": null,
+      "audio_src": null
+    },
+    {
+      "english": "minor",
+      "vietnamese": "nhỏ; không quan trọng; thứ yếu",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The report contains only a few minor errors.",
+          "vi": "Bản báo cáo chỉ có một vài lỗi nhỏ."
+        },
+        {
+          "en": "Most patients experienced only minor side effects from the treatment.",
+          "vi": "Phần lớn bệnh nhân chỉ gặp những tác dụng phụ nhẹ từ phương pháp điều trị."
+        },
+        {
+          "en": "Price played a minor role in customers' decisions.",
+          "vi": "Giá cả chỉ đóng vai trò thứ yếu trong quyết định của khách hàng."
+        }
+      ],
+      "collocations": [
+        "minor changes",
+        "minor problem",
+        "a minor role",
+        "minor injuries"
+      ],
+      "notes": "minor ≠ major",
+      "ipa": "/ˈmaɪnər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/min/minor/minor__us_2.mp3"
+    },
+    {
+      "english": "negate",
+      "vietnamese": "vô hiệu hóa; phủ nhận",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Rising costs could negate the benefits of the new system.",
+          "vi": "Chi phí tăng cao có thể làm mất đi lợi ích của hệ thống mới."
+        },
+        {
+          "en": "One poor decision can negate years of careful planning.",
+          "vi": "Một quyết định tồi có thể vô hiệu hóa nhiều năm lên kế hoạch cẩn thận."
+        },
+        {
+          "en": "The new evidence does not negate the earlier findings.",
+          "vi": "Bằng chứng mới không phủ nhận những phát hiện trước đó."
+        }
+      ],
+      "collocations": [
+        "negate the effect",
+        "negate the benefits",
+        "negate the need"
+      ],
+      "notes": null,
+      "ipa": "/nɪˈɡeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/neg/negat/negate__us_1.mp3"
+    },
+    {
+      "english": "outcome",
+      "vietnamese": "kết quả; hệ quả",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Nobody could predict the outcome of the negotiations.",
+          "vi": "Không ai có thể dự đoán kết quả của cuộc đàm phán."
+        },
+        {
+          "en": "Early treatment usually leads to better outcomes for patients.",
+          "vi": "Điều trị sớm thường mang lại kết quả tốt hơn cho bệnh nhân."
+        },
+        {
+          "en": "We are still waiting for the outcome of the review.",
+          "vi": "Chúng tôi vẫn đang chờ kết quả của đợt xem xét."
+        }
+      ],
+      "collocations": [
+        "the outcome of",
+        "a positive outcome",
+        "predict the outcome",
+        "learning outcomes"
+      ],
+      "notes": null,
+      "ipa": "/ˈaʊtkʌm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/out/outco/outcome__us_1.mp3"
+    },
+    {
+      "english": "partner",
+      "vietnamese": "đối tác; cộng sự",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The firm is looking for a local partner to enter the Asian market.",
+          "vi": "Công ty đang tìm một đối tác địa phương để thâm nhập thị trường châu Á."
+        },
+        {
+          "en": "Over the past decade, its neighbor has become the country's largest trading partner.",
+          "vi": "Trong thập kỷ qua, nước láng giềng đã trở thành đối tác thương mại lớn nhất của quốc gia này."
+        },
+        {
+          "en": "Students worked with a partner to complete the experiment.",
+          "vi": "Sinh viên làm việc theo cặp với một bạn để hoàn thành thí nghiệm."
+        }
+      ],
+      "collocations": [
+        "business partner",
+        "trading partner",
+        "senior partner",
+        "partner with"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɑːrtnər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/partn/partner__us_1.mp3"
+    },
+    {
+      "english": "philosophy",
+      "vietnamese": "triết học; triết lý; quan điểm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She studied philosophy and economics at university.",
+          "vi": "Cô ấy học triết học và kinh tế học ở trường đại học."
+        },
+        {
+          "en": "The company's philosophy is to put customers first.",
+          "vi": "Triết lý của công ty là đặt khách hàng lên hàng đầu."
+        },
+        {
+          "en": "His teaching philosophy focuses on learning through practice.",
+          "vi": "Quan điểm giảng dạy của thầy ấy tập trung vào việc học qua thực hành."
+        }
+      ],
+      "collocations": [
+        "political philosophy",
+        "moral philosophy",
+        "business philosophy",
+        "philosophy of"
+      ],
+      "notes": null,
+      "ipa": "/fəˈlɑːsəfi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/phi/philo/philosophy__us_1.mp3"
+    },
+    {
+      "english": "physical",
+      "vietnamese": "thể chất; vật lý; vật chất",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Regular physical activity reduces the risk of many diseases.",
+          "vi": "Hoạt động thể chất thường xuyên giúp giảm nguy cơ mắc nhiều bệnh."
+        },
+        {
+          "en": "The job involves a lot of physical work outdoors.",
+          "vi": "Công việc này đòi hỏi nhiều lao động chân tay ngoài trời."
+        },
+        {
+          "en": "Many shoppers now prefer online stores to physical shops.",
+          "vi": "Nhiều người mua sắm hiện nay thích cửa hàng trực tuyến hơn cửa hàng thực tế."
+        }
+      ],
+      "collocations": [
+        "physical activity",
+        "physical health",
+        "physical exercise",
+        "physical environment"
+      ],
+      "notes": "physical (thể chất) ≠ physics (môn vật lý)",
+      "ipa": "/ˈfɪzɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/phy/physi/physical__us_1.mp3"
+    },
+    {
+      "english": "proportion",
+      "vietnamese": "tỷ lệ; phần; sự cân đối",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A large proportion of students work part-time while studying.",
+          "vi": "Một tỷ lệ lớn sinh viên vừa học vừa làm thêm bán thời gian."
+        },
+        {
+          "en": "The proportion of older people in the population is rising.",
+          "vi": "Tỷ lệ người cao tuổi trong dân số đang tăng lên."
+        },
+        {
+          "en": "Taxes should be paid in proportion to income.",
+          "vi": "Thuế nên được đóng theo tỷ lệ tương ứng với thu nhập."
+        }
+      ],
+      "collocations": [
+        "a large proportion of",
+        "the proportion of",
+        "in proportion to",
+        "a high proportion"
+      ],
+      "notes": "in proportion to = tương xứng với",
+      "ipa": "/prəˈpɔːrʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/propo/proportion__us_1.mp3"
+    },
+    {
+      "english": "publish",
+      "vietnamese": "xuất bản; công bố; đăng tải",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The study was published in a leading medical journal.",
+          "vi": "Nghiên cứu này đã được đăng trên một tạp chí y khoa hàng đầu."
+        },
+        {
+          "en": "The government will publish the full report next month.",
+          "vi": "Chính phủ sẽ công bố toàn bộ bản báo cáo vào tháng tới."
+        },
+        {
+          "en": "She has published three books on urban planning.",
+          "vi": "Bà ấy đã xuất bản ba cuốn sách về quy hoạch đô thị."
+        }
+      ],
+      "collocations": [
+        "publish a report",
+        "publish research",
+        "published in a journal",
+        "recently published"
+      ],
+      "notes": null,
+      "ipa": "/ˈpʌblɪʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pub/publi/publish__us_1.mp3"
+    },
+    {
+      "english": "react",
+      "vietnamese": "phản ứng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "How did investors react to the news?",
+          "vi": "Các nhà đầu tư đã phản ứng thế nào trước tin tức này?"
+        },
+        {
+          "en": "The market reacted quickly to the rise in interest rates.",
+          "vi": "Thị trường đã phản ứng nhanh chóng trước việc tăng lãi suất."
+        },
+        {
+          "en": "This metal reacts with oxygen to form a thin coating.",
+          "vi": "Kim loại này phản ứng với oxy để tạo thành một lớp phủ mỏng."
+        }
+      ],
+      "collocations": [
+        "react to",
+        "react quickly",
+        "react with",
+        "react strongly"
+      ],
+      "notes": "react to (sự việc) · react with (chất hóa học)",
+      "ipa": "/riˈækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rea/react/react__us_1.mp3"
+    },
+    {
+      "english": "register",
+      "vietnamese": "đăng ký; ghi danh; sổ đăng ký",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "All participants must register before the conference begins.",
+          "vi": "Tất cả người tham dự phải đăng ký trước khi hội nghị bắt đầu."
+        },
+        {
+          "en": "More than two hundred students registered for the course this year.",
+          "vi": "Năm nay có hơn hai trăm sinh viên ghi danh vào khóa học."
+        },
+        {
+          "en": "The organization is officially registered as a charity.",
+          "vi": "Tổ chức này được đăng ký chính thức là một tổ chức từ thiện."
+        }
+      ],
+      "collocations": [
+        "register for",
+        "register a company",
+        "officially registered"
+      ],
+      "notes": "register for + khóa học/sự kiện",
+      "ipa": "/ˈredʒɪstər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regis/register__us_1.mp3"
+    },
+    {
+      "english": "rely",
+      "vietnamese": "dựa vào; phụ thuộc vào; tin cậy",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many small farmers rely on rain to water their crops.",
+          "vi": "Nhiều nông dân nhỏ phụ thuộc vào nước mưa để tưới cây trồng."
+        },
+        {
+          "en": "The study relied heavily on data from online surveys.",
+          "vi": "Nghiên cứu này dựa rất nhiều vào dữ liệu từ các cuộc khảo sát trực tuyến."
+        },
+        {
+          "en": "You can rely on her to finish the task on time.",
+          "vi": "Bạn có thể tin tưởng rằng cô ấy sẽ hoàn thành nhiệm vụ đúng hạn."
+        }
+      ],
+      "collocations": [
+        "rely on",
+        "rely heavily on",
+        "rely on data"
+      ],
+      "notes": "rely on/upon + danh từ",
+      "ipa": "/rɪˈlaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rel/rely_/rely__us_1.mp3"
+    },
+    {
+      "english": "remove",
+      "vietnamese": "loại bỏ; gỡ bỏ; di dời",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The new law removes barriers to international trade.",
+          "vi": "Luật mới gỡ bỏ các rào cản đối với thương mại quốc tế."
+        },
+        {
+          "en": "Workers removed the old equipment from the laboratory.",
+          "vi": "Công nhân đã di dời thiết bị cũ ra khỏi phòng thí nghiệm."
+        },
+        {
+          "en": "Incomplete responses were removed from the final analysis.",
+          "vi": "Những câu trả lời chưa đầy đủ đã bị loại khỏi phần phân tích cuối cùng."
+        }
+      ],
+      "collocations": [
+        "remove from",
+        "remove barriers",
+        "completely remove"
+      ],
+      "notes": "remove A from B",
+      "ipa": "/rɪˈmuːv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rem/remov/remove__us_1.mp3"
+    },
+    {
+      "english": "scheme",
+      "vietnamese": "kế hoạch; chương trình; âm mưu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The government launched a scheme to help first-time home buyers.",
+          "vi": "Chính phủ đã khởi động một chương trình hỗ trợ những người lần đầu mua nhà."
+        },
+        {
+          "en": "Employees can join the company pension scheme after six months.",
+          "vi": "Nhân viên có thể tham gia chương trình lương hưu của công ty sau sáu tháng."
+        },
+        {
+          "en": "Police uncovered a scheme to cheat investors out of millions.",
+          "vi": "Cảnh sát đã phát hiện một âm mưu lừa đảo các nhà đầu tư hàng triệu đô la."
+        }
+      ],
+      "collocations": [
+        "pension scheme",
+        "launch a scheme",
+        "pilot scheme",
+        "a scheme to"
+      ],
+      "notes": "Anh: scheme thường trung tính · Mỹ: hay mang nghĩa âm mưu",
+      "ipa": "/skiːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sch/schem/scheme__us_1.mp3"
+    },
+    {
+      "english": "sequence",
+      "vietnamese": "trình tự; chuỗi; dãy",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The steps must be carried out in the correct sequence.",
+          "vi": "Các bước phải được thực hiện theo đúng trình tự."
+        },
+        {
+          "en": "Scientists have mapped the DNA sequence of the virus.",
+          "vi": "Các nhà khoa học đã giải mã trình tự ADN của loại virus này."
+        },
+        {
+          "en": "The report describes a sequence of events that led to the crisis.",
+          "vi": "Bản báo cáo mô tả chuỗi sự kiện dẫn đến cuộc khủng hoảng."
+        }
+      ],
+      "collocations": [
+        "a sequence of events",
+        "in sequence",
+        "the correct sequence",
+        "DNA sequence"
+      ],
+      "notes": null,
+      "ipa": "/ˈsiːkwəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/seq/seque/sequence__us_2.mp3"
+    },
+    {
+      "english": "sex",
+      "vietnamese": "giới tính",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The form asks for your name, age and sex.",
+          "vi": "Mẫu đơn yêu cầu điền tên, tuổi và giới tính của bạn."
+        },
+        {
+          "en": "Participants were divided into groups by age and sex.",
+          "vi": "Những người tham gia được chia thành các nhóm theo độ tuổi và giới tính."
+        },
+        {
+          "en": "The law bans discrimination on the basis of sex.",
+          "vi": "Luật pháp cấm phân biệt đối xử dựa trên giới tính."
+        }
+      ],
+      "collocations": [
+        "age and sex",
+        "the opposite sex",
+        "on the basis of sex"
+      ],
+      "notes": "sex (giới tính sinh học) · gender (giới tính xã hội)",
+      "ipa": "/seks/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sex/sex__/sex__us_1.mp3"
+    },
+    {
+      "english": "shift",
+      "vietnamese": "sự thay đổi; sự chuyển dịch; ca làm việc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There has been a major shift in public attitudes towards recycling.",
+          "vi": "Đã có một sự thay đổi lớn trong thái độ của công chúng đối với việc tái chế."
+        },
+        {
+          "en": "The economy is seeing a shift from manufacturing to services.",
+          "vi": "Nền kinh tế đang chứng kiến sự chuyển dịch từ sản xuất sang dịch vụ."
+        },
+        {
+          "en": "Nurses at the hospital often work twelve-hour night shifts.",
+          "vi": "Các y tá ở bệnh viện thường làm ca đêm kéo dài mười hai tiếng."
+        }
+      ],
+      "collocations": [
+        "a shift in",
+        "a major shift",
+        "shift toward",
+        "night shift"
+      ],
+      "notes": null,
+      "ipa": "/ʃɪft/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/shi/shift/shift__us_1.mp3"
+    },
+    {
+      "english": "specify",
+      "vietnamese": "nêu rõ; chỉ định cụ thể",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The contract specifies the date by which the work must be finished.",
+          "vi": "Hợp đồng nêu rõ ngày mà công việc phải được hoàn thành."
+        },
+        {
+          "en": "Please specify your preferred start date on the application form.",
+          "vi": "Vui lòng ghi rõ ngày bắt đầu mong muốn của bạn trong đơn đăng ký."
+        },
+        {
+          "en": "The rules do not specify how the money should be spent.",
+          "vi": "Các quy định không nêu rõ số tiền nên được chi tiêu như thế nào."
+        }
+      ],
+      "collocations": [
+        "clearly specify",
+        "specify the date",
+        "unless otherwise specified"
+      ],
+      "notes": null,
+      "ipa": "/ˈspesɪfaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spe/speci/specify__us_1.mp3"
+    },
+    {
+      "english": "sufficient",
+      "vietnamese": "đủ; đầy đủ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "There is not sufficient evidence to support this claim.",
+          "vi": "Không có đủ bằng chứng để ủng hộ nhận định này."
+        },
+        {
+          "en": "Make sure you allow sufficient time to complete the test.",
+          "vi": "Hãy đảm bảo bạn dành đủ thời gian để hoàn thành bài kiểm tra."
+        },
+        {
+          "en": "A small increase in funding will not be sufficient.",
+          "vi": "Một khoản tăng ngân sách nhỏ sẽ không đủ."
+        }
+      ],
+      "collocations": [
+        "sufficient evidence",
+        "sufficient time",
+        "sufficient funds",
+        "sufficient to"
+      ],
+      "notes": "sufficient ≠ insufficient (không đủ)",
+      "ipa": "/səˈfɪʃnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/suf/suffi/sufficient__us_1.mp3"
+    },
+    {
+      "english": "task",
+      "vietnamese": "nhiệm vụ; công việc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Each member of the team was given a specific task.",
+          "vi": "Mỗi thành viên trong nhóm được giao một nhiệm vụ cụ thể."
+        },
+        {
+          "en": "Finding enough volunteers proved to be a difficult task.",
+          "vi": "Việc tìm đủ tình nguyện viên hóa ra là một nhiệm vụ khó khăn."
+        },
+        {
+          "en": "Computers can now perform many tasks that once required humans.",
+          "vi": "Máy tính giờ đây có thể thực hiện nhiều công việc từng cần đến con người."
+        }
+      ],
+      "collocations": [
+        "perform a task",
+        "a difficult task",
+        "complete a task",
+        "the task of"
+      ],
+      "notes": null,
+      "ipa": "/tæsk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tas/task_/task__us_1.mp3"
+    },
+    {
+      "english": "technical",
+      "vietnamese": "kỹ thuật; chuyên môn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The launch was delayed because of a technical problem.",
+          "vi": "Buổi ra mắt bị hoãn vì một sự cố kỹ thuật."
+        },
+        {
+          "en": "Try to avoid technical terms when writing for the general public.",
+          "vi": "Hãy cố tránh dùng thuật ngữ chuyên môn khi viết cho công chúng."
+        },
+        {
+          "en": "Our company provides technical support to customers around the clock.",
+          "vi": "Công ty chúng tôi cung cấp hỗ trợ kỹ thuật cho khách hàng suốt ngày đêm."
+        }
+      ],
+      "collocations": [
+        "technical support",
+        "technical problem",
+        "technical terms",
+        "technical skills"
+      ],
+      "notes": null,
+      "ipa": "/ˈteknɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tec/techn/technical__us_2.mp3"
+    },
+    {
+      "english": "technique",
+      "vietnamese": "kỹ thuật; phương pháp; kỹ năng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The researchers used a new technique to measure brain activity.",
+          "vi": "Các nhà nghiên cứu đã dùng một kỹ thuật mới để đo hoạt động của não."
+        },
+        {
+          "en": "Good teachers use a range of techniques to keep students interested.",
+          "vi": "Giáo viên giỏi sử dụng nhiều phương pháp khác nhau để giữ hứng thú cho học sinh."
+        },
+        {
+          "en": "Her writing technique improved a lot during the course.",
+          "vi": "Kỹ năng viết của cô ấy đã tiến bộ nhiều trong suốt khóa học."
+        }
+      ],
+      "collocations": [
+        "a new technique",
+        "use a technique",
+        "techniques for",
+        "management techniques"
+      ],
+      "notes": "technique (n: kỹ thuật, cách làm) ≠ technical (adj)",
+      "ipa": "/tekˈniːk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tec/techn/technique__us_2.mp3"
+    },
+    {
+      "english": "technology",
+      "vietnamese": "công nghệ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "New technology has changed the way people work.",
+          "vi": "Công nghệ mới đã thay đổi cách mọi người làm việc."
+        },
+        {
+          "en": "Schools are spending more on information technology every year.",
+          "vi": "Các trường học đang chi tiêu ngày càng nhiều hơn cho công nghệ thông tin mỗi năm."
+        },
+        {
+          "en": "Advances in medical technology have helped people live longer.",
+          "vi": "Những tiến bộ trong công nghệ y tế đã giúp con người sống lâu hơn."
+        }
+      ],
+      "collocations": [
+        "new technology",
+        "information technology",
+        "advances in technology",
+        "modern technology"
+      ],
+      "notes": null,
+      "ipa": "/tekˈnɑːlədʒi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tec/techn/technology__us_1.mp3"
+    },
+    {
+      "english": "valid",
+      "vietnamese": "hợp lệ; có giá trị; có cơ sở",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "You need a valid passport to travel abroad.",
+          "vi": "Bạn cần một hộ chiếu còn hiệu lực để đi nước ngoài."
+        },
+        {
+          "en": "The ticket is valid for three months from the date of purchase.",
+          "vi": "Vé có giá trị trong ba tháng kể từ ngày mua."
+        },
+        {
+          "en": "She raised a valid point about the cost of the project.",
+          "vi": "Cô ấy đã nêu ra một ý kiến có cơ sở về chi phí của dự án."
+        }
+      ],
+      "collocations": [
+        "a valid point",
+        "valid for",
+        "a valid passport",
+        "valid reason"
+      ],
+      "notes": "valid ≠ invalid (không hợp lệ)",
+      "ipa": "/ˈvælɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/val/valid/valid__us_1.mp3"
+    },
+    {
+      "english": "volume",
+      "vietnamese": "khối lượng; thể tích; âm lượng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The volume of online sales has doubled in five years.",
+          "vi": "Khối lượng hàng bán trực tuyến đã tăng gấp đôi trong năm năm."
+        },
+        {
+          "en": "Measure the volume of water in each container.",
+          "vi": "Hãy đo thể tích nước trong mỗi bình chứa."
+        },
+        {
+          "en": "Could you turn down the volume during the meeting?",
+          "vi": "Bạn có thể giảm âm lượng trong lúc họp được không?"
+        }
+      ],
+      "collocations": [
+        "the volume of",
+        "traffic volume",
+        "sales volume",
+        "turn down the volume"
+      ],
+      "notes": null,
+      "ipa": "/ˈvɑːljəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vol/volum/volume__us_2_rr.mp3"
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.501–2.000 · Bộ 2",
+    "description": "New General Service List, thứ hạng 1.501–2.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-4-02"
+  },
+  "cards": [
+    {
+      "english": "expense",
+      "vietnamese": "chi phí; phí tổn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Rent is our biggest expense every month.",
+          "vi": "Tiền thuê nhà là khoản chi phí lớn nhất của chúng tôi mỗi tháng."
+        },
+        {
+          "en": "The company will cover all your travel expenses.",
+          "vi": "Công ty sẽ chi trả toàn bộ chi phí đi lại của bạn."
+        },
+        {
+          "en": "We had to cut our living expenses after I lost my job.",
+          "vi": "Chúng tôi phải cắt giảm chi phí sinh hoạt sau khi tôi mất việc."
+        }
+      ],
+      "collocations": [
+        "travel expenses",
+        "living expenses",
+        "cover the expense",
+        "at the expense of"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈspens/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/expen/expense__us_4.mp3"
+    },
+    {
+      "english": "channel",
+      "vietnamese": "kênh (truyền hình); kênh (liên lạc, phân phối)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "What channel is the football game on tonight?",
+          "vi": "Tối nay trận bóng đá chiếu trên kênh nào?"
+        },
+        {
+          "en": "My dad keeps changing the channel during the ads.",
+          "vi": "Bố tôi cứ chuyển kênh mỗi khi có quảng cáo."
+        },
+        {
+          "en": "Customers can contact us through several channels, including email and online chat.",
+          "vi": "Khách hàng có thể liên hệ với chúng tôi qua nhiều kênh, trong đó có email và trò chuyện trực tuyến."
+        }
+      ],
+      "collocations": [
+        "change the channel",
+        "TV channel",
+        "news channel",
+        "communication channels"
+      ],
+      "notes": null,
+      "ipa": "/ˈtʃænl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chann/channel__us_1.mp3"
+    },
+    {
+      "english": "investigate",
+      "vietnamese": "điều tra; nghiên cứu, tìm hiểu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The police are investigating the cause of the fire.",
+          "vi": "Cảnh sát đang điều tra nguyên nhân vụ cháy."
+        },
+        {
+          "en": "Scientists want to investigate how sleep affects memory.",
+          "vi": "Các nhà khoa học muốn nghiên cứu xem giấc ngủ ảnh hưởng đến trí nhớ như thế nào."
+        },
+        {
+          "en": "I heard a strange noise, so I went downstairs to investigate.",
+          "vi": "Tôi nghe thấy một tiếng động lạ nên đi xuống nhà để tìm hiểu."
+        }
+      ],
+      "collocations": [
+        "investigate the cause",
+        "fully investigate",
+        "investigate a complaint"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈvestɪɡeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inv/inves/investigate__us_1.mp3"
+    },
+    {
+      "english": "recommendation",
+      "vietnamese": "lời gợi ý, đề xuất; sự giới thiệu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Do you have any recommendations for a good restaurant nearby?",
+          "vi": "Bạn có gợi ý nhà hàng nào ngon gần đây không?"
+        },
+        {
+          "en": "The report makes several recommendations to improve safety at work.",
+          "vi": "Bản báo cáo đưa ra một số đề xuất nhằm cải thiện an toàn lao động."
+        },
+        {
+          "en": "I bought this book on my teacher's recommendation.",
+          "vi": "Tôi mua cuốn sách này theo lời giới thiệu của thầy giáo."
+        }
+      ],
+      "collocations": [
+        "make a recommendation",
+        "strong recommendation",
+        "letter of recommendation",
+        "on someone's recommendation"
+      ],
+      "notes": null,
+      "ipa": "/ˌrekəmenˈdeɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rec/recom/recommendation__us_1.mp3"
+    },
+    {
+      "english": "rank",
+      "vietnamese": "xếp hạng; đứng (ở vị trí, thứ hạng)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The city is ranked among the safest places to live.",
+          "vi": "Thành phố này được xếp vào hàng những nơi an toàn nhất để sinh sống."
+        },
+        {
+          "en": "Our university ranks third in the country for engineering.",
+          "vi": "Trường đại học của chúng tôi đứng thứ ba cả nước về ngành kỹ thuật."
+        },
+        {
+          "en": "Please rank these five tasks from most to least important.",
+          "vi": "Hãy xếp năm nhiệm vụ này theo thứ tự từ quan trọng nhất đến ít quan trọng nhất."
+        }
+      ],
+      "collocations": [
+        "rank highly",
+        "rank first",
+        "rank among"
+      ],
+      "notes": "danh từ: rank = cấp bậc, thứ hạng",
+      "ipa": "/ræŋk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ran/rank_/rank__us_1.mp3"
+    },
+    {
+      "english": "typical",
+      "vietnamese": "điển hình; đặc trưng; thường thấy",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "A typical day for me starts at six in the morning.",
+          "vi": "Một ngày điển hình của tôi bắt đầu lúc sáu giờ sáng."
+        },
+        {
+          "en": "This hot, rainy weather is typical of the south in summer.",
+          "vi": "Thời tiết nóng và mưa nhiều thế này là đặc trưng của miền Nam vào mùa hè."
+        },
+        {
+          "en": "It's typical of him to arrive late and blame the traffic.",
+          "vi": "Đến muộn rồi đổ lỗi cho giao thông là chuyện thường thấy ở anh ta."
+        }
+      ],
+      "collocations": [
+        "typical example",
+        "typical day",
+        "typical of",
+        "fairly typical"
+      ],
+      "notes": "typical of sb/sth",
+      "ipa": "/ˈtɪpɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/typ/typic/typical__us_2.mp3"
+    },
+    {
+      "english": "west",
+      "vietnamese": "phía tây; hướng tây",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The sun rises in the east and sets in the west.",
+          "vi": "Mặt trời mọc ở hướng đông và lặn ở hướng tây."
+        },
+        {
+          "en": "My grandparents live in a small village in the west of the country.",
+          "vi": "Ông bà tôi sống ở một ngôi làng nhỏ phía tây đất nước."
+        },
+        {
+          "en": "We drove west for three hours before stopping for lunch.",
+          "vi": "Chúng tôi lái xe về hướng tây ba tiếng rồi mới dừng lại ăn trưa."
+        }
+      ],
+      "collocations": [
+        "in the west",
+        "to the west of",
+        "head west",
+        "west coast"
+      ],
+      "notes": null,
+      "ipa": "/west/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wes/west_/west__us_1.mp3"
+    },
+    {
+      "english": "friendly",
+      "vietnamese": "thân thiện; thân thiết",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The staff at the hotel were very friendly and helpful.",
+          "vi": "Nhân viên khách sạn rất thân thiện và nhiệt tình."
+        },
+        {
+          "en": "She gave me a friendly smile when I walked in.",
+          "vi": "Cô ấy nở một nụ cười thân thiện với tôi khi tôi bước vào."
+        },
+        {
+          "en": "We've been friendly with our neighbors for many years.",
+          "vi": "Chúng tôi đã thân thiết với hàng xóm nhiều năm nay."
+        }
+      ],
+      "collocations": [
+        "friendly smile",
+        "friendly staff",
+        "be friendly with",
+        "environmentally friendly"
+      ],
+      "notes": "friendly là tính từ, không phải trạng từ",
+      "ipa": "/ˈfrendli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fri/frien/friendly__us_1.mp3"
+    },
+    {
+      "english": "resident",
+      "vietnamese": "cư dân; người sinh sống (ở một nơi)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Local residents are complaining about the noise from the new bar.",
+          "vi": "Cư dân địa phương đang phàn nàn về tiếng ồn từ quán bar mới."
+        },
+        {
+          "en": "Parking on this street is for residents only.",
+          "vi": "Chỗ đỗ xe trên con phố này chỉ dành cho cư dân."
+        },
+        {
+          "en": "She has been a resident of this town for twenty years.",
+          "vi": "Bà ấy đã sinh sống ở thị trấn này được hai mươi năm."
+        }
+      ],
+      "collocations": [
+        "local residents",
+        "resident of",
+        "permanent resident"
+      ],
+      "notes": null,
+      "ipa": "/ˈrezɪdənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/resid/resident__us_1_rr.mp3"
+    },
+    {
+      "english": "provision",
+      "vietnamese": "sự cung cấp; điều khoản; lương thực dự trữ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The government is responsible for the provision of clean water.",
+          "vi": "Chính phủ chịu trách nhiệm về việc cung cấp nước sạch."
+        },
+        {
+          "en": "The contract includes a provision for extra pay on holidays.",
+          "vi": "Hợp đồng có một điều khoản về việc trả thêm lương vào ngày lễ."
+        },
+        {
+          "en": "The hikers carried enough provisions for a week in the mountains.",
+          "vi": "Những người leo núi mang đủ lương thực cho một tuần ở trên núi."
+        }
+      ],
+      "collocations": [
+        "provision of services",
+        "make provision for",
+        "legal provision"
+      ],
+      "notes": "nghĩa lương thực dự trữ thường dùng ở số nhiều: provisions",
+      "ipa": "/prəˈvɪʒn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/provi/provision__us_1.mp3"
+    },
+    {
+      "english": "concentrate",
+      "vietnamese": "tập trung",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I can't concentrate with all this noise outside.",
+          "vi": "Bên ngoài ồn ào thế này tôi không thể tập trung được."
+        },
+        {
+          "en": "You should concentrate on your studies before the exam.",
+          "vi": "Bạn nên tập trung vào việc học trước kỳ thi."
+        },
+        {
+          "en": "Most of the country's population is concentrated in big cities.",
+          "vi": "Phần lớn dân số của đất nước tập trung ở các thành phố lớn."
+        }
+      ],
+      "collocations": [
+        "concentrate on",
+        "concentrate hard",
+        "find it hard to concentrate"
+      ],
+      "notes": "concentrate on sth",
+      "ipa": "/ˈkɑːnsntreɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconc/xconcentrate__us_1.mp3"
+    },
+    {
+      "english": "plenty",
+      "vietnamese": "nhiều; dư dả",
+      "part_of_speech": "pronoun",
+      "examples": [
+        {
+          "en": "Don't worry, we have plenty of time before the train leaves.",
+          "vi": "Đừng lo, chúng ta còn nhiều thời gian trước khi tàu chạy."
+        },
+        {
+          "en": "Make sure you drink plenty of water in hot weather.",
+          "vi": "Nhớ uống thật nhiều nước khi trời nóng nhé."
+        },
+        {
+          "en": "There's no need to buy more eggs; we've got plenty.",
+          "vi": "Không cần mua thêm trứng đâu, nhà mình còn nhiều rồi."
+        }
+      ],
+      "collocations": [
+        "plenty of time",
+        "plenty of room",
+        "plenty of opportunities"
+      ],
+      "notes": "plenty of + danh từ đếm được hoặc không đếm được",
+      "ipa": "/ˈplenti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/ple/plent/plenty__us_1.mp3"
+    },
+    {
+      "english": "export",
+      "vietnamese": "xuất khẩu; xuất (tệp, dữ liệu)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Vietnam exports large amounts of rice and coffee every year.",
+          "vi": "Việt Nam xuất khẩu một lượng lớn gạo và cà phê mỗi năm."
+        },
+        {
+          "en": "The factory exports most of its furniture to Europe.",
+          "vi": "Nhà máy xuất khẩu phần lớn đồ nội thất sang châu Âu."
+        },
+        {
+          "en": "You can export the file as a PDF before sending it.",
+          "vi": "Bạn có thể xuất tệp sang định dạng PDF trước khi gửi đi."
+        }
+      ],
+      "collocations": [
+        "export goods",
+        "export to",
+        "export data"
+      ],
+      "notes": "export ≠ import (nhập khẩu)",
+      "ipa": "/ˈekspɔːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/expor/export__us_2.mp3"
+    },
+    {
+      "english": "entirely",
+      "vietnamese": "hoàn toàn",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I'm not entirely sure what time the meeting starts.",
+          "vi": "Tôi không hoàn toàn chắc cuộc họp bắt đầu lúc mấy giờ."
+        },
+        {
+          "en": "The accident was entirely my fault, not the other driver's.",
+          "vi": "Vụ tai nạn hoàn toàn là lỗi của tôi, không phải của người lái xe kia."
+        },
+        {
+          "en": "The house is built almost entirely of wood.",
+          "vi": "Ngôi nhà được xây gần như hoàn toàn bằng gỗ."
+        }
+      ],
+      "collocations": [
+        "entirely different",
+        "not entirely sure",
+        "almost entirely",
+        "entirely possible"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈtaɪərli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ent/entir/entirely__us_3.mp3"
+    },
+    {
+      "english": "strongly",
+      "vietnamese": "mạnh mẽ; kiên quyết; nồng (mùi)",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I strongly recommend booking your tickets as early as possible.",
+          "vi": "Tôi thực sự khuyên bạn nên đặt vé càng sớm càng tốt."
+        },
+        {
+          "en": "Many parents feel strongly about the new school rules.",
+          "vi": "Nhiều phụ huynh có quan điểm rất mạnh mẽ về nội quy mới của trường."
+        },
+        {
+          "en": "The kitchen smelled strongly of garlic and onions.",
+          "vi": "Nhà bếp nồng nặc mùi tỏi và hành."
+        }
+      ],
+      "collocations": [
+        "strongly recommend",
+        "strongly believe",
+        "feel strongly about",
+        "strongly disagree"
+      ],
+      "notes": null,
+      "ipa": "/ˈstrɔːŋli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/stron/strongly__us_1.mp3"
+    },
+    {
+      "english": "bridge",
+      "vietnamese": "cây cầu; cầu nối",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "They are building a new bridge across the river.",
+          "vi": "Người ta đang xây một cây cầu mới bắc qua sông."
+        },
+        {
+          "en": "We walked over the bridge to the old part of town.",
+          "vi": "Chúng tôi đi bộ qua cầu sang khu phố cổ."
+        },
+        {
+          "en": "Music can act as a bridge between different cultures.",
+          "vi": "Âm nhạc có thể là cầu nối giữa các nền văn hóa khác nhau."
+        }
+      ],
+      "collocations": [
+        "cross the bridge",
+        "build a bridge",
+        "bridge over",
+        "bridge between"
+      ],
+      "notes": null,
+      "ipa": "/brɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bri/bridg/bridge__us_1.mp3"
+    },
+    {
+      "english": "consist",
+      "vietnamese": "gồm có, bao gồm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The team consists of five designers and two engineers.",
+          "vi": "Nhóm gồm có năm nhà thiết kế và hai kỹ sư."
+        },
+        {
+          "en": "Breakfast consisted of bread, eggs and a cup of tea.",
+          "vi": "Bữa sáng gồm bánh mì, trứng và một tách trà."
+        },
+        {
+          "en": "The test consists mainly of multiple-choice questions.",
+          "vi": "Bài kiểm tra chủ yếu gồm các câu hỏi trắc nghiệm."
+        }
+      ],
+      "collocations": [
+        "consist of",
+        "consist mainly of",
+        "consist largely of"
+      ],
+      "notes": "consist of sth; không dùng ở thể bị động hay tiếp diễn",
+      "ipa": "/kənˈsɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsist__us_1.mp3"
+    },
+    {
+      "english": "graduate",
+      "vietnamese": "tốt nghiệp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My sister graduated from university last summer.",
+          "vi": "Chị tôi tốt nghiệp đại học vào mùa hè năm ngoái."
+        },
+        {
+          "en": "After he graduates, he wants to work abroad for a year.",
+          "vi": "Sau khi tốt nghiệp, anh ấy muốn ra nước ngoài làm việc một năm."
+        },
+        {
+          "en": "She graduated with a degree in computer science.",
+          "vi": "Cô ấy tốt nghiệp với tấm bằng ngành khoa học máy tính."
+        }
+      ],
+      "collocations": [
+        "graduate from",
+        "graduate with a degree",
+        "graduate from high school"
+      ],
+      "notes": "graduate from + trường; danh từ: graduate = người đã tốt nghiệp",
+      "ipa": "/ˈɡrædʒuət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gra/gradu/graduate__us_1.mp3"
+    },
+    {
+      "english": "brand",
+      "vietnamese": "nhãn hiệu; thương hiệu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Which brand of coffee do you usually buy?",
+          "vi": "Bạn thường mua cà phê của hiệu nào?"
+        },
+        {
+          "en": "The company spent millions building its brand in Asia.",
+          "vi": "Công ty đã chi hàng triệu đô la để xây dựng thương hiệu ở châu Á."
+        },
+        {
+          "en": "Supermarket brands are often just as good as the famous ones.",
+          "vi": "Hàng mang nhãn hiệu của siêu thị thường tốt không kém các hãng nổi tiếng."
+        }
+      ],
+      "collocations": [
+        "brand name",
+        "brand of",
+        "leading brand",
+        "brand image"
+      ],
+      "notes": null,
+      "ipa": "/brænd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bra/brand/brand__us_1.mp3"
+    },
+    {
+      "english": "moral",
+      "vietnamese": "(thuộc) đạo đức",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Parents have a moral duty to take care of their children.",
+          "vi": "Cha mẹ có trách nhiệm về mặt đạo đức phải chăm sóc con cái."
+        },
+        {
+          "en": "Doctors often face difficult moral questions in their work.",
+          "vi": "Các bác sĩ thường phải đối mặt với những câu hỏi khó về đạo đức trong công việc."
+        },
+        {
+          "en": "She has strong moral values and always tells the truth.",
+          "vi": "Cô ấy có những giá trị đạo đức vững vàng và luôn nói thật."
+        }
+      ],
+      "collocations": [
+        "moral duty",
+        "moral values",
+        "moral issue"
+      ],
+      "notes": "danh từ: the moral = bài học rút ra (từ câu chuyện)",
+      "ipa": "/ˈmɔːrəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mor/moral/moral__us_1_rr.mp3"
+    },
+    {
+      "english": "insist",
+      "vietnamese": "nhất quyết; khăng khăng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My mother insisted that I wear a warm coat.",
+          "vi": "Mẹ tôi nhất quyết bắt tôi mặc áo khoác ấm."
+        },
+        {
+          "en": "He insists on paying whenever we eat out together.",
+          "vi": "Lần nào chúng tôi đi ăn cùng nhau anh ấy cũng nhất quyết đòi trả tiền."
+        },
+        {
+          "en": "She insisted she had never seen the man before.",
+          "vi": "Cô ấy khăng khăng rằng mình chưa từng gặp người đàn ông đó."
+        }
+      ],
+      "collocations": [
+        "insist on",
+        "insist that",
+        "insist on paying"
+      ],
+      "notes": "insist on + V-ing; insist that + mệnh đề",
+      "ipa": "/ɪnˈsɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/insis/insist__us_1.mp3"
+    },
+    {
+      "english": "combination",
+      "vietnamese": "sự kết hợp; mã số (khóa)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Success usually comes from a combination of talent and hard work.",
+          "vi": "Thành công thường đến từ sự kết hợp giữa tài năng và sự chăm chỉ."
+        },
+        {
+          "en": "Red and green is an unusual color combination for a kitchen.",
+          "vi": "Đỏ và xanh lá là một sự kết hợp màu lạ cho căn bếp."
+        },
+        {
+          "en": "I forgot the combination to my bike lock.",
+          "vi": "Tôi quên mất mã số khóa xe đạp của mình."
+        }
+      ],
+      "collocations": [
+        "a combination of",
+        "in combination with",
+        "color combination",
+        "unique combination"
+      ],
+      "notes": null,
+      "ipa": "/ˌkɑːmbɪˈneɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/combi/combination__us_1.mp3"
+    },
+    {
+      "english": "abuse",
+      "vietnamese": "sự lạm dụng; lời lăng mạ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new law aims to prevent the abuse of power.",
+          "vi": "Luật mới nhằm ngăn chặn tình trạng lạm dụng quyền lực."
+        },
+        {
+          "en": "Alcohol abuse can cause serious health problems.",
+          "vi": "Lạm dụng rượu bia có thể gây ra những vấn đề sức khỏe nghiêm trọng."
+        },
+        {
+          "en": "Shop staff should not have to put up with abuse from customers.",
+          "vi": "Nhân viên cửa hàng không đáng phải chịu những lời lăng mạ từ khách hàng."
+        }
+      ],
+      "collocations": [
+        "abuse of power",
+        "alcohol abuse",
+        "verbal abuse"
+      ],
+      "notes": "động từ: abuse /əˈbjuːz/; danh từ: abuse /əˈbjuːs/",
+      "ipa": "/əˈbjuːs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/abu/abuse/abuse__us_3.mp3"
+    },
+    {
+      "english": "ice",
+      "vietnamese": "nước đá; băng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Would you like some ice in your drink?",
+          "vi": "Bạn có muốn cho thêm đá vào đồ uống không?"
+        },
+        {
+          "en": "Be careful, the roads are covered in ice this morning.",
+          "vi": "Cẩn thận nhé, sáng nay đường phủ đầy băng."
+        },
+        {
+          "en": "The children went skating on the ice after school.",
+          "vi": "Sau giờ học, bọn trẻ đi trượt trên mặt băng."
+        }
+      ],
+      "collocations": [
+        "ice cube",
+        "thin ice",
+        "covered in ice"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/aɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ice/ice__/ice__us_1.mp3"
+    },
+    {
+      "english": "principal",
+      "vietnamese": "chính, chủ yếu",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Tourism is the principal source of income for the island.",
+          "vi": "Du lịch là nguồn thu nhập chính của hòn đảo."
+        },
+        {
+          "en": "Our principal concern is the safety of the children.",
+          "vi": "Mối quan tâm chính của chúng tôi là sự an toàn của bọn trẻ."
+        },
+        {
+          "en": "The principal reason for the delay was bad weather.",
+          "vi": "Lý do chính của sự chậm trễ là thời tiết xấu."
+        }
+      ],
+      "collocations": [
+        "principal reason",
+        "principal source",
+        "principal aim"
+      ],
+      "notes": "danh từ (Mỹ): hiệu trưởng; principal ≠ principle (nguyên tắc)",
+      "ipa": "/ˈprɪnsəpl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/princ/principal__us_1.mp3"
+    },
+    {
+      "english": "master",
+      "vietnamese": "thành thạo; nắm vững",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "It takes years to master a foreign language.",
+          "vi": "Phải mất nhiều năm mới thành thạo được một ngoại ngữ."
+        },
+        {
+          "en": "Once you master the basic steps, the dance is easy.",
+          "vi": "Một khi đã nắm vững các bước cơ bản thì điệu nhảy này dễ thôi."
+        },
+        {
+          "en": "She mastered the guitar in less than two years.",
+          "vi": "Cô ấy chơi thành thạo đàn guitar chỉ trong chưa đầy hai năm."
+        }
+      ],
+      "collocations": [
+        "master a skill",
+        "master a language",
+        "master the basics"
+      ],
+      "notes": "danh từ: master = bậc thầy; chủ nhân",
+      "ipa": "/ˈmæstər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mas/maste/master__us_2.mp3"
+    },
+    {
+      "english": "definitely",
+      "vietnamese": "chắc chắn; nhất định",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I'll definitely call you when I get home.",
+          "vi": "Về đến nhà tôi nhất định sẽ gọi cho bạn."
+        },
+        {
+          "en": "This is definitely the best pizza I've ever had.",
+          "vi": "Đây chắc chắn là chiếc pizza ngon nhất tôi từng ăn."
+        },
+        {
+          "en": "We're definitely going to need a bigger car next year.",
+          "vi": "Năm sau chắc chắn chúng tôi sẽ cần một chiếc xe lớn hơn."
+        }
+      ],
+      "collocations": [
+        "definitely not",
+        "most definitely",
+        "definitely worth"
+      ],
+      "notes": null,
+      "ipa": "/ˈdefɪnətli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/def/defin/definitely__us_2.mp3"
+    },
+    {
+      "english": "session",
+      "vietnamese": "buổi (học, tập); phiên (họp)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I have a training session at the gym every Tuesday.",
+          "vi": "Tôi có một buổi tập ở phòng gym vào mỗi thứ Ba."
+        },
+        {
+          "en": "The first session of the conference starts at nine.",
+          "vi": "Phiên họp đầu tiên của hội nghị bắt đầu lúc chín giờ."
+        },
+        {
+          "en": "After each session, the teacher gives us some homework.",
+          "vi": "Sau mỗi buổi học, giáo viên giao cho chúng tôi một ít bài tập về nhà."
+        }
+      ],
+      "collocations": [
+        "training session",
+        "practice session",
+        "question-and-answer session"
+      ],
+      "notes": null,
+      "ipa": "/ˈseʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ses/sessi/session__us_3.mp3"
+    },
+    {
+      "english": "grade",
+      "vietnamese": "điểm (số); lớp (ở trường); loại, hạng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She got good grades in math and science this year.",
+          "vi": "Năm nay cô ấy được điểm cao môn toán và khoa học."
+        },
+        {
+          "en": "My son is in the fourth grade at a local school.",
+          "vi": "Con trai tôi đang học lớp bốn ở một trường gần nhà."
+        },
+        {
+          "en": "Eggs are sorted into different grades according to their size.",
+          "vi": "Trứng được phân thành các loại khác nhau theo kích cỡ."
+        }
+      ],
+      "collocations": [
+        "good grades",
+        "get a grade",
+        "high grade"
+      ],
+      "notes": null,
+      "ipa": "/ɡreɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gra/grade/grade__us_1.mp3"
+    },
+    {
+      "english": "nevertheless",
+      "vietnamese": "tuy nhiên; dù vậy",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The weather was terrible; nevertheless, we enjoyed our trip.",
+          "vi": "Thời tiết rất tệ, tuy nhiên chúng tôi vẫn rất thích chuyến đi."
+        },
+        {
+          "en": "It was a hard decision, but nevertheless the right one.",
+          "vi": "Đó là một quyết định khó khăn, nhưng dù vậy vẫn là quyết định đúng đắn."
+        },
+        {
+          "en": "He knew the risks but decided to go ahead nevertheless.",
+          "vi": "Anh ấy biết rõ rủi ro nhưng dù vậy vẫn quyết định làm tiếp."
+        }
+      ],
+      "collocations": [
+        "but nevertheless",
+        "nevertheless true",
+        "nevertheless important"
+      ],
+      "notes": null,
+      "ipa": "/ˌnevərðəˈles/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nev/never/nevertheless__us_1.mp3"
+    }
+  ]
+}

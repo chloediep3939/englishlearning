@@ -1,5 +1,7 @@
 import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { flashcardsDb, getAudioBucket } from '@/lib/db';
+import { BROWSER_UA, isAllowedOxfordUrl } from '@/lib/oxford/pronunciation';
+import { audioKey } from '@/lib/oxford/persist';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -26,19 +28,41 @@ export async function GET(
     }
 
     const card = await flashcardsDb.getById(userId, cardId);
-    if (!card || !card.audio_us_key) {
+    if (!card) {
       return new Response('Not found', { status: 404 });
     }
 
-    const bucket = await getAudioBucket();
-    const object = await bucket.get(card.audio_us_key);
-    if (!object) {
+    let buf: ArrayBuffer;
+    if (card.audio_us_key) {
+      const bucket = await getAudioBucket();
+      const object = await bucket.get(card.audio_us_key);
+      if (!object) {
+        return new Response('Not found', { status: 404 });
+      }
+      buf = await object.arrayBuffer();
+    } else if (card.audio_url && isAllowedOxfordUrl(card.audio_url)) {
+      // Thẻ chép từ thư viện bộ từ: mới có URL mp3 Oxford, chưa có bản trong R2.
+      // Proxy lần đầu rồi lưu R2 (best-effort — dev không có R2 vẫn phát được).
+      const upstream = await fetch(card.audio_url, {
+        redirect: 'follow',
+        headers: { 'User-Agent': BROWSER_UA, 'Accept-Language': 'en-US,en' },
+      });
+      if (!upstream.ok) return new Response('Upstream error', { status: 502 });
+      buf = await upstream.arrayBuffer();
+      if (buf.byteLength === 0) return new Response('Empty', { status: 502 });
+      try {
+        const bucket = await getAudioBucket();
+        await bucket.put(audioKey(cardId), buf, { httpMetadata: { contentType: 'audio/mpeg' } });
+        await flashcardsDb.update(userId, cardId, { audio_us_key: audioKey(cardId), audio_us_status: 'ok' });
+      } catch (err) {
+        console.error('[audio GET] R2 cache of Oxford mp3 failed:', err);
+      }
+    } else {
       return new Response('Not found', { status: 404 });
     }
 
-    const buf = await object.arrayBuffer();
     const headers = new Headers();
-    headers.set('Content-Type', object.httpMetadata?.contentType || 'audio/mpeg');
+    headers.set('Content-Type', 'audio/mpeg');
     headers.set('Cache-Control', 'public, max-age=31536000, immutable');
     headers.set('Content-Length', String(buf.byteLength));
     return new Response(buf, { status: 200, headers });

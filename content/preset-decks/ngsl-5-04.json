@@ -1,0 +1,833 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.001–2.500 · Bộ 4",
+    "description": "New General Service List, thứ hạng 2.001–2.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-5-04"
+  },
+  "cards": [
+    {
+      "english": "persuade",
+      "vietnamese": "thuyết phục",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She finally persuaded her parents to let her study abroad.",
+          "vi": "Cuối cùng cô ấy đã thuyết phục được bố mẹ cho mình đi du học."
+        },
+        {
+          "en": "I tried to persuade him to stay, but he left anyway.",
+          "vi": "Tôi đã cố thuyết phục anh ấy ở lại, nhưng anh ấy vẫn đi."
+        },
+        {
+          "en": "It took a long time to persuade my boss that the plan would work.",
+          "vi": "Phải mất rất lâu tôi mới thuyết phục được sếp rằng kế hoạch sẽ thành công."
+        }
+      ],
+      "collocations": [
+        "try to persuade",
+        "persuade someone to do something",
+        "finally persuade"
+      ],
+      "notes": "persuade sb to do sth",
+      "ipa": "/pərˈsweɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/per/persu/persuade__us_2.mp3"
+    },
+    {
+      "english": "inspire",
+      "vietnamese": "truyền cảm hứng; khơi dậy",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Her story inspired me to start running again.",
+          "vi": "Câu chuyện của cô ấy đã truyền cảm hứng cho tôi bắt đầu chạy bộ trở lại."
+        },
+        {
+          "en": "A good teacher can inspire students to love learning.",
+          "vi": "Một giáo viên giỏi có thể truyền cảm hứng để học sinh yêu thích việc học."
+        },
+        {
+          "en": "His calm words inspired confidence in the whole team.",
+          "vi": "Những lời nói điềm tĩnh của anh ấy đã khơi dậy niềm tin trong cả đội."
+        }
+      ],
+      "collocations": [
+        "inspire confidence",
+        "inspired by",
+        "inspire someone to do something"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈspaɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/inspi/inspire__us_4.mp3"
+    },
+    {
+      "english": "grand",
+      "vietnamese": "lộng lẫy, tráng lệ; lớn lao",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "They stayed in a grand old hotel near the river.",
+          "vi": "Họ ở trong một khách sạn cổ tráng lệ gần bờ sông."
+        },
+        {
+          "en": "The wedding was held in a grand hall with huge windows.",
+          "vi": "Đám cưới được tổ chức trong một hội trường lộng lẫy với những ô cửa sổ lớn."
+        },
+        {
+          "en": "He has grand plans to open his own restaurant one day.",
+          "vi": "Anh ấy có kế hoạch lớn là một ngày nào đó sẽ mở nhà hàng riêng."
+        }
+      ],
+      "collocations": [
+        "grand hotel",
+        "grand plans",
+        "grand opening"
+      ],
+      "notes": null,
+      "ipa": "/ɡrænd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gra/grand/grand__us_1.mp3"
+    },
+    {
+      "english": "hence",
+      "vietnamese": "vì vậy, do đó",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The roads were icy this morning, hence the long delays.",
+          "vi": "Sáng nay đường đóng băng, vì vậy mới bị chậm trễ lâu như thế."
+        },
+        {
+          "en": "The flights were cheap and hence very popular with students.",
+          "vi": "Các chuyến bay rẻ, do đó rất được sinh viên ưa chuộng."
+        },
+        {
+          "en": "The shop is right next to the station, and hence always busy.",
+          "vi": "Cửa hàng nằm ngay cạnh nhà ga, do đó lúc nào cũng đông khách."
+        }
+      ],
+      "collocations": [
+        "and hence",
+        "hence the name",
+        "hence the need"
+      ],
+      "notes": "Trang trọng, thường dùng trong văn viết",
+      "ipa": "/hens/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hen/hence/hence__us_1.mp3"
+    },
+    {
+      "english": "crew",
+      "vietnamese": "phi hành đoàn, thủy thủ đoàn; đội, nhóm (làm việc)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The flight crew asked everyone to fasten their seat belts.",
+          "vi": "Phi hành đoàn yêu cầu mọi người thắt dây an toàn."
+        },
+        {
+          "en": "The fishing boat had a crew of twelve men.",
+          "vi": "Chiếc thuyền đánh cá có thủy thủ đoàn gồm mười hai người."
+        },
+        {
+          "en": "A film crew was working on our street all day.",
+          "vi": "Một đoàn làm phim đã làm việc trên phố nhà tôi cả ngày."
+        }
+      ],
+      "collocations": [
+        "flight crew",
+        "film crew",
+        "crew member",
+        "cabin crew"
+      ],
+      "notes": null,
+      "ipa": "/kruː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cre/crew_/crew__us_1.mp3"
+    },
+    {
+      "english": "phenomenon",
+      "vietnamese": "hiện tượng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Snow in this part of the country is a rare phenomenon.",
+          "vi": "Tuyết ở vùng này của đất nước là một hiện tượng hiếm gặp."
+        },
+        {
+          "en": "Working from home has become a common phenomenon in recent years.",
+          "vi": "Làm việc tại nhà đã trở thành một hiện tượng phổ biến trong những năm gần đây."
+        },
+        {
+          "en": "Scientists are still trying to explain this strange natural phenomenon.",
+          "vi": "Các nhà khoa học vẫn đang cố giải thích hiện tượng tự nhiên kỳ lạ này."
+        }
+      ],
+      "collocations": [
+        "natural phenomenon",
+        "rare phenomenon",
+        "common phenomenon",
+        "social phenomenon"
+      ],
+      "notes": "Số nhiều: phenomena",
+      "ipa": "/fəˈnɑːmɪnən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/phe/pheno/phenomenon__us_1_rr.mp3"
+    },
+    {
+      "english": "pupil",
+      "vietnamese": "học sinh; con ngươi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our village school has about two hundred pupils.",
+          "vi": "Trường làng chúng tôi có khoảng hai trăm học sinh."
+        },
+        {
+          "en": "Each pupil must bring a packed lunch on Friday.",
+          "vi": "Mỗi học sinh phải mang theo cơm trưa vào thứ Sáu."
+        },
+        {
+          "en": "In bright light, the pupils of your eyes get smaller.",
+          "vi": "Dưới ánh sáng mạnh, con ngươi của mắt sẽ nhỏ lại."
+        }
+      ],
+      "collocations": [
+        "primary school pupil",
+        "former pupil",
+        "pupils and teachers"
+      ],
+      "notes": "Hay dùng trong tiếng Anh-Anh; tiếng Mỹ thường dùng student",
+      "ipa": "/ˈpjuːpl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pup/pupil/pupil__us_1.mp3"
+    },
+    {
+      "english": "false",
+      "vietnamese": "sai; giả, không thật",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Decide whether each of these sentences is true or false.",
+          "vi": "Hãy xác định mỗi câu sau đây là đúng hay sai."
+        },
+        {
+          "en": "He gave the police a false name and address.",
+          "vi": "Anh ta khai tên và địa chỉ giả với cảnh sát."
+        },
+        {
+          "en": "The doctor didn't want to give the family false hope.",
+          "vi": "Bác sĩ không muốn mang lại hy vọng hão huyền cho gia đình."
+        }
+      ],
+      "collocations": [
+        "true or false",
+        "false name",
+        "false hope",
+        "false alarm"
+      ],
+      "notes": null,
+      "ipa": "/fɔːls/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fal/false/false__us_1.mp3"
+    },
+    {
+      "english": "assist",
+      "vietnamese": "hỗ trợ, giúp đỡ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Two nurses assisted the doctor during the operation.",
+          "vi": "Hai y tá đã hỗ trợ bác sĩ trong ca phẫu thuật."
+        },
+        {
+          "en": "Our staff will be happy to assist you with your luggage.",
+          "vi": "Nhân viên của chúng tôi rất sẵn lòng giúp bạn mang hành lý."
+        },
+        {
+          "en": "She was hired to assist the manager with daily tasks.",
+          "vi": "Cô ấy được tuyển để hỗ trợ quản lý trong các công việc hằng ngày."
+        }
+      ],
+      "collocations": [
+        "assist with",
+        "assist in",
+        "assist someone"
+      ],
+      "notes": "assist sb with/in sth",
+      "ipa": "/əˈsɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/assis/assist__us_1.mp3"
+    },
+    {
+      "english": "restore",
+      "vietnamese": "khôi phục; phục hồi, trùng tu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "It took three hours to restore power after the storm.",
+          "vi": "Phải mất ba tiếng mới khôi phục được điện sau cơn bão."
+        },
+        {
+          "en": "They spent two years restoring the old farmhouse.",
+          "vi": "Họ đã mất hai năm để trùng tu ngôi nhà trang trại cũ."
+        },
+        {
+          "en": "The new manager helped restore trust between staff and customers.",
+          "vi": "Người quản lý mới đã giúp khôi phục lòng tin giữa nhân viên và khách hàng."
+        }
+      ],
+      "collocations": [
+        "restore power",
+        "restore trust",
+        "restore order",
+        "fully restored"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈstɔːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/resto/restore__us_1.mp3"
+    },
+    {
+      "english": "formula",
+      "vietnamese": "công thức; sữa công thức",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Can you remember the formula for the area of a circle?",
+          "vi": "Bạn có nhớ công thức tính diện tích hình tròn không?"
+        },
+        {
+          "en": "There is no simple formula for a happy marriage.",
+          "vi": "Không có công thức đơn giản nào cho một cuộc hôn nhân hạnh phúc."
+        },
+        {
+          "en": "She mixed the baby's formula with warm water.",
+          "vi": "Cô ấy pha sữa công thức cho em bé bằng nước ấm."
+        }
+      ],
+      "collocations": [
+        "mathematical formula",
+        "a formula for",
+        "simple formula",
+        "baby formula"
+      ],
+      "notes": "Số nhiều: formulas hoặc formulae",
+      "ipa": "/ˈfɔːrmjələ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/for/formu/formula__us_1.mp3"
+    },
+    {
+      "english": "alter",
+      "vietnamese": "thay đổi; sửa (quần áo)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We had to alter our travel plans because of the rain.",
+          "vi": "Chúng tôi phải thay đổi kế hoạch du lịch vì trời mưa."
+        },
+        {
+          "en": "Moving to the city completely altered her way of life.",
+          "vi": "Việc chuyển lên thành phố đã thay đổi hoàn toàn lối sống của cô ấy."
+        },
+        {
+          "en": "I need to have these trousers altered before the wedding.",
+          "vi": "Tôi cần mang chiếc quần này đi sửa trước đám cưới."
+        }
+      ],
+      "collocations": [
+        "alter plans",
+        "completely alter",
+        "significantly alter"
+      ],
+      "notes": "alter (thay đổi) ≠ altar (bàn thờ)",
+      "ipa": "/ˈɔːltər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/alt/alter/alter__us_4.mp3"
+    },
+    {
+      "english": "perceive",
+      "vietnamese": "nhìn nhận, coi là; nhận thấy",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many people perceive him as shy, but he's actually very friendly.",
+          "vi": "Nhiều người coi anh ấy là người nhút nhát, nhưng thực ra anh ấy rất thân thiện."
+        },
+        {
+          "en": "How is our company perceived by young customers?",
+          "vi": "Công ty chúng ta được khách hàng trẻ nhìn nhận như thế nào?"
+        },
+        {
+          "en": "Children often perceive small changes that adults don't notice.",
+          "vi": "Trẻ em thường nhận thấy những thay đổi nhỏ mà người lớn không để ý."
+        }
+      ],
+      "collocations": [
+        "perceive something as",
+        "widely perceived",
+        "perceive a change"
+      ],
+      "notes": "perceive sb/sth as ...",
+      "ipa": "/pərˈsiːv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/per/perce/perceive__us_1.mp3"
+    },
+    {
+      "english": "routine",
+      "vietnamese": "thói quen hằng ngày; nếp sinh hoạt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Exercise is an important part of my morning routine.",
+          "vi": "Tập thể dục là một phần quan trọng trong thói quen buổi sáng của tôi."
+        },
+        {
+          "en": "Having a new baby completely changed our daily routine.",
+          "vi": "Có thêm em bé đã thay đổi hoàn toàn nếp sinh hoạt hằng ngày của chúng tôi."
+        },
+        {
+          "en": "I'm tired of doing the same boring routine every week.",
+          "vi": "Tôi chán phải lặp lại những việc nhàm chán y như nhau mỗi tuần."
+        }
+      ],
+      "collocations": [
+        "daily routine",
+        "morning routine",
+        "normal routine"
+      ],
+      "notes": null,
+      "ipa": "/ruːˈtiːn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rou/routi/routine__us_1.mp3"
+    },
+    {
+      "english": "sink",
+      "vietnamese": "chìm; lún xuống; (mặt trời) lặn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The small boat hit a rock and sank within minutes.",
+          "vi": "Chiếc thuyền nhỏ đâm vào đá và chìm chỉ trong vài phút."
+        },
+        {
+          "en": "My feet sank into the soft, wet sand.",
+          "vi": "Chân tôi lún xuống lớp cát ướt và mềm."
+        },
+        {
+          "en": "The sun was sinking behind the hills when we got home.",
+          "vi": "Mặt trời đang lặn dần sau những ngọn đồi khi chúng tôi về đến nhà."
+        }
+      ],
+      "collocations": [
+        "sink to the bottom",
+        "sink into",
+        "slowly sink"
+      ],
+      "notes": "sink – sank – sunk",
+      "ipa": "/sɪŋk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sin/sink_/sink__us_1.mp3"
+    },
+    {
+      "english": "stare",
+      "vietnamese": "nhìn chằm chằm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Why is that man over there staring at us?",
+          "vi": "Sao người đàn ông đằng kia cứ nhìn chằm chằm vào chúng ta vậy?"
+        },
+        {
+          "en": "She stared out of the window, lost in thought.",
+          "vi": "Cô ấy nhìn đăm đăm ra ngoài cửa sổ, chìm trong suy nghĩ."
+        },
+        {
+          "en": "It's rude to stare at people on the bus.",
+          "vi": "Nhìn chằm chằm người khác trên xe buýt là bất lịch sự."
+        }
+      ],
+      "collocations": [
+        "stare at",
+        "stare out of the window",
+        "stare into space"
+      ],
+      "notes": "stare at sb/sth",
+      "ipa": "/ster/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sta/stare/stare__us_1.mp3"
+    },
+    {
+      "english": "anymore",
+      "vietnamese": "nữa (không … nữa)",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I don't live in that apartment anymore.",
+          "vi": "Tôi không còn sống ở căn hộ đó nữa."
+        },
+        {
+          "en": "My kids don't want to watch cartoons anymore.",
+          "vi": "Bọn trẻ nhà tôi không muốn xem phim hoạt hình nữa."
+        },
+        {
+          "en": "We can't afford to eat out every weekend anymore.",
+          "vi": "Chúng tôi không còn đủ tiền đi ăn ngoài mỗi cuối tuần nữa."
+        }
+      ],
+      "collocations": [
+        "not anymore",
+        "don't care anymore",
+        "not ... anymore"
+      ],
+      "notes": "Dùng trong câu phủ định/nghi vấn; Anh: any more · Mỹ: anymore",
+      "ipa": "/ˌɛniːˈmɔr/",
+      "audio_src": null
+    },
+    {
+      "english": "hero",
+      "vietnamese": "anh hùng, người hùng; nhân vật chính",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The firefighter became a local hero after saving the child.",
+          "vi": "Người lính cứu hỏa trở thành người hùng của địa phương sau khi cứu đứa bé."
+        },
+        {
+          "en": "My father has always been my hero.",
+          "vi": "Bố luôn là người hùng của tôi."
+        },
+        {
+          "en": "The hero of the story is a young farmer.",
+          "vi": "Nhân vật chính của câu chuyện là một chàng nông dân trẻ."
+        }
+      ],
+      "collocations": [
+        "national hero",
+        "local hero",
+        "true hero"
+      ],
+      "notes": "Số nhiều: heroes",
+      "ipa": "/ˈhɪrəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/her/hero_/hero__us_1_rr.mp3"
+    },
+    {
+      "english": "supporter",
+      "vietnamese": "người ủng hộ; cổ động viên",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Thousands of supporters came to watch the final match.",
+          "vi": "Hàng nghìn cổ động viên đã đến xem trận chung kết."
+        },
+        {
+          "en": "My wife has always been my biggest supporter.",
+          "vi": "Vợ tôi luôn là người ủng hộ tôi nhiều nhất."
+        },
+        {
+          "en": "Supporters of the new park say it will help local families.",
+          "vi": "Những người ủng hộ công viên mới cho rằng nó sẽ giúp ích cho các gia đình trong vùng."
+        }
+      ],
+      "collocations": [
+        "strong supporter",
+        "biggest supporter",
+        "loyal supporter",
+        "football supporter"
+      ],
+      "notes": null,
+      "ipa": "/səˈpɔːrtər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sup/suppo/supporter__us_1.mp3"
+    },
+    {
+      "english": "convert",
+      "vietnamese": "chuyển đổi, quy đổi; cải tạo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "They converted the garage into a small office.",
+          "vi": "Họ đã cải tạo nhà để xe thành một văn phòng nhỏ."
+        },
+        {
+          "en": "Can you convert these prices from dollars to euros?",
+          "vi": "Bạn có thể quy đổi các mức giá này từ đô la sang euro không?"
+        },
+        {
+          "en": "Solar panels convert sunlight into electricity for the whole building.",
+          "vi": "Các tấm pin mặt trời chuyển ánh sáng mặt trời thành điện cho cả tòa nhà."
+        }
+      ],
+      "collocations": [
+        "convert into",
+        "convert to",
+        "convert a file"
+      ],
+      "notes": "convert sth into/to sth",
+      "ipa": "/kənˈvɜːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconv/xconvert__us_1.mp3"
+    },
+    {
+      "english": "steady",
+      "vietnamese": "đều đặn, ổn định; vững",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Prices have seen a steady rise over the past year.",
+          "vi": "Giá cả đã tăng đều đặn trong năm qua."
+        },
+        {
+          "en": "She has a steady job with a good salary.",
+          "vi": "Cô ấy có một công việc ổn định với mức lương tốt."
+        },
+        {
+          "en": "Hold the ladder steady while I climb up.",
+          "vi": "Giữ thang cho vững trong khi tôi trèo lên."
+        }
+      ],
+      "collocations": [
+        "steady job",
+        "steady rise",
+        "steady pace",
+        "steady growth"
+      ],
+      "notes": null,
+      "ipa": "/ˈstedi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ste/stead/steady__us_1.mp3"
+    },
+    {
+      "english": "meter",
+      "vietnamese": "mét; đồng hồ đo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The swimming pool at our school is twenty-five meters long.",
+          "vi": "Hồ bơi ở trường chúng tôi dài hai mươi lăm mét."
+        },
+        {
+          "en": "The tree in our yard is almost ten meters tall.",
+          "vi": "Cái cây trong sân nhà tôi cao gần mười mét."
+        },
+        {
+          "en": "A man from the water company came to read the meter.",
+          "vi": "Một người của công ty cấp nước đã đến ghi chỉ số đồng hồ."
+        }
+      ],
+      "collocations": [
+        "square meter",
+        "read the meter",
+        "parking meter",
+        "gas meter"
+      ],
+      "notes": "Anh: metre · Mỹ: meter",
+      "ipa": "/ˈmiːtər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/met/meter/meter__us_1.mp3"
+    },
+    {
+      "english": "truck",
+      "vietnamese": "xe tải",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A big truck was blocking the road this morning.",
+          "vi": "Sáng nay có một chiếc xe tải lớn chắn ngang đường."
+        },
+        {
+          "en": "My uncle drives a delivery truck for a living.",
+          "vi": "Chú tôi lái xe tải giao hàng để kiếm sống."
+        },
+        {
+          "en": "We rented a truck to move our furniture to the new house.",
+          "vi": "Chúng tôi thuê một chiếc xe tải để chuyển đồ đạc sang nhà mới."
+        }
+      ],
+      "collocations": [
+        "truck driver",
+        "delivery truck",
+        "fire truck",
+        "drive a truck"
+      ],
+      "notes": "Anh: lorry · Mỹ: truck",
+      "ipa": "/trʌk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tru/truck/truck__us_1.mp3"
+    },
+    {
+      "english": "nose",
+      "vietnamese": "mũi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My nose is running because I have a cold.",
+          "vi": "Tôi bị sổ mũi vì cảm lạnh."
+        },
+        {
+          "en": "Please cover your nose and mouth when you sneeze.",
+          "vi": "Hãy che mũi và miệng khi bạn hắt hơi."
+        },
+        {
+          "en": "He fell off his bike and broke his nose.",
+          "vi": "Anh ấy ngã xe đạp và bị gãy mũi."
+        }
+      ],
+      "collocations": [
+        "runny nose",
+        "blow your nose",
+        "broken nose"
+      ],
+      "notes": null,
+      "ipa": "/nəʊz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nos/nose_/nose__us_1.mp3"
+    },
+    {
+      "english": "beside",
+      "vietnamese": "bên cạnh",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "Come and sit beside me on the sofa.",
+          "vi": "Lại đây ngồi cạnh tôi trên ghế sofa."
+        },
+        {
+          "en": "There's a small coffee shop beside the train station.",
+          "vi": "Có một quán cà phê nhỏ bên cạnh ga tàu."
+        },
+        {
+          "en": "She always keeps a glass of water beside her bed.",
+          "vi": "Cô ấy luôn để một cốc nước bên cạnh giường."
+        }
+      ],
+      "collocations": [
+        "sit beside",
+        "beside the road",
+        "beside the river"
+      ],
+      "notes": "beside (bên cạnh) ≠ besides (ngoài ra)",
+      "ipa": "/bɪˈsaɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bes/besid/beside__us_1.mp3"
+    },
+    {
+      "english": "sail",
+      "vietnamese": "đi thuyền (buồm); (tàu) khởi hành",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We sailed around the islands for a whole week.",
+          "vi": "Chúng tôi đi thuyền vòng quanh các hòn đảo suốt một tuần."
+        },
+        {
+          "en": "My grandfather taught me how to sail when I was ten.",
+          "vi": "Ông dạy tôi lái thuyền buồm khi tôi mười tuổi."
+        },
+        {
+          "en": "The ship sails at six o'clock tomorrow morning.",
+          "vi": "Con tàu sẽ khởi hành lúc sáu giờ sáng mai."
+        }
+      ],
+      "collocations": [
+        "go sailing",
+        "set sail",
+        "sail across"
+      ],
+      "notes": null,
+      "ipa": "/seɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sai/sail_/sail__us_1.mp3"
+    },
+    {
+      "english": "disaster",
+      "vietnamese": "thảm họa; chuyện thất bại, tệ hại",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The flood was the worst natural disaster in the region's history.",
+          "vi": "Trận lũ là thảm họa thiên nhiên tồi tệ nhất trong lịch sử khu vực."
+        },
+        {
+          "en": "Our first camping trip was a complete disaster.",
+          "vi": "Chuyến cắm trại đầu tiên của chúng tôi là một thất bại hoàn toàn."
+        },
+        {
+          "en": "Check the weather first, or the picnic could end in disaster.",
+          "vi": "Hãy xem thời tiết trước, không thì buổi dã ngoại có thể kết thúc tệ hại."
+        }
+      ],
+      "collocations": [
+        "natural disaster",
+        "complete disaster",
+        "end in disaster"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈzæstər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/disas/disaster__us_4.mp3"
+    },
+    {
+      "english": "pace",
+      "vietnamese": "tốc độ, nhịp độ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He walks at such a fast pace that it's hard to keep up.",
+          "vi": "Anh ấy đi nhanh đến mức rất khó theo kịp."
+        },
+        {
+          "en": "I prefer the slower pace of life in the countryside.",
+          "vi": "Tôi thích nhịp sống chậm rãi hơn ở vùng quê."
+        },
+        {
+          "en": "With online courses, students can learn at their own pace.",
+          "vi": "Với các khóa học trực tuyến, học sinh có thể học theo tốc độ của riêng mình."
+        }
+      ],
+      "collocations": [
+        "pace of life",
+        "at your own pace",
+        "fast pace",
+        "keep pace with"
+      ],
+      "notes": null,
+      "ipa": "/peɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pac/pace_/pace__us_1.mp3"
+    },
+    {
+      "english": "heavily",
+      "vietnamese": "(mưa) to, nặng hạt; nhiều, nặng nề",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "It rained heavily all night, so the streets flooded.",
+          "vi": "Trời mưa to suốt đêm nên đường phố bị ngập."
+        },
+        {
+          "en": "He was breathing heavily after running up the stairs.",
+          "vi": "Anh ấy thở nặng nhọc sau khi chạy lên cầu thang."
+        },
+        {
+          "en": "The town depends heavily on tourism for jobs.",
+          "vi": "Thị trấn phụ thuộc nhiều vào du lịch để tạo việc làm."
+        }
+      ],
+      "collocations": [
+        "rain heavily",
+        "depend heavily on",
+        "breathe heavily",
+        "heavily influenced"
+      ],
+      "notes": null,
+      "ipa": "/ˈhevɪli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hea/heavi/heavily__us_1.mp3"
+    },
+    {
+      "english": "devote",
+      "vietnamese": "cống hiến; dành (thời gian, công sức)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She devoted her whole life to helping poor children.",
+          "vi": "Bà ấy đã cống hiến cả cuộc đời để giúp đỡ trẻ em nghèo."
+        },
+        {
+          "en": "I devote an hour every evening to learning English.",
+          "vi": "Mỗi tối tôi dành một tiếng để học tiếng Anh."
+        },
+        {
+          "en": "The whole meeting was devoted to planning next year's budget.",
+          "vi": "Cả cuộc họp được dành để lên kế hoạch ngân sách cho năm tới."
+        }
+      ],
+      "collocations": [
+        "devote time to",
+        "devote your life to",
+        "devote attention to"
+      ],
+      "notes": "devote sth to sth/doing sth",
+      "ipa": "/dɪˈvəʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dev/devot/devote__us_1.mp3"
+    }
+  ]
+}

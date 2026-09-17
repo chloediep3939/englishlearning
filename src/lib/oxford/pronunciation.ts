@@ -25,6 +25,24 @@ export interface OxfordPronunciation {
 export const BROWSER_UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
+/**
+ * SSRF guard for proxying a stored Oxford mp3 url: https + an Oxford/OUP host
+ * only. Shared by /api/words/audio/[word] and /api/audio/[cardId].
+ */
+export function isAllowedOxfordUrl(raw: string): boolean {
+  try {
+    const u = new URL(raw);
+    if (u.protocol !== 'https:') return false;
+    return (
+      u.hostname === 'oxfordlearnersdictionaries.com' ||
+      u.hostname.endsWith('.oxfordlearnersdictionaries.com') ||
+      u.hostname.endsWith('.oup.com')
+    );
+  } catch {
+    return false;
+  }
+}
+
 // Shared deadline across the page fetch + the mp3 fetch so a slow Oxford
 // can't stall card creation (see Step 5 — best-effort, must never block).
 const FETCH_TIMEOUT_MS = 6000;

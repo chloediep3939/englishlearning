@@ -1,0 +1,804 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.501–2.809 · Bộ 9",
+    "description": "New General Service List, thứ hạng 2.501–2.809",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-6-09"
+  },
+  "cards": [
+    {
+      "english": "leather",
+      "vietnamese": "da thuộc; đồ da",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My father bought me a brown leather jacket for my birthday.",
+          "vi": "Bố tôi đã mua cho tôi một chiếc áo khoác da màu nâu nhân dịp sinh nhật."
+        },
+        {
+          "en": "These shoes are made of real leather, so they last for years.",
+          "vi": "Đôi giày này làm bằng da thật nên dùng được nhiều năm."
+        },
+        {
+          "en": "She keeps her passport in a small leather bag.",
+          "vi": "Cô ấy cất hộ chiếu trong một chiếc túi da nhỏ."
+        }
+      ],
+      "collocations": [
+        "leather jacket",
+        "real leather",
+        "leather bag",
+        "leather shoes"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈleðər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lea/leath/leather__us_1.mp3"
+    },
+    {
+      "english": "uncertainty",
+      "vietnamese": "sự không chắc chắn; sự bấp bênh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There is a lot of uncertainty about the future of the company.",
+          "vi": "Tương lai của công ty còn rất nhiều điều không chắc chắn."
+        },
+        {
+          "en": "After losing his job, he lived with months of uncertainty.",
+          "vi": "Sau khi mất việc, anh ấy sống trong nhiều tháng bấp bênh."
+        },
+        {
+          "en": "She could hear the uncertainty in her son's voice.",
+          "vi": "Cô ấy nghe ra sự không chắc chắn trong giọng nói của con trai."
+        }
+      ],
+      "collocations": [
+        "uncertainty about",
+        "economic uncertainty",
+        "period of uncertainty"
+      ],
+      "notes": null,
+      "ipa": "/ʌnˈsɜːrtnti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/unc/uncer/uncertainty__us_1.mp3"
+    },
+    {
+      "english": "swear",
+      "vietnamese": "thề; chửi thề",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I swear I didn't tell anyone your secret.",
+          "vi": "Tôi thề là tôi không kể bí mật của bạn cho ai cả."
+        },
+        {
+          "en": "He swore that he would never lie to her again.",
+          "vi": "Anh ấy thề sẽ không bao giờ nói dối cô ấy nữa."
+        },
+        {
+          "en": "Please don't swear in front of the children.",
+          "vi": "Làm ơn đừng chửi thề trước mặt bọn trẻ."
+        }
+      ],
+      "collocations": [
+        "I swear",
+        "swear at someone",
+        "swear an oath"
+      ],
+      "notes": "swear – swore – sworn",
+      "ipa": "/swer/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/swe/swear/swear__us_1.mp3"
+    },
+    {
+      "english": "refugee",
+      "vietnamese": "người tị nạn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The refugees needed food, water and a safe place to sleep.",
+          "vi": "Những người tị nạn cần thức ăn, nước uống và một nơi an toàn để ngủ."
+        },
+        {
+          "en": "Her grandparents came to this country as refugees many years ago.",
+          "vi": "Ông bà cô ấy đến đất nước này với tư cách người tị nạn từ nhiều năm trước."
+        },
+        {
+          "en": "Volunteers at the refugee camp teach English to young children.",
+          "vi": "Các tình nguyện viên ở trại tị nạn dạy tiếng Anh cho trẻ nhỏ."
+        }
+      ],
+      "collocations": [
+        "refugee camp",
+        "refugee children",
+        "become a refugee"
+      ],
+      "notes": null,
+      "ipa": "/ˌrefjuˈdʒiː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ref/refug/refugee__us_1.mp3"
+    },
+    {
+      "english": "shore",
+      "vietnamese": "bờ (biển, hồ, sông)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We walked along the shore and collected shells.",
+          "vi": "Chúng tôi đi dạo dọc bờ biển và nhặt vỏ sò."
+        },
+        {
+          "en": "The boat slowly came back to shore before the storm.",
+          "vi": "Con thuyền từ từ quay vào bờ trước khi cơn bão đến."
+        },
+        {
+          "en": "Their small cabin is on the shore of a quiet lake.",
+          "vi": "Căn nhà gỗ nhỏ của họ nằm bên bờ một hồ nước yên tĩnh."
+        }
+      ],
+      "collocations": [
+        "along the shore",
+        "on the shore",
+        "swim to shore"
+      ],
+      "notes": null,
+      "ipa": "/ʃɔːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sho/shore/shore__us_1.mp3"
+    },
+    {
+      "english": "monthly",
+      "vietnamese": "hằng tháng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Our monthly rent goes up by fifty dollars next year.",
+          "vi": "Tiền thuê nhà hằng tháng của chúng tôi sẽ tăng thêm năm mươi đô vào năm sau."
+        },
+        {
+          "en": "The team has a monthly meeting on the first Friday.",
+          "vi": "Nhóm có một cuộc họp hằng tháng vào thứ Sáu đầu tiên của tháng."
+        },
+        {
+          "en": "How much is your monthly phone bill?",
+          "vi": "Hóa đơn điện thoại hằng tháng của bạn là bao nhiêu?"
+        }
+      ],
+      "collocations": [
+        "monthly rent",
+        "monthly meeting",
+        "monthly payment",
+        "monthly salary"
+      ],
+      "notes": null,
+      "ipa": "/ˈmʌnθli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mon/month/monthly__us_1.mp3"
+    },
+    {
+      "english": "comprise",
+      "vietnamese": "gồm có; cấu thành, chiếm",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The apartment comprises two bedrooms, a kitchen and a small bathroom.",
+          "vi": "Căn hộ gồm hai phòng ngủ, một nhà bếp và một phòng tắm nhỏ."
+        },
+        {
+          "en": "Children comprise about a third of the town's population.",
+          "vi": "Trẻ em chiếm khoảng một phần ba dân số của thị trấn."
+        },
+        {
+          "en": "The group mainly comprises students from nearby universities.",
+          "vi": "Nhóm này chủ yếu gồm sinh viên từ các trường đại học gần đó."
+        }
+      ],
+      "collocations": [
+        "mainly comprise",
+        "be comprised of"
+      ],
+      "notes": "comprise + danh từ (không cần \"of\")",
+      "ipa": "/kəmˈpraɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compr/comprise__us_1.mp3"
+    },
+    {
+      "english": "stir",
+      "vietnamese": "khuấy; cựa quậy",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Stir the sauce constantly so it doesn't burn.",
+          "vi": "Hãy khuấy nước sốt liên tục để nó không bị khét."
+        },
+        {
+          "en": "She added some sugar and stirred her coffee.",
+          "vi": "Cô ấy cho thêm chút đường rồi khuấy cà phê."
+        },
+        {
+          "en": "The baby stirred in his sleep but didn't wake up.",
+          "vi": "Em bé cựa mình trong giấc ngủ nhưng không thức dậy."
+        }
+      ],
+      "collocations": [
+        "stir constantly",
+        "stir well",
+        "stir in"
+      ],
+      "notes": "stir – stirred – stirred",
+      "ipa": "/stɜːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sti/stir_/stir__us_1.mp3"
+    },
+    {
+      "english": "excitement",
+      "vietnamese": "sự phấn khích; sự háo hức",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The children could hardly sleep because of their excitement about the trip.",
+          "vi": "Bọn trẻ gần như không ngủ được vì háo hức về chuyến đi."
+        },
+        {
+          "en": "There was a lot of excitement in the stadium before the final.",
+          "vi": "Sân vận động tràn ngập sự phấn khích trước trận chung kết."
+        },
+        {
+          "en": "She jumped up and down with excitement when she heard the news.",
+          "vi": "Cô ấy nhảy cẫng lên vì phấn khích khi nghe tin."
+        }
+      ],
+      "collocations": [
+        "with excitement",
+        "excitement about",
+        "great excitement",
+        "full of excitement"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈsaɪtmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exc/excit/excitement__us_1.mp3"
+    },
+    {
+      "english": "sigh",
+      "vietnamese": "thở dài",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "He sighed and closed his laptop after a long day.",
+          "vi": "Anh ấy thở dài rồi gập máy tính lại sau một ngày dài."
+        },
+        {
+          "en": "She sighed with relief when her son finally called.",
+          "vi": "Cô ấy thở phào nhẹ nhõm khi con trai cuối cùng cũng gọi điện."
+        },
+        {
+          "en": "Why do you keep sighing when I ask about school?",
+          "vi": "Sao bạn cứ thở dài mỗi khi tôi hỏi về chuyện trường lớp?"
+        }
+      ],
+      "collocations": [
+        "sigh with relief",
+        "sigh deeply",
+        "sigh heavily"
+      ],
+      "notes": null,
+      "ipa": "/saɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sig/sigh_/sigh__us_1.mp3"
+    },
+    {
+      "english": "pregnancy",
+      "vietnamese": "sự mang thai; thai kỳ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She felt tired during the first months of her pregnancy.",
+          "vi": "Cô ấy thấy mệt trong những tháng đầu mang thai."
+        },
+        {
+          "en": "Doctors say women should avoid alcohol during pregnancy.",
+          "vi": "Bác sĩ cho biết phụ nữ nên tránh rượu bia trong thời gian mang thai."
+        },
+        {
+          "en": "You can buy a pregnancy test at any pharmacy.",
+          "vi": "Bạn có thể mua que thử thai ở bất kỳ hiệu thuốc nào."
+        }
+      ],
+      "collocations": [
+        "during pregnancy",
+        "pregnancy test",
+        "early pregnancy",
+        "healthy pregnancy"
+      ],
+      "notes": null,
+      "ipa": "/ˈpreɡnənsi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/pregn/pregnancy__us_1.mp3"
+    },
+    {
+      "english": "experimental",
+      "vietnamese": "thử nghiệm; thể nghiệm",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The new drug is still at an experimental stage.",
+          "vi": "Loại thuốc mới vẫn đang ở giai đoạn thử nghiệm."
+        },
+        {
+          "en": "Their band plays experimental music that mixes jazz and rock.",
+          "vi": "Ban nhạc của họ chơi nhạc thể nghiệm pha trộn giữa jazz và rock."
+        },
+        {
+          "en": "The school is running an experimental program for young readers.",
+          "vi": "Nhà trường đang triển khai một chương trình thử nghiệm dành cho các em nhỏ tập đọc."
+        }
+      ],
+      "collocations": [
+        "experimental stage",
+        "experimental music",
+        "experimental method"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˌsperɪˈmentl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/exper/experimental__us_1.mp3"
+    },
+    {
+      "english": "institutional",
+      "vietnamese": "thuộc tổ chức, cơ quan; thuộc thể chế",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Most of the company's shares are held by institutional investors.",
+          "vi": "Phần lớn cổ phần của công ty do các nhà đầu tư tổ chức nắm giữ."
+        },
+        {
+          "en": "The problem is institutional, so one person cannot solve it alone.",
+          "vi": "Vấn đề nằm ở cơ chế của cả tổ chức, nên một người không thể tự giải quyết được."
+        },
+        {
+          "en": "Our research project could not continue without institutional support.",
+          "vi": "Dự án nghiên cứu của chúng tôi không thể tiếp tục nếu thiếu sự hỗ trợ từ cơ quan."
+        }
+      ],
+      "collocations": [
+        "institutional investors",
+        "institutional support",
+        "institutional reform"
+      ],
+      "notes": null,
+      "ipa": "/ˌɪnstɪˈtuːʃənl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/insti/institutional__us_1.mp3"
+    },
+    {
+      "english": "slice",
+      "vietnamese": "lát; miếng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Would you like another slice of cake?",
+          "vi": "Bạn có muốn ăn thêm một miếng bánh nữa không?"
+        },
+        {
+          "en": "I usually have two slices of toast for breakfast.",
+          "vi": "Bữa sáng tôi thường ăn hai lát bánh mì nướng."
+        },
+        {
+          "en": "Put a thin slice of lemon in each glass.",
+          "vi": "Cho một lát chanh mỏng vào mỗi cốc."
+        }
+      ],
+      "collocations": [
+        "slice of cake",
+        "slice of bread",
+        "thin slice",
+        "slice of pizza"
+      ],
+      "notes": null,
+      "ipa": "/slaɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sli/slice/slice__us_1.mp3"
+    },
+    {
+      "english": "wander",
+      "vietnamese": "đi lang thang; dạo quanh; lơ đãng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We spent the afternoon wandering around the old town.",
+          "vi": "Chúng tôi dành cả buổi chiều dạo quanh khu phố cổ."
+        },
+        {
+          "en": "Don't let the kids wander off in the crowded market.",
+          "vi": "Đừng để bọn trẻ đi lung tung trong khu chợ đông đúc."
+        },
+        {
+          "en": "My mind started to wander during the long meeting.",
+          "vi": "Đầu óc tôi bắt đầu lơ đãng trong cuộc họp dài."
+        }
+      ],
+      "collocations": [
+        "wander around",
+        "wander off",
+        "wander the streets"
+      ],
+      "notes": "wander (đi lang thang) ≠ wonder (tự hỏi)",
+      "ipa": "/ˈwɑːndər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wan/wande/wander__us_1.mp3"
+    },
+    {
+      "english": "empire",
+      "vietnamese": "đế chế; đế quốc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The Roman Empire lasted for hundreds of years.",
+          "vi": "Đế chế La Mã tồn tại suốt hàng trăm năm."
+        },
+        {
+          "en": "In history class, we learned about the rise and fall of ancient empires.",
+          "vi": "Trong giờ lịch sử, chúng tôi học về sự trỗi dậy và sụp đổ của các đế chế cổ đại."
+        },
+        {
+          "en": "She built a business empire from one small bakery.",
+          "vi": "Cô ấy đã gây dựng cả một đế chế kinh doanh từ một tiệm bánh nhỏ."
+        }
+      ],
+      "collocations": [
+        "business empire",
+        "build an empire",
+        "ancient empire"
+      ],
+      "notes": null,
+      "ipa": "/ˈempaɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/emp/empir/empire__us_1.mp3"
+    },
+    {
+      "english": "subsequently",
+      "vietnamese": "sau đó; về sau",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "He started as a waiter and subsequently became the manager of the restaurant.",
+          "vi": "Anh ấy khởi đầu là bồi bàn và sau đó trở thành quản lý của nhà hàng."
+        },
+        {
+          "en": "The flight was delayed and subsequently canceled because of fog.",
+          "vi": "Chuyến bay bị hoãn rồi sau đó bị hủy vì sương mù."
+        },
+        {
+          "en": "She was injured in the first game and subsequently missed the whole season.",
+          "vi": "Cô ấy bị chấn thương ở trận đầu tiên và sau đó phải nghỉ cả mùa giải."
+        }
+      ],
+      "collocations": [
+        "subsequently became",
+        "subsequently published",
+        "subsequently found"
+      ],
+      "notes": null,
+      "ipa": "/ˈsʌbsɪkwəntli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sub/subse/subsequently__us_1_rr.mp3"
+    },
+    {
+      "english": "gentle",
+      "vietnamese": "nhẹ nhàng; hiền lành",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Be gentle with the puppy; he's only a few weeks old.",
+          "vi": "Hãy nhẹ tay với chú chó con, nó mới được vài tuần tuổi thôi."
+        },
+        {
+          "en": "My grandmother was a kind and gentle woman.",
+          "vi": "Bà tôi là một người phụ nữ tốt bụng và hiền lành."
+        },
+        {
+          "en": "A gentle breeze came in through the open window.",
+          "vi": "Một làn gió nhẹ thổi vào qua ô cửa sổ đang mở."
+        }
+      ],
+      "collocations": [
+        "gentle breeze",
+        "be gentle with",
+        "gentle voice",
+        "gentle exercise"
+      ],
+      "notes": null,
+      "ipa": "/ˈdʒentl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gen/gentl/gentle__us_3.mp3"
+    },
+    {
+      "english": "attendance",
+      "vietnamese": "sự có mặt, sự tham dự; số người tham dự",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Good attendance is important if you want to pass this course.",
+          "vi": "Đi học đầy đủ rất quan trọng nếu bạn muốn qua môn này."
+        },
+        {
+          "en": "The teacher takes attendance at the start of every class.",
+          "vi": "Giáo viên điểm danh vào đầu mỗi buổi học."
+        },
+        {
+          "en": "Attendance at the festival was higher than last year.",
+          "vi": "Số người tham dự lễ hội năm nay cao hơn năm ngoái."
+        }
+      ],
+      "collocations": [
+        "take attendance",
+        "attendance at",
+        "good attendance",
+        "high attendance"
+      ],
+      "notes": null,
+      "ipa": "/əˈtendəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/att/atten/attendance__us_1.mp3"
+    },
+    {
+      "english": "ownership",
+      "vietnamese": "quyền sở hữu; việc sở hữu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The restaurant has changed ownership three times in five years.",
+          "vi": "Nhà hàng này đã đổi chủ ba lần trong năm năm."
+        },
+        {
+          "en": "Home ownership is becoming harder for young people.",
+          "vi": "Việc sở hữu nhà ngày càng khó khăn hơn đối với người trẻ."
+        },
+        {
+          "en": "You need these papers to prove ownership of the car.",
+          "vi": "Bạn cần những giấy tờ này để chứng minh quyền sở hữu chiếc xe."
+        }
+      ],
+      "collocations": [
+        "home ownership",
+        "change ownership",
+        "proof of ownership",
+        "private ownership"
+      ],
+      "notes": null,
+      "ipa": "/ˈəʊnərʃɪp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/own/owner/ownership__us_1.mp3"
+    },
+    {
+      "english": "qualification",
+      "vietnamese": "bằng cấp, chứng chỉ; trình độ chuyên môn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She has the right qualifications for the teaching job.",
+          "vi": "Cô ấy có bằng cấp phù hợp với công việc giảng dạy."
+        },
+        {
+          "en": "He left school at sixteen without any formal qualifications.",
+          "vi": "Anh ấy nghỉ học năm mười sáu tuổi mà không có bằng cấp chính thức nào."
+        },
+        {
+          "en": "What qualifications do you need to become a nurse?",
+          "vi": "Bạn cần có bằng cấp gì để trở thành y tá?"
+        }
+      ],
+      "collocations": [
+        "formal qualifications",
+        "professional qualifications",
+        "academic qualifications"
+      ],
+      "notes": null,
+      "ipa": "/ˌkwɑːlɪfɪˈkeɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/q/qua/quali/qualification__us_4.mp3"
+    },
+    {
+      "english": "suspend",
+      "vietnamese": "đình chỉ; tạm ngừng; treo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The student was suspended for three days for fighting.",
+          "vi": "Học sinh đó bị đình chỉ học ba ngày vì đánh nhau."
+        },
+        {
+          "en": "Train services were suspended because of the heavy snow.",
+          "vi": "Các chuyến tàu bị tạm ngừng vì tuyết rơi dày."
+        },
+        {
+          "en": "A large lamp was suspended from the ceiling above the table.",
+          "vi": "Một chiếc đèn lớn được treo từ trần nhà xuống phía trên bàn."
+        }
+      ],
+      "collocations": [
+        "temporarily suspend",
+        "be suspended from school",
+        "suspend service"
+      ],
+      "notes": null,
+      "ipa": "/səˈspend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sus/suspe/suspend__us_1.mp3"
+    },
+    {
+      "english": "functional",
+      "vietnamese": "tiện dụng, thiết thực; hoạt động được",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The kitchen is small but very functional.",
+          "vi": "Căn bếp nhỏ nhưng rất tiện dụng."
+        },
+        {
+          "en": "After the storm, the hospital was still fully functional.",
+          "vi": "Sau cơn bão, bệnh viện vẫn hoạt động hoàn toàn bình thường."
+        },
+        {
+          "en": "The building's functional design makes it easy to move around.",
+          "vi": "Thiết kế tiện dụng của tòa nhà giúp việc đi lại bên trong rất dễ dàng."
+        }
+      ],
+      "collocations": [
+        "fully functional",
+        "functional design"
+      ],
+      "notes": null,
+      "ipa": "/ˈfʌŋkʃənl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fun/funct/functional__us_1.mp3"
+    },
+    {
+      "english": "voluntary",
+      "vietnamese": "tự nguyện; tình nguyện",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Taking part in the survey is completely voluntary.",
+          "vi": "Việc tham gia khảo sát hoàn toàn là tự nguyện."
+        },
+        {
+          "en": "She does voluntary work at the local hospital on Sundays.",
+          "vi": "Cô ấy làm tình nguyện ở bệnh viện địa phương vào các ngày Chủ nhật."
+        },
+        {
+          "en": "The company offered voluntary retirement to its older workers.",
+          "vi": "Công ty đưa ra chương trình nghỉ hưu tự nguyện cho những nhân viên lớn tuổi."
+        }
+      ],
+      "collocations": [
+        "voluntary work",
+        "completely voluntary",
+        "voluntary organization"
+      ],
+      "notes": null,
+      "ipa": "/ˈvɑːlənteri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vol/volun/voluntary__us_1.mp3"
+    },
+    {
+      "english": "pale",
+      "vietnamese": "nhợt nhạt, xanh xao; nhạt (màu)",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "You look pale; are you feeling all right?",
+          "vi": "Trông bạn xanh xao quá, bạn có thấy ổn không?"
+        },
+        {
+          "en": "Her face went pale when she saw the bill.",
+          "vi": "Mặt cô ấy tái đi khi nhìn thấy hóa đơn."
+        },
+        {
+          "en": "They painted the bedroom a pale blue color.",
+          "vi": "Họ sơn phòng ngủ màu xanh nhạt."
+        }
+      ],
+      "collocations": [
+        "look pale",
+        "turn pale",
+        "go pale",
+        "pale blue"
+      ],
+      "notes": null,
+      "ipa": "/peɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pal/pale_/pale__us_1.mp3"
+    },
+    {
+      "english": "stain",
+      "vietnamese": "vết bẩn; vết ố",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I can't get this coffee stain out of my shirt.",
+          "vi": "Tôi không tẩy được vết cà phê này trên áo sơ mi."
+        },
+        {
+          "en": "There was a dark stain on the carpet near the sofa.",
+          "vi": "Trên thảm gần ghế sofa có một vết bẩn sẫm màu."
+        },
+        {
+          "en": "Wash the tablecloth quickly before the wine stain dries.",
+          "vi": "Hãy giặt khăn trải bàn ngay trước khi vết rượu vang khô lại."
+        }
+      ],
+      "collocations": [
+        "coffee stain",
+        "dark stain",
+        "remove a stain"
+      ],
+      "notes": null,
+      "ipa": "/steɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sta/stain/stain__us_1.mp3"
+    },
+    {
+      "english": "athlete",
+      "vietnamese": "vận động viên",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Professional athletes train for several hours every day.",
+          "vi": "Các vận động viên chuyên nghiệp tập luyện nhiều giờ mỗi ngày."
+        },
+        {
+          "en": "My brother was a talented athlete in high school.",
+          "vi": "Anh trai tôi từng là một vận động viên tài năng hồi cấp ba."
+        },
+        {
+          "en": "Athletes from over fifty countries will compete in the games.",
+          "vi": "Vận động viên từ hơn năm mươi quốc gia sẽ tranh tài tại đại hội."
+        }
+      ],
+      "collocations": [
+        "professional athlete",
+        "talented athlete",
+        "top athlete"
+      ],
+      "notes": null,
+      "ipa": "/ˈæθliːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ath/athle/athlete__us_1.mp3"
+    },
+    {
+      "english": "organic",
+      "vietnamese": "hữu cơ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We buy organic vegetables from a farm near our house.",
+          "vi": "Chúng tôi mua rau hữu cơ từ một trang trại gần nhà."
+        },
+        {
+          "en": "Organic food is usually more expensive than regular food.",
+          "vi": "Thực phẩm hữu cơ thường đắt hơn thực phẩm thông thường."
+        },
+        {
+          "en": "Fallen leaves are a great source of organic material for your garden.",
+          "vi": "Lá rụng là nguồn chất hữu cơ tuyệt vời cho khu vườn của bạn."
+        }
+      ],
+      "collocations": [
+        "organic food",
+        "organic vegetables",
+        "organic farming",
+        "organic matter"
+      ],
+      "notes": null,
+      "ipa": "/ɔːrˈɡænɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/org/organ/organic__us_1.mp3"
+    },
+    {
+      "english": "tongue",
+      "vietnamese": "lưỡi; tiếng, ngôn ngữ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Be careful, the soup is hot enough to burn your tongue.",
+          "vi": "Cẩn thận nhé, súp nóng đến mức có thể làm bỏng lưỡi đấy."
+        },
+        {
+          "en": "The little boy stuck his tongue out at his sister.",
+          "vi": "Cậu bé lè lưỡi trêu chị gái."
+        },
+        {
+          "en": "Although she lives abroad, she still speaks her mother tongue at home.",
+          "vi": "Dù sống ở nước ngoài, cô ấy vẫn nói tiếng mẹ đẻ khi ở nhà."
+        }
+      ],
+      "collocations": [
+        "mother tongue",
+        "stick your tongue out",
+        "bite your tongue",
+        "burn your tongue"
+      ],
+      "notes": null,
+      "ipa": "/tʌŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/ton/tongu/tongue__us_1.mp3"
+    }
+  ]
+}

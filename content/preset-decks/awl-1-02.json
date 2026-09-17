@@ -1,0 +1,851 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 1 · Bộ 2",
+    "description": "Academic Word List, sublist 1",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-1-02"
+  },
+  "cards": [
+    {
+      "english": "indicate",
+      "vietnamese": "cho thấy; chỉ ra; biểu thị",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The results indicate a strong link between sleep and memory.",
+          "vi": "Kết quả cho thấy mối liên hệ chặt chẽ giữa giấc ngủ và trí nhớ."
+        },
+        {
+          "en": "Recent surveys indicate that most employees prefer flexible working hours.",
+          "vi": "Các khảo sát gần đây chỉ ra rằng phần lớn nhân viên thích giờ làm việc linh hoạt.",
+          "image_url": "https://images.pexels.com/photos/18955784/pexels-photo-18955784.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "A red light on the panel indicates a problem with the power supply.",
+          "vi": "Đèn đỏ trên bảng điều khiển biểu thị sự cố về nguồn điện."
+        }
+      ],
+      "collocations": [
+        "results indicate",
+        "evidence indicates",
+        "clearly indicate",
+        "studies indicate"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪndɪkeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ind/indic/indicate__us_1.mp3"
+    },
+    {
+      "english": "individual",
+      "vietnamese": "cá nhân; riêng; từng (người, cái)",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Teachers should pay attention to the individual needs of each student.",
+          "vi": "Giáo viên nên chú ý đến nhu cầu riêng của từng học sinh."
+        },
+        {
+          "en": "The report looks at individual countries rather than the whole region.",
+          "vi": "Báo cáo xem xét từng quốc gia thay vì cả khu vực."
+        },
+        {
+          "en": "The company rewards both team success and individual performance.",
+          "vi": "Công ty khen thưởng cả thành công của nhóm lẫn thành tích cá nhân."
+        }
+      ],
+      "collocations": [
+        "individual needs",
+        "individual performance",
+        "individual rights",
+        "individual responsibility"
+      ],
+      "notes": "Cũng là danh từ: an individual (một cá nhân)",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ind/indiv/individual__us_1.mp3"
+    },
+    {
+      "english": "interpret",
+      "vietnamese": "diễn giải; hiểu (là); phiên dịch",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Researchers must be careful when they interpret results from small samples.",
+          "vi": "Các nhà nghiên cứu phải cẩn trọng khi diễn giải kết quả từ các mẫu nhỏ."
+        },
+        {
+          "en": "His silence was interpreted as agreement by the rest of the team.",
+          "vi": "Sự im lặng của anh ấy được những người còn lại trong nhóm hiểu là đồng ý."
+        },
+        {
+          "en": "She interpreted for the visiting engineers during the factory tour.",
+          "vi": "Cô ấy phiên dịch cho các kỹ sư đến thăm trong chuyến tham quan nhà máy.",
+          "image_url": "https://images.pexels.com/photos/20684151/pexels-photo-20684151.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "interpret data",
+        "interpret results",
+        "interpret something as",
+        "correctly interpret"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈtɜːrprət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/inter/interpret__us_1.mp3"
+    },
+    {
+      "english": "involve",
+      "vietnamese": "bao gồm; đòi hỏi; cho tham gia",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The job involves a lot of travel within the region.",
+          "vi": "Công việc này đòi hỏi phải đi lại nhiều trong khu vực."
+        },
+        {
+          "en": "The study involved more than two thousand adults from five countries.",
+          "vi": "Nghiên cứu có sự tham gia của hơn hai nghìn người trưởng thành từ năm quốc gia."
+        },
+        {
+          "en": "Parents should be involved in decisions about their children's education.",
+          "vi": "Cha mẹ nên được tham gia vào các quyết định về việc học của con cái."
+        }
+      ],
+      "collocations": [
+        "be involved in",
+        "involve risk",
+        "directly involved",
+        "actively involve"
+      ],
+      "notes": "be involved in: tham gia vào, liên quan đến",
+      "ipa": "/ɪnˈvɑːlv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inv/invol/involve__us_1.mp3"
+    },
+    {
+      "english": "issue",
+      "vietnamese": "vấn đề; số (báo, tạp chí)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Climate change is a major issue for coastal cities.",
+          "vi": "Biến đổi khí hậu là một vấn đề lớn đối với các thành phố ven biển."
+        },
+        {
+          "en": "The committee will discuss the issue at its next meeting.",
+          "vi": "Ủy ban sẽ thảo luận vấn đề này tại cuộc họp tới."
+        },
+        {
+          "en": "The article appeared in the latest issue of the journal.",
+          "vi": "Bài báo được đăng trong số mới nhất của tạp chí."
+        }
+      ],
+      "collocations": [
+        "major issue",
+        "discuss an issue",
+        "raise an issue",
+        "address an issue"
+      ],
+      "notes": "Cũng là động từ: issue a statement (ra tuyên bố)",
+      "ipa": "/ˈɪʃuː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/iss/issue/issue__us_2.mp3"
+    },
+    {
+      "english": "labour",
+      "vietnamese": "lao động; nhân công",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The factory moved production abroad to reduce labour costs.",
+          "vi": "Nhà máy chuyển hoạt động sản xuất ra nước ngoài để giảm chi phí nhân công."
+        },
+        {
+          "en": "Many farms rely on seasonal labour during the harvest.",
+          "vi": "Nhiều trang trại dựa vào lao động thời vụ trong mùa thu hoạch."
+        },
+        {
+          "en": "The labour market has become more competitive for young graduates.",
+          "vi": "Thị trường lao động đã trở nên cạnh tranh hơn đối với sinh viên mới tốt nghiệp."
+        }
+      ],
+      "collocations": [
+        "labour costs",
+        "labour market",
+        "skilled labour",
+        "cheap labour"
+      ],
+      "notes": "Anh: labour · Mỹ: labor; không đếm được",
+      "ipa": "/ˈleɪbər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lab/labou/labour__us_2.mp3"
+    },
+    {
+      "english": "legal",
+      "vietnamese": "hợp pháp; (thuộc) pháp luật, pháp lý",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The company sought legal advice before signing the contract.",
+          "vi": "Công ty đã tìm tư vấn pháp lý trước khi ký hợp đồng."
+        },
+        {
+          "en": "Is it legal to drive with a foreign license here?",
+          "vi": "Ở đây lái xe bằng giấy phép nước ngoài có hợp pháp không?"
+        },
+        {
+          "en": "Every country has its own legal system and traditions.",
+          "vi": "Mỗi quốc gia đều có hệ thống pháp luật và truyền thống riêng."
+        }
+      ],
+      "collocations": [
+        "legal advice",
+        "legal system",
+        "legal action",
+        "legal requirement"
+      ],
+      "notes": "Trái nghĩa: illegal (bất hợp pháp)",
+      "ipa": "/ˈliːɡl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/leg/legal/legal__us_1.mp3"
+    },
+    {
+      "english": "legislate",
+      "vietnamese": "ban hành luật; lập pháp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many governments have begun to legislate against plastic waste.",
+          "vi": "Nhiều chính phủ đã bắt đầu ban hành luật chống rác thải nhựa."
+        },
+        {
+          "en": "It is difficult to legislate for every possible situation.",
+          "vi": "Thật khó để ban hành luật cho mọi tình huống có thể xảy ra.",
+          "image_url": "https://images.pexels.com/photos/9755375/pexels-photo-9755375.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Several states have legislated to protect workers' personal data.",
+          "vi": "Một số bang đã ban hành luật để bảo vệ dữ liệu cá nhân của người lao động."
+        }
+      ],
+      "collocations": [
+        "legislate against",
+        "legislate for",
+        "legislate to protect"
+      ],
+      "notes": "Danh từ: legislation (luật pháp; sự lập pháp)",
+      "ipa": "/ˈledʒɪsleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/leg/legis/legislate__us_1.mp3"
+    },
+    {
+      "english": "major",
+      "vietnamese": "lớn; chính; quan trọng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Traffic is a major cause of air pollution in large cities.",
+          "vi": "Giao thông là nguyên nhân chính gây ô nhiễm không khí ở các thành phố lớn."
+        },
+        {
+          "en": "The new policy led to major changes in how staff are trained.",
+          "vi": "Chính sách mới đã dẫn đến những thay đổi lớn trong cách đào tạo nhân viên."
+        },
+        {
+          "en": "Researchers faced a major problem when their funding was cut.",
+          "vi": "Các nhà nghiên cứu gặp phải một vấn đề lớn khi kinh phí bị cắt giảm."
+        }
+      ],
+      "collocations": [
+        "major cause",
+        "major change",
+        "major problem",
+        "major role"
+      ],
+      "notes": "Trái nghĩa: minor; (Mỹ, n) chuyên ngành chính ở đại học",
+      "ipa": "/ˈmeɪdʒər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/maj/major/major__us_2.mp3"
+    },
+    {
+      "english": "method",
+      "vietnamese": "phương pháp; cách thức",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "This teaching method encourages students to work in small groups.",
+          "vi": "Phương pháp giảng dạy này khuyến khích học sinh làm việc theo nhóm nhỏ."
+        },
+        {
+          "en": "Which method did you use to collect the data?",
+          "vi": "Bạn đã dùng phương pháp nào để thu thập dữ liệu?"
+        },
+        {
+          "en": "Bank transfer is still the most common method of payment.",
+          "vi": "Chuyển khoản ngân hàng vẫn là phương thức thanh toán phổ biến nhất."
+        }
+      ],
+      "collocations": [
+        "teaching method",
+        "research method",
+        "method of payment",
+        "effective method"
+      ],
+      "notes": null,
+      "ipa": "/ˈmeθəd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/met/metho/method__us_1.mp3"
+    },
+    {
+      "english": "occur",
+      "vietnamese": "xảy ra; xuất hiện; nảy ra (trong đầu)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Most workplace accidents occur when safety rules are ignored.",
+          "vi": "Hầu hết tai nạn lao động xảy ra khi các quy định an toàn bị phớt lờ."
+        },
+        {
+          "en": "The disease occurs mainly in tropical regions.",
+          "vi": "Căn bệnh này chủ yếu xuất hiện ở các vùng nhiệt đới."
+        },
+        {
+          "en": "It never occurred to me that the data might be wrong.",
+          "vi": "Tôi chưa bao giờ nghĩ rằng dữ liệu có thể bị sai."
+        }
+      ],
+      "collocations": [
+        "occur naturally",
+        "frequently occur",
+        "occur to someone"
+      ],
+      "notes": "occur – occurred – occurring (gấp đôi r)",
+      "ipa": "/əˈkɜːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/occ/occur/occur__us_2.mp3"
+    },
+    {
+      "english": "percent",
+      "vietnamese": "phần trăm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Sales rose by 15 percent in the first quarter.",
+          "vi": "Doanh số tăng 15 phần trăm trong quý đầu tiên."
+        },
+        {
+          "en": "Only 40 percent of the students completed the online survey.",
+          "vi": "Chỉ 40 phần trăm sinh viên hoàn thành bản khảo sát trực tuyến."
+        },
+        {
+          "en": "About 70 percent of the Earth's surface is covered by water.",
+          "vi": "Khoảng 70 phần trăm bề mặt Trái Đất được bao phủ bởi nước."
+        }
+      ],
+      "collocations": [
+        "rise by 10 percent",
+        "percent of the population",
+        "a 5 percent increase"
+      ],
+      "notes": "Anh: per cent · Mỹ: percent; ký hiệu %",
+      "ipa": "/pərˈsɛnt/",
+      "audio_src": null
+    },
+    {
+      "english": "period",
+      "vietnamese": "giai đoạn; thời kỳ; khoảng thời gian",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The project will be completed over a period of three years.",
+          "vi": "Dự án sẽ được hoàn thành trong khoảng thời gian ba năm."
+        },
+        {
+          "en": "Prices remained fairly stable during this period of growth.",
+          "vi": "Giá cả vẫn khá ổn định trong suốt giai đoạn tăng trưởng này."
+        },
+        {
+          "en": "New employees usually have a trial period of two months.",
+          "vi": "Nhân viên mới thường có thời gian thử việc hai tháng."
+        }
+      ],
+      "collocations": [
+        "over a period of",
+        "a period of time",
+        "trial period",
+        "short period"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɪriəd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/per/perio/period__us_2.mp3"
+    },
+    {
+      "english": "policy",
+      "vietnamese": "chính sách; quy định",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The government introduced a new policy to support small businesses.",
+          "vi": "Chính phủ đã đưa ra một chính sách mới để hỗ trợ doanh nghiệp nhỏ."
+        },
+        {
+          "en": "Our company has a strict policy on the use of personal phones.",
+          "vi": "Công ty chúng tôi có quy định nghiêm ngặt về việc sử dụng điện thoại cá nhân."
+        },
+        {
+          "en": "Economic policy should focus on creating more stable jobs.",
+          "vi": "Chính sách kinh tế nên tập trung vào việc tạo ra nhiều việc làm ổn định hơn."
+        }
+      ],
+      "collocations": [
+        "introduce a policy",
+        "government policy",
+        "economic policy",
+        "policy on"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɑːləsi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pol/polic/policy__us_1.mp3"
+    },
+    {
+      "english": "principle",
+      "vietnamese": "nguyên tắc; nguyên lý",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The course explains the basic principles of economics.",
+          "vi": "Khóa học giải thích những nguyên lý cơ bản của kinh tế học."
+        },
+        {
+          "en": "Fairness is a key principle in our hiring process.",
+          "vi": "Công bằng là một nguyên tắc then chốt trong quy trình tuyển dụng của chúng tôi."
+        },
+        {
+          "en": "In principle, the plan is good, but it may be too expensive.",
+          "vi": "Về nguyên tắc, kế hoạch này tốt, nhưng có thể quá tốn kém."
+        }
+      ],
+      "collocations": [
+        "basic principle",
+        "key principle",
+        "general principle",
+        "in principle"
+      ],
+      "notes": "principle (nguyên tắc) ≠ principal (hiệu trưởng; chính)",
+      "ipa": "/ˈprɪnsəpl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/princ/principle__us_2.mp3"
+    },
+    {
+      "english": "proceed",
+      "vietnamese": "tiếp tục; tiến hành; đi tới",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "After a short break, the meeting proceeded as planned.",
+          "vi": "Sau giờ nghỉ ngắn, cuộc họp tiếp tục như dự kiến."
+        },
+        {
+          "en": "The city council decided to proceed with the new housing project.",
+          "vi": "Hội đồng thành phố quyết định tiến hành dự án nhà ở mới."
+        },
+        {
+          "en": "Passengers on the morning flight should proceed to gate 12.",
+          "vi": "Hành khách của chuyến bay buổi sáng vui lòng đi đến cổng số 12."
+        }
+      ],
+      "collocations": [
+        "proceed with",
+        "proceed to",
+        "proceed as planned"
+      ],
+      "notes": "proceed with something: tiến hành việc gì",
+      "ipa": "/prəʊˈsiːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/proce/proceed__us_1_rr.mp3"
+    },
+    {
+      "english": "process",
+      "vietnamese": "quá trình; quy trình",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Learning a language is a slow process that takes patience.",
+          "vi": "Học một ngôn ngữ là một quá trình chậm, cần sự kiên nhẫn."
+        },
+        {
+          "en": "The company has simplified its application process for new customers.",
+          "vi": "Công ty đã đơn giản hóa quy trình đăng ký cho khách hàng mới."
+        },
+        {
+          "en": "We are still in the process of reviewing your request.",
+          "vi": "Chúng tôi vẫn đang trong quá trình xem xét yêu cầu của bạn."
+        }
+      ],
+      "collocations": [
+        "in the process of",
+        "application process",
+        "decision-making process",
+        "production process"
+      ],
+      "notes": "Cũng là động từ: process data (xử lý dữ liệu)",
+      "ipa": "/ˈprɑːses/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/proce/process__us_1.mp3"
+    },
+    {
+      "english": "require",
+      "vietnamese": "đòi hỏi; cần; yêu cầu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Most jobs in this field require a university degree.",
+          "vi": "Hầu hết công việc trong lĩnh vực này đòi hỏi bằng đại học."
+        },
+        {
+          "en": "All visitors are required to sign in at reception.",
+          "vi": "Tất cả khách đến thăm đều được yêu cầu đăng ký tại quầy lễ tân."
+        },
+        {
+          "en": "The experiment requires careful planning and accurate measurement.",
+          "vi": "Thí nghiệm này cần được lên kế hoạch cẩn thận và đo đạc chính xác."
+        }
+      ],
+      "collocations": [
+        "be required to",
+        "require careful planning",
+        "require attention"
+      ],
+      "notes": "be required to do something: được yêu cầu, bắt buộc phải làm gì",
+      "ipa": "/rɪˈkwaɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/req/requi/require__us_3.mp3"
+    },
+    {
+      "english": "research",
+      "vietnamese": "nghiên cứu; sự nghiên cứu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Recent research shows that regular exercise can improve memory.",
+          "vi": "Nghiên cứu gần đây cho thấy tập thể dục thường xuyên có thể cải thiện trí nhớ."
+        },
+        {
+          "en": "She is doing research on renewable energy at the university.",
+          "vi": "Cô ấy đang nghiên cứu về năng lượng tái tạo tại trường đại học.",
+          "image_url": "https://images.pexels.com/photos/6208712/pexels-photo-6208712.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "More research is needed before the drug can be approved.",
+          "vi": "Cần thêm nghiên cứu trước khi loại thuốc này được phê duyệt."
+        }
+      ],
+      "collocations": [
+        "do research",
+        "carry out research",
+        "research on",
+        "further research"
+      ],
+      "notes": "Không đếm được (không nói 'a research'); cũng là động từ",
+      "ipa": "/ˈriːsɜːrtʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/resea/research__us_2_rr.mp3"
+    },
+    {
+      "english": "respond",
+      "vietnamese": "trả lời; phản hồi; phản ứng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company responded quickly to customer complaints.",
+          "vi": "Công ty đã phản hồi nhanh chóng trước khiếu nại của khách hàng."
+        },
+        {
+          "en": "Please respond to this email by Friday.",
+          "vi": "Vui lòng trả lời email này trước thứ Sáu."
+        },
+        {
+          "en": "Patients usually respond well to this kind of treatment.",
+          "vi": "Bệnh nhân thường đáp ứng tốt với phương pháp điều trị này."
+        }
+      ],
+      "collocations": [
+        "respond to",
+        "respond quickly",
+        "respond well to",
+        "respond positively"
+      ],
+      "notes": "respond to something; danh từ: response",
+      "ipa": "/rɪˈspɑːnd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/respo/respond__us_1.mp3"
+    },
+    {
+      "english": "role",
+      "vietnamese": "vai trò; vai (diễn)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Technology plays an important role in modern healthcare.",
+          "vi": "Công nghệ đóng vai trò quan trọng trong ngành y tế hiện đại."
+        },
+        {
+          "en": "Her role in the project is to manage the budget.",
+          "vi": "Vai trò của cô ấy trong dự án là quản lý ngân sách."
+        },
+        {
+          "en": "He was offered the leading role in the school play.",
+          "vi": "Cậu ấy được mời đóng vai chính trong vở kịch của trường."
+        }
+      ],
+      "collocations": [
+        "play a role",
+        "important role",
+        "key role",
+        "leading role"
+      ],
+      "notes": "play a role in something: đóng vai trò trong việc gì",
+      "ipa": "/rəʊl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rol/role_/role__us_1.mp3"
+    },
+    {
+      "english": "section",
+      "vietnamese": "phần; mục; khu (vực)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please read the first section of the report before the meeting.",
+          "vi": "Vui lòng đọc phần đầu tiên của báo cáo trước cuộc họp."
+        },
+        {
+          "en": "The test has three sections: reading, writing, and listening.",
+          "vi": "Bài kiểm tra có ba phần: đọc, viết và nghe."
+        },
+        {
+          "en": "The fruit and vegetable section is at the back of the store.",
+          "vi": "Khu rau củ quả nằm ở phía sau cửa hàng."
+        }
+      ],
+      "collocations": [
+        "section of the report",
+        "the following section",
+        "the previous section"
+      ],
+      "notes": null,
+      "ipa": "/ˈsekʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sec/secti/section__us_2.mp3"
+    },
+    {
+      "english": "sector",
+      "vietnamese": "khu vực (kinh tế); lĩnh vực; ngành",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The public sector employs nearly a quarter of the workforce.",
+          "vi": "Khu vực công sử dụng gần một phần tư lực lượng lao động."
+        },
+        {
+          "en": "Jobs in the technology sector are growing quickly.",
+          "vi": "Việc làm trong lĩnh vực công nghệ đang tăng nhanh."
+        },
+        {
+          "en": "Tourism is the largest sector of the local economy.",
+          "vi": "Du lịch là ngành lớn nhất của nền kinh tế địa phương."
+        }
+      ],
+      "collocations": [
+        "public sector",
+        "private sector",
+        "service sector",
+        "manufacturing sector"
+      ],
+      "notes": null,
+      "ipa": "/ˈsektər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sec/secto/sector__us_2.mp3"
+    },
+    {
+      "english": "significant",
+      "vietnamese": "đáng kể; quan trọng; có ý nghĩa (thống kê)",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "There has been a significant increase in online shopping.",
+          "vi": "Mua sắm trực tuyến đã có sự gia tăng đáng kể."
+        },
+        {
+          "en": "The study found no significant difference between the two groups.",
+          "vi": "Nghiên cứu không tìm thấy khác biệt có ý nghĩa giữa hai nhóm."
+        },
+        {
+          "en": "This was a significant moment in the history of medicine.",
+          "vi": "Đây là một thời khắc quan trọng trong lịch sử y học."
+        }
+      ],
+      "collocations": [
+        "significant increase",
+        "significant difference",
+        "statistically significant",
+        "significant role"
+      ],
+      "notes": "Danh từ: significance; trạng từ: significantly",
+      "ipa": "/sɪɡˈnɪfɪkənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sig/signi/significant__us_1.mp3"
+    },
+    {
+      "english": "similar",
+      "vietnamese": "tương tự; giống nhau",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The two reports reached similar conclusions about the causes of the problem.",
+          "vi": "Hai báo cáo đưa ra những kết luận tương tự nhau về nguyên nhân của vấn đề."
+        },
+        {
+          "en": "My new job is similar to my old one.",
+          "vi": "Công việc mới của tôi giống với công việc cũ."
+        },
+        {
+          "en": "Similar results were found in studies in other countries.",
+          "vi": "Các nghiên cứu ở những nước khác cho ra kết quả tương tự."
+        }
+      ],
+      "collocations": [
+        "similar to",
+        "very similar",
+        "similar results",
+        "remarkably similar"
+      ],
+      "notes": "similar to something: giống với cái gì",
+      "ipa": "/ˈsɪmələr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sim/simil/similar__us_1.mp3"
+    },
+    {
+      "english": "source",
+      "vietnamese": "nguồn; nguồn gốc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Fruit is a good source of vitamins and fiber.",
+          "vi": "Trái cây là một nguồn vitamin và chất xơ tốt."
+        },
+        {
+          "en": "Always check your sources before you cite them in an essay.",
+          "vi": "Hãy luôn kiểm tra nguồn tài liệu trước khi trích dẫn chúng trong bài luận."
+        },
+        {
+          "en": "Engineers are still trying to find the source of the leak.",
+          "vi": "Các kỹ sư vẫn đang cố tìm ra nguồn gốc của chỗ rò rỉ."
+        }
+      ],
+      "collocations": [
+        "a good source of",
+        "main source of income",
+        "reliable source",
+        "energy source"
+      ],
+      "notes": null,
+      "ipa": "/sɔːrs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sou/sourc/source__us_1.mp3"
+    },
+    {
+      "english": "specific",
+      "vietnamese": "cụ thể; riêng; đặc thù",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Can you give me a specific example of the problem?",
+          "vi": "Bạn có thể cho tôi một ví dụ cụ thể về vấn đề này không?"
+        },
+        {
+          "en": "The training is designed for the specific needs of nurses.",
+          "vi": "Khóa đào tạo được thiết kế cho nhu cầu đặc thù của điều dưỡng."
+        },
+        {
+          "en": "These plants grow only under very specific conditions.",
+          "vi": "Những loài cây này chỉ phát triển trong những điều kiện rất riêng biệt."
+        }
+      ],
+      "collocations": [
+        "specific example",
+        "specific needs",
+        "specific to",
+        "specific conditions"
+      ],
+      "notes": "specific to something: đặc trưng cho, chỉ có ở",
+      "ipa": "/spəˈsɪfɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spe/speci/specific__us_1.mp3"
+    },
+    {
+      "english": "structure",
+      "vietnamese": "cấu trúc; cơ cấu; kết cấu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The essay has a clear structure with an introduction and a conclusion.",
+          "vi": "Bài luận có cấu trúc rõ ràng với phần mở bài và phần kết luận."
+        },
+        {
+          "en": "Scientists studied the structure of the cell in great detail.",
+          "vi": "Các nhà khoa học đã nghiên cứu rất chi tiết cấu trúc của tế bào."
+        },
+        {
+          "en": "Last year, the company changed its management structure.",
+          "vi": "Năm ngoái, công ty đã thay đổi cơ cấu quản lý."
+        }
+      ],
+      "collocations": [
+        "clear structure",
+        "basic structure",
+        "management structure",
+        "social structure"
+      ],
+      "notes": null,
+      "ipa": "/ˈstrʌktʃər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/struc/structure__us_2.mp3"
+    },
+    {
+      "english": "theory",
+      "vietnamese": "lý thuyết; học thuyết; giả thuyết",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Economic theory cannot always predict how people will behave.",
+          "vi": "Lý thuyết kinh tế không phải lúc nào cũng dự đoán được con người sẽ hành xử ra sao."
+        },
+        {
+          "en": "The idea sounds good in theory, but it rarely works in practice.",
+          "vi": "Ý tưởng này nghe hay trên lý thuyết, nhưng hiếm khi hiệu quả trong thực tế."
+        },
+        {
+          "en": "Scientists have developed a new theory to explain the data.",
+          "vi": "Các nhà khoa học đã xây dựng một lý thuyết mới để giải thích dữ liệu.",
+          "image_url": "https://images.pexels.com/photos/210804/pexels-photo-210804.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "in theory",
+        "develop a theory",
+        "economic theory",
+        "support a theory"
+      ],
+      "notes": null,
+      "ipa": "/ˈθiːəri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/theor/theory__us_2_rr.mp3"
+    },
+    {
+      "english": "vary",
+      "vietnamese": "thay đổi; khác nhau; làm đa dạng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Hotel prices vary greatly depending on the time of year.",
+          "vi": "Giá khách sạn thay đổi rất nhiều tùy theo thời điểm trong năm."
+        },
+        {
+          "en": "Opinions on the new policy varied widely among staff.",
+          "vi": "Ý kiến của nhân viên về chính sách mới rất khác nhau."
+        },
+        {
+          "en": "Try to vary your diet by eating different kinds of vegetables.",
+          "vi": "Hãy cố gắng đa dạng hóa chế độ ăn bằng cách ăn nhiều loại rau khác nhau."
+        }
+      ],
+      "collocations": [
+        "vary greatly",
+        "vary widely",
+        "vary in size",
+        "vary depending on"
+      ],
+      "notes": "vary – varied – varies; tính từ: various, danh từ: variety",
+      "ipa": "/ˈveri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/var/vary_/vary__us_4.mp3"
+    }
+  ]
+}

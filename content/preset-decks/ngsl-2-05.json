@@ -1,0 +1,797 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 501–1.000 · Bộ 5",
+    "description": "New General Service List, thứ hạng 501–1.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-2-05"
+  },
+  "cards": [
+    {
+      "english": "poor",
+      "vietnamese": "nghèo; kém, tồi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "His family was very poor when he was a child.",
+          "vi": "Gia đình anh ấy rất nghèo khi anh ấy còn nhỏ."
+        },
+        {
+          "en": "Many poor families cannot afford to see a doctor.",
+          "vi": "Nhiều gia đình nghèo không đủ tiền đi khám bác sĩ."
+        },
+        {
+          "en": "The hotel was cheap, but the food was of poor quality.",
+          "vi": "Khách sạn thì rẻ, nhưng đồ ăn chất lượng kém."
+        }
+      ],
+      "collocations": [
+        "poor family",
+        "poor quality",
+        "poor health"
+      ],
+      "notes": null,
+      "ipa": "/pʊr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/poo/poor_/poor__us_1_rr.mp3"
+    },
+    {
+      "english": "knowledge",
+      "vietnamese": "kiến thức; sự hiểu biết",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I only have a basic knowledge of computers.",
+          "vi": "Tôi chỉ có kiến thức cơ bản về máy tính."
+        },
+        {
+          "en": "You don't need any special knowledge to use this app.",
+          "vi": "Bạn không cần hiểu biết gì đặc biệt để dùng ứng dụng này."
+        },
+        {
+          "en": "Reading every day helped him build his knowledge of English.",
+          "vi": "Đọc sách mỗi ngày đã giúp anh ấy mở rộng kiến thức tiếng Anh."
+        }
+      ],
+      "collocations": [
+        "basic knowledge",
+        "general knowledge",
+        "knowledge of"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈnɑːlɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/k/kno/knowl/knowledge__us_2.mp3"
+    },
+    {
+      "english": "laugh",
+      "vietnamese": "cười (thành tiếng); cười nhạo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Everyone laughed when he told the joke.",
+          "vi": "Mọi người đều cười khi anh ấy kể câu chuyện cười."
+        },
+        {
+          "en": "My little brother always makes me laugh.",
+          "vi": "Em trai tôi lúc nào cũng làm tôi bật cười."
+        },
+        {
+          "en": "Please don't laugh at me, I'm trying my best.",
+          "vi": "Làm ơn đừng cười nhạo tôi, tôi đang cố hết sức rồi."
+        }
+      ],
+      "collocations": [
+        "laugh at",
+        "make someone laugh",
+        "laugh out loud"
+      ],
+      "notes": "laugh at sb: cười nhạo ai",
+      "ipa": "/læf/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lau/laugh/laugh__us_1.mp3"
+    },
+    {
+      "english": "arm",
+      "vietnamese": "cánh tay",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He came to school with a broken arm.",
+          "vi": "Cậu ấy đến trường với một cánh tay bị gãy."
+        },
+        {
+          "en": "The father held the sleeping baby in his arms.",
+          "vi": "Người bố bế đứa bé đang ngủ trong tay."
+        },
+        {
+          "en": "The old couple walked along the beach arm in arm.",
+          "vi": "Đôi vợ chồng già khoác tay nhau đi dọc bãi biển."
+        }
+      ],
+      "collocations": [
+        "broken arm",
+        "arm in arm",
+        "in someone's arms"
+      ],
+      "notes": null,
+      "ipa": "/ɑːrm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/arm/arm__/arm__us_1.mp3"
+    },
+    {
+      "english": "heart",
+      "vietnamese": "tim; trái tim, tấm lòng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Eating too much salt can lead to heart disease.",
+          "vi": "Ăn quá nhiều muối có thể dẫn đến bệnh tim."
+        },
+        {
+          "en": "My heart was beating fast before the exam.",
+          "vi": "Tim tôi đập nhanh trước giờ thi."
+        },
+        {
+          "en": "She has a kind heart and always helps her neighbors.",
+          "vi": "Cô ấy có tấm lòng tốt và luôn giúp đỡ hàng xóm."
+        }
+      ],
+      "collocations": [
+        "heart disease",
+        "heart attack",
+        "kind heart"
+      ],
+      "notes": null,
+      "ipa": "/hɑːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hea/heart/heart__us_1.mp3"
+    },
+    {
+      "english": "source",
+      "vietnamese": "nguồn; nguồn gốc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Fish is a good source of protein.",
+          "vi": "Cá là một nguồn cung cấp đạm tốt."
+        },
+        {
+          "en": "Tourism is the island's main source of income.",
+          "vi": "Du lịch là nguồn thu nhập chính của hòn đảo."
+        },
+        {
+          "en": "The mechanic couldn't find the source of the noise.",
+          "vi": "Người thợ sửa xe không tìm ra nguồn gốc của tiếng ồn."
+        }
+      ],
+      "collocations": [
+        "source of income",
+        "main source",
+        "energy source"
+      ],
+      "notes": null,
+      "ipa": "/sɔːrs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sou/sourc/source__us_1.mp3"
+    },
+    {
+      "english": "employee",
+      "vietnamese": "nhân viên, người lao động",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We hired three new employees this year.",
+          "vi": "Năm nay chúng tôi đã tuyển ba nhân viên mới."
+        },
+        {
+          "en": "All employees must wear a name badge at work.",
+          "vi": "Tất cả nhân viên phải đeo thẻ tên khi làm việc."
+        },
+        {
+          "en": "She was named employee of the month in March.",
+          "vi": "Cô ấy được bầu là nhân viên xuất sắc của tháng Ba."
+        }
+      ],
+      "collocations": [
+        "new employee",
+        "full-time employee",
+        "employee of the month"
+      ],
+      "notes": null,
+      "ipa": "/ɪmˈplɔɪiː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/emp/emplo/employee__us_1_rr.mp3"
+    },
+    {
+      "english": "manage",
+      "vietnamese": "quản lý; xoay xở, làm được",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "As a team leader, she has to manage ten people.",
+          "vi": "Là trưởng nhóm, cô ấy phải quản lý mười người."
+        },
+        {
+          "en": "How did you manage to finish the work so quickly?",
+          "vi": "Làm sao bạn xoay xở hoàn thành công việc nhanh vậy?"
+        },
+        {
+          "en": "Don't worry, we'll manage without a car for a week.",
+          "vi": "Đừng lo, chúng ta sẽ xoay xở được mà không cần xe một tuần."
+        }
+      ],
+      "collocations": [
+        "manage to",
+        "manage a team",
+        "manage money"
+      ],
+      "notes": "manage to do sth: xoay xở làm được việc gì",
+      "ipa": "/ˈmænɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/man/manag/manage__us_2.mp3"
+    },
+    {
+      "english": "simply",
+      "vietnamese": "chỉ, đơn giản là; một cách đơn giản",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I didn't call him back simply because I forgot.",
+          "vi": "Tôi không gọi lại cho anh ấy chỉ đơn giản vì tôi quên."
+        },
+        {
+          "en": "Put simply, we don't have enough money this year.",
+          "vi": "Nói đơn giản thì năm nay chúng ta không đủ tiền."
+        },
+        {
+          "en": "The teacher explained the rules simply and clearly.",
+          "vi": "Cô giáo giải thích luật một cách đơn giản và rõ ràng."
+        }
+      ],
+      "collocations": [
+        "simply because",
+        "put simply",
+        "quite simply"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɪmpli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sim/simpl/simply__us_1.mp3"
+    },
+    {
+      "english": "bank",
+      "vietnamese": "ngân hàng; bờ (sông, hồ)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I need to go to the bank to take out some cash.",
+          "vi": "Tôi cần ra ngân hàng để rút ít tiền mặt."
+        },
+        {
+          "en": "She opened a bank account when she started her first job.",
+          "vi": "Cô ấy mở tài khoản ngân hàng khi bắt đầu công việc đầu tiên."
+        },
+        {
+          "en": "We had a picnic on the bank of the river.",
+          "vi": "Chúng tôi đi dã ngoại trên bờ sông."
+        }
+      ],
+      "collocations": [
+        "bank account",
+        "go to the bank",
+        "bank loan"
+      ],
+      "notes": null,
+      "ipa": "/bæŋk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/ban/bank_/bank__us_1.mp3"
+    },
+    {
+      "english": "firm",
+      "vietnamese": "công ty, hãng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My uncle works for a law firm in the city.",
+          "vi": "Chú tôi làm việc cho một công ty luật trong thành phố."
+        },
+        {
+          "en": "She started her own design firm last year.",
+          "vi": "Năm ngoái cô ấy đã mở công ty thiết kế riêng."
+        },
+        {
+          "en": "Many small firms are struggling to find workers.",
+          "vi": "Nhiều công ty nhỏ đang chật vật tìm người làm."
+        }
+      ],
+      "collocations": [
+        "law firm",
+        "small firm",
+        "accounting firm"
+      ],
+      "notes": "firm (adj): chắc, vững",
+      "ipa": "/fɜːrm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fir/firm_/firm__us_1.mp3"
+    },
+    {
+      "english": "cell",
+      "vietnamese": "tế bào; điện thoại di động",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Red blood cells carry oxygen around the body.",
+          "vi": "Hồng cầu vận chuyển oxy đi khắp cơ thể."
+        },
+        {
+          "en": "The human body is made up of trillions of cells.",
+          "vi": "Cơ thể con người được tạo nên từ hàng nghìn tỷ tế bào."
+        },
+        {
+          "en": "You can reach me on my cell after six.",
+          "vi": "Sau sáu giờ bạn có thể gọi vào di động của tôi."
+        }
+      ],
+      "collocations": [
+        "blood cell",
+        "brain cells",
+        "cell phone"
+      ],
+      "notes": "cell = cell phone (Mỹ); Anh: mobile phone",
+      "ipa": "/sel/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cel/cell_/cell__us_1.mp3"
+    },
+    {
+      "english": "article",
+      "vietnamese": "bài báo, bài viết; mạo từ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I read an interesting newspaper article about sleep this morning.",
+          "vi": "Sáng nay tôi đọc một bài báo thú vị về giấc ngủ."
+        },
+        {
+          "en": "She was asked to write an article for the school magazine.",
+          "vi": "Cô ấy được nhờ viết một bài cho tạp chí của trường."
+        },
+        {
+          "en": "In English, \"a\" and \"the\" are articles.",
+          "vi": "Trong tiếng Anh, \"a\" và \"the\" là mạo từ."
+        }
+      ],
+      "collocations": [
+        "newspaper article",
+        "write an article",
+        "definite article"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːrtɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/art/artic/article__us_1.mp3"
+    },
+    {
+      "english": "fast",
+      "vietnamese": "nhanh",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "He's a fast runner and often wins races at school.",
+          "vi": "Cậu ấy chạy nhanh và thường thắng các cuộc đua ở trường."
+        },
+        {
+          "en": "We need a fast internet connection for online classes.",
+          "vi": "Chúng tôi cần kết nối mạng nhanh để học trực tuyến."
+        },
+        {
+          "en": "Eating too much fast food is bad for your health.",
+          "vi": "Ăn quá nhiều đồ ăn nhanh không tốt cho sức khỏe."
+        }
+      ],
+      "collocations": [
+        "fast food",
+        "fast runner",
+        "fast internet"
+      ],
+      "notes": "fast cũng là trạng từ: run fast (chạy nhanh)",
+      "ipa": "/fæst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fas/fast_/fast__us_1.mp3"
+    },
+    {
+      "english": "attack",
+      "vietnamese": "cuộc tấn công; cơn (bệnh)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandfather had a heart attack but is fine now.",
+          "vi": "Ông tôi từng bị nhồi máu cơ tim nhưng giờ đã ổn."
+        },
+        {
+          "en": "The team scored after a quick attack in the second half.",
+          "vi": "Đội bóng ghi bàn sau một pha tấn công nhanh trong hiệp hai."
+        },
+        {
+          "en": "Our team is strong in attack but weak in defense.",
+          "vi": "Đội chúng tôi tấn công mạnh nhưng phòng ngự yếu."
+        }
+      ],
+      "collocations": [
+        "heart attack",
+        "under attack",
+        "launch an attack"
+      ],
+      "notes": null,
+      "ipa": "/əˈtæk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/att/attac/attack__us_2.mp3"
+    },
+    {
+      "english": "foreign",
+      "vietnamese": "(thuộc) nước ngoài",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Learning a foreign language takes a lot of time and practice.",
+          "vi": "Học ngoại ngữ cần nhiều thời gian và luyện tập."
+        },
+        {
+          "en": "The old town is always full of foreign tourists.",
+          "vi": "Phố cổ lúc nào cũng đông khách du lịch nước ngoài."
+        },
+        {
+          "en": "He has worked for a foreign company for five years.",
+          "vi": "Anh ấy đã làm cho một công ty nước ngoài được năm năm."
+        }
+      ],
+      "collocations": [
+        "foreign language",
+        "foreign tourists",
+        "foreign country"
+      ],
+      "notes": null,
+      "ipa": "/ˈfɔːrən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/for/forei/foreign__us_1_rr.mp3"
+    },
+    {
+      "english": "surprise",
+      "vietnamese": "sự ngạc nhiên; điều bất ngờ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We're planning a surprise party for Mom's birthday.",
+          "vi": "Chúng tôi đang lên kế hoạch tổ chức tiệc bất ngờ cho sinh nhật mẹ."
+        },
+        {
+          "en": "To my surprise, the exam was really easy.",
+          "vi": "Tôi ngạc nhiên vì bài thi thật sự rất dễ."
+        },
+        {
+          "en": "What a nice surprise to see you here!",
+          "vi": "Gặp bạn ở đây thật là bất ngờ thú vị!"
+        }
+      ],
+      "collocations": [
+        "surprise party",
+        "to my surprise",
+        "nice surprise"
+      ],
+      "notes": null,
+      "ipa": "/sərˈpraɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sur/surpr/surprise__us_1_rr.mp3"
+    },
+    {
+      "english": "feature",
+      "vietnamese": "đặc điểm, nét đặc trưng; tính năng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The latest update adds a new feature for sharing photos.",
+          "vi": "Bản cập nhật mới nhất thêm một tính năng mới để chia sẻ ảnh."
+        },
+        {
+          "en": "Big windows are the main feature of this house.",
+          "vi": "Những ô cửa sổ lớn là đặc điểm nổi bật của ngôi nhà này."
+        },
+        {
+          "en": "One key feature of the city is its many green parks.",
+          "vi": "Một nét đặc trưng của thành phố là có nhiều công viên xanh."
+        }
+      ],
+      "collocations": [
+        "new feature",
+        "main feature",
+        "key feature"
+      ],
+      "notes": null,
+      "ipa": "/ˈfiːtʃər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fea/featu/feature__us_2.mp3"
+    },
+    {
+      "english": "factor",
+      "vietnamese": "yếu tố, nhân tố",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Price is an important factor when you buy a car.",
+          "vi": "Giá cả là một yếu tố quan trọng khi bạn mua xe hơi."
+        },
+        {
+          "en": "Stress is often a major factor in poor sleep.",
+          "vi": "Căng thẳng thường là một yếu tố chính gây ngủ kém."
+        },
+        {
+          "en": "Many factors affect how well children learn at school.",
+          "vi": "Nhiều yếu tố ảnh hưởng đến việc trẻ học tốt ra sao ở trường."
+        }
+      ],
+      "collocations": [
+        "important factor",
+        "major factor",
+        "key factor",
+        "risk factor"
+      ],
+      "notes": null,
+      "ipa": "/ˈfæktər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fac/facto/factor__us_2.mp3"
+    },
+    {
+      "english": "pretty",
+      "vietnamese": "khá, khá là; xinh, đẹp",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The test was pretty easy, so I finished early.",
+          "vi": "Bài kiểm tra khá dễ nên tôi làm xong sớm."
+        },
+        {
+          "en": "I'm pretty sure I left my keys at home.",
+          "vi": "Tôi khá chắc là mình để quên chìa khóa ở nhà."
+        },
+        {
+          "en": "She looked really pretty in her new dress.",
+          "vi": "Cô ấy trông rất xinh trong chiếc váy mới."
+        }
+      ],
+      "collocations": [
+        "pretty sure",
+        "pretty good",
+        "pretty much"
+      ],
+      "notes": "pretty (adj): xinh, đẹp",
+      "ipa": "/ˈprɪti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/prett/pretty__us_3.mp3"
+    },
+    {
+      "english": "recently",
+      "vietnamese": "gần đây, mới đây",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I've recently started going to the gym after work.",
+          "vi": "Gần đây tôi mới bắt đầu đi tập gym sau giờ làm."
+        },
+        {
+          "en": "Have you seen any good movies recently?",
+          "vi": "Gần đây bạn có xem được phim nào hay không?"
+        },
+        {
+          "en": "Until recently, she lived with her parents in the countryside.",
+          "vi": "Cho đến gần đây, cô ấy vẫn sống cùng bố mẹ ở quê."
+        }
+      ],
+      "collocations": [
+        "until recently",
+        "only recently",
+        "most recently"
+      ],
+      "notes": null,
+      "ipa": "/ˈriːsntli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rec/recen/recently__us_2.mp3"
+    },
+    {
+      "english": "affect",
+      "vietnamese": "ảnh hưởng đến, tác động đến",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Lack of sleep can affect your mood and memory.",
+          "vi": "Thiếu ngủ có thể ảnh hưởng đến tâm trạng và trí nhớ của bạn."
+        },
+        {
+          "en": "Hundreds of flights were badly affected by the storm.",
+          "vi": "Hàng trăm chuyến bay bị ảnh hưởng nặng nề bởi cơn bão."
+        },
+        {
+          "en": "How will the new rules affect students?",
+          "vi": "Các quy định mới sẽ tác động đến học sinh như thế nào?"
+        }
+      ],
+      "collocations": [
+        "badly affected",
+        "directly affect",
+        "seriously affect"
+      ],
+      "notes": "affect (v) ≠ effect (n)",
+      "ipa": "/əˈfekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aff/affec/affect__us_1.mp3"
+    },
+    {
+      "english": "drop",
+      "vietnamese": "làm rơi, đánh rơi; giảm; cho (ai) xuống xe",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Be careful not to drop the plates.",
+          "vi": "Cẩn thận đừng làm rơi mấy cái đĩa nhé."
+        },
+        {
+          "en": "Prices tend to drop sharply after the holidays.",
+          "vi": "Giá cả thường giảm mạnh sau kỳ nghỉ lễ."
+        },
+        {
+          "en": "Can you drop me off at the station on your way?",
+          "vi": "Tiện đường bạn cho tôi xuống ở nhà ga được không?"
+        }
+      ],
+      "collocations": [
+        "drop sharply",
+        "drop off",
+        "drop something"
+      ],
+      "notes": "drop – dropped – dropped",
+      "ipa": "/drɑːp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dro/drop_/drop__us_1.mp3"
+    },
+    {
+      "english": "recent",
+      "vietnamese": "gần đây, mới đây",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "In recent years, more people have started working from home.",
+          "vi": "Trong những năm gần đây, nhiều người đã bắt đầu làm việc tại nhà."
+        },
+        {
+          "en": "This is a recent photo of my family.",
+          "vi": "Đây là một bức ảnh chụp gia đình tôi gần đây."
+        },
+        {
+          "en": "Her most recent book is about traveling alone.",
+          "vi": "Cuốn sách mới nhất của cô ấy viết về chuyện đi du lịch một mình."
+        }
+      ],
+      "collocations": [
+        "recent years",
+        "most recent",
+        "recent study"
+      ],
+      "notes": null,
+      "ipa": "/ˈriːsnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rec/recen/recent__us_1.mp3"
+    },
+    {
+      "english": "relate",
+      "vietnamese": "liên quan; đồng cảm, thấu hiểu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many health problems are closely related to stress.",
+          "vi": "Nhiều vấn đề sức khỏe có liên quan chặt chẽ đến căng thẳng."
+        },
+        {
+          "en": "I can really relate to the main character in this movie.",
+          "vi": "Tôi thật sự đồng cảm với nhân vật chính trong bộ phim này."
+        },
+        {
+          "en": "Please only ask questions that relate to today's lesson.",
+          "vi": "Vui lòng chỉ đặt câu hỏi liên quan đến bài học hôm nay."
+        }
+      ],
+      "collocations": [
+        "relate to",
+        "closely related",
+        "be related to"
+      ],
+      "notes": "relate to sth/sb",
+      "ipa": "/rɪˈleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rel/relat/relate__us_1.mp3"
+    },
+    {
+      "english": "official",
+      "vietnamese": "chính thức",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The official results will be announced on Friday.",
+          "vi": "Kết quả chính thức sẽ được công bố vào thứ Sáu."
+        },
+        {
+          "en": "You can buy tickets on the official website.",
+          "vi": "Bạn có thể mua vé trên trang web chính thức."
+        },
+        {
+          "en": "Our country has two official languages, English and French.",
+          "vi": "Đất nước chúng tôi có hai ngôn ngữ chính thức là tiếng Anh và tiếng Pháp."
+        }
+      ],
+      "collocations": [
+        "official website",
+        "official language",
+        "official results"
+      ],
+      "notes": "official (n): quan chức, viên chức",
+      "ipa": "/əˈfɪʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/off/offic/official__us_4.mp3"
+    },
+    {
+      "english": "financial",
+      "vietnamese": "(thuộc) tài chính",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The company has had financial problems this year.",
+          "vi": "Năm nay công ty gặp khó khăn về tài chính."
+        },
+        {
+          "en": "She asked a financial advisor for help with her savings.",
+          "vi": "Cô ấy nhờ một chuyên gia tư vấn tài chính giúp về khoản tiết kiệm."
+        },
+        {
+          "en": "Many students need financial support to go to college.",
+          "vi": "Nhiều sinh viên cần hỗ trợ tài chính để học đại học."
+        }
+      ],
+      "collocations": [
+        "financial problems",
+        "financial support",
+        "financial advisor"
+      ],
+      "notes": null,
+      "ipa": "/faɪˈnænʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fin/finan/financial__us_1_rr.mp3"
+    },
+    {
+      "english": "miss",
+      "vietnamese": "nhớ (ai, cái gì); lỡ, trễ; bỏ lỡ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I really miss my family when I'm working abroad.",
+          "vi": "Tôi rất nhớ gia đình khi đi làm ở nước ngoài."
+        },
+        {
+          "en": "Hurry up or we'll miss the bus!",
+          "vi": "Nhanh lên kẻo mình lỡ chuyến xe buýt bây giờ!"
+        },
+        {
+          "en": "Don't miss the chance to visit the old town.",
+          "vi": "Đừng bỏ lỡ cơ hội tham quan phố cổ."
+        }
+      ],
+      "collocations": [
+        "miss the bus",
+        "miss the chance",
+        "miss school"
+      ],
+      "notes": null,
+      "ipa": "/mɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mis/miss_/miss__us_1.mp3"
+    },
+    {
+      "english": "art",
+      "vietnamese": "nghệ thuật; mỹ thuật",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The museum has a large collection of modern art.",
+          "vi": "Bảo tàng có một bộ sưu tập lớn về nghệ thuật hiện đại."
+        },
+        {
+          "en": "My daughter loves her art class on Fridays.",
+          "vi": "Con gái tôi rất thích giờ học mỹ thuật vào thứ Sáu."
+        },
+        {
+          "en": "She studied art in college and now works as a designer.",
+          "vi": "Cô ấy học mỹ thuật ở đại học và giờ làm nhà thiết kế."
+        }
+      ],
+      "collocations": [
+        "modern art",
+        "art class",
+        "work of art",
+        "art gallery"
+      ],
+      "notes": null,
+      "ipa": "/ɑːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/art/art__/art__us_1.mp3"
+    }
+  ]
+}

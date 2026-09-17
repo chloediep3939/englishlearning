@@ -62,26 +62,47 @@ export default function MDecksList() {
               Bộ từ <span style={{ color: 'var(--v-brand)' }}>của bạn</span>
             </h1>
           </div>
-          <Link
-            href="/add"
-            style={{
-              padding: '8px 12px',
-              background: 'var(--v-brand)',
-              color: '#fff',
-              boxShadow:
-                '0 3px 0 rgba(20,40,80,.18), 0 4px 10px color-mix(in srgb, var(--v-brand) 33%, transparent)',
-              borderRadius: 11,
-              fontFamily: 'var(--v-font-head)',
-              fontWeight: 900,
-              fontSize: 11,
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 5,
-              textDecoration: 'none',
-            }}
-          >
-            <Icon name="plus" size={13} stroke="#fff" strokeWidth={3} /> Bộ mới
-          </Link>
+          <div style={{ display: 'flex', gap: 6 }}>
+            <Link
+              href="/decks/library"
+              style={{
+                padding: '8px 12px',
+                background: '#fff',
+                color: 'var(--v-primary)',
+                border: '1px solid var(--v-primary)',
+                borderRadius: 11,
+                fontFamily: 'var(--v-font-head)',
+                fontWeight: 900,
+                fontSize: 11,
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 5,
+                textDecoration: 'none',
+              }}
+            >
+              <Icon name="book" size={13} stroke="var(--v-primary)" strokeWidth={2.6} /> Thư viện
+            </Link>
+            <Link
+              href="/add"
+              style={{
+                padding: '8px 12px',
+                background: 'var(--v-brand)',
+                color: '#fff',
+                boxShadow:
+                  '0 3px 0 rgba(20,40,80,.18), 0 4px 10px color-mix(in srgb, var(--v-brand) 33%, transparent)',
+                borderRadius: 11,
+                fontFamily: 'var(--v-font-head)',
+                fontWeight: 900,
+                fontSize: 11,
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 5,
+                textDecoration: 'none',
+              }}
+            >
+              <Icon name="plus" size={13} stroke="#fff" strokeWidth={3} /> Bộ mới
+            </Link>
+          </div>
         </div>
 
         {/* Search */}

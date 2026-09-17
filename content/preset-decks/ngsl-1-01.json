@@ -1,0 +1,994 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1–500 · Bộ 1",
+    "description": "New General Service List, thứ hạng 1–500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-1-01"
+  },
+  "cards": [
+    {
+      "english": "say",
+      "vietnamese": "nói; cho biết",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "What did she say when you told her the news?",
+          "vi": "Cô ấy đã nói gì khi bạn báo tin cho cô ấy?",
+          "image_url": "https://images.pexels.com/photos/35467808/pexels-photo-35467808.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "My doctor said I should drink more water.",
+          "vi": "Bác sĩ nói tôi nên uống nhiều nước hơn.",
+          "image_url": "https://images.pexels.com/photos/35232336/pexels-photo-35232336.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The sign says the museum is closed on Mondays.",
+          "vi": "Biển báo cho biết bảo tàng đóng cửa vào thứ Hai.",
+          "image_url": "https://images.pexels.com/photos/30253419/pexels-photo-30253419.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "say goodbye",
+        "say sorry",
+        "say something",
+        "say no"
+      ],
+      "notes": "say – said – said",
+      "ipa": "/seɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/say/say__/say__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/6037811/pexels-photo-6037811.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Brett Jordan",
+        "author_url": "https://www.pexels.com/@brettjordan",
+        "source_url": "https://www.pexels.com/photo/wooden-scrabbles-pieces-on-white-table-6037811/"
+      }
+    },
+    {
+      "english": "go",
+      "vietnamese": "đi; diễn ra",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We usually go to the beach on weekends.",
+          "vi": "Chúng tôi thường đi biển vào cuối tuần.",
+          "image_url": "https://images.pexels.com/photos/10001094/pexels-photo-10001094.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She went home early because she felt tired.",
+          "vi": "Cô ấy về nhà sớm vì cảm thấy mệt.",
+          "image_url": "https://images.pexels.com/photos/17975075/pexels-photo-17975075.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "How did your job interview go yesterday?",
+          "vi": "Buổi phỏng vấn xin việc hôm qua của bạn diễn ra thế nào?",
+          "image_url": "https://images.pexels.com/photos/5922068/pexels-photo-5922068.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "go home",
+        "go to bed",
+        "go shopping",
+        "go to school"
+      ],
+      "notes": "go – went – gone",
+      "ipa": "/ɡəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/go_/go__u/go__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/5640497/pexels-photo-5640497.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Tima Miroshnichenko",
+        "author_url": "https://www.pexels.com/@tima-miroshnichenko",
+        "source_url": "https://www.pexels.com/photo/man-in-white-helmet-riding-on-go-kart-5640497/"
+      }
+    },
+    {
+      "english": "know",
+      "vietnamese": "biết; quen biết",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Do you know where the nearest bus stop is?",
+          "vi": "Bạn có biết trạm xe buýt gần nhất ở đâu không?",
+          "image_url": "https://images.pexels.com/photos/16252896/pexels-photo-16252896.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She didn't know the answer, so she asked her teacher.",
+          "vi": "Cô ấy không biết câu trả lời nên đã hỏi giáo viên.",
+          "image_url": "https://images.pexels.com/photos/4936021/pexels-photo-4936021.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I have known my best friend since elementary school.",
+          "vi": "Tôi quen người bạn thân nhất của mình từ hồi tiểu học.",
+          "image_url": "https://images.pexels.com/photos/5896631/pexels-photo-5896631.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "know the answer",
+        "get to know",
+        "let me know"
+      ],
+      "notes": "know – knew – known",
+      "ipa": "/nəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/k/kno/know_/know__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/37549154/pexels-photo-37549154.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Giant Asparagus",
+        "author_url": "https://www.pexels.com/@giantasparagus",
+        "source_url": "https://www.pexels.com/photo/solar-powered-surveillance-camera-on-street-pole-37549154/"
+      }
+    },
+    {
+      "english": "more",
+      "vietnamese": "nhiều hơn; thêm",
+      "part_of_speech": "determiner",
+      "examples": [
+        {
+          "en": "We need more time to finish the project.",
+          "vi": "Chúng tôi cần thêm thời gian để hoàn thành dự án.",
+          "image_url": "https://images.pexels.com/photos/33266834/pexels-photo-33266834.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Could I have some more rice, please?",
+          "vi": "Cho tôi xin thêm một chút cơm được không?",
+          "image_url": "https://images.pexels.com/photos/13518953/pexels-photo-13518953.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "More people are working from home these days.",
+          "vi": "Dạo này có nhiều người làm việc tại nhà hơn.",
+          "image_url": "https://images.pexels.com/photos/11569938/pexels-photo-11569938.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "more time",
+        "more money",
+        "more than",
+        "once more"
+      ],
+      "notes": "so sánh hơn của many/much",
+      "ipa": "/mɔːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mor/more_/more__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/15387083/pexels-photo-15387083.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Ann H",
+        "author_url": "https://www.pexels.com/@ann-h-45017",
+        "source_url": "https://www.pexels.com/photo/letters-on-dice-15387083/"
+      }
+    },
+    {
+      "english": "get",
+      "vietnamese": "nhận được; lấy; trở nên",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I got a message from my sister this morning.",
+          "vi": "Sáng nay tôi nhận được tin nhắn từ chị gái.",
+          "image_url": "https://images.pexels.com/photos/6669776/pexels-photo-6669776.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Can you get me a glass of water?",
+          "vi": "Bạn lấy giúp tôi một cốc nước được không?",
+          "image_url": "https://images.pexels.com/photos/5336940/pexels-photo-5336940.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "It gets dark very early in the winter.",
+          "vi": "Vào mùa đông, trời tối rất sớm.",
+          "image_url": "https://images.pexels.com/photos/9807696/pexels-photo-9807696.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "get a job",
+        "get home",
+        "get better",
+        "get ready"
+      ],
+      "notes": "get – got – got (Mỹ: gotten)",
+      "ipa": "/ɡet/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/get/get__/get__us_1.mp3"
+    },
+    {
+      "english": "like",
+      "vietnamese": "thích",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I like reading books before I go to bed.",
+          "vi": "Tôi thích đọc sách trước khi đi ngủ.",
+          "image_url": "https://images.pexels.com/photos/29171842/pexels-photo-29171842.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "My kids don't like vegetables very much.",
+          "vi": "Bọn trẻ nhà tôi không thích ăn rau lắm.",
+          "image_url": "https://images.pexels.com/photos/4721131/pexels-photo-4721131.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She really likes her new apartment near the park.",
+          "vi": "Cô ấy rất thích căn hộ mới gần công viên.",
+          "image_url": "https://images.pexels.com/photos/7322273/pexels-photo-7322273.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "really like",
+        "would like",
+        "like best"
+      ],
+      "notes": "would like = muốn (lịch sự)",
+      "ipa": "/laɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lik/like_/like__us_1.mp3"
+    },
+    {
+      "english": "think",
+      "vietnamese": "nghĩ; cho rằng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I think it's going to rain this afternoon.",
+          "vi": "Tôi nghĩ chiều nay trời sẽ mưa.",
+          "image_url": "https://images.pexels.com/photos/39275252/pexels-photo-39275252.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "What do you think of the new teacher?",
+          "vi": "Bạn nghĩ gì về giáo viên mới?",
+          "image_url": "https://images.pexels.com/photos/39190904/pexels-photo-39190904.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "He is thinking about changing jobs next year.",
+          "vi": "Anh ấy đang nghĩ đến chuyện đổi việc vào năm sau.",
+          "image_url": "https://images.pexels.com/photos/5668885/pexels-photo-5668885.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "think about",
+        "think of",
+        "think so",
+        "think carefully"
+      ],
+      "notes": "think – thought – thought",
+      "ipa": "/θɪŋk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/thi/think/think__us_1.mp3"
+    },
+    {
+      "english": "make",
+      "vietnamese": "làm; tạo ra; khiến",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My mom is making dinner in the kitchen.",
+          "vi": "Mẹ tôi đang làm bữa tối trong bếp.",
+          "image_url": "https://images.pexels.com/photos/5907924/pexels-photo-5907924.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "This company makes furniture for schools and offices.",
+          "vi": "Công ty này sản xuất đồ nội thất cho trường học và văn phòng.",
+          "image_url": "https://images.pexels.com/photos/38816548/pexels-photo-38816548.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "That sad movie made everyone in the room cry.",
+          "vi": "Bộ phim buồn đó khiến mọi người trong phòng đều khóc.",
+          "image_url": "https://images.pexels.com/photos/9999344/pexels-photo-9999344.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "make a mistake",
+        "make a decision",
+        "make money",
+        "make friends"
+      ],
+      "notes": "make – made – made",
+      "ipa": "/meɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mak/make_/make__us_1.mp3"
+    },
+    {
+      "english": "time",
+      "vietnamese": "thời gian; lần; giờ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I don't have much free time during the week.",
+          "vi": "Trong tuần tôi không có nhiều thời gian rảnh.",
+          "image_url": "https://images.pexels.com/photos/1059381/pexels-photo-1059381.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I've called him three times, but he isn't answering.",
+          "vi": "Tôi đã gọi cho anh ấy ba lần nhưng anh ấy không nghe máy.",
+          "image_url": "https://images.pexels.com/photos/8682791/pexels-photo-8682791.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "What time does the next train leave?",
+          "vi": "Chuyến tàu tiếp theo khởi hành lúc mấy giờ?",
+          "image_url": "https://images.pexels.com/photos/5868296/pexels-photo-5868296.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "free time",
+        "spend time",
+        "on time",
+        "have a good time"
+      ],
+      "notes": null,
+      "ipa": "/taɪm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tim/time_/time__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/8573370/pexels-photo-8573370.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Towfiqu barbhuiya",
+        "author_url": "https://www.pexels.com/@towfiqu-barbhuiya-3440682",
+        "source_url": "https://www.pexels.com/photo/hourglass-8573370/"
+      }
+    },
+    {
+      "english": "see",
+      "vietnamese": "nhìn thấy; gặp; hiểu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Did you see the rainbow after the rain?",
+          "vi": "Bạn có thấy cầu vồng sau cơn mưa không?",
+          "image_url": "https://images.pexels.com/photos/36798456/pexels-photo-36798456.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I'm going to see my grandparents this weekend.",
+          "vi": "Cuối tuần này tôi sẽ đi thăm ông bà.",
+          "image_url": "https://images.pexels.com/photos/8307601/pexels-photo-8307601.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I see what you mean now, thank you.",
+          "vi": "Giờ thì tôi hiểu ý bạn rồi, cảm ơn nhé.",
+          "image_url": "https://images.pexels.com/photos/791024/pexels-photo-791024.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "see a doctor",
+        "see a movie",
+        "see you later"
+      ],
+      "notes": "see – saw – seen",
+      "ipa": "/siː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/see/see__/see__us_1.mp3"
+    },
+    {
+      "english": "good",
+      "vietnamese": "tốt; giỏi; hay",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Eating fruit every day is good for your health.",
+          "vi": "Ăn trái cây mỗi ngày tốt cho sức khỏe.",
+          "image_url": "https://images.pexels.com/photos/36600220/pexels-photo-36600220.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She is very good at math and science.",
+          "vi": "Cô ấy rất giỏi toán và khoa học.",
+          "image_url": "https://images.pexels.com/photos/6256109/pexels-photo-6256109.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "You should watch that movie because it's really good.",
+          "vi": "Bạn nên xem bộ phim đó vì nó rất hay.",
+          "image_url": "https://images.pexels.com/photos/7234319/pexels-photo-7234319.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "good at",
+        "good for",
+        "good idea",
+        "good news"
+      ],
+      "notes": "good – better – best",
+      "ipa": "/ɡʊd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/goo/good_/good__us_1.mp3"
+    },
+    {
+      "english": "people",
+      "vietnamese": "người; mọi người",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Many people take the bus to work in this city.",
+          "vi": "Ở thành phố này, nhiều người đi làm bằng xe buýt.",
+          "image_url": "https://images.pexels.com/photos/205353/pexels-photo-205353.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "How many people are coming to your party?",
+          "vi": "Có bao nhiêu người sẽ đến bữa tiệc của bạn?",
+          "image_url": "https://images.pexels.com/photos/36071198/pexels-photo-36071198.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "People are usually very friendly in small towns.",
+          "vi": "Ở các thị trấn nhỏ, mọi người thường rất thân thiện.",
+          "image_url": "https://images.pexels.com/photos/36722684/pexels-photo-36722684.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "most people",
+        "young people",
+        "local people",
+        "many people"
+      ],
+      "notes": "số nhiều của person",
+      "ipa": "/ˈpiːpl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/peo/peopl/people__us_4.mp3"
+    },
+    {
+      "english": "year",
+      "vietnamese": "năm; tuổi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We moved to this city three years ago.",
+          "vi": "Chúng tôi chuyển đến thành phố này ba năm trước.",
+          "image_url": "https://images.pexels.com/photos/7971291/pexels-photo-7971291.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She travels abroad at least once a year.",
+          "vi": "Cô ấy đi du lịch nước ngoài ít nhất mỗi năm một lần.",
+          "image_url": "https://images.pexels.com/photos/36485537/pexels-photo-36485537.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "My son will be seven years old next month.",
+          "vi": "Tháng sau con trai tôi sẽ tròn bảy tuổi.",
+          "image_url": "https://images.pexels.com/photos/27175710/pexels-photo-27175710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "last year",
+        "next year",
+        "every year",
+        "years old"
+      ],
+      "notes": null,
+      "ipa": "/jɪr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/y/yea/year_/year__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/6354023/pexels-photo-6354023.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Lisa Fotios",
+        "author_url": "https://www.pexels.com/@fotios-photos",
+        "source_url": "https://www.pexels.com/photo/a-man-holding-a-paper-with-message-6354023/"
+      }
+    },
+    {
+      "english": "take",
+      "vietnamese": "lấy; mang theo; mất (thời gian)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She took a book from the shelf and started reading.",
+          "vi": "Cô ấy lấy một cuốn sách trên kệ và bắt đầu đọc.",
+          "image_url": "https://images.pexels.com/photos/17975078/pexels-photo-17975078.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Don't forget to take an umbrella with you.",
+          "vi": "Đừng quên mang theo ô nhé.",
+          "image_url": "https://images.pexels.com/photos/6874991/pexels-photo-6874991.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "It takes about twenty minutes to walk to school.",
+          "vi": "Đi bộ đến trường mất khoảng hai mươi phút.",
+          "image_url": "https://images.pexels.com/photos/4881154/pexels-photo-4881154.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "take a photo",
+        "take a break",
+        "take the bus",
+        "take time"
+      ],
+      "notes": "take – took – taken",
+      "ipa": "/teɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tak/take_/take__us_1.mp3"
+    },
+    {
+      "english": "well",
+      "vietnamese": "tốt; giỏi; kỹ",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I didn't sleep well last night because of the noise.",
+          "vi": "Đêm qua tôi ngủ không ngon vì tiếng ồn.",
+          "image_url": "https://images.pexels.com/photos/7556638/pexels-photo-7556638.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "My brother can speak English and French very well.",
+          "vi": "Anh trai tôi nói tiếng Anh và tiếng Pháp rất giỏi.",
+          "image_url": "https://images.pexels.com/photos/39490137/pexels-photo-39490137.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Shake the bottle well before you use it.",
+          "vi": "Lắc kỹ chai trước khi dùng.",
+          "image_url": "https://images.pexels.com/photos/4812635/pexels-photo-4812635.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "very well",
+        "sleep well",
+        "do well"
+      ],
+      "notes": "good (tính từ) ≠ well (trạng từ)",
+      "ipa": "/wel/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wel/well_/well__us_2.mp3"
+    },
+    {
+      "english": "because",
+      "vietnamese": "vì; bởi vì",
+      "part_of_speech": "conjunction",
+      "examples": [
+        {
+          "en": "I stayed home because I had a bad cold.",
+          "vi": "Tôi ở nhà vì bị cảm nặng.",
+          "image_url": "https://images.pexels.com/photos/15508361/pexels-photo-15508361.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "We took a taxi because it was raining heavily.",
+          "vi": "Chúng tôi đi taxi vì trời mưa to.",
+          "image_url": "https://images.pexels.com/photos/11891283/pexels-photo-11891283.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Because the store was closed, we went somewhere else.",
+          "vi": "Vì cửa hàng đã đóng cửa nên chúng tôi đi chỗ khác.",
+          "image_url": "https://images.pexels.com/photos/38514789/pexels-photo-38514789.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "because of",
+        "just because",
+        "only because"
+      ],
+      "notes": "because + mệnh đề; because of + danh từ",
+      "ipa": "/bɪˈkəz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bec/becau/because__us_2.mp3"
+    },
+    {
+      "english": "come",
+      "vietnamese": "đến; về",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Can you come to my birthday party on Saturday?",
+          "vi": "Thứ Bảy bạn đến dự tiệc sinh nhật của tôi được không?",
+          "image_url": "https://images.pexels.com/photos/36071198/pexels-photo-36071198.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "My father usually comes home from work at six.",
+          "vi": "Bố tôi thường đi làm về lúc sáu giờ.",
+          "image_url": "https://images.pexels.com/photos/8949354/pexels-photo-8949354.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Where does your new roommate come from?",
+          "vi": "Bạn cùng phòng mới của bạn đến từ đâu?",
+          "image_url": "https://images.pexels.com/photos/23224972/pexels-photo-23224972.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "come home",
+        "come back",
+        "come in",
+        "come from"
+      ],
+      "notes": "come – came – come",
+      "ipa": "/kʌm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/come_/come__us_1.mp3"
+    },
+    {
+      "english": "work",
+      "vietnamese": "làm việc; hoạt động",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "My mother works at a hospital in the city.",
+          "vi": "Mẹ tôi làm việc tại một bệnh viện trong thành phố.",
+          "image_url": "https://images.pexels.com/photos/18271838/pexels-photo-18271838.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I have to work late tonight to finish this report.",
+          "vi": "Tối nay tôi phải làm việc muộn để hoàn thành bản báo cáo này.",
+          "image_url": "https://images.pexels.com/photos/8370882/pexels-photo-8370882.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The printer in our office isn't working again.",
+          "vi": "Máy in trong văn phòng chúng tôi lại không hoạt động rồi.",
+          "image_url": "https://images.pexels.com/photos/8297818/pexels-photo-8297818.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "work hard",
+        "work late",
+        "work from home",
+        "work together"
+      ],
+      "notes": null,
+      "ipa": "/wɜːrk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wor/work_/work__us_1.mp3"
+    },
+    {
+      "english": "use",
+      "vietnamese": "sử dụng; dùng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Can I use your phone for a minute?",
+          "vi": "Cho tôi dùng điện thoại của bạn một lát được không?",
+          "image_url": "https://images.pexels.com/photos/4033675/pexels-photo-4033675.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "We use this room for meetings and training.",
+          "vi": "Chúng tôi dùng phòng này để họp và đào tạo.",
+          "image_url": "https://images.pexels.com/photos/34221175/pexels-photo-34221175.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She used a knife to open the box.",
+          "vi": "Cô ấy dùng dao để mở chiếc hộp.",
+          "image_url": "https://images.pexels.com/photos/4506241/pexels-photo-4506241.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "use a computer",
+        "use the bathroom",
+        "easy to use"
+      ],
+      "notes": "used to + V = đã từng (khác với use)",
+      "ipa": "/juːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/use/use__/use__us_1.mp3"
+    },
+    {
+      "english": "look",
+      "vietnamese": "nhìn; trông",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Look at the beautiful sunset over the sea.",
+          "vi": "Nhìn hoàng hôn tuyệt đẹp trên biển kìa.",
+          "image_url": "https://images.pexels.com/photos/37200096/pexels-photo-37200096.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "He looked out of the window and saw the snow.",
+          "vi": "Anh ấy nhìn ra ngoài cửa sổ và thấy tuyết.",
+          "image_url": "https://images.pexels.com/photos/35356174/pexels-photo-35356174.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "You look very tired after your long trip.",
+          "vi": "Trông bạn rất mệt sau chuyến đi dài.",
+          "image_url": "https://images.pexels.com/photos/30595796/pexels-photo-30595796.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "look at",
+        "look for",
+        "look after",
+        "look happy"
+      ],
+      "notes": "look at: nhìn vào; look for: tìm; look after: chăm sóc",
+      "ipa": "/lʊk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/loo/look_/look__us_1.mp3"
+    },
+    {
+      "english": "want",
+      "vietnamese": "muốn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I want to learn how to cook Italian food.",
+          "vi": "Tôi muốn học cách nấu món Ý.",
+          "image_url": "https://images.pexels.com/photos/6287488/pexels-photo-6287488.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "What do you want for your birthday?",
+          "vi": "Bạn muốn được tặng gì vào dịp sinh nhật?",
+          "image_url": "https://images.pexels.com/photos/264771/pexels-photo-264771.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "My parents wanted me to become a doctor.",
+          "vi": "Bố mẹ tôi đã muốn tôi trở thành bác sĩ.",
+          "image_url": "https://images.pexels.com/photos/7653094/pexels-photo-7653094.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "really want",
+        "want to know",
+        "want to go"
+      ],
+      "notes": null,
+      "ipa": "/wɑːnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wan/want_/want__us_1_rr.mp3",
+      "image_url": "https://images.pexels.com/photos/5737622/pexels-photo-5737622.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Tim Mossholder",
+        "author_url": "https://www.pexels.com/@timmossholder",
+        "source_url": "https://www.pexels.com/photo/help-wanted-sign-on-glass-5737622/"
+      }
+    },
+    {
+      "english": "give",
+      "vietnamese": "đưa; cho; tặng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please give this letter to your teacher.",
+          "vi": "Em hãy đưa lá thư này cho giáo viên của em nhé.",
+          "image_url": "https://images.pexels.com/photos/30945609/pexels-photo-30945609.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Could you give me some advice about buying a car?",
+          "vi": "Bạn có thể cho tôi vài lời khuyên về việc mua xe không?",
+          "image_url": "https://images.pexels.com/photos/6817009/pexels-photo-6817009.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "My aunt gave me a watch for my birthday.",
+          "vi": "Dì tặng tôi một chiếc đồng hồ nhân dịp sinh nhật.",
+          "image_url": "https://images.pexels.com/photos/13018652/pexels-photo-13018652.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "give advice",
+        "give a speech",
+        "give up"
+      ],
+      "notes": "give – gave – given",
+      "ipa": "/ɡɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/giv/give_/give__us_1.mp3"
+    },
+    {
+      "english": "first",
+      "vietnamese": "đầu tiên; thứ nhất",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "I still remember my first day at school.",
+          "vi": "Tôi vẫn nhớ ngày đầu tiên đi học.",
+          "image_url": "https://images.pexels.com/photos/8421930/pexels-photo-8421930.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The first train leaves at five in the morning.",
+          "vi": "Chuyến tàu đầu tiên khởi hành lúc năm giờ sáng.",
+          "image_url": "https://images.pexels.com/photos/33816597/pexels-photo-33816597.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Take the first street on the left after the bank.",
+          "vi": "Rẽ vào con phố đầu tiên bên trái sau ngân hàng.",
+          "image_url": "https://images.pexels.com/photos/20414013/pexels-photo-20414013.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "first time",
+        "first day",
+        "first step",
+        "at first"
+      ],
+      "notes": null,
+      "ipa": "/fɜːrst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fir/first/first__us_1.mp3"
+    },
+    {
+      "english": "new",
+      "vietnamese": "mới",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "I bought a new laptop for my studies.",
+          "vi": "Tôi mua một chiếc máy tính xách tay mới để học.",
+          "image_url": "https://images.pexels.com/photos/20432893/pexels-photo-20432893.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Our new neighbors are very friendly and helpful.",
+          "vi": "Hàng xóm mới của chúng tôi rất thân thiện và hay giúp đỡ.",
+          "image_url": "https://images.pexels.com/photos/6647031/pexels-photo-6647031.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Is it hard to make new friends in a big city?",
+          "vi": "Kết bạn mới ở thành phố lớn có khó không?",
+          "image_url": "https://images.pexels.com/photos/21853992/pexels-photo-21853992.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "new job",
+        "brand new",
+        "new friends",
+        "something new"
+      ],
+      "notes": null,
+      "ipa": "/nuː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/new/new__/new__us_1.mp3"
+    },
+    {
+      "english": "way",
+      "vietnamese": "cách; đường",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "What is the best way to learn English?",
+          "vi": "Cách tốt nhất để học tiếng Anh là gì?",
+          "image_url": "https://images.pexels.com/photos/20875710/pexels-photo-20875710.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Excuse me, could you tell me the way to the station?",
+          "vi": "Xin lỗi, bạn có thể chỉ giúp tôi đường đến nhà ga không?",
+          "image_url": "https://images.pexels.com/photos/33629154/pexels-photo-33629154.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I bought some bread on my way home.",
+          "vi": "Tôi mua ít bánh mì trên đường về nhà.",
+          "image_url": "https://images.pexels.com/photos/7543099/pexels-photo-7543099.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "the best way",
+        "on the way",
+        "a long way"
+      ],
+      "notes": null,
+      "ipa": "/weɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/way/way__/way__us_1.mp3"
+    },
+    {
+      "english": "find",
+      "vietnamese": "tìm thấy; thấy",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I can't find my car keys anywhere this morning.",
+          "vi": "Sáng nay tôi tìm khắp nơi mà không thấy chìa khóa xe.",
+          "image_url": "https://images.pexels.com/photos/2810140/pexels-photo-2810140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She finally found a job at a local bank.",
+          "vi": "Cuối cùng cô ấy cũng tìm được việc ở một ngân hàng địa phương.",
+          "image_url": "https://images.pexels.com/photos/3869640/pexels-photo-3869640.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Most students find this exercise quite difficult.",
+          "vi": "Hầu hết học sinh thấy bài tập này khá khó.",
+          "image_url": "https://images.pexels.com/photos/37812834/pexels-photo-37812834.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "find a job",
+        "find out",
+        "find the answer",
+        "hard to find"
+      ],
+      "notes": "find – found – found",
+      "ipa": "/faɪnd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fin/find_/find__us_1.mp3"
+    },
+    {
+      "english": "day",
+      "vietnamese": "ngày; ban ngày",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I drink two cups of coffee a day.",
+          "vi": "Tôi uống hai tách cà phê mỗi ngày.",
+          "image_url": "https://images.pexels.com/photos/35835482/pexels-photo-35835482.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "We spent the whole day at the beach.",
+          "vi": "Chúng tôi ở bãi biển cả ngày.",
+          "image_url": "https://images.pexels.com/photos/29293836/pexels-photo-29293836.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "My father works during the day and studies at night.",
+          "vi": "Bố tôi làm việc ban ngày và đi học vào buổi tối.",
+          "image_url": "https://images.pexels.com/photos/9345689/pexels-photo-9345689.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "every day",
+        "all day",
+        "the next day",
+        "during the day"
+      ],
+      "notes": null,
+      "ipa": "/deɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/day/day__/day__us_1.mp3"
+    },
+    {
+      "english": "thing",
+      "vietnamese": "đồ vật; điều; việc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Put your things in the bag before we leave.",
+          "vi": "Cất đồ của bạn vào túi trước khi chúng ta đi nhé.",
+          "image_url": "https://images.pexels.com/photos/9185809/pexels-photo-9185809.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "The most important thing is your health.",
+          "vi": "Điều quan trọng nhất là sức khỏe của bạn.",
+          "image_url": "https://images.pexels.com/photos/5080100/pexels-photo-5080100.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "I have a lot of things to do today.",
+          "vi": "Hôm nay tôi có rất nhiều việc phải làm.",
+          "image_url": "https://images.pexels.com/photos/7888981/pexels-photo-7888981.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "the only thing",
+        "the same thing",
+        "the most important thing"
+      ],
+      "notes": null,
+      "ipa": "/θɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/thi/thing/thing__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/6353770/pexels-photo-6353770.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "Anete Lusina",
+        "author_url": "https://www.pexels.com/@anete-lusina",
+        "source_url": "https://www.pexels.com/photo/textbook-with-message-on-hardcover-against-window-6353770/"
+      }
+    },
+    {
+      "english": "need",
+      "vietnamese": "cần",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I need to buy some milk on the way home.",
+          "vi": "Tôi cần mua ít sữa trên đường về nhà.",
+          "image_url": "https://images.pexels.com/photos/8718885/pexels-photo-8718885.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Do you need any help with those bags?",
+          "vi": "Bạn có cần giúp mang mấy cái túi đó không?",
+          "image_url": "https://images.pexels.com/photos/9531993/pexels-photo-9531993.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Plants need water and sunlight to grow.",
+          "vi": "Cây cần nước và ánh nắng để phát triển.",
+          "image_url": "https://images.pexels.com/photos/4894621/pexels-photo-4894621.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "need help",
+        "need to know",
+        "really need"
+      ],
+      "notes": null,
+      "ipa": "/niːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nee/need_/need__us_1.mp3"
+    },
+    {
+      "english": "right",
+      "vietnamese": "đúng; bên phải",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "You're right, the meeting starts at ten, not nine.",
+          "vi": "Bạn nói đúng, cuộc họp bắt đầu lúc mười giờ chứ không phải chín giờ.",
+          "image_url": "https://images.pexels.com/photos/30073743/pexels-photo-30073743.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "Is this the right bus for the city center?",
+          "vi": "Đây có đúng là xe buýt đi vào trung tâm thành phố không?",
+          "image_url": "https://images.pexels.com/photos/26807015/pexels-photo-26807015.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        },
+        {
+          "en": "She broke her right arm while playing basketball.",
+          "vi": "Cô ấy bị gãy tay phải khi chơi bóng rổ.",
+          "image_url": "https://images.pexels.com/photos/10396727/pexels-photo-10396727.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+        }
+      ],
+      "collocations": [
+        "the right answer",
+        "right hand",
+        "right side",
+        "exactly right"
+      ],
+      "notes": null,
+      "ipa": "/raɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rig/right/right__us_1.mp3",
+      "image_url": "https://images.pexels.com/photos/8834285/pexels-photo-8834285.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+      "image_attribution": {
+        "source": "pexels",
+        "author": "cottonbro CG studio",
+        "author_url": "https://www.pexels.com/@cottonbro-cg-studio",
+        "source_url": "https://www.pexels.com/photo/an-animation-of-pointing-finger-on-a-black-background-8834285/"
+      }
+    }
+  ]
+}

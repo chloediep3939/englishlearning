@@ -1,0 +1,828 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.001–2.500 · Bộ 3",
+    "description": "New General Service List, thứ hạng 2.001–2.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-5-03"
+  },
+  "cards": [
+    {
+      "english": "ease",
+      "vietnamese": "sự dễ dàng; sự thoải mái",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She passed her driving test with ease on the first try.",
+          "vi": "Cô ấy đã dễ dàng vượt qua bài thi lái xe ngay lần đầu."
+        },
+        {
+          "en": "This phone is popular because of its ease of use.",
+          "vi": "Chiếc điện thoại này được ưa chuộng vì dễ sử dụng."
+        },
+        {
+          "en": "I felt at ease as soon as I met her family.",
+          "vi": "Tôi cảm thấy thoải mái ngay khi gặp gia đình cô ấy."
+        }
+      ],
+      "collocations": [
+        "with ease",
+        "ease of use",
+        "at ease",
+        "feel at ease"
+      ],
+      "notes": null,
+      "ipa": "/iːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eas/ease_/ease__us_1.mp3"
+    },
+    {
+      "english": "beer",
+      "vietnamese": "bia",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Would you like a cold beer after work?",
+          "vi": "Bạn có muốn uống một cốc bia lạnh sau giờ làm không?"
+        },
+        {
+          "en": "My father has a glass of beer with dinner on Fridays.",
+          "vi": "Bố tôi uống một cốc bia trong bữa tối vào các thứ Sáu."
+        },
+        {
+          "en": "They ordered two beers and a plate of fries.",
+          "vi": "Họ gọi hai cốc bia và một đĩa khoai tây chiên."
+        }
+      ],
+      "collocations": [
+        "cold beer",
+        "a glass of beer",
+        "drink beer",
+        "a bottle of beer"
+      ],
+      "notes": null,
+      "ipa": "/bɪr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bee/beer_/beer__us_1.mp3"
+    },
+    {
+      "english": "specialist",
+      "vietnamese": "chuyên gia; bác sĩ chuyên khoa",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My doctor sent me to a heart specialist for more tests.",
+          "vi": "Bác sĩ chuyển tôi đến một bác sĩ chuyên khoa tim để làm thêm xét nghiệm."
+        },
+        {
+          "en": "She works as a computer specialist at a large bank.",
+          "vi": "Cô ấy làm chuyên gia máy tính tại một ngân hàng lớn."
+        },
+        {
+          "en": "We asked a specialist to check the old roof.",
+          "vi": "Chúng tôi đã nhờ một chuyên gia kiểm tra mái nhà cũ."
+        }
+      ],
+      "collocations": [
+        "see a specialist",
+        "heart specialist",
+        "medical specialist"
+      ],
+      "notes": null,
+      "ipa": "/ˈspeʃəlɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spe/speci/specialist__us_1.mp3"
+    },
+    {
+      "english": "assure",
+      "vietnamese": "cam đoan; đảm bảo (với ai)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I can assure you that your bag will be safe here.",
+          "vi": "Tôi có thể cam đoan với bạn rằng túi của bạn để ở đây sẽ an toàn."
+        },
+        {
+          "en": "The doctor assured us that the surgery went well.",
+          "vi": "Bác sĩ đảm bảo với chúng tôi rằng ca phẫu thuật đã diễn ra tốt đẹp."
+        },
+        {
+          "en": "She assured her parents that she would call every week.",
+          "vi": "Cô ấy cam đoan với bố mẹ rằng sẽ gọi điện về mỗi tuần."
+        }
+      ],
+      "collocations": [
+        "I can assure you",
+        "assure somebody that",
+        "rest assured"
+      ],
+      "notes": "assure (cam đoan với ai) ≠ ensure (đảm bảo việc gì xảy ra)",
+      "ipa": "/əˈʃʊr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/assur/assure__us_1.mp3"
+    },
+    {
+      "english": "profile",
+      "vietnamese": "hồ sơ; trang cá nhân; mặt nghiêng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please update your profile with your new phone number.",
+          "vi": "Vui lòng cập nhật số điện thoại mới vào trang cá nhân của bạn."
+        },
+        {
+          "en": "The company keeps a detailed profile of each customer.",
+          "vi": "Công ty lưu một hồ sơ chi tiết về từng khách hàng."
+        },
+        {
+          "en": "The photo shows the old man's face in profile.",
+          "vi": "Bức ảnh chụp nghiêng khuôn mặt của ông lão."
+        }
+      ],
+      "collocations": [
+        "update your profile",
+        "profile picture",
+        "in profile"
+      ],
+      "notes": null,
+      "ipa": "/ˈprəʊfaɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/profi/profile__us_2.mp3"
+    },
+    {
+      "english": "mood",
+      "vietnamese": "tâm trạng; không khí",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I'm not in the mood to cook tonight.",
+          "vi": "Tối nay tôi không có tâm trạng nấu ăn."
+        },
+        {
+          "en": "She was in a good mood after the long weekend.",
+          "vi": "Cô ấy có tâm trạng tốt sau kỳ nghỉ cuối tuần dài."
+        },
+        {
+          "en": "The mood at the party changed when the music stopped.",
+          "vi": "Không khí bữa tiệc thay đổi khi nhạc tắt."
+        }
+      ],
+      "collocations": [
+        "in a good mood",
+        "in a bad mood",
+        "in the mood for"
+      ],
+      "notes": null,
+      "ipa": "/muːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/moo/mood_/mood__us_1.mp3"
+    },
+    {
+      "english": "episode",
+      "vietnamese": "tập (phim); giai đoạn, sự việc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We watched three episodes of the show last night.",
+          "vi": "Tối qua chúng tôi đã xem ba tập của chương trình đó."
+        },
+        {
+          "en": "I missed the final episode, so please don't tell me the ending.",
+          "vi": "Tôi đã bỏ lỡ tập cuối, nên đừng kể cho tôi đoạn kết nhé."
+        },
+        {
+          "en": "He doesn't like to talk about that difficult episode in his life.",
+          "vi": "Anh ấy không thích nhắc đến giai đoạn khó khăn đó trong đời mình."
+        }
+      ],
+      "collocations": [
+        "final episode",
+        "latest episode",
+        "next episode"
+      ],
+      "notes": null,
+      "ipa": "/ˈepɪsəʊd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/epi/episo/episode__us_2.mp3"
+    },
+    {
+      "english": "crack",
+      "vietnamese": "nứt; làm nứt; đập (trứng)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The glass cracked when I poured hot water into it.",
+          "vi": "Chiếc cốc bị nứt khi tôi rót nước nóng vào."
+        },
+        {
+          "en": "Crack two eggs into a bowl and mix them well.",
+          "vi": "Đập hai quả trứng vào bát rồi trộn đều."
+        },
+        {
+          "en": "He fell off his bike and cracked a bone in his arm.",
+          "vi": "Anh ấy ngã xe đạp và bị rạn xương tay."
+        }
+      ],
+      "collocations": [
+        "crack an egg",
+        "crack a joke",
+        "crack open"
+      ],
+      "notes": null,
+      "ipa": "/kræk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cra/crack/crack__us_1.mp3"
+    },
+    {
+      "english": "numerous",
+      "vietnamese": "nhiều; vô số",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "I have called the company numerous times this week.",
+          "vi": "Tuần này tôi đã gọi cho công ty rất nhiều lần."
+        },
+        {
+          "en": "The city has numerous parks where families can relax.",
+          "vi": "Thành phố có rất nhiều công viên để các gia đình thư giãn."
+        },
+        {
+          "en": "She has won numerous awards for her children's books.",
+          "vi": "Cô ấy đã giành được vô số giải thưởng cho sách thiếu nhi của mình."
+        }
+      ],
+      "collocations": [
+        "numerous times",
+        "on numerous occasions",
+        "numerous examples"
+      ],
+      "notes": null,
+      "ipa": "/ˈnuːmərəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/num/numer/numerous__us_1.mp3"
+    },
+    {
+      "english": "submit",
+      "vietnamese": "nộp; đệ trình",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please submit your homework by Friday morning.",
+          "vi": "Vui lòng nộp bài tập về nhà trước sáng thứ Sáu."
+        },
+        {
+          "en": "I need to submit an application for the job by Monday.",
+          "vi": "Tôi cần nộp đơn xin công việc đó trước thứ Hai."
+        },
+        {
+          "en": "All reports must be submitted to the manager before the meeting.",
+          "vi": "Tất cả báo cáo phải được nộp cho quản lý trước cuộc họp."
+        }
+      ],
+      "collocations": [
+        "submit an application",
+        "submit a report",
+        "submit a proposal"
+      ],
+      "notes": null,
+      "ipa": "/səbˈmɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sub/submi/submit__us_1.mp3"
+    },
+    {
+      "english": "symptom",
+      "vietnamese": "triệu chứng; dấu hiệu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Fever and a sore throat are common symptoms of the flu.",
+          "vi": "Sốt và đau họng là những triệu chứng thường gặp của bệnh cúm."
+        },
+        {
+          "en": "Call your doctor if the symptoms get worse.",
+          "vi": "Hãy gọi cho bác sĩ nếu các triệu chứng nặng hơn."
+        },
+        {
+          "en": "Feeling tired all the time can be a symptom of stress.",
+          "vi": "Lúc nào cũng thấy mệt mỏi có thể là dấu hiệu của căng thẳng."
+        }
+      ],
+      "collocations": [
+        "common symptoms",
+        "mild symptoms",
+        "symptoms get worse"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɪmptəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sym/sympt/symptom__us_2.mp3"
+    },
+    {
+      "english": "virtually",
+      "vietnamese": "hầu như; gần như",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Virtually everyone in my class has a smartphone.",
+          "vi": "Hầu như ai trong lớp tôi cũng có điện thoại thông minh."
+        },
+        {
+          "en": "It is virtually impossible to find a parking space here.",
+          "vi": "Gần như không thể tìm được chỗ đậu xe ở đây."
+        },
+        {
+          "en": "The town was virtually empty during the holiday.",
+          "vi": "Thị trấn gần như vắng tanh trong kỳ nghỉ lễ."
+        }
+      ],
+      "collocations": [
+        "virtually impossible",
+        "virtually everyone",
+        "virtually all"
+      ],
+      "notes": null,
+      "ipa": "/ˈvɜːrtʃuəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vir/virtu/virtually__us_1_rr.mp3"
+    },
+    {
+      "english": "era",
+      "vietnamese": "kỷ nguyên; thời đại",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "In the digital era, people rarely write letters by hand.",
+          "vi": "Trong thời đại kỹ thuật số, người ta hiếm khi viết thư tay."
+        },
+        {
+          "en": "My grandparents grew up in an era without television.",
+          "vi": "Ông bà tôi lớn lên trong một thời đại chưa có tivi."
+        },
+        {
+          "en": "The internet started a new era in the way people communicate.",
+          "vi": "Internet đã mở ra một kỷ nguyên mới trong cách con người giao tiếp."
+        }
+      ],
+      "collocations": [
+        "a new era",
+        "the digital era",
+        "the end of an era"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪrə/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/era/era__/era__us_1_rr.mp3"
+    },
+    {
+      "english": "coverage",
+      "vietnamese": "việc đưa tin; vùng phủ sóng; phạm vi bảo hiểm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The news coverage of the storm lasted all evening.",
+          "vi": "Việc đưa tin về cơn bão kéo dài suốt buổi tối."
+        },
+        {
+          "en": "Our phone company has poor coverage in the mountains.",
+          "vi": "Nhà mạng của chúng tôi phủ sóng kém ở vùng núi."
+        },
+        {
+          "en": "Does your health insurance include coverage for dental care?",
+          "vi": "Bảo hiểm y tế của bạn có chi trả cho việc chăm sóc răng không?"
+        }
+      ],
+      "collocations": [
+        "news coverage",
+        "media coverage",
+        "live coverage",
+        "insurance coverage"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈkʌvərɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cov/cover/coverage__us_2_rr.mp3"
+    },
+    {
+      "english": "tension",
+      "vietnamese": "sự căng thẳng; độ căng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "You could feel the tension in the room during the meeting.",
+          "vi": "Bạn có thể cảm nhận sự căng thẳng trong phòng suốt cuộc họp."
+        },
+        {
+          "en": "A hot bath helps reduce the tension in my shoulders.",
+          "vi": "Tắm nước nóng giúp giảm độ căng cứng ở vai tôi."
+        },
+        {
+          "en": "There is some tension between the two brothers these days.",
+          "vi": "Dạo này giữa hai anh em có chút căng thẳng."
+        }
+      ],
+      "collocations": [
+        "tension between",
+        "reduce tension",
+        "muscle tension"
+      ],
+      "notes": null,
+      "ipa": "/ˈtenʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/ten/tensi/tension__us_1.mp3"
+    },
+    {
+      "english": "cable",
+      "vietnamese": "dây cáp; truyền hình cáp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I need a longer charging cable for my phone.",
+          "vi": "Tôi cần một sợi cáp sạc dài hơn cho điện thoại."
+        },
+        {
+          "en": "Can you plug this cable into the back of the TV?",
+          "vi": "Bạn cắm sợi cáp này vào phía sau tivi giúp tôi được không?"
+        },
+        {
+          "en": "We stopped paying for cable because we watch everything online.",
+          "vi": "Chúng tôi ngừng trả tiền truyền hình cáp vì xem mọi thứ trên mạng."
+        }
+      ],
+      "collocations": [
+        "charging cable",
+        "power cable",
+        "cable TV"
+      ],
+      "notes": null,
+      "ipa": "/ˈkeɪbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cab/cable/cable__us_2.mp3"
+    },
+    {
+      "english": "sensitive",
+      "vietnamese": "nhạy cảm; dễ bị tổn thương",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My teeth are sensitive to cold drinks.",
+          "vi": "Răng tôi nhạy cảm với đồ uống lạnh."
+        },
+        {
+          "en": "He is very sensitive, so be careful what you say.",
+          "vi": "Anh ấy rất dễ bị tổn thương, nên hãy cẩn thận khi nói."
+        },
+        {
+          "en": "Money is a sensitive topic in many families.",
+          "vi": "Tiền bạc là một chủ đề nhạy cảm trong nhiều gia đình."
+        }
+      ],
+      "collocations": [
+        "sensitive skin",
+        "sensitive to",
+        "sensitive topic",
+        "sensitive issue"
+      ],
+      "notes": null,
+      "ipa": "/ˈsensətɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sen/sensi/sensitive__us_4.mp3"
+    },
+    {
+      "english": "nervous",
+      "vietnamese": "lo lắng; hồi hộp",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "I always feel nervous before a job interview.",
+          "vi": "Tôi luôn cảm thấy hồi hộp trước buổi phỏng vấn xin việc."
+        },
+        {
+          "en": "She was too nervous to speak in front of the class.",
+          "vi": "Cô ấy quá lo lắng nên không dám nói trước lớp."
+        },
+        {
+          "en": "Driving on busy roads makes my mother nervous.",
+          "vi": "Lái xe trên những con đường đông đúc khiến mẹ tôi lo lắng."
+        }
+      ],
+      "collocations": [
+        "feel nervous",
+        "nervous about",
+        "get nervous"
+      ],
+      "notes": null,
+      "ipa": "/ˈnɜːrvəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/ner/nervo/nervous__us_1.mp3"
+    },
+    {
+      "english": "input",
+      "vietnamese": "ý kiến đóng góp; dữ liệu đầu vào",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Thanks for your input on the new website design.",
+          "vi": "Cảm ơn ý kiến đóng góp của bạn về thiết kế trang web mới."
+        },
+        {
+          "en": "We want some input from parents before we change the school rules.",
+          "vi": "Chúng tôi muốn nghe một số ý kiến từ phụ huynh trước khi thay đổi nội quy trường."
+        },
+        {
+          "en": "The program checks the user's input before saving it.",
+          "vi": "Chương trình kiểm tra dữ liệu người dùng nhập vào trước khi lưu."
+        }
+      ],
+      "collocations": [
+        "input from",
+        "valuable input",
+        "user input"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪnpʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inp/input/input__us_1.mp3"
+    },
+    {
+      "english": "isolate",
+      "vietnamese": "cô lập; cách ly",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Doctors isolated the sick child to protect the other patients.",
+          "vi": "Các bác sĩ đã cách ly đứa trẻ bị bệnh để bảo vệ những bệnh nhân khác."
+        },
+        {
+          "en": "The heavy snow isolated the village for a week.",
+          "vi": "Tuyết rơi dày đã cô lập ngôi làng suốt một tuần."
+        },
+        {
+          "en": "Working from home can make some people feel isolated.",
+          "vi": "Làm việc ở nhà có thể khiến một số người cảm thấy bị cô lập."
+        }
+      ],
+      "collocations": [
+        "feel isolated",
+        "socially isolated",
+        "isolate from"
+      ],
+      "notes": null,
+      "ipa": "/ˈaɪsəleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/iso/isola/isolate__us_1.mp3"
+    },
+    {
+      "english": "prisoner",
+      "vietnamese": "tù nhân",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The prisoner was released after ten years in jail.",
+          "vi": "Người tù được thả sau mười năm ngồi tù."
+        },
+        {
+          "en": "Visitors can only see prisoners on Sunday afternoons.",
+          "vi": "Khách thăm chỉ được gặp tù nhân vào chiều Chủ nhật."
+        },
+        {
+          "en": "Police are still looking for the two prisoners who escaped.",
+          "vi": "Cảnh sát vẫn đang truy tìm hai tù nhân đã vượt ngục."
+        }
+      ],
+      "collocations": [
+        "release a prisoner",
+        "escaped prisoner",
+        "prisoner of war"
+      ],
+      "notes": null,
+      "ipa": "/ˈprɪznər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/priso/prisoner__us_3.mp3"
+    },
+    {
+      "english": "eliminate",
+      "vietnamese": "loại bỏ; loại (khỏi cuộc thi)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Good planning can eliminate the need for extra meetings.",
+          "vi": "Lên kế hoạch tốt có thể giúp không cần đến những cuộc họp thêm."
+        },
+        {
+          "en": "Our team was eliminated in the first round of the tournament.",
+          "vi": "Đội chúng tôi đã bị loại ngay vòng đầu của giải đấu."
+        },
+        {
+          "en": "Try to eliminate sugar from your diet for a month.",
+          "vi": "Hãy thử loại bỏ đường khỏi chế độ ăn của bạn trong một tháng."
+        }
+      ],
+      "collocations": [
+        "eliminate the need",
+        "completely eliminate",
+        "be eliminated from"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈlɪmɪneɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eli/elimi/eliminate__us_1.mp3"
+    },
+    {
+      "english": "tight",
+      "vietnamese": "chật; chặt; eo hẹp",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "These jeans feel too tight after the holidays.",
+          "vi": "Chiếc quần jean này mặc thấy chật quá sau kỳ nghỉ lễ."
+        },
+        {
+          "en": "Make sure the lid is tight before you shake the bottle.",
+          "vi": "Hãy chắc chắn nắp đã được đậy chặt trước khi lắc chai."
+        },
+        {
+          "en": "Money is tight, so we're not going on vacation this year.",
+          "vi": "Tiền bạc eo hẹp nên năm nay chúng tôi sẽ không đi du lịch."
+        }
+      ],
+      "collocations": [
+        "too tight",
+        "tight schedule",
+        "tight budget",
+        "money is tight"
+      ],
+      "notes": null,
+      "ipa": "/taɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tig/tight/tight__us_1.mp3"
+    },
+    {
+      "english": "wet",
+      "vietnamese": "ướt; có mưa",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Take off your wet shoes before you come inside.",
+          "vi": "Hãy cởi đôi giày ướt ra trước khi vào nhà."
+        },
+        {
+          "en": "We all got wet because we forgot our umbrellas.",
+          "vi": "Tất cả chúng tôi đều bị ướt vì quên mang ô."
+        },
+        {
+          "en": "It was a cold and wet day, so we stayed home.",
+          "vi": "Hôm đó trời lạnh và mưa nên chúng tôi ở nhà."
+        }
+      ],
+      "collocations": [
+        "get wet",
+        "wet weather",
+        "soaking wet"
+      ],
+      "notes": null,
+      "ipa": "/wet/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wet/wet__/wet__us_1.mp3"
+    },
+    {
+      "english": "secondary",
+      "vietnamese": "thứ yếu; (thuộc) trung học",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "For me, the salary is secondary to the people I work with.",
+          "vi": "Với tôi, mức lương là thứ yếu so với những người làm việc cùng mình."
+        },
+        {
+          "en": "My sister teaches math at a secondary school.",
+          "vi": "Chị tôi dạy toán ở một trường trung học."
+        },
+        {
+          "en": "Price was a secondary concern when we chose the hotel.",
+          "vi": "Giá cả chỉ là mối quan tâm thứ yếu khi chúng tôi chọn khách sạn."
+        }
+      ],
+      "collocations": [
+        "secondary school",
+        "secondary education",
+        "secondary to"
+      ],
+      "notes": null,
+      "ipa": "/ˈsekənderi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sec/secon/secondary__us_1.mp3"
+    },
+    {
+      "english": "welfare",
+      "vietnamese": "phúc lợi; sự khỏe mạnh và an toàn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our manager really cares about staff welfare.",
+          "vi": "Quản lý của chúng tôi thực sự quan tâm đến phúc lợi của nhân viên."
+        },
+        {
+          "en": "Animal welfare groups found new homes for the dogs.",
+          "vi": "Các tổ chức bảo vệ quyền lợi động vật đã tìm nhà mới cho những chú chó."
+        },
+        {
+          "en": "Parents are responsible for the welfare of their children.",
+          "vi": "Cha mẹ có trách nhiệm chăm lo sức khỏe và sự an toàn của con cái."
+        }
+      ],
+      "collocations": [
+        "animal welfare",
+        "child welfare",
+        "staff welfare",
+        "social welfare"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈwelfer/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wel/welfa/welfare__us_1.mp3"
+    },
+    {
+      "english": "recruit",
+      "vietnamese": "tuyển; tuyển dụng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company plans to recruit fifty new workers this year.",
+          "vi": "Công ty dự định tuyển năm mươi công nhân mới trong năm nay."
+        },
+        {
+          "en": "We need to recruit volunteers for the school fair.",
+          "vi": "Chúng tôi cần tuyển tình nguyện viên cho hội chợ của trường."
+        },
+        {
+          "en": "She was recruited by a large bank straight after university.",
+          "vi": "Cô ấy được một ngân hàng lớn tuyển dụng ngay khi vừa tốt nghiệp đại học."
+        }
+      ],
+      "collocations": [
+        "recruit staff",
+        "recruit volunteers",
+        "recruit new members"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈkruːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rec/recru/recruit__us_1.mp3"
+    },
+    {
+      "english": "exclude",
+      "vietnamese": "loại trừ; không bao gồm; không cho tham gia",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The price of the tour excludes meals and drinks.",
+          "vi": "Giá tour không bao gồm đồ ăn và thức uống."
+        },
+        {
+          "en": "The other kids excluded him from their games.",
+          "vi": "Những đứa trẻ khác không cho cậu ấy chơi cùng."
+        },
+        {
+          "en": "We can't exclude the possibility that the flight will be late.",
+          "vi": "Chúng ta không thể loại trừ khả năng chuyến bay sẽ bị trễ."
+        }
+      ],
+      "collocations": [
+        "exclude from",
+        "exclude the possibility",
+        "feel excluded"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈskluːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exc/exclu/exclude__us_1.mp3"
+    },
+    {
+      "english": "string",
+      "vietnamese": "dây; dây đàn; chuỗi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She tied the box with a piece of string.",
+          "vi": "Cô ấy buộc chiếc hộp bằng một sợi dây."
+        },
+        {
+          "en": "One of the strings on my guitar broke last night.",
+          "vi": "Tối qua một dây đàn guitar của tôi bị đứt."
+        },
+        {
+          "en": "Our team had a string of wins this season.",
+          "vi": "Mùa giải này đội chúng tôi đã có một chuỗi trận thắng."
+        }
+      ],
+      "collocations": [
+        "a piece of string",
+        "guitar string",
+        "a string of"
+      ],
+      "notes": "Nghĩa \"dây buộc\" không đếm được: a piece of string",
+      "ipa": "/strɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/strin/string__us_1.mp3"
+    },
+    {
+      "english": "cloud",
+      "vietnamese": "mây; đám (khói, bụi)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There wasn't a cloud in the sky all day.",
+          "vi": "Cả ngày trên trời không có một gợn mây."
+        },
+        {
+          "en": "Dark clouds are coming, so bring your umbrella.",
+          "vi": "Mây đen đang kéo đến, nên hãy mang theo ô."
+        },
+        {
+          "en": "A cloud of dust rose behind the truck.",
+          "vi": "Một đám bụi bốc lên phía sau chiếc xe tải."
+        }
+      ],
+      "collocations": [
+        "dark clouds",
+        "a cloud of dust",
+        "a cloud of smoke"
+      ],
+      "notes": null,
+      "ipa": "/klaʊd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/clo/cloud/cloud__us_1.mp3"
+    }
+  ]
+}

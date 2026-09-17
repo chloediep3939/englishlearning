@@ -1,0 +1,827 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 10 · Bộ 1",
+    "description": "Academic Word List, sublist 10",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-10-01"
+  },
+  "cards": [
+    {
+      "english": "adjacent",
+      "vietnamese": "liền kề; kế bên",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The new laboratory will be built on land adjacent to the hospital.",
+          "vi": "Phòng thí nghiệm mới sẽ được xây trên khu đất liền kề bệnh viện."
+        },
+        {
+          "en": "Cells in adjacent areas of the tissue showed similar damage.",
+          "vi": "Các tế bào ở những vùng liền kề của mô cho thấy tổn thương tương tự."
+        },
+        {
+          "en": "Two adjacent countries signed an agreement to share water resources.",
+          "vi": "Hai quốc gia kế bên nhau đã ký thỏa thuận chia sẻ nguồn nước."
+        }
+      ],
+      "collocations": [
+        "adjacent to",
+        "adjacent areas",
+        "adjacent land"
+      ],
+      "notes": "adjacent to + danh từ",
+      "ipa": "/əˈdʒeɪsnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adj/adjac/adjacent__us_1.mp3"
+    },
+    {
+      "english": "albeit",
+      "vietnamese": "mặc dù; dù là",
+      "part_of_speech": "conjunction",
+      "examples": [
+        {
+          "en": "The economy is growing, albeit slowly, according to the latest figures.",
+          "vi": "Theo số liệu mới nhất, nền kinh tế đang tăng trưởng, dù là chậm."
+        },
+        {
+          "en": "The treatment was effective, albeit only for a small number of patients.",
+          "vi": "Phương pháp điều trị có hiệu quả, mặc dù chỉ với một số ít bệnh nhân."
+        },
+        {
+          "en": "Prices rose again last month, albeit at a lower rate.",
+          "vi": "Giá cả lại tăng trong tháng trước, dù là với tốc độ thấp hơn."
+        }
+      ],
+      "collocations": [
+        "albeit slowly",
+        "albeit briefly",
+        "albeit at a lower rate"
+      ],
+      "notes": "Trang trọng; thường theo sau là tính từ, trạng từ hoặc cụm giới từ",
+      "ipa": "/ˌɔːlˈbiːɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/alb/albei/albeit__us_1_rr.mp3"
+    },
+    {
+      "english": "assemble",
+      "vietnamese": "lắp ráp; tập hợp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The cars are assembled in a factory outside the capital.",
+          "vi": "Những chiếc ô tô được lắp ráp tại một nhà máy ở ngoại ô thủ đô."
+        },
+        {
+          "en": "Workers can assemble the device in less than ten minutes.",
+          "vi": "Công nhân có thể lắp ráp thiết bị này trong chưa đầy mười phút."
+        },
+        {
+          "en": "The university assembled a team of experts to study the problem.",
+          "vi": "Trường đại học đã tập hợp một nhóm chuyên gia để nghiên cứu vấn đề này."
+        }
+      ],
+      "collocations": [
+        "assemble a team",
+        "assemble evidence",
+        "assemble parts"
+      ],
+      "notes": null,
+      "ipa": "/əˈsembl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/assem/assemble__us_1.mp3"
+    },
+    {
+      "english": "collapse",
+      "vietnamese": "sụp đổ; đổ sập; ngã quỵ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Several old buildings collapsed during the earthquake last night.",
+          "vi": "Nhiều tòa nhà cũ đã đổ sập trong trận động đất tối qua."
+        },
+        {
+          "en": "The company collapsed completely after years of poor management.",
+          "vi": "Công ty đã sụp đổ hoàn toàn sau nhiều năm quản lý yếu kém."
+        },
+        {
+          "en": "One runner collapsed near the finish line and was taken to the hospital.",
+          "vi": "Một vận động viên đã ngã quỵ gần vạch đích và được đưa đến bệnh viện."
+        }
+      ],
+      "collocations": [
+        "collapse completely",
+        "nearly collapse",
+        "the roof collapsed"
+      ],
+      "notes": null,
+      "ipa": "/kəˈlæps/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/col/colla/collapse__us_1.mp3"
+    },
+    {
+      "english": "colleague",
+      "vietnamese": "đồng nghiệp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She discussed the proposal with her colleagues before the meeting.",
+          "vi": "Cô ấy đã thảo luận đề xuất với các đồng nghiệp trước cuộc họp."
+        },
+        {
+          "en": "My colleague and I published a paper on climate change last year.",
+          "vi": "Tôi và đồng nghiệp đã công bố một bài báo về biến đổi khí hậu năm ngoái."
+        },
+        {
+          "en": "A former colleague recommended him for the position.",
+          "vi": "Một đồng nghiệp cũ đã giới thiệu anh ấy vào vị trí này."
+        }
+      ],
+      "collocations": [
+        "former colleague",
+        "close colleague",
+        "senior colleague"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːliːɡ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/col/colle/colleague__us_1.mp3"
+    },
+    {
+      "english": "compile",
+      "vietnamese": "biên soạn; tổng hợp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The report was compiled from interviews with over two hundred teachers.",
+          "vi": "Báo cáo được biên soạn từ các cuộc phỏng vấn với hơn hai trăm giáo viên."
+        },
+        {
+          "en": "We need to compile a list of suppliers for the new project.",
+          "vi": "Chúng ta cần lập một danh sách nhà cung cấp cho dự án mới."
+        },
+        {
+          "en": "These figures were compiled by the national statistics office.",
+          "vi": "Những số liệu này do cơ quan thống kê quốc gia tổng hợp."
+        }
+      ],
+      "collocations": [
+        "compile a list",
+        "compile a report",
+        "compile data",
+        "compile statistics"
+      ],
+      "notes": null,
+      "ipa": "/kəmˈpaɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compi/compile__us_1.mp3"
+    },
+    {
+      "english": "conceive",
+      "vietnamese": "nghĩ ra; hình dung",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The project was originally conceived as a small local study.",
+          "vi": "Dự án ban đầu được nghĩ ra như một nghiên cứu nhỏ ở địa phương."
+        },
+        {
+          "en": "It is hard to conceive of a world without the internet.",
+          "vi": "Thật khó để hình dung một thế giới không có internet."
+        },
+        {
+          "en": "Engineers conceived a cheaper way to store solar energy.",
+          "vi": "Các kỹ sư đã nghĩ ra một cách rẻ hơn để lưu trữ năng lượng mặt trời."
+        }
+      ],
+      "collocations": [
+        "conceive of",
+        "originally conceived",
+        "conceive an idea",
+        "conceive a plan"
+      ],
+      "notes": "conceive of sth: hình dung điều gì",
+      "ipa": "/kənˈsiːv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconc/xconceive__us_1.mp3"
+    },
+    {
+      "english": "convince",
+      "vietnamese": "thuyết phục; làm cho tin",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The results convinced the committee to continue funding the research.",
+          "vi": "Kết quả đã thuyết phục hội đồng tiếp tục tài trợ cho nghiên cứu."
+        },
+        {
+          "en": "I am not fully convinced that this method will work.",
+          "vi": "Tôi không hoàn toàn tin rằng phương pháp này sẽ hiệu quả."
+        },
+        {
+          "en": "She tried to convince investors that the plan was realistic.",
+          "vi": "Cô ấy đã cố thuyết phục các nhà đầu tư rằng kế hoạch này khả thi."
+        }
+      ],
+      "collocations": [
+        "fully convinced",
+        "convince somebody to",
+        "convince somebody that"
+      ],
+      "notes": "convince sb to do sth / convince sb that ...",
+      "ipa": "/kənˈvɪns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconv/xconvince__us_1.mp3"
+    },
+    {
+      "english": "depress",
+      "vietnamese": "làm giảm (giá, nhu cầu); làm chán nản",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Higher interest rates could depress demand for new homes.",
+          "vi": "Lãi suất cao hơn có thể làm giảm nhu cầu mua nhà mới."
+        },
+        {
+          "en": "Cheap imports have depressed prices for local farmers.",
+          "vi": "Hàng nhập khẩu giá rẻ đã làm giảm giá bán của nông dân trong nước."
+        },
+        {
+          "en": "Months without work had begun to depress him.",
+          "vi": "Nhiều tháng không có việc làm đã bắt đầu khiến anh ấy chán nản."
+        }
+      ],
+      "collocations": [
+        "depress prices",
+        "depress demand",
+        "depress wages"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈpres/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dep/depre/depress__us_1.mp3"
+    },
+    {
+      "english": "encounter",
+      "vietnamese": "gặp phải; bắt gặp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The team encountered several problems during the first stage of testing.",
+          "vi": "Nhóm đã gặp phải một số vấn đề trong giai đoạn thử nghiệm đầu tiên."
+        },
+        {
+          "en": "Students often encounter difficulties when writing their first research paper.",
+          "vi": "Sinh viên thường gặp khó khăn khi viết bài nghiên cứu đầu tiên."
+        },
+        {
+          "en": "This species is rarely encountered outside the tropical forest.",
+          "vi": "Loài này hiếm khi được bắt gặp bên ngoài rừng nhiệt đới."
+        }
+      ],
+      "collocations": [
+        "encounter problems",
+        "encounter difficulties",
+        "encounter resistance"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈkaʊntər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/enc/encou/encounter__us_5.mp3"
+    },
+    {
+      "english": "enormous",
+      "vietnamese": "to lớn; khổng lồ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The new policy has had an enormous impact on small businesses.",
+          "vi": "Chính sách mới đã có tác động to lớn đến các doanh nghiệp nhỏ."
+        },
+        {
+          "en": "Building the bridge required an enormous amount of money.",
+          "vi": "Việc xây cây cầu đòi hỏi một khoản tiền khổng lồ."
+        },
+        {
+          "en": "There are enormous differences in income between rural and urban areas.",
+          "vi": "Có sự chênh lệch rất lớn về thu nhập giữa nông thôn và thành thị."
+        }
+      ],
+      "collocations": [
+        "enormous amount",
+        "enormous impact",
+        "enormous pressure"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈnɔːrməs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eno/enorm/enormous__us_1.mp3"
+    },
+    {
+      "english": "forthcoming",
+      "vietnamese": "sắp tới; sẵn có (được cung cấp)",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Full details will be published in the forthcoming report.",
+          "vi": "Thông tin chi tiết sẽ được công bố trong báo cáo sắp tới."
+        },
+        {
+          "en": "The results will be discussed at the forthcoming conference in May.",
+          "vi": "Kết quả sẽ được thảo luận tại hội nghị sắp tới vào tháng Năm."
+        },
+        {
+          "en": "Despite repeated requests, no further information was forthcoming from the ministry.",
+          "vi": "Dù đã yêu cầu nhiều lần, bộ vẫn không cung cấp thêm thông tin nào."
+        }
+      ],
+      "collocations": [
+        "forthcoming report",
+        "forthcoming conference",
+        "forthcoming book"
+      ],
+      "notes": "be forthcoming: được cung cấp, sẵn có",
+      "ipa": "/ˌfɔːrθˈkʌmɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/for/forth/forthcoming__us_1_rr.mp3"
+    },
+    {
+      "english": "incline",
+      "vietnamese": "có xu hướng; nghiêng về",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many managers are inclined to hire people they already know.",
+          "vi": "Nhiều nhà quản lý có xu hướng tuyển những người họ đã quen biết."
+        },
+        {
+          "en": "I'm inclined to agree with the reviewers on this point.",
+          "vi": "Tôi nghiêng về việc đồng ý với các nhà phản biện ở điểm này."
+        },
+        {
+          "en": "Rising costs may incline some firms to move production overseas.",
+          "vi": "Chi phí tăng có thể khiến một số công ty có xu hướng chuyển sản xuất ra nước ngoài."
+        }
+      ],
+      "collocations": [
+        "inclined to agree",
+        "inclined to believe",
+        "be inclined to"
+      ],
+      "notes": "Thường dùng bị động: be inclined to do sth",
+      "ipa": "/ɪnˈklaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inc/incli/incline__us_1.mp3"
+    },
+    {
+      "english": "integrity",
+      "vietnamese": "sự chính trực; tính toàn vẹn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Copying another student's work is a serious breach of academic integrity.",
+          "vi": "Sao chép bài của sinh viên khác là vi phạm nghiêm trọng liêm chính học thuật."
+        },
+        {
+          "en": "The auditor was widely respected for her honesty and integrity.",
+          "vi": "Kiểm toán viên ấy được nhiều người kính trọng vì sự trung thực và chính trực."
+        },
+        {
+          "en": "Engineers checked the structural integrity of the bridge after the flood.",
+          "vi": "Các kỹ sư đã kiểm tra độ toàn vẹn kết cấu của cây cầu sau trận lũ."
+        }
+      ],
+      "collocations": [
+        "academic integrity",
+        "structural integrity",
+        "data integrity",
+        "personal integrity"
+      ],
+      "notes": "Không đếm được",
+      "ipa": "/ɪnˈteɡrəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/integ/integrity__us_1.mp3"
+    },
+    {
+      "english": "intrinsic",
+      "vietnamese": "nội tại; vốn có",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The old painting has little intrinsic value, but the family treasures it.",
+          "vi": "Bức tranh cũ có ít giá trị nội tại, nhưng gia đình rất trân quý nó."
+        },
+        {
+          "en": "Students with strong intrinsic motivation tend to learn more effectively.",
+          "vi": "Những sinh viên có động lực nội tại mạnh thường học hiệu quả hơn."
+        },
+        {
+          "en": "Risk is intrinsic to starting any new business.",
+          "vi": "Rủi ro là điều vốn có khi bắt đầu bất kỳ công việc kinh doanh mới nào."
+        }
+      ],
+      "collocations": [
+        "intrinsic value",
+        "intrinsic motivation",
+        "intrinsic to"
+      ],
+      "notes": "intrinsic to sth: vốn có ở điều gì",
+      "ipa": "/ɪnˈtrɪnzɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/intri/intrinsic__us_1_rr.mp3"
+    },
+    {
+      "english": "invoke",
+      "vietnamese": "viện dẫn; áp dụng (luật, điều khoản)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company invoked a clause in the contract to cancel the deal.",
+          "vi": "Công ty đã áp dụng một điều khoản trong hợp đồng để hủy thỏa thuận."
+        },
+        {
+          "en": "The author invokes several earlier studies to support her argument.",
+          "vi": "Tác giả viện dẫn một số nghiên cứu trước đây để củng cố lập luận của mình."
+        },
+        {
+          "en": "Judges sometimes invoke the principle of fairness in difficult cases.",
+          "vi": "Các thẩm phán đôi khi viện dẫn nguyên tắc công bằng trong những vụ việc khó."
+        }
+      ],
+      "collocations": [
+        "invoke a clause",
+        "invoke the principle",
+        "invoke a right"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈvəʊk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inv/invok/invoke__us_1.mp3"
+    },
+    {
+      "english": "levy",
+      "vietnamese": "đánh (thuế); thu (phí, tiền phạt)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The city plans to levy a small tax on hotel rooms.",
+          "vi": "Thành phố dự định đánh một khoản thuế nhỏ lên phòng khách sạn."
+        },
+        {
+          "en": "A heavy fine was levied on the company for polluting the river.",
+          "vi": "Công ty bị phạt một khoản tiền lớn vì gây ô nhiễm dòng sông."
+        },
+        {
+          "en": "Many countries levy higher taxes on tobacco and alcohol.",
+          "vi": "Nhiều quốc gia đánh thuế cao hơn đối với thuốc lá và rượu bia."
+        }
+      ],
+      "collocations": [
+        "levy a tax",
+        "levy a fine",
+        "levy taxes on"
+      ],
+      "notes": "levy sth on sb/sth; cũng là danh từ: khoản thuế",
+      "ipa": "/ˈlevi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lev/levy_/levy__us_1.mp3"
+    },
+    {
+      "english": "likewise",
+      "vietnamese": "tương tự; cũng vậy",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Rents rose sharply in the capital and likewise increased in smaller cities.",
+          "vi": "Giá thuê nhà tăng mạnh ở thủ đô và tương tự cũng tăng ở các thành phố nhỏ hơn."
+        },
+        {
+          "en": "The first group followed the new rules, and the others did likewise.",
+          "vi": "Nhóm đầu tiên tuân theo quy định mới, và các nhóm khác cũng làm như vậy."
+        },
+        {
+          "en": "Teachers should respect their students, and likewise students should respect teachers.",
+          "vi": "Giáo viên nên tôn trọng học sinh, và tương tự, học sinh cũng nên tôn trọng giáo viên."
+        }
+      ],
+      "collocations": [
+        "do likewise",
+        "and likewise"
+      ],
+      "notes": null,
+      "ipa": "/ˈlaɪkwaɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lik/likew/likewise__us_1.mp3"
+    },
+    {
+      "english": "nonetheless",
+      "vietnamese": "tuy nhiên; dù vậy",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The sample was small, but the results are nonetheless important.",
+          "vi": "Mẫu nghiên cứu nhỏ, nhưng dù vậy kết quả vẫn quan trọng."
+        },
+        {
+          "en": "The task was difficult; nonetheless, they completed it on time.",
+          "vi": "Nhiệm vụ rất khó; tuy nhiên, họ vẫn hoàn thành đúng hạn."
+        },
+        {
+          "en": "The plan is risky but nonetheless worth trying.",
+          "vi": "Kế hoạch này rủi ro nhưng dù vậy vẫn đáng để thử."
+        }
+      ],
+      "collocations": [
+        "but nonetheless",
+        "nonetheless important"
+      ],
+      "notes": null,
+      "ipa": "/ˌnʌnðəˈles/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/non/nonet/nonetheless__us_1.mp3"
+    },
+    {
+      "english": "notwithstanding",
+      "vietnamese": "mặc dù; bất chấp",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "Notwithstanding the difficulties, the team finished the project on time.",
+          "vi": "Mặc dù gặp nhiều khó khăn, nhóm vẫn hoàn thành dự án đúng hạn."
+        },
+        {
+          "en": "The new rules apply to all staff, notwithstanding any earlier agreement.",
+          "vi": "Quy định mới áp dụng cho toàn bộ nhân viên, bất chấp mọi thỏa thuận trước đó."
+        },
+        {
+          "en": "Economic problems notwithstanding, the region continues to attract foreign investors.",
+          "vi": "Bất chấp những khó khăn kinh tế, khu vực này vẫn tiếp tục thu hút nhà đầu tư nước ngoài."
+        }
+      ],
+      "collocations": [
+        "notwithstanding the difficulties",
+        "notwithstanding the fact that"
+      ],
+      "notes": "Rất trang trọng; có thể đứng sau danh từ",
+      "ipa": "/ˌnɑːtwɪθˈstændɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/not/notwi/notwithstanding__us_1_rr.mp3"
+    },
+    {
+      "english": "odd",
+      "vietnamese": "kỳ lạ; (số) lẻ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "It seems odd that nobody noticed the error earlier.",
+          "vi": "Thật lạ là không ai phát hiện ra lỗi này sớm hơn."
+        },
+        {
+          "en": "Each participant with an odd number joined the first group.",
+          "vi": "Mỗi người tham gia mang số lẻ được xếp vào nhóm thứ nhất."
+        },
+        {
+          "en": "There was something odd about the results of the second test.",
+          "vi": "Có điều gì đó kỳ lạ trong kết quả của lần kiểm tra thứ hai."
+        }
+      ],
+      "collocations": [
+        "odd number",
+        "seem odd",
+        "something odd"
+      ],
+      "notes": "odd number (số lẻ) ≠ even number (số chẵn)",
+      "ipa": "/ɑːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/odd/odd__/odd__us_1.mp3"
+    },
+    {
+      "english": "ongoing",
+      "vietnamese": "đang diễn ra; liên tục",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The investigation into the accident is still ongoing.",
+          "vi": "Cuộc điều tra về vụ tai nạn vẫn đang diễn ra."
+        },
+        {
+          "en": "Ongoing research suggests the drug may help older patients.",
+          "vi": "Nghiên cứu đang được tiến hành cho thấy loại thuốc này có thể giúp ích cho bệnh nhân lớn tuổi."
+        },
+        {
+          "en": "New staff receive ongoing training throughout their first year.",
+          "vi": "Nhân viên mới được đào tạo liên tục trong suốt năm đầu tiên."
+        }
+      ],
+      "collocations": [
+        "ongoing research",
+        "ongoing training",
+        "ongoing support",
+        "ongoing process"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːnɡəʊɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ong/ongoi/ongoing__us_1_rr.mp3"
+    },
+    {
+      "english": "panel",
+      "vietnamese": "ban, hội đồng (chuyên gia); tấm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A panel of experts will review all the applications.",
+          "vi": "Một hội đồng chuyên gia sẽ xem xét tất cả các hồ sơ."
+        },
+        {
+          "en": "The panel discussion focused on the future of online education.",
+          "vi": "Buổi thảo luận chuyên đề tập trung vào tương lai của giáo dục trực tuyến."
+        },
+        {
+          "en": "The school uses solar panels to produce most of its electricity.",
+          "vi": "Ngôi trường sử dụng tấm pin mặt trời để tạo ra phần lớn lượng điện."
+        }
+      ],
+      "collocations": [
+        "panel of experts",
+        "panel discussion",
+        "solar panel",
+        "expert panel"
+      ],
+      "notes": null,
+      "ipa": "/ˈpænl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pan/panel/panel__us_1.mp3"
+    },
+    {
+      "english": "persist",
+      "vietnamese": "vẫn tiếp diễn; kéo dài; kiên trì",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "If the symptoms persist, patients should see a doctor.",
+          "vi": "Nếu các triệu chứng kéo dài, bệnh nhân nên đi khám bác sĩ."
+        },
+        {
+          "en": "Inequality between regions has persisted for several decades.",
+          "vi": "Sự bất bình đẳng giữa các vùng đã tiếp diễn trong nhiều thập kỷ."
+        },
+        {
+          "en": "She persisted with her research despite a lack of funding.",
+          "vi": "Cô ấy vẫn kiên trì với nghiên cứu của mình dù thiếu kinh phí."
+        }
+      ],
+      "collocations": [
+        "symptoms persist",
+        "persist with",
+        "persist in",
+        "problems persist"
+      ],
+      "notes": "persist in/with sth",
+      "ipa": "/pərˈsɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/per/persi/persist__us_1.mp3"
+    },
+    {
+      "english": "pose",
+      "vietnamese": "gây ra (mối đe dọa, rủi ro); đặt ra (câu hỏi)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Rising sea levels pose a serious threat to coastal cities.",
+          "vi": "Mực nước biển dâng cao gây ra mối đe dọa nghiêm trọng cho các thành phố ven biển."
+        },
+        {
+          "en": "Poor storage conditions may pose a risk to public health.",
+          "vi": "Điều kiện bảo quản kém có thể gây rủi ro cho sức khỏe cộng đồng."
+        },
+        {
+          "en": "The report poses important questions about data privacy.",
+          "vi": "Báo cáo đặt ra những câu hỏi quan trọng về quyền riêng tư dữ liệu."
+        }
+      ],
+      "collocations": [
+        "pose a threat",
+        "pose a risk",
+        "pose a challenge",
+        "pose a question"
+      ],
+      "notes": null,
+      "ipa": "/pəʊz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pos/pose_/pose__us_1.mp3"
+    },
+    {
+      "english": "reluctance",
+      "vietnamese": "sự miễn cưỡng; sự ngần ngại",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Many firms show reluctance to invest during uncertain times.",
+          "vi": "Nhiều công ty tỏ ra ngần ngại đầu tư trong thời kỳ bất ổn."
+        },
+        {
+          "en": "Her reluctance to share the data slowed down the project.",
+          "vi": "Sự miễn cưỡng chia sẻ dữ liệu của cô ấy đã làm chậm dự án."
+        },
+        {
+          "en": "Despite his initial reluctance, he agreed to lead the team.",
+          "vi": "Dù ban đầu còn ngần ngại, anh ấy đã đồng ý dẫn dắt nhóm."
+        }
+      ],
+      "collocations": [
+        "reluctance to",
+        "initial reluctance",
+        "show reluctance"
+      ],
+      "notes": "reluctance to do sth",
+      "ipa": "/rɪˈlʌktəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rel/reluc/reluctance__us_1.mp3"
+    },
+    {
+      "english": "so-called",
+      "vietnamese": "cái gọi là; được gọi là",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The so-called experts failed to predict the financial crisis.",
+          "vi": "Những người được gọi là chuyên gia đã không dự đoán được cuộc khủng hoảng tài chính."
+        },
+        {
+          "en": "Many so-called healthy snacks actually contain a lot of sugar.",
+          "vi": "Nhiều loại đồ ăn vặt được gọi là lành mạnh thực ra chứa rất nhiều đường."
+        },
+        {
+          "en": "These gases contribute to the so-called greenhouse effect.",
+          "vi": "Những khí này góp phần gây ra cái gọi là hiệu ứng nhà kính."
+        }
+      ],
+      "collocations": [
+        "the so-called",
+        "so-called experts"
+      ],
+      "notes": "Thường mang ý hoài nghi, mỉa mai",
+      "ipa": "/ˌsəʊ ˈkɔːld/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/so_/so_ca/so_called_1_us_1.mp3"
+    },
+    {
+      "english": "straightforward",
+      "vietnamese": "đơn giản, dễ hiểu; thẳng thắn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The online application process is fairly straightforward and quick.",
+          "vi": "Quy trình nộp hồ sơ trực tuyến khá đơn giản và nhanh chóng."
+        },
+        {
+          "en": "There is no straightforward answer to this question.",
+          "vi": "Không có câu trả lời đơn giản cho câu hỏi này."
+        },
+        {
+          "en": "She was very straightforward with us about her mistakes.",
+          "vi": "Cô ấy rất thẳng thắn với chúng tôi về những sai lầm của mình."
+        }
+      ],
+      "collocations": [
+        "fairly straightforward",
+        "relatively straightforward",
+        "straightforward answer",
+        "straightforward process"
+      ],
+      "notes": null,
+      "ipa": "/ˌstreɪtˈfɔːrwərd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/strai/straightforward__us_1.mp3"
+    },
+    {
+      "english": "undergo",
+      "vietnamese": "trải qua",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The city has undergone major changes over the past decade.",
+          "vi": "Thành phố đã trải qua nhiều thay đổi lớn trong thập kỷ qua."
+        },
+        {
+          "en": "All new drugs must undergo testing before they can be sold.",
+          "vi": "Mọi loại thuốc mới đều phải trải qua kiểm nghiệm trước khi được bán."
+        },
+        {
+          "en": "He underwent surgery on his knee last month.",
+          "vi": "Anh ấy đã phẫu thuật đầu gối vào tháng trước."
+        }
+      ],
+      "collocations": [
+        "undergo surgery",
+        "undergo changes",
+        "undergo treatment",
+        "undergo testing"
+      ],
+      "notes": "undergo – underwent – undergone",
+      "ipa": "/ˌʌndərˈɡəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/und/under/undergo__us_1.mp3"
+    },
+    {
+      "english": "whereby",
+      "vietnamese": "theo đó; nhờ đó",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The company introduced a system whereby staff can work from home.",
+          "vi": "Công ty đã áp dụng một hệ thống theo đó nhân viên có thể làm việc tại nhà."
+        },
+        {
+          "en": "Both sides signed an agreement whereby they would share the costs.",
+          "vi": "Hai bên đã ký một thỏa thuận, theo đó họ sẽ cùng chia sẻ chi phí."
+        },
+        {
+          "en": "Photosynthesis is the process whereby plants turn sunlight into energy.",
+          "vi": "Quang hợp là quá trình nhờ đó thực vật biến ánh sáng mặt trời thành năng lượng."
+        }
+      ],
+      "collocations": [
+        "a system whereby",
+        "an agreement whereby",
+        "a process whereby"
+      ],
+      "notes": "Trang trọng; = by which",
+      "ipa": "/werˈbaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/whe/where/whereby__us_1_rr.mp3"
+    }
+  ]
+}

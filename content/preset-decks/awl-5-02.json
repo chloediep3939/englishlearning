@@ -1,0 +1,827 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 5 · Bộ 2",
+    "description": "Academic Word List, sublist 5",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-5-02"
+  },
+  "cards": [
+    {
+      "english": "licence",
+      "vietnamese": "giấy phép; bằng lái",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Foreign banks must obtain a licence before operating in the country.",
+          "vi": "Ngân hàng nước ngoài phải có giấy phép trước khi hoạt động tại quốc gia này."
+        },
+        {
+          "en": "The company lost its licence after failing a safety inspection.",
+          "vi": "Công ty bị tước giấy phép sau khi không đạt đợt kiểm tra an toàn."
+        },
+        {
+          "en": "She passed her test and got her driving licence last month.",
+          "vi": "Cô ấy đã thi đỗ và nhận bằng lái xe vào tháng trước."
+        }
+      ],
+      "collocations": [
+        "obtain a licence",
+        "apply for a licence",
+        "driving licence"
+      ],
+      "notes": "Anh: licence (n) · Mỹ: license",
+      "ipa": "/ˈlaɪsns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lic/licen/licence__us_2.mp3"
+    },
+    {
+      "english": "logic",
+      "vietnamese": "logic; lập luận; lý lẽ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I don't understand the logic behind the new policy.",
+          "vi": "Tôi không hiểu lập luận đằng sau chính sách mới."
+        },
+        {
+          "en": "Her argument was based on simple logic and clear evidence.",
+          "vi": "Lý lẽ của cô ấy dựa trên logic đơn giản và bằng chứng rõ ràng."
+        },
+        {
+          "en": "Students study formal logic in their first year of philosophy.",
+          "vi": "Sinh viên học logic hình thức trong năm đầu ngành triết học."
+        }
+      ],
+      "collocations": [
+        "logic behind",
+        "formal logic",
+        "simple logic"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈlɑːdʒɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/log/logic/logic__us_1.mp3"
+    },
+    {
+      "english": "margin",
+      "vietnamese": "lề; cách biệt; biên lợi nhuận",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please leave a wide margin on the left side of the page.",
+          "vi": "Vui lòng chừa lề rộng ở bên trái trang giấy."
+        },
+        {
+          "en": "The proposal was approved by a narrow margin of three votes.",
+          "vi": "Đề xuất được thông qua với cách biệt sít sao là ba phiếu."
+        },
+        {
+          "en": "Rising costs have reduced profit margins across the industry.",
+          "vi": "Chi phí tăng đã làm giảm biên lợi nhuận trên toàn ngành."
+        }
+      ],
+      "collocations": [
+        "profit margin",
+        "narrow margin",
+        "margin of error"
+      ],
+      "notes": null,
+      "ipa": "/ˈmɑːrdʒɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mar/margi/margin__us_1.mp3"
+    },
+    {
+      "english": "medical",
+      "vietnamese": "(thuộc) y tế; y khoa",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The clinic provides free medical care to local families.",
+          "vi": "Phòng khám cung cấp dịch vụ chăm sóc y tế miễn phí cho các gia đình địa phương."
+        },
+        {
+          "en": "She is in her third year at medical school.",
+          "vi": "Cô ấy đang học năm thứ ba trường y."
+        },
+        {
+          "en": "New medical research suggests that regular exercise improves memory.",
+          "vi": "Nghiên cứu y khoa mới cho thấy tập thể dục thường xuyên giúp cải thiện trí nhớ."
+        }
+      ],
+      "collocations": [
+        "medical care",
+        "medical research",
+        "medical school",
+        "medical treatment"
+      ],
+      "notes": null,
+      "ipa": "/ˈmedɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/med/medic/medical__us_2.mp3"
+    },
+    {
+      "english": "mental",
+      "vietnamese": "(thuộc) tinh thần; trí tuệ; trí óc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Regular exercise is good for both physical and mental health.",
+          "vi": "Tập thể dục thường xuyên tốt cho cả sức khỏe thể chất lẫn tinh thần."
+        },
+        {
+          "en": "The study measured how stress affects children's mental development.",
+          "vi": "Nghiên cứu đã đo lường mức độ ảnh hưởng của căng thẳng đến sự phát triển trí tuệ của trẻ em."
+        },
+        {
+          "en": "Solving puzzles is a good mental exercise for older adults.",
+          "vi": "Giải câu đố là một cách rèn luyện trí óc tốt cho người cao tuổi."
+        }
+      ],
+      "collocations": [
+        "mental health",
+        "mental development",
+        "physical and mental"
+      ],
+      "notes": null,
+      "ipa": "/ˈmentl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/men/menta/mental__us_1.mp3"
+    },
+    {
+      "english": "modify",
+      "vietnamese": "sửa đổi; điều chỉnh; biến đổi",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The engineers modified the design to reduce the car's weight.",
+          "vi": "Các kỹ sư đã điều chỉnh thiết kế để giảm trọng lượng của chiếc xe."
+        },
+        {
+          "en": "We may need to modify our plans if the budget is cut.",
+          "vi": "Chúng ta có thể cần sửa đổi kế hoạch nếu ngân sách bị cắt giảm."
+        },
+        {
+          "en": "Scientists have genetically modified the plant to resist disease.",
+          "vi": "Các nhà khoa học đã biến đổi gen của loại cây này để nó kháng bệnh."
+        }
+      ],
+      "collocations": [
+        "modify the design",
+        "slightly modify",
+        "genetically modified"
+      ],
+      "notes": null,
+      "ipa": "/ˈmɑːdɪfaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mod/modif/modify__us_1.mp3"
+    },
+    {
+      "english": "monitor",
+      "vietnamese": "theo dõi; giám sát",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Nurses monitor patients closely during the first night after surgery.",
+          "vi": "Y tá theo dõi sát bệnh nhân trong đêm đầu tiên sau phẫu thuật."
+        },
+        {
+          "en": "The government is monitoring air quality in major cities.",
+          "vi": "Chính phủ đang giám sát chất lượng không khí ở các thành phố lớn."
+        },
+        {
+          "en": "Managers should monitor progress regularly to keep the project on schedule.",
+          "vi": "Các nhà quản lý nên thường xuyên theo dõi tiến độ để dự án đúng kế hoạch."
+        }
+      ],
+      "collocations": [
+        "monitor progress",
+        "closely monitor",
+        "monitor the situation"
+      ],
+      "notes": "cũng là danh từ: màn hình",
+      "ipa": "/ˈmɑːnɪtər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mon/monit/monitor__us_1.mp3"
+    },
+    {
+      "english": "network",
+      "vietnamese": "mạng lưới; mạng (máy tính)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The city is building a new network of bike lanes.",
+          "vi": "Thành phố đang xây dựng một mạng lưới làn đường xe đạp mới."
+        },
+        {
+          "en": "All the office computers are connected to the same network.",
+          "vi": "Tất cả máy tính trong văn phòng đều được kết nối vào cùng một mạng."
+        },
+        {
+          "en": "Attending conferences helps young researchers build a professional network.",
+          "vi": "Tham dự hội thảo giúp các nhà nghiên cứu trẻ xây dựng mạng lưới quan hệ nghề nghiệp."
+        }
+      ],
+      "collocations": [
+        "network of",
+        "computer network",
+        "professional network",
+        "transport network"
+      ],
+      "notes": null,
+      "ipa": "/ˈnetwɜːrk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/net/netwo/network__us_1.mp3"
+    },
+    {
+      "english": "notion",
+      "vietnamese": "khái niệm; quan niệm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The study challenges the notion that older workers are less productive.",
+          "vi": "Nghiên cứu này thách thức quan niệm rằng người lao động lớn tuổi làm việc kém năng suất hơn."
+        },
+        {
+          "en": "Many students have only a vague notion of how interest rates work.",
+          "vi": "Nhiều sinh viên chỉ có khái niệm mơ hồ về cách lãi suất vận hành."
+        },
+        {
+          "en": "The notion of fairness varies from one culture to another.",
+          "vi": "Khái niệm công bằng khác nhau giữa các nền văn hóa."
+        }
+      ],
+      "collocations": [
+        "the notion that",
+        "notion of",
+        "challenge the notion",
+        "vague notion"
+      ],
+      "notes": null,
+      "ipa": "/ˈnəʊʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/not/notio/notion__us_1.mp3"
+    },
+    {
+      "english": "objective",
+      "vietnamese": "mục tiêu; mục đích",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The main objective of the project is to reduce energy costs.",
+          "vi": "Mục tiêu chính của dự án là giảm chi phí năng lượng."
+        },
+        {
+          "en": "Each lesson begins with a clear list of learning objectives.",
+          "vi": "Mỗi bài học bắt đầu bằng một danh sách rõ ràng các mục tiêu học tập."
+        },
+        {
+          "en": "The company achieved all of its objectives for the year.",
+          "vi": "Công ty đã đạt được tất cả các mục tiêu đề ra cho năm nay."
+        }
+      ],
+      "collocations": [
+        "main objective",
+        "achieve an objective",
+        "learning objectives"
+      ],
+      "notes": "cũng là tính từ: khách quan",
+      "ipa": "/əbˈdʒektɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/obj/objec/objective__us_1.mp3"
+    },
+    {
+      "english": "orient",
+      "vietnamese": "định hướng; hướng (vào)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The new course is oriented toward students who plan to work abroad.",
+          "vi": "Khóa học mới hướng tới những sinh viên dự định làm việc ở nước ngoài."
+        },
+        {
+          "en": "Most of the firm's products are oriented to the export market.",
+          "vi": "Phần lớn sản phẩm của công ty hướng tới thị trường xuất khẩu."
+        },
+        {
+          "en": "The government wants to orient the economy toward services and technology.",
+          "vi": "Chính phủ muốn định hướng nền kinh tế sang dịch vụ và công nghệ."
+        }
+      ],
+      "collocations": [
+        "oriented toward",
+        "orient yourself",
+        "market-oriented"
+      ],
+      "notes": "thường dùng bị động: be oriented to/toward · Anh còn dùng: orientate",
+      "ipa": "/ˈɔːrient/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ori/orien/orient__us_2_rr.mp3"
+    },
+    {
+      "english": "perspective",
+      "vietnamese": "góc nhìn; quan điểm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The book tells the story of migration from a child's perspective.",
+          "vi": "Cuốn sách kể câu chuyện di cư từ góc nhìn của một đứa trẻ."
+        },
+        {
+          "en": "Living abroad gave me a completely different perspective on my own culture.",
+          "vi": "Sống ở nước ngoài cho tôi một góc nhìn hoàn toàn khác về văn hóa của chính mình."
+        },
+        {
+          "en": "From an economic perspective, the plan makes a lot of sense.",
+          "vi": "Xét từ quan điểm kinh tế, kế hoạch này rất hợp lý."
+        }
+      ],
+      "collocations": [
+        "different perspective",
+        "perspective on",
+        "from an economic perspective"
+      ],
+      "notes": "perspective on + danh từ",
+      "ipa": "/pərˈspektɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/per/persp/perspective__us_2.mp3"
+    },
+    {
+      "english": "precise",
+      "vietnamese": "chính xác; cụ thể",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Scientific instruments must give precise measurements under all conditions.",
+          "vi": "Các thiết bị khoa học phải cho kết quả đo chính xác trong mọi điều kiện."
+        },
+        {
+          "en": "The precise cause of the delay is still unclear.",
+          "vi": "Nguyên nhân chính xác của sự chậm trễ vẫn chưa rõ."
+        },
+        {
+          "en": "Could you be more precise about what the client wants?",
+          "vi": "Bạn có thể nói cụ thể hơn về việc khách hàng muốn gì không?"
+        }
+      ],
+      "collocations": [
+        "precise measurement",
+        "precise details",
+        "to be precise"
+      ],
+      "notes": null,
+      "ipa": "/prɪˈsaɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/preci/precise__us_1.mp3"
+    },
+    {
+      "english": "prime",
+      "vietnamese": "chính; hàng đầu; đắc địa",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Cost is the prime concern for most small businesses.",
+          "vi": "Chi phí là mối quan tâm hàng đầu của hầu hết các doanh nghiệp nhỏ."
+        },
+        {
+          "en": "The hotel is in a prime location near the city center.",
+          "vi": "Khách sạn nằm ở vị trí đắc địa gần trung tâm thành phố."
+        },
+        {
+          "en": "Poor diet is a prime example of a health risk people can control.",
+          "vi": "Chế độ ăn uống kém là ví dụ điển hình về một rủi ro sức khỏe mà con người có thể kiểm soát."
+        }
+      ],
+      "collocations": [
+        "prime example",
+        "prime location",
+        "prime concern"
+      ],
+      "notes": null,
+      "ipa": "/praɪm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pri/prime/prime__us_1.mp3"
+    },
+    {
+      "english": "psychology",
+      "vietnamese": "tâm lý học; tâm lý",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She has a degree in psychology and works in a hospital.",
+          "vi": "Cô ấy có bằng tâm lý học và làm việc tại một bệnh viện."
+        },
+        {
+          "en": "Understanding customer psychology is essential for successful marketing.",
+          "vi": "Hiểu tâm lý khách hàng là điều thiết yếu để tiếp thị thành công."
+        },
+        {
+          "en": "Child psychology studies how children think, feel and learn.",
+          "vi": "Tâm lý học trẻ em nghiên cứu cách trẻ suy nghĩ, cảm nhận và học hỏi."
+        }
+      ],
+      "collocations": [
+        "child psychology",
+        "degree in psychology",
+        "social psychology"
+      ],
+      "notes": null,
+      "ipa": "/saɪˈkɑːlədʒi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/psy/psych/psychology__us_1.mp3"
+    },
+    {
+      "english": "pursue",
+      "vietnamese": "theo đuổi; tiếp tục (thực hiện)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "After graduating, he decided to pursue a career in law.",
+          "vi": "Sau khi tốt nghiệp, anh ấy quyết định theo đuổi sự nghiệp trong ngành luật."
+        },
+        {
+          "en": "Many students go abroad to pursue further studies.",
+          "vi": "Nhiều sinh viên ra nước ngoài để tiếp tục học lên cao."
+        },
+        {
+          "en": "The committee agreed not to pursue the matter any further.",
+          "vi": "Ủy ban nhất trí không tiếp tục theo đuổi vấn đề này nữa."
+        }
+      ],
+      "collocations": [
+        "pursue a career",
+        "pursue a goal",
+        "pursue the matter"
+      ],
+      "notes": null,
+      "ipa": "/pərˈsuː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pur/pursu/pursue__us_1.mp3"
+    },
+    {
+      "english": "ratio",
+      "vietnamese": "tỷ lệ; tỷ số",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The ratio of students to teachers in the school is twenty to one.",
+          "vi": "Tỷ lệ học sinh trên giáo viên ở trường này là hai mươi trên một."
+        },
+        {
+          "en": "The gender ratio in engineering courses is slowly becoming more balanced.",
+          "vi": "Tỷ lệ giới tính trong các khóa học kỹ thuật đang dần cân bằng hơn."
+        },
+        {
+          "en": "Mix the flour and water in a ratio of two to one.",
+          "vi": "Trộn bột và nước theo tỷ lệ hai phần bột, một phần nước."
+        }
+      ],
+      "collocations": [
+        "the ratio of",
+        "in a ratio of",
+        "gender ratio"
+      ],
+      "notes": "ratio of A to B = tỷ lệ A trên B",
+      "ipa": "/ˈreɪʃiəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rat/ratio/ratio__us_1_rr.mp3"
+    },
+    {
+      "english": "reject",
+      "vietnamese": "từ chối; bác bỏ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The board rejected the proposal because it was too expensive.",
+          "vi": "Hội đồng quản trị đã bác bỏ đề xuất vì nó quá tốn kém."
+        },
+        {
+          "en": "Her first article was rejected by three journals.",
+          "vi": "Bài báo đầu tiên của cô ấy đã bị ba tạp chí từ chối."
+        },
+        {
+          "en": "Scientists rejected the theory after new evidence was found.",
+          "vi": "Các nhà khoa học đã bác bỏ lý thuyết đó sau khi tìm ra bằng chứng mới."
+        }
+      ],
+      "collocations": [
+        "reject a proposal",
+        "reject an application",
+        "flatly reject"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈdʒekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rej/rejec/reject__us_1.mp3"
+    },
+    {
+      "english": "revenue",
+      "vietnamese": "doanh thu; nguồn thu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The company's revenue rose by twelve percent last year.",
+          "vi": "Doanh thu của công ty đã tăng mười hai phần trăm vào năm ngoái."
+        },
+        {
+          "en": "Tourism is the country's main source of revenue.",
+          "vi": "Du lịch là nguồn thu chính của đất nước."
+        },
+        {
+          "en": "The government expects tax revenues to increase next year.",
+          "vi": "Chính phủ dự kiến nguồn thu thuế sẽ tăng vào năm tới."
+        }
+      ],
+      "collocations": [
+        "tax revenue",
+        "source of revenue",
+        "generate revenue"
+      ],
+      "notes": null,
+      "ipa": "/ˈrevənuː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rev/reven/revenue__us_1.mp3"
+    },
+    {
+      "english": "stable",
+      "vietnamese": "ổn định; vững chắc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Prices have remained stable for the past six months.",
+          "vi": "Giá cả vẫn ổn định trong sáu tháng qua."
+        },
+        {
+          "en": "Investors prefer countries with a stable economy.",
+          "vi": "Các nhà đầu tư ưa chuộng những quốc gia có nền kinh tế ổn định."
+        },
+        {
+          "en": "Make sure the ladder is stable before you climb it.",
+          "vi": "Hãy chắc chắn rằng cái thang đã đứng vững trước khi bạn trèo lên."
+        }
+      ],
+      "collocations": [
+        "remain stable",
+        "stable economy",
+        "stable job"
+      ],
+      "notes": null,
+      "ipa": "/ˈsteɪbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sta/stabl/stable__us_1.mp3"
+    },
+    {
+      "english": "style",
+      "vietnamese": "phong cách; kiểu; lối (viết)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Every manager has a different leadership style.",
+          "vi": "Mỗi nhà quản lý có một phong cách lãnh đạo khác nhau."
+        },
+        {
+          "en": "The building was designed in a traditional Japanese style.",
+          "vi": "Tòa nhà được thiết kế theo kiểu truyền thống Nhật Bản."
+        },
+        {
+          "en": "His writing style is clear, simple and easy to follow.",
+          "vi": "Lối viết của anh ấy rõ ràng, đơn giản và dễ hiểu."
+        }
+      ],
+      "collocations": [
+        "leadership style",
+        "writing style",
+        "learning style"
+      ],
+      "notes": null,
+      "ipa": "/staɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sty/style/style__us_1.mp3"
+    },
+    {
+      "english": "substitute",
+      "vietnamese": "thay thế",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "You can substitute olive oil for butter in this recipe.",
+          "vi": "Bạn có thể dùng dầu ô liu thay cho bơ trong công thức này."
+        },
+        {
+          "en": "Many factories have substituted machines for human workers.",
+          "vi": "Nhiều nhà máy đã thay thế công nhân bằng máy móc."
+        },
+        {
+          "en": "Online classes cannot fully substitute for face-to-face teaching.",
+          "vi": "Các lớp học trực tuyến không thể thay thế hoàn toàn việc giảng dạy trực tiếp."
+        }
+      ],
+      "collocations": [
+        "substitute for",
+        "substitute one thing for another"
+      ],
+      "notes": "substitute A for B = dùng A thay cho B · cũng là danh từ: vật/người thay thế",
+      "ipa": "/ˈsʌbstɪtuːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sub/subst/substitute__us_1.mp3"
+    },
+    {
+      "english": "sustain",
+      "vietnamese": "duy trì; chịu (thiệt hại)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company cannot sustain such rapid growth for long.",
+          "vi": "Công ty không thể duy trì tốc độ tăng trưởng nhanh như vậy lâu dài."
+        },
+        {
+          "en": "The region's economy is sustained mainly by fishing and tourism.",
+          "vi": "Nền kinh tế của khu vực được duy trì chủ yếu nhờ đánh bắt cá và du lịch."
+        },
+        {
+          "en": "Several buildings sustained serious damage during the storm.",
+          "vi": "Nhiều tòa nhà bị thiệt hại nghiêm trọng trong cơn bão."
+        }
+      ],
+      "collocations": [
+        "sustain growth",
+        "sustain damage",
+        "sustain interest"
+      ],
+      "notes": null,
+      "ipa": "/səˈsteɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sus/susta/sustain__us_1.mp3"
+    },
+    {
+      "english": "symbol",
+      "vietnamese": "biểu tượng; ký hiệu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The old bridge has become a symbol of the city.",
+          "vi": "Cây cầu cũ đã trở thành biểu tượng của thành phố."
+        },
+        {
+          "en": "In chemistry, the symbol for gold is Au.",
+          "vi": "Trong hóa học, ký hiệu của vàng là Au."
+        },
+        {
+          "en": "For many families, owning a car is a symbol of success.",
+          "vi": "Với nhiều gia đình, sở hữu ô tô là biểu tượng của sự thành công."
+        }
+      ],
+      "collocations": [
+        "symbol of",
+        "status symbol",
+        "chemical symbol"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɪmbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sym/symbo/symbol__us_1.mp3"
+    },
+    {
+      "english": "target",
+      "vietnamese": "mục tiêu; chỉ tiêu; đối tượng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The factory failed to meet its production target this year.",
+          "vi": "Nhà máy đã không đạt chỉ tiêu sản xuất trong năm nay."
+        },
+        {
+          "en": "Young adults are the main target of the advertising campaign.",
+          "vi": "Người trẻ tuổi là đối tượng chính của chiến dịch quảng cáo."
+        },
+        {
+          "en": "The government has set a target of cutting emissions by half.",
+          "vi": "Chính phủ đã đặt mục tiêu cắt giảm một nửa lượng khí thải."
+        }
+      ],
+      "collocations": [
+        "meet a target",
+        "set a target",
+        "sales target",
+        "target audience"
+      ],
+      "notes": null,
+      "ipa": "/ˈtɑːrɡɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tar/targe/target__us_1.mp3"
+    },
+    {
+      "english": "transit",
+      "vietnamese": "sự vận chuyển; quá cảnh; giao thông công cộng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Some of the goods were damaged in transit.",
+          "vi": "Một số hàng hóa đã bị hư hỏng trong quá trình vận chuyển."
+        },
+        {
+          "en": "Passengers in transit do not need a visa at this airport.",
+          "vi": "Hành khách quá cảnh không cần thị thực tại sân bay này."
+        },
+        {
+          "en": "The city plans to invest heavily in public transit.",
+          "vi": "Thành phố dự định đầu tư mạnh vào giao thông công cộng."
+        }
+      ],
+      "collocations": [
+        "in transit",
+        "public transit",
+        "transit visa"
+      ],
+      "notes": "public transit (Mỹ) = public transport (Anh)",
+      "ipa": "/ˈtrænzɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/trans/transit__us_1_rr.mp3"
+    },
+    {
+      "english": "trend",
+      "vietnamese": "xu hướng; khuynh hướng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There is a growing trend toward working from home.",
+          "vi": "Xu hướng làm việc tại nhà đang ngày càng gia tăng."
+        },
+        {
+          "en": "Economists study long-term trends in employment and wages.",
+          "vi": "Các nhà kinh tế học nghiên cứu xu hướng dài hạn về việc làm và tiền lương."
+        },
+        {
+          "en": "If this trend continues, prices will double within ten years.",
+          "vi": "Nếu xu hướng này tiếp diễn, giá cả sẽ tăng gấp đôi trong vòng mười năm."
+        }
+      ],
+      "collocations": [
+        "growing trend",
+        "long-term trend",
+        "trend toward",
+        "current trend"
+      ],
+      "notes": null,
+      "ipa": "/trend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tre/trend/trend__us_1.mp3"
+    },
+    {
+      "english": "version",
+      "vietnamese": "phiên bản; bản",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please download the latest version of the software.",
+          "vi": "Vui lòng tải phiên bản mới nhất của phần mềm."
+        },
+        {
+          "en": "The final version of the report is due on Friday.",
+          "vi": "Bản cuối cùng của báo cáo phải nộp vào thứ Sáu."
+        },
+        {
+          "en": "The English version of the book will be published next year.",
+          "vi": "Bản tiếng Anh của cuốn sách sẽ được xuất bản vào năm sau."
+        }
+      ],
+      "collocations": [
+        "latest version",
+        "final version",
+        "updated version",
+        "English version"
+      ],
+      "notes": null,
+      "ipa": "/ˈvɜːrʒn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/ver/versi/version__us_1.mp3"
+    },
+    {
+      "english": "welfare",
+      "vietnamese": "phúc lợi; an sinh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new law aims to improve the welfare of factory workers.",
+          "vi": "Luật mới nhằm cải thiện phúc lợi cho công nhân nhà máy."
+        },
+        {
+          "en": "Spending on social welfare has increased sharply this decade.",
+          "vi": "Chi tiêu cho phúc lợi xã hội đã tăng mạnh trong thập kỷ này."
+        },
+        {
+          "en": "Animal welfare groups are calling for better conditions on farms.",
+          "vi": "Các tổ chức bảo vệ phúc lợi động vật đang kêu gọi cải thiện điều kiện ở các trang trại."
+        }
+      ],
+      "collocations": [
+        "social welfare",
+        "animal welfare",
+        "welfare of",
+        "welfare system"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈwelfer/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wel/welfa/welfare__us_1.mp3"
+    },
+    {
+      "english": "whereas",
+      "vietnamese": "trong khi; còn",
+      "part_of_speech": "conjunction",
+      "examples": [
+        {
+          "en": "Some students prefer group work, whereas others learn better alone.",
+          "vi": "Một số sinh viên thích làm việc nhóm, trong khi những người khác học tốt hơn khi học một mình."
+        },
+        {
+          "en": "Rents have risen sharply, whereas wages have barely changed.",
+          "vi": "Tiền thuê nhà tăng mạnh, trong khi tiền lương hầu như không thay đổi."
+        },
+        {
+          "en": "Whereas the old system was slow, the new one processes orders instantly.",
+          "vi": "Hệ thống cũ chạy chậm, còn hệ thống mới xử lý đơn hàng ngay lập tức."
+        }
+      ],
+      "collocations": [
+        "whereas others",
+        "whereas in the past"
+      ],
+      "notes": "dùng để đối chiếu hai mệnh đề trái ngược",
+      "ipa": "/ˌwerˈæz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/whe/where/whereas__us_1_rr.mp3"
+    }
+  ]
+}

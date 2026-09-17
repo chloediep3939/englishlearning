@@ -2,7 +2,7 @@ import { requireUserId, UnauthorizedError } from '@/lib/current-user';
 import { getAudioBucket } from '@/lib/db';
 import { wordGlossaryDb } from '@/lib/reading/db';
 import { cleanWord } from '@/lib/reading/tokenizer';
-import { BROWSER_UA } from '@/lib/oxford/pronunciation';
+import { BROWSER_UA, isAllowedOxfordUrl } from '@/lib/oxford/pronunciation';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -25,20 +25,6 @@ const AUDIO_HEADERS: Record<string, string> = {
 
 function r2Key(word: string): string {
   return `audio/words/${word}.mp3`;
-}
-
-function isAllowedOxfordUrl(raw: string): boolean {
-  try {
-    const u = new URL(raw);
-    if (u.protocol !== 'https:') return false;
-    return (
-      u.hostname === 'oxfordlearnersdictionaries.com' ||
-      u.hostname.endsWith('.oxfordlearnersdictionaries.com') ||
-      u.hostname.endsWith('.oup.com')
-    );
-  } catch {
-    return false;
-  }
 }
 
 export async function GET(_req: Request, ctx: { params: Promise<{ word: string }> }) {

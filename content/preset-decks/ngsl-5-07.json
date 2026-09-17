@@ -1,0 +1,847 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.001–2.500 · Bộ 7",
+    "description": "New General Service List, thứ hạng 2.001–2.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-5-07"
+  },
+  "cards": [
+    {
+      "english": "album",
+      "vietnamese": "album nhạc; cuốn album ảnh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The band is releasing a new album next month.",
+          "vi": "Ban nhạc sẽ phát hành album mới vào tháng sau."
+        },
+        {
+          "en": "I listened to her first album all the way home.",
+          "vi": "Tôi đã nghe album đầu tiên của cô ấy suốt đường về nhà."
+        },
+        {
+          "en": "My grandmother keeps old family photos in a big album.",
+          "vi": "Bà tôi cất những tấm ảnh gia đình cũ trong một cuốn album lớn."
+        }
+      ],
+      "collocations": [
+        "new album",
+        "release an album",
+        "photo album",
+        "debut album"
+      ],
+      "notes": null,
+      "ipa": "/ˈælbəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/alb/album/album__us_2.mp3"
+    },
+    {
+      "english": "singer",
+      "vietnamese": "ca sĩ; người hát",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She dreamed of becoming a famous singer when she was young.",
+          "vi": "Hồi nhỏ cô ấy mơ trở thành một ca sĩ nổi tiếng."
+        },
+        {
+          "en": "The lead singer thanked the crowd after the last song.",
+          "vi": "Ca sĩ hát chính cảm ơn khán giả sau bài hát cuối cùng."
+        },
+        {
+          "en": "My brother isn't a great singer, but he loves karaoke.",
+          "vi": "Anh tôi hát không hay lắm, nhưng anh ấy rất thích karaoke."
+        }
+      ],
+      "collocations": [
+        "lead singer",
+        "famous singer",
+        "pop singer",
+        "opera singer"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɪŋər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sin/singe/singer__us_1.mp3"
+    },
+    {
+      "english": "trail",
+      "vietnamese": "đường mòn; dấu vết",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We followed a narrow trail up the side of the mountain.",
+          "vi": "Chúng tôi đi theo một con đường mòn hẹp lên sườn núi."
+        },
+        {
+          "en": "This hiking trail is closed during the rainy season.",
+          "vi": "Đường mòn đi bộ này bị đóng vào mùa mưa."
+        },
+        {
+          "en": "The dog left a trail of muddy footprints across the kitchen.",
+          "vi": "Con chó để lại một vệt dấu chân lấm bùn khắp nhà bếp."
+        }
+      ],
+      "collocations": [
+        "hiking trail",
+        "follow a trail",
+        "mountain trail",
+        "a trail of"
+      ],
+      "notes": null,
+      "ipa": "/treɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/trail/trail__us_1.mp3"
+    },
+    {
+      "english": "trap",
+      "vietnamese": "cái bẫy; cạm bẫy",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We set a trap to catch the mouse in the kitchen.",
+          "vi": "Chúng tôi đặt một cái bẫy để bắt con chuột trong bếp."
+        },
+        {
+          "en": "Don't fall into the trap of spending more than you earn.",
+          "vi": "Đừng rơi vào cái bẫy tiêu nhiều hơn số tiền mình kiếm được."
+        },
+        {
+          "en": "She realized too late that the cheap offer was a trap.",
+          "vi": "Cô ấy nhận ra quá muộn rằng lời mời chào giá rẻ đó là một cái bẫy."
+        }
+      ],
+      "collocations": [
+        "set a trap",
+        "fall into the trap",
+        "caught in a trap",
+        "tourist trap"
+      ],
+      "notes": null,
+      "ipa": "/træp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/trap_/trap__us_1.mp3"
+    },
+    {
+      "english": "loose",
+      "vietnamese": "lỏng; lung lay; rộng (quần áo)",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "One of the screws on this chair is loose.",
+          "vi": "Một con ốc trên chiếc ghế này bị lỏng."
+        },
+        {
+          "en": "She prefers to wear loose clothes when the weather is hot.",
+          "vi": "Cô ấy thích mặc quần áo rộng khi trời nóng."
+        },
+        {
+          "en": "My little son has a loose tooth and keeps touching it.",
+          "vi": "Con trai nhỏ của tôi có một cái răng lung lay và cứ sờ vào nó."
+        }
+      ],
+      "collocations": [
+        "loose clothes",
+        "come loose",
+        "loose tooth",
+        "break loose"
+      ],
+      "notes": "loose (lỏng) ≠ lose (mất)",
+      "ipa": "/luːs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/loo/loose/loose__us_1.mp3"
+    },
+    {
+      "english": "extension",
+      "vietnamese": "sự gia hạn; phần mở rộng; số máy lẻ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I asked my teacher for an extension on the essay.",
+          "vi": "Tôi xin cô giáo gia hạn nộp bài luận."
+        },
+        {
+          "en": "They are building an extension at the back of their house.",
+          "vi": "Họ đang xây phần nhà mở rộng ở phía sau nhà mình."
+        },
+        {
+          "en": "You can reach me at extension 214 during office hours.",
+          "vi": "Bạn có thể gọi cho tôi qua số máy lẻ 214 trong giờ hành chính."
+        }
+      ],
+      "collocations": [
+        "ask for an extension",
+        "get an extension",
+        "extension cord",
+        "build an extension"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈstenʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ext/exten/extension__us_1.mp3"
+    },
+    {
+      "english": "wealth",
+      "vietnamese": "sự giàu có; của cải; sự phong phú",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Money and wealth do not always bring happiness.",
+          "vi": "Tiền bạc và sự giàu có không phải lúc nào cũng mang lại hạnh phúc."
+        },
+        {
+          "en": "Most of his wealth came from the family business.",
+          "vi": "Phần lớn của cải của ông ấy đến từ công việc kinh doanh của gia đình."
+        },
+        {
+          "en": "Our new manager brings a wealth of experience to the team.",
+          "vi": "Người quản lý mới mang đến cho nhóm rất nhiều kinh nghiệm."
+        }
+      ],
+      "collocations": [
+        "a wealth of",
+        "great wealth",
+        "create wealth",
+        "wealth and power"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/welθ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wea/wealt/wealth__us_1.mp3"
+    },
+    {
+      "english": "gradually",
+      "vietnamese": "dần dần; từ từ",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The weather gradually got warmer as spring arrived.",
+          "vi": "Thời tiết ấm dần lên khi mùa xuân đến."
+        },
+        {
+          "en": "Her English improved gradually after she moved to London.",
+          "vi": "Tiếng Anh của cô ấy dần dần tiến bộ sau khi chuyển đến London."
+        },
+        {
+          "en": "Add the sugar gradually and keep stirring the mixture.",
+          "vi": "Cho đường vào từ từ và tiếp tục khuấy hỗn hợp."
+        }
+      ],
+      "collocations": [
+        "gradually increase",
+        "gradually improve",
+        "gradually become"
+      ],
+      "notes": null,
+      "ipa": "/ˈɡrædʒuəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gra/gradu/gradually__us_1_rr.mp3"
+    },
+    {
+      "english": "tank",
+      "vietnamese": "bể chứa; bình (xăng, nước); xe tăng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We need to fill the tank before the long drive.",
+          "vi": "Chúng ta cần đổ đầy bình xăng trước chuyến đi dài."
+        },
+        {
+          "en": "My kids feed the fish in the tank every morning.",
+          "vi": "Các con tôi cho cá trong bể ăn mỗi sáng."
+        },
+        {
+          "en": "An old army tank stands outside the war museum.",
+          "vi": "Một chiếc xe tăng quân đội cũ đặt bên ngoài bảo tàng chiến tranh."
+        }
+      ],
+      "collocations": [
+        "fuel tank",
+        "fish tank",
+        "water tank",
+        "fill the tank"
+      ],
+      "notes": null,
+      "ipa": "/tæŋk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tan/tank_/tank__us_1.mp3"
+    },
+    {
+      "english": "evil",
+      "vietnamese": "độc ác; xấu xa",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "In the movie, an evil queen tries to kill the princess.",
+          "vi": "Trong phim, một mụ hoàng hậu độc ác tìm cách giết công chúa."
+        },
+        {
+          "en": "The story is about a brave boy who fights an evil wizard.",
+          "vi": "Câu chuyện kể về một cậu bé dũng cảm chiến đấu với một phù thủy độc ác."
+        },
+        {
+          "en": "He isn't evil; he just made some bad choices.",
+          "vi": "Anh ta không xấu xa; anh ta chỉ đưa ra vài lựa chọn sai lầm."
+        }
+      ],
+      "collocations": [
+        "evil spirit",
+        "evil queen",
+        "good and evil",
+        "pure evil"
+      ],
+      "notes": null,
+      "ipa": "/ˈiːvl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/evi/evil_/evil__us_1.mp3"
+    },
+    {
+      "english": "remarkable",
+      "vietnamese": "đáng chú ý; đáng kinh ngạc; phi thường",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She made a remarkable recovery after the accident.",
+          "vi": "Cô ấy đã hồi phục đáng kinh ngạc sau vụ tai nạn."
+        },
+        {
+          "en": "It's remarkable how quickly children learn new languages.",
+          "vi": "Thật đáng kinh ngạc khi trẻ em học ngôn ngữ mới nhanh đến vậy."
+        },
+        {
+          "en": "Our team has achieved remarkable results this year.",
+          "vi": "Năm nay nhóm chúng tôi đã đạt được những kết quả phi thường."
+        }
+      ],
+      "collocations": [
+        "remarkable achievement",
+        "remarkable recovery",
+        "truly remarkable",
+        "remarkable results"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈmɑːrkəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rem/remar/remarkable__us_1.mp3"
+    },
+    {
+      "english": "tune",
+      "vietnamese": "giai điệu; điệu nhạc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He was whistling a happy tune while he cooked dinner.",
+          "vi": "Anh ấy vừa nấu bữa tối vừa huýt sáo một giai điệu vui tươi."
+        },
+        {
+          "en": "I can remember the tune, but I've forgotten the words.",
+          "vi": "Tôi nhớ được giai điệu nhưng đã quên lời bài hát."
+        },
+        {
+          "en": "That catchy tune has been stuck in my head all day.",
+          "vi": "Giai điệu dễ nhớ đó cứ lởn vởn trong đầu tôi cả ngày."
+        }
+      ],
+      "collocations": [
+        "catchy tune",
+        "out of tune",
+        "hum a tune",
+        "play a tune"
+      ],
+      "notes": null,
+      "ipa": "/tuːn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tun/tune_/tune__us_1.mp3"
+    },
+    {
+      "english": "grass",
+      "vietnamese": "cỏ; bãi cỏ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The children were sitting on the grass eating sandwiches.",
+          "vi": "Bọn trẻ đang ngồi trên bãi cỏ ăn bánh mì kẹp."
+        },
+        {
+          "en": "My father cuts the grass in our garden every Sunday.",
+          "vi": "Bố tôi cắt cỏ trong vườn nhà vào mỗi Chủ nhật."
+        },
+        {
+          "en": "Please keep off the grass while it is still wet.",
+          "vi": "Vui lòng không giẫm lên cỏ khi cỏ vẫn còn ướt."
+        }
+      ],
+      "collocations": [
+        "cut the grass",
+        "green grass",
+        "long grass",
+        "on the grass"
+      ],
+      "notes": null,
+      "ipa": "/ɡræs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gra/grass/grass__us_1.mp3"
+    },
+    {
+      "english": "invitation",
+      "vietnamese": "lời mời; thiệp mời",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Thank you for the invitation to your birthday party.",
+          "vi": "Cảm ơn bạn đã mời tôi đến dự tiệc sinh nhật của bạn."
+        },
+        {
+          "en": "We received a wedding invitation from our old neighbors.",
+          "vi": "Chúng tôi nhận được thiệp mời đám cưới từ những người hàng xóm cũ."
+        },
+        {
+          "en": "She politely turned down his invitation to dinner.",
+          "vi": "Cô ấy lịch sự từ chối lời mời đi ăn tối của anh ấy."
+        }
+      ],
+      "collocations": [
+        "accept an invitation",
+        "wedding invitation",
+        "send an invitation",
+        "turn down an invitation"
+      ],
+      "notes": "invitation to sth",
+      "ipa": "/ˌɪnvɪˈteɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inv/invit/invitation__us_1.mp3"
+    },
+    {
+      "english": "transition",
+      "vietnamese": "sự chuyển tiếp; sự chuyển đổi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The transition from school to work can be difficult.",
+          "vi": "Việc chuyển từ trường học sang đi làm có thể rất khó khăn."
+        },
+        {
+          "en": "Our company is going through a period of transition.",
+          "vi": "Công ty chúng tôi đang trải qua một giai đoạn chuyển đổi."
+        },
+        {
+          "en": "She made a smooth transition to her new role as manager.",
+          "vi": "Cô ấy đã chuyển sang vai trò quản lý mới một cách suôn sẻ."
+        }
+      ],
+      "collocations": [
+        "smooth transition",
+        "transition to",
+        "period of transition",
+        "make the transition"
+      ],
+      "notes": null,
+      "ipa": "/trænˈzɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/trans/transition__us_1.mp3"
+    },
+    {
+      "english": "frighten",
+      "vietnamese": "làm hoảng sợ; dọa",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The loud thunder frightened the baby, and she started crying.",
+          "vi": "Tiếng sấm to làm em bé hoảng sợ và bé bắt đầu khóc."
+        },
+        {
+          "en": "Don't shout, or you'll frighten the birds away.",
+          "vi": "Đừng hét lên, không thì bạn sẽ làm lũ chim sợ bay mất."
+        },
+        {
+          "en": "Horror movies don't frighten me, but spiders do.",
+          "vi": "Phim kinh dị không làm tôi sợ, nhưng nhện thì có."
+        }
+      ],
+      "collocations": [
+        "frighten away",
+        "frighten somebody to death",
+        "easily frightened"
+      ],
+      "notes": null,
+      "ipa": "/ˈfraɪtn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fri/frigh/frighten__us_2.mp3"
+    },
+    {
+      "english": "bid",
+      "vietnamese": "sự trả giá; sự dự thầu; nỗ lực (để đạt được)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He made a bid of two hundred dollars for the old clock.",
+          "vi": "Anh ấy trả giá hai trăm đô la cho chiếc đồng hồ cũ."
+        },
+        {
+          "en": "Three companies put in a bid to build the new bridge.",
+          "vi": "Ba công ty đã nộp hồ sơ dự thầu xây cây cầu mới."
+        },
+        {
+          "en": "The city failed in its bid to host the Olympic Games.",
+          "vi": "Thành phố đã thất bại trong nỗ lực đăng cai Thế vận hội."
+        }
+      ],
+      "collocations": [
+        "make a bid",
+        "winning bid",
+        "bid for",
+        "in a bid to"
+      ],
+      "notes": null,
+      "ipa": "/ˈbɪd/",
+      "audio_src": null
+    },
+    {
+      "english": "breed",
+      "vietnamese": "giống (vật nuôi); nhân giống, gây giống",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "What breed of dog is good for a small apartment?",
+          "vi": "Giống chó nào phù hợp với một căn hộ nhỏ?"
+        },
+        {
+          "en": "This rare breed of cattle comes from the north.",
+          "vi": "Giống bò hiếm này có nguồn gốc từ miền Bắc."
+        },
+        {
+          "en": "My uncle breeds horses on his farm in the countryside.",
+          "vi": "Chú tôi nuôi và nhân giống ngựa ở trang trại dưới quê."
+        }
+      ],
+      "collocations": [
+        "breed of dog",
+        "rare breed",
+        "breed horses",
+        "different breeds"
+      ],
+      "notes": "breed – bred – bred",
+      "ipa": "/briːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bre/breed/breed__us_1.mp3"
+    },
+    {
+      "english": "extraordinary",
+      "vietnamese": "phi thường; khác thường",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She has an extraordinary talent for music.",
+          "vi": "Cô ấy có năng khiếu âm nhạc phi thường."
+        },
+        {
+          "en": "It was an extraordinary experience to see whales so close.",
+          "vi": "Được nhìn cá voi ở gần như vậy là một trải nghiệm phi thường."
+        },
+        {
+          "en": "He wore an extraordinary hat covered in plastic flowers.",
+          "vi": "Anh ấy đội một chiếc mũ khác thường phủ đầy hoa nhựa."
+        }
+      ],
+      "collocations": [
+        "extraordinary talent",
+        "extraordinary experience",
+        "quite extraordinary",
+        "extraordinary story"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈstrɔːrdəneri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ext/extra/extraordinary__us_1.mp3"
+    },
+    {
+      "english": "brilliant",
+      "vietnamese": "xuất sắc; tuyệt vời; rực rỡ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "What a brilliant idea for your sister's birthday present!",
+          "vi": "Thật là một ý tưởng tuyệt vời cho món quà sinh nhật của chị bạn!"
+        },
+        {
+          "en": "Our new math teacher is a brilliant young scientist.",
+          "vi": "Thầy dạy toán mới của chúng tôi là một nhà khoa học trẻ xuất sắc."
+        },
+        {
+          "en": "We woke up to brilliant sunshine on the first day of our trip.",
+          "vi": "Chúng tôi thức dậy trong ánh nắng rực rỡ vào ngày đầu của chuyến đi."
+        }
+      ],
+      "collocations": [
+        "brilliant idea",
+        "brilliant career",
+        "brilliant sunshine",
+        "absolutely brilliant"
+      ],
+      "notes": null,
+      "ipa": "/ˈbrɪliənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bri/brill/brilliant__us_1.mp3"
+    },
+    {
+      "english": "adviser",
+      "vietnamese": "cố vấn; người tư vấn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I talked to a financial adviser before buying the house.",
+          "vi": "Tôi đã nói chuyện với một chuyên viên tư vấn tài chính trước khi mua nhà."
+        },
+        {
+          "en": "My academic adviser helped me choose the right courses.",
+          "vi": "Cố vấn học tập đã giúp tôi chọn đúng các môn học."
+        },
+        {
+          "en": "She works as a senior adviser to the company's director.",
+          "vi": "Cô ấy làm cố vấn cấp cao cho giám đốc công ty."
+        }
+      ],
+      "collocations": [
+        "financial adviser",
+        "legal adviser",
+        "senior adviser",
+        "adviser to"
+      ],
+      "notes": "cũng viết: advisor",
+      "ipa": "/ədˈvaɪzər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adv/advis/adviser__us_1.mp3"
+    },
+    {
+      "english": "stem",
+      "vietnamese": "thân cây; cuống (hoa, lá)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Cut the flower stems before you put them in water.",
+          "vi": "Cắt bớt cuống hoa trước khi cắm vào nước."
+        },
+        {
+          "en": "This plant has a thin green stem and small leaves.",
+          "vi": "Cây này có thân mảnh màu xanh và lá nhỏ."
+        },
+        {
+          "en": "Hold the wine glass by its stem, not the bowl.",
+          "vi": "Hãy cầm ly rượu ở phần chân ly, đừng cầm vào bầu ly."
+        }
+      ],
+      "collocations": [
+        "flower stem",
+        "long stem",
+        "thin stem"
+      ],
+      "notes": "stem from: bắt nguồn từ",
+      "ipa": "/stem/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ste/stem_/stem__us_1.mp3"
+    },
+    {
+      "english": "reverse",
+      "vietnamese": "đảo ngược; hủy bỏ (quyết định)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The manager agreed to reverse his decision after the meeting.",
+          "vi": "Sau cuộc họp, quản lý đã đồng ý hủy bỏ quyết định của mình."
+        },
+        {
+          "en": "It may be too late to reverse the damage to the forest.",
+          "vi": "Có lẽ đã quá muộn để đảo ngược thiệt hại cho khu rừng."
+        },
+        {
+          "en": "Try reversing the order of the last two sentences.",
+          "vi": "Hãy thử đảo ngược thứ tự của hai câu cuối."
+        }
+      ],
+      "collocations": [
+        "reverse a decision",
+        "reverse the trend",
+        "reverse the damage",
+        "reverse the order"
+      ],
+      "notes": "in reverse: theo chiều ngược lại",
+      "ipa": "/rɪˈvɜːrs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rev/rever/reverse__us_1.mp3"
+    },
+    {
+      "english": "mode",
+      "vietnamese": "chế độ; phương thức; cách thức",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please switch your phones to silent mode during the exam.",
+          "vi": "Vui lòng chuyển điện thoại sang chế độ im lặng trong giờ thi."
+        },
+        {
+          "en": "For many students, the bicycle is the main mode of transport.",
+          "vi": "Với nhiều sinh viên, xe đạp là phương tiện đi lại chính."
+        },
+        {
+          "en": "The camera has a special mode for taking photos at night.",
+          "vi": "Chiếc máy ảnh có một chế độ đặc biệt để chụp ảnh ban đêm."
+        }
+      ],
+      "collocations": [
+        "silent mode",
+        "mode of transport",
+        "night mode",
+        "sleep mode"
+      ],
+      "notes": null,
+      "ipa": "/məʊd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mod/mode_/mode__us_1.mp3"
+    },
+    {
+      "english": "mirror",
+      "vietnamese": "gương; gương chiếu hậu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She checked her hair in the mirror before leaving.",
+          "vi": "Cô ấy soi gương xem lại tóc trước khi ra ngoài."
+        },
+        {
+          "en": "There's a large mirror on the wall of the bathroom.",
+          "vi": "Có một chiếc gương lớn trên tường phòng tắm."
+        },
+        {
+          "en": "Always look in your mirror before you change lanes.",
+          "vi": "Luôn nhìn gương chiếu hậu trước khi chuyển làn."
+        }
+      ],
+      "collocations": [
+        "look in the mirror",
+        "bathroom mirror",
+        "rear-view mirror",
+        "full-length mirror"
+      ],
+      "notes": null,
+      "ipa": "/ˈmɪrər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mir/mirro/mirror__us_2.mp3"
+    },
+    {
+      "english": "awful",
+      "vietnamese": "tồi tệ; kinh khủng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The food at that hotel was absolutely awful.",
+          "vi": "Đồ ăn ở khách sạn đó thật sự tồi tệ."
+        },
+        {
+          "en": "I feel awful about forgetting your birthday.",
+          "vi": "Tôi thấy thật tệ vì đã quên sinh nhật của bạn."
+        },
+        {
+          "en": "We had awful weather for the whole week of our vacation.",
+          "vi": "Suốt cả tuần nghỉ lễ, thời tiết chỗ chúng tôi thật kinh khủng."
+        }
+      ],
+      "collocations": [
+        "feel awful",
+        "awful weather",
+        "absolutely awful",
+        "look awful"
+      ],
+      "notes": null,
+      "ipa": "/ˈɔːfl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/awf/awful/awful__us_2.mp3"
+    },
+    {
+      "english": "pose",
+      "vietnamese": "gây ra (mối đe dọa, vấn đề); đặt ra (câu hỏi); tạo dáng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Smoking poses a serious risk to your health.",
+          "vi": "Hút thuốc gây ra mối nguy hiểm nghiêm trọng cho sức khỏe của bạn."
+        },
+        {
+          "en": "The new rules pose a problem for small businesses.",
+          "vi": "Các quy định mới đặt ra một vấn đề cho các doanh nghiệp nhỏ."
+        },
+        {
+          "en": "The whole family posed for a photo in front of the lake.",
+          "vi": "Cả gia đình tạo dáng chụp ảnh trước hồ."
+        }
+      ],
+      "collocations": [
+        "pose a threat",
+        "pose a risk",
+        "pose a question",
+        "pose for a photo"
+      ],
+      "notes": null,
+      "ipa": "/pəʊz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pos/pose_/pose__us_1.mp3"
+    },
+    {
+      "english": "adjust",
+      "vietnamese": "điều chỉnh; thích nghi",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "You can adjust the height of this chair with the lever.",
+          "vi": "Bạn có thể điều chỉnh độ cao của chiếc ghế này bằng cần gạt."
+        },
+        {
+          "en": "It took me a few weeks to adjust to my new school.",
+          "vi": "Tôi mất vài tuần để thích nghi với trường mới."
+        },
+        {
+          "en": "Let your eyes adjust to the dark before you move.",
+          "vi": "Hãy để mắt quen với bóng tối trước khi bạn di chuyển."
+        }
+      ],
+      "collocations": [
+        "adjust to",
+        "adjust the temperature",
+        "adjust the settings",
+        "quickly adjust"
+      ],
+      "notes": "adjust to sth: thích nghi với",
+      "ipa": "/əˈdʒʌst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adj/adjus/adjust__us_1.mp3"
+    },
+    {
+      "english": "creative",
+      "vietnamese": "sáng tạo",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My sister is very creative and loves painting and writing.",
+          "vi": "Chị tôi rất sáng tạo và thích vẽ tranh lẫn viết lách."
+        },
+        {
+          "en": "We need a creative way to solve this problem.",
+          "vi": "Chúng ta cần một cách sáng tạo để giải quyết vấn đề này."
+        },
+        {
+          "en": "The course helps students develop their creative skills.",
+          "vi": "Khóa học giúp học viên phát triển các kỹ năng sáng tạo."
+        }
+      ],
+      "collocations": [
+        "creative thinking",
+        "creative writing",
+        "creative ideas",
+        "highly creative"
+      ],
+      "notes": null,
+      "ipa": "/kriˈeɪtɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cre/creat/creative__us_2.mp3"
+    },
+    {
+      "english": "nowadays",
+      "vietnamese": "ngày nay; thời nay",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Nowadays, most people pay for things with their phones.",
+          "vi": "Ngày nay, hầu hết mọi người thanh toán bằng điện thoại."
+        },
+        {
+          "en": "Children spend much more time indoors nowadays.",
+          "vi": "Thời nay trẻ em dành nhiều thời gian ở trong nhà hơn hẳn."
+        },
+        {
+          "en": "Do you still play tennis nowadays, or have you stopped?",
+          "vi": "Dạo này bạn còn chơi quần vợt không, hay đã nghỉ rồi?"
+        }
+      ],
+      "collocations": [
+        "especially nowadays",
+        "nowadays, most people"
+      ],
+      "notes": null,
+      "ipa": "/ˈnaʊədeɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/now/nowad/nowadays__us_1.mp3"
+    }
+  ]
+}

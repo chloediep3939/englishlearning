@@ -1,0 +1,3012 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Cụm học thuật · Nhóm 16",
+    "description": "Academic Collocation List (Pearson/PTE)",
+    "color": "#5fd4c8",
+    "icon": "BookOpen",
+    "subtitle": "colloc-16-01"
+  },
+  "cards": [
+    {
+      "english": "structural properties",
+      "vietnamese": "tính chất cấu trúc",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈstrʌktʃərəl ˈprɑːpərtiz/",
+      "examples": [
+        {
+          "en": "Scientists tested the structural properties of the new alloy.",
+          "vi": "Các nhà khoa học kiểm tra tính chất cấu trúc của hợp kim mới."
+        },
+        {
+          "en": "The structural properties of wood vary with moisture content.",
+          "vi": "Tính chất cấu trúc của gỗ thay đổi theo độ ẩm."
+        },
+        {
+          "en": "Understanding structural properties helps engineers design safer materials.",
+          "vi": "Hiểu tính chất cấu trúc giúp kỹ sư thiết kế vật liệu an toàn hơn."
+        }
+      ]
+    },
+    {
+      "english": "subject area",
+      "vietnamese": "lĩnh vực môn học",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsʌbdʒɪkt ˈeriə/",
+      "examples": [
+        {
+          "en": "Students may choose electives outside their main subject area.",
+          "vi": "Sinh viên có thể chọn môn tự chọn ngoài lĩnh vực môn học chính."
+        },
+        {
+          "en": "The conference covered many subject areas within social science.",
+          "vi": "Hội nghị bao quát nhiều lĩnh vực môn học trong khoa học xã hội."
+        },
+        {
+          "en": "Each teacher specializes in a particular subject area.",
+          "vi": "Mỗi giáo viên chuyên về một lĩnh vực môn học cụ thể."
+        }
+      ]
+    },
+    {
+      "english": "subsequent analysis",
+      "vietnamese": "phân tích tiếp theo",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsʌbsɪkwənt əˈnæləsɪs/",
+      "examples": [
+        {
+          "en": "Subsequent analysis confirmed the patterns seen in early data.",
+          "vi": "Phân tích tiếp theo xác nhận các mẫu hình thấy trong dữ liệu ban đầu."
+        },
+        {
+          "en": "The subsequent analysis revealed several unexpected results.",
+          "vi": "Phân tích tiếp theo cho thấy một số kết quả bất ngờ."
+        },
+        {
+          "en": "Subsequent analysis will focus on long-term effects of the policy.",
+          "vi": "Phân tích tiếp theo sẽ tập trung vào tác động lâu dài của chính sách."
+        }
+      ]
+    },
+    {
+      "english": "subsequent chapter",
+      "vietnamese": "chương tiếp theo",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsʌbsɪkwənt ˈtʃæptər/",
+      "examples": [
+        {
+          "en": "These issues are discussed in detail in subsequent chapters.",
+          "vi": "Những vấn đề này được bàn chi tiết ở các chương tiếp theo."
+        },
+        {
+          "en": "The subsequent chapter explains the methodology in more depth.",
+          "vi": "Chương tiếp theo giải thích phương pháp luận sâu hơn."
+        },
+        {
+          "en": "Each subsequent chapter builds on ideas from the previous one.",
+          "vi": "Mỗi chương tiếp theo xây dựng dựa trên ý tưởng của chương trước."
+        }
+      ]
+    },
+    {
+      "english": "subsequent development",
+      "vietnamese": "diễn biến tiếp theo",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsʌbsɪkwənt dɪˈveləpmənt/",
+      "examples": [
+        {
+          "en": "The treaty shaped the subsequent development of the region.",
+          "vi": "Hiệp ước định hình diễn biến tiếp theo của khu vực."
+        },
+        {
+          "en": "Subsequent development of the software fixed many early problems.",
+          "vi": "Diễn biến phát triển tiếp theo của phần mềm khắc phục nhiều lỗi ban đầu."
+        },
+        {
+          "en": "Historians trace the subsequent development of the movement.",
+          "vi": "Các sử gia theo dõi diễn biến tiếp theo của phong trào."
+        }
+      ]
+    },
+    {
+      "english": "subsequent study",
+      "vietnamese": "nghiên cứu tiếp theo",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsʌbsɪkwənt ˈstʌdi/",
+      "examples": [
+        {
+          "en": "A subsequent study confirmed the earlier surprising findings.",
+          "vi": "Một nghiên cứu tiếp theo xác nhận các phát hiện gây bất ngờ trước đó."
+        },
+        {
+          "en": "Subsequent studies used larger and more diverse samples.",
+          "vi": "Các nghiên cứu tiếp theo dùng mẫu lớn hơn và đa dạng hơn."
+        },
+        {
+          "en": "The authors recommend a subsequent study with a control group.",
+          "vi": "Các tác giả đề xuất một nghiên cứu tiếp theo có nhóm đối chứng."
+        }
+      ]
+    },
+    {
+      "english": "subsequent work",
+      "vietnamese": "công trình tiếp theo",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈsʌbsɪkwənt ˈwɜːrk/",
+      "examples": [
+        {
+          "en": "Her subsequent work expanded on these initial conclusions.",
+          "vi": "Công trình tiếp theo của cô mở rộng từ những kết luận ban đầu này."
+        },
+        {
+          "en": "Subsequent work in the field built directly on his ideas.",
+          "vi": "Công trình tiếp theo trong lĩnh vực này dựa trực tiếp vào ý tưởng của ông."
+        },
+        {
+          "en": "The paper laid a foundation for much subsequent work.",
+          "vi": "Bài báo đặt nền móng cho nhiều công trình tiếp theo."
+        }
+      ]
+    },
+    {
+      "english": "substantial amount of",
+      "vietnamese": "một lượng đáng kể",
+      "part_of_speech": "adj + n",
+      "ipa": "/səbˈstænʃəl əˈmaʊnt əv/",
+      "examples": [
+        {
+          "en": "The project required a substantial amount of time and money.",
+          "vi": "Dự án đòi hỏi một lượng đáng kể thời gian và tiền bạc."
+        },
+        {
+          "en": "Researchers collected a substantial amount of survey data.",
+          "vi": "Các nhà nghiên cứu thu thập một lượng đáng kể dữ liệu khảo sát."
+        },
+        {
+          "en": "A substantial amount of evidence supports this conclusion.",
+          "vi": "Một lượng đáng kể bằng chứng ủng hộ kết luận này."
+        }
+      ]
+    },
+    {
+      "english": "substantial difference",
+      "vietnamese": "sự khác biệt đáng kể",
+      "part_of_speech": "adj + n",
+      "ipa": "/səbˈstænʃəl ˈdɪfərəns/",
+      "examples": [
+        {
+          "en": "There is a substantial difference between the two methods.",
+          "vi": "Có một sự khác biệt đáng kể giữa hai phương pháp."
+        },
+        {
+          "en": "The study found a substantial difference in test scores.",
+          "vi": "Nghiên cứu tìm thấy sự khác biệt đáng kể về điểm kiểm tra."
+        },
+        {
+          "en": "A substantial difference in income separates the two regions.",
+          "vi": "Một sự khác biệt đáng kể về thu nhập chia tách hai khu vực."
+        }
+      ]
+    },
+    {
+      "english": "substantial evidence",
+      "vietnamese": "bằng chứng đáng kể",
+      "part_of_speech": "adj + n",
+      "ipa": "/səbˈstænʃəl ˈevɪdəns/",
+      "examples": [
+        {
+          "en": "There is substantial evidence supporting the new approach.",
+          "vi": "Có bằng chứng đáng kể ủng hộ phương pháp mới."
+        },
+        {
+          "en": "The court found substantial evidence of wrongdoing.",
+          "vi": "Tòa án tìm thấy bằng chứng đáng kể về hành vi sai trái."
+        },
+        {
+          "en": "Substantial evidence shows that exercise improves mental health.",
+          "vi": "Bằng chứng đáng kể cho thấy tập thể dục cải thiện sức khỏe tinh thần."
+        }
+      ]
+    },
+    {
+      "english": "substantial number",
+      "vietnamese": "một số lượng đáng kể",
+      "part_of_speech": "adj + n",
+      "ipa": "/səbˈstænʃəl ˈnʌmbər/",
+      "examples": [
+        {
+          "en": "A substantial number of students passed the difficult exam.",
+          "vi": "Một số lượng đáng kể sinh viên đã vượt qua kỳ thi khó."
+        },
+        {
+          "en": "The survey reached a substantial number of households nationwide.",
+          "vi": "Khảo sát tiếp cận một số lượng đáng kể hộ gia đình trên toàn quốc."
+        },
+        {
+          "en": "A substantial number of jobs depend on the local factory.",
+          "vi": "Một số lượng đáng kể việc làm phụ thuộc vào nhà máy địa phương."
+        }
+      ]
+    },
+    {
+      "english": "substantial part",
+      "vietnamese": "một phần đáng kể",
+      "part_of_speech": "adj + n",
+      "ipa": "/səbˈstænʃəl ˈpɑːrt/",
+      "examples": [
+        {
+          "en": "A substantial part of the budget goes toward research.",
+          "vi": "Một phần đáng kể ngân sách được dành cho nghiên cứu."
+        },
+        {
+          "en": "She spent a substantial part of her career studying bees.",
+          "vi": "Cô dành một phần đáng kể sự nghiệp để nghiên cứu loài ong."
+        },
+        {
+          "en": "A substantial part of the population lives in rural areas.",
+          "vi": "Một phần đáng kể dân số sống ở khu vực nông thôn."
+        }
+      ]
+    },
+    {
+      "english": "substantially different",
+      "vietnamese": "khác biệt đáng kể",
+      "part_of_speech": "adv + adj",
+      "ipa": "/səbˈstænʃəli ˈdɪfərənt/",
+      "examples": [
+        {
+          "en": "The two samples produced substantially different results.",
+          "vi": "Hai mẫu cho ra những kết quả khác biệt đáng kể."
+        },
+        {
+          "en": "Her conclusions are substantially different from earlier studies.",
+          "vi": "Kết luận của cô khác biệt đáng kể so với các nghiên cứu trước."
+        },
+        {
+          "en": "Life in the city is substantially different from rural life.",
+          "vi": "Cuộc sống ở thành phố khác biệt đáng kể so với nông thôn."
+        }
+      ]
+    },
+    {
+      "english": "successful implementation",
+      "vietnamese": "việc triển khai thành công",
+      "part_of_speech": "adj + n",
+      "ipa": "/səkˈsesfəl ˌɪmplɪmenˈteɪʃən/",
+      "examples": [
+        {
+          "en": "Successful implementation of the plan depends on strong leadership.",
+          "vi": "Việc triển khai thành công kế hoạch phụ thuộc vào sự lãnh đạo vững mạnh."
+        },
+        {
+          "en": "Training was key to the successful implementation of the system.",
+          "vi": "Đào tạo là yếu tố then chốt cho việc triển khai thành công hệ thống."
+        },
+        {
+          "en": "The report describes the successful implementation of the reform.",
+          "vi": "Báo cáo mô tả việc triển khai thành công cuộc cải cách."
+        }
+      ]
+    },
+    {
+      "english": "sufficient condition",
+      "vietnamese": "điều kiện đủ",
+      "part_of_speech": "adj + n",
+      "ipa": "/səˈfɪʃənt kənˈdɪʃən/",
+      "examples": [
+        {
+          "en": "Hard work alone is not a sufficient condition for success.",
+          "vi": "Chỉ chăm chỉ thôi không phải là điều kiện đủ để thành công."
+        },
+        {
+          "en": "The author distinguishes necessary from sufficient conditions.",
+          "vi": "Tác giả phân biệt điều kiện cần với điều kiện đủ."
+        },
+        {
+          "en": "Funding is a sufficient condition for starting the project.",
+          "vi": "Kinh phí là điều kiện đủ để khởi động dự án."
+        }
+      ]
+    },
+    {
+      "english": "sufficient detail",
+      "vietnamese": "đủ chi tiết",
+      "part_of_speech": "adj + n",
+      "ipa": "/səˈfɪʃənt ˈdiːteɪl/",
+      "examples": [
+        {
+          "en": "The method is described in sufficient detail to be repeated.",
+          "vi": "Phương pháp được mô tả đủ chi tiết để có thể lặp lại."
+        },
+        {
+          "en": "Please provide sufficient detail in your project proposal.",
+          "vi": "Vui lòng cung cấp đủ chi tiết trong đề xuất dự án của bạn."
+        },
+        {
+          "en": "The report lacks sufficient detail about the data sources.",
+          "vi": "Báo cáo thiếu đủ chi tiết về các nguồn dữ liệu."
+        }
+      ]
+    },
+    {
+      "english": "sufficient evidence",
+      "vietnamese": "bằng chứng đầy đủ",
+      "part_of_speech": "adj + n",
+      "ipa": "/səˈfɪʃənt ˈevɪdəns/",
+      "examples": [
+        {
+          "en": "There is not yet sufficient evidence to support the claim.",
+          "vi": "Vẫn chưa có đủ bằng chứng để ủng hộ tuyên bố này."
+        },
+        {
+          "en": "The jury found sufficient evidence to reach a verdict.",
+          "vi": "Bồi thẩm đoàn tìm thấy đủ bằng chứng để đưa ra phán quyết."
+        },
+        {
+          "en": "Researchers need sufficient evidence before publishing conclusions.",
+          "vi": "Các nhà nghiên cứu cần đủ bằng chứng trước khi công bố kết luận."
+        }
+      ]
+    },
+    {
+      "english": "sufficient information",
+      "vietnamese": "đủ thông tin",
+      "part_of_speech": "adj + n",
+      "ipa": "/səˈfɪʃənt ˌɪnfərˈmeɪʃən/",
+      "examples": [
+        {
+          "en": "We did not have sufficient information to make a decision.",
+          "vi": "Chúng tôi không có đủ thông tin để đưa ra quyết định."
+        },
+        {
+          "en": "The form must contain sufficient information for verification.",
+          "vi": "Biểu mẫu phải chứa đủ thông tin để xác minh."
+        },
+        {
+          "en": "Patients need sufficient information about possible side effects.",
+          "vi": "Bệnh nhân cần đủ thông tin về các tác dụng phụ có thể xảy ra."
+        }
+      ]
+    },
+    {
+      "english": "sufficient resources",
+      "vietnamese": "đủ nguồn lực",
+      "part_of_speech": "adj + n",
+      "ipa": "/səˈfɪʃənt ˈriːsɔːrsɪz/",
+      "examples": [
+        {
+          "en": "The school lacks sufficient resources to support every student.",
+          "vi": "Trường thiếu đủ nguồn lực để hỗ trợ mọi học sinh."
+        },
+        {
+          "en": "Without sufficient resources, the program cannot expand further.",
+          "vi": "Không có đủ nguồn lực, chương trình không thể mở rộng thêm."
+        },
+        {
+          "en": "Managers must ensure teams have sufficient resources to succeed.",
+          "vi": "Người quản lý phải đảm bảo các nhóm có đủ nguồn lực để thành công."
+        }
+      ]
+    },
+    {
+      "english": "superior performance",
+      "vietnamese": "hiệu suất vượt trội",
+      "part_of_speech": "adj + n",
+      "ipa": "/suːˈpɪriər pərˈfɔːrməns/",
+      "examples": [
+        {
+          "en": "The new engine delivers superior performance at lower cost.",
+          "vi": "Động cơ mới mang lại hiệu suất vượt trội với chi phí thấp hơn."
+        },
+        {
+          "en": "The study attributes superior performance to better training.",
+          "vi": "Nghiên cứu cho rằng hiệu suất vượt trội đến từ việc đào tạo tốt hơn."
+        },
+        {
+          "en": "Her team's superior performance earned them the top award.",
+          "vi": "Hiệu suất vượt trội của nhóm cô giành được giải thưởng cao nhất."
+        }
+      ]
+    },
+    {
+      "english": "support an argument",
+      "vietnamese": "củng cố một luận điểm",
+      "part_of_speech": "v + n",
+      "ipa": "/səˈpɔːrt ən ˈɑːrɡjumənt/",
+      "examples": [
+        {
+          "en": "Use reliable data to support an argument in your essay.",
+          "vi": "Dùng dữ liệu đáng tin cậy để củng cố một luận điểm trong bài luận."
+        },
+        {
+          "en": "The author cites several studies to support an argument.",
+          "vi": "Tác giả trích dẫn vài nghiên cứu để củng cố một luận điểm."
+        },
+        {
+          "en": "Strong examples help support an argument more convincingly.",
+          "vi": "Những ví dụ mạnh giúp củng cố một luận điểm thuyết phục hơn."
+        }
+      ]
+    },
+    {
+      "english": "supporting evidence",
+      "vietnamese": "bằng chứng hỗ trợ",
+      "part_of_speech": "adj + n",
+      "ipa": "/səˈpɔːrtɪŋ ˈevɪdəns/",
+      "examples": [
+        {
+          "en": "Each claim should be backed by clear supporting evidence.",
+          "vi": "Mỗi tuyên bố nên được hậu thuẫn bằng bằng chứng hỗ trợ rõ ràng."
+        },
+        {
+          "en": "The essay presents strong supporting evidence for its thesis.",
+          "vi": "Bài luận trình bày bằng chứng hỗ trợ mạnh mẽ cho luận đề của nó."
+        },
+        {
+          "en": "Reviewers asked for more supporting evidence in the paper.",
+          "vi": "Người phản biện yêu cầu thêm bằng chứng hỗ trợ trong bài báo."
+        }
+      ]
+    },
+    {
+      "english": "survey data",
+      "vietnamese": "dữ liệu khảo sát",
+      "part_of_speech": "n + n",
+      "ipa": "/ˈsɜːrveɪ ˈdeɪtə/",
+      "examples": [
+        {
+          "en": "The researchers analyzed survey data from over a thousand people.",
+          "vi": "Các nhà nghiên cứu phân tích dữ liệu khảo sát từ hơn một nghìn người."
+        },
+        {
+          "en": "Survey data revealed clear trends in consumer behavior.",
+          "vi": "Dữ liệu khảo sát cho thấy các xu hướng rõ ràng trong hành vi tiêu dùng."
+        },
+        {
+          "en": "We must check the survey data carefully for errors.",
+          "vi": "Chúng ta phải kiểm tra dữ liệu khảo sát cẩn thận để tìm lỗi."
+        }
+      ]
+    },
+    {
+      "english": "symbiotic relationship",
+      "vietnamese": "mối quan hệ cộng sinh",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌsɪmbaɪˈɑːtɪk rɪˈleɪʃənʃɪp/",
+      "examples": [
+        {
+          "en": "Bees and flowers share a fascinating symbiotic relationship.",
+          "vi": "Ong và hoa có một mối quan hệ cộng sinh thú vị."
+        },
+        {
+          "en": "The two companies developed a symbiotic relationship over time.",
+          "vi": "Hai công ty phát triển một mối quan hệ cộng sinh theo thời gian."
+        },
+        {
+          "en": "A symbiotic relationship benefits both species involved.",
+          "vi": "Mối quan hệ cộng sinh mang lại lợi ích cho cả hai loài liên quan."
+        }
+      ]
+    },
+    {
+      "english": "systematic analysis",
+      "vietnamese": "phân tích có hệ thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌsɪstəˈmætɪk əˈnæləsɪs/",
+      "examples": [
+        {
+          "en": "A systematic analysis of the data revealed hidden patterns.",
+          "vi": "Phân tích có hệ thống dữ liệu cho thấy các mẫu hình tiềm ẩn."
+        },
+        {
+          "en": "The team conducted a systematic analysis of past research.",
+          "vi": "Nhóm tiến hành phân tích có hệ thống các nghiên cứu trước."
+        },
+        {
+          "en": "Systematic analysis reduces the risk of biased conclusions.",
+          "vi": "Phân tích có hệ thống giảm nguy cơ kết luận thiên lệch."
+        }
+      ]
+    },
+    {
+      "english": "systematic approach",
+      "vietnamese": "phương pháp có hệ thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌsɪstəˈmætɪk əˈproʊtʃ/",
+      "examples": [
+        {
+          "en": "A systematic approach helps solve complex problems step by step.",
+          "vi": "Phương pháp có hệ thống giúp giải quyết vấn đề phức tạp từng bước."
+        },
+        {
+          "en": "The lab follows a systematic approach to testing samples.",
+          "vi": "Phòng thí nghiệm theo một phương pháp có hệ thống để kiểm tra mẫu."
+        },
+        {
+          "en": "She recommends a systematic approach to reviewing the literature.",
+          "vi": "Cô đề xuất một phương pháp có hệ thống để rà soát tài liệu."
+        }
+      ]
+    },
+    {
+      "english": "systematic study",
+      "vietnamese": "nghiên cứu có hệ thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌsɪstəˈmætɪk ˈstʌdi/",
+      "examples": [
+        {
+          "en": "The book offers a systematic study of urban migration patterns.",
+          "vi": "Cuốn sách cung cấp một nghiên cứu có hệ thống về các mẫu di cư đô thị."
+        },
+        {
+          "en": "A systematic study requires careful planning and consistent methods.",
+          "vi": "Một nghiên cứu có hệ thống đòi hỏi lập kế hoạch cẩn thận và phương pháp nhất quán."
+        },
+        {
+          "en": "Her systematic study of the language took several years.",
+          "vi": "Nghiên cứu có hệ thống của cô về ngôn ngữ kéo dài vài năm."
+        }
+      ]
+    },
+    {
+      "english": "tacit knowledge",
+      "vietnamese": "tri thức ngầm",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈtæsɪt ˈnɑːlɪdʒ/",
+      "examples": [
+        {
+          "en": "Much expert skill relies on tacit knowledge gained through practice.",
+          "vi": "Nhiều kỹ năng chuyên gia dựa vào tri thức ngầm có được qua thực hành."
+        },
+        {
+          "en": "Tacit knowledge is hard to write down or fully explain.",
+          "vi": "Tri thức ngầm rất khó viết ra hay giải thích đầy đủ."
+        },
+        {
+          "en": "Experienced workers share tacit knowledge through close mentoring.",
+          "vi": "Người lao động giàu kinh nghiệm truyền tri thức ngầm qua việc kèm cặp sát sao."
+        }
+      ]
+    },
+    {
+      "english": "take initiative",
+      "vietnamese": "chủ động hành động",
+      "part_of_speech": "v + n",
+      "ipa": "/ˈteɪk ɪˈnɪʃətɪv/",
+      "examples": [
+        {
+          "en": "Good leaders encourage their staff to take initiative.",
+          "vi": "Người lãnh đạo giỏi khuyến khích nhân viên chủ động hành động."
+        },
+        {
+          "en": "She decided to take initiative and propose a new plan.",
+          "vi": "Cô quyết định chủ động hành động và đề xuất một kế hoạch mới."
+        },
+        {
+          "en": "Students who take initiative often learn more independently.",
+          "vi": "Những sinh viên chủ động hành động thường học độc lập hơn."
+        }
+      ]
+    },
+    {
+      "english": "take precedence over",
+      "vietnamese": "được ưu tiên hơn",
+      "part_of_speech": "v + n",
+      "ipa": "/ˈteɪk ˈpresɪdəns ˈoʊvər/",
+      "examples": [
+        {
+          "en": "Safety must take precedence over speed on any construction site.",
+          "vi": "An toàn phải được ưu tiên hơn tốc độ tại mọi công trường xây dựng."
+        },
+        {
+          "en": "Urgent tasks usually take precedence over routine ones.",
+          "vi": "Các nhiệm vụ khẩn cấp thường được ưu tiên hơn việc thường ngày."
+        },
+        {
+          "en": "Patient care should take precedence over administrative paperwork.",
+          "vi": "Chăm sóc bệnh nhân nên được ưu tiên hơn giấy tờ hành chính."
+        }
+      ]
+    },
+    {
+      "english": "take responsibility",
+      "vietnamese": "chịu trách nhiệm",
+      "part_of_speech": "v + n",
+      "ipa": "/ˈteɪk rɪˌspɑːnsəˈbɪləti/",
+      "examples": [
+        {
+          "en": "Managers must take responsibility for their team's mistakes.",
+          "vi": "Người quản lý phải chịu trách nhiệm về sai lầm của nhóm mình."
+        },
+        {
+          "en": "He was willing to take responsibility for the failed project.",
+          "vi": "Anh ấy sẵn sàng chịu trách nhiệm về dự án thất bại."
+        },
+        {
+          "en": "Citizens should take responsibility for protecting the environment.",
+          "vi": "Người dân nên chịu trách nhiệm bảo vệ môi trường."
+        }
+      ]
+    },
+    {
+      "english": "take a role in",
+      "vietnamese": "đóng vai trò trong",
+      "part_of_speech": "v + n",
+      "ipa": "/ˈteɪk ə ˈroʊl ɪn/",
+      "examples": [
+        {
+          "en": "Parents should take a role in their children's education.",
+          "vi": "Cha mẹ nên đóng vai trò trong việc giáo dục con cái."
+        },
+        {
+          "en": "Volunteers take a role in organizing the annual festival.",
+          "vi": "Các tình nguyện viên đóng vai trò trong việc tổ chức lễ hội hằng năm."
+        },
+        {
+          "en": "She hopes to take a role in shaping company policy.",
+          "vi": "Cô hy vọng được đóng vai trò trong việc định hình chính sách công ty."
+        }
+      ]
+    },
+    {
+      "english": "take an approach",
+      "vietnamese": "áp dụng một cách tiếp cận",
+      "part_of_speech": "v + n",
+      "ipa": "/ˈteɪk ən əˈproʊtʃ/",
+      "examples": [
+        {
+          "en": "The researchers decided to take a different approach this time.",
+          "vi": "Các nhà nghiên cứu quyết định áp dụng một cách tiếp cận khác lần này."
+        },
+        {
+          "en": "We should take a more practical approach to the problem.",
+          "vi": "Chúng ta nên áp dụng một cách tiếp cận thực tế hơn với vấn đề."
+        },
+        {
+          "en": "Teachers can take an approach suited to each student's needs.",
+          "vi": "Giáo viên có thể áp dụng một cách tiếp cận phù hợp với nhu cầu từng học sinh."
+        }
+      ]
+    },
+    {
+      "english": "take into consideration",
+      "vietnamese": "cân nhắc đến",
+      "part_of_speech": "v + n",
+      "ipa": "/ˈteɪk ˌɪntə kənˌsɪdəˈreɪʃən/",
+      "examples": [
+        {
+          "en": "We must take into consideration the needs of every student.",
+          "vi": "Chúng ta phải cân nhắc đến nhu cầu của mọi học sinh."
+        },
+        {
+          "en": "The plan takes into consideration both cost and safety.",
+          "vi": "Kế hoạch cân nhắc đến cả chi phí lẫn an toàn."
+        },
+        {
+          "en": "Judges take into consideration the circumstances of each case.",
+          "vi": "Thẩm phán cân nhắc đến hoàn cảnh của từng vụ việc."
+        }
+      ]
+    },
+    {
+      "english": "take on the role of",
+      "vietnamese": "đảm nhận vai trò",
+      "part_of_speech": "v + n",
+      "ipa": "/ˈteɪk ˈɑːn ðə ˈroʊl əv/",
+      "examples": [
+        {
+          "en": "She agreed to take on the role of team leader.",
+          "vi": "Cô đồng ý đảm nhận vai trò trưởng nhóm."
+        },
+        {
+          "en": "He will take on the role of project coordinator next month.",
+          "vi": "Anh ấy sẽ đảm nhận vai trò điều phối dự án vào tháng tới."
+        },
+        {
+          "en": "New graduates often take on the role of junior analyst.",
+          "vi": "Sinh viên mới ra trường thường đảm nhận vai trò chuyên viên phân tích cấp dưới."
+        }
+      ]
+    },
+    {
+      "english": "take up the role of",
+      "vietnamese": "tiếp nhận vai trò",
+      "part_of_speech": "v + n",
+      "ipa": "/ˈteɪk ˈʌp ðə ˈroʊl əv/",
+      "examples": [
+        {
+          "en": "He will take up the role of department head in July.",
+          "vi": "Ông sẽ tiếp nhận vai trò trưởng khoa vào tháng Bảy."
+        },
+        {
+          "en": "She was asked to take up the role of mentor.",
+          "vi": "Cô được đề nghị tiếp nhận vai trò người hướng dẫn."
+        },
+        {
+          "en": "After retirement, he took up the role of adviser.",
+          "vi": "Sau khi nghỉ hưu, ông tiếp nhận vai trò cố vấn."
+        }
+      ]
+    },
+    {
+      "english": "target audience",
+      "vietnamese": "đối tượng mục tiêu",
+      "part_of_speech": "n + n",
+      "ipa": "/ˈtɑːrɡɪt ˈɔːdiəns/",
+      "examples": [
+        {
+          "en": "Writers should always consider their target audience first.",
+          "vi": "Người viết nên luôn cân nhắc đối tượng mục tiêu trước tiên."
+        },
+        {
+          "en": "The campaign was designed for a young target audience.",
+          "vi": "Chiến dịch được thiết kế cho đối tượng mục tiêu là người trẻ."
+        },
+        {
+          "en": "Knowing your target audience improves the impact of a message.",
+          "vi": "Hiểu đối tượng mục tiêu giúp tăng tác động của thông điệp."
+        }
+      ]
+    },
+    {
+      "english": "teaching strategy",
+      "vietnamese": "chiến lược giảng dạy",
+      "part_of_speech": "n + n",
+      "ipa": "/ˈtiːtʃɪŋ ˈstrætədʒi/",
+      "examples": [
+        {
+          "en": "The teacher adopted a new teaching strategy this semester.",
+          "vi": "Giáo viên áp dụng một chiến lược giảng dạy mới trong học kỳ này."
+        },
+        {
+          "en": "An effective teaching strategy keeps students actively engaged.",
+          "vi": "Một chiến lược giảng dạy hiệu quả giữ cho học sinh tích cực tham gia."
+        },
+        {
+          "en": "The workshop introduced several teaching strategies for large classes.",
+          "vi": "Buổi tập huấn giới thiệu một số chiến lược giảng dạy cho lớp đông."
+        }
+      ]
+    },
+    {
+      "english": "technical aspect",
+      "vietnamese": "khía cạnh kỹ thuật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈteknɪkəl ˈæspekt/",
+      "examples": [
+        {
+          "en": "The report explains the technical aspects of the new system.",
+          "vi": "Báo cáo giải thích các khía cạnh kỹ thuật của hệ thống mới."
+        },
+        {
+          "en": "She struggled with the technical aspects of the software.",
+          "vi": "Cô gặp khó khăn với các khía cạnh kỹ thuật của phần mềm."
+        },
+        {
+          "en": "We hired an expert to handle the technical aspects.",
+          "vi": "Chúng tôi thuê một chuyên gia để xử lý các khía cạnh kỹ thuật."
+        }
+      ]
+    },
+    {
+      "english": "technical assistance",
+      "vietnamese": "hỗ trợ kỹ thuật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈteknɪkəl əˈsɪstəns/",
+      "examples": [
+        {
+          "en": "The organization provides technical assistance to developing countries.",
+          "vi": "Tổ chức cung cấp hỗ trợ kỹ thuật cho các nước đang phát triển."
+        },
+        {
+          "en": "Customers can request technical assistance by phone or email.",
+          "vi": "Khách hàng có thể yêu cầu hỗ trợ kỹ thuật qua điện thoại hoặc email."
+        },
+        {
+          "en": "The project received technical assistance from international experts.",
+          "vi": "Dự án nhận được hỗ trợ kỹ thuật từ các chuyên gia quốc tế."
+        }
+      ]
+    },
+    {
+      "english": "technical detail",
+      "vietnamese": "chi tiết kỹ thuật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈteknɪkəl ˈdiːteɪl/",
+      "examples": [
+        {
+          "en": "The manual covers every technical detail of the machine.",
+          "vi": "Sách hướng dẫn bao gồm mọi chi tiết kỹ thuật của máy."
+        },
+        {
+          "en": "She explained the technical details clearly to the audience.",
+          "vi": "Cô giải thích các chi tiết kỹ thuật rõ ràng cho khán giả."
+        },
+        {
+          "en": "Don't get lost in technical details during the presentation.",
+          "vi": "Đừng sa vào các chi tiết kỹ thuật trong khi thuyết trình."
+        }
+      ]
+    },
+    {
+      "english": "technical expertise",
+      "vietnamese": "chuyên môn kỹ thuật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈteknɪkəl ˌekspɜːrˈtiːz/",
+      "examples": [
+        {
+          "en": "The job requires strong technical expertise in data analysis.",
+          "vi": "Công việc đòi hỏi chuyên môn kỹ thuật vững về phân tích dữ liệu."
+        },
+        {
+          "en": "Her technical expertise made her a valuable team member.",
+          "vi": "Chuyên môn kỹ thuật khiến cô trở thành thành viên quý giá của nhóm."
+        },
+        {
+          "en": "The company lacked the technical expertise to finish the project.",
+          "vi": "Công ty thiếu chuyên môn kỹ thuật để hoàn thành dự án."
+        }
+      ]
+    },
+    {
+      "english": "technical issue",
+      "vietnamese": "vấn đề kỹ thuật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈteknɪkəl ˈɪʃuː/",
+      "examples": [
+        {
+          "en": "A technical issue delayed the start of the online exam.",
+          "vi": "Một vấn đề kỹ thuật làm trễ giờ bắt đầu kỳ thi trực tuyến."
+        },
+        {
+          "en": "The team quickly resolved the technical issue with the server.",
+          "vi": "Nhóm nhanh chóng khắc phục vấn đề kỹ thuật với máy chủ."
+        },
+        {
+          "en": "We apologize for the technical issues during the broadcast.",
+          "vi": "Chúng tôi xin lỗi về các vấn đề kỹ thuật trong buổi phát sóng."
+        }
+      ]
+    },
+    {
+      "english": "technical knowledge",
+      "vietnamese": "kiến thức kỹ thuật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈteknɪkəl ˈnɑːlɪdʒ/",
+      "examples": [
+        {
+          "en": "The course builds technical knowledge in network security.",
+          "vi": "Khóa học xây dựng kiến thức kỹ thuật về an ninh mạng."
+        },
+        {
+          "en": "Practical projects deepen students' technical knowledge.",
+          "vi": "Các dự án thực hành làm sâu kiến thức kỹ thuật của sinh viên."
+        },
+        {
+          "en": "He gained valuable technical knowledge during the internship.",
+          "vi": "Anh ấy tích lũy kiến thức kỹ thuật quý báu trong kỳ thực tập."
+        }
+      ]
+    },
+    {
+      "english": "technical problem",
+      "vietnamese": "trục trặc kỹ thuật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈteknɪkəl ˈprɑːbləm/",
+      "examples": [
+        {
+          "en": "A technical problem caused the website to crash repeatedly.",
+          "vi": "Một trục trặc kỹ thuật khiến trang web liên tục bị sập."
+        },
+        {
+          "en": "Engineers worked overnight to fix the technical problem.",
+          "vi": "Các kỹ sư làm việc suốt đêm để khắc phục trục trặc kỹ thuật."
+        },
+        {
+          "en": "The flight was delayed because of a minor technical problem.",
+          "vi": "Chuyến bay bị hoãn vì một trục trặc kỹ thuật nhỏ."
+        }
+      ]
+    },
+    {
+      "english": "technical skill",
+      "vietnamese": "kỹ năng kỹ thuật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈteknɪkəl ˈskɪl/",
+      "examples": [
+        {
+          "en": "Employers value both technical skills and good communication.",
+          "vi": "Nhà tuyển dụng coi trọng cả kỹ năng kỹ thuật lẫn giao tiếp tốt."
+        },
+        {
+          "en": "The training program develops practical technical skills.",
+          "vi": "Chương trình đào tạo phát triển các kỹ năng kỹ thuật thực tế."
+        },
+        {
+          "en": "She improved her technical skills through online courses.",
+          "vi": "Cô nâng cao kỹ năng kỹ thuật của mình qua các khóa học trực tuyến."
+        }
+      ]
+    },
+    {
+      "english": "technical support",
+      "vietnamese": "hỗ trợ kỹ thuật",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈteknɪkəl səˈpɔːrt/",
+      "examples": [
+        {
+          "en": "Call technical support if the device stops responding.",
+          "vi": "Gọi bộ phận hỗ trợ kỹ thuật nếu thiết bị ngừng phản hồi."
+        },
+        {
+          "en": "The software includes free technical support for one year.",
+          "vi": "Phần mềm bao gồm hỗ trợ kỹ thuật miễn phí trong một năm."
+        },
+        {
+          "en": "Their technical support team responds within a few hours.",
+          "vi": "Đội hỗ trợ kỹ thuật của họ phản hồi trong vài giờ."
+        }
+      ]
+    },
+    {
+      "english": "technical term",
+      "vietnamese": "thuật ngữ chuyên môn",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈteknɪkəl ˈtɜːrm/",
+      "examples": [
+        {
+          "en": "The author defines each technical term before using it.",
+          "vi": "Tác giả định nghĩa từng thuật ngữ chuyên môn trước khi dùng nó."
+        },
+        {
+          "en": "Avoid too many technical terms when writing for general readers.",
+          "vi": "Tránh dùng quá nhiều thuật ngữ chuyên môn khi viết cho độc giả phổ thông."
+        },
+        {
+          "en": "The glossary explains all the technical terms in the report.",
+          "vi": "Bảng thuật ngữ giải thích mọi thuật ngữ chuyên môn trong báo cáo."
+        }
+      ]
+    },
+    {
+      "english": "technological advances",
+      "vietnamese": "những tiến bộ công nghệ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌteknəˈlɑːdʒɪkəl ədˈvænsɪz/",
+      "examples": [
+        {
+          "en": "Recent technological advances have transformed how we communicate.",
+          "vi": "Những tiến bộ công nghệ gần đây đã thay đổi cách chúng ta giao tiếp."
+        },
+        {
+          "en": "Technological advances in medicine save millions of lives.",
+          "vi": "Những tiến bộ công nghệ trong y học cứu sống hàng triệu người."
+        },
+        {
+          "en": "The industry depends on continuous technological advances.",
+          "vi": "Ngành này phụ thuộc vào những tiến bộ công nghệ liên tục."
+        }
+      ]
+    },
+    {
+      "english": "technological change",
+      "vietnamese": "sự thay đổi công nghệ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌteknəˈlɑːdʒɪkəl ˈtʃeɪndʒ/",
+      "examples": [
+        {
+          "en": "Rapid technological change reshaped the global job market.",
+          "vi": "Sự thay đổi công nghệ nhanh chóng định hình lại thị trường lao động toàn cầu."
+        },
+        {
+          "en": "Workers must adapt to constant technological change.",
+          "vi": "Người lao động phải thích ứng với sự thay đổi công nghệ liên tục."
+        },
+        {
+          "en": "The essay examines how technological change affects daily life.",
+          "vi": "Bài luận xem xét sự thay đổi công nghệ ảnh hưởng đến đời sống thường nhật ra sao."
+        }
+      ]
+    },
+    {
+      "english": "technological development",
+      "vietnamese": "sự phát triển công nghệ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌteknəˈlɑːdʒɪkəl dɪˈveləpmənt/",
+      "examples": [
+        {
+          "en": "Technological development drives much of modern economic growth.",
+          "vi": "Sự phát triển công nghệ thúc đẩy phần lớn tăng trưởng kinh tế hiện đại."
+        },
+        {
+          "en": "The country invested heavily in technological development.",
+          "vi": "Quốc gia này đầu tư mạnh vào sự phát triển công nghệ."
+        },
+        {
+          "en": "Technological development has improved access to education worldwide.",
+          "vi": "Sự phát triển công nghệ đã cải thiện việc tiếp cận giáo dục trên toàn cầu."
+        }
+      ]
+    },
+    {
+      "english": "technological innovation",
+      "vietnamese": "đổi mới công nghệ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌteknəˈlɑːdʒɪkəl ˌɪnəˈveɪʃən/",
+      "examples": [
+        {
+          "en": "Technological innovation gives companies a strong competitive edge.",
+          "vi": "Đổi mới công nghệ mang lại cho công ty lợi thế cạnh tranh lớn."
+        },
+        {
+          "en": "The region became a hub for technological innovation.",
+          "vi": "Khu vực này trở thành trung tâm đổi mới công nghệ."
+        },
+        {
+          "en": "Government funding supports technological innovation in universities.",
+          "vi": "Ngân sách chính phủ hỗ trợ đổi mới công nghệ tại các trường đại học."
+        }
+      ]
+    },
+    {
+      "english": "technological progress",
+      "vietnamese": "tiến bộ công nghệ",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌteknəˈlɑːdʒɪkəl ˈprɑːɡres/",
+      "examples": [
+        {
+          "en": "Technological progress has made information far easier to access.",
+          "vi": "Tiến bộ công nghệ đã làm cho việc tiếp cận thông tin dễ dàng hơn nhiều."
+        },
+        {
+          "en": "Some worry that technological progress may replace many jobs.",
+          "vi": "Một số người lo rằng tiến bộ công nghệ có thể thay thế nhiều việc làm."
+        },
+        {
+          "en": "Rapid technological progress requires constant learning and adaptation.",
+          "vi": "Tiến bộ công nghệ nhanh chóng đòi hỏi học hỏi và thích ứng liên tục."
+        }
+      ]
+    },
+    {
+      "english": "test score",
+      "vietnamese": "điểm kiểm tra",
+      "part_of_speech": "n + n",
+      "ipa": "/ˈtest ˈskɔːr/",
+      "examples": [
+        {
+          "en": "Her test scores improved steadily throughout the school year.",
+          "vi": "Điểm kiểm tra của cô cải thiện đều đặn suốt năm học."
+        },
+        {
+          "en": "The study compared test scores across different teaching methods.",
+          "vi": "Nghiên cứu so sánh điểm kiểm tra giữa các phương pháp giảng dạy khác nhau."
+        },
+        {
+          "en": "High test scores do not always reflect deep understanding.",
+          "vi": "Điểm kiểm tra cao không phải lúc nào cũng phản ánh sự hiểu sâu."
+        }
+      ]
+    },
+    {
+      "english": "test a theory",
+      "vietnamese": "kiểm chứng một lý thuyết",
+      "part_of_speech": "v + n",
+      "ipa": "/test ə ˈθiːəri/",
+      "examples": [
+        {
+          "en": "Scientists design experiments to test a theory under controlled conditions.",
+          "vi": "Các nhà khoa học thiết kế thí nghiệm để kiểm chứng một lý thuyết trong điều kiện kiểm soát."
+        },
+        {
+          "en": "We collected new data to test a theory about memory.",
+          "vi": "Chúng tôi thu thập dữ liệu mới để kiểm chứng một lý thuyết về trí nhớ."
+        },
+        {
+          "en": "Researchers must test a theory before accepting it as fact.",
+          "vi": "Các nhà nghiên cứu phải kiểm chứng một lý thuyết trước khi xem nó là sự thật."
+        }
+      ]
+    },
+    {
+      "english": "textual analysis",
+      "vietnamese": "phân tích văn bản",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈtekstʃuəl əˈnæləsɪs/",
+      "examples": [
+        {
+          "en": "Her textual analysis revealed hidden themes in the old manuscript.",
+          "vi": "Phân tích văn bản của cô đã hé lộ những chủ đề ẩn trong bản thảo cũ."
+        },
+        {
+          "en": "Careful textual analysis helps students understand the author's intent.",
+          "vi": "Phân tích văn bản kỹ lưỡng giúp sinh viên hiểu ý đồ của tác giả."
+        },
+        {
+          "en": "The course introduces methods of textual analysis for literary criticism.",
+          "vi": "Khóa học giới thiệu các phương pháp phân tích văn bản cho phê bình văn học."
+        }
+      ]
+    },
+    {
+      "english": "thematic analysis",
+      "vietnamese": "phân tích theo chủ đề",
+      "part_of_speech": "adj + n",
+      "ipa": "/θɪˈmætɪk əˈnæləsɪs/",
+      "examples": [
+        {
+          "en": "We used thematic analysis to identify patterns in the interviews.",
+          "vi": "Chúng tôi dùng phân tích theo chủ đề để tìm các mẫu trong các cuộc phỏng vấn."
+        },
+        {
+          "en": "Thematic analysis is common in qualitative social science research.",
+          "vi": "Phân tích theo chủ đề rất phổ biến trong nghiên cứu khoa học xã hội định tính."
+        },
+        {
+          "en": "The report presents a thematic analysis of student feedback.",
+          "vi": "Báo cáo trình bày một phân tích theo chủ đề về phản hồi của sinh viên."
+        }
+      ]
+    },
+    {
+      "english": "theoretical analysis",
+      "vietnamese": "phân tích lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl əˈnæləsɪs/",
+      "examples": [
+        {
+          "en": "The paper offers a detailed theoretical analysis of market behavior.",
+          "vi": "Bài báo đưa ra một phân tích lý thuyết chi tiết về hành vi thị trường."
+        },
+        {
+          "en": "Theoretical analysis often precedes any practical experiment in physics.",
+          "vi": "Phân tích lý thuyết thường đi trước bất kỳ thí nghiệm thực tế nào trong vật lý."
+        },
+        {
+          "en": "Her theoretical analysis explained why the model sometimes failed.",
+          "vi": "Phân tích lý thuyết của cô giải thích vì sao mô hình đôi khi thất bại."
+        }
+      ]
+    },
+    {
+      "english": "theoretical approach",
+      "vietnamese": "cách tiếp cận lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl əˈproʊtʃ/",
+      "examples": [
+        {
+          "en": "Each theoretical approach offers a different way of explaining behavior.",
+          "vi": "Mỗi cách tiếp cận lý thuyết đưa ra một cách giải thích hành vi khác nhau."
+        },
+        {
+          "en": "The author combines two theoretical approaches in her new study.",
+          "vi": "Tác giả kết hợp hai cách tiếp cận lý thuyết trong nghiên cứu mới của mình."
+        },
+        {
+          "en": "Students compared the theoretical approach with the empirical findings.",
+          "vi": "Sinh viên so sánh cách tiếp cận lý thuyết với các kết quả thực nghiệm."
+        }
+      ]
+    },
+    {
+      "english": "theoretical basis",
+      "vietnamese": "cơ sở lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl ˈbeɪsɪs/",
+      "examples": [
+        {
+          "en": "The study lacks a solid theoretical basis for its claims.",
+          "vi": "Nghiên cứu thiếu một cơ sở lý thuyết vững chắc cho các tuyên bố của nó."
+        },
+        {
+          "en": "His argument rests on a clear theoretical basis from psychology.",
+          "vi": "Lập luận của anh dựa trên một cơ sở lý thuyết rõ ràng từ tâm lý học."
+        },
+        {
+          "en": "We must establish the theoretical basis before designing the experiment.",
+          "vi": "Chúng ta phải thiết lập cơ sở lý thuyết trước khi thiết kế thí nghiệm."
+        }
+      ]
+    },
+    {
+      "english": "theoretical concept",
+      "vietnamese": "khái niệm lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl ˈkɑːnsept/",
+      "examples": [
+        {
+          "en": "The lecture explained an abstract theoretical concept with simple examples.",
+          "vi": "Bài giảng giải thích một khái niệm lý thuyết trừu tượng bằng ví dụ đơn giản."
+        },
+        {
+          "en": "Some theoretical concepts are hard to test in real situations.",
+          "vi": "Một số khái niệm lý thuyết rất khó kiểm chứng trong tình huống thực tế."
+        },
+        {
+          "en": "She linked the theoretical concept to everyday classroom practice.",
+          "vi": "Cô liên hệ khái niệm lý thuyết với thực hành lớp học hằng ngày."
+        }
+      ]
+    },
+    {
+      "english": "theoretical debate",
+      "vietnamese": "cuộc tranh luận lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl dɪˈbeɪt/",
+      "examples": [
+        {
+          "en": "The article reviews a long theoretical debate about human motivation.",
+          "vi": "Bài viết điểm lại một cuộc tranh luận lý thuyết lâu dài về động lực con người."
+        },
+        {
+          "en": "Her thesis enters an ongoing theoretical debate in economics.",
+          "vi": "Luận văn của cô tham gia một cuộc tranh luận lý thuyết đang diễn ra trong kinh tế học."
+        },
+        {
+          "en": "The theoretical debate has shaped research for several decades.",
+          "vi": "Cuộc tranh luận lý thuyết đã định hình nghiên cứu trong nhiều thập kỷ."
+        }
+      ]
+    },
+    {
+      "english": "theoretical framework",
+      "vietnamese": "khung lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl ˈfreɪmwɜːrk/",
+      "examples": [
+        {
+          "en": "Her dissertation builds on a well-known theoretical framework.",
+          "vi": "Luận án của cô dựa trên một khung lý thuyết nổi tiếng."
+        },
+        {
+          "en": "A clear theoretical framework guides the whole research design.",
+          "vi": "Một khung lý thuyết rõ ràng định hướng toàn bộ thiết kế nghiên cứu."
+        },
+        {
+          "en": "The authors adapted the theoretical framework for online learning.",
+          "vi": "Các tác giả điều chỉnh khung lý thuyết cho việc học trực tuyến."
+        }
+      ]
+    },
+    {
+      "english": "theoretical issue",
+      "vietnamese": "vấn đề lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl ˈɪʃuː/",
+      "examples": [
+        {
+          "en": "The seminar addressed several theoretical issues in modern linguistics.",
+          "vi": "Buổi hội thảo bàn về một số vấn đề lý thuyết trong ngôn ngữ học hiện đại."
+        },
+        {
+          "en": "This theoretical issue remains unresolved despite many studies.",
+          "vi": "Vấn đề lý thuyết này vẫn chưa được giải quyết dù đã có nhiều nghiên cứu."
+        },
+        {
+          "en": "She separated the practical problems from the theoretical issues.",
+          "vi": "Cô tách các vấn đề thực tiễn ra khỏi các vấn đề lý thuyết."
+        }
+      ]
+    },
+    {
+      "english": "theoretical model",
+      "vietnamese": "mô hình lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl ˈmɑːdəl/",
+      "examples": [
+        {
+          "en": "The theoretical model predicts how prices respond to demand.",
+          "vi": "Mô hình lý thuyết dự đoán giá phản ứng thế nào với nhu cầu."
+        },
+        {
+          "en": "Researchers tested the theoretical model against real-world data.",
+          "vi": "Các nhà nghiên cứu kiểm chứng mô hình lý thuyết với dữ liệu thực tế."
+        },
+        {
+          "en": "A simple theoretical model can still capture key relationships.",
+          "vi": "Một mô hình lý thuyết đơn giản vẫn có thể nắm bắt các mối quan hệ chính."
+        }
+      ]
+    },
+    {
+      "english": "theoretical perspective",
+      "vietnamese": "góc nhìn lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl pərˈspektɪv/",
+      "examples": [
+        {
+          "en": "From a feminist theoretical perspective, the data look quite different.",
+          "vi": "Từ một góc nhìn lý thuyết nữ quyền, dữ liệu trông khá khác biệt."
+        },
+        {
+          "en": "Each theoretical perspective highlights certain aspects of the problem.",
+          "vi": "Mỗi góc nhìn lý thuyết làm nổi bật những khía cạnh nhất định của vấn đề."
+        },
+        {
+          "en": "She adopted a sociological theoretical perspective in her analysis.",
+          "vi": "Cô áp dụng một góc nhìn lý thuyết xã hội học trong phân tích của mình."
+        }
+      ]
+    },
+    {
+      "english": "theoretical study",
+      "vietnamese": "nghiên cứu lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl ˈstʌdi/",
+      "examples": [
+        {
+          "en": "This theoretical study explores how networks grow over time.",
+          "vi": "Nghiên cứu lý thuyết này khám phá cách các mạng lưới phát triển theo thời gian."
+        },
+        {
+          "en": "A purely theoretical study may need later experimental support.",
+          "vi": "Một nghiên cứu thuần lý thuyết có thể cần sự hỗ trợ thực nghiệm sau này."
+        },
+        {
+          "en": "The journal published a theoretical study on language acquisition.",
+          "vi": "Tạp chí đăng một nghiên cứu lý thuyết về việc tiếp thu ngôn ngữ."
+        }
+      ]
+    },
+    {
+      "english": "theoretical understanding",
+      "vietnamese": "sự hiểu biết về mặt lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl ˌʌndərˈstændɪŋ/",
+      "examples": [
+        {
+          "en": "Good theoretical understanding helps engineers solve practical problems.",
+          "vi": "Sự hiểu biết lý thuyết tốt giúp kỹ sư giải quyết các vấn đề thực tế."
+        },
+        {
+          "en": "The course deepens students' theoretical understanding of climate systems.",
+          "vi": "Khóa học giúp sinh viên hiểu sâu hơn về mặt lý thuyết các hệ thống khí hậu."
+        },
+        {
+          "en": "Without theoretical understanding, the experiment was hard to interpret.",
+          "vi": "Thiếu hiểu biết lý thuyết, thí nghiệm rất khó diễn giải."
+        }
+      ]
+    },
+    {
+      "english": "theoretical work",
+      "vietnamese": "công trình lý thuyết",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌθiːəˈretɪkəl wɜːrk/",
+      "examples": [
+        {
+          "en": "His early theoretical work laid the foundation for later discoveries.",
+          "vi": "Công trình lý thuyết đầu tay của ông đặt nền móng cho các khám phá sau này."
+        },
+        {
+          "en": "The lab balances experimental research with serious theoretical work.",
+          "vi": "Phòng thí nghiệm cân bằng giữa nghiên cứu thực nghiệm và công trình lý thuyết nghiêm túc."
+        },
+        {
+          "en": "Much theoretical work in this area remains highly abstract.",
+          "vi": "Phần lớn công trình lý thuyết trong lĩnh vực này vẫn rất trừu tượng."
+        }
+      ]
+    },
+    {
+      "english": "think differently",
+      "vietnamese": "suy nghĩ khác đi",
+      "part_of_speech": "v + adv",
+      "ipa": "/θɪŋk ˈdɪfrəntli/",
+      "examples": [
+        {
+          "en": "Travel encourages people to think differently about their own culture.",
+          "vi": "Việc đi du lịch khuyến khích người ta suy nghĩ khác đi về văn hóa của mình."
+        },
+        {
+          "en": "Good teachers help students think differently about difficult problems.",
+          "vi": "Giáo viên giỏi giúp học sinh suy nghĩ khác đi về những vấn đề khó."
+        },
+        {
+          "en": "The two scientists think differently, yet they collaborate well.",
+          "vi": "Hai nhà khoa học suy nghĩ khác nhau, nhưng họ hợp tác rất tốt."
+        }
+      ]
+    },
+    {
+      "english": "thinking process",
+      "vietnamese": "quá trình tư duy",
+      "part_of_speech": "n + n",
+      "ipa": "/ˈθɪŋkɪŋ ˈprɑːses/",
+      "examples": [
+        {
+          "en": "The exercise makes students' thinking process visible to the teacher.",
+          "vi": "Bài tập làm cho quá trình tư duy của học sinh hiện rõ với giáo viên."
+        },
+        {
+          "en": "A clear thinking process leads to better decisions under pressure.",
+          "vi": "Một quá trình tư duy rõ ràng dẫn đến quyết định tốt hơn khi áp lực."
+        },
+        {
+          "en": "Researchers studied the thinking process behind expert chess moves.",
+          "vi": "Các nhà nghiên cứu nghiên cứu quá trình tư duy đằng sau các nước cờ của chuyên gia."
+        }
+      ]
+    },
+    {
+      "english": "third party",
+      "vietnamese": "bên thứ ba",
+      "part_of_speech": "adj + n",
+      "ipa": "/θɜːrd ˈpɑːrti/",
+      "examples": [
+        {
+          "en": "An independent third party reviewed the contract for both sides.",
+          "vi": "Một bên thứ ba độc lập đã xem xét hợp đồng cho cả hai phía."
+        },
+        {
+          "en": "The data were never shared with any third party.",
+          "vi": "Dữ liệu chưa bao giờ được chia sẻ với bất kỳ bên thứ ba nào."
+        },
+        {
+          "en": "A neutral third party helped resolve the long dispute.",
+          "vi": "Một bên thứ ba trung lập đã giúp giải quyết tranh chấp kéo dài."
+        }
+      ]
+    },
+    {
+      "english": "thought process",
+      "vietnamese": "tiến trình suy nghĩ",
+      "part_of_speech": "n + n",
+      "ipa": "/θɔːt ˈprɑːses/",
+      "examples": [
+        {
+          "en": "Explaining your thought process helps others follow the argument.",
+          "vi": "Giải thích tiến trình suy nghĩ của bạn giúp người khác theo dõi lập luận."
+        },
+        {
+          "en": "The interview revealed the candidate's thought process while solving problems.",
+          "vi": "Cuộc phỏng vấn cho thấy tiến trình suy nghĩ của ứng viên khi giải quyết vấn đề."
+        },
+        {
+          "en": "Writing a journal can slow down a racing thought process.",
+          "vi": "Viết nhật ký có thể làm chậm lại một tiến trình suy nghĩ dồn dập."
+        }
+      ]
+    },
+    {
+      "english": "tightly controlled",
+      "vietnamese": "được kiểm soát chặt chẽ",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/ˈtaɪtli kənˈtroʊld/",
+      "examples": [
+        {
+          "en": "The experiment was tightly controlled to reduce outside influences.",
+          "vi": "Thí nghiệm được kiểm soát chặt chẽ để giảm các ảnh hưởng bên ngoài."
+        },
+        {
+          "en": "Access to the laboratory remains tightly controlled for safety.",
+          "vi": "Việc ra vào phòng thí nghiệm vẫn được kiểm soát chặt chẽ vì an toàn."
+        },
+        {
+          "en": "In tightly controlled conditions, the results were highly consistent.",
+          "vi": "Trong điều kiện được kiểm soát chặt chẽ, kết quả rất nhất quán."
+        }
+      ]
+    },
+    {
+      "english": "top management",
+      "vietnamese": "ban lãnh đạo cấp cao",
+      "part_of_speech": "adj + n",
+      "ipa": "/tɑːp ˈmænɪdʒmənt/",
+      "examples": [
+        {
+          "en": "Top management approved the new strategy after a long meeting.",
+          "vi": "Ban lãnh đạo cấp cao đã phê duyệt chiến lược mới sau cuộc họp dài."
+        },
+        {
+          "en": "Support from top management is essential for any major change.",
+          "vi": "Sự ủng hộ từ ban lãnh đạo cấp cao là thiết yếu cho mọi thay đổi lớn."
+        },
+        {
+          "en": "The report goes directly to top management each quarter.",
+          "vi": "Báo cáo được gửi thẳng tới ban lãnh đạo cấp cao mỗi quý."
+        }
+      ]
+    },
+    {
+      "english": "total income",
+      "vietnamese": "tổng thu nhập",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈtoʊtəl ˈɪnkʌm/",
+      "examples": [
+        {
+          "en": "The family's total income rose after the second job started.",
+          "vi": "Tổng thu nhập của gia đình tăng lên sau khi công việc thứ hai bắt đầu."
+        },
+        {
+          "en": "Taxes are calculated based on a household's total income.",
+          "vi": "Thuế được tính dựa trên tổng thu nhập của một hộ gia đình."
+        },
+        {
+          "en": "The report compares total income across different regions.",
+          "vi": "Báo cáo so sánh tổng thu nhập giữa các vùng khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "totally different",
+      "vietnamese": "hoàn toàn khác biệt",
+      "part_of_speech": "adv + adj",
+      "ipa": "/ˈtoʊtəli ˈdɪfrənt/",
+      "examples": [
+        {
+          "en": "The two studies reached totally different conclusions about the issue.",
+          "vi": "Hai nghiên cứu đi đến những kết luận hoàn toàn khác biệt về vấn đề này."
+        },
+        {
+          "en": "Life in a small village is totally different from the city.",
+          "vi": "Cuộc sống ở làng nhỏ hoàn toàn khác biệt so với thành phố."
+        },
+        {
+          "en": "After the reform, the system worked in a totally different way.",
+          "vi": "Sau cải cách, hệ thống vận hành theo một cách hoàn toàn khác biệt."
+        }
+      ]
+    },
+    {
+      "english": "traditional approach",
+      "vietnamese": "cách tiếp cận truyền thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/trəˈdɪʃənəl əˈproʊtʃ/",
+      "examples": [
+        {
+          "en": "The traditional approach to teaching still works for many learners.",
+          "vi": "Cách tiếp cận truyền thống trong giảng dạy vẫn hiệu quả với nhiều người học."
+        },
+        {
+          "en": "Some doctors prefer a traditional approach over newer methods.",
+          "vi": "Một số bác sĩ thích cách tiếp cận truyền thống hơn các phương pháp mới."
+        },
+        {
+          "en": "The study challenges the traditional approach to economic planning.",
+          "vi": "Nghiên cứu thách thức cách tiếp cận truyền thống trong hoạch định kinh tế."
+        }
+      ]
+    },
+    {
+      "english": "traditional culture",
+      "vietnamese": "văn hóa truyền thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/trəˈdɪʃənəl ˈkʌltʃər/",
+      "examples": [
+        {
+          "en": "Festivals help younger generations connect with traditional culture.",
+          "vi": "Các lễ hội giúp thế hệ trẻ kết nối với văn hóa truyền thống."
+        },
+        {
+          "en": "Globalization sometimes threatens local traditional culture.",
+          "vi": "Toàn cầu hóa đôi khi đe dọa văn hóa truyền thống địa phương."
+        },
+        {
+          "en": "The museum preserves objects from the region's traditional culture.",
+          "vi": "Bảo tàng lưu giữ các hiện vật từ văn hóa truyền thống của vùng này."
+        }
+      ]
+    },
+    {
+      "english": "traditional form",
+      "vietnamese": "hình thức truyền thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/trəˈdɪʃənəl fɔːrm/",
+      "examples": [
+        {
+          "en": "This dance is a traditional form passed down for generations.",
+          "vi": "Điệu múa này là một hình thức truyền thống được truyền qua nhiều thế hệ."
+        },
+        {
+          "en": "Email replaced more traditional forms of business communication.",
+          "vi": "Email đã thay thế những hình thức giao tiếp kinh doanh truyền thống hơn."
+        },
+        {
+          "en": "The artist blends modern styles with a traditional form.",
+          "vi": "Người nghệ sĩ pha trộn phong cách hiện đại với một hình thức truyền thống."
+        }
+      ]
+    },
+    {
+      "english": "traditional method",
+      "vietnamese": "phương pháp truyền thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/trəˈdɪʃənəl ˈmeθəd/",
+      "examples": [
+        {
+          "en": "Farmers here still rely on a traditional method of irrigation.",
+          "vi": "Nông dân ở đây vẫn dựa vào một phương pháp tưới tiêu truyền thống."
+        },
+        {
+          "en": "The traditional method takes longer but produces better results.",
+          "vi": "Phương pháp truyền thống mất nhiều thời gian hơn nhưng cho kết quả tốt hơn."
+        },
+        {
+          "en": "Researchers compared a new tool with the traditional method.",
+          "vi": "Các nhà nghiên cứu so sánh một công cụ mới với phương pháp truyền thống."
+        }
+      ]
+    },
+    {
+      "english": "traditional practice",
+      "vietnamese": "tập quán truyền thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/trəˈdɪʃənəl ˈpræktɪs/",
+      "examples": [
+        {
+          "en": "Many traditional practices survive only in remote rural villages.",
+          "vi": "Nhiều tập quán truyền thống chỉ còn tồn tại ở các làng quê xa xôi."
+        },
+        {
+          "en": "The community defended its traditional practice against new regulations.",
+          "vi": "Cộng đồng bảo vệ tập quán truyền thống của mình trước các quy định mới."
+        },
+        {
+          "en": "Scholars recorded the traditional practice before it disappeared.",
+          "vi": "Các học giả đã ghi chép tập quán truyền thống trước khi nó biến mất."
+        }
+      ]
+    },
+    {
+      "english": "traditional research",
+      "vietnamese": "nghiên cứu truyền thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/trəˈdɪʃənəl ˈriːsɜːrtʃ/",
+      "examples": [
+        {
+          "en": "Traditional research relies heavily on surveys and printed sources.",
+          "vi": "Nghiên cứu truyền thống dựa nhiều vào khảo sát và nguồn tài liệu in."
+        },
+        {
+          "en": "Digital tools have transformed methods used in traditional research.",
+          "vi": "Các công cụ kỹ thuật số đã thay đổi phương pháp dùng trong nghiên cứu truyền thống."
+        },
+        {
+          "en": "The team combined traditional research with large-scale data analysis.",
+          "vi": "Nhóm kết hợp nghiên cứu truyền thống với phân tích dữ liệu quy mô lớn."
+        }
+      ]
+    },
+    {
+      "english": "traditional society",
+      "vietnamese": "xã hội truyền thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/trəˈdɪʃənəl səˈsaɪəti/",
+      "examples": [
+        {
+          "en": "In traditional society, elders often made the most important decisions.",
+          "vi": "Trong xã hội truyền thống, người cao tuổi thường đưa ra những quyết định quan trọng nhất."
+        },
+        {
+          "en": "The book contrasts modern life with traditional society.",
+          "vi": "Cuốn sách đối chiếu cuộc sống hiện đại với xã hội truyền thống."
+        },
+        {
+          "en": "Roles in a traditional society were usually fixed by gender.",
+          "vi": "Vai trò trong một xã hội truyền thống thường được cố định theo giới tính."
+        }
+      ]
+    },
+    {
+      "english": "traditional value",
+      "vietnamese": "giá trị truyền thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/trəˈdɪʃənəl ˈvæljuː/",
+      "examples": [
+        {
+          "en": "Parents try to pass traditional values on to their children.",
+          "vi": "Cha mẹ cố gắng truyền lại các giá trị truyền thống cho con cái."
+        },
+        {
+          "en": "Some traditional values conflict with modern ideas of freedom.",
+          "vi": "Một số giá trị truyền thống xung đột với các ý niệm hiện đại về tự do."
+        },
+        {
+          "en": "The community works hard to protect its traditional values.",
+          "vi": "Cộng đồng nỗ lực bảo vệ các giá trị truyền thống của mình."
+        }
+      ]
+    },
+    {
+      "english": "traditional view",
+      "vietnamese": "quan điểm truyền thống",
+      "part_of_speech": "adj + n",
+      "ipa": "/trəˈdɪʃənəl vjuː/",
+      "examples": [
+        {
+          "en": "The traditional view holds that hard work guarantees success.",
+          "vi": "Quan điểm truyền thống cho rằng làm việc chăm chỉ bảo đảm thành công."
+        },
+        {
+          "en": "Recent studies challenge the traditional view of memory.",
+          "vi": "Các nghiên cứu gần đây thách thức quan điểm truyền thống về trí nhớ."
+        },
+        {
+          "en": "She rejected the traditional view in favor of newer theories.",
+          "vi": "Cô bác bỏ quan điểm truyền thống để ủng hộ những lý thuyết mới hơn."
+        }
+      ]
+    },
+    {
+      "english": "transferable skill",
+      "vietnamese": "kỹ năng có thể chuyển đổi",
+      "part_of_speech": "adj + n",
+      "ipa": "/trænsˈfɜːrəbəl skɪl/",
+      "examples": [
+        {
+          "en": "Communication is a transferable skill valued in almost every job.",
+          "vi": "Giao tiếp là một kỹ năng có thể chuyển đổi được coi trọng ở hầu hết mọi công việc."
+        },
+        {
+          "en": "University courses aim to develop students' transferable skills.",
+          "vi": "Các khóa học đại học nhằm phát triển kỹ năng chuyển đổi của sinh viên."
+        },
+        {
+          "en": "Teamwork is a transferable skill useful across many careers.",
+          "vi": "Làm việc nhóm là một kỹ năng có thể chuyển đổi hữu ích trong nhiều nghề."
+        }
+      ]
+    },
+    {
+      "english": "transmit data",
+      "vietnamese": "truyền dữ liệu",
+      "part_of_speech": "v + n",
+      "ipa": "/trænsˈmɪt ˈdeɪtə/",
+      "examples": [
+        {
+          "en": "The new network can transmit data far more quickly than before.",
+          "vi": "Mạng mới có thể truyền dữ liệu nhanh hơn nhiều so với trước đây."
+        },
+        {
+          "en": "Sensors transmit data to the central server every minute.",
+          "vi": "Các cảm biến truyền dữ liệu về máy chủ trung tâm mỗi phút."
+        },
+        {
+          "en": "Engineers encrypt the signal before they transmit data.",
+          "vi": "Các kỹ sư mã hóa tín hiệu trước khi truyền dữ liệu."
+        }
+      ]
+    },
+    {
+      "english": "transmit information",
+      "vietnamese": "truyền thông tin",
+      "part_of_speech": "v + n",
+      "ipa": "/trænsˈmɪt ˌɪnfərˈmeɪʃən/",
+      "examples": [
+        {
+          "en": "Nerve cells transmit information across the body very rapidly.",
+          "vi": "Các tế bào thần kinh truyền thông tin khắp cơ thể rất nhanh."
+        },
+        {
+          "en": "Satellites transmit information to receivers around the world.",
+          "vi": "Các vệ tinh truyền thông tin tới các máy thu khắp thế giới."
+        },
+        {
+          "en": "Clear diagrams transmit information faster than long paragraphs.",
+          "vi": "Sơ đồ rõ ràng truyền thông tin nhanh hơn những đoạn văn dài."
+        }
+      ]
+    },
+    {
+      "english": "transport system",
+      "vietnamese": "hệ thống giao thông",
+      "part_of_speech": "n + n",
+      "ipa": "/ˈtrænspɔːrt ˈsɪstəm/",
+      "examples": [
+        {
+          "en": "The city invested heavily in its public transport system.",
+          "vi": "Thành phố đầu tư mạnh vào hệ thống giao thông công cộng của mình."
+        },
+        {
+          "en": "An efficient transport system reduces traffic and pollution.",
+          "vi": "Một hệ thống giao thông hiệu quả giảm kẹt xe và ô nhiễm."
+        },
+        {
+          "en": "The report compares the transport systems of major cities.",
+          "vi": "Báo cáo so sánh hệ thống giao thông của các thành phố lớn."
+        }
+      ]
+    },
+    {
+      "english": "treat differently",
+      "vietnamese": "đối xử khác biệt",
+      "part_of_speech": "v + adv",
+      "ipa": "/triːt ˈdɪfrəntli/",
+      "examples": [
+        {
+          "en": "Teachers should not treat differently the children of wealthy parents.",
+          "vi": "Giáo viên không nên đối xử khác biệt với con của những phụ huynh giàu có."
+        },
+        {
+          "en": "The study found that doctors treat differently male and female patients.",
+          "vi": "Nghiên cứu phát hiện bác sĩ đối xử khác biệt với bệnh nhân nam và nữ."
+        },
+        {
+          "en": "Companies that treat differently their staff often lose trust.",
+          "vi": "Những công ty đối xử khác biệt với nhân viên thường đánh mất niềm tin."
+        }
+      ]
+    },
+    {
+      "english": "treat equally",
+      "vietnamese": "đối xử bình đẳng",
+      "part_of_speech": "v + adv",
+      "ipa": "/triːt ˈiːkwəli/",
+      "examples": [
+        {
+          "en": "The law requires employers to treat equally all their workers.",
+          "vi": "Luật yêu cầu chủ lao động đối xử bình đẳng với mọi nhân viên."
+        },
+        {
+          "en": "Good schools treat equally students from every background.",
+          "vi": "Những trường học tốt đối xử bình đẳng với học sinh từ mọi hoàn cảnh."
+        },
+        {
+          "en": "The policy aims to treat equally men and women.",
+          "vi": "Chính sách này nhằm đối xử bình đẳng giữa nam và nữ."
+        }
+      ]
+    },
+    {
+      "english": "typical example",
+      "vietnamese": "ví dụ điển hình",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈtɪpɪkəl ɪɡˈzæmpəl/",
+      "examples": [
+        {
+          "en": "This case is a typical example of poor project planning.",
+          "vi": "Trường hợp này là một ví dụ điển hình của việc lập kế hoạch dự án kém."
+        },
+        {
+          "en": "The teacher gave a typical example to clarify the rule.",
+          "vi": "Giáo viên đưa ra một ví dụ điển hình để làm rõ quy tắc."
+        },
+        {
+          "en": "Her essay offers a typical example of strong academic writing.",
+          "vi": "Bài luận của cô là một ví dụ điển hình về văn viết học thuật tốt."
+        }
+      ]
+    },
+    {
+      "english": "ultimate goal",
+      "vietnamese": "mục tiêu cuối cùng",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈʌltɪmət ɡoʊl/",
+      "examples": [
+        {
+          "en": "The ultimate goal of the program is to reduce poverty.",
+          "vi": "Mục tiêu cuối cùng của chương trình là giảm nghèo."
+        },
+        {
+          "en": "Her ultimate goal was to publish in a leading journal.",
+          "vi": "Mục tiêu cuối cùng của cô là đăng bài trên một tạp chí hàng đầu."
+        },
+        {
+          "en": "Every small task should serve the team's ultimate goal.",
+          "vi": "Mỗi nhiệm vụ nhỏ đều nên phục vụ mục tiêu cuối cùng của nhóm."
+        }
+      ]
+    },
+    {
+      "english": "undergo transformation",
+      "vietnamese": "trải qua sự biến đổi",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌʌndərˈɡoʊ ˌtrænsfərˈmeɪʃən/",
+      "examples": [
+        {
+          "en": "The old town will undergo transformation over the next decade.",
+          "vi": "Khu phố cũ sẽ trải qua sự biến đổi trong thập kỷ tới."
+        },
+        {
+          "en": "Caterpillars undergo transformation before becoming butterflies.",
+          "vi": "Sâu bướm trải qua sự biến đổi trước khi thành bướm."
+        },
+        {
+          "en": "The industry must undergo transformation to survive the crisis.",
+          "vi": "Ngành công nghiệp phải trải qua sự biến đổi để sống sót qua khủng hoảng."
+        }
+      ]
+    },
+    {
+      "english": "underlying assumption",
+      "vietnamese": "giả định ngầm",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌʌndərˈlaɪɪŋ əˈsʌmpʃən/",
+      "examples": [
+        {
+          "en": "The model rests on an underlying assumption about rational behavior.",
+          "vi": "Mô hình dựa trên một giả định ngầm về hành vi lý trí."
+        },
+        {
+          "en": "She questioned the underlying assumption behind the whole argument.",
+          "vi": "Cô đặt câu hỏi về giả định ngầm đằng sau toàn bộ lập luận."
+        },
+        {
+          "en": "Every method carries underlying assumptions that researchers must state.",
+          "vi": "Mỗi phương pháp đều mang những giả định ngầm mà nhà nghiên cứu phải nêu rõ."
+        }
+      ]
+    },
+    {
+      "english": "underlying cause",
+      "vietnamese": "nguyên nhân sâu xa",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌʌndərˈlaɪɪŋ kɔːz/",
+      "examples": [
+        {
+          "en": "Doctors searched for the underlying cause of her fatigue.",
+          "vi": "Các bác sĩ tìm kiếm nguyên nhân sâu xa của sự mệt mỏi ở cô."
+        },
+        {
+          "en": "Poverty is often an underlying cause of social conflict.",
+          "vi": "Nghèo đói thường là nguyên nhân sâu xa của xung đột xã hội."
+        },
+        {
+          "en": "Treating symptoms ignores the underlying cause of the problem.",
+          "vi": "Chữa triệu chứng là bỏ qua nguyên nhân sâu xa của vấn đề."
+        }
+      ]
+    },
+    {
+      "english": "underlying principle",
+      "vietnamese": "nguyên tắc nền tảng",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌʌndərˈlaɪɪŋ ˈprɪnsəpəl/",
+      "examples": [
+        {
+          "en": "The same underlying principle governs both circuits and pipelines.",
+          "vi": "Cùng một nguyên tắc nền tảng chi phối cả mạch điện lẫn đường ống."
+        },
+        {
+          "en": "Fairness is the underlying principle of the whole policy.",
+          "vi": "Công bằng là nguyên tắc nền tảng của toàn bộ chính sách."
+        },
+        {
+          "en": "Once you grasp the underlying principle, the rules make sense.",
+          "vi": "Khi đã nắm được nguyên tắc nền tảng, các quy tắc trở nên hợp lý."
+        }
+      ]
+    },
+    {
+      "english": "underlying process",
+      "vietnamese": "tiến trình nền tảng",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌʌndərˈlaɪɪŋ ˈprɑːses/",
+      "examples": [
+        {
+          "en": "Researchers study the underlying process that drives memory loss.",
+          "vi": "Các nhà nghiên cứu nghiên cứu tiến trình nền tảng gây mất trí nhớ."
+        },
+        {
+          "en": "Understanding the underlying process helps engineers fix the fault.",
+          "vi": "Hiểu tiến trình nền tảng giúp kỹ sư khắc phục sự cố."
+        },
+        {
+          "en": "The same underlying process shapes growth in many species.",
+          "vi": "Cùng một tiến trình nền tảng định hình sự tăng trưởng ở nhiều loài."
+        }
+      ]
+    },
+    {
+      "english": "underlying reason",
+      "vietnamese": "lý do sâu xa",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌʌndərˈlaɪɪŋ ˈriːzən/",
+      "examples": [
+        {
+          "en": "The survey explored the underlying reason for student dropout.",
+          "vi": "Cuộc khảo sát tìm hiểu lý do sâu xa khiến sinh viên bỏ học."
+        },
+        {
+          "en": "Low pay is the underlying reason behind the high turnover.",
+          "vi": "Lương thấp là lý do sâu xa đằng sau tỷ lệ nghỉ việc cao."
+        },
+        {
+          "en": "She wanted to know the underlying reason for his decision.",
+          "vi": "Cô muốn biết lý do sâu xa cho quyết định của anh."
+        }
+      ]
+    },
+    {
+      "english": "underlying structure",
+      "vietnamese": "cấu trúc nền tảng",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌʌndərˈlaɪɪŋ ˈstrʌktʃər/",
+      "examples": [
+        {
+          "en": "Linguists try to reveal the underlying structure of every language.",
+          "vi": "Các nhà ngôn ngữ học cố gắng hé lộ cấu trúc nền tảng của mọi ngôn ngữ."
+        },
+        {
+          "en": "The melody hides a complex underlying structure of harmonies.",
+          "vi": "Giai điệu che giấu một cấu trúc nền tảng phức tạp của các hòa âm."
+        },
+        {
+          "en": "Mapping the underlying structure clarified how the data connect.",
+          "vi": "Vẽ ra cấu trúc nền tảng đã làm rõ cách dữ liệu liên kết với nhau."
+        }
+      ]
+    },
+    {
+      "english": "undertake research",
+      "vietnamese": "tiến hành nghiên cứu",
+      "part_of_speech": "v + n",
+      "ipa": "/ˌʌndərˈteɪk ˈriːsɜːrtʃ/",
+      "examples": [
+        {
+          "en": "The university encourages students to undertake research early.",
+          "vi": "Trường đại học khuyến khích sinh viên tiến hành nghiên cứu từ sớm."
+        },
+        {
+          "en": "Her team undertook research into renewable energy storage.",
+          "vi": "Nhóm của cô đã tiến hành nghiên cứu về lưu trữ năng lượng tái tạo."
+        },
+        {
+          "en": "Funding allows the lab to undertake research on rare diseases.",
+          "vi": "Nguồn tài trợ cho phép phòng thí nghiệm tiến hành nghiên cứu về bệnh hiếm."
+        }
+      ]
+    },
+    {
+      "english": "undertake work",
+      "vietnamese": "đảm nhận công việc",
+      "part_of_speech": "v + n",
+      "ipa": "/ˌʌndərˈteɪk wɜːrk/",
+      "examples": [
+        {
+          "en": "The contractor agreed to undertake work on the old bridge.",
+          "vi": "Nhà thầu đồng ý đảm nhận công việc trên cây cầu cũ."
+        },
+        {
+          "en": "Volunteers undertake work that local councils cannot afford.",
+          "vi": "Các tình nguyện viên đảm nhận công việc mà hội đồng địa phương không đủ khả năng chi trả."
+        },
+        {
+          "en": "Few firms will undertake work in such dangerous conditions.",
+          "vi": "Ít công ty chịu đảm nhận công việc trong điều kiện nguy hiểm như vậy."
+        }
+      ]
+    },
+    {
+      "english": "undertake an activity",
+      "vietnamese": "thực hiện một hoạt động",
+      "part_of_speech": "v + n",
+      "ipa": "/ˌʌndərˈteɪk ən ækˈtɪvəti/",
+      "examples": [
+        {
+          "en": "Students must undertake an activity that links theory and practice.",
+          "vi": "Sinh viên phải thực hiện một hoạt động gắn kết lý thuyết với thực hành."
+        },
+        {
+          "en": "The class will undertake an activity to test their hypothesis.",
+          "vi": "Lớp học sẽ thực hiện một hoạt động để kiểm chứng giả thuyết của mình."
+        },
+        {
+          "en": "Before you undertake an activity, read the safety guidelines.",
+          "vi": "Trước khi thực hiện một hoạt động, hãy đọc hướng dẫn an toàn."
+        }
+      ]
+    },
+    {
+      "english": "unequal power",
+      "vietnamese": "quyền lực bất bình đẳng",
+      "part_of_speech": "adj + n",
+      "ipa": "/ʌnˈiːkwəl ˈpaʊər/",
+      "examples": [
+        {
+          "en": "Unequal power between the two nations shaped the treaty.",
+          "vi": "Quyền lực bất bình đẳng giữa hai quốc gia đã định hình hiệp ước."
+        },
+        {
+          "en": "The essay examines unequal power in the workplace.",
+          "vi": "Bài luận xem xét quyền lực bất bình đẳng tại nơi làm việc."
+        },
+        {
+          "en": "Unequal power often makes fair negotiation very difficult.",
+          "vi": "Quyền lực bất bình đẳng thường khiến việc thương lượng công bằng rất khó."
+        }
+      ]
+    },
+    {
+      "english": "unfair treatment",
+      "vietnamese": "sự đối xử bất công",
+      "part_of_speech": "adj + n",
+      "ipa": "/ʌnˈfer ˈtriːtmənt/",
+      "examples": [
+        {
+          "en": "Several workers complained about unfair treatment by their manager.",
+          "vi": "Một số nhân viên phàn nàn về sự đối xử bất công của quản lý họ."
+        },
+        {
+          "en": "The law protects citizens from unfair treatment by officials.",
+          "vi": "Luật bảo vệ công dân khỏi sự đối xử bất công từ giới chức."
+        },
+        {
+          "en": "She filed a complaint after years of unfair treatment.",
+          "vi": "Cô nộp đơn khiếu nại sau nhiều năm bị đối xử bất công."
+        }
+      ]
+    },
+    {
+      "english": "unintended consequences",
+      "vietnamese": "hậu quả ngoài ý muốn",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˌʌnɪnˈtendɪd ˈkɑːnsɪkwensɪz/",
+      "examples": [
+        {
+          "en": "The new tax had several unintended consequences for small businesses.",
+          "vi": "Loại thuế mới gây ra vài hậu quả ngoài ý muốn cho doanh nghiệp nhỏ."
+        },
+        {
+          "en": "Good policies sometimes produce serious unintended consequences.",
+          "vi": "Những chính sách tốt đôi khi tạo ra hậu quả ngoài ý muốn nghiêm trọng."
+        },
+        {
+          "en": "Engineers test designs to avoid unintended consequences later.",
+          "vi": "Các kỹ sư thử nghiệm thiết kế để tránh hậu quả ngoài ý muốn về sau."
+        }
+      ]
+    },
+    {
+      "english": "unique individual",
+      "vietnamese": "cá nhân độc nhất",
+      "part_of_speech": "adj + n",
+      "ipa": "/juˈniːk ˌɪndɪˈvɪdʒuəl/",
+      "examples": [
+        {
+          "en": "Each student is a unique individual with different strengths.",
+          "vi": "Mỗi học sinh là một cá nhân độc nhất với những thế mạnh khác nhau."
+        },
+        {
+          "en": "Good teaching respects every unique individual in the room.",
+          "vi": "Việc dạy học tốt tôn trọng từng cá nhân độc nhất trong phòng."
+        },
+        {
+          "en": "The theory treats people as unique individuals, not mere statistics.",
+          "vi": "Lý thuyết xem con người là những cá nhân độc nhất, không phải chỉ là con số thống kê."
+        }
+      ]
+    },
+    {
+      "english": "unique opportunity",
+      "vietnamese": "cơ hội độc nhất",
+      "part_of_speech": "adj + n",
+      "ipa": "/juˈniːk ˌɑːpərˈtuːnəti/",
+      "examples": [
+        {
+          "en": "The scholarship gave her a unique opportunity to study abroad.",
+          "vi": "Học bổng đã cho cô một cơ hội độc nhất để du học."
+        },
+        {
+          "en": "This project offers a unique opportunity to test the model.",
+          "vi": "Dự án này mang lại một cơ hội độc nhất để kiểm chứng mô hình."
+        },
+        {
+          "en": "Few people get such a unique opportunity in their career.",
+          "vi": "Ít người có được một cơ hội độc nhất như vậy trong sự nghiệp."
+        }
+      ]
+    },
+    {
+      "english": "unique position",
+      "vietnamese": "vị thế độc nhất",
+      "part_of_speech": "adj + n",
+      "ipa": "/juˈniːk pəˈzɪʃən/",
+      "examples": [
+        {
+          "en": "The company holds a unique position in the local market.",
+          "vi": "Công ty giữ một vị thế độc nhất trên thị trường địa phương."
+        },
+        {
+          "en": "Her experience puts her in a unique position to advise.",
+          "vi": "Kinh nghiệm đặt cô vào một vị thế độc nhất để tư vấn."
+        },
+        {
+          "en": "The country's unique position gave it strong trade advantages.",
+          "vi": "Vị thế độc nhất của đất nước mang lại lợi thế thương mại lớn."
+        }
+      ]
+    },
+    {
+      "english": "universally accepted",
+      "vietnamese": "được chấp nhận rộng rãi",
+      "part_of_speech": "adv + vpp",
+      "ipa": "/ˌjuːnɪˈvɜːrsəli əkˈseptɪd/",
+      "examples": [
+        {
+          "en": "No single definition of culture is universally accepted.",
+          "vi": "Không có một định nghĩa duy nhất nào về văn hóa được chấp nhận rộng rãi."
+        },
+        {
+          "en": "These safety standards are now universally accepted in the industry.",
+          "vi": "Những tiêu chuẩn an toàn này nay được chấp nhận rộng rãi trong ngành."
+        },
+        {
+          "en": "The theory became universally accepted after decades of debate.",
+          "vi": "Lý thuyết trở nên được chấp nhận rộng rãi sau hàng thập kỷ tranh luận."
+        }
+      ]
+    },
+    {
+      "english": "unlimited access",
+      "vietnamese": "quyền truy cập không giới hạn",
+      "part_of_speech": "adj + n",
+      "ipa": "/ʌnˈlɪmɪtɪd ˈækses/",
+      "examples": [
+        {
+          "en": "Members enjoy unlimited access to the online research library.",
+          "vi": "Thành viên được hưởng quyền truy cập không giới hạn vào thư viện nghiên cứu trực tuyến."
+        },
+        {
+          "en": "The subscription gives unlimited access to every back issue.",
+          "vi": "Gói đăng ký cho quyền truy cập không giới hạn vào mọi số báo cũ."
+        },
+        {
+          "en": "Students should not have unlimited access to exam answers.",
+          "vi": "Sinh viên không nên có quyền truy cập không giới hạn vào đáp án bài thi."
+        }
+      ]
+    },
+    {
+      "english": "unskilled worker",
+      "vietnamese": "lao động phổ thông",
+      "part_of_speech": "adj + n",
+      "ipa": "/ʌnˈskɪld ˈwɜːrkər/",
+      "examples": [
+        {
+          "en": "Many unskilled workers lost their jobs when the factory closed.",
+          "vi": "Nhiều lao động phổ thông mất việc khi nhà máy đóng cửa."
+        },
+        {
+          "en": "Automation often replaces unskilled workers first.",
+          "vi": "Tự động hóa thường thay thế lao động phổ thông trước tiên."
+        },
+        {
+          "en": "Training programs help unskilled workers find better positions.",
+          "vi": "Các chương trình đào tạo giúp lao động phổ thông tìm được vị trí tốt hơn."
+        }
+      ]
+    },
+    {
+      "english": "urban area",
+      "vietnamese": "khu vực đô thị",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈɜːrbən ˈeriə/",
+      "examples": [
+        {
+          "en": "More people are moving from villages into urban areas.",
+          "vi": "Ngày càng nhiều người chuyển từ làng quê ra khu vực đô thị."
+        },
+        {
+          "en": "Air pollution is usually worse in dense urban areas.",
+          "vi": "Ô nhiễm không khí thường tệ hơn ở các khu vực đô thị đông đúc."
+        },
+        {
+          "en": "The study compared crime rates in urban and rural areas.",
+          "vi": "Nghiên cứu so sánh tỷ lệ tội phạm ở khu vực đô thị và nông thôn."
+        }
+      ]
+    },
+    {
+      "english": "urban center",
+      "vietnamese": "trung tâm đô thị",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈɜːrbən ˈsentər/",
+      "examples": [
+        {
+          "en": "Jobs are concentrated in the country's largest urban centers.",
+          "vi": "Việc làm tập trung ở những trung tâm đô thị lớn nhất của đất nước."
+        },
+        {
+          "en": "The new railway connects several major urban centers.",
+          "vi": "Tuyến đường sắt mới nối liền vài trung tâm đô thị lớn."
+        },
+        {
+          "en": "Housing costs rise quickly near busy urban centers.",
+          "vi": "Chi phí nhà ở tăng nhanh gần các trung tâm đô thị sầm uất."
+        }
+      ]
+    },
+    {
+      "english": "urban design",
+      "vietnamese": "thiết kế đô thị",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈɜːrbən dɪˈzaɪn/",
+      "examples": [
+        {
+          "en": "Good urban design makes neighborhoods safer and more walkable.",
+          "vi": "Thiết kế đô thị tốt làm cho các khu dân cư an toàn hơn và dễ đi bộ hơn."
+        },
+        {
+          "en": "The course covers principles of sustainable urban design.",
+          "vi": "Khóa học bao quát các nguyên tắc thiết kế đô thị bền vững."
+        },
+        {
+          "en": "Poor urban design can increase traffic and isolation.",
+          "vi": "Thiết kế đô thị kém có thể làm tăng kẹt xe và sự cô lập."
+        }
+      ]
+    },
+    {
+      "english": "urban development",
+      "vietnamese": "phát triển đô thị",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈɜːrbən dɪˈveləpmənt/",
+      "examples": [
+        {
+          "en": "Rapid urban development has put pressure on local water supplies.",
+          "vi": "Phát triển đô thị nhanh đã gây áp lực lên nguồn nước địa phương."
+        },
+        {
+          "en": "The council approved a plan for sustainable urban development.",
+          "vi": "Hội đồng phê duyệt một kế hoạch phát triển đô thị bền vững."
+        },
+        {
+          "en": "Urban development often displaces poorer residents from city centers.",
+          "vi": "Phát triển đô thị thường đẩy cư dân nghèo ra khỏi trung tâm thành phố."
+        }
+      ]
+    },
+    {
+      "english": "urban environment",
+      "vietnamese": "môi trường đô thị",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈɜːrbən ɪnˈvaɪrənmənt/",
+      "examples": [
+        {
+          "en": "Children in an urban environment face different health risks.",
+          "vi": "Trẻ em trong môi trường đô thị đối mặt với những rủi ro sức khỏe khác nhau."
+        },
+        {
+          "en": "Trees and parks improve the quality of an urban environment.",
+          "vi": "Cây xanh và công viên cải thiện chất lượng của môi trường đô thị."
+        },
+        {
+          "en": "The study examined stress levels in a crowded urban environment.",
+          "vi": "Nghiên cứu xem xét mức độ căng thẳng trong một môi trường đô thị đông đúc."
+        }
+      ]
+    },
+    {
+      "english": "use criteria",
+      "vietnamese": "sử dụng tiêu chí",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz kraɪˈtɪriə/",
+      "examples": [
+        {
+          "en": "Reviewers use criteria to judge each application fairly.",
+          "vi": "Người đánh giá sử dụng tiêu chí để chấm mỗi hồ sơ một cách công bằng."
+        },
+        {
+          "en": "The committee will use criteria agreed upon in advance.",
+          "vi": "Hội đồng sẽ sử dụng tiêu chí đã được thống nhất từ trước."
+        },
+        {
+          "en": "Teachers use clear criteria when they grade student essays.",
+          "vi": "Giáo viên sử dụng tiêu chí rõ ràng khi chấm bài luận của học sinh."
+        }
+      ]
+    },
+    {
+      "english": "use effectively",
+      "vietnamese": "sử dụng hiệu quả",
+      "part_of_speech": "v + adv",
+      "ipa": "/juːz ɪˈfektɪvli/",
+      "examples": [
+        {
+          "en": "Students must learn to use effectively the resources available.",
+          "vi": "Sinh viên phải học cách sử dụng hiệu quả những nguồn lực sẵn có."
+        },
+        {
+          "en": "Few managers use effectively the data they collect.",
+          "vi": "Ít nhà quản lý sử dụng hiệu quả dữ liệu mà họ thu thập."
+        },
+        {
+          "en": "To use effectively your time, plan each day carefully.",
+          "vi": "Để sử dụng hiệu quả thời gian của bạn, hãy lên kế hoạch mỗi ngày cẩn thận."
+        }
+      ]
+    },
+    {
+      "english": "use resources",
+      "vietnamese": "sử dụng nguồn lực",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ˈriːsɔːrsɪz/",
+      "examples": [
+        {
+          "en": "Sustainable companies use resources without harming the environment.",
+          "vi": "Các công ty bền vững sử dụng nguồn lực mà không gây hại cho môi trường."
+        },
+        {
+          "en": "We must use resources wisely during the budget shortfall.",
+          "vi": "Chúng ta phải sử dụng nguồn lực một cách khôn ngoan trong lúc thiếu hụt ngân sách."
+        },
+        {
+          "en": "The project taught students to use resources more efficiently.",
+          "vi": "Dự án dạy sinh viên sử dụng nguồn lực hiệu quả hơn."
+        }
+      ]
+    },
+    {
+      "english": "use sparingly",
+      "vietnamese": "sử dụng dè sẻn",
+      "part_of_speech": "v + adv",
+      "ipa": "/juːz ˈsperɪŋli/",
+      "examples": [
+        {
+          "en": "Writers should use sparingly long and complicated technical terms.",
+          "vi": "Người viết nên sử dụng dè sẻn những thuật ngữ kỹ thuật dài và phức tạp."
+        },
+        {
+          "en": "During the drought, families were told to use water sparingly.",
+          "vi": "Trong hạn hán, các gia đình được khuyên sử dụng nước dè sẻn."
+        },
+        {
+          "en": "Good designers use bright colors sparingly for emphasis.",
+          "vi": "Những nhà thiết kế giỏi sử dụng màu sắc rực rỡ dè sẻn để nhấn mạnh."
+        }
+      ]
+    },
+    {
+      "english": "use statistics",
+      "vietnamese": "sử dụng số liệu thống kê",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz stəˈtɪstɪks/",
+      "examples": [
+        {
+          "en": "Economists use statistics to track changes in the labor market.",
+          "vi": "Các nhà kinh tế sử dụng số liệu thống kê để theo dõi thay đổi trên thị trường lao động."
+        },
+        {
+          "en": "The article uses statistics to support its main argument.",
+          "vi": "Bài báo sử dụng số liệu thống kê để củng cố lập luận chính của nó."
+        },
+        {
+          "en": "Be careful when you use statistics from unreliable sources.",
+          "vi": "Hãy cẩn thận khi bạn sử dụng số liệu thống kê từ những nguồn không đáng tin."
+        }
+      ]
+    },
+    {
+      "english": "use a format",
+      "vietnamese": "sử dụng một định dạng",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ə ˈfɔːrmæt/",
+      "examples": [
+        {
+          "en": "Please use a format that all team members can open.",
+          "vi": "Vui lòng sử dụng một định dạng mà mọi thành viên trong nhóm có thể mở."
+        },
+        {
+          "en": "Academic journals require authors to use a strict format.",
+          "vi": "Các tạp chí học thuật yêu cầu tác giả sử dụng một định dạng nghiêm ngặt."
+        },
+        {
+          "en": "The slides use a clear format that aids understanding.",
+          "vi": "Các slide sử dụng một định dạng rõ ràng giúp dễ hiểu hơn."
+        }
+      ]
+    },
+    {
+      "english": "use a method",
+      "vietnamese": "sử dụng một phương pháp",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ə ˈmeθəd/",
+      "examples": [
+        {
+          "en": "The researchers use a method that reduces measurement errors.",
+          "vi": "Các nhà nghiên cứu sử dụng một phương pháp giúp giảm sai số đo lường."
+        },
+        {
+          "en": "We chose to use a method tested in earlier studies.",
+          "vi": "Chúng tôi chọn sử dụng một phương pháp đã được kiểm chứng ở các nghiên cứu trước."
+        },
+        {
+          "en": "Teachers often use a method suited to younger learners.",
+          "vi": "Giáo viên thường sử dụng một phương pháp phù hợp với người học nhỏ tuổi."
+        }
+      ]
+    },
+    {
+      "english": "use a methodology",
+      "vietnamese": "sử dụng một phương pháp luận",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ə ˌmeθəˈdɑːlədʒi/",
+      "examples": [
+        {
+          "en": "The thesis uses a methodology common in social research.",
+          "vi": "Luận văn sử dụng một phương pháp luận phổ biến trong nghiên cứu xã hội."
+        },
+        {
+          "en": "They chose to use a methodology that combines surveys and interviews.",
+          "vi": "Họ chọn sử dụng một phương pháp luận kết hợp khảo sát và phỏng vấn."
+        },
+        {
+          "en": "Authors must clearly explain why they use a methodology.",
+          "vi": "Tác giả phải giải thích rõ vì sao họ sử dụng một phương pháp luận."
+        }
+      ]
+    },
+    {
+      "english": "use a procedure",
+      "vietnamese": "sử dụng một quy trình",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ə prəˈsiːdʒər/",
+      "examples": [
+        {
+          "en": "The lab uses a procedure designed to keep samples sterile.",
+          "vi": "Phòng thí nghiệm sử dụng một quy trình được thiết kế để giữ mẫu vô trùng."
+        },
+        {
+          "en": "We use a procedure that anyone can repeat exactly.",
+          "vi": "Chúng tôi sử dụng một quy trình mà bất kỳ ai cũng có thể lặp lại chính xác."
+        },
+        {
+          "en": "Hospitals must use a procedure approved by safety regulators.",
+          "vi": "Các bệnh viện phải sử dụng một quy trình được cơ quan an toàn phê duyệt."
+        }
+      ]
+    },
+    {
+      "english": "use a source",
+      "vietnamese": "sử dụng một nguồn",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ə sɔːrs/",
+      "examples": [
+        {
+          "en": "Always use a source you can cite and verify.",
+          "vi": "Hãy luôn sử dụng một nguồn mà bạn có thể trích dẫn và kiểm chứng."
+        },
+        {
+          "en": "Students must not use a source without proper acknowledgment.",
+          "vi": "Sinh viên không được sử dụng một nguồn mà không ghi nhận đúng cách."
+        },
+        {
+          "en": "The essay uses a source from a respected academic journal.",
+          "vi": "Bài luận sử dụng một nguồn từ một tạp chí học thuật uy tín."
+        }
+      ]
+    },
+    {
+      "english": "use a strategy",
+      "vietnamese": "sử dụng một chiến lược",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ə ˈstrætədʒi/",
+      "examples": [
+        {
+          "en": "The company will use a strategy focused on online sales.",
+          "vi": "Công ty sẽ sử dụng một chiến lược tập trung vào bán hàng trực tuyến."
+        },
+        {
+          "en": "Good students use a strategy to manage exam stress.",
+          "vi": "Học sinh giỏi sử dụng một chiến lược để quản lý căng thẳng khi thi."
+        },
+        {
+          "en": "The coach decided to use a strategy that suits younger players.",
+          "vi": "Huấn luyện viên quyết định sử dụng một chiến lược phù hợp với cầu thủ trẻ."
+        }
+      ]
+    },
+    {
+      "english": "use a technique",
+      "vietnamese": "sử dụng một kỹ thuật",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ə tekˈniːk/",
+      "examples": [
+        {
+          "en": "Surgeons use a technique that shortens recovery time.",
+          "vi": "Bác sĩ phẫu thuật sử dụng một kỹ thuật giúp rút ngắn thời gian hồi phục."
+        },
+        {
+          "en": "The artist uses a technique borrowed from old masters.",
+          "vi": "Người nghệ sĩ sử dụng một kỹ thuật học từ các bậc thầy xưa."
+        },
+        {
+          "en": "We use a technique that improves the accuracy of measurements.",
+          "vi": "Chúng tôi sử dụng một kỹ thuật giúp cải thiện độ chính xác của phép đo."
+        }
+      ]
+    },
+    {
+      "english": "use a theory",
+      "vietnamese": "vận dụng một lý thuyết",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ə ˈθiːəri/",
+      "examples": [
+        {
+          "en": "The paper uses a theory developed in cognitive science.",
+          "vi": "Bài báo vận dụng một lý thuyết được phát triển trong khoa học nhận thức."
+        },
+        {
+          "en": "She decided to use a theory that explains group behavior.",
+          "vi": "Cô quyết định vận dụng một lý thuyết giải thích hành vi nhóm."
+        },
+        {
+          "en": "Good analysts use a theory to interpret their data.",
+          "vi": "Những nhà phân tích giỏi vận dụng một lý thuyết để diễn giải dữ liệu của họ."
+        }
+      ]
+    },
+    {
+      "english": "use an analysis",
+      "vietnamese": "sử dụng một phân tích",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ən əˈnæləsɪs/",
+      "examples": [
+        {
+          "en": "The report uses an analysis of ten years of sales data.",
+          "vi": "Báo cáo sử dụng một phân tích dữ liệu bán hàng trong mười năm."
+        },
+        {
+          "en": "We use an analysis that compares both groups directly.",
+          "vi": "Chúng tôi sử dụng một phân tích so sánh trực tiếp cả hai nhóm."
+        },
+        {
+          "en": "Planners use an analysis of traffic flow to design roads.",
+          "vi": "Các nhà quy hoạch sử dụng một phân tích lưu lượng giao thông để thiết kế đường."
+        }
+      ]
+    },
+    {
+      "english": "use an approach",
+      "vietnamese": "sử dụng một cách tiếp cận",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ən əˈproʊtʃ/",
+      "examples": [
+        {
+          "en": "The teacher uses an approach that engages every student.",
+          "vi": "Giáo viên sử dụng một cách tiếp cận thu hút mọi học sinh."
+        },
+        {
+          "en": "We decided to use an approach based on real examples.",
+          "vi": "Chúng tôi quyết định sử dụng một cách tiếp cận dựa trên ví dụ thực tế."
+        },
+        {
+          "en": "Therapists often use an approach tailored to each patient.",
+          "vi": "Các nhà trị liệu thường sử dụng một cách tiếp cận riêng cho từng bệnh nhân."
+        }
+      ]
+    },
+    {
+      "english": "use an definition",
+      "vietnamese": "sử dụng một định nghĩa",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ən ˌdefɪˈnɪʃən/",
+      "examples": [
+        {
+          "en": "The study uses an definition of poverty set by the agency.",
+          "vi": "Nghiên cứu sử dụng một định nghĩa về nghèo do cơ quan này đặt ra."
+        },
+        {
+          "en": "Researchers must use an definition that others can apply consistently.",
+          "vi": "Các nhà nghiên cứu phải sử dụng một định nghĩa mà người khác có thể áp dụng nhất quán."
+        },
+        {
+          "en": "We use an definition broad enough to cover both cases.",
+          "vi": "Chúng tôi sử dụng một định nghĩa đủ rộng để bao quát cả hai trường hợp."
+        }
+      ]
+    },
+    {
+      "english": "use the concept",
+      "vietnamese": "vận dụng khái niệm",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ðə ˈkɑːnsept/",
+      "examples": [
+        {
+          "en": "The author uses the concept of identity throughout the book.",
+          "vi": "Tác giả vận dụng khái niệm bản sắc xuyên suốt cuốn sách."
+        },
+        {
+          "en": "We use the concept to explain why prices vary.",
+          "vi": "Chúng tôi vận dụng khái niệm này để giải thích vì sao giá cả biến động."
+        },
+        {
+          "en": "Economists use the concept of supply and demand daily.",
+          "vi": "Các nhà kinh tế vận dụng khái niệm cung và cầu hằng ngày."
+        }
+      ]
+    },
+    {
+      "english": "use the data",
+      "vietnamese": "sử dụng dữ liệu",
+      "part_of_speech": "v + n",
+      "ipa": "/juːz ðə ˈdeɪtə/",
+      "examples": [
+        {
+          "en": "Researchers use the data to test their main hypothesis.",
+          "vi": "Các nhà nghiên cứu sử dụng dữ liệu để kiểm chứng giả thuyết chính của họ."
+        },
+        {
+          "en": "The company will use the data to improve its service.",
+          "vi": "Công ty sẽ sử dụng dữ liệu để cải thiện dịch vụ của mình."
+        },
+        {
+          "en": "We must use the data carefully to avoid wrong conclusions.",
+          "vi": "Chúng ta phải sử dụng dữ liệu cẩn thận để tránh kết luận sai."
+        }
+      ]
+    },
+    {
+      "english": "useful information",
+      "vietnamese": "thông tin hữu ích",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈjuːsfəl ˌɪnfərˈmeɪʃən/",
+      "examples": [
+        {
+          "en": "The survey gathered useful information about students' study habits.",
+          "vi": "Cuộc khảo sát thu thập thông tin hữu ích về thói quen học tập của sinh viên."
+        },
+        {
+          "en": "This website provides useful information for first-year university applicants.",
+          "vi": "Trang web này cung cấp thông tin hữu ích cho thí sinh năm nhất đại học."
+        },
+        {
+          "en": "Interviews can yield useful information that questionnaires often miss.",
+          "vi": "Phỏng vấn có thể mang lại thông tin hữu ích mà bảng hỏi thường bỏ sót."
+        }
+      ]
+    },
+    {
+      "english": "useful material",
+      "vietnamese": "tài liệu hữu ích",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈjuːsfəl məˈtɪriəl/",
+      "examples": [
+        {
+          "en": "The library offers useful material for writing research papers.",
+          "vi": "Thư viện cung cấp tài liệu hữu ích để viết bài nghiên cứu."
+        },
+        {
+          "en": "She collected useful material before drafting her thesis introduction.",
+          "vi": "Cô ấy thu thập tài liệu hữu ích trước khi viết phần mở đầu luận văn."
+        },
+        {
+          "en": "Teachers shared useful material to help students prepare for exams.",
+          "vi": "Giáo viên chia sẻ tài liệu hữu ích giúp học sinh ôn thi."
+        }
+      ]
+    },
+    {
+      "english": "useful means",
+      "vietnamese": "phương tiện hữu ích",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈjuːsfəl miːnz/",
+      "examples": [
+        {
+          "en": "Surveys are a useful means of measuring public opinion accurately.",
+          "vi": "Khảo sát là một phương tiện hữu ích để đo lường dư luận chính xác."
+        },
+        {
+          "en": "Email remains a useful means of communication in academic settings.",
+          "vi": "Email vẫn là phương tiện liên lạc hữu ích trong môi trường học thuật."
+        },
+        {
+          "en": "Graphs provide a useful means of presenting complex data clearly.",
+          "vi": "Biểu đồ là phương tiện hữu ích để trình bày dữ liệu phức tạp rõ ràng."
+        }
+      ]
+    },
+    {
+      "english": "useful source",
+      "vietnamese": "nguồn hữu ích",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈjuːsfəl sɔːrs/",
+      "examples": [
+        {
+          "en": "Academic journals are a useful source of reliable evidence.",
+          "vi": "Tạp chí học thuật là nguồn hữu ích cung cấp bằng chứng đáng tin cậy."
+        },
+        {
+          "en": "The internet can be a useful source if used critically.",
+          "vi": "Internet có thể là nguồn hữu ích nếu được dùng một cách phê phán."
+        },
+        {
+          "en": "Government reports proved a useful source for the analysis.",
+          "vi": "Các báo cáo của chính phủ là nguồn hữu ích cho phần phân tích."
+        }
+      ]
+    },
+    {
+      "english": "useful summary",
+      "vietnamese": "bản tóm tắt hữu ích",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈjuːsfəl ˈsʌməri/",
+      "examples": [
+        {
+          "en": "The chapter ends with a useful summary of key points.",
+          "vi": "Chương sách kết thúc bằng một bản tóm tắt hữu ích các ý chính."
+        },
+        {
+          "en": "She wrote a useful summary to revise before the test.",
+          "vi": "Cô ấy viết một bản tóm tắt hữu ích để ôn tập trước bài kiểm tra."
+        },
+        {
+          "en": "A useful summary helps readers grasp the article quickly.",
+          "vi": "Một bản tóm tắt hữu ích giúp người đọc nắm bài viết nhanh chóng."
+        }
+      ]
+    },
+    {
+      "english": "useful tool",
+      "vietnamese": "công cụ hữu ích",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈjuːsfəl tuːl/",
+      "examples": [
+        {
+          "en": "Spreadsheets are a useful tool for organizing research data.",
+          "vi": "Bảng tính là công cụ hữu ích để sắp xếp dữ liệu nghiên cứu."
+        },
+        {
+          "en": "Mind maps can be a useful tool when planning essays.",
+          "vi": "Sơ đồ tư duy có thể là công cụ hữu ích khi lên dàn ý bài luận."
+        },
+        {
+          "en": "Statistical software is a useful tool for analyzing large datasets.",
+          "vi": "Phần mềm thống kê là công cụ hữu ích để phân tích tập dữ liệu lớn."
+        }
+      ]
+    },
+    {
+      "english": "valid argument",
+      "vietnamese": "lập luận hợp lý",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈvælɪd ˈɑːrgjəmənt/",
+      "examples": [
+        {
+          "en": "She presented a valid argument supported by strong evidence.",
+          "vi": "Cô ấy đưa ra một lập luận hợp lý được hỗ trợ bằng bằng chứng vững chắc."
+        },
+        {
+          "en": "A valid argument must follow logically from its premises.",
+          "vi": "Một lập luận hợp lý phải suy ra logic từ các tiền đề của nó."
+        },
+        {
+          "en": "The essay builds a valid argument against unrestricted social media.",
+          "vi": "Bài luận xây dựng một lập luận hợp lý chống lại mạng xã hội không giới hạn."
+        }
+      ]
+    },
+    {
+      "english": "valuable information",
+      "vietnamese": "thông tin quý giá",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈvæljəbəl ˌɪnfərˈmeɪʃən/",
+      "examples": [
+        {
+          "en": "The experiment produced valuable information about the chemical reaction.",
+          "vi": "Thí nghiệm tạo ra thông tin quý giá về phản ứng hóa học."
+        },
+        {
+          "en": "Patients provided valuable information that improved the treatment plan.",
+          "vi": "Bệnh nhân cung cấp thông tin quý giá giúp cải thiện phác đồ điều trị."
+        },
+        {
+          "en": "Field notes often contain valuable information for later analysis.",
+          "vi": "Ghi chép thực địa thường chứa thông tin quý giá cho phân tích sau này."
+        }
+      ]
+    },
+    {
+      "english": "valuable resources",
+      "vietnamese": "nguồn lực quý giá",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈvæljəbəl ˈriːsɔːrsɪz/",
+      "examples": [
+        {
+          "en": "The project wasted valuable resources on poorly planned activities.",
+          "vi": "Dự án lãng phí nguồn lực quý giá vào những hoạt động lập kế hoạch kém."
+        },
+        {
+          "en": "Forests are valuable resources that must be protected carefully.",
+          "vi": "Rừng là nguồn lực quý giá cần được bảo vệ cẩn thận."
+        },
+        {
+          "en": "Libraries offer valuable resources for independent academic research.",
+          "vi": "Thư viện cung cấp nguồn lực quý giá cho nghiên cứu học thuật độc lập."
+        }
+      ]
+    },
+    {
+      "english": "various aspects",
+      "vietnamese": "nhiều khía cạnh khác nhau",
+      "part_of_speech": "adj + n",
+      "ipa": "/ˈveriəs ˈæspekts/",
+      "examples": [
+        {
+          "en": "The course examines various aspects of modern economic theory.",
+          "vi": "Khóa học xem xét nhiều khía cạnh khác nhau của lý thuyết kinh tế hiện đại."
+        },
+        {
+          "en": "Her study explored various aspects of childhood language development.",
+          "vi": "Nghiên cứu của cô khám phá nhiều khía cạnh của sự phát triển ngôn ngữ trẻ em."
+        },
+        {
+          "en": "We discussed various aspects of the problem before deciding.",
+          "vi": "Chúng tôi thảo luận nhiều khía cạnh của vấn đề trước khi quyết định."
+        }
+      ]
+    },
+    {
+      "english": "vary considerably",
+      "vietnamese": "thay đổi đáng kể",
+      "part_of_speech": "v + adv",
+      "ipa": "/ˈveri kənˈsɪdərəbli/",
+      "examples": [
+        {
+          "en": "Prices vary considerably depending on the season and location.",
+          "vi": "Giá cả thay đổi đáng kể tùy theo mùa và địa điểm."
+        },
+        {
+          "en": "Test results vary considerably between the two student groups.",
+          "vi": "Kết quả kiểm tra thay đổi đáng kể giữa hai nhóm sinh viên."
+        },
+        {
+          "en": "Opinions on the policy vary considerably across different regions.",
+          "vi": "Ý kiến về chính sách thay đổi đáng kể giữa các khu vực khác nhau."
+        }
+      ]
+    },
+    {
+      "english": "vary greatly",
+      "vietnamese": "thay đổi rất nhiều",
+      "part_of_speech": "v + adv",
+      "ipa": "/ˈveri ˈgreɪtli/",
+      "examples": [
+        {
+          "en": "Living costs vary greatly from one city to another.",
+          "vi": "Chi phí sinh hoạt thay đổi rất nhiều từ thành phố này sang thành phố khác."
+        },
+        {
+          "en": "Students' learning styles vary greatly within a single classroom.",
+          "vi": "Phong cách học của học sinh thay đổi rất nhiều trong cùng một lớp."
+        },
+        {
+          "en": "The quality of online courses can vary greatly nowadays.",
+          "vi": "Chất lượng các khóa học trực tuyến ngày nay có thể thay đổi rất nhiều."
+        }
+      ]
+    },
+    {
+      "english": "vary significantly",
+      "vietnamese": "thay đổi rõ rệt",
+      "part_of_speech": "v + adv",
+      "ipa": "/ˈveri sɪgˈnɪfɪkəntli/",
+      "examples": [
+        {
+          "en": "Wages vary significantly across industries and levels of experience.",
+          "vi": "Tiền lương thay đổi rõ rệt giữa các ngành và mức kinh nghiệm."
+        },
+        {
+          "en": "The findings vary significantly depending on the research method used.",
+          "vi": "Kết quả thay đổi rõ rệt tùy thuộc vào phương pháp nghiên cứu được dùng."
+        },
+        {
+          "en": "Temperatures vary significantly between the coastal and inland areas.",
+          "vi": "Nhiệt độ thay đổi rõ rệt giữa khu vực ven biển và nội địa."
+        }
+      ]
+    },
+    {
+      "english": "vary widely",
+      "vietnamese": "thay đổi rất khác nhau",
+      "part_of_speech": "v + adv",
+      "ipa": "/ˈveri ˈwaɪdli/",
+      "examples": [
+        {
+          "en": "Cultural attitudes toward time vary widely around the world.",
+          "vi": "Quan niệm văn hóa về thời gian thay đổi rất khác nhau trên thế giới."
+        },
+        {
+          "en": "Estimates of the population vary widely among different sources.",
+          "vi": "Ước tính dân số thay đổi rất khác nhau giữa các nguồn."
+        },
+        {
+          "en": "The prices of textbooks vary widely between online retailers.",
+          "vi": "Giá sách giáo khoa thay đổi rất khác nhau giữa các nhà bán lẻ trực tuyến."
+        }
+      ]
+    }
+  ]
+}

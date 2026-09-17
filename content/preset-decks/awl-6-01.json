@@ -1,0 +1,833 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Học thuật Sublist 6 · Bộ 1",
+    "description": "Academic Word List, sublist 6",
+    "color": "#a974ff",
+    "icon": "GraduationCap",
+    "subtitle": "awl-6-01"
+  },
+  "cards": [
+    {
+      "english": "abstract",
+      "vietnamese": "trừu tượng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Young children often find abstract concepts like time hard to understand.",
+          "vi": "Trẻ nhỏ thường thấy khó hiểu những khái niệm trừu tượng như thời gian."
+        },
+        {
+          "en": "The lecture was too abstract for most first-year students.",
+          "vi": "Bài giảng quá trừu tượng đối với hầu hết sinh viên năm nhất."
+        },
+        {
+          "en": "Try to give concrete examples instead of abstract explanations.",
+          "vi": "Hãy cố gắng đưa ra ví dụ cụ thể thay vì những lời giải thích trừu tượng."
+        }
+      ],
+      "collocations": [
+        "abstract concept",
+        "abstract idea",
+        "abstract art"
+      ],
+      "notes": "abstract ≠ concrete (cụ thể); danh từ abstract = bản tóm tắt (bài báo khoa học)",
+      "ipa": "/ˈæbstrækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/abs/abstr/abstract__us_2_rr.mp3"
+    },
+    {
+      "english": "accurate",
+      "vietnamese": "chính xác",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Accurate data is essential for making good policy decisions.",
+          "vi": "Dữ liệu chính xác là yếu tố thiết yếu để đưa ra các quyết định chính sách đúng đắn."
+        },
+        {
+          "en": "The weather forecast was not very accurate this week.",
+          "vi": "Dự báo thời tiết tuần này không chính xác lắm."
+        },
+        {
+          "en": "Is this a fairly accurate description of what happened at the meeting?",
+          "vi": "Đây có phải là mô tả khá chính xác về những gì đã diễn ra trong cuộc họp không?"
+        }
+      ],
+      "collocations": [
+        "accurate information",
+        "accurate data",
+        "accurate description",
+        "highly accurate"
+      ],
+      "notes": null,
+      "ipa": "/ˈækjərət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/accur/accurate__us_1.mp3"
+    },
+    {
+      "english": "acknowledge",
+      "vietnamese": "thừa nhận; ghi nhận; xác nhận (đã nhận)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The company finally acknowledged that the product had a serious fault.",
+          "vi": "Công ty cuối cùng đã thừa nhận rằng sản phẩm có lỗi nghiêm trọng."
+        },
+        {
+          "en": "The report acknowledges the contribution of local volunteers.",
+          "vi": "Báo cáo ghi nhận sự đóng góp của các tình nguyện viên địa phương."
+        },
+        {
+          "en": "Please acknowledge receipt of this email by Friday.",
+          "vi": "Vui lòng xác nhận đã nhận được email này trước thứ Sáu."
+        }
+      ],
+      "collocations": [
+        "acknowledge receipt",
+        "widely acknowledged",
+        "acknowledge the need",
+        "acknowledge the contribution"
+      ],
+      "notes": "acknowledge + that / V-ing",
+      "ipa": "/əkˈnɑːlɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ack/ackno/acknowledge__us_1.mp3"
+    },
+    {
+      "english": "aggregate",
+      "vietnamese": "tổng; tổng hợp",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Aggregate demand fell sharply during the economic crisis.",
+          "vi": "Tổng cầu giảm mạnh trong cuộc khủng hoảng kinh tế."
+        },
+        {
+          "en": "The study only reports aggregate data, not individual results.",
+          "vi": "Nghiên cứu chỉ báo cáo dữ liệu tổng hợp, không báo cáo kết quả của từng cá nhân."
+        },
+        {
+          "en": "Our team finished first with an aggregate score of 245 points.",
+          "vi": "Đội chúng tôi về nhất với tổng điểm là 245."
+        }
+      ],
+      "collocations": [
+        "aggregate demand",
+        "aggregate data",
+        "aggregate score"
+      ],
+      "notes": null,
+      "ipa": "/ˈæɡrɪɡət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/agg/aggre/aggregate__us_1.mp3"
+    },
+    {
+      "english": "allocate",
+      "vietnamese": "phân bổ; cấp; dành (cho)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The government allocated extra funds to rural hospitals this year.",
+          "vi": "Năm nay chính phủ đã phân bổ thêm kinh phí cho các bệnh viện ở nông thôn."
+        },
+        {
+          "en": "Each student will be allocated a room in student housing.",
+          "vi": "Mỗi sinh viên sẽ được cấp một phòng trong khu nhà ở sinh viên."
+        },
+        {
+          "en": "We need to allocate more time to testing before the launch.",
+          "vi": "Chúng ta cần dành thêm thời gian cho việc kiểm thử trước khi ra mắt."
+        }
+      ],
+      "collocations": [
+        "allocate resources",
+        "allocate funds",
+        "allocate time"
+      ],
+      "notes": "allocate sth to sb/sth",
+      "ipa": "/ˈæləkeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/all/alloc/allocate__us_1.mp3"
+    },
+    {
+      "english": "assign",
+      "vietnamese": "giao (việc); phân công; chỉ định",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The manager assigned the new project to two experienced engineers.",
+          "vi": "Người quản lý đã giao dự án mới cho hai kỹ sư giàu kinh nghiệm."
+        },
+        {
+          "en": "Patients were randomly assigned to one of three groups.",
+          "vi": "Các bệnh nhân được phân ngẫu nhiên vào một trong ba nhóm."
+        },
+        {
+          "en": "Each student is assigned a tutor in their first week.",
+          "vi": "Mỗi sinh viên được chỉ định một người hướng dẫn trong tuần đầu tiên."
+        }
+      ],
+      "collocations": [
+        "assign a task",
+        "assign responsibility",
+        "randomly assigned"
+      ],
+      "notes": "assign sth to sb / assign sb sth",
+      "ipa": "/əˈsaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/assig/assign__us_1.mp3"
+    },
+    {
+      "english": "attach",
+      "vietnamese": "đính kèm; gắn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I have attached a copy of the report to this email.",
+          "vi": "Tôi đã đính kèm một bản sao báo cáo vào email này."
+        },
+        {
+          "en": "Sensors were attached to the patients' wrists to monitor their sleep.",
+          "vi": "Các cảm biến được gắn vào cổ tay bệnh nhân để theo dõi giấc ngủ."
+        },
+        {
+          "en": "Please attach a recent photo to your application form.",
+          "vi": "Vui lòng đính kèm một ảnh gần đây vào đơn đăng ký của bạn."
+        }
+      ],
+      "collocations": [
+        "attach a file",
+        "attach a photo",
+        "attached to"
+      ],
+      "notes": "attach sth to sth",
+      "ipa": "/əˈtætʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/att/attac/attach__us_1.mp3"
+    },
+    {
+      "english": "author",
+      "vietnamese": "tác giả",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The author of the study works at a university in Canada.",
+          "vi": "Tác giả của nghiên cứu làm việc tại một trường đại học ở Canada."
+        },
+        {
+          "en": "Many authors now publish their books online.",
+          "vi": "Ngày nay nhiều tác giả xuất bản sách của họ trên mạng."
+        },
+        {
+          "en": "According to the authors, the results need further testing.",
+          "vi": "Theo các tác giả, kết quả cần được kiểm chứng thêm."
+        }
+      ],
+      "collocations": [
+        "author of",
+        "lead author",
+        "best-selling author"
+      ],
+      "notes": null,
+      "ipa": "/ˈɔːθər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/aut/autho/author__us_1.mp3"
+    },
+    {
+      "english": "bond",
+      "vietnamese": "mối gắn bó; liên kết; trái phiếu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Working through hard times together can create a strong bond between colleagues.",
+          "vi": "Cùng nhau vượt qua giai đoạn khó khăn có thể tạo nên sự gắn bó bền chặt giữa các đồng nghiệp."
+        },
+        {
+          "en": "Energy is released when new chemical bonds form.",
+          "vi": "Năng lượng được giải phóng khi các liên kết hóa học mới hình thành."
+        },
+        {
+          "en": "Investors moved their money from stocks into government bonds.",
+          "vi": "Các nhà đầu tư chuyển tiền từ cổ phiếu sang trái phiếu chính phủ."
+        }
+      ],
+      "collocations": [
+        "strong bond",
+        "chemical bond",
+        "government bonds",
+        "bond between"
+      ],
+      "notes": null,
+      "ipa": "/bɑːnd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bon/bond_/bond__us_1.mp3"
+    },
+    {
+      "english": "brief",
+      "vietnamese": "ngắn gọn; ngắn ngủi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Please keep your answers brief and to the point.",
+          "vi": "Vui lòng trả lời ngắn gọn và đúng trọng tâm."
+        },
+        {
+          "en": "After a brief introduction, the speaker moved on to the main findings.",
+          "vi": "Sau phần giới thiệu ngắn gọn, diễn giả chuyển sang những phát hiện chính."
+        },
+        {
+          "en": "She made a brief visit to the factory last month.",
+          "vi": "Tháng trước cô ấy đã có một chuyến thăm ngắn đến nhà máy."
+        }
+      ],
+      "collocations": [
+        "brief introduction",
+        "brief summary",
+        "brief visit",
+        "keep it brief"
+      ],
+      "notes": null,
+      "ipa": "/briːf/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bri/brief/brief__us_1.mp3"
+    },
+    {
+      "english": "capable",
+      "vietnamese": "có khả năng; có năng lực",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The new system is capable of processing thousands of orders per hour.",
+          "vi": "Hệ thống mới có khả năng xử lý hàng nghìn đơn hàng mỗi giờ."
+        },
+        {
+          "en": "She is a highly capable manager with years of experience.",
+          "vi": "Cô ấy là một nhà quản lý rất có năng lực với nhiều năm kinh nghiệm."
+        },
+        {
+          "en": "Few animals are capable of recognizing themselves in a mirror.",
+          "vi": "Rất ít loài động vật có khả năng nhận ra chính mình trong gương."
+        }
+      ],
+      "collocations": [
+        "capable of",
+        "highly capable",
+        "perfectly capable"
+      ],
+      "notes": "capable of + V-ing / danh từ",
+      "ipa": "/ˈkeɪpəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cap/capab/capable__us_2.mp3"
+    },
+    {
+      "english": "cite",
+      "vietnamese": "trích dẫn; viện dẫn, nêu ra",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Always cite your sources at the end of an essay.",
+          "vi": "Hãy luôn trích dẫn nguồn tài liệu ở cuối bài luận."
+        },
+        {
+          "en": "The paper is widely cited by researchers in the field.",
+          "vi": "Bài báo này được các nhà nghiên cứu trong ngành trích dẫn rộng rãi."
+        },
+        {
+          "en": "Many workers cited low pay as their main reason for leaving.",
+          "vi": "Nhiều người lao động nêu mức lương thấp là lý do chính khiến họ nghỉ việc."
+        }
+      ],
+      "collocations": [
+        "cite a source",
+        "widely cited",
+        "frequently cited",
+        "cite an example"
+      ],
+      "notes": "cite sth as sth",
+      "ipa": "/saɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cit/cite_/cite__us_1.mp3"
+    },
+    {
+      "english": "cooperate",
+      "vietnamese": "hợp tác; phối hợp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The two universities have agreed to cooperate on climate research.",
+          "vi": "Hai trường đại học đã đồng ý hợp tác trong nghiên cứu khí hậu."
+        },
+        {
+          "en": "Several witnesses refused to cooperate with the police investigation.",
+          "vi": "Một số nhân chứng từ chối hợp tác với cuộc điều tra của cảnh sát."
+        },
+        {
+          "en": "Departments must cooperate closely to finish the project on time.",
+          "vi": "Các phòng ban phải phối hợp chặt chẽ để hoàn thành dự án đúng hạn."
+        }
+      ],
+      "collocations": [
+        "cooperate with",
+        "cooperate closely",
+        "cooperate fully",
+        "agree to cooperate"
+      ],
+      "notes": "cooperate with sb on sth",
+      "ipa": "/kəʊˈɑːpəreɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/coo/coope/cooperate__us_1.mp3"
+    },
+    {
+      "english": "discriminate",
+      "vietnamese": "phân biệt đối xử; phân biệt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "It is illegal to discriminate against workers on the basis of age.",
+          "vi": "Phân biệt đối xử với người lao động dựa trên tuổi tác là bất hợp pháp."
+        },
+        {
+          "en": "Some employers still discriminate against women with young children.",
+          "vi": "Một số nhà tuyển dụng vẫn phân biệt đối xử với phụ nữ có con nhỏ."
+        },
+        {
+          "en": "Babies can discriminate between different sounds from a very early age.",
+          "vi": "Trẻ sơ sinh có thể phân biệt các âm thanh khác nhau từ rất sớm."
+        }
+      ],
+      "collocations": [
+        "discriminate against",
+        "discriminate between",
+        "unfairly discriminate"
+      ],
+      "notes": "discriminate against (phân biệt đối xử) ≠ discriminate between (phân biệt)",
+      "ipa": "/dɪˈskrɪmɪneɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/discr/discriminate__us_1.mp3"
+    },
+    {
+      "english": "display",
+      "vietnamese": "trưng bày; hiển thị; biểu lộ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The museum displays tools used by farmers thousands of years ago.",
+          "vi": "Bảo tàng trưng bày những công cụ mà người nông dân sử dụng từ hàng nghìn năm trước."
+        },
+        {
+          "en": "The screen at the station displays information about train delays.",
+          "vi": "Màn hình ở nhà ga hiển thị thông tin về các chuyến tàu bị trễ."
+        },
+        {
+          "en": "Several patients displayed signs of stress during the test.",
+          "vi": "Một số bệnh nhân biểu lộ dấu hiệu căng thẳng trong quá trình kiểm tra."
+        }
+      ],
+      "collocations": [
+        "display information",
+        "display signs of",
+        "proudly display"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈspleɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/displ/display__us_2.mp3"
+    },
+    {
+      "english": "diverse",
+      "vietnamese": "đa dạng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The city has one of the most diverse populations in the country.",
+          "vi": "Thành phố này có dân cư thuộc hàng đa dạng nhất cả nước."
+        },
+        {
+          "en": "Our team includes people from diverse backgrounds.",
+          "vi": "Đội của chúng tôi gồm những người có xuất thân đa dạng."
+        },
+        {
+          "en": "Tropical forests are home to a highly diverse range of plants.",
+          "vi": "Rừng nhiệt đới là nơi sinh sống của vô số loài thực vật vô cùng đa dạng."
+        }
+      ],
+      "collocations": [
+        "diverse backgrounds",
+        "diverse range",
+        "culturally diverse",
+        "diverse population"
+      ],
+      "notes": null,
+      "ipa": "/daɪˈvɜːrs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/div/diver/diverse__us_1_rr.mp3"
+    },
+    {
+      "english": "domain",
+      "vietnamese": "lĩnh vực; phạm vi; tên miền",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Artificial intelligence is now used in almost every domain of science.",
+          "vi": "Trí tuệ nhân tạo hiện được sử dụng trong hầu hết mọi lĩnh vực khoa học."
+        },
+        {
+          "en": "Many historical documents are now in the public domain.",
+          "vi": "Nhiều tài liệu lịch sử hiện nay đã thuộc phạm vi công cộng."
+        },
+        {
+          "en": "The company registered a new domain name for its online store.",
+          "vi": "Công ty đã đăng ký một tên miền mới cho cửa hàng trực tuyến của mình."
+        }
+      ],
+      "collocations": [
+        "public domain",
+        "domain name",
+        "domain of"
+      ],
+      "notes": "in the public domain = thuộc phạm vi công cộng (không còn bản quyền)",
+      "ipa": "/dəʊˈmeɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dom/domai/domain__us_1_rr.mp3"
+    },
+    {
+      "english": "edit",
+      "vietnamese": "biên tập; chỉnh sửa",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She edits a monthly journal on environmental science.",
+          "vi": "Bà ấy biên tập một tạp chí hằng tháng về khoa học môi trường."
+        },
+        {
+          "en": "Please edit your essay carefully before you submit it.",
+          "vi": "Hãy chỉnh sửa bài luận cẩn thận trước khi nộp."
+        },
+        {
+          "en": "The interview was heavily edited before it was broadcast.",
+          "vi": "Cuộc phỏng vấn đã bị cắt chỉnh nhiều trước khi được phát sóng."
+        }
+      ],
+      "collocations": [
+        "edit a book",
+        "edit a document",
+        "heavily edited"
+      ],
+      "notes": null,
+      "ipa": "/ˈedɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/edi/edit_/edit__us_1.mp3"
+    },
+    {
+      "english": "enhance",
+      "vietnamese": "nâng cao; tăng cường",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The new software will enhance the quality of online lessons.",
+          "vi": "Phần mềm mới sẽ nâng cao chất lượng các bài học trực tuyến."
+        },
+        {
+          "en": "Regular exercise can enhance memory and concentration.",
+          "vi": "Tập thể dục thường xuyên có thể tăng cường trí nhớ và khả năng tập trung."
+        },
+        {
+          "en": "The company hopes the award will enhance its reputation abroad.",
+          "vi": "Công ty hy vọng giải thưởng sẽ nâng cao danh tiếng của mình ở nước ngoài."
+        }
+      ],
+      "collocations": [
+        "enhance the quality",
+        "enhance performance",
+        "greatly enhance"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈhæns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/enh/enhan/enhance__us_3.mp3"
+    },
+    {
+      "english": "estate",
+      "vietnamese": "bất động sản; điền trang; tài sản (để lại)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Real estate prices in the capital rose by ten percent last year.",
+          "vi": "Giá bất động sản ở thủ đô đã tăng mười phần trăm vào năm ngoái."
+        },
+        {
+          "en": "The family owned a large estate in the countryside.",
+          "vi": "Gia đình đó từng sở hữu một điền trang lớn ở vùng nông thôn."
+        },
+        {
+          "en": "He left his entire estate to a local charity.",
+          "vi": "Ông ấy để lại toàn bộ tài sản cho một tổ chức từ thiện địa phương."
+        }
+      ],
+      "collocations": [
+        "real estate",
+        "estate agent",
+        "large estate"
+      ],
+      "notes": "real estate = bất động sản; estate agent (Anh) = người môi giới nhà đất",
+      "ipa": "/ɪˈsteɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/est/estat/estate__us_2.mp3"
+    },
+    {
+      "english": "exceed",
+      "vietnamese": "vượt quá; vượt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Sales this year have exceeded our expectations by a wide margin.",
+          "vi": "Doanh số năm nay đã vượt xa kỳ vọng của chúng tôi."
+        },
+        {
+          "en": "Drivers who exceed the speed limit will be fined.",
+          "vi": "Những tài xế vượt quá tốc độ cho phép sẽ bị phạt."
+        },
+        {
+          "en": "The cost of the project must not exceed two million dollars.",
+          "vi": "Chi phí của dự án không được vượt quá hai triệu đô la."
+        }
+      ],
+      "collocations": [
+        "exceed expectations",
+        "exceed the speed limit",
+        "far exceed"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈsiːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exc/excee/exceed__us_1.mp3"
+    },
+    {
+      "english": "expert",
+      "vietnamese": "chuyên gia",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Experts predict that housing prices will continue to rise next year.",
+          "vi": "Các chuyên gia dự đoán giá nhà sẽ tiếp tục tăng trong năm tới."
+        },
+        {
+          "en": "We asked an expert in tax law to review the contract.",
+          "vi": "Chúng tôi đã nhờ một chuyên gia về luật thuế xem xét hợp đồng."
+        },
+        {
+          "en": "She is a leading expert on climate change.",
+          "vi": "Bà ấy là một chuyên gia hàng đầu về biến đổi khí hậu."
+        }
+      ],
+      "collocations": [
+        "leading expert",
+        "expert on",
+        "expert in",
+        "independent expert"
+      ],
+      "notes": "expert on/in sth",
+      "ipa": "/ˈekspɜːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/exper/expert__us_1.mp3"
+    },
+    {
+      "english": "explicit",
+      "vietnamese": "rõ ràng; tường minh",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The instructions were explicit: no phones are allowed during the exam.",
+          "vi": "Hướng dẫn rất rõ ràng: không được dùng điện thoại trong giờ thi."
+        },
+        {
+          "en": "The contract makes no explicit reference to overtime pay.",
+          "vi": "Hợp đồng không đề cập rõ ràng đến tiền làm thêm giờ."
+        },
+        {
+          "en": "Teachers should make the learning goals explicit at the start of each lesson.",
+          "vi": "Giáo viên nên nêu rõ mục tiêu học tập ngay từ đầu mỗi bài học."
+        }
+      ],
+      "collocations": [
+        "explicit reference",
+        "explicit instructions",
+        "make explicit"
+      ],
+      "notes": "explicit (rõ ràng) ≠ implicit (ngầm)",
+      "ipa": "/ɪkˈsplɪsɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/expli/explicit__us_1.mp3"
+    },
+    {
+      "english": "federal",
+      "vietnamese": "(thuộc) liên bang",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The project received funding from the federal government.",
+          "vi": "Dự án đã nhận được tài trợ từ chính phủ liên bang."
+        },
+        {
+          "en": "Federal law requires employers to keep accurate records of working hours.",
+          "vi": "Luật liên bang yêu cầu người sử dụng lao động lưu giữ hồ sơ giờ làm việc chính xác."
+        },
+        {
+          "en": "Germany and Australia both have a federal system of government.",
+          "vi": "Cả Đức và Úc đều có hệ thống chính quyền liên bang."
+        }
+      ],
+      "collocations": [
+        "federal government",
+        "federal law",
+        "federal agency",
+        "federal funding"
+      ],
+      "notes": null,
+      "ipa": "/ˈfedərəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fed/feder/federal__us_1.mp3"
+    },
+    {
+      "english": "fee",
+      "vietnamese": "phí; lệ phí; học phí",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "University fees have risen sharply over the past decade.",
+          "vi": "Học phí đại học đã tăng mạnh trong mười năm qua."
+        },
+        {
+          "en": "There is a small fee for late registration.",
+          "vi": "Đăng ký muộn sẽ phải trả một khoản phí nhỏ."
+        },
+        {
+          "en": "The lawyer charges a fixed fee for each consultation.",
+          "vi": "Luật sư tính một khoản phí cố định cho mỗi buổi tư vấn."
+        }
+      ],
+      "collocations": [
+        "pay a fee",
+        "charge a fee",
+        "tuition fees",
+        "fixed fee"
+      ],
+      "notes": null,
+      "ipa": "/fiː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fee/fee__/fee__us_1.mp3"
+    },
+    {
+      "english": "flexible",
+      "vietnamese": "linh hoạt; mềm dẻo, dễ uốn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Many parents look for jobs with flexible working hours.",
+          "vi": "Nhiều bậc cha mẹ tìm những công việc có giờ làm việc linh hoạt."
+        },
+        {
+          "en": "Our plans are flexible, so we can change the date if needed.",
+          "vi": "Kế hoạch của chúng tôi khá linh hoạt nên có thể đổi ngày nếu cần."
+        },
+        {
+          "en": "The tube is made of a light, flexible plastic.",
+          "vi": "Chiếc ống được làm bằng loại nhựa nhẹ và dẻo."
+        }
+      ],
+      "collocations": [
+        "flexible working hours",
+        "flexible approach",
+        "highly flexible"
+      ],
+      "notes": null,
+      "ipa": "/ˈfleksəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fle/flexi/flexible__us_2.mp3"
+    },
+    {
+      "english": "furthermore",
+      "vietnamese": "hơn nữa; ngoài ra",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The plan is expensive; furthermore, there is little evidence that it works.",
+          "vi": "Kế hoạch này tốn kém; hơn nữa, có rất ít bằng chứng cho thấy nó hiệu quả."
+        },
+        {
+          "en": "Furthermore, it is unclear who will pay for the new system.",
+          "vi": "Ngoài ra, vẫn chưa rõ ai sẽ chi trả cho hệ thống mới."
+        },
+        {
+          "en": "The new route is shorter and furthermore avoids the city center.",
+          "vi": "Tuyến đường mới ngắn hơn và hơn nữa còn tránh được trung tâm thành phố."
+        }
+      ],
+      "collocations": [
+        "and furthermore",
+        "furthermore, it is"
+      ],
+      "notes": "Dùng trong văn viết trang trọng, thường đứng đầu câu",
+      "ipa": "/ˌfɜːrðərˈmɔːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fur/furth/furthermore__us_4.mp3"
+    },
+    {
+      "english": "gender",
+      "vietnamese": "giới tính; giới",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Participants in the study were grouped by age and gender.",
+          "vi": "Những người tham gia nghiên cứu được phân nhóm theo độ tuổi và giới tính."
+        },
+        {
+          "en": "The company is working to close the gender pay gap.",
+          "vi": "Công ty đang nỗ lực thu hẹp khoảng cách lương giữa các giới."
+        },
+        {
+          "en": "The survey found no significant gender differences in reading habits.",
+          "vi": "Cuộc khảo sát không tìm thấy khác biệt đáng kể nào giữa các giới về thói quen đọc."
+        }
+      ],
+      "collocations": [
+        "gender equality",
+        "gender differences",
+        "gender pay gap"
+      ],
+      "notes": null,
+      "ipa": "/ˈdʒendər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gen/gende/gender__us_1.mp3"
+    },
+    {
+      "english": "ignorant",
+      "vietnamese": "thiếu hiểu biết; không biết",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Many consumers are ignorant of their legal rights.",
+          "vi": "Nhiều người tiêu dùng không biết về các quyền hợp pháp của mình."
+        },
+        {
+          "en": "I felt completely ignorant during the discussion about tax law.",
+          "vi": "Tôi cảm thấy mình hoàn toàn thiếu hiểu biết trong cuộc thảo luận về luật thuế."
+        },
+        {
+          "en": "The survey shows that the public remains largely ignorant about the new policy.",
+          "vi": "Khảo sát cho thấy phần lớn công chúng vẫn không biết gì về chính sách mới."
+        }
+      ],
+      "collocations": [
+        "ignorant of",
+        "ignorant about",
+        "completely ignorant",
+        "largely ignorant"
+      ],
+      "notes": "ignorant of/about sth; ignorant (adj) ≠ ignore (v: phớt lờ)",
+      "ipa": "/ˈɪɡnərənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ign/ignor/ignorant__us_1.mp3"
+    },
+    {
+      "english": "incentive",
+      "vietnamese": "động lực; sự khuyến khích; ưu đãi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The government offers tax incentives to companies that invest in clean energy.",
+          "vi": "Chính phủ đưa ra các ưu đãi thuế cho những công ty đầu tư vào năng lượng sạch."
+        },
+        {
+          "en": "Workers have little incentive to stay late without extra pay.",
+          "vi": "Người lao động có rất ít động lực ở lại làm muộn nếu không được trả thêm tiền."
+        },
+        {
+          "en": "Free meals were offered as an incentive to attend the training.",
+          "vi": "Bữa ăn miễn phí được đưa ra như một sự khuyến khích để tham gia buổi tập huấn."
+        }
+      ],
+      "collocations": [
+        "tax incentive",
+        "financial incentive",
+        "incentive to",
+        "provide an incentive"
+      ],
+      "notes": "incentive to do sth / incentive for sb",
+      "ipa": "/ɪnˈsentɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inc/incen/incentive__us_1.mp3"
+    }
+  ]
+}

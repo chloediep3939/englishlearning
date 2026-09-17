@@ -1,0 +1,795 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.501–2.809 · Bộ 7",
+    "description": "New General Service List, thứ hạng 2.501–2.809",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-6-07"
+  },
+  "cards": [
+    {
+      "english": "reflection",
+      "vietnamese": "hình ảnh phản chiếu; sự suy ngẫm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She could see her reflection in the shop window.",
+          "vi": "Cô ấy có thể thấy hình ảnh phản chiếu của mình trên cửa kính cửa hàng."
+        },
+        {
+          "en": "The reflection of the mountains in the lake was beautiful.",
+          "vi": "Hình ảnh phản chiếu của những ngọn núi trên mặt hồ thật đẹp."
+        },
+        {
+          "en": "After careful reflection, I decided to accept the job offer.",
+          "vi": "Sau khi suy ngẫm kỹ, tôi quyết định nhận lời mời làm việc."
+        }
+      ],
+      "collocations": [
+        "careful reflection",
+        "on reflection",
+        "a moment of reflection"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈflekʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ref/refle/reflection__us_1.mp3"
+    },
+    {
+      "english": "nerve",
+      "vietnamese": "dây thần kinh; sự can đảm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The accident caused nerve damage in his left hand.",
+          "vi": "Vụ tai nạn đã gây tổn thương dây thần kinh ở tay trái của anh ấy."
+        },
+        {
+          "en": "I finally found the nerve to ask for a raise.",
+          "vi": "Cuối cùng tôi cũng đủ can đảm để xin tăng lương."
+        },
+        {
+          "en": "She lost her nerve at the last minute and didn't jump.",
+          "vi": "Cô ấy mất hết can đảm vào phút cuối và không nhảy."
+        }
+      ],
+      "collocations": [
+        "nerve damage",
+        "lose your nerve",
+        "have the nerve to"
+      ],
+      "notes": "get on someone's nerves = làm ai phát bực",
+      "ipa": "/nɜːrv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/ner/nerve/nerve__us_1.mp3"
+    },
+    {
+      "english": "determination",
+      "vietnamese": "sự quyết tâm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Her determination to finish the marathon impressed everyone.",
+          "vi": "Quyết tâm hoàn thành cuộc chạy marathon của cô ấy khiến mọi người ấn tượng."
+        },
+        {
+          "en": "With hard work and determination, you can learn any language.",
+          "vi": "Với sự chăm chỉ và quyết tâm, bạn có thể học bất kỳ ngôn ngữ nào."
+        },
+        {
+          "en": "He showed great determination while recovering from his injury.",
+          "vi": "Anh ấy đã thể hiện quyết tâm lớn trong lúc hồi phục sau chấn thương."
+        }
+      ],
+      "collocations": [
+        "great determination",
+        "show determination",
+        "determination to succeed"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/dɪˌtɜːrmɪˈneɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/det/deter/determination__us_1.mp3"
+    },
+    {
+      "english": "altogether",
+      "vietnamese": "hoàn toàn; tổng cộng",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The meal cost us sixty dollars altogether, including the tip.",
+          "vi": "Bữa ăn tốn của chúng tôi tổng cộng sáu mươi đô la, tính cả tiền boa."
+        },
+        {
+          "en": "There were twenty people at the party altogether.",
+          "vi": "Có tổng cộng hai mươi người tại bữa tiệc."
+        },
+        {
+          "en": "My grandfather used to smoke, but he's stopped altogether.",
+          "vi": "Ông tôi từng hút thuốc, nhưng giờ ông đã bỏ hẳn."
+        }
+      ],
+      "collocations": [
+        "stop altogether",
+        "disappear altogether",
+        "not altogether"
+      ],
+      "notes": "altogether (hoàn toàn) ≠ all together (tất cả cùng nhau)",
+      "ipa": "/ˌɔːltəˈɡeðər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/alt/altog/altogether__us_1_rr.mp3"
+    },
+    {
+      "english": "fiction",
+      "vietnamese": "truyện hư cấu, tiểu thuyết; điều bịa đặt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I prefer reading fiction to reading history books.",
+          "vi": "Tôi thích đọc truyện hư cấu hơn đọc sách lịch sử."
+        },
+        {
+          "en": "She has written several works of science fiction.",
+          "vi": "Cô ấy đã viết một vài tác phẩm khoa học viễn tưởng."
+        },
+        {
+          "en": "His story about meeting a famous singer was pure fiction.",
+          "vi": "Câu chuyện anh ta kể về việc gặp một ca sĩ nổi tiếng hoàn toàn là bịa đặt."
+        }
+      ],
+      "collocations": [
+        "science fiction",
+        "a work of fiction",
+        "pure fiction"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈfɪkʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fic/ficti/fiction__us_2.mp3"
+    },
+    {
+      "english": "carpet",
+      "vietnamese": "tấm thảm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Could you vacuum the carpet before our guests arrive tonight?",
+          "vi": "Bạn có thể hút bụi tấm thảm trước khi khách đến tối nay không?"
+        },
+        {
+          "en": "We bought a new carpet for the living room.",
+          "vi": "Chúng tôi đã mua một tấm thảm mới cho phòng khách."
+        },
+        {
+          "en": "The cat is sleeping on the carpet near the fireplace.",
+          "vi": "Con mèo đang ngủ trên tấm thảm gần lò sưởi."
+        }
+      ],
+      "collocations": [
+        "vacuum the carpet",
+        "thick carpet",
+        "red carpet"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːrpɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/car/carpe/carpet__us_1.mp3"
+    },
+    {
+      "english": "cluster",
+      "vietnamese": "cụm, chùm; nhóm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A small cluster of houses stood at the foot of the hill.",
+          "vi": "Một cụm nhà nhỏ nằm dưới chân đồi."
+        },
+        {
+          "en": "Students gathered in small clusters around the notice board.",
+          "vi": "Học sinh tụ tập thành từng nhóm nhỏ quanh bảng thông báo."
+        },
+        {
+          "en": "In our garden, the grapes grow in large clusters every summer.",
+          "vi": "Trong vườn nhà chúng tôi, nho mọc thành từng chùm lớn mỗi mùa hè."
+        }
+      ],
+      "collocations": [
+        "a cluster of",
+        "small cluster",
+        "in clusters"
+      ],
+      "notes": null,
+      "ipa": "/ˈklʌstər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/clu/clust/cluster__us_1.mp3"
+    },
+    {
+      "english": "confusion",
+      "vietnamese": "sự nhầm lẫn; sự bối rối",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There was some confusion about the time of the meeting.",
+          "vi": "Đã có chút nhầm lẫn về giờ họp."
+        },
+        {
+          "en": "To avoid confusion, please write your name on your bag.",
+          "vi": "Để tránh nhầm lẫn, hãy viết tên bạn lên túi."
+        },
+        {
+          "en": "She looked at me in confusion when I spoke French.",
+          "vi": "Cô ấy nhìn tôi đầy bối rối khi tôi nói tiếng Pháp."
+        }
+      ],
+      "collocations": [
+        "avoid confusion",
+        "cause confusion",
+        "confusion about"
+      ],
+      "notes": null,
+      "ipa": "/kənˈfjuːʒn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconf/xconfusion__us_1.mp3"
+    },
+    {
+      "english": "hurry",
+      "vietnamese": "vội vàng, khẩn trương",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We need to hurry or we'll miss the bus.",
+          "vi": "Chúng ta phải nhanh lên, không thì sẽ lỡ xe buýt."
+        },
+        {
+          "en": "Hurry up, the movie starts in ten minutes!",
+          "vi": "Nhanh lên, phim bắt đầu trong mười phút nữa!"
+        },
+        {
+          "en": "She hurried home when it started to rain.",
+          "vi": "Cô ấy vội vã về nhà khi trời bắt đầu mưa."
+        }
+      ],
+      "collocations": [
+        "hurry up",
+        "hurry home",
+        "hurry back"
+      ],
+      "notes": "in a hurry = đang vội",
+      "ipa": "/ˈhɜːri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hur/hurry/hurry__us_1.mp3"
+    },
+    {
+      "english": "logic",
+      "vietnamese": "logic; lý lẽ hợp lý",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I don't understand the logic behind this decision.",
+          "vi": "Tôi không hiểu logic đằng sau quyết định này."
+        },
+        {
+          "en": "There is no logic in paying more for the same product.",
+          "vi": "Chẳng có lý gì khi trả nhiều tiền hơn cho cùng một sản phẩm."
+        },
+        {
+          "en": "His argument sounds good, but the logic is weak.",
+          "vi": "Lập luận của anh ấy nghe có vẻ hay, nhưng logic thì yếu."
+        }
+      ],
+      "collocations": [
+        "the logic behind",
+        "simple logic",
+        "follow the logic"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈlɑːdʒɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/log/logic/logic__us_1.mp3"
+    },
+    {
+      "english": "controversial",
+      "vietnamese": "gây tranh cãi",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Whether to allow phones in class is a controversial issue.",
+          "vi": "Có nên cho phép dùng điện thoại trong lớp hay không là một vấn đề gây tranh cãi."
+        },
+        {
+          "en": "The movie's ending was quite controversial among fans.",
+          "vi": "Cái kết của bộ phim khá gây tranh cãi trong giới người hâm mộ."
+        },
+        {
+          "en": "The referee made a controversial decision in the final minute.",
+          "vi": "Trọng tài đã đưa ra một quyết định gây tranh cãi ở phút cuối."
+        }
+      ],
+      "collocations": [
+        "controversial issue",
+        "controversial decision",
+        "highly controversial"
+      ],
+      "notes": null,
+      "ipa": "/ˌkɑːntrəˈvɜːrʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontroversial__us_1.mp3"
+    },
+    {
+      "english": "raw",
+      "vietnamese": "sống, chưa nấu chín; thô, chưa qua chế biến",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "You shouldn't eat raw chicken because it can make you sick.",
+          "vi": "Bạn không nên ăn thịt gà sống vì nó có thể làm bạn bị bệnh."
+        },
+        {
+          "en": "I like to add raw carrots to my salad.",
+          "vi": "Tôi thích cho cà rốt sống vào món salad."
+        },
+        {
+          "en": "The factory imports raw materials from several countries.",
+          "vi": "Nhà máy nhập khẩu nguyên liệu thô từ một vài quốc gia."
+        }
+      ],
+      "collocations": [
+        "raw materials",
+        "raw meat",
+        "raw fish"
+      ],
+      "notes": null,
+      "ipa": "/rɔː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/raw/raw__/raw__us_1.mp3"
+    },
+    {
+      "english": "grammar",
+      "vietnamese": "ngữ pháp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My English grammar is good, but my pronunciation needs work.",
+          "vi": "Ngữ pháp tiếng Anh của tôi tốt, nhưng phát âm thì cần cải thiện."
+        },
+        {
+          "en": "The teacher corrected the grammar mistakes in my essay.",
+          "vi": "Giáo viên đã sửa các lỗi ngữ pháp trong bài luận của tôi."
+        },
+        {
+          "en": "Do you have a good grammar book for beginners?",
+          "vi": "Bạn có cuốn sách ngữ pháp nào tốt cho người mới bắt đầu không?"
+        }
+      ],
+      "collocations": [
+        "English grammar",
+        "grammar mistake",
+        "grammar book",
+        "grammar rules"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈɡræmər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gra/gramm/grammar__us_1.mp3"
+    },
+    {
+      "english": "revise",
+      "vietnamese": "sửa lại, điều chỉnh; ôn tập",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I revised my essay three times before handing it in.",
+          "vi": "Tôi đã sửa lại bài luận ba lần trước khi nộp."
+        },
+        {
+          "en": "The company has revised its prices for next year.",
+          "vi": "Công ty đã điều chỉnh giá cho năm tới."
+        },
+        {
+          "en": "I need to revise for my history exam tomorrow.",
+          "vi": "Tôi cần ôn bài cho kỳ thi lịch sử ngày mai."
+        }
+      ],
+      "collocations": [
+        "revise for",
+        "revise a plan",
+        "revised version"
+      ],
+      "notes": "nghĩa \"ôn tập\" dùng ở Anh; Mỹ dùng review/study",
+      "ipa": "/rɪˈvaɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rev/revis/revise__us_3.mp3"
+    },
+    {
+      "english": "hint",
+      "vietnamese": "lời gợi ý; chút, dấu hiệu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "If you can't guess the answer, I'll give you a hint.",
+          "vi": "Nếu bạn không đoán ra đáp án, tôi sẽ gợi ý cho bạn."
+        },
+        {
+          "en": "He dropped a hint that he wanted a new bike for his birthday.",
+          "vi": "Cậu ấy bóng gió rằng mình muốn có một chiếc xe đạp mới vào dịp sinh nhật."
+        },
+        {
+          "en": "There was a hint of sadness in her voice.",
+          "vi": "Trong giọng nói của cô ấy có chút buồn."
+        }
+      ],
+      "collocations": [
+        "give a hint",
+        "drop a hint",
+        "a hint of"
+      ],
+      "notes": null,
+      "ipa": "/hɪnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hin/hint_/hint__us_1.mp3"
+    },
+    {
+      "english": "hook",
+      "vietnamese": "cái móc; lưỡi câu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Hang your coat on the hook behind the door.",
+          "vi": "Hãy treo áo khoác lên cái móc sau cánh cửa."
+        },
+        {
+          "en": "My father put a small worm on the fishing hook.",
+          "vi": "Bố tôi móc một con giun nhỏ vào lưỡi câu."
+        },
+        {
+          "en": "There are three hooks by the door for our keys.",
+          "vi": "Có ba cái móc cạnh cửa để treo chìa khóa của chúng tôi."
+        }
+      ],
+      "collocations": [
+        "coat hook",
+        "fishing hook",
+        "on a hook"
+      ],
+      "notes": "let someone off the hook = tha cho ai",
+      "ipa": "/hʊk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hoo/hook_/hook__us_1.mp3"
+    },
+    {
+      "english": "bell",
+      "vietnamese": "cái chuông; tiếng chuông",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The school bell rings at seven thirty every morning.",
+          "vi": "Chuông trường reo lúc bảy giờ ba mươi mỗi sáng."
+        },
+        {
+          "en": "Someone rang the bell, so I went to open the door.",
+          "vi": "Có người bấm chuông nên tôi ra mở cửa."
+        },
+        {
+          "en": "Our cat wears a tiny bell around its neck.",
+          "vi": "Con mèo của chúng tôi đeo một cái chuông nhỏ quanh cổ."
+        }
+      ],
+      "collocations": [
+        "ring the bell",
+        "school bell",
+        "the bell rings"
+      ],
+      "notes": null,
+      "ipa": "/bel/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bel/bell_/bell__us_1.mp3"
+    },
+    {
+      "english": "liquid",
+      "vietnamese": "chất lỏng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The bottle was filled with a clear liquid that smelled like lemons.",
+          "vi": "Cái chai chứa đầy một chất lỏng trong suốt có mùi chanh."
+        },
+        {
+          "en": "You can't bring large bottles of liquid onto the plane.",
+          "vi": "Bạn không được mang những chai chất lỏng lớn lên máy bay."
+        },
+        {
+          "en": "Drink plenty of liquids when you have a fever.",
+          "vi": "Khi bị sốt, bạn nên uống nhiều chất lỏng."
+        }
+      ],
+      "collocations": [
+        "clear liquid",
+        "plenty of liquids"
+      ],
+      "notes": null,
+      "ipa": "/ˈlɪkwɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/liq/liqui/liquid__us_3.mp3"
+    },
+    {
+      "english": "panic",
+      "vietnamese": "hoảng sợ, hoảng loạn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Don't panic, we still have plenty of time to catch the train.",
+          "vi": "Đừng hoảng, chúng ta vẫn còn nhiều thời gian để kịp chuyến tàu."
+        },
+        {
+          "en": "She panicked when she couldn't find her passport at the airport.",
+          "vi": "Cô ấy hoảng hốt khi không tìm thấy hộ chiếu ở sân bay."
+        },
+        {
+          "en": "People started to panic when the lights suddenly went out.",
+          "vi": "Mọi người bắt đầu hoảng loạn khi đèn đột nhiên tắt."
+        }
+      ],
+      "collocations": [
+        "don't panic",
+        "start to panic",
+        "in a panic"
+      ],
+      "notes": "panic – panicked – panicked",
+      "ipa": "/ˈpænɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pan/panic/panic__us_1.mp3"
+    },
+    {
+      "english": "uncle",
+      "vietnamese": "chú, bác, cậu, dượng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My uncle lives on a farm in the countryside.",
+          "vi": "Chú tôi sống ở một trang trại dưới quê."
+        },
+        {
+          "en": "We're visiting my aunt and uncle this weekend.",
+          "vi": "Cuối tuần này chúng tôi sẽ đến thăm cô chú tôi."
+        },
+        {
+          "en": "Her uncle taught her how to ride a bike.",
+          "vi": "Cậu của cô ấy đã dạy cô ấy đi xe đạp."
+        }
+      ],
+      "collocations": [
+        "aunt and uncle",
+        "favorite uncle"
+      ],
+      "notes": null,
+      "ipa": "/ˈʌŋkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/unc/uncle/uncle__us_1.mp3"
+    },
+    {
+      "english": "rice",
+      "vietnamese": "gạo; cơm; lúa",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We eat rice with almost every meal at home.",
+          "vi": "Ở nhà, chúng tôi ăn cơm gần như mọi bữa."
+        },
+        {
+          "en": "My grandparents grow rice in the fields near their village.",
+          "vi": "Ông bà tôi trồng lúa trên những cánh đồng gần làng."
+        },
+        {
+          "en": "Could you buy a bag of rice on your way home?",
+          "vi": "Bạn mua giúp một bao gạo trên đường về nhà được không?"
+        }
+      ],
+      "collocations": [
+        "grow rice",
+        "a bowl of rice",
+        "fried rice",
+        "a bag of rice"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/raɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ric/rice_/rice__us_1.mp3"
+    },
+    {
+      "english": "slope",
+      "vietnamese": "con dốc; sườn đồi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We walked slowly up the steep slope to the top.",
+          "vi": "Chúng tôi chậm rãi đi bộ lên con dốc đứng để lên tới đỉnh."
+        },
+        {
+          "en": "Their house sits on a gentle slope overlooking the river.",
+          "vi": "Ngôi nhà của họ nằm trên một sườn đồi thoai thoải nhìn ra sông."
+        },
+        {
+          "en": "Beginners should practice skiing on the easier slopes first.",
+          "vi": "Người mới bắt đầu nên tập trượt tuyết ở những con dốc dễ hơn trước."
+        }
+      ],
+      "collocations": [
+        "steep slope",
+        "gentle slope",
+        "ski slope"
+      ],
+      "notes": null,
+      "ipa": "/sləʊp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/slo/slope/slope__us_1.mp3"
+    },
+    {
+      "english": "happiness",
+      "vietnamese": "hạnh phúc, niềm vui",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Many people believe that money can't buy happiness.",
+          "vi": "Nhiều người tin rằng tiền không mua được hạnh phúc."
+        },
+        {
+          "en": "Her face was full of happiness when she saw her family.",
+          "vi": "Gương mặt cô ấy tràn đầy hạnh phúc khi thấy gia đình mình."
+        },
+        {
+          "en": "We wish you both a lifetime of happiness together.",
+          "vi": "Chúng tôi chúc hai bạn trọn đời hạnh phúc bên nhau."
+        }
+      ],
+      "collocations": [
+        "buy happiness",
+        "true happiness",
+        "bring happiness"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈhæpinəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hap/happi/happiness__us_1.mp3"
+    },
+    {
+      "english": "genuine",
+      "vietnamese": "thật, chính hãng; chân thành",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Is this bag made of genuine leather?",
+          "vi": "Chiếc túi này làm bằng da thật phải không?"
+        },
+        {
+          "en": "She showed genuine interest in my ideas.",
+          "vi": "Cô ấy thể hiện sự quan tâm thật lòng đến ý tưởng của tôi."
+        },
+        {
+          "en": "He seems like a genuine person who really cares about others.",
+          "vi": "Anh ấy có vẻ là một người chân thành, thật sự quan tâm đến người khác."
+        }
+      ],
+      "collocations": [
+        "genuine leather",
+        "genuine interest",
+        "genuine concern"
+      ],
+      "notes": null,
+      "ipa": "/ˈdʒenjuɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gen/genui/genuine__us_1.mp3"
+    },
+    {
+      "english": "vessel",
+      "vietnamese": "tàu, thuyền; mạch máu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The fishing vessel returned to port after a week at sea.",
+          "vi": "Tàu cá đã quay về cảng sau một tuần lênh đênh trên biển."
+        },
+        {
+          "en": "A large cargo vessel was waiting outside the harbor.",
+          "vi": "Một tàu chở hàng lớn đang chờ bên ngoài bến cảng."
+        },
+        {
+          "en": "Exercise helps keep your heart and blood vessels healthy.",
+          "vi": "Tập thể dục giúp tim và mạch máu của bạn khỏe mạnh."
+        }
+      ],
+      "collocations": [
+        "fishing vessel",
+        "cargo vessel",
+        "blood vessel"
+      ],
+      "notes": null,
+      "ipa": "/ˈvesl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/ves/vesse/vessel__us_1.mp3"
+    },
+    {
+      "english": "verb",
+      "vietnamese": "động từ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "In this sentence, \"run\" is used as a verb.",
+          "vi": "Trong câu này, \"run\" được dùng như một động từ."
+        },
+        {
+          "en": "Irregular verbs like \"go\" and \"take\" are hard to remember.",
+          "vi": "Các động từ bất quy tắc như \"go\" và \"take\" rất khó nhớ."
+        },
+        {
+          "en": "Remember to put the verb in the past tense.",
+          "vi": "Nhớ chia động từ ở thì quá khứ nhé."
+        }
+      ],
+      "collocations": [
+        "irregular verb",
+        "main verb",
+        "phrasal verb"
+      ],
+      "notes": null,
+      "ipa": "/vɜːrb/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/ver/verb_/verb__us_1.mp3"
+    },
+    {
+      "english": "reckon",
+      "vietnamese": "cho rằng, nghĩ; ước tính",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I reckon it's going to rain later this afternoon.",
+          "vi": "Tôi nghĩ chiều nay trời sẽ mưa."
+        },
+        {
+          "en": "Do you reckon she'll accept the job offer?",
+          "vi": "Bạn có nghĩ là cô ấy sẽ nhận lời mời làm việc không?"
+        },
+        {
+          "en": "The trip is reckoned to take about three hours by car.",
+          "vi": "Chuyến đi được ước tính mất khoảng ba tiếng bằng ô tô."
+        }
+      ],
+      "collocations": [
+        "I reckon",
+        "I reckon so"
+      ],
+      "notes": "thân mật, hay dùng trong văn nói",
+      "ipa": "/ˈrekən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rec/recko/reckon__us_1.mp3"
+    },
+    {
+      "english": "silly",
+      "vietnamese": "ngớ ngẩn, ngốc nghếch",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Sorry, I know it's a silly question, but where's the bathroom?",
+          "vi": "Xin lỗi, tôi biết đây là câu hỏi ngớ ngẩn, nhưng nhà vệ sinh ở đâu vậy?"
+        },
+        {
+          "en": "Don't be silly, you're always welcome at our house.",
+          "vi": "Đừng ngốc thế, bạn lúc nào cũng được chào đón ở nhà chúng tôi."
+        },
+        {
+          "en": "The kids were making silly faces at the camera.",
+          "vi": "Bọn trẻ đang làm mặt xấu trước ống kính."
+        }
+      ],
+      "collocations": [
+        "silly question",
+        "don't be silly",
+        "silly mistake",
+        "feel silly"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɪli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sil/silly/silly__us_2.mp3"
+    },
+    {
+      "english": "transportation",
+      "vietnamese": "giao thông vận tải; phương tiện đi lại",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Public transportation in this city is cheap and reliable.",
+          "vi": "Giao thông công cộng ở thành phố này rẻ và đáng tin cậy."
+        },
+        {
+          "en": "The price of the tour includes hotels and transportation.",
+          "vi": "Giá tour đã bao gồm khách sạn và phương tiện đi lại."
+        },
+        {
+          "en": "Bicycles are the main form of transportation for many students here.",
+          "vi": "Xe đạp là phương tiện đi lại chính của nhiều sinh viên ở đây."
+        }
+      ],
+      "collocations": [
+        "public transportation",
+        "means of transportation",
+        "form of transportation"
+      ],
+      "notes": "Mỹ: transportation · Anh: transport; không đếm được",
+      "ipa": "/ˌtrænspərˈteɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/trans/transportation__us_3.mp3"
+    }
+  ]
+}

@@ -1,0 +1,828 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.001–2.500 · Bộ 9",
+    "description": "New General Service List, thứ hạng 2.001–2.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-5-09"
+  },
+  "cards": [
+    {
+      "english": "smooth",
+      "vietnamese": "nhẵn, mịn; suôn sẻ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Her skin felt smooth after she used the new cream.",
+          "vi": "Da cô ấy trở nên mịn màng sau khi dùng loại kem mới."
+        },
+        {
+          "en": "The road was smooth, so the drive was very comfortable.",
+          "vi": "Mặt đường bằng phẳng nên lái xe rất êm."
+        },
+        {
+          "en": "The new manager helped ensure a smooth transition for the team.",
+          "vi": "Người quản lý mới đã giúp cả nhóm chuyển giao suôn sẻ."
+        }
+      ],
+      "collocations": [
+        "smooth surface",
+        "smooth skin",
+        "smooth transition"
+      ],
+      "notes": null,
+      "ipa": "/smuːð/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/smo/smoot/smooth__us_1.mp3"
+    },
+    {
+      "english": "intervention",
+      "vietnamese": "sự can thiệp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Early intervention can stop a small health problem from getting worse.",
+          "vi": "Can thiệp sớm có thể ngăn một vấn đề sức khỏe nhỏ trở nên nặng hơn."
+        },
+        {
+          "en": "The fight ended without any intervention from the teachers.",
+          "vi": "Cuộc ẩu đả kết thúc mà không cần giáo viên can thiệp."
+        },
+        {
+          "en": "The patient recovered quickly after surgical intervention.",
+          "vi": "Bệnh nhân hồi phục nhanh sau khi được can thiệp phẫu thuật."
+        }
+      ],
+      "collocations": [
+        "early intervention",
+        "government intervention",
+        "surgical intervention"
+      ],
+      "notes": null,
+      "ipa": "/ˌɪntərˈvenʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/inter/intervention__us_1.mp3"
+    },
+    {
+      "english": "impress",
+      "vietnamese": "gây ấn tượng; làm thán phục",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She wore a suit to impress the interviewers.",
+          "vi": "Cô ấy mặc vest để gây ấn tượng với những người phỏng vấn."
+        },
+        {
+          "en": "I was really impressed by how clean the hotel was.",
+          "vi": "Tôi thực sự ấn tượng vì khách sạn rất sạch sẽ."
+        },
+        {
+          "en": "His cooking skills never fail to impress his friends.",
+          "vi": "Tài nấu ăn của anh ấy luôn khiến bạn bè thán phục."
+        }
+      ],
+      "collocations": [
+        "try to impress",
+        "impressed by",
+        "fail to impress"
+      ],
+      "notes": "be impressed by/with: ấn tượng với",
+      "ipa": "/ɪmˈpres/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/imp/impre/impress__us_1.mp3"
+    },
+    {
+      "english": "exam",
+      "vietnamese": "kỳ thi; bài thi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I have to study hard for my math exam tomorrow.",
+          "vi": "Tôi phải học chăm chỉ cho bài thi toán ngày mai."
+        },
+        {
+          "en": "Did you pass your driving exam on your first try?",
+          "vi": "Bạn có đậu kỳ thi lái xe ngay lần đầu không?"
+        },
+        {
+          "en": "Students are not allowed to use phones during the exam.",
+          "vi": "Học sinh không được dùng điện thoại trong lúc làm bài thi."
+        }
+      ],
+      "collocations": [
+        "pass an exam",
+        "final exam",
+        "driving exam",
+        "exam results"
+      ],
+      "notes": null,
+      "ipa": "/ɪɡˈzæm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exa/exam_/exam__us_1.mp3"
+    },
+    {
+      "english": "vice",
+      "vietnamese": "thói xấu; tật xấu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Chocolate is my only vice, and I eat it every day.",
+          "vi": "Sô-cô-la là thói xấu duy nhất của tôi, và ngày nào tôi cũng ăn."
+        },
+        {
+          "en": "Smoking was his worst vice, but he finally quit.",
+          "vi": "Hút thuốc là tật xấu tệ nhất của anh ấy, nhưng cuối cùng anh ấy đã bỏ được."
+        },
+        {
+          "en": "Laziness is a vice that can hurt your career.",
+          "vi": "Lười biếng là một thói xấu có thể ảnh hưởng đến sự nghiệp của bạn."
+        }
+      ],
+      "collocations": [
+        "my only vice",
+        "virtue and vice"
+      ],
+      "notes": "vice- (tiền tố) = phó: vice president (phó chủ tịch)",
+      "ipa": "/vaɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/vic/vice_/vice__us_1.mp3"
+    },
+    {
+      "english": "radical",
+      "vietnamese": "triệt để, căn bản; cấp tiến",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The company needs radical changes to survive.",
+          "vi": "Công ty cần những thay đổi triệt để để tồn tại."
+        },
+        {
+          "en": "The new teacher took a radical approach to homework.",
+          "vi": "Thầy giáo mới có cách tiếp cận hoàn toàn mới đối với bài tập về nhà."
+        },
+        {
+          "en": "Some of his radical ideas surprised the older staff.",
+          "vi": "Một số ý tưởng cấp tiến của anh ấy khiến các nhân viên lớn tuổi bất ngờ."
+        }
+      ],
+      "collocations": [
+        "radical change",
+        "radical idea",
+        "radical approach",
+        "radical reform"
+      ],
+      "notes": null,
+      "ipa": "/ˈrædɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rad/radic/radical__us_1.mp3"
+    },
+    {
+      "english": "similarly",
+      "vietnamese": "tương tự; giống nhau",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The two sisters dress similarly and often look like twins.",
+          "vi": "Hai chị em ăn mặc giống nhau và thường trông như sinh đôi."
+        },
+        {
+          "en": "Prices rose last year, and similarly, rents went up sharply.",
+          "vi": "Giá cả tăng vào năm ngoái, và tương tự, tiền thuê nhà cũng tăng mạnh."
+        },
+        {
+          "en": "Cats and dogs sometimes behave similarly when they feel afraid.",
+          "vi": "Mèo và chó đôi khi cư xử giống nhau khi cảm thấy sợ."
+        }
+      ],
+      "collocations": [
+        "behave similarly",
+        "similarly dressed"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɪmələrli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sim/simil/similarly__us_1.mp3"
+    },
+    {
+      "english": "behave",
+      "vietnamese": "cư xử; hành xử",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The children behaved very well at the restaurant.",
+          "vi": "Bọn trẻ cư xử rất ngoan ở nhà hàng."
+        },
+        {
+          "en": "Please behave yourself when your grandparents visit.",
+          "vi": "Con hãy ngoan ngoãn khi ông bà đến chơi nhé."
+        },
+        {
+          "en": "He behaved badly at the party and later apologized.",
+          "vi": "Anh ấy cư xử tệ ở bữa tiệc và sau đó đã xin lỗi."
+        }
+      ],
+      "collocations": [
+        "behave well",
+        "behave badly",
+        "behave yourself"
+      ],
+      "notes": null,
+      "ipa": "/bɪˈheɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/beh/behav/behave__us_2.mp3"
+    },
+    {
+      "english": "loud",
+      "vietnamese": "to, lớn (âm thanh); ồn ào",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The music at the party was too loud for me.",
+          "vi": "Nhạc ở bữa tiệc quá to đối với tôi."
+        },
+        {
+          "en": "We heard a loud noise coming from the kitchen.",
+          "vi": "Chúng tôi nghe thấy một tiếng động lớn phát ra từ nhà bếp."
+        },
+        {
+          "en": "Our neighbors are very loud late at night.",
+          "vi": "Hàng xóm nhà tôi rất ồn ào vào đêm khuya."
+        }
+      ],
+      "collocations": [
+        "loud noise",
+        "loud music",
+        "loud voice",
+        "out loud"
+      ],
+      "notes": "read out loud: đọc to",
+      "ipa": "/laʊd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lou/loud_/loud__us_1.mp3"
+    },
+    {
+      "english": "dimension",
+      "vietnamese": "kích thước; khía cạnh; chiều",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please measure the dimensions of the room before buying a sofa.",
+          "vi": "Hãy đo kích thước căn phòng trước khi mua ghế sofa."
+        },
+        {
+          "en": "Having a baby added a new dimension to their lives.",
+          "vi": "Việc có con đã mang lại một khía cạnh mới cho cuộc sống của họ."
+        },
+        {
+          "en": "The film looks amazing in three dimensions.",
+          "vi": "Bộ phim trông tuyệt vời khi xem ở dạng ba chiều."
+        }
+      ],
+      "collocations": [
+        "new dimension",
+        "three dimensions",
+        "exact dimensions"
+      ],
+      "notes": null,
+      "ipa": "/daɪˈmenʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dim/dimen/dimension__us_1.mp3"
+    },
+    {
+      "english": "subsequent",
+      "vietnamese": "sau đó; tiếp theo",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The shop did well in its first year and in subsequent years.",
+          "vi": "Cửa hàng làm ăn tốt trong năm đầu và cả những năm sau đó."
+        },
+        {
+          "en": "Subsequent events proved that she had made the right choice.",
+          "vi": "Những sự việc sau đó chứng minh rằng cô ấy đã lựa chọn đúng."
+        },
+        {
+          "en": "The report and the subsequent discussion took most of the meeting.",
+          "vi": "Bản báo cáo và cuộc thảo luận sau đó chiếm gần hết buổi họp."
+        }
+      ],
+      "collocations": [
+        "subsequent years",
+        "subsequent events",
+        "subsequent to"
+      ],
+      "notes": "subsequent to = sau khi",
+      "ipa": "/ˈsʌbsɪkwənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sub/subse/subsequent__us_1.mp3"
+    },
+    {
+      "english": "infection",
+      "vietnamese": "sự nhiễm trùng; bệnh nhiễm trùng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Wash the cut carefully to prevent infection.",
+          "vi": "Hãy rửa vết cắt thật kỹ để tránh nhiễm trùng."
+        },
+        {
+          "en": "She missed a week of school because of an ear infection.",
+          "vi": "Cô bé nghỉ học một tuần vì bị viêm tai."
+        },
+        {
+          "en": "Hand washing lowers the risk of infection in hospitals.",
+          "vi": "Rửa tay giúp giảm nguy cơ nhiễm trùng trong bệnh viện."
+        }
+      ],
+      "collocations": [
+        "ear infection",
+        "risk of infection",
+        "prevent infection",
+        "viral infection"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈfekʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inf/infec/infection__us_3.mp3"
+    },
+    {
+      "english": "jacket",
+      "vietnamese": "áo khoác",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Take a jacket because it gets cold in the evening.",
+          "vi": "Mang theo áo khoác đi vì buổi tối trời sẽ lạnh."
+        },
+        {
+          "en": "He bought a leather jacket at the market.",
+          "vi": "Anh ấy mua một chiếc áo khoác da ở chợ."
+        },
+        {
+          "en": "She took off her jacket and hung it by the door.",
+          "vi": "Cô ấy cởi áo khoác và treo nó cạnh cửa."
+        }
+      ],
+      "collocations": [
+        "leather jacket",
+        "put on a jacket",
+        "life jacket"
+      ],
+      "notes": "life jacket: áo phao",
+      "ipa": "/ˈdʒækɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/j/jac/jacke/jacket__us_1.mp3"
+    },
+    {
+      "english": "efficiency",
+      "vietnamese": "hiệu quả; hiệu suất",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new software has improved the efficiency of our office.",
+          "vi": "Phần mềm mới đã nâng cao hiệu quả làm việc của văn phòng chúng tôi."
+        },
+        {
+          "en": "This fridge is known for its high energy efficiency.",
+          "vi": "Chiếc tủ lạnh này nổi tiếng vì hiệu suất năng lượng cao."
+        },
+        {
+          "en": "She works with great speed and efficiency.",
+          "vi": "Cô ấy làm việc rất nhanh và hiệu quả."
+        }
+      ],
+      "collocations": [
+        "energy efficiency",
+        "improve efficiency",
+        "fuel efficiency"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ɪˈfɪʃnsi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eff/effic/efficiency__us_1.mp3"
+    },
+    {
+      "english": "dirty",
+      "vietnamese": "bẩn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Put your dirty clothes in the washing machine.",
+          "vi": "Hãy bỏ quần áo bẩn vào máy giặt."
+        },
+        {
+          "en": "The kids came home with dirty hands and muddy shoes.",
+          "vi": "Bọn trẻ về nhà với đôi tay bẩn và giày dính đầy bùn."
+        },
+        {
+          "en": "Nobody wants to wash the dirty dishes after dinner.",
+          "vi": "Chẳng ai muốn rửa bát đĩa bẩn sau bữa tối."
+        }
+      ],
+      "collocations": [
+        "dirty clothes",
+        "dirty dishes",
+        "dirty water",
+        "get dirty"
+      ],
+      "notes": null,
+      "ipa": "/ˈdɜːrti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dir/dirty/dirty__us_1.mp3"
+    },
+    {
+      "english": "statistic",
+      "vietnamese": "số liệu thống kê",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Statistics show that more people are working from home.",
+          "vi": "Số liệu thống kê cho thấy ngày càng nhiều người làm việc tại nhà."
+        },
+        {
+          "en": "One surprising statistic is that most accidents happen near home.",
+          "vi": "Một số liệu đáng ngạc nhiên là phần lớn tai nạn xảy ra gần nhà."
+        },
+        {
+          "en": "The report includes the latest statistics on tourism in the region.",
+          "vi": "Bản báo cáo có các số liệu thống kê mới nhất về du lịch trong khu vực."
+        }
+      ],
+      "collocations": [
+        "statistics show",
+        "official statistics",
+        "latest statistics"
+      ],
+      "notes": "thường dùng số nhiều: statistics",
+      "ipa": "/stəˈtɪstɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sta/stati/statistic__us_2.mp3"
+    },
+    {
+      "english": "regularly",
+      "vietnamese": "thường xuyên; đều đặn",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "You should exercise regularly to stay healthy.",
+          "vi": "Bạn nên tập thể dục đều đặn để giữ sức khỏe."
+        },
+        {
+          "en": "We regularly visit our grandparents on Sundays.",
+          "vi": "Chúng tôi thường xuyên đến thăm ông bà vào Chủ nhật."
+        },
+        {
+          "en": "Remember to check the oil in your car regularly.",
+          "vi": "Hãy nhớ kiểm tra dầu xe ô tô thường xuyên."
+        }
+      ],
+      "collocations": [
+        "exercise regularly",
+        "meet regularly",
+        "regularly visit"
+      ],
+      "notes": null,
+      "ipa": "/ˈreɡjələrli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regul/regularly__us_1.mp3"
+    },
+    {
+      "english": "resort",
+      "vietnamese": "khu nghỉ dưỡng; giải pháp (cuối cùng)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We stayed at a beach resort for our honeymoon.",
+          "vi": "Chúng tôi ở một khu nghỉ dưỡng ven biển trong tuần trăng mật."
+        },
+        {
+          "en": "The ski resort is busiest in January and February.",
+          "vi": "Khu nghỉ dưỡng trượt tuyết đông khách nhất vào tháng Một và tháng Hai."
+        },
+        {
+          "en": "Borrowing money from my parents is a last resort.",
+          "vi": "Vay tiền bố mẹ là giải pháp cuối cùng của tôi."
+        }
+      ],
+      "collocations": [
+        "beach resort",
+        "ski resort",
+        "holiday resort",
+        "last resort"
+      ],
+      "notes": "resort to sth (v): buộc phải dùng đến",
+      "ipa": "/rɪˈzɔːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/resor/resort__us_1.mp3"
+    },
+    {
+      "english": "iron",
+      "vietnamese": "sắt; bàn là",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Spinach and red meat are rich in iron.",
+          "vi": "Rau chân vịt và thịt đỏ rất giàu chất sắt."
+        },
+        {
+          "en": "The old gate is made of iron and is very heavy.",
+          "vi": "Chiếc cổng cũ được làm bằng sắt và rất nặng."
+        },
+        {
+          "en": "Be careful, because the iron is still hot.",
+          "vi": "Cẩn thận nhé, vì bàn là vẫn còn nóng."
+        }
+      ],
+      "collocations": [
+        "rich in iron",
+        "cast iron",
+        "steam iron"
+      ],
+      "notes": "iron (v): là, ủi quần áo",
+      "ipa": "/ˈaɪərn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/iro/iron_/iron__us_2.mp3"
+    },
+    {
+      "english": "broadcast",
+      "vietnamese": "phát sóng; truyền hình, phát thanh",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The final match will be broadcast live on TV.",
+          "vi": "Trận chung kết sẽ được phát sóng trực tiếp trên TV."
+        },
+        {
+          "en": "The radio station broadcasts news every hour.",
+          "vi": "Đài phát thanh phát tin tức mỗi giờ."
+        },
+        {
+          "en": "They broadcast the concert on the internet last night.",
+          "vi": "Tối qua họ đã phát sóng buổi hòa nhạc trên mạng."
+        }
+      ],
+      "collocations": [
+        "broadcast live",
+        "broadcast news",
+        "broadcast on television"
+      ],
+      "notes": "broadcast – broadcast – broadcast",
+      "ipa": "/ˈbrɔːdkæst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bro/broad/broadcast__us_1.mp3"
+    },
+    {
+      "english": "membership",
+      "vietnamese": "tư cách thành viên; hội viên",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My gym membership costs thirty dollars a month.",
+          "vi": "Phí hội viên phòng gym của tôi là ba mươi đô la mỗi tháng."
+        },
+        {
+          "en": "She renewed her library membership last week.",
+          "vi": "Tuần trước cô ấy đã gia hạn thẻ thành viên thư viện."
+        },
+        {
+          "en": "Membership in the club is open to anyone over eighteen.",
+          "vi": "Bất kỳ ai trên mười tám tuổi đều có thể trở thành thành viên câu lạc bộ."
+        }
+      ],
+      "collocations": [
+        "gym membership",
+        "membership fee",
+        "membership card"
+      ],
+      "notes": null,
+      "ipa": "/ˈmembərʃɪp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mem/membe/membership__us_1.mp3"
+    },
+    {
+      "english": "bread",
+      "vietnamese": "bánh mì",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I buy fresh bread from the bakery every morning.",
+          "vi": "Sáng nào tôi cũng mua bánh mì tươi ở tiệm bánh."
+        },
+        {
+          "en": "Could you pass me a slice of bread, please?",
+          "vi": "Bạn đưa giúp tôi một lát bánh mì được không?"
+        },
+        {
+          "en": "My grandmother used to bake bread at home.",
+          "vi": "Bà tôi từng tự nướng bánh mì ở nhà."
+        }
+      ],
+      "collocations": [
+        "fresh bread",
+        "slice of bread",
+        "loaf of bread",
+        "bake bread"
+      ],
+      "notes": "không đếm được: a slice/loaf of bread",
+      "ipa": "/bred/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bre/bread/bread__us_1.mp3"
+    },
+    {
+      "english": "blind",
+      "vietnamese": "mù; không nhận ra",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The blind man crossed the street with his guide dog.",
+          "vi": "Người đàn ông khiếm thị băng qua đường cùng chú chó dẫn đường."
+        },
+        {
+          "en": "My grandfather is blind in one eye.",
+          "vi": "Ông tôi bị mù một bên mắt."
+        },
+        {
+          "en": "She was blind to her son's faults.",
+          "vi": "Bà ấy không nhận ra lỗi lầm của con trai mình."
+        }
+      ],
+      "collocations": [
+        "go blind",
+        "blind in one eye",
+        "blind to"
+      ],
+      "notes": "blind (n): rèm cửa sổ",
+      "ipa": "/blaɪnd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bli/blind/blind__us_1.mp3"
+    },
+    {
+      "english": "pure",
+      "vietnamese": "nguyên chất, tinh khiết; hoàn toàn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "This sweater is made of pure wool.",
+          "vi": "Chiếc áo len này làm từ len nguyên chất."
+        },
+        {
+          "en": "The water from the mountain spring is clean and pure.",
+          "vi": "Nước từ suối trên núi sạch và tinh khiết."
+        },
+        {
+          "en": "We met again at the airport by pure chance.",
+          "vi": "Chúng tôi gặp lại nhau ở sân bay hoàn toàn tình cờ."
+        }
+      ],
+      "collocations": [
+        "pure water",
+        "pure gold",
+        "pure chance",
+        "pure luck"
+      ],
+      "notes": null,
+      "ipa": "/pjʊr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pur/pure_/pure__us_1.mp3"
+    },
+    {
+      "english": "bloody",
+      "vietnamese": "chảy máu, dính máu; (Anh, khẩu ngữ) chết tiệt",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "He got a bloody nose playing football at school.",
+          "vi": "Cậu ấy bị chảy máu mũi khi chơi bóng đá ở trường."
+        },
+        {
+          "en": "The nurse cleaned the bloody cut on her knee.",
+          "vi": "Y tá lau sạch vết cắt đang chảy máu trên đầu gối cô ấy."
+        },
+        {
+          "en": "This bloody printer has stopped working again!",
+          "vi": "Cái máy in chết tiệt này lại hỏng nữa rồi!"
+        }
+      ],
+      "collocations": [
+        "bloody nose",
+        "bloody battle"
+      ],
+      "notes": "Nghĩa 'chết tiệt' là tiếng lóng Anh, khá thô – nên tránh dùng",
+      "ipa": "/ˈblʌdiː/",
+      "audio_src": null
+    },
+    {
+      "english": "ally",
+      "vietnamese": "đồng minh; người ủng hộ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She has always been my closest ally at work.",
+          "vi": "Cô ấy luôn là đồng minh thân thiết nhất của tôi ở chỗ làm."
+        },
+        {
+          "en": "The two countries have been allies for many years.",
+          "vi": "Hai nước đã là đồng minh của nhau trong nhiều năm."
+        },
+        {
+          "en": "Try to find an ally before you share your idea at the meeting.",
+          "vi": "Hãy tìm một người ủng hộ trước khi trình bày ý tưởng trong cuộc họp."
+        }
+      ],
+      "collocations": [
+        "close ally",
+        "key ally",
+        "find an ally"
+      ],
+      "notes": null,
+      "ipa": "/ˈælaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/all/ally_/ally__us_1.mp3"
+    },
+    {
+      "english": "quantity",
+      "vietnamese": "số lượng; lượng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The shop sells rice in large quantities.",
+          "vi": "Cửa hàng bán gạo với số lượng lớn."
+        },
+        {
+          "en": "In my opinion, quality is more important than quantity.",
+          "vi": "Theo tôi, chất lượng quan trọng hơn số lượng."
+        },
+        {
+          "en": "Add a small quantity of salt to the soup.",
+          "vi": "Cho một lượng muối nhỏ vào súp."
+        }
+      ],
+      "collocations": [
+        "in large quantities",
+        "small quantity",
+        "quality and quantity"
+      ],
+      "notes": null,
+      "ipa": "/ˈkwɑːntəti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/q/qua/quant/quantity__us_1.mp3"
+    },
+    {
+      "english": "bend",
+      "vietnamese": "uốn cong; cúi xuống",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Bend your knees when you lift heavy boxes.",
+          "vi": "Hãy gập đầu gối khi nhấc những thùng hàng nặng."
+        },
+        {
+          "en": "She bent down to pick up the coins.",
+          "vi": "Cô ấy cúi xuống nhặt những đồng xu."
+        },
+        {
+          "en": "Don't bend the photos, or they will get damaged.",
+          "vi": "Đừng làm cong mấy tấm ảnh, kẻo chúng bị hỏng."
+        }
+      ],
+      "collocations": [
+        "bend down",
+        "bend your knees",
+        "bend over",
+        "bend the rules"
+      ],
+      "notes": "bend – bent – bent",
+      "ipa": "/bend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/ben/bend_/bend__us_1.mp3"
+    },
+    {
+      "english": "mature",
+      "vietnamese": "trưởng thành; chín chắn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She is very mature for her age.",
+          "vi": "Cô bé rất chín chắn so với tuổi."
+        },
+        {
+          "en": "It wasn't very mature of you to shout at him.",
+          "vi": "Bạn hét vào mặt anh ấy như vậy là không chín chắn lắm."
+        },
+        {
+          "en": "Mature trees provide shade in the park during summer.",
+          "vi": "Những cây trưởng thành tạo bóng mát trong công viên vào mùa hè."
+        }
+      ],
+      "collocations": [
+        "mature for her age",
+        "mature attitude",
+        "emotionally mature"
+      ],
+      "notes": null,
+      "ipa": "/məˈtʃʊr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mat/matur/mature__us_1_rr.mp3"
+    },
+    {
+      "english": "briefly",
+      "vietnamese": "ngắn gọn; trong chốc lát",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Could you briefly explain the plan to the new staff?",
+          "vi": "Bạn có thể giải thích ngắn gọn kế hoạch cho nhân viên mới không?"
+        },
+        {
+          "en": "He stopped briefly to talk to a neighbor.",
+          "vi": "Anh ấy dừng lại một lát để nói chuyện với hàng xóm."
+        },
+        {
+          "en": "We met briefly at a friend's wedding last year.",
+          "vi": "Năm ngoái chúng tôi đã gặp nhau thoáng qua ở đám cưới của một người bạn."
+        }
+      ],
+      "collocations": [
+        "briefly explain",
+        "briefly describe",
+        "pause briefly"
+      ],
+      "notes": null,
+      "ipa": "/ˈbriːfli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bri/brief/briefly__us_1.mp3"
+    }
+  ]
+}

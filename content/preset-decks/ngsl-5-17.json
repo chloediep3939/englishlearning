@@ -1,0 +1,553 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.001–2.500 · Bộ 17",
+    "description": "New General Service List, thứ hạng 2.001–2.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-5-17"
+  },
+  "cards": [
+    {
+      "english": "weigh",
+      "vietnamese": "cân; nặng (bao nhiêu); cân nhắc",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "How much does your suitcase weigh after packing all the gifts?",
+          "vi": "Vali của bạn nặng bao nhiêu sau khi xếp hết quà vào?"
+        },
+        {
+          "en": "The nurse weighed the baby and wrote the number down.",
+          "vi": "Y tá cân em bé rồi ghi lại con số."
+        },
+        {
+          "en": "You should weigh the pros and cons before changing jobs.",
+          "vi": "Bạn nên cân nhắc ưu và nhược điểm trước khi đổi việc."
+        }
+      ],
+      "collocations": [
+        "weigh the pros and cons",
+        "weigh the options",
+        "carefully weigh"
+      ],
+      "notes": null,
+      "ipa": "/weɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wei/weigh/weigh__us_1.mp3"
+    },
+    {
+      "english": "versus",
+      "vietnamese": "đấu với; so với",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "Tonight's match is our school versus the team from the next town.",
+          "vi": "Trận đấu tối nay là trường mình đấu với đội đến từ thị trấn bên cạnh."
+        },
+        {
+          "en": "We compared the cost of renting versus buying a home.",
+          "vi": "Chúng tôi đã so sánh chi phí giữa việc thuê nhà và mua nhà."
+        },
+        {
+          "en": "For me, it's always a question of quality versus quantity.",
+          "vi": "Với tôi, vấn đề luôn là chất lượng so với số lượng."
+        }
+      ],
+      "collocations": [
+        "quality versus quantity",
+        "cost versus benefit"
+      ],
+      "notes": "viết tắt: vs.",
+      "ipa": "/ˈvɜːrsəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/ver/versu/versus__us_1_rr.mp3"
+    },
+    {
+      "english": "deficit",
+      "vietnamese": "thâm hụt; khoản thiếu hụt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The company ran a deficit for the second year in a row.",
+          "vi": "Công ty bị thâm hụt năm thứ hai liên tiếp."
+        },
+        {
+          "en": "The government plans to reduce the budget deficit next year.",
+          "vi": "Chính phủ dự định giảm thâm hụt ngân sách vào năm sau."
+        },
+        {
+          "en": "The country has a large trade deficit with its neighbors.",
+          "vi": "Nước này bị thâm hụt thương mại lớn với các nước láng giềng."
+        }
+      ],
+      "collocations": [
+        "budget deficit",
+        "trade deficit",
+        "reduce the deficit"
+      ],
+      "notes": null,
+      "ipa": "/ˈdefɪsɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/def/defic/deficit__us_1.mp3"
+    },
+    {
+      "english": "modify",
+      "vietnamese": "sửa đổi; điều chỉnh",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We slightly modified the recipe to make it less sweet.",
+          "vi": "Chúng tôi đã điều chỉnh công thức một chút để món ăn bớt ngọt."
+        },
+        {
+          "en": "You can modify your booking online up to 24 hours before arrival.",
+          "vi": "Bạn có thể sửa đổi thông tin đặt chỗ trên mạng chậm nhất 24 giờ trước khi đến."
+        },
+        {
+          "en": "The car was modified to run on electricity.",
+          "vi": "Chiếc xe đã được sửa đổi để chạy bằng điện."
+        }
+      ],
+      "collocations": [
+        "slightly modify",
+        "modify the design",
+        "modify the rules"
+      ],
+      "notes": null,
+      "ipa": "/ˈmɑːdɪfaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mod/modif/modify__us_1.mp3"
+    },
+    {
+      "english": "flash",
+      "vietnamese": "lóe lên; nháy (đèn)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Lightning flashed across the sky before the rain started.",
+          "vi": "Tia chớp lóe lên trên bầu trời trước khi trời đổ mưa."
+        },
+        {
+          "en": "The driver behind us kept flashing his headlights.",
+          "vi": "Tài xế phía sau cứ nháy đèn pha với chúng tôi."
+        },
+        {
+          "en": "An idea suddenly flashed through my mind during the meeting.",
+          "vi": "Một ý tưởng chợt lóe lên trong đầu tôi lúc đang họp."
+        }
+      ],
+      "collocations": [
+        "lights flash",
+        "flash your headlights",
+        "flash through your mind"
+      ],
+      "notes": null,
+      "ipa": "/flæʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fla/flash/flash__us_1.mp3"
+    },
+    {
+      "english": "friendship",
+      "vietnamese": "tình bạn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Their close friendship began on the first day of college.",
+          "vi": "Tình bạn thân thiết của họ bắt đầu từ ngày đầu tiên học đại học."
+        },
+        {
+          "en": "I value our friendship more than anything else.",
+          "vi": "Tôi trân trọng tình bạn của chúng ta hơn bất cứ điều gì."
+        },
+        {
+          "en": "Can a friendship survive when you live in different countries?",
+          "vi": "Tình bạn có thể bền lâu không khi mỗi người sống ở một nước khác?"
+        }
+      ],
+      "collocations": [
+        "close friendship",
+        "lifelong friendship",
+        "value friendship"
+      ],
+      "notes": null,
+      "ipa": "/ˈfrendʃɪp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fri/frien/friendship__us_2.mp3"
+    },
+    {
+      "english": "profession",
+      "vietnamese": "nghề nghiệp; ngành nghề",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Nursing is a demanding profession, but she loves it.",
+          "vi": "Điều dưỡng là một nghề vất vả, nhưng cô ấy rất yêu nghề."
+        },
+        {
+          "en": "What made you decide to join the medical profession?",
+          "vi": "Điều gì khiến bạn quyết định theo ngành y?"
+        },
+        {
+          "en": "He is a lawyer by profession, but he writes novels too.",
+          "vi": "Nghề chính của anh ấy là luật sư, nhưng anh ấy cũng viết tiểu thuyết."
+        }
+      ],
+      "collocations": [
+        "medical profession",
+        "teaching profession",
+        "by profession"
+      ],
+      "notes": null,
+      "ipa": "/prəˈfeʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/profe/profession__us_3.mp3"
+    },
+    {
+      "english": "literally",
+      "vietnamese": "theo nghĩa đen; thật sự",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Don't take his joke literally; he was only teasing you.",
+          "vi": "Đừng hiểu câu đùa của anh ấy theo nghĩa đen, anh ấy chỉ trêu bạn thôi."
+        },
+        {
+          "en": "I was so busy that I literally had no time to eat.",
+          "vi": "Tôi bận đến mức thật sự không có thời gian ăn."
+        },
+        {
+          "en": "The hotel is literally five minutes from the beach.",
+          "vi": "Khách sạn thật sự chỉ cách bãi biển năm phút."
+        }
+      ],
+      "collocations": [
+        "take something literally",
+        "quite literally",
+        "translate literally"
+      ],
+      "notes": null,
+      "ipa": "/ˈlɪtərəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lit/liter/literally__us_1.mp3"
+    },
+    {
+      "english": "equation",
+      "vietnamese": "phương trình; vấn đề cần cân nhắc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Can you help me solve this equation for my math homework?",
+          "vi": "Bạn giúp mình giải phương trình này trong bài tập toán được không?"
+        },
+        {
+          "en": "The teacher wrote a long equation on the board.",
+          "vi": "Giáo viên viết một phương trình dài lên bảng."
+        },
+        {
+          "en": "When choosing a job, salary is only one part of the equation.",
+          "vi": "Khi chọn việc, lương chỉ là một phần trong những điều cần cân nhắc."
+        }
+      ],
+      "collocations": [
+        "solve an equation",
+        "simple equation",
+        "part of the equation"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈkweɪʒn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/equ/equat/equation__us_1.mp3"
+    },
+    {
+      "english": "gesture",
+      "vietnamese": "cử chỉ; nghĩa cử",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She made a gesture for me to sit down.",
+          "vi": "Cô ấy ra dấu bảo tôi ngồi xuống."
+        },
+        {
+          "en": "Sending flowers to your new neighbors is a nice gesture.",
+          "vi": "Gửi hoa tặng hàng xóm mới là một cử chỉ đẹp."
+        },
+        {
+          "en": "In some cultures, this hand gesture is considered rude.",
+          "vi": "Ở một số nền văn hóa, cử chỉ tay này bị coi là bất lịch sự."
+        }
+      ],
+      "collocations": [
+        "make a gesture",
+        "nice gesture",
+        "hand gesture"
+      ],
+      "notes": null,
+      "ipa": "/ˈdʒestʃər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/ges/gestu/gesture__us_1_rr.mp3"
+    },
+    {
+      "english": "entertain",
+      "vietnamese": "giải trí; mua vui; tiếp đãi (khách)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The clown entertained the children for over an hour.",
+          "vi": "Chú hề mua vui cho bọn trẻ suốt hơn một tiếng."
+        },
+        {
+          "en": "We love entertaining guests at home on weekends.",
+          "vi": "Chúng tôi thích tiếp đãi khách tại nhà vào cuối tuần."
+        },
+        {
+          "en": "This book will keep you entertained on a long flight.",
+          "vi": "Cuốn sách này sẽ giúp bạn giải trí trên chuyến bay dài."
+        }
+      ],
+      "collocations": [
+        "entertain guests",
+        "keep someone entertained",
+        "entertain the crowd"
+      ],
+      "notes": null,
+      "ipa": "/ˌentərˈteɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ent/enter/entertain__us_3.mp3"
+    },
+    {
+      "english": "fantastic",
+      "vietnamese": "tuyệt vời; tuyệt diệu",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We had a fantastic time at your wedding last weekend.",
+          "vi": "Chúng tôi đã có khoảng thời gian tuyệt vời ở đám cưới của bạn cuối tuần trước."
+        },
+        {
+          "en": "You look fantastic in that blue dress!",
+          "vi": "Bạn mặc chiếc váy xanh dương đó trông tuyệt lắm!"
+        },
+        {
+          "en": "The view from the top of the mountain was absolutely fantastic.",
+          "vi": "Quang cảnh từ đỉnh núi thật sự tuyệt vời."
+        }
+      ],
+      "collocations": [
+        "fantastic time",
+        "fantastic opportunity",
+        "absolutely fantastic",
+        "look fantastic"
+      ],
+      "notes": null,
+      "ipa": "/fænˈtæstɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fan/fanta/fantastic__us_2.mp3"
+    },
+    {
+      "english": "assign",
+      "vietnamese": "giao (việc); phân công; chỉ định",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Our teacher assigned us a lot of homework over the holiday.",
+          "vi": "Cô giáo giao cho chúng tôi rất nhiều bài tập về nhà trong kỳ nghỉ."
+        },
+        {
+          "en": "The manager assigned three people to work on the new project.",
+          "vi": "Quản lý đã phân công ba người làm dự án mới."
+        },
+        {
+          "en": "You will be assigned a seat when you check in.",
+          "vi": "Bạn sẽ được chỉ định chỗ ngồi khi làm thủ tục."
+        }
+      ],
+      "collocations": [
+        "assign homework",
+        "assign a task",
+        "assign someone to a project"
+      ],
+      "notes": null,
+      "ipa": "/əˈsaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/assig/assign__us_1.mp3"
+    },
+    {
+      "english": "inflation",
+      "vietnamese": "lạm phát",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Inflation has made groceries much more expensive this year.",
+          "vi": "Lạm phát khiến thực phẩm năm nay đắt hơn nhiều."
+        },
+        {
+          "en": "Our salaries haven't kept up with inflation.",
+          "vi": "Lương của chúng tôi không theo kịp lạm phát."
+        },
+        {
+          "en": "The bank expects the inflation rate to fall next year.",
+          "vi": "Ngân hàng dự đoán tỷ lệ lạm phát sẽ giảm vào năm sau."
+        }
+      ],
+      "collocations": [
+        "inflation rate",
+        "high inflation",
+        "keep up with inflation"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ɪnˈfleɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inf/infla/inflation__us_1.mp3"
+    },
+    {
+      "english": "historic",
+      "vietnamese": "có ý nghĩa lịch sử; cổ kính",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We walked around the historic center of the town.",
+          "vi": "Chúng tôi đi dạo quanh khu trung tâm cổ kính của thị trấn."
+        },
+        {
+          "en": "Winning the cup was a historic moment for our small club.",
+          "vi": "Giành cúp là một khoảnh khắc lịch sử đối với câu lạc bộ nhỏ của chúng tôi."
+        },
+        {
+          "en": "This historic building is over three hundred years old.",
+          "vi": "Tòa nhà cổ kính này đã hơn ba trăm năm tuổi."
+        }
+      ],
+      "collocations": [
+        "historic building",
+        "historic moment",
+        "historic site"
+      ],
+      "notes": "historic (có ý nghĩa lịch sử) ≠ historical (thuộc về lịch sử)",
+      "ipa": "/hɪˈstɔːrɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/his/histo/historic__us_1_rr.mp3"
+    },
+    {
+      "english": "injure",
+      "vietnamese": "làm bị thương; gây chấn thương",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She injured her knee while playing basketball with friends.",
+          "vi": "Cô ấy bị chấn thương đầu gối khi chơi bóng rổ với bạn bè."
+        },
+        {
+          "en": "Be careful not to injure yourself when lifting heavy boxes.",
+          "vi": "Cẩn thận kẻo bị thương khi nâng những thùng nặng."
+        },
+        {
+          "en": "Luckily, nobody was seriously injured in the accident.",
+          "vi": "May mắn là không ai bị thương nặng trong vụ tai nạn."
+        }
+      ],
+      "collocations": [
+        "seriously injured",
+        "badly injured",
+        "injure yourself"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪndʒər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inj/injur/injure__us_1.mp3"
+    },
+    {
+      "english": "remote",
+      "vietnamese": "xa xôi; hẻo lánh; từ xa",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "They live in a remote village high in the mountains.",
+          "vi": "Họ sống ở một ngôi làng hẻo lánh trên núi cao."
+        },
+        {
+          "en": "Many companies now allow remote work a few days a week.",
+          "vi": "Hiện nay nhiều công ty cho phép làm việc từ xa vài ngày mỗi tuần."
+        },
+        {
+          "en": "Where did you put the remote control for the TV?",
+          "vi": "Bạn để cái điều khiển từ xa của TV ở đâu rồi?"
+        }
+      ],
+      "collocations": [
+        "remote area",
+        "remote village",
+        "remote work",
+        "remote control"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈməʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rem/remot/remote__us_1.mp3"
+    },
+    {
+      "english": "therapy",
+      "vietnamese": "liệu pháp; trị liệu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "After the accident, he needed months of physical therapy.",
+          "vi": "Sau tai nạn, anh ấy cần vật lý trị liệu trong nhiều tháng."
+        },
+        {
+          "en": "Music therapy can help children who often feel anxious.",
+          "vi": "Liệu pháp âm nhạc có thể giúp những trẻ hay lo âu."
+        },
+        {
+          "en": "Going to therapy helped me handle stress at work.",
+          "vi": "Đi trị liệu tâm lý đã giúp tôi đối phó với căng thẳng trong công việc."
+        }
+      ],
+      "collocations": [
+        "physical therapy",
+        "music therapy",
+        "speech therapy"
+      ],
+      "notes": null,
+      "ipa": "/ˈθerəpi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/thera/therapy__us_2.mp3"
+    },
+    {
+      "english": "orange",
+      "vietnamese": "quả cam; màu cam",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I drink a glass of fresh orange juice every morning.",
+          "vi": "Mỗi sáng tôi uống một ly nước cam tươi."
+        },
+        {
+          "en": "Could you peel an orange for your little brother?",
+          "vi": "Con bóc một quả cam cho em trai được không?"
+        },
+        {
+          "en": "The sky turned a beautiful orange as the sun went down.",
+          "vi": "Bầu trời chuyển sang màu cam tuyệt đẹp khi mặt trời lặn."
+        }
+      ],
+      "collocations": [
+        "orange juice",
+        "peel an orange",
+        "bright orange"
+      ],
+      "notes": null,
+      "ipa": "/ˈɔːrɪndʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ora/orang/orange__us_1_rr.mp3"
+    },
+    {
+      "english": "twist",
+      "vietnamese": "vặn; xoắn; trẹo (chân, tay)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Twist the lid to the left to open the jar.",
+          "vi": "Vặn nắp sang trái để mở lọ."
+        },
+        {
+          "en": "I twisted my ankle while running down the stairs.",
+          "vi": "Tôi bị trẹo mắt cá chân khi chạy xuống cầu thang."
+        },
+        {
+          "en": "He twisted the two wires together to fix the lamp.",
+          "vi": "Anh ấy xoắn hai sợi dây điện lại với nhau để sửa đèn."
+        }
+      ],
+      "collocations": [
+        "twist your ankle",
+        "twist the lid",
+        "twist and turn"
+      ],
+      "notes": null,
+      "ipa": "/twɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/twi/twist/twist__us_1.mp3"
+    }
+  ]
+}

@@ -1,0 +1,840 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.001–1.500 · Bộ 10",
+    "description": "New General Service List, thứ hạng 1.001–1.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-3-10"
+  },
+  "cards": [
+    {
+      "english": "bird",
+      "vietnamese": "chim",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We could hear the birds singing outside our window.",
+          "vi": "Chúng tôi có thể nghe tiếng chim hót ngoài cửa sổ."
+        },
+        {
+          "en": "A small bird built a nest in our garden.",
+          "vi": "Một chú chim nhỏ đã làm tổ trong vườn nhà chúng tôi."
+        },
+        {
+          "en": "My grandfather feeds the birds in the park every morning.",
+          "vi": "Ông tôi cho chim ăn ở công viên mỗi sáng."
+        }
+      ],
+      "collocations": [
+        "wild birds",
+        "feed the birds",
+        "birds sing",
+        "a flock of birds"
+      ],
+      "notes": null,
+      "ipa": "/bɜːrd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bir/bird_/bird__us_1.mp3"
+    },
+    {
+      "english": "demonstrate",
+      "vietnamese": "cho thấy, chứng minh; làm mẫu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The results clearly demonstrate that the new method works.",
+          "vi": "Kết quả cho thấy rõ phương pháp mới có hiệu quả."
+        },
+        {
+          "en": "She demonstrated her skills during her first week at work.",
+          "vi": "Cô ấy đã chứng minh năng lực của mình ngay trong tuần làm việc đầu tiên."
+        },
+        {
+          "en": "The chef demonstrated how to make fresh pasta at home.",
+          "vi": "Đầu bếp làm mẫu cách làm mì Ý tươi tại nhà."
+        }
+      ],
+      "collocations": [
+        "clearly demonstrate",
+        "demonstrate how to",
+        "demonstrate the importance of"
+      ],
+      "notes": null,
+      "ipa": "/ˈdemənstreɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dem/demon/demonstrate__us_1.mp3"
+    },
+    {
+      "english": "contribution",
+      "vietnamese": "sự đóng góp; khoản đóng góp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Thank you for your contribution to the project.",
+          "vi": "Cảm ơn bạn vì những đóng góp cho dự án."
+        },
+        {
+          "en": "Everyone made an important contribution to the team's success.",
+          "vi": "Mỗi người đều có đóng góp quan trọng vào thành công của cả đội."
+        },
+        {
+          "en": "We made a small contribution to the school's library fund.",
+          "vi": "Chúng tôi đã góp một khoản nhỏ vào quỹ thư viện của trường."
+        }
+      ],
+      "collocations": [
+        "make a contribution",
+        "important contribution",
+        "contribution to",
+        "financial contribution"
+      ],
+      "notes": null,
+      "ipa": "/ˌkɑːntrɪˈbjuːʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontribution__us_1.mp3"
+    },
+    {
+      "english": "appreciate",
+      "vietnamese": "cảm kích; trân trọng; hiểu rõ",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I'd really appreciate it if you could call me back.",
+          "vi": "Tôi sẽ rất cảm kích nếu bạn có thể gọi lại cho tôi."
+        },
+        {
+          "en": "You learn to appreciate simple things when you travel.",
+          "vi": "Khi đi du lịch, bạn học được cách trân trọng những điều giản dị."
+        },
+        {
+          "en": "I don't think you appreciate how serious this problem is.",
+          "vi": "Tôi nghĩ bạn chưa hiểu rõ vấn đề này nghiêm trọng đến mức nào."
+        }
+      ],
+      "collocations": [
+        "really appreciate",
+        "appreciate it",
+        "appreciate your help",
+        "greatly appreciate"
+      ],
+      "notes": null,
+      "ipa": "/əˈpriːʃieɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/app/appre/appreciate__us_1.mp3"
+    },
+    {
+      "english": "chapter",
+      "vietnamese": "chương; giai đoạn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I read one chapter of my book every night.",
+          "vi": "Mỗi tối tôi đọc một chương sách."
+        },
+        {
+          "en": "The first chapter was a bit slow, but it gets better.",
+          "vi": "Chương đầu hơi chậm, nhưng càng về sau càng hay."
+        },
+        {
+          "en": "Moving abroad was the start of a new chapter in her life.",
+          "vi": "Chuyển ra nước ngoài là khởi đầu một giai đoạn mới trong cuộc đời cô ấy."
+        }
+      ],
+      "collocations": [
+        "first chapter",
+        "final chapter",
+        "a new chapter",
+        "read a chapter"
+      ],
+      "notes": null,
+      "ipa": "/ˈtʃæptər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chapt/chapter__us_2.mp3"
+    },
+    {
+      "english": "secret",
+      "vietnamese": "bí mật; bí quyết",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Can you keep a secret if I tell you something?",
+          "vi": "Nếu mình kể cho bạn một chuyện, bạn giữ bí mật được không?"
+        },
+        {
+          "en": "She finally told her sister the secret she had kept for years.",
+          "vi": "Cuối cùng cô ấy đã kể với chị gái bí mật mà cô giữ suốt nhiều năm."
+        },
+        {
+          "en": "What's the secret to your delicious chicken soup?",
+          "vi": "Bí quyết nấu món súp gà ngon của bạn là gì?"
+        }
+      ],
+      "collocations": [
+        "keep a secret",
+        "tell a secret",
+        "the secret to",
+        "an open secret"
+      ],
+      "notes": null,
+      "ipa": "/ˈsiːkrət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sec/secre/secret__us_1.mp3"
+    },
+    {
+      "english": "apparently",
+      "vietnamese": "nghe nói; hình như",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Apparently, the meeting has been moved to next Tuesday.",
+          "vi": "Nghe nói cuộc họp đã được dời sang thứ Ba tuần sau."
+        },
+        {
+          "en": "She was apparently unaware of the problem until yesterday.",
+          "vi": "Hình như cô ấy không hề biết về vấn đề này cho đến hôm qua."
+        },
+        {
+          "en": "Apparently it's going to rain all weekend.",
+          "vi": "Nghe nói trời sẽ mưa suốt cuối tuần."
+        }
+      ],
+      "collocations": [
+        "apparently unaware",
+        "apparently so",
+        "apparently not"
+      ],
+      "notes": null,
+      "ipa": "/əˈpærəntli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/app/appar/apparently__us_3.mp3"
+    },
+    {
+      "english": "novel",
+      "vietnamese": "tiểu thuyết",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She is writing her first novel about growing up in a small town.",
+          "vi": "Cô ấy đang viết cuốn tiểu thuyết đầu tay về tuổi thơ ở một thị trấn nhỏ."
+        },
+        {
+          "en": "I stayed up all night to finish that novel.",
+          "vi": "Tôi thức cả đêm để đọc xong cuốn tiểu thuyết đó."
+        },
+        {
+          "en": "His latest novel has been made into a movie.",
+          "vi": "Cuốn tiểu thuyết mới nhất của anh ấy đã được chuyển thể thành phim."
+        }
+      ],
+      "collocations": [
+        "write a novel",
+        "first novel",
+        "latest novel",
+        "read a novel"
+      ],
+      "notes": null,
+      "ipa": "/ˈnɑːvl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nov/novel/novel__us_1.mp3"
+    },
+    {
+      "english": "union",
+      "vietnamese": "công đoàn; hội",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She joined the union when she started working at the factory.",
+          "vi": "Cô ấy gia nhập công đoàn khi bắt đầu làm việc ở nhà máy."
+        },
+        {
+          "en": "The union is asking for better pay for nurses.",
+          "vi": "Công đoàn đang đòi mức lương tốt hơn cho các y tá."
+        },
+        {
+          "en": "The student union organizes events for new students every year.",
+          "vi": "Hội sinh viên tổ chức các sự kiện cho tân sinh viên mỗi năm."
+        }
+      ],
+      "collocations": [
+        "trade union",
+        "join a union",
+        "union members",
+        "student union"
+      ],
+      "notes": null,
+      "ipa": "/ˈjuːniən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/uni/union/union__us_2.mp3"
+    },
+    {
+      "english": "burn",
+      "vietnamese": "đốt; làm cháy; làm bỏng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Be careful not to burn your hand on the stove.",
+          "vi": "Cẩn thận kẻo bị bếp làm bỏng tay nhé."
+        },
+        {
+          "en": "I burned the toast again this morning.",
+          "vi": "Sáng nay tôi lại làm cháy bánh mì nướng."
+        },
+        {
+          "en": "They burned the dead leaves in the backyard.",
+          "vi": "Họ đốt đống lá khô ở sân sau."
+        }
+      ],
+      "collocations": [
+        "burn your hand",
+        "burn down",
+        "burn calories",
+        "badly burned"
+      ],
+      "notes": "burn – burned/burnt – burned/burnt",
+      "ipa": "/bɜːrn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bur/burn_/burn__us_1.mp3"
+    },
+    {
+      "english": "trend",
+      "vietnamese": "xu hướng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There is a growing trend toward working from home.",
+          "vi": "Xu hướng làm việc tại nhà đang ngày càng phổ biến."
+        },
+        {
+          "en": "My daughter always follows the latest fashion trends.",
+          "vi": "Con gái tôi luôn chạy theo những xu hướng thời trang mới nhất."
+        },
+        {
+          "en": "Prices have shown an upward trend over the past year.",
+          "vi": "Giá cả đã cho thấy xu hướng tăng trong suốt năm qua."
+        }
+      ],
+      "collocations": [
+        "growing trend",
+        "latest trend",
+        "fashion trend",
+        "upward trend"
+      ],
+      "notes": null,
+      "ipa": "/trend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tre/trend/trend__us_1.mp3"
+    },
+    {
+      "english": "initial",
+      "vietnamese": "ban đầu; đầu tiên",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My initial reaction was surprise, but then I felt happy.",
+          "vi": "Phản ứng ban đầu của tôi là ngạc nhiên, nhưng sau đó tôi thấy vui."
+        },
+        {
+          "en": "The initial plan was to leave at six in the morning.",
+          "vi": "Kế hoạch ban đầu là khởi hành lúc sáu giờ sáng."
+        },
+        {
+          "en": "After some initial problems, the new system is working well.",
+          "vi": "Sau vài trục trặc ban đầu, hệ thống mới đang hoạt động tốt."
+        }
+      ],
+      "collocations": [
+        "initial reaction",
+        "initial stages",
+        "initial plan"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈnɪʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ini/initi/initial__us_1.mp3"
+    },
+    {
+      "english": "pleasure",
+      "vietnamese": "niềm vui; sự thích thú",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "It was a real pleasure meeting you last night.",
+          "vi": "Được gặp bạn tối qua thật sự là một niềm vui."
+        },
+        {
+          "en": "Reading in the garden is one of my greatest pleasures.",
+          "vi": "Đọc sách trong vườn là một trong những niềm vui lớn nhất của tôi."
+        },
+        {
+          "en": "Are you traveling for business or for pleasure?",
+          "vi": "Bạn đi công tác hay đi chơi?"
+        }
+      ],
+      "collocations": [
+        "great pleasure",
+        "for pleasure",
+        "take pleasure in",
+        "my pleasure"
+      ],
+      "notes": null,
+      "ipa": "/ˈpleʒər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/ple/pleas/pleasure__us_1.mp3"
+    },
+    {
+      "english": "suggestion",
+      "vietnamese": "gợi ý; đề xuất",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Do you have any suggestions for a good restaurant nearby?",
+          "vi": "Bạn có gợi ý nhà hàng nào ngon gần đây không?"
+        },
+        {
+          "en": "My manager accepted my suggestion to start work earlier.",
+          "vi": "Quản lý đã chấp nhận đề xuất bắt đầu làm việc sớm hơn của tôi."
+        },
+        {
+          "en": "At my friend's suggestion, I started going to bed earlier.",
+          "vi": "Theo gợi ý của bạn tôi, tôi bắt đầu đi ngủ sớm hơn."
+        }
+      ],
+      "collocations": [
+        "make a suggestion",
+        "accept a suggestion",
+        "helpful suggestion"
+      ],
+      "notes": null,
+      "ipa": "/səˈdʒestʃən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sug/sugge/suggestion__us_1_rr.mp3"
+    },
+    {
+      "english": "critical",
+      "vietnamese": "cực kỳ quan trọng; chỉ trích",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Getting enough sleep is critical for your health.",
+          "vi": "Ngủ đủ giấc cực kỳ quan trọng đối với sức khỏe của bạn."
+        },
+        {
+          "en": "His parents were very critical of his decision to quit school.",
+          "vi": "Bố mẹ anh ấy đã chỉ trích nặng nề quyết định bỏ học của anh."
+        },
+        {
+          "en": "This is a critical moment for our company.",
+          "vi": "Đây là thời điểm then chốt đối với công ty chúng tôi."
+        }
+      ],
+      "collocations": [
+        "critical of",
+        "critical moment",
+        "critical role",
+        "highly critical"
+      ],
+      "notes": null,
+      "ipa": "/ˈkrɪtɪkl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cri/criti/critical__us_3.mp3"
+    },
+    {
+      "english": "gather",
+      "vietnamese": "tụ tập, tập hợp; thu thập",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The whole family gathers at my grandmother's house every New Year.",
+          "vi": "Cả gia đình tụ họp ở nhà bà tôi mỗi dịp năm mới."
+        },
+        {
+          "en": "A crowd gathered to watch the street musicians.",
+          "vi": "Một đám đông tụ tập để xem các nghệ sĩ đường phố biểu diễn."
+        },
+        {
+          "en": "We need to gather more information before we decide.",
+          "vi": "Chúng ta cần thu thập thêm thông tin trước khi quyết định."
+        }
+      ],
+      "collocations": [
+        "gather information",
+        "gather together",
+        "a crowd gathered",
+        "gather data"
+      ],
+      "notes": null,
+      "ipa": "/ˈɡæðər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gat/gathe/gather__us_2.mp3"
+    },
+    {
+      "english": "mostly",
+      "vietnamese": "chủ yếu; phần lớn",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The audience was mostly young people and students.",
+          "vi": "Khán giả chủ yếu là người trẻ và sinh viên."
+        },
+        {
+          "en": "I mostly work from home these days.",
+          "vi": "Dạo này tôi chủ yếu làm việc ở nhà."
+        },
+        {
+          "en": "The weather will be mostly sunny this weekend.",
+          "vi": "Cuối tuần này trời sẽ nắng là chủ yếu."
+        }
+      ],
+      "collocations": [
+        "mostly sunny",
+        "mostly because"
+      ],
+      "notes": null,
+      "ipa": "/ˈməʊstli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mos/mostl/mostly__us_1.mp3"
+    },
+    {
+      "english": "earth",
+      "vietnamese": "trái đất; đất",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The earth moves around the sun once a year.",
+          "vi": "Trái đất quay quanh mặt trời mỗi năm một vòng."
+        },
+        {
+          "en": "Water covers most of the earth's surface.",
+          "vi": "Nước bao phủ phần lớn bề mặt trái đất."
+        },
+        {
+          "en": "Plant the seeds and cover them with a little earth.",
+          "vi": "Gieo hạt rồi phủ lên một ít đất."
+        }
+      ],
+      "collocations": [
+        "the earth's surface",
+        "life on earth",
+        "on earth"
+      ],
+      "notes": null,
+      "ipa": "/ɜːrθ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ear/earth/earth__us_1.mp3"
+    },
+    {
+      "english": "pop",
+      "vietnamese": "ghé qua; nổ bốp; chợt nảy ra",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I'll pop into the store on my way home.",
+          "vi": "Trên đường về tôi sẽ ghé qua cửa hàng."
+        },
+        {
+          "en": "The balloon popped and scared the baby.",
+          "vi": "Quả bóng bay nổ bốp làm em bé giật mình."
+        },
+        {
+          "en": "A funny idea suddenly popped into my head.",
+          "vi": "Một ý tưởng buồn cười chợt nảy ra trong đầu tôi."
+        }
+      ],
+      "collocations": [
+        "pop into",
+        "pop in",
+        "pop out",
+        "pop into your head"
+      ],
+      "notes": "pop – popped – popped",
+      "ipa": "/pɑːp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pop/pop__/pop__us_1.mp3"
+    },
+    {
+      "english": "essential",
+      "vietnamese": "thiết yếu; rất cần thiết",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Water is essential for all living things.",
+          "vi": "Nước rất cần thiết cho mọi sinh vật sống."
+        },
+        {
+          "en": "A good map is essential when you hike in the mountains.",
+          "vi": "Một tấm bản đồ tốt là thứ thiết yếu khi bạn leo núi."
+        },
+        {
+          "en": "It's essential to book early during the holiday season.",
+          "vi": "Đặt chỗ sớm vào mùa lễ là điều rất cần thiết."
+        }
+      ],
+      "collocations": [
+        "essential for",
+        "absolutely essential",
+        "essential part of"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈsenʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ess/essen/essential__us_2.mp3"
+    },
+    {
+      "english": "desire",
+      "vietnamese": "mong muốn; khao khát",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She has a strong desire to study abroad.",
+          "vi": "Cô ấy có mong muốn mãnh liệt được đi du học."
+        },
+        {
+          "en": "He had no desire to go back to his old job.",
+          "vi": "Anh ấy không hề muốn quay lại công việc cũ."
+        },
+        {
+          "en": "Many young people share a desire for more freedom.",
+          "vi": "Nhiều người trẻ có chung khao khát được tự do hơn."
+        }
+      ],
+      "collocations": [
+        "strong desire",
+        "no desire",
+        "desire to",
+        "desire for"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈzaɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/des/desir/desire__us_1.mp3"
+    },
+    {
+      "english": "promote",
+      "vietnamese": "thăng chức; quảng bá; thúc đẩy",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She was promoted to manager after only two years.",
+          "vi": "Cô ấy được thăng chức lên quản lý chỉ sau hai năm."
+        },
+        {
+          "en": "The band is touring to promote their new album.",
+          "vi": "Ban nhạc đang đi lưu diễn để quảng bá album mới."
+        },
+        {
+          "en": "The city wants to promote the use of public transportation.",
+          "vi": "Thành phố muốn thúc đẩy việc sử dụng phương tiện giao thông công cộng."
+        }
+      ],
+      "collocations": [
+        "be promoted to",
+        "promote a product",
+        "promote the use of"
+      ],
+      "notes": null,
+      "ipa": "/prəˈməʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/promo/promote__us_1.mp3"
+    },
+    {
+      "english": "currently",
+      "vietnamese": "hiện nay; hiện tại",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I'm currently looking for a new apartment.",
+          "vi": "Hiện tôi đang tìm một căn hộ mới."
+        },
+        {
+          "en": "The museum is currently closed for repairs.",
+          "vi": "Bảo tàng hiện đang đóng cửa để sửa chữa."
+        },
+        {
+          "en": "How many people currently work at your company?",
+          "vi": "Hiện có bao nhiêu người làm việc ở công ty bạn?"
+        }
+      ],
+      "collocations": [
+        "currently available",
+        "currently working on",
+        "currently looking for"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɜːrəntli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cur/curre/currently__us_1.mp3"
+    },
+    {
+      "english": "employ",
+      "vietnamese": "thuê, tuyển dụng; sử dụng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The factory employs more than five hundred workers.",
+          "vi": "Nhà máy thuê hơn năm trăm công nhân."
+        },
+        {
+          "en": "She has been employed as a nurse for ten years.",
+          "vi": "Cô ấy được tuyển dụng làm y tá đã mười năm nay."
+        },
+        {
+          "en": "Teachers employ different methods to keep students interested.",
+          "vi": "Giáo viên sử dụng nhiều phương pháp khác nhau để giữ cho học sinh hứng thú."
+        }
+      ],
+      "collocations": [
+        "employ workers",
+        "be employed as",
+        "employ a method"
+      ],
+      "notes": null,
+      "ipa": "/ɪmˈplɔɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/emp/emplo/employ__us_4.mp3"
+    },
+    {
+      "english": "path",
+      "vietnamese": "lối đi; con đường",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We walked along a narrow path through the forest.",
+          "vi": "Chúng tôi đi dọc theo một lối mòn hẹp xuyên qua khu rừng."
+        },
+        {
+          "en": "A fallen tree was blocking the path.",
+          "vi": "Một cái cây đổ đang chắn lối đi."
+        },
+        {
+          "en": "He chose a different career path from his parents.",
+          "vi": "Anh ấy chọn một con đường sự nghiệp khác với bố mẹ."
+        }
+      ],
+      "collocations": [
+        "narrow path",
+        "career path",
+        "block the path",
+        "follow a path"
+      ],
+      "notes": null,
+      "ipa": "/pæθ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pat/path_/path__us_1.mp3"
+    },
+    {
+      "english": "topic",
+      "vietnamese": "chủ đề",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Let's change the topic and talk about something fun.",
+          "vi": "Chúng ta đổi chủ đề và nói chuyện gì đó vui đi."
+        },
+        {
+          "en": "The teacher asked us to choose a topic for our essays.",
+          "vi": "Giáo viên yêu cầu chúng tôi chọn một chủ đề cho bài luận."
+        },
+        {
+          "en": "Money is a sensitive topic in many families.",
+          "vi": "Tiền bạc là chủ đề nhạy cảm trong nhiều gia đình."
+        }
+      ],
+      "collocations": [
+        "change the topic",
+        "choose a topic",
+        "sensitive topic",
+        "topic of conversation"
+      ],
+      "notes": null,
+      "ipa": "/ˈtɑːpɪk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/top/topic/topic__us_1.mp3"
+    },
+    {
+      "english": "beach",
+      "vietnamese": "bãi biển",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We spent the whole afternoon lying on the beach.",
+          "vi": "Chúng tôi dành cả buổi chiều nằm trên bãi biển."
+        },
+        {
+          "en": "The hotel is only a five-minute walk from the beach.",
+          "vi": "Khách sạn chỉ cách bãi biển năm phút đi bộ."
+        },
+        {
+          "en": "Let's go to the beach if the weather is nice tomorrow.",
+          "vi": "Nếu mai trời đẹp thì mình đi biển nhé."
+        }
+      ],
+      "collocations": [
+        "on the beach",
+        "go to the beach",
+        "sandy beach",
+        "beach house"
+      ],
+      "notes": null,
+      "ipa": "/biːtʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bea/beach/beach__us_1.mp3"
+    },
+    {
+      "english": "attract",
+      "vietnamese": "thu hút; hấp dẫn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The festival attracts thousands of visitors every summer.",
+          "vi": "Lễ hội thu hút hàng nghìn du khách mỗi mùa hè."
+        },
+        {
+          "en": "Bright colors attract bees and butterflies to the flowers.",
+          "vi": "Màu sắc rực rỡ thu hút ong và bướm đến với những bông hoa."
+        },
+        {
+          "en": "The company offers higher pay to attract new staff.",
+          "vi": "Công ty trả lương cao hơn để thu hút nhân viên mới."
+        }
+      ],
+      "collocations": [
+        "attract visitors",
+        "attract attention",
+        "attract customers",
+        "be attracted to"
+      ],
+      "notes": null,
+      "ipa": "/əˈtrækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/att/attra/attract__us_1.mp3"
+    },
+    {
+      "english": "engage",
+      "vietnamese": "tham gia; thu hút, lôi cuốn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Students who engage in class discussions usually learn faster.",
+          "vi": "Những học sinh tham gia thảo luận trong lớp thường học nhanh hơn."
+        },
+        {
+          "en": "The teacher uses games to engage young learners.",
+          "vi": "Giáo viên dùng trò chơi để lôi cuốn học sinh nhỏ tuổi."
+        },
+        {
+          "en": "Many retired people engage in volunteer work.",
+          "vi": "Nhiều người đã nghỉ hưu tham gia công việc tình nguyện."
+        }
+      ],
+      "collocations": [
+        "engage in",
+        "engage with",
+        "engage students",
+        "fully engage"
+      ],
+      "notes": "engage in sth: tham gia vào việc gì",
+      "ipa": "/ɪnˈɡeɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eng/engag/engage__us_1.mp3"
+    },
+    {
+      "english": "powerful",
+      "vietnamese": "mạnh mẽ; có quyền lực",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "This new laptop is small but very powerful.",
+          "vi": "Chiếc laptop mới này nhỏ nhưng rất mạnh."
+        },
+        {
+          "en": "She gave a powerful speech at the graduation ceremony.",
+          "vi": "Cô ấy đã có một bài phát biểu đầy sức lay động tại lễ tốt nghiệp."
+        },
+        {
+          "en": "He comes from a rich and powerful family.",
+          "vi": "Anh ấy xuất thân từ một gia đình giàu có và quyền lực."
+        }
+      ],
+      "collocations": [
+        "rich and powerful",
+        "very powerful",
+        "powerful speech"
+      ],
+      "notes": null,
+      "ipa": "/ˈpaʊərfl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pow/power/powerful__us_3.mp3"
+    }
+  ]
+}

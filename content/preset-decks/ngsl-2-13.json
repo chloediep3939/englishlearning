@@ -1,0 +1,807 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 501–1.000 · Bộ 13",
+    "description": "New General Service List, thứ hạng 501–1.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-2-13"
+  },
+  "cards": [
+    {
+      "english": "throw",
+      "vietnamese": "ném; vứt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Can you throw the ball to me, please?",
+          "vi": "Bạn ném quả bóng cho tôi được không?"
+        },
+        {
+          "en": "Don't throw away your old clothes; give them to charity instead.",
+          "vi": "Đừng vứt quần áo cũ đi; thay vào đó hãy đem cho từ thiện."
+        },
+        {
+          "en": "He threw his bag on the bed and lay down.",
+          "vi": "Anh ấy quăng cái túi lên giường rồi nằm xuống."
+        }
+      ],
+      "collocations": [
+        "throw a ball",
+        "throw away",
+        "throw a party"
+      ],
+      "notes": "throw – threw – thrown",
+      "ipa": "/θrəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/thr/throw/throw__us_1.mp3"
+    },
+    {
+      "english": "task",
+      "vietnamese": "nhiệm vụ; công việc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My first task this morning is to answer all my emails.",
+          "vi": "Việc đầu tiên của tôi sáng nay là trả lời hết email."
+        },
+        {
+          "en": "Cleaning the kitchen after a big party is not an easy task.",
+          "vi": "Dọn dẹp nhà bếp sau một bữa tiệc lớn không phải là việc dễ dàng."
+        },
+        {
+          "en": "The teacher gave each group a different task.",
+          "vi": "Giáo viên giao cho mỗi nhóm một nhiệm vụ khác nhau."
+        }
+      ],
+      "collocations": [
+        "easy task",
+        "difficult task",
+        "complete a task"
+      ],
+      "notes": null,
+      "ipa": "/tæsk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tas/task_/task__us_1.mp3"
+    },
+    {
+      "english": "normal",
+      "vietnamese": "bình thường",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "It's normal to feel nervous before an important exam.",
+          "vi": "Cảm thấy lo lắng trước một kỳ thi quan trọng là chuyện bình thường."
+        },
+        {
+          "en": "The train is running later than normal today.",
+          "vi": "Hôm nay tàu chạy trễ hơn bình thường."
+        },
+        {
+          "en": "Her blood pressure is normal, so there's nothing to worry about.",
+          "vi": "Huyết áp của cô ấy bình thường nên không có gì phải lo."
+        }
+      ],
+      "collocations": [
+        "perfectly normal",
+        "normal life",
+        "back to normal"
+      ],
+      "notes": null,
+      "ipa": "/ˈnɔːrml/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nor/norma/normal__us_1.mp3"
+    },
+    {
+      "english": "goal",
+      "vietnamese": "mục tiêu; bàn thắng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My goal is to speak English fluently by next year.",
+          "vi": "Mục tiêu của tôi là nói tiếng Anh trôi chảy vào năm sau."
+        },
+        {
+          "en": "Setting small goals can help you stay motivated.",
+          "vi": "Đặt ra những mục tiêu nhỏ có thể giúp bạn giữ được động lực."
+        },
+        {
+          "en": "He scored the winning goal in the last minute.",
+          "vi": "Anh ấy ghi bàn thắng quyết định ở phút cuối."
+        }
+      ],
+      "collocations": [
+        "set a goal",
+        "achieve a goal",
+        "score a goal",
+        "main goal"
+      ],
+      "notes": null,
+      "ipa": "/ɡəʊl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/goa/goal_/goal__us_1.mp3"
+    },
+    {
+      "english": "associate",
+      "vietnamese": "liên tưởng; liên quan đến",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I always associate the smell of rain with my childhood.",
+          "vi": "Tôi luôn liên tưởng mùi mưa với tuổi thơ của mình."
+        },
+        {
+          "en": "Many people associate summer with long vacations at the beach.",
+          "vi": "Nhiều người liên tưởng mùa hè với những kỳ nghỉ dài ở biển."
+        },
+        {
+          "en": "Eating too much sugar is associated with many health problems.",
+          "vi": "Ăn quá nhiều đường có liên quan đến nhiều vấn đề sức khỏe."
+        }
+      ],
+      "collocations": [
+        "associate with",
+        "be associated with",
+        "closely associated"
+      ],
+      "notes": "associate A with B: liên tưởng A với B",
+      "ipa": "/əˈsəʊsieɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/assoc/associate__us_2_rr.mp3"
+    },
+    {
+      "english": "blue",
+      "vietnamese": "xanh dương; buồn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She was wearing a blue dress at the party.",
+          "vi": "Cô ấy mặc một chiếc váy màu xanh dương tại bữa tiệc."
+        },
+        {
+          "en": "The sky was clear and blue all afternoon.",
+          "vi": "Bầu trời trong xanh suốt cả buổi chiều."
+        },
+        {
+          "en": "I've been feeling a bit blue since my best friend moved away.",
+          "vi": "Tôi cảm thấy hơi buồn từ khi bạn thân chuyển đi."
+        }
+      ],
+      "collocations": [
+        "dark blue",
+        "light blue",
+        "blue sky",
+        "feel blue"
+      ],
+      "notes": "'xanh' có thể là blue (xanh dương) hoặc green (xanh lá)",
+      "ipa": "/bluː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/blu/blue_/blue__us_1.mp3"
+    },
+    {
+      "english": "positive",
+      "vietnamese": "tích cực; chắc chắn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Try to stay positive, even when things are difficult.",
+          "vi": "Hãy cố gắng giữ thái độ tích cực, kể cả khi mọi việc khó khăn."
+        },
+        {
+          "en": "The new manager has had a positive effect on the team.",
+          "vi": "Người quản lý mới đã có ảnh hưởng tích cực đến cả nhóm."
+        },
+        {
+          "en": "Are you positive that you locked the front door?",
+          "vi": "Bạn có chắc chắn là đã khóa cửa trước không?"
+        }
+      ],
+      "collocations": [
+        "stay positive",
+        "positive effect",
+        "positive attitude",
+        "positive feedback"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɑːzətɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pos/posit/positive__us_2.mp3"
+    },
+    {
+      "english": "option",
+      "vietnamese": "lựa chọn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Taking a taxi is probably the best option tonight.",
+          "vi": "Đi taxi có lẽ là lựa chọn tốt nhất tối nay."
+        },
+        {
+          "en": "We have two options: stay home or go out for dinner.",
+          "vi": "Chúng ta có hai lựa chọn: ở nhà hoặc ra ngoài ăn tối."
+        },
+        {
+          "en": "The restaurant offers several vegetarian options on its menu.",
+          "vi": "Nhà hàng có một số lựa chọn món chay trong thực đơn."
+        }
+      ],
+      "collocations": [
+        "the best option",
+        "have no option",
+        "a good option"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːpʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/opt/optio/option__us_2.mp3"
+    },
+    {
+      "english": "box",
+      "vietnamese": "hộp; thùng; ô",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She keeps all her old photos in a shoe box.",
+          "vi": "Cô ấy cất tất cả ảnh cũ trong một hộp giày."
+        },
+        {
+          "en": "We packed our books into boxes before moving.",
+          "vi": "Chúng tôi đóng sách vào thùng trước khi chuyển nhà."
+        },
+        {
+          "en": "Please check the box if you agree to the terms.",
+          "vi": "Vui lòng đánh dấu vào ô nếu bạn đồng ý với các điều khoản."
+        }
+      ],
+      "collocations": [
+        "cardboard box",
+        "shoe box",
+        "check the box",
+        "a box of chocolates"
+      ],
+      "notes": null,
+      "ipa": "/bɑːks/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/box/box__/box__us_1.mp3"
+    },
+    {
+      "english": "huge",
+      "vietnamese": "rất lớn; khổng lồ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "They live in a huge house near the lake.",
+          "vi": "Họ sống trong một ngôi nhà rất lớn gần hồ."
+        },
+        {
+          "en": "Winning the scholarship was a huge surprise for her.",
+          "vi": "Giành được học bổng là một bất ngờ rất lớn đối với cô ấy."
+        },
+        {
+          "en": "The school concert was a huge success this year.",
+          "vi": "Buổi hòa nhạc của trường năm nay đã thành công lớn."
+        }
+      ],
+      "collocations": [
+        "huge success",
+        "huge amount",
+        "huge difference"
+      ],
+      "notes": null,
+      "ipa": "/hjuːdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hug/huge_/huge__us_1.mp3"
+    },
+    {
+      "english": "message",
+      "vietnamese": "tin nhắn; lời nhắn; thông điệp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I'll send you a message when I get home.",
+          "vi": "Tôi sẽ gửi tin nhắn cho bạn khi về đến nhà."
+        },
+        {
+          "en": "She's not in right now, but can I take a message?",
+          "vi": "Cô ấy hiện không có ở đây, tôi ghi lại lời nhắn cho bạn nhé?"
+        },
+        {
+          "en": "The movie has a simple message about being kind to others.",
+          "vi": "Bộ phim mang một thông điệp đơn giản về việc tử tế với người khác."
+        }
+      ],
+      "collocations": [
+        "send a message",
+        "leave a message",
+        "take a message",
+        "text message"
+      ],
+      "notes": null,
+      "ipa": "/ˈmesɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mes/messa/message__us_1.mp3"
+    },
+    {
+      "english": "instance",
+      "vietnamese": "ví dụ; trường hợp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There are many ways to save money, for instance cooking at home.",
+          "vi": "Có nhiều cách để tiết kiệm tiền, chẳng hạn như nấu ăn ở nhà."
+        },
+        {
+          "en": "In this instance, I think you should ask your manager first.",
+          "vi": "Trong trường hợp này, tôi nghĩ bạn nên hỏi quản lý trước."
+        },
+        {
+          "en": "The report describes several instances of students cheating on tests.",
+          "vi": "Bản báo cáo mô tả một số trường hợp học sinh gian lận khi làm bài kiểm tra."
+        }
+      ],
+      "collocations": [
+        "for instance",
+        "in this instance",
+        "in some instances"
+      ],
+      "notes": "for instance = for example (chẳng hạn)",
+      "ipa": "/ˈɪnstəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/insta/instance__us_2.mp3"
+    },
+    {
+      "english": "style",
+      "vietnamese": "phong cách; kiểu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The students really enjoy their teacher's relaxed teaching style.",
+          "vi": "Học sinh rất thích phong cách giảng dạy thoải mái của giáo viên mình."
+        },
+        {
+          "en": "The hotel was built in an old French style.",
+          "vi": "Khách sạn được xây theo phong cách Pháp cổ."
+        },
+        {
+          "en": "This style of shoe is very popular with teenagers.",
+          "vi": "Kiểu giày này rất được giới trẻ ưa chuộng."
+        }
+      ],
+      "collocations": [
+        "teaching style",
+        "writing style",
+        "in style"
+      ],
+      "notes": null,
+      "ipa": "/staɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sty/style/style__us_1.mp3"
+    },
+    {
+      "english": "refer",
+      "vietnamese": "nhắc đến; ám chỉ; tham khảo",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "In his speech, he referred to his years living abroad.",
+          "vi": "Trong bài phát biểu, anh ấy đã nhắc đến những năm sống ở nước ngoài."
+        },
+        {
+          "en": "Who were you referring to when you said that?",
+          "vi": "Bạn đang ám chỉ ai khi nói điều đó?"
+        },
+        {
+          "en": "She referred to her notes several times during her presentation.",
+          "vi": "Cô ấy đã xem ghi chú của mình vài lần trong bài thuyết trình."
+        }
+      ],
+      "collocations": [
+        "refer to",
+        "refer back to",
+        "be referred to as"
+      ],
+      "notes": "refer to sth · refer – referred – referred",
+      "ipa": "/rɪˈfɜːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ref/refer/refer__us_1.mp3"
+    },
+    {
+      "english": "cold",
+      "vietnamese": "lạnh; lạnh lùng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "It's really cold outside, so wear a warm coat.",
+          "vi": "Ngoài trời rất lạnh, nên hãy mặc áo khoác ấm."
+        },
+        {
+          "en": "Would you like a cold drink after your long walk?",
+          "vi": "Bạn có muốn uống gì lạnh sau chuyến đi bộ dài không?"
+        },
+        {
+          "en": "He gave me a cold look and walked away.",
+          "vi": "Anh ấy nhìn tôi lạnh lùng rồi bỏ đi."
+        }
+      ],
+      "collocations": [
+        "cold weather",
+        "cold water",
+        "cold drink",
+        "catch a cold"
+      ],
+      "notes": "Danh từ: catch a cold (bị cảm lạnh)",
+      "ipa": "/kəʊld/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/col/cold_/cold__us_1.mp3"
+    },
+    {
+      "english": "push",
+      "vietnamese": "đẩy; ấn; thúc ép",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "You need to push the door hard because it sometimes sticks.",
+          "vi": "Bạn cần đẩy cửa mạnh vì đôi khi nó bị kẹt."
+        },
+        {
+          "en": "Push this button to turn on the machine.",
+          "vi": "Ấn nút này để bật máy."
+        },
+        {
+          "en": "My parents never pushed me to study medicine.",
+          "vi": "Bố mẹ tôi chưa bao giờ ép tôi học ngành y."
+        }
+      ],
+      "collocations": [
+        "push the door",
+        "push a button",
+        "push hard"
+      ],
+      "notes": null,
+      "ipa": "/pʊʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pus/push_/push__us_1.mp3"
+    },
+    {
+      "english": "quarter",
+      "vietnamese": "một phần tư; mười lăm phút; quý",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "About a quarter of the students walk to school.",
+          "vi": "Khoảng một phần tư số học sinh đi bộ đến trường."
+        },
+        {
+          "en": "The meeting starts at a quarter past nine.",
+          "vi": "Cuộc họp bắt đầu lúc chín giờ mười lăm."
+        },
+        {
+          "en": "The company's sales rose sharply in the third quarter.",
+          "vi": "Doanh số của công ty đã tăng mạnh trong quý ba."
+        }
+      ],
+      "collocations": [
+        "a quarter of",
+        "quarter past",
+        "quarter to",
+        "third quarter"
+      ],
+      "notes": null,
+      "ipa": "/ˈkwɔːrtər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/q/qua/quart/quarter__us_3.mp3"
+    },
+    {
+      "english": "assume",
+      "vietnamese": "cho rằng; giả sử",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I assumed you already knew about the party.",
+          "vi": "Tôi cứ tưởng bạn đã biết về bữa tiệc rồi."
+        },
+        {
+          "en": "Don't assume that everyone agrees with you.",
+          "vi": "Đừng cho rằng mọi người đều đồng ý với bạn."
+        },
+        {
+          "en": "Let's assume the flight leaves on time and plan from there.",
+          "vi": "Hãy giả sử chuyến bay cất cánh đúng giờ và lên kế hoạch từ đó."
+        }
+      ],
+      "collocations": [
+        "assume that",
+        "safe to assume",
+        "wrongly assume"
+      ],
+      "notes": null,
+      "ipa": "/əˈsuːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/assum/assume__us_2.mp3"
+    },
+    {
+      "english": "baby",
+      "vietnamese": "em bé",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The baby is sleeping, so please be quiet.",
+          "vi": "Em bé đang ngủ, nên làm ơn giữ yên lặng."
+        },
+        {
+          "en": "My sister is going to have a baby in March.",
+          "vi": "Chị gái tôi sắp sinh em bé vào tháng Ba."
+        },
+        {
+          "en": "They bought some new baby clothes for their son.",
+          "vi": "Họ đã mua vài bộ quần áo em bé mới cho con trai."
+        }
+      ],
+      "collocations": [
+        "have a baby",
+        "newborn baby",
+        "baby clothes",
+        "baby boy"
+      ],
+      "notes": null,
+      "ipa": "/ˈbeɪbi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bab/baby_/baby__us_1.mp3"
+    },
+    {
+      "english": "successful",
+      "vietnamese": "thành công; thành đạt",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Her new restaurant has been very successful.",
+          "vi": "Nhà hàng mới của cô ấy rất thành công."
+        },
+        {
+          "en": "He is a successful businessman with three companies.",
+          "vi": "Anh ấy là một doanh nhân thành đạt với ba công ty."
+        },
+        {
+          "en": "Were you successful in finding a new apartment?",
+          "vi": "Bạn tìm căn hộ mới có thành công không?"
+        }
+      ],
+      "collocations": [
+        "highly successful",
+        "successful career",
+        "successful businessman",
+        "successful in"
+      ],
+      "notes": null,
+      "ipa": "/səkˈsesfl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/suc/succe/successful__us_2.mp3"
+    },
+    {
+      "english": "sing",
+      "vietnamese": "hát",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She sings in the school choir every Friday.",
+          "vi": "Cô ấy hát trong dàn hợp xướng của trường vào mỗi thứ Sáu."
+        },
+        {
+          "en": "My grandfather used to sing old songs to us at bedtime.",
+          "vi": "Ông tôi thường hát những bài hát cũ cho chúng tôi nghe trước giờ đi ngủ."
+        },
+        {
+          "en": "Have you ever sung in front of a large audience?",
+          "vi": "Bạn đã bao giờ hát trước đông khán giả chưa?"
+        }
+      ],
+      "collocations": [
+        "sing a song",
+        "sing along",
+        "sing in a choir"
+      ],
+      "notes": "sing – sang – sung",
+      "ipa": "/sɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sin/sing_/sing__us_1.mp3"
+    },
+    {
+      "english": "doubt",
+      "vietnamese": "nghi ngờ; không tin là",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I doubt that he will arrive on time.",
+          "vi": "Tôi không tin là anh ấy sẽ đến đúng giờ."
+        },
+        {
+          "en": "She never doubted her decision to study abroad.",
+          "vi": "Cô ấy chưa bao giờ nghi ngờ quyết định đi du học của mình."
+        },
+        {
+          "en": "Nobody doubts that she is the best player on the team.",
+          "vi": "Không ai nghi ngờ rằng cô ấy là cầu thủ giỏi nhất đội."
+        }
+      ],
+      "collocations": [
+        "doubt that",
+        "seriously doubt",
+        "never doubt"
+      ],
+      "notes": "Danh từ: no doubt (chắc chắn, không nghi ngờ gì)",
+      "ipa": "/daʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dou/doubt/doubt__us_1.mp3"
+    },
+    {
+      "english": "competition",
+      "vietnamese": "cuộc thi; sự cạnh tranh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My son won first prize in a drawing competition.",
+          "vi": "Con trai tôi đã giành giải nhất trong một cuộc thi vẽ."
+        },
+        {
+          "en": "There is strong competition between the two coffee shops.",
+          "vi": "Có sự cạnh tranh gay gắt giữa hai quán cà phê."
+        },
+        {
+          "en": "Are you going to enter the singing competition next month?",
+          "vi": "Bạn có định tham gia cuộc thi hát vào tháng sau không?"
+        }
+      ],
+      "collocations": [
+        "win a competition",
+        "enter a competition",
+        "strong competition"
+      ],
+      "notes": null,
+      "ipa": "/ˌkɑːmpəˈtɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/compe/competition__us_1.mp3"
+    },
+    {
+      "english": "theory",
+      "vietnamese": "lý thuyết; giả thuyết",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "In theory, the plan should work, but it's still risky.",
+          "vi": "Về lý thuyết, kế hoạch này sẽ hiệu quả, nhưng nó vẫn có rủi ro."
+        },
+        {
+          "en": "Students need to learn both theory and practice in this course.",
+          "vi": "Sinh viên cần học cả lý thuyết lẫn thực hành trong khóa học này."
+        },
+        {
+          "en": "I have a theory about why our cat keeps running away.",
+          "vi": "Tôi có một giả thuyết về lý do con mèo nhà tôi cứ bỏ đi."
+        }
+      ],
+      "collocations": [
+        "in theory",
+        "theory and practice",
+        "develop a theory"
+      ],
+      "notes": null,
+      "ipa": "/ˈθiːəri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/theor/theory__us_2_rr.mp3"
+    },
+    {
+      "english": "propose",
+      "vietnamese": "đề xuất; cầu hôn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She proposed a new plan to reduce costs.",
+          "vi": "Cô ấy đã đề xuất một kế hoạch mới để giảm chi phí."
+        },
+        {
+          "en": "I propose that we meet again next Monday.",
+          "vi": "Tôi đề nghị chúng ta gặp lại nhau vào thứ Hai tới."
+        },
+        {
+          "en": "He proposed to his girlfriend on the beach at sunset.",
+          "vi": "Anh ấy đã cầu hôn bạn gái trên bãi biển lúc hoàng hôn."
+        }
+      ],
+      "collocations": [
+        "propose a plan",
+        "propose changes",
+        "propose to"
+      ],
+      "notes": null,
+      "ipa": "/prəˈpəʊz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/propo/propose__us_2.mp3"
+    },
+    {
+      "english": "reference",
+      "vietnamese": "sự nhắc đến; sự tham khảo; thư giới thiệu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She made no reference to the problem in her email.",
+          "vi": "Cô ấy không hề nhắc đến vấn đề đó trong email."
+        },
+        {
+          "en": "Please keep this guide in a safe place for future reference.",
+          "vi": "Hãy cất cuốn hướng dẫn này ở nơi an toàn để tham khảo sau này."
+        },
+        {
+          "en": "My former manager agreed to write me a reference.",
+          "vi": "Quản lý cũ của tôi đã đồng ý viết thư giới thiệu cho tôi."
+        }
+      ],
+      "collocations": [
+        "make reference to",
+        "for future reference",
+        "reference book",
+        "letter of reference"
+      ],
+      "notes": null,
+      "ipa": "/ˈrefrəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/ref/refer/reference__us_1.mp3"
+    },
+    {
+      "english": "argument",
+      "vietnamese": "cuộc cãi vã; lý lẽ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My brother and I had an argument about the TV remote.",
+          "vi": "Tôi và anh trai đã cãi nhau vì cái điều khiển tivi."
+        },
+        {
+          "en": "They got into a big argument over money.",
+          "vi": "Họ đã cãi nhau to vì chuyện tiền bạc."
+        },
+        {
+          "en": "She made a strong argument for learning a second language.",
+          "vi": "Cô ấy đưa ra một lý lẽ thuyết phục cho việc học ngoại ngữ thứ hai."
+        }
+      ],
+      "collocations": [
+        "have an argument",
+        "strong argument",
+        "argument about",
+        "argument for"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːrɡjumənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/arg/argum/argument__us_1.mp3"
+    },
+    {
+      "english": "adult",
+      "vietnamese": "người lớn; người trưởng thành",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Children must be with an adult to enter the pool.",
+          "vi": "Trẻ em phải đi cùng người lớn mới được vào hồ bơi."
+        },
+        {
+          "en": "Tickets cost ten dollars for adults and five for children.",
+          "vi": "Vé có giá mười đô la cho người lớn và năm đô cho trẻ em."
+        },
+        {
+          "en": "Now that you're an adult, you need to make your own decisions.",
+          "vi": "Giờ bạn đã là người trưởng thành, bạn cần tự đưa ra quyết định."
+        }
+      ],
+      "collocations": [
+        "young adult",
+        "adult life",
+        "adults and children"
+      ],
+      "notes": null,
+      "ipa": "/əˈdʌlt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adu/adult/adult__us_2_rr.mp3"
+    },
+    {
+      "english": "fly",
+      "vietnamese": "bay; đi máy bay",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Birds fly south when the weather gets cold.",
+          "vi": "Chim bay về phương nam khi trời trở lạnh."
+        },
+        {
+          "en": "We flew to Da Nang for our summer vacation.",
+          "vi": "Chúng tôi đã bay ra Đà Nẵng trong kỳ nghỉ hè."
+        },
+        {
+          "en": "Is it cheaper to fly or take the train?",
+          "vi": "Đi máy bay hay đi tàu thì rẻ hơn?"
+        }
+      ],
+      "collocations": [
+        "fly to",
+        "fly home",
+        "fly away",
+        "fly a kite"
+      ],
+      "notes": "fly – flew – flown",
+      "ipa": "/flaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fly/fly__/fly__us_1.mp3"
+    }
+  ]
+}

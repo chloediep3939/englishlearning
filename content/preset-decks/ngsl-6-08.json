@@ -1,0 +1,793 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.501–2.809 · Bộ 8",
+    "description": "New General Service List, thứ hạng 2.501–2.809",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-6-08"
+  },
+  "cards": [
+    {
+      "english": "harbor",
+      "vietnamese": "cảng; bến cảng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The fishing boats returned to the harbor before the storm.",
+          "vi": "Những chiếc thuyền đánh cá đã quay về cảng trước cơn bão."
+        },
+        {
+          "en": "We walked along the harbor and watched the ships come in.",
+          "vi": "Chúng tôi đi dạo dọc bến cảng và ngắm những con tàu cập bến."
+        },
+        {
+          "en": "Our hotel room had a beautiful view of the harbor.",
+          "vi": "Phòng khách sạn của chúng tôi có tầm nhìn tuyệt đẹp ra bến cảng."
+        }
+      ],
+      "collocations": [
+        "in the harbor",
+        "natural harbor",
+        "harbor entrance"
+      ],
+      "notes": "Anh: harbour · Mỹ: harbor",
+      "ipa": "/ˈhɑrbər/",
+      "audio_src": null
+    },
+    {
+      "english": "comedy",
+      "vietnamese": "hài kịch; phim hài",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My brother loves watching comedy shows after a long day.",
+          "vi": "Anh trai tôi rất thích xem các chương trình hài sau một ngày dài."
+        },
+        {
+          "en": "It's a romantic comedy, so it has a happy ending.",
+          "vi": "Đó là một phim hài lãng mạn nên có kết thúc có hậu."
+        },
+        {
+          "en": "She started her career doing stand-up comedy in small clubs.",
+          "vi": "Cô ấy bắt đầu sự nghiệp bằng việc diễn hài độc thoại ở các câu lạc bộ nhỏ."
+        }
+      ],
+      "collocations": [
+        "romantic comedy",
+        "stand-up comedy",
+        "comedy show"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːmədi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/comed/comedy__us_1.mp3"
+    },
+    {
+      "english": "chase",
+      "vietnamese": "đuổi theo; theo đuổi",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The children laughed as they chased after the ball.",
+          "vi": "Bọn trẻ cười đùa khi chạy đuổi theo quả bóng."
+        },
+        {
+          "en": "Two police officers chased the thief down the street.",
+          "vi": "Hai cảnh sát đuổi theo tên trộm dọc con phố."
+        },
+        {
+          "en": "Don't spend your whole life chasing money and success.",
+          "vi": "Đừng dành cả đời để theo đuổi tiền bạc và thành công."
+        }
+      ],
+      "collocations": [
+        "chase after",
+        "chase a dream",
+        "chase away"
+      ],
+      "notes": null,
+      "ipa": "/tʃeɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chase/chase__us_1.mp3"
+    },
+    {
+      "english": "storage",
+      "vietnamese": "sự lưu trữ; chỗ chứa; bộ nhớ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We need more storage space for all these boxes.",
+          "vi": "Chúng ta cần thêm chỗ chứa đồ cho tất cả những cái hộp này."
+        },
+        {
+          "en": "My phone is almost out of storage, so I deleted some photos.",
+          "vi": "Điện thoại của tôi gần hết bộ nhớ nên tôi đã xóa bớt vài bức ảnh."
+        },
+        {
+          "en": "They put their old furniture in storage while they moved.",
+          "vi": "Họ gửi đồ nội thất cũ vào kho trong lúc chuyển nhà."
+        }
+      ],
+      "collocations": [
+        "storage space",
+        "in storage",
+        "data storage"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/ˈstɔːrɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sto/stora/storage__us_1.mp3"
+    },
+    {
+      "english": "universe",
+      "vietnamese": "vũ trụ; thế giới",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Scientists believe the universe is about fourteen billion years old.",
+          "vi": "Các nhà khoa học tin rằng vũ trụ đã khoảng mười bốn tỷ năm tuổi."
+        },
+        {
+          "en": "Do you think we are alone in the universe?",
+          "vi": "Bạn có nghĩ chúng ta đơn độc trong vũ trụ không?"
+        },
+        {
+          "en": "The film takes place in a strange universe full of magic.",
+          "vi": "Bộ phim diễn ra trong một thế giới kỳ lạ đầy phép thuật."
+        }
+      ],
+      "collocations": [
+        "in the universe",
+        "the entire universe"
+      ],
+      "notes": null,
+      "ipa": "/ˈjuːnɪvɜːrs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/uni/unive/universe__us_1.mp3"
+    },
+    {
+      "english": "horrible",
+      "vietnamese": "kinh khủng; tồi tệ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The food at that restaurant was absolutely horrible.",
+          "vi": "Đồ ăn ở nhà hàng đó thật sự kinh khủng."
+        },
+        {
+          "en": "I had a horrible dream last night and couldn't fall asleep again.",
+          "vi": "Đêm qua tôi gặp một giấc mơ kinh khủng và không ngủ lại được."
+        },
+        {
+          "en": "It was horrible of him to laugh at her mistake.",
+          "vi": "Anh ta thật tồi tệ khi cười nhạo lỗi sai của cô ấy."
+        }
+      ],
+      "collocations": [
+        "absolutely horrible",
+        "horrible feeling",
+        "horrible weather"
+      ],
+      "notes": null,
+      "ipa": "/ˈhɔːrəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hor/horri/horrible__us_1_rr.mp3"
+    },
+    {
+      "english": "sheep",
+      "vietnamese": "con cừu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The farmer keeps about two hundred sheep on his land.",
+          "vi": "Người nông dân nuôi khoảng hai trăm con cừu trên đất của mình."
+        },
+        {
+          "en": "A few sheep were eating grass on the side of the hill.",
+          "vi": "Vài con cừu đang gặm cỏ trên sườn đồi."
+        },
+        {
+          "en": "These sweaters are made from the wool of local sheep.",
+          "vi": "Những chiếc áo len này được làm từ lông của cừu địa phương."
+        }
+      ],
+      "collocations": [
+        "a flock of sheep",
+        "sheep farm",
+        "keep sheep"
+      ],
+      "notes": "số nhiều vẫn là sheep",
+      "ipa": "/ʃiːp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/she/sheep/sheep__us_1.mp3"
+    },
+    {
+      "english": "lover",
+      "vietnamese": "người yêu; người mê thích",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The two lovers walked hand in hand along the beach.",
+          "vi": "Đôi tình nhân nắm tay nhau đi dạo dọc bãi biển."
+        },
+        {
+          "en": "As a coffee lover, I try every new café in town.",
+          "vi": "Là người mê cà phê, tôi thử mọi quán cà phê mới trong thành phố."
+        },
+        {
+          "en": "This park is popular with dog lovers on weekends.",
+          "vi": "Công viên này được những người yêu chó ưa chuộng vào cuối tuần."
+        }
+      ],
+      "collocations": [
+        "music lover",
+        "dog lover",
+        "nature lover"
+      ],
+      "notes": null,
+      "ipa": "/ˈlʌvər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lov/lover/lover__us_1.mp3"
+    },
+    {
+      "english": "rat",
+      "vietnamese": "chuột cống; con chuột",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We saw a huge rat running near the trash cans.",
+          "vi": "Chúng tôi thấy một con chuột to chạy gần mấy thùng rác."
+        },
+        {
+          "en": "Rats can carry diseases, so keep your kitchen clean.",
+          "vi": "Chuột có thể mang mầm bệnh, vì vậy hãy giữ bếp sạch sẽ."
+        },
+        {
+          "en": "The old house was full of rats and spiders.",
+          "vi": "Ngôi nhà cũ đầy chuột và nhện."
+        }
+      ],
+      "collocations": [
+        "rat poison",
+        "lab rat"
+      ],
+      "notes": "rat (chuột to) ≠ mouse (chuột nhắt)",
+      "ipa": "/ræt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rat/rat__/rat__us_1.mp3"
+    },
+    {
+      "english": "portrait",
+      "vietnamese": "bức chân dung; sự miêu tả",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A portrait of her grandmother hangs above the fireplace.",
+          "vi": "Một bức chân dung của bà cô ấy được treo phía trên lò sưởi."
+        },
+        {
+          "en": "The artist spent three months painting the family portrait.",
+          "vi": "Họa sĩ đã mất ba tháng để vẽ bức chân dung gia đình."
+        },
+        {
+          "en": "The book gives a clear portrait of life in a small village.",
+          "vi": "Cuốn sách đưa ra một bức tranh rõ nét về cuộc sống ở một ngôi làng nhỏ."
+        }
+      ],
+      "collocations": [
+        "paint a portrait",
+        "family portrait",
+        "portrait of"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɔːrtrət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/por/portr/portrait__us_1.mp3"
+    },
+    {
+      "english": "innocent",
+      "vietnamese": "vô tội; ngây thơ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Her lawyer was sure that she was completely innocent.",
+          "vi": "Luật sư của cô ấy chắc chắn rằng cô ấy hoàn toàn vô tội."
+        },
+        {
+          "en": "He always believed his son was innocent of the crime.",
+          "vi": "Ông ấy luôn tin rằng con trai mình không phạm tội đó."
+        },
+        {
+          "en": "The child looked up at me with big, innocent eyes.",
+          "vi": "Đứa trẻ ngước nhìn tôi bằng đôi mắt to tròn ngây thơ."
+        }
+      ],
+      "collocations": [
+        "innocent of",
+        "completely innocent",
+        "innocent eyes"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪnəsnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inn/innoc/innocent__us_1.mp3"
+    },
+    {
+      "english": "substitute",
+      "vietnamese": "người thay thế; vật thay thế",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "You can use honey as a substitute for sugar.",
+          "vi": "Bạn có thể dùng mật ong để thay cho đường."
+        },
+        {
+          "en": "Our teacher was sick, so a substitute taught the class.",
+          "vi": "Cô giáo chúng tôi bị ốm nên có một giáo viên khác dạy thay."
+        },
+        {
+          "en": "The coach brought on a substitute in the second half.",
+          "vi": "Huấn luyện viên đã tung một cầu thủ dự bị vào sân trong hiệp hai."
+        }
+      ],
+      "collocations": [
+        "substitute for",
+        "substitute teacher",
+        "no substitute for"
+      ],
+      "notes": "cũng là động từ: substitute A for B (dùng A thay B)",
+      "ipa": "/ˈsʌbstɪtuːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sub/subst/substitute__us_1.mp3"
+    },
+    {
+      "english": "supplement",
+      "vietnamese": "thực phẩm bổ sung; phần bổ sung",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My doctor told me to take a vitamin D supplement.",
+          "vi": "Bác sĩ bảo tôi uống thêm viên bổ sung vitamin D."
+        },
+        {
+          "en": "Online lessons are a useful supplement to classes at school.",
+          "vi": "Các bài học trực tuyến là phần bổ sung hữu ích cho các lớp học ở trường."
+        },
+        {
+          "en": "Many athletes take protein supplements after training.",
+          "vi": "Nhiều vận động viên dùng thực phẩm bổ sung protein sau khi tập luyện."
+        }
+      ],
+      "collocations": [
+        "dietary supplement",
+        "vitamin supplement",
+        "supplement to"
+      ],
+      "notes": null,
+      "ipa": "/ˈsʌplɪmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sup/suppl/supplement__us_1.mp3"
+    },
+    {
+      "english": "adjustment",
+      "vietnamese": "sự điều chỉnh; sự thích nghi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We made a few small adjustments to the plan.",
+          "vi": "Chúng tôi đã thực hiện vài điều chỉnh nhỏ cho kế hoạch."
+        },
+        {
+          "en": "Moving to a new country requires a big adjustment.",
+          "vi": "Chuyển đến một đất nước mới đòi hỏi phải thích nghi rất nhiều."
+        },
+        {
+          "en": "The mechanic made an adjustment to the brakes on my bike.",
+          "vi": "Thợ sửa xe đã điều chỉnh phanh xe đạp của tôi."
+        }
+      ],
+      "collocations": [
+        "make an adjustment",
+        "minor adjustment",
+        "adjustment to"
+      ],
+      "notes": null,
+      "ipa": "/əˈdʒʌstmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adj/adjus/adjustment__us_1.mp3"
+    },
+    {
+      "english": "reasonably",
+      "vietnamese": "khá; hợp lý",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The hotel was clean and reasonably priced.",
+          "vi": "Khách sạn sạch sẽ và giá cả hợp lý."
+        },
+        {
+          "en": "I speak French reasonably well, but my writing is poor.",
+          "vi": "Tôi nói tiếng Pháp khá tốt, nhưng viết thì kém."
+        },
+        {
+          "en": "Please try to act reasonably, even when you feel angry.",
+          "vi": "Hãy cố gắng cư xử hợp lý, ngay cả khi bạn đang tức giận."
+        }
+      ],
+      "collocations": [
+        "reasonably priced",
+        "reasonably well",
+        "reasonably good"
+      ],
+      "notes": null,
+      "ipa": "/ˈriːznəbli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rea/reaso/reasonably__us_2_rr.mp3"
+    },
+    {
+      "english": "filter",
+      "vietnamese": "bộ lọc; cái lọc",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Remember to clean the air filter every few months.",
+          "vi": "Nhớ vệ sinh bộ lọc không khí vài tháng một lần."
+        },
+        {
+          "en": "She added a filter to the photo before posting it.",
+          "vi": "Cô ấy thêm bộ lọc vào bức ảnh trước khi đăng."
+        },
+        {
+          "en": "This water filter removes dirt and makes tap water safe.",
+          "vi": "Bộ lọc nước này loại bỏ cặn bẩn và giúp nước máy an toàn."
+        }
+      ],
+      "collocations": [
+        "water filter",
+        "air filter",
+        "coffee filter"
+      ],
+      "notes": "cũng là động từ: filter (lọc)",
+      "ipa": "/ˈfɪltər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fil/filte/filter__us_1.mp3"
+    },
+    {
+      "english": "flexible",
+      "vietnamese": "linh hoạt; dẻo dai",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My job has flexible hours, so I can pick up my kids.",
+          "vi": "Công việc của tôi có giờ giấc linh hoạt nên tôi có thể đón con."
+        },
+        {
+          "en": "We're flexible about the date, so just tell us what suits you.",
+          "vi": "Chúng tôi linh hoạt về ngày, nên bạn cứ cho biết ngày nào hợp với bạn."
+        },
+        {
+          "en": "Yoga helps keep your body strong and flexible.",
+          "vi": "Yoga giúp cơ thể bạn khỏe mạnh và dẻo dai."
+        }
+      ],
+      "collocations": [
+        "flexible hours",
+        "flexible about",
+        "highly flexible"
+      ],
+      "notes": null,
+      "ipa": "/ˈfleksəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fle/flexi/flexible__us_2.mp3"
+    },
+    {
+      "english": "abstract",
+      "vietnamese": "trừu tượng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Love and freedom are abstract ideas that are hard to define.",
+          "vi": "Tình yêu và tự do là những khái niệm trừu tượng khó định nghĩa."
+        },
+        {
+          "en": "I don't really understand abstract art, but I like the colors.",
+          "vi": "Tôi không thực sự hiểu nghệ thuật trừu tượng, nhưng tôi thích màu sắc."
+        },
+        {
+          "en": "His explanation was too abstract for the young students.",
+          "vi": "Lời giải thích của anh ấy quá trừu tượng đối với các học sinh nhỏ tuổi."
+        }
+      ],
+      "collocations": [
+        "abstract art",
+        "abstract idea",
+        "abstract concept"
+      ],
+      "notes": null,
+      "ipa": "/ˈæbstrækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/abs/abstr/abstract__us_2_rr.mp3"
+    },
+    {
+      "english": "tent",
+      "vietnamese": "cái lều",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Let's put up the tent before it gets dark.",
+          "vi": "Chúng ta dựng lều trước khi trời tối đi."
+        },
+        {
+          "en": "It rained all night, but we stayed dry inside the tent.",
+          "vi": "Trời mưa suốt đêm nhưng chúng tôi vẫn khô ráo trong lều."
+        },
+        {
+          "en": "The wedding dinner was held in a large white tent.",
+          "vi": "Tiệc cưới được tổ chức trong một chiếc lều trắng lớn."
+        }
+      ],
+      "collocations": [
+        "put up a tent",
+        "pitch a tent",
+        "sleep in a tent"
+      ],
+      "notes": null,
+      "ipa": "/tent/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/ten/tent_/tent__us_1.mp3"
+    },
+    {
+      "english": "precise",
+      "vietnamese": "chính xác; rõ ràng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Can you tell me the precise time the train leaves?",
+          "vi": "Bạn có thể cho tôi biết chính xác giờ tàu chạy không?"
+        },
+        {
+          "en": "The instructions for the machine were clear and very precise.",
+          "vi": "Hướng dẫn sử dụng máy rõ ràng và rất chính xác."
+        },
+        {
+          "en": "To be precise, we have been waiting for forty minutes.",
+          "vi": "Nói cho chính xác thì chúng tôi đã chờ bốn mươi phút rồi."
+        }
+      ],
+      "collocations": [
+        "to be precise",
+        "precise time",
+        "precise details"
+      ],
+      "notes": null,
+      "ipa": "/prɪˈsaɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/preci/precise__us_1.mp3"
+    },
+    {
+      "english": "distant",
+      "vietnamese": "xa; xa cách",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "In the distant future, people might live on other planets.",
+          "vi": "Trong tương lai xa, con người có thể sống trên các hành tinh khác."
+        },
+        {
+          "en": "She dreams of traveling to distant countries one day.",
+          "vi": "Cô ấy mơ một ngày được đi du lịch đến những đất nước xa xôi."
+        },
+        {
+          "en": "After the argument, she seemed cold and distant.",
+          "vi": "Sau cuộc cãi vã, cô ấy có vẻ lạnh lùng và xa cách."
+        }
+      ],
+      "collocations": [
+        "distant future",
+        "distant relative",
+        "distant memory"
+      ],
+      "notes": null,
+      "ipa": "/ˈdɪstənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/dista/distant__us_1.mp3"
+    },
+    {
+      "english": "stranger",
+      "vietnamese": "người lạ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Parents tell their children not to talk to strangers.",
+          "vi": "Cha mẹ dặn con cái không được nói chuyện với người lạ."
+        },
+        {
+          "en": "A kind stranger helped me carry my bags up the stairs.",
+          "vi": "Một người lạ tốt bụng đã giúp tôi xách túi lên cầu thang."
+        },
+        {
+          "en": "When I first moved here, everyone was a complete stranger to me.",
+          "vi": "Khi tôi mới chuyển đến đây, ai cũng hoàn toàn xa lạ với tôi."
+        }
+      ],
+      "collocations": [
+        "complete stranger",
+        "total stranger",
+        "talk to strangers"
+      ],
+      "notes": null,
+      "ipa": "/ˈstreɪndʒər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/stran/stranger__us_1.mp3"
+    },
+    {
+      "english": "shade",
+      "vietnamese": "bóng râm; sắc độ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Let's sit in the shade of that big tree.",
+          "vi": "Chúng ta ngồi dưới bóng râm của cái cây to kia đi."
+        },
+        {
+          "en": "It was so hot that the dog lay in the shade all day.",
+          "vi": "Trời nóng đến nỗi con chó nằm trong bóng râm cả ngày."
+        },
+        {
+          "en": "I'd like this shirt in a lighter shade of blue.",
+          "vi": "Tôi muốn chiếc áo này với màu xanh nhạt hơn."
+        }
+      ],
+      "collocations": [
+        "in the shade",
+        "lighter shade",
+        "provide shade"
+      ],
+      "notes": null,
+      "ipa": "/ʃeɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sha/shade/shade__us_1.mp3"
+    },
+    {
+      "english": "grain",
+      "vietnamese": "ngũ cốc; hạt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Farmers here grow grains such as wheat and rice.",
+          "vi": "Nông dân ở đây trồng các loại ngũ cốc như lúa mì và lúa gạo."
+        },
+        {
+          "en": "There was a grain of sand stuck in my shoe.",
+          "vi": "Có một hạt cát bị kẹt trong giày tôi."
+        },
+        {
+          "en": "Brown rice and other whole grains are good for your health.",
+          "vi": "Gạo lứt và các loại ngũ cốc nguyên hạt khác tốt cho sức khỏe."
+        }
+      ],
+      "collocations": [
+        "grain of sand",
+        "grain of rice",
+        "whole grain"
+      ],
+      "notes": null,
+      "ipa": "/ɡreɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gra/grain/grain__us_1.mp3"
+    },
+    {
+      "english": "situate",
+      "vietnamese": "đặt vào vị trí; nằm ở",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The hotel is situated near the beach and the old town.",
+          "vi": "Khách sạn nằm gần bãi biển và khu phố cổ."
+        },
+        {
+          "en": "Our school is situated on a quiet street near the park.",
+          "vi": "Trường chúng tôi nằm trên một con phố yên tĩnh gần công viên."
+        },
+        {
+          "en": "The architect situated the kitchen on the sunny side of the house.",
+          "vi": "Kiến trúc sư đã đặt nhà bếp ở phía có nắng của ngôi nhà."
+        }
+      ],
+      "collocations": [
+        "situated in",
+        "situated near",
+        "conveniently situated"
+      ],
+      "notes": "thường dùng bị động: be situated in/on/near",
+      "ipa": "/ˈsɪtʃueɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sit/situa/situate__us_1.mp3"
+    },
+    {
+      "english": "summarize",
+      "vietnamese": "tóm tắt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Can you summarize the main points of the meeting?",
+          "vi": "Bạn có thể tóm tắt những ý chính của cuộc họp không?"
+        },
+        {
+          "en": "In the last paragraph, summarize what you have learned.",
+          "vi": "Ở đoạn cuối, hãy tóm tắt những gì bạn đã học được."
+        },
+        {
+          "en": "She summarized the long report in just a few sentences.",
+          "vi": "Cô ấy đã tóm tắt bản báo cáo dài chỉ trong vài câu."
+        }
+      ],
+      "collocations": [
+        "summarize the main points",
+        "briefly summarize",
+        "summarize the findings"
+      ],
+      "notes": "Anh: summarise · Mỹ: summarize",
+      "ipa": "/ˈsʌməraɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sum/summa/summarize__us_2.mp3"
+    },
+    {
+      "english": "leap",
+      "vietnamese": "nhảy; tăng vọt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The children leaped into the pool on the first hot day.",
+          "vi": "Bọn trẻ nhảy ùm xuống hồ bơi vào ngày nóng đầu tiên."
+        },
+        {
+          "en": "He leaped out of bed when he heard the alarm.",
+          "vi": "Anh ấy bật dậy khỏi giường khi nghe tiếng chuông báo thức."
+        },
+        {
+          "en": "Prices leaped by twenty percent in just one year.",
+          "vi": "Giá cả tăng vọt hai mươi phần trăm chỉ trong một năm."
+        }
+      ],
+      "collocations": [
+        "leap into",
+        "leap forward",
+        "leap at the chance"
+      ],
+      "notes": "leap – leaped/leapt – leaped/leapt",
+      "ipa": "/liːp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lea/leap_/leap__us_1.mp3"
+    },
+    {
+      "english": "snap",
+      "vietnamese": "gãy tách; cáu gắt; chụp nhanh",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The dry branch snapped when he stepped on it.",
+          "vi": "Cành cây khô gãy tách khi anh ấy giẫm lên."
+        },
+        {
+          "en": "I'm sorry I snapped at you this morning.",
+          "vi": "Xin lỗi vì sáng nay tôi đã cáu gắt với bạn."
+        },
+        {
+          "en": "She snapped a quick photo of the sunset from the train.",
+          "vi": "Cô ấy chụp vội một bức ảnh hoàng hôn từ trên tàu."
+        }
+      ],
+      "collocations": [
+        "snap at",
+        "snap in half",
+        "snap a photo"
+      ],
+      "notes": null,
+      "ipa": "/snæp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sna/snap_/snap__us_1.mp3"
+    },
+    {
+      "english": "probability",
+      "vietnamese": "xác suất; khả năng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The probability of rain tomorrow is about seventy percent.",
+          "vi": "Xác suất có mưa vào ngày mai là khoảng bảy mươi phần trăm."
+        },
+        {
+          "en": "In all probability, the meeting will be canceled.",
+          "vi": "Rất có khả năng cuộc họp sẽ bị hủy."
+        },
+        {
+          "en": "Today we learned how to calculate probability in math class.",
+          "vi": "Hôm nay chúng tôi học cách tính xác suất trong giờ toán."
+        }
+      ],
+      "collocations": [
+        "in all probability",
+        "high probability",
+        "probability of"
+      ],
+      "notes": null,
+      "ipa": "/ˌprɑːbəˈbɪləti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/proba/probability__us_1.mp3"
+    }
+  ]
+}

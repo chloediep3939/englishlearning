@@ -1,0 +1,840 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.001–1.500 · Bộ 9",
+    "description": "New General Service List, thứ hạng 1.001–1.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-3-09"
+  },
+  "cards": [
+    {
+      "english": "speaker",
+      "vietnamese": "người phát biểu, diễn giả; người nói (một ngôn ngữ); loa",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The guest speaker talked about her years working in Africa.",
+          "vi": "Diễn giả khách mời đã nói về những năm cô ấy làm việc ở châu Phi."
+        },
+        {
+          "en": "He is a native speaker of Spanish, so ask him for help.",
+          "vi": "Anh ấy là người bản ngữ nói tiếng Tây Ban Nha, nên hãy nhờ anh ấy giúp."
+        },
+        {
+          "en": "Can you turn down the speakers? The music is too loud.",
+          "vi": "Bạn vặn nhỏ loa được không? Nhạc to quá."
+        }
+      ],
+      "collocations": [
+        "guest speaker",
+        "native speaker",
+        "public speaker",
+        "keynote speaker"
+      ],
+      "notes": null,
+      "ipa": "/ˈspiːkər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spe/speak/speaker__us_1.mp3"
+    },
+    {
+      "english": "bottom",
+      "vietnamese": "đáy; phần dưới cùng, cuối",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I found my keys at the bottom of my bag.",
+          "vi": "Tôi tìm thấy chìa khóa ở dưới đáy túi."
+        },
+        {
+          "en": "Please sign your name at the bottom of the page.",
+          "vi": "Vui lòng ký tên ở cuối trang."
+        },
+        {
+          "en": "We waited at the bottom of the hill for the others.",
+          "vi": "Chúng tôi đợi những người khác ở chân đồi."
+        }
+      ],
+      "collocations": [
+        "at the bottom of",
+        "the bottom of the page",
+        "bottom line"
+      ],
+      "notes": null,
+      "ipa": "/ˈbɑːtəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bot/botto/bottom__us_1.mp3"
+    },
+    {
+      "english": "adopt",
+      "vietnamese": "nhận nuôi; áp dụng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "They decided to adopt a little girl from another country.",
+          "vi": "Họ quyết định nhận nuôi một bé gái từ nước khác."
+        },
+        {
+          "en": "We adopted a cat from the animal shelter last month.",
+          "vi": "Tháng trước chúng tôi đã nhận nuôi một con mèo từ trại cứu hộ động vật."
+        },
+        {
+          "en": "The school has adopted a new approach to teaching reading.",
+          "vi": "Trường đã áp dụng một cách tiếp cận mới trong việc dạy đọc."
+        }
+      ],
+      "collocations": [
+        "adopt a child",
+        "adopt an approach",
+        "adopt a policy"
+      ],
+      "notes": "adopt (nhận nuôi, áp dụng) ≠ adapt (thích nghi)",
+      "ipa": "/əˈdɑːpt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ado/adopt/adopt__us_1.mp3"
+    },
+    {
+      "english": "combine",
+      "vietnamese": "kết hợp; phối hợp",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Combine the flour and sugar in a large bowl.",
+          "vi": "Trộn bột mì và đường trong một cái bát lớn."
+        },
+        {
+          "en": "It's hard to combine a full-time job with studying.",
+          "vi": "Thật khó để vừa làm việc toàn thời gian vừa đi học."
+        },
+        {
+          "en": "Our team won because we combined our different skills.",
+          "vi": "Đội chúng tôi thắng vì đã kết hợp những kỹ năng khác nhau của mọi người."
+        }
+      ],
+      "collocations": [
+        "combine with",
+        "combine work with family",
+        "combined effort"
+      ],
+      "notes": "combine A with B",
+      "ipa": "/kəmˈbaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/combi/combine__us_1.mp3"
+    },
+    {
+      "english": "mountain",
+      "vietnamese": "núi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We climbed the mountain and enjoyed the view from the top.",
+          "vi": "Chúng tôi leo lên núi và ngắm cảnh từ trên đỉnh."
+        },
+        {
+          "en": "My grandparents live in a small village in the mountains.",
+          "vi": "Ông bà tôi sống ở một ngôi làng nhỏ trên núi."
+        },
+        {
+          "en": "Snow covers the mountains for most of the winter.",
+          "vi": "Tuyết phủ kín những ngọn núi gần như suốt mùa đông."
+        }
+      ],
+      "collocations": [
+        "climb a mountain",
+        "in the mountains",
+        "mountain top",
+        "mountain range"
+      ],
+      "notes": null,
+      "ipa": "/ˈmaʊntn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mou/mount/mountain__us_5.mp3"
+    },
+    {
+      "english": "waste",
+      "vietnamese": "lãng phí; rác thải",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "That meeting was a complete waste of time.",
+          "vi": "Cuộc họp đó hoàn toàn là phí thời gian."
+        },
+        {
+          "en": "Buying clothes you never wear is a waste of money.",
+          "vi": "Mua quần áo mà không bao giờ mặc là lãng phí tiền bạc."
+        },
+        {
+          "en": "The city is trying to reduce the amount of food waste.",
+          "vi": "Thành phố đang cố gắng giảm lượng rác thải thực phẩm."
+        }
+      ],
+      "collocations": [
+        "a waste of time",
+        "a waste of money",
+        "food waste",
+        "reduce waste"
+      ],
+      "notes": null,
+      "ipa": "/weɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/was/waste/waste__us_1.mp3"
+    },
+    {
+      "english": "hide",
+      "vietnamese": "trốn; giấu, che giấu",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The children hid behind the door when their father came home.",
+          "vi": "Bọn trẻ trốn sau cánh cửa khi bố chúng về nhà."
+        },
+        {
+          "en": "She hid the birthday present under her bed.",
+          "vi": "Cô ấy giấu món quà sinh nhật dưới gầm giường."
+        },
+        {
+          "en": "He tried to hide his feelings, but everyone could see he was upset.",
+          "vi": "Anh ấy cố che giấu cảm xúc, nhưng ai cũng thấy anh ấy đang buồn."
+        }
+      ],
+      "collocations": [
+        "hide something from someone",
+        "hide behind",
+        "hide your feelings",
+        "hide the truth"
+      ],
+      "notes": "hide – hid – hidden",
+      "ipa": "/haɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hid/hide_/hide__us_1.mp3"
+    },
+    {
+      "english": "marriage",
+      "vietnamese": "hôn nhân; cuộc hôn nhân",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My parents have had a long and happy marriage.",
+          "vi": "Bố mẹ tôi đã có một cuộc hôn nhân lâu dài và hạnh phúc."
+        },
+        {
+          "en": "She has two children from her first marriage.",
+          "vi": "Cô ấy có hai con từ cuộc hôn nhân đầu tiên."
+        },
+        {
+          "en": "Good communication is important in any marriage.",
+          "vi": "Giao tiếp tốt rất quan trọng trong bất kỳ cuộc hôn nhân nào."
+        }
+      ],
+      "collocations": [
+        "happy marriage",
+        "first marriage",
+        "marriage proposal"
+      ],
+      "notes": "marriage (n) – married (adj) – marry (v)",
+      "ipa": "/ˈmærɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mar/marri/marriage__us_1.mp3"
+    },
+    {
+      "english": "ticket",
+      "vietnamese": "vé; giấy phạt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I bought two tickets for the concert on Saturday.",
+          "vi": "Tôi đã mua hai vé xem buổi hòa nhạc vào thứ Bảy."
+        },
+        {
+          "en": "How much is a round-trip ticket to the city center?",
+          "vi": "Vé khứ hồi vào trung tâm thành phố giá bao nhiêu?"
+        },
+        {
+          "en": "He got a parking ticket because he stayed too long.",
+          "vi": "Anh ấy bị phạt đỗ xe vì đỗ quá lâu."
+        }
+      ],
+      "collocations": [
+        "buy a ticket",
+        "train ticket",
+        "one-way ticket",
+        "parking ticket"
+      ],
+      "notes": null,
+      "ipa": "/ˈtɪkɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tic/ticke/ticket__us_1.mp3"
+    },
+    {
+      "english": "meal",
+      "vietnamese": "bữa ăn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We usually eat our main meal in the evening.",
+          "vi": "Chúng tôi thường ăn bữa chính vào buổi tối."
+        },
+        {
+          "en": "Thank you for the lovely meal last night.",
+          "vi": "Cảm ơn bạn vì bữa ăn tuyệt vời tối qua."
+        },
+        {
+          "en": "Try not to snack between meals if you want to lose weight.",
+          "vi": "Nếu muốn giảm cân, hãy cố đừng ăn vặt giữa các bữa ăn."
+        }
+      ],
+      "collocations": [
+        "main meal",
+        "have a meal",
+        "cook a meal",
+        "between meals"
+      ],
+      "notes": null,
+      "ipa": "/miːl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mea/meal_/meal__us_1.mp3"
+    },
+    {
+      "english": "colleague",
+      "vietnamese": "đồng nghiệp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I often have lunch with my colleagues from the office.",
+          "vi": "Tôi thường ăn trưa với các đồng nghiệp ở văn phòng."
+        },
+        {
+          "en": "A colleague helped me finish the report on time.",
+          "vi": "Một đồng nghiệp đã giúp tôi hoàn thành báo cáo đúng hạn."
+        },
+        {
+          "en": "She gets along well with her new colleagues.",
+          "vi": "Cô ấy hòa hợp với các đồng nghiệp mới."
+        }
+      ],
+      "collocations": [
+        "work colleague",
+        "former colleague",
+        "colleagues at work"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːliːɡ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/col/colle/colleague__us_1.mp3"
+    },
+    {
+      "english": "bag",
+      "vietnamese": "túi, bao; cặp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Don't forget to bring a bag when you go shopping.",
+          "vi": "Đừng quên mang theo túi khi đi mua sắm."
+        },
+        {
+          "en": "She put her laptop in her bag and left for work.",
+          "vi": "Cô ấy cho máy tính xách tay vào túi rồi đi làm."
+        },
+        {
+          "en": "Our bags didn't arrive, so we waited at the airport.",
+          "vi": "Hành lý của chúng tôi không đến nên chúng tôi phải đợi ở sân bay."
+        }
+      ],
+      "collocations": [
+        "plastic bag",
+        "shopping bag",
+        "pack your bags",
+        "school bag"
+      ],
+      "notes": null,
+      "ipa": "/bæɡ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bag/bag__/bag__us_1.mp3"
+    },
+    {
+      "english": "repeat",
+      "vietnamese": "lặp lại; nhắc lại",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Sorry, could you repeat the question, please?",
+          "vi": "Xin lỗi, bạn có thể nhắc lại câu hỏi được không?"
+        },
+        {
+          "en": "Listen carefully and repeat each word after me.",
+          "vi": "Hãy nghe kỹ và lặp lại từng từ theo tôi."
+        },
+        {
+          "en": "We don't want to repeat the same mistakes as last year.",
+          "vi": "Chúng tôi không muốn lặp lại những sai lầm như năm ngoái."
+        }
+      ],
+      "collocations": [
+        "repeat the question",
+        "repeat after me",
+        "repeat a mistake"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈpiːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rep/repea/repeat__us_1.mp3"
+    },
+    {
+      "english": "equal",
+      "vietnamese": "bằng nhau; ngang hàng, bình đẳng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Cut the cake into eight equal pieces.",
+          "vi": "Cắt bánh thành tám miếng bằng nhau."
+        },
+        {
+          "en": "Men and women should get equal pay for the same work.",
+          "vi": "Nam và nữ nên được trả lương ngang nhau cho cùng một công việc."
+        },
+        {
+          "en": "All students have an equal chance to win the prize.",
+          "vi": "Tất cả học sinh đều có cơ hội giành giải như nhau."
+        }
+      ],
+      "collocations": [
+        "equal pay",
+        "equal rights",
+        "equal chance",
+        "equal to"
+      ],
+      "notes": "be equal to something",
+      "ipa": "/ˈiːkwəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/equ/equal/equal__us_1.mp3"
+    },
+    {
+      "english": "expression",
+      "vietnamese": "vẻ mặt, nét mặt; thành ngữ, cách diễn đạt; sự biểu lộ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I could tell from her expression that she was worried.",
+          "vi": "Nhìn vẻ mặt cô ấy, tôi biết cô ấy đang lo lắng."
+        },
+        {
+          "en": "What does the expression \"break the ice\" mean?",
+          "vi": "Thành ngữ \"break the ice\" có nghĩa là gì?"
+        },
+        {
+          "en": "He sent her flowers as an expression of thanks.",
+          "vi": "Anh ấy gửi hoa cho cô ấy để bày tỏ lòng biết ơn."
+        }
+      ],
+      "collocations": [
+        "facial expression",
+        "the expression on someone's face",
+        "common expression",
+        "freedom of expression"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈspreʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/expre/expression__us_1.mp3"
+    },
+    {
+      "english": "plus",
+      "vietnamese": "cộng; cộng thêm, thêm vào đó",
+      "part_of_speech": "preposition",
+      "examples": [
+        {
+          "en": "Can you tell me what fifteen plus twenty-seven is?",
+          "vi": "Bạn có thể cho tôi biết mười lăm cộng hai mươi bảy bằng bao nhiêu không?"
+        },
+        {
+          "en": "The room costs fifty dollars a night, plus tax.",
+          "vi": "Phòng giá năm mươi đô la một đêm, cộng thêm thuế."
+        },
+        {
+          "en": "You'll need your passport plus two recent photos.",
+          "vi": "Bạn sẽ cần hộ chiếu cùng với hai ảnh chụp gần đây."
+        }
+      ],
+      "collocations": [
+        "plus tax",
+        "plus or minus",
+        "a big plus"
+      ],
+      "notes": null,
+      "ipa": "/plʌs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/plu/plus_/plus__us_1.mp3"
+    },
+    {
+      "english": "extremely",
+      "vietnamese": "cực kỳ, vô cùng",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The exam was extremely difficult, but I think I passed.",
+          "vi": "Bài thi cực kỳ khó, nhưng tôi nghĩ mình đã đỗ."
+        },
+        {
+          "en": "We are extremely grateful for all your help.",
+          "vi": "Chúng tôi vô cùng biết ơn mọi sự giúp đỡ của bạn."
+        },
+        {
+          "en": "It gets extremely hot here in the summer.",
+          "vi": "Ở đây vào mùa hè trời cực kỳ nóng."
+        }
+      ],
+      "collocations": [
+        "extremely difficult",
+        "extremely important",
+        "extremely grateful",
+        "extremely well"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈstriːmli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ext/extre/extremely__us_1.mp3"
+    },
+    {
+      "english": "owner",
+      "vietnamese": "chủ, người sở hữu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The owner of the restaurant came to our table to say hello.",
+          "vi": "Chủ nhà hàng đến bàn chúng tôi để chào hỏi."
+        },
+        {
+          "en": "Dog owners must keep their pets on a leash in the park.",
+          "vi": "Chủ chó phải xích thú cưng của mình khi ở trong công viên."
+        },
+        {
+          "en": "Police are trying to find the owner of the car.",
+          "vi": "Cảnh sát đang cố tìm chủ của chiếc xe."
+        }
+      ],
+      "collocations": [
+        "the owner of",
+        "business owner",
+        "property owner",
+        "dog owner"
+      ],
+      "notes": null,
+      "ipa": "/ˈəʊnər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/own/owner/owner__us_1.mp3"
+    },
+    {
+      "english": "plane",
+      "vietnamese": "máy bay",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Our plane was delayed for two hours because of the weather.",
+          "vi": "Máy bay của chúng tôi bị hoãn hai tiếng vì thời tiết."
+        },
+        {
+          "en": "It's much faster to travel there by plane.",
+          "vi": "Đi đến đó bằng máy bay nhanh hơn nhiều."
+        },
+        {
+          "en": "I always try to sleep on long plane journeys.",
+          "vi": "Tôi luôn cố ngủ trên những chuyến bay dài."
+        }
+      ],
+      "collocations": [
+        "by plane",
+        "catch a plane",
+        "get on a plane",
+        "plane ticket"
+      ],
+      "notes": null,
+      "ipa": "/pleɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pla/plane/plane__us_1.mp3"
+    },
+    {
+      "english": "commercial",
+      "vietnamese": "thương mại; mang tính thương mại",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "This area has many shops, offices and other commercial buildings.",
+          "vi": "Khu vực này có nhiều cửa hàng, văn phòng và các tòa nhà thương mại khác."
+        },
+        {
+          "en": "The film was a big commercial success.",
+          "vi": "Bộ phim đã thành công lớn về mặt thương mại."
+        },
+        {
+          "en": "He has worked as a commercial pilot for ten years.",
+          "vi": "Anh ấy đã làm phi công hàng không dân dụng được mười năm."
+        }
+      ],
+      "collocations": [
+        "commercial success",
+        "commercial building",
+        "commercial use"
+      ],
+      "notes": "Danh từ: commercial = quảng cáo trên TV/radio",
+      "ipa": "/kəˈmɜːrʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/comme/commercial__us_2.mp3"
+    },
+    {
+      "english": "lady",
+      "vietnamese": "quý bà, người phụ nữ; phu nhân",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "An old lady asked me for directions to the station.",
+          "vi": "Một bà cụ hỏi tôi đường đến nhà ga."
+        },
+        {
+          "en": "Good evening, ladies and gentlemen, and welcome to the show.",
+          "vi": "Chào buổi tối quý bà và quý ông, chào mừng đến với chương trình."
+        },
+        {
+          "en": "The lady at the front desk gave us our room keys.",
+          "vi": "Người phụ nữ ở quầy lễ tân đưa chìa khóa phòng cho chúng tôi."
+        }
+      ],
+      "collocations": [
+        "old lady",
+        "young lady",
+        "ladies and gentlemen"
+      ],
+      "notes": "Số nhiều: ladies",
+      "ipa": "/ˈleɪdi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lad/lady_/lady__us_1.mp3"
+    },
+    {
+      "english": "duty",
+      "vietnamese": "bổn phận, nghĩa vụ; nhiệm vụ; thuế",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I feel it's my duty to take care of my parents.",
+          "vi": "Tôi cảm thấy chăm sóc bố mẹ là bổn phận của mình."
+        },
+        {
+          "en": "Which doctor is on duty at the hospital tonight?",
+          "vi": "Tối nay bác sĩ nào trực ở bệnh viện?"
+        },
+        {
+          "en": "Her duties include answering the phone and booking meetings.",
+          "vi": "Nhiệm vụ của cô ấy gồm nghe điện thoại và sắp xếp lịch họp."
+        }
+      ],
+      "collocations": [
+        "on duty",
+        "off duty",
+        "sense of duty",
+        "duty to do something"
+      ],
+      "notes": null,
+      "ipa": "/ˈduːti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dut/duty_/duty__us_1.mp3"
+    },
+    {
+      "english": "strength",
+      "vietnamese": "sức mạnh, sức lực; điểm mạnh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He didn't have the strength to lift the heavy box.",
+          "vi": "Anh ấy không đủ sức nhấc cái hộp nặng đó."
+        },
+        {
+          "en": "Swimming is a good way to build strength.",
+          "vi": "Bơi lội là một cách tốt để tăng cường sức lực."
+        },
+        {
+          "en": "What do you think are your main strengths and weaknesses?",
+          "vi": "Bạn nghĩ điểm mạnh và điểm yếu chính của mình là gì?"
+        }
+      ],
+      "collocations": [
+        "strengths and weaknesses",
+        "build strength",
+        "physical strength",
+        "inner strength"
+      ],
+      "notes": "strong (adj) – strength (n)",
+      "ipa": "/streŋkθ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/stren/strength__us_1_rr.mp3"
+    },
+    {
+      "english": "connect",
+      "vietnamese": "kết nối; nối, liên kết",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I can't connect to the internet in my room.",
+          "vi": "Tôi không kết nối được internet trong phòng."
+        },
+        {
+          "en": "A long bridge connects the island to the mainland.",
+          "vi": "Một cây cầu dài nối hòn đảo với đất liền."
+        },
+        {
+          "en": "Social media helps people connect with old friends.",
+          "vi": "Mạng xã hội giúp mọi người kết nối với bạn cũ."
+        }
+      ],
+      "collocations": [
+        "connect to the internet",
+        "connect with",
+        "connect A to B",
+        "well connected"
+      ],
+      "notes": "connect to / with",
+      "ipa": "/kəˈnekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconn/xconnect__us_1.mp3"
+    },
+    {
+      "english": "cultural",
+      "vietnamese": "(thuộc) văn hóa",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The city has a rich cultural life with many museums and theaters.",
+          "vi": "Thành phố có đời sống văn hóa phong phú với nhiều bảo tàng và nhà hát."
+        },
+        {
+          "en": "Living abroad taught me a lot about cultural differences.",
+          "vi": "Sống ở nước ngoài đã dạy tôi nhiều điều về sự khác biệt văn hóa."
+        },
+        {
+          "en": "The festival is an important part of our cultural heritage.",
+          "vi": "Lễ hội là một phần quan trọng trong di sản văn hóa của chúng tôi."
+        }
+      ],
+      "collocations": [
+        "cultural differences",
+        "cultural heritage",
+        "cultural events",
+        "cultural identity"
+      ],
+      "notes": "culture (n) – cultural (adj)",
+      "ipa": "/ˈkʌltʃərəl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cul/cultu/cultural__us_1.mp3"
+    },
+    {
+      "english": "arrange",
+      "vietnamese": "sắp xếp; thu xếp, bố trí",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I've arranged a meeting with the manager for Friday.",
+          "vi": "Tôi đã sắp xếp một cuộc họp với quản lý vào thứ Sáu."
+        },
+        {
+          "en": "She arranged the books on the shelf by color.",
+          "vi": "Cô ấy xếp sách trên kệ theo màu sắc."
+        },
+        {
+          "en": "Can you arrange for someone to pick us up from the airport?",
+          "vi": "Bạn có thể thu xếp người đón chúng tôi ở sân bay không?"
+        }
+      ],
+      "collocations": [
+        "arrange a meeting",
+        "arrange for someone to do something",
+        "arrange flowers"
+      ],
+      "notes": "arrange (v) – arrangement (n)",
+      "ipa": "/əˈreɪndʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/arr/arran/arrange__us_2.mp3"
+    },
+    {
+      "english": "scheme",
+      "vietnamese": "kế hoạch, chương trình; mưu đồ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The company has a scheme to help staff buy bikes.",
+          "vi": "Công ty có chương trình hỗ trợ nhân viên mua xe đạp."
+        },
+        {
+          "en": "Over two thousand students joined the new training scheme.",
+          "vi": "Hơn hai nghìn sinh viên đã tham gia chương trình đào tạo mới."
+        },
+        {
+          "en": "He lost all his savings in a scheme to get rich quickly.",
+          "vi": "Anh ấy mất hết tiền tiết kiệm vào một mưu đồ làm giàu nhanh."
+        }
+      ],
+      "collocations": [
+        "training scheme",
+        "pension scheme",
+        "set up a scheme",
+        "get-rich-quick scheme"
+      ],
+      "notes": "Anh: scheme = chương trình (trung tính); Mỹ: thường mang nghĩa mưu đồ",
+      "ipa": "/skiːm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sch/schem/scheme__us_1.mp3"
+    },
+    {
+      "english": "payment",
+      "vietnamese": "sự thanh toán; khoản tiền trả",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We accept payment by card or cash.",
+          "vi": "Chúng tôi chấp nhận thanh toán bằng thẻ hoặc tiền mặt."
+        },
+        {
+          "en": "I forgot to make the payment for my phone bill.",
+          "vi": "Tôi quên thanh toán hóa đơn điện thoại."
+        },
+        {
+          "en": "They pay for the car in monthly payments of two hundred dollars.",
+          "vi": "Họ trả tiền mua xe theo từng khoản hàng tháng hai trăm đô la."
+        }
+      ],
+      "collocations": [
+        "make a payment",
+        "monthly payment",
+        "late payment",
+        "payment by card"
+      ],
+      "notes": "pay (v) – payment (n)",
+      "ipa": "/ˈpeɪmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pay/payme/payment__us_1.mp3"
+    },
+    {
+      "english": "unfortunately",
+      "vietnamese": "thật không may, đáng tiếc là",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Unfortunately, the tickets had all been sold by the time we arrived.",
+          "vi": "Thật không may, lúc chúng tôi đến thì vé đã bán hết."
+        },
+        {
+          "en": "I'd love to come, but unfortunately I have to work that day.",
+          "vi": "Tôi rất muốn đến, nhưng tiếc là hôm đó tôi phải làm việc."
+        },
+        {
+          "en": "Unfortunately, it rained for most of our vacation.",
+          "vi": "Thật không may, trời mưa gần suốt kỳ nghỉ của chúng tôi."
+        }
+      ],
+      "collocations": [
+        "but unfortunately",
+        "unfortunately for"
+      ],
+      "notes": null,
+      "ipa": "/ʌnˈfɔːrtʃənətli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/unf/unfor/unfortunately__us_1.mp3"
+    },
+    {
+      "english": "brief",
+      "vietnamese": "ngắn gọn; ngắn, trong thời gian ngắn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Please keep your answers brief because we don't have much time.",
+          "vi": "Hãy trả lời ngắn gọn vì chúng ta không có nhiều thời gian."
+        },
+        {
+          "en": "She gave a brief description of the new project.",
+          "vi": "Cô ấy mô tả ngắn gọn về dự án mới."
+        },
+        {
+          "en": "After a brief stop in the town, we drove on to the coast.",
+          "vi": "Sau một chặng dừng ngắn ở thị trấn, chúng tôi lái xe tiếp ra bờ biển."
+        }
+      ],
+      "collocations": [
+        "brief description",
+        "brief visit",
+        "keep it brief",
+        "in brief"
+      ],
+      "notes": null,
+      "ipa": "/briːf/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bri/brief/brief__us_1.mp3"
+    }
+  ]
+}

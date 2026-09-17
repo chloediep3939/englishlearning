@@ -1,0 +1,825 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.501–2.000 · Bộ 15",
+    "description": "New General Service List, thứ hạng 1.501–2.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-4-15"
+  },
+  "cards": [
+    {
+      "english": "beauty",
+      "vietnamese": "vẻ đẹp; cái đẹp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We stopped the car to enjoy the beauty of the mountains.",
+          "vi": "Chúng tôi dừng xe để ngắm vẻ đẹp của núi non."
+        },
+        {
+          "en": "Her paintings capture the simple beauty of everyday life.",
+          "vi": "Những bức tranh của cô ấy ghi lại vẻ đẹp giản dị của cuộc sống thường ngày."
+        },
+        {
+          "en": "This old town is famous for its natural beauty and quiet streets.",
+          "vi": "Thị trấn cổ này nổi tiếng với vẻ đẹp tự nhiên và những con phố yên tĩnh."
+        }
+      ],
+      "collocations": [
+        "natural beauty",
+        "great beauty",
+        "the beauty of"
+      ],
+      "notes": null,
+      "ipa": "/ˈbjuːti/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bea/beaut/beauty__us_3.mp3"
+    },
+    {
+      "english": "massive",
+      "vietnamese": "to lớn; đồ sộ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "A massive tree fell across the road during the storm.",
+          "vi": "Một cái cây to lớn đổ chắn ngang đường trong cơn bão."
+        },
+        {
+          "en": "The new shopping center is massive, so wear comfortable shoes.",
+          "vi": "Trung tâm mua sắm mới rất đồ sộ, nên hãy mang giày thoải mái."
+        },
+        {
+          "en": "Moving to another country was a massive change for our family.",
+          "vi": "Chuyển sang nước khác là một thay đổi to lớn đối với gia đình chúng tôi."
+        }
+      ],
+      "collocations": [
+        "massive amount",
+        "massive change",
+        "massive building"
+      ],
+      "notes": null,
+      "ipa": "/ˈmæsɪv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mas/massi/massive__us_2.mp3"
+    },
+    {
+      "english": "install",
+      "vietnamese": "lắp đặt; cài đặt",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We're having a new air conditioner installed next week.",
+          "vi": "Tuần sau chúng tôi sẽ cho lắp đặt một máy điều hòa mới."
+        },
+        {
+          "en": "You need to install the app before you can join the meeting.",
+          "vi": "Bạn cần cài đặt ứng dụng trước khi có thể tham gia cuộc họp."
+        },
+        {
+          "en": "My dad installed a small camera above the front door.",
+          "vi": "Bố tôi đã lắp một chiếc camera nhỏ phía trên cửa trước."
+        }
+      ],
+      "collocations": [
+        "install software",
+        "install an app",
+        "install a system"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈstɔːl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ins/insta/install__us_1.mp3"
+    },
+    {
+      "english": "calculate",
+      "vietnamese": "tính toán; tính",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Can you calculate how much we spent on food this month?",
+          "vi": "Bạn có thể tính xem tháng này chúng ta đã tiêu bao nhiêu tiền ăn không?"
+        },
+        {
+          "en": "The app calculates the distance you walk every day.",
+          "vi": "Ứng dụng tính quãng đường bạn đi bộ mỗi ngày."
+        },
+        {
+          "en": "She carefully calculated the cost before booking the trip.",
+          "vi": "Cô ấy đã tính toán kỹ chi phí trước khi đặt chuyến đi."
+        }
+      ],
+      "collocations": [
+        "calculate the cost",
+        "calculate the distance",
+        "carefully calculate"
+      ],
+      "notes": null,
+      "ipa": "/ˈkælkjuleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cal/calcu/calculate__us_1.mp3"
+    },
+    {
+      "english": "mouse",
+      "vietnamese": "con chuột; chuột máy tính",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My little sister screamed when she saw a mouse in the kitchen.",
+          "vi": "Em gái tôi hét lên khi thấy một con chuột trong bếp."
+        },
+        {
+          "en": "Our cat caught two mice in the garden yesterday.",
+          "vi": "Hôm qua con mèo nhà tôi bắt được hai con chuột trong vườn."
+        },
+        {
+          "en": "Click the right mouse button to open the menu.",
+          "vi": "Nhấp chuột phải để mở menu."
+        }
+      ],
+      "collocations": [
+        "computer mouse",
+        "mouse button",
+        "click the mouse"
+      ],
+      "notes": "số nhiều: mice",
+      "ipa": "/maʊs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mou/mouse/mouse__us_1.mp3"
+    },
+    {
+      "english": "mathematics",
+      "vietnamese": "toán học",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He studied mathematics at university and now teaches at a high school.",
+          "vi": "Anh ấy học toán ở đại học và giờ dạy ở một trường cấp ba."
+        },
+        {
+          "en": "Mathematics was always my favorite subject at school.",
+          "vi": "Toán luôn là môn học yêu thích của tôi ở trường."
+        },
+        {
+          "en": "You need basic mathematics to manage your money well.",
+          "vi": "Bạn cần kiến thức toán học cơ bản để quản lý tiền bạc tốt."
+        }
+      ],
+      "collocations": [
+        "study mathematics",
+        "basic mathematics",
+        "mathematics teacher"
+      ],
+      "notes": "không đếm được; viết tắt: math (Mỹ), maths (Anh)",
+      "ipa": "/ˌmæθəˈmætɪks/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mat/mathe/mathematics__us_1.mp3"
+    },
+    {
+      "english": "upper",
+      "vietnamese": "phía trên; cao hơn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Our apartment is on the upper floor, so it's quite quiet.",
+          "vi": "Căn hộ của chúng tôi ở tầng trên nên khá yên tĩnh."
+        },
+        {
+          "en": "He hurt his upper arm while playing basketball.",
+          "vi": "Anh ấy bị đau phần cánh tay trên khi chơi bóng rổ."
+        },
+        {
+          "en": "Please write your name in the upper corner of the page.",
+          "vi": "Hãy viết tên bạn ở góc trên của trang giấy."
+        }
+      ],
+      "collocations": [
+        "upper floor",
+        "upper arm",
+        "upper body",
+        "upper class"
+      ],
+      "notes": null,
+      "ipa": "/ˈʌpər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/upp/upper/upper__us_2.mp3"
+    },
+    {
+      "english": "creation",
+      "vietnamese": "sự tạo ra; tác phẩm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The new factory will lead to the creation of hundreds of jobs.",
+          "vi": "Nhà máy mới sẽ tạo ra hàng trăm việc làm."
+        },
+        {
+          "en": "This cake is the chef's latest creation.",
+          "vi": "Chiếc bánh này là tác phẩm mới nhất của đầu bếp."
+        },
+        {
+          "en": "She has been involved in the creation of the website from the start.",
+          "vi": "Cô ấy đã tham gia xây dựng trang web ngay từ đầu."
+        }
+      ],
+      "collocations": [
+        "job creation",
+        "the creation of",
+        "latest creation"
+      ],
+      "notes": null,
+      "ipa": "/kriˈeɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cre/creat/creation__us_2.mp3"
+    },
+    {
+      "english": "occupy",
+      "vietnamese": "chiếm; sử dụng; làm bận rộn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "All the seats near the window were already occupied.",
+          "vi": "Tất cả chỗ ngồi gần cửa sổ đều đã có người ngồi."
+        },
+        {
+          "en": "Our office occupies the second floor of the building.",
+          "vi": "Văn phòng của chúng tôi chiếm tầng hai của tòa nhà."
+        },
+        {
+          "en": "I bring a few books to keep the kids occupied on long trips.",
+          "vi": "Tôi mang theo vài cuốn sách để bọn trẻ có việc làm trong những chuyến đi dài."
+        }
+      ],
+      "collocations": [
+        "occupy a seat",
+        "occupy a building",
+        "keep someone occupied"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːkjupaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/occ/occup/occupy__us_1.mp3"
+    },
+    {
+      "english": "outline",
+      "vietnamese": "dàn ý; nét chính; đường nét",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Write a short outline before you start your essay.",
+          "vi": "Hãy viết một dàn ý ngắn trước khi bắt đầu bài luận."
+        },
+        {
+          "en": "The manager gave us a brief outline of the new plan.",
+          "vi": "Người quản lý đã trình bày ngắn gọn những nét chính của kế hoạch mới."
+        },
+        {
+          "en": "In the fog, we could only see the outline of the bridge.",
+          "vi": "Trong sương mù, chúng tôi chỉ nhìn thấy đường nét của cây cầu."
+        }
+      ],
+      "collocations": [
+        "brief outline",
+        "rough outline",
+        "the outline of"
+      ],
+      "notes": null,
+      "ipa": "/ˈaʊtlaɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/out/outli/outline__us_2.mp3"
+    },
+    {
+      "english": "sufficient",
+      "vietnamese": "đủ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We don't have sufficient time to finish the project this week.",
+          "vi": "Chúng tôi không có đủ thời gian để hoàn thành dự án trong tuần này."
+        },
+        {
+          "en": "Two hours of practice a day should be sufficient.",
+          "vi": "Mỗi ngày luyện tập hai tiếng là đủ."
+        },
+        {
+          "en": "The hotel room was small but sufficient for a short stay.",
+          "vi": "Phòng khách sạn nhỏ nhưng đủ cho một kỳ nghỉ ngắn."
+        }
+      ],
+      "collocations": [
+        "sufficient time",
+        "sufficient money",
+        "sufficient evidence"
+      ],
+      "notes": null,
+      "ipa": "/səˈfɪʃnt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/suf/suffi/sufficient__us_1.mp3"
+    },
+    {
+      "english": "update",
+      "vietnamese": "cập nhật; báo tin mới",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please update your phone to the latest version.",
+          "vi": "Vui lòng cập nhật điện thoại của bạn lên phiên bản mới nhất."
+        },
+        {
+          "en": "I'll update you when I hear back from the doctor.",
+          "vi": "Tôi sẽ báo tin cho bạn khi có hồi âm từ bác sĩ."
+        },
+        {
+          "en": "The company updates its website almost every day.",
+          "vi": "Công ty cập nhật trang web gần như mỗi ngày."
+        }
+      ],
+      "collocations": [
+        "update software",
+        "update a website",
+        "keep someone updated"
+      ],
+      "notes": null,
+      "ipa": "/ˌʌpˈdeɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/upd/updat/update__us_1_rr.mp3"
+    },
+    {
+      "english": "luck",
+      "vietnamese": "may mắn; vận may",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Good luck with your big exam tomorrow morning!",
+          "vi": "Chúc bạn may mắn trong kỳ thi quan trọng sáng mai!"
+        },
+        {
+          "en": "We had some bad luck with the weather on our holiday.",
+          "vi": "Chúng tôi gặp chút xui xẻo về thời tiết trong kỳ nghỉ."
+        },
+        {
+          "en": "It was pure luck that I found my keys in the park.",
+          "vi": "Tôi tìm thấy chìa khóa trong công viên hoàn toàn là nhờ may mắn."
+        }
+      ],
+      "collocations": [
+        "good luck",
+        "bad luck",
+        "pure luck",
+        "wish someone luck"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/lʌk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/luc/luck_/luck__us_1.mp3"
+    },
+    {
+      "english": "preserve",
+      "vietnamese": "giữ gìn; bảo tồn; bảo quản",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The town has worked hard to preserve its old buildings.",
+          "vi": "Thị trấn đã nỗ lực rất nhiều để bảo tồn những tòa nhà cổ."
+        },
+        {
+          "en": "Salt was used to preserve fish before people had fridges.",
+          "vi": "Muối được dùng để bảo quản cá trước khi người ta có tủ lạnh."
+        },
+        {
+          "en": "It's important to preserve our traditions for future generations.",
+          "vi": "Việc giữ gìn truyền thống cho các thế hệ tương lai là rất quan trọng."
+        }
+      ],
+      "collocations": [
+        "preserve the environment",
+        "preserve traditions",
+        "preserve food"
+      ],
+      "notes": null,
+      "ipa": "/prɪˈzɜːrv/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pre/prese/preserve__us_4.mp3"
+    },
+    {
+      "english": "split",
+      "vietnamese": "chia; tách ra",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Let's split the bill between the four of us.",
+          "vi": "Hãy chia hóa đơn cho cả bốn người chúng ta."
+        },
+        {
+          "en": "The teacher split the class into small groups.",
+          "vi": "Giáo viên chia lớp thành các nhóm nhỏ."
+        },
+        {
+          "en": "He splits his time between work and caring for his mother.",
+          "vi": "Anh ấy chia thời gian giữa công việc và việc chăm sóc mẹ."
+        }
+      ],
+      "collocations": [
+        "split the bill",
+        "split into groups",
+        "split the cost"
+      ],
+      "notes": "split – split – split",
+      "ipa": "/splɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spl/split/split__us_1.mp3"
+    },
+    {
+      "english": "swing",
+      "vietnamese": "đung đưa; đu; xoay mạnh",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The children were swinging on a rope by the river.",
+          "vi": "Bọn trẻ đang đu dây bên bờ sông."
+        },
+        {
+          "en": "She sat on the edge of the table, swinging her legs.",
+          "vi": "Cô ấy ngồi ở mép bàn, đung đưa hai chân."
+        },
+        {
+          "en": "The door swung open and a cold wind blew in.",
+          "vi": "Cánh cửa bật mở và một cơn gió lạnh thổi vào."
+        }
+      ],
+      "collocations": [
+        "swing open",
+        "swing back and forth",
+        "swing your arms"
+      ],
+      "notes": "swing – swung – swung",
+      "ipa": "/swɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/swi/swing/swing__us_1.mp3"
+    },
+    {
+      "english": "illness",
+      "vietnamese": "bệnh; sự đau ốm",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandfather recovered quickly from his illness.",
+          "vi": "Ông tôi đã hồi phục nhanh sau trận ốm."
+        },
+        {
+          "en": "She missed two weeks of school because of illness.",
+          "vi": "Cô bé nghỉ học hai tuần vì bị ốm."
+        },
+        {
+          "en": "Regular exercise can help protect you from serious illness.",
+          "vi": "Tập thể dục đều đặn có thể giúp bạn phòng tránh bệnh nặng."
+        }
+      ],
+      "collocations": [
+        "serious illness",
+        "long illness",
+        "recover from an illness"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪlnəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ill/illne/illness__us_1.mp3"
+    },
+    {
+      "english": "journalist",
+      "vietnamese": "nhà báo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My cousin works as a journalist for a local newspaper.",
+          "vi": "Anh họ tôi làm nhà báo cho một tờ báo địa phương."
+        },
+        {
+          "en": "Several journalists were waiting outside the hospital.",
+          "vi": "Vài nhà báo đang chờ bên ngoài bệnh viện."
+        },
+        {
+          "en": "She dreamed of becoming a journalist and traveling the world.",
+          "vi": "Cô ấy mơ ước trở thành nhà báo và đi khắp thế giới."
+        }
+      ],
+      "collocations": [
+        "young journalist",
+        "local journalist",
+        "become a journalist"
+      ],
+      "notes": null,
+      "ipa": "/ˈdʒɜːrnəlɪst/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/j/jou/journ/journalist__us_1.mp3"
+    },
+    {
+      "english": "sudden",
+      "vietnamese": "đột ngột; bất ngờ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The sudden noise woke the baby up.",
+          "vi": "Tiếng động đột ngột làm em bé thức giấc."
+        },
+        {
+          "en": "There was a sudden change in the weather this afternoon.",
+          "vi": "Chiều nay thời tiết thay đổi đột ngột."
+        },
+        {
+          "en": "All of a sudden, the lights in the whole house went out.",
+          "vi": "Đột nhiên đèn trong cả nhà tắt phụt."
+        }
+      ],
+      "collocations": [
+        "sudden change",
+        "sudden noise",
+        "all of a sudden"
+      ],
+      "notes": "all of a sudden = đột nhiên",
+      "ipa": "/ˈsʌdn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sud/sudde/sudden__us_2.mp3"
+    },
+    {
+      "english": "advertisement",
+      "vietnamese": "quảng cáo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I saw an advertisement for a cheap apartment near the station.",
+          "vi": "Tôi thấy một quảng cáo cho thuê căn hộ giá rẻ gần nhà ga."
+        },
+        {
+          "en": "The company put an advertisement in the newspaper for new staff.",
+          "vi": "Công ty đăng quảng cáo trên báo để tuyển nhân viên mới."
+        },
+        {
+          "en": "There are too many advertisements before this video starts.",
+          "vi": "Có quá nhiều quảng cáo trước khi video này bắt đầu."
+        }
+      ],
+      "collocations": [
+        "job advertisement",
+        "newspaper advertisement",
+        "place an advertisement"
+      ],
+      "notes": "viết tắt: ad (Mỹ), advert (Anh)",
+      "ipa": "/ˌædvərˈtaɪzmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adv/adver/advertisement__us_2_rr.mp3"
+    },
+    {
+      "english": "consistent",
+      "vietnamese": "nhất quán; đều đặn; ổn định",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Parents need to be consistent when setting rules for children.",
+          "vi": "Cha mẹ cần nhất quán khi đặt ra quy tắc cho con cái."
+        },
+        {
+          "en": "She has been a consistent player throughout the season.",
+          "vi": "Cô ấy là một cầu thủ thi đấu ổn định suốt mùa giải."
+        },
+        {
+          "en": "Consistent practice is the key to learning a language.",
+          "vi": "Luyện tập đều đặn là chìa khóa để học một ngôn ngữ."
+        }
+      ],
+      "collocations": [
+        "consistent with",
+        "consistent quality",
+        "remain consistent"
+      ],
+      "notes": "consistent with sth = phù hợp với",
+      "ipa": "/kənˈsɪstənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcons/xconsistent__us_1.mp3"
+    },
+    {
+      "english": "originally",
+      "vietnamese": "ban đầu; lúc đầu; vốn",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The meeting was originally planned for Monday.",
+          "vi": "Cuộc họp ban đầu được lên kế hoạch vào thứ Hai."
+        },
+        {
+          "en": "My family is originally from a small village in the north.",
+          "vi": "Gia đình tôi vốn gốc ở một ngôi làng nhỏ ở miền Bắc."
+        },
+        {
+          "en": "This building was originally a school, but now it's a hotel.",
+          "vi": "Tòa nhà này lúc đầu là trường học, nhưng giờ là khách sạn."
+        }
+      ],
+      "collocations": [
+        "originally planned",
+        "originally from",
+        "originally built"
+      ],
+      "notes": null,
+      "ipa": "/əˈrɪdʒənəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ori/origi/originally__us_2.mp3"
+    },
+    {
+      "english": "aside",
+      "vietnamese": "sang một bên; để dành",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "He stepped aside to let the old woman pass.",
+          "vi": "Anh ấy bước sang một bên để bà cụ đi qua."
+        },
+        {
+          "en": "I try to put aside some money every month.",
+          "vi": "Tôi cố gắng để dành một ít tiền mỗi tháng."
+        },
+        {
+          "en": "Let's leave that problem aside for now and discuss the budget.",
+          "vi": "Tạm gác vấn đề đó sang một bên và bàn về ngân sách nhé."
+        }
+      ],
+      "collocations": [
+        "put aside",
+        "step aside",
+        "set aside",
+        "aside from"
+      ],
+      "notes": "aside from = ngoài ra; trừ",
+      "ipa": "/əˈsaɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/asi/aside/aside__us_1.mp3"
+    },
+    {
+      "english": "comfort",
+      "vietnamese": "sự thoải mái; sự an ủi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "These shoes are designed for comfort, not style.",
+          "vi": "Đôi giày này được thiết kế cho sự thoải mái, không phải cho kiểu dáng."
+        },
+        {
+          "en": "Now you can shop from the comfort of your own home.",
+          "vi": "Giờ đây bạn có thể mua sắm thoải mái ngay tại nhà mình."
+        },
+        {
+          "en": "Her friends were a great comfort to her after the accident.",
+          "vi": "Bạn bè là nguồn an ủi lớn đối với cô ấy sau tai nạn."
+        }
+      ],
+      "collocations": [
+        "in comfort",
+        "great comfort",
+        "the comfort of your own home"
+      ],
+      "notes": null,
+      "ipa": "/ˈkʌmfərt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/comfo/comfort__us_1.mp3"
+    },
+    {
+      "english": "secondly",
+      "vietnamese": "thứ hai là",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Firstly, the room is too small, and secondly, it's too expensive.",
+          "vi": "Thứ nhất, căn phòng quá nhỏ, và thứ hai, nó quá đắt."
+        },
+        {
+          "en": "Secondly, we need to find a cheaper place for the party.",
+          "vi": "Thứ hai, chúng ta cần tìm một chỗ rẻ hơn để tổ chức tiệc."
+        },
+        {
+          "en": "I chose this job firstly because it's close to home and secondly because it pays well.",
+          "vi": "Tôi chọn công việc này, thứ nhất vì nó gần nhà và thứ hai vì lương tốt."
+        }
+      ],
+      "collocations": [
+        "and secondly",
+        "firstly, secondly"
+      ],
+      "notes": null,
+      "ipa": "/ˈsekəndli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sec/secon/secondly__us_2.mp3"
+    },
+    {
+      "english": "severe",
+      "vietnamese": "nghiêm trọng; dữ dội; khắc nghiệt",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "He was taken to hospital with severe pain in his stomach.",
+          "vi": "Anh ấy được đưa vào viện vì đau bụng dữ dội."
+        },
+        {
+          "en": "The severe weather closed many roads in the mountains.",
+          "vi": "Thời tiết khắc nghiệt đã khiến nhiều con đường trên núi bị đóng."
+        },
+        {
+          "en": "The city is facing a severe shortage of clean water.",
+          "vi": "Thành phố đang đối mặt với tình trạng thiếu nước sạch nghiêm trọng."
+        }
+      ],
+      "collocations": [
+        "severe pain",
+        "severe weather",
+        "severe shortage",
+        "severe damage"
+      ],
+      "notes": null,
+      "ipa": "/sɪˈvɪr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sev/sever/severe__us_1.mp3"
+    },
+    {
+      "english": "gene",
+      "vietnamese": "gen",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Scientists have found a gene linked to heart disease.",
+          "vi": "Các nhà khoa học đã tìm ra một gen liên quan đến bệnh tim."
+        },
+        {
+          "en": "Your eye color depends on the genes you get from your parents.",
+          "vi": "Màu mắt của bạn phụ thuộc vào gen bạn thừa hưởng từ cha mẹ."
+        },
+        {
+          "en": "Some people have genes that help them live longer.",
+          "vi": "Một số người có gen giúp họ sống lâu hơn."
+        }
+      ],
+      "collocations": [
+        "gene for",
+        "human gene",
+        "carry a gene"
+      ],
+      "notes": null,
+      "ipa": "/dʒiːn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gen/gene_/gene_1_us_3.mp3"
+    },
+    {
+      "english": "prospect",
+      "vietnamese": "triển vọng; khả năng; viễn cảnh",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "There is little prospect of the rain stopping today.",
+          "vi": "Hầu như không có khả năng hôm nay trời tạnh mưa."
+        },
+        {
+          "en": "Learning English can improve your job prospects.",
+          "vi": "Học tiếng Anh có thể cải thiện triển vọng việc làm của bạn."
+        },
+        {
+          "en": "The prospect of moving abroad made her a little nervous.",
+          "vi": "Viễn cảnh chuyển ra nước ngoài khiến cô ấy hơi lo lắng."
+        }
+      ],
+      "collocations": [
+        "job prospects",
+        "career prospects",
+        "the prospect of"
+      ],
+      "notes": null,
+      "ipa": "/ˈprɑːspekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/prosp/prospect__us_1.mp3"
+    },
+    {
+      "english": "snow",
+      "vietnamese": "tuyết",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The children played in the snow all afternoon.",
+          "vi": "Bọn trẻ chơi đùa trên tuyết suốt cả buổi chiều."
+        },
+        {
+          "en": "We had so much snow last night that the school closed.",
+          "vi": "Đêm qua tuyết rơi nhiều đến mức trường phải đóng cửa."
+        },
+        {
+          "en": "I've never seen snow because it's too hot in my hometown.",
+          "vi": "Tôi chưa bao giờ thấy tuyết vì quê tôi quá nóng."
+        }
+      ],
+      "collocations": [
+        "heavy snow",
+        "in the snow",
+        "covered in snow"
+      ],
+      "notes": "không đếm được",
+      "ipa": "/snəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sno/snow_/snow__us_1.mp3"
+    },
+    {
+      "english": "plot",
+      "vietnamese": "cốt truyện; mảnh đất",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The movie has a simple plot but great acting.",
+          "vi": "Bộ phim có cốt truyện đơn giản nhưng diễn xuất rất hay."
+        },
+        {
+          "en": "I didn't understand the plot of the book at first.",
+          "vi": "Lúc đầu tôi không hiểu cốt truyện của cuốn sách."
+        },
+        {
+          "en": "My parents bought a small plot of land to grow vegetables.",
+          "vi": "Bố mẹ tôi đã mua một mảnh đất nhỏ để trồng rau."
+        }
+      ],
+      "collocations": [
+        "the plot of",
+        "main plot",
+        "plot of land"
+      ],
+      "notes": null,
+      "ipa": "/plɑːt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/plo/plot_/plot__us_1.mp3"
+    }
+  ]
+}

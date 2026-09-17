@@ -1,0 +1,815 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 501–1.000 · Bộ 8",
+    "description": "New General Service List, thứ hạng 501–1.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-2-08"
+  },
+  "cards": [
+    {
+      "english": "behavior",
+      "vietnamese": "hành vi; cách cư xử",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The teacher praised the children for their good behavior in class.",
+          "vi": "Cô giáo khen bọn trẻ vì đã cư xử ngoan trong lớp."
+        },
+        {
+          "en": "I'm sorry about my behavior at the party last night.",
+          "vi": "Tôi xin lỗi về cách cư xử của mình ở bữa tiệc tối qua."
+        },
+        {
+          "en": "Scientists study the behavior of animals in the wild.",
+          "vi": "Các nhà khoa học nghiên cứu hành vi của động vật trong tự nhiên."
+        }
+      ],
+      "collocations": [
+        "good behavior",
+        "bad behavior",
+        "animal behavior",
+        "change behavior"
+      ],
+      "notes": "Anh: behaviour · Mỹ: behavior",
+      "ipa": "/bɪˈheɪvjər/",
+      "audio_src": null
+    },
+    {
+      "english": "addition",
+      "vietnamese": "sự thêm vào; phần bổ sung; phép cộng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "In addition to English, she speaks French and Japanese.",
+          "vi": "Ngoài tiếng Anh, cô ấy còn nói được tiếng Pháp và tiếng Nhật."
+        },
+        {
+          "en": "The new kitchen is a great addition to our house.",
+          "vi": "Căn bếp mới là một phần bổ sung tuyệt vời cho ngôi nhà của chúng tôi."
+        },
+        {
+          "en": "My son is learning addition and subtraction at school.",
+          "vi": "Con trai tôi đang học phép cộng và phép trừ ở trường."
+        }
+      ],
+      "collocations": [
+        "in addition",
+        "in addition to",
+        "a welcome addition",
+        "a new addition"
+      ],
+      "notes": "in addition to + N/V-ing: ngoài … ra",
+      "ipa": "/əˈdɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/add/addit/addition__us_2.mp3"
+    },
+    {
+      "english": "determine",
+      "vietnamese": "xác định; quyết định",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Doctors are trying to determine the cause of her illness.",
+          "vi": "Các bác sĩ đang cố xác định nguyên nhân gây bệnh của cô ấy."
+        },
+        {
+          "en": "Police have not yet determined how the fire started.",
+          "vi": "Cảnh sát vẫn chưa xác định được đám cháy bắt đầu như thế nào."
+        },
+        {
+          "en": "Your grades will determine which university you can attend.",
+          "vi": "Điểm số của bạn sẽ quyết định bạn có thể vào trường đại học nào."
+        }
+      ],
+      "collocations": [
+        "determine the cause",
+        "help determine",
+        "determine whether"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈtɜːrmɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/det/deter/determine__us_1.mp3"
+    },
+    {
+      "english": "station",
+      "vietnamese": "nhà ga; trạm; bến (xe)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I'll meet you at the train station at six o'clock.",
+          "vi": "Tôi sẽ gặp bạn ở ga tàu lúc sáu giờ."
+        },
+        {
+          "en": "We stopped at a gas station to buy some snacks.",
+          "vi": "Chúng tôi dừng ở một trạm xăng để mua ít đồ ăn vặt."
+        },
+        {
+          "en": "How far is the nearest bus station from here?",
+          "vi": "Bến xe buýt gần nhất cách đây bao xa?"
+        }
+      ],
+      "collocations": [
+        "train station",
+        "bus station",
+        "gas station",
+        "police station"
+      ],
+      "notes": null,
+      "ipa": "/ˈsteɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sta/stati/station__us_2.mp3"
+    },
+    {
+      "english": "population",
+      "vietnamese": "dân số; dân cư",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The population of the city has doubled in twenty years.",
+          "vi": "Dân số của thành phố đã tăng gấp đôi trong hai mươi năm."
+        },
+        {
+          "en": "Our town has a population of about fifty thousand.",
+          "vi": "Thị trấn của chúng tôi có dân số khoảng năm mươi nghìn người."
+        },
+        {
+          "en": "Most of the population lives near the coast.",
+          "vi": "Phần lớn dân cư sống gần bờ biển."
+        }
+      ],
+      "collocations": [
+        "large population",
+        "growing population",
+        "population growth",
+        "world population"
+      ],
+      "notes": null,
+      "ipa": "/ˌpɑːpjuˈleɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pop/popul/population__us_1.mp3"
+    },
+    {
+      "english": "fail",
+      "vietnamese": "thất bại; trượt (kỳ thi); không làm được",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "He failed his driving test for the second time.",
+          "vi": "Anh ấy trượt bài thi lái xe lần thứ hai."
+        },
+        {
+          "en": "Our first plan failed, so we tried something different.",
+          "vi": "Kế hoạch đầu tiên của chúng tôi thất bại, nên chúng tôi đã thử cách khác."
+        },
+        {
+          "en": "The bus failed to arrive on time again this morning.",
+          "vi": "Sáng nay xe buýt lại không đến đúng giờ."
+        }
+      ],
+      "collocations": [
+        "fail a test",
+        "fail an exam",
+        "fail completely"
+      ],
+      "notes": "fail to do sth: không làm được việc gì",
+      "ipa": "/feɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fai/fail_/fail__us_1.mp3"
+    },
+    {
+      "english": "environment",
+      "vietnamese": "môi trường",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We should all do more to protect the environment.",
+          "vi": "Tất cả chúng ta nên làm nhiều hơn để bảo vệ môi trường."
+        },
+        {
+          "en": "Children learn best in a safe and happy environment.",
+          "vi": "Trẻ em học tốt nhất trong một môi trường an toàn và vui vẻ."
+        },
+        {
+          "en": "Plastic bags are really bad for the environment.",
+          "vi": "Túi ni lông thực sự có hại cho môi trường."
+        }
+      ],
+      "collocations": [
+        "protect the environment",
+        "work environment",
+        "safe environment",
+        "natural environment"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈvaɪrənmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/env/envir/environment__us_2_rr.mp3"
+    },
+    {
+      "english": "production",
+      "vietnamese": "sự sản xuất; sản lượng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The factory increased production to meet the high demand.",
+          "vi": "Nhà máy đã tăng sản lượng để đáp ứng nhu cầu cao."
+        },
+        {
+          "en": "Rice production in the region fell because of the drought.",
+          "vi": "Sản lượng lúa gạo trong vùng giảm vì hạn hán."
+        },
+        {
+          "en": "Production of the new phone will start next month.",
+          "vi": "Việc sản xuất mẫu điện thoại mới sẽ bắt đầu vào tháng sau."
+        }
+      ],
+      "collocations": [
+        "increase production",
+        "food production",
+        "mass production",
+        "production costs"
+      ],
+      "notes": null,
+      "ipa": "/prəˈdʌkʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/produ/production__us_1.mp3"
+    },
+    {
+      "english": "contract",
+      "vietnamese": "hợp đồng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She signed a two-year contract with a local company.",
+          "vi": "Cô ấy đã ký hợp đồng hai năm với một công ty địa phương."
+        },
+        {
+          "en": "Please read the contract carefully before you sign it.",
+          "vi": "Vui lòng đọc kỹ hợp đồng trước khi ký."
+        },
+        {
+          "en": "His contract ends in December, so he's looking for a new job.",
+          "vi": "Hợp đồng của anh ấy hết hạn vào tháng Mười Hai, nên anh ấy đang tìm việc mới."
+        }
+      ],
+      "collocations": [
+        "sign a contract",
+        "break a contract",
+        "employment contract",
+        "under contract"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːntrækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xcont/xcontract__us_1.mp3"
+    },
+    {
+      "english": "player",
+      "vietnamese": "người chơi; cầu thủ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He is the best player on our school's soccer team.",
+          "vi": "Cậu ấy là cầu thủ giỏi nhất trong đội bóng đá của trường chúng tôi."
+        },
+        {
+          "en": "This board game needs at least four players.",
+          "vi": "Trò chơi cờ bàn này cần ít nhất bốn người chơi."
+        },
+        {
+          "en": "My sister is a talented piano player.",
+          "vi": "Chị tôi là một người chơi piano có tài."
+        }
+      ],
+      "collocations": [
+        "soccer player",
+        "tennis player",
+        "key player",
+        "piano player"
+      ],
+      "notes": null,
+      "ipa": "/ˈpleɪər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pla/playe/player__us_2.mp3"
+    },
+    {
+      "english": "comment",
+      "vietnamese": "lời bình luận; lời nhận xét",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Thanks for your helpful comments on my essay.",
+          "vi": "Cảm ơn những nhận xét hữu ích của bạn về bài luận của tôi."
+        },
+        {
+          "en": "She made a rude comment about my new haircut.",
+          "vi": "Cô ấy đưa ra một lời nhận xét bất lịch sự về kiểu tóc mới của tôi."
+        },
+        {
+          "en": "Hundreds of people left comments under the video.",
+          "vi": "Hàng trăm người đã để lại bình luận dưới video."
+        }
+      ],
+      "collocations": [
+        "make a comment",
+        "leave a comment",
+        "no comment"
+      ],
+      "notes": null,
+      "ipa": "/ˈkɑːment/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/comme/comment__us_1.mp3"
+    },
+    {
+      "english": "enter",
+      "vietnamese": "đi vào; nhập (dữ liệu); tham gia (cuộc thi)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please knock before you enter the room.",
+          "vi": "Vui lòng gõ cửa trước khi vào phòng."
+        },
+        {
+          "en": "Enter your password and click the blue button.",
+          "vi": "Hãy nhập mật khẩu và nhấn vào nút màu xanh."
+        },
+        {
+          "en": "She entered a cooking competition and won second prize.",
+          "vi": "Cô ấy tham gia một cuộc thi nấu ăn và giành giải nhì."
+        }
+      ],
+      "collocations": [
+        "enter the room",
+        "enter a password",
+        "enter a competition",
+        "enter the country"
+      ],
+      "notes": "enter the room (không nói \"enter into the room\")",
+      "ipa": "/ˈentər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ent/enter/enter__us_4.mp3"
+    },
+    {
+      "english": "occur",
+      "vietnamese": "xảy ra; nảy ra (trong đầu)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The accident occurred on a busy road near the school.",
+          "vi": "Vụ tai nạn xảy ra trên một con đường đông đúc gần trường học."
+        },
+        {
+          "en": "Please tell us if the problem occurs again.",
+          "vi": "Vui lòng báo cho chúng tôi nếu sự cố lại xảy ra."
+        },
+        {
+          "en": "It never occurred to me that she might be lonely.",
+          "vi": "Tôi chưa bao giờ nghĩ đến việc cô ấy có thể đang cô đơn."
+        }
+      ],
+      "collocations": [
+        "occur naturally",
+        "problems occur",
+        "it occurred to me"
+      ],
+      "notes": "occurred, occurring (gấp đôi r); occur to sb: chợt nghĩ ra",
+      "ipa": "/əˈkɜːr/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/occ/occur/occur__us_2.mp3"
+    },
+    {
+      "english": "alone",
+      "vietnamese": "một mình",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "My grandmother lives alone, so I visit her every weekend.",
+          "vi": "Bà tôi sống một mình, nên cuối tuần nào tôi cũng đến thăm bà."
+        },
+        {
+          "en": "I don't like being alone in the house at night.",
+          "vi": "Tôi không thích ở nhà một mình vào ban đêm."
+        },
+        {
+          "en": "Is it safe for a woman to travel alone?",
+          "vi": "Phụ nữ đi du lịch một mình có an toàn không?"
+        }
+      ],
+      "collocations": [
+        "live alone",
+        "travel alone",
+        "leave me alone",
+        "all alone"
+      ],
+      "notes": null,
+      "ipa": "/əˈləʊn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/alo/alone/alone__us_1.mp3"
+    },
+    {
+      "english": "significant",
+      "vietnamese": "đáng kể; quan trọng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "There has been a significant increase in house prices this year.",
+          "vi": "Năm nay giá nhà đã tăng đáng kể."
+        },
+        {
+          "en": "Moving abroad was the most significant decision of my life.",
+          "vi": "Chuyển ra nước ngoài là quyết định quan trọng nhất trong đời tôi."
+        },
+        {
+          "en": "The new medicine made a significant difference to his health.",
+          "vi": "Loại thuốc mới đã tạo ra sự khác biệt đáng kể cho sức khỏe của anh ấy."
+        }
+      ],
+      "collocations": [
+        "significant increase",
+        "significant difference",
+        "significant change",
+        "significant role"
+      ],
+      "notes": null,
+      "ipa": "/sɪɡˈnɪfɪkənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sig/signi/significant__us_1.mp3"
+    },
+    {
+      "english": "drug",
+      "vietnamese": "thuốc; ma túy",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "This drug helps to reduce pain and fever.",
+          "vi": "Loại thuốc này giúp giảm đau và hạ sốt."
+        },
+        {
+          "en": "Scientists are developing a new drug to treat the disease.",
+          "vi": "Các nhà khoa học đang phát triển một loại thuốc mới để điều trị căn bệnh này."
+        },
+        {
+          "en": "Taking drugs can seriously damage your health.",
+          "vi": "Sử dụng ma túy có thể gây hại nghiêm trọng cho sức khỏe của bạn."
+        }
+      ],
+      "collocations": [
+        "take drugs",
+        "drug use",
+        "prescription drug",
+        "new drug"
+      ],
+      "notes": null,
+      "ipa": "/drʌɡ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dru/drug_/drug__us_1.mp3"
+    },
+    {
+      "english": "wall",
+      "vietnamese": "bức tường",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We hung a big family photo on the living room wall.",
+          "vi": "Chúng tôi treo một tấm ảnh gia đình lớn trên tường phòng khách."
+        },
+        {
+          "en": "The children painted the walls of their bedroom bright blue.",
+          "vi": "Bọn trẻ sơn tường phòng ngủ của chúng màu xanh dương sáng."
+        },
+        {
+          "en": "An old stone wall runs around the garden.",
+          "vi": "Một bức tường đá cũ bao quanh khu vườn."
+        }
+      ],
+      "collocations": [
+        "on the wall",
+        "paint a wall",
+        "stone wall",
+        "brick wall"
+      ],
+      "notes": null,
+      "ipa": "/wɔːl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wal/wall_/wall__us_1.mp3"
+    },
+    {
+      "english": "series",
+      "vietnamese": "loạt; chuỗi; phim dài tập",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We watched the whole TV series in one weekend.",
+          "vi": "Chúng tôi đã xem hết cả bộ phim truyền hình dài tập trong một cuối tuần."
+        },
+        {
+          "en": "The company had a series of problems last year.",
+          "vi": "Năm ngoái công ty gặp phải một loạt vấn đề."
+        },
+        {
+          "en": "She is giving a series of talks on healthy eating.",
+          "vi": "Cô ấy đang có một loạt bài nói chuyện về ăn uống lành mạnh."
+        }
+      ],
+      "collocations": [
+        "a series of",
+        "TV series",
+        "a series of events"
+      ],
+      "notes": "số ít và số nhiều giống nhau: series",
+      "ipa": "/ˈsɪriːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ser/serie/series__us_2.mp3"
+    },
+    {
+      "english": "direct",
+      "vietnamese": "trực tiếp; thẳng; thẳng thắn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Is there a direct flight from Hanoi to London?",
+          "vi": "Có chuyến bay thẳng từ Hà Nội đến Luân Đôn không?"
+        },
+        {
+          "en": "Keep the plant out of direct sunlight.",
+          "vi": "Hãy để cây tránh ánh nắng trực tiếp."
+        },
+        {
+          "en": "I'd prefer a direct answer, not a long explanation.",
+          "vi": "Tôi muốn một câu trả lời thẳng thắn, chứ không phải một lời giải thích dài dòng."
+        }
+      ],
+      "collocations": [
+        "direct flight",
+        "direct sunlight",
+        "direct contact"
+      ],
+      "notes": null,
+      "ipa": "/dəˈrekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dir/direc/direct__us_1_rr.mp3"
+    },
+    {
+      "english": "success",
+      "vietnamese": "sự thành công",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The party was a great success, and everyone had fun.",
+          "vi": "Bữa tiệc rất thành công và mọi người đều vui vẻ."
+        },
+        {
+          "en": "Hard work is the key to success.",
+          "vi": "Chăm chỉ là chìa khóa dẫn đến thành công."
+        },
+        {
+          "en": "We wish you every success in your new job.",
+          "vi": "Chúc bạn mọi thành công trong công việc mới."
+        }
+      ],
+      "collocations": [
+        "great success",
+        "key to success",
+        "achieve success"
+      ],
+      "notes": null,
+      "ipa": "/səkˈses/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/suc/succe/success__us_2.mp3"
+    },
+    {
+      "english": "tomorrow",
+      "vietnamese": "ngày mai",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I have an important meeting at nine tomorrow morning.",
+          "vi": "Tôi có một cuộc họp quan trọng lúc chín giờ sáng mai."
+        },
+        {
+          "en": "Can we talk about this tomorrow when I'm less tired?",
+          "vi": "Mai chúng ta nói về chuyện này khi tôi đỡ mệt hơn được không?"
+        },
+        {
+          "en": "Tomorrow will be sunny, so let's go to the park.",
+          "vi": "Ngày mai trời sẽ nắng, vậy chúng ta đi công viên nhé."
+        }
+      ],
+      "collocations": [
+        "tomorrow morning",
+        "tomorrow night",
+        "see you tomorrow",
+        "the day after tomorrow"
+      ],
+      "notes": null,
+      "ipa": "/təˈmɑːrəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tom/tomor/tomorrow__us_1_rr.mp3"
+    },
+    {
+      "english": "director",
+      "vietnamese": "giám đốc; đạo diễn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She was promoted to sales director last year.",
+          "vi": "Năm ngoái cô ấy được thăng chức làm giám đốc kinh doanh."
+        },
+        {
+          "en": "The director of the film won several awards.",
+          "vi": "Đạo diễn của bộ phim đã giành được nhiều giải thưởng."
+        },
+        {
+          "en": "You should send your report to the finance director.",
+          "vi": "Bạn nên gửi báo cáo cho giám đốc tài chính."
+        }
+      ],
+      "collocations": [
+        "managing director",
+        "film director",
+        "sales director",
+        "board of directors"
+      ],
+      "notes": null,
+      "ipa": "/dəˈrektər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dir/direc/director__us_1_rr.mp3"
+    },
+    {
+      "english": "clearly",
+      "vietnamese": "rõ ràng; rõ",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Please speak clearly so everyone can hear you.",
+          "vi": "Vui lòng nói rõ ràng để mọi người đều có thể nghe thấy bạn."
+        },
+        {
+          "en": "Without my glasses, I can't see clearly.",
+          "vi": "Không có kính, tôi không nhìn rõ được."
+        },
+        {
+          "en": "She was clearly upset about the news.",
+          "vi": "Rõ ràng là cô ấy buồn vì tin đó."
+        }
+      ],
+      "collocations": [
+        "speak clearly",
+        "see clearly",
+        "think clearly",
+        "clearly visible"
+      ],
+      "notes": null,
+      "ipa": "/ˈklɪrli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cle/clear/clearly__us_2.mp3"
+    },
+    {
+      "english": "lack",
+      "vietnamese": "sự thiếu; thiếu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Lack of sleep can make it hard to concentrate.",
+          "vi": "Thiếu ngủ có thể khiến bạn khó tập trung."
+        },
+        {
+          "en": "The project failed because of a lack of money.",
+          "vi": "Dự án thất bại vì thiếu tiền."
+        },
+        {
+          "en": "He lacks confidence when he speaks in public.",
+          "vi": "Anh ấy thiếu tự tin khi nói trước đám đông."
+        }
+      ],
+      "collocations": [
+        "lack of sleep",
+        "lack of money",
+        "lack of time",
+        "lack confidence"
+      ],
+      "notes": "danh từ: lack of + N; động từ: lack + N (không có \"of\")",
+      "ipa": "/læk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lac/lack_/lack__us_1.mp3"
+    },
+    {
+      "english": "review",
+      "vietnamese": "bài đánh giá; sự xem xét lại",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I always read online reviews before I book a hotel.",
+          "vi": "Tôi luôn đọc các bài đánh giá trên mạng trước khi đặt khách sạn."
+        },
+        {
+          "en": "The movie got great reviews from critics.",
+          "vi": "Bộ phim nhận được những lời đánh giá rất tốt từ giới phê bình."
+        },
+        {
+          "en": "The company is doing a review of its safety rules.",
+          "vi": "Công ty đang xem xét lại các quy định an toàn của mình."
+        }
+      ],
+      "collocations": [
+        "write a review",
+        "good reviews",
+        "under review"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈvjuː/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rev/revie/review__us_4.mp3"
+    },
+    {
+      "english": "depend",
+      "vietnamese": "phụ thuộc; dựa vào; trông cậy",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Whether we go to the beach depends on the weather.",
+          "vi": "Chúng tôi có đi biển hay không còn phụ thuộc vào thời tiết."
+        },
+        {
+          "en": "Many old people depend on their children for help.",
+          "vi": "Nhiều người già dựa vào con cái để được giúp đỡ."
+        },
+        {
+          "en": "You can always depend on me when you need a friend.",
+          "vi": "Bạn luôn có thể trông cậy vào tôi khi cần một người bạn."
+        }
+      ],
+      "collocations": [
+        "depend on",
+        "it depends",
+        "depend heavily on"
+      ],
+      "notes": "depend on/upon sb/sth",
+      "ipa": "/dɪˈpend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dep/depen/depend__us_1.mp3"
+    },
+    {
+      "english": "race",
+      "vietnamese": "cuộc đua; cuộc chạy đua",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She came second in the 100-meter race.",
+          "vi": "Cô ấy về nhì trong cuộc đua 100 mét."
+        },
+        {
+          "en": "My brother won his first bike race last Sunday.",
+          "vi": "Anh trai tôi đã thắng cuộc đua xe đạp đầu tiên vào Chủ nhật tuần trước."
+        },
+        {
+          "en": "We're in a race against time to finish the project.",
+          "vi": "Chúng tôi đang chạy đua với thời gian để hoàn thành dự án."
+        }
+      ],
+      "collocations": [
+        "win a race",
+        "lose a race",
+        "horse race",
+        "a race against time"
+      ],
+      "notes": null,
+      "ipa": "/reɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rac/race_/race__us_1.mp3"
+    },
+    {
+      "english": "recognize",
+      "vietnamese": "nhận ra; công nhận",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I didn't recognize you with your new haircut!",
+          "vi": "Tôi đã không nhận ra bạn với kiểu tóc mới!"
+        },
+        {
+          "en": "Would you recognize the man if you saw him again?",
+          "vi": "Bạn có nhận ra người đàn ông đó nếu gặp lại anh ta không?"
+        },
+        {
+          "en": "Her hard work was finally recognized with an award.",
+          "vi": "Sự chăm chỉ của cô ấy cuối cùng đã được công nhận bằng một giải thưởng."
+        }
+      ],
+      "collocations": [
+        "recognize someone",
+        "immediately recognize",
+        "widely recognized",
+        "recognize the importance"
+      ],
+      "notes": "Anh: recognise · Mỹ: recognize",
+      "ipa": "/ˈrekəɡnaɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rec/recog/recognize__us_3.mp3"
+    },
+    {
+      "english": "window",
+      "vietnamese": "cửa sổ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Do you mind if I open the window for some air?",
+          "vi": "Bạn có phiền không nếu tôi mở cửa sổ cho thoáng khí?"
+        },
+        {
+          "en": "Our hotel room had a window with a view of the sea.",
+          "vi": "Phòng khách sạn của chúng tôi có cửa sổ nhìn ra biển."
+        },
+        {
+          "en": "The kids broke the kitchen window while playing soccer.",
+          "vi": "Bọn trẻ làm vỡ cửa sổ nhà bếp khi đang chơi bóng đá."
+        }
+      ],
+      "collocations": [
+        "open the window",
+        "close the window",
+        "look out the window",
+        "window seat"
+      ],
+      "notes": null,
+      "ipa": "/ˈwɪndəʊ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/win/windo/window__us_1.mp3"
+    }
+  ]
+}

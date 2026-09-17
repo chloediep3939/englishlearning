@@ -1,0 +1,842 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 1.501–2.000 · Bộ 14",
+    "description": "New General Service List, thứ hạng 1.501–2.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-4-14"
+  },
+  "cards": [
+    {
+      "english": "educational",
+      "vietnamese": "mang tính giáo dục; (thuộc) giáo dục",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My kids watch an educational show about animals every morning.",
+          "vi": "Các con tôi xem một chương trình giáo dục về động vật mỗi sáng."
+        },
+        {
+          "en": "The trip to the science museum was fun and very educational.",
+          "vi": "Chuyến đi đến bảo tàng khoa học vừa vui vừa rất bổ ích."
+        },
+        {
+          "en": "She works for an educational organization that helps poor children.",
+          "vi": "Cô ấy làm việc cho một tổ chức giáo dục giúp đỡ trẻ em nghèo."
+        }
+      ],
+      "collocations": [
+        "educational system",
+        "educational games",
+        "educational value",
+        "educational background"
+      ],
+      "notes": null,
+      "ipa": "/ˌedʒuˈkeɪʃənl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/edu/educa/educational__us_1.mp3"
+    },
+    {
+      "english": "distinguish",
+      "vietnamese": "phân biệt; nhận ra",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Young children often can't distinguish between right and wrong.",
+          "vi": "Trẻ nhỏ thường không phân biệt được đúng và sai."
+        },
+        {
+          "en": "It's hard to distinguish the twins because they look so alike.",
+          "vi": "Thật khó phân biệt hai đứa sinh đôi vì chúng trông rất giống nhau."
+        },
+        {
+          "en": "In the dark, I could barely distinguish the shape of the house.",
+          "vi": "Trong bóng tối, tôi hầu như không nhận ra được hình dáng ngôi nhà."
+        }
+      ],
+      "collocations": [
+        "distinguish between",
+        "distinguish something from something",
+        "clearly distinguish"
+      ],
+      "notes": "distinguish A from B / distinguish between A and B",
+      "ipa": "/dɪˈstɪŋɡwɪʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dis/disti/distinguish__us_1.mp3"
+    },
+    {
+      "english": "substantial",
+      "vietnamese": "đáng kể; lớn",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "He received a substantial pay raise after his first year.",
+          "vi": "Anh ấy được tăng lương đáng kể sau năm đầu tiên."
+        },
+        {
+          "en": "The storm caused substantial damage to homes along the coast.",
+          "vi": "Cơn bão gây thiệt hại đáng kể cho nhà cửa dọc bờ biển."
+        },
+        {
+          "en": "We need a substantial amount of money to fix the roof.",
+          "vi": "Chúng tôi cần một khoản tiền lớn để sửa mái nhà."
+        }
+      ],
+      "collocations": [
+        "substantial amount",
+        "substantial increase",
+        "substantial damage",
+        "substantial number"
+      ],
+      "notes": null,
+      "ipa": "/səbˈstænʃl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sub/subst/substantial__us_1.mp3"
+    },
+    {
+      "english": "nearby",
+      "vietnamese": "gần đó; ở gần",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We had lunch at a nearby café before the movie.",
+          "vi": "Chúng tôi ăn trưa ở một quán cà phê gần đó trước khi xem phim."
+        },
+        {
+          "en": "Is there a pharmacy nearby where I can buy some medicine?",
+          "vi": "Có hiệu thuốc nào ở gần đây để tôi mua thuốc không?"
+        },
+        {
+          "en": "Students from nearby towns take the bus to this school.",
+          "vi": "Học sinh từ các thị trấn lân cận đi xe buýt đến trường này."
+        }
+      ],
+      "collocations": [
+        "nearby town",
+        "nearby village",
+        "live nearby"
+      ],
+      "notes": "Cũng dùng làm trạng từ: live nearby",
+      "ipa": "/ˌnɪrˈbaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/n/nea/nearb/nearby__us_2_rr.mp3"
+    },
+    {
+      "english": "manufacturer",
+      "vietnamese": "nhà sản xuất; hãng sản xuất",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "If the phone breaks, send it back to the manufacturer.",
+          "vi": "Nếu điện thoại bị hỏng, hãy gửi nó lại cho nhà sản xuất."
+        },
+        {
+          "en": "My uncle works for a large car manufacturer in Japan.",
+          "vi": "Chú tôi làm việc cho một hãng sản xuất ô tô lớn ở Nhật Bản."
+        },
+        {
+          "en": "Always follow the manufacturer's instructions when using this machine.",
+          "vi": "Luôn làm theo hướng dẫn của nhà sản xuất khi sử dụng máy này."
+        }
+      ],
+      "collocations": [
+        "car manufacturer",
+        "leading manufacturer",
+        "manufacturer's instructions"
+      ],
+      "notes": null,
+      "ipa": "/ˌmænjuˈfæktʃərər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/man/manuf/manufacturer__us_1.mp3"
+    },
+    {
+      "english": "slide",
+      "vietnamese": "trượt; lướt; luồn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The kids love to slide down the snowy hill on plastic bags.",
+          "vi": "Bọn trẻ rất thích trượt xuống đồi tuyết trên những chiếc túi nhựa."
+        },
+        {
+          "en": "She slid the letter under the door and walked away.",
+          "vi": "Cô ấy luồn lá thư qua khe cửa rồi bỏ đi."
+        },
+        {
+          "en": "The door slides open when you step in front of it.",
+          "vi": "Cánh cửa tự trượt mở khi bạn bước tới trước nó."
+        }
+      ],
+      "collocations": [
+        "slide down",
+        "slide open",
+        "slide into",
+        "sliding door"
+      ],
+      "notes": "slide – slid – slid",
+      "ipa": "/slaɪd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sli/slide/slide__us_1.mp3"
+    },
+    {
+      "english": "valuable",
+      "vietnamese": "có giá trị; quý giá",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Don't leave anything valuable in your car overnight.",
+          "vi": "Đừng để bất cứ thứ gì có giá trị trong xe qua đêm."
+        },
+        {
+          "en": "Working in a hotel gave me valuable experience with customers.",
+          "vi": "Làm việc ở khách sạn đã cho tôi kinh nghiệm quý giá khi tiếp xúc với khách hàng."
+        },
+        {
+          "en": "Thank you for your time; I know it's very valuable.",
+          "vi": "Cảm ơn bạn đã dành thời gian; tôi biết thời gian của bạn rất quý."
+        }
+      ],
+      "collocations": [
+        "valuable experience",
+        "valuable information",
+        "valuable time",
+        "extremely valuable"
+      ],
+      "notes": null,
+      "ipa": "/ˈvæljuəbl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/val/valua/valuable__us_2_rr.mp3"
+    },
+    {
+      "english": "personally",
+      "vietnamese": "về phần cá nhân; đích thân; trực tiếp",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "Personally, I prefer the beach to the mountains.",
+          "vi": "Cá nhân tôi thì thích biển hơn núi."
+        },
+        {
+          "en": "The manager came personally to apologize for the mistake.",
+          "vi": "Người quản lý đã đích thân đến xin lỗi về sai sót đó."
+        },
+        {
+          "en": "I've never met her personally, but we often talk online.",
+          "vi": "Tôi chưa bao giờ gặp trực tiếp cô ấy, nhưng chúng tôi hay nói chuyện trên mạng."
+        }
+      ],
+      "collocations": [
+        "personally responsible",
+        "know someone personally",
+        "take it personally"
+      ],
+      "notes": "take something personally: để bụng, cho là nhắm vào mình",
+      "ipa": "/ˈpɜːrsənəli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/per/perso/personally__us_2.mp3"
+    },
+    {
+      "english": "breast",
+      "vietnamese": "ngực; vú; ức (gà)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I bought some chicken breast to make a salad for dinner.",
+          "vi": "Tôi mua một ít ức gà để làm món salad cho bữa tối."
+        },
+        {
+          "en": "Doctors say breast milk is the best food for babies.",
+          "vi": "Các bác sĩ nói sữa mẹ là thức ăn tốt nhất cho trẻ sơ sinh."
+        },
+        {
+          "en": "The small bird had a bright red breast and gray wings.",
+          "vi": "Con chim nhỏ có phần ngực màu đỏ tươi và đôi cánh màu xám."
+        }
+      ],
+      "collocations": [
+        "chicken breast",
+        "breast milk",
+        "breast pocket"
+      ],
+      "notes": null,
+      "ipa": "/brest/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bre/breas/breast__us_1.mp3"
+    },
+    {
+      "english": "cope",
+      "vietnamese": "đối phó; đương đầu; xoay xở",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "How do you cope with stress when work gets busy?",
+          "vi": "Bạn đối phó với căng thẳng thế nào khi công việc bận rộn?"
+        },
+        {
+          "en": "Living alone in a new country was hard, but she learned to cope.",
+          "vi": "Sống một mình ở đất nước mới rất vất vả, nhưng cô ấy đã học được cách xoay xở."
+        },
+        {
+          "en": "The small hospital couldn't cope with so many patients.",
+          "vi": "Bệnh viện nhỏ không thể xoay xở nổi với quá nhiều bệnh nhân."
+        }
+      ],
+      "collocations": [
+        "cope with stress",
+        "cope with pressure",
+        "learn to cope",
+        "struggle to cope"
+      ],
+      "notes": "cope with something",
+      "ipa": "/kəʊp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cop/cope_/cope__us_1.mp3"
+    },
+    {
+      "english": "approximately",
+      "vietnamese": "khoảng; xấp xỉ",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The flight takes approximately three hours from here.",
+          "vi": "Chuyến bay từ đây mất khoảng ba tiếng."
+        },
+        {
+          "en": "Approximately half of the students live in the city.",
+          "vi": "Xấp xỉ một nửa số sinh viên sống trong thành phố."
+        },
+        {
+          "en": "The house was built approximately one hundred years ago.",
+          "vi": "Ngôi nhà được xây dựng cách đây khoảng một trăm năm."
+        }
+      ],
+      "collocations": [
+        "approximately equal",
+        "approximately half",
+        "at approximately"
+      ],
+      "notes": null,
+      "ipa": "/əˈprɑːksɪmətli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/app/appro/approximately__us_1.mp3"
+    },
+    {
+      "english": "accommodation",
+      "vietnamese": "chỗ ở; nơi ăn ở",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The price of the tour includes flights and accommodation.",
+          "vi": "Giá tour đã bao gồm vé máy bay và chỗ ở."
+        },
+        {
+          "en": "Finding cheap accommodation near the university is not easy.",
+          "vi": "Tìm chỗ ở giá rẻ gần trường đại học không hề dễ."
+        },
+        {
+          "en": "We booked our accommodation online two months before the trip.",
+          "vi": "Chúng tôi đặt chỗ ở trên mạng hai tháng trước chuyến đi."
+        }
+      ],
+      "collocations": [
+        "find accommodation",
+        "cheap accommodation",
+        "hotel accommodation",
+        "book accommodation"
+      ],
+      "notes": "Anh: không đếm được (accommodation) · Mỹ: thường dùng accommodations",
+      "ipa": "/əˌkɑːməˈdeɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/accom/accommodation__us_2.mp3"
+    },
+    {
+      "english": "highlight",
+      "vietnamese": "làm nổi bật; nhấn mạnh; tô sáng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The report highlights the need for more teachers in rural areas.",
+          "vi": "Bản báo cáo nhấn mạnh nhu cầu cần thêm giáo viên ở vùng nông thôn."
+        },
+        {
+          "en": "Please highlight the important words in yellow.",
+          "vi": "Hãy tô sáng những từ quan trọng bằng màu vàng."
+        },
+        {
+          "en": "Her speech highlighted the problems that young workers face today.",
+          "vi": "Bài phát biểu của cô ấy làm nổi bật những vấn đề người lao động trẻ gặp phải ngày nay."
+        }
+      ],
+      "collocations": [
+        "highlight the need",
+        "highlight the importance",
+        "highlight the problem"
+      ],
+      "notes": "Danh từ: highlight = điểm nổi bật (the highlight of the trip)",
+      "ipa": "/ˈhaɪlaɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hig/highl/highlight__us_1.mp3"
+    },
+    {
+      "english": "reporter",
+      "vietnamese": "phóng viên",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "A reporter asked the mayor about the new bridge.",
+          "vi": "Một phóng viên đã hỏi thị trưởng về cây cầu mới."
+        },
+        {
+          "en": "She worked as a sports reporter for a local newspaper.",
+          "vi": "Cô ấy từng làm phóng viên thể thao cho một tờ báo địa phương."
+        },
+        {
+          "en": "Reporters were waiting outside the hospital all night.",
+          "vi": "Các phóng viên đã chờ bên ngoài bệnh viện suốt đêm."
+        }
+      ],
+      "collocations": [
+        "newspaper reporter",
+        "TV reporter",
+        "sports reporter",
+        "tell reporters"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈpɔːrtər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rep/repor/reporter__us_1.mp3"
+    },
+    {
+      "english": "climate",
+      "vietnamese": "khí hậu; tình hình",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandparents moved south because they wanted a warmer climate.",
+          "vi": "Ông bà tôi chuyển xuống phía nam vì muốn sống ở nơi khí hậu ấm hơn."
+        },
+        {
+          "en": "Climate change is making summers hotter every year.",
+          "vi": "Biến đổi khí hậu đang khiến mùa hè mỗi năm một nóng hơn."
+        },
+        {
+          "en": "In the current economic climate, many people are afraid to spend money.",
+          "vi": "Trong tình hình kinh tế hiện nay, nhiều người ngại tiêu tiền."
+        }
+      ],
+      "collocations": [
+        "climate change",
+        "warm climate",
+        "economic climate",
+        "tropical climate"
+      ],
+      "notes": null,
+      "ipa": "/ˈklaɪmət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cli/clima/climate__us_1.mp3"
+    },
+    {
+      "english": "shirt",
+      "vietnamese": "áo sơ mi; áo",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He wore a white shirt and a tie to the interview.",
+          "vi": "Anh ấy mặc áo sơ mi trắng và thắt cà vạt đi phỏng vấn."
+        },
+        {
+          "en": "Can you iron my shirt while I take a shower?",
+          "vi": "Bạn ủi giúp tôi cái áo sơ mi trong lúc tôi tắm được không?"
+        },
+        {
+          "en": "I spilled coffee on my shirt this morning.",
+          "vi": "Sáng nay tôi làm đổ cà phê lên áo."
+        }
+      ],
+      "collocations": [
+        "wear a shirt",
+        "white shirt",
+        "iron a shirt",
+        "long-sleeved shirt"
+      ],
+      "notes": null,
+      "ipa": "/ʃɜːrt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/shi/shirt/shirt__us_1.mp3"
+    },
+    {
+      "english": "exception",
+      "vietnamese": "ngoại lệ; trường hợp ngoại lệ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Everyone must arrive by eight, and there are no exceptions.",
+          "vi": "Mọi người phải có mặt trước tám giờ, không có ngoại lệ."
+        },
+        {
+          "en": "With the exception of two students, the whole class passed the test.",
+          "vi": "Ngoại trừ hai học sinh, cả lớp đều qua bài kiểm tra."
+        },
+        {
+          "en": "We don't usually allow pets, but we'll make an exception for you.",
+          "vi": "Chúng tôi thường không cho mang thú cưng, nhưng sẽ ngoại lệ cho bạn."
+        }
+      ],
+      "collocations": [
+        "make an exception",
+        "with the exception of",
+        "no exception",
+        "exception to the rule"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈsepʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exc/excep/exception__us_1.mp3"
+    },
+    {
+      "english": "corporation",
+      "vietnamese": "tập đoàn; công ty lớn",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My father worked for a large corporation for thirty years.",
+          "vi": "Bố tôi làm việc cho một tập đoàn lớn suốt ba mươi năm."
+        },
+        {
+          "en": "Some people think big corporations should pay more tax.",
+          "vi": "Một số người cho rằng các tập đoàn lớn nên đóng thuế nhiều hơn."
+        },
+        {
+          "en": "The corporation plans to open two new factories next year.",
+          "vi": "Tập đoàn dự định mở hai nhà máy mới vào năm tới."
+        }
+      ],
+      "collocations": [
+        "large corporation",
+        "multinational corporation",
+        "big corporations"
+      ],
+      "notes": null,
+      "ipa": "/ˌkɔːrpəˈreɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cor/corpo/corporation__us_1.mp3"
+    },
+    {
+      "english": "chip",
+      "vietnamese": "khoai tây chiên; con chip (điện tử); vết mẻ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We ate fish and chips by the sea.",
+          "vi": "Chúng tôi ăn cá và khoai tây chiên bên bờ biển."
+        },
+        {
+          "en": "Every new phone has a tiny computer chip inside it.",
+          "vi": "Mỗi chiếc điện thoại mới đều có một con chip máy tính nhỏ xíu bên trong."
+        },
+        {
+          "en": "There's a small chip on the edge of this cup.",
+          "vi": "Có một vết mẻ nhỏ trên miệng chiếc cốc này."
+        }
+      ],
+      "collocations": [
+        "fish and chips",
+        "potato chips",
+        "computer chip",
+        "chocolate chip"
+      ],
+      "notes": "Anh: chips = khoai tây chiên que · Mỹ: chips = khoai tây chiên lát mỏng (Anh gọi crisps)",
+      "ipa": "/tʃɪp/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/chi/chip_/chip__us_1.mp3"
+    },
+    {
+      "english": "winner",
+      "vietnamese": "người chiến thắng; người đoạt giải",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The winner of the race will get a gold medal.",
+          "vi": "Người chiến thắng cuộc đua sẽ nhận được huy chương vàng."
+        },
+        {
+          "en": "They will announce the winners at the end of the evening.",
+          "vi": "Họ sẽ công bố những người đoạt giải vào cuối buổi tối."
+        },
+        {
+          "en": "My sister was the lucky winner of a free trip to Paris.",
+          "vi": "Chị tôi là người may mắn trúng một chuyến du lịch miễn phí đến Paris."
+        }
+      ],
+      "collocations": [
+        "the winner of",
+        "announce the winner",
+        "lucky winner",
+        "prize winner"
+      ],
+      "notes": null,
+      "ipa": "/ˈwɪnər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/win/winne/winner__us_2.mp3"
+    },
+    {
+      "english": "encounter",
+      "vietnamese": "gặp phải; bắt gặp; cuộc chạm trán",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "We encountered a few problems when we moved to a new house.",
+          "vi": "Chúng tôi gặp phải một vài vấn đề khi chuyển sang nhà mới."
+        },
+        {
+          "en": "Call me if you encounter any difficulties with the software.",
+          "vi": "Gọi cho tôi nếu bạn gặp bất kỳ khó khăn nào với phần mềm."
+        },
+        {
+          "en": "I had a strange encounter with a stranger on the train.",
+          "vi": "Tôi đã có một cuộc gặp gỡ kỳ lạ với một người lạ trên tàu."
+        }
+      ],
+      "collocations": [
+        "encounter problems",
+        "encounter difficulties",
+        "chance encounter"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈkaʊntər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/enc/encou/encounter__us_5.mp3"
+    },
+    {
+      "english": "brown",
+      "vietnamese": "màu nâu; nâu",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "She has long brown hair and green eyes.",
+          "vi": "Cô ấy có mái tóc dài màu nâu và đôi mắt xanh lục."
+        },
+        {
+          "en": "I usually eat brown rice because it's healthier.",
+          "vi": "Tôi thường ăn gạo lứt vì nó tốt cho sức khỏe hơn."
+        },
+        {
+          "en": "The leaves turn brown and fall in autumn.",
+          "vi": "Lá cây chuyển sang màu nâu và rụng vào mùa thu."
+        }
+      ],
+      "collocations": [
+        "brown hair",
+        "brown eyes",
+        "brown rice",
+        "turn brown"
+      ],
+      "notes": "brown rice: gạo lứt; brown bread: bánh mì nâu (nguyên cám)",
+      "ipa": "/braʊn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bro/brown/brown__us_1.mp3"
+    },
+    {
+      "english": "breathe",
+      "vietnamese": "thở; hít thở",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Close your eyes and breathe slowly to relax.",
+          "vi": "Hãy nhắm mắt lại và thở chậm để thư giãn."
+        },
+        {
+          "en": "It was so smoky in the kitchen that I couldn't breathe.",
+          "vi": "Trong bếp nhiều khói đến mức tôi không thở được."
+        },
+        {
+          "en": "I love breathing the fresh air in the mountains.",
+          "vi": "Tôi thích hít thở không khí trong lành trên núi."
+        }
+      ],
+      "collocations": [
+        "breathe deeply",
+        "breathe in",
+        "breathe out",
+        "breathe fresh air"
+      ],
+      "notes": "breathe (v) ≠ breath (n): hơi thở",
+      "ipa": "/briːð/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bre/breat/breathe__us_1.mp3"
+    },
+    {
+      "english": "excuse",
+      "vietnamese": "lời bào chữa; cái cớ; lý do",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "He always has an excuse for being late to work.",
+          "vi": "Anh ta lúc nào cũng có cớ cho việc đi làm muộn."
+        },
+        {
+          "en": "Being tired is no excuse for being rude to people.",
+          "vi": "Mệt mỏi không phải là lý do để thô lỗ với người khác."
+        },
+        {
+          "en": "She made an excuse and left the party early.",
+          "vi": "Cô ấy viện cớ rồi rời bữa tiệc sớm."
+        }
+      ],
+      "collocations": [
+        "make an excuse",
+        "good excuse",
+        "no excuse for",
+        "excuse me"
+      ],
+      "notes": "Danh từ /ɪkˈskjuːs/ · động từ /ɪkˈskjuːz/",
+      "ipa": "/ɪkˈskjuːs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exc/excus/excuse__us_1.mp3"
+    },
+    {
+      "english": "partly",
+      "vietnamese": "một phần; phần nào",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The accident was partly my fault, and I'm sorry.",
+          "vi": "Vụ tai nạn một phần là lỗi của tôi, và tôi xin lỗi."
+        },
+        {
+          "en": "Tomorrow will be partly cloudy with a chance of rain.",
+          "vi": "Ngày mai trời có mây rải rác và có khả năng mưa."
+        },
+        {
+          "en": "I moved to the city partly because of my job.",
+          "vi": "Tôi chuyển lên thành phố một phần là vì công việc."
+        }
+      ],
+      "collocations": [
+        "partly because",
+        "partly responsible",
+        "partly cloudy",
+        "partly due to"
+      ],
+      "notes": null,
+      "ipa": "/ˈpɑːrtli/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/par/partl/partly__us_1.mp3"
+    },
+    {
+      "english": "tennis",
+      "vietnamese": "quần vợt; tennis",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My brother and I play tennis every Saturday morning.",
+          "vi": "Anh trai tôi và tôi chơi quần vợt vào mỗi sáng thứ Bảy."
+        },
+        {
+          "en": "The hotel has a pool and two tennis courts.",
+          "vi": "Khách sạn có một hồ bơi và hai sân quần vợt."
+        },
+        {
+          "en": "She started taking tennis lessons when she was six.",
+          "vi": "Cô ấy bắt đầu học quần vợt từ năm sáu tuổi."
+        }
+      ],
+      "collocations": [
+        "play tennis",
+        "tennis court",
+        "tennis player",
+        "tennis match"
+      ],
+      "notes": "play tennis (không dùng the)",
+      "ipa": "/ˈtenɪs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/ten/tenni/tennis__us_3.mp3"
+    },
+    {
+      "english": "urban",
+      "vietnamese": "(thuộc) đô thị; thành thị",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "More and more people are moving from villages to urban areas.",
+          "vi": "Ngày càng nhiều người chuyển từ làng quê ra các khu đô thị."
+        },
+        {
+          "en": "Traffic is one of the biggest problems of urban life.",
+          "vi": "Giao thông là một trong những vấn đề lớn nhất của cuộc sống đô thị."
+        },
+        {
+          "en": "Urban families often live in small apartments.",
+          "vi": "Các gia đình ở thành thị thường sống trong những căn hộ nhỏ."
+        }
+      ],
+      "collocations": [
+        "urban areas",
+        "urban life",
+        "urban population",
+        "urban development"
+      ],
+      "notes": "urban ≠ rural (nông thôn)",
+      "ipa": "/ˈɜːrbən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/urb/urban/urban__us_2.mp3"
+    },
+    {
+      "english": "confuse",
+      "vietnamese": "làm bối rối; nhầm lẫn",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The new instructions only confused me more.",
+          "vi": "Hướng dẫn mới chỉ càng làm tôi bối rối hơn."
+        },
+        {
+          "en": "People often confuse me with my twin sister.",
+          "vi": "Mọi người hay nhầm tôi với chị em sinh đôi của tôi."
+        },
+        {
+          "en": "Don't confuse the words 'desert' and 'dessert' in your essay.",
+          "vi": "Đừng nhầm lẫn hai từ 'desert' và 'dessert' trong bài luận của bạn."
+        }
+      ],
+      "collocations": [
+        "confuse A with B",
+        "get confused",
+        "confuse the issue"
+      ],
+      "notes": "confuse A with B: nhầm A với B",
+      "ipa": "/kənˈfjuːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconf/xconfuse__us_1.mp3"
+    },
+    {
+      "english": "southern",
+      "vietnamese": "(thuộc) phía nam; miền Nam",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We spent our holiday on a beach in southern Thailand.",
+          "vi": "Chúng tôi đã nghỉ lễ ở một bãi biển phía nam Thái Lan."
+        },
+        {
+          "en": "The southern part of the country is hot all year.",
+          "vi": "Phần phía nam của đất nước nóng quanh năm."
+        },
+        {
+          "en": "My friend speaks with a strong southern accent.",
+          "vi": "Bạn tôi nói giọng miền Nam rất đặc trưng."
+        }
+      ],
+      "collocations": [
+        "southern part",
+        "southern coast",
+        "southern accent",
+        "southern border"
+      ],
+      "notes": null,
+      "ipa": "/ˈsʌðərn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sou/south/southern__us_2.mp3"
+    },
+    {
+      "english": "output",
+      "vietnamese": "sản lượng; đầu ra",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The factory's output has doubled since last year.",
+          "vi": "Sản lượng của nhà máy đã tăng gấp đôi kể từ năm ngoái."
+        },
+        {
+          "en": "Rice output was low this year because of the dry weather.",
+          "vi": "Sản lượng lúa năm nay thấp do thời tiết khô hạn."
+        },
+        {
+          "en": "Check the output of the program to see if there are any errors.",
+          "vi": "Hãy kiểm tra đầu ra của chương trình để xem có lỗi nào không."
+        }
+      ],
+      "collocations": [
+        "increase output",
+        "total output",
+        "industrial output",
+        "power output"
+      ],
+      "notes": null,
+      "ipa": "/ˈaʊtpʊt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/out/outpu/output__us_1.mp3"
+    }
+  ]
+}

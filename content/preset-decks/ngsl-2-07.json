@@ -1,0 +1,809 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 501–1.000 · Bộ 7",
+    "description": "New General Service List, thứ hạng 501–1.000",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-2-07"
+  },
+  "cards": [
+    {
+      "english": "region",
+      "vietnamese": "vùng; khu vực",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "This region is famous for its coffee and green hills.",
+          "vi": "Vùng này nổi tiếng với cà phê và những ngọn đồi xanh."
+        },
+        {
+          "en": "Heavy rain is expected in the northern region tomorrow.",
+          "vi": "Dự báo ngày mai sẽ có mưa lớn ở khu vực phía bắc."
+        },
+        {
+          "en": "Many people from rural regions move to big cities for work.",
+          "vi": "Nhiều người từ các vùng nông thôn chuyển lên thành phố lớn để làm việc."
+        }
+      ],
+      "collocations": [
+        "northern region",
+        "rural region",
+        "in the region"
+      ],
+      "notes": null,
+      "ipa": "/ˈriːdʒən/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regio/region__us_1.mp3"
+    },
+    {
+      "english": "growth",
+      "vietnamese": "sự tăng trưởng; sự phát triển",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The company has seen strong growth over the past two years.",
+          "vi": "Công ty đã tăng trưởng mạnh trong hai năm qua."
+        },
+        {
+          "en": "Good sleep is important for a child's growth.",
+          "vi": "Ngủ ngon rất quan trọng cho sự phát triển của trẻ."
+        },
+        {
+          "en": "Population growth has made housing in the city more expensive.",
+          "vi": "Sự gia tăng dân số đã khiến nhà ở trong thành phố đắt đỏ hơn."
+        }
+      ],
+      "collocations": [
+        "economic growth",
+        "strong growth",
+        "population growth",
+        "rapid growth"
+      ],
+      "notes": null,
+      "ipa": "/ɡrəʊθ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gro/growt/growth__us_1.mp3"
+    },
+    {
+      "english": "evening",
+      "vietnamese": "buổi tối",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I like to go for a walk in the evening.",
+          "vi": "Tôi thích đi dạo vào buổi tối."
+        },
+        {
+          "en": "Are you free to meet for coffee on Friday evening?",
+          "vi": "Tối thứ Sáu bạn có rảnh đi uống cà phê không?"
+        },
+        {
+          "en": "Thank you for a lovely evening with your family.",
+          "vi": "Cảm ơn bạn vì một buổi tối thật vui bên gia đình bạn."
+        }
+      ],
+      "collocations": [
+        "in the evening",
+        "this evening",
+        "Friday evening",
+        "spend the evening"
+      ],
+      "notes": null,
+      "ipa": "/ˈiːvnɪŋ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eve/eveni/evening__us_1.mp3"
+    },
+    {
+      "english": "influence",
+      "vietnamese": "ảnh hưởng; tác động",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My grandmother had a big influence on my life.",
+          "vi": "Bà tôi có ảnh hưởng lớn đến cuộc đời tôi."
+        },
+        {
+          "en": "Parents should be aware of the influence of social media on teenagers.",
+          "vi": "Cha mẹ nên nhận thức được tác động của mạng xã hội đối với thanh thiếu niên."
+        },
+        {
+          "en": "Her teachers have been a positive influence on her.",
+          "vi": "Thầy cô đã có ảnh hưởng tích cực đến cô ấy."
+        }
+      ],
+      "collocations": [
+        "have an influence on",
+        "strong influence",
+        "positive influence"
+      ],
+      "notes": "influence on sb/sth; cũng là động từ: influence sb",
+      "ipa": "/ˈɪnfluəns/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inf/influ/influence__us_1.mp3"
+    },
+    {
+      "english": "respect",
+      "vietnamese": "sự tôn trọng; sự kính trọng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Children should show respect for their teachers.",
+          "vi": "Trẻ em nên kính trọng thầy cô giáo."
+        },
+        {
+          "en": "She earned the respect of her team by working hard.",
+          "vi": "Cô ấy nhận được sự tôn trọng của cả nhóm nhờ làm việc chăm chỉ."
+        },
+        {
+          "en": "We need to treat each other with respect.",
+          "vi": "Chúng ta cần đối xử tôn trọng với nhau."
+        }
+      ],
+      "collocations": [
+        "show respect",
+        "earn the respect",
+        "with respect",
+        "respect for"
+      ],
+      "notes": "respect for sb/sth; cũng là động từ: respect sb",
+      "ipa": "/rɪˈspekt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/res/respe/respect__us_1.mp3"
+    },
+    {
+      "english": "various",
+      "vietnamese": "khác nhau; đa dạng",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The shop sells various kinds of tea from around the world.",
+          "vi": "Cửa hàng bán nhiều loại trà khác nhau từ khắp nơi trên thế giới."
+        },
+        {
+          "en": "I tried calling her at various times, but she never answered.",
+          "vi": "Tôi đã thử gọi cho cô ấy vào nhiều lúc khác nhau nhưng cô ấy không bao giờ nghe máy."
+        },
+        {
+          "en": "Students can join various clubs after school.",
+          "vi": "Học sinh có thể tham gia nhiều câu lạc bộ khác nhau sau giờ học."
+        }
+      ],
+      "collocations": [
+        "various kinds",
+        "various reasons",
+        "various ways",
+        "at various times"
+      ],
+      "notes": null,
+      "ipa": "/ˈveriəs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/v/var/vario/various__us_3.mp3"
+    },
+    {
+      "english": "catch",
+      "vietnamese": "bắt; kịp (xe, tàu); mắc (bệnh)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "He caught the ball with one hand.",
+          "vi": "Anh ấy bắt quả bóng bằng một tay."
+        },
+        {
+          "en": "We ran to catch the last bus home.",
+          "vi": "Chúng tôi chạy cho kịp chuyến xe buýt cuối cùng về nhà."
+        },
+        {
+          "en": "I think I caught a cold from my little brother.",
+          "vi": "Tôi nghĩ mình bị lây cảm từ em trai."
+        }
+      ],
+      "collocations": [
+        "catch a ball",
+        "catch a bus",
+        "catch a cold",
+        "catch fish"
+      ],
+      "notes": "catch – caught – caught",
+      "ipa": "/kætʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cat/catch/catch__us_2.mp3"
+    },
+    {
+      "english": "thus",
+      "vietnamese": "vì vậy; do đó",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "The train was delayed, and thus we missed the meeting.",
+          "vi": "Tàu bị trễ, do đó chúng tôi đã lỡ cuộc họp."
+        },
+        {
+          "en": "She saved money every month and was thus able to buy a car.",
+          "vi": "Cô ấy tiết kiệm tiền hằng tháng, vì vậy đã mua được một chiếc xe hơi."
+        },
+        {
+          "en": "The new system is faster and thus saves us a lot of time.",
+          "vi": "Hệ thống mới nhanh hơn và do đó giúp chúng tôi tiết kiệm nhiều thời gian."
+        }
+      ],
+      "collocations": [
+        "and thus",
+        "thus far"
+      ],
+      "notes": "trang trọng, thường dùng trong văn viết",
+      "ipa": "/ðʌs/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/thu/thus_/thus__us_1.mp3"
+    },
+    {
+      "english": "skill",
+      "vietnamese": "kỹ năng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Speaking in public is a skill you can learn.",
+          "vi": "Nói trước đám đông là một kỹ năng mà bạn có thể học được."
+        },
+        {
+          "en": "This job requires good communication skills and a lot of patience.",
+          "vi": "Công việc này đòi hỏi kỹ năng giao tiếp tốt và rất nhiều kiên nhẫn."
+        },
+        {
+          "en": "He wants to improve his cooking skills before moving out.",
+          "vi": "Anh ấy muốn cải thiện kỹ năng nấu ăn trước khi ra ở riêng."
+        }
+      ],
+      "collocations": [
+        "communication skills",
+        "improve your skills",
+        "learn a skill",
+        "language skills"
+      ],
+      "notes": null,
+      "ipa": "/skɪl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/ski/skill/skill__us_1.mp3"
+    },
+    {
+      "english": "attempt",
+      "vietnamese": "sự cố gắng; nỗ lực; lần thử",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She passed her driving test on the first attempt.",
+          "vi": "Cô ấy thi đỗ bằng lái ngay từ lần đầu."
+        },
+        {
+          "en": "In an attempt to save money, we stopped eating out.",
+          "vi": "Để cố gắng tiết kiệm tiền, chúng tôi đã thôi ăn ở ngoài."
+        },
+        {
+          "en": "His attempt to fix the old radio was not successful.",
+          "vi": "Nỗ lực sửa chiếc radio cũ của anh ấy đã không thành công."
+        }
+      ],
+      "collocations": [
+        "make an attempt",
+        "first attempt",
+        "in an attempt to",
+        "failed attempt"
+      ],
+      "notes": "cũng là động từ: attempt to do sth",
+      "ipa": "/əˈtempt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/att/attem/attempt__us_1.mp3"
+    },
+    {
+      "english": "son",
+      "vietnamese": "con trai",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Their son is starting university next month.",
+          "vi": "Con trai họ sẽ bắt đầu học đại học vào tháng sau."
+        },
+        {
+          "en": "My oldest son loves playing football with his friends.",
+          "vi": "Con trai lớn của tôi rất thích chơi bóng đá với bạn bè."
+        },
+        {
+          "en": "They have two daughters and a son.",
+          "vi": "Họ có hai con gái và một con trai."
+        }
+      ],
+      "collocations": [
+        "oldest son",
+        "only son",
+        "baby son"
+      ],
+      "notes": null,
+      "ipa": "/sʌn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/son/son__/son__us_1.mp3"
+    },
+    {
+      "english": "simple",
+      "vietnamese": "đơn giản; dễ",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The instructions are simple, so anyone can follow them.",
+          "vi": "Hướng dẫn rất đơn giản nên ai cũng làm theo được."
+        },
+        {
+          "en": "She prefers simple clothes in plain colors.",
+          "vi": "Cô ấy thích quần áo đơn giản, màu trơn."
+        },
+        {
+          "en": "There is no simple answer to this question.",
+          "vi": "Câu hỏi này không có câu trả lời dễ dàng."
+        }
+      ],
+      "collocations": [
+        "simple answer",
+        "simple question",
+        "keep it simple"
+      ],
+      "notes": null,
+      "ipa": "/ˈsɪmpl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sim/simpl/simple__us_1.mp3"
+    },
+    {
+      "english": "medium",
+      "vietnamese": "vừa; trung bình",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Can I have a medium coffee with milk, please?",
+          "vi": "Cho tôi một ly cà phê sữa cỡ vừa nhé."
+        },
+        {
+          "en": "Cook the onions over medium heat for five minutes.",
+          "vi": "Xào hành trên lửa vừa trong năm phút."
+        },
+        {
+          "en": "He is a man of medium height with short dark hair.",
+          "vi": "Anh ấy là người đàn ông cao trung bình, tóc ngắn màu sẫm."
+        }
+      ],
+      "collocations": [
+        "medium size",
+        "medium heat",
+        "medium height"
+      ],
+      "notes": "cũng là danh từ: phương tiện (truyền thông)",
+      "ipa": "/ˈmiːdiəm/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/med/mediu/medium__us_1.mp3"
+    },
+    {
+      "english": "average",
+      "vietnamese": "trung bình; bình thường",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The average price of a house here has doubled.",
+          "vi": "Giá nhà trung bình ở đây đã tăng gấp đôi."
+        },
+        {
+          "en": "She is taller than the average girl her age.",
+          "vi": "Cô bé cao hơn mức trung bình của các bạn gái cùng tuổi."
+        },
+        {
+          "en": "It was just an average day at the office.",
+          "vi": "Đó chỉ là một ngày bình thường ở văn phòng."
+        }
+      ],
+      "collocations": [
+        "average price",
+        "average age",
+        "average temperature",
+        "above average"
+      ],
+      "notes": null,
+      "ipa": "/ˈævərɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ave/avera/average__us_2.mp3"
+    },
+    {
+      "english": "stock",
+      "vietnamese": "hàng trong kho; cổ phiếu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Sorry, those shoes are out of stock in your size.",
+          "vi": "Xin lỗi, đôi giày đó đã hết hàng cỡ của bạn."
+        },
+        {
+          "en": "The shop keeps a large stock of winter coats.",
+          "vi": "Cửa hàng luôn có sẵn một lượng lớn áo khoác mùa đông."
+        },
+        {
+          "en": "My uncle invested some of his savings in stocks.",
+          "vi": "Chú tôi đã đầu tư một phần tiền tiết kiệm vào cổ phiếu."
+        }
+      ],
+      "collocations": [
+        "out of stock",
+        "in stock",
+        "stock market"
+      ],
+      "notes": null,
+      "ipa": "/stɑːk/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sto/stock/stock__us_1.mp3"
+    },
+    {
+      "english": "management",
+      "vietnamese": "sự quản lý; ban quản lý",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Good time management helps students reduce stress.",
+          "vi": "Quản lý thời gian tốt giúp học sinh giảm căng thẳng."
+        },
+        {
+          "en": "The hotel is now under new management.",
+          "vi": "Khách sạn giờ đã đổi sang ban quản lý mới."
+        },
+        {
+          "en": "She wants to study business management at university.",
+          "vi": "Cô ấy muốn học quản trị kinh doanh ở đại học."
+        }
+      ],
+      "collocations": [
+        "time management",
+        "under new management",
+        "business management",
+        "senior management"
+      ],
+      "notes": null,
+      "ipa": "/ˈmænɪdʒmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/man/manag/management__us_1.mp3"
+    },
+    {
+      "english": "character",
+      "vietnamese": "tính cách; nhân vật",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "My brother and I have very different characters.",
+          "vi": "Anh trai tôi và tôi có tính cách rất khác nhau."
+        },
+        {
+          "en": "She has a strong character and never gives up easily.",
+          "vi": "Cô ấy có tính cách mạnh mẽ và không bao giờ dễ dàng bỏ cuộc."
+        },
+        {
+          "en": "Who is your favorite character in the movie?",
+          "vi": "Nhân vật yêu thích của bạn trong bộ phim là ai?"
+        }
+      ],
+      "collocations": [
+        "main character",
+        "strong character",
+        "favorite character"
+      ],
+      "notes": null,
+      "ipa": "/ˈkærəktər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chara/character__us_3.mp3"
+    },
+    {
+      "english": "bed",
+      "vietnamese": "giường",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I usually go to bed before eleven o'clock.",
+          "vi": "Tôi thường đi ngủ trước mười một giờ."
+        },
+        {
+          "en": "Please make your bed before you leave for school.",
+          "vi": "Con hãy dọn giường trước khi đi học nhé."
+        },
+        {
+          "en": "The hotel room has two single beds and a small desk.",
+          "vi": "Phòng khách sạn có hai giường đơn và một chiếc bàn nhỏ."
+        }
+      ],
+      "collocations": [
+        "go to bed",
+        "make the bed",
+        "single bed",
+        "double bed"
+      ],
+      "notes": null,
+      "ipa": "/bed/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bed/bed__/bed__us_2.mp3"
+    },
+    {
+      "english": "hit",
+      "vietnamese": "đánh; va vào; đâm vào",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "He hit the ball over the fence.",
+          "vi": "Anh ấy đánh quả bóng bay qua hàng rào."
+        },
+        {
+          "en": "I hit my head on the kitchen cabinet this morning.",
+          "vi": "Sáng nay tôi bị đập đầu vào tủ bếp."
+        },
+        {
+          "en": "The delivery truck hit our gate while it was turning around.",
+          "vi": "Xe tải giao hàng đã tông vào cổng nhà chúng tôi khi đang quay đầu."
+        }
+      ],
+      "collocations": [
+        "hit the ball",
+        "hit your head",
+        "hit hard"
+      ],
+      "notes": "hit – hit – hit",
+      "ipa": "/hɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hit/hit__/hit__us_1.mp3"
+    },
+    {
+      "english": "establish",
+      "vietnamese": "thành lập; thiết lập, tạo dựng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The school was established more than a hundred years ago.",
+          "vi": "Ngôi trường được thành lập cách đây hơn một trăm năm."
+        },
+        {
+          "en": "My grandfather established the family business in 1985.",
+          "vi": "Ông tôi thành lập doanh nghiệp gia đình vào năm 1985."
+        },
+        {
+          "en": "It takes time to establish trust with new coworkers.",
+          "vi": "Cần có thời gian để tạo dựng lòng tin với đồng nghiệp mới."
+        }
+      ],
+      "collocations": [
+        "establish a business",
+        "establish trust",
+        "establish a relationship",
+        "be established in"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈstæblɪʃ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/est/estab/establish__us_2.mp3"
+    },
+    {
+      "english": "indeed",
+      "vietnamese": "thật vậy; quả thật",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "It was indeed a very difficult decision for our family.",
+          "vi": "Đó quả thật là một quyết định rất khó khăn đối với gia đình chúng tôi."
+        },
+        {
+          "en": "Thank you, the meal was very good indeed.",
+          "vi": "Cảm ơn bạn, bữa ăn thật sự rất ngon."
+        },
+        {
+          "en": "Many people thought the test would be easy, and indeed it was.",
+          "vi": "Nhiều người nghĩ bài kiểm tra sẽ dễ, và quả thật là vậy."
+        }
+      ],
+      "collocations": [
+        "very good indeed",
+        "yes, indeed",
+        "and indeed"
+      ],
+      "notes": "very + tính từ + indeed: nhấn mạnh",
+      "ipa": "/ɪnˈdiːd/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ind/indee/indeed__us_1.mp3"
+    },
+    {
+      "english": "final",
+      "vietnamese": "cuối cùng; chung cuộc",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "This is your final chance to sign up for the trip.",
+          "vi": "Đây là cơ hội cuối cùng để bạn đăng ký chuyến đi."
+        },
+        {
+          "en": "The final exam will be held on June 20.",
+          "vi": "Kỳ thi cuối kỳ sẽ được tổ chức vào ngày 20 tháng 6."
+        },
+        {
+          "en": "The final score was two to one.",
+          "vi": "Tỷ số chung cuộc là 2–1."
+        }
+      ],
+      "collocations": [
+        "final exam",
+        "final decision",
+        "final chance",
+        "final score"
+      ],
+      "notes": null,
+      "ipa": "/ˈfaɪnl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fin/final/final__us_2.mp3"
+    },
+    {
+      "english": "economy",
+      "vietnamese": "nền kinh tế",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Tourism is very important to the local economy.",
+          "vi": "Du lịch rất quan trọng đối với nền kinh tế địa phương."
+        },
+        {
+          "en": "The economy grew quickly over the last ten years.",
+          "vi": "Nền kinh tế đã tăng trưởng nhanh trong mười năm qua."
+        },
+        {
+          "en": "Many small businesses closed when the economy slowed down.",
+          "vi": "Nhiều doanh nghiệp nhỏ đã đóng cửa khi nền kinh tế chững lại."
+        }
+      ],
+      "collocations": [
+        "local economy",
+        "global economy",
+        "strong economy"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈkɑːnəmi/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eco/econo/economy__us_1.mp3"
+    },
+    {
+      "english": "fit",
+      "vietnamese": "vừa; vừa với; sắp xếp được (thời gian)",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "These jeans don't fit me anymore, so I need new ones.",
+          "vi": "Chiếc quần jean này không còn vừa với tôi nữa nên tôi cần quần mới."
+        },
+        {
+          "en": "Will all this luggage fit in the back of your car?",
+          "vi": "Chỗ hành lý này có để vừa phía sau xe của bạn không?"
+        },
+        {
+          "en": "The doctor can fit you in at three o'clock tomorrow.",
+          "vi": "Bác sĩ có thể sắp xếp khám cho bạn lúc ba giờ ngày mai."
+        }
+      ],
+      "collocations": [
+        "fit perfectly",
+        "fit in",
+        "fit into",
+        "fit well"
+      ],
+      "notes": "Mỹ: fit – fit – fit · Anh: fit – fitted – fitted",
+      "ipa": "/fɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fit/fit__/fit__us_1.mp3"
+    },
+    {
+      "english": "guy",
+      "vietnamese": "anh chàng; gã",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The guy at the front desk was really helpful.",
+          "vi": "Anh chàng ở quầy lễ tân rất nhiệt tình giúp đỡ."
+        },
+        {
+          "en": "He seems like a nice guy, but I don't know him well.",
+          "vi": "Anh ấy có vẻ là người tốt, nhưng tôi không biết rõ về anh ấy."
+        },
+        {
+          "en": "Are you guys coming to the party tonight?",
+          "vi": "Các bạn có đến bữa tiệc tối nay không?"
+        }
+      ],
+      "collocations": [
+        "nice guy",
+        "good guy",
+        "you guys"
+      ],
+      "notes": "thân mật; you guys = các bạn",
+      "ipa": "/ɡaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/guy/guy__/guy__us_1.mp3"
+    },
+    {
+      "english": "function",
+      "vietnamese": "chức năng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "This app has a useful function for tracking your spending.",
+          "vi": "Ứng dụng này có một chức năng hữu ích để theo dõi chi tiêu."
+        },
+        {
+          "en": "The main function of the heart is to pump blood.",
+          "vi": "Chức năng chính của tim là bơm máu."
+        },
+        {
+          "en": "Regular exercise helps improve brain function in older people.",
+          "vi": "Tập thể dục thường xuyên giúp cải thiện chức năng não ở người lớn tuổi."
+        }
+      ],
+      "collocations": [
+        "main function",
+        "brain function",
+        "basic function",
+        "perform a function"
+      ],
+      "notes": null,
+      "ipa": "/ˈfʌŋkʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fun/funct/function__us_4.mp3"
+    },
+    {
+      "english": "yesterday",
+      "vietnamese": "hôm qua",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "I saw your sister at the supermarket yesterday morning.",
+          "vi": "Sáng hôm qua tôi gặp chị gái bạn ở siêu thị."
+        },
+        {
+          "en": "Yesterday was the hottest day of the year so far.",
+          "vi": "Hôm qua là ngày nóng nhất trong năm tính đến nay."
+        },
+        {
+          "en": "Did you finish the report I sent you yesterday?",
+          "vi": "Bạn đã làm xong bản báo cáo tôi gửi hôm qua chưa?"
+        }
+      ],
+      "collocations": [
+        "yesterday morning",
+        "yesterday afternoon",
+        "the day before yesterday"
+      ],
+      "notes": null,
+      "ipa": "/ˈjestərdeɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/y/yes/yeste/yesterday__us_1_rr.mp3"
+    },
+    {
+      "english": "image",
+      "vietnamese": "hình ảnh; hình tượng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The images on this website are very clear.",
+          "vi": "Hình ảnh trên trang web này rất rõ nét."
+        },
+        {
+          "en": "The company wants to improve its public image.",
+          "vi": "Công ty muốn cải thiện hình ảnh trước công chúng."
+        },
+        {
+          "en": "I still have a clear image of my first day at school.",
+          "vi": "Tôi vẫn nhớ rõ hình ảnh ngày đầu tiên đi học."
+        }
+      ],
+      "collocations": [
+        "public image",
+        "clear image",
+        "digital image"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪmɪdʒ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ima/image/image__us_1.mp3"
+    },
+    {
+      "english": "size",
+      "vietnamese": "kích cỡ; cỡ",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Do you have these shoes in a bigger size?",
+          "vi": "Bạn có đôi giày này cỡ lớn hơn không?"
+        },
+        {
+          "en": "Their new apartment is about twice the size of ours.",
+          "vi": "Căn hộ mới của họ rộng khoảng gấp đôi căn hộ của chúng tôi."
+        },
+        {
+          "en": "The size of each class is limited to twenty students.",
+          "vi": "Sĩ số mỗi lớp được giới hạn ở hai mươi học sinh."
+        }
+      ],
+      "collocations": [
+        "shoe size",
+        "bigger size",
+        "the size of",
+        "twice the size"
+      ],
+      "notes": null,
+      "ipa": "/saɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/siz/size_/size__us_1.mp3"
+    }
+  ]
+}

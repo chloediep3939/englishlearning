@@ -1,0 +1,834 @@
+{
+  "version": 1,
+  "deck": {
+    "name": "Thông dụng 2.001–2.500 · Bộ 11",
+    "description": "New General Service List, thứ hạng 2.001–2.500",
+    "color": "#3da9fc",
+    "icon": "BookOpen",
+    "subtitle": "ngsl-5-11"
+  },
+  "cards": [
+    {
+      "english": "apologize",
+      "vietnamese": "xin lỗi",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I apologized to my sister for forgetting her birthday.",
+          "vi": "Tôi đã xin lỗi em gái vì quên sinh nhật của em ấy."
+        },
+        {
+          "en": "You should apologize for being so rude to him.",
+          "vi": "Bạn nên xin lỗi vì đã quá thô lỗ với anh ấy."
+        },
+        {
+          "en": "We apologize for the delay and thank you for waiting.",
+          "vi": "Chúng tôi xin lỗi vì sự chậm trễ và cảm ơn bạn đã chờ đợi."
+        }
+      ],
+      "collocations": [
+        "apologize for the delay",
+        "apologize to someone",
+        "sincerely apologize"
+      ],
+      "notes": "apologize to sb for sth · Anh: apologise",
+      "ipa": "/əˈpɑːlədʒaɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/apo/apolo/apologize__us_1.mp3"
+    },
+    {
+      "english": "approval",
+      "vietnamese": "sự chấp thuận; sự tán thành",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The plan still needs approval from the manager.",
+          "vi": "Kế hoạch vẫn cần sự chấp thuận của người quản lý."
+        },
+        {
+          "en": "We finally got approval to build a new garage.",
+          "vi": "Cuối cùng chúng tôi cũng được chấp thuận xây một nhà để xe mới."
+        },
+        {
+          "en": "As a boy, he always wanted his father's approval.",
+          "vi": "Hồi nhỏ, cậu ấy luôn mong nhận được sự tán thành của bố."
+        }
+      ],
+      "collocations": [
+        "need approval",
+        "get approval",
+        "final approval"
+      ],
+      "notes": null,
+      "ipa": "/əˈpruːvl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/app/appro/approval__us_1.mp3"
+    },
+    {
+      "english": "grab",
+      "vietnamese": "chộp lấy; túm lấy; ăn/uống vội",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She grabbed her bag and ran out the door.",
+          "vi": "Cô ấy chộp lấy túi xách và chạy ra khỏi cửa."
+        },
+        {
+          "en": "He grabbed my arm to stop me from falling.",
+          "vi": "Anh ấy túm lấy tay tôi để tôi không bị ngã."
+        },
+        {
+          "en": "Let's grab a coffee before the meeting starts.",
+          "vi": "Mình tranh thủ uống cà phê trước khi cuộc họp bắt đầu nhé."
+        }
+      ],
+      "collocations": [
+        "grab a coffee",
+        "grab a bite",
+        "grab someone's arm",
+        "grab attention"
+      ],
+      "notes": null,
+      "ipa": "/ɡræb/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/gra/grab_/grab__us_1.mp3"
+    },
+    {
+      "english": "entitle",
+      "vietnamese": "cho quyền; đặt tựa đề",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "This ticket entitles you to one free drink.",
+          "vi": "Vé này cho bạn quyền nhận một đồ uống miễn phí."
+        },
+        {
+          "en": "All workers are entitled to paid holidays.",
+          "vi": "Tất cả công nhân đều có quyền được nghỉ lễ có lương."
+        },
+        {
+          "en": "Her first novel was entitled 'Summer by the Sea'.",
+          "vi": "Cuốn tiểu thuyết đầu tay của cô ấy có tựa đề 'Summer by the Sea'."
+        }
+      ],
+      "collocations": [
+        "be entitled to",
+        "entitle someone to something",
+        "fully entitled"
+      ],
+      "notes": "be entitled to + N/V: có quyền (làm/nhận) gì",
+      "ipa": "/ɪnˈtaɪtl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ent/entit/entitle__us_1.mp3"
+    },
+    {
+      "english": "lend",
+      "vietnamese": "cho mượn; cho vay",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Could you lend me your pen for a minute?",
+          "vi": "Bạn có thể cho mình mượn cây bút một lát không?"
+        },
+        {
+          "en": "My brother lent me some money to buy a car.",
+          "vi": "Anh trai đã cho tôi vay một ít tiền để mua xe."
+        },
+        {
+          "en": "The bank refused to lend us any more money.",
+          "vi": "Ngân hàng từ chối cho chúng tôi vay thêm tiền."
+        }
+      ],
+      "collocations": [
+        "lend money",
+        "lend a hand",
+        "lend someone something"
+      ],
+      "notes": "lend – lent – lent · lend (cho mượn) ≠ borrow (mượn)",
+      "ipa": "/lend/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/len/lend_/lend__us_1.mp3"
+    },
+    {
+      "english": "involvement",
+      "vietnamese": "sự tham gia; sự dính líu",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Parents' involvement in school activities helps children learn better.",
+          "vi": "Sự tham gia của phụ huynh vào các hoạt động ở trường giúp trẻ học tốt hơn."
+        },
+        {
+          "en": "Thank you for your involvement in this project.",
+          "vi": "Cảm ơn bạn đã tham gia vào dự án này."
+        },
+        {
+          "en": "The manager denied any involvement in the decision.",
+          "vi": "Người quản lý phủ nhận mọi dính líu đến quyết định đó."
+        }
+      ],
+      "collocations": [
+        "involvement in",
+        "active involvement",
+        "deny any involvement",
+        "parental involvement"
+      ],
+      "notes": null,
+      "ipa": "/ɪnˈvɑːlvmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inv/invol/involvement__us_1.mp3"
+    },
+    {
+      "english": "exposure",
+      "vietnamese": "sự tiếp xúc; sự xuất hiện trước công chúng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Too much exposure to the sun can damage your skin.",
+          "vi": "Tiếp xúc quá nhiều với ánh nắng có thể làm hại da của bạn."
+        },
+        {
+          "en": "Living abroad gave her daily exposure to English.",
+          "vi": "Sống ở nước ngoài giúp cô ấy được tiếp xúc với tiếng Anh hằng ngày."
+        },
+        {
+          "en": "The small band got a lot of exposure on social media.",
+          "vi": "Ban nhạc nhỏ được xuất hiện rất nhiều trên mạng xã hội."
+        }
+      ],
+      "collocations": [
+        "exposure to",
+        "sun exposure",
+        "media exposure",
+        "long-term exposure"
+      ],
+      "notes": null,
+      "ipa": "/ɪkˈspəʊʒər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exp/expos/exposure__us_1.mp3"
+    },
+    {
+      "english": "conventional",
+      "vietnamese": "thông thường; truyền thống",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "Electric cars are much quieter than conventional cars.",
+          "vi": "Xe điện chạy êm hơn nhiều so với xe thông thường."
+        },
+        {
+          "en": "My parents have very conventional ideas about marriage.",
+          "vi": "Bố mẹ tôi có những quan niệm rất truyền thống về hôn nhân."
+        },
+        {
+          "en": "Our teacher does not like conventional teaching methods.",
+          "vi": "Giáo viên của chúng tôi không thích các phương pháp giảng dạy truyền thống."
+        }
+      ],
+      "collocations": [
+        "conventional methods",
+        "conventional wisdom",
+        "conventional medicine"
+      ],
+      "notes": null,
+      "ipa": "/kənˈvenʃənl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/x/xco/xconv/xconventional__us_1.mp3"
+    },
+    {
+      "english": "digital",
+      "vietnamese": "kỹ thuật số; số",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "My grandfather finally bought a digital camera last year.",
+          "vi": "Năm ngoái cuối cùng ông tôi cũng mua một chiếc máy ảnh kỹ thuật số."
+        },
+        {
+          "en": "The library offers a large collection of digital books.",
+          "vi": "Thư viện có một bộ sưu tập lớn sách điện tử."
+        },
+        {
+          "en": "Children today are growing up in a digital world.",
+          "vi": "Trẻ em ngày nay đang lớn lên trong một thế giới số."
+        }
+      ],
+      "collocations": [
+        "digital camera",
+        "digital technology",
+        "digital age",
+        "digital world"
+      ],
+      "notes": null,
+      "ipa": "/ˈdɪdʒɪtl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dig/digit/digital__us_3.mp3"
+    },
+    {
+      "english": "translate",
+      "vietnamese": "dịch; chuyển thành",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Can you translate this letter into English for me?",
+          "vi": "Bạn có thể dịch bức thư này sang tiếng Anh giúp tôi không?"
+        },
+        {
+          "en": "Her books have been translated into twenty languages.",
+          "vi": "Sách của cô ấy đã được dịch ra hai mươi thứ tiếng."
+        },
+        {
+          "en": "Good ideas do not always translate into success.",
+          "vi": "Ý tưởng hay không phải lúc nào cũng mang lại thành công."
+        }
+      ],
+      "collocations": [
+        "translate into",
+        "translate from",
+        "translate a book",
+        "roughly translate"
+      ],
+      "notes": null,
+      "ipa": "/trænzˈleɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/trans/translate__us_2.mp3"
+    },
+    {
+      "english": "edit",
+      "vietnamese": "chỉnh sửa; biên tập",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "I need to edit this video before I post it.",
+          "vi": "Tôi cần chỉnh sửa video này trước khi đăng lên."
+        },
+        {
+          "en": "She edits a small magazine about gardening.",
+          "vi": "Cô ấy biên tập một tạp chí nhỏ về làm vườn."
+        },
+        {
+          "en": "Could you edit my essay and check the grammar?",
+          "vi": "Bạn có thể chỉnh sửa bài luận và kiểm tra ngữ pháp giúp tôi không?"
+        }
+      ],
+      "collocations": [
+        "edit a video",
+        "edit photos",
+        "edit a book"
+      ],
+      "notes": null,
+      "ipa": "/ˈedɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/edi/edit_/edit__us_1.mp3"
+    },
+    {
+      "english": "formation",
+      "vietnamese": "sự hình thành; đội hình",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The teacher explained the formation of clouds in simple words.",
+          "vi": "Giáo viên giải thích sự hình thành của mây bằng những từ ngữ đơn giản."
+        },
+        {
+          "en": "Cold air can lead to the formation of ice on roads.",
+          "vi": "Không khí lạnh có thể khiến băng hình thành trên đường."
+        },
+        {
+          "en": "The birds flew south in a V formation.",
+          "vi": "Đàn chim bay về phía nam theo đội hình chữ V."
+        }
+      ],
+      "collocations": [
+        "the formation of",
+        "in formation",
+        "rock formation"
+      ],
+      "notes": null,
+      "ipa": "/fɔːrˈmeɪʃn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/for/forma/formation__us_1.mp3"
+    },
+    {
+      "english": "deposit",
+      "vietnamese": "tiền đặt cọc; tiền gửi (ngân hàng)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "We paid a deposit of two hundred dollars for the apartment.",
+          "vi": "Chúng tôi đã trả hai trăm đô la tiền đặt cọc cho căn hộ."
+        },
+        {
+          "en": "You will get your deposit back when you return the bike.",
+          "vi": "Bạn sẽ được nhận lại tiền cọc khi trả xe đạp."
+        },
+        {
+          "en": "She made a deposit at the bank this morning.",
+          "vi": "Sáng nay cô ấy đã gửi tiền vào ngân hàng."
+        }
+      ],
+      "collocations": [
+        "pay a deposit",
+        "make a deposit",
+        "security deposit"
+      ],
+      "notes": null,
+      "ipa": "/dɪˈpɑːzɪt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dep/depos/deposit__us_1.mp3"
+    },
+    {
+      "english": "pleasant",
+      "vietnamese": "dễ chịu; vui vẻ; dễ mến",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "We had a pleasant evening with our neighbors.",
+          "vi": "Chúng tôi đã có một buổi tối vui vẻ với hàng xóm."
+        },
+        {
+          "en": "The weather was warm and pleasant all week.",
+          "vi": "Thời tiết ấm áp và dễ chịu suốt cả tuần."
+        },
+        {
+          "en": "The woman at the front desk was very pleasant.",
+          "vi": "Người phụ nữ ở quầy lễ tân rất dễ mến."
+        }
+      ],
+      "collocations": [
+        "pleasant surprise",
+        "pleasant evening",
+        "pleasant weather"
+      ],
+      "notes": null,
+      "ipa": "/ˈpleznt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/ple/pleas/pleasant__us_1.mp3"
+    },
+    {
+      "english": "overseas",
+      "vietnamese": "ở nước ngoài; ra nước ngoài",
+      "part_of_speech": "adverb",
+      "examples": [
+        {
+          "en": "My cousin has been working overseas for five years.",
+          "vi": "Anh họ tôi đã làm việc ở nước ngoài được năm năm."
+        },
+        {
+          "en": "Many students want to study overseas after high school.",
+          "vi": "Nhiều học sinh muốn đi học ở nước ngoài sau khi học xong cấp ba."
+        },
+        {
+          "en": "The company sells most of its products overseas.",
+          "vi": "Công ty bán phần lớn sản phẩm của mình ra nước ngoài."
+        }
+      ],
+      "collocations": [
+        "work overseas",
+        "study overseas",
+        "travel overseas",
+        "overseas students"
+      ],
+      "notes": "cũng là tính từ: overseas students = sinh viên nước ngoài",
+      "ipa": "/ˌəʊvərˈsiːz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ove/overs/overseas__us_1.mp3"
+    },
+    {
+      "english": "advocate",
+      "vietnamese": "ủng hộ; chủ trương",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Many doctors advocate a diet low in sugar.",
+          "vi": "Nhiều bác sĩ ủng hộ chế độ ăn ít đường."
+        },
+        {
+          "en": "The group advocates more bike lanes in the city.",
+          "vi": "Nhóm này ủng hộ việc có thêm làn đường dành cho xe đạp trong thành phố."
+        },
+        {
+          "en": "Our teacher strongly advocates reading for pleasure every day.",
+          "vi": "Giáo viên của chúng tôi rất ủng hộ việc đọc sách để giải trí mỗi ngày."
+        }
+      ],
+      "collocations": [
+        "strongly advocate",
+        "advocate the use of",
+        "advocate change"
+      ],
+      "notes": "danh từ: advocate = người ủng hộ; luật sư bào chữa",
+      "ipa": "/ˈædvəkət/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/adv/advoc/advocate__us_2.mp3"
+    },
+    {
+      "english": "establishment",
+      "vietnamese": "sự thành lập; cơ sở (kinh doanh)",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The establishment of the new hospital took three years.",
+          "vi": "Việc thành lập bệnh viện mới mất ba năm."
+        },
+        {
+          "en": "Since its establishment, the school has trained thousands of nurses.",
+          "vi": "Kể từ khi thành lập, trường đã đào tạo hàng nghìn y tá."
+        },
+        {
+          "en": "This restaurant is one of the oldest establishments in town.",
+          "vi": "Nhà hàng này là một trong những cơ sở lâu đời nhất trong thị trấn."
+        }
+      ],
+      "collocations": [
+        "the establishment of",
+        "business establishment",
+        "educational establishment"
+      ],
+      "notes": null,
+      "ipa": "/ɪˈstæblɪʃmənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/est/estab/establishment__us_1.mp3"
+    },
+    {
+      "english": "summary",
+      "vietnamese": "bản tóm tắt",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Please write a short summary of the article.",
+          "vi": "Hãy viết một bản tóm tắt ngắn về bài báo."
+        },
+        {
+          "en": "Here is a summary of what we discussed today.",
+          "vi": "Đây là bản tóm tắt những gì chúng ta đã thảo luận hôm nay."
+        },
+        {
+          "en": "In summary, the trip was a great success.",
+          "vi": "Tóm lại, chuyến đi rất thành công."
+        }
+      ],
+      "collocations": [
+        "short summary",
+        "brief summary",
+        "in summary",
+        "summary of"
+      ],
+      "notes": null,
+      "ipa": "/ˈsʌməri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sum/summa/summary__us_2.mp3"
+    },
+    {
+      "english": "rough",
+      "vietnamese": "thô ráp; phỏng chừng; vất vả",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "The skin on his hands was rough from years of work.",
+          "vi": "Da tay anh ấy thô ráp sau nhiều năm lao động."
+        },
+        {
+          "en": "Can you give me a rough idea of the cost?",
+          "vi": "Bạn có thể cho tôi biết sơ bộ chi phí khoảng bao nhiêu không?"
+        },
+        {
+          "en": "She has had a rough week at work.",
+          "vi": "Cô ấy vừa trải qua một tuần làm việc vất vả."
+        }
+      ],
+      "collocations": [
+        "rough idea",
+        "rough estimate",
+        "rough surface",
+        "rough day"
+      ],
+      "notes": null,
+      "ipa": "/rʌf/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rou/rough/rough__us_1.mp3"
+    },
+    {
+      "english": "pen",
+      "vietnamese": "bút; bút mực",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "Do you have a pen I could borrow?",
+          "vi": "Bạn có cây bút nào cho mình mượn không?"
+        },
+        {
+          "en": "Please fill in the form with a black pen.",
+          "vi": "Vui lòng điền vào mẫu đơn bằng bút mực đen."
+        },
+        {
+          "en": "My pen ran out of ink during the exam.",
+          "vi": "Bút của tôi hết mực trong lúc thi."
+        }
+      ],
+      "collocations": [
+        "black pen",
+        "ballpoint pen",
+        "pen and paper"
+      ],
+      "notes": null,
+      "ipa": "/pen/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pen/pen__/pen__us_1.mp3"
+    },
+    {
+      "english": "recovery",
+      "vietnamese": "sự hồi phục; sự phục hồi",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "She made a quick recovery after the operation.",
+          "vi": "Cô ấy hồi phục nhanh chóng sau ca phẫu thuật."
+        },
+        {
+          "en": "We all wish you a speedy recovery, Grandma.",
+          "vi": "Cả nhà chúc bà mau chóng hồi phục ạ."
+        },
+        {
+          "en": "The town's economy is showing signs of recovery.",
+          "vi": "Nền kinh tế của thị trấn đang có dấu hiệu phục hồi."
+        }
+      ],
+      "collocations": [
+        "make a recovery",
+        "speedy recovery",
+        "full recovery",
+        "economic recovery"
+      ],
+      "notes": null,
+      "ipa": "/rɪˈkʌvəri/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rec/recov/recovery__us_1.mp3"
+    },
+    {
+      "english": "seal",
+      "vietnamese": "dán kín; đóng kín; niêm phong",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "She sealed the envelope and put a stamp on it.",
+          "vi": "Cô ấy dán kín phong bì rồi dán tem lên."
+        },
+        {
+          "en": "Keep the cookies in a tightly sealed box.",
+          "vi": "Hãy để bánh quy trong hộp được đậy thật kín."
+        },
+        {
+          "en": "Seal the bag well so the food stays fresh.",
+          "vi": "Hãy đóng kín túi để thức ăn luôn tươi."
+        }
+      ],
+      "collocations": [
+        "seal an envelope",
+        "tightly sealed",
+        "seal off"
+      ],
+      "notes": "danh từ: seal = con hải cẩu; con dấu",
+      "ipa": "/siːl/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sea/seal_/seal__us_1.mp3"
+    },
+    {
+      "english": "tube",
+      "vietnamese": "ống; tuýp",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "I need to buy a new tube of toothpaste.",
+          "vi": "Tôi cần mua một tuýp kem đánh răng mới."
+        },
+        {
+          "en": "Water flows through this plastic tube into the tank.",
+          "vi": "Nước chảy qua ống nhựa này vào bể."
+        },
+        {
+          "en": "She squeezed the last bit of paint out of the tube.",
+          "vi": "Cô ấy nặn chút màu vẽ cuối cùng ra khỏi tuýp."
+        }
+      ],
+      "collocations": [
+        "tube of toothpaste",
+        "plastic tube",
+        "rubber tube",
+        "test tube"
+      ],
+      "notes": null,
+      "ipa": "/tuːb/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tub/tube_/tube__us_1.mp3"
+    },
+    {
+      "english": "tower",
+      "vietnamese": "tháp; tòa nhà cao tầng",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "From the top of the tower, you can see the whole city.",
+          "vi": "Từ đỉnh tháp, bạn có thể nhìn thấy toàn bộ thành phố."
+        },
+        {
+          "en": "The old clock tower in the square still keeps perfect time.",
+          "vi": "Tháp đồng hồ cũ ở quảng trường vẫn chạy rất đúng giờ."
+        },
+        {
+          "en": "Our office is in that tall glass tower downtown.",
+          "vi": "Văn phòng của chúng tôi nằm trong tòa nhà kính cao tầng ở trung tâm thành phố."
+        }
+      ],
+      "collocations": [
+        "clock tower",
+        "office tower",
+        "water tower",
+        "top of the tower"
+      ],
+      "notes": null,
+      "ipa": "/ˈtaʊər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tow/tower/tower__us_1.mp3"
+    },
+    {
+      "english": "characterize",
+      "vietnamese": "mô tả đặc điểm; là đặc điểm của",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The region is characterized by hot summers and cold winters.",
+          "vi": "Vùng này có đặc điểm là mùa hè nóng và mùa đông lạnh."
+        },
+        {
+          "en": "His paintings are characterized by bright colors.",
+          "vi": "Tranh của anh ấy có đặc điểm là màu sắc tươi sáng."
+        },
+        {
+          "en": "How would you characterize your relationship with your boss?",
+          "vi": "Bạn sẽ mô tả mối quan hệ giữa bạn và sếp như thế nào?"
+        }
+      ],
+      "collocations": [
+        "be characterized by",
+        "characterize as",
+        "generally characterized"
+      ],
+      "notes": "be characterized by: có đặc điểm là · Anh: characterise",
+      "ipa": "/ˈkærəktəraɪz/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cha/chara/characterize__us_1.mp3"
+    },
+    {
+      "english": "specify",
+      "vietnamese": "ghi rõ; nêu cụ thể",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "Please specify your size when you order the shirt.",
+          "vi": "Vui lòng ghi rõ cỡ áo khi bạn đặt mua."
+        },
+        {
+          "en": "The rules do not specify how long the break should be.",
+          "vi": "Quy định không nêu rõ giờ nghỉ nên kéo dài bao lâu."
+        },
+        {
+          "en": "Unless otherwise specified, all prices include tax.",
+          "vi": "Trừ khi có ghi chú khác, tất cả giá đều đã bao gồm thuế."
+        }
+      ],
+      "collocations": [
+        "clearly specify",
+        "unless otherwise specified",
+        "specify the size"
+      ],
+      "notes": null,
+      "ipa": "/ˈspesɪfaɪ/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spe/speci/specify__us_1.mp3"
+    },
+    {
+      "english": "exact",
+      "vietnamese": "chính xác; đúng; giống hệt",
+      "part_of_speech": "adjective",
+      "examples": [
+        {
+          "en": "What is the exact time of your flight?",
+          "vi": "Giờ bay chính xác của bạn là mấy giờ?"
+        },
+        {
+          "en": "I can't remember the exact words she used.",
+          "vi": "Tôi không nhớ chính xác những từ cô ấy đã dùng."
+        },
+        {
+          "en": "The twins wore the exact same dress to the party.",
+          "vi": "Hai chị em sinh đôi mặc chiếc váy giống hệt nhau đến bữa tiệc."
+        }
+      ],
+      "collocations": [
+        "exact time",
+        "exact words",
+        "exact same",
+        "exact amount"
+      ],
+      "notes": null,
+      "ipa": "/ɪɡˈzækt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exa/exact/exact__us_1.mp3"
+    },
+    {
+      "english": "spin",
+      "vietnamese": "quay tròn; quay cuồng",
+      "part_of_speech": "verb",
+      "examples": [
+        {
+          "en": "The children spun around until they felt dizzy.",
+          "vi": "Bọn trẻ quay vòng vòng cho đến khi thấy chóng mặt."
+        },
+        {
+          "en": "The wheels kept spinning in the deep mud.",
+          "vi": "Bánh xe cứ quay tít trong bùn sâu."
+        },
+        {
+          "en": "My head is spinning after that long meeting.",
+          "vi": "Đầu tôi quay cuồng sau cuộc họp dài đó."
+        }
+      ],
+      "collocations": [
+        "spin around",
+        "head is spinning",
+        "spin the wheel"
+      ],
+      "notes": "spin – spun – spun",
+      "ipa": "/spɪn/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spi/spin_/spin__us_1.mp3"
+    },
+    {
+      "english": "operator",
+      "vietnamese": "người vận hành; tổng đài viên; công ty điều hành",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The operator put my call through to the right department.",
+          "vi": "Tổng đài viên đã nối máy cho tôi đến đúng phòng ban."
+        },
+        {
+          "en": "He works as a machine operator in a factory.",
+          "vi": "Anh ấy làm công nhân vận hành máy trong một nhà máy."
+        },
+        {
+          "en": "We booked our trip through a local tour operator.",
+          "vi": "Chúng tôi đặt chuyến đi qua một công ty du lịch địa phương."
+        }
+      ],
+      "collocations": [
+        "tour operator",
+        "machine operator",
+        "telephone operator"
+      ],
+      "notes": null,
+      "ipa": "/ˈɑːpəreɪtər/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ope/opera/operator__us_1.mp3"
+    },
+    {
+      "english": "infant",
+      "vietnamese": "trẻ sơ sinh; em bé",
+      "part_of_speech": "noun",
+      "examples": [
+        {
+          "en": "The nurse showed us how to hold an infant safely.",
+          "vi": "Y tá hướng dẫn chúng tôi cách bế trẻ sơ sinh an toàn."
+        },
+        {
+          "en": "This car seat is designed for infants under one year old.",
+          "vi": "Ghế ô tô này được thiết kế cho em bé dưới một tuổi."
+        },
+        {
+          "en": "She has a lot of experience caring for infants.",
+          "vi": "Cô ấy có nhiều kinh nghiệm chăm sóc trẻ sơ sinh."
+        }
+      ],
+      "collocations": [
+        "newborn infant",
+        "infant care",
+        "young infant"
+      ],
+      "notes": null,
+      "ipa": "/ˈɪnfənt/",
+      "audio_src": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inf/infan/infant__us_1.mp3"
+    }
+  ]
+}
