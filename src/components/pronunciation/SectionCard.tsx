@@ -14,7 +14,7 @@ export default function SectionCard({
   children: ReactNode;
 }) {
   return (
-    <section style={{ paddingBottom: 28 }}>
+    <section style={{ paddingBottom: 50 }}>
       <h2
         style={{
           display: 'flex',
